@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P05138|NS3B_IBVM     12.1      0.12   1   1.1   0.0    Non-structural protein 3b OS=Avian infectious bronchitis virus (strain M41) OX=11127 GN=3b PE=4 SV=1
+sp|P30241|NS3B_IBVB     12.1      0.13   1   1.1   0.0    Non-structural protein 3b OS=Avian infectious bronchitis virus (strain Beaudette) OX=11122 GN=3b PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P05138|NS3B_IBVM     12.1      0.12     1   0.0      3     61     21     55     22     56     Non-structural protein 3b OS=Avian infectious bronchitis virus (strain M41) OX=11127 GN=3b PE=4 SV=1
+sp|P30241|NS3B_IBVB     12.1      0.13     1   0.0      4     61     22     55     23     56     Non-structural protein 3b OS=Avian infectious bronchitis virus (strain Beaudette) OX=11122 GN=3b PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000118@SRS024289_LANL_scaffold_45134@SRS024289_LANL_scaffold_45134_gene_59698.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000118@SRS024289_LANL_scaffold_45134@SRS024289_LANL_scaffold_45134_gene_59698.txt data/models_hmm/7000000118@SRS024289_LANL_scaffold_45134@SRS024289_LANL_scaffold_45134_gene_59698.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:35 2021
+# [ok]

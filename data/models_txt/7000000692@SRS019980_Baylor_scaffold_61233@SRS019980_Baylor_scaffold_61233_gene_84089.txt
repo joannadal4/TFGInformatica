@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R7K5|Y018_OSHVF    12.9     0.073   2   2.0   0.3    Uncharacterized protein ORF18 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF18 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R7K5|Y018_OSHVF     8.7       1.5     2   0.3     58     86     60     84      3     26     Uncharacterized protein ORF18 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF18 PE=4 SV=1
+sp|Q6R7K5|Y018_OSHVF     2.2   1.6e+02     1   0.0      1     38      2     27     26     51     Uncharacterized protein ORF18 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF18 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000692@SRS019980_Baylor_scaffold_61233@SRS019980_Baylor_scaffold_61233_gene_84089.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000692@SRS019980_Baylor_scaffold_61233@SRS019980_Baylor_scaffold_61233_gene_84089.txt data/models_hmm/7000000692@SRS019980_Baylor_scaffold_61233@SRS019980_Baylor_scaffold_61233_gene_84089.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:00 2021
+# [ok]

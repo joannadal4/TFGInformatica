@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5URB9|YR840_MIMIV    20.1   0.00032   5   4.1   5.3    Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5UQJ0|YR835_MIMIV    14.9     0.012   3   3.1   0.6    Putative ankyrin repeat protein R835 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R835 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQJ0|YR835_MIMIV    14.9     0.012     3   0.6    208    299    235    280    105    150     Putative ankyrin repeat protein R835 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R835 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV     8.8      0.87     1   1.1      2    149     76    134     86    144     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV     8.2       1.4     5   0.0    431    520    454    505    104    155     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5UQJ0|YR835_MIMIV     5.3        10     2   0.2    142    194    160    181    126    147     Putative ankyrin repeat protein R835 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R835 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV     1.4   1.6e+02     2   0.0    152    219    156    195    106    145     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5UQJ0|YR835_MIMIV    -0.0   4.3e+02     1   0.5     16    138     50    110    139    199     Putative ankyrin repeat protein R835 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R835 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV    -2.7   2.8e+03     3   0.0    236    302    243    281    105    143     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV    -2.8   3.1e+03     4   0.0    388    437    393    431    105    143     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000169@NICFPass4SGDRAFT_c000006@NICFPass4SGDRAFT_00000633.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000169@NICFPass4SGDRAFT_c000006@NICFPass4SGDRAFT_00000633.txt data/models_hmm/3300000169@NICFPass4SGDRAFT_c000006@NICFPass4SGDRAFT_00000633.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:55 2021
+# [ok]

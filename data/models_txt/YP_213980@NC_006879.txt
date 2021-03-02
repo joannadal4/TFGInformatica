@@ -1,0 +1,42 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q2KS03|PKG2_ADE05    230.8   1.1e-68   1   1.0   0.2    Packaging protein 2 OS=Human adenovirus C serotype 5 OX=28285 GN=L4 PE=1 SV=2
+sp|P0DJX1|PKG2_ADE02    221.1     1e-65   1   1.0   0.0    Packaging protein 2 OS=Human adenovirus C serotype 2 OX=10515 GN=L4 PE=1 SV=1
+sp|P24940|SF33K_ADE05    74.3   1.2e-20   1   1.5   9.4    Protein 33K OS=Human adenovirus C serotype 5 OX=28285 GN=L4 PE=1 SV=1
+sp|P11805|SF33K_ADE40    68.8     6e-19   1   1.3  12.2    Protein 33K OS=Human adenovirus F serotype 40 OX=28284 GN=L4 PE=2 SV=2
+sp|P24939|SF33K_ADE02    66.7   2.7e-18   1   1.6   7.3    Protein 33K OS=Human adenovirus C serotype 2 OX=10515 GN=L4 PE=1 SV=1
+sp|P19416|SF33K_ADE41    53.3   3.4e-14   1   1.2  15.4    Protein 33K OS=Human adenovirus F serotype 41 OX=10524 GN=L4 PE=2 SV=1
+sp|Q6UDF4|GE_PSHV1       14.7     0.024   1   1.2   0.4    Envelope glycoprotein E OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=US8 PE=3 SV=1
+sp|Q5UP82|YL005_MIMIV    10.4      0.48   1   1.3   8.4    Uncharacterized protein L5 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L5 PE=3 SV=1
+sp|Q66659|IE63_EHV2       9.7      0.84   1   1.5  13.6    Immediate-early phosphoprotein 57 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=57 PE=3 SV=2
+sp|Q91FB6|411L_IIV6       8.2       2.3   2   1.9  15.1    Uncharacterized protein 411L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-411L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q2KS03|PKG2_ADE05    230.6   1.2e-68     1   0.2      1    185      4    182      9    175     Packaging protein 2 OS=Human adenovirus C serotype 5 OX=28285 GN=L4 PE=1 SV=2
+sp|P0DJX1|PKG2_ADE02    220.9   1.2e-65     1   0.0      1    184      5    181      8    175     Packaging protein 2 OS=Human adenovirus C serotype 2 OX=10515 GN=L4 PE=1 SV=1
+sp|P24940|SF33K_ADE05    73.4   2.2e-20     1   9.4      1    147      4    126      9    114     Protein 33K OS=Human adenovirus C serotype 5 OX=28285 GN=L4 PE=1 SV=1
+sp|P11805|SF33K_ADE40    68.3   8.2e-19     1  12.2      1    138      1    119      1    112     Protein 33K OS=Human adenovirus F serotype 40 OX=28284 GN=L4 PE=2 SV=2
+sp|P24939|SF33K_ADE02    65.7   5.3e-18     1   7.3      1    147      5    111      8     99     Protein 33K OS=Human adenovirus C serotype 2 OX=10515 GN=L4 PE=1 SV=1
+sp|P19416|SF33K_ADE41    52.8   4.8e-14     1  15.4      1    145      1    130      1    118     Protein 33K OS=Human adenovirus F serotype 41 OX=10524 GN=L4 PE=2 SV=1
+sp|Q6UDF4|GE_PSHV1       14.0     0.038     1   0.4    466    562    485    556     37    108     Envelope glycoprotein E OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=US8 PE=3 SV=1
+sp|Q91FB6|411L_IIV6      10.7      0.41     2  10.8    177    301    195    269      6     81     Uncharacterized protein 411L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-411L PE=4 SV=1
+sp|Q5UP82|YL005_MIMIV     9.6      0.87     1   8.4     74    162     86    139     19     72     Uncharacterized protein L5 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L5 PE=3 SV=1
+sp|Q66659|IE63_EHV2       8.8       1.5     1  13.6      1    159     25    109     29     98     Immediate-early phosphoprotein 57 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=57 PE=3 SV=2
+sp|Q91FB6|411L_IIV6      -1.0   1.6e+03     1   0.1     13    116     37     46     35     44     Uncharacterized protein 411L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-411L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_213980@NC_006879.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_213980@NC_006879.txt data/models_hmm/YP_213980@NC_006879.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:14 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ58|YR664_MIMIV    14.9     0.022   2   2.3   1.0    Putative ankyrin repeat protein R664 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R664 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ58|YR664_MIMIV     8.1       2.8     2   0.1    115    162    135    160     23     48     Putative ankyrin repeat protein R664 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R664 PE=4 SV=1
+sp|Q5UQ58|YR664_MIMIV     5.9        14     1   0.1     10     94     49     82     57     90     Putative ankyrin repeat protein R664 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R664 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGN30339@HQ317393.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGN30339@HQ317393.txt data/models_hmm/AGN30339@HQ317393.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:55 2021
+# [ok]

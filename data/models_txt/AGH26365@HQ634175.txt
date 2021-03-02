@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P11128|FUS_BPPH6     14.3     0.028   2   1.7   0.6    Fusion protein P6 OS=Pseudomonas phage phi6 OX=10879 GN=P6 PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P11128|FUS_BPPH6     13.4     0.055     1   0.2      9     83     10     45      2     38     Fusion protein P6 OS=Pseudomonas phage phi6 OX=10879 GN=P6 PE=1 SV=3
+sp|P11128|FUS_BPPH6     -1.5   2.2e+03     2   0.0    130    161    136    151     59     74     Fusion protein P6 OS=Pseudomonas phage phi6 OX=10879 GN=P6 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH26365@HQ634175.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH26365@HQ634175.txt data/models_hmm/AGH26365@HQ634175.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:39 2021
+# [ok]

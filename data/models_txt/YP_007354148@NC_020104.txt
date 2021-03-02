@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UNU3|YL686_MIMIV   252.7   1.8e-75   1   1.0  11.1    Uncharacterized protein L686 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L686 PE=4 SV=1
+sp|Q5UPM5|YL157_MIMIV    25.7   7.9e-06   3   2.4   0.0    Uncharacterized protein L157 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L157 PE=4 SV=1
+sp|P33842|A19_VAR67      13.5     0.042   1   1.1   0.3    Protein A19 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A19L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UNU3|YL686_MIMIV   252.5   2.1e-75     1  11.1      1    219      1    219      1    188     Uncharacterized protein L686 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L686 PE=4 SV=1
+sp|Q5UPM5|YL157_MIMIV    25.7   7.9e-06     1   0.0     12    135     29    125     78    175     Uncharacterized protein L157 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L157 PE=4 SV=1
+sp|P33842|A19_VAR67      13.5     0.043     1   0.3      1     63      5     50     24     71     Protein A19 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A19L PE=3 SV=1
+sp|Q5UPM5|YL157_MIMIV    -2.0   2.3e+03     2   1.7    169    287    191    230     35     67     Uncharacterized protein L157 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L157 PE=4 SV=1
+sp|Q5UPM5|YL157_MIMIV    -3.4   6.3e+03     3   0.6    319    393    338    361     13     35     Uncharacterized protein L157 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L157 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007354148@NC_020104.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007354148@NC_020104.txt data/models_hmm/YP_007354148@NC_020104.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:44 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q573C9|Y093_AFV2P   200.9   2.2e-60   1   1.0   0.5    Uncharacterized protein ORF93 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF93 PE=4 SV=1
+sp|Q9QJ51|VGCR_HHV6Z    15.2     0.019   1   1.6   0.0    G-protein coupled receptor OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U12 PE=3 SV=1
+sp|P52380|UL33_HHV6U    13.0      0.09   1   1.6   0.1    G-protein coupled receptor homolog U12 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U12 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q573C9|Y093_AFV2P   200.8   2.4e-60     1   0.5      1     93      1     93      1     93     Uncharacterized protein ORF93 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF93 PE=4 SV=1
+sp|Q9QJ51|VGCR_HHV6Z    14.0     0.046     1   0.0      6     52     20     48     62     90     G-protein coupled receptor OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U12 PE=3 SV=1
+sp|P52380|UL33_HHV6U    11.8      0.22     1   0.1      2     49      5     41     52     87     G-protein coupled receptor homolog U12 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U12 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001604271@NC_010153.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001604271@NC_010153.txt data/models_hmm/YP_001604271@NC_010153.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:35 2021
+# [ok]

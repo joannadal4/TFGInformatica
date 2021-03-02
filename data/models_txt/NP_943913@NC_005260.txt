@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P07082|Y04B_BPT4     165.4   3.6e-49   1   1.0   5.7    Uncharacterized 12.7 kDa protein in Gp55-nrdG intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y04B PE=4 SV=1
+sp|Q37889|CAPSF_BPB03    13.2     0.077   1   1.7   0.0    Capsid fiber protein OS=Bacillus phage B103 OX=10778 GN=8.5 PE=3 SV=1
+sp|P11186|VG85_BPNF      13.2     0.078   1   1.5   0.0    Head fiber protein OS=Bacillus phage Nf OX=10753 GN=8.5 PE=4 SV=2
+sp|Q9J593|RP147_FOWPN     7.8       3.7   3   4.1  11.8    DNA-directed RNA polymerase 147 kDa polypeptide OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO147 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P07082|Y04B_BPT4     165.3     4e-49     1   5.7      1    108      1    107      1    106     Uncharacterized 12.7 kDa protein in Gp55-nrdG intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y04B PE=4 SV=1
+sp|P11186|VG85_BPNF      12.2      0.15     1   0.0    101    178    116    153     24     61     Head fiber protein OS=Bacillus phage Nf OX=10753 GN=8.5 PE=4 SV=2
+sp|Q37889|CAPSF_BPB03    11.7      0.23     1   0.0    104    155    116    153     24     61     Capsid fiber protein OS=Bacillus phage B103 OX=10778 GN=8.5 PE=3 SV=1
+sp|Q9J593|RP147_FOWPN     7.8       3.5     3   0.3   1008   1069   1023   1066     46     88     DNA-directed RNA polymerase 147 kDa polypeptide OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO147 PE=3 SV=1
+sp|Q9J593|RP147_FOWPN     3.1   1.1e+02     1   0.9    307    402    315    397      9     93     DNA-directed RNA polymerase 147 kDa polypeptide OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO147 PE=3 SV=1
+sp|Q9J593|RP147_FOWPN     1.3   3.9e+02     2   0.3    830    883    834    881     60    104     DNA-directed RNA polymerase 147 kDa polypeptide OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO147 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_943913@NC_005260.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_943913@NC_005260.txt data/models_hmm/NP_943913@NC_005260.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:41 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q03544|VEAA_BPP22    93.2   1.7e-26   1   1.1   0.1    Eaa protein OS=Salmonella phage P22 OX=10754 GN=eaa PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q03544|VEAA_BPP22    92.6   2.5e-26     1   0.1     75    182     85    175    185    276     Eaa protein OS=Salmonella phage P22 OX=10754 GN=eaa PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002014578@NC_011056.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002014578@NC_011056.txt data/models_hmm/YP_002014578@NC_011056.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:49 2021
+# [ok]

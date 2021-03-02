@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A4PBP9|MVP_RGDV      13.5     0.053   2   2.4   0.9    Movement protein OS=Rice gall dwarf virus OX=10986 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A4PBP9|MVP_RGDV      11.3      0.26     2   0.1    221    304    239    291     27     81     Movement protein OS=Rice gall dwarf virus OX=10986 PE=3 SV=1
+sp|A4PBP9|MVP_RGDV      -0.8   1.3e+03     1   0.1    138    173    142    158      5     21     Movement protein OS=Rice gall dwarf virus OX=10986 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000109@SRS011306_Baylor_scaffold_37810@SRS011306_Baylor_scaffold_37810_gene_44157.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000109@SRS011306_Baylor_scaffold_37810@SRS011306_Baylor_scaffold_37810_gene_44157.txt data/models_hmm/7000000109@SRS011306_Baylor_scaffold_37810@SRS011306_Baylor_scaffold_37810_gene_44157.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:28 2021
+# [ok]

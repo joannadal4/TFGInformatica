@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41668|PIF3_NPVAC    257.8   5.1e-77   1   1.0   4.5    Per os infectivity factor 3 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC115 PE=1 SV=1
+sp|O10354|Y115_NPVOP    235.8   2.9e-70   1   1.0   0.2    Uncharacterized 22.1 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF115 PE=4 SV=1
+sp|P41672|PIF1_NPVAC     21.3   0.00014   3   2.9   5.9    Per os infectivity factor 1 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=1 SV=1
+sp|Q5UQE3|YR473_MIMIV    16.6    0.0039   1   1.4   0.4    Uncharacterized protein R473 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R473 PE=3 SV=1
+sp|O10358|Y119_NPVOP     13.2     0.041   2   2.4   1.3    Uncharacterized 59.0 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF119 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41668|PIF3_NPVAC    257.7   5.7e-77     1   4.5      1    204      3    204      3    202     Per os infectivity factor 3 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC115 PE=1 SV=1
+sp|O10354|Y115_NPVOP    235.6   3.2e-70     1   0.2      1    205      2    204      2    201     Uncharacterized 22.1 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF115 PE=4 SV=1
+sp|P41672|PIF1_NPVAC     17.4    0.0022     1   4.3      1    213      5    203      3    188     Per os infectivity factor 1 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=1 SV=1
+sp|Q5UQE3|YR473_MIMIV    15.7    0.0071     1   0.4      1     85      7     72      9     74     Uncharacterized protein R473 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R473 PE=3 SV=1
+sp|O10358|Y119_NPVOP     11.6      0.13     1   0.3      1    164      4     82      7     77     Uncharacterized 59.0 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF119 PE=3 SV=1
+sp|P41672|PIF1_NPVAC      2.8        65     2   0.6    168    240    180    232    101    155     Per os infectivity factor 1 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=1 SV=1
+sp|O10358|Y119_NPVOP     -1.6   1.5e+03     2   0.0    178    253    207    232    130    155     Uncharacterized 59.0 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF119 PE=3 SV=1
+sp|P41672|PIF1_NPVAC     -3.1   4.2e+03     3   0.0    270    301    278    296     99    117     Per os infectivity factor 1 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002332751@NC_011616.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002332751@NC_011616.txt data/models_hmm/YP_002332751@NC_011616.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:06 2021
+# [ok]

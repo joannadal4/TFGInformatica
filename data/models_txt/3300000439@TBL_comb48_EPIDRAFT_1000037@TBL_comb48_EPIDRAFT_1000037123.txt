@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P18640|BXC_CBCP    3061.6         0   1   1.0  94.8    Botulinum neurotoxin type C OS=Clostridium botulinum C phage OX=12336 PE=1 SV=3
+sp|P19321|BXD_CBDP    1389.0         0   1   1.0  80.2    Botulinum neurotoxin type D OS=Clostridium botulinum D phage OX=29342 GN=botD PE=1 SV=1
+sp|Q9LBR2|BXDN_CBDP     52.0   2.3e-14   3   3.1   5.4    Non-toxic nonhemagglutinin type D OS=Clostridium botulinum D phage OX=29342 GN=ntnha PE=1 SV=1
+sp|P46081|BXCN_CBCP     50.2   7.5e-14   2   2.7   6.6    Non-toxic nonhemagglutinin type C OS=Clostridium botulinum C phage OX=12336 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P18640|BXC_CBCP    3061.4         0     1  94.8      1   1291      1   1291      1   1291     Botulinum neurotoxin type C OS=Clostridium botulinum C phage OX=12336 PE=1 SV=3
+sp|P19321|BXD_CBDP    1388.8         0     1  80.2      1   1271      1   1268      1   1287     Botulinum neurotoxin type D OS=Clostridium botulinum D phage OX=29342 GN=botD PE=1 SV=1
+sp|Q9LBR2|BXDN_CBDP     52.0   2.3e-14     1   5.4      1    267      5    206      6    197     Non-toxic nonhemagglutinin type D OS=Clostridium botulinum D phage OX=29342 GN=ntnha PE=1 SV=1
+sp|P46081|BXCN_CBCP     50.2   7.5e-14     1   6.6      1    262      5    209      6    200     Non-toxic nonhemagglutinin type C OS=Clostridium botulinum C phage OX=12336 PE=1 SV=1
+sp|Q9LBR2|BXDN_CBDP      0.7        67     3  49.0    470   1098    539   1027    578   1084     Non-toxic nonhemagglutinin type D OS=Clostridium botulinum D phage OX=29342 GN=ntnha PE=1 SV=1
+sp|P46081|BXCN_CBCP     -0.8   1.9e+02     2  51.5    434   1091    500   1007    546   1052     Non-toxic nonhemagglutinin type C OS=Clostridium botulinum C phage OX=12336 PE=1 SV=1
+sp|Q9LBR2|BXDN_CBDP     -4.5   2.6e+03     2   3.9    276    435    322    349   1092   1118     Non-toxic nonhemagglutinin type D OS=Clostridium botulinum D phage OX=29342 GN=ntnha PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000037@TBL_comb48_EPIDRAFT_1000037123.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000037@TBL_comb48_EPIDRAFT_1000037123.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000037@TBL_comb48_EPIDRAFT_1000037123.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:37 2021
+# [ok]

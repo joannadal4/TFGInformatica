@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03750|Y7_BPT7      241.3   2.4e-72   1   1.0   0.6    Protein 7 OS=Escherichia phage T7 OX=10760 GN=7 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03750|Y7_BPT7      241.1   2.6e-72     1   0.6      1    133      2    133      4    135     Protein 7 OS=Escherichia phage T7 OX=10760 GN=7 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ACF15812@EU734172.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ACF15812@EU734172.txt data/models_hmm/ACF15812@EU734172.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:19 2021
+# [ok]

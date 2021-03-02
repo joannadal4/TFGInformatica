@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A8E283|VPN7_BPPHE    66.8   4.9e-19   6   5.9  56.2    Tail fiber protein OS=Enterococcus phage phiEF24C OX=442493 GN=EFP_031 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A8E283|VPN7_BPPHE    44.8   2.1e-12     4  10.4    842   1001    848    987    828    966     Tail fiber protein OS=Enterococcus phage phiEF24C OX=442493 GN=EFP_031 PE=1 SV=1
+sp|A8E283|VPN7_BPPHE    21.4   2.5e-05     2  11.2    474    690    506    678    826    991     Tail fiber protein OS=Enterococcus phage phiEF24C OX=442493 GN=EFP_031 PE=1 SV=1
+sp|A8E283|VPN7_BPPHE    16.6    0.0007     1   4.0    354    523    375    520    829    967     Tail fiber protein OS=Enterococcus phage phiEF24C OX=442493 GN=EFP_031 PE=1 SV=1
+sp|A8E283|VPN7_BPPHE     4.5         3     6   0.2   1687   1760   1696   1745   1217   1266     Tail fiber protein OS=Enterococcus phage phiEF24C OX=442493 GN=EFP_031 PE=1 SV=1
+sp|A8E283|VPN7_BPPHE     4.1       4.2     5   0.1   1461   1602   1479   1592   1320   1418     Tail fiber protein OS=Enterococcus phage phiEF24C OX=442493 GN=EFP_031 PE=1 SV=1
+sp|A8E283|VPN7_BPPHE    -1.5   1.9e+02     3   1.6    679    848    707    841   1275   1413     Tail fiber protein OS=Enterococcus phage phiEF24C OX=442493 GN=EFP_031 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007_rumenHiSeq_NODE_2742690_len_143829_cov_2_603084_HiSeq_25656560_2065225662.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007_rumenHiSeq_NODE_2742690_len_143829_cov_2_603084_HiSeq_25656560_2065225662.txt data/models_hmm/2061766007_rumenHiSeq_NODE_2742690_len_143829_cov_2_603084_HiSeq_25656560_2065225662.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:54 2021
+# [ok]

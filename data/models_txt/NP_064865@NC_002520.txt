@@ -1,0 +1,38 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P15914|L5_FOWPN       20.6   0.00036   1   1.9   4.6    L5 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV132 PE=2 SV=1
+sp|P68622|L5_VACCC       15.3     0.015   1   2.1   6.4    Protein L5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=L5R PE=2 SV=1
+sp|P68623|L5_VACCW       15.3     0.015   1   2.1   6.4    Protein L5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR092 PE=1 SV=1
+sp|O57201|L5_VACCA       15.0     0.019   1   2.1   7.6    Protein L5 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA084R PE=2 SV=1
+sp|P0DOU1|L5_VAR67       14.4     0.029   1   2.1   7.1    Protein L5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=L5R PE=2 SV=1
+sp|P0DOU2|L5_VARV        14.4     0.029   1   2.1   7.1    Protein L5 OS=Variola virus OX=10255 GN=L5R PE=2 SV=1
+sp|Q37897|PKG16_BPB03    14.1     0.035   2   1.6   0.3    DNA packaging protein OS=Bacillus phage B103 OX=10778 GN=16 PE=3 SV=1
+sp|P19281|YOR6_TTV1K      6.7       6.8   1   1.2  11.7    Uncharacterized 8.9 kDa protein OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P15914|L5_FOWPN       17.0    0.0044     1   4.6      1    115      2    111     10    128     L5 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV132 PE=2 SV=1
+sp|Q37897|PKG16_BPB03    14.1     0.035     1   0.3    143    226    151    223     60    130     DNA packaging protein OS=Bacillus phage B103 OX=10778 GN=16 PE=3 SV=1
+sp|P68622|L5_VACCC       10.0      0.67     1   6.4      2    117      8    112     14    128     Protein L5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=L5R PE=2 SV=1
+sp|P68623|L5_VACCW       10.0      0.67     1   6.4      2    117      8    112     14    128     Protein L5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR092 PE=1 SV=1
+sp|O57201|L5_VACCA        9.7      0.84     1   7.6      2    117      8    112     14    128     Protein L5 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA084R PE=2 SV=1
+sp|P0DOU1|L5_VAR67        9.1       1.2     1   7.1      2    117      8    112     14    128     Protein L5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=L5R PE=2 SV=1
+sp|P0DOU2|L5_VARV         9.1       1.2     1   7.1      2    117      8    112     14    128     Protein L5 OS=Variola virus OX=10255 GN=L5R PE=2 SV=1
+sp|P19281|YOR6_TTV1K      6.6       7.5     1  11.7     14     73     25     70     16     61     Uncharacterized 8.9 kDa protein OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+sp|Q37897|PKG16_BPB03    -3.5   9.6e+03     2   0.1    263    308    268    299     71    102     DNA packaging protein OS=Bacillus phage B103 OX=10778 GN=16 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_064865@NC_002520.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_064865@NC_002520.txt data/models_hmm/NP_064865@NC_002520.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:42 2021
+# [ok]

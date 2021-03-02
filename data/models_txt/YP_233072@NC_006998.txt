@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21004|B8_VACCC     353.0  9.1e-106   1   1.0   7.9    Soluble interferon gamma receptor B8 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B8R PE=3 SV=1
+sp|P24770|B8_VACCW     352.7  1.1e-105   1   1.0   7.7    Soluble interferon gamma receptor B8 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR190 PE=1 SV=1
+sp|P32226|VC06_SWPVK   334.4  4.2e-100   1   1.0  19.2    Uncharacterized protein C6 OS=Swinepox virus (strain Kasza) OX=10277 GN=C6L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21004|B8_VACCC     352.8    1e-105     1   7.9      1    272      1    270      1    269     Soluble interferon gamma receptor B8 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B8R PE=3 SV=1
+sp|P24770|B8_VACCW     352.5  1.2e-105     1   7.7      1    272      1    270      1    269     Soluble interferon gamma receptor B8 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR190 PE=1 SV=1
+sp|P32226|VC06_SWPVK   334.2  4.9e-100     1  19.2      2    269      3    269      2    273     Uncharacterized protein C6 OS=Swinepox virus (strain Kasza) OX=10277 GN=C6L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_233072@NC_006998.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_233072@NC_006998.txt data/models_hmm/YP_233072@NC_006998.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:19 2021
+# [ok]

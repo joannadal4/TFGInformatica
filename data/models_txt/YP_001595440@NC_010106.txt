@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q7TLC7|Y14_SARS       16.0    0.0078   1   1.1   0.0    Uncharacterized protein 14 OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=ORF14 PE=1 SV=1
+sp|P0DTD3|Y14_SARS2      12.5       0.1   1   1.1   0.0    Uncharacterized protein 14 OS=Severe acute respiratory syndrome coronavirus 2 OX=2697049 GN=ORF14 PE=3 SV=1
+sp|Q3I5I5|Y14_BCRP3      11.7      0.17   1   1.1   0.0    Uncharacterized protein 14 OS=Bat coronavirus Rp3/2004 OX=349344 GN=ORF14 PE=4 SV=1
+sp|Q85672|S3BIS_DPIRV     9.8      0.68   3   3.6  11.3    Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q7TLC7|Y14_SARS       15.9    0.0087     1   0.0      1     54      1     44     58    100     Uncharacterized protein 14 OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=ORF14 PE=1 SV=1
+sp|P0DTD3|Y14_SARS2      12.4       0.1     1   0.0      1     56     22     44     78    100     Uncharacterized protein 14 OS=Severe acute respiratory syndrome coronavirus 2 OX=2697049 GN=ORF14 PE=3 SV=1
+sp|Q3I5I5|Y14_BCRP3      11.6      0.19     1   0.0      1     57      1     44     58    100     Uncharacterized protein 14 OS=Bat coronavirus Rp3/2004 OX=349344 GN=ORF14 PE=4 SV=1
+sp|Q85672|S3BIS_DPIRV     5.1        19     2   0.5    523    628    535    606     15     78     Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+sp|Q85672|S3BIS_DPIRV     5.1        19     1   0.4    173    278    185    256     15     78     Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+sp|Q85672|S3BIS_DPIRV     5.1        19     3   0.4    873    978    885    956     15     78     Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001595440@NC_010106.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001595440@NC_010106.txt data/models_hmm/YP_001595440@NC_010106.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:33 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P23092|CBL_MLVCN     13.6     0.051   3   3.0   0.0    Transforming protein cbl OS=Cas-NS-1 murine leukemia virus OX=11793 GN=V-CBL PE=3 SV=1
+sp|Q05879|KITH_CBEPV    12.5      0.12   1   1.4   0.0    Thymidine kinase OS=Choristoneura biennis entomopoxvirus OX=10288 GN=TK PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05879|KITH_CBEPV    11.7      0.22     1   0.0     22     80     30     63     13     46     Thymidine kinase OS=Choristoneura biennis entomopoxvirus OX=10288 GN=TK PE=3 SV=1
+sp|P23092|CBL_MLVCN      5.4        19     3   0.0    260    317    261    300      2     41     Transforming protein cbl OS=Cas-NS-1 murine leukemia virus OX=11793 GN=V-CBL PE=3 SV=1
+sp|P23092|CBL_MLVCN      4.2        45     1   0.0    150    180    156    174     12     30     Transforming protein cbl OS=Cas-NS-1 murine leukemia virus OX=11793 GN=V-CBL PE=3 SV=1
+sp|P23092|CBL_MLVCN     -0.5   1.4e+03     2   0.0    186    233    190    227     31     64     Transforming protein cbl OS=Cas-NS-1 murine leukemia virus OX=11793 GN=V-CBL PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007379067@NC_020158.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007379067@NC_020158.txt data/models_hmm/YP_007379067@NC_020158.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:53 2021
+# [ok]

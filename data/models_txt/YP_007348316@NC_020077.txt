@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P24728|VPHE_NPVAC    14.7     0.018   2   1.8   2.0    Polyhedral envelope-associated phosphoprotein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=pp34 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P24728|VPHE_NPVAC    12.7     0.076     2   2.4    136    230    142    212    121    190     Polyhedral envelope-associated phosphoprotein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=pp34 PE=1 SV=1
+sp|P24728|VPHE_NPVAC    -3.2   5.6e+03     1   0.0     24     82     31     74    146    188     Polyhedral envelope-associated phosphoprotein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=pp34 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007348316@NC_020077.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007348316@NC_020077.txt data/models_hmm/YP_007348316@NC_020077.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:39 2021
+# [ok]

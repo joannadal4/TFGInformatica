@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q7T6X5|RPO1_MIMIV    12.1      0.13   2   2.9   5.0    DNA-directed RNA polymerase subunit 1 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=RPO1 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q7T6X5|RPO1_MIMIV     9.8      0.67     1   0.1    375    433    392    430     25     63     DNA-directed RNA polymerase subunit 1 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=RPO1 PE=1 SV=2
+sp|Q7T6X5|RPO1_MIMIV     2.0   1.9e+02     2   2.1    957   1019    961   1014      7     60     DNA-directed RNA polymerase subunit 1 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=RPO1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000353@ElkS_mat_MD6ADRAFT_1000012@ElkS_mat_MD6ADRAFT_100001221.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000353@ElkS_mat_MD6ADRAFT_1000012@ElkS_mat_MD6ADRAFT_100001221.txt data/models_hmm/3300000353@ElkS_mat_MD6ADRAFT_1000012@ElkS_mat_MD6ADRAFT_100001221.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:24 2021
+# [ok]

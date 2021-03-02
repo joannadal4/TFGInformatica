@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P10052|KITH_FOWPN    17.2    0.0039   2   2.1   0.2    Thymidine kinase OS=Fowlpox virus (strain NVSL) OX=928301 GN=TK PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P10052|KITH_FOWPN    11.6      0.21     2   0.1     86    178     97    155     10     68     Thymidine kinase OS=Fowlpox virus (strain NVSL) OX=928301 GN=TK PE=3 SV=1
+sp|P10052|KITH_FOWPN     3.7        63     1   0.0     18     75     29     69     15     53     Thymidine kinase OS=Fowlpox virus (strain NVSL) OX=928301 GN=TK PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008771292@NC_022769.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008771292@NC_022769.txt data/models_hmm/YP_008771292@NC_022769.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:30 2021
+# [ok]

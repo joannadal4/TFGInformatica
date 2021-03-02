@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6KGH8|TMP_BPFO1     68.3   4.6e-19   2   1.7   9.6    Probable tape measure protein OS=Salmonella phage Felix O1 (isolate Felix O1-VT1) OX=1283336 PE=3 SV=1
+sp|Q05233|VG26_BPML5     9.9      0.22   2   2.1   6.3    Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q9DUE0|C_SENDA        9.7      0.25   1   1.0   3.1    Protein C' OS=Sendai virus (strain Hamamatsu) OX=302271 GN=P/V/C PE=3 SV=3
+sp|O55527|C_SENDO        8.7      0.53   1   1.0   2.9    Protein C' OS=Sendai virus (strain Ohita) OX=302272 GN=P/V/C PE=3 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6KGH8|TMP_BPFO1     68.3   4.6e-19     2   9.6    186    579    223    485    174    443     Probable tape measure protein OS=Salmonella phage Felix O1 (isolate Felix O1-VT1) OX=1283336 PE=3 SV=1
+sp|Q05233|VG26_BPML5    13.0     0.026     2   1.1    411    619    426    576    383    531     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q9DUE0|C_SENDA        9.4      0.31     1   3.1      2    201      4    187     16    175     Protein C' OS=Sendai virus (strain Hamamatsu) OX=302271 GN=P/V/C PE=3 SV=3
+sp|O55527|C_SENDO        8.4      0.65     1   2.9      2    201      5    187     17    175     Protein C' OS=Sendai virus (strain Ohita) OX=302272 GN=P/V/C PE=3 SV=3
+sp|Q05233|VG26_BPML5    -3.8   3.1e+03     1   0.3    146    195    152    190    197    235     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q6KGH8|TMP_BPFO1     -5.7   1.2e+04     1   3.7     16    115     24    102     32    105     Probable tape measure protein OS=Salmonella phage Felix O1 (isolate Felix O1-VT1) OX=1283336 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH32171@HQ634157.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH32171@HQ634157.txt data/models_hmm/AGH32171@HQ634157.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:47 2021
+# [ok]

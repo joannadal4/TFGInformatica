@@ -1,0 +1,43 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP83|YL004_MIMIV    21.1   0.00019   2   1.8  20.3    Putative KilA-N domain-containing protein L4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L4 PE=4 SV=1
+sp|Q5UPA5|YL032_MIMIV    18.0    0.0017   1   1.3  10.3    Putative KilA-N domain-containing protein L32 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L32 PE=4 SV=1
+sp|Q5UR52|YR584_MIMIV    16.7    0.0045   1   1.2  16.4    Uncharacterized N-acetyltransferase R584 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R584 PE=1 SV=1
+sp|Q5UPJ3|YL116_MIMIV    13.1     0.055   2   2.2  50.7    Uncharacterized protein L116 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L116 PE=3 SV=1
+sp|P41726|BVCP_GVCL      13.0     0.061   1   1.0  27.3    DNA-binding protein OS=Cryptophlebia leucotreta granulosis virus OX=35254 GN=P7.3 PE=4 SV=1
+sp|Q9IFX1|CAPSD_HASV8    12.7     0.075   1   1.6   9.8    Capsid polyprotein VP90 OS=Human astrovirus-8 OX=43358 GN=ORF2 PE=1 SV=2
+sp|Q3ZN05|CAPSD_HASV4    11.4      0.19   1   1.5   9.8    Capsid polyprotein VP90 OS=Human astrovirus-4 OX=35300 GN=ORF2 PE=3 SV=1
+sp|P24728|VPHE_NPVAC     10.7      0.31   1   1.2  22.2    Polyhedral envelope-associated phosphoprotein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=pp34 PE=1 SV=1
+sp|Q5UPC0|YL041_MIMIV     7.6       2.6   1   1.3  15.7    Uncharacterized protein L41 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L41 PE=3 SV=1
+sp|Q5UQ32|RPO6_MIMIV      6.2       7.2   1   1.5  32.4    DNA-directed RNA polymerase subunit 6 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R209 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UP83|YL004_MIMIV    21.1   0.00019     1  20.3      2    132      7     85     11     90     Putative KilA-N domain-containing protein L4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L4 PE=4 SV=1
+sp|Q5UPA5|YL032_MIMIV    17.5    0.0026     1  10.3      4    137     18     76     33     89     Putative KilA-N domain-containing protein L32 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L32 PE=4 SV=1
+sp|Q5UR52|YR584_MIMIV    16.0     0.007     1  16.4    129    234    146    200     22     79     Uncharacterized N-acetyltransferase R584 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R584 PE=1 SV=1
+sp|P41726|BVCP_GVCL      12.9     0.065     1  27.3      1     55      6     48     31     74     DNA-binding protein OS=Cryptophlebia leucotreta granulosis virus OX=35254 GN=P7.3 PE=4 SV=1
+sp|Q9IFX1|CAPSD_HASV8    11.5      0.17     1   9.8      1     98      5     82     24     99     Capsid polyprotein VP90 OS=Human astrovirus-8 OX=43358 GN=ORF2 PE=1 SV=2
+sp|Q3ZN05|CAPSD_HASV4    10.4      0.37     1   9.8      1     98      6     81     25     98     Capsid polyprotein VP90 OS=Human astrovirus-4 OX=35300 GN=ORF2 PE=3 SV=1
+sp|P24728|VPHE_NPVAC     10.1      0.47     1  22.2     94    166    100    149     18     67     Polyhedral envelope-associated phosphoprotein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=pp34 PE=1 SV=1
+sp|Q5UPJ3|YL116_MIMIV     7.4         3     2  25.8    190    290    197    271     14     86     Uncharacterized protein L116 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L116 PE=3 SV=1
+sp|Q5UPJ3|YL116_MIMIV     7.3       3.3     1  24.2    119    207    125    200     10     87     Uncharacterized protein L116 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L116 PE=3 SV=1
+sp|Q5UPC0|YL041_MIMIV     6.9       4.3     1  15.7    117    225    148    198     28     78     Uncharacterized protein L41 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L41 PE=3 SV=1
+sp|Q5UQ32|RPO6_MIMIV      5.3        14     1  32.4    293    396    311    393     20    101     DNA-directed RNA polymerase subunit 6 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R209 PE=3 SV=1
+sp|Q5UP83|YL004_MIMIV    -1.8   2.1e+03     2   0.2    356    390    367    382     64     79     Putative KilA-N domain-containing protein L4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L4 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10000303@TBL_comb47_HYPODRAFT_1000030358.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000553@TBL_comb47_HYPODRAFT_10000303@TBL_comb47_HYPODRAFT_1000030358.txt data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10000303@TBL_comb47_HYPODRAFT_1000030358.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:57 2021
+# [ok]

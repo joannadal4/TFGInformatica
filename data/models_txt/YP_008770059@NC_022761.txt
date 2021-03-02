@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P06228|GP27_BPSP1   237.5   7.8e-71   1   1.1  16.5    Gene 27 protein OS=Bacillus phage SP01 OX=10685 GN=27 PE=4 SV=1
+sp|O48405|GP51_BPSP1    48.9   7.1e-13   2   2.1   2.0    Putative gene 51 protein OS=Bacillus phage SP01 OX=10685 GN=51 PE=4 SV=1
+sp|Q08402|GP44_BPSP1    20.3   0.00042   2   2.7   8.0    E3 protein OS=Bacillus phage SP01 OX=10685 GN=44 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P06228|GP27_BPSP1   237.2     1e-70     1  16.5      1    155      4    155      2    167     Gene 27 protein OS=Bacillus phage SP01 OX=10685 GN=27 PE=4 SV=1
+sp|O48405|GP51_BPSP1    31.0   2.3e-07     2   0.3     73    131     85    128    124    167     Putative gene 51 protein OS=Bacillus phage SP01 OX=10685 GN=51 PE=4 SV=1
+sp|O48405|GP51_BPSP1    17.9    0.0024     1   0.1     25     75     34     70    127    163     Putative gene 51 protein OS=Bacillus phage SP01 OX=10685 GN=51 PE=4 SV=1
+sp|Q08402|GP44_BPSP1    13.2     0.063     1   2.2     29    180    138    176    128    166     E3 protein OS=Bacillus phage SP01 OX=10685 GN=44 PE=4 SV=1
+sp|Q08402|GP44_BPSP1    10.3      0.51     2   0.3    178    236    192    232    126    165     E3 protein OS=Bacillus phage SP01 OX=10685 GN=44 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008770059@NC_022761.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008770059@NC_022761.txt data/models_hmm/YP_008770059@NC_022761.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:27 2021
+# [ok]

@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQY4|YR886_MIMIV    12.2     0.091   3   2.6   0.4    Putative ankyrin repeat protein R886 (Fragment) OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R886 PE=4 SV=1
+sp|Q76VH1|Y14D_BPLZ1     12.2     0.094   3   3.2   5.4    Uncharacterized 14.8 kDa protein in frd-Gp32 intergenic region OS=Enterobacteria phage LZ1 OX=42175 GN=frd.2 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQY4|YR886_MIMIV     9.0      0.93     2   0.0     61     78     65     76      5     16     Putative ankyrin repeat protein R886 (Fragment) OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R886 PE=4 SV=1
+sp|Q76VH1|Y14D_BPLZ1      6.7       4.8     3   0.2    110    124    112    122      4     14     Uncharacterized 14.8 kDa protein in frd-Gp32 intergenic region OS=Enterobacteria phage LZ1 OX=42175 GN=frd.2 PE=4 SV=1
+sp|Q76VH1|Y14D_BPLZ1      6.0       8.1     2   0.1     95    107     96    105      3     12     Uncharacterized 14.8 kDa protein in frd-Gp32 intergenic region OS=Enterobacteria phage LZ1 OX=42175 GN=frd.2 PE=4 SV=1
+sp|Q5UQY4|YR886_MIMIV     0.2   5.4e+02     3   0.0     93    107     99    106      9     16     Putative ankyrin repeat protein R886 (Fragment) OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R886 PE=4 SV=1
+sp|Q76VH1|Y14D_BPLZ1      0.2   5.5e+02     1   0.1     83     89     85     88     16     19     Uncharacterized 14.8 kDa protein in frd-Gp32 intergenic region OS=Enterobacteria phage LZ1 OX=42175 GN=frd.2 PE=4 SV=1
+sp|Q5UQY4|YR886_MIMIV    -2.7   4.3e+03     1   0.0     33     42     35     41      8     14     Putative ankyrin repeat protein R886 (Fragment) OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R886 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008771230@NC_022769.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008771230@NC_022769.txt data/models_hmm/YP_008771230@NC_022769.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:30 2021
+# [ok]

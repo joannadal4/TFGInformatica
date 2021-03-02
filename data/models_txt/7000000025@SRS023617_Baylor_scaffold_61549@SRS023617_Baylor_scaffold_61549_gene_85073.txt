@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6XQC4|TMP_BPT1       9.7      0.86   2   3.4   9.9    Tape measure protein OS=Escherichia phage T1 OX=1921008 GN=38 PE=3 SV=1
+sp|Q01056|LTP_SHV21      8.4       2.1   5   4.4   6.7    Large tegument protein deneddylase OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=64 PE=3 SV=1
+sp|P06153|RPC_BPPH1      7.3       4.7   3   2.5   7.5    Immunity repressor protein OS=Bacillus phage phi105 OX=10717 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P06153|RPC_BPPH1      9.4         1     2   1.3     55    119     66     95     36     65     Immunity repressor protein OS=Bacillus phage phi105 OX=10717 PE=1 SV=2
+sp|Q01056|LTP_SHV21      7.6       3.7     4   0.5    952   1023    959   1011     18     70     Large tegument protein deneddylase OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=64 PE=3 SV=1
+sp|Q6XQC4|TMP_BPT1       7.2       4.9     2   3.1    539    629    544    613      6     74     Tape measure protein OS=Escherichia phage T1 OX=1921008 GN=38 PE=3 SV=1
+sp|Q6XQC4|TMP_BPT1       4.5        36     1   0.6     17     83     43     71     41     69     Tape measure protein OS=Escherichia phage T1 OX=1921008 GN=38 PE=3 SV=1
+sp|P06153|RPC_BPPH1      1.1   3.9e+02     1   0.1      2     59      6     39     27     61     Immunity repressor protein OS=Bacillus phage phi105 OX=10717 PE=1 SV=2
+sp|Q01056|LTP_SHV21      0.2   7.6e+02     2   0.0    697    754    703    743     12     51     Large tegument protein deneddylase OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=64 PE=3 SV=1
+sp|P06153|RPC_BPPH1     -0.7   1.5e+03     3   0.0     97    143    109    133     25     49     Immunity repressor protein OS=Bacillus phage phi105 OX=10717 PE=1 SV=2
+sp|Q01056|LTP_SHV21     -2.9   6.8e+03     3   0.1    906    945    912    934     16     38     Large tegument protein deneddylase OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=64 PE=3 SV=1
+sp|Q01056|LTP_SHV21     -2.9   7.2e+03     1   0.0    344    397    347    383     30     69     Large tegument protein deneddylase OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=64 PE=3 SV=1
+sp|Q01056|LTP_SHV21     -3.2   8.8e+03     5   0.0   1352   1407   1354   1377      8     31     Large tegument protein deneddylase OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=64 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000025@SRS023617_Baylor_scaffold_61549@SRS023617_Baylor_scaffold_61549_gene_85073.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000025@SRS023617_Baylor_scaffold_61549@SRS023617_Baylor_scaffold_61549_gene_85073.txt data/models_hmm/7000000025@SRS023617_Baylor_scaffold_61549@SRS023617_Baylor_scaffold_61549_gene_85073.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:44 2021
+# [ok]

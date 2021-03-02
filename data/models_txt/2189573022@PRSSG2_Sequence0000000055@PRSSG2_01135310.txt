@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O22005|TFA_BPSF5     68.4   7.2e-19   1   1.1   0.1    Probable tail fiber assembly protein OS=Shigella phage SfV OX=55884 GN=22 PE=3 SV=2
+sp|Q9T1R1|TFA_BPAPS     24.2   3.2e-05   1   1.1   0.1    Probable tail fiber assembly protein OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=37 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O22005|TFA_BPSF5     68.1     9e-19     1   0.1     33    166     33    164      1    134     Probable tail fiber assembly protein OS=Shigella phage SfV OX=55884 GN=22 PE=3 SV=2
+sp|Q9T1R1|TFA_BPAPS     24.0   3.7e-05     1   0.1      6    155     16    154      2    133     Probable tail fiber assembly protein OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=37 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2189573022@PRSSG2_Sequence0000000055@PRSSG2_01135310.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2189573022@PRSSG2_Sequence0000000055@PRSSG2_01135310.txt data/models_hmm/2189573022@PRSSG2_Sequence0000000055@PRSSG2_01135310.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:06 2021
+# [ok]

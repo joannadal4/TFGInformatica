@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CK00|MVP_PEMVM     15.1     0.017   1   1.9   0.0    P3N-PIPO polyprotein OS=Peanut mottle virus (strain M) OX=103926 PE=3 SV=2
+sp|O56075|POLG_PEMVM    13.7     0.047   1   2.1   0.0    Genome polyprotein OS=Peanut mottle virus (strain M) OX=103926 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CK00|MVP_PEMVM     13.3     0.062     1   0.0     65    109     72    106     26     60     P3N-PIPO polyprotein OS=Peanut mottle virus (strain M) OX=103926 PE=3 SV=2
+sp|O56075|POLG_PEMVM    11.6      0.22     1   0.0     65    109     72    106     26     60     Genome polyprotein OS=Peanut mottle virus (strain M) OX=103926 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2225789004_2227480165_2227937388_IMNBL4_167.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2225789004_2227480165_2227937388_IMNBL4_167.txt data/models_hmm/2225789004_2227480165_2227937388_IMNBL4_167.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:52:03 2021
+# [ok]

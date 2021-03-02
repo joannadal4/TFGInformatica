@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8JNB1|VP4_ROT46     11.8     0.099   2   1.9   5.2    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Pig/Venezuela/A46/1985/G5P13[13]) OX=578841 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8JNB1|VP4_ROT46     12.2     0.074     2   2.9    556    647    588    642    179    233     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Pig/Venezuela/A46/1985/G5P13[13]) OX=578841 PE=2 SV=1
+sp|Q8JNB1|VP4_ROT46     -1.6   1.3e+03     1   0.0    111    171    118    162     74    110     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Pig/Venezuela/A46/1985/G5P13[13]) OX=578841 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000386@SRS018791_WUGC_scaffold_6236@SRS018791_WUGC_scaffold_6236_gene_8004.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000386@SRS018791_WUGC_scaffold_6236@SRS018791_WUGC_scaffold_6236_gene_8004.txt data/models_hmm/7000000386@SRS018791_WUGC_scaffold_6236@SRS018791_WUGC_scaffold_6236_gene_8004.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:47 2021
+# [ok]

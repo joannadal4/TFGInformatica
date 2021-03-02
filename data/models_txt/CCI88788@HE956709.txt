@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ03|YL792_MIMIV    14.9     0.018   2   2.2   0.0    Uncharacterized protein L792 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L792 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ03|YL792_MIMIV    10.8      0.34     2   0.1    143    228    172    224     31     83     Uncharacterized protein L792 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L792 PE=4 SV=1
+sp|Q5UQ03|YL792_MIMIV     1.9     2e+02     1   0.0     15     61     19     54      9     47     Uncharacterized protein L792 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L792 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/CCI88788@HE956709.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/CCI88788@HE956709.txt data/models_hmm/CCI88788@HE956709.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:06 2021
+# [ok]

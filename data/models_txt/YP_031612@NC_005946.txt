@@ -1,0 +1,41 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZU2|034R_FRG3G   164.7   1.4e-48   1   2.0   5.0    Uncharacterized protein 034R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-034R PE=4 SV=1
+sp|Q89784|P54_ASFM2     14.8     0.019   2   1.7   1.2    Envelope protein p54 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-134 PE=3 SV=1
+sp|O10371|OE18_NPVOP    13.9     0.038   1   1.2   0.1    Occlusion-derived virus envelope protein E18 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF140 PE=4 SV=1
+sp|P0C9Z9|P54_ASFP4     10.3       0.5   2   2.1   2.5    Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+sp|P0C9Z8|P54_ASFK5      9.5      0.84   2   1.8   2.8    Envelope protein p54 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-138 PE=3 SV=1
+sp|Q65272|P54_ASFL6      8.1       2.3   2   2.0   4.4    Envelope protein p54 OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 PE=3 SV=1
+sp|P0CA00|P54_ASFWA      7.9       2.7   3   2.2   5.1    Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6GZU2|034R_FRG3G   155.6   8.8e-46     1   5.0      1    106      2    106      2    154     Uncharacterized protein 034R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-034R PE=4 SV=1
+sp|Q89784|P54_ASFM2     14.5     0.025     1   0.2      3     71     10     61     91    144     Envelope protein p54 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-134 PE=3 SV=1
+sp|O10371|OE18_NPVOP    13.7     0.043     1   0.1      4     66     25     58    111    145     Occlusion-derived virus envelope protein E18 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF140 PE=4 SV=1
+sp|P0C9Z8|P54_ASFK5      9.6      0.77     1   1.1      5     71     12     55     93    137     Envelope protein p54 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-138 PE=3 SV=1
+sp|Q65272|P54_ASFL6      9.6      0.81     1   0.9      4     71     12     59     93    142     Envelope protein p54 OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 PE=3 SV=1
+sp|P0CA00|P54_ASFWA      9.4      0.89     1   1.1      4     72     11     59     92    142     Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+sp|P0C9Z9|P54_ASFP4      9.2       1.1     1   1.1      4     68     11     55     92    138     Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+sp|Q65272|P54_ASFL6     -0.3   8.7e+02     2   0.0     54    134     64    117     33     85     Envelope protein p54 OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 PE=3 SV=1
+sp|P0C9Z9|P54_ASFP4     -0.4   9.4e+02     2   0.0     54    101     63     92     32     61     Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+sp|P0CA00|P54_ASFWA     -0.5     1e+03     2   0.0     57    101     64     92     33     61     Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+sp|P0C9Z8|P54_ASFK5     -1.9   2.8e+03     2   0.0    119    170    141    141    151    151     Envelope protein p54 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-138 PE=3 SV=1
+sp|Q89784|P54_ASFM2     -2.9   5.7e+03     2   0.0    137    172    145    164     50     69     Envelope protein p54 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-134 PE=3 SV=1
+sp|P0CA00|P54_ASFWA     -3.3   7.5e+03     3   0.0    123    145    126    143    132    149     Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_031612@NC_005946.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_031612@NC_005946.txt data/models_hmm/YP_031612@NC_005946.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:53 2021
+# [ok]

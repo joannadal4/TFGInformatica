@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P24440|UL92_HHV6U    12.3      0.06   1   1.2   0.1    Protein U63 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U63 PE=3 SV=1
+sp|Q9QJ21|UL92_HHV6Z    12.3     0.061   1   1.2   0.1    Protein U63 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U63 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P24440|UL92_HHV6U    11.7     0.092     1   0.1    121    171    125    160    119    153     Protein U63 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U63 PE=3 SV=1
+sp|Q9QJ21|UL92_HHV6Z    11.7     0.094     1   0.1    123    173    127    162    119    153     Protein U63 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U63 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007_rumenHiSeq_NODE_2742690_len_143829_cov_2_603084_HiSeq_25656810_2065225687.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007_rumenHiSeq_NODE_2742690_len_143829_cov_2_603084_HiSeq_25656810_2065225687.txt data/models_hmm/2061766007_rumenHiSeq_NODE_2742690_len_143829_cov_2_603084_HiSeq_25656810_2065225687.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:58 2021
+# [ok]

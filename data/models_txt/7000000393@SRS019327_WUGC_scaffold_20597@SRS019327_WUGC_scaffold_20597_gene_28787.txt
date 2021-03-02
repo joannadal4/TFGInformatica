@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8QL22|Y268_SIRV1    16.6    0.0077   2   1.7   0.9    Uncharacterized protein 268 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=268 PE=4 SV=1
+sp|P20538|H5_VACCC      11.0      0.42   3   2.2   2.8    Late transcription elongation factor H5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=H5R PE=2 SV=1
+sp|P07242|H5_VACCW      10.9      0.45   3   2.3   3.1    Late transcription elongation factor H5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR103 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8QL22|Y268_SIRV1    15.6     0.015     1   0.4     87    179     94    151     12     70     Uncharacterized protein 268 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=268 PE=4 SV=1
+sp|P07242|H5_VACCW      10.3      0.67     3   0.1    129    199    137    185     41     86     Late transcription elongation factor H5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR103 PE=1 SV=1
+sp|P20538|H5_VACCC      10.3      0.67     3   0.1    129    199    137    185     41     86     Late transcription elongation factor H5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=H5R PE=2 SV=1
+sp|P07242|H5_VACCW       0.4   8.2e+02     1   0.1      2     41      9     37     58     86     Late transcription elongation factor H5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR103 PE=1 SV=1
+sp|P20538|H5_VACCC       0.4   8.2e+02     1   0.1      2     41      9     37     58     86     Late transcription elongation factor H5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=H5R PE=2 SV=1
+sp|P07242|H5_VACCW      -2.4   5.7e+03     2   0.1     64    105     71     84     41     54     Late transcription elongation factor H5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR103 PE=1 SV=1
+sp|Q8QL22|Y268_SIRV1    -2.4   5.8e+03     2   0.0    192    231    201    228     77    105     Uncharacterized protein 268 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=268 PE=4 SV=1
+sp|P20538|H5_VACCC      -3.5   1.3e+04     2   0.0     65     92     71     80     41     49     Late transcription elongation factor H5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=H5R PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000393@SRS019327_WUGC_scaffold_20597@SRS019327_WUGC_scaffold_20597_gene_28787.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000393@SRS019327_WUGC_scaffold_20597@SRS019327_WUGC_scaffold_20597_gene_28787.txt data/models_hmm/7000000393@SRS019327_WUGC_scaffold_20597@SRS019327_WUGC_scaffold_20597_gene_28787.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:49 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQF3|YR481_MIMIV    54.5   7.8e-15   3   3.9   0.1    Uncharacterized protein R481 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R481 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQF3|YR481_MIMIV    54.5   7.8e-15     3   0.1    810    901    821    897    279    355     Uncharacterized protein R481 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R481 PE=4 SV=1
+sp|Q5UQF3|YR481_MIMIV    -2.2   1.4e+03     1   0.3     33    133     43     79    133    168     Uncharacterized protein R481 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R481 PE=4 SV=1
+sp|Q5UQF3|YR481_MIMIV   -11.0   1.7e+04     2  39.1    192    687    232    425     35    142     Uncharacterized protein R481 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R481 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10001260@TBL_comb47_HYPODRAFT_100012609.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000553@TBL_comb47_HYPODRAFT_10001260@TBL_comb47_HYPODRAFT_100012609.txt data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10001260@TBL_comb47_HYPODRAFT_100012609.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:02 2021
+# [ok]

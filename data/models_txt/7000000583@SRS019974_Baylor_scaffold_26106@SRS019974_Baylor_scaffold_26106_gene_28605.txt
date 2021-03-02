@@ -1,0 +1,59 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPY1|RNH_MIMIV     26.5   3.2e-06   1   1.1   0.0    Probable ribonuclease H OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=RNH1 PE=3 SV=1
+sp|P03355|POL_MLVMS     19.0   0.00063   1   1.2   0.0    Gag-Pol polyprotein OS=Moloney murine leukemia virus (isolate Shinnick) OX=928306 GN=gag-pol PE=1 SV=5
+sp|P26809|POL_MLVFF     18.8   0.00072   1   1.2   0.0    Gag-Pol polyprotein OS=Friend murine leukemia virus (isolate FB29) OX=11797 GN=pol PE=3 SV=2
+sp|P26808|POL_MLVFP     18.8   0.00072   1   1.2   0.0    Gag-Pol polyprotein OS=Friend murine leukemia virus (isolate PVC-211) OX=11798 GN=pol PE=3 SV=2
+sp|P08361|POL_MLVCB     18.4   0.00096   1   1.2   0.0    Gag-Pol polyprotein OS=Cas-Br-E murine leukemia virus OX=11792 GN=gag-pol PE=3 SV=2
+sp|P26810|POL_MLVF5     17.9    0.0014   1   1.2   0.0    Gag-Pol polyprotein OS=Friend murine leukemia virus (isolate 57) OX=11796 GN=pol PE=3 SV=2
+sp|P12500|POL_SIVV2     17.9    0.0014   1   1.1   0.0    Pol polyprotein (Fragment) OS=Simian immunodeficiency virus agm.vervet (isolate AGM266) OX=11728 GN=pol PE=3 SV=1
+sp|P03359|POL_WMSV      16.9    0.0027   1   1.2   0.0    Gag-Pol polyprotein OS=Woolly monkey sarcoma virus OX=11970 GN=pol PE=3 SV=2
+sp|Q9TTC1|POL_KORV      16.9    0.0028   1   1.2   0.0    Gag-Pol polyprotein OS=Koala retrovirus OX=394239 GN=pro-pol PE=3 SV=2
+sp|Q2F7J3|POL_XMRV3     15.0      0.01   1   1.2   0.0    Gag-Pol polyprotein OS=Xenotropic MuLV-related virus (isolate VP35) OX=356663 GN=gag-pol PE=1 SV=1
+sp|A1Z651|POL_XMRV6     15.0      0.01   1   1.2   0.0    Gag-Pol polyprotein OS=Xenotropic MuLV-related virus (isolate VP62) OX=373193 GN=gag-pol PE=1 SV=1
+sp|P21414|POL_GALV      14.7     0.013   1   1.2   0.0    Gag-Pol polyprotein OS=Gibbon ape leukemia virus OX=11840 GN=pol PE=3 SV=2
+sp|Q2F7J0|POL_XMRV4     14.2     0.019   1   1.2   0.0    Gag-Pol polyprotein OS=Xenotropic MuLV-related virus (isolate VP42) OX=356664 GN=gag-pol PE=3 SV=1
+sp|P31795|POL_MLVRK     14.1     0.019   1   1.3   0.0    Pol polyprotein (Fragment) OS=Radiation murine leukemia virus (strain Kaplan) OX=31689 GN=pol PE=3 SV=1
+sp|P36733|VL1_HPV12     13.1     0.041   1   1.4   0.0    Major capsid protein L1 OS=Human papillomavirus type 12 OX=10604 GN=L1 PE=3 SV=1
+sp|P10273|POL_FLV       13.0     0.042   1   1.2   0.0    Gag-Pol polyprotein OS=Feline leukemia virus OX=11768 GN=pol PE=3 SV=2
+sp|P27973|POL_SIVV1     12.8     0.049   1   1.3   0.0    Gag-Pol polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM155) OX=11727 GN=gag-pol PE=3 SV=2
+sp|P27980|POL_SIVVG     11.8       0.1   1   1.4   0.0    Gag-Pol polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM3) OX=11730 GN=gag-pol PE=3 SV=2
+sp|P31792|POL_FENV1     10.9      0.19   1   1.3   0.0    Pol polyprotein (Fragment) OS=Feline endogenous virus ECE1 OX=11766 GN=pol PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPY1|RNH_MIMIV     26.1   4.4e-06     1   0.0     27    177     54    161     56    170     Probable ribonuclease H OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=RNH1 PE=3 SV=1
+sp|P03355|POL_MLVMS     18.2    0.0011     1   0.0   1176   1332   1195   1305     35    158     Gag-Pol polyprotein OS=Moloney murine leukemia virus (isolate Shinnick) OX=928306 GN=gag-pol PE=1 SV=5
+sp|P26809|POL_MLVFF     18.1    0.0012     1   0.0   1177   1333   1195   1305     35    158     Gag-Pol polyprotein OS=Friend murine leukemia virus (isolate FB29) OX=11797 GN=pol PE=3 SV=2
+sp|P26808|POL_MLVFP     18.1    0.0012     1   0.0   1177   1333   1195   1305     35    158     Gag-Pol polyprotein OS=Friend murine leukemia virus (isolate PVC-211) OX=11798 GN=pol PE=3 SV=2
+sp|P12500|POL_SIVV2     17.7    0.0015     1   0.0     36    100     49     97     31     89     Pol polyprotein (Fragment) OS=Simian immunodeficiency virus agm.vervet (isolate AGM266) OX=11728 GN=pol PE=3 SV=1
+sp|P08361|POL_MLVCB     17.7    0.0016     1   0.0   1175   1330   1193   1303     35    158     Gag-Pol polyprotein OS=Cas-Br-E murine leukemia virus OX=11792 GN=gag-pol PE=3 SV=2
+sp|P26810|POL_MLVF5     17.1    0.0024     1   0.0   1179   1333   1196   1306     35    158     Gag-Pol polyprotein OS=Friend murine leukemia virus (isolate 57) OX=11796 GN=pol PE=3 SV=2
+sp|P03359|POL_WMSV      16.2    0.0045     1   0.0   1161   1294   1178   1280     40    155     Gag-Pol polyprotein OS=Woolly monkey sarcoma virus OX=11970 GN=pol PE=3 SV=2
+sp|Q9TTC1|POL_KORV      16.1    0.0047     1   0.0   1161   1303   1175   1278     36    153     Gag-Pol polyprotein OS=Koala retrovirus OX=394239 GN=pro-pol PE=3 SV=2
+sp|A1Z651|POL_XMRV6     14.3     0.017     1   0.0   1174   1327   1193   1303     35    158     Gag-Pol polyprotein OS=Xenotropic MuLV-related virus (isolate VP62) OX=373193 GN=gag-pol PE=1 SV=1
+sp|Q2F7J3|POL_XMRV3     14.3     0.017     1   0.0   1174   1327   1193   1303     35    158     Gag-Pol polyprotein OS=Xenotropic MuLV-related virus (isolate VP35) OX=356663 GN=gag-pol PE=1 SV=1
+sp|P21414|POL_GALV      14.0     0.021     1   0.0   1167   1289   1186   1278     49    154     Gag-Pol polyprotein OS=Gibbon ape leukemia virus OX=11840 GN=pol PE=3 SV=2
+sp|Q2F7J0|POL_XMRV4     13.5     0.031     1   0.0   1187   1327   1213   1303     56    158     Gag-Pol polyprotein OS=Xenotropic MuLV-related virus (isolate VP42) OX=356664 GN=gag-pol PE=3 SV=1
+sp|P31795|POL_MLVRK     13.4     0.033     1   0.0     23    174     41    148     35    156     Pol polyprotein (Fragment) OS=Radiation murine leukemia virus (strain Kaplan) OX=31689 GN=pol PE=3 SV=1
+sp|P10273|POL_FLV       12.3     0.072     1   0.0   1142   1280   1182   1268     56    155     Gag-Pol polyprotein OS=Feline leukemia virus OX=11768 GN=pol PE=3 SV=2
+sp|P36733|VL1_HPV12     12.2     0.074     1   0.0    292    386    306    363     33     90     Major capsid protein L1 OS=Human papillomavirus type 12 OX=10604 GN=L1 PE=3 SV=1
+sp|P27973|POL_SIVV1     11.9     0.093     1   0.0   1055   1121   1068   1112     35     89     Gag-Pol polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM155) OX=11727 GN=gag-pol PE=3 SV=2
+sp|P27980|POL_SIVVG     10.8       0.2     1   0.0   1055   1122   1069   1104     35     80     Gag-Pol polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM3) OX=11730 GN=gag-pol PE=3 SV=2
+sp|P31792|POL_FENV1     10.0      0.34     1   0.0    493    643    527    617     51    154     Pol polyprotein (Fragment) OS=Feline endogenous virus ECE1 OX=11766 GN=pol PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000583@SRS019974_Baylor_scaffold_26106@SRS019974_Baylor_scaffold_26106_gene_28605.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000583@SRS019974_Baylor_scaffold_26106@SRS019974_Baylor_scaffold_26106_gene_28605.txt data/models_hmm/7000000583@SRS019974_Baylor_scaffold_26106@SRS019974_Baylor_scaffold_26106_gene_28605.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:21 2021
+# [ok]

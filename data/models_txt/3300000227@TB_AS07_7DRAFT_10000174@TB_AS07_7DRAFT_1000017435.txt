@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQK5|YR403_MIMIV    12.7     0.042   1   1.2   0.0    Uncharacterized protein R403 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R403 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQK5|YR403_MIMIV    12.1     0.066     1   0.0    550    611    564    606    279    321     Uncharacterized protein R403 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R403 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000227@TB_AS07_7DRAFT_10000174@TB_AS07_7DRAFT_1000017435.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000227@TB_AS07_7DRAFT_10000174@TB_AS07_7DRAFT_1000017435.txt data/models_hmm/3300000227@TB_AS07_7DRAFT_10000174@TB_AS07_7DRAFT_1000017435.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:01 2021
+# [ok]

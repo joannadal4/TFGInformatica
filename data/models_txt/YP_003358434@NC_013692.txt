@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ11|YL191_MIMIV    10.9      0.22   3   2.2   1.9    Uncharacterized protein L191 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L191 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ11|YL191_MIMIV    10.0      0.44     1   0.3     24    144     37    121     73    146     Uncharacterized protein L191 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L191 PE=4 SV=1
+sp|Q5UQ11|YL191_MIMIV     0.9   2.6e+02     2   0.1    117    155    119    147     90    120     Uncharacterized protein L191 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L191 PE=4 SV=1
+sp|Q5UQ11|YL191_MIMIV    -2.8   3.6e+03     3   0.0    167    210    170    204     89    123     Uncharacterized protein L191 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L191 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003358434@NC_013692.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003358434@NC_013692.txt data/models_hmm/YP_003358434@NC_013692.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:28 2021
+# [ok]

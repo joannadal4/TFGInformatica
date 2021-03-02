@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQK4|YL404_MIMIV    12.9     0.063   2   1.8   0.2    Putative alpha/beta hydrolase L404 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L404 PE=3 SV=1
+sp|O90760|V031_FOWPN     11.4      0.18   2   2.2   0.2    Putative ankyrin repeat protein FPV031 OS=Fowlpox virus (strain NVSL) OX=928301 GN=ANK3 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQK4|YL404_MIMIV    12.9     0.063     2   0.2    197    262    217    261     12     53     Putative alpha/beta hydrolase L404 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L404 PE=3 SV=1
+sp|O90760|V031_FOWPN     11.4      0.18     2   0.2    281    329    294    327     20     53     Putative ankyrin repeat protein FPV031 OS=Fowlpox virus (strain NVSL) OX=928301 GN=ANK3 PE=4 SV=1
+sp|O90760|V031_FOWPN     -3.3   6.9e+03     1   0.2    244    268    249    266     35     52     Putative ankyrin repeat protein FPV031 OS=Fowlpox virus (strain NVSL) OX=928301 GN=ANK3 PE=4 SV=1
+sp|Q5UQK4|YL404_MIMIV    -4.0   1.1e+04     1   0.1    160    169    161    167     32     38     Putative alpha/beta hydrolase L404 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L404 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006986347@NC_019398.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006986347@NC_019398.txt data/models_hmm/YP_006986347@NC_019398.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:37 2021
+# [ok]

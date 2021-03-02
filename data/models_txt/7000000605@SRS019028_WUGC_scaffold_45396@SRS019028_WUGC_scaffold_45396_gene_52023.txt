@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q83446|VP7_ROTME     12.3      0.13   3   2.8   2.4    Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Mouse/Brazil/EHP/1981/G16P[20]) OX=578840 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q83446|VP7_ROTME      7.9       3.2     3   0.3    258    306    277    303     82    107     Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Mouse/Brazil/EHP/1981/G16P[20]) OX=578840 PE=3 SV=1
+sp|Q83446|VP7_ROTME      3.2        87     2   0.0    118    190    138    186     43     91     Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Mouse/Brazil/EHP/1981/G16P[20]) OX=578840 PE=3 SV=1
+sp|Q83446|VP7_ROTME     -1.9   3.4e+03     1   0.0     13     95     49     49     43     43     Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Mouse/Brazil/EHP/1981/G16P[20]) OX=578840 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000605@SRS019028_WUGC_scaffold_45396@SRS019028_WUGC_scaffold_45396_gene_52023.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000605@SRS019028_WUGC_scaffold_45396@SRS019028_WUGC_scaffold_45396_gene_52023.txt data/models_hmm/7000000605@SRS019028_WUGC_scaffold_45396@SRS019028_WUGC_scaffold_45396_gene_52023.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:30 2021
+# [ok]

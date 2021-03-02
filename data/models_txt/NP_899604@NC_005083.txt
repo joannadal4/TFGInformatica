@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13334|PORTL_BPT4    710.4  1.2e-213   1   1.0  12.2    Portal protein OS=Enterobacteria phage T4 OX=10665 GN=20 PE=1 SV=2
+sp|Q6WHE6|PORTL_BPKVM   642.5  4.4e-193   1   1.0  16.5    Portal protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=20 PE=3 SV=1
+sp|E1XTG6|PORTL_BPSAV   591.0  1.9e-177   1   1.0   3.6    Portal protein OS=Salmonella phage ViI OX=1987993 GN=Vi01_157c PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13334|PORTL_BPT4    710.2  1.4e-213     1  12.2      7    524      9    523      3    515     Portal protein OS=Enterobacteria phage T4 OX=10665 GN=20 PE=1 SV=2
+sp|Q6WHE6|PORTL_BPKVM   642.4  4.9e-193     1  16.5      1    511      2    508      4    510     Portal protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=20 PE=3 SV=1
+sp|E1XTG6|PORTL_BPSAV   590.6  2.4e-177     1   3.6     16    553     29    535     17    516     Portal protein OS=Salmonella phage ViI OX=1987993 GN=Vi01_157c PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_899604@NC_005083.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_899604@NC_005083.txt data/models_hmm/NP_899604@NC_005083.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:37 2021
+# [ok]

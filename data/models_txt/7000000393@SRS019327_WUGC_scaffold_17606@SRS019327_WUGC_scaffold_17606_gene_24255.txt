@@ -1,0 +1,71 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FW7|VF203_IIV6    15.1      0.02   1   1.2   0.7    Uncharacterized protein 203L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-203L PE=3 SV=1
+sp|P19698|HEMA_I79A7    13.7     0.051   2   2.3   4.7    Hemagglutinin OS=Influenza A virus (strain A/Grey teal/Australia/2/1979 H4N4) OX=402464 GN=HA PE=3 SV=2
+sp|P19697|HEMA_I76AK    13.7     0.054   2   2.3   4.6    Hemagglutinin OS=Influenza A virus (strain A/Duck/New Zealand/31/1976 H4N6) OX=385592 GN=HA PE=3 SV=2
+sp|P52349|TRX1_HHV7J    13.2     0.076   2   2.3   0.5    Triplex capsid protein 1 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=TRX1 PE=3 SV=1
+sp|P19694|HEMA_I77AG    12.9     0.096   2   2.3   3.9    Hemagglutinin OS=Influenza A virus (strain A/Budgerigar/Hokkaido/1/1977 H4N6) OX=385587 GN=HA PE=3 SV=1
+sp|P19696|HEMA_I56A1    12.5      0.12   2   2.3   2.8    Hemagglutinin OS=Influenza A virus (strain A/Duck/Czechoslovakia/1956 H4N6) OX=385590 GN=HA PE=1 SV=2
+sp|P19700|HEMA_I85A7    12.3      0.14   2   2.3   4.2    Hemagglutinin OS=Influenza A virus (strain A/Ruddy Turnstone/New Jersey/47/1985 H4N6) OX=380343 GN=HA PE=3 SV=1
+sp|P19695|HEMA_I75A4    12.3      0.14   2   2.4   4.0    Hemagglutinin OS=Influenza A virus (strain A/Chicken/Alabama/1/1975 H4N8) OX=11338 GN=HA PE=3 SV=1
+sp|P03443|HEMA_I76A1    12.3      0.15   2   2.3   4.1    Hemagglutinin OS=Influenza A virus (strain A/Duck/Alberta/28/1976 H4N6) OX=385638 GN=HA PE=3 SV=2
+sp|P19702|HEMA_I80A8    12.1      0.17   2   2.3   4.0    Hemagglutinin OS=Influenza A virus (strain A/Turkey/Minnesota/833/1980 H4N2) OX=383603 GN=HA PE=3 SV=2
+sp|P19701|HEMA_I82A3    11.2      0.32   2   2.2   4.4    Hemagglutinin OS=Influenza A virus (strain A/Seal/Massachusetts/133/1982 H4N5) OX=387250 GN=HA PE=3 SV=1
+sp|P26137|HEMA_I82A0    11.0      0.37   2   2.1   3.8    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Mallard/Astrakhan/244/1982 H14N6) OX=11433 GN=HA PE=1 SV=1
+sp|P26136|HEMA_I82A1    11.0      0.37   2   2.1   3.8    Hemagglutinin OS=Influenza A virus (strain A/Mallard/Astrakhan/263/1982 H14N5) OX=352564 GN=HA PE=3 SV=1
+sp|P04311|D9_VACCW      10.3       0.6   2   2.3   4.6    mRNA-decapping protein D9 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR114 PE=1 SV=1
+sp|P21011|D9_VACCC      10.1      0.69   2   2.3   4.9    mRNA-decapping protein D9 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D9R PE=2 SV=1
+sp|P0DOU5|D9_VAR67      10.1      0.71   2   2.3   5.0    mRNA-decapping protein D9 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=D9R PE=2 SV=1
+sp|P0DOU6|D9_VARV       10.1      0.71   2   2.3   5.0    mRNA-decapping protein D9 OS=Variola virus OX=10255 GN=D9R PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FW7|VF203_IIV6    14.6     0.028     1   0.7     25    122     29    104      7     84     Uncharacterized protein 203L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-203L PE=3 SV=1
+sp|P52349|TRX1_HHV7J     9.0       1.6     2   0.1    142    209    152    197     43     89     Triplex capsid protein 1 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=TRX1 PE=3 SV=1
+sp|P19698|HEMA_I79A7     8.1         3     2   0.0    443    508    456    492     12     48     Hemagglutinin OS=Influenza A virus (strain A/Grey teal/Australia/2/1979 H4N4) OX=402464 GN=HA PE=3 SV=2
+sp|P19696|HEMA_I56A1     8.1         3     2   0.0    443    508    456    492     12     48     Hemagglutinin OS=Influenza A virus (strain A/Duck/Czechoslovakia/1956 H4N6) OX=385590 GN=HA PE=1 SV=2
+sp|P19697|HEMA_I76AK     8.0       3.1     2   0.0    443    508    456    492     12     48     Hemagglutinin OS=Influenza A virus (strain A/Duck/New Zealand/31/1976 H4N6) OX=385592 GN=HA PE=3 SV=2
+sp|P19694|HEMA_I77AG     7.3       5.1     1   4.3    396    472    398    470      3     68     Hemagglutinin OS=Influenza A virus (strain A/Budgerigar/Hokkaido/1/1977 H4N6) OX=385587 GN=HA PE=3 SV=1
+sp|P26137|HEMA_I82A0     7.3       5.3     1   4.2    395    472    397    469      3     68     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Mallard/Astrakhan/244/1982 H14N6) OX=11433 GN=HA PE=1 SV=1
+sp|P26136|HEMA_I82A1     7.3       5.4     1   4.2    400    477    402    474      3     68     Hemagglutinin OS=Influenza A virus (strain A/Mallard/Astrakhan/263/1982 H14N5) OX=352564 GN=HA PE=3 SV=1
+sp|P19702|HEMA_I80A8     6.7       7.9     1   4.4    396    471    398    470      3     68     Hemagglutinin OS=Influenza A virus (strain A/Turkey/Minnesota/833/1980 H4N2) OX=383603 GN=HA PE=3 SV=2
+sp|P04311|D9_VACCW       6.6       8.7     1   0.2     76    157     81    125     11     55     mRNA-decapping protein D9 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR114 PE=1 SV=1
+sp|P0DOU5|D9_VAR67       6.5         9     1   0.3     76    159     81    125     11     55     mRNA-decapping protein D9 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=D9R PE=2 SV=1
+sp|P0DOU6|D9_VARV        6.5         9     1   0.3     76    159     81    125     11     55     mRNA-decapping protein D9 OS=Variola virus OX=10255 GN=D9R PE=2 SV=1
+sp|P19700|HEMA_I85A7     6.5       9.2     1   4.1    396    470    398    468      3     66     Hemagglutinin OS=Influenza A virus (strain A/Ruddy Turnstone/New Jersey/47/1985 H4N6) OX=380343 GN=HA PE=3 SV=1
+sp|P21011|D9_VACCC       6.5       9.5     1   0.2     76    147     81    123     11     53     mRNA-decapping protein D9 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D9R PE=2 SV=1
+sp|P19700|HEMA_I85A7     6.0        13     2   0.0    443    503    456    492     12     48     Hemagglutinin OS=Influenza A virus (strain A/Ruddy Turnstone/New Jersey/47/1985 H4N6) OX=380343 GN=HA PE=3 SV=1
+sp|P03443|HEMA_I76A1     5.9        14     2   0.0    443    500    456    492     12     48     Hemagglutinin OS=Influenza A virus (strain A/Duck/Alberta/28/1976 H4N6) OX=385638 GN=HA PE=3 SV=2
+sp|P19694|HEMA_I77AG     5.9        14     2   0.0    443    499    456    492     12     48     Hemagglutinin OS=Influenza A virus (strain A/Budgerigar/Hokkaido/1/1977 H4N6) OX=385587 GN=HA PE=3 SV=1
+sp|P19701|HEMA_I82A3     5.8        15     2   0.0    443    502    456    492     12     48     Hemagglutinin OS=Influenza A virus (strain A/Seal/Massachusetts/133/1982 H4N5) OX=387250 GN=HA PE=3 SV=1
+sp|P19695|HEMA_I75A4     5.8        16     1   2.4    396    455    398    426      3     32     Hemagglutinin OS=Influenza A virus (strain A/Chicken/Alabama/1/1975 H4N8) OX=11338 GN=HA PE=3 SV=1
+sp|P19695|HEMA_I75A4     5.7        16     2   0.0    443    503    456    492     12     48     Hemagglutinin OS=Influenza A virus (strain A/Chicken/Alabama/1/1975 H4N8) OX=11338 GN=HA PE=3 SV=1
+sp|P19697|HEMA_I76AK     5.6        17     1   2.5    396    455    398    426      3     32     Hemagglutinin OS=Influenza A virus (strain A/Duck/New Zealand/31/1976 H4N6) OX=385592 GN=HA PE=3 SV=2
+sp|P03443|HEMA_I76A1     5.6        17     1   2.5    396    454    398    426      3     32     Hemagglutinin OS=Influenza A virus (strain A/Duck/Alberta/28/1976 H4N6) OX=385638 GN=HA PE=3 SV=2
+sp|P19698|HEMA_I79A7     5.6        18     1   2.6    396    453    398    426      3     32     Hemagglutinin OS=Influenza A virus (strain A/Grey teal/Australia/2/1979 H4N4) OX=402464 GN=HA PE=3 SV=2
+sp|P19702|HEMA_I80A8     5.4        20     2   0.0    443    497    456    490     12     46     Hemagglutinin OS=Influenza A virus (strain A/Turkey/Minnesota/833/1980 H4N2) OX=383603 GN=HA PE=3 SV=2
+sp|P19701|HEMA_I82A3     5.2        24     1   2.3    396    452    398    426      3     32     Hemagglutinin OS=Influenza A virus (strain A/Seal/Massachusetts/133/1982 H4N5) OX=387250 GN=HA PE=3 SV=1
+sp|P21011|D9_VACCC       5.1        25     2   0.9    150    212    174    206     43     75     mRNA-decapping protein D9 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D9R PE=2 SV=1
+sp|P04311|D9_VACCW       4.3        46     2   2.0    127    212    174    206     43     75     mRNA-decapping protein D9 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR114 PE=1 SV=1
+sp|P26137|HEMA_I82A0     4.1        51     2   0.0    442    507    455    491     12     48     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Mallard/Astrakhan/244/1982 H14N6) OX=11433 GN=HA PE=1 SV=1
+sp|P26136|HEMA_I82A1     4.1        51     2   0.0    447    512    460    496     12     48     Hemagglutinin OS=Influenza A virus (strain A/Mallard/Astrakhan/263/1982 H14N5) OX=352564 GN=HA PE=3 SV=1
+sp|P0DOU5|D9_VAR67       4.1        53     2   2.5    125    212    173    206     42     75     mRNA-decapping protein D9 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=D9R PE=2 SV=1
+sp|P0DOU6|D9_VARV        4.1        53     2   2.5    125    212    173    206     42     75     mRNA-decapping protein D9 OS=Variola virus OX=10255 GN=D9R PE=2 SV=1
+sp|P19696|HEMA_I56A1     3.9        58     1   1.2    396    453    398    422      3     27     Hemagglutinin OS=Influenza A virus (strain A/Duck/Czechoslovakia/1956 H4N6) OX=385590 GN=HA PE=1 SV=2
+sp|P52349|TRX1_HHV7J     2.0   2.3e+02     1   0.0      5     46     16     34     55     73     Triplex capsid protein 1 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=TRX1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000393@SRS019327_WUGC_scaffold_17606@SRS019327_WUGC_scaffold_17606_gene_24255.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000393@SRS019327_WUGC_scaffold_17606@SRS019327_WUGC_scaffold_17606_gene_24255.txt data/models_hmm/7000000393@SRS019327_WUGC_scaffold_17606@SRS019327_WUGC_scaffold_17606_gene_24255.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:49 2021
+# [ok]

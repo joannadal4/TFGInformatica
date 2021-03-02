@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03739|TFA_BPT4       13.4     0.059   2   1.9   0.3    Tail fiber assembly protein OS=Enterobacteria phage T4 OX=10665 GN=38 PE=3 SV=1
+sp|Q5UPX6|YL236_MIMIV    13.3     0.065   1   1.6   0.5    Uncharacterized protein L236 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L236 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03739|TFA_BPT4       13.4     0.059     1   0.3    104    164    107    147     12     52     Tail fiber assembly protein OS=Enterobacteria phage T4 OX=10665 GN=38 PE=3 SV=1
+sp|Q5UPX6|YL236_MIMIV    12.2      0.15     1   0.5     10     67     16     63     19     65     Uncharacterized protein L236 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L236 PE=4 SV=1
+sp|P03739|TFA_BPT4       -1.0   1.9e+03     2   0.1    165    183    166    182      9     25     Tail fiber assembly protein OS=Enterobacteria phage T4 OX=10665 GN=38 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2228664000_2228664008_2228665909_PaMGMa_163.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2228664000_2228664008_2228665909_PaMGMa_163.txt data/models_hmm/2228664000_2228664008_2228665909_PaMGMa_163.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:15 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q06360|MVP_SBWMN      8.9       1.8   2   2.0   6.0    Movement protein OS=Soil-borne wheat mosaic virus (strain United States/Nebraska/1981) OX=652673 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q06360|MVP_SBWMN      8.4       2.6     2   4.6    255    320    276    308     35     67     Movement protein OS=Soil-borne wheat mosaic virus (strain United States/Nebraska/1981) OX=652673 PE=4 SV=1
+sp|Q06360|MVP_SBWMN     -1.5   3.1e+03     1   0.0    151    211    154    182      4     32     Movement protein OS=Soil-borne wheat mosaic virus (strain United States/Nebraska/1981) OX=652673 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008239634@NC_021775.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008239634@NC_021775.txt data/models_hmm/YP_008239634@NC_021775.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:25 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P11111|NECK2_BPT4   402.0    1e-120   1   1.0  10.2    Neck protein gp14 OS=Enterobacteria phage T4 OX=10665 GN=14 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P11111|NECK2_BPT4   401.8  1.2e-120     1  10.2      3    255      3    252      1    258     Neck protein gp14 OS=Enterobacteria phage T4 OX=10665 GN=14 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000510@SRS053917_LANL_scaffold_35430@SRS053917_LANL_scaffold_35430_gene_79875.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000510@SRS053917_LANL_scaffold_35430@SRS053917_LANL_scaffold_35430_gene_79875.txt data/models_hmm/7000000510@SRS053917_LANL_scaffold_35430@SRS053917_LANL_scaffold_35430_gene_79875.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:53 2021
+# [ok]

@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q38394|FIB37_BPK3    10.5      0.44   3   3.6   0.0    Long tail fiber protein p37 OS=Enterobacteria phage K3 OX=10674 GN=37 PE=3 SV=1
+sp|P07067|FIB37_BPT2    10.3      0.52   5   5.1   0.0    Long tail fiber protein p37 OS=Enterobacteria phage T2 OX=10664 GN=37 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38394|FIB37_BPK3    10.5      0.44     3   0.0   1117   1161   1128   1161     32     66     Long tail fiber protein p37 OS=Enterobacteria phage K3 OX=10674 GN=37 PE=3 SV=1
+sp|P07067|FIB37_BPT2    10.3      0.52     5   0.0   1219   1259   1226   1259     32     66     Long tail fiber protein p37 OS=Enterobacteria phage T2 OX=10664 GN=37 PE=3 SV=1
+sp|P07067|FIB37_BPT2    -0.0   8.5e+02     3   0.1    537    573    544    567     27     50     Long tail fiber protein p37 OS=Enterobacteria phage T2 OX=10664 GN=37 PE=3 SV=1
+sp|P07067|FIB37_BPT2    -0.5   1.2e+03     1   0.1     45     86     56     72     28     44     Long tail fiber protein p37 OS=Enterobacteria phage T2 OX=10664 GN=37 PE=3 SV=1
+sp|Q38394|FIB37_BPK3    -0.7   1.4e+03     1   1.9     44     93     57     88     12     42     Long tail fiber protein p37 OS=Enterobacteria phage K3 OX=10674 GN=37 PE=3 SV=1
+sp|P07067|FIB37_BPT2    -1.6   2.7e+03     2   0.7    170    203    178    197     17     36     Long tail fiber protein p37 OS=Enterobacteria phage T2 OX=10664 GN=37 PE=3 SV=1
+sp|P07067|FIB37_BPT2    -1.7   2.8e+03     4   0.5   1037   1094   1047   1070     19     42     Long tail fiber protein p37 OS=Enterobacteria phage T2 OX=10664 GN=37 PE=3 SV=1
+sp|Q38394|FIB37_BPK3    -3.0   7.3e+03     2   0.6    546    585    551    579     12     41     Long tail fiber protein p37 OS=Enterobacteria phage K3 OX=10674 GN=37 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000320@SRS063040_Baylor_scaffold_59276@SRS063040_Baylor_scaffold_59276_gene_126761.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000320@SRS063040_Baylor_scaffold_59276@SRS063040_Baylor_scaffold_59276_gene_126761.txt data/models_hmm/7000000320@SRS063040_Baylor_scaffold_59276@SRS063040_Baylor_scaffold_59276_gene_126761.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:19 2021
+# [ok]

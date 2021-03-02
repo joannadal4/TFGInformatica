@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q01478|E5_VACCD      14.4     0.024   2   1.9   0.0    Protein E5 OS=Vaccinia virus (strain Dairen I) OX=10250 GN=E5R PE=2 SV=1
+sp|P21046|E5_VACCC      14.0     0.031   2   1.9   0.0    Protein E5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=E5R PE=2 SV=2
+sp|P21606|E5_VACCW      13.9     0.032   2   1.9   0.0    Protein E5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR061 PE=1 SV=1
+sp|P0DSS3|E5_VAR67      13.9     0.033   2   1.8   0.0    Protein E5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=E5R PE=2 SV=1
+sp|P0DSS4|E5_VARV       13.9     0.033   2   1.8   0.0    Protein E5 OS=Variola virus OX=10255 GN=E5R PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q01478|E5_VACCD      12.5     0.088     2   0.0    170    281    176    267      7    104     Protein E5 OS=Vaccinia virus (strain Dairen I) OX=10250 GN=E5R PE=2 SV=1
+sp|P0DSS3|E5_VAR67      12.4     0.093     2   0.0    170    281    176    267      7    104     Protein E5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=E5R PE=2 SV=1
+sp|P0DSS4|E5_VARV       12.4     0.093     2   0.0    170    281    176    267      7    104     Protein E5 OS=Variola virus OX=10255 GN=E5R PE=2 SV=1
+sp|P21046|E5_VACCC      12.2      0.11     2   0.0    170    281    176    267      7    104     Protein E5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=E5R PE=2 SV=2
+sp|P21606|E5_VACCW      12.2      0.11     2   0.0    170    281    176    267      7    104     Protein E5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR061 PE=1 SV=1
+sp|P21046|E5_VACCC      -1.7   2.2e+03     1   0.0    130    166    141    159     16     34     Protein E5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=E5R PE=2 SV=2
+sp|Q01478|E5_VACCD      -1.7   2.2e+03     1   0.0    130    166    141    159     16     34     Protein E5 OS=Vaccinia virus (strain Dairen I) OX=10250 GN=E5R PE=2 SV=1
+sp|P21606|E5_VACCW      -2.0   2.7e+03     1   0.0    134    165    141    159     16     34     Protein E5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR061 PE=1 SV=1
+sp|P0DSS3|E5_VAR67      -2.9   5.2e+03     1   0.0    135    160    141    158     16     33     Protein E5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=E5R PE=2 SV=1
+sp|P0DSS4|E5_VARV       -2.9   5.2e+03     1   0.0    135    160    141    158     16     33     Protein E5 OS=Variola virus OX=10255 GN=E5R PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001106@JGI11978J13257_1000002@JGI11978J13257_100000243.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001106@JGI11978J13257_1000002@JGI11978J13257_100000243.txt data/models_hmm/3300001106@JGI11978J13257_1000002@JGI11978J13257_100000243.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:24 2021
+# [ok]

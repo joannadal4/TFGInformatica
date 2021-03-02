@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DSX3|C6_VAR67     348.8  2.6e-105   1   1.0   9.6    Protein C6 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=B16L PE=3 SV=1
+sp|P0DSX4|C6_VARV      348.8  2.6e-105   1   1.0   9.6    Protein C6 OS=Variola virus OX=10255 GN=B16L PE=3 SV=1
+sp|P21040|C6_VACCC     329.3   2.6e-99   1   1.0   9.5    Protein C6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C6L PE=3 SV=1
+sp|P17362|C6_VACCW     325.0   5.5e-98   1   1.0   8.1    Protein C6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR022 PE=1 SV=1
+sp|P18387|B14_SHEVN     33.7   2.7e-08   1   1.1   1.6    Protein B14 homolog OS=Sheeppox virus (strain InS-1) OX=10268 GN=T3A PE=3 SV=1
+sp|P25949|B14_RFVKA     22.6   7.2e-05   1   1.1   0.1    Protein B14 homolog OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=s003.1L PE=3 SV=1
+sp|P21100|VC16_VACCC    16.5    0.0053   1   1.3   0.1    Protein C16/B22 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B22R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DSX3|C6_VAR67     348.7  2.9e-105     1   9.6      1    156      1    156      1    156     Protein C6 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=B16L PE=3 SV=1
+sp|P0DSX4|C6_VARV      348.7  2.9e-105     1   9.6      1    156      1    156      1    156     Protein C6 OS=Variola virus OX=10255 GN=B16L PE=3 SV=1
+sp|P21040|C6_VACCC     329.2   2.9e-99     1   9.5      1    151      1    150      1    150     Protein C6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C6L PE=3 SV=1
+sp|P17362|C6_VACCW     324.9   6.1e-98     1   8.1      1    151      1    150      1    150     Protein C6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR022 PE=1 SV=1
+sp|P18387|B14_SHEVN     33.3   3.6e-08     1   1.6      4    155     11    149      9    145     Protein B14 homolog OS=Sheeppox virus (strain InS-1) OX=10268 GN=T3A PE=3 SV=1
+sp|P25949|B14_RFVKA     22.3   9.2e-05     1   0.1      1    148      3    141      3    144     Protein B14 homolog OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=s003.1L PE=3 SV=1
+sp|P21100|VC16_VACCC    16.2    0.0067     1   0.1     43    181     55    126     14     86     Protein C16/B22 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B22R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_042053@NC_001611.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_042053@NC_001611.txt data/models_hmm/NP_042053@NC_001611.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:16 2021
+# [ok]

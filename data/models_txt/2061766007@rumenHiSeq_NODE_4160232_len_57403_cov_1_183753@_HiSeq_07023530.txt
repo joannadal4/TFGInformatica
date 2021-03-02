@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q07576|NRAM_I72A0    18.7    0.0012   1   1.5   0.1    Neuraminidase OS=Influenza A virus (strain A/Equine/Algiers/1972 H3N8) OX=387214 GN=NA PE=3 SV=1
+sp|Q07579|NRAM_I63A2    17.3    0.0032   1   1.5   0.0    Neuraminidase OS=Influenza A virus (strain A/Equine/Miami/1/1963 H3N8) OX=387222 GN=NA PE=3 SV=1
+sp|Q07582|NRAM_I86A3    17.1    0.0037   1   1.6   0.0    Neuraminidase OS=Influenza A virus (strain A/Equine/Tennessee/5/1986 H3N8) OX=380339 GN=NA PE=3 SV=1
+sp|P08326|NRAM_I81A2    17.1    0.0038   1   1.6   0.0    Neuraminidase OS=Influenza A virus (strain A/Equine/Kentucky/1/1981) OX=475467 GN=NA PE=3 SV=1
+sp|Q07581|NRAM_I69A2    17.0    0.0042   1   1.7   0.0    Neuraminidase OS=Influenza A virus (strain A/Equine/Sao Paulo/6/1969 H3N8) OX=387231 GN=NA PE=3 SV=1
+sp|Q07580|NRAM_I79A6    16.9    0.0043   1   1.6   0.0    Neuraminidase OS=Influenza A virus (strain A/Equine/New Market/1979 H3N8) OX=387226 GN=NA PE=3 SV=1
+sp|Q6TXB9|NRAM_I85A5    14.5     0.025   1   1.6   0.0    Neuraminidase OS=Influenza A virus (strain A/Equine/Santiago/1/1985 H3N8) OX=11414 GN=NA PE=2 SV=1
+sp|Q07575|NRAM_I91A0    12.6     0.094   1   1.6   0.0    Neuraminidase OS=Influenza A virus (strain A/Equine/Alaska/1/1991 H3N8) OX=387213 GN=NA PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q07576|NRAM_I72A0    17.6    0.0026     1   0.1     14     99     17     93      6     80     Neuraminidase OS=Influenza A virus (strain A/Equine/Algiers/1972 H3N8) OX=387214 GN=NA PE=3 SV=1
+sp|Q07579|NRAM_I63A2    16.1    0.0075     1   0.0     14     98     17     93      6     80     Neuraminidase OS=Influenza A virus (strain A/Equine/Miami/1/1963 H3N8) OX=387222 GN=NA PE=3 SV=1
+sp|P08326|NRAM_I81A2    15.8    0.0094     1   0.0     15     98     19     93      8     80     Neuraminidase OS=Influenza A virus (strain A/Equine/Kentucky/1/1981) OX=475467 GN=NA PE=3 SV=1
+sp|Q07582|NRAM_I86A3    15.8    0.0094     1   0.0     15     98     19     93      8     80     Neuraminidase OS=Influenza A virus (strain A/Equine/Tennessee/5/1986 H3N8) OX=380339 GN=NA PE=3 SV=1
+sp|Q07580|NRAM_I79A6    15.6     0.011     1   0.0     15     98     19     93      8     80     Neuraminidase OS=Influenza A virus (strain A/Equine/New Market/1979 H3N8) OX=387226 GN=NA PE=3 SV=1
+sp|Q07581|NRAM_I69A2    15.5     0.012     1   0.0     14     98     17     93      6     80     Neuraminidase OS=Influenza A virus (strain A/Equine/Sao Paulo/6/1969 H3N8) OX=387231 GN=NA PE=3 SV=1
+sp|Q6TXB9|NRAM_I85A5    13.2     0.063     1   0.0     14     98     18     93      7     80     Neuraminidase OS=Influenza A virus (strain A/Equine/Santiago/1/1985 H3N8) OX=11414 GN=NA PE=2 SV=1
+sp|Q07575|NRAM_I91A0    11.3      0.25     1   0.0     15     98     19     93      8     80     Neuraminidase OS=Influenza A virus (strain A/Equine/Alaska/1/1991 H3N8) OX=387213 GN=NA PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_4160232_len_57403_cov_1_183753@_HiSeq_07023530.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_4160232_len_57403_cov_1_183753@_HiSeq_07023530.txt data/models_hmm/2061766007@rumenHiSeq_NODE_4160232_len_57403_cov_1_183753@_HiSeq_07023530.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:43 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O10318|FP_NPVOP      13.4     0.049   2   1.9   0.9    FP protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=FP PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O10318|FP_NPVOP      12.5     0.095     2   0.0    111    207    125    203     17     94     FP protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=FP PE=4 SV=1
+sp|O10318|FP_NPVOP      -1.0   1.3e+03     1   0.2      5     95     26     38     90    102     FP protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=FP PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000195@SRS017209_Baylor_scaffold_23388@SRS017209_Baylor_scaffold_23388_gene_29847.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000195@SRS017209_Baylor_scaffold_23388@SRS017209_Baylor_scaffold_23388_gene_29847.txt data/models_hmm/7000000195@SRS017209_Baylor_scaffold_23388@SRS017209_Baylor_scaffold_23388_gene_29847.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:16 2021
+# [ok]

@@ -1,0 +1,88 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9PWX1|DR1_HHV6Z    1417.1         0   1   1.0  44.6    Uncharacterized protein DR1 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=DR1 PE=4 SV=1
+sp|Q89893|DR2_HHV6U    1231.3         0   1   1.0  41.6    Uncharacterized protein DR2 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=DR2L PE=3 SV=1
+sp|Q89746|DR1_HHV6U     171.8   1.8e-50   1   1.0  14.1    Uncharacterized protein DR1 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=DR1L PE=4 SV=1
+sp|Q9PX53|DR6_HHV6Z      46.0   2.1e-12   2   2.1  11.5    Uncharacterized protein DR6 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=DR6 PE=4 SV=1
+sp|P09699|US26_HCMVA     41.3   5.6e-11   2   2.3   0.0    Uncharacterized protein HHLF5 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US26 PE=3 SV=1
+sp|F5H991|US26_HCMVM     38.5   3.9e-10   2   2.3   0.0    Protein US26 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US26 PE=3 SV=1
+sp|Q89584|DR6_HHV6U      30.3   1.2e-07   1   1.0   6.0    Uncharacterized protein DR6 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=DR6L PE=4 SV=1
+sp|F5HAY6|VICA_HCMVM     21.6   5.2e-05   2   1.7   0.0    Viral inhibitor of caspase-8-induced apoptosis OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL36 PE=1 SV=1
+sp|P09722|US22_HCMVA     20.9   8.3e-05   1   2.3   0.4    Early nuclear protein HWLF1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US22 PE=3 SV=2
+sp|F5H9N4|VP22_HCMVM     20.4   0.00012   2   3.0   1.1    Tegument protein UL24 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL24 PE=3 SV=2
+sp|P16760|VP22_HCMVA     20.4   0.00012   2   3.0   1.1    Protein UL24 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL24 PE=3 SV=3
+sp|F5HDC7|US22_HCMVM     18.6   0.00042   2   2.3   3.0    Tegument protein US22 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US22 PE=3 SV=1
+sp|Q89743|DR7_HHV6U      18.3   0.00052   1   1.1   0.1    Uncharacterized protein DR7 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=DR7L PE=1 SV=1
+sp|C0H677|UL298_HCMVA    17.5   0.00091   4   4.4   3.1    Protein UL29/UL28 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL29 PE=1 SV=1
+sp|Q9WT39|VU25_HHV6Z     15.6    0.0032   3   3.0   1.1    Protein U25 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U25 PE=3 SV=1
+sp|P52527|VU25_HHV6U     15.5    0.0035   3   3.0   1.3    Protein U25 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U25 PE=3 SV=1
+sp|P16767|UL36_HCMVA     15.2    0.0043   2   1.7   0.0    Uncharacterized protein UL36 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL36 PE=3 SV=1
+sp|Q6SWA3|UL298_HCMVM    15.1    0.0046   4   4.2   3.2    Protein UL29/28 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL29 PE=3 SV=2
+sp|P30024|U16_HHV6G      11.0     0.084   2   1.8   0.0    Protein U17/U16 OS=Human herpesvirus 6A (strain GS) OX=10369 GN=U17/U16 PE=3 SV=2
+sp|Q69551|U16_HHV6U      10.9     0.085   2   1.8   0.0    Protein U17/U16 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U17/U16 PE=3 SV=2
+sp|Q9QJ47|U17_HHV6Z      10.2      0.15   2   1.7   0.0    Protein U17 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U17 PE=3 SV=1
+sp|P16764|UL29_HCMVA      8.2      0.57   4   3.5  10.9    Uncharacterized protein UL29 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL29 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9PWX1|DR1_HHV6Z    1416.9         0     1  44.6      1    759      1    759      1    689     Uncharacterized protein DR1 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=DR1 PE=4 SV=1
+sp|Q89893|DR2_HHV6U    1231.0         0     1  41.6     13    620     19    620     88    689     Uncharacterized protein DR2 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=DR2L PE=3 SV=1
+sp|Q89746|DR1_HHV6U     171.7     2e-50     1  14.1      1     94      1     87      1     87     Uncharacterized protein DR1 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=DR1L PE=4 SV=1
+sp|Q89584|DR6_HHV6U      30.1   1.3e-07     1   6.0     13     97     23     92     11     84     Uncharacterized protein DR6 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=DR6L PE=4 SV=1
+sp|P09699|US26_HCMVA     29.7   1.8e-07     1   0.0    108    198    135    180    140    185     Uncharacterized protein HHLF5 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US26 PE=3 SV=1
+sp|Q9PX53|DR6_HHV6Z      29.1   2.8e-07     1   7.4     16     96     23     91     11     83     Uncharacterized protein DR6 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=DR6 PE=4 SV=1
+sp|F5H991|US26_HCMVM     26.9   1.3e-06     1   0.0    108    198    135    180    140    185     Protein US26 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US26 PE=3 SV=1
+sp|F5HAY6|VICA_HCMVM     19.9   0.00017     2   0.1     89    177     93    137    142    186     Viral inhibitor of caspase-8-induced apoptosis OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL36 PE=1 SV=1
+sp|Q9PX53|DR6_HHV6Z      18.4   0.00048     2   0.1    118    253    125    233    133    243     Uncharacterized protein DR6 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=DR6 PE=4 SV=1
+sp|Q89743|DR7_HHV6U      17.8   0.00072     1   0.1     89    235    103    200    141    242     Uncharacterized protein DR7 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=DR7L PE=1 SV=1
+sp|F5HDC7|US22_HCMVM     16.6    0.0016     1   0.3    133    345    138    332    143    342     Tegument protein US22 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US22 PE=3 SV=1
+sp|P09722|US22_HCMVA     16.1    0.0023     1   0.4    131    345    138    332    143    342     Early nuclear protein HWLF1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US22 PE=3 SV=2
+sp|F5H9N4|VP22_HCMVM     14.0      0.01     2   0.7    144    343    149    336    143    342     Tegument protein UL24 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL24 PE=3 SV=2
+sp|P16760|VP22_HCMVA     14.0      0.01     2   0.7    144    343    149    336    143    342     Protein UL24 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL24 PE=3 SV=3
+sp|P16767|UL36_HCMVA     13.6     0.014     2   0.0     89    176     93    135    142    184     Uncharacterized protein UL36 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL36 PE=3 SV=1
+sp|F5H991|US26_HCMVM      9.2      0.28     2   0.0    253    390    290    329    300    339     Protein US26 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US26 PE=3 SV=1
+sp|P09699|US26_HCMVA      9.2      0.28     2   0.0    253    390    290    329    300    339     Uncharacterized protein HHLF5 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US26 PE=3 SV=1
+sp|P30024|U16_HHV6G       9.0      0.34     2   0.0    105    175    110    152    144    186     Protein U17/U16 OS=Human herpesvirus 6A (strain GS) OX=10369 GN=U17/U16 PE=3 SV=2
+sp|Q69551|U16_HHV6U       9.0      0.34     2   0.0    105    175    110    152    144    186     Protein U17/U16 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U17/U16 PE=3 SV=2
+sp|Q9QJ47|U17_HHV6Z       8.3      0.53     2   0.0    105    161    111    152    145    186     Protein U17 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U17 PE=3 SV=1
+sp|P16764|UL29_HCMVA      6.9       1.4     2   0.1    202    268    220    248     30     58     Uncharacterized protein UL29 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL29 PE=3 SV=1
+sp|P52527|VU25_HHV6U      6.7       1.6     1   0.0      3     44      9     38     29     58     Protein U25 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U25 PE=3 SV=1
+sp|Q9WT39|VU25_HHV6Z      6.7       1.6     1   0.0      3     43      9     38     29     58     Protein U25 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U25 PE=3 SV=1
+sp|C0H677|UL298_HCMVA     5.7       3.2     2   0.1    202    268    220    248     30     58     Protein UL29/UL28 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL29 PE=1 SV=1
+sp|Q6SWA3|UL298_HCMVM     5.7       3.3     2   0.1    202    266    219    247     30     58     Protein UL29/28 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL29 PE=3 SV=2
+sp|Q9WT39|VU25_HHV6Z      4.7       6.6     2   0.1     74    137     82    126    143    186     Protein U25 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U25 PE=3 SV=1
+sp|P16764|UL29_HCMVA      4.7       6.6     3   0.0    285    350    290    334    300    344     Uncharacterized protein UL29 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL29 PE=3 SV=1
+sp|P52527|VU25_HHV6U      4.6       6.9     2   0.2     75    137     82    126    143    186     Protein U25 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U25 PE=3 SV=1
+sp|C0H677|UL298_HCMVA     3.5        16     3   0.0    285    351    290    334    300    344     Protein UL29/UL28 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL29 PE=1 SV=1
+sp|Q6SWA3|UL298_HCMVM     3.3        18     4   0.1    398    459    402    454     28     73     Protein UL29/28 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL29 PE=3 SV=2
+sp|C0H677|UL298_HCMVA     3.3        18     4   0.1    399    460    403    455     28     73     Protein UL29/UL28 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL29 PE=1 SV=1
+sp|P16764|UL29_HCMVA      3.0        22     1   0.1    120    216    134    178    149    193     Uncharacterized protein UL29 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL29 PE=3 SV=1
+sp|C0H677|UL298_HCMVA     1.5        60     1   0.1    119    214    134    178    149    193     Protein UL29/UL28 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL29 PE=1 SV=1
+sp|Q6SWA3|UL298_HCMVM     1.5        63     1   0.1    121    213    133    177    149    193     Protein UL29/28 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL29 PE=3 SV=2
+sp|Q6SWA3|UL298_HCMVM     1.3        71     3   0.0    284    350    289    333    300    344     Protein UL29/28 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL29 PE=3 SV=2
+sp|P52527|VU25_HHV6U      1.2        74     3   0.0    209    266    216    255    142    181     Protein U25 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U25 PE=3 SV=1
+sp|Q9WT39|VU25_HHV6Z      1.2        74     3   0.0    209    266    216    255    142    181     Protein U25 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U25 PE=3 SV=1
+sp|F5H9N4|VP22_HCMVM      0.4   1.3e+02     1   0.0     63    117     73     95     29     51     Tegument protein UL24 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL24 PE=3 SV=2
+sp|P16760|VP22_HCMVA      0.4   1.3e+02     1   0.0     63    117     73     95     29     51     Protein UL24 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL24 PE=3 SV=3
+sp|P30024|U16_HHV6G      -1.2     4e+02     1   0.0     28     65     34     57     33     56     Protein U17/U16 OS=Human herpesvirus 6A (strain GS) OX=10369 GN=U17/U16 PE=3 SV=2
+sp|Q69551|U16_HHV6U      -1.2   4.2e+02     1   0.0     28     64     34     57     33     56     Protein U17/U16 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U17/U16 PE=3 SV=2
+sp|Q9QJ47|U17_HHV6Z      -1.3   4.3e+02     1   0.0     29     64     34     57     33     56     Protein U17 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U17 PE=3 SV=1
+sp|F5HAY6|VICA_HCMVM     -1.7   5.7e+02     1   0.0      5     52     25     49     33     57     Viral inhibitor of caspase-8-induced apoptosis OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL36 PE=1 SV=1
+sp|P16767|UL36_HCMVA     -1.7   5.7e+02     1   0.0      5     52     25     49     33     57     Uncharacterized protein UL36 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL36 PE=3 SV=1
+sp|F5HDC7|US22_HCMVM     -3.8   2.5e+03     2   0.2    466    563    512    534    554    622     Tegument protein US22 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US22 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_073744@NC_001716.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_073744@NC_001716.txt data/models_hmm/YP_073744@NC_001716.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:01 2021
+# [ok]

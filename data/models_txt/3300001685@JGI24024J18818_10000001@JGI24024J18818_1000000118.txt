@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A4ZUD5|Y057_ABVP     14.5     0.022   1   1.0   0.0    Uncharacterized protein ORF57 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF57 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A4ZUD5|Y057_ABVP     14.3     0.026     1   0.0      4     56      8     52     23     68     Uncharacterized protein ORF57 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF57 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001685@JGI24024J18818_10000001@JGI24024J18818_1000000118.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001685@JGI24024J18818_10000001@JGI24024J18818_1000000118.txt data/models_hmm/3300001685@JGI24024J18818_10000001@JGI24024J18818_1000000118.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:11 2021
+# [ok]

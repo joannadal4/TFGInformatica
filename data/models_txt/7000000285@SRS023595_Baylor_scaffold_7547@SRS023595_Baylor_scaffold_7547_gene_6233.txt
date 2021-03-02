@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P07296|NS1_PAVBP     11.7      0.19   1   1.7   0.1    Initiator protein NS1 OS=Bovine parvovirus (isolate pAT153/1986) OX=648243 GN=NS1 PE=3 SV=1
+sp|A4ZUB4|Y116_ABVP     11.0      0.31   2   1.7   2.7    Putative transmembrane protein ORF116 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF116 PE=4 SV=1
+sp|Q573F0|Y066_AFV2P    10.4      0.49   2   2.1   6.4    Putative transmembrane protein ORF66 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF66 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A4ZUB4|Y116_ABVP     11.2      0.27     1   1.1     15     57     20     46      6     32     Putative transmembrane protein ORF116 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF116 PE=4 SV=1
+sp|P07296|NS1_PAVBP     10.3       0.5     1   0.1    106    136    111    128     25     42     Initiator protein NS1 OS=Bovine parvovirus (isolate pAT153/1986) OX=648243 GN=NS1 PE=3 SV=1
+sp|Q573F0|Y066_AFV2P     8.7       1.6     2   0.1     35     64     42     61      9     28     Putative transmembrane protein ORF66 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF66 PE=4 SV=1
+sp|Q573F0|Y066_AFV2P     4.8        27     1   1.9      9     41     10     36      2     25     Putative transmembrane protein ORF66 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF66 PE=4 SV=1
+sp|A4ZUB4|Y116_ABVP     -1.3   2.2e+03     2   0.0     53     96     70     85     19     35     Putative transmembrane protein ORF116 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF116 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000285@SRS023595_Baylor_scaffold_7547@SRS023595_Baylor_scaffold_7547_gene_6233.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000285@SRS023595_Baylor_scaffold_7547@SRS023595_Baylor_scaffold_7547_gene_6233.txt data/models_hmm/7000000285@SRS023595_Baylor_scaffold_7547@SRS023595_Baylor_scaffold_7547_gene_6233.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:52 2021
+# [ok]

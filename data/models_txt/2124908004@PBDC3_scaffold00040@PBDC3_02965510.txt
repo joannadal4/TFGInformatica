@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27079|VXIS_BPP21   114.3   2.2e-33   1   1.0   0.0    Excisionase OS=Enterobacteria phage P21 OX=10711 GN=xis PE=4 SV=1
+sp|P68926|VXIS_BP434    26.4   6.1e-06   1   1.2   0.0    Excisionase OS=Enterobacteria phage 434 OX=10712 GN=xis PE=4 SV=1
+sp|P68927|VXIS_BPHK0    26.4   6.1e-06   1   1.2   0.0    Excisionase OS=Escherichia phage HK022 OX=10742 GN=xis PE=1 SV=1
+sp|P03699|VXIS_LAMBD    26.2     7e-06   1   1.2   0.0    Excisionase OS=Escherichia phage lambda OX=10710 GN=xis PE=1 SV=1
+sp|P31620|MATRX_TRTV    12.4      0.14   2   1.7   0.0    Matrix protein OS=Turkey rhinotracheitis virus OX=11264 GN=M PE=2 SV=1
+sp|Q80GM6|REP_SSVN      12.4      0.14   2   2.0   0.0    Replication-associated protein OS=Sugarcane streak virus (isolate South Africa) OX=268781 GN=C1/C2 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27079|VXIS_BPP21   114.2   2.4e-33     1   0.0      1     78      1     78      1     78     Excisionase OS=Enterobacteria phage P21 OX=10711 GN=xis PE=4 SV=1
+sp|P68926|VXIS_BP434    26.2     7e-06     1   0.0      2     70      5     50      7     54     Excisionase OS=Enterobacteria phage 434 OX=10712 GN=xis PE=4 SV=1
+sp|P68927|VXIS_BPHK0    26.2     7e-06     1   0.0      2     70      5     50      7     54     Excisionase OS=Escherichia phage HK022 OX=10742 GN=xis PE=1 SV=1
+sp|P03699|VXIS_LAMBD    26.0     8e-06     1   0.0      2     68      5     50      7     54     Excisionase OS=Escherichia phage lambda OX=10710 GN=xis PE=1 SV=1
+sp|P31620|MATRX_TRTV    11.1      0.35     1   0.0     90    171     94    139      5     44     Matrix protein OS=Turkey rhinotracheitis virus OX=11264 GN=M PE=2 SV=1
+sp|Q80GM6|REP_SSVN      10.4      0.58     1   0.0     90    158    106    156     32     81     Replication-associated protein OS=Sugarcane streak virus (isolate South Africa) OX=268781 GN=C1/C2 PE=3 SV=2
+sp|Q80GM6|REP_SSVN      -1.6   3.1e+03     2   0.0    325    362    339    360     44     68     Replication-associated protein OS=Sugarcane streak virus (isolate South Africa) OX=268781 GN=C1/C2 PE=3 SV=2
+sp|P31620|MATRX_TRTV    -3.0   8.7e+03     2   0.0    215    252    229    246     53     70     Matrix protein OS=Turkey rhinotracheitis virus OX=11264 GN=M PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2124908004@PBDC3_scaffold00040@PBDC3_02965510.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2124908004@PBDC3_scaffold00040@PBDC3_02965510.txt data/models_hmm/2124908004@PBDC3_scaffold00040@PBDC3_02965510.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:58 2021
+# [ok]

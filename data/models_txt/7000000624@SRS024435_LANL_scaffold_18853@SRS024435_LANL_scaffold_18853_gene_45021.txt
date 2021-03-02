@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04383|CAPSD_CARMV    11.8      0.11   1   1.2   0.0    Capsid protein OS=Carnation mottle virus OX=11986 GN=ORF4 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04383|CAPSD_CARMV    11.3      0.15     1   0.0    309    348    316    346     64     94     Capsid protein OS=Carnation mottle virus OX=11986 GN=ORF4 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000624@SRS024435_LANL_scaffold_18853@SRS024435_LANL_scaffold_18853_gene_45021.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000624@SRS024435_LANL_scaffold_18853@SRS024435_LANL_scaffold_18853_gene_45021.txt data/models_hmm/7000000624@SRS024435_LANL_scaffold_18853@SRS024435_LANL_scaffold_18853_gene_45021.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:37 2021
+# [ok]

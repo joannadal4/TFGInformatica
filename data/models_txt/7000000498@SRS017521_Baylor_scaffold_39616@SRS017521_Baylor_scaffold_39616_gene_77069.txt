@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39249|Y16N_BPT4     13.1     0.055   1   1.1   1.1    Uncharacterized 5.0 kDa protein in ndd-denB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16N PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39249|Y16N_BPT4     13.2     0.053     1   1.1      1     38      1     26      1     26     Uncharacterized 5.0 kDa protein in ndd-denB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16N PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000498@SRS017521_Baylor_scaffold_39616@SRS017521_Baylor_scaffold_39616_gene_77069.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000498@SRS017521_Baylor_scaffold_39616@SRS017521_Baylor_scaffold_39616_gene_77069.txt data/models_hmm/7000000498@SRS017521_Baylor_scaffold_39616@SRS017521_Baylor_scaffold_39616_gene_77069.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:42 2021
+# [ok]

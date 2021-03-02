@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A9CB82|P32K_ADES1    443.9  2.7e-133   1   1.0   0.3    Structural protein p32K OS=Snake adenovirus serotype 1 OX=189830 PE=3 SV=1
+sp|P89028|P32K_ADEO7    427.5  2.6e-128   1   2.0   4.5    Structural protein p32K OS=Ovine adenovirus D serotype 7 (isolate OAV287) OX=114430 PE=3 SV=2
+sp|P0CK09|MVP_TEV        10.8      0.22   1   1.3   5.1    P3N-PIPO polyprotein OS=Tobacco etch virus OX=12227 PE=1 SV=2
+sp|P12871|CAPSD_NODAM    10.5      0.27   1   1.3   2.5    Capsid protein alpha OS=Nodamura virus (strain Mag115) OX=914672 GN=alpha PE=1 SV=1
+sp|Q96624|NP_ADEB2        9.9      0.42   1   1.2  10.7    Pre-histone-like nucleoprotein OS=Bovine adenovirus 2 OX=114429 GN=L2 PE=3 SV=1
+sp|P04517|POLG_TEV        9.5      0.53   2   2.3   9.3    Genome polyprotein OS=Tobacco etch virus OX=12227 PE=1 SV=1
+sp|Q89565|DR8_HHV6U       6.8       3.7   1   1.0   5.9    Uncharacterized protein DR8 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=DR8L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A9CB82|P32K_ADES1    443.7    3e-133     1   0.3      1    343      1    343      1    297     Structural protein p32K OS=Snake adenovirus serotype 1 OX=189830 PE=3 SV=1
+sp|P89028|P32K_ADEO7    421.0  2.4e-126     1   4.5      1    286      1    286      1    297     Structural protein p32K OS=Ovine adenovirus D serotype 7 (isolate OAV287) OX=114430 PE=3 SV=2
+sp|P0CK09|MVP_TEV        10.0      0.39     1   5.1     81    259     85    240      5    155     P3N-PIPO polyprotein OS=Tobacco etch virus OX=12227 PE=1 SV=2
+sp|P12871|CAPSD_NODAM     9.9      0.41     1   2.5      1    106      4     55     12     64     Capsid protein alpha OS=Nodamura virus (strain Mag115) OX=914672 GN=alpha PE=1 SV=1
+sp|Q96624|NP_ADEB2        9.5      0.55     1  10.7     62    177     64    128      4     62     Pre-histone-like nucleoprotein OS=Bovine adenovirus 2 OX=114429 GN=L2 PE=3 SV=1
+sp|P04517|POLG_TEV        7.9       1.7     1   5.2     81    258     85    240      5    155     Genome polyprotein OS=Tobacco etch virus OX=12227 PE=1 SV=1
+sp|Q89565|DR8_HHV6U       6.5       4.4     1   5.9      2    102      9     97     12     97     Uncharacterized protein DR8 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=DR8L PE=4 SV=1
+sp|P04517|POLG_TEV        3.2        47     2   0.1   1678   1821   1705   1816     40    149     Genome polyprotein OS=Tobacco etch virus OX=12227 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_077384@NC_002685.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_077384@NC_002685.txt data/models_hmm/NP_077384@NC_002685.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:49 2021
+# [ok]

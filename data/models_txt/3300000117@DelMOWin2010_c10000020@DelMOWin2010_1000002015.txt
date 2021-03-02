@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9J513|V222_FOWPN    10.9     0.044   1   1.0   0.2    Putative ankyrin repeat protein FPV222 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV222 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9J513|V222_FOWPN    10.5     0.059     1   0.2    118    209    126    186   1854   1913     Putative ankyrin repeat protein FPV222 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV222 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000117@DelMOWin2010_c10000020@DelMOWin2010_1000002015.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000117@DelMOWin2010_c10000020@DelMOWin2010_1000002015.txt data/models_hmm/3300000117@DelMOWin2010_c10000020@DelMOWin2010_1000002015.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:45 2021
+# [ok]

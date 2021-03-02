@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP01|YR751_MIMIV    15.7     0.014   1   1.4   2.9    Uncharacterized protein R751 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R751 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UP01|YR751_MIMIV    15.2      0.02     1   2.9     46    134     67    119     33     88     Uncharacterized protein R751 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R751 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000115@SRS055378_LANL_scaffold_5805@SRS055378_LANL_scaffold_5805_gene_5238.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000115@SRS055378_LANL_scaffold_5805@SRS055378_LANL_scaffold_5805_gene_5238.txt data/models_hmm/7000000115@SRS055378_LANL_scaffold_5805@SRS055378_LANL_scaffold_5805_gene_5238.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:33 2021
+# [ok]

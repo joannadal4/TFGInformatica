@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP23|YR260_MIMIV    20.9   0.00034   2   2.5   3.3    DnaJ-like protein R260 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R260 PE=3 SV=1
+sp|Q5UQF4|YL485_MIMIV    13.5     0.067   1   1.9   5.2    Uncharacterized protein L485 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L485 PE=1 SV=1
+sp|P15854|GP166_BPPH5    12.8      0.11   1   1.1   0.3    Gene product 16.6 OS=Bacillus phage phi15 OX=10755 GN=16.6 PE=3 SV=1
+sp|Q5UPH3|YR097_MIMIV     8.8         2   3   3.5  10.8    Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+sp|Q5UPB8|YL043_MIMIV     7.8         4   1   2.5   5.8    Uncharacterized protein L43 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L43 PE=4 SV=1
+sp|Q3V4T9|Y383B_ATV       7.8       4.1   2   2.1   4.8    Putative transposase ORF383B OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UP23|YR260_MIMIV    15.0     0.023     2   0.1    164    267    166    206      4     47     DnaJ-like protein R260 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R260 PE=3 SV=1
+sp|P15854|GP166_BPPH5    12.7      0.12     1   0.3      1     54      4     52      7     47     Gene product 16.6 OS=Bacillus phage phi15 OX=10755 GN=16.6 PE=3 SV=1
+sp|Q5UQF4|YL485_MIMIV    11.8      0.23     1   5.2     13    120     17     49      6     39     Uncharacterized protein L485 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L485 PE=1 SV=1
+sp|Q5UPH3|YR097_MIMIV    10.5       0.6     2   0.8    102    168    106    143      5     41     Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+sp|Q3V4T9|Y383B_ATV       7.2       6.3     2   3.4    186    364    323    355      6     41     Putative transposase ORF383B OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+sp|Q5UPB8|YL043_MIMIV     7.0         7     1   4.0      7    176     14     68      9     56     Uncharacterized protein L43 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L43 PE=4 SV=1
+sp|Q5UP23|YR260_MIMIV     5.7        18     1   0.8    121    162    127    154      7     38     DnaJ-like protein R260 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R260 PE=3 SV=1
+sp|Q5UPH3|YR097_MIMIV     2.2   2.3e+02     1   0.2     36    105     38     72      3     36     Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+sp|Q5UPH3|YR097_MIMIV     1.0   5.6e+02     3   0.3    179    228    184    197      6     19     Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+sp|Q3V4T9|Y383B_ATV      -2.1   5.1e+03     1   0.0    141    201    155    166     53     64     Putative transposase ORF383B OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008873243@NC_023007.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008873243@NC_023007.txt data/models_hmm/YP_008873243@NC_023007.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:44 2021
+# [ok]

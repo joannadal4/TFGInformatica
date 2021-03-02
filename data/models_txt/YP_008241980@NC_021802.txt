@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27753|TERL_BPP1     23.7   1.4e-05   1   1.4   0.0    Probable terminase, large subunit OS=Escherichia phage P1 OX=10678 GN=pacB PE=3 SV=1
+sp|Q5XLR0|TERL_BPP7     23.7   1.4e-05   1   1.4   0.0    Probable terminase, large subunit OS=Enterobacteria phage P7 OX=10682 GN=pacB PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27753|TERL_BPP1     23.0   2.3e-05     1   0.0    159    485    265    479    239    439     Probable terminase, large subunit OS=Escherichia phage P1 OX=10678 GN=pacB PE=3 SV=1
+sp|Q5XLR0|TERL_BPP7     23.0   2.3e-05     1   0.0    159    485    265    479    239    439     Probable terminase, large subunit OS=Enterobacteria phage P7 OX=10682 GN=pacB PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008241980@NC_021802.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008241980@NC_021802.txt data/models_hmm/YP_008241980@NC_021802.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:33 2021
+# [ok]

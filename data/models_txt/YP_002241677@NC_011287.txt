@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q7Y5N4|EXLYS_BPSP6    13.3      0.06   1   2.1   0.0    Peptidoglycan hydrolase gp36 OS=Enterobacteria phage SP6 OX=194966 GN=36 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q7Y5N4|EXLYS_BPSP6    11.2      0.27     1   0.0    736    803    748    800     64    112     Peptidoglycan hydrolase gp36 OS=Enterobacteria phage SP6 OX=194966 GN=36 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002241677@NC_011287.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002241677@NC_011287.txt data/models_hmm/YP_002241677@NC_011287.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:57 2021
+# [ok]

@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CAB3|VF249_ASFK5    19.0   0.00065   1   1.8   2.9    Uncharacterized protein M1249L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-072 PE=3 SV=1
+sp|P0CAB4|VF249_ASFM2    18.9   0.00071   1   1.7   2.9    Uncharacterized protein M1249L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-068 PE=3 SV=1
+sp|P0CAB6|VF249_ASFWA    18.0    0.0013   1   1.7   2.8    Uncharacterized protein M1249L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-070 PE=3 SV=1
+sp|P0CAB5|VF249_ASFP4    18.0    0.0013   1   1.7   2.8    Uncharacterized protein M1249L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-072 PE=3 SV=1
+sp|Q65152|VF249_ASFB7    17.2    0.0023   1   1.6   3.9    Uncharacterized protein M1249L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-060 PE=3 SV=1
+sp|P06019|REPC_BPMU      14.0     0.022   1   1.1   0.1    Repressor protein c OS=Escherichia phage Mu OX=10677 GN=repc PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CAB4|VF249_ASFM2    17.5    0.0019     1   2.9    291    416    304    400    160    254     Uncharacterized protein M1249L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-068 PE=3 SV=1
+sp|P0CAB3|VF249_ASFK5    17.4     0.002     1   2.9    292    417    305    401    160    254     Uncharacterized protein M1249L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-072 PE=3 SV=1
+sp|P0CAB5|VF249_ASFP4    16.6    0.0035     1   2.8    291    416    304    400    160    254     Uncharacterized protein M1249L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-072 PE=3 SV=1
+sp|P0CAB6|VF249_ASFWA    16.6    0.0035     1   2.8    291    416    304    400    160    254     Uncharacterized protein M1249L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-070 PE=3 SV=1
+sp|Q65152|VF249_ASFB7    15.9     0.006     1   3.9    291    411    304    400    160    254     Uncharacterized protein M1249L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-060 PE=3 SV=1
+sp|P06019|REPC_BPMU      13.6     0.029     1   0.1     59    180     63    173     80    188     Repressor protein c OS=Escherichia phage Mu OX=10677 GN=repc PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001580@Draft_10000161@Draft_100001615.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001580@Draft_10000161@Draft_100001615.txt data/models_hmm/3300001580@Draft_10000161@Draft_100001615.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:45 2021
+# [ok]

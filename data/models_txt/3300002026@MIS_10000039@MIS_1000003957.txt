@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P34081|HMUI_BPSP1    32.8   5.5e-08   1   1.1   2.1    DNA endonuclease I-HmuI OS=Bacillus phage SP01 OX=10685 PE=1 SV=1
+sp|O39522|REP_BEYDV     13.1     0.066   2   2.0   0.0    Replication-associated protein OS=Bean yellow dwarf virus OX=57119 GN=C1/C2 PE=3 SV=2
+sp|O10332|Y079_NPVOP    12.8     0.079   1   1.2   0.1    UPF0213 protein ORF82 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF82 PE=3 SV=1
+sp|O39521|REPA_BEYDV    11.7      0.17   1   1.3   0.0    Replication-associated protein A OS=Bean yellow dwarf virus OX=57119 GN=C1 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P34081|HMUI_BPSP1    32.6   6.4e-08     1   2.1     10    174     37    170     43    172     DNA endonuclease I-HmuI OS=Bacillus phage SP01 OX=10685 PE=1 SV=1
+sp|O10332|Y079_NPVOP    12.6     0.087     1   0.1      3     92      7     55      5     52     UPF0213 protein ORF82 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF82 PE=3 SV=1
+sp|O39521|REPA_BEYDV    10.9      0.29     1   0.0     85    157     96    149     19     69     Replication-associated protein A OS=Bean yellow dwarf virus OX=57119 GN=C1 PE=1 SV=1
+sp|O39522|REP_BEYDV     10.6      0.36     1   0.0     85    157     96    149     19     69     Replication-associated protein OS=Bean yellow dwarf virus OX=57119 GN=C1/C2 PE=3 SV=2
+sp|O39522|REP_BEYDV     -0.7   1.1e+03     2   0.0    267    327    276    302    111    137     Replication-associated protein OS=Bean yellow dwarf virus OX=57119 GN=C1/C2 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000039@MIS_1000003957.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000039@MIS_1000003957.txt data/models_hmm/3300002026@MIS_10000039@MIS_1000003957.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:39 2021
+# [ok]

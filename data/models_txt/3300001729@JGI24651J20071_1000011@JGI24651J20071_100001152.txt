@@ -1,0 +1,49 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P26749|VG10_BPP22   108.1   3.6e-31   1   1.0   0.2    Packaged DNA stabilization protein gp10 OS=Salmonella phage P22 OX=10754 GN=10 PE=4 SV=3
+sp|P69709|CAPSD_WHV1    12.5     0.037   1   1.0   0.7    Capsid protein OS=Woodchuck hepatitis B virus (isolate 1) OX=10430 GN=C PE=3 SV=1
+sp|P69710|CAPSD_WHV4    12.5     0.037   1   1.0   0.7    Capsid protein OS=Woodchuck hepatitis B virus (isolate 7) OX=10432 GN=C PE=3 SV=1
+sp|P69711|CAPSD_WHV5    12.5     0.037   1   1.0   0.7    Capsid protein OS=Woodchuck hepatitis B virus (isolate 8) OX=10433 GN=C PE=3 SV=1
+sp|P69712|CAPSD_WHV3    12.5     0.037   1   1.0   0.7    Capsid protein OS=Woodchuck hepatitis B virus (isolate 59) OX=10431 GN=C PE=3 SV=1
+sp|P0C6J4|HBEAG_WHV3    12.0      0.05   1   1.0   0.7    External core antigen OS=Woodchuck hepatitis B virus (isolate 59) OX=10431 GN=C PE=1 SV=1
+sp|P0C6J5|HBEAG_WHV4    12.0      0.05   1   1.0   0.7    External core antigen OS=Woodchuck hepatitis B virus (isolate 7) OX=10432 GN=C PE=3 SV=1
+sp|P0C6J6|HBEAG_WHV5    12.0      0.05   1   1.0   0.7    External core antigen OS=Woodchuck hepatitis B virus (isolate 8) OX=10433 GN=C PE=3 SV=1
+sp|P0C6J2|HBEAG_WHV1    12.0      0.05   1   1.0   0.7    External core antigen OS=Woodchuck hepatitis B virus (isolate 1) OX=10430 GN=C PE=1 SV=1
+sp|P0C6J1|CAPSD_GSHV    12.0     0.051   1   1.0   0.9    Capsid protein OS=Ground squirrel hepatitis virus (strain 27) OX=10406 GN=C PE=3 SV=1
+sp|P14368|V234_FOWPN    12.0     0.052   1   1.1   0.1    Putative ankyrin repeat protein FPV234 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV234 PE=4 SV=2
+sp|P03153|HBEAG_GSHV    11.6      0.07   1   1.0   0.9    External core antigen OS=Ground squirrel hepatitis virus (strain 27) OX=10406 GN=C PE=3 SV=1
+sp|P06433|CAPSD_WHV2    10.1      0.19   1   1.0   0.7    Capsid protein OS=Woodchuck hepatitis B virus (isolate 2) OX=341946 GN=C PE=3 SV=1
+sp|P0C6J3|HBEAG_WHV2     9.7      0.26   1   1.0   0.7    External core antigen OS=Woodchuck hepatitis B virus (isolate 2) OX=341946 GN=C PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P26749|VG10_BPP22   107.9   4.2e-31     1   0.2      7    472     28    465     26    455     Packaged DNA stabilization protein gp10 OS=Salmonella phage P22 OX=10754 GN=10 PE=4 SV=3
+sp|P69709|CAPSD_WHV1    12.2     0.045     1   0.7     41    128     54    126    264    335     Capsid protein OS=Woodchuck hepatitis B virus (isolate 1) OX=10430 GN=C PE=3 SV=1
+sp|P69710|CAPSD_WHV4    12.2     0.045     1   0.7     41    128     54    126    264    335     Capsid protein OS=Woodchuck hepatitis B virus (isolate 7) OX=10432 GN=C PE=3 SV=1
+sp|P69711|CAPSD_WHV5    12.2     0.045     1   0.7     41    128     54    126    264    335     Capsid protein OS=Woodchuck hepatitis B virus (isolate 8) OX=10433 GN=C PE=3 SV=1
+sp|P69712|CAPSD_WHV3    12.2     0.045     1   0.7     41    128     54    126    264    335     Capsid protein OS=Woodchuck hepatitis B virus (isolate 59) OX=10431 GN=C PE=3 SV=1
+sp|P0C6J2|HBEAG_WHV1    11.7     0.062     1   0.7     71    158     84    156    264    335     External core antigen OS=Woodchuck hepatitis B virus (isolate 1) OX=10430 GN=C PE=1 SV=1
+sp|P0C6J4|HBEAG_WHV3    11.7     0.062     1   0.7     71    158     84    156    264    335     External core antigen OS=Woodchuck hepatitis B virus (isolate 59) OX=10431 GN=C PE=1 SV=1
+sp|P0C6J5|HBEAG_WHV4    11.7     0.062     1   0.7     71    158     84    156    264    335     External core antigen OS=Woodchuck hepatitis B virus (isolate 7) OX=10432 GN=C PE=3 SV=1
+sp|P0C6J6|HBEAG_WHV5    11.7     0.062     1   0.7     71    158     84    156    264    335     External core antigen OS=Woodchuck hepatitis B virus (isolate 8) OX=10433 GN=C PE=3 SV=1
+sp|P0C6J1|CAPSD_GSHV    11.7     0.064     1   0.9     41    127     54    125    264    335     Capsid protein OS=Ground squirrel hepatitis virus (strain 27) OX=10406 GN=C PE=3 SV=1
+sp|P14368|V234_FOWPN    11.4     0.078     1   0.1    241    343    253    342    105    194     Putative ankyrin repeat protein FPV234 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV234 PE=4 SV=2
+sp|P03153|HBEAG_GSHV    11.2     0.088     1   0.9     71    157     84    155    264    335     External core antigen OS=Ground squirrel hepatitis virus (strain 27) OX=10406 GN=C PE=3 SV=1
+sp|P06433|CAPSD_WHV2     9.8      0.23     1   0.7     41    128     54    126    264    335     Capsid protein OS=Woodchuck hepatitis B virus (isolate 2) OX=341946 GN=C PE=3 SV=1
+sp|P0C6J3|HBEAG_WHV2     9.4      0.32     1   0.7     71    158     84    156    264    335     External core antigen OS=Woodchuck hepatitis B virus (isolate 2) OX=341946 GN=C PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001729@JGI24651J20071_1000011@JGI24651J20071_100001152.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001729@JGI24651J20071_1000011@JGI24651J20071_100001152.txt data/models_hmm/3300001729@JGI24651J20071_1000011@JGI24651J20071_100001152.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:16 2021
+# [ok]

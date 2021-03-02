@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|B2ZDY1|Z_WWAVU       12.9      0.07   1   1.3   1.2    RING finger protein Z OS=Whitewater Arroyo mammarenavirus (isolate Rat/United States/AV 9310135/1995) OX=46919 GN=Z PE=3 SV=1
+sp|Q6RSS3|Z_PIRVV       12.4       0.1   1   1.2   0.7    RING finger protein Z OS=Pirital mammarenavirus (isolate Rat/Venezuela/VAV-488/1995) OX=49891 GN=Z PE=3 SV=1
+sp|A0PJ23|Z_BCNVU       12.2      0.12   1   1.3   1.2    RING finger protein Z OS=Bear Canyon mammarenavirus (isolate Mouse/United States/AV A0070039/2000) OX=192848 GN=Z PE=3 SV=1
+sp|A9JR22|Z_TAMVU       10.7      0.33   1   1.3   3.3    RING finger protein Z OS=Tamiami mammarenavirus (isolate Rat/United States/W 10777/1964) OX=45223 GN=Z PE=3 SV=1
+sp|O73557|Z_LASSJ       10.4       0.4   1   1.2   3.3    RING finger protein Z OS=Lassa virus (strain Mouse/Sierra Leone/Josiah/1976) OX=11622 GN=Z PE=1 SV=4
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|B2ZDY1|Z_WWAVU       12.5     0.093     1   1.2     19     86     36     59     26     47     RING finger protein Z OS=Whitewater Arroyo mammarenavirus (isolate Rat/United States/AV 9310135/1995) OX=46919 GN=Z PE=3 SV=1
+sp|Q6RSS3|Z_PIRVV       12.1      0.12     1   0.7      9     71     35     59     25     47     RING finger protein Z OS=Pirital mammarenavirus (isolate Rat/Venezuela/VAV-488/1995) OX=49891 GN=Z PE=3 SV=1
+sp|A0PJ23|Z_BCNVU       11.9      0.13     1   1.2     10     78     36     59     26     47     RING finger protein Z OS=Bear Canyon mammarenavirus (isolate Mouse/United States/AV A0070039/2000) OX=192848 GN=Z PE=3 SV=1
+sp|A9JR22|Z_TAMVU       10.3      0.45     1   3.3     32     87     36     74     26     57     RING finger protein Z OS=Tamiami mammarenavirus (isolate Rat/United States/W 10777/1964) OX=45223 GN=Z PE=3 SV=1
+sp|O73557|Z_LASSJ        9.9       0.6     1   3.3     26     55     31     52     28     47     RING finger protein Z OS=Lassa virus (strain Mouse/Sierra Leone/Josiah/1976) OX=11622 GN=Z PE=1 SV=4
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000626@SRS064557_LANL_scaffold_22684@SRS064557_LANL_scaffold_22684_gene_40047.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000626@SRS064557_LANL_scaffold_22684@SRS064557_LANL_scaffold_22684_gene_40047.txt data/models_hmm/7000000626@SRS064557_LANL_scaffold_22684@SRS064557_LANL_scaffold_22684_gene_40047.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:38 2021
+# [ok]

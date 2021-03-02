@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9YS17|NSP4_ROTPC      9.7      0.19   1   1.0   1.4    Non-structural glycoprotein 4 OS=Rotavirus C (strain RVC/Pig/United States/Cowden/1980) OX=10916 PE=2 SV=1
+sp|Q6SW48|UL95_HCMVM      7.8      0.69   1   1.1   3.7    Protein UL95 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL95 PE=3 SV=1
+sp|Q7T6Y3|YR879_MIMIV     4.2       8.6   1   1.1   8.1    Putative KilA-N domain-containing protein R879 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R879 PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9YS17|NSP4_ROTPC      9.5      0.21     1   1.4     31    146     64    141    620    698     Non-structural glycoprotein 4 OS=Rotavirus C (strain RVC/Pig/United States/Cowden/1980) OX=10916 PE=2 SV=1
+sp|Q6SW48|UL95_HCMVM      7.3         1     1   3.7    362    420    379    411    547    583     Protein UL95 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL95 PE=3 SV=1
+sp|Q7T6Y3|YR879_MIMIV     3.9        11     1   8.1     46    168     78    153    603    690     Putative KilA-N domain-containing protein R879 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R879 PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000062@IMNBL1DRAFT_c0000057@IMNBL1DRAFT_0000057119.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000062@IMNBL1DRAFT_c0000057@IMNBL1DRAFT_0000057119.txt data/models_hmm/3300000062@IMNBL1DRAFT_c0000057@IMNBL1DRAFT_0000057119.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:17 2021
+# [ok]

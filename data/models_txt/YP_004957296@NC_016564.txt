@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q70LE3|Y059B_AFV1Y    19.1    0.0013   1   1.2   0.1    Uncharacterized protein ORF59b OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF59b PE=4 SV=1
+sp|P20217|E51_SSV1       17.3    0.0047   1   1.1   0.1    Uncharacterized protein E-51 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=e51 PE=4 SV=1
+sp|Q914K1|Y029_SIFVH     13.0       0.1   1   1.5   0.2    Uncharacterized protein 29 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0029 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q70LE3|Y059B_AFV1Y    18.8    0.0016     1   0.1      3     57      8     39     18     49     Uncharacterized protein ORF59b OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF59b PE=4 SV=1
+sp|P20217|E51_SSV1       17.3    0.0048     1   0.1      1     49      7     42      8     47     Uncharacterized protein E-51 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=e51 PE=4 SV=1
+sp|Q914K1|Y029_SIFVH     12.0       0.2     1   0.2     42     93     48     88      8     45     Uncharacterized protein 29 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0029 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004957296@NC_016564.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004957296@NC_016564.txt data/models_hmm/YP_004957296@NC_016564.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:58 2021
+# [ok]

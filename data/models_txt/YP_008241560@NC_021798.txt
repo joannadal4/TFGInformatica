@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41676|PK2_NPVAC     18.9   0.00066   1   1.2   0.2    Probable serine/threonine-protein kinase 2 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PK2 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41676|PK2_NPVAC     18.5   0.00087     1   0.2      9    191     15    167     95    239     Probable serine/threonine-protein kinase 2 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PK2 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008241560@NC_021798.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008241560@NC_021798.txt data/models_hmm/YP_008241560@NC_021798.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:32 2021
+# [ok]

@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FD1|ICP46_IIV6    581.6  1.1e-174   1   1.9  19.8    Immediate-early protein ICP-46 homolog OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-393L PE=3 SV=1
+sp|Q197C1|ICP46_IIV3    128.2   4.1e-37   1   1.3   6.8    Immediate-early protein ICP-46 homolog OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-039R PE=3 SV=1
+sp|P14358|ICP46_FRG3G    59.5     3e-16   1   1.9   0.0    Immediate-early protein ICP-46 OS=Frog virus 3 (isolate Goorha) OX=654924 GN=ICR489 PE=3 SV=2
+sp|P0DTD9|RLIG_BPRHR     23.1   3.2e-05   1   1.2   0.5    RNA ligase OS=Rhodothermus phage RM378 OX=148943 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FD1|ICP46_IIV6    578.5  9.3e-174     1  19.8      1    454      1    453      1    436     Immediate-early protein ICP-46 homolog OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-393L PE=3 SV=1
+sp|Q197C1|ICP46_IIV3    127.4   7.1e-37     1   6.8     38    388     73    355    125    391     Immediate-early protein ICP-46 homolog OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-039R PE=3 SV=1
+sp|P14358|ICP46_FRG3G    56.7     2e-15     1   0.0     34    300     63    285    147    345     Immediate-early protein ICP-46 OS=Frog virus 3 (isolate Goorha) OX=654924 GN=ICR489 PE=3 SV=2
+sp|P0DTD9|RLIG_BPRHR     22.6   4.6e-05     1   0.5     76    375    128    342    152    342     RNA ligase OS=Rhodothermus phage RM378 OX=148943 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003406938@NC_013756.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003406938@NC_013756.txt data/models_hmm/YP_003406938@NC_013756.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:32 2021
+# [ok]

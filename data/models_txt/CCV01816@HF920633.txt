@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q196W1|VF329_IIV3   344.4  5.5e-103   3   3.2   8.3    Uncharacterized protein 099R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-099R PE=3 SV=1
+sp|Q91FJ5|VF329_IIV6   121.5   3.6e-35   1   2.5   1.1    Uncharacterized protein 329R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-329R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q196W1|VF329_IIV3   272.1   5.5e-81     1   0.6      1    232      1    224      1    230     Uncharacterized protein 099R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-099R PE=3 SV=1
+sp|Q91FJ5|VF329_IIV6   114.0   6.9e-33     1   1.1      1    192      1    144      1    163     Uncharacterized protein 329R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-329R PE=3 SV=1
+sp|Q196W1|VF329_IIV3    60.8   1.1e-16     3   0.2    287    457    291    456    172    329     Uncharacterized protein 099R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-099R PE=3 SV=1
+sp|Q196W1|VF329_IIV3    16.6     0.003     2   0.1    220    293    231    288    174    232     Uncharacterized protein 099R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-099R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/CCV01816@HF920633.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/CCV01816@HF920633.txt data/models_hmm/CCV01816@HF920633.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:10 2021
+# [ok]

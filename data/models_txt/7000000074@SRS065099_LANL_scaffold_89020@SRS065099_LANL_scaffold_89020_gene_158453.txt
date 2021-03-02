@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27276|POLS_IBDVO    12.3     0.061   2   1.6   0.1    Structural polyprotein OS=Avian infectious bursal disease virus (strain OH) OX=10999 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27276|POLS_IBDVO    11.1      0.15     1   0.0    189    294    195    274     21     99     Structural polyprotein OS=Avian infectious bursal disease virus (strain OH) OX=10999 PE=1 SV=1
+sp|P27276|POLS_IBDVO    -3.9   5.3e+03     2   0.1    310    334    313    332    263    282     Structural polyprotein OS=Avian infectious bursal disease virus (strain OH) OX=10999 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000074@SRS065099_LANL_scaffold_89020@SRS065099_LANL_scaffold_89020_gene_158453.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000074@SRS065099_LANL_scaffold_89020@SRS065099_LANL_scaffold_89020_gene_158453.txt data/models_hmm/7000000074@SRS065099_LANL_scaffold_89020@SRS065099_LANL_scaffold_89020_gene_158453.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:20 2021
+# [ok]

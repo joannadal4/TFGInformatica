@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03775|OCR_BPT7     195.9   1.5e-58   1   1.0  11.1    Overcome classical restriction gp0.3 OS=Escherichia phage T7 OX=10760 GN=0.3 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03775|OCR_BPT7     195.7   1.7e-58     1  11.1      1    117      1    116      1    116     Overcome classical restriction gp0.3 OS=Escherichia phage T7 OX=10760 GN=0.3 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ACF15885@EU734174.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ACF15885@EU734174.txt data/models_hmm/ACF15885@EU734174.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:19 2021
+# [ok]

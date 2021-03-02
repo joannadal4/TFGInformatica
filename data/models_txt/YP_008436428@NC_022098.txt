@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q06692|Y079_NPVAC    12.4     0.051   1   1.1   0.1    UPF0213 protein in VLF1-GP41 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=3 SV=1
+sp|O55725|107L_IIV6     12.3     0.055   1   1.1   0.0    Uncharacterized protein 107L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-107L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q06692|Y079_NPVAC    12.3     0.057     1   0.1     25    102     47     98     98    147     UPF0213 protein in VLF1-GP41 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=3 SV=1
+sp|O55725|107L_IIV6     12.1     0.063     1   0.0      4     59     12     50     27     65     Uncharacterized protein 107L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-107L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008436428@NC_022098.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008436428@NC_022098.txt data/models_hmm/YP_008436428@NC_022098.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:06 2021
+# [ok]

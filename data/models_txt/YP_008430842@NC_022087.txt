@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64270|VG89_BPMD2   147.0   2.3e-43   1   1.0   3.8    Gene 89 protein OS=Mycobacterium phage D29 OX=28369 GN=89 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64270|VG89_BPMD2   146.9   2.6e-43     1   3.8      1    103      1    103      1     99     Gene 89 protein OS=Mycobacterium phage D29 OX=28369 GN=89 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008430842@NC_022087.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008430842@NC_022087.txt data/models_hmm/YP_008430842@NC_022087.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:03 2021
+# [ok]

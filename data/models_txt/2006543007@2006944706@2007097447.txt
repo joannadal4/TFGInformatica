@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q3KSU7|ITP_EBVG      13.0      0.09   3   3.7   6.6    Inner tegument protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BOLF1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q3KSU7|ITP_EBVG       9.5       1.1     1   0.1    307    381    312    374     15     74     Inner tegument protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BOLF1 PE=3 SV=1
+sp|Q3KSU7|ITP_EBVG       4.0        61     2   0.2    423    477    440    472     39     69     Inner tegument protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BOLF1 PE=3 SV=1
+sp|Q3KSU7|ITP_EBVG      -0.0   1.1e+03     3   0.2    832    880    837    874     38     76     Inner tegument protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BOLF1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2006543007@2006944706@2007097447.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2006543007@2006944706@2007097447.txt data/models_hmm/2006543007@2006944706@2007097447.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:10 2021
+# [ok]

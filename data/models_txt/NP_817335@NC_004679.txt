@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q859K6|PORTL_BP44A   427.8  2.1e-128   1   1.0   9.6    Portal protein OS=Staphylococcus phage 44AHJD OX=204086 PE=3 SV=1
+sp|Q37891|PORTL_BPB03    34.1   1.4e-08   1   1.6   5.7    Portal protein OS=Bacillus phage B103 OX=10778 GN=10 PE=3 SV=1
+sp|P07535|PORTL_BPPZA    33.2   2.7e-08   1   1.2   3.4    Portal protein OS=Bacillus phage PZA OX=10757 GN=10 PE=3 SV=1
+sp|P04332|PORTL_BPPH2    29.3   4.1e-07   1   1.2   6.8    Portal protein OS=Bacillus phage phi29 OX=10756 GN=10 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q859K6|PORTL_BP44A   427.6  2.4e-128     1   9.6      1    249      2    249     84    317     Portal protein OS=Staphylococcus phage 44AHJD OX=204086 PE=3 SV=1
+sp|P07535|PORTL_BPPZA    32.9   3.3e-08     1   3.4     11    300    116    289    129    304     Portal protein OS=Bacillus phage PZA OX=10757 GN=10 PE=3 SV=1
+sp|Q37891|PORTL_BPB03    32.8   3.5e-08     1   5.6    118    298    181    287    195    303     Portal protein OS=Bacillus phage B103 OX=10778 GN=10 PE=3 SV=1
+sp|P04332|PORTL_BPPH2    29.1   4.8e-07     1   6.8      6    303    119    289    132    304     Portal protein OS=Bacillus phage phi29 OX=10756 GN=10 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_817335@NC_004679.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_817335@NC_004679.txt data/models_hmm/NP_817335@NC_004679.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:25 2021
+# [ok]

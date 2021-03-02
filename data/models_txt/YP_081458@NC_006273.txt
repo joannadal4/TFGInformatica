@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HI32|IR10_HCMVM   300.7   3.2e-90   1   1.0   2.1    Protein IRL10 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL10 PE=3 SV=1
+sp|P16808|IR10_HCMVA   283.3   7.1e-85   1   1.0   1.5    Protein IRL10 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|O55743|137R_IIV6     15.2     0.015   1   1.0   0.1    Uncharacterized protein 137R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-137R PE=3 SV=1
+sp|O10331|Y078_NPVOP    12.0      0.14   2   1.8   0.2    Uncharacterized 11.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF81 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HI32|IR10_HCMVM   300.6   3.5e-90     1   2.1      1    170      1    167      1    174     Protein IRL10 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL10 PE=3 SV=1
+sp|P16808|IR10_HCMVA   283.1   7.8e-85     1   1.5      1    171      1    168      1    174     Protein IRL10 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|O55743|137R_IIV6     14.9     0.018     1   0.1      2     56      4     53     89    134     Uncharacterized protein 137R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-137R PE=3 SV=1
+sp|O10331|Y078_NPVOP    10.0      0.58     2   0.1     47    104     59     96     81    119     Uncharacterized 11.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF81 PE=4 SV=1
+sp|O10331|Y078_NPVOP     0.0   6.7e+02     1   0.0      9     42     13     30    143    160     Uncharacterized 11.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF81 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_081458@NC_006273.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_081458@NC_006273.txt data/models_hmm/YP_081458@NC_006273.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:03 2021
+# [ok]

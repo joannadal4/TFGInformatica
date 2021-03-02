@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q02838|TAT_SIVG1     15.2     0.013   1   1.0   4.3    Protein Tat OS=Simian immunodeficiency virus agm.grivet (isolate AGM gr-1) OX=31684 GN=tat PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q02838|TAT_SIVG1     15.1     0.015     1   4.3     15     94     21     92     64    133     Protein Tat OS=Simian immunodeficiency virus agm.grivet (isolate AGM gr-1) OX=31684 GN=tat PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004936107@NC_012783.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004936107@NC_012783.txt data/models_hmm/YP_004936107@NC_012783.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:51 2021
+# [ok]

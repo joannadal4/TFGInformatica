@@ -1,0 +1,191 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36734|VL1_HPV14    826.7  6.7e-249   1   1.0   0.2    Major capsid protein L1 OS=Human papillomavirus type 14 OX=10605 GN=L1 PE=3 SV=1
+sp|P50787|VL1_HPV21    823.4  6.6e-248   1   1.0   0.1    Major capsid protein L1 OS=Human papillomavirus type 21 OX=31548 GN=L1 PE=3 SV=1
+sp|P50786|VL1_HPV20    822.8    1e-247   1   1.0   0.1    Major capsid protein L1 OS=Human papillomavirus type 20 OX=31547 GN=L1 PE=3 SV=1
+sp|P06417|VL1_HPV08    821.6  2.4e-247   1   1.0   0.9    Major capsid protein L1 OS=Human papillomavirus type 8 OX=10579 GN=L1 PE=3 SV=1
+sp|P36733|VL1_HPV12    821.4  2.6e-247   1   1.0   0.5    Major capsid protein L1 OS=Human papillomavirus type 12 OX=10604 GN=L1 PE=3 SV=1
+sp|Q02051|VL1_HPV25    820.3  5.9e-247   1   1.0   0.1    Major capsid protein L1 OS=Human papillomavirus type 25 OX=10609 GN=L1 PE=3 SV=2
+sp|Q02050|VL1_HPV19    819.8  7.8e-247   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 19 OX=10608 GN=L1 PE=3 SV=2
+sp|P36742|VL1_HPV49    817.8  3.3e-246   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 49 OX=10616 GN=L1 PE=3 SV=1
+sp|P06917|VL1_HPV05    814.9  2.4e-245   1   1.0   0.5    Major capsid protein L1 OS=Human papillomavirus type 5 OX=333923 GN=L1 PE=3 SV=2
+sp|P50814|VL1_HPV38    811.1  3.5e-244   1   1.0   0.1    Major capsid protein L1 OS=Human papillomavirus type 38 OX=37959 GN=L1 PE=3 SV=2
+sp|Q07860|VL1_HPV04    810.7  4.6e-244   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 4 OX=10617 GN=L1 PE=3 SV=1
+sp|P22424|VL1_HPV47    810.4  5.5e-244   1   1.0   0.3    Major capsid protein L1 OS=Human papillomavirus type 47 OX=10594 GN=L1 PE=3 SV=1
+sp|P50812|VL1_HPV36    810.3  6.3e-244   1   1.0   0.2    Major capsid protein L1 OS=Human papillomavirus type 36 OX=37957 GN=L1 PE=3 SV=1
+sp|P26537|VL1_HPV5B    810.3  6.3e-244   1   1.0   0.2    Major capsid protein L1 OS=Human papillomavirus type 5b OX=10599 GN=L1 PE=3 SV=1
+sp|Q02515|VL1_HPV30    810.1  7.2e-244   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 30 OX=10611 GN=L1 PE=3 SV=2
+sp|Q07874|VL1_HPV65    809.8  8.4e-244   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 65 OX=28312 GN=L1 PE=3 SV=1
+sp|P50790|VL1_HPV24    808.8  1.7e-243   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 24 OX=37956 GN=L1 PE=3 SV=1
+sp|Q02480|VL1_HPV09    807.4  4.6e-243   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 9 OX=10621 GN=L1 PE=3 SV=2
+sp|P03101|VL1_HPV16    806.0  1.2e-242   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 16 OX=333760 GN=L1 PE=1 SV=3
+sp|P36737|VL1_HPV32    804.8  2.9e-242   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 32 OX=333763 GN=L1 PE=3 SV=1
+sp|P22163|VL1_RHPV1    803.9  5.2e-242   1   1.0   0.0    Major capsid protein L1 OS=Rhesus papillomavirus type 1 OX=10570 GN=L1 PE=3 SV=2
+sp|Q05113|VL1_HPV53    803.5  6.9e-242   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 53 OX=333765 GN=L1 PE=3 SV=2
+sp|P50791|VL1_HPV28    801.5    3e-241   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 28 OX=37111 GN=L1 PE=3 SV=1
+sp|P27232|VL1_HPV35    801.3  3.3e-241   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 35 OX=10587 GN=L1 PE=1 SV=2
+sp|P50813|VL1_HPV37    801.2  3.6e-241   1   1.0   0.1    Major capsid protein L1 OS=Human papillomavirus type 37 OX=37958 GN=L1 PE=3 SV=2
+sp|P06794|VL1_HPV18    801.2  3.6e-241   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 18 OX=333761 GN=L1 PE=1 SV=1
+sp|P17388|VL1_HPV31    800.4  6.1e-241   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 31 OX=10585 GN=L1 PE=3 SV=1
+sp|P50793|VL1_HPV70    800.1  7.4e-241   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 70 OX=39457 GN=L1 PE=3 SV=1
+sp|P36743|VL1_HPV56    799.4  1.3e-240   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 56 OX=10596 GN=L1 PE=3 SV=1
+sp|Q02273|VL1_HPV13    798.8  1.9e-240   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 13 OX=10573 GN=L1 PE=3 SV=1
+sp|Q07861|VL1_HPV63    798.8  1.9e-240   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 63 OX=28311 GN=L1 PE=3 SV=1
+sp|P50819|VL1_HPV54    798.5  2.4e-240   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 54 OX=1671798 GN=L1 PE=3 SV=2
+sp|Q05137|VL1_HPV15    797.4  5.2e-240   1   1.0   0.1    Major capsid protein L1 OS=Human papillomavirus type 15 OX=10606 GN=L1 PE=3 SV=2
+sp|P36741|VL1_HPV45    797.0  6.7e-240   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 45 OX=10593 GN=L1 PE=3 SV=1
+sp|P50820|VL1_HPV55    796.4  9.9e-240   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 55 OX=37114 GN=L1 PE=3 SV=2
+sp|P27964|VL1_HPVME    796.3  1.1e-239   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type ME180 OX=10602 GN=L1 PE=3 SV=1
+sp|P36735|VL1_HPV26    796.3  1.1e-239   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 26 OX=333762 GN=L1 PE=3 SV=1
+sp|P50825|VL1_HPV67    796.2  1.1e-239   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 67 OX=37120 GN=L1 PE=3 SV=2
+sp|P27233|VL1_HPV42    795.7  1.6e-239   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 42 OX=10590 GN=L1 PE=3 SV=1
+sp|P54669|VL1_HPV68    795.7  1.6e-239   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 68 OX=45240 GN=L1 PE=3 SV=1
+sp|P50792|VL1_HPV29    794.4  4.2e-239   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 29 OX=37112 GN=L1 PE=3 SV=1
+sp|P36731|VL1_HPV03    794.2  4.6e-239   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 3 OX=10614 GN=L1 PE=3 SV=1
+sp|Q02514|VL1_HPV17    794.1    5e-239   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 17 OX=10607 GN=L1 PE=3 SV=2
+sp|P36732|VL1_HPV10    793.9  5.7e-239   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 10 OX=333759 GN=L1 PE=3 SV=1
+sp|P03102|VL1_CRPVK    793.7  6.6e-239   1   1.0   2.0    Major capsid protein L1 OS=Cottontail rabbit papillomavirus (strain Kansas) OX=31553 GN=L1 PE=3 SV=1
+sp|P06416|VL1_HPV33    793.7  6.8e-239   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 33 OX=10586 GN=L1 PE=1 SV=1
+sp|P24838|VL1_HPV39    793.4  8.3e-239   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 39 OX=10588 GN=L1 PE=3 SV=1
+sp|Q05138|VL1_HPV52    792.9  1.1e-238   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 52 OX=10618 GN=L1 PE=1 SV=2
+sp|Q02274|VL1_PCPV1    792.8  1.3e-238   1   1.0   0.0    Major capsid protein L1 OS=Pygmy chimpanzee papillomavirus type 1 OX=10576 GN=L1 PE=3 SV=1
+sp|P50816|VL1_HPV44    791.3  3.5e-238   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 44 OX=10592 GN=L1 PE=3 SV=2
+sp|P04012|VL1_HPV11    790.7  5.3e-238   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 11 OX=10580 GN=L1 PE=1 SV=1
+sp|P26535|VL1_HPV58    790.2  7.4e-238   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 58 OX=10598 GN=L1 PE=1 SV=1
+sp|Q89828|VL1_COPV6    789.2  1.6e-237   1   1.0   0.0    Major capsid protein L1 OS=Canine oral papillomavirus (strain Y62) OX=766192 GN=L1 PE=3 SV=1
+sp|P50789|VL1_HPV23    788.1  3.3e-237   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 23 OX=37955 GN=L1 PE=3 SV=1
+sp|P36738|VL1_HPV34    787.4  5.5e-237   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 34 OX=333764 GN=L1 PE=3 SV=1
+sp|P69898|VL1_HPV6A    785.8  1.7e-236   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 6a OX=37122 GN=L1 PE=1 SV=1
+sp|P69899|VL1_HPV6B    785.8  1.7e-236   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 6b OX=10600 GN=L1 PE=3 SV=1
+sp|P50788|VL1_HPV22    785.5  2.1e-236   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 22 OX=37954 GN=L1 PE=3 SV=1
+sp|P03099|VL1_HPV1     785.1  2.6e-236   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 1 OX=10583 GN=L1 PE=3 SV=2
+sp|Q80961|VL1_HPV66    783.9    6e-236   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 66 OX=37119 GN=L1 PE=3 SV=1
+sp|Q9IR52|VL1_HPV82    780.8  5.5e-235   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 82 OX=129724 GN=L1 PE=3 SV=1
+sp|P50822|VL1_HPV61    779.8  1.1e-234   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 61 OX=37116 GN=L1 PE=3 SV=2
+sp|P50821|VL1_HPV60    778.4  2.8e-234   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 60 OX=40540 GN=L1 PE=3 SV=2
+sp|P50823|VL1_HPV62    778.4  2.9e-234   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 62 OX=334210 GN=L1 PE=3 SV=2
+sp|P25486|VL1_HPV2A    778.1  3.4e-234   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 2a OX=10584 GN=L1 PE=3 SV=1
+sp|P50817|VL1_HPV48    777.9  4.1e-234   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 48 OX=40538 GN=L1 PE=3 SV=2
+sp|P22162|VL1_HPV57    774.9  3.2e-233   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 57 OX=333753 GN=L1 PE=3 SV=1
+sp|P26536|VL1_HPV51    773.8  7.1e-233   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 51 OX=10595 GN=L1 PE=3 SV=1
+sp|Q05136|VL1_HPV07    773.4  9.7e-233   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 7 OX=10620 GN=L1 PE=3 SV=2
+sp|P50805|VL1_BPV3     773.2  1.1e-232   1   1.0   0.0    Major capsid protein L1 OS=Bovine papillomavirus type 3 OX=10561 GN=L1 PE=3 SV=2
+sp|P27557|VL1_HPV41    771.9  2.7e-232   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 41 OX=10589 GN=L1 PE=3 SV=2
+sp|P36736|VL1_HPV27    771.7  3.1e-232   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 27 OX=333752 GN=L1 PE=3 SV=1
+sp|P50818|VL1_HPV50    770.9  5.3e-232   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 50 OX=40539 GN=L1 PE=3 SV=2
+sp|P36740|VL1_HPV40    769.5  1.4e-231   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 40 OX=10615 GN=L1 PE=3 SV=1
+sp|P50815|VL1_HPV43    766.6  1.1e-230   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 43 OX=10591 GN=L1 PE=3 SV=2
+sp|P50826|VL1_HPV69    765.4  2.5e-230   1   1.0   0.0    Major capsid protein L1 OS=Human papillomavirus type 69 OX=37121 GN=L1 PE=3 SV=2
+sp|P11326|VL1_PAPVE    759.6  1.4e-228   1   1.0   0.0    Major capsid protein L1 OS=European elk papillomavirus OX=10565 GN=L1 PE=3 SV=1
+sp|P03103|VL1_BPV1     749.5  1.7e-225   1   1.0   0.0    Major capsid protein L1 OS=Bovine papillomavirus type 1 OX=337052 GN=L1 PE=1 SV=1
+sp|P08341|VL1_BPV4     745.9  2.1e-224   1   1.0   0.1    Major capsid protein L1 OS=Bovine papillomavirus type 4 OX=10562 GN=L1 PE=3 SV=1
+sp|P06458|VL1_BPV2     744.7  4.8e-224   1   1.0   0.0    Major capsid protein L1 OS=Bovine papillomavirus type 2 OX=2758382 GN=L1 PE=3 SV=2
+sp|P50806|VL1_BPV5     734.1  7.8e-221   1   1.0   0.0    Major capsid protein L1 OS=Bovine papillomavirus type 5 OX=40537 GN=L1 PE=3 SV=2
+sp|P03104|VL1_PAPVD    716.9  1.2e-215   1   1.0   0.0    Major capsid protein L1 OS=Deer papillomavirus OX=10564 GN=L1 PE=3 SV=1
+sp|P50824|VL1_HPV64    224.9   1.7e-66   1   1.0   0.1    Major capsid protein L1 (Fragment) OS=Human papillomavirus type 64 OX=37118 GN=L1 PE=3 SV=1
+sp|P50807|VL1_BPV6     162.5   1.4e-47   1   1.0   0.1    Major capsid protein L1 (Fragment) OS=Bovine papillomavirus type 6 OX=10563 GN=L1 PE=3 SV=1
+sp|P06456|VL1_FPVL     105.3   3.2e-30   1   1.0   0.6    Major capsid protein L1 (Fragment) OS=Avian papillomavirus fpv-l OX=10577 GN=L1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36734|VL1_HPV14    826.5  7.5e-249     1   0.2      1    518      1    517      1    501     Major capsid protein L1 OS=Human papillomavirus type 14 OX=10605 GN=L1 PE=3 SV=1
+sp|P50787|VL1_HPV21    823.2  7.4e-248     1   0.1      1    518      1    517      1    501     Major capsid protein L1 OS=Human papillomavirus type 21 OX=31548 GN=L1 PE=3 SV=1
+sp|P50786|VL1_HPV20    822.6  1.1e-247     1   0.1      1    516      1    515      1    501     Major capsid protein L1 OS=Human papillomavirus type 20 OX=31547 GN=L1 PE=3 SV=1
+sp|P06417|VL1_HPV08    821.4  2.7e-247     1   0.9      1    514      1    513      1    501     Major capsid protein L1 OS=Human papillomavirus type 8 OX=10579 GN=L1 PE=3 SV=1
+sp|P36733|VL1_HPV12    821.2  2.9e-247     1   0.5      1    517      1    516      1    501     Major capsid protein L1 OS=Human papillomavirus type 12 OX=10604 GN=L1 PE=3 SV=1
+sp|Q02051|VL1_HPV25    820.1  6.6e-247     1   0.1      1    517      1    516      1    501     Major capsid protein L1 OS=Human papillomavirus type 25 OX=10609 GN=L1 PE=3 SV=2
+sp|Q02050|VL1_HPV19    819.7  8.9e-247     1   0.0     30    546     30    545      1    501     Major capsid protein L1 OS=Human papillomavirus type 19 OX=10608 GN=L1 PE=3 SV=2
+sp|P36742|VL1_HPV49    817.6  3.6e-246     1   0.0      1    509      3    509      2    501     Major capsid protein L1 OS=Human papillomavirus type 49 OX=10616 GN=L1 PE=3 SV=1
+sp|P06917|VL1_HPV05    814.8  2.7e-245     1   0.5      1    516      1    515      1    501     Major capsid protein L1 OS=Human papillomavirus type 5 OX=333923 GN=L1 PE=3 SV=2
+sp|P50814|VL1_HPV38    810.9  3.9e-244     1   0.1      1    510      1    509      1    501     Major capsid protein L1 OS=Human papillomavirus type 38 OX=37959 GN=L1 PE=3 SV=2
+sp|Q07860|VL1_HPV04    810.5  5.2e-244     1   0.0      1    515      1    513      1    500     Major capsid protein L1 OS=Human papillomavirus type 4 OX=10617 GN=L1 PE=3 SV=1
+sp|P22424|VL1_HPV47    810.3  6.2e-244     1   0.3      1    514      1    513      1    501     Major capsid protein L1 OS=Human papillomavirus type 47 OX=10594 GN=L1 PE=3 SV=1
+sp|P50812|VL1_HPV36    810.1    7e-244     1   0.2      1    516      1    515      1    501     Major capsid protein L1 OS=Human papillomavirus type 36 OX=37957 GN=L1 PE=3 SV=1
+sp|P26537|VL1_HPV5B    810.1  7.1e-244     1   0.2      1    525      1    524      1    501     Major capsid protein L1 OS=Human papillomavirus type 5b OX=10599 GN=L1 PE=3 SV=1
+sp|Q02515|VL1_HPV30    809.9  8.1e-244     1   0.0      8    508      8    508      1    501     Major capsid protein L1 OS=Human papillomavirus type 30 OX=10611 GN=L1 PE=3 SV=2
+sp|Q07874|VL1_HPV65    809.6  9.7e-244     1   0.0      1    514      1    513      1    501     Major capsid protein L1 OS=Human papillomavirus type 65 OX=28312 GN=L1 PE=3 SV=1
+sp|P50790|VL1_HPV24    808.7  1.9e-243     1   0.0      1    512      1    511      1    500     Major capsid protein L1 OS=Human papillomavirus type 24 OX=37956 GN=L1 PE=3 SV=1
+sp|Q02480|VL1_HPV09    807.3  5.1e-243     1   0.0      1    507      1    507      1    501     Major capsid protein L1 OS=Human papillomavirus type 9 OX=10621 GN=L1 PE=3 SV=2
+sp|P03101|VL1_HPV16    805.8  1.4e-242     1   0.0      1    504      1    503      1    501     Major capsid protein L1 OS=Human papillomavirus type 16 OX=333760 GN=L1 PE=1 SV=3
+sp|P36737|VL1_HPV32    804.6  3.3e-242     1   0.0      1    502      1    501      1    501     Major capsid protein L1 OS=Human papillomavirus type 32 OX=333763 GN=L1 PE=3 SV=1
+sp|P22163|VL1_RHPV1    803.7  6.3e-242     1   0.0      1    500      1    499      1    501     Major capsid protein L1 OS=Rhesus papillomavirus type 1 OX=10570 GN=L1 PE=3 SV=2
+sp|Q05113|VL1_HPV53    803.4  7.8e-242     1   0.0      1    499      1    499      1    501     Major capsid protein L1 OS=Human papillomavirus type 53 OX=333765 GN=L1 PE=3 SV=2
+sp|P50791|VL1_HPV28    801.1  3.7e-241     1   0.0      1    501      1    500      1    501     Major capsid protein L1 OS=Human papillomavirus type 28 OX=37111 GN=L1 PE=3 SV=1
+sp|P27232|VL1_HPV35    801.1  3.7e-241     1   0.0      1    501      1    500      1    501     Major capsid protein L1 OS=Human papillomavirus type 35 OX=10587 GN=L1 PE=1 SV=2
+sp|P50813|VL1_HPV37    801.0    4e-241     1   0.1      1    507      1    506      1    500     Major capsid protein L1 OS=Human papillomavirus type 37 OX=37958 GN=L1 PE=3 SV=2
+sp|P06794|VL1_HPV18    800.9  4.3e-241     1   0.0     62    565     62    564      1    501     Major capsid protein L1 OS=Human papillomavirus type 18 OX=333761 GN=L1 PE=1 SV=1
+sp|P17388|VL1_HPV31    800.1  7.6e-241     1   0.0      1    503      1    502      1    501     Major capsid protein L1 OS=Human papillomavirus type 31 OX=10585 GN=L1 PE=3 SV=1
+sp|P50793|VL1_HPV70    799.9  8.5e-241     1   0.0      1    503      1    501      1    500     Major capsid protein L1 OS=Human papillomavirus type 70 OX=39457 GN=L1 PE=3 SV=1
+sp|P36743|VL1_HPV56    799.2  1.4e-240     1   0.0     36    534     36    534      1    501     Major capsid protein L1 OS=Human papillomavirus type 56 OX=10596 GN=L1 PE=3 SV=1
+sp|Q02273|VL1_HPV13    798.7  2.1e-240     1   0.0      1    499      1    497      3    500     Major capsid protein L1 OS=Human papillomavirus type 13 OX=10573 GN=L1 PE=3 SV=1
+sp|Q07861|VL1_HPV63    798.6  2.1e-240     1   0.0      1    507      1    506      1    501     Major capsid protein L1 OS=Human papillomavirus type 63 OX=28311 GN=L1 PE=3 SV=1
+sp|P50819|VL1_HPV54    798.3  2.6e-240     1   0.0      1    497      1    494      3    500     Major capsid protein L1 OS=Human papillomavirus type 54 OX=1671798 GN=L1 PE=3 SV=2
+sp|Q05137|VL1_HPV15    797.2  5.8e-240     1   0.1      1    507      1    506      1    500     Major capsid protein L1 OS=Human papillomavirus type 15 OX=10606 GN=L1 PE=3 SV=2
+sp|P36741|VL1_HPV45    796.8  7.8e-240     1   0.0     27    536     27    534      1    500     Major capsid protein L1 OS=Human papillomavirus type 45 OX=10593 GN=L1 PE=3 SV=1
+sp|P50820|VL1_HPV55    796.3  1.1e-239     1   0.0      1    501      1    500      3    501     Major capsid protein L1 OS=Human papillomavirus type 55 OX=37114 GN=L1 PE=3 SV=2
+sp|P36735|VL1_HPV26    796.1  1.2e-239     1   0.0      1    503      1    500      1    499     Major capsid protein L1 OS=Human papillomavirus type 26 OX=333762 GN=L1 PE=3 SV=1
+sp|P27964|VL1_HPVME    796.1  1.3e-239     1   0.0      1    504      1    502      1    500     Major capsid protein L1 OS=Human papillomavirus type ME180 OX=10602 GN=L1 PE=3 SV=1
+sp|P50825|VL1_HPV67    796.1  1.3e-239     1   0.0     30    529     30    526      1    500     Major capsid protein L1 OS=Human papillomavirus type 67 OX=37120 GN=L1 PE=3 SV=2
+sp|P54669|VL1_HPV68    795.5  1.9e-239     1   0.0      1    504      1    502      1    500     Major capsid protein L1 OS=Human papillomavirus type 68 OX=45240 GN=L1 PE=3 SV=1
+sp|P27233|VL1_HPV42    795.5  1.9e-239     1   0.0      1    501      1    500      1    501     Major capsid protein L1 OS=Human papillomavirus type 42 OX=10590 GN=L1 PE=3 SV=1
+sp|P50792|VL1_HPV29    794.1  5.1e-239     1   0.0      1    502      1    501      1    501     Major capsid protein L1 OS=Human papillomavirus type 29 OX=37112 GN=L1 PE=3 SV=1
+sp|Q02514|VL1_HPV17    793.9  5.6e-239     1   0.0      1    507      1    506      1    500     Major capsid protein L1 OS=Human papillomavirus type 17 OX=10607 GN=L1 PE=3 SV=2
+sp|P36731|VL1_HPV03    793.9  5.6e-239     1   0.0     29    531     29    530      1    501     Major capsid protein L1 OS=Human papillomavirus type 3 OX=10614 GN=L1 PE=3 SV=1
+sp|P36732|VL1_HPV10    793.6  7.1e-239     1   0.0     29    530     29    529      1    501     Major capsid protein L1 OS=Human papillomavirus type 10 OX=333759 GN=L1 PE=3 SV=1
+sp|P03102|VL1_CRPVK    793.5  7.4e-239     1   2.0      1    505      1    504      1    501     Major capsid protein L1 OS=Cottontail rabbit papillomavirus (strain Kansas) OX=31553 GN=L1 PE=3 SV=1
+sp|P06416|VL1_HPV33    793.5  7.6e-239     1   0.0      1    499      1    496      1    500     Major capsid protein L1 OS=Human papillomavirus type 33 OX=10586 GN=L1 PE=1 SV=1
+sp|P24838|VL1_HPV39    793.2  9.4e-239     1   0.0      1    504      1    502      1    500     Major capsid protein L1 OS=Human papillomavirus type 39 OX=10588 GN=L1 PE=3 SV=1
+sp|Q05138|VL1_HPV52    792.8  1.3e-238     1   0.0     27    529     27    527      1    499     Major capsid protein L1 OS=Human papillomavirus type 52 OX=10618 GN=L1 PE=1 SV=2
+sp|Q02274|VL1_PCPV1    792.6  1.4e-238     1   0.0      1    502      1    501      3    501     Major capsid protein L1 OS=Pygmy chimpanzee papillomavirus type 1 OX=10576 GN=L1 PE=3 SV=1
+sp|P50816|VL1_HPV44    791.2  3.9e-238     1   0.0      1    500      1    499      3    501     Major capsid protein L1 OS=Human papillomavirus type 44 OX=10592 GN=L1 PE=3 SV=2
+sp|P04012|VL1_HPV11    790.5  6.2e-238     1   0.0      1    500      1    498      3    500     Major capsid protein L1 OS=Human papillomavirus type 11 OX=10580 GN=L1 PE=1 SV=1
+sp|P26535|VL1_HPV58    790.1  8.4e-238     1   0.0     27    524     27    522      1    499     Major capsid protein L1 OS=Human papillomavirus type 58 OX=10598 GN=L1 PE=1 SV=1
+sp|Q89828|VL1_COPV6    789.0  1.8e-237     1   0.0      1    503      1    503      1    501     Major capsid protein L1 OS=Canine oral papillomavirus (strain Y62) OX=766192 GN=L1 PE=3 SV=1
+sp|P50789|VL1_HPV23    787.9  3.8e-237     1   0.0      1    505      1    503      1    500     Major capsid protein L1 OS=Human papillomavirus type 23 OX=37955 GN=L1 PE=3 SV=1
+sp|P36738|VL1_HPV34    787.2  6.3e-237     1   0.0     25    528     26    526      2    500     Major capsid protein L1 OS=Human papillomavirus type 34 OX=333764 GN=L1 PE=3 SV=1
+sp|P69898|VL1_HPV6A    785.5    2e-236     1   0.0      1    499      1    497      3    500     Major capsid protein L1 OS=Human papillomavirus type 6a OX=37122 GN=L1 PE=1 SV=1
+sp|P69899|VL1_HPV6B    785.5    2e-236     1   0.0      1    499      1    497      3    500     Major capsid protein L1 OS=Human papillomavirus type 6b OX=10600 GN=L1 PE=3 SV=1
+sp|P50788|VL1_HPV22    785.3  2.3e-236     1   0.0      1    509      1    507      1    500     Major capsid protein L1 OS=Human papillomavirus type 22 OX=37954 GN=L1 PE=3 SV=1
+sp|P03099|VL1_HPV1     785.0  2.9e-236     1   0.0      7    508      7    507      1    501     Major capsid protein L1 OS=Human papillomavirus type 1 OX=10583 GN=L1 PE=3 SV=2
+sp|Q80961|VL1_HPV66    783.8  6.8e-236     1   0.0      1    503      1    503      1    501     Major capsid protein L1 OS=Human papillomavirus type 66 OX=37119 GN=L1 PE=3 SV=1
+sp|Q9IR52|VL1_HPV82    780.6  6.2e-235     1   0.0      1    503      1    501      1    501     Major capsid protein L1 OS=Human papillomavirus type 82 OX=129724 GN=L1 PE=3 SV=1
+sp|P50822|VL1_HPV61    779.5  1.3e-234     1   0.0      1    504      1    503      1    501     Major capsid protein L1 OS=Human papillomavirus type 61 OX=37116 GN=L1 PE=3 SV=2
+sp|P50821|VL1_HPV60    778.3  3.2e-234     1   0.0      1    508      1    507      1    501     Major capsid protein L1 OS=Human papillomavirus type 60 OX=40540 GN=L1 PE=3 SV=2
+sp|P50823|VL1_HPV62    778.2  3.2e-234     1   0.0      1    503      1    502      1    501     Major capsid protein L1 OS=Human papillomavirus type 62 OX=334210 GN=L1 PE=3 SV=2
+sp|P25486|VL1_HPV2A    778.0  3.9e-234     1   0.0     17    510     17    507      1    500     Major capsid protein L1 OS=Human papillomavirus type 2a OX=10584 GN=L1 PE=3 SV=1
+sp|P50817|VL1_HPV48    777.7  4.6e-234     1   0.0      1    513      1    512      1    501     Major capsid protein L1 OS=Human papillomavirus type 48 OX=40538 GN=L1 PE=3 SV=2
+sp|P22162|VL1_HPV57    774.8  3.6e-233     1   0.0     17    510     17    507      1    500     Major capsid protein L1 OS=Human papillomavirus type 57 OX=333753 GN=L1 PE=3 SV=1
+sp|P26536|VL1_HPV51    773.6  8.3e-233     1   0.0      1    503      1    502      1    501     Major capsid protein L1 OS=Human papillomavirus type 51 OX=10595 GN=L1 PE=3 SV=1
+sp|Q05136|VL1_HPV07    773.1  1.1e-232     1   0.0      1    504      1    503      3    501     Major capsid protein L1 OS=Human papillomavirus type 7 OX=10620 GN=L1 PE=3 SV=2
+sp|P50805|VL1_BPV3     773.0  1.2e-232     1   0.0      1    509      1    508      1    501     Major capsid protein L1 OS=Bovine papillomavirus type 3 OX=10561 GN=L1 PE=3 SV=2
+sp|P27557|VL1_HPV41    771.7  3.1e-232     1   0.0     22    534     22    533      1    501     Major capsid protein L1 OS=Human papillomavirus type 41 OX=10589 GN=L1 PE=3 SV=2
+sp|P36736|VL1_HPV27    771.4  3.8e-232     1   0.0    110    593    110    589      1    486     Major capsid protein L1 OS=Human papillomavirus type 27 OX=333752 GN=L1 PE=3 SV=1
+sp|P50818|VL1_HPV50    770.8  5.9e-232     1   0.0      1    515      1    514      1    501     Major capsid protein L1 OS=Human papillomavirus type 50 OX=40539 GN=L1 PE=3 SV=2
+sp|P36740|VL1_HPV40    769.3  1.6e-231     1   0.0      1    504      1    502      3    500     Major capsid protein L1 OS=Human papillomavirus type 40 OX=10615 GN=L1 PE=3 SV=1
+sp|P50815|VL1_HPV43    766.3  1.3e-230     1   0.0     27    530     28    529      2    501     Major capsid protein L1 OS=Human papillomavirus type 43 OX=10591 GN=L1 PE=3 SV=2
+sp|P50826|VL1_HPV69    765.1  3.1e-230     1   0.0      1    505      1    503      1    501     Major capsid protein L1 OS=Human papillomavirus type 69 OX=37121 GN=L1 PE=3 SV=2
+sp|P11326|VL1_PAPVE    759.5  1.6e-228     1   0.0      1    501      1    499      1    500     Major capsid protein L1 OS=European elk papillomavirus OX=10565 GN=L1 PE=3 SV=1
+sp|P03103|VL1_BPV1     749.3  1.9e-225     1   0.0      1    495      1    495      1    501     Major capsid protein L1 OS=Bovine papillomavirus type 1 OX=337052 GN=L1 PE=1 SV=1
+sp|P08341|VL1_BPV4     745.7  2.4e-224     1   0.1      1    505      1    504      1    501     Major capsid protein L1 OS=Bovine papillomavirus type 4 OX=10562 GN=L1 PE=3 SV=1
+sp|P06458|VL1_BPV2     744.5  5.5e-224     1   0.0      1    496      1    494      1    500     Major capsid protein L1 OS=Bovine papillomavirus type 2 OX=2758382 GN=L1 PE=3 SV=2
+sp|P50806|VL1_BPV5     733.9  8.7e-221     1   0.0      1    494      1    492      1    501     Major capsid protein L1 OS=Bovine papillomavirus type 5 OX=40537 GN=L1 PE=3 SV=2
+sp|P03104|VL1_PAPVD    716.7  1.5e-215     1   0.0      1    497      1    475      1    478     Major capsid protein L1 OS=Deer papillomavirus OX=10564 GN=L1 PE=3 SV=1
+sp|P50824|VL1_HPV64    224.8   1.9e-66     1   0.1      1    153      1    153    316    467     Major capsid protein L1 (Fragment) OS=Human papillomavirus type 64 OX=37118 GN=L1 PE=3 SV=1
+sp|P50807|VL1_BPV6     162.4   1.6e-47     1   0.1      1    137      1    136    364    501     Major capsid protein L1 (Fragment) OS=Bovine papillomavirus type 6 OX=10563 GN=L1 PE=3 SV=1
+sp|P06456|VL1_FPVL     105.2   3.4e-30     1   0.6      1    110      2    110    269    382     Major capsid protein L1 (Fragment) OS=Avian papillomavirus fpv-l OX=10577 GN=L1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001648805@NC_010226.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001648805@NC_010226.txt data/models_hmm/YP_001648805@NC_010226.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:37 2021
+# [ok]

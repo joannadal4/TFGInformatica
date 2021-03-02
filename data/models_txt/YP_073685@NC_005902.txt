@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q196Y1|VF282_IIV3    544.9  8.4e-164   1   1.0  25.0    Putative transcription factor 079L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-079L PE=3 SV=1
+sp|Q91FP2|VF282_IIV6    501.4  1.4e-150   1   1.0  26.7    Putative transcription factor 282R OS=Invertebrate iridescent virus 6 OX=176652 PE=3 SV=1
+sp|Q6GZX4|001R_FRG3G    300.8   1.4e-89   1   1.2   0.1    Putative transcription factor 001R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-001R PE=4 SV=1
+sp|Q98544|Y494R_PBCV1    57.2   1.4e-15   1   1.3  19.1    Putative transcription factor A494R OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=A494R PE=3 SV=1
+sp|A7IXI8|Y663R_PBCVN    50.1   2.2e-13   1   1.1  24.6    Putative transcription factor B663R OS=Paramecium bursaria Chlorella virus NY2A OX=46021 GN=B663R PE=3 SV=1
+sp|Q5UQM6|YR429_MIMIV    47.2   1.6e-12   2   2.3  15.0    Putative transcription factor R429 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R429 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q196Y1|VF282_IIV3    544.8  9.2e-164     1  25.0      1    394     11    393      3    362     Putative transcription factor 079L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-079L PE=3 SV=1
+sp|Q91FP2|VF282_IIV6    501.2  1.6e-150     1  26.7      1    383      1    382      1    362     Putative transcription factor 282R OS=Invertebrate iridescent virus 6 OX=176652 PE=3 SV=1
+sp|Q6GZX4|001R_FRG3G    300.2     2e-89     1   0.1      4    256     13    256     99    362     Putative transcription factor 001R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-001R PE=4 SV=1
+sp|Q98544|Y494R_PBCV1    56.5   2.3e-15     1  19.1      9    360     28    358     22    361     Putative transcription factor A494R OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=A494R PE=3 SV=1
+sp|A7IXI8|Y663R_PBCVN    49.6   2.9e-13     1  24.6      8    360     26    357     21    360     Putative transcription factor B663R OS=Paramecium bursaria Chlorella virus NY2A OX=46021 GN=B663R PE=3 SV=1
+sp|Q5UQM6|YR429_MIMIV    47.2   1.6e-12     2  15.0    163    431    188    429    110    361     Putative transcription factor R429 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R429 PE=3 SV=1
+sp|Q5UQM6|YR429_MIMIV    -2.1   1.5e+03     1   8.7      2    168     33    106     15     80     Putative transcription factor R429 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R429 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_073685@NC_005902.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_073685@NC_005902.txt data/models_hmm/YP_073685@NC_005902.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:00 2021
+# [ok]

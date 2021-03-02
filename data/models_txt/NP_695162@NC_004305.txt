@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQW6|YR387_MIMIV     7.1       5.7   5   4.2  10.1    Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQW6|YR387_MIMIV     5.4        19     5   0.1    220    258    228    253     63     88     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q5UQW6|YR387_MIMIV     3.0     1e+02     2   0.3     58    106     73     98     65     90     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q5UQW6|YR387_MIMIV     1.1   4.1e+02     4   0.0    143    216    162    193     56     87     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q5UQW6|YR387_MIMIV     0.2   7.7e+02     1   0.3     21     75     35     55     60     80     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q5UQW6|YR387_MIMIV     0.1   8.6e+02     3   0.0     94    163     98    160     43    106     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_695162@NC_004305.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_695162@NC_004305.txt data/models_hmm/NP_695162@NC_004305.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:19 2021
+# [ok]

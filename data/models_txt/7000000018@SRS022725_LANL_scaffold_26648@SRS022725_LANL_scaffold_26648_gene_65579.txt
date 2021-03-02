@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q1HVI8|EBNA5_EBVA8    20.9   0.00019   7   8.0  23.5    Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q1HVI8|EBNA5_EBVA8     4.6        24     2   0.2     65     78     68     76     16     24     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+sp|Q1HVI8|EBNA5_EBVA8     4.6        24     3   0.2    131    144    134    142     16     24     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+sp|Q1HVI8|EBNA5_EBVA8     4.6        24     4   0.2    197    210    200    208     16     24     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+sp|Q1HVI8|EBNA5_EBVA8     4.6        24     5   0.2    263    276    266    274     16     24     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+sp|Q1HVI8|EBNA5_EBVA8     4.6        24     6   0.2    329    342    332    340     16     24     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+sp|Q1HVI8|EBNA5_EBVA8     4.6        24     7   0.2    395    408    398    406     16     24     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+sp|Q1HVI8|EBNA5_EBVA8     4.5        26     1   0.0      1     12      2     10     16     24     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000018@SRS022725_LANL_scaffold_26648@SRS022725_LANL_scaffold_26648_gene_65579.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000018@SRS022725_LANL_scaffold_26648@SRS022725_LANL_scaffold_26648_gene_65579.txt data/models_hmm/7000000018@SRS022725_LANL_scaffold_26648@SRS022725_LANL_scaffold_26648_gene_65579.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:40 2021
+# [ok]

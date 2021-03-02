@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21080|E2_VACCC    1000.3  5.1e-301   1   1.0  45.3    Protein E2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=E2L PE=3 SV=1
+sp|P21604|E2_VACCW    1000.3  5.2e-301   1   1.0  45.1    Protein E2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR058 PE=1 SV=2
+sp|P33862|E2_VAR67     997.7  3.2e-300   1   1.0  46.0    Protein E2 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=E2L PE=3 SV=1
+sp|Q9J5B9|E2_FOWPN     774.4  1.1e-232   1   1.5  51.5    Protein E2 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV101 PE=3 SV=1
+sp|P39224|Y06Q_BPT4     14.7    0.0067   1   1.1   0.6    Uncharacterized 22.0 kDa protein in e-segB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y06Q PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21080|E2_VACCC    1000.1  5.8e-301     1  45.3      1    735      1    735      1    736     Protein E2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=E2L PE=3 SV=1
+sp|P21604|E2_VACCW    1000.1    6e-301     1  45.1      1    735      1    735      1    736     Protein E2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR058 PE=1 SV=2
+sp|P33862|E2_VAR67     997.5  3.6e-300     1  46.0      1    735      1    735      1    736     Protein E2 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=E2L PE=3 SV=1
+sp|Q9J5B9|E2_FOWPN     773.1  2.6e-232     1  51.5      1    717      1    716      1    731     Protein E2 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV101 PE=3 SV=1
+sp|P39224|Y06Q_BPT4     14.3    0.0089     1   0.6      2     99     20     95    496    571     Uncharacterized 22.0 kDa protein in e-segB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y06Q PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_073418@NC_002642.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_073418@NC_002642.txt data/models_hmm/NP_073418@NC_002642.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:47 2021
+# [ok]

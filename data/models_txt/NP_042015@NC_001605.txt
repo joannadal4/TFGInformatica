@@ -1,0 +1,181 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36821|VE7_HPV17     110.1   4.7e-32   1   1.0   2.3    Protein E7 OS=Human papillomavirus type 17 OX=10607 GN=E7 PE=3 SV=1
+sp|P50779|VE7_HPV21     107.5   2.9e-31   1   1.0   3.5    Protein E7 OS=Human papillomavirus type 21 OX=31548 GN=E7 PE=3 SV=1
+sp|P36820|VE7_HPV15     105.7   1.1e-30   1   1.0   1.7    Protein E7 OS=Human papillomavirus type 15 OX=10606 GN=E7 PE=3 SV=1
+sp|P50778|VE7_HPV20     104.0   3.7e-30   1   1.0   3.1    Protein E7 OS=Human papillomavirus type 20 OX=31547 GN=E7 PE=3 SV=1
+sp|P36823|VE7_HPV25     103.1   7.2e-30   1   1.0   1.9    Protein E7 OS=Human papillomavirus type 25 OX=10609 GN=E7 PE=3 SV=1
+sp|P22161|VE7_RHPV1     103.1   7.3e-30   1   1.6   2.9    Protein E7 OS=Rhesus papillomavirus type 1 OX=10570 GN=E7 PE=3 SV=1
+sp|P50781|VE7_HPV23     101.5   2.2e-29   1   1.0   0.8    Protein E7 OS=Human papillomavirus type 23 OX=37955 GN=E7 PE=3 SV=1
+sp|P36822|VE7_HPV19     100.9   3.5e-29   1   1.0   4.1    Protein E7 OS=Human papillomavirus type 19 OX=10608 GN=E7 PE=3 SV=1
+sp|Q80901|VE7_HPV37     100.9   3.5e-29   1   1.0   1.2    Protein E7 OS=Human papillomavirus type 37 OX=37958 GN=E7 PE=1 SV=1
+sp|Q80908|VE7_HPV38      98.7   1.7e-28   1   1.0   0.1    Protein E7 OS=Human papillomavirus type 38 OX=37959 GN=E7 PE=3 SV=1
+sp|P50784|VE7_HPV29      97.5   3.9e-28   1   1.0   3.1    Protein E7 OS=Human papillomavirus type 29 OX=37112 GN=E7 PE=3 SV=1
+sp|P06932|VE7_HPV05      97.4   4.3e-28   1   1.0   1.8    Protein E7 OS=Human papillomavirus type 5 OX=333923 GN=E7 PE=3 SV=1
+sp|P26559|VE7_HPV5B      96.3     9e-28   1   1.0   1.8    Protein E7 OS=Human papillomavirus type 5b OX=10599 GN=E7 PE=3 SV=1
+sp|P04020|VE7_HPV11      96.3   9.5e-28   1   1.0   3.8    Protein E7 OS=Human papillomavirus type 11 OX=10580 GN=E7 PE=1 SV=1
+sp|Q80921|VE7_HPV48      95.9   1.2e-27   1   1.0   1.1    Protein E7 OS=Human papillomavirus type 48 OX=40538 GN=E7 PE=3 SV=1
+sp|P06430|VE7_HPV08      95.5   1.6e-27   1   1.0   3.9    Protein E7 OS=Human papillomavirus type 8 OX=10579 GN=E7 PE=3 SV=1
+sp|P50780|VE7_HPV22      95.2     2e-27   1   1.0   0.5    Protein E7 OS=Human papillomavirus type 22 OX=37954 GN=E7 PE=3 SV=1
+sp|P06465|VE7_HPV1       95.0   2.3e-27   1   1.0   1.9    Protein E7 OS=Human papillomavirus type 1 OX=10583 GN=E7 PE=1 SV=1
+sp|P50782|VE7_HPV24      94.2     4e-27   1   1.0   0.6    Protein E7 OS=Human papillomavirus type 24 OX=37956 GN=E7 PE=3 SV=1
+sp|Q89759|VE7_COPV6      94.2   4.2e-27   1   1.0   3.0    Protein E7 OS=Canine oral papillomavirus (strain Y62) OX=766192 GN=E7 PE=3 SV=1
+sp|Q02272|VE7_PCPV1      94.1   4.4e-27   1   1.0   3.7    Protein E7 OS=Pygmy chimpanzee papillomavirus type 1 OX=10576 GN=E7 PE=3 SV=1
+sp|P36828|VE7_HPV34      93.8   5.4e-27   1   1.0   3.1    Protein E7 OS=Human papillomavirus type 34 OX=333764 GN=E7 PE=3 SV=1
+sp|P36819|VE7_HPV12      93.7   5.7e-27   1   1.0   2.2    Protein E7 OS=Human papillomavirus type 12 OX=10604 GN=E7 PE=3 SV=1
+sp|Q84292|VE7_HPV6A      93.5   6.8e-27   1   1.0   5.2    Protein E7 OS=Human papillomavirus type 6a OX=37122 GN=E7 PE=3 SV=1
+sp|P06464|VE7_HPV6B      93.5   6.9e-27   1   1.0   5.3    Protein E7 OS=Human papillomavirus type 6b OX=10600 GN=E7 PE=1 SV=1
+sp|P25485|VE7_HPV2A      93.3     8e-27   1   1.0   4.3    Protein E7 OS=Human papillomavirus type 2a OX=10584 GN=E7 PE=3 SV=1
+sp|P36830|VE7_HPV49      93.3   8.1e-27   1   1.0   0.1    Protein E7 OS=Human papillomavirus type 49 OX=10616 GN=E7 PE=3 SV=1
+sp|P50811|VE7_HPV36      93.1   9.3e-27   1   1.0   2.3    Protein E7 OS=Human papillomavirus type 36 OX=37957 GN=E7 PE=3 SV=1
+sp|P36825|VE7_HPV27      92.9     1e-26   1   1.0   3.0    Protein E7 OS=Human papillomavirus type 27 OX=333752 GN=E7 PE=3 SV=1
+sp|Q80914|VE7_HPV44      92.9   1.1e-26   1   1.0   1.9    Protein E7 OS=Human papillomavirus type 44 OX=10592 GN=E7 PE=3 SV=1
+sp|Q80949|VE7_HPV61      92.7   1.2e-26   1   1.0   6.0    Protein E7 OS=Human papillomavirus type 61 OX=37116 GN=E7 PE=3 SV=1
+sp|P27231|VE7_HPV42      92.7   1.2e-26   1   1.0   6.5    Protein E7 OS=Human papillomavirus type 42 OX=10590 GN=E7 PE=3 SV=1
+sp|Q80935|VE7_HPV55      92.7   1.2e-26   1   1.0   2.8    Protein E7 OS=Human papillomavirus type 55 OX=37114 GN=E7 PE=3 SV=1
+sp|Q81019|VE7_HPV54      92.6   1.3e-26   1   1.0   3.3    Protein E7 OS=Human papillomavirus type 54 OX=1671798 GN=E7 PE=3 SV=1
+sp|P17387|VE7_HPV31      92.6   1.3e-26   1   1.0   2.2    Protein E7 OS=Human papillomavirus type 31 OX=10585 GN=E7 PE=1 SV=1
+sp|P50783|VE7_HPV28      92.5   1.4e-26   1   1.0   2.3    Protein E7 OS=Human papillomavirus type 28 OX=37111 GN=E7 PE=3 SV=1
+sp|P22423|VE7_HPV47      92.5   1.4e-26   1   1.0   2.4    Protein E7 OS=Human papillomavirus type 47 OX=10594 GN=E7 PE=3 SV=1
+sp|P03129|VE7_HPV16      91.7   2.5e-26   1   1.0   1.6    Protein E7 OS=Human papillomavirus type 16 OX=333760 GN=E7 PE=1 SV=1
+sp|P36831|VE7_HPV52      91.1   3.8e-26   1   1.0   0.8    Protein E7 OS=Human papillomavirus type 52 OX=10618 GN=E7 PE=3 SV=1
+sp|P36817|VE7_HPV09      91.1   3.9e-26   1   1.0   1.1    Protein E7 OS=Human papillomavirus type 9 OX=10621 GN=E7 PE=3 SV=1
+sp|P06429|VE7_HPV33      90.9   4.3e-26   1   1.0   1.7    Protein E7 OS=Human papillomavirus type 33 OX=10586 GN=E7 PE=3 SV=1
+sp|P22160|VE7_HPV57      90.5   5.7e-26   1   1.0   4.5    Protein E7 OS=Human papillomavirus type 57 OX=333753 GN=E7 PE=3 SV=1
+sp|Q07857|VE7_HPV04      90.1   7.6e-26   1   1.0   1.0    Protein E7 OS=Human papillomavirus type 4 OX=10617 GN=E7 PE=1 SV=1
+sp|Q80928|VE7_HPV50      89.9   9.1e-26   1   1.0   3.8    Protein E7 OS=Human papillomavirus type 50 OX=40539 GN=E7 PE=3 SV=1
+sp|Q705D1|VE7_HPV94      88.5   2.5e-25   1   1.0   1.6    Protein E7 OS=Human papillomavirus type 94 OX=260717 GN=E7 PE=3 SV=1
+sp|P06788|VE7_HPV18      88.3   2.7e-25   1   1.1   3.5    Protein E7 OS=Human papillomavirus type 18 OX=333761 GN=E7 PE=1 SV=2
+sp|Q02271|VE7_HPV13      87.4   5.3e-25   1   1.1   5.1    Protein E7 OS=Human papillomavirus type 13 OX=10573 GN=E7 PE=3 SV=1
+sp|P36818|VE7_HPV10      87.1   6.5e-25   1   1.0   2.1    Protein E7 OS=Human papillomavirus type 10 OX=333759 GN=E7 PE=3 SV=1
+sp|P36827|VE7_HPV32      87.1   6.7e-25   1   1.0   3.4    Protein E7 OS=Human papillomavirus type 32 OX=333763 GN=E7 PE=3 SV=1
+sp|P27230|VE7_HPV35      86.9   7.4e-25   1   1.0   3.1    Protein E7 OS=Human papillomavirus type 35 OX=10587 GN=E7 PE=3 SV=1
+sp|Q80942|VE7_HPV60      86.8   8.1e-25   1   1.0   0.0    Protein E7 OS=Human papillomavirus type 60 OX=40540 GN=E7 PE=3 SV=1
+sp|P08350|VE7_BPV4       86.3   1.2e-24   1   1.1   2.6    Protein E7 OS=Bovine papillomavirus type 4 OX=10562 GN=E7 PE=3 SV=2
+sp|P36816|VE7_HPV07      85.6     2e-24   1   1.9  11.1    Protein E7 OS=Human papillomavirus type 7 OX=10620 GN=E7 PE=3 SV=1
+sp|P21736|VE7_HPV45      85.0     3e-24   1   1.1   3.6    Protein E7 OS=Human papillomavirus type 45 OX=10593 GN=E7 PE=1 SV=2
+sp|P24837|VE7_HPV39      84.5   4.2e-24   1   1.1   4.8    Protein E7 OS=Human papillomavirus type 39 OX=10588 GN=E7 PE=3 SV=1
+sp|P54668|VE7_HPV68      84.3     5e-24   1   1.2   5.7    Protein E7 OS=Human papillomavirus type 68 OX=45240 GN=E7 PE=3 SV=1
+sp|Q07859|VE7_HPV65      84.3     5e-24   1   1.0   0.2    Protein E7 OS=Human papillomavirus type 65 OX=28312 GN=E7 PE=3 SV=1
+sp|P50785|VE7_HPV70      83.7   7.4e-24   1   1.1   4.7    Protein E7 OS=Human papillomavirus type 70 OX=39457 GN=E7 PE=3 SV=1
+sp|P26557|VE7_HPV58      82.6   1.6e-23   1   1.0   2.9    Protein E7 OS=Human papillomavirus type 58 OX=10598 GN=E7 PE=1 SV=1
+sp|P26558|VE7_HPV51      81.8     3e-23   1   1.1   6.2    Protein E7 OS=Human papillomavirus type 51 OX=10595 GN=E7 PE=3 SV=1
+sp|P27556|VE7_HPV41      80.6     7e-23   1   1.0   1.7    Protein E7 OS=Human papillomavirus type 41 OX=10589 GN=E7 PE=3 SV=1
+sp|P36829|VE7_HPV40      80.2   9.4e-23   1   1.9  11.2    Protein E7 OS=Human papillomavirus type 40 OX=10615 GN=E7 PE=3 SV=1
+sp|Q9JH50|VE7_HPV69      79.6   1.4e-22   1   1.1   7.3    Protein E7 OS=Human papillomavirus type 69 OX=37121 GN=E7 PE=3 SV=1
+sp|P36824|VE7_HPV26      78.0   4.3e-22   1   1.1   7.8    Protein E7 OS=Human papillomavirus type 26 OX=333762 GN=E7 PE=3 SV=1
+sp|P51895|VE7_CRPVW      77.2   8.1e-22   1   1.0   5.2    Protein E7 OS=Cottontail rabbit papillomavirus (strain Washington B) OX=31554 GN=E7 PE=3 SV=1
+sp|Q8BDD8|VE7_BPV3       76.3   1.5e-21   1   1.1   3.6    Protein E7 OS=Bovine papillomavirus type 3 OX=10561 GN=E7 PE=3 SV=1
+sp|P03130|VE7_CRPVK      75.3   3.1e-21   1   1.0   4.7    Protein E7 OS=Cottontail rabbit papillomavirus (strain Kansas) OX=31553 GN=E7 PE=3 SV=1
+sp|P36826|VE7_HPV30      74.6   5.1e-21   1   1.5  10.6    Protein E7 OS=Human papillomavirus type 30 OX=10611 GN=E7 PE=3 SV=1
+sp|Q705F5|VE7_BPV6       73.8   8.7e-21   1   1.1   4.1    Protein E7 OS=Bovine papillomavirus type 6 OX=10563 GN=E7 PE=3 SV=1
+sp|P27963|VE7_HPVME      73.6   1.1e-20   1   1.1   8.1    Protein E7 OS=Human papillomavirus type ME180 OX=10602 GN=E7 PE=3 SV=1
+sp|Q07858|VE7_HPV63      73.2   1.4e-20   1   1.0   1.2    Protein E7 OS=Human papillomavirus type 63 OX=28311 GN=E7 PE=3 SV=1
+sp|Q80956|VE7_HPV66      72.7     2e-20   1   1.2   8.7    Protein E7 OS=Human papillomavirus type 66 OX=37119 GN=E7 PE=3 SV=1
+sp|P36833|VE7_HPV56      72.7     2e-20   1   1.4  12.0    Protein E7 OS=Human papillomavirus type 56 OX=10596 GN=E7 PE=3 SV=1
+sp|P36832|VE7_HPV53      70.5   9.2e-20   1   1.3  11.4    Protein E7 OS=Human papillomavirus type 53 OX=333765 GN=E7 PE=3 SV=1
+sp|P11332|VE7_PAPVE      54.8   7.2e-15   1   1.1   0.2    Protein E7 OS=European elk papillomavirus OX=10565 GN=E7 PE=3 SV=1
+sp|P03131|VE7_PAPVD      52.0   5.4e-14   1   1.1   0.5    Protein E7 OS=Deer papillomavirus OX=10564 GN=E7 PE=3 SV=2
+sp|P06933|VE7_BPV1       48.7   5.8e-13   1   1.1   0.3    Protein E7 OS=Bovine papillomavirus type 1 OX=337052 GN=E7 PE=1 SV=1
+sp|P11303|VE7_BPV2       47.2   1.7e-12   1   1.1   0.1    Protein E7 OS=Bovine papillomavirus type 2 OX=2758382 GN=E7 PE=3 SV=1
+sp|Q8BDG6|VE7_BPV5       40.3   2.4e-10   1   1.3   2.2    Protein E7 OS=Bovine papillomavirus type 5 OX=40537 GN=E7 PE=3 SV=1
+sp|Q5UP16|RPO1H_MIMIV    12.5     0.097   1   1.1   0.0    Putative DNA-directed RNA polymerase subunit 1 inactive homolog OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R867 PE=5 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36821|VE7_HPV17     110.0   5.1e-32     1   2.3      1     95      1     92      9    102     Protein E7 OS=Human papillomavirus type 17 OX=10607 GN=E7 PE=3 SV=1
+sp|P50779|VE7_HPV21     107.4   3.2e-31     1   3.5      1    101      1     99      9    107     Protein E7 OS=Human papillomavirus type 21 OX=31548 GN=E7 PE=3 SV=1
+sp|P36820|VE7_HPV15     105.6   1.2e-30     1   1.7      1     93      1     90      9    102     Protein E7 OS=Human papillomavirus type 15 OX=10606 GN=E7 PE=3 SV=1
+sp|P50778|VE7_HPV20     103.9     4e-30     1   3.1      1    102      1    100      9    107     Protein E7 OS=Human papillomavirus type 20 OX=31547 GN=E7 PE=3 SV=1
+sp|P36823|VE7_HPV25     103.0   7.8e-30     1   1.9      1    102      1    100      9    107     Protein E7 OS=Human papillomavirus type 25 OX=10609 GN=E7 PE=3 SV=1
+sp|P22161|VE7_RHPV1     101.6   2.1e-29     1   2.9      1    113      1    112      9    101     Protein E7 OS=Rhesus papillomavirus type 1 OX=10570 GN=E7 PE=3 SV=1
+sp|P50781|VE7_HPV23     101.4   2.4e-29     1   0.8      1     97      1     96      9    108     Protein E7 OS=Human papillomavirus type 23 OX=37955 GN=E7 PE=3 SV=1
+sp|P36822|VE7_HPV19     100.8   3.8e-29     1   4.1      1    102      1    100      9    107     Protein E7 OS=Human papillomavirus type 19 OX=10608 GN=E7 PE=3 SV=1
+sp|Q80901|VE7_HPV37     100.8   3.8e-29     1   1.2      1     94      1     91      9    102     Protein E7 OS=Human papillomavirus type 37 OX=37958 GN=E7 PE=1 SV=1
+sp|Q80908|VE7_HPV38      98.5   1.9e-28     1   0.1      1    100      1     98      9    106     Protein E7 OS=Human papillomavirus type 38 OX=37959 GN=E7 PE=3 SV=1
+sp|P50784|VE7_HPV29      97.4   4.3e-28     1   3.1      1     90      1     90      9     99     Protein E7 OS=Human papillomavirus type 29 OX=37112 GN=E7 PE=3 SV=1
+sp|P06932|VE7_HPV05      97.2   4.7e-28     1   1.8      1    103      1    102      9    107     Protein E7 OS=Human papillomavirus type 5 OX=333923 GN=E7 PE=3 SV=1
+sp|P26559|VE7_HPV5B      96.2     1e-27     1   1.8      1    103      1    102      9    107     Protein E7 OS=Human papillomavirus type 5b OX=10599 GN=E7 PE=3 SV=1
+sp|P04020|VE7_HPV11      96.1     1e-27     1   3.8      1     98      1     96      9    100     Protein E7 OS=Human papillomavirus type 11 OX=10580 GN=E7 PE=1 SV=1
+sp|Q80921|VE7_HPV48      95.8   1.3e-27     1   1.1      1     93      1     92      9    108     Protein E7 OS=Human papillomavirus type 48 OX=40538 GN=E7 PE=3 SV=1
+sp|P06430|VE7_HPV08      95.4   1.8e-27     1   3.9      1    103      1    101      9    107     Protein E7 OS=Human papillomavirus type 8 OX=10579 GN=E7 PE=3 SV=1
+sp|P50780|VE7_HPV22      95.1   2.2e-27     1   0.5      1    100      1     99      9    108     Protein E7 OS=Human papillomavirus type 22 OX=37954 GN=E7 PE=3 SV=1
+sp|P06465|VE7_HPV1       94.9   2.5e-27     1   1.9      1     93      1     92      9    102     Protein E7 OS=Human papillomavirus type 1 OX=10583 GN=E7 PE=1 SV=1
+sp|P50782|VE7_HPV24      94.1   4.4e-27     1   0.6      1     96      1     95      9    108     Protein E7 OS=Human papillomavirus type 24 OX=37956 GN=E7 PE=3 SV=1
+sp|Q89759|VE7_COPV6      94.1   4.5e-27     1   3.0      1     97      1     96      9    107     Protein E7 OS=Canine oral papillomavirus (strain Y62) OX=766192 GN=E7 PE=3 SV=1
+sp|Q02272|VE7_PCPV1      94.0   4.9e-27     1   3.7      1     98      1     97      9    101     Protein E7 OS=Pygmy chimpanzee papillomavirus type 1 OX=10576 GN=E7 PE=3 SV=1
+sp|P36828|VE7_HPV34      93.7   5.9e-27     1   3.1      1     97      1     96      9    101     Protein E7 OS=Human papillomavirus type 34 OX=333764 GN=E7 PE=3 SV=1
+sp|P36819|VE7_HPV12      93.6   6.3e-27     1   2.2      1    103      1    100      9    106     Protein E7 OS=Human papillomavirus type 12 OX=10604 GN=E7 PE=3 SV=1
+sp|Q84292|VE7_HPV6A      93.4   7.5e-27     1   5.2      1     98      1     97      9    101     Protein E7 OS=Human papillomavirus type 6a OX=37122 GN=E7 PE=3 SV=1
+sp|P06464|VE7_HPV6B      93.3   7.6e-27     1   5.3      1     98      1     97      9    101     Protein E7 OS=Human papillomavirus type 6b OX=10600 GN=E7 PE=1 SV=1
+sp|P25485|VE7_HPV2A      93.1   8.8e-27     1   4.3      1     92      1     92      9     99     Protein E7 OS=Human papillomavirus type 2a OX=10584 GN=E7 PE=3 SV=1
+sp|P36830|VE7_HPV49      93.1   8.9e-27     1   0.1      1    103      1    101      9    106     Protein E7 OS=Human papillomavirus type 49 OX=10616 GN=E7 PE=3 SV=1
+sp|P50811|VE7_HPV36      92.9     1e-26     1   2.3      1    102      1    100      9    107     Protein E7 OS=Human papillomavirus type 36 OX=37957 GN=E7 PE=3 SV=1
+sp|P36825|VE7_HPV27      92.8   1.1e-26     1   3.0      1     92      1     92      9     99     Protein E7 OS=Human papillomavirus type 27 OX=333752 GN=E7 PE=3 SV=1
+sp|Q80914|VE7_HPV44      92.7   1.2e-26     1   1.9      1     97      1     96      9    101     Protein E7 OS=Human papillomavirus type 44 OX=10592 GN=E7 PE=3 SV=1
+sp|P27231|VE7_HPV42      92.6   1.3e-26     1   6.5      1     93      1     92      9    101     Protein E7 OS=Human papillomavirus type 42 OX=10590 GN=E7 PE=3 SV=1
+sp|Q80935|VE7_HPV55      92.6   1.3e-26     1   2.8      1     97      1     96      9    101     Protein E7 OS=Human papillomavirus type 55 OX=37114 GN=E7 PE=3 SV=1
+sp|Q80949|VE7_HPV61      92.6   1.3e-26     1   6.0      1     95      1     95      9     99     Protein E7 OS=Human papillomavirus type 61 OX=37116 GN=E7 PE=3 SV=1
+sp|Q81019|VE7_HPV54      92.5   1.4e-26     1   3.3      1     95      1     94      9    101     Protein E7 OS=Human papillomavirus type 54 OX=1671798 GN=E7 PE=3 SV=1
+sp|P17387|VE7_HPV31      92.4   1.5e-26     1   2.2      1     98      1     97      9    101     Protein E7 OS=Human papillomavirus type 31 OX=10585 GN=E7 PE=1 SV=1
+sp|P22423|VE7_HPV47      92.4   1.5e-26     1   2.4      1    103      1    100      9    106     Protein E7 OS=Human papillomavirus type 47 OX=10594 GN=E7 PE=3 SV=1
+sp|P50783|VE7_HPV28      92.4   1.5e-26     1   2.3      1     87      1     87      9     99     Protein E7 OS=Human papillomavirus type 28 OX=37111 GN=E7 PE=3 SV=1
+sp|P03129|VE7_HPV16      91.5   2.8e-26     1   1.6      1     98      1     97      9    101     Protein E7 OS=Human papillomavirus type 16 OX=333760 GN=E7 PE=1 SV=1
+sp|P36817|VE7_HPV09      91.0   4.2e-26     1   1.1      1     93      1     90      9    102     Protein E7 OS=Human papillomavirus type 9 OX=10621 GN=E7 PE=3 SV=1
+sp|P36831|VE7_HPV52      90.9   4.3e-26     1   0.8      1     99      1     98      9    100     Protein E7 OS=Human papillomavirus type 52 OX=10618 GN=E7 PE=3 SV=1
+sp|P06429|VE7_HPV33      90.8   4.8e-26     1   1.7      1     97      1     97      9    101     Protein E7 OS=Human papillomavirus type 33 OX=10586 GN=E7 PE=3 SV=1
+sp|P22160|VE7_HPV57      90.4   6.3e-26     1   4.5      1     92      1     92      9     99     Protein E7 OS=Human papillomavirus type 57 OX=333753 GN=E7 PE=3 SV=1
+sp|Q07857|VE7_HPV04      90.0   8.4e-26     1   1.0      1    100      1    100      9    108     Protein E7 OS=Human papillomavirus type 4 OX=10617 GN=E7 PE=1 SV=1
+sp|Q80928|VE7_HPV50      89.7     1e-25     1   3.8      1     93      1     92      9    108     Protein E7 OS=Human papillomavirus type 50 OX=40539 GN=E7 PE=3 SV=1
+sp|Q705D1|VE7_HPV94      88.4   2.7e-25     1   1.6      1     87      1     87      9     99     Protein E7 OS=Human papillomavirus type 94 OX=260717 GN=E7 PE=3 SV=1
+sp|P06788|VE7_HPV18      88.1   3.2e-25     1   3.5      1    105      1    105      9    102     Protein E7 OS=Human papillomavirus type 18 OX=333761 GN=E7 PE=1 SV=2
+sp|Q02271|VE7_HPV13      87.1   6.5e-25     1   5.1      1    101      1     99      9    100     Protein E7 OS=Human papillomavirus type 13 OX=10573 GN=E7 PE=3 SV=1
+sp|P36818|VE7_HPV10      87.0   7.3e-25     1   2.1      1     86      1     86      9     99     Protein E7 OS=Human papillomavirus type 10 OX=333759 GN=E7 PE=3 SV=1
+sp|P36827|VE7_HPV32      86.9   7.5e-25     1   3.4      1    104      1    102      9    100     Protein E7 OS=Human papillomavirus type 32 OX=333763 GN=E7 PE=3 SV=1
+sp|P27230|VE7_HPV35      86.8   8.4e-25     1   3.1      1     99      1     98      9    101     Protein E7 OS=Human papillomavirus type 35 OX=10587 GN=E7 PE=3 SV=1
+sp|Q80942|VE7_HPV60      86.7   8.8e-25     1   0.0      1     96      1     95      9    108     Protein E7 OS=Human papillomavirus type 60 OX=40540 GN=E7 PE=3 SV=1
+sp|P08350|VE7_BPV4       86.1   1.4e-24     1   2.6      1     96      1     89      9    104     Protein E7 OS=Bovine papillomavirus type 4 OX=10562 GN=E7 PE=3 SV=2
+sp|P21736|VE7_HPV45      84.8   3.6e-24     1   3.6      1    106      1    106      9    102     Protein E7 OS=Human papillomavirus type 45 OX=10593 GN=E7 PE=1 SV=2
+sp|P24837|VE7_HPV39      84.2   5.1e-24     1   4.8      1    109      1    108      9    102     Protein E7 OS=Human papillomavirus type 39 OX=10588 GN=E7 PE=3 SV=1
+sp|Q07859|VE7_HPV65      84.2   5.4e-24     1   0.2      1     98      1     97      9    107     Protein E7 OS=Human papillomavirus type 65 OX=28312 GN=E7 PE=3 SV=1
+sp|P54668|VE7_HPV68      83.9   6.4e-24     1   5.7      1    110      1    109      9    102     Protein E7 OS=Human papillomavirus type 68 OX=45240 GN=E7 PE=3 SV=1
+sp|P50785|VE7_HPV70      83.5   8.9e-24     1   4.7      1    109      1    107      9    101     Protein E7 OS=Human papillomavirus type 70 OX=39457 GN=E7 PE=3 SV=1
+sp|P36816|VE7_HPV07      82.6   1.7e-23     1  11.1      1    111      1    110      9    101     Protein E7 OS=Human papillomavirus type 7 OX=10620 GN=E7 PE=3 SV=1
+sp|P26557|VE7_HPV58      82.5   1.8e-23     1   2.9      1     98      1     98      9    101     Protein E7 OS=Human papillomavirus type 58 OX=10598 GN=E7 PE=1 SV=1
+sp|P26558|VE7_HPV51      81.5   3.5e-23     1   6.2      1    101      1    100      9    100     Protein E7 OS=Human papillomavirus type 51 OX=10595 GN=E7 PE=3 SV=1
+sp|P27556|VE7_HPV41      80.4   8.2e-23     1   1.7      1    112      1    106      9    106     Protein E7 OS=Human papillomavirus type 41 OX=10589 GN=E7 PE=3 SV=1
+sp|Q9JH50|VE7_HPV69      79.3   1.8e-22     1   7.3      1    104      1    103      9    100     Protein E7 OS=Human papillomavirus type 69 OX=37121 GN=E7 PE=3 SV=1
+sp|P36824|VE7_HPV26      77.7   5.4e-22     1   7.8      1    104      1    103      9    100     Protein E7 OS=Human papillomavirus type 26 OX=333762 GN=E7 PE=3 SV=1
+sp|P51895|VE7_CRPVW      77.0   8.9e-22     1   5.2      1     94      1     93      9     99     Protein E7 OS=Cottontail rabbit papillomavirus (strain Washington B) OX=31554 GN=E7 PE=3 SV=1
+sp|P36829|VE7_HPV40      77.0   8.9e-22     1  11.2      1    111      1    110      9    101     Protein E7 OS=Human papillomavirus type 40 OX=10615 GN=E7 PE=3 SV=1
+sp|Q8BDD8|VE7_BPV3       76.0   1.9e-21     1   3.6      1     95      1     92      9    108     Protein E7 OS=Bovine papillomavirus type 3 OX=10561 GN=E7 PE=3 SV=1
+sp|P03130|VE7_CRPVK      75.2   3.4e-21     1   4.7      1     94      1     93      9     99     Protein E7 OS=Cottontail rabbit papillomavirus (strain Kansas) OX=31553 GN=E7 PE=3 SV=1
+sp|P36826|VE7_HPV30      73.6   1.1e-20     1  10.6      1    105      1    104      9    101     Protein E7 OS=Human papillomavirus type 30 OX=10611 GN=E7 PE=3 SV=1
+sp|Q705F5|VE7_BPV6       73.5   1.1e-20     1   4.1      1     97      1     91      9    105     Protein E7 OS=Bovine papillomavirus type 6 OX=10563 GN=E7 PE=3 SV=1
+sp|P27963|VE7_HPVME      73.2   1.3e-20     1   8.1      1    110      1    109      9    102     Protein E7 OS=Human papillomavirus type ME180 OX=10602 GN=E7 PE=3 SV=1
+sp|Q07858|VE7_HPV63      73.0   1.6e-20     1   1.2      1     88      1     87      9    105     Protein E7 OS=Human papillomavirus type 63 OX=28311 GN=E7 PE=3 SV=1
+sp|Q80956|VE7_HPV66      72.3   2.6e-20     1   8.7      1    105      1    104      9    101     Protein E7 OS=Human papillomavirus type 66 OX=37119 GN=E7 PE=3 SV=1
+sp|P36833|VE7_HPV56      71.8   3.6e-20     1  12.0      1    105      1    104      9    101     Protein E7 OS=Human papillomavirus type 56 OX=10596 GN=E7 PE=3 SV=1
+sp|P36832|VE7_HPV53      69.8   1.6e-19     1  11.4      1    105      1    104      9    101     Protein E7 OS=Human papillomavirus type 53 OX=333765 GN=E7 PE=3 SV=1
+sp|P11332|VE7_PAPVE      54.7   7.8e-15     1   0.2     15    102     41    101     39    102     Protein E7 OS=European elk papillomavirus OX=10565 GN=E7 PE=3 SV=1
+sp|P03131|VE7_PAPVD      51.9   5.7e-14     1   0.5     17    102     48    101     49    102     Protein E7 OS=Deer papillomavirus OX=10564 GN=E7 PE=3 SV=2
+sp|P06933|VE7_BPV1       48.4   7.1e-13     1   0.3     58    127     72    126     52    108     Protein E7 OS=Bovine papillomavirus type 1 OX=337052 GN=E7 PE=1 SV=1
+sp|P11303|VE7_BPV2       46.9   2.1e-12     1   0.1     55    127     71    126     51    108     Protein E7 OS=Bovine papillomavirus type 2 OX=2758382 GN=E7 PE=3 SV=1
+sp|Q8BDG6|VE7_BPV5       40.0   2.8e-10     1   2.2     13    124     68    121     49    102     Protein E7 OS=Bovine papillomavirus type 5 OX=40537 GN=E7 PE=3 SV=1
+sp|Q5UP16|RPO1H_MIMIV    12.2      0.12     1   0.0     30     93     35     79      7     47     Putative DNA-directed RNA polymerase subunit 1 inactive homolog OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R867 PE=5 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_042015@NC_001605.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_042015@NC_001605.txt data/models_hmm/NP_042015@NC_001605.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:16 2021
+# [ok]

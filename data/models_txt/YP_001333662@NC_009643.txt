@@ -1,0 +1,40 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9FZW7|CAPSD_BPGA1   498.1  1.1e-149   1   1.1   8.6    Major capsid protein OS=Bacillus phage GA-1 OX=12345 GN=8 PE=3 SV=1
+sp|P13849|CAPSD_BPPH2   427.0  4.7e-128   1   1.0   1.6    Major capsid protein OS=Bacillus phage phi29 OX=10756 GN=8 PE=1 SV=2
+sp|P07531|CAPSD_BPPZA   421.9  1.7e-126   1   1.0   1.0    Major capsid protein OS=Bacillus phage PZA OX=10757 GN=8 PE=3 SV=1
+sp|Q37888|CAPSD_BPB03   418.3  2.1e-125   1   1.0   3.9    Major capsid protein OS=Bacillus phage B103 OX=10778 GN=8 PE=3 SV=1
+sp|Q37993|CAPSD_BPCP1   400.2  6.6e-120   1   1.0  14.4    Major capsid protein OS=Streptococcus phage Cp-1 OX=10747 GN=9 PE=1 SV=1
+sp|G9M952|CAPSD_BPPS4    21.2   0.00011   2   2.1  14.7    Major capsid protein OS=Staphylococcus phage S24-1 OX=1010614 GN=ORF19 PE=1 SV=1
+sp|G9M973|CAPSD_BPPSP    21.2   0.00012   2   2.1  14.6    Major capsid protein OS=Staphylococcus phage S13' OX=1010615 GN=ORF19 PE=1 SV=1
+sp|Q859K5|CAPSD_BP44A    20.1   0.00026   2   2.0  14.8    Major capsid protein OS=Staphylococcus phage 44AHJD OX=204086 GN=20 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9FZW7|CAPSD_BPGA1   497.8  1.3e-149     1   8.6      1    437     11    347      3    340     Major capsid protein OS=Bacillus phage GA-1 OX=12345 GN=8 PE=3 SV=1
+sp|P13849|CAPSD_BPPH2   426.7  5.8e-128     1   1.6      8    409     11    345      4    339     Major capsid protein OS=Bacillus phage phi29 OX=10756 GN=8 PE=1 SV=2
+sp|P07531|CAPSD_BPPZA   421.6  2.1e-126     1   1.0      8    399     11    345      4    339     Major capsid protein OS=Bacillus phage PZA OX=10757 GN=8 PE=3 SV=1
+sp|Q37888|CAPSD_BPB03   417.9  2.6e-125     1   3.9      8    406     11    346      4    340     Major capsid protein OS=Bacillus phage B103 OX=10778 GN=8 PE=3 SV=1
+sp|Q37993|CAPSD_BPCP1   400.1  7.2e-120     1  14.4      1    365     11    364      3    339     Major capsid protein OS=Streptococcus phage Cp-1 OX=10747 GN=9 PE=1 SV=1
+sp|G9M973|CAPSD_BPPSP    20.8   0.00015     1   8.5     10    303     42    286     51    287     Major capsid protein OS=Staphylococcus phage S13' OX=1010615 GN=ORF19 PE=1 SV=1
+sp|G9M952|CAPSD_BPPS4    20.2   0.00024     1   9.2     10    305     42    286     51    287     Major capsid protein OS=Staphylococcus phage S24-1 OX=1010614 GN=ORF19 PE=1 SV=1
+sp|Q859K5|CAPSD_BP44A    16.6    0.0029     1  11.4      4    297     41    276     50    277     Major capsid protein OS=Staphylococcus phage 44AHJD OX=204086 GN=20 PE=3 SV=1
+sp|Q859K5|CAPSD_BP44A     4.9        11     2   0.1    309    402    335    398    279    340     Major capsid protein OS=Staphylococcus phage 44AHJD OX=204086 GN=20 PE=3 SV=1
+sp|G9M952|CAPSD_BPPS4     4.3        16     2   0.2    316    401    335    397    279    339     Major capsid protein OS=Staphylococcus phage S24-1 OX=1010614 GN=ORF19 PE=1 SV=1
+sp|G9M973|CAPSD_BPPSP     4.1        19     2   0.3    315    401    335    397    279    339     Major capsid protein OS=Staphylococcus phage S13' OX=1010615 GN=ORF19 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001333662@NC_009643.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001333662@NC_009643.txt data/models_hmm/YP_001333662@NC_009643.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:10 2021
+# [ok]

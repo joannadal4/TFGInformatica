@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03709|FI_LAMBD      18.5    0.0018   2   2.2   0.1    DNA-packaging protein FI OS=Escherichia phage lambda OX=10710 GN=Fi PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03709|FI_LAMBD      11.8      0.22     2   0.0     24     57     26     47      7     29     DNA-packaging protein FI OS=Escherichia phage lambda OX=10710 GN=Fi PE=1 SV=1
+sp|P03709|FI_LAMBD       4.7        37     1   0.0      1     23      1     19      6     24     DNA-packaging protein FI OS=Escherichia phage lambda OX=10710 GN=Fi PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGG54227@HQ316583.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGG54227@HQ316583.txt data/models_hmm/AGG54227@HQ316583.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:32 2021
+# [ok]

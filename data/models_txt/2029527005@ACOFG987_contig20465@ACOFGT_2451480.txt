@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P06949|GP1_BPPZA     15.6    0.0077   1   1.1   0.1    DNA replication protein 1 OS=Bacillus phage PZA OX=10757 GN=1C PE=3 SV=1
+sp|P03679|GP1_BPPH2     14.0     0.025   1   1.1   0.0    DNA replication protein 1 OS=Bacillus phage phi29 OX=10756 GN=1 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P06949|GP1_BPPZA     15.5    0.0086     1   0.1     12     95     34     89     64    119     DNA replication protein 1 OS=Bacillus phage PZA OX=10757 GN=1C PE=3 SV=1
+sp|P03679|GP1_BPPH2     13.9     0.027     1   0.0      7     82     28     76     69    117     DNA replication protein 1 OS=Bacillus phage phi29 OX=10756 GN=1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2029527005@ACOFG987_contig20465@ACOFGT_2451480.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2029527005@ACOFG987_contig20465@ACOFGT_2451480.txt data/models_hmm/2029527005@ACOFG987_contig20465@ACOFGT_2451480.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:13 2021
+# [ok]

@@ -1,0 +1,48 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP14|YR845_MIMIV    29.9   4.1e-07   5   3.9   0.4    Putative ankyrin repeat protein R845 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R845 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV    16.8    0.0052   6   4.7   0.4    Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV    15.6     0.012   4   4.6   0.5    Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV    14.5     0.027   4   4.3   0.0    Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q8QL24|Y417_SIRV1     12.5      0.11   3   2.7   0.9    Uncharacterized protein 417 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=417 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UP14|YR845_MIMIV    15.2     0.016     5   0.1    172    223    175    221      4     51     Putative ankyrin repeat protein R845 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R845 PE=4 SV=1
+sp|Q5UP14|YR845_MIMIV     8.5         2     3   0.0     99    146    108    141     28     59     Putative ankyrin repeat protein R845 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R845 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV     5.9        13     5   0.0    165    222    169    210      8     50     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q8QL24|Y417_SIRV1      5.6        17     2   0.0    325    370    335    361     31     57     Uncharacterized protein 417 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=417 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV     5.4        18     2   0.0    263    343    289    318     28     57     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV     4.9        26     2   0.0    133    181    143    163     30     50     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q8QL24|Y417_SIRV1      4.7        31     3   0.0    368    409    375    401     31     57     Uncharacterized protein 417 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=417 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV     3.3        83     1   0.0    147    202    170    194     27     51     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV     3.0   1.1e+02     3   0.0    107    159    126    150     26     50     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV     2.4   1.6e+02     4   0.0    156    190    161    181     31     51     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV     2.2   1.8e+02     1   0.0     80    113     86    102     33     49     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV     2.1     2e+02     3   0.0    177    260    204    225     31     52     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UP14|YR845_MIMIV     1.6   2.9e+02     4   0.0    139    173    143    160     33     50     Putative ankyrin repeat protein R845 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R845 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV    -0.5   1.3e+03     4   0.0    239    291    266    282     33     49     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV    -0.7   1.5e+03     6   0.0    214    251    221    239     31     49     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV    -0.9   1.7e+03     2   0.0     99    130    102    120     31     49     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV    -1.8   3.2e+03     3   0.0    328    374    353    370     32     49     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5UP14|YR845_MIMIV    -1.9   3.4e+03     1   0.0     45     86     55     69     35     49     Putative ankyrin repeat protein R845 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R845 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV    -2.3   4.8e+03     1   0.0      7     39     17     35     31     49     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5UP14|YR845_MIMIV    -2.4   4.9e+03     2   0.0     80    104     84     99     34     49     Putative ankyrin repeat protein R845 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R845 PE=4 SV=1
+sp|Q8QL24|Y417_SIRV1     -3.4     1e+04     1   0.1    216    234    217    233     63     79     Uncharacterized protein 417 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=417 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV    -3.8   1.4e+04     4   0.0    384    408    387    400     36     49     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006383132@NC_017974.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006383132@NC_017974.txt data/models_hmm/YP_006383132@NC_017974.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:12 2021
+# [ok]

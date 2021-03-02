@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P15908|VLTF1_FOWPN    14.1     0.026   2   2.2   0.1    Late transcription factor 1 OS=Fowlpox virus (strain NVSL) OX=928301 GN=VLTF1 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P15908|VLTF1_FOWPN     8.1       1.7     2   0.0    152    252    159    241      9     91     Late transcription factor 1 OS=Fowlpox virus (strain NVSL) OX=928301 GN=VLTF1 PE=2 SV=1
+sp|P15908|VLTF1_FOWPN     3.9        33     1   0.0     40    120     49     88     43     83     Late transcription factor 1 OS=Fowlpox virus (strain NVSL) OX=928301 GN=VLTF1 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003407003@NC_013756.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003407003@NC_013756.txt data/models_hmm/YP_003407003@NC_013756.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:33 2021
+# [ok]

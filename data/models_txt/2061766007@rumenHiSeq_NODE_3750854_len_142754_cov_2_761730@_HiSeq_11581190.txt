@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q09113|VP4_ROTHU     13.2     0.058   2   2.0   0.2    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/India/116E/1986/G9P8[11]) OX=638299 PE=2 SV=1
+sp|P36307|VP4_ROTBA     12.9     0.072   2   2.0   0.3    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cow/Thailand/A44/1988/G10P8[11]) OX=1835658 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q09113|VP4_ROTHU     11.5       0.2     2   0.0    612    695    624    672     19     67     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/India/116E/1986/G9P8[11]) OX=638299 PE=2 SV=1
+sp|P36307|VP4_ROTBA     11.3      0.22     2   0.1    612    699    624    672     19     67     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cow/Thailand/A44/1988/G10P8[11]) OX=1835658 PE=3 SV=1
+sp|Q09113|VP4_ROTHU     -3.3   7.6e+03     1   0.0    107    146    109    124     59     73     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/India/116E/1986/G9P8[11]) OX=638299 PE=2 SV=1
+sp|P36307|VP4_ROTBA     -3.7     1e+04     1   0.0    106    147    109    125     59     74     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cow/Thailand/A44/1988/G10P8[11]) OX=1835658 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_3750854_len_142754_cov_2_761730@_HiSeq_11581190.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_3750854_len_142754_cov_2_761730@_HiSeq_11581190.txt data/models_hmm/2061766007@rumenHiSeq_NODE_3750854_len_142754_cov_2_761730@_HiSeq_11581190.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:35 2021
+# [ok]

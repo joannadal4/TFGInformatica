@@ -1,0 +1,85 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P26021|VME1_CVTKE    18.4    0.0018   2   2.0  13.0    Membrane protein OS=Turkey enteric coronavirus OX=11152 GN=M PE=3 SV=1
+sp|Q91A23|VME1_CVBEN    18.1    0.0021   2   2.2  13.6    Membrane protein OS=Bovine coronavirus (strain 98TXSF-110-ENT) OX=233262 GN=M PE=3 SV=1
+sp|Q01455|VME1_CVHOC    17.8    0.0027   2   2.2  13.5    Membrane protein OS=Human coronavirus OC43 OX=31631 GN=M PE=1 SV=1
+sp|Q8BB24|VME1_CVP67    17.2    0.0041   2   2.0  13.2    Membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain 67N) OX=230237 GN=M PE=3 SV=1
+sp|P69599|VME1_CVBLS    16.9    0.0052   2   2.2  13.6    Membrane protein OS=Bovine coronavirus (strain LSU-94LSS-051) OX=233261 GN=M PE=3 SV=1
+sp|P69600|VME1_CVBOK    16.9    0.0052   2   2.2  13.6    Membrane protein OS=Bovine coronavirus (strain OK-0514) OX=231432 GN=M PE=3 SV=1
+sp|Q8V433|VME1_CVBLU    16.9    0.0052   2   2.2  13.6    Membrane protein OS=Bovine coronavirus (strain 98TXSF-110-LUN) OX=233264 GN=M PE=3 SV=1
+sp|P69703|VME1_CVBF     16.8    0.0054   2   2.2  13.6    Membrane protein OS=Bovine coronavirus (strain F15) OX=11129 GN=M PE=3 SV=1
+sp|P69704|VME1_CVBM     16.8    0.0054   2   2.2  13.6    Membrane protein OS=Bovine coronavirus (strain Mebus) OX=11132 GN=M PE=1 SV=1
+sp|P69705|VME1_CVBQ     16.8    0.0054   2   2.2  13.6    Membrane protein OS=Bovine coronavirus (strain Quebec) OX=11133 GN=M PE=3 SV=1
+sp|Q9QAR9|VME1_CVBLY    16.8    0.0054   2   2.2  13.6    Membrane protein OS=Bovine coronavirus (strain LY-138) OX=11131 GN=M PE=3 SV=1
+sp|Q8JSP5|VME1_CVPIA    16.5    0.0069   2   2.0  13.1    Membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain IAF-404) OX=230236 GN=M PE=3 SV=1
+sp|P25878|VME1_FIPV     12.6      0.12   1   1.7   5.2    Membrane protein OS=Feline coronavirus (strain FIPV WSU-79/1146) OX=33734 GN=M PE=1 SV=1
+sp|P09175|VME1_CVPFS    12.2      0.15   1   1.6   6.3    Membrane protein OS=Porcine transmissible gastroenteritis coronavirus (strain FS772/70) OX=11150 GN=M PE=1 SV=1
+sp|P33464|VME1_CVPR8    11.7      0.22   1   1.5   5.5    Membrane protein OS=Porcine respiratory coronavirus (strain 86/137004 / isolate British) OX=33736 GN=M PE=3 SV=1
+sp|P24412|VME1_CVPRM    10.4      0.54   1   1.6   6.9    Membrane protein OS=Porcine respiratory coronavirus (strain RM4) OX=11148 GN=M PE=3 SV=1
+sp|P04135|VME1_CVPPU    10.4      0.54   1   1.6   6.7    Membrane protein OS=Porcine transmissible gastroenteritis coronavirus (strain Purdue) OX=11151 GN=M PE=1 SV=2
+sp|Q9JEB4|VME1_CVM2      9.7      0.91   2   2.0  16.3    Membrane protein OS=Murine coronavirus (strain 2) OX=76344 GN=M PE=1 SV=1
+sp|Q0ZME4|VME1_CVHN5     9.4       1.1   2   2.4  18.3    Membrane protein OS=Human coronavirus HKU1 (isolate N5) OX=443241 GN=M PE=3 SV=1
+sp|Q9WCD1|VME1_CVRNJ     9.4       1.1   2   2.0  17.6    Membrane protein (Fragment) OS=Rat coronavirus (strain NJ) OX=231433 GN=M PE=3 SV=1
+sp|Q14EA7|VME1_CVHN2     9.2       1.3   2   2.4  18.6    Membrane protein OS=Human coronavirus HKU1 (isolate N2) OX=443240 GN=M PE=3 SV=1
+sp|P03415|VME1_CVMA5     8.9       1.6   2   2.1  18.8    Membrane protein OS=Murine coronavirus (strain A59) OX=11142 GN=M PE=1 SV=1
+sp|Q9IKC7|VME1_CVRSD     8.6         2   2   2.1  18.6    Membrane protein OS=Rat coronavirus (strain 681) OX=33740 GN=M PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P26021|VME1_CVTKE    18.4    0.0018     2  13.0     40    111     47    107     16     76     Membrane protein OS=Turkey enteric coronavirus OX=11152 GN=M PE=3 SV=1
+sp|Q91A23|VME1_CVBEN    18.1    0.0021     2  13.6     41    111     49    107     18     76     Membrane protein OS=Bovine coronavirus (strain 98TXSF-110-ENT) OX=233262 GN=M PE=3 SV=1
+sp|Q01455|VME1_CVHOC    17.8    0.0027     2  13.5     41    111     49    107     18     76     Membrane protein OS=Human coronavirus OC43 OX=31631 GN=M PE=1 SV=1
+sp|Q8BB24|VME1_CVP67    17.2    0.0041     2  13.2     41    111     49    107     18     76     Membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain 67N) OX=230237 GN=M PE=3 SV=1
+sp|P69599|VME1_CVBLS    16.9    0.0052     2  13.6     41    111     49    107     18     76     Membrane protein OS=Bovine coronavirus (strain LSU-94LSS-051) OX=233261 GN=M PE=3 SV=1
+sp|P69600|VME1_CVBOK    16.9    0.0052     2  13.6     41    111     49    107     18     76     Membrane protein OS=Bovine coronavirus (strain OK-0514) OX=231432 GN=M PE=3 SV=1
+sp|Q8V433|VME1_CVBLU    16.9    0.0052     2  13.6     41    111     49    107     18     76     Membrane protein OS=Bovine coronavirus (strain 98TXSF-110-LUN) OX=233264 GN=M PE=3 SV=1
+sp|P69703|VME1_CVBF     16.8    0.0054     2  13.6     41    111     49    107     18     76     Membrane protein OS=Bovine coronavirus (strain F15) OX=11129 GN=M PE=3 SV=1
+sp|P69704|VME1_CVBM     16.8    0.0054     2  13.6     41    111     49    107     18     76     Membrane protein OS=Bovine coronavirus (strain Mebus) OX=11132 GN=M PE=1 SV=1
+sp|P69705|VME1_CVBQ     16.8    0.0054     2  13.6     41    111     49    107     18     76     Membrane protein OS=Bovine coronavirus (strain Quebec) OX=11133 GN=M PE=3 SV=1
+sp|Q9QAR9|VME1_CVBLY    16.8    0.0054     2  13.6     41    111     49    107     18     76     Membrane protein OS=Bovine coronavirus (strain LY-138) OX=11131 GN=M PE=3 SV=1
+sp|Q8JSP5|VME1_CVPIA    16.5    0.0069     2  13.1     41    111     49    107     18     76     Membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain IAF-404) OX=230236 GN=M PE=3 SV=1
+sp|P25878|VME1_FIPV     12.6      0.11     1   3.9     66    145     79    144     19     81     Membrane protein OS=Feline coronavirus (strain FIPV WSU-79/1146) OX=33734 GN=M PE=1 SV=1
+sp|Q9WCD1|VME1_CVRNJ    12.5      0.12     2  11.8     36    106     45    102     19     76     Membrane protein (Fragment) OS=Rat coronavirus (strain NJ) OX=231433 GN=M PE=3 SV=1
+sp|P09175|VME1_CVPFS    12.1      0.16     1   5.5     66    145     79    144     19     81     Membrane protein OS=Porcine transmissible gastroenteritis coronavirus (strain FS772/70) OX=11150 GN=M PE=1 SV=1
+sp|P03415|VME1_CVMA5    11.8       0.2     2  12.5     42    112     51    108     19     76     Membrane protein OS=Murine coronavirus (strain A59) OX=11142 GN=M PE=1 SV=1
+sp|Q9JEB4|VME1_CVM2     11.7      0.21     2  11.5     43    112     51    108     19     76     Membrane protein OS=Murine coronavirus (strain 2) OX=76344 GN=M PE=1 SV=1
+sp|Q9IKC7|VME1_CVRSD    11.4      0.27     2  12.9     40    112     51    108     19     76     Membrane protein OS=Rat coronavirus (strain 681) OX=33740 GN=M PE=3 SV=1
+sp|P33464|VME1_CVPR8    11.4      0.27     1   4.8     66    145     79    144     19     81     Membrane protein OS=Porcine respiratory coronavirus (strain 86/137004 / isolate British) OX=33736 GN=M PE=3 SV=1
+sp|Q0ZME4|VME1_CVHN5    11.3      0.29     2  11.1     41    107     47    103     20     76     Membrane protein OS=Human coronavirus HKU1 (isolate N5) OX=443241 GN=M PE=3 SV=1
+sp|Q14EA7|VME1_CVHN2    11.1      0.32     2  11.3     41    107     47    103     20     76     Membrane protein OS=Human coronavirus HKU1 (isolate N2) OX=443240 GN=M PE=3 SV=1
+sp|P24412|VME1_CVPRM    10.8      0.41     1   5.4     66    145     79    144     19     81     Membrane protein OS=Porcine respiratory coronavirus (strain RM4) OX=11148 GN=M PE=3 SV=1
+sp|P04135|VME1_CVPPU    10.5       0.5     1   5.4     66    145     79    144     19     81     Membrane protein OS=Porcine transmissible gastroenteritis coronavirus (strain Purdue) OX=11151 GN=M PE=1 SV=2
+sp|Q0ZME4|VME1_CVHN5     4.6        36     1   1.1     10     51     14     50     22     59     Membrane protein OS=Human coronavirus HKU1 (isolate N5) OX=443241 GN=M PE=3 SV=1
+sp|Q14EA7|VME1_CVHN2     4.5        38     1   1.2     10     51     14     50     22     59     Membrane protein OS=Human coronavirus HKU1 (isolate N2) OX=443240 GN=M PE=3 SV=1
+sp|Q01455|VME1_CVHOC     2.1   2.2e+02     1   0.8     12     53     21     51     25     56     Membrane protein OS=Human coronavirus OC43 OX=31631 GN=M PE=1 SV=1
+sp|P69599|VME1_CVBLS     2.0   2.3e+02     1   0.8     13     53     22     51     26     56     Membrane protein OS=Bovine coronavirus (strain LSU-94LSS-051) OX=233261 GN=M PE=3 SV=1
+sp|P69600|VME1_CVBOK     2.0   2.3e+02     1   0.8     13     53     22     51     26     56     Membrane protein OS=Bovine coronavirus (strain OK-0514) OX=231432 GN=M PE=3 SV=1
+sp|Q8V433|VME1_CVBLU     2.0   2.3e+02     1   0.8     13     53     22     51     26     56     Membrane protein OS=Bovine coronavirus (strain 98TXSF-110-LUN) OX=233264 GN=M PE=3 SV=1
+sp|Q91A23|VME1_CVBEN     2.0   2.3e+02     1   0.8     13     53     22     51     26     56     Membrane protein OS=Bovine coronavirus (strain 98TXSF-110-ENT) OX=233262 GN=M PE=3 SV=1
+sp|P69703|VME1_CVBF      1.9   2.4e+02     1   0.9     13     53     22     51     26     56     Membrane protein OS=Bovine coronavirus (strain F15) OX=11129 GN=M PE=3 SV=1
+sp|P69704|VME1_CVBM      1.9   2.4e+02     1   0.9     13     53     22     51     26     56     Membrane protein OS=Bovine coronavirus (strain Mebus) OX=11132 GN=M PE=1 SV=1
+sp|P69705|VME1_CVBQ      1.9   2.4e+02     1   0.9     13     53     22     51     26     56     Membrane protein OS=Bovine coronavirus (strain Quebec) OX=11133 GN=M PE=3 SV=1
+sp|Q9QAR9|VME1_CVBLY     1.9   2.4e+02     1   0.9     13     53     22     51     26     56     Membrane protein OS=Bovine coronavirus (strain LY-138) OX=11131 GN=M PE=3 SV=1
+sp|P03415|VME1_CVMA5     1.7   2.9e+02     1   1.6      9     55     25     53     28     57     Membrane protein OS=Murine coronavirus (strain A59) OX=11142 GN=M PE=1 SV=1
+sp|Q9JEB4|VME1_CVM2      1.3   3.7e+02     1   0.6      9     54     19     52     22     56     Membrane protein OS=Murine coronavirus (strain 2) OX=76344 GN=M PE=1 SV=1
+sp|Q8BB24|VME1_CVP67     1.2   4.1e+02     1   0.6     12     54     22     52     26     57     Membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain 67N) OX=230237 GN=M PE=3 SV=1
+sp|Q8JSP5|VME1_CVPIA     1.1   4.3e+02     1   0.6     12     54     22     52     26     57     Membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain IAF-404) OX=230236 GN=M PE=3 SV=1
+sp|Q9WCD1|VME1_CVRNJ     0.9   5.2e+02     1   1.3      8     49     21     47     31     57     Membrane protein (Fragment) OS=Rat coronavirus (strain NJ) OX=231433 GN=M PE=3 SV=1
+sp|Q9IKC7|VME1_CVRSD     0.7   5.8e+02     1   1.9      9     55     23     53     26     57     Membrane protein OS=Rat coronavirus (strain 681) OX=33740 GN=M PE=3 SV=1
+sp|P26021|VME1_CVTKE     0.1   8.7e+02     1   0.1     14     51     24     45     28     50     Membrane protein OS=Turkey enteric coronavirus OX=11152 GN=M PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000599@SRS019022_WUGC_scaffold_28033@SRS019022_WUGC_scaffold_28033_gene_27055.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000599@SRS019022_WUGC_scaffold_28033@SRS019022_WUGC_scaffold_28033_gene_27055.txt data/models_hmm/7000000599@SRS019022_WUGC_scaffold_28033@SRS019022_WUGC_scaffold_28033_gene_27055.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:29 2021
+# [ok]

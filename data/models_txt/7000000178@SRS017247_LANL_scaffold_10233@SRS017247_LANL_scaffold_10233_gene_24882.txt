@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03307|POLG_FMDV5    12.7       0.1   1   1.5   0.0    Genome polyprotein OS=Foot-and-mouth disease virus (isolate -/Germany/A5Westerwald/1951 serotype A) OX=12113 PE=1 SV=2
+sp|P03311|POLG_FMDVS    12.0      0.16   1   1.5   0.0    Genome polyprotein OS=Foot-and-mouth disease virus (isolate -/Spain/S8c1SantaPau/1970 serotype C) OX=12120 PE=1 SV=2
+sp|P15072|POLG_FMDVT    12.0      0.17   1   1.5   0.0    Genome polyprotein OS=Foot-and-mouth disease virus (isolate -/Germany/C1Oberbayen/1960 serotype C) OX=12121 PE=1 SV=2
+sp|P03309|POLG_FMDVC    12.0      0.17   1   1.6   0.0    Genome polyprotein OS=Foot-and-mouth disease virus (isolate Bovine/Brazil/A24Cruzeiro/1955 serotype A) OX=12115 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03307|POLG_FMDV5    11.6      0.23     1   0.0   1295   1373   1321   1362     58     99     Genome polyprotein OS=Foot-and-mouth disease virus (isolate -/Germany/A5Westerwald/1951 serotype A) OX=12113 PE=1 SV=2
+sp|P03311|POLG_FMDVS    10.8      0.38     1   0.0   1290   1367   1314   1355     56     97     Genome polyprotein OS=Foot-and-mouth disease virus (isolate -/Spain/S8c1SantaPau/1970 serotype C) OX=12120 PE=1 SV=2
+sp|P15072|POLG_FMDVT    10.8      0.38     1   0.0   1290   1367   1314   1355     56     97     Genome polyprotein OS=Foot-and-mouth disease virus (isolate -/Germany/C1Oberbayen/1960 serotype C) OX=12121 PE=1 SV=2
+sp|P03309|POLG_FMDVC    10.7      0.42     1   0.0   1296   1373   1322   1361     58     97     Genome polyprotein OS=Foot-and-mouth disease virus (isolate Bovine/Brazil/A24Cruzeiro/1955 serotype A) OX=12115 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000178@SRS017247_LANL_scaffold_10233@SRS017247_LANL_scaffold_10233_gene_24882.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000178@SRS017247_LANL_scaffold_10233@SRS017247_LANL_scaffold_10233_gene_24882.txt data/models_hmm/7000000178@SRS017247_LANL_scaffold_10233@SRS017247_LANL_scaffold_10233_gene_24882.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:06 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6QGE6|ENDO2_BPT5    11.0      0.22   2   2.1   5.9    Putative endonuclease OS=Escherichia phage T5 OX=10726 GN=T5.141 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6QGE6|ENDO2_BPT5    12.2     0.094     1   1.5     19     89     36     78     94    131     Putative endonuclease OS=Escherichia phage T5 OX=10726 GN=T5.141 PE=2 SV=1
+sp|Q6QGE6|ENDO2_BPT5     0.5   3.7e+02     2   0.3     75    157    120    139    135    154     Putative endonuclease OS=Escherichia phage T5 OX=10726 GN=T5.141 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001866@JGI24729J20445_1000011@JGI24729J20445_1000011137.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001866@JGI24729J20445_1000011@JGI24729J20445_1000011137.txt data/models_hmm/3300001866@JGI24729J20445_1000011@JGI24729J20445_1000011137.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:26 2021
+# [ok]

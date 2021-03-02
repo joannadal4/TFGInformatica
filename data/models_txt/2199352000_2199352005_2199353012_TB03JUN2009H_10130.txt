@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P57022|GTRB_BPP22    16.7    0.0027   1   1.1   0.0    Bactoprenol glucosyl transferase OS=Salmonella phage P22 OX=10754 GN=gtrB PE=3 SV=1
+sp|O22007|GTRB_BPSF5    12.6     0.047   1   1.1   0.0    Bactoprenol glucosyl transferase OS=Shigella phage SfV OX=55884 GN=gtrB PE=3 SV=1
+sp|P68668|GTRB_BPSF2    12.6     0.048   1   1.1   0.0    Bactoprenol glucosyl transferase OS=Shigella phage SfII OX=66284 GN=gtrB PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P57022|GTRB_BPP22    16.4    0.0032     1   0.0      1    205      1    149      1    149     Bactoprenol glucosyl transferase OS=Salmonella phage P22 OX=10754 GN=gtrB PE=3 SV=1
+sp|O22007|GTRB_BPSF5    12.4     0.055     1   0.0      1    189      1    146      1    146     Bactoprenol glucosyl transferase OS=Shigella phage SfV OX=55884 GN=gtrB PE=3 SV=1
+sp|P68668|GTRB_BPSF2    12.3     0.056     1   0.0      1    189      1    146      1    146     Bactoprenol glucosyl transferase OS=Shigella phage SfII OX=66284 GN=gtrB PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2199352000_2199352005_2199353012_TB03JUN2009H_10130.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2199352000_2199352005_2199353012_TB03JUN2009H_10130.txt data/models_hmm/2199352000_2199352005_2199353012_TB03JUN2009H_10130.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:09 2021
+# [ok]

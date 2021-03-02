@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20703|UVSW_BPT4     92.0   3.4e-26   2   1.7   1.4    ATP-dependent DNA helicase uvsW OS=Enterobacteria phage T4 OX=10665 GN=uvsW PE=1 SV=2
+sp|P0CJ94|MVP_BCMNN     14.1     0.021   1   1.4   0.1    P3N-PIPO polyprotein OS=Bean common mosaic necrosis virus (strain NL-3) OX=500578 PE=2 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20703|UVSW_BPT4     90.8   7.9e-26     2   1.1    513    587    514    585      2     73     ATP-dependent DNA helicase uvsW OS=Enterobacteria phage T4 OX=10665 GN=uvsW PE=1 SV=2
+sp|P0CJ94|MVP_BCMNN     13.2     0.038     1   0.1    852    969    892    958     76    140     P3N-PIPO polyprotein OS=Bean common mosaic necrosis virus (strain NL-3) OX=500578 PE=2 SV=2
+sp|P20703|UVSW_BPT4     -2.4   2.3e+03     1   0.0    239    298    268    289    117    138     ATP-dependent DNA helicase uvsW OS=Enterobacteria phage T4 OX=10665 GN=uvsW PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_932530@NC_005135.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_932530@NC_005135.txt data/models_hmm/NP_932530@NC_005135.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:39 2021
+# [ok]

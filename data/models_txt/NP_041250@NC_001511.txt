@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P69715|VIF_VILV     477.8  4.2e-144   1   1.0  21.3    Virion infectivity factor OS=Maedi visna virus (strain 1514) OX=11742 GN=vif PE=3 SV=1
+sp|P69716|VIF_VILV2    477.8  4.2e-144   1   1.0  21.3    Virion infectivity factor OS=Maedi visna virus (strain 1514 / clone LV1-1KS2) OX=11744 GN=vif PE=3 SV=1
+sp|P69717|VIF_VILVK    477.8  4.2e-144   1   1.0  21.3    Virion infectivity factor OS=Maedi visna virus (strain KV1772) OX=36374 GN=vif PE=3 SV=1
+sp|P23430|VIF_VILV1    470.7  6.6e-142   1   1.0  21.1    Virion infectivity factor OS=Maedi visna virus (strain 1514 / clone LV1-1KS1) OX=11743 GN=vif PE=3 SV=1
+sp|P16902|VIF_OMVVS    458.4  3.8e-138   1   1.0  18.5    Virion infectivity factor OS=Ovine maedi visna related virus (strain South Africa) OX=11664 GN=vif PE=3 SV=1
+sp|P33462|VIF_CAEVC    441.3  6.4e-133   1   1.0  23.8    Virion infectivity factor OS=Caprine arthritis encephalitis virus (strain Cork) OX=11661 GN=vif PE=3 SV=1
+sp|Q82852|VIF_JEMBR     31.6     1e-07   1   1.1   0.2    Virion infectivity factor OS=Jembrana disease virus OX=36370 GN=vif PE=3 SV=1
+sp|P19563|VIF_BIV29     20.5   0.00024   1   1.2   0.2    Virion infectivity factor OS=Bovine immunodeficiency virus (strain R29) OX=417296 GN=vif PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P69715|VIF_VILV     477.7  4.7e-144     1  21.3      1    230      1    230      1    230     Virion infectivity factor OS=Maedi visna virus (strain 1514) OX=11742 GN=vif PE=3 SV=1
+sp|P69716|VIF_VILV2    477.7  4.7e-144     1  21.3      1    230      1    230      1    230     Virion infectivity factor OS=Maedi visna virus (strain 1514 / clone LV1-1KS2) OX=11744 GN=vif PE=3 SV=1
+sp|P69717|VIF_VILVK    477.7  4.7e-144     1  21.3      1    230      1    230      1    230     Virion infectivity factor OS=Maedi visna virus (strain KV1772) OX=36374 GN=vif PE=3 SV=1
+sp|P23430|VIF_VILV1    470.5  7.4e-142     1  21.1      1    230      1    230      1    230     Virion infectivity factor OS=Maedi visna virus (strain 1514 / clone LV1-1KS1) OX=11743 GN=vif PE=3 SV=1
+sp|P16902|VIF_OMVVS    458.2  4.2e-138     1  18.5      1    228      1    227      1    230     Virion infectivity factor OS=Ovine maedi visna related virus (strain South Africa) OX=11664 GN=vif PE=3 SV=1
+sp|P33462|VIF_CAEVC    441.0  7.8e-133     1  23.8      1    228      1    227      1    230     Virion infectivity factor OS=Caprine arthritis encephalitis virus (strain Cork) OX=11661 GN=vif PE=3 SV=1
+sp|Q82852|VIF_JEMBR     31.3   1.3e-07     1   0.2     31    190     40    170     67    194     Virion infectivity factor OS=Jembrana disease virus OX=36370 GN=vif PE=3 SV=1
+sp|P19563|VIF_BIV29     20.4   0.00026     1   0.2     40    191    106    176    130    199     Virion infectivity factor OS=Bovine immunodeficiency virus (strain R29) OX=417296 GN=vif PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_041250@NC_001511.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_041250@NC_001511.txt data/models_hmm/NP_041250@NC_001511.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:15 2021
+# [ok]

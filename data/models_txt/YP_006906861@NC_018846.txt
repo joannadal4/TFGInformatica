@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09386|STXB_BP933   163.3     1e-48   1   1.0   0.5    Shiga-like toxin 2 subunit B OS=Escherichia phage 933W OX=10730 GN=stxB2 PE=1 SV=1
+sp|P69178|STXB_BPH30   149.6     2e-44   1   1.0   0.4    Shiga-like toxin 1 subunit B OS=Bacteriophage H30 OX=12371 GN=stxB PE=1 SV=1
+sp|P69179|STXB_BPH19   149.6     2e-44   1   1.0   0.4    Shiga-like toxin 1 subunit B OS=Enterobacteria phage H19B OX=69932 GN=stxB PE=1 SV=1
+sp|Q779K3|STXB_BP788   149.6     2e-44   1   1.0   0.4    Shiga toxin subunit B OS=Shigella phage 7888 OX=138946 GN=stxB PE=3 SV=1
+sp|Q9T1U1|VP07_BPAPS   138.7   4.8e-41   1   1.0   0.1    Putative protein p7 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=7 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09386|STXB_BP933   163.2   1.1e-48     1   0.5      1     89      1     89      1     90     Shiga-like toxin 2 subunit B OS=Escherichia phage 933W OX=10730 GN=stxB2 PE=1 SV=1
+sp|P69178|STXB_BPH30   149.4   2.2e-44     1   0.4      1     89      1     89      1     88     Shiga-like toxin 1 subunit B OS=Bacteriophage H30 OX=12371 GN=stxB PE=1 SV=1
+sp|P69179|STXB_BPH19   149.4   2.2e-44     1   0.4      1     89      1     89      1     88     Shiga-like toxin 1 subunit B OS=Enterobacteria phage H19B OX=69932 GN=stxB PE=1 SV=1
+sp|Q779K3|STXB_BP788   149.4   2.2e-44     1   0.4      1     89      1     89      1     88     Shiga toxin subunit B OS=Shigella phage 7888 OX=138946 GN=stxB PE=3 SV=1
+sp|Q9T1U1|VP07_BPAPS   138.6   5.2e-41     1   0.1      1    102      3    102      3     90     Putative protein p7 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=7 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006906861@NC_018846.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006906861@NC_018846.txt data/models_hmm/YP_006906861@NC_018846.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:26 2021
+# [ok]

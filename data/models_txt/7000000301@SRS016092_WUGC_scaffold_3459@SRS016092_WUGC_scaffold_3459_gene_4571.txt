@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P50765|VE1_HPV70     12.3       0.1   2   1.8   0.1    Replication protein E1 OS=Human papillomavirus type 70 OX=39457 GN=E1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P50765|VE1_HPV70     10.6      0.34     2   0.0    206    311    220    306     71    158     Replication protein E1 OS=Human papillomavirus type 70 OX=39457 GN=E1 PE=3 SV=1
+sp|P50765|VE1_HPV70     -2.6   3.8e+03     1   0.0     32     78     46     65     74     93     Replication protein E1 OS=Human papillomavirus type 70 OX=39457 GN=E1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000301@SRS016092_WUGC_scaffold_3459@SRS016092_WUGC_scaffold_3459_gene_4571.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000301@SRS016092_WUGC_scaffold_3459@SRS016092_WUGC_scaffold_3459_gene_4571.txt data/models_hmm/7000000301@SRS016092_WUGC_scaffold_3459@SRS016092_WUGC_scaffold_3459_gene_4571.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:06 2021
+# [ok]

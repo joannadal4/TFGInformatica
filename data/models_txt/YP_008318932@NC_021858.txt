@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P16795|GN_HCMVA      10.9      0.14   1   1.0  14.1    Envelope glycoprotein N OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gN PE=1 SV=1
+sp|F5HHQ0|GN_HCMVM      10.2      0.23   1   1.0  12.5    Envelope glycoprotein N OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gN PE=3 SV=1
+sp|F5HE12|UL35_HCMVM     7.0       2.1   1   1.2  24.1    Tegument protein UL35 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL35 PE=3 SV=1
+sp|P16766|UL35_HCMVA     5.9       4.4   1   1.2  23.1    Protein UL35 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL35 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P16795|GN_HCMVA      10.6      0.17     1  14.1     12    121     19    108    294    384     Envelope glycoprotein N OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gN PE=1 SV=1
+sp|F5HHQ0|GN_HCMVM       9.9      0.27     1  12.5     12    118     17    105    296    384     Envelope glycoprotein N OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gN PE=3 SV=1
+sp|F5HE12|UL35_HCMVM     6.4       3.1     1  24.1    482    602    497    575    284    363     Tegument protein UL35 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL35 PE=3 SV=1
+sp|P16766|UL35_HCMVA     5.4       6.6     1  23.1    482    602    497    573    281    362     Protein UL35 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL35 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008318932@NC_021858.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008318932@NC_021858.txt data/models_hmm/YP_008318932@NC_021858.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:41 2021
+# [ok]

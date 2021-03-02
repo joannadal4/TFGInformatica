@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HFG3|UL41A_HCMVM   125.8   4.7e-37   1   1.0   2.0    Protein UL41A OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL41A PE=3 SV=1
+sp|O39920|UL41A_HCMVA   125.8   4.7e-37   1   1.0   2.0    Protein UL41A OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL41A PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HFG3|UL41A_HCMVM   125.6   5.1e-37     1   2.0      1     78      1     78      2     78     Protein UL41A OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL41A PE=3 SV=1
+sp|O39920|UL41A_HCMVA   125.6   5.1e-37     1   2.0      1     78      1     78      2     78     Protein UL41A OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL41A PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004940213@NC_016448.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004940213@NC_016448.txt data/models_hmm/YP_004940213@NC_016448.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:54 2021
+# [ok]

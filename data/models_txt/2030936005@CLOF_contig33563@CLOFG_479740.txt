@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6QGH9|OBP_BPT5      14.3     0.041   2   3.0   0.9    Putative replication origin binding protein OS=Escherichia phage T5 OX=10726 GN=obp PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6QGH9|OBP_BPT5       8.5       2.5     1   0.0    311    361    316    356     59     99     Putative replication origin binding protein OS=Escherichia phage T5 OX=10726 GN=obp PE=1 SV=1
+sp|Q6QGH9|OBP_BPT5       2.8   1.6e+02     2   0.2    784    826    793    822     74    103     Putative replication origin binding protein OS=Escherichia phage T5 OX=10726 GN=obp PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2030936005@CLOF_contig33563@CLOFG_479740.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2030936005@CLOF_contig33563@CLOFG_479740.txt data/models_hmm/2030936005@CLOF_contig33563@CLOFG_479740.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:21 2021
+# [ok]

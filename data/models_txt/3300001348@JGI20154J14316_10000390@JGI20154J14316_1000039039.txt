@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q65236|NIFSL_ASFM2    17.4    0.0039   2   2.4   0.3    NifS-like protein OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-132 PE=3 SV=1
+sp|F5HAW0|RIR2_HHV8P     14.8     0.026   1   1.6   0.4    Ribonucleoside-diphosphate reductase small subunit OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=RIR2 PE=3 SV=1
+sp|P52344|GCVK_HHV7J     13.4      0.07   1   1.7   1.5    Probable ganciclovir kinase OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U69 PE=3 SV=1
+sp|Q65192|NIFSL_ASFB7    13.3     0.076   2   2.3   0.5    NifS-like protein OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-124 PE=3 SV=1
+sp|P0C9C9|NIFSL_ASFP4    13.0     0.093   2   2.3   0.8    NifS-like protein OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-136 PE=3 SV=1
+sp|P0C9D0|NIFSL_ASFWA    12.3      0.16   2   2.3   0.6    NifS-like protein OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-134 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HAW0|RIR2_HHV8P     13.6     0.061     1   0.4     40    113     50    110     54    115     Ribonucleoside-diphosphate reductase small subunit OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=RIR2 PE=3 SV=1
+sp|P52344|GCVK_HHV7J     12.0      0.19     1   1.5    234    327    239    297      7     68     Probable ganciclovir kinase OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U69 PE=3 SV=1
+sp|Q65236|NIFSL_ASFM2     8.5       2.3     2   0.1    285    363    287    354     40    108     NifS-like protein OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-132 PE=3 SV=1
+sp|Q65236|NIFSL_ASFM2     6.4       9.8     1   0.0    104    176    113    167     30     85     NifS-like protein OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-132 PE=3 SV=1
+sp|Q65192|NIFSL_ASFB7     5.9        14     1   0.0    102    177    113    167     30     85     NifS-like protein OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-124 PE=3 SV=1
+sp|P0C9C9|NIFSL_ASFP4     5.8        15     2   0.2    296    373    299    364     41    107     NifS-like protein OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-136 PE=3 SV=1
+sp|Q65192|NIFSL_ASFB7     5.1        25     2   0.1    290    369    295    360     41    107     NifS-like protein OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-124 PE=3 SV=1
+sp|P0C9D0|NIFSL_ASFWA     5.1        26     1   0.0    102    177    113    167     30     85     NifS-like protein OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-134 PE=3 SV=1
+sp|P0C9C9|NIFSL_ASFP4     5.1        26     1   0.0    102    177    113    167     30     85     NifS-like protein OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-136 PE=3 SV=1
+sp|P0C9D0|NIFSL_ASFWA     5.1        27     2   0.2    295    372    298    363     41    107     NifS-like protein OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-134 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001348@JGI20154J14316_10000390@JGI20154J14316_1000039039.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001348@JGI20154J14316_10000390@JGI20154J14316_1000039039.txt data/models_hmm/3300001348@JGI20154J14316_10000390@JGI20154J14316_1000039039.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:56 2021
+# [ok]

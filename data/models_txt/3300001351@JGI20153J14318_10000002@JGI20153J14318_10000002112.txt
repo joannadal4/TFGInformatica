@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ84|YR525_MIMIV    28.8   8.2e-07   3   2.9   0.3    Uncharacterized protein R525 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R525 PE=4 SV=1
+sp|Q5UNY3|YL729_MIMIV    21.3   0.00017   1   1.8   6.8    Uncharacterized protein L729 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L729 PE=4 SV=1
+sp|Q5UPD1|YL051_MIMIV    15.5     0.011   1   1.2   4.3    Uncharacterized protein L51 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L51 PE=3 SV=1
+sp|P17887|MCP_HHV6U      14.9     0.016   1   2.1   1.4    Major capsid protein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=MCP PE=3 SV=3
+sp|Q84940|NSP1_ROTP5     11.5      0.17   2   2.5   4.3    Non-structural protein 1 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ84|YR525_MIMIV    28.8   8.2e-07     3   0.3    406    541    413    531     10    132     Uncharacterized protein R525 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R525 PE=4 SV=1
+sp|Q5UNY3|YL729_MIMIV    21.3   0.00017     1   6.8     13    149     21    133     14    136     Uncharacterized protein L729 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L729 PE=4 SV=1
+sp|Q5UPD1|YL051_MIMIV    15.1     0.014     1   4.3      1    103      6     87     59    140     Uncharacterized protein L51 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L51 PE=3 SV=1
+sp|P17887|MCP_HHV6U      12.9     0.063     1   1.4    190    296    197    266     19     83     Major capsid protein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=MCP PE=3 SV=3
+sp|Q84940|NSP1_ROTP5      8.9       1.1     1   0.2     78    149     84    137     43     95     Non-structural protein 1 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=1 SV=1
+sp|Q84940|NSP1_ROTP5      3.7        46     2   0.5    293    397    337    367     56     86     Non-structural protein 1 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=1 SV=1
+sp|Q5UQ84|YR525_MIMIV    -1.1   1.3e+03     1   0.4    223    285    229    260     50     85     Uncharacterized protein R525 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R525 PE=4 SV=1
+sp|Q5UQ84|YR525_MIMIV    -2.8   4.5e+03     2   0.2    309    366    318    332      9     23     Uncharacterized protein R525 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R525 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001351@JGI20153J14318_10000002@JGI20153J14318_10000002112.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001351@JGI20153J14318_10000002@JGI20153J14318_10000002112.txt data/models_hmm/3300001351@JGI20153J14318_10000002@JGI20153J14318_10000002112.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:59 2021
+# [ok]

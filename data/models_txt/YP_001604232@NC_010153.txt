@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q914L8|Y012_SIFVH    57.6   3.7e-16   1   1.0   0.1    Uncharacterized protein 12 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0012 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q914L8|Y012_SIFVH    57.4   4.2e-16     1   0.1      2     49      4     49    809    855     Uncharacterized protein 12 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0012 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001604232@NC_010153.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001604232@NC_010153.txt data/models_hmm/YP_001604232@NC_010153.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:34 2021
+# [ok]

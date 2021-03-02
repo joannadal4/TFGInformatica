@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q197E1|VF201_IIV3     15.6     0.014   2   2.5   0.6    Putative Bro-N domain-containing protein 019R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-019R PE=3 SV=1
+sp|Q37897|PKG16_BPB03    12.7      0.11   1   1.6   0.0    DNA packaging protein OS=Bacillus phage B103 OX=10778 GN=16 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q37897|PKG16_BPB03    11.4      0.28     1   0.0    203    278    207    273     16     83     DNA packaging protein OS=Bacillus phage B103 OX=10778 GN=16 PE=3 SV=1
+sp|Q197E1|VF201_IIV3      8.4       2.4     2   0.0    338    403    344    392     16     64     Putative Bro-N domain-containing protein 019R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-019R PE=3 SV=1
+sp|Q197E1|VF201_IIV3      5.0        27     1   0.2    142    205    164    189     12     37     Putative Bro-N domain-containing protein 019R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-019R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002154240@NC_011166.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002154240@NC_011166.txt data/models_hmm/YP_002154240@NC_011166.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:51 2021
+# [ok]

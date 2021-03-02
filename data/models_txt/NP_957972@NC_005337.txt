@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6RZJ7|H7_RABPU      31.9   1.1e-07   1   1.1   0.0    Late protein H7 homolog OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV094 PE=2 SV=1
+sp|P08586|H7_VACCW      31.1     2e-07   1   1.1   0.0    Late protein H7 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR105 PE=1 SV=2
+sp|P20539|H7_VACCC      30.8   2.4e-07   1   1.1   0.0    Late protein H7 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=H7R PE=2 SV=1
+sp|O57208|H7_VACCA      28.9   9.3e-07   1   1.1   0.0    Late protein H7 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA097R PE=2 SV=1
+sp|Q9JFA9|H7_VACCT      28.7   1.1e-06   1   1.1   0.0    Late protein H7 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TH8R PE=2 SV=1
+sp|P0DON7|H7_VAR67      26.2   6.2e-06   1   1.2   0.0    Late protein H7 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=H7R PE=2 SV=1
+sp|P0DON8|H7_VARV       26.2   6.2e-06   1   1.2   0.0    Late protein H7 OS=Variola virus OX=10255 GN=H7R PE=2 SV=1
+sp|Q9J586|H7_FOWPN      19.6   0.00069   1   1.2   0.0    Late protein H7 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV144 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6RZJ7|H7_RABPU      31.6   1.3e-07     1   0.0      3    146     11    145      6    136     Late protein H7 homolog OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV094 PE=2 SV=1
+sp|P08586|H7_VACCW      30.8   2.4e-07     1   0.0      3    146     11    145      6    136     Late protein H7 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR105 PE=1 SV=2
+sp|P20539|H7_VACCC      30.6   2.8e-07     1   0.0      3    146     16    145     12    136     Late protein H7 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=H7R PE=2 SV=1
+sp|O57208|H7_VACCA      28.7   1.1e-06     1   0.0      3    146     16    145     12    136     Late protein H7 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA097R PE=2 SV=1
+sp|Q9JFA9|H7_VACCT      28.4   1.3e-06     1   0.0      3    146     16    145     12    136     Late protein H7 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TH8R PE=2 SV=1
+sp|P0DON7|H7_VAR67      25.9   7.7e-06     1   0.0      3    146     15    145     11    136     Late protein H7 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=H7R PE=2 SV=1
+sp|P0DON8|H7_VARV       25.9   7.7e-06     1   0.0      3    146     15    145     11    136     Late protein H7 OS=Variola virus OX=10255 GN=H7R PE=2 SV=1
+sp|Q9J586|H7_FOWPN      19.3   0.00086     1   0.0     15    148     44    146     44    137     Late protein H7 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV144 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_957972@NC_005337.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_957972@NC_005337.txt data/models_hmm/NP_957972@NC_005337.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:47 2021
+# [ok]

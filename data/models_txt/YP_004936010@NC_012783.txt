@@ -1,0 +1,46 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HC16|UL34_HCMVM    435.2  4.7e-130   1   1.0   0.0    Transcriptional regulator UL34 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL34 PE=3 SV=1
+sp|P16812|UL34_HCMVA    432.0  4.3e-129   1   1.0   0.0    Transcriptional regulator UL34 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL34 PE=3 SV=2
+sp|B9VXK4|UL34_HCMVT    430.6  1.1e-128   1   1.0   0.0    Transcriptional regulator UL34 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL34 PE=3 SV=1
+sp|Q5UR26|VF546_MIMIV    18.6    0.0008   1   1.1  17.8    Uncharacterized protein R546 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R546 PE=3 SV=1
+sp|P29129|ICP0_SUHVF     17.9    0.0013   1   1.1  15.3    E3 ubiquitin-protein ligase ICP0 OS=Suid herpesvirus 1 (strain Indiana-Funkhauser / Becker) OX=31523 GN=EP0 PE=2 SV=1
+sp|Q5UR52|YR584_MIMIV    17.3     0.002   1   1.1   5.5    Uncharacterized N-acetyltransferase R584 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R584 PE=1 SV=1
+sp|Q196Y6|VF268_IIV3     12.9     0.042   1   1.4  25.2    Uncharacterized protein 074L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-074L PE=3 SV=1
+sp|P09279|SCP_VZVD        9.0      0.65   1   1.2   7.1    Small capsomere-interacting protein OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=SCP PE=3 SV=1
+sp|Q00114|VG21_ICHVA      6.5       3.7   1   1.2  14.8    Uncharacterized protein ORF21 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF21 PE=4 SV=1
+sp|P08392|ICP4_HHV11      6.1       5.1   1   1.3  17.0    Major viral transcription factor ICP4 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=ICP4 PE=1 SV=1
+sp|P36856|SHUT_ADEGX      5.5       7.3   2   1.6   7.2    Shutoff protein OS=Fowl adenovirus C serotype 10 (strain SA2) OX=10547 GN=L4 PE=3 SV=1
+sp|O11436|POLG_RGMVD      5.5       7.4   1   1.3   8.1    Genome polyprotein OS=Ryegrass mosaic virus (isolate Denmark/Danish) OX=652106 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HC16|UL34_HCMVM    434.9  5.5e-130     1   0.0      1    404      1    390      1    392     Transcriptional regulator UL34 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL34 PE=3 SV=1
+sp|P16812|UL34_HCMVA    431.8    5e-129     1   0.0      1    404      1    388      1    390     Transcriptional regulator UL34 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL34 PE=3 SV=2
+sp|B9VXK4|UL34_HCMVT    430.4  1.3e-128     1   0.0      1    404      1    388      1    390     Transcriptional regulator UL34 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL34 PE=3 SV=1
+sp|Q5UR26|VF546_MIMIV    18.4   0.00092     1  17.8     18    211    102    195    360    453     Uncharacterized protein R546 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R546 PE=3 SV=1
+sp|P29129|ICP0_SUHVF     17.6    0.0016     1  15.3    162    408    235    397    339    478     E3 ubiquitin-protein ligase ICP0 OS=Suid herpesvirus 1 (strain Indiana-Funkhauser / Becker) OX=31523 GN=EP0 PE=2 SV=1
+sp|Q5UR52|YR584_MIMIV    17.0    0.0025     1   5.5     80    273    134    230    398    477     Uncharacterized N-acetyltransferase R584 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R584 PE=1 SV=1
+sp|Q196Y6|VF268_IIV3     12.1     0.074     1  25.2     85    288    169    267    359    451     Uncharacterized protein 074L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-074L PE=3 SV=1
+sp|P09279|SCP_VZVD        8.7       0.8     1   7.1     19    230    114    209    398    483     Small capsomere-interacting protein OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=SCP PE=3 SV=1
+sp|P36856|SHUT_ADEGX      7.5       1.8     1   3.7      5    148     35    124    338    428     Shutoff protein OS=Fowl adenovirus C serotype 10 (strain SA2) OX=10547 GN=L4 PE=3 SV=1
+sp|Q00114|VG21_ICHVA      6.0       5.1     1  14.8    112    296    124    292    279    430     Uncharacterized protein ORF21 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF21 PE=4 SV=1
+sp|P08392|ICP4_HHV11      5.2       9.4     1  17.0     30    268    114    244    353    482     Major viral transcription factor ICP4 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=ICP4 PE=1 SV=1
+sp|O11436|POLG_RGMVD      4.6        14     1   8.1   2717   2840   2744   2813    386    456     Genome polyprotein OS=Ryegrass mosaic virus (isolate Denmark/Danish) OX=652106 PE=3 SV=1
+sp|P36856|SHUT_ADEGX     -2.2   1.7e+03     2   0.1    193    216    196    214     60     78     Shutoff protein OS=Fowl adenovirus C serotype 10 (strain SA2) OX=10547 GN=L4 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004936010@NC_012783.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004936010@NC_012783.txt data/models_hmm/YP_004936010@NC_012783.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:49 2021
+# [ok]

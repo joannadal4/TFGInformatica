@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A4ZU93|Y163_ABVP     13.2     0.058   1   1.3   0.0    Uncharacterized protein ORF163 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF163 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A4ZU93|Y163_ABVP     12.9     0.071     1   0.0     13    133     53    108     92    151     Uncharacterized protein ORF163 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF163 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000230@TB_GS10_10DRAFT_10000022@TB_GS10_10DRAFT_100000228.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000230@TB_GS10_10DRAFT_10000022@TB_GS10_10DRAFT_100000228.txt data/models_hmm/3300000230@TB_GS10_10DRAFT_10000022@TB_GS10_10DRAFT_100000228.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:11 2021
+# [ok]

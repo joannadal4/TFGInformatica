@@ -1,0 +1,38 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05261|VG49_BPML5    14.8     0.021   1   1.4   0.0    Gene 49 protein OS=Mycobacterium phage L5 OX=31757 GN=49 PE=4 SV=1
+sp|P08274|NS1_I24A0     14.0     0.039   3   1.8   0.1    Non-structural protein 1 (Fragment) OS=Influenza A virus (strain A/Chicken/Japan/1924 H7N7) OX=11340 GN=NS PE=3 SV=1
+sp|P08278|NS1_I61A0     13.5     0.054   2   1.8   0.0    Non-structural protein 1 (Fragment) OS=Influenza A virus (strain A/Tern/South Africa/1961 H5N3) OX=384510 GN=NS PE=3 SV=2
+sp|P08270|NS1_I63A3     13.4      0.06   3   1.8   0.1    Non-structural protein 1 (Fragment) OS=Influenza A virus (strain A/Duck/Ukraine/1/1963 H3N8) OX=385580 GN=NS PE=3 SV=1
+sp|Q9WA92|NS1_I86A3     11.9      0.17   3   1.9   0.1    Non-structural protein 1 OS=Influenza A virus (strain A/Equine/Tennessee/5/1986 H3N8) OX=380339 GN=NS PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05261|VG49_BPML5    14.2     0.034     1   0.0     45    101     52     80      9     37     Gene 49 protein OS=Mycobacterium phage L5 OX=31757 GN=49 PE=4 SV=1
+sp|P08274|NS1_I24A0     12.2      0.13     3   0.0    154    196    159    186     25     52     Non-structural protein 1 (Fragment) OS=Influenza A virus (strain A/Chicken/Japan/1924 H7N7) OX=11340 GN=NS PE=3 SV=1
+sp|P08270|NS1_I63A3     11.7      0.19     3   0.0    153    196    159    186     25     52     Non-structural protein 1 (Fragment) OS=Influenza A virus (strain A/Duck/Ukraine/1/1963 H3N8) OX=385580 GN=NS PE=3 SV=1
+sp|P08278|NS1_I61A0     11.7       0.2     2   0.0    154    196    159    186     25     52     Non-structural protein 1 (Fragment) OS=Influenza A virus (strain A/Tern/South Africa/1961 H5N3) OX=384510 GN=NS PE=3 SV=2
+sp|Q9WA92|NS1_I86A3     10.1       0.6     3   0.0    157    199    162    189     25     52     Non-structural protein 1 OS=Influenza A virus (strain A/Equine/Tennessee/5/1986 H3N8) OX=380339 GN=NS PE=3 SV=1
+sp|P08278|NS1_I61A0     -1.0   1.7e+03     1   0.0     55    142     91    122     49     80     Non-structural protein 1 (Fragment) OS=Influenza A virus (strain A/Tern/South Africa/1961 H5N3) OX=384510 GN=NS PE=3 SV=2
+sp|Q9WA92|NS1_I86A3     -1.8   2.9e+03     1   0.0     55    122     61     75     78     92     Non-structural protein 1 OS=Influenza A virus (strain A/Equine/Tennessee/5/1986 H3N8) OX=380339 GN=NS PE=3 SV=1
+sp|Q9WA92|NS1_I86A3     -2.3   4.1e+03     2   0.0     74    141     96    106     51     61     Non-structural protein 1 OS=Influenza A virus (strain A/Equine/Tennessee/5/1986 H3N8) OX=380339 GN=NS PE=3 SV=1
+sp|P08270|NS1_I63A3     -2.6   5.1e+03     1   0.0     52     92     56     75     76     95     Non-structural protein 1 (Fragment) OS=Influenza A virus (strain A/Duck/Ukraine/1/1963 H3N8) OX=385580 GN=NS PE=3 SV=1
+sp|P08274|NS1_I24A0     -2.7   5.4e+03     2   0.0     91    140     96    122     54     80     Non-structural protein 1 (Fragment) OS=Influenza A virus (strain A/Chicken/Japan/1924 H7N7) OX=11340 GN=NS PE=3 SV=1
+sp|P08270|NS1_I63A3     -2.9   6.4e+03     2   0.0     82    138     94    118     52     76     Non-structural protein 1 (Fragment) OS=Influenza A virus (strain A/Duck/Ukraine/1/1963 H3N8) OX=385580 GN=NS PE=3 SV=1
+sp|P08274|NS1_I24A0     -3.2   7.7e+03     1   0.0     52     81     56     71     76     91     Non-structural protein 1 (Fragment) OS=Influenza A virus (strain A/Chicken/Japan/1924 H7N7) OX=11340 GN=NS PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008531897@NC_022341.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008531897@NC_022341.txt data/models_hmm/YP_008531897@NC_022341.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:22 2021
+# [ok]

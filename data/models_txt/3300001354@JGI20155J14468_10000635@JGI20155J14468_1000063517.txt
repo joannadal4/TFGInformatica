@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P24729|GP16_NPVAC    19.2   0.00081   2   1.7   4.7    Glycoprotein GP16 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=GP16 PE=1 SV=1
+sp|P24079|VP16_NPVOP    15.6      0.01   1   1.2   0.2    GP16 protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=GP16 PE=4 SV=1
+sp|P11317|E311_ADE03    11.2      0.24   1   1.2   1.5    Early E3 9.0 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+sp|Q6R7G0|Y068_OSHVF     8.3       1.8   2   1.9   5.8    Putative transmembrane protein ORF68 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF68 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P24729|GP16_NPVAC    19.2   0.00081     2   4.7     27    105     36     95     41    100     Glycoprotein GP16 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=GP16 PE=1 SV=1
+sp|P24079|VP16_NPVOP    15.3     0.013     1   0.2     23     97     42     92     47     97     GP16 protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=GP16 PE=4 SV=1
+sp|Q6R7G0|Y068_OSHVF    11.0      0.26     1   1.4    182    285    193    280     51    130     Putative transmembrane protein ORF68 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF68 PE=3 SV=1
+sp|P11317|E311_ADE03    10.8      0.31     1   1.5      4     50     16     47    117    148     Early E3 9.0 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+sp|P24729|GP16_NPVAC    -1.1   1.4e+03     1   0.0      1     26      2     23    129    150     Glycoprotein GP16 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=GP16 PE=1 SV=1
+sp|Q6R7G0|Y068_OSHVF    -3.5   7.9e+03     2   0.2    596    656    613    625     55     67     Putative transmembrane protein ORF68 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF68 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001354@JGI20155J14468_10000635@JGI20155J14468_1000063517.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001354@JGI20155J14468_10000635@JGI20155J14468_1000063517.txt data/models_hmm/3300001354@JGI20155J14468_10000635@JGI20155J14468_1000063517.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:05 2021
+# [ok]

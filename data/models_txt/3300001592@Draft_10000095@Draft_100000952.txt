@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P07696|VPB_BPP2      14.0      0.02   1   1.1   0.1    Replication gene B protein OS=Escherichia phage P2 OX=10679 GN=B PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P07696|VPB_BPP2      13.6     0.026     1   0.1     30    104     43     82     25     64     Replication gene B protein OS=Escherichia phage P2 OX=10679 GN=B PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001592@Draft_10000095@Draft_100000952.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001592@Draft_10000095@Draft_100000952.txt data/models_hmm/3300001592@Draft_10000095@Draft_100000952.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:51 2021
+# [ok]

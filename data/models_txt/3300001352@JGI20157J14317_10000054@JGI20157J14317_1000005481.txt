@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P17002|HEMA_I63A4    10.7       0.3   2   2.0   3.4    Hemagglutinin OS=Influenza A virus (strain A/Equine/Uruguay/1/1963 H3N8) OX=387234 GN=HA PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P17002|HEMA_I63A4    10.8      0.28     1   1.0    368    443    370    430     39     99     Hemagglutinin OS=Influenza A virus (strain A/Equine/Uruguay/1/1963 H3N8) OX=387234 GN=HA PE=3 SV=2
+sp|P17002|HEMA_I63A4     2.1   1.4e+02     2   0.1    414    487    419    480     49    109     Hemagglutinin OS=Influenza A virus (strain A/Equine/Uruguay/1/1963 H3N8) OX=387234 GN=HA PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001352@JGI20157J14317_10000054@JGI20157J14317_1000005481.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001352@JGI20157J14317_10000054@JGI20157J14317_1000005481.txt data/models_hmm/3300001352@JGI20157J14317_10000054@JGI20157J14317_1000005481.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:01 2021
+# [ok]

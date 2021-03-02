@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13004|YLYS_BPPHV     20.1   0.00041   1   1.1   0.0    Uncharacterized protein near lysin gene (Fragment) OS=Lactococcus phage phivML3 OX=10746 PE=4 SV=2
+sp|Q5UQQ9|YR854_MIMIV    16.2    0.0069   1   2.1   0.1    Putative transposase R854 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R854 PE=3 SV=1
+sp|Q5UPQ8|YL770_MIMIV    15.9    0.0084   1   1.9   0.1    Putative transposase L770 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L770 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13004|YLYS_BPPHV     19.8    0.0005     1   0.0     16    151     42    149     42    162     Uncharacterized protein near lysin gene (Fragment) OS=Lactococcus phage phivML3 OX=10746 PE=4 SV=2
+sp|Q5UPQ8|YL770_MIMIV    14.3     0.026     1   0.1    315    400    317    368      3     52     Putative transposase L770 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L770 PE=3 SV=1
+sp|Q5UQQ9|YR854_MIMIV    14.2     0.026     1   0.1    322    407    324    375      3     52     Putative transposase R854 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R854 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000239@SRS013951_WUGC_scaffold_14463@SRS013951_WUGC_scaffold_14463_gene_24051.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000239@SRS013951_WUGC_scaffold_14463@SRS013951_WUGC_scaffold_14463_gene_24051.txt data/models_hmm/7000000239@SRS013951_WUGC_scaffold_14463@SRS013951_WUGC_scaffold_14463_gene_24051.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:42 2021
+# [ok]

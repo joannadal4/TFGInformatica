@@ -1,0 +1,38 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DJZ6|POLSF_SFV     10.9      0.25   1   1.2   8.9    Frameshifted structural polyprotein OS=Semliki forest virus OX=11033 PE=1 SV=1
+sp|P03315|POLS_SFV      10.2      0.39   1   1.3   8.9    Structural polyprotein OS=Semliki forest virus OX=11033 PE=1 SV=1
+sp|P19723|POLG_PRSVP     9.5      0.63   1   1.2   6.6    Genome polyprotein (Fragment) OS=Papaya ringspot virus (strain P / mutant HA 5-1) OX=31730 PE=3 SV=1
+sp|P16727|UL84_HCMVA     9.3      0.74   1   1.2   4.7    Protein UL84 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL84 PE=1 SV=1
+sp|P21416|GAG_GALV       9.1      0.84   1   1.2   6.2    Gag polyprotein OS=Gibbon ape leukemia virus OX=11840 GN=gag PE=3 SV=3
+sp|P19724|POLG_PRSVW     9.0      0.92   1   1.2   8.0    Genome polyprotein (Fragment) OS=Papaya ringspot virus (strain W) OX=12207 PE=3 SV=1
+sp|Q01901|POLG_PRSVH     7.5       2.6   1   1.3   8.7    Genome polyprotein OS=Papaya ringspot virus (strain P / mutant HA) OX=31731 PE=3 SV=2
+sp|Q6R7A1|Y122_OSHVF     6.4       5.6   2   2.3  23.4    Uncharacterized protein ORF122 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF122 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DJZ6|POLSF_SFV     10.2      0.41     1   8.9     24    120     30    109    195    277     Frameshifted structural polyprotein OS=Semliki forest virus OX=11033 PE=1 SV=1
+sp|P03315|POLS_SFV       9.4      0.68     1   8.9     24    120     30    109    195    277     Structural polyprotein OS=Semliki forest virus OX=11033 PE=1 SV=1
+sp|P19723|POLG_PRSVP     8.9      0.99     1   6.6    376    457    390    437    220    268     Genome polyprotein (Fragment) OS=Papaya ringspot virus (strain P / mutant HA 5-1) OX=31730 PE=3 SV=1
+sp|P16727|UL84_HCMVA     8.6       1.2     1   4.7    133    198    150    182    227    259     Protein UL84 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL84 PE=1 SV=1
+sp|P21416|GAG_GALV       8.5       1.3     1   6.2    368    459    373    452    187    266     Gag polyprotein OS=Gibbon ape leukemia virus OX=11840 GN=gag PE=3 SV=3
+sp|P19724|POLG_PRSVW     8.4       1.4     1   8.0    377    457    391    436    221    265     Genome polyprotein (Fragment) OS=Papaya ringspot virus (strain W) OX=12207 PE=3 SV=1
+sp|Q6R7A1|Y122_OSHVF     7.2       3.3     1   1.5     74    155    115    144    240    269     Uncharacterized protein ORF122 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF122 PE=4 SV=1
+sp|Q01901|POLG_PRSVH     6.7       4.7     1   8.7   3048   3126   3059   3106    220    268     Genome polyprotein OS=Papaya ringspot virus (strain P / mutant HA) OX=31731 PE=3 SV=2
+sp|Q6R7A1|Y122_OSHVF     4.4        24     2  14.5    310    361    322    348    235    261     Uncharacterized protein ORF122 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF122 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007003937@NC_019495.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007003937@NC_019495.txt data/models_hmm/YP_007003937@NC_019495.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:08 2021
+# [ok]

@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UNX6|YL724_MIMIV    34.9   7.5e-09   2   2.2   0.0    Uncharacterized protein L724 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L724 PE=1 SV=1
+sp|Q5UP86|YL012_MIMIV    12.6     0.044   1   1.1   8.4    Uncharacterized protein L12 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L12 PE=3 SV=1
+sp|Q6R7C9|DPOL_OSHVF      7.3       1.7   1   1.3   4.6    DNA polymerase OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF100 PE=3 SV=1
+sp|F5HHQ0|GN_HCMVM        6.5         3   1   1.1  11.6    Envelope glycoprotein N OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gN PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UNX6|YL724_MIMIV    26.3     3e-06     2   0.0     99    208    107    205    128    239     Uncharacterized protein L724 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L724 PE=1 SV=1
+sp|Q5UP86|YL012_MIMIV    12.1     0.062     1   8.4     18    138     25    127     21    124     Uncharacterized protein L12 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L12 PE=3 SV=1
+sp|Q5UNX6|YL724_MIMIV     6.5       3.1     1   0.1     50    102     61     80     16     35     Uncharacterized protein L724 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L724 PE=1 SV=1
+sp|Q6R7C9|DPOL_OSHVF      6.4       3.2     1   4.6    632    742    637    707     54    124     DNA polymerase OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF100 PE=3 SV=1
+sp|F5HHQ0|GN_HCMVM        6.3       3.5     1  11.6      3     86     18     72    341    394     Envelope glycoprotein N OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gN PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008436779@NC_022098.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008436779@NC_022098.txt data/models_hmm/YP_008436779@NC_022098.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:09 2021
+# [ok]

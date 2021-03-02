@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P12515|VPU_HV1Z2     12.4      0.11   1   1.1   2.4    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate Z2/CDC-Z34) OX=11683 GN=vpu PE=3 SV=1
+sp|Q89843|VPU_HV1B9     10.7       0.4   1   1.1   3.2    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (strain 89.6) OX=401671 GN=vpu PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P12515|VPU_HV1Z2     12.3      0.13     1   2.4      1     50      7     39      7     39     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate Z2/CDC-Z34) OX=11683 GN=vpu PE=3 SV=1
+sp|Q89843|VPU_HV1B9     10.4      0.49     1   3.2      1     48      1     39      1     39     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (strain 89.6) OX=401671 GN=vpu PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003969550@NC_014636.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003969550@NC_014636.txt data/models_hmm/YP_003969550@NC_014636.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:49 2021
+# [ok]

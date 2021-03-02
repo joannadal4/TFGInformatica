@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q20NV8|NRAM_I80AD    12.7     0.084   2   2.2   0.1    Neuraminidase OS=Influenza A virus (strain A/Gull/Minnesota/945/1980 H13N6) OX=385597 GN=NA PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q20NV8|NRAM_I80AD     5.7        12     1   0.1     52    125     62    122     83    142     Neuraminidase OS=Influenza A virus (strain A/Gull/Minnesota/945/1980 H13N6) OX=385597 GN=NA PE=3 SV=1
+sp|Q20NV8|NRAM_I80AD     4.5        28     2   0.0    359    411    367    402     66    102     Neuraminidase OS=Influenza A virus (strain A/Gull/Minnesota/945/1980 H13N6) OX=385597 GN=NA PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2124908030_A07AB_A07ABscf064920_A07AB_00083040_2136393401.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2124908030_A07AB_A07ABscf064920_A07AB_00083040_2136393401.txt data/models_hmm/2124908030_A07AB_A07ABscf064920_A07AB_00083040_2136393401.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:00 2021
+# [ok]

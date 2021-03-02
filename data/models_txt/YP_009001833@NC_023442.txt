@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41453|LEF3_NPVAC   379.7  1.6e-113   1   1.0  40.7    Late expression factor 3 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=LEF-3 PE=1 SV=1
+sp|Q65365|LEF3_NPVOP   378.0  5.1e-113   1   1.0  21.1    Late expression factor 3 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=LEF-3 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41453|LEF3_NPVAC   379.5  1.7e-113     1  40.7      1    385     14    385     62    399     Late expression factor 3 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=LEF-3 PE=1 SV=1
+sp|Q65365|LEF3_NPVOP   377.7  6.1e-113     1  21.1      2    373     13    373     61    399     Late expression factor 3 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=LEF-3 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_009001833@NC_023442.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_009001833@NC_023442.txt data/models_hmm/YP_009001833@NC_023442.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:49 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9QJ48|U15_HHV6Z    383.9  1.5e-115   1   1.0  12.3    Protein U15 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U15 PE=4 SV=1
+sp|Q69550|U15_HHV6U    208.4   9.5e-62   1   1.0   6.4    Uncharacterized protein U15 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U15 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9QJ48|U15_HHV6Z    383.7  1.7e-115     1  12.3      1    191      1    190      1    190     Protein U15 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U15 PE=4 SV=1
+sp|Q69550|U15_HHV6U    208.3     1e-61     1   6.4      1    110      1    108      1    108     Uncharacterized protein U15 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U15 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008492958@NC_022233.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008492958@NC_022233.txt data/models_hmm/YP_008492958@NC_022233.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:19 2021
+# [ok]

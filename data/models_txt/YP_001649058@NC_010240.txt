@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P17578|REEP_CSIV     38.5   7.1e-10   2   1.8   0.1    Repeat element protein OS=Campoletis sonorensis ichnovirus OX=10484 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P17578|REEP_CSIV     37.0   2.1e-09     1   0.0      5     60     12     55     22     65     Repeat element protein OS=Campoletis sonorensis ichnovirus OX=10484 PE=2 SV=1
+sp|P17578|REEP_CSIV     -3.0   6.7e+03     2   0.0     63     83     66     80     18     32     Repeat element protein OS=Campoletis sonorensis ichnovirus OX=10484 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001649058@NC_010240.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001649058@NC_010240.txt data/models_hmm/YP_001649058@NC_010240.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:37 2021
+# [ok]

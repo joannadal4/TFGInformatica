@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPH3|YR097_MIMIV    15.3      0.01   2   2.1   0.0    Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+sp|Q5UPQ5|YL763_MIMIV    13.7     0.032   1   1.5   0.3    Uncharacterized protein L763 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L763 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPQ5|YL763_MIMIV    12.8      0.06     1   0.2    123    213    154    197     41     85     Uncharacterized protein L763 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L763 PE=4 SV=1
+sp|Q5UPH3|YR097_MIMIV    11.8      0.12     1   0.1    139    201    150    196     40     86     Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+sp|Q5UPH3|YR097_MIMIV     0.8   2.9e+02     2   0.0    215    260    226    249     53     77     Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000148@SRS014691_WUGC_scaffold_15775@SRS014691_WUGC_scaffold_15775_gene_16335.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000148@SRS014691_WUGC_scaffold_15775@SRS014691_WUGC_scaffold_15775_gene_16335.txt data/models_hmm/7000000148@SRS014691_WUGC_scaffold_15775@SRS014691_WUGC_scaffold_15775_gene_16335.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:56 2021
+# [ok]

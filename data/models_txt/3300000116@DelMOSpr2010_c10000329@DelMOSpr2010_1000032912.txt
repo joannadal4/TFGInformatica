@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09797|VHED_BPT6     51.4   1.2e-13   1   1.1   0.5    Single-stranded DNA-binding protein (Fragment) OS=Enterobacteria phage T6 OX=10666 GN=32 PE=2 SV=1
+sp|P09035|VHED_BPT2     50.4   2.3e-13   1   1.1   0.5    Single-stranded DNA-binding protein (Fragment) OS=Enterobacteria phage T2 OX=10664 GN=32 PE=2 SV=1
+sp|P03695|VHED_BPT4     49.7   3.9e-13   1   1.1   0.8    Single-stranded DNA-binding protein OS=Enterobacteria phage T4 OX=10665 GN=32 PE=1 SV=1
+sp|O21945|VHED_BPR70    25.6   8.7e-06   1   1.0   0.1    Single-stranded DNA-binding protein (Fragment) OS=Enterobacteria phage RB70 OX=36338 GN=32 PE=3 SV=1
+sp|O21946|VHED_BPS14    25.3   1.1e-05   1   1.0   0.1    Single-stranded DNA-binding protein (Fragment) OS=Escherichia phage SV14 OX=47488 GN=32 PE=3 SV=1
+sp|P20376|SSDNA_BPT5    22.4     8e-05   1   2.5   9.6    Probable ssDNA-binding protein OS=Escherichia phage T5 OX=10726 GN=D11 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09797|VHED_BPT6     51.1   1.5e-13     1   0.5      6    291     10    236      8    221     Single-stranded DNA-binding protein (Fragment) OS=Enterobacteria phage T6 OX=10666 GN=32 PE=2 SV=1
+sp|P09035|VHED_BPT2     50.1     3e-13     1   0.5      6    291     10    236      8    221     Single-stranded DNA-binding protein (Fragment) OS=Enterobacteria phage T2 OX=10664 GN=32 PE=2 SV=1
+sp|P03695|VHED_BPT4     49.4     5e-13     1   0.8      6    298     10    233      8    219     Single-stranded DNA-binding protein OS=Enterobacteria phage T4 OX=10665 GN=32 PE=1 SV=1
+sp|O21945|VHED_BPR70    25.3   1.1e-05     1   0.1      6    115      9    107      7     97     Single-stranded DNA-binding protein (Fragment) OS=Enterobacteria phage RB70 OX=36338 GN=32 PE=3 SV=1
+sp|O21946|VHED_BPS14    25.1   1.2e-05     1   0.1      6    113      9    107      7     97     Single-stranded DNA-binding protein (Fragment) OS=Escherichia phage SV14 OX=47488 GN=32 PE=3 SV=1
+sp|P20376|SSDNA_BPT5    17.8     0.002     1   9.6      1    257     67    237     77    238     Probable ssDNA-binding protein OS=Escherichia phage T5 OX=10726 GN=D11 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000116@DelMOSpr2010_c10000329@DelMOSpr2010_1000032912.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000116@DelMOSpr2010_c10000329@DelMOSpr2010_1000032912.txt data/models_hmm/3300000116@DelMOSpr2010_c10000329@DelMOSpr2010_1000032912.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:45 2021
+# [ok]

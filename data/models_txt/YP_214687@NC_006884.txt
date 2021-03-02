@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O80164|DPA5_BPR69   262.8   2.2e-78   1   1.0   3.2    DNA polymerase processivity component OS=Escherichia phage RB69 OX=12353 GN=45 PE=1 SV=1
+sp|P04525|DPA5_BPT4    253.7   1.3e-75   1   1.0   0.2    DNA polymerase clamp OS=Enterobacteria phage T4 OX=10665 GN=45 PE=1 SV=3
+sp|Q6WI75|DPA5_BPKVM   226.9   2.1e-67   1   1.0   0.1    DNA polymerase processivity component OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=45 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O80164|DPA5_BPR69   262.7   2.4e-78     1   3.2      1    227      1    226      1    218     DNA polymerase processivity component OS=Escherichia phage RB69 OX=12353 GN=45 PE=1 SV=1
+sp|P04525|DPA5_BPT4    253.6   1.5e-75     1   0.2      1    227      1    226      1    218     DNA polymerase clamp OS=Enterobacteria phage T4 OX=10665 GN=45 PE=1 SV=3
+sp|Q6WI75|DPA5_BPKVM   226.8   2.3e-67     1   0.1      1    221      1    220      1    214     DNA polymerase processivity component OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=45 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_214687@NC_006884.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_214687@NC_006884.txt data/models_hmm/YP_214687@NC_006884.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:17 2021
+# [ok]

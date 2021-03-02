@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q573D7|Y238_AFV2P   251.2   5.4e-75   1   1.0   4.6    Uncharacterized protein ORF238 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF238 PE=4 SV=1
+sp|Q914I6|Y046_SIFVH   250.6   7.9e-75   1   1.0   6.1    Uncharacterized protein 46 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0046 PE=4 SV=1
+sp|Q8QL21|Y209_SIRV1   214.4     1e-63   1   1.0   9.2    Uncharacterized protein 209 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=209 PE=4 SV=1
+sp|Q573C1|Y208_AFV2P   212.3   4.5e-63   1   1.0   8.7    Uncharacterized protein ORF208 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF208 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q573D7|Y238_AFV2P   250.9   6.4e-75     1   4.6      2    238      2    238      1    185     Uncharacterized protein ORF238 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF238 PE=4 SV=1
+sp|Q914I6|Y046_SIFVH   250.4   9.3e-75     1   6.1      2    221      2    221      1    185     Uncharacterized protein 46 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0046 PE=4 SV=1
+sp|Q8QL21|Y209_SIRV1   214.1   1.2e-63     1   9.2      9    197      9    180      1    180     Uncharacterized protein 209 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=209 PE=4 SV=1
+sp|Q573C1|Y208_AFV2P   212.1   5.2e-63     1   8.7      1    192      1    191      1    193     Uncharacterized protein ORF208 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF208 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001604263@NC_010153.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001604263@NC_010153.txt data/models_hmm/YP_001604263@NC_010153.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:35 2021
+# [ok]

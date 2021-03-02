@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UR74|PTPH_MIMIV    12.7     0.084   1   1.4   0.0    Putative tyrosine-protein phosphatase R622 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R622 PE=3 SV=1
+sp|F5HDK1|US27_HCMVM    10.6      0.37   1   1.4   1.6    Envelope glycoprotein US27 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US27 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UR74|PTPH_MIMIV    11.9      0.14     1   0.0     95    196    128    181     64    101     Putative tyrosine-protein phosphatase R622 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R622 PE=3 SV=1
+sp|F5HDK1|US27_HCMVM     9.7      0.69     1   1.6      1     34      4     26     29     51     Envelope glycoprotein US27 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US27 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000227@TB_AS07_7DRAFT_10000174@TB_AS07_7DRAFT_100001746.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000227@TB_AS07_7DRAFT_10000174@TB_AS07_7DRAFT_100001746.txt data/models_hmm/3300000227@TB_AS07_7DRAFT_10000174@TB_AS07_7DRAFT_100001746.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:02 2021
+# [ok]

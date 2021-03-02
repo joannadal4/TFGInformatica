@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DST5|A38_VAR67     48.9   6.2e-13   2   2.0  30.5    Protein A38 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A38L PE=3 SV=1
+sp|P0DST6|A38_VARV      48.9   6.2e-13   2   2.0  30.5    Protein A38 OS=Variola virus OX=10255 GN=A38L PE=3 SV=1
+sp|P21061|A38_VACCC     48.0   1.2e-12   2   2.0  31.0    Protein A38 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A38L PE=3 SV=1
+sp|P24763|A38_VACCW     45.2   8.6e-12   2   2.0  31.6    Protein A38 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR162 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21061|A38_VACCC     31.2   1.6e-07     1   4.8      2     77     11     69     16     80     Protein A38 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A38L PE=3 SV=1
+sp|P0DST5|A38_VAR67     30.5   2.6e-07     1   6.6      1     74      6     67      9     78     Protein A38 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A38L PE=3 SV=1
+sp|P0DST6|A38_VARV      30.5   2.6e-07     1   6.6      1     74      6     67      9     78     Protein A38 OS=Variola virus OX=10255 GN=A38L PE=3 SV=1
+sp|P24763|A38_VACCW     30.0   3.7e-07     1   6.4      3     77      9     69     12     80     Protein A38 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR162 PE=3 SV=1
+sp|P0DST5|A38_VAR67     24.8   1.4e-05     2  16.7     64    277     70    273     59    269     Protein A38 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A38L PE=3 SV=1
+sp|P0DST6|A38_VARV      24.8   1.4e-05     2  16.7     64    277     70    273     59    269     Protein A38 OS=Variola virus OX=10255 GN=A38L PE=3 SV=1
+sp|P21061|A38_VACCC     23.2   4.4e-05     2  18.3     68    277     81    273     72    269     Protein A38 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A38L PE=3 SV=1
+sp|P24763|A38_VACCW     21.7   0.00012     2  17.5     65    277     81    273     72    269     Protein A38 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR162 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_051842@NC_001132.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_051842@NC_001132.txt data/models_hmm/NP_051842@NC_001132.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:35 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP37|YL163_MIMIV   189.8   1.5e-56   1   1.0   0.3    Uncharacterized protein L163 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L163 PE=3 SV=1
+sp|Q5UP10|YR849_MIMIV   188.4   4.3e-56   1   1.0   8.3    Uncharacterized protein R849 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R849 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UP37|YL163_MIMIV   189.7   1.7e-56     1   0.3      1    136      1    135      1    135     Uncharacterized protein L163 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L163 PE=3 SV=1
+sp|Q5UP10|YR849_MIMIV   188.2   4.8e-56     1   8.3      1    136      1    135      1    135     Uncharacterized protein R849 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R849 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003986655@NC_014649.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003986655@NC_014649.txt data/models_hmm/YP_003986655@NC_014649.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:54 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q77PA8|M11L_MYXVL    284.6   2.4e-85   1   1.0   7.6    Apoptosis regulator M11L OS=Myxoma virus (strain Lausanne) OX=31530 GN=m011L PE=1 SV=1
+sp|P32222|VC10_SWPVK    237.3   8.2e-71   1   1.0  22.1    Uncharacterized protein C10 OS=Swinepox virus (strain Kasza) OX=10277 GN=C10L PE=4 SV=1
+sp|Q08FX8|DPV22_DPV83    60.3   2.3e-16   1   1.2  13.5    Apoptosis regulator DPV022 OS=Deerpox virus (strain Mule deer/United States/W-848-83/1983) OX=305674 GN=DPV022 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q77PA8|M11L_MYXVL    284.4   2.7e-85     1   7.6      2    166      2    166      1    162     Apoptosis regulator M11L OS=Myxoma virus (strain Lausanne) OX=31530 GN=m011L PE=1 SV=1
+sp|P32222|VC10_SWPVK    237.2     9e-71     1  22.1      1    167      3    167      3    162     Uncharacterized protein C10 OS=Swinepox virus (strain Kasza) OX=10277 GN=C10L PE=4 SV=1
+sp|Q08FX8|DPV22_DPV83    59.9     3e-16     1  13.5      7    177     31    176     20    161     Apoptosis regulator DPV022 OS=Deerpox virus (strain Mule deer/United States/W-848-83/1983) OX=305674 GN=DPV022 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_051900@NC_001266.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_051900@NC_001266.txt data/models_hmm/NP_051900@NC_001266.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:36 2021
+# [ok]

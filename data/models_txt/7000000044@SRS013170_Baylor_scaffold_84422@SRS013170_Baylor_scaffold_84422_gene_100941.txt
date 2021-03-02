@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P50645|RIR2_SUHVK    12.5       0.1   1   1.7   0.0    Ribonucleoside-diphosphate reductase small subunit OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=RIR2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P50645|RIR2_SUHVK    11.1      0.28     1   0.0     93    149    101    144     62    105     Ribonucleoside-diphosphate reductase small subunit OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=RIR2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000044@SRS013170_Baylor_scaffold_84422@SRS013170_Baylor_scaffold_84422_gene_100941.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000044@SRS013170_Baylor_scaffold_84422@SRS013170_Baylor_scaffold_84422_gene_100941.txt data/models_hmm/7000000044@SRS013170_Baylor_scaffold_84422@SRS013170_Baylor_scaffold_84422_gene_100941.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:02 2021
+# [ok]

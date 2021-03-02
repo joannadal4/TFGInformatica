@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41704|Y146_NPVAC   256.8   9.9e-77   1   1.0   0.2    Uncharacterized 22.9 kDa protein in IE0-IE1 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|O10375|Y146_NPVOP   217.6   9.5e-65   1   1.0   0.0    Uncharacterized 21.8 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF144 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41704|Y146_NPVAC   256.6   1.1e-76     1   0.2      1    201      1    200      1    195     Uncharacterized 22.9 kDa protein in IE0-IE1 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|O10375|Y146_NPVOP   217.4   1.1e-64     1   0.0      1    195      1    190      1    194     Uncharacterized 21.8 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF144 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_529817@NC_007921.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_529817@NC_007921.txt data/models_hmm/YP_529817@NC_007921.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:38 2021
+# [ok]

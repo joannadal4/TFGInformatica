@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UNS7|YL666_MIMIV    48.0     9e-13   1   1.1  20.8    Uncharacterized protein L666 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L666 PE=4 SV=1
+sp|Q196X2|VF075_IIV3     16.4     0.004   2   2.1   0.0    Uncharacterized protein 088R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-088R PE=3 SV=1
+sp|Q5UQN0|YL437_MIMIV    13.2     0.037   1   1.5   0.3    Uncharacterized protein L437 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L437 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UNS7|YL666_MIMIV    47.8     1e-12     1  20.8      2    251      5    236      4    222     Uncharacterized protein L666 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L666 PE=4 SV=1
+sp|Q5UQN0|YL437_MIMIV    12.7     0.054     1   0.3      8    227    141    209    119    190     Uncharacterized protein L437 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L437 PE=4 SV=1
+sp|Q196X2|VF075_IIV3     10.7      0.21     2   0.0    135    226    160    217    129    192     Uncharacterized protein 088R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-088R PE=3 SV=1
+sp|Q196X2|VF075_IIV3      3.5        35     1   0.0     22     66     26     54      6     34     Uncharacterized protein 088R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-088R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007354690@NC_020104.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007354690@NC_020104.txt data/models_hmm/YP_007354690@NC_020104.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:50 2021
+# [ok]

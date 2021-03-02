@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CK20|A25_VACCC    122.9   3.5e-36   1   1.0   0.2    Protein A2.5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A2.5L PE=2 SV=1
+sp|P07608|A25_VACCW    121.5   9.5e-36   1   1.0   0.3    Protein A2.5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR121 PE=1 SV=2
+sp|Q07032|A25_VAR67    120.4   2.1e-35   1   1.0   0.3    Protein A2.5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A2.5L PE=2 SV=1
+sp|Q98176|MC005_MCV1    15.2     0.015   1   1.1   0.4    Protein MC005 OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=MC005L PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CK20|A25_VACCC    122.8   3.8e-36     1   0.2      1     76      1     76      1     75     Protein A2.5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A2.5L PE=2 SV=1
+sp|P07608|A25_VACCW    121.4     1e-35     1   0.3      1     76      1     76      1     75     Protein A2.5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR121 PE=1 SV=2
+sp|Q07032|A25_VAR67    120.3   2.3e-35     1   0.3      1     76      1     76      1     75     Protein A2.5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A2.5L PE=2 SV=1
+sp|Q98176|MC005_MCV1    14.8     0.019     1   0.4      3     52     11     49     17     55     Protein MC005 OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=MC005L PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_938348@NC_005179.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_938348@NC_005179.txt data/models_hmm/NP_938348@NC_005179.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:40 2021
+# [ok]

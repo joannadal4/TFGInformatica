@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R7G5|Y060_OSHVF    13.3     0.054   3   2.3   2.3    Uncharacterized protein ORF60 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF60 PE=4 SV=1
+sp|P11823|SHUT_ADE40    12.9     0.075   1   1.4   0.0    Shutoff protein OS=Human adenovirus F serotype 40 OX=28284 GN=L4 PE=3 SV=2
+sp|P11824|SHUT_ADE41    11.6      0.19   1   1.3   0.0    Shutoff protein OS=Human adenovirus F serotype 41 OX=10524 GN=L4 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R7G5|Y060_OSHVF    12.6     0.092     1   0.5      2     86      3     75     33    104     Uncharacterized protein ORF60 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF60 PE=4 SV=1
+sp|P11823|SHUT_ADE40    11.9      0.15     1   0.0    299    386    305    378     27    101     Shutoff protein OS=Human adenovirus F serotype 40 OX=28284 GN=L4 PE=3 SV=2
+sp|P11824|SHUT_ADE41    10.7      0.35     1   0.0    297    388    307    380     27    101     Shutoff protein OS=Human adenovirus F serotype 41 OX=10524 GN=L4 PE=3 SV=2
+sp|Q6R7G5|Y060_OSHVF    -2.9   5.9e+03     3   0.0    281    310    288    308     51     70     Uncharacterized protein ORF60 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF60 PE=4 SV=1
+sp|Q6R7G5|Y060_OSHVF    -3.7     1e+04     2   0.0    138    167    147    165     53     70     Uncharacterized protein ORF60 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF60 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000117@DelMOWin2010_c10000025@DelMOWin2010_1000002532.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000117@DelMOWin2010_c10000025@DelMOWin2010_1000002532.txt data/models_hmm/3300000117@DelMOWin2010_c10000025@DelMOWin2010_1000002532.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:47 2021
+# [ok]

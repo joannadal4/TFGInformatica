@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P16743|UL07_HCMVA    13.0     0.042   1   1.1   0.0    CEACAM1-like protein UL7 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL7 PE=1 SV=1
+sp|Q6SWC3|UL07_HCMVM    13.0     0.043   1   1.1   0.0    CEACAM1-like protein UL7 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL7 PE=3 SV=1
+sp|P16744|UL08_HCMVA    12.3      0.07   1   1.2   0.0    Membrane protein UL8 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL8 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P16743|UL07_HCMVA    12.6     0.058     1   0.0     22     78     42     75     93    126     CEACAM1-like protein UL7 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL7 PE=1 SV=1
+sp|Q6SWC3|UL07_HCMVM    12.5     0.063     1   0.0     36     78     42     75     93    126     CEACAM1-like protein UL7 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL7 PE=3 SV=1
+sp|P16744|UL08_HCMVA    11.7      0.11     1   0.0     29     78     42     75     93    126     Membrane protein UL8 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL8 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001784@JGI20225J20221_1000468@JGI20225J20221_100046829.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001784@JGI20225J20221_1000468@JGI20225J20221_100046829.txt data/models_hmm/3300001784@JGI20225J20221_1000468@JGI20225J20221_100046829.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:22 2021
+# [ok]

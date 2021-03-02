@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q01751|REGA_BPR69   183.6   9.3e-55   1   1.0   1.0    Translation repressor protein OS=Escherichia phage RB69 OX=12353 GN=regA PE=1 SV=1
+sp|P69626|REGA_BPT6    179.0   2.5e-53   1   1.0   1.6    Translation repressor protein OS=Enterobacteria phage T6 OX=10666 GN=regA PE=2 SV=1
+sp|P69627|REGA_BPR18   179.0   2.5e-53   1   1.0   1.6    Translation repressor protein OS=Enterobacteria phage RB18 OX=10692 GN=regA PE=3 SV=1
+sp|P69628|REGA_BPR51   179.0   2.5e-53   1   1.0   1.6    Translation repressor protein OS=Enterobacteria phage RB51 OX=10693 GN=regA PE=2 SV=1
+sp|P69701|REGA_BPT2    179.0   2.5e-53   1   1.0   1.6    Translation repressor protein OS=Enterobacteria phage T2 OX=10664 GN=regA PE=3 SV=1
+sp|P69702|REGA_BPT4    179.0   2.5e-53   1   1.0   1.6    Translation repressor protein OS=Enterobacteria phage T4 OX=10665 GN=regA PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q01751|REGA_BPR69   183.5     1e-54     1   1.0      1    122      1    122      8    129     Translation repressor protein OS=Escherichia phage RB69 OX=12353 GN=regA PE=1 SV=1
+sp|P69626|REGA_BPT6    178.9   2.7e-53     1   1.6      1    122      1    122      8    129     Translation repressor protein OS=Enterobacteria phage T6 OX=10666 GN=regA PE=2 SV=1
+sp|P69627|REGA_BPR18   178.9   2.7e-53     1   1.6      1    122      1    122      8    129     Translation repressor protein OS=Enterobacteria phage RB18 OX=10692 GN=regA PE=3 SV=1
+sp|P69628|REGA_BPR51   178.9   2.7e-53     1   1.6      1    122      1    122      8    129     Translation repressor protein OS=Enterobacteria phage RB51 OX=10693 GN=regA PE=2 SV=1
+sp|P69701|REGA_BPT2    178.9   2.7e-53     1   1.6      1    122      1    122      8    129     Translation repressor protein OS=Enterobacteria phage T2 OX=10664 GN=regA PE=3 SV=1
+sp|P69702|REGA_BPT4    178.9   2.7e-53     1   1.6      1    122      1    122      8    129     Translation repressor protein OS=Enterobacteria phage T4 OX=10665 GN=regA PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004010242@NC_014663.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004010242@NC_014663.txt data/models_hmm/YP_004010242@NC_014663.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:01 2021
+# [ok]

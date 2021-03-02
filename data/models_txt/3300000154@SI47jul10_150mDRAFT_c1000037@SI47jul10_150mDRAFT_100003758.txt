@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UR70|YR626_MIMIV    12.1      0.12   1   2.0   3.3    Uncharacterized protein R626 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R626 PE=4 SV=1
+sp|P42548|YO13_BPL2      11.0      0.27   2   2.4   4.3    Uncharacterized 81.3 kDa protein OS=Acholeplasma phage L2 OX=46014 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P42548|YO13_BPL2      12.1      0.12     2   0.4    453    493    466    491     24     49     Uncharacterized 81.3 kDa protein OS=Acholeplasma phage L2 OX=46014 PE=3 SV=1
+sp|Q5UR70|YR626_MIMIV    10.3      0.43     1   3.3    389    448    399    444     10     53     Uncharacterized protein R626 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R626 PE=4 SV=1
+sp|P42548|YO13_BPL2      -2.5   4.1e+03     1   0.3    217    251    231    249     25     42     Uncharacterized 81.3 kDa protein OS=Acholeplasma phage L2 OX=46014 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000154@SI47jul10_150mDRAFT_c1000037@SI47jul10_150mDRAFT_100003758.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000154@SI47jul10_150mDRAFT_c1000037@SI47jul10_150mDRAFT_100003758.txt data/models_hmm/3300000154@SI47jul10_150mDRAFT_c1000037@SI47jul10_150mDRAFT_100003758.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:53 2021
+# [ok]

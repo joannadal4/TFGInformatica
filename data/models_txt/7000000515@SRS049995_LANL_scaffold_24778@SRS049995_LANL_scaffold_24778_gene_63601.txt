@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q25BJ4|Y001_HIS1I    13.5      0.04   1   1.2   0.6    Uncharacterized protein ORF1 OS=His1 virus (isolate Australia/Victoria) OX=654912 GN=ORF1 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q25BJ4|Y001_HIS1I    13.0     0.057     1   0.6      1     41      2     38      8     48     Uncharacterized protein ORF1 OS=His1 virus (isolate Australia/Victoria) OX=654912 GN=ORF1 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000515@SRS049995_LANL_scaffold_24778@SRS049995_LANL_scaffold_24778_gene_63601.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000515@SRS049995_LANL_scaffold_24778@SRS049995_LANL_scaffold_24778_gene_63601.txt data/models_hmm/7000000515@SRS049995_LANL_scaffold_24778@SRS049995_LANL_scaffold_24778_gene_63601.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:59 2021
+# [ok]

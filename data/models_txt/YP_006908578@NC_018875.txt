@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O10284|FGFH_NPVOP    22.6   5.8e-05   1   1.4   0.2    Fibroblast growth factor homolog OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=FGF PE=3 SV=1
+sp|P41444|FGFH_NPVAC    22.6   6.1e-05   2   1.8   3.9    Fibroblast growth factor homolog OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=FGF PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O10284|FGFH_NPVOP    22.0   8.9e-05     1   0.2      7    128     74    106     69    102     Fibroblast growth factor homolog OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=FGF PE=3 SV=1
+sp|P41444|FGFH_NPVAC    20.8   0.00021     1   4.2      5    128     62    100     56     97     Fibroblast growth factor homolog OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=FGF PE=3 SV=1
+sp|P41444|FGFH_NPVAC    -0.7     8e+02     2   0.1    100    140    104    133    185    213     Fibroblast growth factor homolog OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=FGF PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006908578@NC_018875.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006908578@NC_018875.txt data/models_hmm/YP_006908578@NC_018875.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:34 2021
+# [ok]

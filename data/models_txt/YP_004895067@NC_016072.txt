@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP93|YL017_MIMIV   481.0  1.1e-144   1   1.1  25.9    Uncharacterized protein L17 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L17 PE=3 SV=1
+sp|Q5UP33|YR827_MIMIV   453.0  3.5e-136   1   1.0  12.8    Uncharacterized protein R827 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R827 PE=3 SV=1
+sp|Q5UQQ6|YR857_MIMIV    15.8    0.0051   1   1.3   0.7    Uncharacterized protein R857 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R857 PE=3 SV=1
+sp|Q5UPH6|YL094_MIMIV    14.9    0.0097   1   1.1   0.0    Uncharacterized protein L94 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L94 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UP93|YL017_MIMIV   480.7  1.3e-144     1  25.9      1    346      1    346      9    301     Uncharacterized protein L17 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L17 PE=3 SV=1
+sp|Q5UP33|YR827_MIMIV   452.9  3.9e-136     1  12.8      1    297      1    297      1    296     Uncharacterized protein R827 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R827 PE=3 SV=1
+sp|Q5UQQ6|YR857_MIMIV    15.5    0.0065     1   0.7     47    179     70    117    155    206     Uncharacterized protein R857 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R857 PE=3 SV=1
+sp|Q5UPH6|YL094_MIMIV    14.6     0.012     1   0.0      3    106      8     81     78    147     Uncharacterized protein L94 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L94 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004895067@NC_016072.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004895067@NC_016072.txt data/models_hmm/YP_004895067@NC_016072.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:43 2021
+# [ok]

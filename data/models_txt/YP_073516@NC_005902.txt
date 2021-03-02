@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZV4|021L_FRG3G   117.0   1.1e-33   1   1.3   0.1    Uncharacterized protein 021L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-021L PE=4 SV=1
+sp|O55708|VF067_IIV6    92.9   2.3e-26   2   2.0   4.5    Uncharacterized protein 067R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-067R PE=3 SV=1
+sp|Q197F6|VF067_IIV3    86.7   1.8e-24   3   2.7   2.1    Uncharacterized protein 004R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-004R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6GZV4|021L_FRG3G   116.5   1.5e-33     1   0.1      9    211     52    202    154    306     Uncharacterized protein 021L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-021L PE=4 SV=1
+sp|O55708|VF067_IIV6    92.9   2.3e-26     2   4.5    184    385    206    373    148    315     Uncharacterized protein 067R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-067R PE=3 SV=1
+sp|Q197F6|VF067_IIV3    86.7   1.8e-24     2   2.1    218    393    238    377    168    307     Uncharacterized protein 004R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-004R PE=3 SV=1
+sp|Q197F6|VF067_IIV3     2.3        75     1   0.1      5     76     25     60     29     64     Uncharacterized protein 004R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-004R PE=3 SV=1
+sp|O55708|VF067_IIV6    -1.4     1e+03     1   0.1      3     94     20     42     29     51     Uncharacterized protein 067R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-067R PE=3 SV=1
+sp|Q197F6|VF067_IIV3    -3.1   3.4e+03     3   0.1    421    443    428    440    346    358     Uncharacterized protein 004R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-004R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_073516@NC_005902.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_073516@NC_005902.txt data/models_hmm/YP_073516@NC_005902.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:59 2021
+# [ok]

@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPE3|YL062_MIMIV    15.1     0.016   3   2.9   0.1    Putative ankyrin repeat protein L62 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L62 PE=4 SV=1
+sp|Q5UPD5|YL059_MIMIV    13.4     0.052   4   3.2   0.2    Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|P0CA56|VF151_ASFM2    13.2     0.062   1   1.4   0.1    Protein A151R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-045 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CA56|VF151_ASFM2    12.5       0.1     1   0.1     42    102     46     81     73    108     Protein A151R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-045 PE=3 SV=1
+sp|Q5UPE3|YL062_MIMIV     8.6       1.6     1   0.0     71    140     88    131     77    120     Putative ankyrin repeat protein L62 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L62 PE=4 SV=1
+sp|Q5UPD5|YL059_MIMIV     5.4        16     2   0.0    134    192    142    181     78    119     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|Q5UPD5|YL059_MIMIV     4.3        34     3   0.0    163    218    171    209     77    115     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|Q5UPD5|YL059_MIMIV     3.0        85     1   0.0     69    133     82    121     78    119     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|Q5UPE3|YL062_MIMIV     2.1   1.7e+02     3   0.0    197    248    208    243     77    112     Putative ankyrin repeat protein L62 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L62 PE=4 SV=1
+sp|Q5UPE3|YL062_MIMIV     1.2     3e+02     2   0.0    172    220    179    212     78    111     Putative ankyrin repeat protein L62 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L62 PE=4 SV=1
+sp|Q5UPD5|YL059_MIMIV    -1.1   1.6e+03     4   0.0    254    294    266    288     79    100     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000233@SRS018573_WUGC_scaffold_41588@SRS018573_WUGC_scaffold_41588_gene_62449.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000233@SRS018573_WUGC_scaffold_41588@SRS018573_WUGC_scaffold_41588_gene_62449.txt data/models_hmm/7000000233@SRS018573_WUGC_scaffold_41588@SRS018573_WUGC_scaffold_41588_gene_62449.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:41 2021
+# [ok]

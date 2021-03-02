@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q70LD4|Y223_AFV1Y    19.6   0.00043   1   1.5   0.6    Uncharacterized protein ORF223 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF223 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q70LD4|Y223_AFV1Y    18.6   0.00089     1   0.6      2    222      5    215     29    246     Uncharacterized protein ORF223 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF223 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001347@JGI20156J14371_10000186@JGI20156J14371_1000018659.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001347@JGI20156J14371_10000186@JGI20156J14371_1000018659.txt data/models_hmm/3300001347@JGI20156J14371_10000186@JGI20156J14371_1000018659.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:51 2021
+# [ok]

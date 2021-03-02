@@ -1,0 +1,47 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P32511|VIE2_NPVOP    564.2  1.9e-169   1   1.0  10.0    E3 ubiquitin-protein ligase IE2 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=IE2 PE=3 SV=1
+sp|Q2NNU1|VIE2_NPVHC    559.8  4.3e-168   1   1.0  14.8    E3 ubiquitin-protein ligase IE2 OS=Hyphantria cunea nuclear polyhedrosis virus OX=28288 GN=IE2 PE=3 SV=1
+sp|O92503|VIE2_NPVBM    538.8    1e-161   1   1.0  23.4    E3 ubiquitin-protein ligase IE2 OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=IE2 PE=1 SV=1
+sp|P24647|IE2_NPVAC     513.4  5.5e-154   1   1.1  27.0    E3 ubiquitin-protein ligase IE2 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=IE2 PE=3 SV=2
+sp|Q8QME4|VIE2_NPVCF    499.0  1.3e-149   2   1.5  12.1    E3 ubiquitin-protein ligase IE2 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=IE2 PE=3 SV=1
+sp|Q8B9B2|VIE2_NPVR1    494.7  2.5e-148   1   1.0  29.0    E3 ubiquitin-protein ligase IE2 OS=Rachiplusia ou multiple nucleopolyhedrovirus (strain R1) OX=654904 GN=IE2 PE=3 SV=1
+sp|P23801|PE38_NPVAC      9.7      0.55   2   2.5  34.4    Major immediate early protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PE38 PE=4 SV=2
+sp|P32512|PE38_NPVOP      9.1      0.86   1   1.8  22.5    Major immediate early protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=PE38 PE=4 SV=1
+sp|Q91FL1|313L_IIV6       8.7       1.1   2   1.5  15.0    Putative KilA-N domain-containing protein 313L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-313L PE=3 SV=1
+sp|O55752|148R_IIV6       8.6       1.2   1   1.2   6.6    Putative MSV199 domain-containing protein 148R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-148R PE=4 SV=1
+sp|I7HHN4|PORTL_BPKHP     5.8       8.6   2   1.5  15.4    Portal protein OS=Helicobacter pylori bacteriophage KHP30 OX=1208236 GN=ORF17 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P32511|VIE2_NPVOP    564.0  2.2e-169     1  10.0      1    405      1    404      1    384     E3 ubiquitin-protein ligase IE2 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=IE2 PE=3 SV=1
+sp|Q2NNU1|VIE2_NPVHC    559.6  4.8e-168     1  14.8      1    375      1    374      1    384     E3 ubiquitin-protein ligase IE2 OS=Hyphantria cunea nuclear polyhedrosis virus OX=28288 GN=IE2 PE=3 SV=1
+sp|O92503|VIE2_NPVBM    538.6  1.2e-161     1  23.4      1    421      1    419      1    384     E3 ubiquitin-protein ligase IE2 OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=IE2 PE=1 SV=1
+sp|P24647|IE2_NPVAC     513.1  6.5e-154     1  27.0      1    407      1    406      1    385     E3 ubiquitin-protein ligase IE2 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=IE2 PE=3 SV=2
+sp|Q8QME4|VIE2_NPVCF    498.8  1.5e-149     1  11.2      1    315      1    301      1    307     E3 ubiquitin-protein ligase IE2 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=IE2 PE=3 SV=1
+sp|Q8B9B2|VIE2_NPVR1    494.5  2.9e-148     1  29.0      1    406      1    405      1    385     E3 ubiquitin-protein ligase IE2 OS=Rachiplusia ou multiple nucleopolyhedrovirus (strain R1) OX=654904 GN=IE2 PE=3 SV=1
+sp|Q91FL1|313L_IIV6      11.7      0.13     1  10.9    123    256    136    244    263    368     Putative KilA-N domain-containing protein 313L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-313L PE=3 SV=1
+sp|O55752|148R_IIV6       8.0       1.8     1   6.6    176    304    208    293    280    365     Putative MSV199 domain-containing protein 148R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-148R PE=4 SV=1
+sp|I7HHN4|PORTL_BPKHP     7.9       1.9     2  12.0    489    596    495    580    257    343     Portal protein OS=Helicobacter pylori bacteriophage KHP30 OX=1208236 GN=ORF17 PE=1 SV=1
+sp|P32512|PE38_NPVOP      7.7       2.2     1  22.5     13    269     31    266    177    383     Major immediate early protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=PE38 PE=4 SV=1
+sp|P23801|PE38_NPVAC      3.0        59     2  33.7     40    267     58    238    160    319     Major immediate early protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PE38 PE=4 SV=2
+sp|P23801|PE38_NPVAC      2.1   1.2e+02     1   0.5     15     80     39     75    334    370     Major immediate early protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PE38 PE=4 SV=2
+sp|Q8QME4|VIE2_NPVCF     -1.1     1e+03     2   0.0    301    348    311    347    339    375     E3 ubiquitin-protein ligase IE2 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=IE2 PE=3 SV=1
+sp|Q91FL1|313L_IIV6      -3.5   5.5e+03     2   0.1    313    355    325    351    268    294     Putative KilA-N domain-containing protein 313L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-313L PE=3 SV=1
+sp|I7HHN4|PORTL_BPKHP    -3.8   7.2e+03     1   0.1    297    358    313    335    260    282     Portal protein OS=Helicobacter pylori bacteriophage KHP30 OX=1208236 GN=ORF17 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_610977@NC_008035.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_610977@NC_008035.txt data/models_hmm/YP_610977@NC_008035.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:39 2021
+# [ok]

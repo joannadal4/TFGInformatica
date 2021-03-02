@@ -1,0 +1,41 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P28959|MB43_EHV1B   473.2  5.7e-142   1   1.0  33.5    Membrane protein UL43 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=17 PE=3 SV=1
+sp|P84400|MB43_EHV1V   473.2  5.7e-142   1   1.0  33.5    Membrane protein UL43 homolog OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=17 PE=3 SV=1
+sp|P09273|MB43_VZVD    453.5  5.4e-136   1   1.0  30.0    Membrane protein UL43 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF15 PE=3 SV=1
+sp|Q4JQW0|MB43_VZVO    453.5  5.4e-136   1   1.0  30.0    Membrane protein UL43 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF15 PE=3 SV=1
+sp|Q9E6M9|MB43_GAHVM   444.2  3.8e-133   1   1.0  38.3    Membrane protein UL43 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV056 PE=3 SV=1
+sp|P22597|MB43_EHV4     76.1   2.2e-21   1   1.0   9.7    Membrane protein UL43 homolog (Fragment) OS=Equine herpesvirus 4 (strain 1942) OX=10333 PE=3 SV=1
+sp|P57021|GTRA_BPP22    13.2     0.027   1   1.0   4.6    Bactoprenol-linked glucose translocase OS=Salmonella phage P22 OX=10754 GN=gtrA PE=3 SV=1
+sp|P10227|MB43_HHV11    12.2     0.054   2   2.1   0.2    Membrane protein UL43 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL43 PE=3 SV=2
+sp|P89464|MB43_HHV2H    10.3       0.2   2   2.0   1.5    Membrane protein UL43 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL43 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P28959|MB43_EHV1B   473.1  6.4e-142     1  33.5      1    401      1    400      1    407     Membrane protein UL43 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=17 PE=3 SV=1
+sp|P84400|MB43_EHV1V   473.1  6.4e-142     1  33.5      1    401      1    400      1    407     Membrane protein UL43 homolog OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=17 PE=3 SV=1
+sp|P09273|MB43_VZVD    453.4  6.1e-136     1  30.0      1    405      1    404      1    407     Membrane protein UL43 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF15 PE=3 SV=1
+sp|Q4JQW0|MB43_VZVO    453.4  6.1e-136     1  30.0      1    405      1    404      1    407     Membrane protein UL43 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF15 PE=3 SV=1
+sp|Q9E6M9|MB43_GAHVM   444.0  4.2e-133     1  38.3      1    420      1    419      1    406     Membrane protein UL43 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV056 PE=3 SV=1
+sp|P22597|MB43_EHV4     76.0   2.3e-21     1   9.7      1     76      1     75    333    407     Membrane protein UL43 homolog (Fragment) OS=Equine herpesvirus 4 (strain 1942) OX=10333 PE=3 SV=1
+sp|P57021|GTRA_BPP22    13.0     0.032     1   4.6      6    116     18    110     51    145     Bactoprenol-linked glucose translocase OS=Salmonella phage P22 OX=10754 GN=gtrA PE=3 SV=1
+sp|P89464|MB43_HHV2H     8.0         1     2   0.0    297    402    301    372    304    376     Membrane protein UL43 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL43 PE=3 SV=1
+sp|P10227|MB43_HHV11     7.2       1.7     2   0.1    299    404    302    374    304    377     Membrane protein UL43 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL43 PE=3 SV=2
+sp|P10227|MB43_HHV11     2.9        37     1   0.0      2    202     14    190     24    200     Membrane protein UL43 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL43 PE=3 SV=2
+sp|P89464|MB43_HHV2H     1.4   1.1e+02     1   0.3     56    219    130    208    134    216     Membrane protein UL43 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL43 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_053062@NC_001491.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_053062@NC_001491.txt data/models_hmm/YP_053062@NC_001491.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:54 2021
+# [ok]

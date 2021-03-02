@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R7G8|Y057_OSHVF      9.2      0.15   1   1.1   0.2    Putative transmembrane protein ORF57 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF57 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R7G8|Y057_OSHVF      8.7      0.21     1   0.2     42    143     63    134    728    801     Putative transmembrane protein ORF57 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF57 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000026@SRS011255_Baylor_scaffold_6887@SRS011255_Baylor_scaffold_6887_gene_6590.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000026@SRS011255_Baylor_scaffold_6887@SRS011255_Baylor_scaffold_6887_gene_6590.txt data/models_hmm/7000000026@SRS011255_Baylor_scaffold_6887@SRS011255_Baylor_scaffold_6887_gene_6590.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:49 2021
+# [ok]

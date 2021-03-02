@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39420|Y01B_BPT4     320.5   8.3e-96   1   1.0  16.2    Uncharacterized 29.0 kDa protein in dda-modA intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y01B PE=4 SV=1
+sp|Q27YG8|YORF3_NORAV    10.0      0.46   2   1.9  12.0    Uncharacterized ORF3 protein OS=Nora virus OX=363716 GN=ORF3 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39420|Y01B_BPT4     320.4   9.1e-96     1  16.2      1    248      6    248      2    254     Uncharacterized 29.0 kDa protein in dda-modA intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y01B PE=4 SV=1
+sp|Q27YG8|YORF3_NORAV    11.4      0.18     1   7.4      4    128     24    123    124    219     Uncharacterized ORF3 protein OS=Nora virus OX=363716 GN=ORF3 PE=4 SV=1
+sp|Q27YG8|YORF3_NORAV     0.7   3.2e+02     2   0.1    128    215    143    186    155    198     Uncharacterized ORF3 protein OS=Nora virus OX=363716 GN=ORF3 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004300600@NC_015250.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004300600@NC_015250.txt data/models_hmm/YP_004300600@NC_015250.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:11 2021
+# [ok]

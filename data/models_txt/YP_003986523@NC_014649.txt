@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04507|SIGM1_REOVJ    13.3     0.061   2   2.4   0.1    Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04507|SIGM1_REOVJ     8.6       1.8     1   0.0     22    100     30     91     33     91     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|P04507|SIGM1_REOVJ     1.9     2e+02     2   0.0    105    178    128    166     47     85     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003986523@NC_014649.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003986523@NC_014649.txt data/models_hmm/YP_003986523@NC_014649.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:54 2021
+# [ok]

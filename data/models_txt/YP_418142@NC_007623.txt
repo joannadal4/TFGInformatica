@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P07612|L1_VACCW      12.8      0.07   1   1.7   0.1    Protein L1 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR088 PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P07612|L1_VACCW      11.5      0.18     1   0.1    150    224    162    204     51     92     Protein L1 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR088 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_418142@NC_007623.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_418142@NC_007623.txt data/models_hmm/YP_418142@NC_007623.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:32 2021
+# [ok]

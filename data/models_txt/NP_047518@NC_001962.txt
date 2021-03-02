@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41674|AC121_NPVAC   141.6   4.3e-42   1   1.0  13.8    Transactivator protein ORF121 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC121 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41674|AC121_NPVAC   141.5   4.6e-42     1  13.8      1     58      1     58      1     58     Transactivator protein ORF121 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC121 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_047518@NC_001962.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_047518@NC_001962.txt data/models_hmm/NP_047518@NC_001962.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:27 2021
+# [ok]

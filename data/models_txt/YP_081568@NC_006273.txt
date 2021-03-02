@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5H8Q3|UL148_HCMVM   424.0  3.2e-127   1   1.0   0.1    Membrane protein UL148 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL148 PE=3 SV=1
+sp|P41706|Y149_NPVAC     13.7     0.023   1   1.0   0.1    Uncharacterized 12.4 kDa protein in IE1-IEN intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5H8Q3|UL148_HCMVM   423.7  3.9e-127     1   0.1      1    313      2    309      7    324     Membrane protein UL148 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL148 PE=3 SV=1
+sp|P41706|Y149_NPVAC     13.5     0.027     1   0.1      5     91      7     88     75    156     Uncharacterized 12.4 kDa protein in IE1-IEN intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_081568@NC_006273.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_081568@NC_006273.txt data/models_hmm/YP_081568@NC_006273.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:04 2021
+# [ok]

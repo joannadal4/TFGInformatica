@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q76631|REV_HV2UC     15.7    0.0091   1   1.4   0.8    Protein Rev OS=Human immunodeficiency virus type 2 subtype B (isolate UC1) OX=388822 GN=rev PE=3 SV=1
+sp|Q38162|LLP_BPT5      11.8      0.14   1   1.2   0.0    Lytic conversion lipoprotein OS=Escherichia phage T5 OX=10726 GN=llp PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q76631|REV_HV2UC     15.1     0.014     1   0.8     46    107     54     93     10     55     Protein Rev OS=Human immunodeficiency virus type 2 subtype B (isolate UC1) OX=388822 GN=rev PE=3 SV=1
+sp|Q38162|LLP_BPT5      11.4       0.2     1   0.0      1     32      1     27      1     28     Lytic conversion lipoprotein OS=Escherichia phage T5 OX=10726 GN=llp PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002224764@NC_011272.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002224764@NC_011272.txt data/models_hmm/YP_002224764@NC_011272.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:54 2021
+# [ok]

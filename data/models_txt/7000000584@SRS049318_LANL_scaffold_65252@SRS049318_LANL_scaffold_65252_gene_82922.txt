@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9J540|RP35_FOWPN    16.7    0.0043   1   1.4   0.0    DNA-directed RNA polymerase 35 kDa subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO35 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9J540|RP35_FOWPN    15.8    0.0081     1   0.0    172    236    193    232     71    109     DNA-directed RNA polymerase 35 kDa subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO35 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000584@SRS049318_LANL_scaffold_65252@SRS049318_LANL_scaffold_65252_gene_82922.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000584@SRS049318_LANL_scaffold_65252@SRS049318_LANL_scaffold_65252_gene_82922.txt data/models_hmm/7000000584@SRS049318_LANL_scaffold_65252@SRS049318_LANL_scaffold_65252_gene_82922.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:28 2021
+# [ok]

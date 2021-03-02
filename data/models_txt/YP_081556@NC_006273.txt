@@ -1,0 +1,38 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6SW34|UL116_HCMVM   421.3  3.1e-126   1   1.7  63.1    Uncharacterized protein UL116 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL116 PE=3 SV=1
+sp|P16833|UL116_HCMVA   377.2  7.9e-113   1   1.9  64.7    Uncharacterized protein UL116 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL116 PE=3 SV=2
+sp|P16795|GN_HCMVA       12.3     0.068   1   1.2  22.0    Envelope glycoprotein N OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gN PE=1 SV=1
+sp|Q6SW14|UL139_HCMVM    11.1      0.15   1   1.2  19.0    Membrane glycoprotein UL139 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL139 PE=3 SV=1
+sp|P16739|UL119_HCMVA     9.2      0.59   1   1.1  22.2    Viral Fc-gamma receptor-like protein UL119 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL119/UL118 PE=2 SV=2
+sp|F5HHQ0|GN_HCMVM        8.9      0.73   1   1.2  21.5    Envelope glycoprotein N OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gN PE=3 SV=1
+sp|P22596|GC_EHV4         6.4       4.2   1   1.5  29.5    Envelope glycoprotein C OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=gC PE=1 SV=1
+sp|D5SGZ8|AAP_AAV2S       6.3       4.5   2   1.5  19.7    Assembly activating protein AAP OS=Adeno-associated virus 2 (isolate Srivastava/1982) OX=648242 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6SW34|UL116_HCMVM   419.5  1.1e-125     1  63.1      1    313      6    312      2    350     Uncharacterized protein UL116 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL116 PE=3 SV=1
+sp|P16833|UL116_HCMVA   374.2  6.7e-112     1  64.7      1    314      6    313      2    350     Uncharacterized protein UL116 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL116 PE=3 SV=2
+sp|D5SGZ8|AAP_AAV2S      12.5     0.059     1  12.6     21    156     58    142     41    127     Assembly activating protein AAP OS=Adeno-associated virus 2 (isolate Srivastava/1982) OX=648242 PE=4 SV=1
+sp|P16795|GN_HCMVA       12.0      0.08     1  22.0      1     96     16     76     19    161     Envelope glycoprotein N OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gN PE=1 SV=1
+sp|Q6SW14|UL139_HCMVM    10.6      0.21     1  19.0      1    132      1    125      6    133     Membrane glycoprotein UL139 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL139 PE=3 SV=1
+sp|P16739|UL119_HCMVA     8.7      0.82     1  22.2     15    153     19     90     66    137     Viral Fc-gamma receptor-like protein UL119 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL119/UL118 PE=2 SV=2
+sp|F5HHQ0|GN_HCMVM        8.6      0.89     1  21.5      2     98     17     65     42     93     Envelope glycoprotein N OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gN PE=3 SV=1
+sp|P22596|GC_EHV4         5.2       9.6     1  29.5     20    147     23    116     62    153     Envelope glycoprotein C OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=gC PE=1 SV=1
+sp|D5SGZ8|AAP_AAV2S      -2.8   2.6e+03     2   0.6    164    203    173    187     93    107     Assembly activating protein AAP OS=Adeno-associated virus 2 (isolate Srivastava/1982) OX=648242 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_081556@NC_006273.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_081556@NC_006273.txt data/models_hmm/YP_081556@NC_006273.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:04 2021
+# [ok]

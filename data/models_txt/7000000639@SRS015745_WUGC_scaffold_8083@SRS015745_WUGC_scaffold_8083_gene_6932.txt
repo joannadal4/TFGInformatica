@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52341|DUT_HHV7J     14.5      0.02   1   1.5   0.1    Deoxyuridine 5'-triphosphate nucleotidohydrolase OS=Human herpesvirus 7 (strain JI) OX=57278 GN=DUT PE=3 SV=1
+sp|Q9T1Q1|VP47_BPAPS    10.5      0.34   2   2.1   5.4    Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52341|DUT_HHV7J     13.4     0.045     1   0.1      7     86     12     78     43    108     Deoxyuridine 5'-triphosphate nucleotidohydrolase OS=Human herpesvirus 7 (strain JI) OX=57278 GN=DUT PE=3 SV=1
+sp|Q9T1Q1|VP47_BPAPS     9.2      0.87     2   0.5     75    150     77    126     97    147     Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+sp|Q9T1Q1|VP47_BPAPS     7.9       2.1     1   1.9     23     92     45     91     87    133     Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000639@SRS015745_WUGC_scaffold_8083@SRS015745_WUGC_scaffold_8083_gene_6932.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000639@SRS015745_WUGC_scaffold_8083@SRS015745_WUGC_scaffold_8083_gene_6932.txt data/models_hmm/7000000639@SRS015745_WUGC_scaffold_8083@SRS015745_WUGC_scaffold_8083_gene_6932.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:41 2021
+# [ok]

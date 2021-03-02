@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P28852|KITH_AMEPV    12.8     0.096   1   1.7   0.8    Thymidine kinase OS=Amsacta moorei entomopoxvirus OX=28321 GN=TK PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P28852|KITH_AMEPV    11.8      0.19     1   0.8      1    108      4     75      2     75     Thymidine kinase OS=Amsacta moorei entomopoxvirus OX=28321 GN=TK PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000297___SRS056259_LANL_scaffold_516_8_15.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000297___SRS056259_LANL_scaffold_516_8_15.txt data/models_hmm/7000000297___SRS056259_LANL_scaffold_516_8_15.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:01 2021
+# [ok]

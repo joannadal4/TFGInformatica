@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9DHD6|POLG_HCVJP    13.0     0.088   1   2.4   2.1    Genome polyprotein OS=Hepatitis C virus genotype 2b (isolate JPUT971017) OX=356412 PE=3 SV=3
+sp|P26661|POLG_HCVJ8    12.0      0.19   1   2.4   2.6    Genome polyprotein OS=Hepatitis C virus genotype 2b (isolate HC-J8) OX=11115 PE=1 SV=3
+sp|P26663|POLG_HCVBK    11.3       0.3   1   2.3   2.5    Genome polyprotein OS=Hepatitis C virus genotype 1b (isolate BK) OX=11105 PE=1 SV=3
+sp|Q99IB8|POLG_HCVJF     8.6         2   2   2.3  10.0    Genome polyprotein OS=Hepatitis C virus genotype 2a (isolate JFH-1) OX=356411 PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q99IB8|POLG_HCVJF    11.3      0.29     1   4.8    702    795    717    787     33    104     Genome polyprotein OS=Hepatitis C virus genotype 2a (isolate JFH-1) OX=356411 PE=1 SV=3
+sp|Q9DHD6|POLG_HCVJP    10.4      0.57     1   2.1    704    792    718    786     34    103     Genome polyprotein OS=Hepatitis C virus genotype 2b (isolate JPUT971017) OX=356412 PE=3 SV=3
+sp|P26661|POLG_HCVJ8     9.4       1.1     1   2.6    707    791    718    785     34    102     Genome polyprotein OS=Hepatitis C virus genotype 2b (isolate HC-J8) OX=11115 PE=1 SV=3
+sp|P26663|POLG_HCVBK     8.8       1.7     1   2.5    692    787    706    780     27    101     Genome polyprotein OS=Hepatitis C virus genotype 1b (isolate BK) OX=11105 PE=1 SV=3
+sp|Q99IB8|POLG_HCVJF    -4.3   1.7e+04     2   0.2   1809   1850   1816   1847     53     85     Genome polyprotein OS=Hepatitis C virus genotype 2a (isolate JFH-1) OX=356411 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008319869@NC_021858.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008319869@NC_021858.txt data/models_hmm/YP_008319869@NC_021858.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:51 2021
+# [ok]

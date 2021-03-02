@@ -1,0 +1,50 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q0PDK7|TMP_BPSPP     13.0     0.038   2   2.7   6.0    Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|Q05233|VG26_BPML5    11.0      0.15   2   2.4   2.5    Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|O21882|TMP_BPLSK      9.9      0.32   6   4.7  19.2    Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|O64220|VG26_BPMD2     9.3       0.5   3   3.2   4.1    Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|E7DNB6|TMP_BPDP1      7.5       1.7   4   3.2  21.7    Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|D3WAD2|TMP_BPLP2      7.4       1.9   6   4.8  21.6    Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O21882|TMP_BPLSK     11.8     0.083     6   0.1    780    927    788    926    278    406     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|D3WAD2|TMP_BPLP2     11.0      0.15     6   0.3    781    927    801    925    292    405     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|E7DNB6|TMP_BPDP1      9.5      0.42     3   0.3    839    995    869    987    238    356     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|Q0PDK7|TMP_BPSPP      9.5      0.42     2   2.8    773    927    818    919    269    368     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|Q0PDK7|TMP_BPSPP      9.0       0.6     1   5.1    656    874    697    849    254    398     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|Q05233|VG26_BPML5     8.2         1     2   0.7    351    620    401    554    257    405     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|E7DNB6|TMP_BPDP1      8.1       1.1     2   7.0    585    826    631    813    216    390     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|O64220|VG26_BPMD2     6.0         5     2   0.4    337    451    345    436    297    392     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|D3WAD2|TMP_BPLP2      5.9       5.2     5   0.1    698    801    707    774    299    363     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|O21882|TMP_BPLSK      5.7       5.9     5   0.1    689    803    707    774    299    363     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|Q05233|VG26_BPML5     2.0        78     1   0.0    163    333    170    276    217    315     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|O21882|TMP_BPLSK      1.9        83     4   0.5    601    702    620    681    307    368     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|D3WAD2|TMP_BPLP2      1.9        85     4   0.4    601    700    620    681    307    368     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|O64220|VG26_BPMD2     1.8        91     3   0.1    435    644    443    594    205    348     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|O64220|VG26_BPMD2     0.3   2.6e+02     1   0.1    164    304    171    232    300    361     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|O21882|TMP_BPLSK     -0.2   3.7e+02     3   0.8    435    552    452    531    250    330     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|D3WAD2|TMP_BPLP2     -0.3     4e+02     3   0.7    425    564    459    531    261    330     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|E7DNB6|TMP_BPDP1     -1.3   8.3e+02     4   0.1    999   1129   1026   1046    121    141     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|O21882|TMP_BPLSK     -1.5   9.1e+02     2   1.6    270    499    331    468    216    354     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|D3WAD2|TMP_BPLP2     -2.3   1.6e+03     1   0.3    193    323    221    293    286    355     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|D3WAD2|TMP_BPLP2     -2.3   1.6e+03     2   2.2    277    526    452    465    338    351     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|O21882|TMP_BPLSK     -2.4   1.7e+03     1   0.2    204    325    225    293    290    355     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|E7DNB6|TMP_BPDP1     -4.1   5.9e+03     1   0.1    314    378    324    348    232    256     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_025160@NC_005905.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_025160@NC_005905.txt data/models_hmm/YP_025160@NC_005905.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:52 2021
+# [ok]

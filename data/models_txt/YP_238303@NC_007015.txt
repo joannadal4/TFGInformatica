@@ -1,0 +1,91 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P31621|ENV_JSRV    1150.1         0   1   1.0   0.1    Envelope glycoprotein OS=Sheep pulmonary adenomatosis virus OX=11746 GN=env PE=1 SV=1
+sp|P03374|ENV_MMTVG    264.5   1.6e-78   1   1.9   0.0    Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain GR) OX=11760 GN=env PE=1 SV=1
+sp|Q85646|ENV_MMTVC    261.4   1.3e-77   1   1.9   0.0    Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain C3H) OX=11759 GN=env PE=1 SV=1
+sp|P10259|ENV_MMTVB    260.2   3.2e-77   1   1.9   0.1    Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain BR6) OX=11758 GN=env PE=3 SV=1
+sp|P31789|ENV_IPMAE     37.2     1e-09   1   1.3   0.2    Envelope glycoprotein OS=Mouse intracisternal a-particle MIAE OX=11932 GN=env PE=2 SV=1
+sp|P22429|ENV_EIAV3     31.1   7.4e-08   2   2.1   3.0    Envelope glycoprotein OS=Equine infectious anemia virus (isolate P3.2-3) OX=11668 GN=env PE=3 SV=1
+sp|P32541|ENV_EIAVC     31.0     8e-08   2   2.1   3.3    Envelope glycoprotein OS=Equine infectious anemia virus (isolate CL22) OX=31675 GN=env PE=1 SV=1
+sp|P11306|ENV_EIAV9     30.8   8.9e-08   2   2.1   3.4    Envelope glycoprotein OS=Equine infectious anemia virus (isolate 1369) OX=11670 GN=env PE=3 SV=2
+sp|P16082|ENV_EIAVW     30.5   1.1e-07   2   2.1   3.6    Envelope glycoprotein OS=Equine infectious anemia virus (strain WSU5) OX=11671 GN=env PE=1 SV=1
+sp|P22428|ENV_EIAV2     30.3   1.3e-07   2   2.0   3.5    Envelope glycoprotein OS=Equine infectious anemia virus (isolate P3.2-2) OX=11667 GN=env PE=3 SV=1
+sp|P22430|ENV_EIAV5     29.9   1.6e-07   1   1.2   1.4    Envelope glycoprotein OS=Equine infectious anemia virus (isolate P3.2-5) OX=11669 GN=env PE=3 SV=1
+sp|P06751|ENV_EIAVY     29.5   2.2e-07   3   2.2   1.5    Envelope glycoprotein OS=Equine infectious anemia virus (strain Wyoming) OX=11672 GN=env PE=3 SV=2
+sp|P22427|ENV_EIAV1     28.8   3.5e-07   2   2.1   3.3    Envelope glycoprotein OS=Equine infectious anemia virus (isolate P3.2-1) OX=11666 GN=env PE=3 SV=1
+sp|P19557|ENV_BIV29     24.3     8e-06   2   1.7   2.2    Envelope glycoprotein OS=Bovine immunodeficiency virus (strain R29) OX=417296 GN=env PE=2 SV=1
+sp|P24614|FUS_TRTV      16.8    0.0015   2   2.1   1.1    Fusion glycoprotein F0 OS=Turkey rhinotracheitis virus OX=11264 GN=F PE=2 SV=1
+sp|Q2Y2M3|FUS_AMPV1     14.9    0.0057   2   2.1   1.7    Fusion glycoprotein F0 OS=Avian metapneumovirus (isolate Canada goose/Minnesota/15a/2001) OX=652954 GN=F PE=3 SV=1
+sp|Q9T1W9|GP25_BPMU     13.2     0.018   1   1.0   0.0    Uncharacterized protein gp25 OS=Escherichia phage Mu OX=10677 GN=Mup25 PE=2 SV=1
+sp|Q82857|ENV_JEMBR     13.2     0.019   1   1.3   0.0    Envelope glycoprotein OS=Jembrana disease virus OX=36370 GN=env PE=3 SV=1
+sp|Q6WB98|FUS_HMPVC     10.5      0.12   2   1.8   2.9    Fusion glycoprotein F0 OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=F PE=1 SV=1
+sp|P12575|FUS_SENDF      8.2       0.6   3   2.3   6.7    Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+sp|P04856|FUS_SENDH      7.4       1.1   3   2.3   7.0    Fusion glycoprotein F0 OS=Sendai virus (strain Harris) OX=11196 GN=F PE=3 SV=1
+sp|P04855|FUS_SENDZ      7.2       1.2   3   2.3   7.9    Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|O57295|FUS_SENDO      6.1       2.6   3   2.4   7.3    Fusion glycoprotein F0 OS=Sendai virus (strain Ohita) OX=302272 GN=F PE=3 SV=1
+sp|Q9DUD9|FUS_SENDA      5.8       3.4   3   2.4   7.9    Fusion glycoprotein F0 OS=Sendai virus (strain Hamamatsu) OX=302271 GN=F PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P31621|ENV_JSRV    1149.9         0     1   0.1      1    615      1    615      2    601     Envelope glycoprotein OS=Sheep pulmonary adenomatosis virus OX=11746 GN=env PE=1 SV=1
+sp|P03374|ENV_MMTVG    260.9   1.9e-77     1   0.0     20    680     27    673      8    597     Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain GR) OX=11760 GN=env PE=1 SV=1
+sp|Q85646|ENV_MMTVC    257.9   1.5e-76     1   0.0     19    680     27    673      8    597     Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain C3H) OX=11759 GN=env PE=1 SV=1
+sp|P10259|ENV_MMTVB    256.7   3.5e-76     1   0.1     19    680     29    673     10    597     Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain BR6) OX=11758 GN=env PE=3 SV=1
+sp|P31789|ENV_IPMAE     36.4   1.8e-09     1   0.2    252    565    279    551    274    563     Envelope glycoprotein OS=Mouse intracisternal a-particle MIAE OX=11932 GN=env PE=2 SV=1
+sp|P22429|ENV_EIAV3     29.6     2e-07     2   1.2    421    651    429    634    361    563     Envelope glycoprotein OS=Equine infectious anemia virus (isolate P3.2-3) OX=11668 GN=env PE=3 SV=1
+sp|P06751|ENV_EIAVY     29.5   2.2e-07     3   1.5    419    651    429    634    361    563     Envelope glycoprotein OS=Equine infectious anemia virus (strain Wyoming) OX=11672 GN=env PE=3 SV=2
+sp|P11306|ENV_EIAV9     29.5   2.2e-07     2   1.5    419    651    429    634    361    563     Envelope glycoprotein OS=Equine infectious anemia virus (isolate 1369) OX=11670 GN=env PE=3 SV=2
+sp|P32541|ENV_EIAVC     29.5   2.2e-07     2   1.5    419    651    429    634    361    563     Envelope glycoprotein OS=Equine infectious anemia virus (isolate CL22) OX=31675 GN=env PE=1 SV=1
+sp|P16082|ENV_EIAVW     29.5   2.3e-07     2   1.4    420    651    429    634    361    563     Envelope glycoprotein OS=Equine infectious anemia virus (strain WSU5) OX=11671 GN=env PE=1 SV=1
+sp|P22428|ENV_EIAV2     29.3   2.5e-07     2   1.2    421    652    429    634    361    563     Envelope glycoprotein OS=Equine infectious anemia virus (isolate P3.2-2) OX=11667 GN=env PE=3 SV=1
+sp|P22430|ENV_EIAV5     29.2   2.7e-07     1   1.4    422    653    430    635    361    563     Envelope glycoprotein OS=Equine infectious anemia virus (isolate P3.2-5) OX=11669 GN=env PE=3 SV=1
+sp|P22427|ENV_EIAV1     27.5   8.8e-07     2   1.4    420    651    429    634    361    563     Envelope glycoprotein OS=Equine infectious anemia virus (isolate P3.2-1) OX=11666 GN=env PE=3 SV=1
+sp|P19557|ENV_BIV29     24.3     8e-06     2   2.2    547    764    555    759    376    578     Envelope glycoprotein OS=Bovine immunodeficiency virus (strain R29) OX=417296 GN=env PE=2 SV=1
+sp|P24614|FUS_TRTV      14.9    0.0057     1   0.4     77    226     95    197    371    466     Fusion glycoprotein F0 OS=Turkey rhinotracheitis virus OX=11264 GN=F PE=2 SV=1
+sp|Q9T1W9|GP25_BPMU     13.2      0.02     1   0.0      3     98     14     91    391    463     Uncharacterized protein gp25 OS=Escherichia phage Mu OX=10677 GN=Mup25 PE=2 SV=1
+sp|Q82857|ENV_JEMBR     12.4     0.033     1   0.0    381    520    415    496    369    447     Envelope glycoprotein OS=Jembrana disease virus OX=36370 GN=env PE=3 SV=1
+sp|Q2Y2M3|FUS_AMPV1     12.3     0.035     1   0.2     68    249     78    222    361    502     Fusion glycoprotein F0 OS=Avian metapneumovirus (isolate Canada goose/Minnesota/15a/2001) OX=652954 GN=F PE=3 SV=1
+sp|Q6WB98|FUS_HMPVC     11.0     0.086     1   0.5     73    247    101    221    379    501     Fusion glycoprotein F0 OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=F PE=1 SV=1
+sp|P04856|FUS_SENDH      9.8       0.2     3   0.6    459    540    487    529    529    572     Fusion glycoprotein F0 OS=Sendai virus (strain Harris) OX=11196 GN=F PE=3 SV=1
+sp|P12575|FUS_SENDF      9.6      0.23     3   0.7    460    540    488    529    530    572     Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+sp|P04855|FUS_SENDZ      9.2      0.32     3   1.2    460    538    489    528    531    571     Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|O57295|FUS_SENDO      7.7      0.88     3   0.8    462    540    500    528    543    571     Fusion glycoprotein F0 OS=Sendai virus (strain Ohita) OX=302272 GN=F PE=3 SV=1
+sp|Q9DUD9|FUS_SENDA      7.7      0.88     3   0.8    462    540    500    528    543    571     Fusion glycoprotein F0 OS=Sendai virus (strain Hamamatsu) OX=302271 GN=F PE=3 SV=1
+sp|Q9DUD9|FUS_SENDA      2.0        48     1   0.4     92    212    115    190    376    451     Fusion glycoprotein F0 OS=Sendai virus (strain Hamamatsu) OX=302271 GN=F PE=3 SV=1
+sp|O57295|FUS_SENDO      1.8        52     1   0.3     95    212    117    190    378    451     Fusion glycoprotein F0 OS=Sendai virus (strain Ohita) OX=302272 GN=F PE=3 SV=1
+sp|P04855|FUS_SENDZ      1.7        56     1   0.2     96    212    118    190    379    451     Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|Q2Y2M3|FUS_AMPV1      1.6        63     2   0.1    456    521    468    509    358    399     Fusion glycoprotein F0 OS=Avian metapneumovirus (isolate Canada goose/Minnesota/15a/2001) OX=652954 GN=F PE=3 SV=1
+sp|P12575|FUS_SENDF      1.5        64     1   0.2     97    210    118    190    379    451     Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+sp|P04856|FUS_SENDH      0.9        99     1   0.2     98    210    118    190    379    451     Fusion glycoprotein F0 OS=Sendai virus (strain Harris) OX=11196 GN=F PE=3 SV=1
+sp|P22428|ENV_EIAV2      0.6   1.3e+02     1   0.0    251    300    261    280    289    307     Envelope glycoprotein OS=Equine infectious anemia virus (isolate P3.2-2) OX=11667 GN=env PE=3 SV=1
+sp|P32541|ENV_EIAVC      0.4   1.4e+02     1   0.0    251    304    261    280    289    307     Envelope glycoprotein OS=Equine infectious anemia virus (isolate CL22) OX=31675 GN=env PE=1 SV=1
+sp|P06751|ENV_EIAVY      0.4   1.5e+02     1   0.0    251    300    261    278    289    306     Envelope glycoprotein OS=Equine infectious anemia virus (strain Wyoming) OX=11672 GN=env PE=3 SV=2
+sp|P11306|ENV_EIAV9      0.4   1.5e+02     1   0.0    251    300    261    278    289    306     Envelope glycoprotein OS=Equine infectious anemia virus (isolate 1369) OX=11670 GN=env PE=3 SV=2
+sp|P22427|ENV_EIAV1      0.4   1.5e+02     1   0.0    251    300    261    278    289    306     Envelope glycoprotein OS=Equine infectious anemia virus (isolate P3.2-1) OX=11666 GN=env PE=3 SV=1
+sp|P22429|ENV_EIAV3      0.4   1.5e+02     1   0.0    251    300    261    278    289    306     Envelope glycoprotein OS=Equine infectious anemia virus (isolate P3.2-3) OX=11668 GN=env PE=3 SV=1
+sp|P16082|ENV_EIAVW      0.3   1.5e+02     1   0.0    251    299    261    278    289    306     Envelope glycoprotein OS=Equine infectious anemia virus (strain WSU5) OX=11671 GN=env PE=1 SV=1
+sp|P24614|FUS_TRTV      -0.6   2.9e+02     2   0.0    466    528    490    515    545    570     Fusion glycoprotein F0 OS=Turkey rhinotracheitis virus OX=11264 GN=F PE=2 SV=1
+sp|Q6WB98|FUS_HMPVC     -1.3   4.5e+02     2   0.1    413    519    481    512    371    564     Fusion glycoprotein F0 OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=F PE=1 SV=1
+sp|P19557|ENV_BIV29     -1.4   4.9e+02     1   0.0    403    454    412    446    291    322     Envelope glycoprotein OS=Bovine immunodeficiency virus (strain R29) OX=417296 GN=env PE=2 SV=1
+sp|O57295|FUS_SENDO     -3.2   1.8e+03     2   0.0    239    312    251    307    324    379     Fusion glycoprotein F0 OS=Sendai virus (strain Ohita) OX=302272 GN=F PE=3 SV=1
+sp|P12575|FUS_SENDF     -3.2   1.8e+03     2   0.0    239    312    251    307    324    379     Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+sp|Q9DUD9|FUS_SENDA     -3.2   1.8e+03     2   0.0    239    312    251    307    324    379     Fusion glycoprotein F0 OS=Sendai virus (strain Hamamatsu) OX=302271 GN=F PE=3 SV=1
+sp|P04855|FUS_SENDZ     -3.5   2.1e+03     2   0.0    241    312    250    307    323    379     Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|P04856|FUS_SENDH     -3.5   2.2e+03     2   0.0    244    312    251    307    324    379     Fusion glycoprotein F0 OS=Sendai virus (strain Harris) OX=11196 GN=F PE=3 SV=1
+sp|P06751|ENV_EIAVY     -4.3   3.8e+03     2   0.3    334    384    342    379    118    155     Envelope glycoprotein OS=Equine infectious anemia virus (strain Wyoming) OX=11672 GN=env PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_238303@NC_007015.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_238303@NC_007015.txt data/models_hmm/YP_238303@NC_007015.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:20 2021
+# [ok]

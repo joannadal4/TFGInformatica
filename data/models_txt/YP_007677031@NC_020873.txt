@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P05133|NCAP_HANTV    13.9     0.038   2   2.4   1.5    Nucleoprotein OS=Hantaan virus (strain 76-118) OX=11602 GN=N PE=1 SV=1
+sp|P22047|NCAP_PHV      10.0      0.62   2   2.1   3.2    Nucleoprotein OS=Prospect Hill virus OX=1980485 GN=N PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P22047|NCAP_PHV       8.7       1.6     1   0.9      1     77      1     68      1     66     Nucleoprotein OS=Prospect Hill virus OX=1980485 GN=N PE=3 SV=1
+sp|P05133|NCAP_HANTV     6.4         8     1   0.6      1     69      1     49      1     50     Nucleoprotein OS=Hantaan virus (strain 76-118) OX=11602 GN=N PE=1 SV=1
+sp|P05133|NCAP_HANTV     6.1        10     2   0.0    351    425    359    416     73    132     Nucleoprotein OS=Hantaan virus (strain 76-118) OX=11602 GN=N PE=1 SV=1
+sp|P22047|NCAP_PHV       1.1   3.4e+02     2   0.1    354    429    363    420     73    132     Nucleoprotein OS=Prospect Hill virus OX=1980485 GN=N PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007677031@NC_020873.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007677031@NC_020873.txt data/models_hmm/YP_007677031@NC_020873.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:04 2021
+# [ok]

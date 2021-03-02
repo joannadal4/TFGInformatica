@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP75|YL612_MIMIV    13.0     0.098   2   2.0   0.0    Uncharacterized protein L612 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L612 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UP75|YL612_MIMIV    11.1      0.38     1   0.0     33     62     41     61     42     62     Uncharacterized protein L612 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L612 PE=1 SV=1
+sp|Q5UP75|YL612_MIMIV    -2.2   5.6e+03     2   0.0     63     83     66     80      6     20     Uncharacterized protein L612 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L612 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH07159@HQ317292.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH07159@HQ317292.txt data/models_hmm/AGH07159@HQ317292.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:37 2021
+# [ok]

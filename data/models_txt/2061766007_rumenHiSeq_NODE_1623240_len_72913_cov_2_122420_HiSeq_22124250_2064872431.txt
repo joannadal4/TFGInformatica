@@ -1,0 +1,49 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6SW50|CVC1_HCMVM     12.6     0.082   1   1.7   0.0    Capsid vertex component 1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=CVC1 PE=3 SV=1
+sp|P16799|CVC1_HCMVA     12.6     0.083   1   1.7   0.0    Capsid vertex component 1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=CVC1 PE=3 SV=1
+sp|Q1HVI8|EBNA5_EBVA8     8.6       1.5   7   6.3  11.4    Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+sp|P0C732|EBNA5_EBVG      8.6       1.5   7   6.3  11.4    Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA-LP PE=3 SV=1
+sp|Q8AZK7|EBNA5_EBVB9     8.6       1.5   7   6.3  11.4    Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA-LP PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6SW50|CVC1_HCMVM     11.4       0.2     1   0.0    476    551    503    540     17     56     Capsid vertex component 1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=CVC1 PE=3 SV=1
+sp|P16799|CVC1_HCMVA     11.4       0.2     1   0.0    476    551    503    540     17     56     Capsid vertex component 1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=CVC1 PE=3 SV=1
+sp|P0C732|EBNA5_EBVG      1.1   3.2e+02     7   0.0    436    458    438    454     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA-LP PE=3 SV=1
+sp|Q1HVI8|EBNA5_EBVA8     1.1   3.2e+02     7   0.0    436    458    438    454     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+sp|Q8AZK7|EBNA5_EBVB9     1.1   3.2e+02     7   0.0    436    458    438    454     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA-LP PE=1 SV=1
+sp|P0C732|EBNA5_EBVG      1.1   3.4e+02     1   0.0     40     61     42     58     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA-LP PE=3 SV=1
+sp|P0C732|EBNA5_EBVG      1.1   3.4e+02     2   0.0    106    127    108    124     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA-LP PE=3 SV=1
+sp|P0C732|EBNA5_EBVG      1.1   3.4e+02     3   0.0    172    193    174    190     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA-LP PE=3 SV=1
+sp|P0C732|EBNA5_EBVG      1.1   3.4e+02     4   0.0    238    259    240    256     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA-LP PE=3 SV=1
+sp|P0C732|EBNA5_EBVG      1.1   3.4e+02     5   0.0    304    325    306    322     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA-LP PE=3 SV=1
+sp|P0C732|EBNA5_EBVG      1.1   3.4e+02     6   0.0    370    391    372    388     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA-LP PE=3 SV=1
+sp|Q1HVI8|EBNA5_EBVA8     1.1   3.4e+02     1   0.0     40     61     42     58     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+sp|Q1HVI8|EBNA5_EBVA8     1.1   3.4e+02     2   0.0    106    127    108    124     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+sp|Q1HVI8|EBNA5_EBVA8     1.1   3.4e+02     3   0.0    172    193    174    190     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+sp|Q1HVI8|EBNA5_EBVA8     1.1   3.4e+02     4   0.0    238    259    240    256     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+sp|Q1HVI8|EBNA5_EBVA8     1.1   3.4e+02     5   0.0    304    325    306    322     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+sp|Q1HVI8|EBNA5_EBVA8     1.1   3.4e+02     6   0.0    370    391    372    388     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+sp|Q8AZK7|EBNA5_EBVB9     1.1   3.4e+02     1   0.0     40     61     42     58     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA-LP PE=1 SV=1
+sp|Q8AZK7|EBNA5_EBVB9     1.1   3.4e+02     2   0.0    106    127    108    124     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA-LP PE=1 SV=1
+sp|Q8AZK7|EBNA5_EBVB9     1.1   3.4e+02     3   0.0    172    193    174    190     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA-LP PE=1 SV=1
+sp|Q8AZK7|EBNA5_EBVB9     1.1   3.4e+02     4   0.0    238    259    240    256     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA-LP PE=1 SV=1
+sp|Q8AZK7|EBNA5_EBVB9     1.1   3.4e+02     5   0.0    304    325    306    322     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA-LP PE=1 SV=1
+sp|Q8AZK7|EBNA5_EBVB9     1.1   3.4e+02     6   0.0    370    391    372    388     19     35     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA-LP PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007_rumenHiSeq_NODE_1623240_len_72913_cov_2_122420_HiSeq_22124250_2064872431.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007_rumenHiSeq_NODE_1623240_len_72913_cov_2_122420_HiSeq_22124250_2064872431.txt data/models_hmm/2061766007_rumenHiSeq_NODE_1623240_len_72913_cov_2_122420_HiSeq_22124250_2064872431.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:57 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q77MS0|RIR2_GAHVM    13.9      0.05   2   2.5   0.2    Ribonucleoside-diphosphate reductase small subunit OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=RIR2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q77MS0|RIR2_GAHVM     9.8      0.94     1   0.1     99    137    104    136     41     74     Ribonucleoside-diphosphate reductase small subunit OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=RIR2 PE=3 SV=1
+sp|Q77MS0|RIR2_GAHVM     1.4     4e+02     2   0.0    208    257    214    244      7     38     Ribonucleoside-diphosphate reductase small subunit OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=RIR2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004678956@NC_000852.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004678956@NC_000852.txt data/models_hmm/YP_004678956@NC_000852.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:31 2021
+# [ok]

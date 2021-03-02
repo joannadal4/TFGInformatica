@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q853F7|TSP_BPMBZ    517.3  7.1e-155   2   2.4  11.2    Tail sheath protein OS=Mycobacterium phage Bxz1 OX=205877 GN=124 PE=3 SV=1
+sp|B6V2P4|TSP_BPSP1     91.9   1.9e-26   2   1.9   1.2    Tail sheath protein OS=Bacillus phage SP01 OX=10685 GN=9.1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q853F7|TSP_BPMBZ    510.7  6.9e-153     2   6.8     20    568     29    566    692   1248     Tail sheath protein OS=Mycobacterium phage Bxz1 OX=205877 GN=124 PE=3 SV=1
+sp|B6V2P4|TSP_BPSP1     91.9   1.9e-26     2   1.2    281    560    300    556    972   1243     Tail sheath protein OS=Bacillus phage SP01 OX=10685 GN=9.1 PE=3 SV=1
+sp|Q853F7|TSP_BPMBZ      8.8      0.24     1   0.2      1     29      1     18      1     19     Tail sheath protein OS=Mycobacterium phage Bxz1 OX=205877 GN=124 PE=3 SV=1
+sp|B6V2P4|TSP_BPSP1     -1.2   2.4e+02     1   1.1    150    254    175    235    196    256     Tail sheath protein OS=Bacillus phage SP01 OX=10685 GN=9.1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008061153@NC_021347.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008061153@NC_021347.txt data/models_hmm/YP_008061153@NC_021347.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:20 2021
+# [ok]

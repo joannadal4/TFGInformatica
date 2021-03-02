@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPD5|YL059_MIMIV    15.3     0.017   4   3.4   0.2    Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|Q5UPB6|YL045_MIMIV    14.2     0.039   1   1.6   0.0    Putative ankyrin repeat protein L45 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L45 PE=4 SV=1
+sp|A3EX97|ORF4B_BCHK4    12.9     0.097   1   1.4   0.0    Non-structural protein ORF4b OS=Bat coronavirus HKU4 OX=694007 GN=ORF4b PE=3 SV=1
+sp|P52540|PRIM_HHV6Z     11.9       0.2   3   2.6   1.3    DNA primase OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U43 PE=3 SV=1
+sp|P52467|PRIM_HHV6U     11.7      0.23   2   2.2   1.7    DNA primase OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U43 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPB6|YL045_MIMIV    13.0     0.088     1   0.0    114    214    115    198      2     86     Putative ankyrin repeat protein L45 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L45 PE=4 SV=1
+sp|A3EX97|ORF4B_BCHK4    12.1      0.17     1   0.0    185    232    188    215      4     31     Non-structural protein ORF4b OS=Bat coronavirus HKU4 OX=694007 GN=ORF4b PE=3 SV=1
+sp|P52467|PRIM_HHV6U     10.7      0.45     1   0.3    150    233    161    215     13     67     DNA primase OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U43 PE=3 SV=1
+sp|P52540|PRIM_HHV6Z      9.7      0.95     1   0.2    154    231    164    215     16     67     DNA primase OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U43 PE=3 SV=1
+sp|Q5UPD5|YL059_MIMIV     8.1       3.1     1   0.0     69    141     81    134      8     59     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|Q5UPD5|YL059_MIMIV     2.5   1.7e+02     2   0.0    137    199    143    173     10     40     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|Q5UPD5|YL059_MIMIV    -0.6   1.5e+03     4   0.0    260    300    263    291     10     38     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|P52540|PRIM_HHV6Z     -1.6   3.2e+03     2   0.0    458    505    461    490      4     33     DNA primase OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U43 PE=3 SV=1
+sp|Q5UPD5|YL059_MIMIV    -2.3   5.4e+03     3   0.0    196    230    203    217     10     24     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|P52467|PRIM_HHV6U     -2.8   7.6e+03     2   0.1    762    800    772    792     58     78     DNA primase OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U43 PE=3 SV=1
+sp|P52540|PRIM_HHV6Z     -2.9   8.3e+03     3   0.0    763    800    772    792     58     78     DNA primase OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U43 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000018@SRS022725_LANL_scaffold_22726@SRS022725_LANL_scaffold_22726_gene_56336.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000018@SRS022725_LANL_scaffold_22726@SRS022725_LANL_scaffold_22726_gene_56336.txt data/models_hmm/7000000018@SRS022725_LANL_scaffold_22726@SRS022725_LANL_scaffold_22726_gene_56336.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:40 2021
+# [ok]

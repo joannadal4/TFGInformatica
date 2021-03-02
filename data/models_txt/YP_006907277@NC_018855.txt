@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P32280|Y14B_BPT4     175.9   1.1e-52   1   1.0   0.6    Uncharacterized 10.1 kDa protein in nrdA-td intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y14B PE=4 SV=1
+sp|Q5UQN3|YR433_MIMIV    13.2     0.062   1   1.6   0.6    Uncharacterized protein R433 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R433 PE=4 SV=1
+sp|P08763|T3MO_BPP1       9.0       1.2   5   3.6   4.8    Type III restriction-modification system EcoPI enzyme mod OS=Escherichia phage P1 OX=10678 GN=MOD PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P32280|Y14B_BPT4     175.7   1.2e-52     1   0.6      1     87      1     87      1     87     Uncharacterized 10.1 kDa protein in nrdA-td intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y14B PE=4 SV=1
+sp|Q5UQN3|YR433_MIMIV    12.5       0.1     1   0.2      2     37      5     25     29     49     Uncharacterized protein R433 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R433 PE=4 SV=1
+sp|P08763|T3MO_BPP1       8.5       1.9     5   0.0    506    557    519    549     48     78     Type III restriction-modification system EcoPI enzyme mod OS=Escherichia phage P1 OX=10678 GN=MOD PE=1 SV=1
+sp|P08763|T3MO_BPP1      -0.8   1.4e+03     1   0.0     88    152     92    149     18     76     Type III restriction-modification system EcoPI enzyme mod OS=Escherichia phage P1 OX=10678 GN=MOD PE=1 SV=1
+sp|P08763|T3MO_BPP1      -1.6   2.6e+03     4   0.1    464    504    474    498     57     81     Type III restriction-modification system EcoPI enzyme mod OS=Escherichia phage P1 OX=10678 GN=MOD PE=1 SV=1
+sp|P08763|T3MO_BPP1      -2.4   4.5e+03     3   0.0    342    376    346    370     56     80     Type III restriction-modification system EcoPI enzyme mod OS=Escherichia phage P1 OX=10678 GN=MOD PE=1 SV=1
+sp|P08763|T3MO_BPP1      -2.9   6.8e+03     2   0.0    234    263    242    254     40     52     Type III restriction-modification system EcoPI enzyme mod OS=Escherichia phage P1 OX=10678 GN=MOD PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006907277@NC_018855.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006907277@NC_018855.txt data/models_hmm/YP_006907277@NC_018855.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:27 2021
+# [ok]

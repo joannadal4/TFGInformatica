@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R7G8|Y057_OSHVF    14.0     0.037   2   2.1   0.5    Putative transmembrane protein ORF57 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF57 PE=4 SV=1
+sp|K9N7D2|ORF5_MERS1     8.5       1.8   3   2.4  11.8    Non-structural protein ORF5 OS=Middle East respiratory syndrome-related coronavirus (isolate United Kingdom/H123990006/2012) OX=1263720 GN=ORF5 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R7G8|Y057_OSHVF    14.0     0.037     1   0.5     85    200     90    189     52    144     Putative transmembrane protein ORF57 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF57 PE=4 SV=1
+sp|K9N7D2|ORF5_MERS1    13.6     0.049     1   3.1     22     91     28     84     41     97     Non-structural protein ORF5 OS=Middle East respiratory syndrome-related coronavirus (isolate United Kingdom/H123990006/2012) OX=1263720 GN=ORF5 PE=4 SV=1
+sp|Q6R7G8|Y057_OSHVF     0.1   7.1e+02     2   0.4    201    272    242    261     82    101     Putative transmembrane protein ORF57 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF57 PE=4 SV=1
+sp|K9N7D2|ORF5_MERS1    -0.5   1.1e+03     2   0.4     89    148     96    131     80    115     Non-structural protein ORF5 OS=Middle East respiratory syndrome-related coronavirus (isolate United Kingdom/H123990006/2012) OX=1263720 GN=ORF5 PE=4 SV=1
+sp|K9N7D2|ORF5_MERS1    -1.3   1.9e+03     3   0.0    164    206    168    183     17     32     Non-structural protein ORF5 OS=Middle East respiratory syndrome-related coronavirus (isolate United Kingdom/H123990006/2012) OX=1263720 GN=ORF5 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004251080@NC_015157.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004251080@NC_015157.txt data/models_hmm/YP_004251080@NC_015157.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:09 2021
+# [ok]

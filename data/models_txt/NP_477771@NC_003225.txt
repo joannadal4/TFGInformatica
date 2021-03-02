@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8VAK2|UB403_WSSVS  1139.7         0   1   1.0  27.2    RING finger containing E3 ubiquitin-protein ligase WSV403 OS=White spot syndrome virus (isolate Shrimp/China/Tongan/1996) OX=654913 GN=WSV403 PE=1 SV=2
+sp|Q77J49|UB222_WSSVS   192.3   1.2e-56   1   1.1   3.1    RING finger containing E3 ubiquitin-protein ligase WSV222 OS=White spot syndrome virus (isolate Shrimp/China/Tongan/1996) OX=654913 GN=WSV222 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8VAK2|UB403_WSSVS  1139.6         0     1  27.2      1    641      1    641      1    653     RING finger containing E3 ubiquitin-protein ligase WSV403 OS=White spot syndrome virus (isolate Shrimp/China/Tongan/1996) OX=654913 GN=WSV403 PE=1 SV=2
+sp|Q77J49|UB222_WSSVS   191.8   1.7e-56     1   3.1      4    447     11    394     10    400     RING finger containing E3 ubiquitin-protein ligase WSV222 OS=White spot syndrome virus (isolate Shrimp/China/Tongan/1996) OX=654913 GN=WSV222 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_477771@NC_003225.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_477771@NC_003225.txt data/models_hmm/NP_477771@NC_003225.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:01 2021
+# [ok]

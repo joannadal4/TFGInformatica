@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09261|GK_VZVD       13.3     0.029   1   1.2   0.3    Envelope glycoprotein K OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gK PE=3 SV=1
+sp|Q4JQX0|GK_VZVO       13.3     0.029   1   1.2   0.3    Envelope glycoprotein K OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gK PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09261|GK_VZVD       12.6     0.044     1   0.3    259    334    276    331    193    250     Envelope glycoprotein K OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gK PE=3 SV=1
+sp|Q4JQX0|GK_VZVO       12.6     0.044     1   0.3    259    334    276    331    193    250     Envelope glycoprotein K OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gK PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001041@C687J13239_1000024@C687J13239_100002458.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001041@C687J13239_1000024@C687J13239_100002458.txt data/models_hmm/3300001041@C687J13239_1000024@C687J13239_100002458.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:18 2021
+# [ok]

@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q67593|MP_MISV9     151.4   7.4e-45   1   1.0   0.2    Putative movement protein OS=Miscanthus streak virus (isolate 91) OX=268776 GN=V2 PE=3 SV=1
+sp|P06849|MP_WDVS       26.8   5.1e-06   1   1.1   0.0    Movement protein OS=Wheat dwarf virus (isolate Sweden) OX=268789 GN=V2 PE=3 SV=1
+sp|O39519|MP_BEYDV      25.3   1.5e-05   1   1.1   0.0    Movement protein OS=Bean yellow dwarf virus OX=57119 GN=V2 PE=3 SV=1
+sp|P31619|MP_TYDVA      22.1   0.00014   1   1.1   0.0    Movement protein OS=Tobacco yellow dwarf virus (strain Australia) OX=31599 GN=V2 PE=3 SV=1
+sp|Q9J554|A14_FOWPN      9.1       1.7   2   1.9   5.5    Virion membrane protein A14 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV179 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q67593|MP_MISV9     151.2   8.1e-45     1   0.2      1     84      1     84     10     99     Putative movement protein OS=Miscanthus streak virus (isolate 91) OX=268776 GN=V2 PE=3 SV=1
+sp|P06849|MP_WDVS       26.6   5.9e-06     1   0.0      2     83      6     69      5     65     Movement protein OS=Wheat dwarf virus (isolate Sweden) OX=268789 GN=V2 PE=3 SV=1
+sp|O39519|MP_BEYDV      25.0   1.8e-05     1   0.0     13     90     24     76     13     67     Movement protein OS=Bean yellow dwarf virus OX=57119 GN=V2 PE=3 SV=1
+sp|P31619|MP_TYDVA      21.9   0.00016     1   0.0     18    100     30     93     16     76     Movement protein OS=Tobacco yellow dwarf virus (strain Australia) OX=31599 GN=V2 PE=3 SV=1
+sp|Q9J554|A14_FOWPN     10.4      0.66     2   1.4     24     90     34     81     15     59     Virion membrane protein A14 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV179 PE=3 SV=1
+sp|Q9J554|A14_FOWPN      0.5     8e+02     1   1.4     11     35     15     30     31     46     Virion membrane protein A14 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV179 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_569144@NC_003379.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_569144@NC_003379.txt data/models_hmm/NP_569144@NC_003379.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:05 2021
+# [ok]

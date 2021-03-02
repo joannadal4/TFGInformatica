@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZS7|049L_FRG3G    24.2   1.5e-05   1   1.2   0.0    Putative SAP domain-containing protein 049L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-049L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6GZS7|049L_FRG3G    23.5   2.3e-05     1   0.0     73    177     87    169     16     93     Putative SAP domain-containing protein 049L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-049L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10000210@TBL_comb47_HYPODRAFT_100002104.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000553@TBL_comb47_HYPODRAFT_10000210@TBL_comb47_HYPODRAFT_100002104.txt data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10000210@TBL_comb47_HYPODRAFT_100002104.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:55 2021
+# [ok]

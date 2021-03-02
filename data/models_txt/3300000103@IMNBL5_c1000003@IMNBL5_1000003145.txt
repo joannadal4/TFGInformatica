@@ -1,0 +1,46 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03430|RDRP_I33A0     13.9     0.035   1   1.9   0.0    RNA-directed RNA polymerase catalytic subunit OS=Influenza A virus (strain A/Wilson-Smith/1933 H1N1) OX=381518 GN=PB1 PE=1 SV=1
+sp|Q6DNS6|RDRP_I02A1     13.5     0.048   2   2.4   0.0    RNA-directed RNA polymerase catalytic subunit (Fragment) OS=Influenza A virus (strain A/Guinea fowl/Hong Kong/38/2002 H5N1 genotype X0) OX=284208 GN=PB1 PE=3 SV=1
+sp|Q6DNS3|RDRP_I02A4     13.4     0.052   2   2.4   0.0    RNA-directed RNA polymerase catalytic subunit OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/YU100/2002 H5N1 genotype X3) OX=284214 GN=PB1 PE=3 SV=2
+sp|Q6DNS4|RDRP_I02A3     13.4     0.053   2   2.4   0.0    RNA-directed RNA polymerase catalytic subunit OS=Influenza A virus (strain A/Chicken/Hong Kong/37.4/2002 H5N1 genotype X2) OX=284172 GN=PB1 PE=3 SV=2
+sp|Q6DNS5|RDRP_I02A2     13.4     0.053   2   2.4   0.0    RNA-directed RNA polymerase catalytic subunit OS=Influenza A virus (strain A/Chicken/Hong Kong/31.2/2002 H5N1 genotype X1) OX=284169 GN=PB1 PE=3 SV=2
+sp|P0C9B3|VF706_ASFK5    13.3     0.055   1   1.7   0.1    Putative ATP-dependent RNA helicase Q706L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-134 PE=3 SV=1
+sp|Q0A440|RDRP_I49A1     13.3     0.056   2   2.4   0.0    RNA-directed RNA polymerase catalytic subunit OS=Influenza A virus (strain A/Duck/Germany/1949 H10N7) OX=382838 GN=PB1 PE=3 SV=1
+sp|Q809M5|RDRP_I01A2     12.8     0.079   2   2.2   0.0    RNA-directed RNA polymerase catalytic subunit (Fragment) OS=Influenza A virus (strain A/Chicken/Hong Kong/FY150/2001 H5N1 genotype D) OX=222142 GN=PB1 PE=3 SV=1
+sp|P16504|RDRP_I73A4     12.2      0.12   2   2.2   0.0    RNA-directed RNA polymerase catalytic subunit OS=Influenza A virus (strain A/Equine/London/1416/1973 H7N7) OX=380340 GN=PB1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03430|RDRP_I33A0     12.3      0.11     1   0.0    337    381    346    372     28     54     RNA-directed RNA polymerase catalytic subunit OS=Influenza A virus (strain A/Wilson-Smith/1933 H1N1) OX=381518 GN=PB1 PE=1 SV=1
+sp|P0C9B3|VF706_ASFK5    12.0      0.14     1   0.1    660    698    664    697     30     63     Putative ATP-dependent RNA helicase Q706L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-134 PE=3 SV=1
+sp|Q809M5|RDRP_I01A2     10.4      0.44     2   0.0    333    381    346    372     28     54     RNA-directed RNA polymerase catalytic subunit (Fragment) OS=Influenza A virus (strain A/Chicken/Hong Kong/FY150/2001 H5N1 genotype D) OX=222142 GN=PB1 PE=3 SV=1
+sp|Q6DNS6|RDRP_I02A1      9.8      0.67     2   0.0    328    381    346    372     28     54     RNA-directed RNA polymerase catalytic subunit (Fragment) OS=Influenza A virus (strain A/Guinea fowl/Hong Kong/38/2002 H5N1 genotype X0) OX=284208 GN=PB1 PE=3 SV=1
+sp|Q6DNS3|RDRP_I02A4      9.7      0.72     2   0.0    329    381    346    372     28     54     RNA-directed RNA polymerase catalytic subunit OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/YU100/2002 H5N1 genotype X3) OX=284214 GN=PB1 PE=3 SV=2
+sp|Q6DNS4|RDRP_I02A3      9.7      0.72     2   0.0    329    381    346    372     28     54     RNA-directed RNA polymerase catalytic subunit OS=Influenza A virus (strain A/Chicken/Hong Kong/37.4/2002 H5N1 genotype X2) OX=284172 GN=PB1 PE=3 SV=2
+sp|Q6DNS5|RDRP_I02A2      9.7      0.72     2   0.0    329    381    346    372     28     54     RNA-directed RNA polymerase catalytic subunit OS=Influenza A virus (strain A/Chicken/Hong Kong/31.2/2002 H5N1 genotype X1) OX=284169 GN=PB1 PE=3 SV=2
+sp|Q0A440|RDRP_I49A1      9.6      0.77     2   0.0    337    381    346    372     28     54     RNA-directed RNA polymerase catalytic subunit OS=Influenza A virus (strain A/Duck/Germany/1949 H10N7) OX=382838 GN=PB1 PE=3 SV=1
+sp|P16504|RDRP_I73A4      9.5      0.83     2   0.0    342    381    346    372     28     54     RNA-directed RNA polymerase catalytic subunit OS=Influenza A virus (strain A/Equine/London/1416/1973 H7N7) OX=380340 GN=PB1 PE=3 SV=1
+sp|Q6DNS6|RDRP_I02A1      0.5   5.3e+02     1   0.0    144    176    150    171     10     31     RNA-directed RNA polymerase catalytic subunit (Fragment) OS=Influenza A virus (strain A/Guinea fowl/Hong Kong/38/2002 H5N1 genotype X0) OX=284208 GN=PB1 PE=3 SV=1
+sp|Q0A440|RDRP_I49A1      0.5   5.6e+02     1   0.0    144    176    150    171     10     31     RNA-directed RNA polymerase catalytic subunit OS=Influenza A virus (strain A/Duck/Germany/1949 H10N7) OX=382838 GN=PB1 PE=3 SV=1
+sp|Q6DNS3|RDRP_I02A4      0.5   5.6e+02     1   0.0    144    176    150    171     10     31     RNA-directed RNA polymerase catalytic subunit OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/YU100/2002 H5N1 genotype X3) OX=284214 GN=PB1 PE=3 SV=2
+sp|Q6DNS4|RDRP_I02A3      0.5   5.6e+02     1   0.0    144    176    150    171     10     31     RNA-directed RNA polymerase catalytic subunit OS=Influenza A virus (strain A/Chicken/Hong Kong/37.4/2002 H5N1 genotype X2) OX=284172 GN=PB1 PE=3 SV=2
+sp|Q6DNS5|RDRP_I02A2      0.5   5.6e+02     1   0.0    144    176    150    171     10     31     RNA-directed RNA polymerase catalytic subunit OS=Influenza A virus (strain A/Chicken/Hong Kong/31.2/2002 H5N1 genotype X1) OX=284169 GN=PB1 PE=3 SV=2
+sp|P16504|RDRP_I73A4     -1.1   1.7e+03     1   0.0    145    175    150    171     10     31     RNA-directed RNA polymerase catalytic subunit OS=Influenza A virus (strain A/Equine/London/1416/1973 H7N7) OX=380340 GN=PB1 PE=3 SV=1
+sp|Q809M5|RDRP_I01A2     -1.4   2.2e+03     1   0.0    146    188    153    178     13     37     RNA-directed RNA polymerase catalytic subunit (Fragment) OS=Influenza A virus (strain A/Chicken/Hong Kong/FY150/2001 H5N1 genotype D) OX=222142 GN=PB1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000103@IMNBL5_c1000003@IMNBL5_1000003145.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000103@IMNBL5_c1000003@IMNBL5_1000003145.txt data/models_hmm/3300000103@IMNBL5_c1000003@IMNBL5_1000003145.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:30 2021
+# [ok]

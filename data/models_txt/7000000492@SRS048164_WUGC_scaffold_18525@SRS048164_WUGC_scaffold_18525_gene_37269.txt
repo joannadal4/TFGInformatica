@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13333|TUBE_BPT4     27.0     3e-06   1   1.1   0.0    Tail tube protein gp19 OS=Enterobacteria phage T4 OX=10665 GN=19 PE=1 SV=1
+sp|Q38435|TUBE_BPT6     26.3   5.2e-06   1   1.1   0.0    Tail tube protein gp19 OS=Enterobacteria phage T6 OX=10666 GN=19 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13333|TUBE_BPT4     26.7   3.8e-06     1   0.0     17    160     34    155     27    147     Tail tube protein gp19 OS=Enterobacteria phage T4 OX=10665 GN=19 PE=1 SV=1
+sp|Q38435|TUBE_BPT6     26.0   6.5e-06     1   0.0     17    160     34    155     27    147     Tail tube protein gp19 OS=Enterobacteria phage T6 OX=10666 GN=19 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000492@SRS048164_WUGC_scaffold_18525@SRS048164_WUGC_scaffold_18525_gene_37269.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000492@SRS048164_WUGC_scaffold_18525@SRS048164_WUGC_scaffold_18525_gene_37269.txt data/models_hmm/7000000492@SRS048164_WUGC_scaffold_18525@SRS048164_WUGC_scaffold_18525_gene_37269.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:40 2021
+# [ok]

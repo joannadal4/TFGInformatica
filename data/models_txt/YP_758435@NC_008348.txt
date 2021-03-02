@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36868|YPE4_NPVLD    18.8    0.0015   1   1.2   0.0    Uncharacterized 9.7 kDa protein in PE 3'region OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=2
+sp|P41420|Y005_NPVAC    15.9     0.011   1   1.2   0.0    Uncharacterized 12.4 kDa protein in CTL-LEF2 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36868|YPE4_NPVLD    18.8    0.0015     1   0.0      3     79     20     49     30     60     Uncharacterized 9.7 kDa protein in PE 3'region OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=2
+sp|P41420|Y005_NPVAC    15.8     0.013     1   0.0      2     96     19     55     23     61     Uncharacterized 12.4 kDa protein in CTL-LEF2 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_758435@NC_008348.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_758435@NC_008348.txt data/models_hmm/YP_758435@NC_008348.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:48 2021
+# [ok]

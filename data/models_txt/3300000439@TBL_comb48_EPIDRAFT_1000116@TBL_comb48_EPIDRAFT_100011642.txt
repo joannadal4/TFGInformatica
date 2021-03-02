@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A4ZU97|Y091B_ABVP     15.7    0.0095   1   1.4   0.1    Uncharacterized protein ORF91b OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF91b PE=4 SV=1
+sp|P15133|E3RDA_ADE02     7.5       3.4   2   1.7   9.5    Pre-early 3 receptor internalization and degradation alpha protein OS=Human adenovirus C serotype 2 OX=10515 PE=1 SV=1
+sp|O55654|E310_ADE06      7.4       3.8   2   1.7   9.7    Early E3B 10.4 kDa protein OS=Human adenovirus C serotype 6 OX=10534 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A4ZU97|Y091B_ABVP     14.7     0.019     1   0.1     41     87     42     84      3     44     Uncharacterized protein ORF91b OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF91b PE=4 SV=1
+sp|O55654|E310_ADE06     10.2       0.5     2   5.2     22     68     26     60     34     72     Early E3B 10.4 kDa protein OS=Human adenovirus C serotype 6 OX=10534 PE=3 SV=1
+sp|P15133|E3RDA_ADE02    10.0      0.57     2   5.4     23     70     26     60     34     72     Pre-early 3 receptor internalization and degradation alpha protein OS=Human adenovirus C serotype 2 OX=10515 PE=1 SV=1
+sp|O55654|E310_ADE06     -0.9   1.5e+03     1   0.2      1     29      2     11     52     61     Early E3B 10.4 kDa protein OS=Human adenovirus C serotype 6 OX=10534 PE=3 SV=1
+sp|P15133|E3RDA_ADE02    -1.1   1.6e+03     1   0.1      1     25      2     11     52     61     Pre-early 3 receptor internalization and degradation alpha protein OS=Human adenovirus C serotype 2 OX=10515 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000116@TBL_comb48_EPIDRAFT_100011642.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000116@TBL_comb48_EPIDRAFT_100011642.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000116@TBL_comb48_EPIDRAFT_100011642.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:45 2021
+# [ok]

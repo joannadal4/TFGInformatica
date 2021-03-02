@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O10303|Y043_NPVOP    98.9   1.3e-28   1   1.0   0.4    Uncharacterized 7.1 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF48 PE=4 SV=1
+sp|P41448|AC43_NPVAC    98.4   1.9e-28   1   1.1   0.4    Protein AC43 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|Q8BDD8|VE7_BPV3      11.4      0.28   2   2.3   1.9    Protein E7 OS=Bovine papillomavirus type 3 OX=10561 GN=E7 PE=3 SV=1
+sp|P08350|VE7_BPV4       8.7       1.9   1   2.2   5.1    Protein E7 OS=Bovine papillomavirus type 4 OX=10562 GN=E7 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O10303|Y043_NPVOP    98.8   1.4e-28     1   0.4      1     63      1     61      1     59     Uncharacterized 7.1 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF48 PE=4 SV=1
+sp|P41448|AC43_NPVAC    98.2   2.2e-28     1   0.4      1     66      1     58      1     56     Protein AC43 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|Q8BDD8|VE7_BPV3       7.8       3.6     2   0.1     67     97     78     96     43     61     Protein E7 OS=Bovine papillomavirus type 3 OX=10561 GN=E7 PE=3 SV=1
+sp|P08350|VE7_BPV4       4.5        38     1   5.1     42     97     45     95      6     60     Protein E7 OS=Bovine papillomavirus type 4 OX=10562 GN=E7 PE=3 SV=2
+sp|Q8BDD8|VE7_BPV3       3.0   1.2e+02     1   0.1     40     56     45     52      6     13     Protein E7 OS=Bovine papillomavirus type 3 OX=10561 GN=E7 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_529794@NC_007921.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_529794@NC_007921.txt data/models_hmm/YP_529794@NC_007921.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:38 2021
+# [ok]

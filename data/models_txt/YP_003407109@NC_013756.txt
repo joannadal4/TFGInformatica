@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8JN70|NP_ADES1      10.4      0.65   1   1.2   5.3    Pre-histone-like nucleoprotein OS=Snake adenovirus serotype 1 OX=189830 GN=L2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8JN70|NP_ADES1      10.0      0.88     1   5.3     45    114     60    111     26     75     Pre-histone-like nucleoprotein OS=Snake adenovirus serotype 1 OX=189830 GN=L2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003407109@NC_013756.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003407109@NC_013756.txt data/models_hmm/YP_003407109@NC_013756.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:34 2021
+# [ok]

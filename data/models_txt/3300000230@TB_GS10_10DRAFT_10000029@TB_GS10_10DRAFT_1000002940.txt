@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39505|Y13L_BPT4     16.8    0.0047   2   1.8   0.9    Uncharacterized 9.4 kDa protein in nrdB-nrdA intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y13L PE=4 SV=1
+sp|P36693|TERL_BPP21    14.8     0.019   1   1.8   0.2    Terminase, large subunit OS=Enterobacteria phage P21 OX=10711 GN=2 PE=3 SV=2
+sp|Q25BJ4|Y001_HIS1I    13.0     0.071   1   1.3   1.2    Uncharacterized protein ORF1 OS=His1 virus (isolate Australia/Victoria) OX=654912 GN=ORF1 PE=4 SV=1
+sp|Q3V4U8|Y383A_ATV      7.8       2.8   2   2.7   7.9    Putative transposase ORF383a OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39505|Y13L_BPT4     16.8    0.0047     1   0.9     27     67     34     66     21     59     Uncharacterized 9.4 kDa protein in nrdB-nrdA intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y13L PE=4 SV=1
+sp|P36693|TERL_BPP21    13.3     0.057     1   0.2    209    250    214    245     24     55     Terminase, large subunit OS=Enterobacteria phage P21 OX=10711 GN=2 PE=3 SV=2
+sp|Q25BJ4|Y001_HIS1I    12.4       0.1     1   1.2      1     43      2     41     23     58     Uncharacterized protein ORF1 OS=His1 virus (isolate Australia/Victoria) OX=654912 GN=ORF1 PE=4 SV=1
+sp|Q3V4U8|Y383A_ATV      7.2       4.6     2   2.2    336    355    339    350     44     55     Putative transposase ORF383a OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+sp|Q3V4U8|Y383A_ATV      3.4        71     1   0.3    315    338    326    335     48     57     Putative transposase ORF383a OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+sp|P39505|Y13L_BPT4     -3.7   1.2e+04     2   0.1     72     80     73     78     23     28     Uncharacterized 9.4 kDa protein in nrdB-nrdA intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y13L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000230@TB_GS10_10DRAFT_10000029@TB_GS10_10DRAFT_1000002940.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000230@TB_GS10_10DRAFT_10000029@TB_GS10_10DRAFT_1000002940.txt data/models_hmm/3300000230@TB_GS10_10DRAFT_10000029@TB_GS10_10DRAFT_1000002940.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:11 2021
+# [ok]

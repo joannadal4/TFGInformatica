@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CK36|REN_BGYMJ     14.3     0.037   2   1.6   0.1    Replication enhancer protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico-Japan) OX=222449 GN=AC3 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CK36|REN_BGYMJ     13.3     0.078     1   0.0      7     77     28     66     28     66     Replication enhancer protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico-Japan) OX=222449 GN=AC3 PE=3 SV=1
+sp|P0CK36|REN_BGYMJ     -2.2   5.1e+03     2   0.0     88    123     95    111     62     78     Replication enhancer protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico-Japan) OX=222449 GN=AC3 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001242@C687J13896_1000039@C687J13896_1000039191.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001242@C687J13896_1000039@C687J13896_1000039191.txt data/models_hmm/3300001242@C687J13896_1000039@C687J13896_1000039191.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:36 2021
+# [ok]

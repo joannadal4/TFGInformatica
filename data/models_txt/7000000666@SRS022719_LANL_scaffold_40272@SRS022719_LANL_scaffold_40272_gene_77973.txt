@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P24728|VPHE_NPVAC    16.3    0.0051   2   2.2   1.2    Polyhedral envelope-associated phosphoprotein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=pp34 PE=1 SV=1
+sp|Q84688|VSR_PCV87     13.6     0.035   1   1.2   0.0    Suppressor of RNA silencing OS=Peanut clump virus (isolate 87/TGTA2) OX=652837 GN=ORF2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q84688|VSR_PCV87     13.3     0.043     1   0.0     25    101     38     90    114    164     Suppressor of RNA silencing OS=Peanut clump virus (isolate 87/TGTA2) OX=652837 GN=ORF2 PE=3 SV=1
+sp|P24728|VPHE_NPVAC    11.1       0.2     2   0.2    132    248    139    229     29    121     Polyhedral envelope-associated phosphoprotein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=pp34 PE=1 SV=1
+sp|P24728|VPHE_NPVAC     4.1        30     1   0.0      4     48     10     32     72     96     Polyhedral envelope-associated phosphoprotein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=pp34 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000666@SRS022719_LANL_scaffold_40272@SRS022719_LANL_scaffold_40272_gene_77973.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000666@SRS022719_LANL_scaffold_40272@SRS022719_LANL_scaffold_40272_gene_77973.txt data/models_hmm/7000000666@SRS022719_LANL_scaffold_40272@SRS022719_LANL_scaffold_40272_gene_77973.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:53 2021
+# [ok]

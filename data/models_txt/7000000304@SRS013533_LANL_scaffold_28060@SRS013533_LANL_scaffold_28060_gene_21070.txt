@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04591|GAG_HV1H2     12.8     0.049   1   1.3   0.0    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=gag PE=1 SV=3
+sp|P03347|GAG_HV1B1     12.6     0.058   1   1.4   0.0    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=gag PE=1 SV=3
+sp|P04593|GAG_HV1B5     12.5     0.064   1   1.3   0.0    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH5) OX=11682 GN=gag PE=3 SV=3
+sp|P03348|GAG_HV1BR     12.4     0.067   1   1.3   0.0    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRU/LAI) OX=11686 GN=gag PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04591|GAG_HV1H2     12.0      0.09     1   0.0     30    223     44    209     48    213     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=gag PE=1 SV=3
+sp|P03347|GAG_HV1B1     11.6      0.11     1   0.0     30    223     44    209     48    213     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=gag PE=1 SV=3
+sp|P03348|GAG_HV1BR     11.6      0.11     1   0.0     30    223     44    209     48    213     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRU/LAI) OX=11686 GN=gag PE=1 SV=3
+sp|P04593|GAG_HV1B5     11.6      0.11     1   0.0     30    223     44    209     48    213     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH5) OX=11682 GN=gag PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000304@SRS013533_LANL_scaffold_28060@SRS013533_LANL_scaffold_28060_gene_21070.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000304@SRS013533_LANL_scaffold_28060@SRS013533_LANL_scaffold_28060_gene_21070.txt data/models_hmm/7000000304@SRS013533_LANL_scaffold_28060@SRS013533_LANL_scaffold_28060_gene_21070.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:07 2021
+# [ok]

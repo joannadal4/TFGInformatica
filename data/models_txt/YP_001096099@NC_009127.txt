@@ -1,0 +1,45 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03224|BDLF3_EBVB9    15.0    0.0056   1   1.1  53.2    Glycoprotein BDLF3 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BDLF3 PE=1 SV=1
+sp|Q66676|VGE9_EHV2      13.8     0.013   1   1.2  52.4    Uncharacterized gene E9 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=E9 PE=3 SV=1
+sp|F5HHQ0|GN_HCMVM       12.1     0.042   1   1.2  14.8    Envelope glycoprotein N OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gN PE=3 SV=1
+sp|P16795|GN_HCMVA       11.2      0.08   1   1.2  19.8    Envelope glycoprotein N OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gN PE=1 SV=1
+sp|P06487|GI_HHV11        8.8      0.41   1   1.2   4.3    Envelope glycoprotein I OS=Human herpesvirus 1 (strain 17) OX=10299 GN=gI PE=1 SV=1
+sp|Q5UP72|YR604_MIMIV     6.6         2   1   1.1  12.6    Uncharacterized protein R604 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R604 PE=4 SV=1
+sp|P25482|VE2_HPV2A       6.4       2.3   1   1.1   5.6    Regulatory protein E2 OS=Human papillomavirus type 2a OX=10584 GN=E2 PE=3 SV=1
+sp|P16742|UL124_HCMVA     6.1       2.8   1   1.0  16.1    Uncharacterized protein UL124 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL124 PE=3 SV=1
+sp|P16721|UL11P_HCMVA     5.8       3.5   1   1.1  26.4    Protein UL11 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL11 PE=2 SV=1
+sp|P16739|UL119_HCMVA     5.3       4.7   1   1.1  19.4    Viral Fc-gamma receptor-like protein UL119 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL119/UL118 PE=2 SV=2
+sp|F5HHS3|UL124_HCMVM     5.0       5.8   1   1.0  15.2    Uncharacterized protein UL124 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL124 PE=3 SV=1
+sp|Q6SWB9|UL11P_HCMVM     4.6       7.9   1   1.2  21.8    Protein UL11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL11 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03224|BDLF3_EBVB9    14.7     0.007     1  53.2      3    220     21    199    115    292     Glycoprotein BDLF3 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BDLF3 PE=1 SV=1
+sp|Q66676|VGE9_EHV2      13.4     0.017     1  52.4     14    172     20    133    142    249     Uncharacterized gene E9 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=E9 PE=3 SV=1
+sp|F5HHQ0|GN_HCMVM       12.0     0.046     1  14.8      5    112     20     67    179    250     Envelope glycoprotein N OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gN PE=3 SV=1
+sp|P16795|GN_HCMVA       11.0     0.091     1  19.8      5    113     15     81     76    145     Envelope glycoprotein N OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gN PE=1 SV=1
+sp|P06487|GI_HHV11        8.6      0.49     1   4.3    168    383    207    302    214    307     Envelope glycoprotein I OS=Human herpesvirus 1 (strain 17) OX=10299 GN=gI PE=1 SV=1
+sp|Q5UP72|YR604_MIMIV     6.1       2.8     1  12.6    140    251    145    232    130    216     Uncharacterized protein R604 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R604 PE=4 SV=1
+sp|P16742|UL124_HCMVA     5.9       3.1     1  16.1      1    118      4    102     20    126     Uncharacterized protein UL124 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL124 PE=3 SV=1
+sp|P25482|VE2_HPV2A       5.9       3.2     1   5.6    173    306    197    283    134    219     Regulatory protein E2 OS=Human papillomavirus type 2a OX=10584 GN=E2 PE=3 SV=1
+sp|P16721|UL11P_HCMVA     5.3       4.7     1  26.4    129    257    144    234    189    281     Protein UL11 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL11 PE=2 SV=1
+sp|P16739|UL119_HCMVA     4.9       6.4     1  19.4      9    124     23     98     89    160     Viral Fc-gamma receptor-like protein UL119 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL119/UL118 PE=2 SV=2
+sp|F5HHS3|UL124_HCMVM     4.8       6.9     1  15.2      2    110     15     86     31    112     Uncharacterized protein UL124 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL124 PE=3 SV=1
+sp|Q6SWB9|UL11P_HCMVM     4.4         9     1  21.8     71    249    100    195    174    263     Protein UL11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL11 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001096099@NC_009127.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001096099@NC_009127.txt data/models_hmm/YP_001096099@NC_009127.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:00 2021
+# [ok]

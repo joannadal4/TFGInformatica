@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q38441|YOR5_BPSPP    10.9     0.077   1   1.0   0.0    Uncharacterized 10.3 kDa protein in GP2-GP6 intergenic region OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38441|YOR5_BPSPP    10.8     0.085     1   0.0      4     69      9     58    284    332     Uncharacterized 10.3 kDa protein in GP2-GP6 intergenic region OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000466@SRS063603_LANL_scaffold_97309@SRS063603_LANL_scaffold_97309_gene_121538.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000466@SRS063603_LANL_scaffold_97309@SRS063603_LANL_scaffold_97309_gene_121538.txt data/models_hmm/7000000466@SRS063603_LANL_scaffold_97309@SRS063603_LANL_scaffold_97309_gene_121538.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:31 2021
+# [ok]

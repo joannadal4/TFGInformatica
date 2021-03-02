@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C9Y3|P12_ASFP4     14.6     0.026   1   1.1   0.1    Virus attachment protein p12 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-110 PE=3 SV=1
+sp|P0C9Y4|P12_ASFWA     14.6     0.026   1   1.1   0.1    Virus attachment protein p12 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-108 PE=3 SV=1
+sp|P32510|P12_ASFB7     14.6     0.026   1   1.1   0.1    Virus attachment protein p12 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-98 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C9Y3|P12_ASFP4     14.6     0.026     1   0.1      4     61     18     59     13     52     Virus attachment protein p12 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-110 PE=3 SV=1
+sp|P0C9Y4|P12_ASFWA     14.6     0.026     1   0.1      4     61     18     59     13     52     Virus attachment protein p12 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-108 PE=3 SV=1
+sp|P32510|P12_ASFB7     14.6     0.026     1   0.1      4     61     18     59     13     52     Virus attachment protein p12 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-98 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000191@C3074945@C3074945_gene_275118.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000191@C3074945@C3074945_gene_275118.txt data/models_hmm/7000000191@C3074945@C3074945_gene_275118.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:10 2021
+# [ok]

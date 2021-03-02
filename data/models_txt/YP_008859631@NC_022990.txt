@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|B4YNE2|V2_SPTNK     231.2   1.5e-69   1   1.0   5.9    Uncharacterized protein V2 OS=Sputnik virophage OX=543939 GN=ORF2 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|B4YNE2|V2_SPTNK     231.0   1.6e-69     1   5.9      1    114      1    114      1    114     Uncharacterized protein V2 OS=Sputnik virophage OX=543939 GN=ORF2 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008859631@NC_022990.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008859631@NC_022990.txt data/models_hmm/YP_008859631@NC_022990.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:43 2021
+# [ok]

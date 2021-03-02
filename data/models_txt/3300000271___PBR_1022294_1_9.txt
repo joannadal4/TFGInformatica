@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5I153|YD2_MDBVW     17.0    0.0041   2   1.8   0.3    Uncharacterized protein D2 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=D2 PE=4 SV=1
+sp|Q2Y0E3|VP8_APRVF     12.8     0.083   2   1.7   0.5    Uncharacterized protein VP8 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S8 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5I153|YD2_MDBVW     14.7     0.021     1   0.6      2     82      5     63     47    104     Uncharacterized protein D2 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=D2 PE=4 SV=1
+sp|Q2Y0E3|VP8_APRVF     11.0      0.29     1   0.6      3    100     15     90     59    132     Uncharacterized protein VP8 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S8 PE=4 SV=1
+sp|Q5I153|YD2_MDBVW      3.1        74     2   0.0     54    105     57     92     68    103     Uncharacterized protein D2 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=D2 PE=4 SV=1
+sp|Q2Y0E3|VP8_APRVF     -1.9   2.5e+03     2   0.0    257    287    262    282    144    164     Uncharacterized protein VP8 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S8 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000271___PBR_1022294_1_9.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000271___PBR_1022294_1_9.txt data/models_hmm/3300000271___PBR_1022294_1_9.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:22 2021
+# [ok]

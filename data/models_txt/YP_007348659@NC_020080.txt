@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05265|VG55_BPML5    12.8     0.094   2   2.0   0.0    Gene 55 protein OS=Mycobacterium phage L5 OX=31757 GN=55 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05265|VG55_BPML5     9.9      0.75     1   0.0     25     67     32     60     64     92     Gene 55 protein OS=Mycobacterium phage L5 OX=31757 GN=55 PE=4 SV=1
+sp|Q05265|VG55_BPML5     0.4   7.2e+02     2   0.0     98    131    103    126     39     62     Gene 55 protein OS=Mycobacterium phage L5 OX=31757 GN=55 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007348659@NC_020080.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007348659@NC_020080.txt data/models_hmm/YP_007348659@NC_020080.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:40 2021
+# [ok]

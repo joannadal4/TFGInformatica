@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPA2|YL023_MIMIV    12.5      0.12   3   2.8   0.1    Putative ankyrin repeat protein L23 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L23 PE=4 SV=1
+sp|P06812|TERM_BPNF      10.4      0.56   3   2.9   2.3    DNA terminal protein OS=Bacillus phage Nf OX=10753 GN=3 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPA2|YL023_MIMIV     7.7       3.9     3   0.0    176    236    188    232     35     78     Putative ankyrin repeat protein L23 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L23 PE=4 SV=1
+sp|P06812|TERM_BPNF       4.6        37     1   0.4      1     41      1     27     41     71     DNA terminal protein OS=Bacillus phage Nf OX=10753 GN=3 PE=3 SV=1
+sp|P06812|TERM_BPNF       4.2        48     3   0.0    137    201    149    191     29     74     DNA terminal protein OS=Bacillus phage Nf OX=10753 GN=3 PE=3 SV=1
+sp|Q5UPA2|YL023_MIMIV     0.5   6.7e+02     2   0.0    129    176    143    164     50     70     Putative ankyrin repeat protein L23 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L23 PE=4 SV=1
+sp|Q5UPA2|YL023_MIMIV    -0.7   1.6e+03     1   0.0     93    146    111    129     48     66     Putative ankyrin repeat protein L23 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L23 PE=4 SV=1
+sp|P06812|TERM_BPNF      -1.3   2.6e+03     2   0.0     45     86     50     75     44     67     DNA terminal protein OS=Bacillus phage Nf OX=10753 GN=3 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008050942@NC_021299.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008050942@NC_021299.txt data/models_hmm/YP_008050942@NC_021299.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:07 2021
+# [ok]

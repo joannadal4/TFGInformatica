@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q65475|VPA1_BEFVB    16.1    0.0058   1   1.2   0.6    Protein alpha-1 OS=Bovine ephemeral fever virus (strain BB7721) OX=928297 GN=alpha PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q65475|VPA1_BEFVB    16.0    0.0062     1   0.6      7     88     58     87    180    211     Protein alpha-1 OS=Bovine ephemeral fever virus (strain BB7721) OX=928297 GN=alpha PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000687@SRS053854_LANL_scaffold_26921@SRS053854_LANL_scaffold_26921_gene_35679.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000687@SRS053854_LANL_scaffold_26921@SRS053854_LANL_scaffold_26921_gene_35679.txt data/models_hmm/7000000687@SRS053854_LANL_scaffold_26921@SRS053854_LANL_scaffold_26921_gene_35679.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:58 2021
+# [ok]

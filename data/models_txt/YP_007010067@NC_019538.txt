@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13201|GB_HCMVT      16.6    0.0069   1   1.7   0.0    Envelope glycoprotein B OS=Human cytomegalovirus (strain Towne) OX=10363 GN=gB PE=1 SV=1
+sp|F5HB53|GB_HCMVM      16.6    0.0069   1   1.7   0.0    Envelope glycoprotein B OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gB PE=3 SV=1
+sp|P06473|GB_HCMVA      16.5    0.0074   1   1.7   0.0    Envelope glycoprotein B OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gB PE=1 SV=1
+sp|P89053|GB_RHCM6      15.3     0.018   2   2.0   0.1    Envelope glycoprotein B OS=Rhesus cytomegalovirus (strain 68-1) OX=103930 GN=gB PE=3 SV=1
+sp|Q5I153|YD2_MDBVW     14.7     0.028   1   1.2   0.3    Uncharacterized protein D2 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=D2 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HB53|GB_HCMVM      15.2      0.02     1   0.0    446    520    468    511     31     73     Envelope glycoprotein B OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gB PE=3 SV=1
+sp|P13201|GB_HCMVT      15.2      0.02     1   0.0    446    520    468    511     31     73     Envelope glycoprotein B OS=Human cytomegalovirus (strain Towne) OX=10363 GN=gB PE=1 SV=1
+sp|P06473|GB_HCMVA      15.0     0.022     1   0.0    448    519    468    510     32     73     Envelope glycoprotein B OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gB PE=1 SV=1
+sp|Q5I153|YD2_MDBVW     14.2      0.04     1   0.3      4     79     16     75     19     81     Uncharacterized protein D2 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=D2 PE=4 SV=1
+sp|P89053|GB_RHCM6      13.5     0.066     2   0.1    415    488    433    478     22     67     Envelope glycoprotein B OS=Rhesus cytomegalovirus (strain 68-1) OX=103930 GN=gB PE=3 SV=1
+sp|P89053|GB_RHCM6      -3.3   1.1e+04     1   0.0    137    188    161    184     57     80     Envelope glycoprotein B OS=Rhesus cytomegalovirus (strain 68-1) OX=103930 GN=gB PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007010067@NC_019538.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007010067@NC_019538.txt data/models_hmm/YP_007010067@NC_019538.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:23 2021
+# [ok]

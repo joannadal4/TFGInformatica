@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21004|B8_VACCC      15.8     0.012   1   1.5   0.0    Soluble interferon gamma receptor B8 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B8R PE=3 SV=1
+sp|P24770|B8_VACCW      13.7     0.056   1   1.5   0.0    Soluble interferon gamma receptor B8 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR190 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21004|B8_VACCC      14.8     0.025     1   0.0    179    250    192    227     16     51     Soluble interferon gamma receptor B8 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B8R PE=3 SV=1
+sp|P24770|B8_VACCW      12.7      0.11     1   0.0    177    250    192    227     16     51     Soluble interferon gamma receptor B8 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR190 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000736@SRS014235_WUGC_scaffold_4601@SRS014235_WUGC_scaffold_4601_gene_4006.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000736@SRS014235_WUGC_scaffold_4601@SRS014235_WUGC_scaffold_4601_gene_4006.txt data/models_hmm/7000000736@SRS014235_WUGC_scaffold_4601@SRS014235_WUGC_scaffold_4601_gene_4006.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:14 2021
+# [ok]

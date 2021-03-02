@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6KGH8|TMP_BPFO1     69.8   1.6e-19   2   2.2  12.3    Probable tape measure protein OS=Salmonella phage Felix O1 (isolate Felix O1-VT1) OX=1283336 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6KGH8|TMP_BPFO1     69.8   1.6e-19     2  12.3    201    504    215    492    173    457     Probable tape measure protein OS=Salmonella phage Felix O1 (isolate Felix O1-VT1) OX=1283336 PE=3 SV=1
+sp|Q6KGH8|TMP_BPFO1     -1.8   7.4e+02     1   0.9     14    121     51     94     89    132     Probable tape measure protein OS=Salmonella phage Felix O1 (isolate Felix O1-VT1) OX=1283336 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGG57825@HQ316579.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGG57825@HQ316579.txt data/models_hmm/AGG57825@HQ316579.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:34 2021
+# [ok]

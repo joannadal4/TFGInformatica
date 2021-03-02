@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q7TD11|Y2_CYLCV      13.9     0.046   1   2.4   4.9    Uncharacterized protein 2 OS=Cestrum yellow leaf curling virus OX=175814 GN=ORF II PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q7TD11|Y2_CYLCV       8.1       2.9     1   4.9    119    196    120    164      3     50     Uncharacterized protein 2 OS=Cestrum yellow leaf curling virus OX=175814 GN=ORF II PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000112@SRS011302_Baylor_scaffold_6243@SRS011302_Baylor_scaffold_6243_gene_11284.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000112@SRS011302_Baylor_scaffold_6243@SRS011302_Baylor_scaffold_6243_gene_11284.txt data/models_hmm/7000000112@SRS011302_Baylor_scaffold_6243@SRS011302_Baylor_scaffold_6243_gene_11284.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:31 2021
+# [ok]

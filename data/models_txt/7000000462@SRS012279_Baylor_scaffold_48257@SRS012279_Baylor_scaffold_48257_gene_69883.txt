@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q008X5|R1A_WBV24     13.1     0.069   1   1.8   0.0    Replicase polyprotein 1a OS=White bream virus (isolate Blicca bjoerkna L./Germany/DF24/00) OX=766180 GN=1a PE=1 SV=1
+sp|Q008X6|R1AB_WBV24    12.5       0.1   1   1.8   0.0    Replicase polyprotein 1ab OS=White bream virus (isolate Blicca bjoerkna L./Germany/DF24/00) OX=766180 GN=rep PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q008X5|R1A_WBV24     11.5      0.21     1   0.0   1530   1625   1536   1617     17     97     Replicase polyprotein 1a OS=White bream virus (isolate Blicca bjoerkna L./Germany/DF24/00) OX=766180 GN=1a PE=1 SV=1
+sp|Q008X6|R1AB_WBV24    10.9      0.32     1   0.0   1530   1625   1536   1617     17     97     Replicase polyprotein 1ab OS=White bream virus (isolate Blicca bjoerkna L./Germany/DF24/00) OX=766180 GN=rep PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000462@SRS012279_Baylor_scaffold_48257@SRS012279_Baylor_scaffold_48257_gene_69883.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000462@SRS012279_Baylor_scaffold_48257@SRS012279_Baylor_scaffold_48257_gene_69883.txt data/models_hmm/7000000462@SRS012279_Baylor_scaffold_48257@SRS012279_Baylor_scaffold_48257_gene_69883.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:30 2021
+# [ok]

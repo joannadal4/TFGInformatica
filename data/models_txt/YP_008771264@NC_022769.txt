@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|B2ZDY2|L_WWAVU       14.6     0.026   2   2.8   0.7    RNA-directed RNA polymerase L OS=Whitewater Arroyo mammarenavirus (isolate Rat/United States/AV 9310135/1995) OX=46919 GN=L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|B2ZDY2|L_WWAVU       11.4      0.27     1   0.1    616    705    649    698     18     66     RNA-directed RNA polymerase L OS=Whitewater Arroyo mammarenavirus (isolate Rat/United States/AV 9310135/1995) OX=46919 GN=L PE=3 SV=1
+sp|B2ZDY2|L_WWAVU       -0.6   1.5e+03     2   0.0   2030   2069   2040   2068     14     42     RNA-directed RNA polymerase L OS=Whitewater Arroyo mammarenavirus (isolate Rat/United States/AV 9310135/1995) OX=46919 GN=L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008771264@NC_022769.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008771264@NC_022769.txt data/models_hmm/YP_008771264@NC_022769.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:30 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P26746|EXLYS_BPP22    22.3   7.7e-05   2   2.1   0.1    Peptidoglycan hydrolase gp4 OS=Salmonella phage P22 OX=10754 GN=4 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P26746|EXLYS_BPP22    10.7      0.27     1   0.0      2     61      4     49      3     46     Peptidoglycan hydrolase gp4 OS=Salmonella phage P22 OX=10754 GN=4 PE=1 SV=1
+sp|P26746|EXLYS_BPP22     9.7      0.55     2   0.0     80    130     82    119    178    215     Peptidoglycan hydrolase gp4 OS=Salmonella phage P22 OX=10754 GN=4 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000091@WSSedL1C_c10000051@WSSedL1C_1000005148.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000091@WSSedL1C_c10000051@WSSedL1C_1000005148.txt data/models_hmm/3300000091@WSSedL1C_c10000051@WSSedL1C_1000005148.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:21 2021
+# [ok]

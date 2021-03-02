@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9XJQ3|NINF_BPP21    14.5     0.028   1   1.1   0.2    Protein ninF OS=Enterobacteria phage P21 OX=10711 GN=ninF PE=3 SV=1
+sp|O48425|NINF_BPH19    14.4      0.03   1   1.1   0.2    Protein ninF OS=Enterobacteria phage H19B OX=69932 GN=ninF PE=3 SV=1
+sp|Q76QZ9|A37_VAR67     13.7     0.049   1   1.1   0.1    Protein A37 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A40R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9XJQ3|NINF_BPP21    14.3     0.032     1   0.2     12     49     13     39      2     28     Protein ninF OS=Enterobacteria phage P21 OX=10711 GN=ninF PE=3 SV=1
+sp|O48425|NINF_BPH19    14.2     0.034     1   0.2     14     52     15     41      2     28     Protein ninF OS=Enterobacteria phage H19B OX=69932 GN=ninF PE=3 SV=1
+sp|Q76QZ9|A37_VAR67     13.5     0.058     1   0.1      5     67      9     65     16     69     Protein A37 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A40R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000144@SRS045715_LANL_scaffold_18620@SRS045715_LANL_scaffold_18620_gene_24395.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000144@SRS045715_LANL_scaffold_18620@SRS045715_LANL_scaffold_18620_gene_24395.txt data/models_hmm/7000000144@SRS045715_LANL_scaffold_18620@SRS045715_LANL_scaffold_18620_gene_24395.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:50 2021
+# [ok]

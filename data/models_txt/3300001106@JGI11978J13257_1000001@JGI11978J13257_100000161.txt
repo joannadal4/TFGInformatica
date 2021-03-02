@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q70LC8|Y137_AFV1Y    13.3      0.05   1   1.3   0.0    Uncharacterized protein ORF137 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF137 PE=4 SV=1
+sp|Q3KSR7|GM_EBVG       13.0     0.064   1   1.4   0.2    Envelope glycoprotein M OS=Epstein-Barr virus (strain GD1) OX=10376 GN=gM PE=3 SV=1
+sp|P03215|GM_EBVB9      13.0     0.064   1   1.4   0.2    Envelope glycoprotein M OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=gM PE=1 SV=1
+sp|Q1HVE9|GM_EBVA8      11.8      0.15   1   1.4   0.2    Envelope glycoprotein M OS=Epstein-Barr virus (strain AG876) OX=82830 GN=gM PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q70LC8|Y137_AFV1Y    13.0     0.063     1   0.0     17    108     42     82     77    117     Uncharacterized protein ORF137 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF137 PE=4 SV=1
+sp|P03215|GM_EBVB9      12.1      0.12     1   0.2    187    253    197    240     17     60     Envelope glycoprotein M OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=gM PE=1 SV=1
+sp|Q3KSR7|GM_EBVG       12.1      0.12     1   0.2    187    253    197    240     17     60     Envelope glycoprotein M OS=Epstein-Barr virus (strain GD1) OX=10376 GN=gM PE=3 SV=1
+sp|Q1HVE9|GM_EBVA8      10.9      0.29     1   0.2    187    253    197    240     17     60     Envelope glycoprotein M OS=Epstein-Barr virus (strain AG876) OX=82830 GN=gM PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001106@JGI11978J13257_1000001@JGI11978J13257_100000161.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001106@JGI11978J13257_1000001@JGI11978J13257_100000161.txt data/models_hmm/3300001106@JGI11978J13257_1000001@JGI11978J13257_100000161.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:23 2021
+# [ok]

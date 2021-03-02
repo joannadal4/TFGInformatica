@@ -1,0 +1,74 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q196W0|VF378_IIV3    348.2  1.7e-104   1   1.0   8.4    Uncharacterized protein 100L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-100L PE=3 SV=1
+sp|Q91FE6|VF378_IIV6    331.7   1.9e-99   1   1.2  13.5    Uncharacterized protein 378R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-378R PE=3 SV=1
+sp|Q6GZV6|019R_FRG3G     86.8   1.6e-24   5   5.2  44.5    Putative serine/threonine-protein kinase 019R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-019R PE=3 SV=1
+sp|Q91FU0|VF232_IIV6     30.7   2.4e-07   5   6.1   3.0    Putative ubiquitin thioesterase 232R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-232R PE=3 SV=1
+sp|Q5UR52|YR584_MIMIV    17.1    0.0034   1   1.4  11.3    Uncharacterized N-acetyltransferase R584 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R584 PE=1 SV=1
+sp|Q197F0|VF380_IIV3     15.8    0.0089   1   1.4   1.3    Probable serine/threonine-protein kinase 010L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-010L PE=3 SV=1
+sp|Q91FE4|VF380_IIV6     14.4     0.023   1   1.7   4.8    Probable serine/threonine-protein kinase 380R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-380R PE=3 SV=1
+sp|Q5UR26|VF546_MIMIV    13.0     0.064   2   2.3  19.3    Uncharacterized protein R546 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R546 PE=3 SV=1
+sp|P24647|IE2_NPVAC      10.1       0.5   2   2.2  11.4    E3 ubiquitin-protein ligase IE2 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=IE2 PE=3 SV=2
+sp|O55723|104L_IIV6       7.5         3   1   1.0  22.4    Uncharacterized protein 104L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-104L PE=4 SV=1
+sp|P69709|CAPSD_WHV1      7.3       3.4   1   1.2  12.2    Capsid protein OS=Woodchuck hepatitis B virus (isolate 1) OX=10430 GN=C PE=3 SV=1
+sp|P69710|CAPSD_WHV4      7.3       3.4   1   1.2  12.2    Capsid protein OS=Woodchuck hepatitis B virus (isolate 7) OX=10432 GN=C PE=3 SV=1
+sp|P69711|CAPSD_WHV5      7.3       3.4   1   1.2  12.2    Capsid protein OS=Woodchuck hepatitis B virus (isolate 8) OX=10433 GN=C PE=3 SV=1
+sp|P69712|CAPSD_WHV3      7.3       3.4   1   1.2  12.2    Capsid protein OS=Woodchuck hepatitis B virus (isolate 59) OX=10431 GN=C PE=3 SV=1
+sp|Q1HVE9|GM_EBVA8        7.3       3.5   1   1.1   8.8    Envelope glycoprotein M OS=Epstein-Barr virus (strain AG876) OX=82830 GN=gM PE=3 SV=1
+sp|Q3KSR7|GM_EBVG         7.1       4.1   1   1.1   9.2    Envelope glycoprotein M OS=Epstein-Barr virus (strain GD1) OX=10376 GN=gM PE=3 SV=1
+sp|P03215|GM_EBVB9        7.1       4.1   1   1.1   9.2    Envelope glycoprotein M OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=gM PE=1 SV=1
+sp|P0C6J2|HBEAG_WHV1      7.0       4.4   1   1.2  12.2    External core antigen OS=Woodchuck hepatitis B virus (isolate 1) OX=10430 GN=C PE=1 SV=1
+sp|P0C6J4|HBEAG_WHV3      7.0       4.4   1   1.2  12.2    External core antigen OS=Woodchuck hepatitis B virus (isolate 59) OX=10431 GN=C PE=1 SV=1
+sp|P0C6J5|HBEAG_WHV4      7.0       4.4   1   1.2  12.2    External core antigen OS=Woodchuck hepatitis B virus (isolate 7) OX=10432 GN=C PE=3 SV=1
+sp|P0C6J6|HBEAG_WHV5      7.0       4.4   1   1.2  12.2    External core antigen OS=Woodchuck hepatitis B virus (isolate 8) OX=10433 GN=C PE=3 SV=1
+sp|Q9G054|W_BPPHM         6.9       4.8   1   1.0  12.5    Uncharacterized protein W OS=Bdellovibrio phage phiMH2K OX=145579 GN=ORFW PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q196W0|VF378_IIV3    348.0  1.9e-104     1   8.4      3    212      4    212      2    212     Uncharacterized protein 100L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-100L PE=3 SV=1
+sp|Q91FE6|VF378_IIV6    331.1   2.8e-99     1  13.5      1    193      1    193      1    211     Uncharacterized protein 378R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-378R PE=3 SV=1
+sp|Q91FU0|VF232_IIV6     30.7   2.4e-07     2   3.0     61    143     64    129      4     68     Putative ubiquitin thioesterase 232R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-232R PE=3 SV=1
+sp|Q6GZV6|019R_FRG3G     29.7   4.9e-07     2   6.2     65    141     67    140      3     75     Putative serine/threonine-protein kinase 019R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-019R PE=3 SV=1
+sp|Q6GZV6|019R_FRG3G     29.7     5e-07     3  12.2    135    236    137    221      3     84     Putative serine/threonine-protein kinase 019R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-019R PE=3 SV=1
+sp|Q6GZV6|019R_FRG3G     22.4   8.4e-05     1   0.3      2     69      3     63      2     58     Putative serine/threonine-protein kinase 019R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-019R PE=3 SV=1
+sp|Q5UR52|YR584_MIMIV    16.2    0.0066     1  11.3    111    225    117    208     10     97     Uncharacterized N-acetyltransferase R584 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R584 PE=1 SV=1
+sp|Q6GZV6|019R_FRG3G     16.0    0.0076     5   6.8    299    411    301    376      3     79     Putative serine/threonine-protein kinase 019R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-019R PE=3 SV=1
+sp|Q197F0|VF380_IIV3     15.0     0.015     1   1.3      5     99      6     79      2     63     Probable serine/threonine-protein kinase 010L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-010L PE=3 SV=1
+sp|Q91FE4|VF380_IIV6     13.1      0.06     1   4.8      4    105      7     95      4     70     Probable serine/threonine-protein kinase 380R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-380R PE=3 SV=1
+sp|Q91FU0|VF232_IIV6      9.6      0.69     3   2.9    169    235    174    201     68     94     Putative ubiquitin thioesterase 232R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-232R PE=3 SV=1
+sp|P24647|IE2_NPVAC       9.5      0.72     1   7.7      3    114      8     68     42    100     E3 ubiquitin-protein ligase IE2 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=IE2 PE=3 SV=2
+sp|Q5UR26|VF546_MIMIV     8.8       1.2     2  15.5    100    207    140    202     33     98     Uncharacterized protein R546 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R546 PE=3 SV=1
+sp|O55723|104L_IIV6       7.5       3.1     1  22.4      2     57      8     53     44     94     Uncharacterized protein 104L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-104L PE=4 SV=1
+sp|P69709|CAPSD_WHV1      6.9       4.5     1  12.2    122    188    144    185     27     74     Capsid protein OS=Woodchuck hepatitis B virus (isolate 1) OX=10430 GN=C PE=3 SV=1
+sp|P69710|CAPSD_WHV4      6.9       4.5     1  12.2    122    188    144    185     27     74     Capsid protein OS=Woodchuck hepatitis B virus (isolate 7) OX=10432 GN=C PE=3 SV=1
+sp|P69711|CAPSD_WHV5      6.9       4.5     1  12.2    122    188    144    185     27     74     Capsid protein OS=Woodchuck hepatitis B virus (isolate 8) OX=10433 GN=C PE=3 SV=1
+sp|P69712|CAPSD_WHV3      6.9       4.5     1  12.2    122    188    144    185     27     74     Capsid protein OS=Woodchuck hepatitis B virus (isolate 59) OX=10431 GN=C PE=3 SV=1
+sp|Q9G054|W_BPPHM         6.8       5.1     1  12.5      2     50     10     45     39     79     Uncharacterized protein W OS=Bdellovibrio phage phiMH2K OX=145579 GN=ORFW PE=4 SV=1
+sp|Q1HVE9|GM_EBVA8        6.8       5.1     1   8.8    334    399    345    381     31     68     Envelope glycoprotein M OS=Epstein-Barr virus (strain AG876) OX=82830 GN=gM PE=3 SV=1
+sp|P0C6J2|HBEAG_WHV1      6.6       5.9     1  12.2    152    218    174    215     27     74     External core antigen OS=Woodchuck hepatitis B virus (isolate 1) OX=10430 GN=C PE=1 SV=1
+sp|P0C6J4|HBEAG_WHV3      6.6       5.9     1  12.2    152    218    174    215     27     74     External core antigen OS=Woodchuck hepatitis B virus (isolate 59) OX=10431 GN=C PE=1 SV=1
+sp|P0C6J5|HBEAG_WHV4      6.6       5.9     1  12.2    152    218    174    215     27     74     External core antigen OS=Woodchuck hepatitis B virus (isolate 7) OX=10432 GN=C PE=3 SV=1
+sp|P0C6J6|HBEAG_WHV5      6.6       5.9     1  12.2    152    218    174    215     27     74     External core antigen OS=Woodchuck hepatitis B virus (isolate 8) OX=10433 GN=C PE=3 SV=1
+sp|P03215|GM_EBVB9        6.5         6     1   9.2    334    399    345    381     31     68     Envelope glycoprotein M OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=gM PE=1 SV=1
+sp|Q3KSR7|GM_EBVG         6.5         6     1   9.2    334    399    345    381     31     68     Envelope glycoprotein M OS=Epstein-Barr virus (strain GD1) OX=10376 GN=gM PE=3 SV=1
+sp|Q5UR26|VF546_MIMIV     5.8        10     1   0.1      2     63      4     26    152    176     Uncharacterized protein R546 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R546 PE=3 SV=1
+sp|Q91FU0|VF232_IIV6      3.7        45     1   4.0      2     64      5     62      4     60     Putative ubiquitin thioesterase 232R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-232R PE=3 SV=1
+sp|Q6GZV6|019R_FRG3G      3.7        45     4   0.0    248    296    250    285      5     40     Putative serine/threonine-protein kinase 019R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-019R PE=3 SV=1
+sp|Q91FU0|VF232_IIV6      3.3        58     4   1.5    562    666    588    629     50     90     Putative ubiquitin thioesterase 232R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-232R PE=3 SV=1
+sp|P24647|IE2_NPVAC       1.8   1.7e+02     2   0.1    152    246    165    207     64    102     E3 ubiquitin-protein ligase IE2 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=IE2 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000124@BS_KBA_SWE12_21mDRAFT_c10000152@BS_KBA_SWE12_21mDRAFT_1000015216.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000124@BS_KBA_SWE12_21mDRAFT_c10000152@BS_KBA_SWE12_21mDRAFT_1000015216.txt data/models_hmm/3300000124@BS_KBA_SWE12_21mDRAFT_c10000152@BS_KBA_SWE12_21mDRAFT_1000015216.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:51 2021
+# [ok]

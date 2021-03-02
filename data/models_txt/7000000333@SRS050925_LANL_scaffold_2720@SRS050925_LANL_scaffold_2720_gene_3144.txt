@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52470|UL79_HHV7J    14.7     0.027   2   2.5   0.1    Protein U52 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U52 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52470|UL79_HHV7J     9.8      0.85     2   0.0    196    246    209    238     23     51     Protein U52 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U52 PE=3 SV=1
+sp|P52470|UL79_HHV7J     2.1   2.2e+02     1   0.0     35     57     41     54     33     46     Protein U52 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U52 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000333@SRS050925_LANL_scaffold_2720@SRS050925_LANL_scaffold_2720_gene_3144.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000333@SRS050925_LANL_scaffold_2720@SRS050925_LANL_scaffold_2720_gene_3144.txt data/models_hmm/7000000333@SRS050925_LANL_scaffold_2720@SRS050925_LANL_scaffold_2720_gene_3144.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:26 2021
+# [ok]

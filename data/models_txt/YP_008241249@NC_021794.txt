@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P15903|ORF12_SPV1R    13.3     0.059   1   1.2   0.6    Uncharacterized protein ORF12 OS=Spiroplasma virus SpV1-R8A2 B OX=10854 GN=ORF12 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P15903|ORF12_SPV1R    13.0     0.077     1   0.6      9     35     11     33      3     25     Uncharacterized protein ORF12 OS=Spiroplasma virus SpV1-R8A2 B OX=10854 GN=ORF12 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008241249@NC_021794.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008241249@NC_021794.txt data/models_hmm/YP_008241249@NC_021794.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:31 2021
+# [ok]

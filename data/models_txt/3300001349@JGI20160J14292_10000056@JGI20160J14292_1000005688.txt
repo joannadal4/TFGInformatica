@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R7H5|Y049_OSHVF    41.5   7.9e-11   1   1.6   0.0    Uncharacterized protein ORF49 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF49 PE=4 SV=1
+sp|Q6R7L6|PRIM_OSHVF    40.0   2.2e-10   1   1.6   0.1    Putative primase OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF7 PE=3 SV=1
+sp|P0DST7|D5_VAR67      19.3   0.00043   1   1.4   0.4    Primase D5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=D5R PE=3 SV=1
+sp|P0DST8|D5_VARV       19.3   0.00043   1   1.4   0.4    Primase D5 OS=Variola virus OX=10255 GN=D5R PE=3 SV=1
+sp|P04305|D5_VACCW      19.2   0.00047   1   1.3   0.3    Primase D5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR110 PE=1 SV=1
+sp|P21010|D5_VACCC      18.0    0.0011   1   1.3   0.3    Primase D5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D5R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R7H5|Y049_OSHVF    40.1   2.1e-10     1   0.0     19    220     24    214     31    189     Uncharacterized protein ORF49 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF49 PE=4 SV=1
+sp|Q6R7L6|PRIM_OSHVF    38.9   4.8e-10     1   0.1      1    238      9    220     11    185     Putative primase OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF7 PE=3 SV=1
+sp|P0DST7|D5_VAR67      18.4   0.00082     1   0.4     17    196     31    187     45    182     Primase D5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=D5R PE=3 SV=1
+sp|P0DST8|D5_VARV       18.4   0.00082     1   0.4     17    196     31    187     45    182     Primase D5 OS=Variola virus OX=10255 GN=D5R PE=3 SV=1
+sp|P04305|D5_VACCW      18.4   0.00084     1   0.3     16    196     31    187     45    182     Primase D5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR110 PE=1 SV=1
+sp|P21010|D5_VACCC      17.2    0.0019     1   0.3     19    196     49    187     62    182     Primase D5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D5R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001349@JGI20160J14292_10000056@JGI20160J14292_1000005688.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001349@JGI20160J14292_10000056@JGI20160J14292_1000005688.txt data/models_hmm/3300001349@JGI20160J14292_10000056@JGI20160J14292_1000005688.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:58 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q84056|NS1_I57A4     12.2      0.13   2   1.6   0.1    Non-structural protein 1 (Fragment) OS=Influenza A virus (strain A/RI/5-/1957 H2N2) OX=382828 GN=NS PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q84056|NS1_I57A4     10.8      0.33     2   0.0     53     84     57     79     21     43     Non-structural protein 1 (Fragment) OS=Influenza A virus (strain A/RI/5-/1957 H2N2) OX=382828 GN=NS PE=3 SV=1
+sp|Q84056|NS1_I57A4     -0.5     1e+03     1   0.0     15     60     32     51     46     65     Non-structural protein 1 (Fragment) OS=Influenza A virus (strain A/RI/5-/1957 H2N2) OX=382828 GN=NS PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001592@Draft_10000095@Draft_10000095154.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001592@Draft_10000095@Draft_10000095154.txt data/models_hmm/3300001592@Draft_10000095@Draft_10000095154.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:51 2021
+# [ok]

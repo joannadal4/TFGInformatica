@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9XJP3|FIBER_BPSFV    13.6     0.062   3   2.8   0.5    Tail spike protein OS=Shigella phage Sf6 OX=10761 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9XJP3|FIBER_BPSFV    13.6     0.062     3   0.5    529    621    537    612     11     83     Tail spike protein OS=Shigella phage Sf6 OX=10761 PE=1 SV=2
+sp|Q9XJP3|FIBER_BPSFV    -1.8   3.8e+03     2   0.1    423    489    446    464     40     82     Tail spike protein OS=Shigella phage Sf6 OX=10761 PE=1 SV=2
+sp|Q9XJP3|FIBER_BPSFV    -2.2     5e+03     1   0.0    320    364    332    350     25     43     Tail spike protein OS=Shigella phage Sf6 OX=10761 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002720059@NC_012223.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002720059@NC_012223.txt data/models_hmm/YP_002720059@NC_012223.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:09 2021
+# [ok]

@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C9C5|DUTP_ASFK5    14.6     0.013   1   1.1   0.0    Deoxyuridine 5'-triphosphate nucleotidohydrolase OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-143 PE=3 SV=1
+sp|Q65243|DUTP_ASFM2    13.7     0.024   1   1.1   0.0    Deoxyuridine 5'-triphosphate nucleotidohydrolase OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-139 PE=3 SV=1
+sp|Q65199|DUTP_ASFB7    12.3     0.063   1   1.1   0.0    Deoxyuridine 5'-triphosphate nucleotidohydrolase OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-131 PE=1 SV=1
+sp|P0C9C3|DUTP_ASFP4    12.3     0.065   1   1.1   0.0    Deoxyuridine 5'-triphosphate nucleotidohydrolase OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-143 PE=3 SV=1
+sp|P0C9C4|DUTP_ASFWA    12.3     0.065   1   1.1   0.0    Deoxyuridine 5'-triphosphate nucleotidohydrolase OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-141 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C9C5|DUTP_ASFK5    14.2     0.017     1   0.0     75    132     82    122    167    205     Deoxyuridine 5'-triphosphate nucleotidohydrolase OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-143 PE=3 SV=1
+sp|Q65243|DUTP_ASFM2    13.3     0.032     1   0.0     75    132     82    122    167    205     Deoxyuridine 5'-triphosphate nucleotidohydrolase OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-139 PE=3 SV=1
+sp|Q65199|DUTP_ASFB7    11.9     0.084     1   0.0     75    132     82    122    167    205     Deoxyuridine 5'-triphosphate nucleotidohydrolase OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-131 PE=1 SV=1
+sp|P0C9C3|DUTP_ASFP4    11.9     0.087     1   0.0     76    132     82    122    167    205     Deoxyuridine 5'-triphosphate nucleotidohydrolase OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-143 PE=3 SV=1
+sp|P0C9C4|DUTP_ASFWA    11.9     0.087     1   0.0     76    132     82    122    167    205     Deoxyuridine 5'-triphosphate nucleotidohydrolase OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-141 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000171@SRS052697_LANL_scaffold_51535@SRS052697_LANL_scaffold_51535_gene_98433.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000171@SRS052697_LANL_scaffold_51535@SRS052697_LANL_scaffold_51535_gene_98433.txt data/models_hmm/7000000171@SRS052697_LANL_scaffold_51535@SRS052697_LANL_scaffold_51535_gene_98433.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:05 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q38617|REP_BPPHL     13.4     0.041   1   1.1   0.2    Replication-associated protein G2P OS=Xanthomonas phage phiLf OX=28365 GN=II PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38617|REP_BPPHL     13.0     0.055     1   0.2     19    150     21    109     69    153     Replication-associated protein G2P OS=Xanthomonas phage phiLf OX=28365 GN=II PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006989576@NC_019410.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006989576@NC_019410.txt data/models_hmm/YP_006989576@NC_019410.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:52 2021
+# [ok]

@@ -1,0 +1,74 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HHT4|UL17_HCMVM    206.2   5.9e-62   1   1.0   4.4    Protein UL17 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL17 PE=3 SV=1
+sp|P16722|UL17_HCMVA    206.2   5.9e-62   1   1.0   4.4    Uncharacterized protein UL17 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL17 PE=4 SV=1
+sp|B9VXI8|UL17_HCMVT    205.7   8.7e-62   1   1.0   4.9    Protein UL17 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL17 PE=3 SV=1
+sp|Q66802|L_EBOSM        13.7     0.046   2   2.4   0.1    RNA-directed RNA polymerase L OS=Sudan ebolavirus (strain Maleo-79) OX=128949 GN=L PE=3 SV=1
+sp|Q5XX01|L_EBOSU        13.5     0.056   2   2.3   0.0    RNA-directed RNA polymerase L OS=Sudan ebolavirus (strain Human/Uganda/Gulu/2000) OX=386033 GN=L PE=3 SV=1
+sp|P0C682|CAPSD_HBVG3     8.1       2.6   1   1.4   7.7    Capsid protein OS=Hepatitis B virus genotype G (isolate IG29227/2000) OX=489538 GN=C PE=3 SV=1
+sp|P0C683|CAPSD_HBVG2     8.1       2.6   1   1.4   7.7    Capsid protein OS=Hepatitis B virus genotype G (isolate United States/USG17/2002) OX=489537 GN=C PE=3 SV=1
+sp|P0C698|CAPSD_HBVA9     7.9         3   1   1.5   9.2    Capsid protein OS=Hepatitis B virus genotype A3 (isolate Cameroon/CMR711/1994) OX=489459 GN=C PE=3 SV=1
+sp|P0C696|CAPSD_HBVA7     7.9       3.1   1   1.5   9.2    Capsid protein OS=Hepatitis B virus genotype A2 (isolate Japan/11D11HCCW/1998) OX=489457 GN=C PE=3 SV=1
+sp|P0C695|CAPSD_HBVA6     7.8       3.2   1   1.5   9.2    Capsid protein OS=Hepatitis B virus genotype A1 subtype adw2 (isolate South Africa/84/2001) OX=489454 GN=C PE=3 SV=1
+sp|P03149|CAPSD_HBVA2     7.8       3.2   1   1.5   9.2    Capsid protein OS=Hepatitis B virus genotype A2 subtype adw (isolate Japan/Nishioka/1983) OX=482134 GN=C PE=1 SV=1
+sp|P0C694|CAPSD_HBVA5     7.8       3.2   1   1.4   9.2    Capsid protein OS=Hepatitis B virus genotype A1 subtype adw (isolate Philippines/pFDW294/1988) OX=31514 GN=C PE=3 SV=1
+sp|P0C697|CAPSD_HBVA8     7.8       3.2   1   1.4   9.2    Capsid protein OS=Hepatitis B virus genotype A3 (isolate Cameroon/CMR983/1994) OX=489458 GN=C PE=3 SV=1
+sp|P0C693|CAPSD_HBVA4     7.7       3.4   1   1.4   9.2    Capsid protein OS=Hepatitis B virus genotype A2 subtype adw2 (isolate Germany/991/1990) OX=10410 GN=C PE=1 SV=1
+sp|Q4R1S0|HBEAG_HBVA9     7.5         4   1   1.5   9.2    External core antigen OS=Hepatitis B virus genotype A3 (isolate Cameroon/CMR711/1994) OX=489459 GN=C PE=3 SV=1
+sp|O91532|HBEAG_HBVA7     7.5         4   1   1.5   9.2    External core antigen OS=Hepatitis B virus genotype A2 (isolate Japan/11D11HCCW/1998) OX=489457 GN=C PE=3 SV=1
+sp|Q91C37|HBEAG_HBVA6     7.5       4.1   1   1.4   9.2    External core antigen OS=Hepatitis B virus genotype A1 subtype adw2 (isolate South Africa/84/2001) OX=489454 GN=C PE=3 SV=1
+sp|P0C692|HBEAG_HBVA2     7.5       4.1   1   1.4   9.2    External core antigen OS=Hepatitis B virus genotype A2 subtype adw (isolate Japan/Nishioka/1983) OX=482134 GN=C PE=3 SV=1
+sp|Q81105|HBEAG_HBVA5     7.4       4.2   1   1.4   9.2    External core antigen OS=Hepatitis B virus genotype A1 subtype adw (isolate Philippines/pFDW294/1988) OX=31514 GN=C PE=3 SV=2
+sp|Q4R1S8|HBEAG_HBVA8     7.4       4.2   1   1.4   9.2    External core antigen OS=Hepatitis B virus genotype A3 (isolate Cameroon/CMR983/1994) OX=489458 GN=C PE=3 SV=1
+sp|P17099|HBEAG_HBVA4     7.4       4.4   1   1.4   9.2    External core antigen OS=Hepatitis B virus genotype A2 subtype adw2 (isolate Germany/991/1990) OX=10410 GN=C PE=3 SV=1
+sp|Q02409|GB_ILTV6        6.9       6.1   3   2.2   7.6    Envelope glycoprotein B OS=Infectious laryngotracheitis virus (strain 632) OX=31521 GN=gB PE=3 SV=2
+sp|P24904|GB_ILTVT        6.9       6.2   3   2.2   7.6    Envelope glycoprotein B OS=Infectious laryngotracheitis virus (strain Thorne V882) OX=10344 GN=gB PE=3 SV=1
+sp|P27415|GB_ILTVS        6.9       6.2   3   2.2   7.6    Envelope glycoprotein B OS=Infectious laryngotracheitis virus (strain SA-2) OX=10343 GN=gB PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HHT4|UL17_HCMVM    206.0   6.5e-62     1   4.4      1    104      1    104      1    104     Protein UL17 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL17 PE=3 SV=1
+sp|P16722|UL17_HCMVA    206.0   6.5e-62     1   4.4      1    104      1    104      1    104     Uncharacterized protein UL17 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL17 PE=4 SV=1
+sp|B9VXI8|UL17_HCMVT    205.5   9.6e-62     1   4.9      1    104      1    104      1    104     Protein UL17 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL17 PE=3 SV=1
+sp|Q02409|GB_ILTV6       11.8      0.19     2   0.3    808    873    826    870     58    102     Envelope glycoprotein B OS=Infectious laryngotracheitis virus (strain 632) OX=31521 GN=gB PE=3 SV=2
+sp|P24904|GB_ILTVT       11.8      0.19     2   0.3    818    883    836    880     58    102     Envelope glycoprotein B OS=Infectious laryngotracheitis virus (strain Thorne V882) OX=10344 GN=gB PE=3 SV=1
+sp|P27415|GB_ILTVS       11.8      0.19     2   0.3    818    883    836    880     58    102     Envelope glycoprotein B OS=Infectious laryngotracheitis virus (strain SA-2) OX=10343 GN=gB PE=3 SV=1
+sp|Q5XX01|L_EBOSU        10.6      0.43     1   0.0     87    173     98    167     20     86     RNA-directed RNA polymerase L OS=Sudan ebolavirus (strain Human/Uganda/Gulu/2000) OX=386033 GN=L PE=3 SV=1
+sp|Q66802|L_EBOSM        10.4      0.48     1   0.0     86    173     98    167     20     86     RNA-directed RNA polymerase L OS=Sudan ebolavirus (strain Maleo-79) OX=128949 GN=L PE=3 SV=1
+sp|P0C682|CAPSD_HBVG3     7.1       5.3     1   7.7    149    193    157    189     33     66     Capsid protein OS=Hepatitis B virus genotype G (isolate IG29227/2000) OX=489538 GN=C PE=3 SV=1
+sp|P0C683|CAPSD_HBVG2     7.1       5.3     1   7.7    149    193    157    189     33     66     Capsid protein OS=Hepatitis B virus genotype G (isolate United States/USG17/2002) OX=489537 GN=C PE=3 SV=1
+sp|P03149|CAPSD_HBVA2     6.8       6.7     1   9.2    137    182    145    178     33     65     Capsid protein OS=Hepatitis B virus genotype A2 subtype adw (isolate Japan/Nishioka/1983) OX=482134 GN=C PE=1 SV=1
+sp|P0C693|CAPSD_HBVA4     6.8       6.7     1   9.2    137    182    145    178     33     65     Capsid protein OS=Hepatitis B virus genotype A2 subtype adw2 (isolate Germany/991/1990) OX=10410 GN=C PE=1 SV=1
+sp|P0C694|CAPSD_HBVA5     6.8       6.7     1   9.2    137    182    145    178     33     65     Capsid protein OS=Hepatitis B virus genotype A1 subtype adw (isolate Philippines/pFDW294/1988) OX=31514 GN=C PE=3 SV=1
+sp|P0C695|CAPSD_HBVA6     6.8       6.7     1   9.2    137    182    145    178     33     65     Capsid protein OS=Hepatitis B virus genotype A1 subtype adw2 (isolate South Africa/84/2001) OX=489454 GN=C PE=3 SV=1
+sp|P0C696|CAPSD_HBVA7     6.8       6.7     1   9.2    137    182    145    178     33     65     Capsid protein OS=Hepatitis B virus genotype A2 (isolate Japan/11D11HCCW/1998) OX=489457 GN=C PE=3 SV=1
+sp|P0C697|CAPSD_HBVA8     6.8       6.7     1   9.2    137    182    145    178     33     65     Capsid protein OS=Hepatitis B virus genotype A3 (isolate Cameroon/CMR983/1994) OX=489458 GN=C PE=3 SV=1
+sp|P0C698|CAPSD_HBVA9     6.8       6.7     1   9.2    137    182    145    178     33     65     Capsid protein OS=Hepatitis B virus genotype A3 (isolate Cameroon/CMR711/1994) OX=489459 GN=C PE=3 SV=1
+sp|O91532|HBEAG_HBVA7     6.5       8.5     1   9.2    166    211    174    207     33     65     External core antigen OS=Hepatitis B virus genotype A2 (isolate Japan/11D11HCCW/1998) OX=489457 GN=C PE=3 SV=1
+sp|P0C692|HBEAG_HBVA2     6.5       8.5     1   9.2    166    211    174    207     33     65     External core antigen OS=Hepatitis B virus genotype A2 subtype adw (isolate Japan/Nishioka/1983) OX=482134 GN=C PE=3 SV=1
+sp|P17099|HBEAG_HBVA4     6.5       8.5     1   9.2    166    211    174    207     33     65     External core antigen OS=Hepatitis B virus genotype A2 subtype adw2 (isolate Germany/991/1990) OX=10410 GN=C PE=3 SV=1
+sp|Q4R1S0|HBEAG_HBVA9     6.5       8.5     1   9.2    166    211    174    207     33     65     External core antigen OS=Hepatitis B virus genotype A3 (isolate Cameroon/CMR711/1994) OX=489459 GN=C PE=3 SV=1
+sp|Q4R1S8|HBEAG_HBVA8     6.5       8.5     1   9.2    166    211    174    207     33     65     External core antigen OS=Hepatitis B virus genotype A3 (isolate Cameroon/CMR983/1994) OX=489458 GN=C PE=3 SV=1
+sp|Q81105|HBEAG_HBVA5     6.5       8.5     1   9.2    166    211    174    207     33     65     External core antigen OS=Hepatitis B virus genotype A1 subtype adw (isolate Philippines/pFDW294/1988) OX=31514 GN=C PE=3 SV=2
+sp|Q91C37|HBEAG_HBVA6     6.5       8.5     1   9.2    166    211    174    207     33     65     External core antigen OS=Hepatitis B virus genotype A1 subtype adw2 (isolate South Africa/84/2001) OX=489454 GN=C PE=3 SV=1
+sp|Q66802|L_EBOSM        -0.1   9.2e+02     2   0.0   1611   1662   1619   1657     16     54     RNA-directed RNA polymerase L OS=Sudan ebolavirus (strain Maleo-79) OX=128949 GN=L PE=3 SV=1
+sp|Q5XX01|L_EBOSU        -0.8   1.5e+03     2   0.0   1612   1661   1619   1656     16     53     RNA-directed RNA polymerase L OS=Sudan ebolavirus (strain Human/Uganda/Gulu/2000) OX=386033 GN=L PE=3 SV=1
+sp|Q02409|GB_ILTV6       -2.4   4.9e+03     1   0.4    412    440    417    434     40     62     Envelope glycoprotein B OS=Infectious laryngotracheitis virus (strain 632) OX=31521 GN=gB PE=3 SV=2
+sp|P24904|GB_ILTVT       -2.4     5e+03     1   0.4    422    450    427    444     40     62     Envelope glycoprotein B OS=Infectious laryngotracheitis virus (strain Thorne V882) OX=10344 GN=gB PE=3 SV=1
+sp|P27415|GB_ILTVS       -2.4     5e+03     1   0.4    422    450    427    444     40     62     Envelope glycoprotein B OS=Infectious laryngotracheitis virus (strain SA-2) OX=10343 GN=gB PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_612661@NC_003521.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_612661@NC_003521.txt data/models_hmm/NP_612661@NC_003521.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:10 2021
+# [ok]

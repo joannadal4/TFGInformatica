@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q70LD7|Y135_AFV1Y    11.5      0.15   1   1.4   2.1    Uncharacterized protein ORF135 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF135 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q70LD7|Y135_AFV1Y    10.8      0.24     1   2.1     81    123     97    116     16     35     Uncharacterized protein ORF135 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF135 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000684@SRS019582_WUGC_scaffold_31021@SRS019582_WUGC_scaffold_31021_gene_37103.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000684@SRS019582_WUGC_scaffold_31021@SRS019582_WUGC_scaffold_31021_gene_37103.txt data/models_hmm/7000000684@SRS019582_WUGC_scaffold_31021@SRS019582_WUGC_scaffold_31021_gene_37103.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:57 2021
+# [ok]

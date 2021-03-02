@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQM2|ROBIN_MIMIV   405.8  4.6e-122   1   1.0  26.8    Robin OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R420 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQM2|ROBIN_MIMIV   405.7  5.2e-122     1  26.8      1    240      1    240      1    236     Robin OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R420 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007354369@NC_020104.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007354369@NC_020104.txt data/models_hmm/YP_007354369@NC_020104.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:47 2021
+# [ok]

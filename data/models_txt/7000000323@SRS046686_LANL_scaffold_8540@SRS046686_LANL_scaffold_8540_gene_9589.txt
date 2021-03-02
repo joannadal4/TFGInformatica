@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CA26|VF123_ASFK5    21.0   0.00025   1   1.2   0.0    Uncharacterized protein CP123L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-103 PE=3 SV=1
+sp|P0CA27|VF123_ASFM2    18.6    0.0014   1   1.2   0.0    Uncharacterized protein CP123L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-099 PE=3 SV=1
+sp|Q65178|VF123_ASFB7    16.8    0.0049   1   1.2   0.0    Uncharacterized protein CP123L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-91 PE=3 SV=1
+sp|P0CA28|VF123_ASFP4    16.3    0.0068   1   1.2   0.0    Uncharacterized protein CP123L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-103 PE=3 SV=1
+sp|P0CA29|VF123_ASFWA    15.7      0.01   1   1.2   0.0    Uncharacterized protein CP123L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-101 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CA26|VF123_ASFK5    20.6   0.00032     1   0.0      4    100      7     69      6     59     Uncharacterized protein CP123L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-103 PE=3 SV=1
+sp|P0CA27|VF123_ASFM2    18.2    0.0018     1   0.0      4     90      7     69      6     59     Uncharacterized protein CP123L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-099 PE=3 SV=1
+sp|Q65178|VF123_ASFB7    16.5    0.0061     1   0.0      4    100      7     69      6     59     Uncharacterized protein CP123L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-91 PE=3 SV=1
+sp|P0CA28|VF123_ASFP4    16.0    0.0085     1   0.0      4    100      7     69      6     59     Uncharacterized protein CP123L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-103 PE=3 SV=1
+sp|P0CA29|VF123_ASFWA    15.4     0.013     1   0.0      4    100      7     69      6     59     Uncharacterized protein CP123L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-101 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000323@SRS046686_LANL_scaffold_8540@SRS046686_LANL_scaffold_8540_gene_9589.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000323@SRS046686_LANL_scaffold_8540@SRS046686_LANL_scaffold_8540_gene_9589.txt data/models_hmm/7000000323@SRS046686_LANL_scaffold_8540@SRS046686_LANL_scaffold_8540_gene_9589.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:21 2021
+# [ok]

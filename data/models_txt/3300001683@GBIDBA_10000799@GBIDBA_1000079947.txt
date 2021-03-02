@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P17311|TERS_BPT4    189.6   2.3e-56   1   1.0   1.6    Terminase, small subunit OS=Enterobacteria phage T4 OX=10665 GN=16 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P17311|TERS_BPT4    189.4   2.5e-56     1   1.6      1    156      1    153      2    141     Terminase, small subunit OS=Enterobacteria phage T4 OX=10665 GN=16 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001683@GBIDBA_10000799@GBIDBA_1000079947.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001683@GBIDBA_10000799@GBIDBA_1000079947.txt data/models_hmm/3300001683@GBIDBA_10000799@GBIDBA_1000079947.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:08 2021
+# [ok]

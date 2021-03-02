@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52373|GM_MUHVK      12.8     0.052   1   1.2   0.1    Envelope glycoprotein M OS=Murid herpesvirus 1 (strain K181) OX=69156 GN=gM PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52373|GM_MUHVK      12.1     0.082     1   0.1    237    307    247    298     98    149     Envelope glycoprotein M OS=Murid herpesvirus 1 (strain K181) OX=69156 GN=gM PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000366@SRS065278_LANL_scaffold_15925@SRS065278_LANL_scaffold_15925_gene_18798.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000366@SRS065278_LANL_scaffold_15925@SRS065278_LANL_scaffold_15925_gene_18798.txt data/models_hmm/7000000366@SRS065278_LANL_scaffold_15925@SRS065278_LANL_scaffold_15925_gene_18798.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:37 2021
+# [ok]

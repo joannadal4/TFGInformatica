@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P24729|GP16_NPVAC     14.7     0.029   1   1.6   0.1    Glycoprotein GP16 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=GP16 PE=1 SV=1
+sp|Q00999|MCP_SHV21      14.3     0.037   1   1.6   0.1    Major capsid protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=MCP PE=3 SV=1
+sp|Q5UPB4|YL036_MIMIV    12.3      0.16   2   2.0   1.3    Putative ankyrin repeat protein L36 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L36 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P24729|GP16_NPVAC     13.7     0.061     1   0.1     55    102     58     92      4     38     Glycoprotein GP16 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=GP16 PE=1 SV=1
+sp|Q00999|MCP_SHV21      13.0     0.096     1   0.1    730    766    735    759     21     44     Major capsid protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=MCP PE=3 SV=1
+sp|Q5UPB4|YL036_MIMIV    11.7      0.26     1   0.1    132    159    133    150      2     19     Putative ankyrin repeat protein L36 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L36 PE=4 SV=1
+sp|Q5UPB4|YL036_MIMIV    -2.7     8e+03     2   0.2    207    221    209    218     40     49     Putative ankyrin repeat protein L36 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L36 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_3831843_len_126798_cov_1_523565@_HiSeq_19363320.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_3831843_len_126798_cov_1_523565@_HiSeq_19363320.txt data/models_hmm/2061766007@rumenHiSeq_NODE_3831843_len_126798_cov_1_523565@_HiSeq_19363320.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:39 2021
+# [ok]

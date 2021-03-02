@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P54308|TERL_BPSPP    58.3   4.9e-16   1   1.1   0.0    Terminase, large subunit OS=Bacillus phage SPP1 OX=10724 GN=2 PE=1 SV=1
+sp|Q6QGD2|TERL_BPT5     17.4    0.0013   1   1.5   1.9    Terminase, large subunit OS=Escherichia phage T5 OX=10726 GN=ORF144 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P54308|TERL_BPSPP    57.8     7e-16     1   0.0     14    257     31    230     26    212     Terminase, large subunit OS=Bacillus phage SPP1 OX=10724 GN=2 PE=1 SV=1
+sp|Q6QGD2|TERL_BPT5     16.3    0.0028     1   1.9    215    435    282    429    248    400     Terminase, large subunit OS=Escherichia phage T5 OX=10726 GN=ORF144 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_203458@NC_003085.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_203458@NC_003085.txt data/models_hmm/NP_203458@NC_003085.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:58 2021
+# [ok]

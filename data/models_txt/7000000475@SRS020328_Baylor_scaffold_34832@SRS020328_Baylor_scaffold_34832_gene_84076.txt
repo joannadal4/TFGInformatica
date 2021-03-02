@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q04763|SCAF_BPLLH    24.0   2.8e-05   1   1.4   7.8    Capsid assembly scaffolding protein OS=Lactococcus phage LL-H OX=12348 GN=g20 PE=3 SV=1
+sp|Q04764|SCAF_BPMV4    23.3   4.8e-05   2   1.9   9.0    Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q04763|SCAF_BPLLH    23.8   3.4e-05     1   7.4      1    125      1     98      1     96     Capsid assembly scaffolding protein OS=Lactococcus phage LL-H OX=12348 GN=g20 PE=3 SV=1
+sp|Q04764|SCAF_BPMV4    22.4   8.8e-05     1   6.9      1    107      1     72      1     73     Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+sp|Q04764|SCAF_BPMV4     1.0   3.3e+02     2   0.7     72    145    100    137     39     73     Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000475@SRS020328_Baylor_scaffold_34832@SRS020328_Baylor_scaffold_34832_gene_84076.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000475@SRS020328_Baylor_scaffold_34832@SRS020328_Baylor_scaffold_34832_gene_84076.txt data/models_hmm/7000000475@SRS020328_Baylor_scaffold_34832@SRS020328_Baylor_scaffold_34832_gene_84076.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:33 2021
+# [ok]

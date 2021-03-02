@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q7TLR9|VP91_NPVCF     24.2   7.4e-06   1   1.6   1.2    Capsid-associated protein Vp91 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=ORF78 PE=3 SV=1
+sp|O10336|VP91_NPVOP     16.9    0.0011   1   1.2   2.1    Capsid-associated protein Vp91 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=p91 PE=3 SV=1
+sp|Q5UQ10|YL192_MIMIV    10.6     0.092   1   1.0   9.5    Uncharacterized protein L192 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L192 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q7TLR9|VP91_NPVCF     23.0   1.7e-05     1   1.2    114    358    219    327    243    350     Capsid-associated protein Vp91 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=ORF78 PE=3 SV=1
+sp|O10336|VP91_NPVOP     16.3    0.0018     1   2.1    204    384    215    336    239    358     Capsid-associated protein Vp91 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=p91 PE=3 SV=1
+sp|Q5UQ10|YL192_MIMIV    10.7      0.09     1   9.5     19    251     58    180    205    319     Uncharacterized protein L192 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L192 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008856881@NC_022966.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008856881@NC_022966.txt data/models_hmm/YP_008856881@NC_022966.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:36 2021
+# [ok]

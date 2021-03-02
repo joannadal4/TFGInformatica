@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q37893|FIB12_BPB03    12.0      0.11   2   2.4   0.2    Pre-neck appendage protein OS=Bacillus phage B103 OX=10778 GN=12 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q37893|FIB12_BPB03     8.2       1.7     2   0.0    319    439    323    432     71    185     Pre-neck appendage protein OS=Bacillus phage B103 OX=10778 GN=12 PE=3 SV=1
+sp|Q37893|FIB12_BPB03     0.8     3e+02     1   0.1     33     78     44     64    140    162     Pre-neck appendage protein OS=Bacillus phage B103 OX=10778 GN=12 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000363@SRS015947_WUGC_scaffold_4770@SRS015947_WUGC_scaffold_4770_gene_4920.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000363@SRS015947_WUGC_scaffold_4770@SRS015947_WUGC_scaffold_4770_gene_4920.txt data/models_hmm/7000000363@SRS015947_WUGC_scaffold_4770@SRS015947_WUGC_scaffold_4770_gene_4920.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:34 2021
+# [ok]

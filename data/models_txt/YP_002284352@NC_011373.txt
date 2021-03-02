@@ -1,0 +1,40 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P85501|TMP_BPPAJ    1392.7         0   2   2.0  68.8    Tape measure protein OS=Pseudomonas phage PAJU2 OX=504346 GN=18 PE=1 SV=2
+sp|Q6XQC4|TMP_BPT1      256.8     4e-76   3   4.0  70.2    Tape measure protein OS=Escherichia phage T1 OX=1921008 GN=38 PE=3 SV=1
+sp|O64330|TMP_BPN15     184.2   3.4e-54   2   2.9  59.7    Tape measure protein OS=Escherichia phage N15 OX=40631 GN=gene 16 PE=3 SV=1
+sp|P03736|TMP_LAMBD     163.8   4.8e-48   2   2.7  70.7    Tape measure protein OS=Escherichia phage lambda OX=10710 GN=H PE=1 SV=1
+sp|Q91G57|041L_IIV6      22.0   3.3e-05   1   1.0   2.7    Uncharacterized protein 041L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-041L PE=4 SV=1
+sp|Q5UR53|YL583_MIMIV    11.3     0.059   1   1.0   0.2    Uncharacterized protein L583 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L583 PE=4 SV=1
+sp|Q91FW9|VF201_IIV6      9.2      0.25   1   1.1   0.6    Putative Bro-N domain-containing protein 201R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-201R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P85501|TMP_BPPAJ    1133.2         0     2  53.9    167    917    168    917    304   1010     Tape measure protein OS=Pseudomonas phage PAJU2 OX=504346 GN=18 PE=1 SV=2
+sp|P85501|TMP_BPPAJ     266.5   4.6e-79     1   6.9      1    168      2    167     78    263     Tape measure protein OS=Pseudomonas phage PAJU2 OX=504346 GN=18 PE=1 SV=2
+sp|Q6XQC4|TMP_BPT1      134.6   3.3e-39     3  48.0    258    921    265    905    311    956     Tape measure protein OS=Escherichia phage T1 OX=1921008 GN=38 PE=3 SV=1
+sp|Q6XQC4|TMP_BPT1      110.7   5.5e-32     2   4.5    131    263    188    258    193    263     Tape measure protein OS=Escherichia phage T1 OX=1921008 GN=38 PE=3 SV=1
+sp|O64330|TMP_BPN15      95.6   1.9e-27     2  50.7    122    727    126    711    311    900     Tape measure protein OS=Escherichia phage N15 OX=40631 GN=gene 16 PE=3 SV=1
+sp|O64330|TMP_BPN15      91.7   2.9e-26     1   1.7     33    130     51    120    195    264     Tape measure protein OS=Escherichia phage N15 OX=40631 GN=gene 16 PE=3 SV=1
+sp|P03736|TMP_LAMBD      86.7   9.8e-25     2  59.2    113    841    113    736    300    935     Tape measure protein OS=Escherichia phage lambda OX=10710 GN=H PE=1 SV=1
+sp|P03736|TMP_LAMBD      82.8   1.5e-23     1   4.5     17    122     50    118    195    263     Tape measure protein OS=Escherichia phage lambda OX=10710 GN=H PE=1 SV=1
+sp|Q91G57|041L_IIV6      21.7   4.1e-05     1   2.7     35    121     40    120    538    613     Uncharacterized protein 041L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-041L PE=4 SV=1
+sp|Q6XQC4|TMP_BPT1       17.1     0.001     1   4.7     12    145     44    135    121    210     Tape measure protein OS=Escherichia phage T1 OX=1921008 GN=38 PE=3 SV=1
+sp|Q5UR53|YL583_MIMIV    11.2      0.06     1   0.2     15     96     26     66    628    668     Uncharacterized protein L583 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L583 PE=4 SV=1
+sp|Q91FW9|VF201_IIV6      8.8      0.31     1   0.6     52    210    123    189    676    744     Putative Bro-N domain-containing protein 201R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-201R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002284352@NC_011373.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002284352@NC_011373.txt data/models_hmm/YP_002284352@NC_011373.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:01 2021
+# [ok]

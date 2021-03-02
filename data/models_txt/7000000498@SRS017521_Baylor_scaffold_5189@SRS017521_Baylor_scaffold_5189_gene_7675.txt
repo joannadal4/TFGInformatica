@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q65187|VFH33_ASFB7    14.7     0.023   2   2.2   0.6    Protein H339R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-116 PE=1 SV=1
+sp|P0CAN4|VFH33_ASFP4    13.8     0.045   2   2.2   0.8    Protein H339R OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-128 PE=3 SV=1
+sp|P0CAN5|VFH33_ASFWA    13.6      0.05   2   2.2   0.8    Protein H339R OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-126 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q65187|VFH33_ASFB7    12.8     0.092     1   0.1     84    160     87    149      4     61     Protein H339R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-116 PE=1 SV=1
+sp|P0CAN4|VFH33_ASFP4    11.8      0.18     1   0.1     84    160     88    149      5     61     Protein H339R OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-128 PE=3 SV=1
+sp|P0CAN5|VFH33_ASFWA    11.8      0.18     1   0.1     84    160     88    149      5     61     Protein H339R OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-126 PE=3 SV=1
+sp|Q65187|VFH33_ASFB7    -1.0   1.8e+03     2   0.1    251    315    283    305     48     70     Protein H339R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-116 PE=1 SV=1
+sp|P0CAN4|VFH33_ASFP4    -1.1   1.8e+03     2   0.1    250    315    283    305     48     70     Protein H339R OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-128 PE=3 SV=1
+sp|P0CAN5|VFH33_ASFWA    -1.1   1.8e+03     2   0.1    251    315    283    305     48     70     Protein H339R OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-126 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000498@SRS017521_Baylor_scaffold_5189@SRS017521_Baylor_scaffold_5189_gene_7675.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000498@SRS017521_Baylor_scaffold_5189@SRS017521_Baylor_scaffold_5189_gene_7675.txt data/models_hmm/7000000498@SRS017521_Baylor_scaffold_5189@SRS017521_Baylor_scaffold_5189_gene_7675.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:44 2021
+# [ok]

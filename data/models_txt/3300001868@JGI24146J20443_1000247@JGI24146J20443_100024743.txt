@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6WB97|M21_HMPVC     12.6      0.13   2   2.3   0.1    Protein M2-1 OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=M2-1 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6WB97|M21_HMPVC      7.3       5.8     1   0.1     64    120     74     94     68     88     Protein M2-1 OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=M2-1 PE=1 SV=1
+sp|Q6WB97|M21_HMPVC      3.3     1e+02     2   0.0    109    161    115    154     58     97     Protein M2-1 OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=M2-1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001868@JGI24146J20443_1000247@JGI24146J20443_100024743.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001868@JGI24146J20443_1000247@JGI24146J20443_100024743.txt data/models_hmm/3300001868@JGI24146J20443_1000247@JGI24146J20443_100024743.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:33 2021
+# [ok]

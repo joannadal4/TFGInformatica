@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8JYK0|VP5_FDVS      12.8      0.06   2   1.9   0.0    Uncharacterized protein VP5 OS=Fiji disease virus (isolate Sugarcane) OX=648172 GN=S5 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8JYK0|VP5_FDVS      10.8      0.24     2   0.0    634    787    651    746     61    147     Uncharacterized protein VP5 OS=Fiji disease virus (isolate Sugarcane) OX=648172 GN=S5 PE=4 SV=1
+sp|Q8JYK0|VP5_FDVS      -1.6   1.5e+03     1   0.0    491    565    501    558    102    157     Uncharacterized protein VP5 OS=Fiji disease virus (isolate Sugarcane) OX=648172 GN=S5 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2162886007@SwRhRL2b_contig_1367046@SwRhRL2b_0344_00000820.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2162886007@SwRhRL2b_contig_1367046@SwRhRL2b_0344_00000820.txt data/models_hmm/2162886007@SwRhRL2b_contig_1367046@SwRhRL2b_0344_00000820.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:02 2021
+# [ok]

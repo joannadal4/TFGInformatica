@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6RZF4|RP35_RABPU     13.0     0.077   1   1.7   0.1    DNA-directed RNA polymerase 35 kDa subunit OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPO35 PE=3 SV=1
+sp|Q5UPS5|YL780_MIMIV    12.6       0.1   2   2.4   0.1    Uncharacterized protein L780 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L780 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6RZF4|RP35_RABPU     11.6      0.21     1   0.1    134    191    149    184     18     53     DNA-directed RNA polymerase 35 kDa subunit OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPO35 PE=3 SV=1
+sp|Q5UPS5|YL780_MIMIV     8.8       1.5     1   0.0      9    102     26     99     22     94     Uncharacterized protein L780 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L780 PE=1 SV=1
+sp|Q5UPS5|YL780_MIMIV     1.0   4.3e+02     2   0.0    240    277    256    272     27     43     Uncharacterized protein L780 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L780 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001106@JGI11978J13257_1000002@JGI11978J13257_1000002100.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001106@JGI11978J13257_1000002@JGI11978J13257_1000002100.txt data/models_hmm/3300001106@JGI11978J13257_1000002@JGI11978J13257_1000002100.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:23 2021
+# [ok]

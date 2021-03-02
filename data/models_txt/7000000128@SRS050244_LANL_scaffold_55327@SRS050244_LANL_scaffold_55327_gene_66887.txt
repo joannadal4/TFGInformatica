@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21068|A49_VACCC     11.5      0.21   2   1.8   6.0    Protein A49 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A49R PE=3 SV=1
+sp|P31037|A49_VACCW     11.5      0.21   2   1.9   6.3    Protein A49R OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR175 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P31037|A49_VACCW     12.5      0.11     1   3.3      8    109     38     88     77    125     Protein A49R OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR175 PE=1 SV=1
+sp|P21068|A49_VACCC     12.1      0.13     1   3.7      9    111     38     88     77    125     Protein A49 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A49R PE=3 SV=1
+sp|P31037|A49_VACCW     -0.8   1.3e+03     2   0.1    107    156    114    150     63     94     Protein A49R OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR175 PE=1 SV=1
+sp|P21068|A49_VACCC     -1.2   1.7e+03     2   0.0    107    156    114    150     63     94     Protein A49 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A49R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000128@SRS050244_LANL_scaffold_55327@SRS050244_LANL_scaffold_55327_gene_66887.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000128@SRS050244_LANL_scaffold_55327@SRS050244_LANL_scaffold_55327_gene_66887.txt data/models_hmm/7000000128@SRS050244_LANL_scaffold_55327@SRS050244_LANL_scaffold_55327_gene_66887.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:42 2021
+# [ok]

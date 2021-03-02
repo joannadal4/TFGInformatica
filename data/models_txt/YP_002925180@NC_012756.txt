@@ -1,0 +1,79 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P24759|ATI_VACCW     17.3    0.0036   4   5.2  10.1    A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+sp|O64230|VG39_BPMD2    15.2     0.017   1   1.4   3.0    Gene 39 protein OS=Mycobacterium phage D29 OX=28369 GN=39 PE=4 SV=1
+sp|Q05249|VG39_BPML5    14.7     0.024   2   2.2   0.4    Gene 39 protein OS=Mycobacterium phage L5 OX=31757 GN=39 PE=4 SV=1
+sp|Q98167|VP4_ROTRA     13.7     0.049   3   2.7   0.4    Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Rabbit/United States/ALA/XXXX/G3P11[14]) OX=101359 PE=2 SV=1
+sp|P39033|VP4_ROTH3     13.4      0.06   3   2.7   0.3    Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=2 SV=1
+sp|B3SRR1|VP4_ROTH7     12.2      0.14   3   2.4   0.2    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/United Kingdom/A64/1987/G10P11[14]) OX=578827 PE=3 SV=1
+sp|Q08778|VP4_ROTHQ     12.2      0.14   3   2.6   0.2    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/Thailand/Mc35/1992/G10P11[14]) OX=37136 PE=2 SV=1
+sp|Q05482|ATI_CAMPC     12.1      0.16   5   5.7  14.6    A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|Q775Q2|ATI_CAMPS     11.9      0.17   5   5.7  14.9    A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM     11.9      0.17   5   5.7  14.9    A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+sp|P30214|VP4_ROTH5     10.7      0.42   4   2.9   3.5    Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Australia/RV-5/1981/G2P1B[4]) OX=31569 PE=3 SV=1
+sp|Q01641|VP4_ROTHJ     10.4      0.53   3   2.6   2.9    Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/K8/1977/G1P3A[9]) OX=39012 PE=1 SV=1
+sp|Q3ZK58|VP4_ROT41     10.2       0.6   3   2.5   3.3    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/Belgium/B4106/2000/G3P11[14]) OX=578843 PE=3 SV=1
+sp|P39034|VP4_ROTF1      9.7      0.86   3   2.7   3.7    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cat/Japan/FRV-1/1986/G3P3[9]) OX=39009 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64230|VG39_BPMD2    14.7     0.024     1   2.7     93    128    101    127     34     60     Gene 39 protein OS=Mycobacterium phage D29 OX=28369 GN=39 PE=4 SV=1
+sp|Q98167|VP4_ROTRA     13.7     0.049     1   0.4    471    529    473    526     10     64     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Rabbit/United States/ALA/XXXX/G3P11[14]) OX=101359 PE=2 SV=1
+sp|P39033|VP4_ROTH3     13.4      0.06     1   0.3    471    529    473    526     10     64     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=2 SV=1
+sp|B3SRR1|VP4_ROTH7     12.2      0.14     1   0.2    470    528    475    525     13     64     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/United Kingdom/A64/1987/G10P11[14]) OX=578827 PE=3 SV=1
+sp|Q08778|VP4_ROTHQ     12.2      0.14     1   0.2    471    529    476    526     13     64     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/Thailand/Mc35/1992/G10P11[14]) OX=37136 PE=2 SV=1
+sp|Q3ZK58|VP4_ROT41     10.5      0.47     1   0.2    471    529    476    526     13     64     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/Belgium/B4106/2000/G3P11[14]) OX=578843 PE=3 SV=1
+sp|P39034|VP4_ROTF1     10.2       0.6     1   0.1    471    529    476    526     13     64     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cat/Japan/FRV-1/1986/G3P3[9]) OX=39009 PE=2 SV=1
+sp|Q01641|VP4_ROTHJ     10.2       0.6     1   0.1    471    529    476    526     13     64     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/K8/1977/G1P3A[9]) OX=39012 PE=1 SV=1
+sp|Q05249|VG39_BPML5    10.1      0.64     2   0.3    108    135    111    133     34     56     Gene 39 protein OS=Mycobacterium phage L5 OX=31757 GN=39 PE=4 SV=1
+sp|P30214|VP4_ROTH5      9.0       1.4     1   1.2    470    526    472    518     10     57     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Australia/RV-5/1981/G2P1B[4]) OX=31569 PE=3 SV=1
+sp|P24759|ATI_VACCW      8.3       2.4     4   0.2    684    717    687    708     37     58     A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+sp|Q05482|ATI_CAMPC      7.6       3.9     4   0.1    665    688    668    685     41     58     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|Q775Q2|ATI_CAMPS      7.6       3.9     4   0.1    665    688    668    685     41     58     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM      7.6       3.9     4   0.1    665    688    668    685     41     58     A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+sp|P24759|ATI_VACCW      6.3       9.7     3   0.2    664    690    667    685     41     59     A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+sp|Q05482|ATI_CAMPC      5.2        21     5   0.2    682    718    682    709     34     58     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|Q775Q2|ATI_CAMPS      5.2        21     5   0.2    682    718    682    709     34     58     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM      5.2        21     5   0.2    682    718    682    709     34     58     A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+sp|Q05482|ATI_CAMPC      4.1        48     2   0.1    606    637    617    633     45     61     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|Q775Q2|ATI_CAMPS      4.1        48     2   0.1    606    637    617    633     45     61     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM      4.1        48     2   0.1    606    637    617    633     45     61     A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+sp|P24759|ATI_VACCW      3.4        77     2   0.2    632    659    635    655     37     57     A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+sp|Q05482|ATI_CAMPC      3.3        86     3   0.2    634    660    636    656     37     57     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|Q775Q2|ATI_CAMPS      3.3        86     3   0.2    634    660    636    656     37     57     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM      3.3        86     3   0.2    634    660    636    656     37     57     A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+sp|P24759|ATI_VACCW      2.6   1.4e+02     1   0.1    579    637    616    632     45     61     A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+sp|Q05249|VG39_BPML5     2.5   1.6e+02     1   0.0     49    105     58     97     24     62     Gene 39 protein OS=Mycobacterium phage L5 OX=31757 GN=39 PE=4 SV=1
+sp|Q775Q2|ATI_CAMPS     -0.5   1.3e+03     1   0.2    427    479    460    474     39     53     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM     -0.5   1.3e+03     1   0.2    427    479    460    474     39     53     A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+sp|Q05482|ATI_CAMPC     -0.6   1.5e+03     1   0.2    427    479    461    474     40     53     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|P30214|VP4_ROTH5     -1.2   2.1e+03     2   0.0    539    577    554    574     43     63     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Australia/RV-5/1981/G2P1B[4]) OX=31569 PE=3 SV=1
+sp|P30214|VP4_ROTH5     -2.1   4.1e+03     4   0.0    643    674    649    669      8     28     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Australia/RV-5/1981/G2P1B[4]) OX=31569 PE=3 SV=1
+sp|P30214|VP4_ROTH5     -2.2   4.5e+03     3   0.1    621    664    635    649      6     20     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Australia/RV-5/1981/G2P1B[4]) OX=31569 PE=3 SV=1
+sp|Q08778|VP4_ROTHQ     -2.2   4.5e+03     2   0.0    645    670    649    668      7     26     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/Thailand/Mc35/1992/G10P11[14]) OX=37136 PE=2 SV=1
+sp|Q3ZK58|VP4_ROT41     -2.5   5.5e+03     2   0.1    541    609    545    558     18     31     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/Belgium/B4106/2000/G3P11[14]) OX=578843 PE=3 SV=1
+sp|Q98167|VP4_ROTRA     -2.9   7.3e+03     3   0.0    643    669    649    668      7     26     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Rabbit/United States/ALA/XXXX/G3P11[14]) OX=101359 PE=2 SV=1
+sp|Q3ZK58|VP4_ROT41     -3.0   7.6e+03     3   0.0    644    669    649    668      7     26     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/Belgium/B4106/2000/G3P11[14]) OX=578843 PE=3 SV=1
+sp|P39033|VP4_ROTH3     -3.2   9.2e+03     2   0.1    596    629    601    628     30     57     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=2 SV=1
+sp|P39034|VP4_ROTF1     -3.2   9.2e+03     2   0.1    596    629    601    628     30     57     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cat/Japan/FRV-1/1986/G3P3[9]) OX=39009 PE=2 SV=1
+sp|Q98167|VP4_ROTRA     -3.2   9.3e+03     2   1.4    539    569    540    557     13     30     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Rabbit/United States/ALA/XXXX/G3P11[14]) OX=101359 PE=2 SV=1
+sp|B3SRR1|VP4_ROTH7     -3.3     1e+04     2   0.0    642    667    648    666      7     25     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/United Kingdom/A64/1987/G10P11[14]) OX=578827 PE=3 SV=1
+sp|P39033|VP4_ROTH3     -3.5   1.2e+04     3   0.0    644    669    648    667      7     26     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=2 SV=1
+sp|P39034|VP4_ROTF1     -3.5   1.2e+04     3   0.0    644    669    648    667      7     26     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cat/Japan/FRV-1/1986/G3P3[9]) OX=39009 PE=2 SV=1
+sp|Q01641|VP4_ROTHJ     -3.5   1.2e+04     2   0.0    644    669    648    667      7     26     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/K8/1977/G1P3A[9]) OX=39012 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002925180@NC_012756.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002925180@NC_012756.txt data/models_hmm/YP_002925180@NC_012756.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:16 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CK15|MVP_ZYMVS     18.8   0.00032   1   1.2   0.1    P3N-PIPO polyprotein OS=Zucchini yellow mosaic virus (strain Singapore) OX=117130 PE=3 SV=2
+sp|O36979|POLG_ZYMVS    16.8    0.0012   1   1.2   0.1    Genome polyprotein OS=Zucchini yellow mosaic virus (strain Singapore) OX=117130 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CK15|MVP_ZYMVS     18.1   0.00051     1   0.1     95    207    106    200    164    256     P3N-PIPO polyprotein OS=Zucchini yellow mosaic virus (strain Singapore) OX=117130 PE=3 SV=2
+sp|O36979|POLG_ZYMVS    16.2    0.0019     1   0.1     95    207    119    200    175    256     Genome polyprotein OS=Zucchini yellow mosaic virus (strain Singapore) OX=117130 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001357@JGI11876J14442_10000001@JGI11876J14442_10000001327.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001357@JGI11876J14442_10000001@JGI11876J14442_10000001327.txt data/models_hmm/3300001357@JGI11876J14442_10000001@JGI11876J14442_10000001327.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:06 2021
+# [ok]

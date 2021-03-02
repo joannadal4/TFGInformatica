@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P32274|Y06N_BPT4     12.0     0.069   1   1.0   0.3    Uncharacterized 14.2 kDa protein in e-segB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y06N PE=4 SV=1
+sp|A4GCH5|HEMA_I83A1    11.0      0.14   1   1.2   0.2    Hemagglutinin OS=Influenza A virus (strain A/Chile/1/1983 H1N1) OX=380985 GN=HA PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P32274|Y06N_BPT4     11.7     0.083     1   0.3     11     65     21     56    150    183     Uncharacterized 14.2 kDa protein in e-segB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y06N PE=4 SV=1
+sp|A4GCH5|HEMA_I83A1    10.3      0.23     1   0.2    338    444    347    437    212    298     Hemagglutinin OS=Influenza A virus (strain A/Chile/1/1983 H1N1) OX=380985 GN=HA PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008058404@NC_021319.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008058404@NC_021319.txt data/models_hmm/YP_008058404@NC_021319.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:12 2021
+# [ok]

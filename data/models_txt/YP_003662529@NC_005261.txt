@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68342|VG67_EHV1K   508.6  3.4e-153   1   1.0   5.1    Uncharacterized gene 67 protein OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=IR6 PE=4 SV=1
+sp|Q6LAQ8|VG67_EHV1B   508.6  3.4e-153   1   1.0   5.1    Uncharacterized gene 67 protein OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=IR6 PE=4 SV=1
+sp|Q08104|YOR1_BHV1S   189.2   8.8e-56   1   1.0   0.5    Uncharacterized 16.1 kDa protein OS=Bovine herpesvirus 1.2 (strain ST) OX=45407 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68342|VG67_EHV1K   508.5  3.8e-153     1   5.1      1    272      1    272      1    272     Uncharacterized gene 67 protein OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=IR6 PE=4 SV=1
+sp|Q6LAQ8|VG67_EHV1B   508.5  3.8e-153     1   5.1      1    272      1    272      1    272     Uncharacterized gene 67 protein OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=IR6 PE=4 SV=1
+sp|Q08104|YOR1_BHV1S   189.0     1e-55     1   0.5      1    134      2    131     23    160     Uncharacterized 16.1 kDa protein OS=Bovine herpesvirus 1.2 (strain ST) OX=45407 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003662529@NC_005261.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003662529@NC_005261.txt data/models_hmm/YP_003662529@NC_005261.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:41 2021
+# [ok]

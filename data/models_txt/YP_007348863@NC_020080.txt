@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P18056|HOC_BPT4      93.3   1.3e-26   3   2.5   4.1    Highly immunogenic outer capsid protein OS=Enterobacteria phage T4 OX=10665 GN=hoc PE=1 SV=1
+sp|P18058|INH_BPT4      14.7     0.018   1   1.7   0.3    Protein inh OS=Enterobacteria phage T4 OX=10665 GN=inh PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P18056|HOC_BPT4      93.3   1.3e-26     3   4.1    177    373    219    367     31    162     Highly immunogenic outer capsid protein OS=Enterobacteria phage T4 OX=10665 GN=hoc PE=1 SV=1
+sp|P18058|INH_BPT4      13.8     0.036     1   0.2     65    226    161    224     94    158     Protein inh OS=Enterobacteria phage T4 OX=10665 GN=inh PE=4 SV=2
+sp|P18056|HOC_BPT4       2.2   1.3e+02     2   0.4    107    195    124    157     31     66     Highly immunogenic outer capsid protein OS=Enterobacteria phage T4 OX=10665 GN=hoc PE=1 SV=1
+sp|P18056|HOC_BPT4      -2.4   3.4e+03     1   0.0     15    107     59     59     62     62     Highly immunogenic outer capsid protein OS=Enterobacteria phage T4 OX=10665 GN=hoc PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007348863@NC_020080.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007348863@NC_020080.txt data/models_hmm/YP_007348863@NC_020080.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:41 2021
+# [ok]

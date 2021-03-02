@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68928|TERS_BPSF6    29.3     7e-07   1   1.6   2.9    Terminase small subunit OS=Bacillus phage SF6 OX=10773 GN=1 PE=1 SV=2
+sp|P68929|TERS_BPRH5    29.3     7e-07   1   1.6   2.9    Terminase small subunit OS=Bacillus phage rho15 OX=36451 GN=1 PE=3 SV=2
+sp|P54307|TERS_BPSPP    27.3   2.9e-06   1   1.8   4.4    Terminase small subunit OS=Bacillus phage SPP1 OX=10724 GN=1 PE=1 SV=4
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68928|TERS_BPSF6    28.0   1.8e-06     1   2.9      7    143     18    135     16    123     Terminase small subunit OS=Bacillus phage SF6 OX=10773 GN=1 PE=1 SV=2
+sp|P68929|TERS_BPRH5    28.0   1.8e-06     1   2.9      7    143     18    135     16    123     Terminase small subunit OS=Bacillus phage rho15 OX=36451 GN=1 PE=3 SV=2
+sp|P54307|TERS_BPSPP    25.4   1.1e-05     1   4.4     10    145     32    137     27    123     Terminase small subunit OS=Bacillus phage SPP1 OX=10724 GN=1 PE=1 SV=4
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001683@GBIDBA_10001348@GBIDBA_1000134831.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001683@GBIDBA_10001348@GBIDBA_1000134831.txt data/models_hmm/3300001683@GBIDBA_10001348@GBIDBA_1000134831.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:09 2021
+# [ok]

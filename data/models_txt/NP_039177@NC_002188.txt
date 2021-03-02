@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P17357|IL18B_VACCW    16.9    0.0044   1   1.2   0.2    Interleukin-18-binding protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR013 PE=3 SV=2
+sp|P13310|VS_BPT4        13.3     0.058   2   2.1   0.3    Valyl--tRNA ligase modifier OS=Enterobacteria phage T4 OX=10665 GN=vs PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P17357|IL18B_VACCW    16.7    0.0049     1   0.2      4    125     31    119     45    133     Interleukin-18-binding protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR013 PE=3 SV=2
+sp|P13310|VS_BPT4        10.5      0.41     1   0.1     13     61     20     46    100    125     Valyl--tRNA ligase modifier OS=Enterobacteria phage T4 OX=10665 GN=vs PE=1 SV=1
+sp|P13310|VS_BPT4         0.8   3.9e+02     2   0.0     73    110     88    106     38     56     Valyl--tRNA ligase modifier OS=Enterobacteria phage T4 OX=10665 GN=vs PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_039177@NC_002188.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_039177@NC_002188.txt data/models_hmm/NP_039177@NC_002188.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:12 2021
+# [ok]

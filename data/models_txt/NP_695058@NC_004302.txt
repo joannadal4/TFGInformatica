@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64209|SCAF_BPMD2    20.3   0.00046   1   1.4   6.5    Probable capsid assembly scaffolding protein OS=Mycobacterium phage D29 OX=28369 GN=16 PE=3 SV=1
+sp|P28967|GG_EHV1B      12.5      0.12   1   1.1   0.0    Envelope glycoprotein G OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=gG PE=1 SV=1
+sp|P84393|GG_EHV1V      12.5      0.12   1   1.1   0.0    Envelope glycoprotein G OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=gG PE=3 SV=1
+sp|P32514|GG_EHV1K      12.4      0.12   1   1.1   0.0    Envelope glycoprotein G OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=gG PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64209|SCAF_BPMD2    19.5   0.00078     1   6.5      9    173     43    150     39    150     Probable capsid assembly scaffolding protein OS=Mycobacterium phage D29 OX=28369 GN=16 PE=3 SV=1
+sp|P28967|GG_EHV1B      11.9      0.17     1   0.0    271    360    284    342    122    177     Envelope glycoprotein G OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=gG PE=1 SV=1
+sp|P32514|GG_EHV1K      11.9      0.17     1   0.0    271    360    284    342    122    177     Envelope glycoprotein G OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=gG PE=3 SV=2
+sp|P84393|GG_EHV1V      11.9      0.17     1   0.0    271    360    284    342    122    177     Envelope glycoprotein G OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=gG PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_695058@NC_004302.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_695058@NC_004302.txt data/models_hmm/NP_695058@NC_004302.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:18 2021
+# [ok]

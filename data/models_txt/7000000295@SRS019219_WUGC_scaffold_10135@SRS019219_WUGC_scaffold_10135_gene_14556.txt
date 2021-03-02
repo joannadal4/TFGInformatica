@@ -1,0 +1,48 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09175|VME1_CVPFS      8.0      0.39   1   1.1   3.6    Membrane protein OS=Porcine transmissible gastroenteritis coronavirus (strain FS772/70) OX=11150 GN=M PE=1 SV=1
+sp|Q7T6S9|VME1_CVCBG      7.1       0.7   1   1.1   3.6    Membrane protein OS=Canine coronavirus (strain BGF10) OX=441619 GN=M PE=3 SV=1
+sp|Q91G56|042R_IIV6       7.0      0.78   1   1.0   7.4    Uncharacterized protein 042R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-042R PE=4 SV=1
+sp|P04135|VME1_CVPPU      6.7      0.92   1   1.1   3.7    Membrane protein OS=Porcine transmissible gastroenteritis coronavirus (strain Purdue) OX=11151 GN=M PE=1 SV=2
+sp|P0CAM1|VFB66_ASFM2     6.7      0.95   1   1.0   2.3    Transmembrane protein B66L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-095 PE=3 SV=1
+sp|P0CAM2|VFB66_ASFP4     6.7      0.95   1   1.0   2.3    Transmembrane protein B66L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-099 PE=3 SV=1
+sp|P0CAM3|VFB66_ASFWA     6.7      0.95   1   1.0   2.3    Transmembrane protein B66L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-097 PE=3 SV=1
+sp|Q65176|VFB66_ASFB7     6.7      0.95   1   1.0   2.3    Transmembrane protein B66L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-087 PE=3 SV=1
+sp|P33464|VME1_CVPR8      6.6         1   1   1.1   4.1    Membrane protein OS=Porcine respiratory coronavirus (strain 86/137004 / isolate British) OX=33736 GN=M PE=3 SV=1
+sp|P24412|VME1_CVPRM      5.6       2.1   1   1.1   5.0    Membrane protein OS=Porcine respiratory coronavirus (strain RM4) OX=11148 GN=M PE=3 SV=1
+sp|Q5UQG8|YL817_MIMIV     3.7       7.7   2   1.3   9.2    Uncharacterized protein L817 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L817 PE=4 SV=1
+sp|P0DST5|A38_VAR67       3.3       9.9   1   1.1  11.6    Protein A38 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A38L PE=3 SV=1
+sp|P0DST6|A38_VARV        3.3       9.9   1   1.1  11.6    Protein A38 OS=Variola virus OX=10255 GN=A38L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09175|VME1_CVPFS      7.6       0.5     1   3.6     57    150     81    134    878    933     Membrane protein OS=Porcine transmissible gastroenteritis coronavirus (strain FS772/70) OX=11150 GN=M PE=1 SV=1
+sp|Q5UQG8|YL817_MIMIV     7.2      0.67     2   5.0     56    127     66    120    878    933     Uncharacterized protein L817 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L817 PE=4 SV=1
+sp|Q91G56|042R_IIV6       6.9      0.81     1   7.4      1     92      4     82   1187   1269     Uncharacterized protein 042R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-042R PE=4 SV=1
+sp|Q7T6S9|VME1_CVCBG      6.8      0.88     1   3.6     49    144     81    134    878    933     Membrane protein OS=Canine coronavirus (strain BGF10) OX=441619 GN=M PE=3 SV=1
+sp|P0CAM1|VFB66_ASFM2     6.6         1     1   2.3      2     65      8     62    880    935     Transmembrane protein B66L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-095 PE=3 SV=1
+sp|P0CAM2|VFB66_ASFP4     6.6         1     1   2.3      2     65      8     62    880    935     Transmembrane protein B66L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-099 PE=3 SV=1
+sp|P0CAM3|VFB66_ASFWA     6.6         1     1   2.3      2     65      8     62    880    935     Transmembrane protein B66L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-097 PE=3 SV=1
+sp|Q65176|VFB66_ASFB7     6.6         1     1   2.3      2     65      8     62    880    935     Transmembrane protein B66L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-087 PE=3 SV=1
+sp|P04135|VME1_CVPPU      6.4       1.2     1   3.7     49    145     80    134    877    933     Membrane protein OS=Porcine transmissible gastroenteritis coronavirus (strain Purdue) OX=11151 GN=M PE=1 SV=2
+sp|P33464|VME1_CVPR8      6.2       1.3     1   4.1     53    144     81    134    878    933     Membrane protein OS=Porcine respiratory coronavirus (strain 86/137004 / isolate British) OX=33736 GN=M PE=3 SV=1
+sp|P24412|VME1_CVPRM      5.2       2.7     1   5.0     57    144     81    134    878    933     Membrane protein OS=Porcine respiratory coronavirus (strain RM4) OX=11148 GN=M PE=3 SV=1
+sp|P0DST5|A38_VAR67       3.0        13     1  11.6    110    256    117    235    841    959     Protein A38 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A38L PE=3 SV=1
+sp|P0DST6|A38_VARV        3.0        13     1  11.6    110    256    117    235    841    959     Protein A38 OS=Variola virus OX=10255 GN=A38L PE=3 SV=1
+sp|Q5UQG8|YL817_MIMIV    -3.8   1.4e+03     1   0.1      6     44     12     39   1139   1164     Uncharacterized protein L817 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L817 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000295@SRS019219_WUGC_scaffold_10135@SRS019219_WUGC_scaffold_10135_gene_14556.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000295@SRS019219_WUGC_scaffold_10135@SRS019219_WUGC_scaffold_10135_gene_14556.txt data/models_hmm/7000000295@SRS019219_WUGC_scaffold_10135@SRS019219_WUGC_scaffold_10135_gene_14556.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:58 2021
+# [ok]

@@ -1,0 +1,52 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6SWC0|UL10_HCMVM    27.2   2.7e-06   2   2.0   4.8    Uncharacterized protein UL10 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL10 PE=3 SV=1
+sp|P16843|UL10_HCMVA    26.0   6.1e-06   2   2.0   6.1    Uncharacterized protein UL10 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL10 PE=3 SV=2
+sp|P11321|E320_ADE03    20.1    0.0004   1   1.5   6.4    Early E3 20.1 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+sp|P21602|TR14_HCMVA    19.3    0.0007   1   1.2   5.5    Protein TRL14 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|P15139|E321_ADE35    19.0   0.00087   2   3.2  15.8    Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 35 OX=10522 PE=3 SV=2
+sp|P35770|E321_ADE1P    18.7    0.0011   2   3.2  15.3    Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain Slobiski) OX=343462 PE=3 SV=1
+sp|P35769|E321_ADE1A    18.1    0.0017   2   2.9  15.3    Early E3 20.2 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain BC34) OX=343463 PE=3 SV=1
+sp|P15138|E321_ADE07    16.6    0.0049   2   3.0  11.1    Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 7 OX=10519 PE=3 SV=1
+sp|P17175|UL04_HCMVT    15.9    0.0078   1   1.6   8.1    Early glycoprotein GP48 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL4 PE=3 SV=1
+sp|P11322|E321_ADE03    15.5      0.01   2   3.0  10.2    Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+sp|Q6SWC6|UL04_HCMVM     8.8       1.2   1   1.7  11.9    Envelope glycoprotein UL4 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL4 PE=3 SV=1
+sp|Q6SWC3|UL07_HCMVM     8.0       2.1   1   2.8   7.3    CEACAM1-like protein UL7 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL7 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6SWC0|UL10_HCMVM    27.2   2.7e-06     1   4.8     14    185     26    173     22    164     Uncharacterized protein UL10 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL10 PE=3 SV=1
+sp|P16843|UL10_HCMVA    26.0   6.1e-06     1   6.1     16    185     26    174     22    164     Uncharacterized protein UL10 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL10 PE=3 SV=2
+sp|P11321|E320_ADE03    19.2   0.00074     1   6.4     42    178     52    170     82    193     Early E3 20.1 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+sp|P21602|TR14_HCMVA    19.0   0.00087     1   5.5      7    174     15    115     53    151     Protein TRL14 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|P17175|UL04_HCMVT    15.9    0.0078     1   8.1     34    148     45    147     25    136     Early glycoprotein GP48 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL4 PE=3 SV=1
+sp|P35769|E321_ADE1A    13.0     0.059     2  11.4     45    179     53    170     85    193     Early E3 20.2 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain BC34) OX=343463 PE=3 SV=1
+sp|P15138|E321_ADE07    12.0      0.12     2   8.7     45    186     55    176     88    193     Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 7 OX=10519 PE=3 SV=1
+sp|P11322|E321_ADE03    11.8      0.14     2   7.4     44    186     55    176     88    193     Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+sp|P15139|E321_ADE35    11.6      0.16     2  12.7     45    182     53    173     85    192     Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 35 OX=10522 PE=3 SV=2
+sp|P35770|E321_ADE1P    11.3       0.2     2  12.3     45    184     53    173     85    192     Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain Slobiski) OX=343462 PE=3 SV=1
+sp|Q6SWC6|UL04_HCMVM     7.6       2.7     1  11.9     18    149     48    148     26    136     Envelope glycoprotein UL4 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL4 PE=3 SV=1
+sp|P15139|E321_ADE35     5.9       8.9     1   0.1      1     58      7     45     14     51     Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 35 OX=10522 PE=3 SV=2
+sp|P35769|E321_ADE1A     5.7        10     1   0.1      1     55      7     44     14     50     Early E3 20.2 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain BC34) OX=343463 PE=3 SV=1
+sp|P35770|E321_ADE1P     5.6        11     1   0.1      1     55      7     44     14     50     Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain Slobiski) OX=343462 PE=3 SV=1
+sp|Q6SWC0|UL10_HCMVM     2.7        88     2   0.4    176    245    196    226    156    184     Uncharacterized protein UL10 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL10 PE=3 SV=1
+sp|P16843|UL10_HCMVA     2.5     1e+02     2   0.2    183    246    199    228    158    185     Uncharacterized protein UL10 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL10 PE=3 SV=2
+sp|Q6SWC3|UL07_HCMVM     1.9   1.5e+02     1   7.3     13    219    150    209    136    180     CEACAM1-like protein UL7 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL7 PE=3 SV=1
+sp|P11322|E321_ADE03     1.0   2.9e+02     1   0.0      1     49      7     36     15     44     Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+sp|P15138|E321_ADE07     0.6   3.7e+02     1   0.0      1     46      6     36     15     44     Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 7 OX=10519 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004933744@NC_016154.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004933744@NC_016154.txt data/models_hmm/YP_004933744@NC_016154.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:44 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C747|HBZ_HTL1L      3.2       9.2   1   1.0  15.5    HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (isolate Melanesia mel5 subtype C) OX=402046 GN=HBZ PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C747|HBZ_HTL1L      3.0        11     1  15.5     28    205     41    200    567    733     HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (isolate Melanesia mel5 subtype C) OX=402046 GN=HBZ PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000628@SRS015782_WUGC_scaffold_17503@SRS015782_WUGC_scaffold_17503_gene_38916.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000628@SRS015782_WUGC_scaffold_17503@SRS015782_WUGC_scaffold_17503_gene_38916.txt data/models_hmm/7000000628@SRS015782_WUGC_scaffold_17503@SRS015782_WUGC_scaffold_17503_gene_38916.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:40 2021
+# [ok]

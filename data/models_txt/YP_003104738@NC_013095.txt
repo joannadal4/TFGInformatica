@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9Z035|CAPSD_MDV1    295.1   1.4e-88   1   1.0   0.4    Capsid protein OS=Milk vetch dwarf virus (isolate N) OX=291605 GN=DNA-S PE=3 SV=1
+sp|Q9WIJ8|CAPSD_FBNY1   293.2   5.3e-88   1   1.0   0.6    Capsid protein OS=Faba bean necrotic yellows virus (isolate Egyptian EV1-93) OX=291603 GN=DNA-S PE=3 SV=1
+sp|Q8V987|CAPSD_MDV9    293.0   5.9e-88   1   1.0   0.4    Capsid protein OS=Milk vetch dwarf virus (isolate 9) OX=291606 GN=DNA-S PE=3 SV=1
+sp|O39831|CAPSD_FBNY2   292.5   8.6e-88   1   1.0   0.6    Capsid protein OS=Faba bean necrotic yellows virus (isolate SV292-88) OX=291604 GN=DNA-S PE=3 SV=1
+sp|Q87012|CAPSD_SCSVF   259.6   1.1e-77   1   1.0   0.9    Capsid protein OS=Subterranean clover stunt virus (strain F) OX=291607 GN=DNA-S PE=3 SV=1
+sp|Q65386|CAPSD_BBTVA   247.8   4.5e-74   1   1.0   0.2    Capsid protein OS=Banana bunchy top virus (isolate Autralia) OX=645099 GN=DNA-S PE=3 SV=1
+sp|Q87019|CAPSD_SCSVJ   247.7   5.1e-74   1   1.0   0.6    Capsid protein OS=Subterranean clover stunt virus (strain J) OX=291608 GN=DNA-S PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9Z035|CAPSD_MDV1    294.9   1.5e-88     1   0.4      1    172      1    171      1    170     Capsid protein OS=Milk vetch dwarf virus (isolate N) OX=291605 GN=DNA-S PE=3 SV=1
+sp|Q9WIJ8|CAPSD_FBNY1   293.0   5.9e-88     1   0.6      1    172      1    172      1    171     Capsid protein OS=Faba bean necrotic yellows virus (isolate Egyptian EV1-93) OX=291603 GN=DNA-S PE=3 SV=1
+sp|Q8V987|CAPSD_MDV9    292.9   6.5e-88     1   0.4      1    172      1    171      1    170     Capsid protein OS=Milk vetch dwarf virus (isolate 9) OX=291606 GN=DNA-S PE=3 SV=1
+sp|O39831|CAPSD_FBNY2   292.3   9.6e-88     1   0.6      1    172      1    172      1    171     Capsid protein OS=Faba bean necrotic yellows virus (isolate SV292-88) OX=291604 GN=DNA-S PE=3 SV=1
+sp|Q87012|CAPSD_SCSVF   259.5   1.2e-77     1   0.9      1    169      1    169      2    171     Capsid protein OS=Subterranean clover stunt virus (strain F) OX=291607 GN=DNA-S PE=3 SV=1
+sp|Q65386|CAPSD_BBTVA   247.6   5.5e-74     1   0.2      4    175      6    175      2    171     Capsid protein OS=Banana bunchy top virus (isolate Autralia) OX=645099 GN=DNA-S PE=3 SV=1
+sp|Q87019|CAPSD_SCSVJ   247.5   5.6e-74     1   0.6      1    170      1    170      2    171     Capsid protein OS=Subterranean clover stunt virus (strain J) OX=291608 GN=DNA-S PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003104738@NC_013095.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003104738@NC_013095.txt data/models_hmm/YP_003104738@NC_013095.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:18 2021
+# [ok]

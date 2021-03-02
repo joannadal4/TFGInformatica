@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P18305|443R_IIV6     12.5      0.11   6   4.7   0.0    Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P18305|443R_IIV6      3.0     1e+02     2   0.0    451    490    464    486     70     92     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6      1.0   4.2e+02     1   0.0    146    182    157    178     71     92     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6     -0.5   1.3e+03     6   0.0   1829   1869   1845   1866     71     92     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6     -1.2   2.1e+03     4   0.0    972    999    976    997     71     92     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6     -1.4   2.3e+03     5   0.0   1283   1314   1291   1312     71     92     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6     -3.2   8.3e+03     3   0.0    849    872    850    871     71     92     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000616@SRS064329_LANL_scaffold_51781@SRS064329_LANL_scaffold_51781_gene_73670.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000616@SRS064329_LANL_scaffold_51781@SRS064329_LANL_scaffold_51781_gene_73670.txt data/models_hmm/7000000616@SRS064329_LANL_scaffold_51781@SRS064329_LANL_scaffold_51781_gene_73670.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:34 2021
+# [ok]

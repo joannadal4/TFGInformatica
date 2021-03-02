@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39239|Y05J_BPT4      76.7   8.5e-22   1   1.0  14.8    Uncharacterized 4.2 kDa protein in mobD-ri intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y05J PE=4 SV=1
+sp|Q65204|VFE66_ASFB7    16.4    0.0057   2   2.4   5.1    Uncharacterized protein E66L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-136 PE=3 SV=1
+sp|P0CAN1|VFE66_ASFP4    14.5     0.023   2   2.5   2.6    Uncharacterized protein E66L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-148 PE=3 SV=1
+sp|P0CAN2|VFE66_ASFWA    13.2     0.059   1   1.3   2.7    Uncharacterized protein E66L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-146 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39239|Y05J_BPT4      76.6   9.1e-22     1  14.8      1     34      1     34      1     34     Uncharacterized 4.2 kDa protein in mobD-ri intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y05J PE=4 SV=1
+sp|P0CAN1|VFE66_ASFP4    14.5     0.023     1   2.6      2     28     12     22     12     22     Uncharacterized protein E66L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-148 PE=3 SV=1
+sp|Q65204|VFE66_ASFB7    14.2     0.028     1   2.2     24     48     36     46     12     22     Uncharacterized protein E66L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-136 PE=3 SV=1
+sp|P0CAN2|VFE66_ASFWA    13.1     0.063     1   2.7      1     23     12     21     12     21     Uncharacterized protein E66L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-146 PE=3 SV=1
+sp|Q65204|VFE66_ASFB7     3.0        88     2   0.0     47     65     51     62     11     22     Uncharacterized protein E66L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-136 PE=3 SV=1
+sp|P0CAN1|VFE66_ASFP4     2.5   1.3e+02     2   0.5     23     44     27     36     11     20     Uncharacterized protein E66L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-148 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007501141@NC_020416.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007501141@NC_020416.txt data/models_hmm/YP_007501141@NC_020416.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:59 2021
+# [ok]

@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q910M3|E3CR1_ADE02    14.4     0.024   1   1.0   1.7    Early 3 Conserved Region 1-alpha protein OS=Human adenovirus C serotype 2 OX=10515 PE=1 SV=1
+sp|Q6WB98|FUS_HMPVC       8.5       1.5   2   2.5   6.9    Fusion glycoprotein F0 OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=F PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q910M3|E3CR1_ADE02    14.4     0.024     1   1.7      1     53      3     39     26     64     Early 3 Conserved Region 1-alpha protein OS=Human adenovirus C serotype 2 OX=10515 PE=1 SV=1
+sp|Q6WB98|FUS_HMPVC      10.7      0.33     2   0.3    455    525    463    518     14     72     Fusion glycoprotein F0 OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=F PE=1 SV=1
+sp|Q6WB98|FUS_HMPVC       0.0   6.1e+02     1   1.4      4    202    124    186     93    153     Fusion glycoprotein F0 OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=F PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000576@SL_7KL_010_BRINEDRAFT_10000004@SL_7KL_010_BRINEDRAFT_1000000453.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000576@SL_7KL_010_BRINEDRAFT_10000004@SL_7KL_010_BRINEDRAFT_1000000453.txt data/models_hmm/3300000576@SL_7KL_010_BRINEDRAFT_10000004@SL_7KL_010_BRINEDRAFT_1000000453.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:11 2021
+# [ok]

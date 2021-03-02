@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P22047|NCAP_PHV      11.8     0.067   2   1.5   0.1    Nucleoprotein OS=Prospect Hill virus OX=1980485 GN=N PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P22047|NCAP_PHV      10.6      0.15     2   0.0    330    395    333    394    204    265     Nucleoprotein OS=Prospect Hill virus OX=1980485 GN=N PE=3 SV=1
+sp|P22047|NCAP_PHV      -3.6   3.1e+03     1   0.0    103    130    104    130    238    264     Nucleoprotein OS=Prospect Hill virus OX=1980485 GN=N PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000116@DelMOSpr2010_c10000217@DelMOSpr2010_100002171.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000116@DelMOSpr2010_c10000217@DelMOSpr2010_100002171.txt data/models_hmm/3300000116@DelMOSpr2010_c10000217@DelMOSpr2010_100002171.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:43 2021
+# [ok]

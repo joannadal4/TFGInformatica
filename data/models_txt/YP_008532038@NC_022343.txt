@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68984|PRO_ADECC     11.3     0.083   1   1.1   0.1    Protease OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=L3 PE=3 SV=1
+sp|P68985|PRO_ADECR     11.3     0.083   1   1.1   0.1    Protease OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=L3 PE=3 SV=1
+sp|P68986|PRO_ADECU     11.3     0.083   1   1.1   0.1    Protease OS=Canine adenovirus serotype 1 (strain Utrecht) OX=36364 GN=L3 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68984|PRO_ADECC     11.0      0.11     1   0.1    150    206    165    203     84    123     Protease OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=L3 PE=3 SV=1
+sp|P68985|PRO_ADECR     11.0      0.11     1   0.1    150    206    165    203     84    123     Protease OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=L3 PE=3 SV=1
+sp|P68986|PRO_ADECU     11.0      0.11     1   0.1    150    206    165    203     84    123     Protease OS=Canine adenovirus serotype 1 (strain Utrecht) OX=36364 GN=L3 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008532038@NC_022343.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008532038@NC_022343.txt data/models_hmm/YP_008532038@NC_022343.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:22 2021
+# [ok]

@@ -1,0 +1,53 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O10294|Y029_NPVOP     78.2   3.9e-22   1   1.0   0.4    Uncharacterized 8.5 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF39 PE=4 SV=1
+sp|P41433|Y029_NPVAC     75.1   3.5e-21   1   1.0   7.1    Uncharacterized 8.6 kDa protein in IAP1-SOD intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|Q05482|ATI_CAMPC      15.9     0.011   3   3.8   0.7    A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|Q775Q2|ATI_CAMPS      15.3     0.017   4   3.8   1.2    A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM      15.3     0.017   4   3.8   1.2    A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+sp|P33816|A27_VAR67      12.6      0.12   1   1.1   4.7    14 kDa fusion protein OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A27L PE=3 SV=1
+sp|P11258|A27_VACCW      12.0      0.17   1   1.1   5.7    Protein A27 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR150 PE=1 SV=3
+sp|P20535|A27_VACCC      11.3      0.29   1   1.1   5.7    14 kDa fusion protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A27L PE=3 SV=1
+sp|Q05257|VG46_BPML5     11.1      0.34   1   2.0   1.8    Gene 46 protein OS=Mycobacterium phage L5 OX=31757 GN=46 PE=4 SV=1
+sp|P06812|TERM_BPNF       7.0       6.2   2   1.9   8.4    DNA terminal protein OS=Bacillus phage Nf OX=10753 GN=3 PE=3 SV=1
+sp|P34011|ATI_VAR67       6.5       9.3   4   3.4  14.3    A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O10294|Y029_NPVOP     78.1     4e-22     1   0.4      3     75     15     75     26     86     Uncharacterized 8.5 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF39 PE=4 SV=1
+sp|P41433|Y029_NPVAC     75.0   3.9e-21     1   7.1      2     71      5     71     20     86     Uncharacterized 8.6 kDa protein in IAP1-SOD intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|Q05482|ATI_CAMPC      15.9     0.011     1   0.7    407    494    432    478     22     69     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|Q775Q2|ATI_CAMPS      15.3     0.017     1   1.2    406    493    432    478     22     69     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM      15.3     0.017     1   1.2    406    493    432    478     22     69     A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+sp|P34011|ATI_VAR67      14.1      0.04     2   1.4    405    493    432    478     22     69     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|P33816|A27_VAR67      12.2      0.15     1   4.7     17     99     25     94     10     79     14 kDa fusion protein OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A27L PE=3 SV=1
+sp|P11258|A27_VACCW      11.7      0.22     1   5.7     17     99     26     94     11     79     Protein A27 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR150 PE=1 SV=3
+sp|P20535|A27_VACCC      11.0      0.37     1   5.7     17     99     31     94     15     79     14 kDa fusion protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A27L PE=3 SV=1
+sp|Q05257|VG46_BPML5      9.7      0.89     1   1.8      4    115     47     79     23     54     Gene 46 protein OS=Mycobacterium phage L5 OX=31757 GN=46 PE=4 SV=1
+sp|P06812|TERM_BPNF       7.6       4.3     1   6.1     14    117     33    113     16     75     DNA terminal protein OS=Bacillus phage Nf OX=10753 GN=3 PE=3 SV=1
+sp|Q05482|ATI_CAMPC       1.5   3.2e+02     2   0.6    560    656    626    650     52     76     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|Q775Q2|ATI_CAMPS       1.5   3.2e+02     2   0.6    560    656    626    650     52     76     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM       1.5   3.2e+02     2   0.6    560    656    626    650     52     76     A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+sp|P34011|ATI_VAR67       0.4   7.3e+02     3   0.1    593    657    628    651     54     74     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|Q05482|ATI_CAMPC      -1.3   2.5e+03     3   0.1    665    715    689    706     60     77     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|Q775Q2|ATI_CAMPS      -1.3   2.5e+03     3   0.1    665    715    689    706     60     77     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM      -1.3   2.5e+03     3   0.1    665    715    689    706     60     77     A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+sp|P06812|TERM_BPNF      -2.2   4.8e+03     2   0.0    174    210    181    192     48     59     DNA terminal protein OS=Bacillus phage Nf OX=10753 GN=3 PE=3 SV=1
+sp|P34011|ATI_VAR67      -2.7     7e+03     1   0.1      4     55      7     18     54     65     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|P34011|ATI_VAR67      -3.6   1.3e+04     4   0.1    665    691    666    683     61     78     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003517775@NC_013953.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003517775@NC_013953.txt data/models_hmm/YP_003517775@NC_013953.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:38 2021
+# [ok]

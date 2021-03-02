@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q50LE5|CAPSD_HPBVH    12.9     0.061   1   1.6   0.0    Capsid protein precursor OS=Human picobirnavirus (strain Human/Thailand/Hy005102/-) OX=647332 GN=Segment-1 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q50LE5|CAPSD_HPBVH    11.6      0.15     1   0.0     67    115     70    109      6     46     Capsid protein precursor OS=Human picobirnavirus (strain Human/Thailand/Hy005102/-) OX=647332 GN=Segment-1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000036@MIS_100000368.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000036@MIS_100000368.txt data/models_hmm/3300002026@MIS_10000036@MIS_100000368.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:38 2021
+# [ok]

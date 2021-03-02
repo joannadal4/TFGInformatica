@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68928|TERS_BPSF6    88.5   4.2e-25   2   2.0   5.9    Terminase small subunit OS=Bacillus phage SF6 OX=10773 GN=1 PE=1 SV=2
+sp|P68929|TERS_BPRH5    88.5   4.2e-25   2   2.0   5.9    Terminase small subunit OS=Bacillus phage rho15 OX=36451 GN=1 PE=3 SV=2
+sp|P54307|TERS_BPSPP    85.5   3.5e-24   2   2.0   5.1    Terminase small subunit OS=Bacillus phage SPP1 OX=10724 GN=1 PE=1 SV=4
+sp|P10590|PACK_BPCPT    11.7      0.11   1   1.1   0.0    Putative packaging signal terminase OS=Vibrio phage CP-T1 OX=10689 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68928|TERS_BPSF6    76.5   1.9e-21     1   1.0      1     95      4     89     19    103     Terminase small subunit OS=Bacillus phage SF6 OX=10773 GN=1 PE=1 SV=2
+sp|P68929|TERS_BPRH5    76.5   1.9e-21     1   1.0      1     95      4     89     19    103     Terminase small subunit OS=Bacillus phage rho15 OX=36451 GN=1 PE=3 SV=2
+sp|P54307|TERS_BPSPP    72.9   2.4e-20     1   0.6      2     97      7     91     20    103     Terminase small subunit OS=Bacillus phage SPP1 OX=10724 GN=1 PE=1 SV=4
+sp|P68928|TERS_BPSF6    15.1     0.011     2   0.3     88    141     98    134    193    229     Terminase small subunit OS=Bacillus phage SF6 OX=10773 GN=1 PE=1 SV=2
+sp|P68929|TERS_BPRH5    15.1     0.011     2   0.3     88    141     98    134    193    229     Terminase small subunit OS=Bacillus phage rho15 OX=36451 GN=1 PE=3 SV=2
+sp|P54307|TERS_BPSPP    14.9     0.012     2   0.3     95    143    100    136    193    229     Terminase small subunit OS=Bacillus phage SPP1 OX=10724 GN=1 PE=1 SV=4
+sp|P10590|PACK_BPCPT    11.5      0.13     1   0.0      6     96     18     85     43    106     Putative packaging signal terminase OS=Vibrio phage CP-T1 OX=10689 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008771319@NC_022770.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008771319@NC_022770.txt data/models_hmm/YP_008771319@NC_022770.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:30 2021
+# [ok]

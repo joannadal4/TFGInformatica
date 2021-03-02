@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPQ7|YR771_MIMIV    12.5      0.11   2   2.3   1.4    Putative resolvase R771 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R771 PE=3 SV=1
+sp|Q5UPF4|YR080_MIMIV    12.3      0.12   2   2.3   1.0    Putative resolvase R80 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R80 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPQ7|YR771_MIMIV     8.8       1.6     1   0.1     54    122     74    114     21     61     Putative resolvase R771 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R771 PE=3 SV=1
+sp|Q5UPF4|YR080_MIMIV     8.4         2     1   0.1     54    122     75    114     22     61     Putative resolvase R80 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R80 PE=3 SV=1
+sp|Q5UPQ7|YR771_MIMIV     2.4   1.6e+02     2   0.1    147    176    159    175     62     78     Putative resolvase R771 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R771 PE=3 SV=1
+sp|Q5UPF4|YR080_MIMIV     2.2   1.8e+02     2   0.1    147    176    159    175     62     78     Putative resolvase R80 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R80 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_038312@NC_002185.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_038312@NC_002185.txt data/models_hmm/NP_038312@NC_002185.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:11 2021
+# [ok]

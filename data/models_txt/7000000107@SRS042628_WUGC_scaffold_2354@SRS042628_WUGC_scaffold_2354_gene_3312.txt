@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q89508|VP2_AHSV3     14.6     0.017   1   1.4   0.0    Outer capsid protein VP2 OS=African horse sickness virus 3 OX=117204 GN=Segment-2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q89508|VP2_AHSV3     13.7     0.034     1   0.0    507    601    523    591     62    126     Outer capsid protein VP2 OS=African horse sickness virus 3 OX=117204 GN=Segment-2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000107@SRS042628_WUGC_scaffold_2354@SRS042628_WUGC_scaffold_2354_gene_3312.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000107@SRS042628_WUGC_scaffold_2354@SRS042628_WUGC_scaffold_2354_gene_3312.txt data/models_hmm/7000000107@SRS042628_WUGC_scaffold_2354@SRS042628_WUGC_scaffold_2354_gene_3312.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:25 2021
+# [ok]

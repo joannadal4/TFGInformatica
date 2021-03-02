@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9J548|A21_FOWPN     26.6   5.3e-06   1   1.2   5.2    Virion membrane protein A21 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV186 PE=3 SV=1
+sp|P20996|A21_VACCC     15.9     0.011   1   1.5   4.6    Virion membrane protein A21 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A21L PE=3 SV=1
+sp|P68711|A21_VACCA     15.9     0.011   1   1.5   4.6    Virion membrane protein A21 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA131L PE=3 SV=1
+sp|P68712|A21_VACCW     15.9     0.011   1   1.5   4.6    Virion membrane protein A21 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR140 PE=1 SV=1
+sp|P0DSR7|A21_VAR67     15.7     0.012   1   1.5   4.8    Virion membrane protein A21 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A21L PE=3 SV=1
+sp|P0DSR8|A21_VARV      15.7     0.012   1   1.5   4.8    Virion membrane protein A21 OS=Variola virus OX=10255 GN=A21L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9J548|A21_FOWPN     26.2   6.8e-06     1   5.2      1    113      1    112      1    109     Virion membrane protein A21 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV186 PE=3 SV=1
+sp|P20996|A21_VACCC     15.4     0.015     1   4.6      1    116      1     60      1     61     Virion membrane protein A21 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A21L PE=3 SV=1
+sp|P68711|A21_VACCA     15.4     0.015     1   4.6      1    116      1     60      1     61     Virion membrane protein A21 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA131L PE=3 SV=1
+sp|P68712|A21_VACCW     15.4     0.015     1   4.6      1    116      1     60      1     61     Virion membrane protein A21 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR140 PE=1 SV=1
+sp|P0DSR7|A21_VAR67     15.3     0.017     1   4.8      1    116      1     59      1     60     Virion membrane protein A21 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A21L PE=3 SV=1
+sp|P0DSR8|A21_VARV      15.3     0.017     1   4.8      1    116      1     59      1     60     Virion membrane protein A21 OS=Variola virus OX=10255 GN=A21L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_009001513@NC_023426.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_009001513@NC_023426.txt data/models_hmm/YP_009001513@NC_023426.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:47 2021
+# [ok]

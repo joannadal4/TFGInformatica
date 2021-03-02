@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQJ9|YL397_MIMIV   757.7  7.4e-228   1   1.0  52.6    Uncharacterized protein L397 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L397 PE=4 SV=1
+sp|P56260|QIN_AVIS3       4.7       9.3   1   1.1   8.5    Transforming protein Qin OS=Avian sarcoma virus (strain 31) OX=35270 GN=V-QIN PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQJ9|YL397_MIMIV   757.5  8.6e-228     1  52.6      1    585      1    584     12    553     Uncharacterized protein L397 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L397 PE=4 SV=1
+sp|P56260|QIN_AVIS3       4.2        13     1   8.5      8     72     28     54    470    496     Transforming protein Qin OS=Avian sarcoma virus (strain 31) OX=35270 GN=V-QIN PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004894547@NC_016072.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004894547@NC_016072.txt data/models_hmm/YP_004894547@NC_016072.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:40 2021
+# [ok]

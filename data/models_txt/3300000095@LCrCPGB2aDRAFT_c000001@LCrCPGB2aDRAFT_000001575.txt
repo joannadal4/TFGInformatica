@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9E6Q9|CEP1_GAHVM     13.6     0.057   2   2.5   0.1    Cytoplasmic envelopment protein 1 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV019 PE=3 SV=1
+sp|Q5UQI8|YR837_MIMIV     8.8       1.7   2   2.3   4.9    Putative ankyrin repeat protein R837 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R837 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQI8|YR837_MIMIV     9.5       1.1     1   1.6     19     63     21     54      4     38     Putative ankyrin repeat protein R837 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R837 PE=4 SV=1
+sp|Q9E6Q9|CEP1_GAHVM      8.2       2.7     2   0.1    185    243    186    212      3     29     Cytoplasmic envelopment protein 1 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV019 PE=3 SV=1
+sp|Q9E6Q9|CEP1_GAHVM      2.5   1.6e+02     1   0.0     39     83     60     77     53     70     Cytoplasmic envelopment protein 1 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV019 PE=3 SV=1
+sp|Q5UQI8|YR837_MIMIV    -2.0   4.2e+03     2   0.1    459    498    469    495     20     45     Putative ankyrin repeat protein R837 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R837 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000095@LCrCPGB2aDRAFT_c000001@LCrCPGB2aDRAFT_000001575.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000095@LCrCPGB2aDRAFT_c000001@LCrCPGB2aDRAFT_000001575.txt data/models_hmm/3300000095@LCrCPGB2aDRAFT_c000001@LCrCPGB2aDRAFT_000001575.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:24 2021
+# [ok]

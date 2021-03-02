@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R7C1|Y109_OSHVF    14.9      0.03   3   3.6   0.9    Uncharacterized protein ORF109 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF109 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R7C1|Y109_OSHVF     7.0       8.3     3   0.0    740    786    753    776     42     65     Uncharacterized protein ORF109 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF109 PE=4 SV=1
+sp|Q6R7C1|Y109_OSHVF     3.9        79     1   0.0     85    144    100    127     26     56     Uncharacterized protein ORF109 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF109 PE=4 SV=1
+sp|Q6R7C1|Y109_OSHVF    -1.4   3.5e+03     2   0.1    274    307    282    302     50     70     Uncharacterized protein ORF109 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF109 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001866@JGI24729J20445_1000091@JGI24729J20445_1000091120.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001866@JGI24729J20445_1000091@JGI24729J20445_1000091120.txt data/models_hmm/3300001866@JGI24729J20445_1000091@JGI24729J20445_1000091120.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:28 2021
+# [ok]

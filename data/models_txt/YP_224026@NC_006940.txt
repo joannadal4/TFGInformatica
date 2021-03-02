@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|B9VXQ2|UL95_HCMVT      8.6       1.7   1   1.7   4.5    Protein UL95 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL95 PE=3 SV=1
+sp|Q6SW48|UL95_HCMVM      8.6       1.7   1   1.7   4.5    Protein UL95 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL95 PE=3 SV=1
+sp|P16801|UL95_HCMVA      8.6       1.7   1   1.7   4.5    Protein UL95 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL95 PE=3 SV=1
+sp|P10470|CAPSD_PLRV      7.8       3.1   2   2.5  11.3    Major capsid protein OS=Potato leafroll virus OX=12045 GN=ORF3 PE=3 SV=1
+sp|P17521|CAPSD_PLRVR     7.4         4   2   2.5  11.2    Major capsid protein OS=Potato leafroll virus (strain Potato/Canada/Rowhani/1979) OX=12047 GN=ORF3 PE=3 SV=1
+sp|P11624|CAPSD_PLRVW     7.3       4.1   2   2.5  11.2    Major capsid protein OS=Potato leafroll virus (strain Potato/Netherlands/Wageningen/1989) OX=12048 GN=ORF3 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P10470|CAPSD_PLRV     10.4      0.45     1   1.1      3     27      8     25     43     60     Major capsid protein OS=Potato leafroll virus OX=12045 GN=ORF3 PE=3 SV=1
+sp|P11624|CAPSD_PLRVW    10.4      0.45     1   1.1      3     27      8     25     43     60     Major capsid protein OS=Potato leafroll virus (strain Potato/Netherlands/Wageningen/1989) OX=12048 GN=ORF3 PE=3 SV=2
+sp|P17521|CAPSD_PLRVR    10.4      0.45     1   1.1      3     27      8     25     43     60     Major capsid protein OS=Potato leafroll virus (strain Potato/Canada/Rowhani/1979) OX=12047 GN=ORF3 PE=3 SV=1
+sp|B9VXQ2|UL95_HCMVT      7.2       4.5     1   4.5    180    212    195    209     44     58     Protein UL95 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL95 PE=3 SV=1
+sp|P16801|UL95_HCMVA      7.2       4.5     1   4.5    180    212    195    209     44     58     Protein UL95 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL95 PE=3 SV=1
+sp|Q6SW48|UL95_HCMVM      7.2       4.6     1   4.5    180    212    195    209     44     58     Protein UL95 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL95 PE=3 SV=1
+sp|P10470|CAPSD_PLRV      1.8   2.3e+02     2   3.3     32     60     41     51     48     58     Major capsid protein OS=Potato leafroll virus OX=12045 GN=ORF3 PE=3 SV=1
+sp|P11624|CAPSD_PLRVW     1.4     3e+02     2   3.2     32     60     42     51     49     58     Major capsid protein OS=Potato leafroll virus (strain Potato/Netherlands/Wageningen/1989) OX=12048 GN=ORF3 PE=3 SV=2
+sp|P17521|CAPSD_PLRVR     1.4     3e+02     2   3.2     32     60     42     51     49     58     Major capsid protein OS=Potato leafroll virus (strain Potato/Canada/Rowhani/1979) OX=12047 GN=ORF3 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_224026@NC_006940.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_224026@NC_006940.txt data/models_hmm/YP_224026@NC_006940.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:18 2021
+# [ok]

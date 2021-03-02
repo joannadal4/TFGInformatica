@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91G50|049L_IIV6    197.2   7.6e-59   1   1.0   4.4    Transmembrane protein 049L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-049L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91G50|049L_IIV6    197.1   8.4e-59     1   4.4      1    123      1    123      1    118     Transmembrane protein 049L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-049L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_064783@NC_002520.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_064783@NC_002520.txt data/models_hmm/NP_064783@NC_002520.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:42 2021
+# [ok]

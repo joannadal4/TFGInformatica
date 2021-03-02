@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36808|VE6_HPV27     11.1      0.23   2   2.2   3.3    Protein E6 OS=Human papillomavirus type 27 OX=333752 GN=E6 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36808|VE6_HPV27      6.4       6.8     2   0.7     67    144     70    117     36     83     Protein E6 OS=Human papillomavirus type 27 OX=333752 GN=E6 PE=3 SV=1
+sp|P36808|VE6_HPV27      5.5        13     1   0.1     19     61     31     48     70     87     Protein E6 OS=Human papillomavirus type 27 OX=333752 GN=E6 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001648128@NC_010191.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001648128@NC_010191.txt data/models_hmm/YP_001648128@NC_010191.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:36 2021
+# [ok]

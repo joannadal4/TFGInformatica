@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P07083|Y04A_BPT4    114.0   2.3e-33   1   1.0   0.6    Uncharacterized 9.8 kDa protein in Gp55-nrdG intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y04A PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P07083|Y04A_BPT4    113.8   2.7e-33     1   0.6      1     70      1     69      1     69     Uncharacterized 9.8 kDa protein in Gp55-nrdG intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y04A PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002854025@NC_012635.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002854025@NC_012635.txt data/models_hmm/YP_002854025@NC_012635.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:11 2021
+# [ok]

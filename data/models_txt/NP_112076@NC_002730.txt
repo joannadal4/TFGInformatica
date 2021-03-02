@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P54308|TERL_BPSPP    97.0   8.8e-28   1   1.1   0.1    Terminase, large subunit OS=Bacillus phage SPP1 OX=10724 GN=2 PE=1 SV=1
+sp|P27753|TERL_BPP1     34.1   1.1e-08   2   2.1   0.0    Probable terminase, large subunit OS=Escherichia phage P1 OX=10678 GN=pacB PE=3 SV=1
+sp|Q5XLR0|TERL_BPP7     34.1   1.1e-08   2   2.1   0.0    Probable terminase, large subunit OS=Enterobacteria phage P7 OX=10682 GN=pacB PE=3 SV=1
+sp|P25479|VPP_BPP2      11.0      0.11   1   1.2   0.0    Terminase, ATPase subunit OS=Escherichia phage P2 OX=10679 GN=P PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P54308|TERL_BPSPP    96.7   1.2e-27     1   0.1      3    236      9    232      7    208     Terminase, large subunit OS=Bacillus phage SPP1 OX=10724 GN=2 PE=1 SV=1
+sp|P27753|TERL_BPP1     19.7   0.00026     2   0.0    409    481    424    475    402    452     Probable terminase, large subunit OS=Escherichia phage P1 OX=10678 GN=pacB PE=3 SV=1
+sp|Q5XLR0|TERL_BPP7     19.7   0.00026     2   0.0    409    481    424    475    402    452     Probable terminase, large subunit OS=Enterobacteria phage P7 OX=10682 GN=pacB PE=3 SV=1
+sp|P27753|TERL_BPP1     12.2     0.049     1   0.0    152    410    161    370    118    311     Probable terminase, large subunit OS=Escherichia phage P1 OX=10678 GN=pacB PE=3 SV=1
+sp|Q5XLR0|TERL_BPP7     12.2     0.049     1   0.0    152    410    161    370    118    311     Probable terminase, large subunit OS=Enterobacteria phage P7 OX=10682 GN=pacB PE=3 SV=1
+sp|P25479|VPP_BPP2      10.4      0.17     1   0.0    397    537    412    489    241    312     Terminase, ATPase subunit OS=Escherichia phage P2 OX=10679 GN=P PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_112076@NC_002730.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_112076@NC_002730.txt data/models_hmm/NP_112076@NC_002730.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:54 2021
+# [ok]

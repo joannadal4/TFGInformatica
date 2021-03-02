@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C9Z9|P54_ASFP4      9.9      0.31   2   2.0   5.9    Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+sp|P0CA00|P54_ASFWA      8.5      0.84   2   2.0   5.2    Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C9Z9|P54_ASFP4      7.8       1.3     2   0.5     84    192    105    157     60    110     Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+sp|P0CA00|P54_ASFWA      5.8       5.6     2   0.3     84    190    105    163     60    111     Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+sp|P0CA00|P54_ASFWA      5.1       8.9     1   0.6     16     67     29     56    348    375     Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+sp|P0C9Z9|P54_ASFP4      5.1       9.2     1   0.6     16     67     29     56    348    375     Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_064274@NC_002512.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_064274@NC_002512.txt data/models_hmm/NP_064274@NC_002512.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:41 2021
+# [ok]

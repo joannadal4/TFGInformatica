@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9Z0D1|U1_MDV1       12.2      0.12   3   2.1   0.2    Protein U1 OS=Milk vetch dwarf virus (isolate N) OX=291605 GN=DNA-U1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9Z0D1|U1_MDV1       10.1      0.51     2   0.1     62    128     74    106     74    106     Protein U1 OS=Milk vetch dwarf virus (isolate N) OX=291605 GN=DNA-U1 PE=3 SV=1
+sp|Q9Z0D1|U1_MDV1       -0.8   1.2e+03     3   0.0    105    141    111    128     18     35     Protein U1 OS=Milk vetch dwarf virus (isolate N) OX=291605 GN=DNA-U1 PE=3 SV=1
+sp|Q9Z0D1|U1_MDV1       -1.6   2.1e+03     1   0.0      4     49     20     45    103    129     Protein U1 OS=Milk vetch dwarf virus (isolate N) OX=291605 GN=DNA-U1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001041@C687J13239_1000038@C687J13239_100003843.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001041@C687J13239_1000038@C687J13239_100003843.txt data/models_hmm/3300001041@C687J13239_1000038@C687J13239_100003843.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:21 2021
+# [ok]

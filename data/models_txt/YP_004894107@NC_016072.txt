@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPD0|YL052_MIMIV   201.5   3.9e-60   1   1.0  13.5    Uncharacterized protein L52 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L52 PE=4 SV=1
+sp|Q7T6Y0|PCNA_MIMIV     49.0   5.9e-13   4   2.6   0.5    Probable DNA polymerase sliding clamp OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=PCNA PE=3 SV=2
+sp|Q5UQH4|YL823_MIMIV    20.0   0.00056   2   2.8   1.9    Uncharacterized protein L823 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L823 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPD0|YL052_MIMIV   201.3   4.6e-60     1  13.5     14    140     14    140      1    128     Uncharacterized protein L52 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L52 PE=4 SV=1
+sp|Q7T6Y0|PCNA_MIMIV     49.0   5.9e-13     3   0.5    219    321    237    319     45    126     Probable DNA polymerase sliding clamp OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=PCNA PE=3 SV=2
+sp|Q5UQH4|YL823_MIMIV    20.0   0.00056     1   1.9     62    188     66    184      5    123     Uncharacterized protein L823 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L823 PE=3 SV=1
+sp|Q5UQH4|YL823_MIMIV    -0.4   1.1e+03     2   1.9    211    302    240    279     58    105     Uncharacterized protein L823 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L823 PE=3 SV=1
+sp|Q7T6Y0|PCNA_MIMIV     -2.2   4.2e+03     2   0.0    165    232    176    204     13     40     Probable DNA polymerase sliding clamp OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=PCNA PE=3 SV=2
+sp|Q7T6Y0|PCNA_MIMIV     -2.8   6.1e+03     4   0.1    345    386    349    375     18     43     Probable DNA polymerase sliding clamp OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=PCNA PE=3 SV=2
+sp|Q7T6Y0|PCNA_MIMIV     -5.1   1.7e+04     1   1.4     98    130    103    124     39     60     Probable DNA polymerase sliding clamp OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=PCNA PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004894107@NC_016072.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004894107@NC_016072.txt data/models_hmm/YP_004894107@NC_016072.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:37 2021
+# [ok]

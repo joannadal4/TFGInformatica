@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64076|YONO_BPSPB    81.8   2.6e-23   1   2.4  19.6    DNA-directed RNA polymerase YonO OS=Bacillus phage SPbeta OX=66797 GN=yonO PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64076|YONO_BPSPB    74.5   4.2e-21     1  19.6    124    796    233    791    157    774     DNA-directed RNA polymerase YonO OS=Bacillus phage SPbeta OX=66797 GN=yonO PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000624@SRS024435_LANL_scaffold_18853@SRS024435_LANL_scaffold_18853_gene_45091.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000624@SRS024435_LANL_scaffold_18853@SRS024435_LANL_scaffold_18853_gene_45091.txt data/models_hmm/7000000624@SRS024435_LANL_scaffold_18853@SRS024435_LANL_scaffold_18853_gene_45091.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:38 2021
+# [ok]

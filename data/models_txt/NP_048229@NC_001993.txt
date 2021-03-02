@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20981|VP8_VACCC     29.0   6.5e-07   1   1.2   6.3    Core protein VP8 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=L4R PE=2 SV=1
+sp|P0DSW9|VP8_VAR67     28.6   8.7e-07   1   1.2   6.0    Core protein VP8 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=L4R PE=2 SV=1
+sp|P0DSX0|VP8_VARV      28.6   8.7e-07   1   1.2   6.0    Core protein VP8 OS=Variola virus OX=10255 GN=L4R PE=2 SV=1
+sp|P03295|VP8_VACCW     27.7   1.7e-06   1   1.2   6.9    Core protein VP8 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR091 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20981|VP8_VACCC     28.5   9.5e-07     1   6.3      8    249     27    232     24    224     Core protein VP8 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=L4R PE=2 SV=1
+sp|P0DSW9|VP8_VAR67     28.1   1.2e-06     1   6.0      8    249     27    231     24    223     Core protein VP8 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=L4R PE=2 SV=1
+sp|P0DSX0|VP8_VARV      28.1   1.2e-06     1   6.0      8    249     27    231     24    223     Core protein VP8 OS=Variola virus OX=10255 GN=L4R PE=2 SV=1
+sp|P03295|VP8_VACCW     27.1   2.4e-06     1   6.9      8    249     27    232     24    224     Core protein VP8 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR091 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_048229@NC_001993.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_048229@NC_001993.txt data/models_hmm/NP_048229@NC_001993.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:29 2021
+# [ok]

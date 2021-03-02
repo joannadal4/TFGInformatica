@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P18881|NRAM_I000F    13.3     0.021   1   1.2   0.5    Neuraminidase OS=Influenza A virus (strain A/Chicken/Weybridge H7N7) OX=11384 GN=NA PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P18881|NRAM_I000F    12.7     0.032     1   0.5    143    263    172    228    335    392     Neuraminidase OS=Influenza A virus (strain A/Chicken/Weybridge H7N7) OX=11384 GN=NA PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000117@DelMOWin2010_c10000123@DelMOWin2010_1000012323.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000117@DelMOWin2010_c10000123@DelMOWin2010_1000012323.txt data/models_hmm/3300000117@DelMOWin2010_c10000123@DelMOWin2010_1000012323.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:50 2021
+# [ok]

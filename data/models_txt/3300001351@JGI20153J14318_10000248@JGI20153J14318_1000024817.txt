@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q66676|VGE9_EHV2     10.5       0.2   1   1.1   0.1    Uncharacterized gene E9 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=E9 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q66676|VGE9_EHV2     10.2      0.25     1   0.1     82    174    100    168    386    452     Uncharacterized gene E9 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=E9 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001351@JGI20153J14318_10000248@JGI20153J14318_1000024817.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001351@JGI20153J14318_10000248@JGI20153J14318_1000024817.txt data/models_hmm/3300001351@JGI20153J14318_10000248@JGI20153J14318_1000024817.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:01 2021
+# [ok]

@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q197F0|VF380_IIV3     13.2     0.037   2   2.2   0.0    Probable serine/threonine-protein kinase 010L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-010L PE=3 SV=1
+sp|Q5UPZ2|YR301_MIMIV    12.0      0.09   1   1.1   0.0    Putative serine/threonine-protein kinase R301 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R301 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPZ2|YR301_MIMIV    11.4      0.13     1   0.0    177    279    194    268     90    163     Putative serine/threonine-protein kinase R301 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R301 PE=1 SV=1
+sp|Q197F0|VF380_IIV3      8.7      0.89     1   0.0    297    396    308    391     92    177     Probable serine/threonine-protein kinase 010L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-010L PE=3 SV=1
+sp|Q197F0|VF380_IIV3      1.9     1e+02     2   0.0    403    480    425    477    184    237     Probable serine/threonine-protein kinase 010L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-010L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_164113@NC_006549.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_164113@NC_006549.txt data/models_hmm/YP_164113@NC_006549.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:07 2021
+# [ok]

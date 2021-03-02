@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04532|GP57_BPT4      38.8   3.4e-10   1   1.0   3.7    Tail fiber assembly helper protein OS=Enterobacteria phage T4 OX=10665 GN=57 PE=1 SV=3
+sp|Q5UNU5|YL684_MIMIV     6.4       2.2   1   1.2   4.6    Uncharacterized protein L684 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L684 PE=4 SV=1
+sp|Q5UQW6|YR387_MIMIV     5.1       5.6   1   2.0  11.5    Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04532|GP57_BPT4      38.7   3.7e-10     1   3.7      1     79      2     77    307    383     Tail fiber assembly helper protein OS=Enterobacteria phage T4 OX=10665 GN=57 PE=1 SV=3
+sp|Q5UNU5|YL684_MIMIV     5.8       3.3     1   4.6    393    497    398    475    286    363     Uncharacterized protein L684 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L684 PE=4 SV=1
+sp|Q5UQW6|YR387_MIMIV     3.4        18     1  11.5     19    251     25     87    288    352     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_656357@NC_008208.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_656357@NC_008208.txt data/models_hmm/YP_656357@NC_008208.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:43 2021
+# [ok]

@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27212|P6_TNVD       17.0    0.0034   1   1.3   0.1    Uncharacterized protein p6 OS=Tobacco necrosis virus (strain D) OX=12056 GN=ORF3 PE=4 SV=1
+sp|P19386|LYS_BPCP9     12.5     0.088   4   3.7  12.9    Lysozyme OS=Streptococcus phage Cp-9 OX=10749 GN=CPL9 PE=3 SV=1
+sp|P15057|LYS_BPCP1     10.6      0.33   4   3.6  12.0    Lysozyme OS=Streptococcus phage Cp-1 OX=10747 GN=CPL1 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27212|P6_TNVD       16.4    0.0051     1   0.1      1     35      1     29      1     29     Uncharacterized protein p6 OS=Tobacco necrosis virus (strain D) OX=12056 GN=ORF3 PE=4 SV=1
+sp|P19386|LYS_BPCP9     11.9      0.13     3   0.9    273    304    274    294     20     40     Lysozyme OS=Streptococcus phage Cp-9 OX=10749 GN=CPL9 PE=3 SV=1
+sp|P15057|LYS_BPCP1     11.4      0.19     3   2.5    270    304    273    294     19     40     Lysozyme OS=Streptococcus phage Cp-1 OX=10747 GN=CPL1 PE=1 SV=2
+sp|P19386|LYS_BPCP9      5.9       9.9     2   2.0    248    275    252    273     18     39     Lysozyme OS=Streptococcus phage Cp-9 OX=10749 GN=CPL9 PE=3 SV=1
+sp|P15057|LYS_BPCP1      3.7        48     2   1.2    247    275    252    273     18     39     Lysozyme OS=Streptococcus phage Cp-1 OX=10747 GN=CPL1 PE=1 SV=2
+sp|P15057|LYS_BPCP1      1.0   3.5e+02     1   0.2    224    262    237    254     24     40     Lysozyme OS=Streptococcus phage Cp-1 OX=10747 GN=CPL1 PE=1 SV=2
+sp|P19386|LYS_BPCP9      0.6   4.3e+02     1   0.3    224    259    237    254     24     40     Lysozyme OS=Streptococcus phage Cp-9 OX=10749 GN=CPL9 PE=3 SV=1
+sp|P19386|LYS_BPCP9      0.3   5.6e+02     4   0.0    293    336    305    318     29     42     Lysozyme OS=Streptococcus phage Cp-9 OX=10749 GN=CPL9 PE=3 SV=1
+sp|P15057|LYS_BPCP1      0.1   6.2e+02     4   0.0    294    336    305    318     29     42     Lysozyme OS=Streptococcus phage Cp-1 OX=10747 GN=CPL1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007010980@NC_019545.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007010980@NC_019545.txt data/models_hmm/YP_007010980@NC_019545.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:28 2021
+# [ok]

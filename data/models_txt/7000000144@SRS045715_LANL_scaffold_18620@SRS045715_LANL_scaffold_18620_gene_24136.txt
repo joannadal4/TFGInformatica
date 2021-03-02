@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P69545|REP_BPFD      12.0      0.17   4   3.2   1.3    Replication-associated protein G2P OS=Enterobacteria phage fd OX=10864 GN=II PE=3 SV=1
+sp|P69547|REP_BPM13     11.7      0.22   4   3.2   1.5    Replication-associated protein G2P OS=Enterobacteria phage M13 OX=1977402 GN=II PE=3 SV=1
+sp|P69546|REP_BPF1      11.6      0.24   4   3.2   1.6    Replication-associated protein G2P OS=Enterobacteria phage f1 OX=10863 GN=II PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P69545|REP_BPFD       6.5       9.2     1   0.0    107    170    115    166     80    130     Replication-associated protein G2P OS=Enterobacteria phage fd OX=10864 GN=II PE=3 SV=1
+sp|P69546|REP_BPF1       6.5       9.2     1   0.0    107    170    115    166     80    130     Replication-associated protein G2P OS=Enterobacteria phage f1 OX=10863 GN=II PE=1 SV=1
+sp|P69547|REP_BPM13      6.5       9.2     1   0.0    107    170    115    166     80    130     Replication-associated protein G2P OS=Enterobacteria phage M13 OX=1977402 GN=II PE=3 SV=1
+sp|P69545|REP_BPFD       2.3   1.8e+02     3   0.1    250    319    270    314     73    117     Replication-associated protein G2P OS=Enterobacteria phage fd OX=10864 GN=II PE=3 SV=1
+sp|P69547|REP_BPM13      2.1     2e+02     3   0.2    250    319    271    314     74    117     Replication-associated protein G2P OS=Enterobacteria phage M13 OX=1977402 GN=II PE=3 SV=1
+sp|P69546|REP_BPF1       2.1     2e+02     3   0.2    250    319    271    314     74    117     Replication-associated protein G2P OS=Enterobacteria phage f1 OX=10863 GN=II PE=1 SV=1
+sp|P69547|REP_BPM13     -1.4   2.5e+03     2   0.0    186    251    195    229     52     86     Replication-associated protein G2P OS=Enterobacteria phage M13 OX=1977402 GN=II PE=3 SV=1
+sp|P69546|REP_BPF1      -1.7     3e+03     2   0.0    186    243    195    229     52     86     Replication-associated protein G2P OS=Enterobacteria phage f1 OX=10863 GN=II PE=1 SV=1
+sp|P69545|REP_BPFD      -1.7   3.1e+03     2   0.0    186    241    195    229     52     86     Replication-associated protein G2P OS=Enterobacteria phage fd OX=10864 GN=II PE=3 SV=1
+sp|P69545|REP_BPFD      -3.0   7.6e+03     4   0.0    325    349    330    343     27     40     Replication-associated protein G2P OS=Enterobacteria phage fd OX=10864 GN=II PE=3 SV=1
+sp|P69546|REP_BPF1      -3.0   7.6e+03     4   0.0    325    349    330    343     27     40     Replication-associated protein G2P OS=Enterobacteria phage f1 OX=10863 GN=II PE=1 SV=1
+sp|P69547|REP_BPM13     -3.0   7.6e+03     4   0.0    325    349    330    343     27     40     Replication-associated protein G2P OS=Enterobacteria phage M13 OX=1977402 GN=II PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000144@SRS045715_LANL_scaffold_18620@SRS045715_LANL_scaffold_18620_gene_24136.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000144@SRS045715_LANL_scaffold_18620@SRS045715_LANL_scaffold_18620_gene_24136.txt data/models_hmm/7000000144@SRS045715_LANL_scaffold_18620@SRS045715_LANL_scaffold_18620_gene_24136.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:48 2021
+# [ok]

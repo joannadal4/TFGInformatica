@@ -1,0 +1,42 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P10226|PAP_HHV11    519.6  5.1e-156   1   1.0   0.0    DNA polymerase processivity factor OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL42 PE=1 SV=1
+sp|P89463|PAP_HHV2H    506.6  4.5e-152   1   1.0   0.0    DNA polymerase processivity factor OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL42 PE=3 SV=1
+sp|P28958|PAP_EHV1B    455.9  1.2e-136   1   1.0   0.2    DNA polymerase processivity factor OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=18 PE=3 SV=1
+sp|P84399|PAP_EHV1V    455.9  1.2e-136   1   1.0   0.2    DNA polymerase processivity factor OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=18 PE=3 SV=1
+sp|Q77MR9|PAP_GAHVM    427.8  3.8e-128   1   1.0   0.0    DNA polymerase processivity factor OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV055 PE=3 SV=1
+sp|Q4JQV9|PAP_VZVO     410.0    1e-122   1   1.0   0.0    DNA polymerase processivity factor OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF16 PE=3 SV=1
+sp|P09274|PAP_VZVD     409.9  1.1e-122   1   1.0   0.0    DNA polymerase processivity factor OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF16 PE=3 SV=1
+sp|P36702|PAP_SUHVK    382.3  2.6e-114   1   1.0   0.0    DNA polymerase processivity factor OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 PE=3 SV=1
+sp|P36322|VPAP_EHV1D    52.3   3.8e-14   1   1.0   0.1    DNA polymerase processivity factor (Fragment) OS=Equine herpesvirus 1 (strain Kentucky D) OX=10330 PE=3 SV=1
+sp|Q6UDI9|PAP_PSHV1     18.5   0.00073   2   2.4   0.0    DNA polymerase processivity factor OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL42 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P10226|PAP_HHV11    519.4  5.8e-156     1   0.0      1    441      1    440      1    409     DNA polymerase processivity factor OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL42 PE=1 SV=1
+sp|P89463|PAP_HHV2H    506.4  5.2e-152     1   0.0      1    432      1    430      1    408     DNA polymerase processivity factor OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL42 PE=3 SV=1
+sp|P28958|PAP_EHV1B    455.7  1.3e-136     1   0.2      1    405      1    404      1    399     DNA polymerase processivity factor OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=18 PE=3 SV=1
+sp|P84399|PAP_EHV1V    455.7  1.3e-136     1   0.2      1    405      1    404      1    399     DNA polymerase processivity factor OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=18 PE=3 SV=1
+sp|Q77MR9|PAP_GAHVM    427.7  4.1e-128     1   0.0      1    369      6    367     11    365     DNA polymerase processivity factor OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV055 PE=3 SV=1
+sp|Q4JQV9|PAP_VZVO     409.8  1.1e-122     1   0.0      1    399      5    397     11    408     DNA polymerase processivity factor OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF16 PE=3 SV=1
+sp|P09274|PAP_VZVD     409.7  1.2e-122     1   0.0      1    399      5    397     11    408     DNA polymerase processivity factor OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF16 PE=3 SV=1
+sp|P36702|PAP_SUHVK    382.0  3.1e-114     1   0.0      7    384     18    383      7    378     DNA polymerase processivity factor OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 PE=3 SV=1
+sp|P36322|VPAP_EHV1D    52.2   4.1e-14     1   0.1      1     97      4     96    296    399     DNA polymerase processivity factor (Fragment) OS=Equine herpesvirus 1 (strain Kentucky D) OX=10330 PE=3 SV=1
+sp|Q6UDI9|PAP_PSHV1      9.2      0.49     1   0.0      8    127     22    101     11     90     DNA polymerase processivity factor OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL42 PE=3 SV=1
+sp|Q6UDI9|PAP_PSHV1      6.5       3.1     2   0.0    270    472    308    468    266    408     DNA polymerase processivity factor OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL42 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_045316@NC_001847.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_045316@NC_001847.txt data/models_hmm/NP_045316@NC_001847.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:24 2021
+# [ok]

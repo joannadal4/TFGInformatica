@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q196X5|VF203_IIV3   302.0   7.2e-91   1   1.0   3.4    Uncharacterized protein 085L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-085L PE=3 SV=1
+sp|Q91FW7|VF203_IIV6    33.1   4.4e-08   1   1.1   1.7    Uncharacterized protein 203L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-203L PE=3 SV=1
+sp|Q91FJ9|325L_IIV6     30.4   2.9e-07   1   1.3   0.7    Uncharacterized protein 325L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-325L PE=4 SV=1
+sp|Q91F69|457L_IIV6     15.0     0.016   1   1.3   0.2    Uncharacterized protein 457L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-457L PE=3 SV=1
+sp|O55727|111R_IIV6     10.2      0.47   2   1.9   5.4    Uncharacterized protein 111R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-111R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q196X5|VF203_IIV3   301.9   7.7e-91     1   3.4      1    161      8    161      3    156     Uncharacterized protein 085L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-085L PE=3 SV=1
+sp|Q91FW7|VF203_IIV6    32.9   4.8e-08     1   1.7      1    156      4    154      7    154     Uncharacterized protein 203L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-203L PE=3 SV=1
+sp|Q91FJ9|325L_IIV6     29.8   4.6e-07     1   0.7      2    150     28    149     29    155     Uncharacterized protein 325L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-325L PE=4 SV=1
+sp|Q91F69|457L_IIV6     14.4     0.025     1   0.2      1    147      5    133      6    135     Uncharacterized protein 457L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-457L PE=3 SV=1
+sp|O55727|111R_IIV6     10.8      0.31     1   2.5      1    109      2     87      5     92     Uncharacterized protein 111R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-111R PE=3 SV=1
+sp|O55727|111R_IIV6      0.3   5.3e+02     2   0.1     99    166    135    155     34     59     Uncharacterized protein 111R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-111R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/CCV01762@HF920633.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/CCV01762@HF920633.txt data/models_hmm/CCV01762@HF920633.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:10 2021
+# [ok]

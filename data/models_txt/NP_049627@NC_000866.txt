@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39415|Y00E_BPT4    125.7   2.1e-36   1   2.0   1.6    Uncharacterized 13.8 kDa protein in motB-dexA intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y00E PE=4 SV=1
+sp|Q01437|MOTB_BPT4     43.2   4.1e-11   1   1.2   0.1    Transcription regulatory protein motB OS=Enterobacteria phage T4 OX=10665 GN=motB PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39415|Y00E_BPT4    120.7   6.8e-35     1   1.6      1    117      2    116     30    162     Uncharacterized 13.8 kDa protein in motB-dexA intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y00E PE=4 SV=1
+sp|Q01437|MOTB_BPT4     42.9     5e-11     1   0.1     76    158    116    153    147    184     Transcription regulatory protein motB OS=Enterobacteria phage T4 OX=10665 GN=motB PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_049627@NC_000866.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_049627@NC_000866.txt data/models_hmm/NP_049627@NC_000866.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:34 2021
+# [ok]

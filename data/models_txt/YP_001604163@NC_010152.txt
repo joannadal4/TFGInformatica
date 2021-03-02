@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q914M7|Y003_SIFVH    31.5   1.2e-07   2   2.1   2.4    Uncharacterized protein 3 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0003 PE=4 SV=1
+sp|Q914I5|Y047_SIFVH    19.5   0.00062   1   1.2   0.2    Uncharacterized protein 47 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0047 PE=4 SV=1
+sp|P22916|Y16F_BPT4     13.0      0.06   1   1.6   0.1    Uncharacterized 12.8 kDa protein in arn-motA intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16F PE=4 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q914M7|Y003_SIFVH    22.4   7.5e-05     1   0.4      5     71     15     64     85    130     Uncharacterized protein 3 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0003 PE=4 SV=1
+sp|Q914I5|Y047_SIFVH    19.1   0.00079     1   0.2      1     81      6     61     13     67     Uncharacterized protein 47 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0047 PE=4 SV=1
+sp|P22916|Y16F_BPT4     12.1      0.11     1   0.1      2     89      7     48     79    118     Uncharacterized 12.8 kDa protein in arn-motA intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16F PE=4 SV=3
+sp|Q914M7|Y003_SIFVH     9.1      0.96     2   0.1     83    136     94    129     93    128     Uncharacterized protein 3 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0003 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001604163@NC_010152.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001604163@NC_010152.txt data/models_hmm/YP_001604163@NC_010152.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:34 2021
+# [ok]

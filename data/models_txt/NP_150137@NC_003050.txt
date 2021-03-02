@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9T1U6|VP02_BPAPS     15.7     0.011   1   1.3   0.0    Putative protein P2 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=2 PE=4 SV=1
+sp|P03036|RCRO_BP434     15.2     0.015   2   1.4   0.1    Regulatory protein cro OS=Enterobacteria phage 434 OX=10712 GN=CRO PE=1 SV=1
+sp|O64322|CAPSD_BPN15    13.4     0.055   1   1.7   0.0    Major capsid protein OS=Escherichia phage N15 OX=40631 GN=gene 8 PE=3 SV=1
+sp|P05481|CAPSD_BPPH8    12.4      0.11   2   2.0   0.1    Major capsid protein OS=Enterobacteria phage phi80 OX=10713 GN=E PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9T1U6|VP02_BPAPS     15.1     0.016     1   0.0     22     73     29     67     13     51     Putative protein P2 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=2 PE=4 SV=1
+sp|P03036|RCRO_BP434     14.6     0.023     1   0.0      3     52     16     45     19     48     Regulatory protein cro OS=Enterobacteria phage 434 OX=10712 GN=CRO PE=1 SV=1
+sp|O64322|CAPSD_BPN15    11.9      0.16     1   0.0    110    143    114    139     18     43     Major capsid protein OS=Escherichia phage N15 OX=40631 GN=gene 8 PE=3 SV=1
+sp|P05481|CAPSD_BPPH8    10.5      0.46     1   0.0    110    143    114    139     18     43     Major capsid protein OS=Enterobacteria phage phi80 OX=10713 GN=E PE=3 SV=1
+sp|P05481|CAPSD_BPPH8    -2.4   4.9e+03     2   0.0    228    256    231    249     19     37     Major capsid protein OS=Enterobacteria phage phi80 OX=10713 GN=E PE=3 SV=1
+sp|P03036|RCRO_BP434     -3.7   1.2e+04     2   0.0     61     70     63     67     29     33     Regulatory protein cro OS=Enterobacteria phage 434 OX=10712 GN=CRO PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_150137@NC_003050.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_150137@NC_003050.txt data/models_hmm/NP_150137@NC_003050.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:57 2021
+# [ok]

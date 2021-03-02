@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P10430|YIM6_BPPH1    13.8     0.048   1   1.1   1.2    Uncharacterized immunity region protein 6 OS=Bacillus phage phi105 OX=10717 PE=4 SV=1
+sp|P43260|HEMA_I76AC    11.7      0.21   2   2.3   2.3    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Goose/Hong Kong/10/1976 H3) OX=45414 GN=HA PE=3 SV=1
+sp|P03459|HEMA_I34A0    11.5      0.25   1   1.7   2.2    Hemagglutinin OS=Influenza A virus (strain A/Fowl plague virus/Rostock/8/1934 H7N1) OX=392810 GN=HA PE=1 SV=1
+sp|P43258|HEMA_I76AD    10.9      0.39   2   2.4   3.0    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hong Kong/64/1976 H3) OX=45412 GN=HA PE=3 SV=1
+sp|P12585|HEMA_I82A5    10.9       0.4   2   2.4   3.0    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hokkaido/7/1982 H3N8) OX=11360 GN=HA PE=3 SV=1
+sp|P12584|HEMA_I80A7    10.9       0.4   2   2.4   3.0    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hokkaido/33/1980 H3N8) OX=11359 GN=HA PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P10430|YIM6_BPPH1    13.6     0.057     1   1.2      3     65      5     58     27     76     Uncharacterized immunity region protein 6 OS=Bacillus phage phi105 OX=10717 PE=4 SV=1
+sp|P03459|HEMA_I34A0    11.0      0.36     1   1.3    415    515    420    507      5     87     Hemagglutinin OS=Influenza A virus (strain A/Fowl plague virus/Rostock/8/1934 H7N1) OX=392810 GN=HA PE=1 SV=1
+sp|P43260|HEMA_I76AC    10.4      0.57     2   0.6    413    504    419    498     16     90     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Goose/Hong Kong/10/1976 H3) OX=45414 GN=HA PE=3 SV=1
+sp|P12584|HEMA_I80A7    10.0      0.72     2   0.7    413    503    419    498     16     90     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hokkaido/33/1980 H3N8) OX=11359 GN=HA PE=3 SV=1
+sp|P12585|HEMA_I82A5    10.0      0.72     2   0.7    413    503    419    498     16     90     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hokkaido/7/1982 H3N8) OX=11360 GN=HA PE=3 SV=1
+sp|P43258|HEMA_I76AD    10.0      0.72     2   0.7    413    503    419    498     16     90     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hong Kong/64/1976 H3) OX=45412 GN=HA PE=3 SV=1
+sp|P12584|HEMA_I80A7    -0.8   1.7e+03     1   0.0     78    114     90    107     49     66     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hokkaido/33/1980 H3N8) OX=11359 GN=HA PE=3 SV=1
+sp|P12585|HEMA_I82A5    -0.8   1.7e+03     1   0.0     78    114     90    107     49     66     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hokkaido/7/1982 H3N8) OX=11360 GN=HA PE=3 SV=1
+sp|P43258|HEMA_I76AD    -0.8   1.7e+03     1   0.0     78    114     90    107     49     66     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hong Kong/64/1976 H3) OX=45412 GN=HA PE=3 SV=1
+sp|P43260|HEMA_I76AC    -0.8   1.7e+03     1   0.0     78    114     90    107     49     66     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Goose/Hong Kong/10/1976 H3) OX=45414 GN=HA PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000393@SRS019327_WUGC_scaffold_20597@SRS019327_WUGC_scaffold_20597_gene_28776.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000393@SRS019327_WUGC_scaffold_20597@SRS019327_WUGC_scaffold_20597_gene_28776.txt data/models_hmm/7000000393@SRS019327_WUGC_scaffold_20597@SRS019327_WUGC_scaffold_20597_gene_28776.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:49 2021
+# [ok]

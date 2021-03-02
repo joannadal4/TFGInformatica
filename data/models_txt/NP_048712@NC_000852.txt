@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q70LD0|Y195_AFV1Y    19.5   0.00088   2   2.1   0.2    Uncharacterized protein ORF195 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF195 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q70LD0|Y195_AFV1Y    17.4    0.0042     1   0.1     89    132    101    125     39     65     Uncharacterized protein ORF195 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF195 PE=4 SV=1
+sp|Q70LD0|Y195_AFV1Y    -1.5   3.2e+03     2   0.0    126    166    135    157     21     44     Uncharacterized protein ORF195 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF195 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_048712@NC_000852.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_048712@NC_000852.txt data/models_hmm/NP_048712@NC_000852.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:32 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9YPD7|ORF1_MBVLF    17.6    0.0029   1   1.2   0.0    Uncharacterized protein ORF1 OS=Mushroom bacilliform virus (isolate Australia/AUS LF-1) OX=650482 GN=ORF1 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9YPD7|ORF1_MBVLF    17.5    0.0033     1   0.0     20    147     54    125     42    112     Uncharacterized protein ORF1 OS=Mushroom bacilliform virus (isolate Australia/AUS LF-1) OX=650482 GN=ORF1 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004957202@NC_016563.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004957202@NC_016563.txt data/models_hmm/YP_004957202@NC_016563.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:58 2021
+# [ok]

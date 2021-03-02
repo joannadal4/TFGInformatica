@@ -1,0 +1,54 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CA98|VF205_ASFM2    14.9     0.024   2   1.9   1.2    Uncharacterized protein K205R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-056 PE=3 SV=1
+sp|P0CA99|VF205_ASFP4    12.5      0.13   2   2.0   4.4    Uncharacterized protein K205R OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-060 PE=3 SV=1
+sp|Q65147|VF205_ASFB7    12.3      0.15   2   1.9   4.5    Uncharacterized protein K205R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-048 PE=3 SV=1
+sp|Q1A268|GAG_SIVMB      12.3      0.15   1   1.9   3.1    Gag polyprotein OS=Simian immunodeficiency virus (isolate MB66) OX=388911 GN=gag PE=3 SV=3
+sp|P0CAA0|VF205_ASFWA    11.9      0.19   3   2.0   5.1    Uncharacterized protein K205R OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-58 PE=3 SV=1
+sp|P0CA97|VF205_ASFK5     8.9       1.7   3   2.0   5.2    Uncharacterized protein K205R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-060 PE=3 SV=1
+sp|Q1A267|POL_SIVMB       8.8       1.8   2   2.7   6.8    Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate MB66) OX=388911 GN=gag-pol PE=3 SV=4
+sp|Q9IDV8|GAG_HV1YB       8.7       1.9   1   1.7   4.8    Gag polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF106) OX=388819 GN=gag PE=3 SV=3
+sp|P11365|GAG_IPMA        8.3       2.6   2   2.7   5.3    Intracisternal A-particle Gag-related polyprotein OS=Mouse intracisternal a-particle MIA14 OX=11753 GN=gag PE=3 SV=2
+sp|P17282|GAG_SIVCZ       8.2       2.8   1   1.5   5.2    Gag polyprotein OS=Simian immunodeficiency virus (isolate CPZ GAB1) OX=402771 GN=gag PE=3 SV=1
+sp|Q9IDV9|POL_HV1YB       8.2       2.9   1   2.2   4.5    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF106) OX=388819 GN=gag-pol PE=1 SV=3
+sp|Q1A250|GAG_SIVEK       7.7         4   1   1.8   5.5    Gag polyprotein OS=Simian immunodeficiency virus (isolate EK505) OX=388912 GN=gag PE=3 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CA98|VF205_ASFM2    14.9     0.024     1   1.2      2     67      6     61     61    116     Uncharacterized protein K205R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-056 PE=3 SV=1
+sp|P0CA99|VF205_ASFP4    13.2     0.078     1   1.9      2     68      6     60     61    115     Uncharacterized protein K205R OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-060 PE=3 SV=1
+sp|P0CAA0|VF205_ASFWA    13.2     0.079     1   1.9      2     68      6     60     61    115     Uncharacterized protein K205R OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-58 PE=3 SV=1
+sp|Q65147|VF205_ASFB7    13.2     0.079     1   1.9      2     68      6     60     61    115     Uncharacterized protein K205R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-048 PE=3 SV=1
+sp|Q1A268|GAG_SIVMB      10.6       0.5     1   3.1    380    433    382    411      3     32     Gag polyprotein OS=Simian immunodeficiency virus (isolate MB66) OX=388911 GN=gag PE=3 SV=3
+sp|P0CA97|VF205_ASFK5    10.2      0.65     1   1.9      2     68      6     59     61    114     Uncharacterized protein K205R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-060 PE=3 SV=1
+sp|Q1A267|POL_SIVMB       9.4       1.1     1   2.5    380    437    382    411      3     32     Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate MB66) OX=388911 GN=gag-pol PE=3 SV=4
+sp|Q9IDV8|GAG_HV1YB       7.4       4.8     1   4.8    387    432    390    418      4     32     Gag polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF106) OX=388819 GN=gag PE=3 SV=3
+sp|P17282|GAG_SIVCZ       7.2       5.7     1   5.2    394    436    398    426      4     32     Gag polyprotein OS=Simian immunodeficiency virus (isolate CPZ GAB1) OX=402771 GN=gag PE=3 SV=1
+sp|Q1A250|GAG_SIVEK       6.2        12     1   5.5    388    431    391    419      4     32     Gag polyprotein OS=Simian immunodeficiency virus (isolate EK505) OX=388912 GN=gag PE=3 SV=3
+sp|Q9IDV9|POL_HV1YB       6.0        13     1   4.5    387    435    390    418      4     32     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF106) OX=388819 GN=gag-pol PE=1 SV=3
+sp|P11365|GAG_IPMA        5.8        16     2   0.8    479    507    483    502      5     24     Intracisternal A-particle Gag-related polyprotein OS=Mouse intracisternal a-particle MIA14 OX=11753 GN=gag PE=3 SV=2
+sp|P11365|GAG_IPMA        3.8        63     1   0.3    452    481    452    475      1     23     Intracisternal A-particle Gag-related polyprotein OS=Mouse intracisternal a-particle MIA14 OX=11753 GN=gag PE=3 SV=2
+sp|Q1A267|POL_SIVMB      -0.7   1.5e+03     2   0.1    905    965    915    954     46     85     Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate MB66) OX=388911 GN=gag-pol PE=3 SV=4
+sp|P0CA97|VF205_ASFK5    -0.7   1.6e+03     2   0.1     40    108     59     73     79     93     Uncharacterized protein K205R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-060 PE=3 SV=1
+sp|P0CAA0|VF205_ASFWA    -2.7   6.7e+03     3   0.0    180    205    191    203     74     86     Uncharacterized protein K205R OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-58 PE=3 SV=1
+sp|P0CA98|VF205_ASFM2    -2.7   6.8e+03     2   0.0    184    209    195    207     74     86     Uncharacterized protein K205R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-056 PE=3 SV=1
+sp|P0CA99|VF205_ASFP4    -2.8     7e+03     2   0.0    181    205    191    203     74     86     Uncharacterized protein K205R OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-060 PE=3 SV=1
+sp|Q65147|VF205_ASFB7    -2.8     7e+03     2   0.0    181    205    191    203     74     86     Uncharacterized protein K205R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-048 PE=3 SV=1
+sp|P0CA97|VF205_ASFK5    -2.9   7.6e+03     3   0.0    186    209    195    207     74     86     Uncharacterized protein K205R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-060 PE=3 SV=1
+sp|P0CAA0|VF205_ASFWA    -3.5   1.2e+04     2   0.0    145    178    159    169     79     89     Uncharacterized protein K205R OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-58 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000297@SRS056259_LANL_scaffold_37166@SRS056259_LANL_scaffold_37166_gene_79236.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000297@SRS056259_LANL_scaffold_37166@SRS056259_LANL_scaffold_37166_gene_79236.txt data/models_hmm/7000000297@SRS056259_LANL_scaffold_37166@SRS056259_LANL_scaffold_37166_gene_79236.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:00 2021
+# [ok]

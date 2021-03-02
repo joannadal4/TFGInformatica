@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q98167|VP4_ROTRA     12.7     0.096   2   2.6   0.3    Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Rabbit/United States/ALA/XXXX/G3P11[14]) OX=101359 PE=2 SV=1
+sp|Q6R7I4|Y040_OSHVF     6.9       6.4   3   2.9   6.0    Uncharacterized protein ORF40 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF40 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q98167|VP4_ROTRA      9.4         1     1   0.1    296    321    300    314     54     68     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Rabbit/United States/ALA/XXXX/G3P11[14]) OX=101359 PE=2 SV=1
+sp|Q6R7I4|Y040_OSHVF     8.0       2.8     1   0.4     22    103     31     92      7     68     Uncharacterized protein ORF40 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF40 PE=4 SV=1
+sp|Q6R7I4|Y040_OSHVF    -0.2   1.1e+03     2   0.1    319    348    328    347     12     31     Uncharacterized protein ORF40 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF40 PE=4 SV=1
+sp|Q98167|VP4_ROTRA     -0.5   1.3e+03     2   0.0    523    561    529    555     11     37     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Rabbit/United States/ALA/XXXX/G3P11[14]) OX=101359 PE=2 SV=1
+sp|Q6R7I4|Y040_OSHVF    -1.5   2.7e+03     3   0.1    404    460    431    445     24     37     Uncharacterized protein ORF40 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF40 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008771156@NC_022769.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008771156@NC_022769.txt data/models_hmm/YP_008771156@NC_022769.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:29 2021
+# [ok]

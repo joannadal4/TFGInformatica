@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9Q926|MP44_RFVKA    13.6     0.054   1   2.1   0.3    Probable metalloendopeptidase G1-type OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=GP045L PE=3 SV=1
+sp|P20641|N2_VACCC       8.7       1.9   3   2.9   6.5    Protein N2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=N2L PE=3 SV=1
+sp|P0DSQ1|N2_VAR67       8.6         2   2   2.6   6.3    Protein N2 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=N2L PE=3 SV=1
+sp|P0DSQ2|N2_VARV        8.6         2   2   2.6   6.3    Protein N2 OS=Variola virus OX=10255 GN=N2L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9Q926|MP44_RFVKA    11.6      0.24     1   0.2    277    337    303    333     56     86     Probable metalloendopeptidase G1-type OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=GP045L PE=3 SV=1
+sp|P0DSQ1|N2_VAR67       6.2        11     2   0.3    105    172    124    164     23     63     Protein N2 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=N2L PE=3 SV=1
+sp|P0DSQ2|N2_VARV        6.2        11     2   0.3    105    172    124    164     23     63     Protein N2 OS=Variola virus OX=10255 GN=N2L PE=3 SV=1
+sp|P20641|N2_VACCC       5.6        17     1   0.7     32     81     41     77     49     85     Protein N2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=N2L PE=3 SV=1
+sp|P0DSQ1|N2_VAR67       4.9        28     1   0.8     30     81     34     77     42     85     Protein N2 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=N2L PE=3 SV=1
+sp|P0DSQ2|N2_VARV        4.9        28     1   0.8     30     81     34     77     42     85     Protein N2 OS=Variola virus OX=10255 GN=N2L PE=3 SV=1
+sp|P20641|N2_VACCC       4.8        30     3   0.4    106    171    124    161     23     60     Protein N2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=N2L PE=3 SV=1
+sp|P20641|N2_VACCC      -0.1     1e+03     2   0.0     79    123     84    118     48     81     Protein N2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=N2L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000172@SI34jun09_200mDRAFT_c1000036@SI34jun09_200mDRAFT_1000036148.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000172@SI34jun09_200mDRAFT_c1000036@SI34jun09_200mDRAFT_1000036148.txt data/models_hmm/3300000172@SI34jun09_200mDRAFT_c1000036@SI34jun09_200mDRAFT_1000036148.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:56 2021
+# [ok]

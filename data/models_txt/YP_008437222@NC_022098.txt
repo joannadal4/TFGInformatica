@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6WNV6|VP3_ROTCC      11.2      0.13   1   1.1   0.0    Protein VP3 OS=Rotavirus A (strain RVA/Chicken/Ireland/Ch2/1979/G7P[X]) OX=31589 PE=3 SV=1
+sp|P10470|CAPSD_PLRV      8.3      0.95   1   1.1   7.0    Major capsid protein OS=Potato leafroll virus OX=12045 GN=ORF3 PE=3 SV=1
+sp|P11624|CAPSD_PLRVW     7.3       1.8   1   1.1   7.1    Major capsid protein OS=Potato leafroll virus (strain Potato/Netherlands/Wageningen/1989) OX=12048 GN=ORF3 PE=3 SV=2
+sp|P17522|CAPSD_PLRV1     7.2       1.9   1   1.1   6.6    Major capsid protein OS=Potato leafroll virus (strain Potato/Scotland/strain 1/1984) OX=12046 GN=ORF3 PE=1 SV=1
+sp|P17521|CAPSD_PLRVR     7.2         2   1   1.1   7.2    Major capsid protein OS=Potato leafroll virus (strain Potato/Canada/Rowhani/1979) OX=12047 GN=ORF3 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6WNV6|VP3_ROTCC      10.6      0.19     1   0.0    535    616    546    585     34     73     Protein VP3 OS=Rotavirus A (strain RVA/Chicken/Ireland/Ch2/1979/G7P[X]) OX=31589 PE=3 SV=1
+sp|P10470|CAPSD_PLRV      7.8       1.3     1   7.0      3     84     10     61    274    324     Major capsid protein OS=Potato leafroll virus OX=12045 GN=ORF3 PE=3 SV=1
+sp|P11624|CAPSD_PLRVW     6.9       2.5     1   7.1      3     84     10     61    274    324     Major capsid protein OS=Potato leafroll virus (strain Potato/Netherlands/Wageningen/1989) OX=12048 GN=ORF3 PE=3 SV=2
+sp|P17522|CAPSD_PLRV1     6.8       2.7     1   6.6      3     83     10     61    274    324     Major capsid protein OS=Potato leafroll virus (strain Potato/Scotland/strain 1/1984) OX=12046 GN=ORF3 PE=1 SV=1
+sp|P17521|CAPSD_PLRVR     6.8       2.7     1   7.2      3     83     10     61    274    324     Major capsid protein OS=Potato leafroll virus (strain Potato/Canada/Rowhani/1979) OX=12047 GN=ORF3 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008437222@NC_022098.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008437222@NC_022098.txt data/models_hmm/YP_008437222@NC_022098.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:12 2021
+# [ok]

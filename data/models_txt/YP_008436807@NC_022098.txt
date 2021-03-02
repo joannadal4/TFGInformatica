@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03230|LMP1_EBVB9    14.9     0.017   2   2.0   0.5    Latent membrane protein 1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=LMP1 PE=1 SV=1
+sp|Q1HVB3|LMP1_EBVA8    14.5     0.023   2   1.8   0.6    Latent membrane protein 1 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=LMP1 PE=3 SV=1
+sp|P13198|LMP1_EBVR     14.0     0.033   2   1.9   0.3    Latent membrane protein 1 OS=Epstein-Barr virus (strain Raji) OX=10378 GN=LMP1 PE=1 SV=1
+sp|P0C741|LMP1_EBVG     13.6     0.043   2   1.9   0.3    Latent membrane protein 1 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=LMP1 PE=3 SV=1
+sp|P29362|LMP1_EBVC      8.7       1.3   2   1.9   5.5    Latent membrane protein 1 OS=Epstein-Barr virus (strain Cao) OX=31525 GN=LMP1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03230|LMP1_EBVB9    14.9     0.017     2   0.5    161    242    167    223    173    224     Latent membrane protein 1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=LMP1 PE=1 SV=1
+sp|Q1HVB3|LMP1_EBVA8    14.5     0.023     2   0.6    161    240    167    223    173    224     Latent membrane protein 1 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=LMP1 PE=3 SV=1
+sp|P13198|LMP1_EBVR     14.0     0.033     2   0.3    161    242    167    221    173    221     Latent membrane protein 1 OS=Epstein-Barr virus (strain Raji) OX=10378 GN=LMP1 PE=1 SV=1
+sp|P0C741|LMP1_EBVG     13.6     0.043     2   0.3    161    242    166    227    172    227     Latent membrane protein 1 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=LMP1 PE=3 SV=1
+sp|P29362|LMP1_EBVC     11.9      0.15     2   0.4    161    242    166    227    172    227     Latent membrane protein 1 OS=Epstein-Barr virus (strain Cao) OX=31525 GN=LMP1 PE=3 SV=1
+sp|P29362|LMP1_EBVC     -2.7     4e+03     1   0.7     23     51     27     43    176    192     Latent membrane protein 1 OS=Epstein-Barr virus (strain Cao) OX=31525 GN=LMP1 PE=3 SV=1
+sp|P13198|LMP1_EBVR     -2.8   4.3e+03     1   0.7     23     51     27     43    176    192     Latent membrane protein 1 OS=Epstein-Barr virus (strain Raji) OX=10378 GN=LMP1 PE=1 SV=1
+sp|P0C741|LMP1_EBVG     -2.9   4.6e+03     1   0.9     23     51     27     43    176    192     Latent membrane protein 1 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=LMP1 PE=3 SV=1
+sp|Q1HVB3|LMP1_EBVA8    -3.4   6.4e+03     1   0.9     25     51     29     43    178    192     Latent membrane protein 1 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=LMP1 PE=3 SV=1
+sp|P03230|LMP1_EBVB9    -3.4   6.8e+03     1   0.9     25     51     29     43    178    192     Latent membrane protein 1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=LMP1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008436807@NC_022098.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008436807@NC_022098.txt data/models_hmm/YP_008436807@NC_022098.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:09 2021
+# [ok]

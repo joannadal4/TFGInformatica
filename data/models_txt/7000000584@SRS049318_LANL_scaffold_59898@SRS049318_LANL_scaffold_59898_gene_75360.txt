@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CA73|VF171_ASFK5    16.4     0.005   1   1.9   0.1    Uncharacterized protein H171R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-126 PE=3 SV=1
+sp|Q65230|VF171_ASFM2    15.9    0.0073   1   1.9   0.1    Uncharacterized protein H171R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-122 PE=3 SV=1
+sp|P0CA74|VF171_ASFP4    15.9    0.0075   1   1.8   0.1    Uncharacterized protein H171R OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-126 PE=3 SV=1
+sp|P0CA75|VF171_ASFWA    15.6    0.0096   1   1.8   0.1    Uncharacterized protein H171R OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-124 PE=3 SV=1
+sp|Q65185|VF171_ASFB7    15.4      0.01   2   1.9   0.5    Uncharacterized protein H171R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-114 PE=3 SV=1
+sp|Q914L1|Y019_SIFVH     12.2      0.11   2   1.8   0.5    Uncharacterized protein 19 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0019 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CA73|VF171_ASFK5    14.8     0.016     1   0.1     26     72     35     70     10     40     Uncharacterized protein H171R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-126 PE=3 SV=1
+sp|P0CA74|VF171_ASFP4    14.5     0.021     1   0.1     24     72     47     70     17     40     Uncharacterized protein H171R OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-126 PE=3 SV=1
+sp|Q65230|VF171_ASFM2    14.4     0.022     1   0.1     24     72     47     70     17     40     Uncharacterized protein H171R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-122 PE=3 SV=1
+sp|P0CA75|VF171_ASFWA    14.1     0.027     1   0.1     24     72     47     70     17     40     Uncharacterized protein H171R OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-124 PE=3 SV=1
+sp|Q65185|VF171_ASFB7    14.1     0.027     1   0.1     24     72     47     70     17     40     Uncharacterized protein H171R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-114 PE=3 SV=1
+sp|Q914L1|Y019_SIFVH     10.6      0.33     2   0.3     64     94     72     93     18     38     Uncharacterized protein 19 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0019 PE=4 SV=1
+sp|Q914L1|Y019_SIFVH      0.5   4.7e+02     1   0.1     43     78     51     75     28     47     Uncharacterized protein 19 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0019 PE=4 SV=1
+sp|Q65185|VF171_ASFB7    -1.7   2.3e+03     2   0.1     80    139    111    111     28     28     Uncharacterized protein H171R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-114 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000584@SRS049318_LANL_scaffold_59898@SRS049318_LANL_scaffold_59898_gene_75360.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000584@SRS049318_LANL_scaffold_59898@SRS049318_LANL_scaffold_59898_gene_75360.txt data/models_hmm/7000000584@SRS049318_LANL_scaffold_59898@SRS049318_LANL_scaffold_59898_gene_75360.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:27 2021
+# [ok]

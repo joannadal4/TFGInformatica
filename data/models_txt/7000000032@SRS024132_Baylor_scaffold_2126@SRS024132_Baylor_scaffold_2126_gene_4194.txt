@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP88|YR010_MIMIV     9.7       1.2   3   3.3   5.7    Uncharacterized protein R10 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R10 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UP88|YR010_MIMIV     9.5       1.5     2   0.1    230    293    241    284     17     60     Uncharacterized protein R10 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R10 PE=3 SV=1
+sp|Q5UP88|YR010_MIMIV     0.4   9.6e+02     1   1.1     53    164     95    127     27     59     Uncharacterized protein R10 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R10 PE=3 SV=1
+sp|Q5UP88|YR010_MIMIV    -2.1     6e+03     3   0.0    297    366    310    349     39     76     Uncharacterized protein R10 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R10 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000032@SRS024132_Baylor_scaffold_2126@SRS024132_Baylor_scaffold_2126_gene_4194.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000032@SRS024132_Baylor_scaffold_2126@SRS024132_Baylor_scaffold_2126_gene_4194.txt data/models_hmm/7000000032@SRS024132_Baylor_scaffold_2126@SRS024132_Baylor_scaffold_2126_gene_4194.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:55 2021
+# [ok]

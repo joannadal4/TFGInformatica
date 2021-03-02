@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05221|VG15_BPML5   458.9  6.6e-138   1   1.0   3.7    Gene 15 protein OS=Mycobacterium phage L5 OX=31757 GN=15 PE=4 SV=1
+sp|O64208|VG15_BPMD2   456.8  2.8e-137   1   1.0   0.7    Gene 15 protein OS=Mycobacterium phage D29 OX=28369 GN=15 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05221|VG15_BPML5   458.7  7.4e-138     1   3.7      1    294      1    294      1    278     Gene 15 protein OS=Mycobacterium phage L5 OX=31757 GN=15 PE=4 SV=1
+sp|O64208|VG15_BPMD2   456.7  3.1e-137     1   0.7      1    275      1    275     12    278     Gene 15 protein OS=Mycobacterium phage D29 OX=28369 GN=15 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_655594@NC_008203.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_655594@NC_008203.txt data/models_hmm/YP_655594@NC_008203.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:42 2021
+# [ok]

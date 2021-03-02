@@ -1,0 +1,75 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPA0|YL025_MIMIV    25.2   1.1e-05   4   4.5   0.5    Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV    24.4   1.9e-05   7   5.5   0.1    Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5UQF1|YL483_MIMIV    24.0   2.5e-05   5   4.7   0.1    Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV    23.9   2.8e-05   8   5.3   1.8    Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UQJ2|YR863_MIMIV    22.8     6e-05   5   5.4   0.4    Putative ankyrin repeat protein R863 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L863 PE=4 SV=1
+sp|Q5UPE2|YL063_MIMIV    19.9   0.00047   6   4.9   0.7    Putative ankyrin repeat protein L63 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L63 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV    17.8    0.0021   4   3.8   0.1    Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UP11|YR848_MIMIV    16.4    0.0058   4   3.2   0.0    Putative ankyrin repeat protein R848 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R848 PE=4 SV=1
+sp|Q5UQ08|YR787_MIMIV    11.9      0.15   2   2.6   0.1    Putative ankyrin repeat protein R787 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R787 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPE2|YL063_MIMIV     9.1       1.1     4   0.0    401    493    409    454     39     82     Putative ankyrin repeat protein L63 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L63 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV     8.5       1.6     3   0.0    158    211    160    209     35     82     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV     8.4       1.8     6   0.0    230    302    233    292     35     92     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UQ08|YR787_MIMIV     7.9       2.5     1   0.0    185    314    218    307     34    119     Putative ankyrin repeat protein R787 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R787 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV     7.6       3.1     2   0.0     99    160    102    149     36     82     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV     7.2         4     2   0.0    147    205    152    201     44     91     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5UQ08|YR787_MIMIV     7.1       4.4     2   0.1    224    373    278    328     34     82     Putative ankyrin repeat protein R787 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R787 PE=4 SV=1
+sp|Q5UQF1|YL483_MIMIV     7.1       4.5     5   0.0    351    407    353    402     35     82     Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+sp|Q5UP11|YR848_MIMIV     6.1       8.9     2   0.0     41     95     47     92     39     82     Putative ankyrin repeat protein R848 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R848 PE=4 SV=1
+sp|Q5UQJ2|YR863_MIMIV     6.0       9.5     1   0.0     62    144     95    139     40     82     Putative ankyrin repeat protein R863 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L863 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV     6.0       9.9     4   0.0    231    326    233    311     35    109     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV     5.6        13     3   0.0    170    229    173    222     35     82     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV     5.4        14     4   0.0    136    193    142    192     34     82     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UP11|YR848_MIMIV     5.1        18     1   0.0     11     68     17     62     39     82     Putative ankyrin repeat protein R848 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R848 PE=4 SV=1
+sp|Q5UP11|YR848_MIMIV     4.7        25     3   0.0    102    155    112    152     44     82     Putative ankyrin repeat protein R848 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R848 PE=4 SV=1
+sp|Q5UQF1|YL483_MIMIV     4.3        32     4   0.0    273    345    293    342     35     82     Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV     4.3        32     5   0.0    171    224    173    222     35     82     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UQJ2|YR863_MIMIV     4.0        41     5   0.0    417    477    420    469     35     82     Putative ankyrin repeat protein R863 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L863 PE=4 SV=1
+sp|Q5UQJ2|YR863_MIMIV     3.5        55     3   0.0    177    242    180    229     35     82     Putative ankyrin repeat protein R863 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L863 PE=4 SV=1
+sp|Q5UQF1|YL483_MIMIV     3.3        65     3   0.0    169    224    173    222     35     82     Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV     3.0        82     4   0.0    287    348    291    340     35     82     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV     2.6   1.1e+02     3   0.0    204    252    210    250     42     82     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5UQF1|YL483_MIMIV     2.4   1.2e+02     2   0.0    139    192    143    190     35     80     Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV     2.2   1.4e+02     4   0.0    218    310    222    269     37     82     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV     2.2   1.5e+02     3   0.0    113    168    122    162     44     82     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UPE2|YL063_MIMIV     2.0   1.6e+02     2   0.0    117    219    142    166     59     83     Putative ankyrin repeat protein L63 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L63 PE=4 SV=1
+sp|Q5UPE2|YL063_MIMIV     1.5   2.3e+02     5   0.0    493    544    495    519     35     59     Putative ankyrin repeat protein L63 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L63 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV     1.3   2.8e+02     7   0.0    471    523    480    522     42     82     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV     1.2     3e+02     1   0.0    102    164    120    162     42     82     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5UQF1|YL483_MIMIV     1.0   3.3e+02     1   0.0     46    137     55    132      9     82     Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV     1.0   3.3e+02     2   0.0     74    167    117    162     39     82     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV     0.7   4.1e+02     7   0.0    293    372    299    344     42     83     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV     0.2   5.8e+02     1   0.0     46     93     51     90     45     82     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV     0.2   5.9e+02     5   0.0    319    371    326    370     40     82     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5UQJ2|YR863_MIMIV    -0.0     7e+02     2   0.0    145    179    150    171     35     56     Putative ankyrin repeat protein R863 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L863 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV    -0.3   8.7e+02     2   0.0     37    138     84    132     36     82     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV    -0.6   1.1e+03     8   0.0    392    462    418    458     41     79     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UQJ2|YR863_MIMIV    -0.8   1.2e+03     4   0.0    302    391    330    350     63     83     Putative ankyrin repeat protein R863 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L863 PE=4 SV=1
+sp|Q5UPE2|YL063_MIMIV    -0.8   1.2e+03     3   0.0    344    408    353    394     43     82     Putative ankyrin repeat protein L63 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L63 PE=4 SV=1
+sp|Q5UPE2|YL063_MIMIV    -1.2   1.6e+03     6   0.0    523    574    525    549     35     59     Putative ankyrin repeat protein L63 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L63 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV    -1.9   2.7e+03     1   0.0     10     69     13     49     21     53     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UP11|YR848_MIMIV    -2.2   3.3e+03     4   0.0    162    208    169    193     83    107     Putative ankyrin repeat protein R848 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R848 PE=4 SV=1
+sp|Q5UPE2|YL063_MIMIV    -2.3   3.5e+03     1   0.0     29    106     36    103      9     80     Putative ankyrin repeat protein L63 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L63 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV    -2.4   3.8e+03     6   0.0    415    474    419    460     43     80     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV    -3.4   7.5e+03     1   0.0     11     52     13     48     21     52     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000513@SRS047824_WUGC_scaffold_2288@SRS047824_WUGC_scaffold_2288_gene_3323.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000513@SRS047824_WUGC_scaffold_2288@SRS047824_WUGC_scaffold_2288_gene_3323.txt data/models_hmm/7000000513@SRS047824_WUGC_scaffold_2288@SRS047824_WUGC_scaffold_2288_gene_3323.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:57 2021
+# [ok]

@@ -1,0 +1,47 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQW6|YR387_MIMIV     9.8         1   3   2.9   9.2    Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q8V0N6|POLG_HAV88      9.5       1.2   2   2.6   3.8    Genome polyprotein OS=Human hepatitis A virus genotype IIB (isolate SLF88) OX=470592 PE=3 SV=1
+sp|B3SRV3|NSP3_ROTHP      7.3       6.2   3   3.1  10.7    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=1
+sp|P83549|CAPSD_HPVID     6.6       9.9   2   2.6   9.3    Capsid protein OS=High plains virus (isolate Idaho 97) OX=224783 PE=1 SV=2
+sp|P83550|CAPSD_HPVKS     6.6       9.9   2   2.6   9.3    Capsid protein OS=High plains virus (isolate Kansas 96) OX=224782 PE=1 SV=2
+sp|P83664|CAPSD_HPVCO     6.6       9.9   2   2.6   9.3    Capsid protein OS=High plains virus (isolate Colorado 96) OX=247483 PE=1 SV=2
+sp|P83665|CAPSD_HPVUT     6.6       9.9   2   2.6   9.3    Capsid protein OS=High plains virus (isolate Utah 96) OX=247485 PE=1 SV=2
+sp|P83666|CAPSD_HPVTX     6.6       9.9   2   2.6   9.3    Capsid protein OS=High plains virus (isolate Texas 96) OX=247484 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQW6|YR387_MIMIV    11.1       0.4     1   4.0      1     84      4     66      3     75     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|P83549|CAPSD_HPVID     9.6       1.2     2   2.3    227    286    237    273     28     64     Capsid protein OS=High plains virus (isolate Idaho 97) OX=224783 PE=1 SV=2
+sp|P83550|CAPSD_HPVKS     9.6       1.2     2   2.3    227    286    237    273     28     64     Capsid protein OS=High plains virus (isolate Kansas 96) OX=224782 PE=1 SV=2
+sp|P83664|CAPSD_HPVCO     9.6       1.2     2   2.3    227    286    237    273     28     64     Capsid protein OS=High plains virus (isolate Colorado 96) OX=247483 PE=1 SV=2
+sp|P83665|CAPSD_HPVUT     9.6       1.2     2   2.3    227    286    237    273     28     64     Capsid protein OS=High plains virus (isolate Utah 96) OX=247485 PE=1 SV=2
+sp|P83666|CAPSD_HPVTX     9.6       1.2     2   2.3    227    286    237    273     28     64     Capsid protein OS=High plains virus (isolate Texas 96) OX=247484 PE=1 SV=2
+sp|Q8V0N6|POLG_HAV88      7.1         7     1   1.1   1105   1197   1110   1189     10     86     Genome polyprotein OS=Human hepatitis A virus genotype IIB (isolate SLF88) OX=470592 PE=3 SV=1
+sp|B3SRV3|NSP3_ROTHP      6.2        13     3   0.3    233    305    238    293     13     67     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=1
+sp|B3SRV3|NSP3_ROTHP      5.1        30     1   2.1    147    212    151    201     27     75     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=1
+sp|Q8V0N6|POLG_HAV88      1.9   2.9e+02     2   0.1   1349   1409   1358   1392     21     55     Genome polyprotein OS=Human hepatitis A virus genotype IIB (isolate SLF88) OX=470592 PE=3 SV=1
+sp|B3SRV3|NSP3_ROTHP      0.9     6e+02     2   0.7    187    232    206    226     45     66     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=1
+sp|P83549|CAPSD_HPVID     0.5   8.2e+02     1   0.4     92    160    133    156     51     74     Capsid protein OS=High plains virus (isolate Idaho 97) OX=224783 PE=1 SV=2
+sp|P83550|CAPSD_HPVKS     0.5   8.2e+02     1   0.4     92    160    133    156     51     74     Capsid protein OS=High plains virus (isolate Kansas 96) OX=224782 PE=1 SV=2
+sp|P83664|CAPSD_HPVCO     0.5   8.2e+02     1   0.4     92    160    133    156     51     74     Capsid protein OS=High plains virus (isolate Colorado 96) OX=247483 PE=1 SV=2
+sp|P83665|CAPSD_HPVUT     0.5   8.2e+02     1   0.4     92    160    133    156     51     74     Capsid protein OS=High plains virus (isolate Utah 96) OX=247485 PE=1 SV=2
+sp|P83666|CAPSD_HPVTX     0.5   8.2e+02     1   0.4     92    160    133    156     51     74     Capsid protein OS=High plains virus (isolate Texas 96) OX=247484 PE=1 SV=2
+sp|Q5UQW6|YR387_MIMIV    -0.7   1.9e+03     2   0.0     61    113     79     94     46     61     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q5UQW6|YR387_MIMIV    -0.9   2.1e+03     3   0.1     94    168    107    143     33     69     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008241133@NC_021792.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008241133@NC_021792.txt data/models_hmm/YP_008241133@NC_021792.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:30 2021
+# [ok]

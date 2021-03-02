@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPK6|YR129_MIMIV    16.2    0.0071   2   1.7   0.5    Uncharacterized protein R129 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R129 PE=3 SV=1
+sp|Q5UP39|YR873_MIMIV    15.8    0.0098   4   3.6   2.0    Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPK6|YR129_MIMIV    15.6     0.012     1   0.1     30    130     64     98     89    123     Uncharacterized protein R129 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R129 PE=3 SV=1
+sp|Q5UP39|YR873_MIMIV     7.1       4.7     2   0.0    211    273    227    266     50     90     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV     5.0        21     1   0.0    154    215    168    205     51     89     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV    -0.7   1.2e+03     3   0.0    273    332    290    324     54     87     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV    -2.2   3.4e+03     4   0.0    406    452    421    447     65     92     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UPK6|YR129_MIMIV    -2.9   5.6e+03     2   0.0    142    175    159    166     94    101     Uncharacterized protein R129 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R129 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000308@MIS_1000030827.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000308@MIS_1000030827.txt data/models_hmm/3300002026@MIS_10000308@MIS_1000030827.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:52 2021
+# [ok]

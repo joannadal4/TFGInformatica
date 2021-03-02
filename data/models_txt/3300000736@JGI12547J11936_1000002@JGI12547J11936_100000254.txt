@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ31|YR210_MIMIV    67.9   8.4e-19   1   1.1  43.5    Uncharacterized protein R210 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R210 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ31|YR210_MIMIV    67.6     1e-18     1  43.5      2    380     18    360     44    389     Uncharacterized protein R210 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R210 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000736@JGI12547J11936_1000002@JGI12547J11936_100000254.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000736@JGI12547J11936_1000002@JGI12547J11936_100000254.txt data/models_hmm/3300000736@JGI12547J11936_1000002@JGI12547J11936_100000254.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:15 2021
+# [ok]

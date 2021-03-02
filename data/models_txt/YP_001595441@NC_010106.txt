@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q38200|COM_BPD10     13.2     0.065   1   1.4   1.5    Translational activator com OS=Escherichia phage D108 OX=665033 GN=com PE=2 SV=2
+sp|Q38621|COM_BPMU      13.2     0.065   1   1.4   1.5    Translational activator com OS=Escherichia phage Mu OX=10677 GN=com PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38200|COM_BPD10     12.8     0.081     1   1.5      1     58      1     33      1     30     Translational activator com OS=Escherichia phage D108 OX=665033 GN=com PE=2 SV=2
+sp|Q38621|COM_BPMU      12.8     0.081     1   1.5      1     58      1     33      1     30     Translational activator com OS=Escherichia phage Mu OX=10677 GN=com PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001595441@NC_010106.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001595441@NC_010106.txt data/models_hmm/YP_001595441@NC_010106.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:33 2021
+# [ok]

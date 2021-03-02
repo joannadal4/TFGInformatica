@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03547|MVP_CAMVD     11.1      0.24   3   3.2   3.3    Movement protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF I PE=3 SV=1
+sp|P03545|MVP_CAMVS      9.4      0.83   3   3.2   5.8    Movement protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF I PE=1 SV=1
+sp|Q01089|MVP_CAMVW      9.3      0.87   3   3.1   5.4    Movement protein OS=Cauliflower mosaic virus (strain W260) OX=31558 GN=ORF I PE=3 SV=1
+sp|Q02968|MVP_CAMVE      9.1      0.97   3   3.1   5.7    Movement protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF I PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03545|MVP_CAMVS      9.5      0.74     2   0.1    249    302    261    292     26     57     Movement protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF I PE=1 SV=1
+sp|Q01089|MVP_CAMVW      9.2      0.93     2   0.1    249    302    261    292     26     57     Movement protein OS=Cauliflower mosaic virus (strain W260) OX=31558 GN=ORF I PE=3 SV=1
+sp|Q02968|MVP_CAMVE      9.2      0.96     2   0.1    253    302    263    293     28     58     Movement protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF I PE=3 SV=2
+sp|P03547|MVP_CAMVD      8.8       1.2     2   0.0    249    296    260    290     25     55     Movement protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF I PE=3 SV=1
+sp|P03545|MVP_CAMVS      1.4   2.6e+02     3   0.2    296    326    311    324     39     52     Movement protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF I PE=1 SV=1
+sp|Q01089|MVP_CAMVW      1.4   2.6e+02     3   0.2    296    326    311    324     39     52     Movement protein OS=Cauliflower mosaic virus (strain W260) OX=31558 GN=ORF I PE=3 SV=1
+sp|Q02968|MVP_CAMVE      1.4   2.6e+02     3   0.1    297    326    311    324     39     52     Movement protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF I PE=3 SV=2
+sp|P03547|MVP_CAMVD      0.9   3.7e+02     3   0.1    304    326    312    324     40     52     Movement protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF I PE=3 SV=1
+sp|P03547|MVP_CAMVD     -1.8   2.5e+03     1   0.2     33     57     37     54     43     60     Movement protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF I PE=3 SV=1
+sp|P03545|MVP_CAMVS     -3.1   6.4e+03     1   0.1     38     57     41     54     47     60     Movement protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF I PE=1 SV=1
+sp|Q01089|MVP_CAMVW     -3.1   6.4e+03     1   0.1     38     57     41     54     47     60     Movement protein OS=Cauliflower mosaic virus (strain W260) OX=31558 GN=ORF I PE=3 SV=1
+sp|Q02968|MVP_CAMVE     -3.1   6.4e+03     1   0.1     38     57     41     54     47     60     Movement protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF I PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000380@SRS015663_WUGC_scaffold_37390@SRS015663_WUGC_scaffold_37390_gene_84913.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000380@SRS015663_WUGC_scaffold_37390@SRS015663_WUGC_scaffold_37390_gene_84913.txt data/models_hmm/7000000380@SRS015663_WUGC_scaffold_37390@SRS015663_WUGC_scaffold_37390_gene_84913.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:44 2021
+# [ok]

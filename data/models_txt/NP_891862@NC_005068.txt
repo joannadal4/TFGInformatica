@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36870|YPE6_NPVLD   181.9   1.1e-53   1   1.1   0.3    Uncharacterized 33.9 kDa protein in PE 3'region OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36870|YPE6_NPVLD   181.6   1.3e-53     1   0.3      1    214      1    211      1    215     Uncharacterized 33.9 kDa protein in PE 3'region OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_891862@NC_005068.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_891862@NC_005068.txt data/models_hmm/NP_891862@NC_005068.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:33 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CK08|MVP_SBMVN     13.2     0.048   1   1.6   0.1    P3N-PIPO polyprotein OS=Soybean mosaic virus (strain N) OX=12223 PE=3 SV=2
+sp|P0CK07|MVP_SBMVG     13.1      0.05   1   1.6   0.1    P3N-PIPO polyprotein OS=Soybean mosaic virus (strain G2) OX=103931 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CK07|MVP_SBMVG     11.9      0.12     1   0.1    764    830    768    808     27     67     P3N-PIPO polyprotein OS=Soybean mosaic virus (strain G2) OX=103931 PE=3 SV=2
+sp|P0CK08|MVP_SBMVN     11.9      0.12     1   0.1    764    830    768    808     27     67     P3N-PIPO polyprotein OS=Soybean mosaic virus (strain N) OX=12223 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_078732@NC_001824.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_078732@NC_001824.txt data/models_hmm/NP_078732@NC_001824.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:53 2021
+# [ok]

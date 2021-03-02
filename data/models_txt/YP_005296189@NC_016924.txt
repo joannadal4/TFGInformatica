@@ -1,0 +1,41 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P17365|C13_VACCW    279.8   1.1e-83   1   1.0   1.4    Protein C13 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR206 PE=3 SV=1
+sp|P21045|VC14_VACCC   100.1   1.4e-28   1   1.0   1.4    Protein C14 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C14L PE=4 SV=1
+sp|P21044|C13_VACCC     84.1   1.1e-23   1   1.0   0.9    Protein C13 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C13L PE=3 SV=1
+sp|P0DSV7|CRMB_VAR67    49.5   4.6e-13   1   1.2   7.2    Cytokine response-modifying protein B OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=CRMB PE=1 SV=1
+sp|P0DSV8|CRMB_VARV     49.5   4.6e-13   1   1.2   7.2    Cytokine response-modifying protein B OS=Variola virus OX=10255 GN=CRMB PE=3 SV=1
+sp|O73559|CRMB_CWPXG    47.2   2.3e-12   1   1.2   7.7    Soluble TNF receptor II OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=CRMB1 PE=3 SV=1
+sp|P68636|CRMB_CAMPM    47.1   2.6e-12   1   1.2   7.0    Soluble TNF receptor II OS=Camelpox virus (strain M-96) OX=203173 GN=CRMB1 PE=3 SV=1
+sp|P68637|CRMB_CAMPS    47.1   2.6e-12   1   1.2   7.0    Soluble TNF receptor II OS=Camelpox virus (strain CMS) OX=203172 GN=CRMB1 PE=3 SV=1
+sp|P25943|VT2_RFVKA     36.0   6.4e-09   1   1.3   0.5    Tumor necrosis factor soluble receptor OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=s002L PE=3 SV=1
+sp|P29825|VT2_MYXVL     27.8   2.1e-06   1   1.2   0.3    Tumor necrosis factor soluble receptor OS=Myxoma virus (strain Lausanne) OX=31530 GN=m002L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P17365|C13_VACCW    279.7   1.2e-83     1   1.4      1    190      1    190      1    189     Protein C13 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR206 PE=3 SV=1
+sp|P21045|VC14_VACCC   100.0   1.6e-28     1   1.4      1     80      1     69    110    178     Protein C14 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C14L PE=4 SV=1
+sp|P21044|C13_VACCC     84.0   1.2e-23     1   0.9      1     65      1     64      1     73     Protein C13 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C13L PE=3 SV=1
+sp|P0DSV7|CRMB_VAR67    48.9     7e-13     1   7.2    155    325    173    316     32    174     Cytokine response-modifying protein B OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=CRMB PE=1 SV=1
+sp|P0DSV8|CRMB_VARV     48.9     7e-13     1   7.2    155    325    173    316     32    174     Cytokine response-modifying protein B OS=Variola virus OX=10255 GN=CRMB PE=3 SV=1
+sp|O73559|CRMB_CWPXG    46.6   3.5e-12     1   7.7    158    330    176    318     33    174     Soluble TNF receptor II OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=CRMB1 PE=3 SV=1
+sp|P68636|CRMB_CAMPM    46.5   3.9e-12     1   7.0    156    326    174    316     33    174     Soluble TNF receptor II OS=Camelpox virus (strain M-96) OX=203173 GN=CRMB1 PE=3 SV=1
+sp|P68637|CRMB_CAMPS    46.5   3.9e-12     1   7.0    156    326    174    316     33    174     Soluble TNF receptor II OS=Camelpox virus (strain CMS) OX=203172 GN=CRMB1 PE=3 SV=1
+sp|P25943|VT2_RFVKA     35.3   1.1e-08     1   0.5    151    308    165    295     32    165     Tumor necrosis factor soluble receptor OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=s002L PE=3 SV=1
+sp|P29825|VT2_MYXVL     27.1   3.4e-06     1   0.3    148    309    163    295     30    164     Tumor necrosis factor soluble receptor OS=Myxoma virus (strain Lausanne) OX=31530 GN=m002L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_005296189@NC_016924.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_005296189@NC_016924.txt data/models_hmm/YP_005296189@NC_016924.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:06 2021
+# [ok]

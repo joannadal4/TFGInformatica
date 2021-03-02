@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q65361|Y013_NPVOP    48.9     5e-13   1   1.8   0.0    Uncharacterized 36.6 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF12 PE=4 SV=1
+sp|P41423|Y013_NPVAC    48.3   7.6e-13   1   1.6   0.1    Uncharacterized 38.7 kDa protein in PK1-LEF1 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|P16724|TRM1_HCMVA    15.1     0.011   1   1.4   0.0    Tripartite terminase subunit 1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=TRM1 PE=3 SV=1
+sp|F5HC79|TRM1_HCMVM    15.1     0.011   1   1.4   0.0    Tripartite terminase subunit 1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=TRM1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41423|Y013_NPVAC    47.4   1.5e-12     1   0.0    147    327    224    320    112    212     Uncharacterized 38.7 kDa protein in PK1-LEF1 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|Q65361|Y013_NPVOP    47.3   1.6e-12     1   0.0    148    318    210    311    111    214     Uncharacterized 36.6 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF12 PE=4 SV=1
+sp|F5HC79|TRM1_HCMVM    14.1     0.022     1   0.0     88    196    125    187    142    204     Tripartite terminase subunit 1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=TRM1 PE=3 SV=1
+sp|P16724|TRM1_HCMVA    14.1     0.022     1   0.0     88    196    125    187    142    204     Tripartite terminase subunit 1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=TRM1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_047759@NC_001973.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_047759@NC_001973.txt data/models_hmm/NP_047759@NC_001973.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:27 2021
+# [ok]

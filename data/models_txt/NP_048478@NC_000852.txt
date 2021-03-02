@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HGH8|US20_HCMVM     8.5       2.4   2   2.4   8.7    Membrane protein US20 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US20 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HGH8|US20_HCMVM    11.6      0.26     2   2.1     87    190    119    185     37    100     Membrane protein US20 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US20 PE=4 SV=1
+sp|F5HGH8|US20_HCMVM     0.1   9.8e+02     1   0.6     10     86     55     75     56     94     Membrane protein US20 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US20 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_048478@NC_000852.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_048478@NC_000852.txt data/models_hmm/NP_048478@NC_000852.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:31 2021
+# [ok]

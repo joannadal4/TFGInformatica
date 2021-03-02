@@ -1,0 +1,68 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FV2|VF219_IIV6   457.2  2.6e-137   1   1.0  21.8    Uncharacterized protein 219L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-219L PE=3 SV=1
+sp|Q197C4|VF219_IIV3   301.5   6.3e-90   2   2.0  18.5    Uncharacterized protein 036R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-036R PE=3 SV=1
+sp|Q196W9|VF396_IIV3   230.3     3e-68   7   8.4 102.8    Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|P18305|443R_IIV6    146.5   9.5e-43  16  15.3 186.1    Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|O55757|159L_IIV6     71.9   4.9e-20   4   3.7  68.4    Uncharacterized protein 159L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-159L PE=4 SV=1
+sp|Q197F2|008L_IIV3     33.4   2.5e-08   2   2.0   9.6    Uncharacterized protein 008L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-008L PE=4 SV=1
+sp|P03743|FIB36_BPT4    17.7    0.0015   2   2.1   1.7    Long-tail fiber protein gp36 OS=Enterobacteria phage T4 OX=10665 GN=36 PE=1 SV=1
+sp|P07066|VG36_BPT2     16.0    0.0052   2   2.0   4.8    Tail fiber protein p36 OS=Enterobacteria phage T2 OX=10664 GN=36 PE=4 SV=1
+sp|Q196T5|125R_IIV3     12.4     0.062   2   2.0   0.1    Uncharacterized protein 125R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-125R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FV2|VF219_IIV6   457.0  2.9e-137     1  21.8      1    343      1    343      1    316     Uncharacterized protein 219L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-219L PE=3 SV=1
+sp|Q197C4|VF219_IIV3   283.8   1.5e-84     2  17.8     21    258     22    258     90    316     Uncharacterized protein 036R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-036R PE=3 SV=1
+sp|Q196W9|VF396_IIV3   106.4   1.6e-30     1   7.0      1    145      3    144      6    150     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|Q196W9|VF396_IIV3    49.0   4.6e-13     5   7.6    641    762    672    755     54    141     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|P18305|443R_IIV6     46.0   3.6e-12     3   8.8    119    263    131    226     79    168     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|O55757|159L_IIV6     44.8   8.7e-12     2  26.9     51    187     57    177     20    111     Uncharacterized protein 159L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-159L PE=4 SV=1
+sp|P18305|443R_IIV6     35.3   6.7e-09     8  12.1    920   1084    934   1042     63    168     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|Q196W9|VF396_IIV3    35.1   7.7e-09     6   1.0    755    821    760    802     96    141     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|Q196W9|VF396_IIV3    35.1   7.9e-09     2   1.1    139    194    142    187     96    147     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|P18305|443R_IIV6     34.9   8.7e-09     7  14.5    774    961    799    945     51    185     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|Q196W9|VF396_IIV3    34.8   9.3e-09     3  10.9    185    332    193    289     59    155     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|P18305|443R_IIV6     32.6   4.3e-08    10  21.1   1207   1402   1219   1364     28    172     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6     27.6   1.5e-06     2   3.2     61    150     84    146     84    141     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6     27.5   1.6e-06     4   5.0    274    398    337    379    101    141     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6     27.3   1.8e-06    14  19.9   1761   1972   1773   1952     28    192     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|O55757|159L_IIV6     26.7   2.8e-06     1   2.1      1     57      1     48      1     46     Uncharacterized protein 159L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-159L PE=4 SV=1
+sp|Q197F2|008L_IIV3     26.7   2.8e-06     1   1.6      1    107      2     92      6     87     Uncharacterized protein 008L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-008L PE=4 SV=1
+sp|P18305|443R_IIV6     25.7   5.8e-06     5  15.5    379    606    411    527     42    152     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|Q197C4|VF219_IIV3    22.8   4.2e-05     1   0.1      1     34      1     33      1     31     Uncharacterized protein 036R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-036R PE=3 SV=1
+sp|P18305|443R_IIV6     20.2   0.00027     6  22.2    599    828    607    796     21    165     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|Q197F2|008L_IIV3     19.0   0.00061     2   1.3     25    130     30     84    112    168     Uncharacterized protein 008L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-008L PE=4 SV=1
+sp|P07066|VG36_BPT2     15.7    0.0062     1   2.3      6    173    115    162    100    143     Tail fiber protein p36 OS=Enterobacteria phage T2 OX=10664 GN=36 PE=4 SV=1
+sp|P03743|FIB36_BPT4    15.5    0.0072     1   0.4    111    174    134    164    114    143     Long-tail fiber protein gp36 OS=Enterobacteria phage T4 OX=10665 GN=36 PE=1 SV=1
+sp|O55757|159L_IIV6     10.7      0.21     4  24.8    187    325    202    316     20    124     Uncharacterized protein 159L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-159L PE=4 SV=1
+sp|Q196T5|125R_IIV3      7.9       1.4     1   0.0     91    146    108    123    122    140     Uncharacterized protein 125R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-125R PE=4 SV=1
+sp|Q196W9|VF396_IIV3     5.4       8.3     4  26.4    354    634    362    587     19    158     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|Q196T5|125R_IIV3      2.2        78     2   0.0    141    197    149    170    120    141     Uncharacterized protein 125R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-125R PE=4 SV=1
+sp|P07066|VG36_BPT2      1.2   1.6e+02     2   0.1    160    200    173    193    102    124     Tail fiber protein p36 OS=Enterobacteria phage T2 OX=10664 GN=36 PE=4 SV=1
+sp|P03743|FIB36_BPT4     1.2   1.6e+02     2   0.1    162    202    175    195    102    124     Long-tail fiber protein gp36 OS=Enterobacteria phage T4 OX=10665 GN=36 PE=1 SV=1
+sp|O55757|159L_IIV6      0.2   3.2e+02     3   2.8    174    202    176    197     20     40     Uncharacterized protein 159L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-159L PE=4 SV=1
+sp|P18305|443R_IIV6     -0.2   4.3e+02     1   0.2     17     85     26     75    115    167     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6    -15.2   1.7e+04     9  18.0   1050   1240   1084   1227     58    185     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6    -10.6   1.7e+04    11  10.9   1336   1483   1355   1432     49    125     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6    -19.9   1.7e+04    12  27.6   1441   1638   1456   1630     28    199     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6    -16.0   1.7e+04    13  19.8   1600   1798   1612   1766     29    168     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6    -20.3   1.7e+04    15  26.5   1974   2178   1987   2168     29    200     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6    -13.6   1.7e+04    16  14.8   2137   2377   2149   2285     29    168     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|Q196W9|VF396_IIV3    -5.5   1.7e+04     7   8.7    801    963    820    911     51    140     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004732797@NC_015780.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004732797@NC_015780.txt data/models_hmm/YP_004732797@NC_015780.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:32 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09302|PORTL_VZVD    12.9     0.089   2   2.3   0.0    Portal protein OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=54 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09302|PORTL_VZVD     8.7       1.8     1   0.0    406    477    437    467    107    137     Portal protein OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=54 PE=3 SV=1
+sp|P09302|PORTL_VZVD     1.4   3.3e+02     2   0.0    665    699    669    690     91    112     Portal protein OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=54 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_3861232_len_211451_cov_5_332990@_HiSeq_03647700.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_3861232_len_211451_cov_5_332990@_HiSeq_03647700.txt data/models_hmm/2061766007@rumenHiSeq_NODE_3861232_len_211451_cov_5_332990@_HiSeq_03647700.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:40 2021
+# [ok]

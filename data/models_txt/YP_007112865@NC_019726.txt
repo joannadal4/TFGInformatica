@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DSS5|G5_VAR67      13.4     0.051   2   2.3   2.4    Putative nuclease G5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G5R PE=2 SV=1
+sp|P0DSS6|G5_VARV       13.4     0.051   2   2.3   2.4    Putative nuclease G5 OS=Variola virus OX=10255 GN=G5R PE=2 SV=1
+sp|P21026|G5_VACCC      13.0     0.069   2   2.3   3.0    Putative nuclease G5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G5R PE=2 SV=1
+sp|Q80HX0|G5_VACCW      13.0      0.07   2   2.3   3.0    Putative nuclease G5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR082 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DSS5|G5_VAR67      12.6     0.092     2   0.5    253    303    267    295     35     63     Putative nuclease G5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G5R PE=2 SV=1
+sp|P0DSS6|G5_VARV       12.6     0.092     2   0.5    253    303    267    295     35     63     Putative nuclease G5 OS=Variola virus OX=10255 GN=G5R PE=2 SV=1
+sp|P21026|G5_VACCC      12.6     0.093     2   0.7    251    303    259    295     27     63     Putative nuclease G5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G5R PE=2 SV=1
+sp|Q80HX0|G5_VACCW      12.6     0.093     2   0.7    251    303    259    295     27     63     Putative nuclease G5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR082 PE=1 SV=1
+sp|P0DSS5|G5_VAR67      -1.3     2e+03     1   0.1    129    156    130    151      2     24     Putative nuclease G5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G5R PE=2 SV=1
+sp|P0DSS6|G5_VARV       -1.3     2e+03     1   0.1    129    156    130    151      2     24     Putative nuclease G5 OS=Variola virus OX=10255 GN=G5R PE=2 SV=1
+sp|P21026|G5_VACCC      -1.3     2e+03     1   0.1    129    156    130    151      2     24     Putative nuclease G5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G5R PE=2 SV=1
+sp|Q80HX0|G5_VACCW      -1.3     2e+03     1   0.1    129    156    130    151      2     24     Putative nuclease G5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR082 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007112865@NC_019726.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007112865@NC_019726.txt data/models_hmm/YP_007112865@NC_019726.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:32 2021
+# [ok]

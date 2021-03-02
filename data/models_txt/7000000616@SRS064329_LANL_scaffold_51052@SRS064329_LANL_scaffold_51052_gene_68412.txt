@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q008X3|VME1_WBV24    15.3    0.0073   1   1.2   4.7    Membrane protein OS=White bream virus (isolate Blicca bjoerkna L./Germany/DF24/00) OX=766180 GN=M PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q008X3|VME1_WBV24    15.0    0.0087     1   4.7     27    182     73    129     72    128     Membrane protein OS=White bream virus (isolate Blicca bjoerkna L./Germany/DF24/00) OX=766180 GN=M PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000616@SRS064329_LANL_scaffold_51052@SRS064329_LANL_scaffold_51052_gene_68412.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000616@SRS064329_LANL_scaffold_51052@SRS064329_LANL_scaffold_51052_gene_68412.txt data/models_hmm/7000000616@SRS064329_LANL_scaffold_51052@SRS064329_LANL_scaffold_51052_gene_68412.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:34 2021
+# [ok]

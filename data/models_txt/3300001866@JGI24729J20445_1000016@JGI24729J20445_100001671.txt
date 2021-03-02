@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39253|Y04N_BPT4     18.1    0.0015   1   1.1   1.3    Uncharacterized 12.2 kDa protein in nrdC-mobD intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y04N PE=4 SV=2
+sp|Q91FS2|250L_IIV6     17.2    0.0027   1   1.3   0.0    Uncharacterized protein 250L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-250L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39253|Y04N_BPT4     17.8    0.0018     1   1.3     38    103     56     99     89    132     Uncharacterized 12.2 kDa protein in nrdC-mobD intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y04N PE=4 SV=2
+sp|Q91FS2|250L_IIV6     16.6     0.004     1   0.0     16     76     39     70     36     67     Uncharacterized protein 250L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-250L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001866@JGI24729J20445_1000016@JGI24729J20445_100001671.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001866@JGI24729J20445_1000016@JGI24729J20445_100001671.txt data/models_hmm/3300001866@JGI24729J20445_1000016@JGI24729J20445_100001671.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:27 2021
+# [ok]

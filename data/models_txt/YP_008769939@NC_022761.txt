@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O48393|GP37_BPSP1    87.7   2.9e-25   1   1.0   3.9    Putative gene 37 protein OS=Bacillus phage SP01 OX=10685 GN=37 PE=4 SV=1
+sp|P06501|E1BS_ADES7    13.1      0.06   1   1.5   0.2    E1B protein, small T-antigen OS=Simian adenovirus serotype 7 OX=10532 PE=3 SV=1
+sp|Q66653|VG51_EHV2      9.7       0.7   2   2.4   3.7    Putative C-type lectin protein 51 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=51 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O48393|GP37_BPSP1    87.7     3e-25     1   3.9      1     31      1     31      1     31     Putative gene 37 protein OS=Bacillus phage SP01 OX=10685 GN=37 PE=4 SV=1
+sp|P06501|E1BS_ADES7    12.1      0.13     1   0.2     87    108     91    106     14     28     E1B protein, small T-antigen OS=Simian adenovirus serotype 7 OX=10532 PE=3 SV=1
+sp|Q66653|VG51_EHV2      8.8       1.3     1   0.7     11     27     13     23      9     19     Putative C-type lectin protein 51 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=51 PE=3 SV=2
+sp|Q66653|VG51_EHV2      1.1   3.6e+02     2   0.1     35     58     37     41      3      7     Putative C-type lectin protein 51 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=51 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008769939@NC_022761.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008769939@NC_022761.txt data/models_hmm/YP_008769939@NC_022761.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:26 2021
+# [ok]

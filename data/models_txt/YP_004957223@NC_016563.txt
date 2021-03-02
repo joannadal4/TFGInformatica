@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09814|POLG_TVMV     14.3     0.026   1   1.8   0.0    Genome polyprotein OS=Tobacco vein mottling virus OX=12228 PE=1 SV=2
+sp|P24652|Y102_NPVOP    12.7     0.078   1   1.2   0.0    Uncharacterized 12.2 kDa protein in P6.5-VP48 intergenic region OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF103 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09814|POLG_TVMV     12.7      0.08     1   0.0   2060   2171   2067   2149     10     88     Genome polyprotein OS=Tobacco vein mottling virus OX=12228 PE=1 SV=2
+sp|P24652|Y102_NPVOP    12.4     0.097     1   0.0     41    105     67    101    101    134     Uncharacterized 12.2 kDa protein in P6.5-VP48 intergenic region OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF103 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004957223@NC_016563.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004957223@NC_016563.txt data/models_hmm/YP_004957223@NC_016563.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:58 2021
+# [ok]

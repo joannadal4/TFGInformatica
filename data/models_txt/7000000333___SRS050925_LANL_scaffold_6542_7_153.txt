@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27079|VXIS_BPP21    12.3      0.13   1   1.2   0.0    Excisionase OS=Enterobacteria phage P21 OX=10711 GN=xis PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27079|VXIS_BPP21    11.8      0.18     1   0.0     12     55     21     54     18     52     Excisionase OS=Enterobacteria phage P21 OX=10711 GN=xis PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000333___SRS050925_LANL_scaffold_6542_7_153.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000333___SRS050925_LANL_scaffold_6542_7_153.txt data/models_hmm/7000000333___SRS050925_LANL_scaffold_6542_7_153.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:27 2021
+# [ok]

@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8QMP8|POXIN_CWPXB    19.0   0.00097   1   1.8   0.1    Poxin-Schlafen OS=Cowpox virus (strain Brighton Red) OX=265872 GN=CPXV197 CDS PE=1 SV=1
+sp|Q8V4S4|POXIN_MONPZ    14.0     0.035   1   1.9   0.1    Poxin-Schlafen OS=Monkeypox virus (strain Zaire-96-I-16) OX=619591 GN=B4R PE=1 SV=1
+sp|P21000|SLFN_VACCC     13.0     0.073   1   1.4   0.1    Schlafen-like protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B3R PE=3 SV=1
+sp|Q01226|SLFN_VACCW     12.4      0.11   1   1.5   0.1    Schlafen-like protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR185 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8QMP8|POXIN_CWPXB    17.5    0.0029     1   0.1    276    315    283    313     30     60     Poxin-Schlafen OS=Cowpox virus (strain Brighton Red) OX=265872 GN=CPXV197 CDS PE=1 SV=1
+sp|Q8V4S4|POXIN_MONPZ    12.3      0.12     1   0.1    275    313    281    311     30     60     Poxin-Schlafen OS=Monkeypox virus (strain Zaire-96-I-16) OX=619591 GN=B4R PE=1 SV=1
+sp|P21000|SLFN_VACCC     12.1      0.14     1   0.1     39     76     46     74     31     59     Schlafen-like protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B3R PE=3 SV=1
+sp|Q01226|SLFN_VACCW     11.4      0.24     1   0.1     39     76     46     74     31     59     Schlafen-like protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR185 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000315@SRS013723_Baylor_scaffold_77296@SRS013723_Baylor_scaffold_77296_gene_98804.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000315@SRS013723_Baylor_scaffold_77296@SRS013723_Baylor_scaffold_77296_gene_98804.txt data/models_hmm/7000000315@SRS013723_Baylor_scaffold_77296@SRS013723_Baylor_scaffold_77296_gene_98804.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:13 2021
+# [ok]

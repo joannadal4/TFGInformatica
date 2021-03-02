@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQF7|YR489_MIMIV    36.9   3.9e-09   2   2.1   0.1    Uncharacterized protein R489 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R489 PE=1 SV=1
+sp|Q89784|P54_ASFM2      14.2     0.038   2   1.7   0.9    Envelope protein p54 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-134 PE=3 SV=1
+sp|Q65272|P54_ASFL6      13.5     0.063   2   1.8   1.0    Envelope protein p54 OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 PE=3 SV=1
+sp|Q65194|P54_ASFB7      13.5     0.063   2   1.8   1.0    Envelope protein p54 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-126 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQF7|YR489_MIMIV    25.4   1.3e-05     2   0.0    140    220    166    220     96    150     Uncharacterized protein R489 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R489 PE=1 SV=1
+sp|Q89784|P54_ASFM2      13.5     0.064     1   0.0     31    112     39     99     10     70     Envelope protein p54 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-134 PE=3 SV=1
+sp|Q65194|P54_ASFB7      12.6      0.12     1   0.0     31    106     39     95     10     68     Envelope protein p54 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-126 PE=1 SV=1
+sp|Q65272|P54_ASFL6      12.6      0.12     1   0.0     31    106     39     95     10     68     Envelope protein p54 OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 PE=3 SV=1
+sp|Q5UQF7|YR489_MIMIV     9.7      0.91     1   0.0      1     81      4     53      6     57     Uncharacterized protein R489 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R489 PE=1 SV=1
+sp|Q65194|P54_ASFB7      -1.1   1.9e+03     2   0.2    119    164    132    143     44     60     Envelope protein p54 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-126 PE=1 SV=1
+sp|Q65272|P54_ASFL6      -1.1   1.9e+03     2   0.2    119    164    132    143     44     60     Envelope protein p54 OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 PE=3 SV=1
+sp|Q89784|P54_ASFM2      -1.4   2.4e+03     2   0.3    114    160    126    138     47     58     Envelope protein p54 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-134 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH30931@HQ632826.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH30931@HQ632826.txt data/models_hmm/AGH30931@HQ632826.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:41 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52524|VU10_HHV7J    10.0      0.13   1   1.1   0.8    U10 protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U10 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52524|VU10_HHV7J     9.4      0.18     1   0.8    219    325    228    308    568    645     U10 protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U10 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000001@SRS022530_LANL_scaffold_56387@SRS022530_LANL_scaffold_56387_gene_148349.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000001@SRS022530_LANL_scaffold_56387@SRS022530_LANL_scaffold_56387_gene_148349.txt data/models_hmm/7000000001@SRS022530_LANL_scaffold_56387@SRS022530_LANL_scaffold_56387_gene_148349.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:21 2021
+# [ok]

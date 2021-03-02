@@ -1,0 +1,80 @@
+# Sequence scores
+# ---------------
+#
+# name                      bits   E-value   n   exp  bias    description
+#     ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A7XXB7|TERL_BP234       107.2   7.2e-31   1   1.1   0.0    Terminase, large subunit OS=Thermus virus P23-45 OX=466051 GN=P23p85 PE=3 SV=1
+sp|A0A1L4BKS3|TERL_BPG20   106.8   9.2e-31   1   1.1   0.0    Terminase, large subunit OS=Thermus phage G20c OX=1406341 GN=G20c_80 PE=1 SV=1
+sp|Q6QGD2|TERL_BPT5        102.4   2.1e-29   1   1.4   0.0    Terminase, large subunit OS=Escherichia phage T5 OX=10726 GN=ORF144 PE=1 SV=1
+sp|P54308|TERL_BPSPP        73.4   1.3e-20   1   2.1   0.1    Terminase, large subunit OS=Bacillus phage SPP1 OX=10724 GN=2 PE=1 SV=1
+sp|P17312|TERL_BPT4         48.4   5.2e-13   1   1.2   0.0    Terminase, large subunit OS=Enterobacteria phage T4 OX=10665 GN=17 PE=1 SV=1
+sp|P03219|TRM3_EBVB9        33.0   2.3e-08   2   1.6   0.7    Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=TRM3 PE=1 SV=2
+sp|P0C744|TRM3_EBVA8        33.0   2.3e-08   2   1.6   0.7    Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=TRM3 PE=3 SV=1
+sp|Q3KSR3|TRM3_EBVG         33.0   2.3e-08   2   1.6   0.7    Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=TRM3 PE=3 SV=1
+sp|Q01020|TRM3_SHV21        33.0   2.4e-08   2   2.2   0.3    Tripartite terminase subunit 3 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=TRM3 PE=3 SV=1
+sp|F5HGB6|TRM3_HHV8P        28.5   5.5e-07   2   1.8   0.0    Tripartite terminase subunit 3 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=TRM3 PE=3 SV=1
+sp|O36378|TRM3_ALHV1        27.9   8.6e-07   1   1.4   0.1    Tripartite terminase subunit 3 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=TRM3 PE=3 SV=1
+sp|Q66632|TRM3_EHV2         27.1   1.5e-06   1   1.4   0.2    Tripartite terminase subunit 3 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=TRM3 PE=3 SV=2
+sp|Q18LD7|TRM3_ELHVK        19.8   0.00024   1   1.3   0.1    Tripartite terminase subunit 3 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 GN=TRM3 PE=3 SV=1
+sp|Q9E6Q2|TRM3_GAHVM        19.1   0.00038   2   1.7   0.0    Tripartite terminase subunit 3 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=TRM3 PE=3 SV=1
+sp|P52462|TRM3_HHV7J        18.1   0.00078   2   1.6   0.1    Tripartite terminase subunit 3 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=TRM3 PE=3 SV=1
+sp|F5HCU8|TRM3_HCMVM        17.8   0.00099   1   1.5   0.1    Tripartite terminase subunit 3 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=TRM3 PE=3 SV=1
+sp|P16732|TRM3_HCMVA        17.8     0.001   1   1.5   0.1    Tripartite terminase subunit 3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=TRM3 PE=1 SV=1
+sp|P28969|TRM3_EHV1B        17.6    0.0011   2   1.6   0.0    Tripartite terminase subunit 3 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=TRM3 PE=3 SV=1
+sp|P84396|TRM3_EHV1V        17.6    0.0011   2   1.6   0.0    Tripartite terminase subunit 3 OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=TRM3 PE=3 SV=1
+sp|P89438|TRM3_HHV2H        17.6    0.0012   1   1.3   0.0    Tripartite terminase subunit 3 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=TRM3 PE=3 SV=1
+sp|P04295|TRM3_HHV11        17.2    0.0015   1   1.2   0.0    Tripartite terminase subunit 3 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=TRM3 PE=1 SV=2
+sp|Q9QJ23|TRM3_HHV6Z        16.4    0.0025   1   1.3   0.1    Tripartite terminase subunit 3 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=TRM3 PE=3 SV=1
+sp|P24443|TRM3_HHV6U        15.9    0.0036   1   1.3   0.1    Tripartite terminase subunit 3 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=TRM3 PE=3 SV=2
+sp|Q0E592|HELI1_SFAVA       13.6     0.018   1   1.3   0.0    Putative ATP-dependent RNA helicase OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=ORF9 PE=3 SV=1
+sp|P09294|TRM3_VZVD         11.6     0.073   1   1.2   0.0    Tripartite terminase subunit 3 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=TRM3 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                     bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#     ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A7XXB7|TERL_BP234       106.8   9.8e-31     1   0.0     11    352     17    308     12    266     Terminase, large subunit OS=Thermus virus P23-45 OX=466051 GN=P23p85 PE=3 SV=1
+sp|A0A1L4BKS3|TERL_BPG20   106.4   1.3e-30     1   0.0     11    352     17    308     12    266     Terminase, large subunit OS=Thermus phage G20c OX=1406341 GN=G20c_80 PE=1 SV=1
+sp|Q6QGD2|TERL_BPT5        101.5   3.9e-29     1   0.0     34    438     42    433     17    408     Terminase, large subunit OS=Escherichia phage T5 OX=10726 GN=ORF144 PE=1 SV=1
+sp|P54308|TERL_BPSPP        70.4   1.1e-19     1   0.1      2    418     13    414     16    411     Terminase, large subunit OS=Bacillus phage SPP1 OX=10724 GN=2 PE=1 SV=1
+sp|P17312|TERL_BPT4         47.8   7.9e-13     1   0.0    128    390    134    364      8    228     Terminase, large subunit OS=Enterobacteria phage T4 OX=10665 GN=17 PE=1 SV=1
+sp|P03219|TRM3_EBVB9        32.3   3.9e-08     1   0.2    202    396    219    353     25    160     Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=TRM3 PE=1 SV=2
+sp|P0C744|TRM3_EBVA8        32.3   3.9e-08     1   0.2    202    396    219    353     25    160     Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=TRM3 PE=3 SV=1
+sp|Q3KSR3|TRM3_EBVG         32.3   3.9e-08     1   0.2    202    396    219    353     25    160     Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=TRM3 PE=3 SV=1
+sp|O36378|TRM3_ALHV1        26.9   1.7e-06     1   0.1    198    348    213    331     25    138     Tripartite terminase subunit 3 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=TRM3 PE=3 SV=1
+sp|F5HGB6|TRM3_HHV8P        26.7     2e-06     1   0.0    199    359    212    338     23    144     Tripartite terminase subunit 3 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=TRM3 PE=3 SV=1
+sp|Q66632|TRM3_EHV2         26.1     3e-06     1   0.2    201    374    211    336     24    144     Tripartite terminase subunit 3 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=TRM3 PE=3 SV=2
+sp|Q01020|TRM3_SHV21        25.4   4.8e-06     1   0.1    197    363    215    335     30    145     Tripartite terminase subunit 3 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=TRM3 PE=3 SV=1
+sp|Q18LD7|TRM3_ELHVK        19.1   0.00041     1   0.1    180    331    194    317     23    146     Tripartite terminase subunit 3 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 GN=TRM3 PE=3 SV=1
+sp|Q9E6Q2|TRM3_GAHVM        17.6    0.0011     1   0.0    243    393    257    372     26    137     Tripartite terminase subunit 3 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=TRM3 PE=3 SV=1
+sp|P52462|TRM3_HHV7J        16.9    0.0018     1   0.0    182    351    197    312     24    137     Tripartite terminase subunit 3 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=TRM3 PE=3 SV=1
+sp|P89438|TRM3_HHV2H        16.8     0.002     1   0.0    243    392    252    376     26    147     Tripartite terminase subunit 3 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=TRM3 PE=3 SV=1
+sp|F5HCU8|TRM3_HCMVM        16.6    0.0022     1   0.1    179    346    184    329     10    147     Tripartite terminase subunit 3 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=TRM3 PE=3 SV=1
+sp|P16732|TRM3_HCMVA        16.6    0.0023     1   0.1    179    343    184    328     10    146     Tripartite terminase subunit 3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=TRM3 PE=1 SV=1
+sp|P04295|TRM3_HHV11        16.4    0.0026     1   0.0    243    392    252    376     26    147     Tripartite terminase subunit 3 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=TRM3 PE=1 SV=2
+sp|P28969|TRM3_EHV1B        16.3    0.0028     1   0.0    241    393    253    376     26    146     Tripartite terminase subunit 3 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=TRM3 PE=3 SV=1
+sp|P84396|TRM3_EHV1V        16.3    0.0028     1   0.0    241    393    253    376     26    146     Tripartite terminase subunit 3 OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=TRM3 PE=3 SV=1
+sp|Q9QJ23|TRM3_HHV6Z        15.7    0.0042     1   0.1    174    346    188    315     18    137     Tripartite terminase subunit 3 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=TRM3 PE=3 SV=1
+sp|P24443|TRM3_HHV6U        15.2    0.0061     1   0.1    174    347    188    316     18    137     Tripartite terminase subunit 3 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=TRM3 PE=3 SV=2
+sp|Q0E592|HELI1_SFAVA       12.8     0.032     1   0.0     78    249     87    243     17    162     Putative ATP-dependent RNA helicase OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=ORF9 PE=3 SV=1
+sp|P09294|TRM3_VZVD         11.0      0.11     1   0.0    247    401    259    386     24    148     Tripartite terminase subunit 3 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=TRM3 PE=3 SV=1
+sp|Q01020|TRM3_SHV21         5.5       5.3     2   0.0    386    496    392    490    227    326     Tripartite terminase subunit 3 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=TRM3 PE=3 SV=1
+sp|F5HGB6|TRM3_HHV8P        -1.5   7.1e+02     2   0.0    440    498    468    491    298    323     Tripartite terminase subunit 3 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=TRM3 PE=3 SV=1
+sp|P03219|TRM3_EBVB9        -2.3   1.2e+03     2   0.0    470    503    475    497    300    324     Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=TRM3 PE=1 SV=2
+sp|P0C744|TRM3_EBVA8        -2.3   1.2e+03     2   0.0    470    503    475    497    300    324     Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=TRM3 PE=3 SV=1
+sp|Q3KSR3|TRM3_EBVG         -2.3   1.2e+03     2   0.0    470    503    475    497    300    324     Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=TRM3 PE=3 SV=1
+sp|Q9E6Q2|TRM3_GAHVM        -2.7   1.6e+03     2   0.0    508    543    511    538    300    330     Tripartite terminase subunit 3 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=TRM3 PE=3 SV=1
+sp|P52462|TRM3_HHV7J        -3.1   2.1e+03     2   0.0    446    475    448    469    299    322     Tripartite terminase subunit 3 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=TRM3 PE=3 SV=1
+sp|P28969|TRM3_EHV1B        -3.1   2.1e+03     2   0.0    485    529    497    520    237    261     Tripartite terminase subunit 3 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=TRM3 PE=3 SV=1
+sp|P84396|TRM3_EHV1V        -3.1   2.1e+03     2   0.0    485    529    497    520    237    261     Tripartite terminase subunit 3 OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=TRM3 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006906634@NC_018843.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006906634@NC_018843.txt data/models_hmm/YP_006906634@NC_018843.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:25 2021
+# [ok]

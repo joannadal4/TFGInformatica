@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9QJ26|MCP_HHV6Z      13.5     0.035   1   1.5   0.1    Major capsid protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=MCP PE=1 SV=1
+sp|P17887|MCP_HHV6U      12.8     0.053   1   1.5   0.1    Major capsid protein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=MCP PE=3 SV=3
+sp|P0C9A4|H962L_ASFK5    12.5     0.069   2   1.7   0.1    Putative RNA Helicase B962L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-084 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9QJ26|MCP_HHV6Z      12.3      0.08     1   0.1    185    292    195    272     38    111     Major capsid protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=MCP PE=1 SV=1
+sp|P17887|MCP_HHV6U      11.7      0.12     1   0.1    185    291    195    272     38    111     Major capsid protein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=MCP PE=3 SV=3
+sp|P0C9A4|H962L_ASFK5    11.0      0.19     2   0.0    523    641    526    588     31     90     Putative RNA Helicase B962L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-084 PE=3 SV=1
+sp|P0C9A4|H962L_ASFK5    -3.1     4e+03     1   0.0    134    187    145    165    143    163     Putative RNA Helicase B962L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-084 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000574@SRS017691_Baylor_scaffold_13474@SRS017691_Baylor_scaffold_13474_gene_12325.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000574@SRS017691_Baylor_scaffold_13474@SRS017691_Baylor_scaffold_13474_gene_12325.txt data/models_hmm/7000000574@SRS017691_Baylor_scaffold_13474@SRS017691_Baylor_scaffold_13474_gene_12325.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:19 2021
+# [ok]

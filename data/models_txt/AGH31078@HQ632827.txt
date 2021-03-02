@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05272|VG59_BPML5    15.7     0.011   1   1.8   0.9    Gene 59 protein OS=Mycobacterium phage L5 OX=31757 GN=59 PE=4 SV=1
+sp|O64250|VG59_BPMD2    14.8      0.02   1   1.8   1.4    Gene 59 protein OS=Mycobacterium phage D29 OX=28369 GN=59 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05272|VG59_BPML5    13.6     0.048     1   0.9      9    132     14    120     21     96     Gene 59 protein OS=Mycobacterium phage L5 OX=31757 GN=59 PE=4 SV=1
+sp|O64250|VG59_BPMD2    12.8     0.083     1   1.4      1    119      1    107     20     95     Gene 59 protein OS=Mycobacterium phage D29 OX=28369 GN=59 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH31078@HQ632827.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH31078@HQ632827.txt data/models_hmm/AGH31078@HQ632827.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:42 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CK47|NEC1_EBVB9     7.9      0.21   1   1.0   0.2    Nuclear egress protein 1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=NEC1 PE=1 SV=1
+sp|P0CK48|NEC1_EBVA8     7.9      0.21   1   1.0   0.2    Nuclear egress protein 1 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=NEC1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CK47|NEC1_EBVB9     7.6      0.27     1   0.2    137    209    144    201   1322   1376     Nuclear egress protein 1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=NEC1 PE=1 SV=1
+sp|P0CK48|NEC1_EBVA8     7.6      0.27     1   0.2    137    209    144    201   1322   1376     Nuclear egress protein 1 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=NEC1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000736@JGI12547J11936_1000002@JGI12547J11936_1000002105.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000736@JGI12547J11936_1000002@JGI12547J11936_1000002105.txt data/models_hmm/3300000736@JGI12547J11936_1000002@JGI12547J11936_1000002105.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:14 2021
+# [ok]

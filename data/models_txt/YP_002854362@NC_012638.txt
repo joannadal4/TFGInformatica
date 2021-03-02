@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20706|Y01I_BPT4    258.6   5.2e-78   1   1.0  11.9    Uncharacterized 12.6 kDa protein in mrh-soc intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y01I PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20706|Y01I_BPT4    258.5   5.8e-78     1  11.9      1    113      1    113      1    113     Uncharacterized 12.6 kDa protein in mrh-soc intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y01I PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002854362@NC_012638.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002854362@NC_012638.txt data/models_hmm/YP_002854362@NC_012638.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:12 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41466|Y063_NPVAC   171.7   1.3e-50   1   1.0   7.4    Uncharacterized 18.5 kDa protein in FP-SLP intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41466|Y063_NPVAC   171.5   1.5e-50     1   7.4      1    154      1    153      2    157     Uncharacterized 18.5 kDa protein in FP-SLP intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_047754@NC_001973.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_047754@NC_001973.txt data/models_hmm/NP_047754@NC_001973.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:27 2021
+# [ok]

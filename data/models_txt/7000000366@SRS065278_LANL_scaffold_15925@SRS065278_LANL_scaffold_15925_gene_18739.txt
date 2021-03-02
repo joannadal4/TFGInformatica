@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q3V4U5|Y134_ATV      17.9    0.0024   2   2.0   2.3    Uncharacterized protein ORF134 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|P52438|ITP_HHV7J     13.1     0.078   2   2.4   1.2    Inner tegument protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U30 PE=3 SV=1
+sp|P32230|VC02_SWPVK    10.9      0.38   1   1.1   2.4    Uncharacterized protein C2 OS=Swinepox virus (strain Kasza) OX=10277 GN=C2L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q3V4U5|Y134_ATV      17.9    0.0024     1   2.3     29    101     32     97      3     64     Uncharacterized protein ORF134 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|P52438|ITP_HHV7J     11.5      0.24     1   0.1    625    711    639    690     15     64     Inner tegument protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U30 PE=3 SV=1
+sp|P32230|VC02_SWPVK    10.6      0.45     1   2.4      1     53      1     43      1     42     Uncharacterized protein C2 OS=Swinepox virus (strain Kasza) OX=10277 GN=C2L PE=4 SV=1
+sp|Q3V4U5|Y134_ATV       1.2   3.8e+02     2   0.3     94    134    102    118     22     38     Uncharacterized protein ORF134 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|P52438|ITP_HHV7J     -2.7   6.1e+03     2   0.1    738    824    754    815     27     88     Inner tegument protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U30 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000366@SRS065278_LANL_scaffold_15925@SRS065278_LANL_scaffold_15925_gene_18739.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000366@SRS065278_LANL_scaffold_15925@SRS065278_LANL_scaffold_15925_gene_18739.txt data/models_hmm/7000000366@SRS065278_LANL_scaffold_15925@SRS065278_LANL_scaffold_15925_gene_18739.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:36 2021
+# [ok]

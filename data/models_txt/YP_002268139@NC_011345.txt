@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41707|AC150_NPVAC    22.4   6.4e-05   1   1.9   9.7    Protein AC150 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|O10373|Y145_NPVOP     15.1     0.011   1   1.4   4.9    Uncharacterized 11.0 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF142 PE=4 SV=1
+sp|P41709|Y154_NPVAC     10.6      0.26   1   1.0   5.2    Uncharacterized 9.4 kDa protein in PE38 3'region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41707|AC150_NPVAC    20.1   0.00032     1   9.7      1     99     43     97     25     73     Protein AC150 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|O10373|Y145_NPVOP     14.4     0.017     1   4.9      1     93     43     89     34     74     Uncharacterized 11.0 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF142 PE=4 SV=1
+sp|P41709|Y154_NPVAC     10.4      0.29     1   5.2      3     81      7     80    147    223     Uncharacterized 9.4 kDa protein in PE38 3'region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002268139@NC_011345.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002268139@NC_011345.txt data/models_hmm/YP_002268139@NC_011345.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:01 2021
+# [ok]

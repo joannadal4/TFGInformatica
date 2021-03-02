@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O10314|Y056_NPVOP   164.2   4.6e-49   1   1.0   0.7    Uncharacterized 9.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF60 PE=4 SV=1
+sp|P41460|Y056_NPVAC   154.3   5.4e-46   1   1.0   4.3    Uncharacterized 9.9 kDa protein in LEF8-FP intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|Q9WQ77|R1AB_CVRSD    14.7     0.021   2   2.3   2.4    Replicase polyprotein 1ab (Fragment) OS=Rat coronavirus (strain 681) OX=33740 GN=rep PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O10314|Y056_NPVOP   164.0   5.1e-49     1   0.7      1     82      1     82      1     82     Uncharacterized 9.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF60 PE=4 SV=1
+sp|P41460|Y056_NPVAC   154.2     6e-46     1   4.3      1     84      1     84      1     82     Uncharacterized 9.9 kDa protein in LEF8-FP intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|Q9WQ77|R1AB_CVRSD    14.0     0.033     1   0.1    142    202    146    184      7     45     Replicase polyprotein 1ab (Fragment) OS=Rat coronavirus (strain 681) OX=33740 GN=rep PE=3 SV=1
+sp|Q9WQ77|R1AB_CVRSD    -0.7   1.3e+03     2   0.3    254    300    284    297     57     70     Replicase polyprotein 1ab (Fragment) OS=Rat coronavirus (strain 681) OX=33740 GN=rep PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007250464@NC_019945.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007250464@NC_019945.txt data/models_hmm/YP_007250464@NC_019945.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:38 2021
+# [ok]

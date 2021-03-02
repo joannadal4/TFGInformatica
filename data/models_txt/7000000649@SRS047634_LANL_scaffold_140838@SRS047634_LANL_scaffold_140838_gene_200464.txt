@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A4UHQ4|PHOSP_EBLV2    10.0      0.14   1   1.1   0.1    Phosphoprotein OS=European bat lyssavirus 2 (strain Human/Scotland/RV1333/2002) OX=453116 GN=P PE=2 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A4UHQ4|PHOSP_EBLV2     9.8      0.16     1   0.1     72    216    108    174    777    842     Phosphoprotein OS=European bat lyssavirus 2 (strain Human/Scotland/RV1333/2002) OX=453116 GN=P PE=2 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000649@SRS047634_LANL_scaffold_140838@SRS047634_LANL_scaffold_140838_gene_200464.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000649@SRS047634_LANL_scaffold_140838@SRS047634_LANL_scaffold_140838_gene_200464.txt data/models_hmm/7000000649@SRS047634_LANL_scaffold_140838@SRS047634_LANL_scaffold_140838_gene_200464.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:45 2021
+# [ok]

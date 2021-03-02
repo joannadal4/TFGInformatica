@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P25943|VT2_RFVKA     15.0     0.019   1   1.3   0.1    Tumor necrosis factor soluble receptor OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=s002L PE=3 SV=1
+sp|P20566|YVGB_VACCC    12.1      0.14   1   1.1   0.0    Uncharacterized 8.4 kDa protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G ORF B PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P25943|VT2_RFVKA     14.3     0.032     1   0.1    204    295    210    275     12     73     Tumor necrosis factor soluble receptor OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=s002L PE=3 SV=1
+sp|P20566|YVGB_VACCC    12.0      0.16     1   0.0      2     64     10     57     69    113     Uncharacterized 8.4 kDa protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G ORF B PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007392833@NC_020204.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007392833@NC_020204.txt data/models_hmm/YP_007392833@NC_020204.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:56 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9T0T0|Y16A_BPT4     20.8   0.00028   1   1.4   1.6    Uncharacterized 5.9 kDa protein in asiA-arn intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16A PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9T0T0|Y16A_BPT4     20.3   0.00041     1   1.6      1     41      1     28      1     28     Uncharacterized 5.9 kDa protein in asiA-arn intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16A PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002922594@NC_012741.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002922594@NC_012741.txt data/models_hmm/YP_002922594@NC_012741.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:14 2021
+# [ok]

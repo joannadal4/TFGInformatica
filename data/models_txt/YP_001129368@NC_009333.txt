@@ -1,0 +1,47 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HGJ3|ARBH_HHV8P   287.2   4.2e-86   1   1.0   0.0    Apoptosis regulator Bcl-2 homolog OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=vBCL2 PE=1 SV=1
+sp|Q01001|VG16_SHV21    50.2   1.9e-13   1   1.1   0.1    Bcl-2-like gene 16 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=16 PE=3 SV=1
+sp|Q6VZT9|ARBH_CNPV     31.5   1.1e-07   1   1.3   0.0    Apoptosis regulator Bcl-2 homolog OS=Canarypox virus OX=44088 GN=CNPV058 PE=1 SV=1
+sp|Q9J5G4|ARBH_FOWPN    27.3     2e-06   1   1.5   0.2    Apoptosis regulator Bcl-2 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV039 PE=1 SV=1
+sp|P03182|EAR_EBVB9     18.2    0.0013   1   1.1   0.0    Apoptosis regulator BHRF1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BHRF1 PE=1 SV=1
+sp|P0C6Z1|EAR_EBVA8     18.2    0.0013   1   1.1   0.0    Apoptosis regulator BHRF1 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BHRF1 PE=1 SV=1
+sp|P0C736|EAR_EBVG      17.6     0.002   1   1.1   0.0    Apoptosis regulator BHRF1 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BHRF1 PE=1 SV=1
+sp|Q66610|VGE4_EHV2     14.9     0.013   1   1.4   0.0    Uncharacterized gene E4 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=E4 PE=3 SV=1
+sp|P42485|ARBH_ASFB7    14.5     0.017   1   1.4   0.1    Apoptosis regulator Bcl-2 homolog OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-041 PE=1 SV=1
+sp|Q07818|ARBH_ASFE4    14.1     0.023   1   1.4   0.1    Apoptosis regulator Bcl-2 homolog OS=African swine fever virus (strain E-70 MS44) OX=39014 GN=LMW5-HL PE=2 SV=1
+sp|P0C8H4|ARBH_ASFK5    12.7     0.062   1   1.3   0.1    Apoptosis regulator Bcl-2 homolog OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-053 PE=3 SV=1
+sp|P0C8H5|ARBH_ASFP4    12.6     0.067   1   1.4   0.1    Apoptosis regulator Bcl-2 homolog OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-053 PE=3 SV=1
+sp|P0C8H6|ARBH_ASFWA    12.6     0.067   1   1.4   0.1    Apoptosis regulator Bcl-2 homolog OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-051 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HGJ3|ARBH_HHV8P   287.0   4.6e-86     1   0.0      1    175      2    174     15    187     Apoptosis regulator Bcl-2 homolog OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=vBCL2 PE=1 SV=1
+sp|Q01001|VG16_SHV21    50.0   2.3e-13     1   0.1     10    159     31    153     53    178     Bcl-2-like gene 16 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=16 PE=3 SV=1
+sp|Q6VZT9|ARBH_CNPV     31.1   1.4e-07     1   0.0     44    174     84    172     94    184     Apoptosis regulator Bcl-2 homolog OS=Canarypox virus OX=44088 GN=CNPV058 PE=1 SV=1
+sp|Q9J5G4|ARBH_FOWPN    26.4   3.9e-06     1   0.2     39    171     73    143     86    155     Apoptosis regulator Bcl-2 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV039 PE=1 SV=1
+sp|P03182|EAR_EBVB9     17.8    0.0017     1   0.0     47    189     69    182     64    181     Apoptosis regulator BHRF1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BHRF1 PE=1 SV=1
+sp|P0C6Z1|EAR_EBVA8     17.8    0.0017     1   0.0     47    189     69    182     64    181     Apoptosis regulator BHRF1 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BHRF1 PE=1 SV=1
+sp|P0C736|EAR_EBVG      17.2    0.0026     1   0.0     48    189     69    182     64    181     Apoptosis regulator BHRF1 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BHRF1 PE=1 SV=1
+sp|Q66610|VGE4_EHV2     14.3      0.02     1   0.0     25    161     91    152     83    145     Uncharacterized gene E4 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=E4 PE=3 SV=1
+sp|P42485|ARBH_ASFB7    14.0     0.025     1   0.1      4    147     32    140     46    153     Apoptosis regulator Bcl-2 homolog OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-041 PE=1 SV=1
+sp|Q07818|ARBH_ASFE4    13.6     0.034     1   0.1      4    147     32    140     46    153     Apoptosis regulator Bcl-2 homolog OS=African swine fever virus (strain E-70 MS44) OX=39014 GN=LMW5-HL PE=2 SV=1
+sp|P0C8H4|ARBH_ASFK5    12.3      0.08     1   0.1      5    149     32    140     46    153     Apoptosis regulator Bcl-2 homolog OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-053 PE=3 SV=1
+sp|P0C8H5|ARBH_ASFP4    11.7      0.12     1   0.1     19    144     32    140     46    153     Apoptosis regulator Bcl-2 homolog OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-053 PE=3 SV=1
+sp|P0C8H6|ARBH_ASFWA    11.7      0.12     1   0.1     19    144     32    140     46    153     Apoptosis regulator Bcl-2 homolog OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-051 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001129368@NC_009333.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001129368@NC_009333.txt data/models_hmm/YP_001129368@NC_009333.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:03 2021
+# [ok]

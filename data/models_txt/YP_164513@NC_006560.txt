@@ -1,0 +1,43 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P89478|US10_HHV2H   436.9  4.2e-131   1   1.4  19.1    Virion protein US10 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=US10 PE=2 SV=1
+sp|D3YPD5|US10_HHV1F   432.4    1e-129   1   1.1  10.2    Virion protein US10 OS=Human herpesvirus 1 (strain F) OX=10304 GN=US10 PE=2 SV=1
+sp|P06486|US10_HHV11   429.6  7.2e-129   1   1.7  18.0    Virion protein US10 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=US10 PE=1 SV=1
+sp|P30817|US10_CHV1    301.3   9.3e-90   1   1.0  13.6    Virion protein US10 homolog (Fragment) OS=Cercopithecine herpesvirus 1 OX=10325 PE=2 SV=1
+sp|Q05107|US10_GAHVG   264.5   1.5e-78   1   1.0   0.5    Virion protein US10 homolog OS=Gallid herpesvirus 2 (strain GA) OX=10388 GN=US639 PE=2 SV=1
+sp|Q77MP8|US10_GAHVM   264.5   1.5e-78   1   1.0   0.5    Virion protein US10 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV089 PE=2 SV=1
+sp|P28965|US10_EHV1B    84.3   1.4e-23   1   1.2   0.9    Virion protein US10 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=66 PE=2 SV=1
+sp|P84402|US10_EHV1V    84.3   1.4e-23   1   1.2   0.9    Virion protein US10 homolog OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=66 PE=2 SV=1
+sp|P29123|US10_EHV1K    81.5   9.7e-23   1   1.2   0.8    Virion protein US10 homolog OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=IR5 PE=2 SV=1
+sp|P18349|US10_EHV4     79.4   4.1e-22   1   1.1   1.1    Virion protein US10 homolog OS=Equine herpesvirus 4 (strain 1942) OX=10333 PE=2 SV=1
+sp|P09311|US10_VZVD     51.3   1.6e-13   1   1.2   1.9    Virion protein US10 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=64 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P89478|US10_HHV2H   436.1  7.8e-131     1  19.1      1    301      1    301      1    278     Virion protein US10 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=US10 PE=2 SV=1
+sp|D3YPD5|US10_HHV1F   432.0  1.3e-129     1  10.2      1    303      1    303      1    278     Virion protein US10 OS=Human herpesvirus 1 (strain F) OX=10304 GN=US10 PE=2 SV=1
+sp|P06486|US10_HHV11   427.5  3.1e-128     1  18.0      1    312      1    312      1    278     Virion protein US10 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=US10 PE=1 SV=1
+sp|P30817|US10_CHV1    301.1   1.1e-89     1  13.6      2    208      6    208     79    274     Virion protein US10 homolog (Fragment) OS=Cercopithecine herpesvirus 1 OX=10325 PE=2 SV=1
+sp|Q05107|US10_GAHVG   264.3   1.8e-78     1   0.5      1    177      2    177    106    278     Virion protein US10 homolog OS=Gallid herpesvirus 2 (strain GA) OX=10388 GN=US639 PE=2 SV=1
+sp|Q77MP8|US10_GAHVM   264.3   1.8e-78     1   0.5      1    177      2    177    106    278     Virion protein US10 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV089 PE=2 SV=1
+sp|P28965|US10_EHV1B    83.7     2e-23     1   0.9     10    185     32    181    131    274     Virion protein US10 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=66 PE=2 SV=1
+sp|P84402|US10_EHV1V    83.7     2e-23     1   0.9     10    185     32    181    131    274     Virion protein US10 homolog OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=66 PE=2 SV=1
+sp|P29123|US10_EHV1K    81.0   1.4e-22     1   0.8     10    185     32    181    131    274     Virion protein US10 homolog OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=IR5 PE=2 SV=1
+sp|P18349|US10_EHV4     79.0   5.4e-22     1   1.1     30    209     56    204    131    273     Virion protein US10 homolog OS=Equine herpesvirus 4 (strain 1942) OX=10333 PE=2 SV=1
+sp|P09311|US10_VZVD     50.7   2.4e-13     1   1.9      4    178     15    170    130    266     Virion protein US10 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=64 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_164513@NC_006560.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_164513@NC_006560.txt data/models_hmm/YP_164513@NC_006560.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:09 2021
+# [ok]

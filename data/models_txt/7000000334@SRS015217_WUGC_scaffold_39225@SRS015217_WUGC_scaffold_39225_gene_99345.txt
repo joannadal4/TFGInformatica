@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q82050|NSP3_ROTHK    11.2     0.087   1   1.4   1.4    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q82050|NSP3_ROTHK    10.4      0.14     1   1.4    178    293    183    228    502    548     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000334@SRS015217_WUGC_scaffold_39225@SRS015217_WUGC_scaffold_39225_gene_99345.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000334@SRS015217_WUGC_scaffold_39225@SRS015217_WUGC_scaffold_39225_gene_99345.txt data/models_hmm/7000000334@SRS015217_WUGC_scaffold_39225@SRS015217_WUGC_scaffold_39225_gene_99345.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:29 2021
+# [ok]

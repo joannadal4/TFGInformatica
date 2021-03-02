@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q7T6Y9|RIR2_MIMIV    15.5     0.013   2   2.3   1.2    Ribonucleoside-diphosphate reductase small chain OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=RNR2 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q7T6Y9|RIR2_MIMIV    11.6       0.2     2   0.2    289    361    295    349     86    139     Ribonucleoside-diphosphate reductase small chain OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=RNR2 PE=3 SV=2
+sp|Q7T6Y9|RIR2_MIMIV     2.3   1.4e+02     1   0.1    126    216    153    188     88    123     Ribonucleoside-diphosphate reductase small chain OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=RNR2 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_1520093_len_85276_cov_4_614769@_HiSeq_06130280.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_1520093_len_85276_cov_4_614769@_HiSeq_06130280.txt data/models_hmm/2061766007@rumenHiSeq_NODE_1520093_len_85276_cov_4_614769@_HiSeq_06130280.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:24 2021
+# [ok]

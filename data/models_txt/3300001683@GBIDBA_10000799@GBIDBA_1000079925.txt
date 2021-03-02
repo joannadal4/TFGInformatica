@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P19060|BP06_BPT4    660.0  2.9e-198   1   1.0  27.3    Baseplate wedge protein gp6 OS=Enterobacteria phage T4 OX=10665 GN=6 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P19060|BP06_BPT4    659.8  3.3e-198     1  27.3     14    660     15    659      2    593     Baseplate wedge protein gp6 OS=Enterobacteria phage T4 OX=10665 GN=6 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001683@GBIDBA_10000799@GBIDBA_1000079925.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001683@GBIDBA_10000799@GBIDBA_1000079925.txt data/models_hmm/3300001683@GBIDBA_10000799@GBIDBA_1000079925.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:08 2021
+# [ok]

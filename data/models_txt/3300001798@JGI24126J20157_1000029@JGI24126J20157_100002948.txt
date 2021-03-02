@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O36407|IE63_ALHV1    15.2     0.018   1   1.4   0.1    Immediate-early phosphoprotein 57 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=57 PE=3 SV=1
+sp|O90304|SPIKE_BRV1    13.0     0.094   1   1.7   0.2    Spike glycoprotein OS=Breda virus 1 OX=360393 GN=S PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O36407|IE63_ALHV1    14.3     0.035     1   0.1    323    377    329    374      8     50     Immediate-early phosphoprotein 57 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=57 PE=3 SV=1
+sp|O90304|SPIKE_BRV1    11.7      0.23     1   0.2   1188   1250   1206   1249     33     76     Spike glycoprotein OS=Breda virus 1 OX=360393 GN=S PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001798@JGI24126J20157_1000029@JGI24126J20157_100002948.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001798@JGI24126J20157_1000029@JGI24126J20157_100002948.txt data/models_hmm/3300001798@JGI24126J20157_1000029@JGI24126J20157_100002948.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:25 2021
+# [ok]

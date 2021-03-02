@@ -1,0 +1,47 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P34011|ATI_VAR67      14.4     0.026   2   1.8   0.4    A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|P24759|ATI_VACCW      13.8     0.039   2   2.0   2.1    A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+sp|P14363|V249_FOWPN     13.1     0.065   1   1.5   0.9    Uncharacterized protein FPV249 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV249 PE=4 SV=1
+sp|Q96724|POLS_DXV96     11.6      0.19   1   1.6   0.6    Structural polyprotein OS=Drosophila x virus (isolate Chung/1996) OX=654931 PE=3 SV=1
+sp|P16602|ATI_COWPX       9.2         1   2   2.9   7.3    A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|Q05482|ATI_CAMPC       7.0       4.9   2   1.8   7.2    A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|Q775Q2|ATI_CAMPS       6.7         6   2   1.8   7.5    A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM       6.7         6   2   1.8   7.5    A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+sp|Q5UPQ8|YL770_MIMIV     6.2       8.8   3   3.2   6.2    Putative transposase L770 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L770 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P34011|ATI_VAR67      14.4     0.026     2   0.4    574    668    584    661     37    112     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|P14363|V249_FOWPN     12.7     0.085     1   0.4     38    105     53    104     27     79     Uncharacterized protein FPV249 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV249 PE=4 SV=1
+sp|P24759|ATI_VACCW      12.2      0.13     1   1.6    572    667    583    660     37    112     A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+sp|Q05482|ATI_CAMPC      11.4      0.21     2   1.0    574    668    584    661     37    112     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|Q775Q2|ATI_CAMPS      11.4      0.21     2   1.0    574    668    584    661     37    112     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM      11.4      0.21     2   1.0    574    668    584    661     37    112     A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+sp|P16602|ATI_COWPX      11.1      0.27     1   0.8    575    671    585    662     37    112     A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|Q96724|POLS_DXV96     10.4      0.43     1   0.6    790    901    792    872      3     82     Structural polyprotein OS=Drosophila x virus (isolate Chung/1996) OX=654931 PE=3 SV=1
+sp|Q5UPQ8|YL770_MIMIV     5.1        19     2   0.2    142    230    175    219     54     98     Putative transposase L770 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L770 PE=3 SV=1
+sp|Q5UPQ8|YL770_MIMIV     1.8   1.9e+02     1   0.1     95    156    111    150     32     71     Putative transposase L770 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L770 PE=3 SV=1
+sp|Q5UPQ8|YL770_MIMIV     0.2   6.1e+02     3   0.6    339    435    353    431     47    117     Putative transposase L770 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L770 PE=3 SV=1
+sp|P16602|ATI_COWPX      -0.2     8e+02     2   0.8    951   1028    962   1022     27     83     A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|P24759|ATI_VACCW      -2.8   4.9e+03     2   0.0    663    694    667    692     91    116     A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+sp|P34011|ATI_VAR67      -2.8   5.1e+03     1   0.8    430    544    466    474     72     80     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|Q05482|ATI_CAMPC      -2.9   5.6e+03     1   0.7    429    542    465    476     71     82     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|Q775Q2|ATI_CAMPS      -3.0   5.7e+03     1   0.8    429    542    465    476     71     82     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM      -3.0   5.7e+03     1   0.8    429    542    465    476     71     82     A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001429734@NC_009760.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001429734@NC_009760.txt data/models_hmm/YP_001429734@NC_009760.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:18 2021
+# [ok]

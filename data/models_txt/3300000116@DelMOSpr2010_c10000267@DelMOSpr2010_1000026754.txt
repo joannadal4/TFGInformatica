@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P11187|ENLYS_BPPH2    12.7      0.08   2   2.4   3.7    Endolysin OS=Bacillus phage phi29 OX=10756 GN=15 PE=1 SV=1
+sp|P07540|ENLYS_BPPZA    12.3       0.1   2   2.4   3.6    Endolysin OS=Bacillus phage PZA OX=10757 GN=15 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P07540|ENLYS_BPPZA     6.8       5.4     2   0.3    186    234    193    225     33     65     Endolysin OS=Bacillus phage PZA OX=10757 GN=15 PE=3 SV=1
+sp|P11187|ENLYS_BPPH2     6.8       5.4     2   0.3    186    234    193    225     33     65     Endolysin OS=Bacillus phage phi29 OX=10756 GN=15 PE=1 SV=1
+sp|P11187|ENLYS_BPPH2     6.6       6.2     1   0.3    126    185    135    178     31     69     Endolysin OS=Bacillus phage phi29 OX=10756 GN=15 PE=1 SV=1
+sp|P07540|ENLYS_BPPZA     6.1       8.8     1   0.2    126    185    135    178     31     69     Endolysin OS=Bacillus phage PZA OX=10757 GN=15 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000116@DelMOSpr2010_c10000267@DelMOSpr2010_1000026754.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000116@DelMOSpr2010_c10000267@DelMOSpr2010_1000026754.txt data/models_hmm/3300000116@DelMOSpr2010_c10000267@DelMOSpr2010_1000026754.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:44 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQX1|MCE_MIMIV     22.8   6.1e-05   1   2.0   0.0    Probable mRNA-capping enzyme OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R382 PE=1 SV=1
+sp|Q91FT7|235L_IIV6     19.6   0.00056   1   1.5   0.5    Putative methyltransferase 235L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-235L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQX1|MCE_MIMIV     20.8   0.00025     1   0.0    686    888    691    870      8    136     Probable mRNA-capping enzyme OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R382 PE=1 SV=1
+sp|Q91FT7|235L_IIV6     18.9   0.00093     1   0.5     23    222     45    157     24    126     Putative methyltransferase 235L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-235L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_005098315@NC_016766.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_005098315@NC_016766.txt data/models_hmm/YP_005098315@NC_016766.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:05 2021
+# [ok]

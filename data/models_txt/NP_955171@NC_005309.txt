@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DSU1|G7_VAR67     516.5    3e-155   1   1.0  10.6    Assembly protein G7 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G7L PE=2 SV=1
+sp|P0DSU2|G7_VARV      516.5    3e-155   1   1.0  10.6    Assembly protein G7 OS=Variola virus OX=10255 GN=G7L PE=2 SV=1
+sp|P68715|G7_VACCA     516.3  3.3e-155   1   1.0   9.8    Assembly protein G7 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA077L PE=2 SV=1
+sp|P68716|G7_VACCW     516.3  3.3e-155   1   1.0   9.8    Assembly protein G7 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR085 PE=1 SV=1
+sp|P21028|G7_VACCC     515.3  7.1e-155   1   1.0  10.0    Assembly protein G7 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G7L PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DSU1|G7_VAR67     516.3  3.4e-155     1  10.6      1    371      1    370      1    349     Assembly protein G7 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G7L PE=2 SV=1
+sp|P0DSU2|G7_VARV      516.3  3.4e-155     1  10.6      1    371      1    370      1    349     Assembly protein G7 OS=Variola virus OX=10255 GN=G7L PE=2 SV=1
+sp|P68715|G7_VACCA     516.2  3.7e-155     1   9.8      1    371      1    370      1    349     Assembly protein G7 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA077L PE=2 SV=1
+sp|P68716|G7_VACCW     516.2  3.7e-155     1   9.8      1    371      1    370      1    349     Assembly protein G7 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR085 PE=1 SV=1
+sp|P21028|G7_VACCC     515.1  7.9e-155     1  10.0      1    371      1    370      1    349     Assembly protein G7 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G7L PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_955171@NC_005309.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_955171@NC_005309.txt data/models_hmm/NP_955171@NC_005309.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:45 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64301|DPA44_BPR69    12.1     0.091   1   1.4   0.0    DNA polymerase accessory protein 44 OS=Escherichia phage RB69 OX=12353 GN=44 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64301|DPA44_BPR69    11.2      0.17     1   0.0     50    146     56    138     99    187     DNA polymerase accessory protein 44 OS=Escherichia phage RB69 OX=12353 GN=44 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000498@SRS017521_Baylor_scaffold_47341@SRS017521_Baylor_scaffold_47341_gene_95327.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000498@SRS017521_Baylor_scaffold_47341@SRS017521_Baylor_scaffold_47341_gene_95327.txt data/models_hmm/7000000498@SRS017521_Baylor_scaffold_47341@SRS017521_Baylor_scaffold_47341_gene_95327.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:43 2021
+# [ok]

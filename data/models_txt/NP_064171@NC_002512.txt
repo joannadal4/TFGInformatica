@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P18806|VPU_HV1ND     12.1     0.051   1   1.1   0.4    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=vpu PE=3 SV=1
+sp|P05925|VPU_HV1EL     11.7     0.069   1   1.1   0.1    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate ELI) OX=11689 GN=vpu PE=3 SV=1
+sp|Q75007|VPU_HV1ET     10.8      0.13   1   1.1   0.5    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype C (isolate ETH2220) OX=388796 GN=vpu PE=3 SV=1
+sp|P12517|VPU_HV1J3     10.5      0.15   1   1.1   0.5    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate JH32) OX=11694 GN=vpu PE=3 SV=1
+sp|Q65675|TGB2_BNYVS     9.9      0.24   2   2.0   0.8    Movement protein TGB2 OS=Beet necrotic yellow vein virus (isolate Japan/S) OX=652670 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P18806|VPU_HV1ND     11.8     0.062     1   0.4      4     55      8     50    291    331     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=vpu PE=3 SV=1
+sp|P05925|VPU_HV1EL     11.5     0.079     1   0.1      2     54      4     41    287    322     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate ELI) OX=11689 GN=vpu PE=3 SV=1
+sp|Q75007|VPU_HV1ET     10.5      0.16     1   0.5      6     58     13     48    291    327     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype C (isolate ETH2220) OX=388796 GN=vpu PE=3 SV=1
+sp|P12517|VPU_HV1J3     10.3      0.18     1   0.5      3     54      6     40    290    323     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate JH32) OX=11694 GN=vpu PE=3 SV=1
+sp|Q65675|TGB2_BNYVS     5.4       5.6     2   0.7     70    105     78    102    281    305     Movement protein TGB2 OS=Beet necrotic yellow vein virus (isolate Japan/S) OX=652670 PE=3 SV=1
+sp|Q65675|TGB2_BNYVS     2.7        38     1   0.0      6     55     16     48    295    327     Movement protein TGB2 OS=Beet necrotic yellow vein virus (isolate Japan/S) OX=652670 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_064171@NC_002512.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_064171@NC_002512.txt data/models_hmm/NP_064171@NC_002512.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:40 2021
+# [ok]

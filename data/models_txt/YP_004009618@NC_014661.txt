@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03690|VR2A_BPT4    869.1  2.9e-261   1   1.0   5.8    Protein rIIA OS=Enterobacteria phage T4 OX=10665 GN=rIIA PE=2 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03690|VR2A_BPT4    868.9  3.3e-261     1   5.8      1    725      1    723      1    719     Protein rIIA OS=Enterobacteria phage T4 OX=10665 GN=rIIA PE=2 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004009618@NC_014661.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004009618@NC_014661.txt data/models_hmm/YP_004009618@NC_014661.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:59 2021
+# [ok]

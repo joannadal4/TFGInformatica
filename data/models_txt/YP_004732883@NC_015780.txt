@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q197D0|030L_IIV3     187.5   9.4e-56   1   1.0   0.0    uncharacterized protein 030L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-030L PE=4 SV=1
+sp|Q5UQC8|YL461_MIMIV    19.1   0.00092   1   1.6   0.1    Uncharacterized protein L461 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L461 PE=4 SV=1
+sp|Q5UQN5|TR443_MIMIV    18.7    0.0012   1   1.2   0.3    Thioredoxin domain-containing protein R443 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R443 PE=1 SV=1
+sp|Q5UQU7|YR358_MIMIV    14.6     0.023   1   1.7   0.5    Uncharacterized protein R358 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R358 PE=4 SV=1
+sp|Q5UQD4|YR467_MIMIV    10.5       0.4   3   2.7   6.2    Uncharacterized protein R467 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R467 PE=4 SV=1
+sp|P33473|VNS2_BTV17      8.5       1.7   2   2.2  10.5    Non-structural protein NS2 OS=Bluetongue virus 17 (isolate USA) OX=33718 GN=Segment-8 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q197D0|030L_IIV3     187.3   1.1e-55     1   0.0     14    144     15    144      2    135     uncharacterized protein 030L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-030L PE=4 SV=1
+sp|Q5UQN5|TR443_MIMIV    18.4    0.0015     1   0.3     71    164     75    160      5     83     Thioredoxin domain-containing protein R443 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R443 PE=1 SV=1
+sp|Q5UQC8|YL461_MIMIV    18.0     0.002     1   0.1      2    104      6     77      5     83     Uncharacterized protein L461 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L461 PE=4 SV=1
+sp|Q5UQU7|YR358_MIMIV    13.3     0.057     1   0.5     44    113     47     90      4     49     Uncharacterized protein R358 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R358 PE=4 SV=1
+sp|Q5UQD4|YR467_MIMIV    12.4      0.11     1   0.3     28    138     30     73      3     45     Uncharacterized protein R467 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R467 PE=4 SV=1
+sp|P33473|VNS2_BTV17      7.5       3.6     1   0.7    150    216    160    213     82    134     Non-structural protein NS2 OS=Bluetongue virus 17 (isolate USA) OX=33718 GN=Segment-8 PE=4 SV=1
+sp|P33473|VNS2_BTV17      5.5        15     2   3.6    209    287    219    280     69    127     Non-structural protein NS2 OS=Bluetongue virus 17 (isolate USA) OX=33718 GN=Segment-8 PE=4 SV=1
+sp|Q5UQD4|YR467_MIMIV    -0.2   8.5e+02     2   0.2    116    198    145    186     86    127     Uncharacterized protein R467 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R467 PE=4 SV=1
+sp|Q5UQD4|YR467_MIMIV    -0.8   1.2e+03     3   0.2    192    303    207    272     23     81     Uncharacterized protein R467 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R467 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004732883@NC_015780.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004732883@NC_015780.txt data/models_hmm/YP_004732883@NC_015780.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:32 2021
+# [ok]

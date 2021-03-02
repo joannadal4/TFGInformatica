@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DKA3|VE8E2_HPV29     8.8      0.74   1   1.1   8.5    Protein E8^E2C OS=Human papillomavirus type 29 OX=37112 PE=3 SV=1
+sp|P50772|VE2_HPV29       7.9       1.4   1   1.1   8.4    Regulatory protein E2 OS=Human papillomavirus type 29 OX=37112 GN=E2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DKA3|VE8E2_HPV29     8.7       0.8     1   8.5      2    137     19     70    332    373     Protein E8^E2C OS=Human papillomavirus type 29 OX=37112 PE=3 SV=1
+sp|P50772|VE2_HPV29       7.5       1.9     1   8.4    189    331    217    270    330    373     Regulatory protein E2 OS=Human papillomavirus type 29 OX=37112 GN=E2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000705@MIS_1000070538.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000705@MIS_1000070538.txt data/models_hmm/3300002026@MIS_10000705@MIS_1000070538.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:57 2021
+# [ok]

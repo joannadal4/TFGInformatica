@@ -1,0 +1,47 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQF5|YL491_MIMIV    16.4     0.003   1   1.2  17.4    Uncharacterized protein L491 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L491 PE=4 SV=1
+sp|Q07852|VE4_HPV04      12.7     0.041   1   1.0   1.8    Protein E4 OS=Human papillomavirus type 4 OX=10617 GN=E4 PE=3 SV=2
+sp|P68610|RP19_VACCC      8.2      0.93   1   1.1   5.6    DNA-directed RNA polymerase 19 kDa subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=RPO19 PE=2 SV=1
+sp|P68611|RP19_VACCW      8.2      0.93   1   1.1   5.6    DNA-directed RNA polymerase 19 kDa subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=RPO19 PE=1 SV=1
+sp|Q76ZQ8|RP19_VACCA      8.2      0.93   1   1.1   5.6    DNA-directed RNA polymerase 19 kDa subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=RPO19 PE=1 SV=1
+sp|Q82484|VLF1_NPVHZ      7.5       1.6   1   1.1   6.0    Very late expression factor 1 OS=Heliothis zea nuclear polyhedrosis virus OX=28290 GN=VLF-1 PE=3 SV=1
+sp|P41712|DPOL_NPVBM      7.5       1.6   1   1.1   5.2    DNA polymerase OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=POL PE=3 SV=2
+sp|P33813|RP19_VAR67      7.3       1.7   1   1.1   6.0    DNA-directed RNA polymerase 19 kDa subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=RPO19 PE=2 SV=1
+sp|Q5UQR7|YL324_MIMIV     6.2       3.8   1   1.2  12.9    Uncharacterized protein L324 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L324 PE=4 SV=1
+sp|Q5URA6|YR878_MIMIV     6.2       3.9   1   1.1  19.7    Putative KilA-N domain-containing protein R878 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R878 PE=4 SV=1
+sp|P03720|VPIP_BPT4       5.9       4.7   1   1.1  17.5    Prehead core component PIP OS=Enterobacteria phage T4 OX=10665 GN=67 PE=4 SV=1
+sp|P18131|DPOL_NPVAC      5.8       5.1   1   1.1   8.0    DNA polymerase OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=POL PE=3 SV=2
+sp|Q5UP82|YL005_MIMIV     5.7       5.5   1   1.1  19.7    Uncharacterized protein L5 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L5 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQF5|YL491_MIMIV    15.9    0.0045     1  17.4      9    149     21    140    354    473     Uncharacterized protein L491 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L491 PE=4 SV=1
+sp|Q07852|VE4_HPV04      12.7     0.042     1   1.8     10    126     25    115    379    466     Protein E4 OS=Human papillomavirus type 4 OX=10617 GN=E4 PE=3 SV=2
+sp|P68610|RP19_VACCC      8.1         1     1   5.6      1     78      6     37    405    442     DNA-directed RNA polymerase 19 kDa subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=RPO19 PE=2 SV=1
+sp|P68611|RP19_VACCW      8.1         1     1   5.6      1     78      6     37    405    442     DNA-directed RNA polymerase 19 kDa subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=RPO19 PE=1 SV=1
+sp|Q76ZQ8|RP19_VACCA      8.1         1     1   5.6      1     78      6     37    405    442     DNA-directed RNA polymerase 19 kDa subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=RPO19 PE=1 SV=1
+sp|P33813|RP19_VAR67      7.2       1.9     1   6.0      1     78      5     35    404    440     DNA-directed RNA polymerase 19 kDa subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=RPO19 PE=2 SV=1
+sp|Q82484|VLF1_NPVHZ      7.1         2     1   6.0    302    410    320    398    383    458     Very late expression factor 1 OS=Heliothis zea nuclear polyhedrosis virus OX=28290 GN=VLF-1 PE=3 SV=1
+sp|P41712|DPOL_NPVBM      6.9       2.3     1   5.2    908    981    924    974     26     78     DNA polymerase OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=POL PE=3 SV=2
+sp|P03720|VPIP_BPT4       5.9       4.8     1  17.5      7     80     33     79    397    440     Prehead core component PIP OS=Enterobacteria phage T4 OX=10665 GN=67 PE=4 SV=1
+sp|Q5UQR7|YL324_MIMIV     5.9       4.9     1  12.9     28    169     47    129    368    448     Uncharacterized protein L324 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L324 PE=4 SV=1
+sp|Q5URA6|YR878_MIMIV     5.7       5.5     1  19.7      3    124     16    118    357    466     Putative KilA-N domain-containing protein R878 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R878 PE=4 SV=1
+sp|P18131|DPOL_NPVAC      5.3       7.4     1   8.0    905    978    920    970     23     76     DNA polymerase OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=POL PE=3 SV=2
+sp|Q5UP82|YL005_MIMIV     5.2       7.7     1  19.7     82    140     91    120    413    442     Uncharacterized protein L5 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L5 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008318573@NC_021858.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008318573@NC_021858.txt data/models_hmm/YP_008318573@NC_021858.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:36 2021
+# [ok]

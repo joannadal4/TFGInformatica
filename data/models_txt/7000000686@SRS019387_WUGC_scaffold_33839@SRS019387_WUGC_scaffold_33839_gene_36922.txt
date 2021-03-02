@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQM6|YR429_MIMIV     9.5      0.86   3   2.6   5.8    Putative transcription factor R429 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R429 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQM6|YR429_MIMIV    10.7      0.38     1   0.6      1     59      3     50     81    128     Putative transcription factor R429 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R429 PE=3 SV=1
+sp|Q5UQM6|YR429_MIMIV     0.6   5.1e+02     2   0.1     99    163    112    151     49     93     Putative transcription factor R429 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R429 PE=3 SV=1
+sp|Q5UQM6|YR429_MIMIV    -2.9   6.1e+03     3   0.0    182    233    186    205     55     73     Putative transcription factor R429 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R429 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000686@SRS019387_WUGC_scaffold_33839@SRS019387_WUGC_scaffold_33839_gene_36922.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000686@SRS019387_WUGC_scaffold_33839@SRS019387_WUGC_scaffold_33839_gene_36922.txt data/models_hmm/7000000686@SRS019387_WUGC_scaffold_33839@SRS019387_WUGC_scaffold_33839_gene_36922.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:58 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36814|VE6_HPV52     12.8     0.079   1   1.1   0.1    Protein E6 OS=Human papillomavirus type 52 OX=10618 GN=E6 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36814|VE6_HPV52     12.5       0.1     1   0.1      4     87     19     79     82    141     Protein E6 OS=Human papillomavirus type 52 OX=10618 GN=E6 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000615@SRS019591_WUGC_scaffold_26599@SRS019591_WUGC_scaffold_26599_gene_31683.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000615@SRS019591_WUGC_scaffold_26599@SRS019591_WUGC_scaffold_26599_gene_31683.txt data/models_hmm/7000000615@SRS019591_WUGC_scaffold_26599@SRS019591_WUGC_scaffold_26599_gene_31683.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:31 2021
+# [ok]

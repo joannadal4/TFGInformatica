@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q69014|POLG_SVM93    12.4       0.1   1   2.0   0.0    Genome polyprotein (Fragment) OS=Sapporo virus (strain Human/United Kingdom/Manchester/1993) OX=82659 GN=ORF1 PE=1 SV=1
+sp|Q672I1|POLG_SVSAP    12.4       0.1   1   2.0   0.0    Genome polyprotein OS=Sapporo virus (isolate GI/Human/Germany/pJG-Sap01) OX=291175 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q69014|POLG_SVM93    10.5      0.39     1   0.0    280    314    282    307      9     34     Genome polyprotein (Fragment) OS=Sapporo virus (strain Human/United Kingdom/Manchester/1993) OX=82659 GN=ORF1 PE=1 SV=1
+sp|Q672I1|POLG_SVSAP    10.5       0.4     1   0.0    352    387    354    379      9     34     Genome polyprotein OS=Sapporo virus (isolate GI/Human/Germany/pJG-Sap01) OX=291175 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000090@WSSedB1C_c10000070@WSSedB1C_100000704.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000090@WSSedB1C_c10000070@WSSedB1C_100000704.txt data/models_hmm/3300000090@WSSedB1C_c10000070@WSSedB1C_100000704.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:20 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q65914|SPIKE_ADECT    17.6    0.0013   5   4.8  16.2    Fiber protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=L5 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q65914|SPIKE_ADECT     9.7      0.31     4   0.1    202    277    217    272    527    581     Fiber protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=L5 PE=1 SV=1
+sp|Q65914|SPIKE_ADECT     8.6      0.63     1   0.5     42    134     58    123    549    611     Fiber protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=L5 PE=1 SV=1
+sp|Q65914|SPIKE_ADECT     5.2       6.8     3   0.1    170    241    186    236    532    581     Fiber protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=L5 PE=1 SV=1
+sp|Q65914|SPIKE_ADECT     4.7       9.8     5   2.1    286    452    304    354    547    595     Fiber protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=L5 PE=1 SV=1
+sp|Q65914|SPIKE_ADECT    -0.7   4.1e+02     2   0.0    135    178    145    175    559    589     Fiber protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=L5 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001305@C688J14111_10000001@C688J14111_1000000120.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001305@C688J14111_10000001@C688J14111_1000000120.txt data/models_hmm/3300001305@C688J14111_10000001@C688J14111_1000000120.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:44 2021
+# [ok]

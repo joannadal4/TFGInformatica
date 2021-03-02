@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q80HX3|F16_VACCW    254.0   9.9e-76   1   1.0  14.0    Protein F16 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR055 PE=3 SV=1
+sp|P21021|F16_VACCC    254.0     1e-75   1   1.0  13.8    Protein F16 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F16L PE=3 SV=1
+sp|P0DSU9|F16_VAR67    249.5   2.3e-74   1   1.0  14.3    Protein F16 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C20L PE=3 SV=1
+sp|P0DSV0|F16_VARV     249.5   2.3e-74   1   1.0  14.3    Protein F16 OS=Variola virus OX=10255 GN=C20L PE=3 SV=1
+sp|P29892|F16_VACCP    246.8   1.6e-73   1   1.0  12.9    Protein F16 OS=Vaccinia virus (strain L-IVP) OX=31531 GN=F1 PE=3 SV=1
+sp|P16763|UL27_HCMVA    13.2     0.047   1   1.4   0.0    Protein UL27 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL27 PE=3 SV=1
+sp|Q6SWA4|UL27_HCMVM    13.2     0.047   1   1.4   0.0    Protein UL27 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL27 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q80HX3|F16_VACCW    253.8   1.1e-75     1  14.0      1    227      1    227      2    217     Protein F16 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR055 PE=3 SV=1
+sp|P21021|F16_VACCC    253.8   1.1e-75     1  13.8      1    227      1    227      2    217     Protein F16 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F16L PE=3 SV=1
+sp|P0DSU9|F16_VAR67    249.4   2.6e-74     1  14.3      1    227      1    227      2    217     Protein F16 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C20L PE=3 SV=1
+sp|P0DSV0|F16_VARV     249.4   2.6e-74     1  14.3      1    227      1    227      2    217     Protein F16 OS=Variola virus OX=10255 GN=C20L PE=3 SV=1
+sp|P29892|F16_VACCP    246.6   1.8e-73     1  12.9      1    227      1    227      2    217     Protein F16 OS=Vaccinia virus (strain L-IVP) OX=31531 GN=F1 PE=3 SV=1
+sp|P16763|UL27_HCMVA    12.4      0.08     1   0.0    392    484    419    482    151    215     Protein UL27 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL27 PE=3 SV=1
+sp|Q6SWA4|UL27_HCMVM    12.4      0.08     1   0.0    392    484    419    482    151    215     Protein UL27 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL27 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_227414@NC_006966.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_227414@NC_006966.txt data/models_hmm/YP_227414@NC_006966.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:19 2021
+# [ok]

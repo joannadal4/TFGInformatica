@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q37891|PORTL_BPB03    14.1     0.028   2   2.2   0.4    Portal protein OS=Bacillus phage B103 OX=10778 GN=10 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q37891|PORTL_BPB03    14.1     0.028     2   0.4    182    286    191    272     19     99     Portal protein OS=Bacillus phage B103 OX=10778 GN=10 PE=3 SV=1
+sp|Q37891|PORTL_BPB03     1.6   1.9e+02     1   0.4     85    188    145    183    180    216     Portal protein OS=Bacillus phage B103 OX=10778 GN=10 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000195@SRS017209_Baylor_scaffold_42805@SRS017209_Baylor_scaffold_42805_gene_57190.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000195@SRS017209_Baylor_scaffold_42805@SRS017209_Baylor_scaffold_42805_gene_57190.txt data/models_hmm/7000000195@SRS017209_Baylor_scaffold_42805@SRS017209_Baylor_scaffold_42805_gene_57190.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:17 2021
+# [ok]

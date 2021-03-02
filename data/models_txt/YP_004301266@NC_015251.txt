@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UR22|YL364_MIMIV     9.7      0.82   2   2.8   5.0    Putative ATP-dependent RNA helicase L364 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L364 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UR22|YL364_MIMIV     7.2       5.1     1   1.8    291    330    293    319      4     29     Putative ATP-dependent RNA helicase L364 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L364 PE=3 SV=1
+sp|Q5UR22|YL364_MIMIV     2.4   1.6e+02     2   0.1    350    403    369    388     52     72     Putative ATP-dependent RNA helicase L364 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L364 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004301266@NC_015251.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004301266@NC_015251.txt data/models_hmm/YP_004301266@NC_015251.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:15 2021
+# [ok]

@@ -1,0 +1,46 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P28949|TEG3_EHV1B   326.8   7.4e-98   2   1.5   0.6    Tegument protein UL14 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=48 PE=3 SV=1
+sp|P84404|TEG3_EHV1V   326.8   7.4e-98   2   1.5   0.6    Tegument protein UL14 homolog OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=48 PE=3 SV=1
+sp|Q9E6Q3|TEG3_GAHVM   263.6   1.6e-78   1   1.0   7.2    Tegument protein UL14 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV026 PE=3 SV=1
+sp|P04291|TEG3_HHV11   245.5   5.4e-73   1   1.0   0.0    Tegument protein UL14 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL14 PE=1 SV=2
+sp|P09295|TEG3_VZVD    239.4   3.7e-71   1   1.0   0.0    Tegument protein UL14 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF46 PE=3 SV=1
+sp|Q4JQS9|TEG3_VZVO    239.4   3.7e-71   1   1.0   0.0    Tegument protein UL14 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF46 PE=3 SV=1
+sp|P89437|TEG3_HHV2H   236.8   2.4e-70   1   1.0   0.4    Tegument protein UL14 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL14 PE=3 SV=1
+sp|P30661|TEG3_SUHVN   207.4   2.2e-61   1   1.0  18.3    Tegument protein UL14 OS=Suid herpesvirus 1 (strain NIA-3) OX=10349 GN=UL14 PE=3 SV=1
+sp|Q6UDH8|TEG3_PSHV1   192.7     7e-57   1   1.0   0.0    Tegument protein UL14 OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL14 PE=3 SV=1
+sp|O36384|UL96_ALHV1    19.4   0.00065   1   1.2   0.2    Gene 35 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=35 PE=3 SV=1
+sp|Q3V4Q0|Y326B_ATV     11.3       0.2   2   2.4   3.7    Uncharacterized protein ORF326b OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P28949|TEG3_EHV1B   326.8   7.4e-98     1   0.6      1    229      1    229      1    232     Tegument protein UL14 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=48 PE=3 SV=1
+sp|P84404|TEG3_EHV1V   326.8   7.4e-98     1   0.6      1    229      1    229      1    232     Tegument protein UL14 homolog OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=48 PE=3 SV=1
+sp|Q9E6Q3|TEG3_GAHVM   263.4   1.7e-78     1   7.2      1    233      1    233      1    232     Tegument protein UL14 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV026 PE=3 SV=1
+sp|P04291|TEG3_HHV11   245.3   5.9e-73     1   0.0      1    219      1    216      1    219     Tegument protein UL14 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL14 PE=1 SV=2
+sp|P09295|TEG3_VZVD    239.3     4e-71     1   0.0      1    199      8    198      4    203     Tegument protein UL14 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF46 PE=3 SV=1
+sp|Q4JQS9|TEG3_VZVO    239.3     4e-71     1   0.0      1    199      8    198      4    203     Tegument protein UL14 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF46 PE=3 SV=1
+sp|P89437|TEG3_HHV2H   236.7   2.5e-70     1   0.4      1    219      1    204      1    207     Tegument protein UL14 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL14 PE=3 SV=1
+sp|P30661|TEG3_SUHVN   207.3   2.4e-61     1  18.3      1    159      3    158      4    157     Tegument protein UL14 OS=Suid herpesvirus 1 (strain NIA-3) OX=10349 GN=UL14 PE=3 SV=1
+sp|Q6UDH8|TEG3_PSHV1   192.6   7.5e-57     1   0.0      1    196      7    195      2    189     Tegument protein UL14 OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL14 PE=3 SV=1
+sp|O36384|UL96_ALHV1    18.9   0.00091     1   0.2     25    152     34    149     40    157     Gene 35 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=35 PE=3 SV=1
+sp|Q3V4Q0|Y326B_ATV      9.3       0.8     2   0.4    239    312    241    286    101    149     Uncharacterized protein ORF326b OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+sp|Q3V4Q0|Y326B_ATV      2.6        86     1   0.1     98    173    116    148     48     79     Uncharacterized protein ORF326b OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+sp|P28949|TEG3_EHV1B    -2.3   2.7e+03     2   0.2    232    282    250    261     10     21     Tegument protein UL14 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=48 PE=3 SV=1
+sp|P84404|TEG3_EHV1V    -2.3   2.7e+03     2   0.2    232    282    250    261     10     21     Tegument protein UL14 homolog OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=48 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_077460@NC_002686.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_077460@NC_002686.txt data/models_hmm/NP_077460@NC_002686.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:50 2021
+# [ok]

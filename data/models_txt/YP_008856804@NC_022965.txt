@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05240|VG31_BPML5   117.7   5.6e-34   3   2.1   1.1    Gene 31 protein OS=Mycobacterium phage L5 OX=31757 GN=31 PE=4 SV=1
+sp|O64225|VG31_BPMD2   110.9   6.5e-32   2   1.9   1.5    Gene 31 protein OS=Mycobacterium phage D29 OX=28369 GN=31 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05240|VG31_BPML5   117.7   5.6e-34     1   1.1      1    224      1    200      1    200     Gene 31 protein OS=Mycobacterium phage L5 OX=31757 GN=31 PE=4 SV=1
+sp|O64225|VG31_BPMD2   110.9   6.5e-32     1   1.5      1    283      1    201      1    201     Gene 31 protein OS=Mycobacterium phage D29 OX=28369 GN=31 PE=4 SV=1
+sp|Q05240|VG31_BPML5    -2.9   2.2e+03     2   0.1    234    282    242    275    400    432     Gene 31 protein OS=Mycobacterium phage L5 OX=31757 GN=31 PE=4 SV=1
+sp|O64225|VG31_BPMD2    -3.8   3.8e+03     2   2.3    426    520    460    495    277    311     Gene 31 protein OS=Mycobacterium phage D29 OX=28369 GN=31 PE=4 SV=1
+sp|Q05240|VG31_BPML5    -4.4     6e+03     3   3.0    409    512    464    473    408    417     Gene 31 protein OS=Mycobacterium phage L5 OX=31757 GN=31 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008856804@NC_022965.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008856804@NC_022965.txt data/models_hmm/YP_008856804@NC_022965.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:35 2021
+# [ok]

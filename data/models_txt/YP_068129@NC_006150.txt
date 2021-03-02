@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HHT4|UL17_HCMVM    17.5    0.0037   1   1.9   1.8    Protein UL17 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL17 PE=3 SV=1
+sp|P16722|UL17_HCMVA    17.5    0.0037   1   1.9   1.8    Uncharacterized protein UL17 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL17 PE=4 SV=1
+sp|B9VXI8|UL17_HCMVT    17.3    0.0042   1   1.9   1.9    Protein UL17 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL17 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HHT4|UL17_HCMVM    16.6    0.0068     1   1.8      1    101      1     19      1     19     Protein UL17 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL17 PE=3 SV=1
+sp|P16722|UL17_HCMVA    16.6    0.0068     1   1.8      1    101      1     19      1     19     Uncharacterized protein UL17 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL17 PE=4 SV=1
+sp|B9VXI8|UL17_HCMVT    16.5    0.0075     1   1.9      1    101      1     18      1     18     Protein UL17 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL17 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_068129@NC_006150.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_068129@NC_006150.txt data/models_hmm/YP_068129@NC_006150.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:57 2021
+# [ok]

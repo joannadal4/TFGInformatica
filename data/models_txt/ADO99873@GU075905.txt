@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P15960|P19_AMCV      13.9     0.042   1   1.2   0.0    RNA silencing suppressor p19 OS=Artichoke mottled crinkle virus OX=12142 GN=ORF4 PE=3 SV=1
+sp|P50628|P19_TBSVT     13.5     0.054   1   1.2   0.0    RNA silencing suppressor p19 OS=Tomato bushy stunt virus (strain type) OX=70159 GN=ORF4 PE=3 SV=1
+sp|Q66104|P19_CIRV      12.0      0.16   1   1.1   0.0    RNA silencing suppressor p19 OS=Carnation Italian ringspot virus OX=39443 GN=ORF4 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P15960|P19_AMCV      13.4     0.058     1   0.0     68    154     90    140     70    121     RNA silencing suppressor p19 OS=Artichoke mottled crinkle virus OX=12142 GN=ORF4 PE=3 SV=1
+sp|P50628|P19_TBSVT     13.1     0.072     1   0.0     76    155     90    140     70    121     RNA silencing suppressor p19 OS=Tomato bushy stunt virus (strain type) OX=70159 GN=ORF4 PE=3 SV=1
+sp|Q66104|P19_CIRV      11.6      0.21     1   0.0     73    155     90    140     70    121     RNA silencing suppressor p19 OS=Carnation Italian ringspot virus OX=39443 GN=ORF4 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ADO99873@GU075905.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ADO99873@GU075905.txt data/models_hmm/ADO99873@GU075905.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:29 2021
+# [ok]

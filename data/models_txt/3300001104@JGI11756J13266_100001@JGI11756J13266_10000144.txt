@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9DHJ5|A28_YLDV      14.9     0.015   1   1.2   2.7    Envelope protein A28 homolog OS=Yaba-like disease virus OX=132475 GN=118L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9DHJ5|A28_YLDV      14.2     0.022     1   2.7      4     72     10     68     53    104     Envelope protein A28 homolog OS=Yaba-like disease virus OX=132475 GN=118L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001104@JGI11756J13266_100001@JGI11756J13266_10000144.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001104@JGI11756J13266_100001@JGI11756J13266_10000144.txt data/models_hmm/3300001104@JGI11756J13266_100001@JGI11756J13266_10000144.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:22 2021
+# [ok]

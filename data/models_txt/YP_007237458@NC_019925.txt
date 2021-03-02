@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C9J1|1109L_ASFP4    12.7     0.096   3   2.9   0.3    Protein MGF 110-9L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-021 PE=3 SV=1
+sp|P26710|V290_ASFL5     12.7     0.096   3   2.9   0.3    Protein LIS 290 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS290 PE=3 SV=1
+sp|P0C9I9|1109L_ASFWA    12.6       0.1   3   2.8   0.2    Protein MGF 110-9L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-019 PE=3 SV=1
+sp|P0C9J0|1109L_ASFK5    11.4      0.23   3   2.7   0.6    Protein MGF 110-9L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-019 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C9I9|1109L_ASFWA     8.4       2.1     2   0.0    100    126    103    121      6     24     Protein MGF 110-9L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-019 PE=3 SV=1
+sp|P0C9J1|1109L_ASFP4     8.4       2.1     2   0.0    100    126    103    121      6     24     Protein MGF 110-9L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-021 PE=3 SV=1
+sp|P26710|V290_ASFL5      8.4       2.1     2   0.0    100    126    103    121      6     24     Protein LIS 290 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS290 PE=3 SV=1
+sp|P0C9J0|1109L_ASFK5     8.3       2.2     2   0.0    100    125    103    121      6     24     Protein MGF 110-9L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-019 PE=3 SV=1
+sp|P26710|V290_ASFL5     -0.6   1.3e+03     1   0.0     76     94     79     87     20     28     Protein LIS 290 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS290 PE=3 SV=1
+sp|P0C9J0|1109L_ASFK5    -0.6   1.3e+03     3   0.1    239    268    242    253     10     21     Protein MGF 110-9L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-019 PE=3 SV=1
+sp|P0C9J1|1109L_ASFP4    -0.6   1.3e+03     3   0.1    239    268    242    253     10     21     Protein MGF 110-9L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-021 PE=3 SV=1
+sp|P26710|V290_ASFL5     -0.6   1.3e+03     3   0.1    239    268    242    253     10     21     Protein LIS 290 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS290 PE=3 SV=1
+sp|P0C9J1|1109L_ASFP4    -0.6   1.4e+03     1   0.0     76     94     79     87     20     28     Protein MGF 110-9L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-021 PE=3 SV=1
+sp|P0C9I9|1109L_ASFWA    -0.7   1.4e+03     3   0.1    239    264    242    253     10     21     Protein MGF 110-9L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-019 PE=3 SV=1
+sp|P0C9I9|1109L_ASFWA    -0.8   1.5e+03     1   0.0     76     94     79     87     20     28     Protein MGF 110-9L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-019 PE=3 SV=1
+sp|P0C9J0|1109L_ASFK5    -3.0   7.2e+03     1   0.0     77     90     79     86     20     27     Protein MGF 110-9L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-019 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007237458@NC_019925.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007237458@NC_019925.txt data/models_hmm/YP_007237458@NC_019925.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:35 2021
+# [ok]

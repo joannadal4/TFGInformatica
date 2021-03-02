@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03340|GAG_FSVMD     12.1      0.16   1   1.4   1.0    Gag polyprotein OS=Feline sarcoma virus (strain McDonough) OX=11778 GN=gag PE=3 SV=2
+sp|P10262|GAG_FLV       12.0      0.17   1   1.5   1.0    Gag polyprotein OS=Feline leukemia virus OX=11768 GN=gag PE=3 SV=3
+sp|Q02843|GAG_SIVG1     11.9      0.18   1   1.7   2.1    Gag polyprotein OS=Simian immunodeficiency virus agm.grivet (isolate AGM gr-1) OX=31684 GN=gag PE=1 SV=1
+sp|P0DOH2|GGAG_FSVMD    11.8       0.2   1   1.4   1.0    Glyco-Gag protein OS=Feline sarcoma virus (strain McDonough) OX=11778 PE=3 SV=1
+sp|P0DOH3|GGAG_FLV      11.7      0.21   1   1.5   1.0    Glyco-Gag protein OS=Feline leukemia virus OX=11768 PE=3 SV=1
+sp|P03330|GAG_WMSV       6.9       6.7   1   1.4   7.2    Gag polyprotein OS=Woolly monkey sarcoma virus OX=11970 GN=gag PE=3 SV=4
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03340|GAG_FSVMD     11.2      0.31     1   1.0    396    437    400    432     30     60     Gag polyprotein OS=Feline sarcoma virus (strain McDonough) OX=11778 GN=gag PE=3 SV=2
+sp|P10262|GAG_FLV       11.0      0.35     1   1.0    396    437    400    432     30     60     Gag polyprotein OS=Feline leukemia virus OX=11768 GN=gag PE=3 SV=3
+sp|P0DOH2|GGAG_FSVMD    10.9      0.38     1   1.0    473    514    477    509     30     60     Glyco-Gag protein OS=Feline sarcoma virus (strain McDonough) OX=11778 PE=3 SV=1
+sp|P0DOH3|GGAG_FLV      10.7      0.42     1   1.0    470    511    474    506     30     60     Glyco-Gag protein OS=Feline leukemia virus OX=11768 PE=3 SV=1
+sp|Q02843|GAG_SIVG1     10.5      0.52     1   2.1    458    502    463    499     24     62     Gag polyprotein OS=Simian immunodeficiency virus agm.grivet (isolate AGM gr-1) OX=31684 GN=gag PE=1 SV=1
+sp|P03330|GAG_WMSV       6.0        13     1   7.2    402    441    405    440     29     65     Gag polyprotein OS=Woolly monkey sarcoma virus OX=11970 GN=gag PE=3 SV=4
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_3831843_len_126798_cov_1_523565@_HiSeq_19361670.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_3831843_len_126798_cov_1_523565@_HiSeq_19361670.txt data/models_hmm/2061766007@rumenHiSeq_NODE_3831843_len_126798_cov_1_523565@_HiSeq_19361670.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:39 2021
+# [ok]

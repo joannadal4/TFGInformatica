@@ -1,0 +1,57 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04011|VP2_POVLY    438.5  1.7e-131   1   1.0   0.1    Minor capsid protein VP2 OS=B-lymphotropic polyomavirus OX=332091 PE=3 SV=3
+sp|A8Y987|VP2_POVSM    380.1  9.9e-114   1   1.0   1.0    Minor capsid protein VP2 OS=Squirrel monkey polyomavirus OX=452475 GN=VP2 PE=3 SV=1
+sp|P24849|VP2_POVBO    379.1  1.9e-113   1   1.0   0.3    Minor capsid protein VP2 OS=Bovine polyomavirus OX=1891754 PE=3 SV=3
+sp|Q3L6L8|VP2_POVS1    375.2    3e-112   1   1.0   0.8    Minor capsid protein VP2 OS=Simian virus 12 (strain wt100) OX=557605 PE=3 SV=1
+sp|P03098|VP2_POVHA    374.8    4e-112   1   1.0   0.3    Minor capsid protein VP2 OS=Hamster polyomavirus OX=1891729 PE=3 SV=3
+sp|P03097|VP2_POVM3    374.7  4.1e-112   1   1.0   0.2    Minor capsid protein VP2 OS=Murine polyomavirus (strain A3) OX=157703 PE=3 SV=3
+sp|P03094|VP2_POVBK    374.3  5.6e-112   1   1.0   0.7    Minor capsid protein VP2 OS=BK polyomavirus OX=1891762 PE=1 SV=3
+sp|P14997|VP2_POVBA    374.1  6.2e-112   1   1.0   0.6    Minor capsid protein VP2 OS=BK polyomavirus (strain AS) OX=10631 PE=3 SV=3
+sp|P03095|VP2_POVJC    373.2  1.2e-111   1   1.0   0.3    Minor capsid protein VP2 OS=JC polyomavirus OX=10632 PE=3 SV=3
+sp|P03093|VP2_SV40     366.3  1.5e-109   1   1.0   1.8    Minor capsid protein VP2 OS=Simian virus 40 OX=1891767 PE=1 SV=3
+sp|P03096|VP2_POVMA    362.9  1.7e-108   1   1.0   0.5    Minor capsid protein VP2 OS=Murine polyomavirus (strain A2) OX=10636 PE=1 SV=3
+sp|P12908|VP2_POVMC    362.4  2.4e-108   1   1.0   0.4    Minor capsid protein VP2 OS=Murine polyomavirus (strain Crawford small-plaque) OX=10637 PE=1 SV=3
+sp|P24596|VP2_POVMK    354.6  5.6e-106   1   1.0   0.5    Minor capsid protein VP2 OS=Murine polyomavirus (strain Kilham) OX=10638 PE=3 SV=5
+sp|P13892|VP2_BFPYV    297.8     1e-88   1   1.0   0.7    Minor capsid protein VP2 OS=Budgerigar fledgling disease virus OX=1891747 PE=3 SV=3
+sp|A5HBE1|VP2_POVWU     17.1    0.0027   1   2.8  17.6    Minor capsid protein VP2 OS=WU polyomavirus OX=440266 PE=3 SV=1
+sp|P0DOJ1|VP2_POVKI     16.4    0.0043   1   2.6  13.7    Minor capsid protein VP2 OS=KI polyomavirus (isolate Stockholm 350) OX=423447 PE=3 SV=1
+sp|P0DOJ2|VP2_POVK6     15.8    0.0068   1   2.6  14.5    Minor capsid protein VP2 OS=KI polyomavirus (isolate Stockholm 60) OX=423446 PE=3 SV=1
+sp|P0DOJ3|VP2_POVK3     15.8    0.0068   1   2.6  14.5    Minor capsid protein VP2 OS=KI polyomavirus (isolate Stockholm 380) OX=423448 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04011|VP2_POVLY    438.3  1.9e-131     1   0.1      1    352      1    352      1    327     Minor capsid protein VP2 OS=B-lymphotropic polyomavirus OX=332091 PE=3 SV=3
+sp|A8Y987|VP2_POVSM    379.9  1.1e-113     1   1.0      1    332      1    327      1    313     Minor capsid protein VP2 OS=Squirrel monkey polyomavirus OX=452475 GN=VP2 PE=3 SV=1
+sp|P24849|VP2_POVBO    379.0  2.1e-113     1   0.3      1    343      1    343      1    327     Minor capsid protein VP2 OS=Bovine polyomavirus OX=1891754 PE=3 SV=3
+sp|Q3L6L8|VP2_POVS1    375.0  3.4e-112     1   0.8      1    352      1    352      1    327     Minor capsid protein VP2 OS=Simian virus 12 (strain wt100) OX=557605 PE=3 SV=1
+sp|P03097|VP2_POVM3    374.6  4.6e-112     1   0.2      1    319      1    318      1    308     Minor capsid protein VP2 OS=Murine polyomavirus (strain A3) OX=157703 PE=3 SV=3
+sp|P03098|VP2_POVHA    374.5  4.7e-112     1   0.3      1    345      1    344      1    309     Minor capsid protein VP2 OS=Hamster polyomavirus OX=1891729 PE=3 SV=3
+sp|P03094|VP2_POVBK    374.1  6.3e-112     1   0.7      1    351      1    351      1    327     Minor capsid protein VP2 OS=BK polyomavirus OX=1891762 PE=1 SV=3
+sp|P14997|VP2_POVBA    374.0    7e-112     1   0.6      1    351      1    351      1    327     Minor capsid protein VP2 OS=BK polyomavirus (strain AS) OX=10631 PE=3 SV=3
+sp|P03095|VP2_POVJC    373.0  1.4e-111     1   0.3      1    344      1    344      1    327     Minor capsid protein VP2 OS=JC polyomavirus OX=10632 PE=3 SV=3
+sp|P03093|VP2_SV40     366.1  1.7e-109     1   1.8      1    352      1    352      1    327     Minor capsid protein VP2 OS=Simian virus 40 OX=1891767 PE=1 SV=3
+sp|P03096|VP2_POVMA    362.7  1.9e-108     1   0.5      1    319      1    318      1    308     Minor capsid protein VP2 OS=Murine polyomavirus (strain A2) OX=10636 PE=1 SV=3
+sp|P12908|VP2_POVMC    362.2  2.7e-108     1   0.4      1    319      1    318      1    308     Minor capsid protein VP2 OS=Murine polyomavirus (strain Crawford small-plaque) OX=10637 PE=1 SV=3
+sp|P24596|VP2_POVMK    354.4  6.2e-106     1   0.5      1    324      1    321      1    311     Minor capsid protein VP2 OS=Murine polyomavirus (strain Kilham) OX=10638 PE=3 SV=5
+sp|P13892|VP2_BFPYV    297.6   1.2e-88     1   0.7      1    336      1    336      1    327     Minor capsid protein VP2 OS=Budgerigar fledgling disease virus OX=1891747 PE=3 SV=3
+sp|P0DOJ1|VP2_POVKI     10.2      0.34     1  13.7      1    391    302    389    247    325     Minor capsid protein VP2 OS=KI polyomavirus (isolate Stockholm 350) OX=423447 PE=3 SV=1
+sp|P0DOJ2|VP2_POVK6      9.3      0.64     1  14.5      1    391    302    389    247    325     Minor capsid protein VP2 OS=KI polyomavirus (isolate Stockholm 60) OX=423446 PE=3 SV=1
+sp|P0DOJ3|VP2_POVK3      9.3      0.64     1  14.5      1    391    302    389    247    325     Minor capsid protein VP2 OS=KI polyomavirus (isolate Stockholm 380) OX=423448 PE=3 SV=1
+sp|A5HBE1|VP2_POVWU      7.9       1.8     1  17.6      1    407     36    400     44    321     Minor capsid protein VP2 OS=WU polyomavirus OX=440266 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007195279@NC_019855.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007195279@NC_019855.txt data/models_hmm/YP_007195279@NC_019855.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:33 2021
+# [ok]

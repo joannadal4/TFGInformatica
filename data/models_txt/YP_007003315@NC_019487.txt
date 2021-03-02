@@ -1,0 +1,55 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5MQC8|VEMP_CVHN1    16.3    0.0083   1   1.2   0.5    Envelope small membrane protein OS=Human coronavirus HKU1 (isolate N1) OX=443239 GN=E PE=3 SV=1
+sp|Q9IKC8|VEMP_CVRSD    16.2    0.0089   1   1.2   0.6    Envelope small membrane protein OS=Rat coronavirus (strain 681) OX=33740 GN=E PE=3 SV=1
+sp|P29076|VEMP_CVMS     15.3     0.016   1   1.3   0.4    Envelope small membrane protein OS=Murine coronavirus (strain S) OX=11145 GN=E PE=3 SV=1
+sp|P0C2R0|VEMP_CVMA5    15.1     0.018   1   1.4   0.7    Envelope small membrane protein OS=Murine coronavirus (strain A59) OX=11142 GN=E PE=1 SV=1
+sp|P15779|VEMP_CVBM     13.6     0.055   1   1.3   0.2    Envelope small membrane protein OS=Bovine coronavirus (strain Mebus) OX=11132 GN=E PE=3 SV=1
+sp|P0C2Q1|VEMP_CVBEN    13.2     0.073   1   1.3   0.2    Envelope small membrane protein OS=Bovine coronavirus (strain 98TXSF-110-ENT) OX=233262 GN=E PE=3 SV=1
+sp|P0C2Q2|VEMP_CVBLS    13.2     0.073   1   1.3   0.2    Envelope small membrane protein OS=Bovine coronavirus (strain LSU-94LSS-051) OX=233261 GN=E PE=3 SV=1
+sp|P0C2Q3|VEMP_CVBLU    13.2     0.073   1   1.3   0.2    Envelope small membrane protein OS=Bovine coronavirus (strain 98TXSF-110-LUN) OX=233264 GN=E PE=3 SV=1
+sp|P0C2Q4|VEMP_CVBLY    13.2     0.073   1   1.3   0.2    Envelope small membrane protein OS=Bovine coronavirus (strain LY-138) OX=11131 GN=E PE=3 SV=1
+sp|P0C2Q5|VEMP_CVBOK    13.2     0.073   1   1.3   0.2    Envelope small membrane protein OS=Bovine coronavirus (strain OK-0514) OX=231432 GN=E PE=3 SV=1
+sp|P0C2Q6|VEMP_CVBON    13.2     0.073   1   1.3   0.2    Envelope small membrane protein OS=Bovine coronavirus (strain Ontario) OX=231422 GN=E PE=3 SV=1
+sp|P0C2Q7|VEMP_CVBQ     13.2     0.073   1   1.3   0.2    Envelope small membrane protein OS=Bovine coronavirus (strain Quebec) OX=11133 GN=E PE=3 SV=1
+sp|P15775|VEMP_CVBF     13.2     0.073   1   1.3   0.2    Envelope small membrane protein OS=Bovine coronavirus (strain F15) OX=11129 GN=E PE=3 SV=1
+sp|P0C2Q8|VEMP_CVP67    13.2     0.074   1   1.3   0.2    Envelope small membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain 67N) OX=230237 GN=E PE=3 SV=1
+sp|P0C2Q9|VEMP_CVPIA    13.2     0.074   1   1.3   0.2    Envelope small membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain IAF-404) OX=230236 GN=E PE=3 SV=1
+sp|Q0ZME5|VEMP_CVHN5    13.0     0.084   1   1.5   0.7    Envelope small membrane protein OS=Human coronavirus HKU1 (isolate N5) OX=443241 GN=E PE=3 SV=1
+sp|Q14EA8|VEMP_CVHN2    13.0     0.084   1   1.5   0.7    Envelope small membrane protein OS=Human coronavirus HKU1 (isolate N2) OX=443240 GN=E PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5MQC8|VEMP_CVHN1    15.9     0.011     1   0.5     21     80     26     73      8     56     Envelope small membrane protein OS=Human coronavirus HKU1 (isolate N1) OX=443239 GN=E PE=3 SV=1
+sp|Q9IKC8|VEMP_CVRSD    15.8     0.011     1   0.6     20     85     27     72      9     55     Envelope small membrane protein OS=Rat coronavirus (strain 681) OX=33740 GN=E PE=3 SV=1
+sp|P29076|VEMP_CVMS     14.8     0.024     1   0.4     20     84     25     72      7     55     Envelope small membrane protein OS=Murine coronavirus (strain S) OX=11145 GN=E PE=3 SV=1
+sp|P0C2R0|VEMP_CVMA5    14.4      0.03     1   0.7     20     82     28     72     10     55     Envelope small membrane protein OS=Murine coronavirus (strain A59) OX=11142 GN=E PE=1 SV=1
+sp|P15779|VEMP_CVBM     13.2     0.074     1   0.2     22     84     28     73      9     54     Envelope small membrane protein OS=Bovine coronavirus (strain Mebus) OX=11132 GN=E PE=3 SV=1
+sp|P0C2Q1|VEMP_CVBEN    12.8     0.097     1   0.2     22     84     28     73      9     54     Envelope small membrane protein OS=Bovine coronavirus (strain 98TXSF-110-ENT) OX=233262 GN=E PE=3 SV=1
+sp|P0C2Q2|VEMP_CVBLS    12.8     0.097     1   0.2     22     84     28     73      9     54     Envelope small membrane protein OS=Bovine coronavirus (strain LSU-94LSS-051) OX=233261 GN=E PE=3 SV=1
+sp|P0C2Q3|VEMP_CVBLU    12.8     0.097     1   0.2     22     84     28     73      9     54     Envelope small membrane protein OS=Bovine coronavirus (strain 98TXSF-110-LUN) OX=233264 GN=E PE=3 SV=1
+sp|P0C2Q4|VEMP_CVBLY    12.8     0.097     1   0.2     22     84     28     73      9     54     Envelope small membrane protein OS=Bovine coronavirus (strain LY-138) OX=11131 GN=E PE=3 SV=1
+sp|P0C2Q5|VEMP_CVBOK    12.8     0.097     1   0.2     22     84     28     73      9     54     Envelope small membrane protein OS=Bovine coronavirus (strain OK-0514) OX=231432 GN=E PE=3 SV=1
+sp|P0C2Q6|VEMP_CVBON    12.8     0.097     1   0.2     22     84     28     73      9     54     Envelope small membrane protein OS=Bovine coronavirus (strain Ontario) OX=231422 GN=E PE=3 SV=1
+sp|P0C2Q7|VEMP_CVBQ     12.8     0.097     1   0.2     22     84     28     73      9     54     Envelope small membrane protein OS=Bovine coronavirus (strain Quebec) OX=11133 GN=E PE=3 SV=1
+sp|P0C2Q8|VEMP_CVP67    12.8     0.097     1   0.2     22     84     28     73      9     54     Envelope small membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain 67N) OX=230237 GN=E PE=3 SV=1
+sp|P0C2Q9|VEMP_CVPIA    12.8     0.097     1   0.2     22     84     28     73      9     54     Envelope small membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain IAF-404) OX=230236 GN=E PE=3 SV=1
+sp|P15775|VEMP_CVBF     12.8     0.097     1   0.2     22     84     28     73      9     54     Envelope small membrane protein OS=Bovine coronavirus (strain F15) OX=11129 GN=E PE=3 SV=1
+sp|Q0ZME5|VEMP_CVHN5    12.2      0.15     1   0.7     20     81     27     70      9     53     Envelope small membrane protein OS=Human coronavirus HKU1 (isolate N5) OX=443241 GN=E PE=3 SV=1
+sp|Q14EA8|VEMP_CVHN2    12.2      0.15     1   0.7     20     81     27     70      9     53     Envelope small membrane protein OS=Human coronavirus HKU1 (isolate N2) OX=443240 GN=E PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007003315@NC_019487.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007003315@NC_019487.txt data/models_hmm/YP_007003315@NC_019487.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:01 2021
+# [ok]

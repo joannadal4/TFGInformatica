@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CA70|VF169_ASFK5    15.0     0.019   1   1.5   0.0    Transmembrane protein B169L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-088 PE=3 SV=1
+sp|P04506|SIGM1_REOVL    13.2      0.07   4   4.1   2.0    Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|P06023|GAM_BPMU       12.8     0.096   2   1.7   0.6    Putative DNA ends protecting protein gam OS=Escherichia phage Mu OX=10677 GN=gam PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CA70|VF169_ASFK5    13.9     0.044     1   0.0     74    123     87    122     78    113     Transmembrane protein B169L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-088 PE=3 SV=1
+sp|P06023|GAM_BPMU       12.0      0.17     1   0.2      5     91     29     76     25     72     Putative DNA ends protecting protein gam OS=Escherichia phage Mu OX=10677 GN=gam PE=1 SV=2
+sp|P04506|SIGM1_REOVL     3.2        91     3   0.0    150    190    160    185     57     82     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|P04506|SIGM1_REOVL     3.2        91     4   0.0    228    273    248    265     59     76     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|P04506|SIGM1_REOVL     2.7   1.3e+02     2   0.1    116    156    132    149     54     71     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|P04506|SIGM1_REOVL    -1.8   3.2e+03     1   0.0     17    100     51     51     50     50     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|P06023|GAM_BPMU       -2.8   6.5e+03     2   0.0    126    164    146    152     50     56     Putative DNA ends protecting protein gam OS=Escherichia phage Mu OX=10677 GN=gam PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_005087144@NC_016653.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_005087144@NC_016653.txt data/models_hmm/YP_005087144@NC_016653.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:03 2021
+# [ok]

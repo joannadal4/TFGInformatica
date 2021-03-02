@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q573B9|Y116_AFV2P     18.3     0.002   2   2.2   0.3    Uncharacterized protein ORF116 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF116 PE=4 SV=1
+sp|Q5UPB1|YL039_MIMIV    13.4     0.069   1   1.4   0.4    Uncharacterized protein L39 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L39 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPB1|YL039_MIMIV    12.6      0.12     1   0.4     11     66     26     59     56     89     Uncharacterized protein L39 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L39 PE=3 SV=1
+sp|Q573B9|Y116_AFV2P     12.3      0.15     1   0.0      4     54     28     51     68     91     Uncharacterized protein ORF116 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF116 PE=4 SV=1
+sp|Q573B9|Y116_AFV2P      4.4        45     2   0.0     60    110     64     92     62     90     Uncharacterized protein ORF116 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF116 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000295@SRS019219_WUGC_scaffold_10878@SRS019219_WUGC_scaffold_10878_gene_15616.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000295@SRS019219_WUGC_scaffold_10878@SRS019219_WUGC_scaffold_10878_gene_15616.txt data/models_hmm/7000000295@SRS019219_WUGC_scaffold_10878@SRS019219_WUGC_scaffold_10878_gene_15616.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:58 2021
+# [ok]

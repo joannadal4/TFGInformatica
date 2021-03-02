@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04889|VXIS_BPP22   249.5   3.5e-75   1   1.0   0.8    Excisionase OS=Salmonella phage P22 OX=10754 GN=xis PE=1 SV=1
+sp|O22010|VXIS_BPSF5   249.3     4e-75   1   1.1   1.0    Excisionase OS=Shigella phage SfV OX=55884 GN=xis PE=3 SV=1
+sp|Q9T1Q8|VXIS_BPAPS    97.7   4.2e-28   1   1.0   0.8    Probable excisionase OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=40 PE=3 SV=1
+sp|Q05246|VXIS_BPML5    15.8      0.01   1   1.1   0.0    Excisionase OS=Mycobacterium phage L5 OX=31757 GN=XIS PE=3 SV=1
+sp|O22001|VXIS_BPMD2    12.5      0.11   1   1.1   0.0    Excisionase OS=Mycobacterium phage D29 OX=28369 GN=XIS PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04889|VXIS_BPP22   249.4   3.9e-75     1   0.8      1    116      1    116      1    116     Excisionase OS=Salmonella phage P22 OX=10754 GN=xis PE=1 SV=1
+sp|O22010|VXIS_BPSF5   249.0   4.9e-75     1   1.0     32    147     32    147      1    116     Excisionase OS=Shigella phage SfV OX=55884 GN=xis PE=3 SV=1
+sp|Q9T1Q8|VXIS_BPAPS    97.5   4.8e-28     1   0.8      5    119      5    118      1    115     Probable excisionase OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=40 PE=3 SV=1
+sp|Q05246|VXIS_BPML5    15.6     0.012     1   0.0      3     43      7     37      8     38     Excisionase OS=Mycobacterium phage L5 OX=31757 GN=XIS PE=3 SV=1
+sp|O22001|VXIS_BPMD2    12.4      0.12     1   0.0      2     46      7     37      8     38     Excisionase OS=Mycobacterium phage D29 OX=28369 GN=XIS PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007237581@NC_019927.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007237581@NC_019927.txt data/models_hmm/YP_007237581@NC_019927.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:35 2021
+# [ok]

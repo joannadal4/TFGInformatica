@@ -1,0 +1,40 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05241|VG32_BPML5   118.8   2.2e-34   1   1.0  36.8    Gene 32 protein OS=Mycobacterium phage L5 OX=31757 GN=32 PE=4 SV=1
+sp|O64226|VG32_BPMD2   107.6   5.3e-31   1   1.0  36.2    Gene 32 protein OS=Mycobacterium phage D29 OX=28369 GN=32 PE=4 SV=1
+sp|P42928|SPI1_RABPU    12.1     0.038   1   1.1   0.1    Serine proteinase inhibitor 1 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=SPI-1 PE=3 SV=1
+sp|P15058|SPI1_VACCW    12.0     0.041   1   1.1   0.1    Serine proteinase inhibitor 1 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=SPI-1 PE=2 SV=1
+sp|P20531|SPI1_VACCC    12.0     0.043   1   1.1   0.1    Serine proteinase inhibitor 1 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=SPI-1 PE=3 SV=1
+sp|P42927|SPI1_CWPXB    10.6      0.11   1   1.1   0.1    Serine proteinase inhibitor 1 OS=Cowpox virus (strain Brighton Red) OX=265872 GN=SPI-1 PE=3 SV=1
+sp|P0DOT3|SPI1_VAR67    10.5      0.12   1   1.1   0.1    Serine proteinase inhibitor 1 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=SPI-1 PE=3 SV=1
+sp|P0DOT4|SPI1_VARV     10.5      0.12   1   1.1   0.1    Serine proteinase inhibitor 1 OS=Variola virus OX=10255 GN=SPI-1 PE=3 SV=1
+sp|P17498|VPHE_NPVOP    10.4      0.13   2   2.0  14.5    Polyhedral envelope protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF129 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05241|VG32_BPML5   118.5   2.6e-34     1  36.8     20    220     32    219    653    831     Gene 32 protein OS=Mycobacterium phage L5 OX=31757 GN=32 PE=4 SV=1
+sp|O64226|VG32_BPMD2   107.3   6.3e-31     1  36.2     11    223     17    220    641    829     Gene 32 protein OS=Mycobacterium phage D29 OX=28369 GN=32 PE=4 SV=1
+sp|P42928|SPI1_RABPU    11.7     0.049     1   0.1     17    157     60    135     97    174     Serine proteinase inhibitor 1 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=SPI-1 PE=3 SV=1
+sp|P15058|SPI1_VACCW    11.6     0.053     1   0.1     13    153     50    131    106    174     Serine proteinase inhibitor 1 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=SPI-1 PE=2 SV=1
+sp|P20531|SPI1_VACCC    11.6     0.056     1   0.1     15    153     50    131    106    174     Serine proteinase inhibitor 1 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=SPI-1 PE=3 SV=1
+sp|P42927|SPI1_CWPXB    10.2      0.15     1   0.1     22    153     57    129     96    167     Serine proteinase inhibitor 1 OS=Cowpox virus (strain Brighton Red) OX=265872 GN=SPI-1 PE=3 SV=1
+sp|P0DOT3|SPI1_VAR67    10.1      0.15     1   0.1     29    169     96    149    118    173     Serine proteinase inhibitor 1 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=SPI-1 PE=3 SV=1
+sp|P0DOT4|SPI1_VARV     10.1      0.15     1   0.1     29    169     96    149    118    173     Serine proteinase inhibitor 1 OS=Variola virus OX=10255 GN=SPI-1 PE=3 SV=1
+sp|P17498|VPHE_NPVOP     8.3      0.55     2   5.3    199    294    207    278    364    427     Polyhedral envelope protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF129 PE=3 SV=1
+sp|P17498|VPHE_NPVOP     8.0      0.67     1   1.6    124    206    129    199    365    434     Polyhedral envelope protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF129 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002225045@NC_011273.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002225045@NC_011273.txt data/models_hmm/YP_002225045@NC_011273.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:56 2021
+# [ok]

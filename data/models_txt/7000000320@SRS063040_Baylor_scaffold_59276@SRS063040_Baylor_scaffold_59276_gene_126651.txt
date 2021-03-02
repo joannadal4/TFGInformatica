@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68452|F9_VACCC      11.8      0.17   1   1.5   0.0    Protein F9 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F9L PE=3 SV=1
+sp|P68453|F9_VACCP      11.8      0.17   1   1.5   0.0    Protein F9 OS=Vaccinia virus (strain L-IVP) OX=31531 GN=F9 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68452|F9_VACCC      11.1      0.26     1   0.0     90    187    145    180     72    106     Protein F9 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F9L PE=3 SV=1
+sp|P68453|F9_VACCP      11.1      0.26     1   0.0     90    187    145    180     72    106     Protein F9 OS=Vaccinia virus (strain L-IVP) OX=31531 GN=F9 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000320@SRS063040_Baylor_scaffold_59276@SRS063040_Baylor_scaffold_59276_gene_126651.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000320@SRS063040_Baylor_scaffold_59276@SRS063040_Baylor_scaffold_59276_gene_126651.txt data/models_hmm/7000000320@SRS063040_Baylor_scaffold_59276@SRS063040_Baylor_scaffold_59276_gene_126651.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:19 2021
+# [ok]

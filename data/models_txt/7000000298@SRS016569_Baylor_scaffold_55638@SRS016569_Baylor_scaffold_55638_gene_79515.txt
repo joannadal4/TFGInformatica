@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CAD9|VF317_ASFK5    14.4     0.021   1   1.2   0.0    Uncharacterized protein F317L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-055 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CAD9|VF317_ASFK5    13.7     0.035     1   0.0     13    123     21    113     15    108     Uncharacterized protein F317L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-055 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000298@SRS016569_Baylor_scaffold_55638@SRS016569_Baylor_scaffold_55638_gene_79515.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000298@SRS016569_Baylor_scaffold_55638@SRS016569_Baylor_scaffold_55638_gene_79515.txt data/models_hmm/7000000298@SRS016569_Baylor_scaffold_55638@SRS016569_Baylor_scaffold_55638_gene_79515.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:04 2021
+# [ok]

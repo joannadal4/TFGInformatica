@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8V9T3|VF169_ASFM2    10.4      0.63   3   3.5   7.4    Transmembrane protein B169L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-084 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8V9T3|VF169_ASFM2     5.4        23     3   0.1     87    131    108    120     31     43     Transmembrane protein B169L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-084 PE=3 SV=1
+sp|Q8V9T3|VF169_ASFM2     4.2        53     1   0.6     20     44     23     40      6     23     Transmembrane protein B169L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-084 PE=3 SV=1
+sp|Q8V9T3|VF169_ASFM2     3.0   1.2e+02     2   0.2     54     76     55     73      2     20     Transmembrane protein B169L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-084 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000116@DelMOSpr2010_c10000111@DelMOSpr2010_1000011152.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000116@DelMOSpr2010_c10000111@DelMOSpr2010_1000011152.txt data/models_hmm/3300000116@DelMOSpr2010_c10000111@DelMOSpr2010_1000011152.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:42 2021
+# [ok]

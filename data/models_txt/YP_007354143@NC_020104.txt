@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UNU5|YL684_MIMIV   741.6  2.7e-223   1   1.1  46.5    Uncharacterized protein L684 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L684 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UNU5|YL684_MIMIV   741.2  3.5e-223     1  46.5     14    493     14    486      1    421     Uncharacterized protein L684 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L684 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007354143@NC_020104.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007354143@NC_020104.txt data/models_hmm/YP_007354143@NC_020104.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:44 2021
+# [ok]

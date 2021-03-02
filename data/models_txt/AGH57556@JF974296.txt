@@ -1,0 +1,41 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C8F5|TFS2_ASFK5    13.7     0.043   3   2.2   2.4    Transcription factor S-II-related protein OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-151 PE=2 SV=1
+sp|P0C8F6|TFS2_ASFM2     9.1       1.2   3   2.6   8.7    Transcription factor S-II-related protein OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-147 PE=2 SV=1
+sp|P0C8F7|TFS2_ASFP4     8.9       1.4   3   2.6   8.7    Transcription factor S-II-related protein OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-152 PE=2 SV=1
+sp|P27948|TFS2_ASFB7     8.9       1.4   3   2.6   8.7    Transcription factor S-II-related protein OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-140 PE=2 SV=1
+sp|P0C8F8|TFS2_ASFWA     8.8       1.5   3   2.6   8.9    Transcription factor S-II-related protein OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-150 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C8F5|TFS2_ASFK5    13.7     0.043     3   2.4    193    243    200    241      6     45     Transcription factor S-II-related protein OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-151 PE=2 SV=1
+sp|P0C8F6|TFS2_ASFM2    12.1      0.13     3   1.6    193    243    200    241      6     45     Transcription factor S-II-related protein OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-147 PE=2 SV=1
+sp|P0C8F7|TFS2_ASFP4    12.1      0.13     3   1.6    193    243    200    241      6     45     Transcription factor S-II-related protein OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-152 PE=2 SV=1
+sp|P0C8F8|TFS2_ASFWA    12.1      0.13     3   1.6    193    243    200    241      6     45     Transcription factor S-II-related protein OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-150 PE=2 SV=1
+sp|P27948|TFS2_ASFB7    12.1      0.13     3   1.6    193    243    200    241      6     45     Transcription factor S-II-related protein OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-140 PE=2 SV=1
+sp|P0C8F6|TFS2_ASFM2     0.5   5.9e+02     1   0.0     30     84     48     76     32     60     Transcription factor S-II-related protein OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-147 PE=2 SV=1
+sp|P0C8F7|TFS2_ASFP4     0.5   5.9e+02     1   0.0     30     84     48     76     32     60     Transcription factor S-II-related protein OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-152 PE=2 SV=1
+sp|P0C8F8|TFS2_ASFWA     0.5   5.9e+02     1   0.0     30     84     48     76     32     60     Transcription factor S-II-related protein OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-150 PE=2 SV=1
+sp|P27948|TFS2_ASFB7     0.5   5.9e+02     1   0.0     30     84     48     76     32     60     Transcription factor S-II-related protein OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-140 PE=2 SV=1
+sp|P0C8F5|TFS2_ASFK5    -1.4   2.2e+03     1   0.0     33     81     48     72     32     56     Transcription factor S-II-related protein OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-151 PE=2 SV=1
+sp|P0C8F6|TFS2_ASFM2    -1.6   2.6e+03     2   0.3    107    167    122    144     16     38     Transcription factor S-II-related protein OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-147 PE=2 SV=1
+sp|P0C8F8|TFS2_ASFWA    -1.9   3.3e+03     2   0.4    107    162    122    144     16     38     Transcription factor S-II-related protein OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-150 PE=2 SV=1
+sp|P0C8F7|TFS2_ASFP4    -2.0   3.5e+03     2   0.3    108    162    122    144     16     38     Transcription factor S-II-related protein OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-152 PE=2 SV=1
+sp|P27948|TFS2_ASFB7    -2.0   3.5e+03     2   0.3    108    162    122    144     16     38     Transcription factor S-II-related protein OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-140 PE=2 SV=1
+sp|P0C8F5|TFS2_ASFK5    -2.8   6.2e+03     2   0.2    109    157    137    142     31     36     Transcription factor S-II-related protein OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-151 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH57556@JF974296.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH57556@JF974296.txt data/models_hmm/AGH57556@JF974296.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:50 2021
+# [ok]

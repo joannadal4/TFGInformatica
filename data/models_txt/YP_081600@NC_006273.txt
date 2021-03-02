@@ -1,0 +1,53 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6SVZ0|US16_HCMVM   506.5  2.3e-152   1   1.0  18.2    Protein US16 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US16 PE=3 SV=1
+sp|P09717|US16_HCMVA   503.9  1.4e-151   1   1.0  18.6    Uncharacterized protein HVLF2 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US16 PE=3 SV=2
+sp|F5HFH0|US15_HCMVM   367.8  3.9e-110   1   1.0  25.8    Membrane protein US15 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US15 PE=3 SV=1
+sp|P09718|US15_HCMVA   366.9  7.6e-110   1   1.0  26.0    Uncharacterized protein HVLF3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US15 PE=3 SV=2
+sp|F5HGH8|US20_HCMVM    66.4   2.4e-18   1   1.0  17.2    Membrane protein US20 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US20 PE=4 SV=1
+sp|Q03307|US20_HCMVT    66.1   2.9e-18   1   1.1  16.8    Transmembrane protein HWLF3 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=US20 PE=2 SV=1
+sp|P09724|US20_HCMVA    64.6   8.6e-18   1   1.1  18.3    Transmembrane protein HWLF3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US20 PE=3 SV=4
+sp|F5H9I4|US13_HCMVM    32.9   3.7e-08   1   1.0  17.7    Membrane protein US13 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US13 PE=3 SV=1
+sp|P09720|US13_HCMVA    32.9   3.7e-08   1   1.0  17.7    Uncharacterized protein HVLF5 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US13 PE=3 SV=1
+sp|F5H9N9|US17_HCMVM    27.7   1.5e-06   1   1.0  20.5    Protein US17 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US17 PE=4 SV=1
+sp|P09716|US17_HCMVA    27.7   1.5e-06   1   1.0  20.5    Uncharacterized protein HVLF1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US17 PE=3 SV=1
+sp|F5HE69|US18_HCMVM    26.5   3.3e-06   1   1.1  15.3    Transmembrane protein US18 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US18 PE=3 SV=1
+sp|P69334|US18_HCMVA    26.5   3.3e-06   1   1.1  15.3    Transmembrane protein US18 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US18 PE=3 SV=1
+sp|P69335|US18_HCMVT    26.5   3.3e-06   1   1.1  15.3    Transmembrane protein HWLF5 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=US18 PE=3 SV=1
+sp|F5HE44|US12_HCMVM    16.8    0.0031   1   1.1  21.6    Uncharacterized protein US12 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US12 PE=3 SV=1
+sp|P09721|US12_HCMVA    16.3    0.0044   1   1.1  21.3    Uncharacterized protein HVLF6 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US12 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6SVZ0|US16_HCMVM   506.3  2.6e-152     1  18.2      1    309      1    309      1    304     Protein US16 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US16 PE=3 SV=1
+sp|P09717|US16_HCMVA   503.7  1.6e-151     1  18.6      1    309      1    309      1    304     Uncharacterized protein HVLF2 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US16 PE=3 SV=2
+sp|F5HFH0|US15_HCMVM   367.7  4.3e-110     1  25.8      1    262      7    262      5    280     Membrane protein US15 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US15 PE=3 SV=1
+sp|P09718|US15_HCMVA   366.7  8.4e-110     1  26.0      1    262      7    262      5    280     Uncharacterized protein HVLF3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US15 PE=3 SV=2
+sp|F5HGH8|US20_HCMVM    66.1   2.9e-18     1  17.2      2    241     15    225     34    264     Membrane protein US20 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US20 PE=4 SV=1
+sp|Q03307|US20_HCMVT    65.7     4e-18     1  16.8     78    332    103    313     34    264     Transmembrane protein HWLF3 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=US20 PE=2 SV=1
+sp|P09724|US20_HCMVA    64.1   1.2e-17     1  18.3     78    326    103    313     34    264     Transmembrane protein HWLF3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US20 PE=3 SV=4
+sp|F5H9I4|US13_HCMVM    32.5   4.9e-08     1  17.7      9    239     20    234     33    265     Membrane protein US13 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US13 PE=3 SV=1
+sp|P09720|US13_HCMVA    32.5   4.9e-08     1  17.7      9    239     20    234     33    265     Uncharacterized protein HVLF5 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US13 PE=3 SV=1
+sp|F5H9N9|US17_HCMVM    27.3   1.9e-06     1  20.5     24    279     34    261     39    280     Protein US17 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US17 PE=4 SV=1
+sp|P09716|US17_HCMVA    27.3   1.9e-06     1  20.5     24    279     34    261     39    280     Uncharacterized protein HVLF1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US17 PE=3 SV=1
+sp|F5HE69|US18_HCMVM    26.1   4.5e-06     1  15.3     20    269     33    258     35    275     Transmembrane protein US18 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US18 PE=3 SV=1
+sp|P69334|US18_HCMVA    26.1   4.5e-06     1  15.3     20    269     33    258     35    275     Transmembrane protein US18 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US18 PE=3 SV=1
+sp|P69335|US18_HCMVT    26.1   4.5e-06     1  15.3     20    269     33    258     35    275     Transmembrane protein HWLF5 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=US18 PE=3 SV=1
+sp|F5HE44|US12_HCMVM    16.3    0.0044     1  21.6     34    260     43    255     36    262     Uncharacterized protein US12 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US12 PE=3 SV=1
+sp|P09721|US12_HCMVA    15.8    0.0062     1  21.3     34    260     43    255     36    262     Uncharacterized protein HVLF6 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US12 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_081600@NC_006273.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_081600@NC_006273.txt data/models_hmm/YP_081600@NC_006273.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:05 2021
+# [ok]

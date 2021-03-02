@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P28055|C_PI1HC       14.9     0.024   2   2.2   0.1    Protein C OS=Human parainfluenza 1 virus (strain C39) OX=11210 GN=P/V/C PE=2 SV=1
+sp|P32535|C_PI1HE       12.4      0.14   2   2.1   0.1    Protein C OS=Human parainfluenza 1 virus (strain CI-14/83) OX=31606 GN=P/V/C PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P28055|C_PI1HC        9.7         1     1   0.0     60    119     80    108     32     60     Protein C OS=Human parainfluenza 1 virus (strain C39) OX=11210 GN=P/V/C PE=2 SV=1
+sp|P32535|C_PI1HE        7.3       5.6     1   0.0     54    119     80    108     32     60     Protein C OS=Human parainfluenza 1 virus (strain CI-14/83) OX=31606 GN=P/V/C PE=3 SV=1
+sp|P32535|C_PI1HE        3.1   1.1e+02     2   0.0    144    199    154    190     50     83     Protein C OS=Human parainfluenza 1 virus (strain CI-14/83) OX=31606 GN=P/V/C PE=3 SV=1
+sp|P28055|C_PI1HC        3.1   1.1e+02     2   0.0    145    199    154    190     50     83     Protein C OS=Human parainfluenza 1 virus (strain C39) OX=11210 GN=P/V/C PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008125842@NC_021531.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008125842@NC_021531.txt data/models_hmm/YP_008125842@NC_021531.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:22 2021
+# [ok]

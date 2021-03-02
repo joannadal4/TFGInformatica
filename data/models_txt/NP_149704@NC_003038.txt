@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FT1|241L_IIV6    233.1   1.9e-69   1   1.0  24.5    Cysteine-rich uncharacterized protein 241L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-241L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FT1|241L_IIV6    232.8   2.3e-69     1  24.5      1    169      1    166      1    155     Cysteine-rich uncharacterized protein 241L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-241L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_149704@NC_003038.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_149704@NC_003038.txt data/models_hmm/NP_149704@NC_003038.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:55 2021
+# [ok]

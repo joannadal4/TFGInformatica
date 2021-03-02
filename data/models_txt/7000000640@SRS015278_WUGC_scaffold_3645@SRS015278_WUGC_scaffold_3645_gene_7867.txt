@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13328|Y03F_BPT4     11.8      0.12   1   1.0   0.1    Uncharacterized 7.3 kDa protein in mobB-Gp55 intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y03F PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13328|Y03F_BPT4     11.8      0.12     1   0.1      2     60     12     54     40     81     Uncharacterized 7.3 kDa protein in mobB-Gp55 intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y03F PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000640@SRS015278_WUGC_scaffold_3645@SRS015278_WUGC_scaffold_3645_gene_7867.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000640@SRS015278_WUGC_scaffold_3645@SRS015278_WUGC_scaffold_3645_gene_7867.txt data/models_hmm/7000000640@SRS015278_WUGC_scaffold_3645@SRS015278_WUGC_scaffold_3645_gene_7867.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:42 2021
+# [ok]

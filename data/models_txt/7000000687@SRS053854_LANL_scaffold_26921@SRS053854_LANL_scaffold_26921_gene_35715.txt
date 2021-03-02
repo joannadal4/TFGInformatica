@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C647|REP_PASVK     14.5     0.039   1   1.4   0.1    Replication-associated protein OS=Panicum streak virus (isolate Kenya) OX=268780 GN=C1/C2 PE=3 SV=1
+sp|P14989|REP_MSVS      13.0      0.11   1   1.4   0.1    Replication-associated protein OS=Maize streak virus genotype A (isolate South Africa) OX=10824 GN=C1/C2 PE=3 SV=2
+sp|P14988|REP_MSVK      13.0      0.12   1   1.4   0.1    Replication-associated protein OS=Maize streak virus genotype A (isolate Kenya) OX=10822 GN=C1/C2 PE=3 SV=2
+sp|P14978|REP_MSVN      13.0      0.12   1   1.4   0.1    Replication-associated protein OS=Maize streak virus genotype A (isolate Nigeria) OX=10823 GN=C1/C2 PE=3 SV=2
+sp|Q80GM6|REP_SSVN      12.4      0.18   1   1.4   0.0    Replication-associated protein OS=Sugarcane streak virus (isolate South Africa) OX=268781 GN=C1/C2 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C647|REP_PASVK     13.6     0.074     1   0.1    285    309    288    306     51     69     Replication-associated protein OS=Panicum streak virus (isolate Kenya) OX=268780 GN=C1/C2 PE=3 SV=1
+sp|P14989|REP_MSVS      12.1      0.22     1   0.1    279    304    282    301     51     70     Replication-associated protein OS=Maize streak virus genotype A (isolate South Africa) OX=10824 GN=C1/C2 PE=3 SV=2
+sp|P14978|REP_MSVN      12.1      0.22     1   0.1    279    304    282    301     51     70     Replication-associated protein OS=Maize streak virus genotype A (isolate Nigeria) OX=10823 GN=C1/C2 PE=3 SV=2
+sp|P14988|REP_MSVK      12.1      0.22     1   0.1    279    304    282    301     51     70     Replication-associated protein OS=Maize streak virus genotype A (isolate Kenya) OX=10822 GN=C1/C2 PE=3 SV=2
+sp|Q80GM6|REP_SSVN      11.4      0.36     1   0.0    284    308    287    305     51     69     Replication-associated protein OS=Sugarcane streak virus (isolate South Africa) OX=268781 GN=C1/C2 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000687@SRS053854_LANL_scaffold_26921@SRS053854_LANL_scaffold_26921_gene_35715.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000687@SRS053854_LANL_scaffold_26921@SRS053854_LANL_scaffold_26921_gene_35715.txt data/models_hmm/7000000687@SRS053854_LANL_scaffold_26921@SRS053854_LANL_scaffold_26921_gene_35715.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:58 2021
+# [ok]

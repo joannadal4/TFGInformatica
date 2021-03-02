@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P51734|TAIL1_BPHC1   316.0   7.3e-95   1   1.0   1.4    Putative tail protein gp30 OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 GN=30 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P51734|TAIL1_BPHC1   315.9   8.1e-95     1   1.4      1    174      2    173     10    181     Putative tail protein gp30 OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 GN=30 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_536837@NC_003315.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_536837@NC_003315.txt data/models_hmm/NP_536837@NC_003315.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:04 2021
+# [ok]

@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A4ZUA8|Y061B_ABVP    127.8   1.1e-37   1   1.0   3.2    Uncharacterized protein ORF61b OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF61b PE=4 SV=1
+sp|A4ZUA9|Y061A_ABVP    123.1   3.2e-36   1   1.0   6.3    Uncharacterized protein ORF61a OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF61a PE=4 SV=1
+sp|Q5UPZ2|YR301_MIMIV    15.6     0.012   2   2.2   0.7    Putative serine/threonine-protein kinase R301 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R301 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A4ZUA8|Y061B_ABVP    127.7   1.2e-37     1   3.2      1     61      1     61      1     61     Uncharacterized protein ORF61b OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF61b PE=4 SV=1
+sp|A4ZUA9|Y061A_ABVP    123.0   3.4e-36     1   6.3      1     61      1     61      1     61     Uncharacterized protein ORF61a OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF61a PE=4 SV=1
+sp|Q5UPZ2|YR301_MIMIV    13.9     0.039     2   0.1    181    212    186    205     11     30     Putative serine/threonine-protein kinase R301 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R301 PE=1 SV=1
+sp|Q5UPZ2|YR301_MIMIV    -4.1   1.7e+04     1   0.1    153    167    154    162     40     48     Putative serine/threonine-protein kinase R301 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R301 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001210327@NC_009452.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001210327@NC_009452.txt data/models_hmm/YP_001210327@NC_009452.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:05 2021
+# [ok]

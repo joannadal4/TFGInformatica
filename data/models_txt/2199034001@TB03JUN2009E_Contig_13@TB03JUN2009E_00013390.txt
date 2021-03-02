@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09287|CVC2_VZVD     12.0      0.16   1   1.8   0.0    Capsid vertex component 2 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=CVC2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09287|CVC2_VZVD     10.4      0.49     1   0.0    304    350    313    349     39     75     Capsid vertex component 2 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=CVC2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2199034001@TB03JUN2009E_Contig_13@TB03JUN2009E_00013390.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2199034001@TB03JUN2009E_Contig_13@TB03JUN2009E_00013390.txt data/models_hmm/2199034001@TB03JUN2009E_Contig_13@TB03JUN2009E_00013390.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:07 2021
+# [ok]

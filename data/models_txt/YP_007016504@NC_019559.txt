@@ -1,0 +1,40 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P17151|EP84_HCMVA    28.8   5.5e-07   4   5.3  28.7    Early phosphoprotein p84 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL112/UL113 PE=1 SV=2
+sp|Q6SW37|EP84_HCMVM    25.4   5.8e-06   4   5.3  31.4    Early phosphoprotein p84 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL112/UL113 PE=3 SV=1
+sp|P52529|U79_HHV6U     20.4   0.00019   2   2.3  12.4    Protein U79/U80 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U79/U80 PE=3 SV=2
+sp|P52530|U79_HHV6Z     18.0     0.001   2   2.2   3.2    Protein U79 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U79 PE=3 SV=2
+sp|Q96896|U79_HHV6H     18.0     0.001   2   2.2   3.2    Protein U79/U80 OS=Human herpesvirus 6B OX=32604 GN=U79/U80 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P17151|EP84_HCMVA    28.8   5.5e-07     4  28.7    409    681    419    671    177    380     Early phosphoprotein p84 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL112/UL113 PE=1 SV=2
+sp|Q6SW37|EP84_HCMVM    25.4   5.8e-06     4  31.4    355    681    419    671    177    380     Early phosphoprotein p84 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL112/UL113 PE=3 SV=1
+sp|P52530|U79_HHV6Z     18.0     0.001     2   3.2    340    474    367    440    285    365     Protein U79 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U79 PE=3 SV=2
+sp|Q96896|U79_HHV6H     18.0     0.001     2   3.2    340    474    367    440    285    365     Protein U79/U80 OS=Human herpesvirus 6B OX=32604 GN=U79/U80 PE=3 SV=2
+sp|P52529|U79_HHV6U     17.9    0.0011     2   3.8    334    466    359    432    279    362     Protein U79/U80 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U79/U80 PE=3 SV=2
+sp|P52529|U79_HHV6U      7.5       1.6     1   1.4    163    287    199    267     13     73     Protein U79/U80 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U79/U80 PE=3 SV=2
+sp|P52530|U79_HHV6Z      3.0        37     1   1.6    187    288    213    267     15     72     Protein U79 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U79 PE=3 SV=2
+sp|Q96896|U79_HHV6H      2.8        43     1   1.5    191    288    213    267     15     72     Protein U79/U80 OS=Human herpesvirus 6B OX=32604 GN=U79/U80 PE=3 SV=2
+sp|P17151|EP84_HCMVA    -7.8   1.7e+04     1  19.2    140    247    151    226    116    190     Early phosphoprotein p84 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL112/UL113 PE=1 SV=2
+sp|P17151|EP84_HCMVA    -7.4   1.7e+04     2   8.1    249    307    268    295    148    175     Early phosphoprotein p84 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL112/UL113 PE=1 SV=2
+sp|P17151|EP84_HCMVA   -15.7   1.7e+04     3  21.9    265    350    308    343    127    162     Early phosphoprotein p84 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL112/UL113 PE=1 SV=2
+sp|Q6SW37|EP84_HCMVM    -7.8   1.7e+04     1  19.0    139    251    161    224    128    188     Early phosphoprotein p84 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL112/UL113 PE=3 SV=1
+sp|Q6SW37|EP84_HCMVM    -7.7   1.7e+04     2   8.0    251    299    268    294    148    174     Early phosphoprotein p84 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL112/UL113 PE=3 SV=1
+sp|Q6SW37|EP84_HCMVM   -15.7   1.7e+04     3  21.9    265    349    308    343    127    162     Early phosphoprotein p84 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL112/UL113 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007016504@NC_019559.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007016504@NC_019559.txt data/models_hmm/YP_007016504@NC_019559.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:29 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9YML3|BROJ_NPVLD     8.1       2.2   3   2.9  14.3    Uncharacterized Bro-N domain-containing protein J OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9YML3|BROJ_NPVLD     8.3       1.9     3   0.3    254    323    258    296     67    105     Uncharacterized Bro-N domain-containing protein J OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=1
+sp|Q9YML3|BROJ_NPVLD     7.6       3.2     2   6.3    192    269    221    268     63    110     Uncharacterized Bro-N domain-containing protein J OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=1
+sp|Q9YML3|BROJ_NPVLD    -0.3   8.5e+02     1   0.2    149    208    173    199     87    113     Uncharacterized Bro-N domain-containing protein J OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002300407@NC_011421.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002300407@NC_011421.txt data/models_hmm/YP_002300407@NC_011421.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:02 2021
+# [ok]

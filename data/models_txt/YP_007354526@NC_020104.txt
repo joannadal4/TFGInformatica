@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ87|YR522_MIMIV    68.1   7.5e-19   1   1.2  31.5    Uncharacterized protein R522 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R522 PE=4 SV=1
+sp|Q91FX3|VF197_IIV6     11.7      0.13   2   2.2   3.8    Putative tyrosine phosphatase 197R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-197R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ87|YR522_MIMIV    67.8   9.5e-19     1  31.5      1    258      2    234      6    232     Uncharacterized protein R522 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R522 PE=4 SV=1
+sp|Q91FX3|VF197_IIV6      8.0       1.7     2   0.3    148    229    156    209    128    180     Putative tyrosine phosphatase 197R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-197R PE=3 SV=1
+sp|Q91FX3|VF197_IIV6      4.7        17     1   0.3     32    111     51     93    109    154     Putative tyrosine phosphatase 197R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-197R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007354526@NC_020104.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007354526@NC_020104.txt data/models_hmm/YP_007354526@NC_020104.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:49 2021
+# [ok]

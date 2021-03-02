@@ -1,0 +1,43 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q196T6|124R_IIV3     14.9     0.016   1   1.6   0.7    Uncharacterized protein 124R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-124R PE=4 SV=1
+sp|P20988|A11_VACCC     13.9     0.032   3   2.3   0.0    Protein A11 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A11R PE=2 SV=1
+sp|Q76RB8|A11_VACCA     13.9     0.032   3   2.3   0.0    Protein A11 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA122R PE=2 SV=1
+sp|Q80HV8|A11_VACCW     13.9     0.032   3   2.3   2.5    Protein A11 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR130 PE=1 SV=1
+sp|P0DOQ7|A11_VAR67     11.2      0.22   3   2.4   2.3    Protein A11 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A11R PE=2 SV=1
+sp|P0DOQ8|A11_VARV      11.2      0.22   3   2.4   2.3    Protein A11 OS=Variola virus OX=10255 GN=A11R PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20988|A11_VACCC     13.9     0.032     3   0.0    137    172    147    167     14     34     Protein A11 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A11R PE=2 SV=1
+sp|Q76RB8|A11_VACCA     13.9     0.032     3   0.0    137    172    147    167     14     34     Protein A11 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA122R PE=2 SV=1
+sp|Q80HV8|A11_VACCW     13.9     0.033     3   0.0    139    172    147    167     14     34     Protein A11 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR130 PE=1 SV=1
+sp|Q196T6|124R_IIV3     13.7     0.038     1   0.7     21     68     35     66     16     47     Uncharacterized protein 124R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-124R PE=4 SV=1
+sp|P0DOQ7|A11_VAR67     10.9      0.28     3   0.0    140    173    148    167     14     33     Protein A11 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A11R PE=2 SV=1
+sp|P0DOQ8|A11_VARV      10.9      0.28     3   0.0    140    173    148    167     14     33     Protein A11 OS=Variola virus OX=10255 GN=A11R PE=2 SV=1
+sp|P20988|A11_VACCC     -3.4   8.3e+03     2   0.5    101    113    107    111     30     34     Protein A11 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A11R PE=2 SV=1
+sp|Q76RB8|A11_VACCA     -3.4   8.3e+03     2   0.5    101    113    107    111     30     34     Protein A11 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA122R PE=2 SV=1
+sp|Q80HV8|A11_VACCW     -3.4   8.3e+03     2   0.5    101    113    107    111     30     34     Protein A11 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR130 PE=1 SV=1
+sp|P0DOQ7|A11_VAR67     -3.4   8.3e+03     2   0.5    102    114    108    112     30     34     Protein A11 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A11R PE=2 SV=1
+sp|P0DOQ8|A11_VARV      -3.4   8.3e+03     2   0.5    102    114    108    112     30     34     Protein A11 OS=Variola virus OX=10255 GN=A11R PE=2 SV=1
+sp|P20988|A11_VACCC     -3.9   1.2e+04     1   0.0     42     51     44     51     48     55     Protein A11 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A11R PE=2 SV=1
+sp|Q76RB8|A11_VACCA     -3.9   1.2e+04     1   0.0     42     51     44     51     48     55     Protein A11 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA122R PE=2 SV=1
+sp|Q80HV8|A11_VACCW     -3.9   1.2e+04     1   0.0     42     51     44     51     48     55     Protein A11 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR130 PE=1 SV=1
+sp|P0DOQ7|A11_VAR67     -3.9   1.2e+04     1   0.0     42     51     44     51     48     55     Protein A11 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A11R PE=2 SV=1
+sp|P0DOQ8|A11_VARV      -3.9   1.2e+04     1   0.0     42     51     44     51     48     55     Protein A11 OS=Variola virus OX=10255 GN=A11R PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007010486@NC_019539.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007010486@NC_019539.txt data/models_hmm/YP_007010486@NC_019539.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:26 2021
+# [ok]

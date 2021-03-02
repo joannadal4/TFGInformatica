@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64267|VG86_BPMD2    20.6   0.00022   1   1.1   0.6    Gene 86 protein OS=Mycobacterium phage D29 OX=28369 GN=86 PE=4 SV=1
+sp|P11331|VE6_PAPVE      8.2       1.4   1   1.8  18.8    Protein E6 OS=European elk papillomavirus OX=10565 GN=E6 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64267|VG86_BPMD2    20.5   0.00025     1   0.6     11     66     15     56      5     46     Gene 86 protein OS=Mycobacterium phage D29 OX=28369 GN=86 PE=4 SV=1
+sp|P11331|VE6_PAPVE      6.7         4     1  18.8      1    122      2     90     42    106     Protein E6 OS=European elk papillomavirus OX=10565 GN=E6 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001041@C687J13239_1000060@C687J13239_100006068.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001041@C687J13239_1000060@C687J13239_100006068.txt data/models_hmm/3300001041@C687J13239_1000060@C687J13239_100006068.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:21 2021
+# [ok]

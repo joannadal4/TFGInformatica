@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q85280|RP22_FOWPN    15.2     0.016   1   1.7   0.1    DNA-directed RNA polymerase 22 kDa subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO22 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q85280|RP22_FOWPN    13.9     0.042     1   0.1    116    180    120    156      9     46     DNA-directed RNA polymerase 22 kDa subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO22 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001974331@NC_010945.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001974331@NC_010945.txt data/models_hmm/YP_001974331@NC_010945.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:44 2021
+# [ok]

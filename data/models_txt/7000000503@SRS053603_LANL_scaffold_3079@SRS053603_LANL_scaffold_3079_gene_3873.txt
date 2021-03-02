@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41360|FUS_RINDB     12.3     0.084   1   1.7   0.1    Fusion glycoprotein F0 OS=Rinderpest virus (strain RBT1) OX=39007 GN=F PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41360|FUS_RINDB     10.8      0.24     1   0.1    447    531    454    500     52     98     Fusion glycoprotein F0 OS=Rinderpest virus (strain RBT1) OX=39007 GN=F PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000503@SRS053603_LANL_scaffold_3079@SRS053603_LANL_scaffold_3079_gene_3873.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000503@SRS053603_LANL_scaffold_3079@SRS053603_LANL_scaffold_3079_gene_3873.txt data/models_hmm/7000000503@SRS053603_LANL_scaffold_3079@SRS053603_LANL_scaffold_3079_gene_3873.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:46 2021
+# [ok]

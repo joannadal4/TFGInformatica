@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52463|UL32_HHV6U    10.4      0.56   4   3.9   0.0    Packaging protein UL32 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U36 PE=3 SV=1
+sp|Q9QJ33|UL32_HHV6Z    10.3      0.58   4   3.8   0.0    Packaging protein UL32 homolog OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U36 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52463|UL32_HHV6U    10.4      0.56     3   0.0    359    416    371    400     24     53     Packaging protein UL32 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U36 PE=3 SV=1
+sp|Q9QJ33|UL32_HHV6Z    10.3      0.58     3   0.0    352    403    371    400     24     53     Packaging protein UL32 homolog OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U36 PE=3 SV=1
+sp|P52463|UL32_HHV6U     0.5   6.6e+02     4   0.1    403    465    419    455     25     61     Packaging protein UL32 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U36 PE=3 SV=1
+sp|Q9QJ33|UL32_HHV6Z     0.3   7.8e+02     4   0.1    401    466    419    455     25     59     Packaging protein UL32 homolog OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U36 PE=3 SV=1
+sp|Q9QJ33|UL32_HHV6Z    -1.3   2.5e+03     1   0.1     64     93     75     88     37     48     Packaging protein UL32 homolog OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U36 PE=3 SV=1
+sp|P52463|UL32_HHV6U    -1.3   2.5e+03     1   0.1     65     93     75     88     37     48     Packaging protein UL32 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U36 PE=3 SV=1
+sp|P52463|UL32_HHV6U    -1.5   2.8e+03     2   0.4    275    324    280    321     10     51     Packaging protein UL32 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U36 PE=3 SV=1
+sp|Q9QJ33|UL32_HHV6Z    -1.5   2.8e+03     2   0.4    275    324    280    321     10     51     Packaging protein UL32 homolog OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U36 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003987224@NC_014649.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003987224@NC_014649.txt data/models_hmm/YP_003987224@NC_014649.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:58 2021
+# [ok]

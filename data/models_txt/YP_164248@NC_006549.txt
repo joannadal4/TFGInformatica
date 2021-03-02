@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q67475|055R_FRG3G   809.1  4.4e-244   1   1.0  41.0    Uncharacterized protein 055R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-055R PE=4 SV=1
+sp|Q69561|TRM2_HHV6U    12.0     0.062   1   1.0   0.1    Tripartite terminase subunit 2 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=TRM2 PE=3 SV=1
+sp|Q9QJ34|TRM2_HHV6Z    10.9      0.14   1   1.0   0.1    Tripartite terminase subunit 2 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=TRM2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q67475|055R_FRG3G   808.9  4.9e-244     1  41.0      1    379      1    379      1    379     Uncharacterized protein 055R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-055R PE=4 SV=1
+sp|Q69561|TRM2_HHV6U    11.8     0.074     1   0.1      9     89     14     78    100    166     Tripartite terminase subunit 2 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=TRM2 PE=3 SV=1
+sp|Q9QJ34|TRM2_HHV6Z    10.7      0.16     1   0.1      9     89     14     78    100    166     Tripartite terminase subunit 2 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=TRM2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_164248@NC_006549.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_164248@NC_006549.txt data/models_hmm/YP_164248@NC_006549.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:07 2021
+# [ok]

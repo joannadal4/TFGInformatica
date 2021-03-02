@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P35774|SPIKE_ADE1P    17.3    0.0031   1   1.2   0.0    Fiber protein OS=Human adenovirus B serotype 11 (strain Slobiski) OX=343462 GN=L5 PE=1 SV=1
+sp|P35773|SPIKE_ADE1A    13.1      0.06   1   1.2   0.0    Fiber protein OS=Human adenovirus B serotype 11 (strain BC34) OX=343463 GN=L5 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P35774|SPIKE_ADE1P    16.8    0.0044     1   0.0     70    199    104    181     32    111     Fiber protein OS=Human adenovirus B serotype 11 (strain Slobiski) OX=343462 GN=L5 PE=1 SV=1
+sp|P35773|SPIKE_ADE1A    12.6     0.088     1   0.0     80    198    105    180     33    110     Fiber protein OS=Human adenovirus B serotype 11 (strain BC34) OX=343463 GN=L5 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007517827@NC_020483.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007517827@NC_020483.txt data/models_hmm/YP_007517827@NC_020483.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:01 2021
+# [ok]

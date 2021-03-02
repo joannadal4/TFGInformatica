@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPG8|YL090_MIMIV    12.5      0.11   2   1.9   2.4    Uncharacterized protein L90 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L90 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPG8|YL090_MIMIV    11.7      0.19     2   0.7     47    120     63    119     18     72     Uncharacterized protein L90 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L90 PE=4 SV=1
+sp|Q5UPG8|YL090_MIMIV     0.9   4.1e+02     1   0.1     11     58     33     47     59     74     Uncharacterized protein L90 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L90 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000584@SRS049318_LANL_scaffold_184883@SRS049318_LANL_scaffold_184883_gene_272943.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000584@SRS049318_LANL_scaffold_184883@SRS049318_LANL_scaffold_184883_gene_272943.txt data/models_hmm/7000000584@SRS049318_LANL_scaffold_184883@SRS049318_LANL_scaffold_184883_gene_272943.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:26 2021
+# [ok]

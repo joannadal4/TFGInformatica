@@ -1,0 +1,46 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HBC6|PP71_HCMVM   824.6    3e-248   1   1.0   0.0    Protein pp71 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL82 PE=3 SV=1
+sp|P06726|PP71_HCMVA   821.6  2.3e-247   1   1.0   0.0    Protein pp71 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL82 PE=1 SV=2
+sp|Q6SW59|PP65_HCMVM   149.4   1.1e-43   1   1.1   0.0    65 kDa phosphoprotein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL83 PE=1 SV=1
+sp|P06725|PP65_HCMVA   149.0   1.5e-43   1   1.1   0.0    65 kDa phosphoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL83 PE=1 SV=2
+sp|P18139|PP65_HCMVT   148.2   2.6e-43   1   1.1   0.0    65 kDa phosphoprotein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL83 PE=1 SV=2
+sp|P24434|VU54_HHV6U    56.3   1.8e-15   1   1.8   0.3    Protein U54 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U54 PE=3 SV=1
+sp|Q9QJ29|VU54_HHV6Z    54.0   8.7e-15   1   1.6   0.1    Protein U54 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U54 PE=3 SV=1
+sp|P52516|VU54_HHV7J    36.0   2.5e-09   1   1.2   0.3    Protein U54 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U54 PE=3 SV=1
+sp|P29839|UL84_HCMVT    13.5     0.016   2   2.0   0.0    UL84 protein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL84 PE=2 SV=1
+sp|P16727|UL84_HCMVA    13.4     0.017   2   1.8   0.0    Protein UL84 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL84 PE=1 SV=1
+sp|F5HB40|UL84_HCMVM    13.4     0.017   2   1.9   0.0    Protein UL84 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL84 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HBC6|PP71_HCMVM   824.5  3.3e-248     1   0.0      1    559     13    559      4    547     Protein pp71 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL82 PE=3 SV=1
+sp|P06726|PP71_HCMVA   821.5  2.6e-247     1   0.0      1    559     13    559      4    547     Protein pp71 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL82 PE=1 SV=2
+sp|Q6SW59|PP65_HCMVM   149.0   1.5e-43     1   0.0      2    548      9    538     14    529     65 kDa phosphoprotein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL83 PE=1 SV=1
+sp|P06725|PP65_HCMVA   148.6     2e-43     1   0.0      2    548      9    538     14    529     65 kDa phosphoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL83 PE=1 SV=2
+sp|P18139|PP65_HCMVT   147.7   3.5e-43     1   0.0      2    538      8    528     23    529     65 kDa phosphoprotein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL83 PE=1 SV=2
+sp|P24434|VU54_HHV6U    54.3     7e-15     1   0.3      4    357     15    337     30    365     Protein U54 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U54 PE=3 SV=1
+sp|Q9QJ29|VU54_HHV6Z    52.6   2.4e-14     1   0.1      5    346     68    337     96    365     Protein U54 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U54 PE=3 SV=1
+sp|P52516|VU54_HHV7J    35.5   3.5e-09     1   0.3     23    352     69    337     97    365     Protein U54 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U54 PE=3 SV=1
+sp|P29839|UL84_HCMVT    13.5     0.016     2   0.0    366    534    420    502    274    360     UL84 protein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL84 PE=2 SV=1
+sp|P16727|UL84_HCMVA    13.4     0.017     2   0.0    365    533    419    501    274    360     Protein UL84 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL84 PE=1 SV=1
+sp|F5HB40|UL84_HCMVM    13.4     0.017     2   0.0    366    534    420    502    274    360     Protein UL84 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL84 PE=3 SV=1
+sp|P29839|UL84_HCMVT    -3.1   1.8e+03     1   2.7    142    189    163    180    400    418     UL84 protein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL84 PE=2 SV=1
+sp|P16727|UL84_HCMVA    -3.7   2.6e+03     1   2.2    137    190    164    179    403    418     Protein UL84 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL84 PE=1 SV=1
+sp|F5HB40|UL84_HCMVM    -4.1   3.6e+03     1   3.2    142    188    165    179    403    417     Protein UL84 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL84 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004940245@NC_016448.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004940245@NC_016448.txt data/models_hmm/YP_004940245@NC_016448.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:54 2021
+# [ok]

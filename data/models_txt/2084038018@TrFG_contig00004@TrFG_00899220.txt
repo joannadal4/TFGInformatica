@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03037|RANT_BPP22     64.0   1.4e-17   1   2.0   0.1    Antirepressor protein ant OS=Salmonella phage P22 OX=10754 GN=ant PE=1 SV=1
+sp|Q70LE3|Y059B_AFV1Y    13.6     0.031   1   1.0   0.2    Uncharacterized protein ORF59b OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF59b PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03037|RANT_BPP22     61.2   9.9e-17     1   0.1     11    160     29    133     28    152     Antirepressor protein ant OS=Salmonella phage P22 OX=10754 GN=ant PE=1 SV=1
+sp|Q70LE3|Y059B_AFV1Y    13.6     0.033     1   0.2      2     56     10     50    168    209     Uncharacterized protein ORF59b OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF59b PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2084038018@TrFG_contig00004@TrFG_00899220.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2084038018@TrFG_contig00004@TrFG_00899220.txt data/models_hmm/2084038018@TrFG_contig00004@TrFG_00899220.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:57 2021
+# [ok]

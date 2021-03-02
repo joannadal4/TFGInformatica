@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q573E3|Y100A_AFV2P    13.7     0.054   2   2.1   0.8    Uncharacterized protein ORF100a OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF100a PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q573E3|Y100A_AFV2P     9.2       1.4     2   0.1     60     98     62     94      2     36     Uncharacterized protein ORF100a OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF100a PE=4 SV=1
+sp|Q573E3|Y100A_AFV2P     6.9       7.1     1   0.1     19     67     29     65     16     49     Uncharacterized protein ORF100a OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF100a PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001347@JGI20156J14371_10000186@JGI20156J14371_1000018637.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001347@JGI20156J14371_10000186@JGI20156J14371_1000018637.txt data/models_hmm/3300001347@JGI20156J14371_10000186@JGI20156J14371_1000018637.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:51 2021
+# [ok]

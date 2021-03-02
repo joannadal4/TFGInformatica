@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21101|VC17_VACCC    13.1     0.077   2   2.3   0.0    Ankyrin repeat protein C17/B23 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B23R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21101|VC17_VACCC     7.3       4.9     2   0.0    353    383    364    379     90    105     Ankyrin repeat protein C17/B23 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B23R PE=4 SV=1
+sp|P21101|VC17_VACCC     3.4        82     1   0.0    209    252    225    249     87    111     Ankyrin repeat protein C17/B23 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B23R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2029527005@ACOFG987_contig49236@ACOFGT_1386040.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2029527005@ACOFG987_contig49236@ACOFGT_1386040.txt data/models_hmm/2029527005@ACOFG987_contig49236@ACOFGT_1386040.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:19 2021
+# [ok]

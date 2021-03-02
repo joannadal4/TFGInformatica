@@ -1,0 +1,47 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09263|TEG5_VZVD    1798.6         0   1   1.0   1.3    Tegument protein UL47 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF11 PE=1 SV=1
+sp|Q4JQW4|TEG5_VZVO    1737.6         0   1   1.0   0.7    Tegument protein UL47 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF11 PE=3 SV=1
+sp|Q6S6Q8|TEG5_EHV1V    171.6     2e-50   2   2.6   0.5    Tegument protein UL47 homolog OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=13 PE=3 SV=1
+sp|P28929|TEG5_EHV1B    171.4   2.3e-50   2   2.6   0.5    Tegument protein UL47 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=13 PE=3 SV=1
+sp|P36338|TEG5_BHV1C    161.7   1.9e-47   1   1.1   1.7    Tegument protein UL47 OS=Bovine herpesvirus 1.1 (strain Cooper) OX=10323 GN=UL47 PE=1 SV=1
+sp|P25073|TEG5_EHV4     161.3   2.5e-47   2   2.1   0.1    Tegument protein UL47 homolog OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=13 PE=3 SV=1
+sp|P30021|TEG5_BHV1P    124.5   3.3e-36   1   1.2   0.9    Tegument protein UL47 OS=Bovine herpesvirus 1.1 (strain P8-2) OX=10324 GN=UL47 PE=1 SV=1
+sp|Q9E6M8|TEG5_GAHVM     99.7   1.1e-28   1   1.2   1.1    Tegument protein UL47 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV060 PE=3 SV=1
+sp|P10231|TEG5_HHV11     60.3   8.3e-17   1   1.1   2.0    Tegument protein UL47 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL47 PE=1 SV=1
+sp|P08313|TEG5_HHV1F     57.1   7.8e-16   1   1.1   1.9    Tegument protein UL47 OS=Human herpesvirus 1 (strain F) OX=10304 GN=UL47 PE=3 SV=2
+sp|P89467|TEG5_HHV2H     56.1   1.6e-15   1   1.1   1.7    Tegument protein UL47 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL47 PE=3 SV=1
+sp|Q6UDF9|TEG5_PSHV1     10.7     0.086   1   1.3   0.2    Tegument protein UL47 homolog OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=sORF1 PE=3 SV=1
+sp|Q5UQ57|UBC2_MIMIV      9.1      0.25   1   1.2  15.4    Probable ubiquitin-conjugating enzyme E2 L709 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L709 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09263|TEG5_VZVD    1798.4         0     1   1.3      1    819      1    819      1    819     Tegument protein UL47 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF11 PE=1 SV=1
+sp|Q4JQW4|TEG5_VZVO    1737.4         0     1   0.7      1    804      1    804      1    819     Tegument protein UL47 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF11 PE=3 SV=1
+sp|Q6S6Q8|TEG5_EHV1V    171.6     2e-50     1   0.5    329    853    361    845    336    807     Tegument protein UL47 homolog OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=13 PE=3 SV=1
+sp|P28929|TEG5_EHV1B    171.4   2.3e-50     1   0.5    336    853    361    845    336    807     Tegument protein UL47 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=13 PE=3 SV=1
+sp|P25073|TEG5_EHV4     161.3   2.5e-47     1   0.1    328    847    356    840    338    809     Tegument protein UL47 homolog OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=13 PE=3 SV=1
+sp|P36338|TEG5_BHV1C    161.1   2.8e-47     1   1.7    395    729    400    678    475    755     Tegument protein UL47 OS=Bovine herpesvirus 1.1 (strain Cooper) OX=10323 GN=UL47 PE=1 SV=1
+sp|P30021|TEG5_BHV1P    123.9   5.1e-36     1   0.9    411    732    419    681    493    755     Tegument protein UL47 OS=Bovine herpesvirus 1.1 (strain P8-2) OX=10324 GN=UL47 PE=1 SV=1
+sp|Q9E6M8|TEG5_GAHVM     99.2   1.5e-28     1   1.1    242    750    323    736    338    749     Tegument protein UL47 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV060 PE=3 SV=1
+sp|P10231|TEG5_HHV11     59.9   1.1e-16     1   2.0    272    623    282    616    435    753     Tegument protein UL47 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL47 PE=1 SV=1
+sp|P08313|TEG5_HHV1F     56.7   1.1e-15     1   1.9    272    623    282    616    435    753     Tegument protein UL47 OS=Human herpesvirus 1 (strain F) OX=10304 GN=UL47 PE=3 SV=2
+sp|P89467|TEG5_HHV2H     55.6   2.2e-15     1   1.7    255    626    284    619    434    753     Tegument protein UL47 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL47 PE=3 SV=1
+sp|Q6UDF9|TEG5_PSHV1      9.9      0.15     1   0.2    257    550    272    369    492    584     Tegument protein UL47 homolog OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=sORF1 PE=3 SV=1
+sp|Q5UQ57|UBC2_MIMIV      8.9      0.29     1  15.4    133    375    218    298    105    202     Probable ubiquitin-conjugating enzyme E2 L709 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L709 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_077426@NC_002686.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_077426@NC_002686.txt data/models_hmm/NP_077426@NC_002686.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:50 2021
+# [ok]

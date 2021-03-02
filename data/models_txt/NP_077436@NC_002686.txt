@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P10221|ITP_HHV11   1468.3         0   1   1.0   0.1    Inner tegument protein OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL37 PE=1 SV=1
+sp|P89460|ITP_HHV2H   1455.2         0   1   1.0   0.0    Inner tegument protein OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL37 PE=3 SV=1
+sp|P28956|ITP_EHV1B   1282.5         0   1   1.0   5.2    Inner tegument protein OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=23 PE=3 SV=1
+sp|P84405|ITP_EHV1V   1282.5         0   1   1.0   5.2    Inner tegument protein OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=23 PE=3 SV=1
+sp|Q9E6N2|ITP_GAHVM   1253.8         0   1   1.0   0.0    Inner tegument protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV050 PE=3 SV=1
+sp|P09277|ITP_VZVD    1198.1         0   1   1.0   0.0    Inner tegument protein OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=21 PE=3 SV=1
+sp|Q6UDJ4|ITP_PSHV1    854.2  1.1e-256   1   1.0  17.6    Inner tegument protein OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL37 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P10221|ITP_HHV11   1468.1         0     1   0.1     16   1052     19   1052      4   1026     Inner tegument protein OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL37 PE=1 SV=1
+sp|P89460|ITP_HHV2H   1455.0         0     1   0.0     16   1051     19   1051      4   1026     Inner tegument protein OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL37 PE=3 SV=1
+sp|P28956|ITP_EHV1B   1282.3         0     1   5.2      1   1020      3   1019      6   1018     Inner tegument protein OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=23 PE=3 SV=1
+sp|P84405|ITP_EHV1V   1282.3         0     1   5.2      1   1020      3   1019      6   1018     Inner tegument protein OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=23 PE=3 SV=1
+sp|Q9E6N2|ITP_GAHVM   1253.6         0     1   0.0      2   1046      3   1044      2   1024     Inner tegument protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV050 PE=3 SV=1
+sp|P09277|ITP_VZVD    1198.0         0     1   0.0      1   1038      3   1035      5   1023     Inner tegument protein OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=21 PE=3 SV=1
+sp|Q6UDJ4|ITP_PSHV1    853.9  1.3e-256     1  17.6      1    966      2    960      2    902     Inner tegument protein OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL37 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_077436@NC_002686.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_077436@NC_002686.txt data/models_hmm/NP_077436@NC_002686.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:50 2021
+# [ok]

@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68928|TERS_BPSF6    42.6   5.3e-11   1   1.2   2.0    Terminase small subunit OS=Bacillus phage SF6 OX=10773 GN=1 PE=1 SV=2
+sp|P68929|TERS_BPRH5    42.6   5.3e-11   1   1.2   2.0    Terminase small subunit OS=Bacillus phage rho15 OX=36451 GN=1 PE=3 SV=2
+sp|P54307|TERS_BPSPP    40.9   1.8e-10   1   1.2   1.2    Terminase small subunit OS=Bacillus phage SPP1 OX=10724 GN=1 PE=1 SV=4
+sp|P20329|Y65_BPT3      12.5       0.1   1   1.1   0.1    Uncharacterized gene 6.5 protein OS=Enterobacteria phage T3 OX=10759 GN=6.5 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68928|TERS_BPSF6    42.2   7.4e-11     1   2.0      1    143      4    134      9    125     Terminase small subunit OS=Bacillus phage SF6 OX=10773 GN=1 PE=1 SV=2
+sp|P68929|TERS_BPRH5    42.2   7.4e-11     1   2.0      1    143      4    134      9    125     Terminase small subunit OS=Bacillus phage rho15 OX=36451 GN=1 PE=3 SV=2
+sp|P54307|TERS_BPSPP    40.5   2.5e-10     1   1.2      1    145      5    136      8    125     Terminase small subunit OS=Bacillus phage SPP1 OX=10724 GN=1 PE=1 SV=4
+sp|P20329|Y65_BPT3      12.4      0.11     1   0.1     21     81     27     74     15     60     Uncharacterized gene 6.5 protein OS=Enterobacteria phage T3 OX=10759 GN=6.5 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007010971@NC_019545.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007010971@NC_019545.txt data/models_hmm/YP_007010971@NC_019545.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:28 2021
+# [ok]

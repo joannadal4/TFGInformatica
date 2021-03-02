@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05220|PORTL_BPML5     9.8      0.16   1   1.1   0.0    Portal protein OS=Mycobacterium phage L5 OX=31757 GN=14 PE=3 SV=1
+sp|O64207|PORTL_BPMD2     8.9       0.3   1   1.1   0.1    Portal protein OS=Mycobacterium phage D29 OX=28369 GN=14 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05220|PORTL_BPML5     9.3      0.22     1   0.0    257    367    265    347    596    678     Portal protein OS=Mycobacterium phage L5 OX=31757 GN=14 PE=3 SV=1
+sp|O64207|PORTL_BPMD2     8.5       0.4     1   0.1    258    362    288    346    619    677     Portal protein OS=Mycobacterium phage D29 OX=28369 GN=14 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000515@SRS049995_LANL_scaffold_11689@SRS049995_LANL_scaffold_11689_gene_31892.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000515@SRS049995_LANL_scaffold_11689@SRS049995_LANL_scaffold_11689_gene_31892.txt data/models_hmm/7000000515@SRS049995_LANL_scaffold_11689@SRS049995_LANL_scaffold_11689_gene_31892.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:58 2021
+# [ok]

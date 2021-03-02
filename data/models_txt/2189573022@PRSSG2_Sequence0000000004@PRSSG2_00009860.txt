@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6WHH0|BP27_BPKVM    13.4      0.07   4   3.7   1.4    Probable baseplate hub protein gp334 OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=KVP40.0334 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6WHH0|BP27_BPKVM     5.6        18     4   0.0    332    389    348    379     79    111     Probable baseplate hub protein gp334 OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=KVP40.0334 PE=1 SV=1
+sp|Q6WHH0|BP27_BPKVM     1.6   2.9e+02     2   0.0    141    177    152    175    107    130     Probable baseplate hub protein gp334 OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=KVP40.0334 PE=1 SV=1
+sp|Q6WHH0|BP27_BPKVM     1.6     3e+02     1   0.1     49     98     57     90     87    118     Probable baseplate hub protein gp334 OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=KVP40.0334 PE=1 SV=1
+sp|Q6WHH0|BP27_BPKVM    -0.7   1.5e+03     3   0.0    197    297    211    250     35     72     Probable baseplate hub protein gp334 OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=KVP40.0334 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2189573022@PRSSG2_Sequence0000000004@PRSSG2_00009860.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2189573022@PRSSG2_Sequence0000000004@PRSSG2_00009860.txt data/models_hmm/2189573022@PRSSG2_Sequence0000000004@PRSSG2_00009860.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:05 2021
+# [ok]

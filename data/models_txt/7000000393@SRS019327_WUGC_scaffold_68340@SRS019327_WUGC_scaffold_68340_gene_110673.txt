@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P12575|FUS_SENDF     12.6     0.097   2   1.6   2.9    Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+sp|P04856|FUS_SENDH     12.4      0.11   2   1.6   3.0    Fusion glycoprotein F0 OS=Sendai virus (strain Harris) OX=11196 GN=F PE=3 SV=1
+sp|P04855|FUS_SENDZ     12.3      0.12   2   1.6   2.9    Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04856|FUS_SENDH     11.8      0.17     2   2.3    465    529    472    518     26     72     Fusion glycoprotein F0 OS=Sendai virus (strain Harris) OX=11196 GN=F PE=3 SV=1
+sp|P12575|FUS_SENDF     11.8      0.17     2   2.3    465    529    472    518     26     72     Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+sp|P04855|FUS_SENDZ     11.5      0.21     2   2.4    465    526    472    517     26     71     Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|P04855|FUS_SENDZ     -3.5   8.9e+03     1   0.0    134    162    141    160    141    160     Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|P12575|FUS_SENDF     -3.5   8.9e+03     1   0.0    134    162    141    160    141    160     Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+sp|P04856|FUS_SENDH     -3.6   9.5e+03     1   0.0    134    161    141    160    141    160     Fusion glycoprotein F0 OS=Sendai virus (strain Harris) OX=11196 GN=F PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000393@SRS019327_WUGC_scaffold_68340@SRS019327_WUGC_scaffold_68340_gene_110673.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000393@SRS019327_WUGC_scaffold_68340@SRS019327_WUGC_scaffold_68340_gene_110673.txt data/models_hmm/7000000393@SRS019327_WUGC_scaffold_68340@SRS019327_WUGC_scaffold_68340_gene_110673.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:53 2021
+# [ok]

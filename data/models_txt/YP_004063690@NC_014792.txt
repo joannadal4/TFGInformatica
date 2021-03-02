@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q01438|COMCA_BPT4   163.2   3.2e-48   1   1.1   2.5    Protein comC-alpha OS=Enterobacteria phage T4 OX=10665 GN=comCA PE=4 SV=1
+sp|Q76VH1|Y14D_BPLZ1    22.3   0.00012   1   1.1   1.1    Uncharacterized 14.8 kDa protein in frd-Gp32 intergenic region OS=Enterobacteria phage LZ1 OX=42175 GN=frd.2 PE=4 SV=1
+sp|Q76VG9|Y14D_BPLZ3    19.7   0.00076   1   1.1   1.1    Uncharacterized 14.8 kDa protein in frd-Gp32 intergenic region OS=Enterobacteria phage LZ3 OX=37362 GN=frd.2 PE=4 SV=1
+sp|Q38169|Y14D_BPT6     19.3    0.0011   1   1.1   1.0    Uncharacterized 14.8 kDa protein in frd-Gp32 intergenic region OS=Enterobacteria phage T6 OX=10666 GN=frd.2 PE=4 SV=1
+sp|P39507|Y14D_BPT4     19.1    0.0012   1   1.1   0.8    Uncharacterized 14.7 kDa protein in frd-Gp32 intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y14D PE=4 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q01438|COMCA_BPT4   162.9   3.8e-48     1   2.5      1    141      1    141      4    127     Protein comC-alpha OS=Enterobacteria phage T4 OX=10665 GN=comCA PE=4 SV=1
+sp|Q76VH1|Y14D_BPLZ1    22.2   0.00013     1   1.1      1    128     16    127     24    126     Uncharacterized 14.8 kDa protein in frd-Gp32 intergenic region OS=Enterobacteria phage LZ1 OX=42175 GN=frd.2 PE=4 SV=1
+sp|Q76VG9|Y14D_BPLZ3    19.6   0.00082     1   1.1      1    128     16    127     24    126     Uncharacterized 14.8 kDa protein in frd-Gp32 intergenic region OS=Enterobacteria phage LZ3 OX=37362 GN=frd.2 PE=4 SV=1
+sp|Q38169|Y14D_BPT6     19.1    0.0012     1   1.0      1    128     15    128     23    127     Uncharacterized 14.8 kDa protein in frd-Gp32 intergenic region OS=Enterobacteria phage T6 OX=10666 GN=frd.2 PE=4 SV=1
+sp|P39507|Y14D_BPT4     19.0    0.0013     1   0.8      1    128     16    128     24    127     Uncharacterized 14.7 kDa protein in frd-Gp32 intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y14D PE=4 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004063690@NC_014792.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004063690@NC_014792.txt data/models_hmm/YP_004063690@NC_014792.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:06 2021
+# [ok]

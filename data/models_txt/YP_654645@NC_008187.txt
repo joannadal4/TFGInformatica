@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q196Y7|073R_IIV3     302.1   1.1e-90   1   1.0   0.8    Uncharacterized protein 073R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-073R PE=4 SV=1
+sp|Q91FT8|234R_IIV6      31.0   1.6e-07   1   1.4   0.4    Uncharacterized protein 234R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-234R PE=4 SV=1
+sp|Q5UPZ4|YL310_MIMIV    12.6     0.074   1   1.4   1.4    Uncharacterized protein L310 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L310 PE=4 SV=1
+sp|Q9QJ58|B5_HHV6Z       11.3      0.18   1   1.1   1.6    Protein B5 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=B5 PE=4 SV=1
+sp|Q87008|MVP_SCSVF      11.2      0.19   1   1.2   0.1    Putative movement protein OS=Subterranean clover stunt virus (strain F) OX=291607 GN=DNA-M PE=3 SV=1
+sp|P22157|VE4_HPV57      10.7      0.27   1   1.2   2.1    Protein E4 OS=Human papillomavirus type 57 OX=333753 GN=E4 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q196Y7|073R_IIV3     301.8   1.3e-90     1   0.8      1    175      1    169      1    171     Uncharacterized protein 073R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-073R PE=4 SV=1
+sp|Q91FT8|234R_IIV6      30.4   2.4e-07     1   0.4      1    179      7     99      8     97     Uncharacterized protein 234R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-234R PE=4 SV=1
+sp|Q5UPZ4|YL310_MIMIV    12.5     0.075     1   0.6      8     91     29     77    121    169     Uncharacterized protein L310 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L310 PE=4 SV=1
+sp|Q9QJ58|B5_HHV6Z       11.2       0.2     1   1.6      1     58      3     42     88    127     Protein B5 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=B5 PE=4 SV=1
+sp|Q87008|MVP_SCSVF      10.8      0.25     1   0.1     15     81     31     70    141    177     Putative movement protein OS=Subterranean clover stunt virus (strain F) OX=291607 GN=DNA-M PE=3 SV=1
+sp|P22157|VE4_HPV57      10.2      0.39     1   2.1     13     64     24     56     98    129     Protein E4 OS=Human papillomavirus type 57 OX=333753 GN=E4 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_654645@NC_008187.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_654645@NC_008187.txt data/models_hmm/YP_654645@NC_008187.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:40 2021
+# [ok]

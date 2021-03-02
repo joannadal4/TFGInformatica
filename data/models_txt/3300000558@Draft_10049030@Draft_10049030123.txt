@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09710|IR01_HCMVA     13.9     0.035   1   1.9   0.1    Uncharacterized protein HKLF1 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|Q6SWD5|IR01_HCMVM     13.8     0.037   2   2.3   1.0    Uncharacterized protein HKLF1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL1 PE=3 SV=1
+sp|Q9XJJ6|SPAN1_BP933    13.6     0.043   2   2.5   2.5    Spanin, inner membrane subunit OS=Escherichia phage 933W OX=10730 GN=Rz PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6SWD5|IR01_HCMVM     12.2      0.12     2   0.1    155    176    156    173     14     31     Uncharacterized protein HKLF1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL1 PE=3 SV=1
+sp|P09710|IR01_HCMVA     12.2      0.12     1   0.1    155    176    156    173     14     31     Uncharacterized protein HKLF1 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|Q9XJJ6|SPAN1_BP933     7.1       4.6     2   0.1    132    154    140    154     15     29     Spanin, inner membrane subunit OS=Escherichia phage 933W OX=10730 GN=Rz PE=3 SV=1
+sp|Q9XJJ6|SPAN1_BP933     6.0        11     1   0.3     93    111     95    108     24     37     Spanin, inner membrane subunit OS=Escherichia phage 933W OX=10730 GN=Rz PE=3 SV=1
+sp|Q6SWD5|IR01_HCMVM     -2.4   4.4e+03     1   0.1     86     96     88     94     12     18     Uncharacterized protein HKLF1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000558@Draft_10049030@Draft_10049030123.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000558@Draft_10049030@Draft_10049030123.txt data/models_hmm/3300000558@Draft_10049030@Draft_10049030123.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:06 2021
+# [ok]

@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q0PDK7|TMP_BPSPP     16.8    0.0014   2   2.2   0.0    Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|Q00161|VG43_ICHVA    10.2      0.14   1   1.1   0.1    Uncharacterized protein ORF43 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF43 PE=4 SV=1
+sp|O55766|RPB1_IIV6      5.1       4.8   2   2.2  11.4    Probable DNA-directed RNA polymerase II subunit RPB1 homolog OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-176R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O55766|RPB1_IIV6     10.7     0.098     2   0.4    631    894    800    854    311    366     Probable DNA-directed RNA polymerase II subunit RPB1 homolog OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-176R PE=3 SV=1
+sp|Q00161|VG43_ICHVA    10.0      0.16     1   0.1    263    670    271    490     62    161     Uncharacterized protein ORF43 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF43 PE=4 SV=1
+sp|Q0PDK7|TMP_BPSPP      7.0       1.3     1   5.9      5    192     16    172     86    251     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|Q0PDK7|TMP_BPSPP      1.2        70     2   0.0    196    693    467    675    146    193     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|O55766|RPB1_IIV6     -1.8   5.7e+02     1   5.1    235    504    289    472    369    558     Probable DNA-directed RNA polymerase II subunit RPB1 homolog OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-176R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000417@SRS011239_Baylor_scaffold_8853@SRS011239_Baylor_scaffold_8853_gene_21454.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000417@SRS011239_Baylor_scaffold_8853@SRS011239_Baylor_scaffold_8853_gene_21454.txt data/models_hmm/7000000417@SRS011239_Baylor_scaffold_8853@SRS011239_Baylor_scaffold_8853_gene_21454.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:03 2021
+# [ok]

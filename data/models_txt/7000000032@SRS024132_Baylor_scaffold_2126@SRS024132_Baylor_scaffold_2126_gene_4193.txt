@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q04764|SCAF_BPMV4    12.9     0.092   2   1.7   0.6    Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+sp|Q04763|SCAF_BPLLH    12.3      0.13   2   2.1   2.0    Capsid assembly scaffolding protein OS=Lactococcus phage LL-H OX=12348 GN=g20 PE=3 SV=1
+sp|P08357|VP10_NPVOP    11.6      0.22   1   1.8   0.8    Protein p10 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P10 PE=3 SV=1
+sp|Q3V4Q1|Y618_ATV       9.0       1.5   3   3.1   4.7    Structural protein ORF618 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q04764|SCAF_BPMV4    12.9     0.092     1   0.6     16     80     36     75     30     68     Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+sp|Q04763|SCAF_BPLLH    11.9      0.18     1   0.2     16     79     36     72     30     66     Capsid assembly scaffolding protein OS=Lactococcus phage LL-H OX=12348 GN=g20 PE=3 SV=1
+sp|P08357|VP10_NPVOP    10.0      0.71     1   0.8      4     59     14     37     27     50     Protein p10 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P10 PE=3 SV=1
+sp|Q3V4Q1|Y618_ATV       9.2       1.3     3   0.1    564    615    573    611     26     64     Structural protein ORF618 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|Q3V4Q1|Y618_ATV      -0.7   1.6e+03     2   0.2    511    542    526    538     39     51     Structural protein ORF618 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|Q04763|SCAF_BPLLH    -0.8   1.7e+03     2   0.1     90    136    121    133     53     65     Capsid assembly scaffolding protein OS=Lactococcus phage LL-H OX=12348 GN=g20 PE=3 SV=1
+sp|Q04764|SCAF_BPMV4    -3.4   1.1e+04     2   0.1     94    120    101    109     29     37     Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+sp|Q3V4Q1|Y618_ATV      -4.1   1.7e+04     1   0.1    222    240    227    238     58     69     Structural protein ORF618 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000032@SRS024132_Baylor_scaffold_2126@SRS024132_Baylor_scaffold_2126_gene_4193.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000032@SRS024132_Baylor_scaffold_2126@SRS024132_Baylor_scaffold_2126_gene_4193.txt data/models_hmm/7000000032@SRS024132_Baylor_scaffold_2126@SRS024132_Baylor_scaffold_2126_gene_4193.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:55 2021
+# [ok]

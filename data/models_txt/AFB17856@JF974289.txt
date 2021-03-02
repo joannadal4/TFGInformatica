@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8V3L7|D3_SWPV1      14.1     0.037   1   1.7   0.8    27 kDa core protein OS=Swinepox virus (strain Swine/Nebraska/17077-99/1999) OX=300880 GN=SPV078 PE=2 SV=1
+sp|Q01268|MVP_INSV      13.2     0.071   2   2.3   0.4    Movement protein OS=Impatiens necrotic spot virus OX=11612 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8V3L7|D3_SWPV1      12.7     0.099     1   0.8    139    200    156    193     21     56     27 kDa core protein OS=Swinepox virus (strain Swine/Nebraska/17077-99/1999) OX=300880 GN=SPV078 PE=2 SV=1
+sp|Q01268|MVP_INSV       9.8       0.8     1   0.1     89    133     96    125     13     44     Movement protein OS=Impatiens necrotic spot virus OX=11612 PE=3 SV=1
+sp|Q01268|MVP_INSV       0.6     6e+02     2   0.0    208    257    219    246     16     39     Movement protein OS=Impatiens necrotic spot virus OX=11612 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AFB17856@JF974289.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AFB17856@JF974289.txt data/models_hmm/AFB17856@JF974289.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:31 2021
+# [ok]

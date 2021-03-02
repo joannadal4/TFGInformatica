@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64253|VG61_BPMD2    29.1   7.6e-07   1   1.3   0.0    Gene 61 protein OS=Mycobacterium phage D29 OX=28369 GN=61 PE=4 SV=1
+sp|Q05274|VG61_BPML5    20.7   0.00032   1   1.4   0.0    Gene 61 protein OS=Mycobacterium phage L5 OX=31757 GN=61 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64253|VG61_BPMD2    28.5   1.2e-06     1   0.0      1    123      3    119      2    121     Gene 61 protein OS=Mycobacterium phage D29 OX=28369 GN=61 PE=4 SV=1
+sp|Q05274|VG61_BPML5    19.8   0.00061     1   0.0      2    123      3    119      2    121     Gene 61 protein OS=Mycobacterium phage L5 OX=31757 GN=61 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000024@TBL_comb48_EPIDRAFT_100002480.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000024@TBL_comb48_EPIDRAFT_100002480.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000024@TBL_comb48_EPIDRAFT_100002480.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:35 2021
+# [ok]

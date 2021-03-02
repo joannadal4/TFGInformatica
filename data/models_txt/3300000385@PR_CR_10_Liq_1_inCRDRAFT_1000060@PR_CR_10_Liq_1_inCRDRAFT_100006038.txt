@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q197F0|VF380_IIV3     32.3   3.9e-08   1   1.2   0.1    Probable serine/threonine-protein kinase 010L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-010L PE=3 SV=1
+sp|Q196W2|VF439_IIV3     29.1   3.7e-07   1   1.3   0.3    Probable kinase 098L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-098L PE=3 SV=1
+sp|Q197C2|VF098_IIV3     20.3   0.00018   1   1.2   2.1    Uncharacterized protein 038R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-038R PE=3 SV=1
+sp|Q5UR26|VF546_MIMIV     5.5       5.3   1   1.1  19.7    Uncharacterized protein R546 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R546 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q197F0|VF380_IIV3     31.7     6e-08     1   0.1    277    420    290    414    350    471     Probable serine/threonine-protein kinase 010L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-010L PE=3 SV=1
+sp|Q196W2|VF439_IIV3     28.4   6.3e-07     1   0.3    151    273    165    254    349    440     Probable kinase 098L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-098L PE=3 SV=1
+sp|Q197C2|VF098_IIV3     19.7   0.00027     1   2.1    125    267    138    227    349    434     Uncharacterized protein 038R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-038R PE=3 SV=1
+sp|Q5UR26|VF546_MIMIV     5.2       6.4     1  19.7     39    204     69    192    183    316     Uncharacterized protein R546 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R546 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000385@PR_CR_10_Liq_1_inCRDRAFT_1000060@PR_CR_10_Liq_1_inCRDRAFT_100006038.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000385@PR_CR_10_Liq_1_inCRDRAFT_1000060@PR_CR_10_Liq_1_inCRDRAFT_100006038.txt data/models_hmm/3300000385@PR_CR_10_Liq_1_inCRDRAFT_1000060@PR_CR_10_Liq_1_inCRDRAFT_100006038.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:26 2021
+# [ok]

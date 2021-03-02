@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P26744|PORTL_BPP22    20.6   0.00014   2   3.2  18.3    Portal protein OS=Salmonella phage P22 OX=10754 GN=1 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P26744|PORTL_BPP22    17.9   0.00091     1   0.2      7    232     58    180     72    195     Portal protein OS=Salmonella phage P22 OX=10754 GN=1 PE=1 SV=2
+sp|P26744|PORTL_BPP22     1.8        70     2  13.0    385    725    417    540    408    536     Portal protein OS=Salmonella phage P22 OX=10754 GN=1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2228664021@ICCgaii200_c1063203@ICCgaii200_10632033.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2228664021@ICCgaii200_c1063203@ICCgaii200_10632033.txt data/models_hmm/2228664021@ICCgaii200_c1063203@ICCgaii200_10632033.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:15 2021
+# [ok]

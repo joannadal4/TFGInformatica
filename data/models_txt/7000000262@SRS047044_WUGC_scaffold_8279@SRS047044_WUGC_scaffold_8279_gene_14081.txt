@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQF5|YL491_MIMIV    17.4    0.0035   3   2.7   0.7    Uncharacterized protein L491 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L491 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQF5|YL491_MIMIV    17.4    0.0035     3   0.7    162    209    165    195      6     36     Uncharacterized protein L491 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L491 PE=4 SV=1
+sp|Q5UQF5|YL491_MIMIV     0.8   5.3e+02     2   0.4    133    153    137    149      9     21     Uncharacterized protein L491 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L491 PE=4 SV=1
+sp|Q5UQF5|YL491_MIMIV    -3.3     1e+04     1   0.2      9     25      9     23      6     20     Uncharacterized protein L491 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L491 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000262@SRS047044_WUGC_scaffold_8279@SRS047044_WUGC_scaffold_8279_gene_14081.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000262@SRS047044_WUGC_scaffold_8279@SRS047044_WUGC_scaffold_8279_gene_14081.txt data/models_hmm/7000000262@SRS047044_WUGC_scaffold_8279@SRS047044_WUGC_scaffold_8279_gene_14081.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:49 2021
+# [ok]

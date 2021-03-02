@@ -1,0 +1,58 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q01051|TRX1_SHV21   480.7  1.6e-144   1   1.0   0.1    Triplex capsid protein 1 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=TRX1 PE=3 SV=1
+sp|P03187|TRX1_EBVB9   471.0  1.4e-141   1   1.0   0.0    Triplex capsid protein 1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=TRX1 PE=1 SV=1
+sp|F5H8Y5|TRX1_HHV8P   459.3  5.3e-138   1   1.0   0.0    Triplex capsid protein 1 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=TRX1 PE=1 SV=1
+sp|Q66664|TRX1_EHV2    446.1  5.5e-134   1   1.0   0.0    Triplex capsid protein 1 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=TRX1 PE=3 SV=1
+sp|O36412|TRX1_ALHV1   439.7  4.9e-132   1   1.0   0.0    Triplex capsid protein 1 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=TRX1 PE=3 SV=1
+sp|Q6UDJ3|TRX1_PSHV1    41.6     6e-11   2   2.1   0.0    Triplex capsid protein 1 OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=TRX1 PE=3 SV=1
+sp|Q9WT35|TRX1_HHV6Z    25.7   4.4e-06   1   1.3   2.5    Triplex capsid protein 1 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=TRX1 PE=1 SV=1
+sp|Q9E6N1|TRX1_GAHVM    24.5   9.9e-06   2   2.3   0.0    Triplex capsid protein 1 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=TRX1 PE=3 SV=1
+sp|P52348|TRX1_HHV6U    20.5   0.00017   1   1.4   2.8    Triplex capsid protein 1 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=TRX1 PE=3 SV=1
+sp|P22486|TRX1_HHV2G    20.0   0.00024   2   1.6   0.0    Triplex capsid protein 1 OS=Human herpesvirus 2 (strain G) OX=10314 GN=TRX1 PE=3 SV=1
+sp|P09276|TRX1_VZVD     19.7   0.00029   1   1.3   0.0    Triplex capsid protein 1 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=TRX1 PE=3 SV=1
+sp|P32888|TRX1_HHV11    19.4   0.00036   2   2.0   0.0    Triplex capsid protein 1 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=TRX1 PE=1 SV=1
+sp|P17586|TRX1_HHV14    18.5   0.00065   2   1.6   0.0    Triplex capsid protein 1 OS=Human herpesvirus 1 (strain A44) OX=10300 GN=TRX1 PE=3 SV=1
+sp|P89461|TRX1_HHV2H    17.7    0.0011   1   1.3   0.0    Triplex capsid protein 1 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=TRX1 PE=3 SV=1
+sp|F5HA93|TRX1_HCMVM    14.0     0.015   1   1.3   0.0    Triplex capsid protein 1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=TRX1 PE=3 SV=1
+sp|P16783|TRX1_HCMVA    14.0     0.015   1   1.3   0.0    Triplex capsid protein 1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=TRX1 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q01051|TRX1_SHV21   480.6  1.8e-144     1   0.1      1    330      2    330      2    333     Triplex capsid protein 1 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=TRX1 PE=3 SV=1
+sp|P03187|TRX1_EBVB9   470.9  1.6e-141     1   0.0      1    364      1    364      1    333     Triplex capsid protein 1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=TRX1 PE=1 SV=1
+sp|F5H8Y5|TRX1_HHV8P   459.1  5.9e-138     1   0.0      1    331      2    331      3    333     Triplex capsid protein 1 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=TRX1 PE=1 SV=1
+sp|Q66664|TRX1_EHV2    445.9  6.3e-134     1   0.0      5    338      9    338      5    332     Triplex capsid protein 1 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=TRX1 PE=3 SV=1
+sp|O36412|TRX1_ALHV1   439.5  5.7e-132     1   0.0      5    334      8    333      4    332     Triplex capsid protein 1 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=TRX1 PE=3 SV=1
+sp|Q6UDJ3|TRX1_PSHV1    33.4   1.9e-08     1   0.0    193    382    223    366    132    267     Triplex capsid protein 1 OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=TRX1 PE=3 SV=1
+sp|Q9WT35|TRX1_HHV6Z    25.1   6.4e-06     1   2.5     66    299     73    299     88    333     Triplex capsid protein 1 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=TRX1 PE=1 SV=1
+sp|P52348|TRX1_HHV6U    20.0   0.00023     1   2.8     68    299    187    299    221    333     Triplex capsid protein 1 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=TRX1 PE=3 SV=1
+sp|P09276|TRX1_VZVD     19.0   0.00047     1   0.0    188    348    196    337    108    244     Triplex capsid protein 1 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=TRX1 PE=3 SV=1
+sp|P22486|TRX1_HHV2G    18.4   0.00069     1   0.0    200    363    229    347    145    265     Triplex capsid protein 1 OS=Human herpesvirus 2 (strain G) OX=10314 GN=TRX1 PE=3 SV=1
+sp|P17586|TRX1_HHV14    17.1    0.0017     1   0.0    218    361    230    332    147    251     Triplex capsid protein 1 OS=Human herpesvirus 1 (strain A44) OX=10300 GN=TRX1 PE=3 SV=1
+sp|P89461|TRX1_HHV2H    17.0    0.0018     1   0.0    200    363    229    347    145    265     Triplex capsid protein 1 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=TRX1 PE=3 SV=1
+sp|Q9E6N1|TRX1_GAHVM    17.0     0.002     1   0.0    234    367    246    356    157    268     Triplex capsid protein 1 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=TRX1 PE=3 SV=1
+sp|P32888|TRX1_HHV11    15.0    0.0079     1   0.0    218    361    230    332    147    251     Triplex capsid protein 1 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=TRX1 PE=1 SV=1
+sp|F5HA93|TRX1_HCMVM    13.3     0.025     1   0.0    119    290    125    289    156    332     Triplex capsid protein 1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=TRX1 PE=3 SV=1
+sp|P16783|TRX1_HCMVA    13.3     0.025     1   0.0    119    290    125    289    156    332     Triplex capsid protein 1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=TRX1 PE=1 SV=1
+sp|Q6UDJ3|TRX1_PSHV1     6.0       4.2     2   0.0    422    485    432    483    281    330     Triplex capsid protein 1 OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=TRX1 PE=3 SV=1
+sp|Q9E6N1|TRX1_GAHVM     5.1       7.8     2   0.0    411    469    420    466    283    329     Triplex capsid protein 1 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=TRX1 PE=3 SV=1
+sp|P32888|TRX1_HHV11     2.3        57     2   0.0    403    465    415    463    284    331     Triplex capsid protein 1 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=TRX1 PE=1 SV=1
+sp|P22486|TRX1_HHV2G    -1.7     9e+02     2   0.0    410    465    417    463    285    330     Triplex capsid protein 1 OS=Human herpesvirus 2 (strain G) OX=10314 GN=TRX1 PE=3 SV=1
+sp|P17586|TRX1_HHV14    -2.1   1.2e+03     2   0.0    410    464    416    462    285    330     Triplex capsid protein 1 OS=Human herpesvirus 1 (strain A44) OX=10300 GN=TRX1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004207898@NC_015049.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004207898@NC_015049.txt data/models_hmm/YP_004207898@NC_015049.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:08 2021
+# [ok]

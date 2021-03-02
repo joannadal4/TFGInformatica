@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UNY8|YR736_MIMIV   366.4  1.1e-109   1   1.0  28.1    Uncharacterized protein R736 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R736 PE=4 SV=1
+sp|Q5URB3|YR187_MIMIV   277.9     1e-82   1   1.0  18.6    Uncharacterized protein R187 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R187 PE=4 SV=1
+sp|Q5UNZ3|YR745_MIMIV   228.0   1.6e-67   1   1.0  22.2    Uncharacterized protein R745 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R745 PE=4 SV=1
+sp|Q5UNZ4|YR744_MIMIV   172.8     1e-50   1   1.1  25.1    Uncharacterized protein R744 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R744 PE=4 SV=1
+sp|P03579|CAPSD_TMGMV    10.9      0.22   2   2.0   0.2    Capsid protein OS=Tobacco mild green mosaic virus OX=12241 GN=CP PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UNY8|YR736_MIMIV   366.2  1.2e-109     1  28.1      1    283      3    283      8    291     Uncharacterized protein R736 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R736 PE=4 SV=1
+sp|Q5URB3|YR187_MIMIV   277.6   1.3e-82     1  18.6      1    244      1    242      1    235     Uncharacterized protein R187 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R187 PE=4 SV=1
+sp|Q5UNZ3|YR745_MIMIV   227.9   1.7e-67     1  22.2      1    164      1    160    138    289     Uncharacterized protein R745 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R745 PE=4 SV=1
+sp|Q5UNZ4|YR744_MIMIV   172.5   1.3e-50     1  25.1      1    180      1    174      1    180     Uncharacterized protein R744 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R744 PE=4 SV=1
+sp|P03579|CAPSD_TMGMV     6.2       5.9     1   0.0      1     55      4     46    111    153     Capsid protein OS=Tobacco mild green mosaic virus OX=12241 GN=CP PE=1 SV=3
+sp|P03579|CAPSD_TMGMV     3.3        47     2   0.0     48    141     59    133    110    183     Capsid protein OS=Tobacco mild green mosaic virus OX=12241 GN=CP PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003987265@NC_014649.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003987265@NC_014649.txt data/models_hmm/YP_003987265@NC_014649.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:58 2021
+# [ok]

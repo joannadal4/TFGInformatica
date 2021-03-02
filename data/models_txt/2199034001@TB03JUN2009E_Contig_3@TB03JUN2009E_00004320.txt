@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5QGZ2|NSP4_ROTGA    13.4     0.054   2   1.7   0.1    Non-structural glycoprotein 4 OS=Rotavirus B (isolate RVB/Human/China/ADRV/1982) OX=10942 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5QGZ2|NSP4_ROTGA    12.2      0.13     1   0.0      1     56      7     49     60    102     Non-structural glycoprotein 4 OS=Rotavirus B (isolate RVB/Human/China/ADRV/1982) OX=10942 PE=3 SV=1
+sp|Q5QGZ2|NSP4_ROTGA    -1.8   2.9e+03     2   0.0     48     94     60     76     48     63     Non-structural glycoprotein 4 OS=Rotavirus B (isolate RVB/Human/China/ADRV/1982) OX=10942 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2199034001@TB03JUN2009E_Contig_3@TB03JUN2009E_00004320.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2199034001@TB03JUN2009E_Contig_3@TB03JUN2009E_00004320.txt data/models_hmm/2199034001@TB03JUN2009E_Contig_3@TB03JUN2009E_00004320.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:09 2021
+# [ok]

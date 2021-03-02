@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09288|UL24_VZVD     12.9     0.094   2   1.9   0.1    Protein UL24 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF35 PE=2 SV=1
+sp|Q4JQU0|UL24_VZVO     12.9     0.095   2   1.9   0.1    Protein UL24 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF35 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09288|UL24_VZVD     10.8       0.4     1   0.0      2     72     10     61     35     81     Protein UL24 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF35 PE=2 SV=1
+sp|Q4JQU0|UL24_VZVO     10.8       0.4     1   0.0      2     72     10     61     35     81     Protein UL24 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF35 PE=2 SV=1
+sp|P09288|UL24_VZVD     -0.9   1.7e+03     2   0.0    178    227    186    209     15     38     Protein UL24 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF35 PE=2 SV=1
+sp|Q4JQU0|UL24_VZVO     -0.9   1.7e+03     2   0.0    178    227    186    209     15     38     Protein UL24 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF35 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002300610@NC_011423.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002300610@NC_011423.txt data/models_hmm/YP_002300610@NC_011423.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:03 2021
+# [ok]

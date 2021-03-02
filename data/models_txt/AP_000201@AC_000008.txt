@@ -1,0 +1,53 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q65945|PKG1_ADECC   738.4    2e-222   1   1.0   1.5    Packaging protein 1 OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=IVa2 PE=3 SV=1
+sp|Q96680|PKG1_ADECR   738.3  2.2e-222   1   1.0   1.6    Packaging protein 1 OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=IVa2 PE=3 SV=1
+sp|P87552|PKG1_ADECT   733.5  6.5e-221   1   1.0   0.3    Packaging protein 1 OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=IVa2 PE=3 SV=1
+sp|P03273|PKG1_ADE07   723.2  8.4e-218   1   1.0   0.0    Packaging protein 1 OS=Human adenovirus B serotype 7 OX=10519 GN=IVa2 PE=3 SV=1
+sp|P03272|PKG1_ADE02   722.9    1e-217   1   1.0   0.0    Packaging protein 1 OS=Human adenovirus C serotype 2 OX=10515 GN=IVa2 PE=1 SV=1
+sp|P48752|PKG1_ADE40   721.9    2e-217   1   1.0   0.0    Packaging protein 1 OS=Human adenovirus F serotype 40 OX=28284 GN=IVa2 PE=3 SV=1
+sp|P03271|PKG1_ADE05   720.5  5.7e-217   1   1.0   0.0    Packaging protein 1 OS=Human adenovirus C serotype 5 OX=28285 GN=IVa2 PE=1 SV=1
+sp|P12540|PKG1_ADE12   719.3  1.3e-216   1   1.0   0.0    Packaging protein 1 OS=Human adenovirus A serotype 12 OX=28282 GN=IVa2 PE=3 SV=2
+sp|P12539|PKG1_ADEM1   656.3  1.7e-197   1   1.0   0.3    Packaging protein 1 OS=Murine adenovirus A serotype 1 OX=10530 GN=IVa2 PE=3 SV=2
+sp|Q64749|PKG1_ADEG1   573.4  2.5e-172   1   1.0   0.4    Packaging protein 1 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=IVa2 PE=3 SV=1
+sp|A9CB86|PKG1_ADES1   482.7  8.1e-145   1   1.0   0.0    Packaging protein 1 OS=Snake adenovirus serotype 1 OX=189830 GN=IVa2 PE=3 SV=1
+sp|Q07518|RDRP_P1AMV    14.0     0.014   2   1.6   0.1    RNA replication protein OS=Plantago asiatica mosaic potexvirus OX=28354 PE=3 SV=1
+sp|Q805H4|REP_PCV1      13.1     0.029   1   1.4   0.0    Replication-associated protein OS=Porcine circovirus 1 OX=133704 GN=Rep PE=3 SV=1
+sp|P04867|TGB1_BSMV     12.9     0.031   1   1.1   0.0    Movement protein TGB1 OS=Barley stripe mosaic virus OX=12327 PE=1 SV=1
+sp|Q6GZW0|015R_FRG3G    12.5     0.043   2   2.1   0.1    Uncharacterized protein 015R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-015R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q65945|PKG1_ADECC   738.2  2.5e-222     1   1.5      8    446     26    446      5    425     Packaging protein 1 OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=IVa2 PE=3 SV=1
+sp|Q96680|PKG1_ADECR   738.1  2.6e-222     1   1.6     67    502     82    502      5    425     Packaging protein 1 OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=IVa2 PE=3 SV=1
+sp|P87552|PKG1_ADECT   733.2  7.9e-221     1   0.3     14    446     27    446      6    425     Packaging protein 1 OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=IVa2 PE=3 SV=1
+sp|P03273|PKG1_ADE07   723.0    1e-217     1   0.0      5    448     27    446      5    424     Packaging protein 1 OS=Human adenovirus B serotype 7 OX=10519 GN=IVa2 PE=3 SV=1
+sp|P03272|PKG1_ADE02   722.7  1.2e-217     1   0.0      9    449     27    447      5    425     Packaging protein 1 OS=Human adenovirus C serotype 2 OX=10515 GN=IVa2 PE=1 SV=1
+sp|P48752|PKG1_ADE40   721.7  2.4e-217     1   0.0      3    446     26    445      5    424     Packaging protein 1 OS=Human adenovirus F serotype 40 OX=28284 GN=IVa2 PE=3 SV=1
+sp|P03271|PKG1_ADE05   720.2  6.9e-217     1   0.0      9    449     27    447      5    425     Packaging protein 1 OS=Human adenovirus C serotype 5 OX=28285 GN=IVa2 PE=1 SV=1
+sp|P12540|PKG1_ADE12   719.0  1.6e-216     1   0.0     19    452     29    450      5    426     Packaging protein 1 OS=Human adenovirus A serotype 12 OX=28282 GN=IVa2 PE=3 SV=2
+sp|P12539|PKG1_ADEM1   656.0  2.1e-197     1   0.3     13    448     24    445      5    426     Packaging protein 1 OS=Murine adenovirus A serotype 1 OX=10530 GN=IVa2 PE=3 SV=2
+sp|Q64749|PKG1_ADEG1   573.1  2.9e-172     1   0.4      6    430     21    427     18    426     Packaging protein 1 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=IVa2 PE=3 SV=1
+sp|A9CB86|PKG1_ADES1   482.3  1.1e-144     1   0.0     19    442     26    440      6    425     Packaging protein 1 OS=Snake adenovirus serotype 1 OX=189830 GN=IVa2 PE=3 SV=1
+sp|Q07518|RDRP_P1AMV    12.7     0.036     1   0.0    619    691    631    682    115    166     RNA replication protein OS=Plantago asiatica mosaic potexvirus OX=28354 PE=3 SV=1
+sp|P04867|TGB1_BSMV     12.4     0.046     1   0.0    125    288    157    284     39    164     Movement protein TGB1 OS=Barley stripe mosaic virus OX=12327 PE=1 SV=1
+sp|Q805H4|REP_PCV1      12.3      0.05     1   0.0    125    188    165    184    143    162     Replication-associated protein OS=Porcine circovirus 1 OX=133704 GN=Rep PE=3 SV=1
+sp|Q6GZW0|015R_FRG3G     8.0         1     1   0.0      7     61     30     51    145    166     Uncharacterized protein 015R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-015R PE=4 SV=1
+sp|Q6GZW0|015R_FRG3G     2.4        50     2   0.0     90    135    105    133    248    274     Uncharacterized protein 015R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-015R PE=4 SV=1
+sp|Q07518|RDRP_P1AMV    -3.3   2.6e+03     2   0.1   1033   1143   1058   1121     36    101     RNA replication protein OS=Plantago asiatica mosaic potexvirus OX=28354 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AP_000201@AC_000008.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AP_000201@AC_000008.txt data/models_hmm/AP_000201@AC_000008.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:58 2021
+# [ok]

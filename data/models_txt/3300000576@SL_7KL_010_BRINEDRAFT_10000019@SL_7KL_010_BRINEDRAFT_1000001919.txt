@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03681|TERM_BPPH2    23.9   2.5e-05   1   1.3   1.6    Primer terminal protein OS=Bacillus phage phi29 OX=10756 GN=3 PE=1 SV=1
+sp|P06951|TERM_BPPZA    22.9   5.1e-05   1   1.3   1.9    DNA terminal protein OS=Bacillus phage PZA OX=10757 GN=3 PE=3 SV=1
+sp|Q8QL32|Y84_SIRV1     14.0     0.028   1   1.1   0.7    Uncharacterized protein 84 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=84 PE=4 SV=1
+sp|P20196|A154_SSV1     12.6     0.071   2   1.7   3.3    Uncharacterized protein A-154 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=a154 PE=4 SV=1
+sp|Q9T1Q1|VP47_BPAPS    12.0      0.11   2   2.1   7.6    Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03681|TERM_BPPH2    23.2   4.1e-05     1   1.6     15    132     21    129    103    214     Primer terminal protein OS=Bacillus phage phi29 OX=10756 GN=3 PE=1 SV=1
+sp|P06951|TERM_BPPZA    22.2   8.5e-05     1   1.9     15    132     21    129    103    214     DNA terminal protein OS=Bacillus phage PZA OX=10757 GN=3 PE=3 SV=1
+sp|Q8QL32|Y84_SIRV1     13.9     0.028     1   0.7     17     84     39     81    150    193     Uncharacterized protein 84 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=84 PE=4 SV=1
+sp|P20196|A154_SSV1     12.0      0.11     1   2.5      1     60      3     46    150    191     Uncharacterized protein A-154 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=a154 PE=4 SV=1
+sp|Q9T1Q1|VP47_BPAPS    11.2       0.2     1   2.3     11     98     26     83    143    200     Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+sp|Q9T1Q1|VP47_BPAPS     4.0        31     2   0.5     83    152    104    140    159    195     Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+sp|P20196|A154_SSV1     -1.4   1.3e+03     2   0.0    113    152    116    146    107    137     Uncharacterized protein A-154 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=a154 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000576@SL_7KL_010_BRINEDRAFT_10000019@SL_7KL_010_BRINEDRAFT_1000001919.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000576@SL_7KL_010_BRINEDRAFT_10000019@SL_7KL_010_BRINEDRAFT_1000001919.txt data/models_hmm/3300000576@SL_7KL_010_BRINEDRAFT_10000019@SL_7KL_010_BRINEDRAFT_1000001919.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:12 2021
+# [ok]

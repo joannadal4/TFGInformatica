@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13339|BP48_BPT4     30.7     1e-07   1   1.5   1.7    Baseplate tail-tube junction protein gp48 OS=Enterobacteria phage T4 OX=10665 GN=48 PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13339|BP48_BPT4     30.2   1.4e-07     1   1.2     80    363    128    358    431    601     Baseplate tail-tube junction protein gp48 OS=Enterobacteria phage T4 OX=10665 GN=48 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003358862@NC_013697.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003358862@NC_013697.txt data/models_hmm/YP_003358862@NC_013697.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:31 2021
+# [ok]

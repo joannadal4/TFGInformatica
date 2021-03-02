@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9YMJ7|ENV_NPVLD     12.2      0.13   1   2.0   0.4    Envelope fusion protein OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 GN=LdOrf-130 PE=3 SV=1
+sp|Q8QL33|Y64_SIRV1     11.8      0.16   2   1.8   3.1    Uncharacterized protein 64 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=64 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8QL33|Y64_SIRV1     11.5      0.21     1   2.1      1     23      1     10      1     10     Uncharacterized protein 64 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=64 PE=4 SV=1
+sp|Q9YMJ7|ENV_NPVLD     10.3      0.48     1   0.4     42     68     46     67      8     29     Envelope fusion protein OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 GN=LdOrf-130 PE=3 SV=1
+sp|Q8QL33|Y64_SIRV1     -2.2   3.9e+03     2   0.0     28     41     30     33     26     29     Uncharacterized protein 64 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=64 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000480@SRS015209_WUGC_scaffold_10741@SRS015209_WUGC_scaffold_10741_gene_22083.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000480@SRS015209_WUGC_scaffold_10741@SRS015209_WUGC_scaffold_10741_gene_22083.txt data/models_hmm/7000000480@SRS015209_WUGC_scaffold_10741@SRS015209_WUGC_scaffold_10741_gene_22083.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:36 2021
+# [ok]

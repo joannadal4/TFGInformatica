@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQF2|YL482_MIMIV    15.1    0.0097   1   1.0   0.3    Putative ankyrin repeat protein L482 (Fragment) OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L482 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQF2|YL482_MIMIV    14.9     0.011     1   0.3      4    106     13     95     62    141     Putative ankyrin repeat protein L482 (Fragment) OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L482 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008125782@NC_021531.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008125782@NC_021531.txt data/models_hmm/YP_008125782@NC_021531.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:21 2021
+# [ok]

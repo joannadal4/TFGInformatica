@@ -1,0 +1,46 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q196X2|VF075_IIV3    151.9   2.1e-44   1   1.0   0.0    Uncharacterized protein 088R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-088R PE=3 SV=1
+sp|Q6GZW0|015R_FRG3G    144.2   4.8e-42   1   1.1   0.1    Uncharacterized protein 015R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-015R PE=4 SV=1
+sp|Q5UQN0|YL437_MIMIV   140.6   6.1e-41   1   1.0   0.2    Uncharacterized protein L437 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L437 PE=4 SV=1
+sp|O55711|VF075_IIV6    136.7   9.2e-40   1   1.0   0.0    Uncharacterized protein 075L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-075L PE=3 SV=1
+sp|P0CAF5|VF354_ASFWA    27.9   1.1e-06   2   2.1   0.1    Uncharacterized protein B354L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-088 PE=3 SV=1
+sp|P0CAF4|VF354_ASFP4    27.8   1.2e-06   2   2.1   0.1    Uncharacterized protein B354L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-090 PE=3 SV=1
+sp|P0C752|VF354_ASFM2    27.8   1.2e-06   2   2.1   0.1    Uncharacterized protein B354L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-086 PE=3 SV=1
+sp|Q65168|VF354_ASFB7    27.8   1.2e-06   2   2.1   0.1    Uncharacterized protein B354L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-078 PE=3 SV=1
+sp|P0CAF3|VF354_ASFK5    27.8   1.2e-06   2   2.1   0.1    Uncharacterized protein B354L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-090 PE=3 SV=1
+sp|Q5UR08|YL649_MIMIV    16.8    0.0027   1   1.3   0.8    Uncharacterized protein L649 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L649 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q196X2|VF075_IIV3    151.5   2.8e-44     1   0.0     25    242     32    235     87    289     Uncharacterized protein 088R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-088R PE=3 SV=1
+sp|Q6GZW0|015R_FRG3G    143.8   6.3e-42     1   0.1      8    258     26    242     88    301     Uncharacterized protein 015R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-015R PE=4 SV=1
+sp|Q5UQN0|YL437_MIMIV   140.3   7.4e-41     1   0.2      2    252      7    245     77    307     Uncharacterized protein L437 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L437 PE=4 SV=1
+sp|O55711|VF075_IIV6    136.5   1.1e-39     1   0.0      4    254     22    214     82    272     Uncharacterized protein 075L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-075L PE=3 SV=1
+sp|P0CAF3|VF354_ASFK5    20.0    0.0003     2   0.2    139    277    190    252    160    220     Uncharacterized protein B354L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-090 PE=3 SV=1
+sp|P0CAF5|VF354_ASFWA    19.9    0.0003     2   0.2    138    277    190    252    160    220     Uncharacterized protein B354L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-088 PE=3 SV=1
+sp|P0C752|VF354_ASFM2    19.9   0.00031     2   0.2    138    277    191    252    161    220     Uncharacterized protein B354L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-086 PE=3 SV=1
+sp|P0CAF4|VF354_ASFP4    19.9   0.00031     2   0.2    138    277    191    252    161    220     Uncharacterized protein B354L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-090 PE=3 SV=1
+sp|Q65168|VF354_ASFB7    19.9   0.00031     2   0.2    138    277    191    252    161    220     Uncharacterized protein B354L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-078 PE=3 SV=1
+sp|Q5UR08|YL649_MIMIV    16.1    0.0044     1   0.8     97    224    108    208    169    269     Uncharacterized protein L649 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L649 PE=4 SV=1
+sp|P0C752|VF354_ASFM2     5.8       5.8     1   0.0      6     83     19     77     85    143     Uncharacterized protein B354L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-086 PE=3 SV=1
+sp|P0CAF4|VF354_ASFP4     5.8       5.8     1   0.0      6     83     19     77     85    143     Uncharacterized protein B354L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-090 PE=3 SV=1
+sp|P0CAF5|VF354_ASFWA     5.8       5.8     1   0.0      6     83     19     77     85    143     Uncharacterized protein B354L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-088 PE=3 SV=1
+sp|Q65168|VF354_ASFB7     5.8       5.8     1   0.0      6     83     19     77     85    143     Uncharacterized protein B354L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-078 PE=3 SV=1
+sp|P0CAF3|VF354_ASFK5     5.7       6.3     1   0.0      9     83     20     77     86    143     Uncharacterized protein B354L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-090 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008436434@NC_022098.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008436434@NC_022098.txt data/models_hmm/YP_008436434@NC_022098.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:06 2021
+# [ok]

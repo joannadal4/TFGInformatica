@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q69553|U18_HHV6U    325.4   2.6e-97   1   1.0   6.3    Putative immediate early glycoprotein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U18 PE=3 SV=1
+sp|Q9WT46|U18_HHV6Z    324.4   5.4e-97   1   1.0   7.1    Putative immediate early glycoprotein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U18 PE=3 SV=1
+sp|P16778|VGLI_HCMVA   106.9   8.5e-31   1   1.1   6.8    UL37 immediate early glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL37 PE=1 SV=2
+sp|Q6SW94|VGLI_HCMVM    95.8     2e-27   1   1.1   8.1    UL37 immediate early glycoprotein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL37 PE=3 SV=1
+sp|Q9T1U3|REGQ_BPAPS    10.7      0.17   1   1.1   0.0    Probable antitermination protein Q OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=5 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q69553|U18_HHV6U    325.3   2.9e-97     1   6.3      1    293     10    292     11    300     Putative immediate early glycoprotein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U18 PE=3 SV=1
+sp|Q9WT46|U18_HHV6Z    324.2     6e-97     1   7.1      1    294     10    293     11    301     Putative immediate early glycoprotein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U18 PE=3 SV=1
+sp|P16778|VGLI_HCMVA   106.4   1.2e-30     1   6.8    152    483    168    469     10    301     UL37 immediate early glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL37 PE=1 SV=2
+sp|Q6SW94|VGLI_HCMVM    95.3   2.8e-27     1   8.1    159    484    179    470     11    301     UL37 immediate early glycoprotein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL37 PE=3 SV=1
+sp|Q9T1U3|REGQ_BPAPS    10.3      0.22     1   0.0     42    101     45     89     63    109     Probable antitermination protein Q OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=5 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_064142@NC_002512.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_064142@NC_002512.txt data/models_hmm/NP_064142@NC_002512.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:40 2021
+# [ok]

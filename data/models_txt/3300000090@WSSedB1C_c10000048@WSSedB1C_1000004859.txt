@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P15134|E310_ADE07    15.1     0.019   1   1.2   3.3    Early E3B 10.4 kDa protein OS=Human adenovirus B serotype 7 OX=10519 PE=3 SV=1
+sp|P11318|E310_ADE03    14.0     0.042   1   1.2   4.0    Early E3B 10.4 kDa protein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P15134|E310_ADE07    14.7     0.024     1   3.3      3     71     27     69     39     80     Early E3B 10.4 kDa protein OS=Human adenovirus B serotype 7 OX=10519 PE=3 SV=1
+sp|P11318|E310_ADE03    13.7     0.052     1   4.0      5     71     28     69     40     80     Early E3B 10.4 kDa protein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000090@WSSedB1C_c10000048@WSSedB1C_1000004859.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000090@WSSedB1C_c10000048@WSSedB1C_1000004859.txt data/models_hmm/3300000090@WSSedB1C_c10000048@WSSedB1C_1000004859.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:19 2021
+# [ok]

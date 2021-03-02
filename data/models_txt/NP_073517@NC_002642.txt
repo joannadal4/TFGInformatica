@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R7E0|Y089_OSHVF    12.2      0.16   1   1.6   2.5    Uncharacterized protein ORF89 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF89 PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R7E0|Y089_OSHVF    12.1      0.17     1   1.3    173    219    180    205     28     53     Uncharacterized protein ORF89 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF89 PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_073517@NC_002642.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_073517@NC_002642.txt data/models_hmm/NP_073517@NC_002642.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:47 2021
+# [ok]

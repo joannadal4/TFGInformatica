@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C9B0|VF509_ASFK5    11.4      0.13   2   1.6   0.1    Putative ATP-dependent RNA helicase QP509L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-135 PE=3 SV=1
+sp|Q89576|VF509_ASFM2    11.3      0.14   1   1.3   0.0    Putative ATP-dependent RNA helicase QP509L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-131 PE=3 SV=1
+sp|Q914H6|Y056_SIFVH     11.3      0.15   1   1.5   0.4    Uncharacterized protein 56 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0056 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q89576|VF509_ASFM2    10.5      0.24     1   0.0    165    234    171    201     65     95     Putative ATP-dependent RNA helicase QP509L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-131 PE=3 SV=1
+sp|P0C9B0|VF509_ASFK5    10.2       0.3     2   0.0    165    233    171    201     65     95     Putative ATP-dependent RNA helicase QP509L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-135 PE=3 SV=1
+sp|Q914H6|Y056_SIFVH     10.1      0.32     1   0.3     98    170    117    163    273    319     Uncharacterized protein 56 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0056 PE=3 SV=1
+sp|P0C9B0|VF509_ASFK5    -3.3   3.8e+03     1   0.0     57     80     65     77     22     34     Putative ATP-dependent RNA helicase QP509L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-135 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000665@SRS016037_WUGC_scaffold_37239@SRS016037_WUGC_scaffold_37239_gene_58144.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000665@SRS016037_WUGC_scaffold_37239@SRS016037_WUGC_scaffold_37239_gene_58144.txt data/models_hmm/7000000665@SRS016037_WUGC_scaffold_37239@SRS016037_WUGC_scaffold_37239_gene_58144.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:51 2021
+# [ok]

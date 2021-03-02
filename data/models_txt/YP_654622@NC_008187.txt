@@ -1,0 +1,38 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q197B0|VF145_IIV3   283.5   3.6e-85   1   1.0  19.7    Uncharacterized protein 050L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-050L PE=3 SV=1
+sp|O55750|VF145_IIV6    31.0   1.7e-07   1   1.1  13.4    Uncharacterized protein 145L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-145L PE=3 SV=1
+sp|P37987|RDRP_CVB      14.4     0.022   2   1.8   0.7    RNA replication protein (Fragment) OS=Chrysanthemum virus B OX=12165 PE=3 SV=1
+sp|P0C8K2|RPB2_ASFK5    11.8      0.14   1   1.8   0.5    DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-065 PE=3 SV=1
+sp|P0C8K4|RPB2_ASFP4    11.8      0.14   1   1.8   0.5    DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-065 PE=3 SV=1
+sp|P0C8K5|RPB2_ASFWA    11.8      0.14   1   1.8   0.5    DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-063 PE=3 SV=1
+sp|P42487|RPB2_ASFB7    11.8      0.14   1   1.7   0.5    DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-053 PE=3 SV=1
+sp|P0C8K3|RPB2_ASFM2    11.7      0.15   1   1.7   0.5    DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-061 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q197B0|VF145_IIV3   283.4   3.9e-85     1  19.7      1    152      3    150      6    153     Uncharacterized protein 050L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-050L PE=3 SV=1
+sp|O55750|VF145_IIV6    30.6   2.3e-07     1  13.4      2    151      6    147      7    141     Uncharacterized protein 145L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-145L PE=3 SV=1
+sp|P37987|RDRP_CVB      12.7     0.075     2   0.8    181    259    195    252     84    143     RNA replication protein (Fragment) OS=Chrysanthemum virus B OX=12165 PE=3 SV=1
+sp|P0C8K3|RPB2_ASFM2    10.3       0.4     1   0.5     15    112     38     95     69    126     DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-061 PE=3 SV=1
+sp|P0C8K2|RPB2_ASFK5    10.2      0.43     1   0.5     16    112     40     95     71    126     DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-065 PE=3 SV=1
+sp|P0C8K4|RPB2_ASFP4    10.2      0.43     1   0.5     16    112     40     95     71    126     DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-065 PE=3 SV=1
+sp|P0C8K5|RPB2_ASFWA    10.2      0.43     1   0.5     16    112     40     95     71    126     DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-063 PE=3 SV=1
+sp|P42487|RPB2_ASFB7    10.2      0.43     1   0.5     16    112     40     95     71    126     DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-053 PE=3 SV=1
+sp|P37987|RDRP_CVB      -1.9   2.2e+03     1   0.0     72     95     74     93     24     45     RNA replication protein (Fragment) OS=Chrysanthemum virus B OX=12165 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_654622@NC_008187.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_654622@NC_008187.txt data/models_hmm/YP_654622@NC_008187.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:40 2021
+# [ok]

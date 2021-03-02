@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|J7H5K9|MEM_GOGV       8.0       2.5   1   1.1   4.1    Putative membrane protein OS=Alethinophid 1 reptarenavirus (isolate AlRrV1/Boa/USA/BC/2009) OX=1223562 GN=Segment L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|J7H5K9|MEM_GOGV       7.9       2.7     1   4.1      9     93     13     73      5     65     Putative membrane protein OS=Alethinophid 1 reptarenavirus (isolate AlRrV1/Boa/USA/BC/2009) OX=1223562 GN=Segment L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001426377@NC_008603.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001426377@NC_008603.txt data/models_hmm/YP_001426377@NC_008603.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:14 2021
+# [ok]

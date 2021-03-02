@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q4ZJY7|GL18B_MDBVW    13.3     0.066   5   4.4   0.2    Mucin-like protein Glc1.8b OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O16 PE=3 SV=1
+sp|Q4ZJZ0|GL18A_MDBVW    12.5      0.12   4   4.0   0.1    Mucin-like protein Glc1.8a OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O9 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q4ZJY7|GL18B_MDBVW     2.5   1.6e+02     5   0.0    349    387    357    381      5     29     Mucin-like protein Glc1.8b OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O16 PE=3 SV=1
+sp|Q4ZJZ0|GL18A_MDBVW     2.5   1.6e+02     4   0.0    349    387    357    381      5     29     Mucin-like protein Glc1.8a OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O9 PE=3 SV=1
+sp|Q4ZJY7|GL18B_MDBVW     2.3   1.7e+02     1   0.0     37     74     45     69      5     29     Mucin-like protein Glc1.8b OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O16 PE=3 SV=1
+sp|Q4ZJZ0|GL18A_MDBVW     2.3   1.7e+02     1   0.0     37     74     45     69      5     29     Mucin-like protein Glc1.8a OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O9 PE=3 SV=1
+sp|Q4ZJY7|GL18B_MDBVW     0.5   6.6e+02     2   0.0    115    149    123    147      5     29     Mucin-like protein Glc1.8b OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O16 PE=3 SV=1
+sp|Q4ZJY7|GL18B_MDBVW     0.5   6.6e+02     3   0.0    193    227    201    225      5     29     Mucin-like protein Glc1.8b OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O16 PE=3 SV=1
+sp|Q4ZJZ0|GL18A_MDBVW     0.5   6.6e+02     2   0.0    115    149    123    147      5     29     Mucin-like protein Glc1.8a OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O9 PE=3 SV=1
+sp|Q4ZJZ0|GL18A_MDBVW     0.5   6.6e+02     3   0.0    193    227    201    225      5     29     Mucin-like protein Glc1.8a OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O9 PE=3 SV=1
+sp|Q4ZJY7|GL18B_MDBVW    -1.7   3.1e+03     4   0.0    275    305    279    303      5     29     Mucin-like protein Glc1.8b OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O16 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007007350@NC_019526.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007007350@NC_019526.txt data/models_hmm/YP_007007350@NC_019526.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:20 2021
+# [ok]

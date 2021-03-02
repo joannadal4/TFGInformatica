@@ -1,0 +1,43 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21602|TR14_HCMVA     31.2   1.1e-07   2   1.7   2.6    Protein TRL14 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|F5HI32|IR10_HCMVM     23.9     2e-05   1   1.3   2.0    Protein IRL10 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL10 PE=3 SV=1
+sp|P16808|IR10_HCMVA     21.1   0.00014   1   1.6   3.3    Protein IRL10 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|Q66676|VGE9_EHV2      18.1    0.0012   2   2.1  16.4    Uncharacterized gene E9 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=E9 PE=3 SV=1
+sp|P16809|IR11_HCMVA     16.4    0.0037   2   2.1   0.3    Viral Fc-gamma receptor-like protein IR11 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|P15139|E321_ADE35     15.9    0.0052   1   1.4  11.1    Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 35 OX=10522 PE=3 SV=2
+sp|P09259|GE_VZVD        14.7     0.012   1   1.4   0.0    Envelope glycoprotein E OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gE PE=1 SV=1
+sp|Q9J3M8|GE_VZVO        14.7     0.012   1   1.4   0.0    Envelope glycoprotein E OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gE PE=1 SV=1
+sp|Q6SWD1|RL11_HCMVM     14.4     0.015   2   2.1   0.7    Membrane glycoprotein RL11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL11 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21602|TR14_HCMVA     31.2   1.1e-07     1   2.6     10    105     23     99     60    138     Protein TRL14 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|F5HI32|IR10_HCMVM     23.2   3.1e-05     1   2.0     16    152     27    131    181    290     Protein IRL10 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL10 PE=3 SV=1
+sp|P16808|IR10_HCMVA     20.1   0.00028     1   3.3     17    155     46    133    202    291     Protein IRL10 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|Q66676|VGE9_EHV2      18.1    0.0012     2  16.4     63    177     70    174    168    266     Uncharacterized gene E9 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=E9 PE=3 SV=1
+sp|P15139|E321_ADE35     15.4    0.0076     1  11.0     11    169     61    156    100    198     Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 35 OX=10522 PE=3 SV=2
+sp|P09259|GE_VZVD        13.7     0.025     1   0.0    508    581    531    575    229    273     Envelope glycoprotein E OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gE PE=1 SV=1
+sp|Q9J3M8|GE_VZVO        13.7     0.025     1   0.0    508    581    531    575    229    273     Envelope glycoprotein E OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gE PE=1 SV=1
+sp|P16809|IR11_HCMVA     12.1     0.078     1   0.0     15    141     58    130     63    131     Viral Fc-gamma receptor-like protein IR11 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|Q6SWD1|RL11_HCMVM     11.0      0.16     1   0.1     19    141     61    130     67    131     Membrane glycoprotein RL11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL11 PE=3 SV=1
+sp|P16809|IR11_HCMVA      2.6        60     2   0.0    170    207    177    201    229    251     Viral Fc-gamma receptor-like protein IR11 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|Q6SWD1|RL11_HCMVM      1.8     1e+02     2   0.1    170    208    177    201    229    251     Membrane glycoprotein RL11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL11 PE=3 SV=1
+sp|P21602|TR14_HCMVA     -0.4     5e+02     2   0.1    102    160    131    157    225    250     Protein TRL14 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|Q66676|VGE9_EHV2     -10.0   1.7e+04     1  31.5     11     70     19     61    177    222     Uncharacterized gene E9 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=E9 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_068108@NC_006150.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_068108@NC_006150.txt data/models_hmm/YP_068108@NC_006150.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:57 2021
+# [ok]

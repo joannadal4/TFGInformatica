@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21027|G6_VACCC     204.0   1.4e-60   1   1.9   2.2    Uncharacterized protein G6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G6R PE=3 SV=1
+sp|Q80HW9|G6_VACCW     203.5     2e-60   1   1.9   1.8    Uncharacterized protein G6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR084 PE=3 SV=1
+sp|P0DOU3|G6_VAR67     202.3   4.5e-60   1   1.9   2.8    Uncharacterized protein G6 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G6R PE=3 SV=1
+sp|P0DOU4|G6_VARV      202.3   4.5e-60   1   1.9   2.8    Uncharacterized protein G6 OS=Variola virus OX=10255 GN=G6R PE=3 SV=1
+sp|Q82040|VP4_ROTHC     17.4    0.0022   1   1.6   0.3    Outer capsid protein VP4 OS=Rotavirus C (isolate RVC/Human/United Kingdom/Bristol/1989) OX=31567 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21027|G6_VACCC     199.9   2.5e-59     1   2.2      1    164      1    160      1    181     Uncharacterized protein G6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G6R PE=3 SV=1
+sp|Q80HW9|G6_VACCW     199.4   3.5e-59     1   1.8      1    164      1    160      1    181     Uncharacterized protein G6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR084 PE=3 SV=1
+sp|P0DOU3|G6_VAR67     198.2   8.2e-59     1   2.8      1    164      1    160      1    181     Uncharacterized protein G6 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G6R PE=3 SV=1
+sp|P0DOU4|G6_VARV      198.2   8.2e-59     1   2.8      1    164      1    160      1    181     Uncharacterized protein G6 OS=Variola virus OX=10255 GN=G6R PE=3 SV=1
+sp|Q82040|VP4_ROTHC     16.1    0.0056     1   0.3    350    437    360    431     92    165     Outer capsid protein VP4 OS=Rotavirus C (isolate RVC/Human/United Kingdom/Bristol/1989) OX=31567 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_227440@NC_006966.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_227440@NC_006966.txt data/models_hmm/YP_227440@NC_006966.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:19 2021
+# [ok]

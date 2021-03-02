@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPH0|YL100_MIMIV     9.1       1.4   3   3.9   6.2    Putative ankyrin repeat protein L100 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L100 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPH0|YL100_MIMIV     4.0        54     1   0.2    289    334    291    323      6     38     Putative ankyrin repeat protein L100 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L100 PE=4 SV=1
+sp|Q5UPH0|YL100_MIMIV     3.2        92     3   0.1    463    572    475    529     10     65     Putative ankyrin repeat protein L100 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L100 PE=4 SV=1
+sp|Q5UPH0|YL100_MIMIV     2.5   1.5e+02     2   0.1    378    437    388    421     13     46     Putative ankyrin repeat protein L100 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L100 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000305@SRS062761_LANL_scaffold_36026@SRS062761_LANL_scaffold_36026_gene_41424.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000305@SRS062761_LANL_scaffold_36026@SRS062761_LANL_scaffold_36026_gene_41424.txt data/models_hmm/7000000305@SRS062761_LANL_scaffold_36026@SRS062761_LANL_scaffold_36026_gene_41424.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:09 2021
+# [ok]

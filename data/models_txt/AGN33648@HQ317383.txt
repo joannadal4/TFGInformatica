@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P32225|LAP_SWPVK     12.1      0.11   2   1.8   0.2    E3 ubiquitin-protein ligase LAP OS=Swinepox virus (strain Kasza) OX=10277 GN=LAP PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P32225|LAP_SWPVK     12.1      0.11     1   0.2     12     69     19     51     27     59     E3 ubiquitin-protein ligase LAP OS=Swinepox virus (strain Kasza) OX=10277 GN=LAP PE=3 SV=1
+sp|P32225|LAP_SWPVK     -2.0   2.7e+03     2   0.1     89    109     90    106     53     69     E3 ubiquitin-protein ligase LAP OS=Swinepox virus (strain Kasza) OX=10277 GN=LAP PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGN33648@HQ317383.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGN33648@HQ317383.txt data/models_hmm/AGN33648@HQ317383.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:55 2021
+# [ok]

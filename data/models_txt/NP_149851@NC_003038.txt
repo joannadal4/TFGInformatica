@@ -1,0 +1,68 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91F58|468L_IIV6     556.1  2.5e-167   1   1.0  26.0    Putative MSV199 domain-containing protein 468L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-468L PE=4 SV=1
+sp|Q91FT4|238R_IIV6     500.8  1.7e-150   1   1.1  33.8    Putative MSV199 domain-containing protein 238R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-238R PE=3 SV=1
+sp|Q91FW0|211L_IIV6     497.7  1.5e-149   1   1.0  23.4    Putative MSV199 domain-containing protein 211L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-211L PE=4 SV=1
+sp|O55752|148R_IIV6     492.3  6.3e-148   1   1.0  28.2    Putative MSV199 domain-containing protein 148R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-148R PE=4 SV=1
+sp|Q91FD6|388R_IIV6     454.2  2.3e-136   2   2.0  23.4    Putative MSV199 domain-containing protein 388R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-388R PE=3 SV=1
+sp|Q91FV9|212L_IIV6     419.2    1e-125   1   1.0  19.3    Putative MSV199 domain-containing protein 212L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-212L PE=4 SV=1
+sp|Q91G88|006L_IIV6     225.7   6.2e-67   2   2.1  24.6    Putative KilA-N domain-containing protein 006L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-006L PE=3 SV=1
+sp|Q91FL1|313L_IIV6     213.6     3e-63   1   1.8  29.7    Putative KilA-N domain-containing protein 313L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-313L PE=3 SV=1
+sp|Q91G67|029R_IIV6     173.7   3.9e-51   1   1.0   1.8    Uncharacterized protein 029R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-029R PE=4 SV=1
+sp|Q91G76|VF019_IIV6    150.1   5.6e-44   1   1.2   8.0    Uncharacterized protein 019R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-019R PE=3 SV=1
+sp|Q91FA5|420R_IIV6     119.0   1.6e-34   2   1.4  20.9    Putative MSV199 domain-containing protein 420R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-420R PE=4 SV=1
+sp|O55751|146R_IIV6      88.0   4.4e-25   1   1.3   4.1    Putative MSV199 domain-containing protein 146R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-146R PE=4 SV=1
+sp|Q5UQZ4|YR904_MIMIV    75.2   3.4e-21   2   1.4  18.2    Putative KilA-N domain-containing protein R904 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R904 PE=4 SV=1
+sp|Q196W7|VF019_IIV3     56.1   2.1e-15   1   1.1   0.0    Putative MSV199 domain-containing protein 093L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-093L PE=3 SV=1
+sp|Q5UP83|YL004_MIMIV    52.7   2.3e-14   1   1.3  18.2    Putative KilA-N domain-containing protein L4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L4 PE=4 SV=1
+sp|Q7T6Y3|YR879_MIMIV    34.0   1.1e-08   1   1.4  22.0    Putative KilA-N domain-containing protein R879 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R879 PE=4 SV=2
+sp|Q5UPA7|YL030_MIMIV    19.5   0.00027   1   1.3   2.5    Uncharacterized protein L30 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L30 PE=4 SV=1
+sp|P23801|PE38_NPVAC     15.4    0.0048   2   1.9   4.7    Major immediate early protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PE38 PE=4 SV=2
+sp|P69172|C_BPPHS        13.8     0.015   2   2.0   0.0    Protein C OS=Enterobacteria phage phiX174 (Isolate Sanger) OX=1217068 GN=C PE=3 SV=1
+sp|P69173|VGC_BPS13      13.8     0.015   2   2.0   0.0    C protein OS=Enterobacteria phage S13 OX=10844 GN=C PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91F58|468L_IIV6     556.0  2.8e-167     1  26.0      1    376      1    376      1    379     Putative MSV199 domain-containing protein 468L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-468L PE=4 SV=1
+sp|Q91FT4|238R_IIV6     500.4  2.2e-150     1  33.8     51    436     60    436      4    379     Putative MSV199 domain-containing protein 238R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-238R PE=3 SV=1
+sp|Q91FW0|211L_IIV6     497.5  1.6e-149     1  23.4      1    381      3    381      5    379     Putative MSV199 domain-containing protein 211L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-211L PE=4 SV=1
+sp|O55752|148R_IIV6     491.9    8e-148     1  28.2     26    414     30    414      3    379     Putative MSV199 domain-containing protein 148R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-148R PE=4 SV=1
+sp|Q91FV9|212L_IIV6     419.0  1.1e-125     1  19.3      1    360      2    360      7    379     Putative MSV199 domain-containing protein 212L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-212L PE=4 SV=1
+sp|Q91FD6|388R_IIV6     280.7   1.2e-83     1   9.2      1    210      2    209      6    209     Putative MSV199 domain-containing protein 388R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-388R PE=3 SV=1
+sp|Q91G88|006L_IIV6     225.7   6.2e-67     2  24.6    142    352    152    352    181    379     Putative KilA-N domain-containing protein 006L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-006L PE=3 SV=1
+sp|Q91FL1|313L_IIV6     212.1   8.5e-63     1  29.4    107    355    127    354    178    378     Putative KilA-N domain-containing protein 313L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-313L PE=3 SV=1
+sp|Q91FD6|388R_IIV6     181.7   1.5e-53     2   7.0    204    344    206    344    237    379     Putative MSV199 domain-containing protein 388R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-388R PE=3 SV=1
+sp|Q91G67|029R_IIV6     173.6   4.2e-51     1   1.8      1    129      2    129    258    379     Uncharacterized protein 029R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-029R PE=4 SV=1
+sp|Q91G76|VF019_IIV6    149.9   6.5e-44     1   8.0     62    279    107    276      8    182     Uncharacterized protein 019R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-019R PE=3 SV=1
+sp|Q91FA5|420R_IIV6     119.0   1.6e-34     1  20.9      2    239      6    220     37    247     Putative MSV199 domain-containing protein 420R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-420R PE=4 SV=1
+sp|O55751|146R_IIV6      87.8     5e-25     1   3.8    104    245    150    243     51    145     Putative MSV199 domain-containing protein 146R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-146R PE=4 SV=1
+sp|Q5UQZ4|YR904_MIMIV    75.2   3.4e-21     2  18.2    149    342    161    340    196    376     Putative KilA-N domain-containing protein R904 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R904 PE=4 SV=1
+sp|Q196W7|VF019_IIV3     55.8   2.6e-15     1   0.0    130    301    163    299     65    202     Putative MSV199 domain-containing protein 093L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-093L PE=3 SV=1
+sp|Q5UP83|YL004_MIMIV    51.9   3.9e-14     1  18.2    263    451    273    449    202    376     Putative KilA-N domain-containing protein L4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L4 PE=4 SV=1
+sp|Q7T6Y3|YR879_MIMIV    34.0   1.1e-08     1  22.0     61    295     64    267    162    351     Putative KilA-N domain-containing protein R879 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R879 PE=4 SV=2
+sp|Q5UPA7|YL030_MIMIV    19.2   0.00035     1   2.5      1    149      4    113    247    345     Uncharacterized protein L30 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L30 PE=4 SV=1
+sp|P23801|PE38_NPVAC     15.4    0.0048     2   4.7    139    280    144    264    166    272     Major immediate early protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PE38 PE=4 SV=2
+sp|P69172|C_BPPHS         8.3      0.72     1   0.0      3     47      5     41    104    140     Protein C OS=Enterobacteria phage phiX174 (Isolate Sanger) OX=1217068 GN=C PE=3 SV=1
+sp|P69173|VGC_BPS13       8.3      0.72     1   0.0      3     47      5     41    104    140     C protein OS=Enterobacteria phage S13 OX=10844 GN=C PE=4 SV=1
+sp|P69172|C_BPPHS         6.2       3.1     2   0.0     38     76     40     69     69     98     Protein C OS=Enterobacteria phage phiX174 (Isolate Sanger) OX=1217068 GN=C PE=3 SV=1
+sp|P69173|VGC_BPS13       6.2       3.1     2   0.0     38     76     40     69     69     98     C protein OS=Enterobacteria phage S13 OX=10844 GN=C PE=4 SV=1
+sp|Q91G88|006L_IIV6       1.8        68     1   0.5     65    144     80    134     19     68     Putative KilA-N domain-containing protein 006L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-006L PE=3 SV=1
+sp|P23801|PE38_NPVAC     -2.2   1.1e+03     1   2.6      5     83     44     64    191    223     Major immediate early protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PE38 PE=4 SV=2
+sp|Q5UQZ4|YR904_MIMIV    -3.5   2.6e+03     1   0.6     17     98     33     48     95    110     Putative KilA-N domain-containing protein R904 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R904 PE=4 SV=1
+sp|Q91FA5|420R_IIV6      -3.8   3.4e+03     2   0.0    368    416    387    404    210    227     Putative MSV199 domain-containing protein 420R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-420R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_149851@NC_003038.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_149851@NC_003038.txt data/models_hmm/NP_149851@NC_003038.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:56 2021
+# [ok]

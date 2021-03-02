@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13390|FIBL1_BPT5    35.3   4.6e-09   3   3.0  80.2    L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+sp|P10308|FIBER_BPT3    15.7     0.004   1   1.4   6.9    Tail fiber protein OS=Enterobacteria phage T3 OX=10759 GN=17 PE=3 SV=1
+sp|P03748|FIBER_BPT7    12.7     0.031   2   1.8  14.9    Tail fiber protein OS=Escherichia phage T7 OX=10760 GN=17 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13390|FIBL1_BPT5    23.3   1.9e-05     2  30.3    136    234    140    206    146    212     L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+sp|P13390|FIBL1_BPT5    20.3   0.00016     1  38.7     13    143     46    138    144    235     L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+sp|P10308|FIBER_BPT3    14.7    0.0077     1   6.9    150    273    186    252    158    224     Tail fiber protein OS=Enterobacteria phage T3 OX=10759 GN=17 PE=3 SV=1
+sp|P03748|FIBER_BPT7    13.5     0.018     1  12.2    152    283    177    259    156    238     Tail fiber protein OS=Escherichia phage T7 OX=10760 GN=17 PE=1 SV=1
+sp|P03748|FIBER_BPT7    -1.2   5.1e+02     2   0.0    346    393    365    388    298    321     Tail fiber protein OS=Escherichia phage T7 OX=10760 GN=17 PE=1 SV=1
+sp|P13390|FIBL1_BPT5    -1.5   6.3e+02     3   0.3    557    631    562    614    167    219     L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001456752@NC_009799.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001456752@NC_009799.txt data/models_hmm/YP_001456752@NC_009799.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:18 2021
+# [ok]

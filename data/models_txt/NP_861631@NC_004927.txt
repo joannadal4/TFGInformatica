@@ -1,0 +1,42 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P32934|VP6_BTV13     13.0     0.076   2   2.5   0.5    Protein VP6 OS=Bluetongue virus 13 (isolate USA) OX=33717 GN=Segment-9 PE=3 SV=1
+sp|P33422|VP6_BTV2A     13.0     0.077   2   2.4   0.6    Protein VP6 OS=Bluetongue virus 2 (isolate USA) OX=10907 GN=Segment-9 PE=3 SV=1
+sp|P32935|VP6_BTV17     13.0     0.078   2   2.5   0.6    Protein VP6 OS=Bluetongue virus 17 (isolate USA) OX=33718 GN=Segment-9 PE=3 SV=1
+sp|Q98829|VP6A_BTV10    12.9     0.079   2   2.5   0.6    Protein VP6-A OS=Bluetongue virus 10 (isolate USA) OX=10900 GN=Segment-9 PE=3 SV=3
+sp|P0C6L1|VP6_BTVBZ     12.9      0.08   2   2.5   0.6    Protein VP6 OS=Bluetongue virus 13 (isolate 13B89Z) OX=355314 GN=Segment-9 PE=3 SV=1
+sp|P32933|VP6_BTV11     12.9      0.08   2   2.5   0.6    Protein VP6 OS=Bluetongue virus 11 (isolate USA) OX=33716 GN=Segment-9 PE=3 SV=1
+sp|Q03328|VP6_BTV1S     12.6       0.1   2   2.4   0.9    Protein VP6 OS=Bluetongue virus 1 (isolate South Africa) OX=10905 GN=Segment-9 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P33422|VP6_BTV2A     10.5      0.46     2   0.1    124    147    127    144      8     25     Protein VP6 OS=Bluetongue virus 2 (isolate USA) OX=10907 GN=Segment-9 PE=3 SV=1
+sp|P32934|VP6_BTV13     10.4      0.49     2   0.1    148    172    151    168      8     25     Protein VP6 OS=Bluetongue virus 13 (isolate USA) OX=33717 GN=Segment-9 PE=3 SV=1
+sp|P32933|VP6_BTV11     10.4       0.5     2   0.1    148    171    151    168      8     25     Protein VP6 OS=Bluetongue virus 11 (isolate USA) OX=33716 GN=Segment-9 PE=3 SV=1
+sp|P32935|VP6_BTV17     10.4       0.5     2   0.1    148    171    151    168      8     25     Protein VP6 OS=Bluetongue virus 17 (isolate USA) OX=33718 GN=Segment-9 PE=3 SV=1
+sp|P0C6L1|VP6_BTVBZ     10.4      0.51     2   0.1    152    175    155    172      8     25     Protein VP6 OS=Bluetongue virus 13 (isolate 13B89Z) OX=355314 GN=Segment-9 PE=3 SV=1
+sp|Q03328|VP6_BTV1S     10.4      0.51     2   0.1    152    175    155    172      8     25     Protein VP6 OS=Bluetongue virus 1 (isolate South Africa) OX=10905 GN=Segment-9 PE=3 SV=1
+sp|Q98829|VP6A_BTV10    10.3      0.51     2   0.1    152    175    155    172      8     25     Protein VP6-A OS=Bluetongue virus 10 (isolate USA) OX=10900 GN=Segment-9 PE=3 SV=3
+sp|Q03328|VP6_BTV1S     -0.9   1.6e+03     1   0.1    134    149    136    145     15     24     Protein VP6 OS=Bluetongue virus 1 (isolate South Africa) OX=10905 GN=Segment-9 PE=3 SV=1
+sp|P33422|VP6_BTV2A     -0.9   1.6e+03     1   0.0    106    121    108    117     15     24     Protein VP6 OS=Bluetongue virus 2 (isolate USA) OX=10907 GN=Segment-9 PE=3 SV=1
+sp|P32933|VP6_BTV11     -1.0   1.8e+03     1   0.0    130    145    132    141     15     24     Protein VP6 OS=Bluetongue virus 11 (isolate USA) OX=33716 GN=Segment-9 PE=3 SV=1
+sp|P32934|VP6_BTV13     -1.0   1.8e+03     1   0.0    130    145    132    141     15     24     Protein VP6 OS=Bluetongue virus 13 (isolate USA) OX=33717 GN=Segment-9 PE=3 SV=1
+sp|P32935|VP6_BTV17     -1.0   1.8e+03     1   0.0    130    145    132    141     15     24     Protein VP6 OS=Bluetongue virus 17 (isolate USA) OX=33718 GN=Segment-9 PE=3 SV=1
+sp|P0C6L1|VP6_BTVBZ     -1.0   1.8e+03     1   0.0    134    149    136    145     15     24     Protein VP6 OS=Bluetongue virus 13 (isolate 13B89Z) OX=355314 GN=Segment-9 PE=3 SV=1
+sp|Q98829|VP6A_BTV10    -1.0   1.8e+03     1   0.0    134    149    136    145     15     24     Protein VP6-A OS=Bluetongue virus 10 (isolate USA) OX=10900 GN=Segment-9 PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_861631@NC_004927.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_861631@NC_004927.txt data/models_hmm/NP_861631@NC_004927.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:31 2021
+# [ok]

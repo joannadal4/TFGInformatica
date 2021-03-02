@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A4ZUA3|Y107B_ABVP    14.4     0.017   1   1.1   0.1    Uncharacterized protein ORF107b OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF107b PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A4ZUA3|Y107B_ABVP    14.4     0.018     1   0.1      8     98     26     80    148    203     Uncharacterized protein ORF107b OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF107b PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000052@SRS042643_WUGC_scaffold_38308@SRS042643_WUGC_scaffold_38308_gene_53272.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000052@SRS042643_WUGC_scaffold_38308@SRS042643_WUGC_scaffold_38308_gene_53272.txt data/models_hmm/7000000052@SRS042643_WUGC_scaffold_38308@SRS042643_WUGC_scaffold_38308_gene_53272.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:04 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9QJT8|PHOSP_SHRV    13.9     0.034   2   1.7   0.2    Phosphoprotein OS=Snakehead rhabdovirus OX=103603 GN=P PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9QJT8|PHOSP_SHRV    12.4     0.098     2   0.1     87    178    101    165     82    145     Phosphoprotein OS=Snakehead rhabdovirus OX=103603 GN=P PE=3 SV=1
+sp|Q9QJT8|PHOSP_SHRV     0.5   4.2e+02     1   0.1     68    121     74    108    147    180     Phosphoprotein OS=Snakehead rhabdovirus OX=103603 GN=P PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007011068@NC_019549.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007011068@NC_019549.txt data/models_hmm/YP_007011068@NC_019549.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:28 2021
+# [ok]

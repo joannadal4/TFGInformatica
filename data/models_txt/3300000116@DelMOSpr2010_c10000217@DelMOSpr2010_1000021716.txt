@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36345|VP40_NPVHZ    12.2      0.12   1   1.5   0.0    Structural glycoprotein p40 OS=Heliothis zea nuclear polyhedrosis virus OX=28290 GN=P40 PE=2 SV=1
+sp|P23073|ENV_SFV1      11.6      0.19   2   2.5   0.5    Envelope glycoprotein gp130 OS=Simian foamy virus type 1 OX=338478 GN=env PE=3 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36345|VP40_NPVHZ    11.2      0.25     1   0.0      3     51     11     38     32     59     Structural glycoprotein p40 OS=Heliothis zea nuclear polyhedrosis virus OX=28290 GN=P40 PE=2 SV=1
+sp|P23073|ENV_SFV1       7.1       4.8     1   0.1     12     58     14     55     20     58     Envelope glycoprotein gp130 OS=Simian foamy virus type 1 OX=338478 GN=env PE=3 SV=3
+sp|P23073|ENV_SFV1       1.6   2.4e+02     2   0.0    219    256    223    244     35     56     Envelope glycoprotein gp130 OS=Simian foamy virus type 1 OX=338478 GN=env PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000116@DelMOSpr2010_c10000217@DelMOSpr2010_1000021716.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000116@DelMOSpr2010_c10000217@DelMOSpr2010_1000021716.txt data/models_hmm/3300000116@DelMOSpr2010_c10000217@DelMOSpr2010_1000021716.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:43 2021
+# [ok]

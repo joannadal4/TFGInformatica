@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q196Z7|VF309_IIV3   347.2  2.7e-104   1   1.0   0.1    Uncharacterized protein 063R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-063R PE=3 SV=1
+sp|Q91FL5|VF309_IIV6   258.2   4.8e-77   1   1.8   1.0    Uncharacterized protein 309L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-309L PE=3 SV=1
+sp|Q69557|U22_HHV6U     12.5     0.072   1   1.2   0.0    Glycoprotein U22 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U22 PE=3 SV=1
+sp|Q9QJ44|U22_HHV6Z     12.5     0.074   1   1.1   0.0    Protein U22 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U22 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q196Z7|VF309_IIV3   347.1    3e-104     1   0.1      1    212      1    212      1    213     Uncharacterized protein 063R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-063R PE=3 SV=1
+sp|Q91FL5|VF309_IIV6   255.8   2.5e-76     1   1.0      1    217      2    217     16    207     Uncharacterized protein 309L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-309L PE=3 SV=1
+sp|Q69557|U22_HHV6U     12.1     0.093     1   0.0     50    152     70    135     26     88     Glycoprotein U22 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U22 PE=3 SV=1
+sp|Q9QJ44|U22_HHV6Z     12.0       0.1     1   0.0     60    153     70    136     26     89     Protein U22 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U22 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_654635@NC_008187.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_654635@NC_008187.txt data/models_hmm/YP_654635@NC_008187.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:40 2021
+# [ok]

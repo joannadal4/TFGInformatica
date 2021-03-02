@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03749|TIPJ_LAMBD    12.6     0.012   1   1.1   0.1    Tip attachment protein J OS=Escherichia phage lambda OX=10710 GN=J PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03749|TIPJ_LAMBD    12.0     0.017     1   0.1    921   1029    938   1002   1292   1355     Tip attachment protein J OS=Escherichia phage lambda OX=10710 GN=J PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000334@SRS015217_WUGC_scaffold_3638@SRS015217_WUGC_scaffold_3638_gene_2132.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000334@SRS015217_WUGC_scaffold_3638@SRS015217_WUGC_scaffold_3638_gene_2132.txt data/models_hmm/7000000334@SRS015217_WUGC_scaffold_3638@SRS015217_WUGC_scaffold_3638_gene_2132.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:28 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q85431|RDRP_RSVT     16.4    0.0047   1   2.1   0.0    RNA-dependent RNA polymerase OS=Rice stripe virus (isolate T) OX=36394 GN=pc1 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q85431|RDRP_RSVT     14.4     0.019     1   0.0   1476   1567   1486   1546     44    102     RNA-dependent RNA polymerase OS=Rice stripe virus (isolate T) OX=36394 GN=pc1 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_3861232_len_211451_cov_5_332990@_HiSeq_03646880.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_3861232_len_211451_cov_5_332990@_HiSeq_03646880.txt data/models_hmm/2061766007@rumenHiSeq_NODE_3861232_len_211451_cov_5_332990@_HiSeq_03646880.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:40 2021
+# [ok]

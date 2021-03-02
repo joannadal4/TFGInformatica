@@ -1,0 +1,83 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HDQ6|DNBI_HCMVM  1488.8         0   1   1.0   0.0    Major DNA-binding protein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=DBP PE=3 SV=1
+sp|P17147|DNBI_HCMVA  1487.3         0   1   1.0   0.0    Major DNA-binding protein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=DBP PE=1 SV=1
+sp|P13215|DNBI_SCMVC  1477.5         0   1   1.0   0.1    Major DNA-binding protein OS=Simian cytomegalovirus (strain Colburn) OX=50292 GN=DBP PE=2 SV=2
+sp|Q9WRL7|DNBI_TUHV2  1408.4         0   1   1.0   0.0    Major DNA-binding protein OS=Tupaiid herpesvirus (strain 2) OX=132678 GN=DBP PE=3 SV=1
+sp|P28932|DNBI_EHV1B  1400.0         0   1   1.0   0.0    Major DNA-binding protein OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=DBP PE=3 SV=1
+sp|Q6S6P0|DNBI_EHV1V  1399.5         0   1   1.0   0.0    Major DNA-binding protein OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=DBP PE=3 SV=1
+sp|P24910|DNBI_SHV21  1383.9         0   1   1.0  11.6    Major DNA-binding protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=DBP PE=3 SV=1
+sp|P30672|DNBI_MUHVS  1374.1         0   1   1.0   0.0    Major DNA-binding protein OS=Murid herpesvirus 1 (strain Smith) OX=10367 GN=DBP PE=3 SV=1
+sp|P52339|DNBI_HHV7J  1342.5         0   1   1.0  10.4    Major DNA-binding protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=DBP PE=3 SV=1
+sp|O36360|DNBI_ALHV1  1342.0         0   1   1.0   5.6    Major DNA-binding protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=DBP PE=3 SV=1
+sp|Q2HRD3|DNBI_HHV8P  1335.8         0   1   1.0   0.0    Major DNA-binding protein OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=DBP PE=1 SV=1
+sp|P52538|DNBI_HHV6Z  1332.1         0   1   1.0  11.5    Major DNA-binding protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=DBP PE=3 SV=1
+sp|P52338|DNBI_HHV6U  1331.4         0   1   1.0  10.3    Major DNA-binding protein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=DBP PE=3 SV=1
+sp|Q66611|DNBI_EHV2   1328.0         0   1   1.0   0.0    Major DNA-binding protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=DBP PE=3 SV=1
+sp|Q9E6P0|DNBI_GAHVM  1326.2         0   1   1.0   0.0    Major DNA-binding protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=DBP PE=3 SV=1
+sp|P09246|DNBI_VZVD   1322.0         0   1   1.0   0.0    Major DNA-binding protein OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=DBP PE=3 SV=1
+sp|P04296|DNBI_HHV11  1320.3         0   1   1.0   0.0    Major DNA-binding protein OS=Human herpesvirus 1 (strain 17) OX=10299 GN=DBP PE=1 SV=1
+sp|Q4JQU6|DNBI_VZVO   1319.0         0   1   1.0   0.0    Major DNA-binding protein OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=DBP PE=3 SV=1
+sp|P17470|DNBI_HHV1K  1318.1         0   1   1.0   0.0    Major DNA-binding protein OS=Human herpesvirus 1 (strain KOS) OX=10306 GN=DBP PE=3 SV=1
+sp|P17469|DNBI_HHV1F  1317.5         0   1   1.0   0.0    Major DNA-binding protein OS=Human herpesvirus 1 (strain F) OX=10304 GN=DBP PE=3 SV=1
+sp|P89452|DNBI_HHV2H  1312.3         0   1   1.0   0.0    Major DNA-binding protein OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=DBP PE=3 SV=1
+sp|P36384|DNBI_HHV2   1311.7         0   1   1.0   0.0    Major DNA-binding protein OS=Human herpesvirus 2 OX=10310 GN=DBP PE=3 SV=1
+sp|P11870|DNBI_SUHVF  1299.2         0   1   1.0   0.0    Major DNA-binding protein OS=Suid herpesvirus 1 (strain Indiana-Funkhauser / Becker) OX=31523 GN=DBP PE=3 SV=2
+sp|P03227|DNBI_EBVB9  1263.8         0   1   1.0   0.0    Major DNA-binding protein OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=DBP PE=1 SV=1
+sp|Q1HVB8|DNBI_EBVA8  1260.5         0   1   1.0   0.0    Major DNA-binding protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=DBP PE=3 SV=1
+sp|Q3KSN9|DNBI_EBVG   1260.1         0   1   1.0   0.0    Major DNA-binding protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=DBP PE=3 SV=1
+sp|P12639|DNBI_BHV2B  1253.5         0   1   1.0   0.0    Major DNA-binding protein OS=Bovine herpesvirus 2 (strain BMV) OX=10296 GN=DBP PE=3 SV=2
+sp|Q6UDK2|DNBI_PSHV1  1191.0         0   1   1.0   0.0    Major DNA-binding protein OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=DBP PE=3 SV=1
+sp|Q18LF9|DNBI_ELHVK  1185.1         0   1   1.0   1.8    Major DNA-binding protein OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 GN=DBP PE=3 SV=1
+sp|Q03444|DNBI_EHV1    372.3  3.6e-111   1   1.0   0.0    Major DNA-binding protein (Fragment) OS=Equine herpesvirus 1 (strain HVS25A) OX=10327 PE=3 SV=1
+sp|Q80HX7|F11_VACCW     10.6     0.062   1   1.2   1.4    Protein F11 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR050 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HDQ6|DNBI_HCMVM  1488.7         0     1   0.0      1   1235      1   1233      1   1135     Major DNA-binding protein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=DBP PE=3 SV=1
+sp|P17147|DNBI_HCMVA  1487.2         0     1   0.0      1   1235      1   1233      1   1135     Major DNA-binding protein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=DBP PE=1 SV=1
+sp|P13215|DNBI_SCMVC  1477.4         0     1   0.1      1   1160      1   1160      1   1137     Major DNA-binding protein OS=Simian cytomegalovirus (strain Colburn) OX=50292 GN=DBP PE=2 SV=2
+sp|Q9WRL7|DNBI_TUHV2  1408.2         0     1   0.0      1   1193      2   1192      3   1136     Major DNA-binding protein OS=Tupaiid herpesvirus (strain 2) OX=132678 GN=DBP PE=3 SV=1
+sp|P28932|DNBI_EHV1B  1399.9         0     1   0.0      1   1209      1   1209      1   1142     Major DNA-binding protein OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=DBP PE=3 SV=1
+sp|Q6S6P0|DNBI_EHV1V  1399.4         0     1   0.0      1   1209      1   1209      1   1142     Major DNA-binding protein OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=DBP PE=3 SV=1
+sp|P24910|DNBI_SHV21  1383.7         0     1  11.6      8   1126     10   1119      3   1137     Major DNA-binding protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=DBP PE=3 SV=1
+sp|P30672|DNBI_MUHVS  1373.9         0     1   0.0      1   1191      1   1191      1   1137     Major DNA-binding protein OS=Murid herpesvirus 1 (strain Smith) OX=10367 GN=DBP PE=3 SV=1
+sp|P52339|DNBI_HHV7J  1342.4         0     1  10.4      1   1131      3   1130      2   1136     Major DNA-binding protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=DBP PE=3 SV=1
+sp|O36360|DNBI_ALHV1  1341.8         0     1   5.6     10   1125     12   1124      3   1141     Major DNA-binding protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=DBP PE=3 SV=1
+sp|Q2HRD3|DNBI_HHV8P  1335.6         0     1   0.0      8   1127     10   1081      3   1099     Major DNA-binding protein OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=DBP PE=1 SV=1
+sp|P52538|DNBI_HHV6Z  1332.0         0     1  11.5      1   1132      3   1132      2   1137     Major DNA-binding protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=DBP PE=3 SV=1
+sp|P52338|DNBI_HHV6U  1331.3         0     1  10.3      1   1132      3   1132      2   1137     Major DNA-binding protein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=DBP PE=3 SV=1
+sp|Q66611|DNBI_EHV2   1327.8         0     1   0.0     10   1143     12   1135      3   1136     Major DNA-binding protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=DBP PE=3 SV=1
+sp|Q9E6P0|DNBI_GAHVM  1326.1         0     1   0.0      1   1191      1   1191      1   1142     Major DNA-binding protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=DBP PE=3 SV=1
+sp|P09246|DNBI_VZVD   1321.8         0     1   0.0      1   1204      1   1203      1   1141     Major DNA-binding protein OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=DBP PE=3 SV=1
+sp|P04296|DNBI_HHV11  1320.1         0     1   0.0      1   1196      7   1196      4   1142     Major DNA-binding protein OS=Human herpesvirus 1 (strain 17) OX=10299 GN=DBP PE=1 SV=1
+sp|Q4JQU6|DNBI_VZVO   1318.9         0     1   0.0      1   1199      1   1198      1   1141     Major DNA-binding protein OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=DBP PE=3 SV=1
+sp|P17470|DNBI_HHV1K  1318.0         0     1   0.0      1   1196      7   1196      4   1142     Major DNA-binding protein OS=Human herpesvirus 1 (strain KOS) OX=10306 GN=DBP PE=3 SV=1
+sp|P17469|DNBI_HHV1F  1317.4         0     1   0.0      1   1196      7   1196      4   1142     Major DNA-binding protein OS=Human herpesvirus 1 (strain F) OX=10304 GN=DBP PE=3 SV=1
+sp|P89452|DNBI_HHV2H  1312.0         0     1   0.0      3   1196      7   1196      4   1142     Major DNA-binding protein OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=DBP PE=3 SV=1
+sp|P36384|DNBI_HHV2   1311.4         0     1   0.0      3   1197      7   1197      4   1142     Major DNA-binding protein OS=Human herpesvirus 2 OX=10310 GN=DBP PE=3 SV=1
+sp|P11870|DNBI_SUHVF  1299.1         0     1   0.0      1   1175      1   1175      1   1142     Major DNA-binding protein OS=Suid herpesvirus 1 (strain Indiana-Funkhauser / Becker) OX=31523 GN=DBP PE=3 SV=2
+sp|P03227|DNBI_EBVB9  1263.5         0     1   0.0      6   1123      7   1119      2   1137     Major DNA-binding protein OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=DBP PE=1 SV=1
+sp|Q1HVB8|DNBI_EBVA8  1260.2         0     1   0.0      6   1123      7   1119      2   1137     Major DNA-binding protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=DBP PE=3 SV=1
+sp|Q3KSN9|DNBI_EBVG   1259.8         0     1   0.0      6   1123      7   1118      2   1136     Major DNA-binding protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=DBP PE=3 SV=1
+sp|P12639|DNBI_BHV2B  1253.4         0     1   0.0      1   1186      6   1186      3   1142     Major DNA-binding protein OS=Bovine herpesvirus 2 (strain BMV) OX=10296 GN=DBP PE=3 SV=2
+sp|Q6UDK2|DNBI_PSHV1  1190.8         0     1   0.0     10   1186     12   1185      3   1141     Major DNA-binding protein OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=DBP PE=3 SV=1
+sp|Q18LF9|DNBI_ELHVK  1184.8         0     1   1.8      3   1143      4   1143      2   1137     Major DNA-binding protein OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 GN=DBP PE=3 SV=1
+sp|Q03444|DNBI_EHV1    372.0  4.4e-111     1   0.0      4    375     10    375    793   1142     Major DNA-binding protein (Fragment) OS=Equine herpesvirus 1 (strain HVS25A) OX=10327 PE=3 SV=1
+sp|Q80HX7|F11_VACCW     10.0     0.089     1   1.4    260    347    272    345    548    621     Protein F11 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR050 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_733854@NC_004367.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_733854@NC_004367.txt data/models_hmm/NP_733854@NC_004367.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:20 2021
+# [ok]

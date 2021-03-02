@@ -1,0 +1,57 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64046|TMP_BPSPB      18.2    0.0018  12  12.9   7.0    Probable tape measure protein OS=Bacillus phage SPbeta OX=66797 GN=yomI PE=3 SV=1
+sp|O55736|122R_IIV6      17.0    0.0041   2   1.9   3.2    Uncharacterized protein 122R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-122R PE=4 SV=1
+sp|P26312|VFUS_VACC6     14.9     0.018   1   1.1   0.4    14 kDa fusion protein OS=Vaccinia virus (strain WR 65-16) OX=10247 GN=A27L PE=3 SV=1
+sp|P20535|A27_VACCC      13.5     0.049   1   1.1   5.1    14 kDa fusion protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A27L PE=3 SV=1
+sp|P11258|A27_VACCW      13.5      0.05   1   1.1   5.1    Protein A27 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR150 PE=1 SV=3
+sp|P33816|A27_VAR67      13.0      0.07   1   1.2   3.4    14 kDa fusion protein OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A27L PE=3 SV=1
+sp|P19200|YOR1_COYMV     12.3      0.11   3   2.7   0.3    Uncharacterized 23 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+sp|P27379|PKG6_BPPRD     12.0      0.14   1   1.2   6.7    Packaging efficiency factor P6 OS=Enterobacteria phage PRD1 OX=10658 GN=VI PE=1 SV=1
+sp|P15423|SPIKE_CVH22    11.9      0.15   2   2.3   0.8    Spike glycoprotein OS=Human coronavirus 229E OX=11137 GN=S PE=1 SV=1
+sp|P41428|AC23_NPVAC      7.9       2.5   2   2.5   8.9    Protein AC23 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64046|TMP_BPSPB      18.2    0.0018     8   7.0   1297   1403   1331   1392     26     87     Probable tape measure protein OS=Bacillus phage SPbeta OX=66797 GN=yomI PE=3 SV=1
+sp|O55736|122R_IIV6      17.0    0.0041     1   3.2      1     98      3     83     33    114     Uncharacterized protein 122R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-122R PE=4 SV=1
+sp|P26312|VFUS_VACC6     14.6     0.022     1   0.4     65    136     69    134     35    100     14 kDa fusion protein OS=Vaccinia virus (strain WR 65-16) OX=10247 GN=A27L PE=3 SV=1
+sp|P20535|A27_VACCC      13.3     0.055     1   5.1     16    110     34    108     26    100     14 kDa fusion protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A27L PE=3 SV=1
+sp|P11258|A27_VACCW      13.3     0.055     1   5.1     16    110     34    108     26    100     Protein A27 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR150 PE=1 SV=3
+sp|P33816|A27_VAR67      12.8     0.079     1   3.4     16    110     38    108     30    100     14 kDa fusion protein OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A27L PE=3 SV=1
+sp|P19200|YOR1_COYMV     12.3      0.11     3   0.3    149    200    155    198     14     57     Uncharacterized 23 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+sp|P27379|PKG6_BPPRD     11.8      0.16     1   6.7      1    135      3     91      4     88     Packaging efficiency factor P6 OS=Enterobacteria phage PRD1 OX=10658 GN=VI PE=1 SV=1
+sp|P41428|AC23_NPVAC      9.2      0.99     1   1.3     74    181     80    137     47    106     Protein AC23 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=3 SV=1
+sp|P15423|SPIKE_CVH22     7.4       3.7     1   0.2    797    883    804    875      6     77     Spike glycoprotein OS=Human coronavirus 229E OX=11137 GN=S PE=1 SV=1
+sp|O64046|TMP_BPSPB       4.7        25     1   2.4      9     77     14     70     30     86     Probable tape measure protein OS=Bacillus phage SPbeta OX=66797 GN=yomI PE=3 SV=1
+sp|P15423|SPIKE_CVH22     2.4   1.3e+02     2   0.0   1036   1102   1057   1099     43     85     Spike glycoprotein OS=Human coronavirus 229E OX=11137 GN=S PE=1 SV=1
+sp|P41428|AC23_NPVAC      2.3   1.4e+02     2   1.3    176    312    202    306     38    130     Protein AC23 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=3 SV=1
+sp|P19200|YOR1_COYMV      1.8   1.9e+02     2   1.2    100    156    107    144      9     46     Uncharacterized 23 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+sp|O64046|TMP_BPSPB       1.3   2.7e+02    12  11.3   2018   2139   2026   2116      6     89     Probable tape measure protein OS=Bacillus phage SPbeta OX=66797 GN=yomI PE=3 SV=1
+sp|O64046|TMP_BPSPB       0.6   4.5e+02     6   3.7    990   1116    994   1102      4    104     Probable tape measure protein OS=Bacillus phage SPbeta OX=66797 GN=yomI PE=3 SV=1
+sp|O55736|122R_IIV6       0.6   4.5e+02     2   0.3    100    141    109    138     14     43     Uncharacterized protein 122R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-122R PE=4 SV=1
+sp|O64046|TMP_BPSPB      -0.5   9.7e+02     2   5.6     67    154     70    140     41    107     Probable tape measure protein OS=Bacillus phage SPbeta OX=66797 GN=yomI PE=3 SV=1
+sp|O64046|TMP_BPSPB      -0.6     1e+03     3   1.0    185    300    225    287     41    103     Probable tape measure protein OS=Bacillus phage SPbeta OX=66797 GN=yomI PE=3 SV=1
+sp|P19200|YOR1_COYMV     -0.8   1.2e+03     1   0.0     26     69     28     47     76     95     Uncharacterized 23 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+sp|O64046|TMP_BPSPB      -1.2   1.6e+03     4   0.0    271    357    297    341     50     94     Probable tape measure protein OS=Bacillus phage SPbeta OX=66797 GN=yomI PE=3 SV=1
+sp|O64046|TMP_BPSPB      -3.5   8.4e+03    10  18.1   1816   1936   1843   1902     18     74     Probable tape measure protein OS=Bacillus phage SPbeta OX=66797 GN=yomI PE=3 SV=1
+sp|O64046|TMP_BPSPB      -4.1   1.3e+04     7   3.3   1106   1259   1132   1226     30    125     Probable tape measure protein OS=Bacillus phage SPbeta OX=66797 GN=yomI PE=3 SV=1
+sp|O64046|TMP_BPSPB     -15.7   1.7e+04     5  24.6    760   1017    829    897     28     84     Probable tape measure protein OS=Bacillus phage SPbeta OX=66797 GN=yomI PE=3 SV=1
+sp|O64046|TMP_BPSPB      -5.1   1.7e+04     9  16.1   1702   1862   1765   1859     26    120     Probable tape measure protein OS=Bacillus phage SPbeta OX=66797 GN=yomI PE=3 SV=1
+sp|O64046|TMP_BPSPB      -7.0   1.7e+04    11  14.8   1911   2029   1935   2021      9     98     Probable tape measure protein OS=Bacillus phage SPbeta OX=66797 GN=yomI PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002265455@NC_011318.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002265455@NC_011318.txt data/models_hmm/YP_002265455@NC_011318.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:00 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P50804|VE6_HPV70     11.6      0.29   2   2.5   4.6    Protein E6 OS=Human papillomavirus type 70 OX=39457 GN=E6 PE=1 SV=1
+sp|P26555|VE6_HPV58     10.1      0.87   2   2.7   4.0    Protein E6 OS=Human papillomavirus type 58 OX=10598 GN=E6 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P50804|VE6_HPV70     12.0      0.22     2   0.5     87    149    115    147     47     78     Protein E6 OS=Human papillomavirus type 70 OX=39457 GN=E6 PE=1 SV=1
+sp|P26555|VE6_HPV58      8.1       3.5     1   0.1      4     71     29     62     28     60     Protein E6 OS=Human papillomavirus type 58 OX=10598 GN=E6 PE=3 SV=1
+sp|P26555|VE6_HPV58      2.0   2.8e+02     2   0.1    118    147    126    140     19     33     Protein E6 OS=Human papillomavirus type 58 OX=10598 GN=E6 PE=3 SV=1
+sp|P50804|VE6_HPV70      0.5   8.6e+02     1   0.3     28     75     32     48     29     45     Protein E6 OS=Human papillomavirus type 70 OX=39457 GN=E6 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003857037@NC_014459.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003857037@NC_014459.txt data/models_hmm/YP_003857037@NC_014459.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:43 2021
+# [ok]

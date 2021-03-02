@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9YW20|NMT_MSEPV     15.4     0.017   1   1.4   0.0    Putative glycylpeptide N-tetradecanoyltransferase OS=Melanoplus sanguinipes entomopoxvirus OX=83191 GN=MSV072 PE=3 SV=1
+sp|P15187|RDRP_CNV      13.9     0.049   1   1.8   0.0    RNA-directed RNA polymerase OS=Cucumber necrosis virus OX=12143 GN=ORF1 PE=3 SV=2
+sp|P15962|RDRP_TBSVC    13.8     0.052   1   1.8   0.0    RNA-directed RNA polymerase OS=Tomato bushy stunt virus (strain Cherry) OX=12147 GN=ORF1 PE=3 SV=2
+sp|P20221|F92_SSV1      12.5      0.13   2   1.6   0.9    Uncharacterized protein F-92 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=f92 PE=4 SV=1
+sp|P41467|AC66_NPVAC     6.6       8.8   3   3.2   5.8    Protein Ac66 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=Ac66 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9YW20|NMT_MSEPV     14.6     0.029     1   0.0    139    249    146    220      8     78     Putative glycylpeptide N-tetradecanoyltransferase OS=Melanoplus sanguinipes entomopoxvirus OX=83191 GN=MSV072 PE=3 SV=1
+sp|P15187|RDRP_CNV      12.3      0.16     1   0.0    377    455    383    425      8     50     RNA-directed RNA polymerase OS=Cucumber necrosis virus OX=12143 GN=ORF1 PE=3 SV=2
+sp|P15962|RDRP_TBSVC    12.2      0.16     1   0.0    377    455    384    425      9     50     RNA-directed RNA polymerase OS=Tomato bushy stunt virus (strain Cherry) OX=12147 GN=ORF1 PE=3 SV=2
+sp|P20221|F92_SSV1      11.5      0.27     1   0.6     13     78     22     64     60    100     Uncharacterized protein F-92 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=f92 PE=4 SV=1
+sp|P41467|AC66_NPVAC     6.6       8.9     1   0.9    402    487    430    474     65    109     Protein Ac66 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=Ac66 PE=1 SV=1
+sp|P41467|AC66_NPVAC    -0.0   9.9e+02     3   0.0    746    804    754    792     71    109     Protein Ac66 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=Ac66 PE=1 SV=1
+sp|P20221|F92_SSV1      -0.7   1.6e+03     2   0.0     65     91     69     85     74     90     Uncharacterized protein F-92 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=f92 PE=4 SV=1
+sp|P41467|AC66_NPVAC    -2.9   7.7e+03     2   0.0    713    759    719    738     73     92     Protein Ac66 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=Ac66 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006988587@NC_019406.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006988587@NC_019406.txt data/models_hmm/YP_006988587@NC_019406.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:48 2021
+# [ok]

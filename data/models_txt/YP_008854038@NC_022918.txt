@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DOD4|VE8E2_HPV65    15.0    0.0089   1   1.0   3.0    Protein E8^E2C OS=Human papillomavirus type 65 OX=28312 PE=3 SV=1
+sp|Q07873|VE4_HPV65      12.5     0.051   1   1.0   6.7    Protein E4 OS=Human papillomavirus type 65 OX=28312 GN=E4 PE=3 SV=2
+sp|P05925|VPU_HV1EL      12.3     0.057   1   1.0   0.0    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate ELI) OX=11689 GN=vpu PE=3 SV=1
+sp|P18806|VPU_HV1ND      11.2      0.13   1   1.0   0.1    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=vpu PE=3 SV=1
+sp|Q07851|VE2_HPV65      10.9      0.15   1   1.1   5.2    Regulatory protein E2 OS=Human papillomavirus type 65 OX=28312 GN=E2 PE=3 SV=1
+sp|P04855|FUS_SENDZ       6.6       3.2   1   1.2   4.6    Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|P04856|FUS_SENDH       6.4       3.5   1   1.2   4.6    Fusion glycoprotein F0 OS=Sendai virus (strain Harris) OX=11196 GN=F PE=3 SV=1
+sp|P12575|FUS_SENDF       6.1       4.3   1   1.2   5.0    Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DOD4|VE8E2_HPV65    14.7     0.011     1   3.0      3    116     17    104    247    328     Protein E8^E2C OS=Human papillomavirus type 65 OX=28312 PE=3 SV=1
+sp|Q07873|VE4_HPV65      12.3     0.058     1   6.7      4    113     17    103    223    306     Protein E4 OS=Human papillomavirus type 65 OX=28312 GN=E4 PE=3 SV=2
+sp|P05925|VPU_HV1EL      12.2     0.063     1   0.0      2     73      7     58     10     61     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate ELI) OX=11689 GN=vpu PE=3 SV=1
+sp|P18806|VPU_HV1ND      11.0      0.14     1   0.1      2     72      5     57     10     60     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=vpu PE=3 SV=1
+sp|Q07851|VE2_HPV65      10.4      0.22     1   5.2    195    308    211    296    249    328     Regulatory protein E2 OS=Human papillomavirus type 65 OX=28312 GN=E2 PE=3 SV=1
+sp|P04855|FUS_SENDZ       5.9       5.1     1   4.6    493    528    498    523      8     33     Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|P04856|FUS_SENDH       5.8       5.4     1   4.6    493    528    498    523      8     33     Fusion glycoprotein F0 OS=Sendai virus (strain Harris) OX=11196 GN=F PE=3 SV=1
+sp|P12575|FUS_SENDF       5.5       6.7     1   5.0    493    529    498    523      8     33     Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008854038@NC_022918.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008854038@NC_022918.txt data/models_hmm/YP_008854038@NC_022918.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:35 2021
+# [ok]

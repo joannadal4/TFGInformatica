@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P26814|BOR_LAMBD      14.1     0.036   2   1.8   0.1    Lipoprotein bor OS=Escherichia phage lambda OX=10710 GN=bor PE=1 SV=1
+sp|O64256|VG64_BPMD2     13.5     0.053   1   1.5   0.1    Gene 64 protein OS=Mycobacterium phage D29 OX=28369 GN=64 PE=4 SV=1
+sp|P0DOK7|SPAN2_BPP21    13.5     0.056   1   1.1   0.1    Spanin, outer lipoprotein subunit OS=Enterobacteria phage P21 OX=10711 GN=Rz1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DOK7|SPAN2_BPP21    13.4     0.057     1   0.1      1     46      1     28      3     29     Spanin, outer lipoprotein subunit OS=Enterobacteria phage P21 OX=10711 GN=Rz1 PE=3 SV=1
+sp|O64256|VG64_BPMD2     12.6       0.1     1   0.1      1     42      8     34      8     33     Gene 64 protein OS=Mycobacterium phage D29 OX=28369 GN=64 PE=4 SV=1
+sp|P26814|BOR_LAMBD      12.4      0.12     1   0.1      1     39      1     22      3     26     Lipoprotein bor OS=Escherichia phage lambda OX=10710 GN=bor PE=1 SV=1
+sp|P26814|BOR_LAMBD      -0.5   1.3e+03     2   0.0     41     84     50     73     32     56     Lipoprotein bor OS=Escherichia phage lambda OX=10710 GN=bor PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007348514@NC_020079.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007348514@NC_020079.txt data/models_hmm/YP_007348514@NC_020079.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:40 2021
+# [ok]

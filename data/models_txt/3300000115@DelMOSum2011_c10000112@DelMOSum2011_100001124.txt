@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CAE8|VF339_ASFP4    11.5      0.23   2   2.3   1.7    Uncharacterized protein D339L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-117 PE=3 SV=1
+sp|Q89907|VF339_ASFB7    11.2      0.28   2   2.3   2.0    Uncharacterized protein D339L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-105 PE=3 SV=1
+sp|P0CAE9|VF339_ASFWA    11.2      0.29   2   2.3   2.0    Uncharacterized protein D339L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-115 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CAE8|VF339_ASFP4     9.0       1.5     2   0.3    274    336    291    334     46     89     Uncharacterized protein D339L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-117 PE=3 SV=1
+sp|P0CAE9|VF339_ASFWA     8.9       1.6     2   0.4    275    336    291    334     46     89     Uncharacterized protein D339L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-115 PE=3 SV=1
+sp|Q89907|VF339_ASFB7     8.9       1.6     2   0.4    275    336    291    334     46     89     Uncharacterized protein D339L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-105 PE=3 SV=1
+sp|P0CAE8|VF339_ASFP4     1.1     4e+02     1   0.1    159    203    171    195     68     91     Uncharacterized protein D339L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-117 PE=3 SV=1
+sp|P0CAE9|VF339_ASFWA     1.1     4e+02     1   0.1    159    203    171    195     68     91     Uncharacterized protein D339L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-115 PE=3 SV=1
+sp|Q89907|VF339_ASFB7     1.1     4e+02     1   0.1    159    203    171    195     68     91     Uncharacterized protein D339L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-105 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000115@DelMOSum2011_c10000112@DelMOSum2011_100001124.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000115@DelMOSum2011_c10000112@DelMOSum2011_100001124.txt data/models_hmm/3300000115@DelMOSum2011_c10000112@DelMOSum2011_100001124.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:36 2021
+# [ok]

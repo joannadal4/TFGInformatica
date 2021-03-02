@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P34081|HMUI_BPSP1    10.8      0.37   2   2.1   2.5    DNA endonuclease I-HmuI OS=Bacillus phage SP01 OX=10685 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P34081|HMUI_BPSP1    10.8      0.36     1   0.2      3     46      5     36     37     68     DNA endonuclease I-HmuI OS=Bacillus phage SP01 OX=10685 PE=1 SV=1
+sp|P34081|HMUI_BPSP1    -1.2     2e+03     2   0.2    144    174    156    171     41     57     DNA endonuclease I-HmuI OS=Bacillus phage SP01 OX=10685 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007676956@NC_020873.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007676956@NC_020873.txt data/models_hmm/YP_007676956@NC_020873.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:03 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36867|YPE2_NPVLD    85.7   3.5e-24   1   1.0   1.5    Uncharacterized 9.2 kDa protein in PE 5'region OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=1
+sp|P41473|Y074_NPVAC    36.1   4.8e-09   1   1.3   7.0    Uncharacterized 30.6 kDa protein in IAP2-VLF1 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|O10327|Y074_NPVOP    25.6   7.6e-06   1   1.2   0.3    Uncharacterized 19.5 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF77 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36867|YPE2_NPVLD    85.4   4.1e-24     1   1.5      3     79      5     70    100    167     Uncharacterized 9.2 kDa protein in PE 5'region OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=1
+sp|P41473|Y074_NPVAC    35.6   6.9e-09     1   7.0     54    259    105    232     86    221     Uncharacterized 30.6 kDa protein in IAP2-VLF1 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|O10327|Y074_NPVOP    25.3   9.7e-06     1   0.3      6    159     29    142    105    220     Uncharacterized 19.5 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF77 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003517861@NC_013953.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003517861@NC_013953.txt data/models_hmm/YP_003517861@NC_013953.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:38 2021
+# [ok]

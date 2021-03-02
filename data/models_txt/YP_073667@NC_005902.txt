@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P14358|ICP46_FRG3G   552.1  4.2e-166   1   1.0   0.0    Immediate-early protein ICP-46 OS=Frog virus 3 (isolate Goorha) OX=654924 GN=ICR489 PE=3 SV=2
+sp|Q91FD1|ICP46_IIV6    108.3   3.5e-31   1   1.1   4.1    Immediate-early protein ICP-46 homolog OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-393L PE=3 SV=1
+sp|Q197C1|ICP46_IIV3     72.3   3.2e-20   2   1.8   2.4    Immediate-early protein ICP-46 homolog OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-039R PE=3 SV=1
+sp|P0DTD9|RLIG_BPRHR     12.6     0.044   1   1.5   0.0    RNA ligase OS=Rhodothermus phage RM378 OX=148943 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P14358|ICP46_FRG3G   551.9  4.8e-166     1   0.0      1    361      1    361      1    356     Immediate-early protein ICP-46 OS=Frog virus 3 (isolate Goorha) OX=654924 GN=ICR489 PE=3 SV=2
+sp|Q91FD1|ICP46_IIV6    107.9   4.8e-31     1   4.1     52    408     59    366     11    305     Immediate-early protein ICP-46 homolog OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-393L PE=3 SV=1
+sp|Q197C1|ICP46_IIV3     72.3   3.2e-20     2   2.4     53    388    101    348     53    316     Immediate-early protein ICP-46 homolog OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-039R PE=3 SV=1
+sp|P0DTD9|RLIG_BPRHR     11.6     0.089     1   0.0     98    232    122    217     58    165     RNA ligase OS=Rhodothermus phage RM378 OX=148943 PE=1 SV=1
+sp|Q197C1|ICP46_IIV3     -4.0     5e+03     1   0.1     11     31     12     27      4     19     Immediate-early protein ICP-46 homolog OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-039R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_073667@NC_005902.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_073667@NC_005902.txt data/models_hmm/YP_073667@NC_005902.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:00 2021
+# [ok]

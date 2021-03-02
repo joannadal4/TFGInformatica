@@ -1,0 +1,83 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21945|NSP_ABMVW     418.2  1.1e-125   1   1.0   0.1    Nuclear shuttle protein OS=Abutilon mosaic virus (isolate West India) OX=10816 GN=BR1 PE=1 SV=3
+sp|P0CK41|NSP_BGYMV     411.2  1.6e-123   1   1.0   2.6    Nuclear shuttle protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico) OX=222448 GN=BR1 PE=3 SV=1
+sp|P0CK42|NSP_BGYMJ     411.2  1.6e-123   1   1.0   2.6    Nuclear shuttle protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico-Japan) OX=222449 GN=BR1 PE=3 SV=1
+sp|Q96706|NSP_CALCV     404.5  1.6e-121   1   1.0   0.9    Nuclear shuttle protein OS=Cabbage leaf curl virus (isolate Jamaica) OX=345184 GN=BR1 PE=1 SV=1
+sp|Q06661|NSP_TMOV      401.3  1.6e-120   1   1.0   0.1    Nuclear shuttle protein OS=Tomato mottle virus (isolate Florida) OX=223359 GN=BR1 PE=3 SV=1
+sp|P03564|NSP_TGMVY     401.0  1.9e-120   1   1.0   1.6    Nuclear shuttle protein OS=Tomato golden mosaic virus (strain Yellow vein) OX=223341 GN=BR1 PE=3 SV=1
+sp|Q06927|NSP_PHUV      396.1  6.2e-119   1   1.0   0.9    Nuclear shuttle protein OS=Pepper huasteco yellow vein virus OX=223303 GN=BR1 PE=3 SV=1
+sp|P27268|NSP_PYMVV     380.4  3.6e-114   1   1.0   0.5    Nuclear shuttle protein OS=Potato yellow mosaic virus (isolate Venezuela) OX=223310 GN=BR1 PE=3 SV=1
+sp|P21935|NSP_SLCV      371.5  1.9e-111   1   1.0   1.5    Nuclear shuttle protein OS=Squash leaf curl virus OX=10829 GN=BR1 PE=1 SV=2
+sp|Q9YPS8|NSP_MYMVV     275.5   3.8e-82   1   1.0   0.0    Nuclear shuttle protein OS=Mungbean yellow mosaic virus (strain Vigna) OX=223295 GN=BR1 PE=3 SV=1
+sp|Q08595|NSP_ICMV      272.0   4.4e-81   1   1.0   0.0    Nuclear shuttle protein OS=Indian cassava mosaic virus OX=31600 GN=BR1 PE=3 SV=1
+sp|P14970|NSP_CLVN      255.2   6.2e-76   1   1.0   2.4    Nuclear shuttle protein OS=African cassava mosaic virus (isolate Nigerian) OX=222073 GN=BR1 PE=3 SV=1
+sp|P03565|NSP_CLVK      250.7   1.4e-74   1   1.0   1.0    Nuclear shuttle protein OS=African cassava mosaic virus (isolate West Kenyan 844) OX=10818 GN=BR1 PE=3 SV=1
+sp|Q9DXE8|CAPSD_TYLCC    25.9   5.8e-06   1   1.3   1.0    Capsid protein OS=Tomato yellow leaf curl China virus OX=185793 GN=V1 PE=3 SV=1
+sp|P27257|CAPSD_TYCSV    22.5     6e-05   1   1.3   0.4    Capsid protein OS=Tomato yellow leaf curl Sardinia virus OX=123735 GN=V2 PE=3 SV=2
+sp|P38608|CAPSD_TYCS1    22.5   6.3e-05   1   1.3   0.5    Capsid protein OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-1) OX=37139 GN=V1 PE=3 SV=1
+sp|Q67617|CAPSD_TYCS2    22.5   6.4e-05   1   1.3   0.5    Capsid protein OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-2) OX=221538 GN=V1 PE=3 SV=1
+sp|Q08583|CAPSD_ICMV     21.9   9.5e-05   1   1.4   0.8    Capsid protein OS=Indian cassava mosaic virus OX=31600 GN=AR1 PE=3 SV=1
+sp|P14966|CAPSD_CLVN     21.6   0.00012   2   1.5   0.1    Capsid protein OS=African cassava mosaic virus (isolate Nigerian) OX=222073 GN=AR1 PE=3 SV=1
+sp|Q06912|CAPSD_PHUV     21.1   0.00016   1   1.7   0.5    Capsid protein OS=Pepper huasteco yellow vein virus OX=223303 GN=AR1 PE=3 SV=1
+sp|Q9YPS5|CAPSD_MYMVV    21.1   0.00017   1   1.3   0.9    Capsid protein OS=Mungbean yellow mosaic virus (strain Vigna) OX=223295 GN=AR1 PE=1 SV=1
+sp|Q96701|CAPSD_CALCV    20.2   0.00032   1   1.6   0.6    Capsid protein OS=Cabbage leaf curl virus (isolate Jamaica) OX=345184 GN=AR1 PE=3 SV=1
+sp|P03560|CAPSD_TGMVY    20.0   0.00035   1   1.8   0.7    Capsid protein OS=Tomato golden mosaic virus (strain Yellow vein) OX=223341 GN=AR1 PE=3 SV=1
+sp|P0CK34|CAPSD_BGYMJ    19.7   0.00045   1   1.7   0.3    Capsid protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico-Japan) OX=222449 GN=AR1 PE=3 SV=1
+sp|P03561|CAPSD_CLVK     19.4   0.00055   2   1.5   0.1    Capsid protein OS=African cassava mosaic virus (isolate West Kenyan 844) OX=10818 GN=AR1 PE=1 SV=1
+sp|P27256|CAPSD_TYLCI    19.3   0.00059   1   1.7   0.9    Capsid protein OS=Tomato yellow leaf curl virus (strain Israel) OX=66366 GN=V1 PE=1 SV=1
+sp|P27444|CAPSD_SLCV     19.0   0.00074   1   1.7   0.5    Capsid protein OS=Squash leaf curl virus OX=10829 GN=AR1 PE=3 SV=1
+sp|P0CK33|CAPSD_BGYMV    18.5    0.0011   1   1.7   0.5    Capsid protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico) OX=222448 GN=AR1 PE=3 SV=1
+sp|P27255|CAPSD_PYMVV    17.9    0.0016   1   1.8   0.5    Capsid protein OS=Potato yellow mosaic virus (isolate Venezuela) OX=223310 GN=AR1 PE=3 SV=1
+sp|P21942|CAPSD_ABMVW    17.8    0.0016   1   1.9   0.4    Capsid protein OS=Abutilon mosaic virus (isolate West India) OX=10816 GN=AR1 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21945|NSP_ABMVW     418.1  1.2e-125     1   0.1      1    256      1    256      1    257     Nuclear shuttle protein OS=Abutilon mosaic virus (isolate West India) OX=10816 GN=BR1 PE=1 SV=3
+sp|P0CK41|NSP_BGYMV     411.0  1.7e-123     1   2.6      1    256      1    256      1    257     Nuclear shuttle protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico) OX=222448 GN=BR1 PE=3 SV=1
+sp|P0CK42|NSP_BGYMJ     411.0  1.7e-123     1   2.6      1    256      1    256      1    257     Nuclear shuttle protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico-Japan) OX=222449 GN=BR1 PE=3 SV=1
+sp|Q96706|NSP_CALCV     404.4  1.8e-121     1   0.9      1    256      1    256      1    257     Nuclear shuttle protein OS=Cabbage leaf curl virus (isolate Jamaica) OX=345184 GN=BR1 PE=1 SV=1
+sp|Q06661|NSP_TMOV      401.1  1.8e-120     1   0.1      1    257      1    257      1    257     Nuclear shuttle protein OS=Tomato mottle virus (isolate Florida) OX=223359 GN=BR1 PE=3 SV=1
+sp|P03564|NSP_TGMVY     400.9  2.1e-120     1   1.6      1    256      1    256      1    257     Nuclear shuttle protein OS=Tomato golden mosaic virus (strain Yellow vein) OX=223341 GN=BR1 PE=3 SV=1
+sp|Q06927|NSP_PHUV      395.9  6.9e-119     1   0.9      1    256      1    256      1    257     Nuclear shuttle protein OS=Pepper huasteco yellow vein virus OX=223303 GN=BR1 PE=3 SV=1
+sp|P27268|NSP_PYMVV     380.3  4.1e-114     1   0.5      1    256      1    256      1    257     Nuclear shuttle protein OS=Potato yellow mosaic virus (isolate Venezuela) OX=223310 GN=BR1 PE=3 SV=1
+sp|P21935|NSP_SLCV      371.4  2.2e-111     1   1.5      1    256      1    256      1    257     Nuclear shuttle protein OS=Squash leaf curl virus OX=10829 GN=BR1 PE=1 SV=2
+sp|Q9YPS8|NSP_MYMVV     275.2   4.6e-82     1   0.0      4    256     10    256      6    257     Nuclear shuttle protein OS=Mungbean yellow mosaic virus (strain Vigna) OX=223295 GN=BR1 PE=3 SV=1
+sp|Q08595|NSP_ICMV      271.8   5.1e-81     1   0.0      2    260      7    260      6    257     Nuclear shuttle protein OS=Indian cassava mosaic virus OX=31600 GN=BR1 PE=3 SV=1
+sp|P14970|NSP_CLVN      255.0   6.8e-76     1   2.4      1    256      2    256      2    257     Nuclear shuttle protein OS=African cassava mosaic virus (isolate Nigerian) OX=222073 GN=BR1 PE=3 SV=1
+sp|P03565|NSP_CLVK      250.6   1.6e-74     1   1.0      1    256      4    256      4    257     Nuclear shuttle protein OS=African cassava mosaic virus (isolate West Kenyan 844) OX=10818 GN=BR1 PE=3 SV=1
+sp|Q9DXE8|CAPSD_TYLCC    25.1   9.9e-06     1   1.0    107    247    115    231    106    235     Capsid protein OS=Tomato yellow leaf curl China virus OX=185793 GN=V1 PE=3 SV=1
+sp|P27257|CAPSD_TYCSV    21.9   9.4e-05     1   0.4    107    248    122    232    113    235     Capsid protein OS=Tomato yellow leaf curl Sardinia virus OX=123735 GN=V2 PE=3 SV=2
+sp|P38608|CAPSD_TYCS1    21.9   9.5e-05     1   0.5    107    248    122    232    113    235     Capsid protein OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-1) OX=37139 GN=V1 PE=3 SV=1
+sp|Q67617|CAPSD_TYCS2    21.9   9.5e-05     1   0.5    107    248    122    232    113    235     Capsid protein OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-2) OX=221538 GN=V1 PE=3 SV=1
+sp|P14966|CAPSD_CLVN     21.6   0.00012     2   0.1    108    249    123    233    113    235     Capsid protein OS=African cassava mosaic virus (isolate Nigerian) OX=222073 GN=AR1 PE=3 SV=1
+sp|Q08583|CAPSD_ICMV     21.0   0.00017     1   0.8    107    247    122    231    113    235     Capsid protein OS=Indian cassava mosaic virus OX=31600 GN=AR1 PE=3 SV=1
+sp|Q9YPS5|CAPSD_MYMVV    20.4   0.00027     1   0.9    108    248    123    232    113    235     Capsid protein OS=Mungbean yellow mosaic virus (strain Vigna) OX=223295 GN=AR1 PE=1 SV=1
+sp|Q06912|CAPSD_PHUV     19.5   0.00049     1   0.5    102    242    117    226    113    235     Capsid protein OS=Pepper huasteco yellow vein virus OX=223303 GN=AR1 PE=3 SV=1
+sp|P03561|CAPSD_CLVK     19.4   0.00055     2   0.1    113    249    130    233    120    235     Capsid protein OS=African cassava mosaic virus (isolate West Kenyan 844) OX=10818 GN=AR1 PE=1 SV=1
+sp|Q96701|CAPSD_CALCV    19.1   0.00069     1   0.6    102    242    117    226    113    235     Capsid protein OS=Cabbage leaf curl virus (isolate Jamaica) OX=345184 GN=AR1 PE=3 SV=1
+sp|P03560|CAPSD_TGMVY    18.4    0.0011     1   0.7     98    238    113    222    113    235     Capsid protein OS=Tomato golden mosaic virus (strain Yellow vein) OX=223341 GN=AR1 PE=3 SV=1
+sp|P0CK34|CAPSD_BGYMJ    18.2    0.0012     1   0.3    103    242    131    226    128    235     Capsid protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico-Japan) OX=222449 GN=AR1 PE=3 SV=1
+sp|P27256|CAPSD_TYLCI    17.9    0.0016     1   0.9    108    252    120    234    110    234     Capsid protein OS=Tomato yellow leaf curl virus (strain Israel) OX=66366 GN=V1 PE=1 SV=1
+sp|P27444|CAPSD_SLCV     17.5    0.0021     1   0.5    102    242    117    226    113    235     Capsid protein OS=Squash leaf curl virus OX=10829 GN=AR1 PE=3 SV=1
+sp|P0CK33|CAPSD_BGYMV    17.1    0.0028     1   0.5    102    242    130    225    128    235     Capsid protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico) OX=222448 GN=AR1 PE=3 SV=1
+sp|P27255|CAPSD_PYMVV    16.0    0.0059     1   0.5    102    242    117    226    113    235     Capsid protein OS=Potato yellow mosaic virus (isolate Venezuela) OX=223310 GN=AR1 PE=3 SV=1
+sp|P21942|CAPSD_ABMVW    15.7    0.0072     1   0.4    102    242    117    226    113    235     Capsid protein OS=Abutilon mosaic virus (isolate West India) OX=10816 GN=AR1 PE=1 SV=2
+sp|P14966|CAPSD_CLVN     -2.9   3.6e+03     1   0.1     14     84     30     48     26     44     Capsid protein OS=African cassava mosaic virus (isolate Nigerian) OX=222073 GN=AR1 PE=3 SV=1
+sp|P03561|CAPSD_CLVK     -3.0   3.8e+03     1   0.2     15     87     39     48     28     37     Capsid protein OS=African cassava mosaic virus (isolate West Kenyan 844) OX=10818 GN=AR1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_077114@NC_001508.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_077114@NC_001508.txt data/models_hmm/NP_077114@NC_001508.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:49 2021
+# [ok]

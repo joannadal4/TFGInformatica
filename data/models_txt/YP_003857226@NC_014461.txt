@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O36420|NEC1_ALHV1    13.6     0.041   1   1.3   0.1    Nuclear egress protein 1 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=NEC1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O36420|NEC1_ALHV1    12.8     0.075     1   0.1     72    124     83    119     22     59     Nuclear egress protein 1 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=NEC1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003857226@NC_014461.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003857226@NC_014461.txt data/models_hmm/YP_003857226@NC_014461.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:43 2021
+# [ok]

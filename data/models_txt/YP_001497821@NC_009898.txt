@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q84842|CAPSD_PMMV    14.3     0.018   1   1.3   0.1    Capsid protein OS=Paprika mild mottle virus OX=35281 GN=CP PE=3 SV=3
+sp|P68486|YVDH_VACCW    13.3     0.035   1   1.0   0.0    Uncharacterized 7.2 kDa protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=D ORF H PE=4 SV=1
+sp|P68487|YVDH_VACCC    13.3     0.035   1   1.0   0.0    Uncharacterized 7.2 kDa protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D ORF H PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q84842|CAPSD_PMMV    13.8     0.026     1   0.1     68    152     76    115     69    108     Capsid protein OS=Paprika mild mottle virus OX=35281 GN=CP PE=3 SV=3
+sp|P68486|YVDH_VACCW    13.2     0.039     1   0.0      4     57     11     52     59     99     Uncharacterized 7.2 kDa protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=D ORF H PE=4 SV=1
+sp|P68487|YVDH_VACCC    13.2     0.039     1   0.0      4     57     11     52     59     99     Uncharacterized 7.2 kDa protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D ORF H PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001497821@NC_009898.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001497821@NC_009898.txt data/models_hmm/YP_001497821@NC_009898.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:27 2021
+# [ok]

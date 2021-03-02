@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FP2|VF282_IIV6     9.5         1   4   3.6   6.1    Putative transcription factor 282R OS=Invertebrate iridescent virus 6 OX=176652 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FP2|VF282_IIV6     8.1       2.7     2   0.0    119    190    138    172     46     79     Putative transcription factor 282R OS=Invertebrate iridescent virus 6 OX=176652 PE=3 SV=1
+sp|Q91FP2|VF282_IIV6     1.6   2.9e+02     1   0.9      3     90     69     87     84    102     Putative transcription factor 282R OS=Invertebrate iridescent virus 6 OX=176652 PE=3 SV=1
+sp|Q91FP2|VF282_IIV6    -1.5   2.6e+03     3   0.0    173    256    181    220     40     77     Putative transcription factor 282R OS=Invertebrate iridescent virus 6 OX=176652 PE=3 SV=1
+sp|Q91FP2|VF282_IIV6    -2.2   4.4e+03     4   0.0    233    305    261    275     62     76     Putative transcription factor 282R OS=Invertebrate iridescent virus 6 OX=176652 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_112505@NC_006356.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_112505@NC_006356.txt data/models_hmm/YP_112505@NC_006356.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:06 2021
+# [ok]

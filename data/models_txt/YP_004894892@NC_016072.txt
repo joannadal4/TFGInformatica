@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPL3|YL134_MIMIV   214.0   1.4e-63   1   1.0  10.3    Uncharacterized protein L134 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L134 PE=4 SV=1
+sp|Q5URA4|YL144_MIMIV    94.2   7.7e-27   1   1.9  17.5    Uncharacterized protein L144 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L144 PE=4 SV=1
+sp|Q197E8|VF302_IIV3     18.0    0.0019   1   1.6   0.9    Putative zinc finger protein 012R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-012R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPL3|YL134_MIMIV   213.9   1.5e-63     1  10.3      1    163      1    163     27    184     Uncharacterized protein L134 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L134 PE=4 SV=1
+sp|Q5URA4|YL144_MIMIV    91.3   6.4e-26     1  17.5      1    233      1    231      1    181     Uncharacterized protein L144 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L144 PE=4 SV=1
+sp|Q197E8|VF302_IIV3     16.9    0.0042     1   0.9    226    341    236    302     47    104     Putative zinc finger protein 012R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-012R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004894892@NC_016072.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004894892@NC_016072.txt data/models_hmm/YP_004894892@NC_016072.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:43 2021
+# [ok]

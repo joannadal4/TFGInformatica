@@ -1,0 +1,89 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6SWC4|UL06_HCMVM    323.8   4.9e-97   1   1.0   8.4    Uncharacterized protein UL6 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL6 PE=3 SV=1
+sp|P16720|UL06_HCMVA    311.4   3.1e-93   1   1.0  10.6    Uncharacterized protein UL6 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL6 PE=3 SV=1
+sp|Q6SWB9|UL11P_HCMVM   104.4   6.2e-30   1   2.0  25.4    Protein UL11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL11 PE=1 SV=1
+sp|P16744|UL08_HCMVA     98.0   5.5e-28   2   2.1   4.0    Membrane protein UL8 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL8 PE=1 SV=2
+sp|P16721|UL11P_HCMVA    85.8   2.9e-24   1   2.1  29.7    Protein UL11 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL11 PE=2 SV=1
+sp|P16745|UL09_HCMVA     85.0   5.1e-24   1   1.0  10.2    Uncharacterized protein UL9 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL9 PE=3 SV=1
+sp|P16743|UL07_HCMVA     84.7   6.2e-24   1   1.0   2.2    CEACAM1-like protein UL7 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL7 PE=1 SV=1
+sp|Q6SWC3|UL07_HCMVM     83.0   2.2e-23   1   1.0   2.0    CEACAM1-like protein UL7 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL7 PE=3 SV=1
+sp|F5H9T4|UL09_HCMVM     72.5   3.5e-20   1   1.0   9.0    Membrane glycoprotein UL9 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL9 PE=3 SV=1
+sp|P16843|UL10_HCMVA     59.0   4.6e-16   1   1.3   0.3    Uncharacterized protein UL10 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL10 PE=3 SV=2
+sp|Q6SWC0|UL10_HCMVM     56.6   2.5e-15   1   1.4   0.2    Uncharacterized protein UL10 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL10 PE=3 SV=1
+sp|Q6SWC6|UL04_HCMVM     43.4   2.8e-11   1   1.0   7.7    Envelope glycoprotein UL4 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL4 PE=3 SV=1
+sp|P17175|UL04_HCMVT     40.2   2.5e-10   1   1.1   6.7    Early glycoprotein GP48 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL4 PE=3 SV=1
+sp|Q6SWC9|RL13_HCMVM     39.7   3.6e-10   2   2.2   4.5    Membrane protein RL13 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL13 PE=3 SV=1
+sp|P17146|UL04_HCMVA     37.4   1.9e-09   1   1.1   6.9    Early glycoprotein GP48 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL4 PE=3 SV=1
+sp|Q6SWD1|RL11_HCMVM     28.6   8.9e-07   2   1.5   0.4    Membrane glycoprotein RL11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL11 PE=3 SV=1
+sp|P16809|IR11_HCMVA     27.3   2.2e-06   2   1.6   0.7    Viral Fc-gamma receptor-like protein IR11 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|P21602|TR14_HCMVA     27.1   2.7e-06   1   1.8   4.7    Protein TRL14 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|P15138|E321_ADE07     21.1   0.00018   1   1.5   3.2    Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 7 OX=10519 PE=3 SV=1
+sp|P11322|E321_ADE03     19.1   0.00074   1   1.5   3.0    Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+sp|P35768|E320_ADE1P     18.2    0.0013   1   2.1   6.6    Early E3 20.3 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain Slobiski) OX=343462 PE=3 SV=1
+sp|P15137|E320_ADE35     18.2    0.0014   1   2.1   6.7    Early E3 20.3 kDa glycoprotein OS=Human adenovirus B serotype 35 OX=10522 PE=3 SV=1
+sp|P16719|UL01_HCMVA     17.6    0.0021   1   2.2  17.4    Glycoprotein UL1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL1 PE=3 SV=1
+sp|P35767|E320_ADE1A     17.0    0.0031   1   2.1   5.6    Early E3 20.3 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain BC34) OX=343463 PE=3 SV=1
+sp|P11321|E320_ADE03     16.3    0.0054   1   1.7   5.7    Early E3 20.1 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+sp|P35770|E321_ADE1P     14.7     0.016   1   2.0   9.7    Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain Slobiski) OX=343462 PE=3 SV=1
+sp|P16810|IR12_HCMVA     14.5     0.018   4   4.1   1.2    Uncharacterized protein IRL12 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=4 SV=1
+sp|P15139|E321_ADE35     14.4      0.02   1   2.0   9.3    Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 35 OX=10522 PE=3 SV=2
+sp|P16804|IR06_HCMVA     14.2     0.023   1   1.2   1.5    Uncharacterized protein IRL6 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|Q6SWD3|IR06_HCMVM     14.1     0.025   1   1.2   1.2    Uncharacterized protein IRL6 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL6 PE=3 SV=1
+sp|A9CBA2|105R_ADES1     13.2     0.048   1   1.2   0.0    Protein 105R OS=Snake adenovirus serotype 1 OX=189830 PE=3 SV=1
+sp|P35769|E321_ADE1A     12.8      0.06   1   2.6  10.0    Early E3 20.2 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain BC34) OX=343463 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6SWC4|UL06_HCMVM    323.6   5.7e-97     1   8.4     38    279     38    279      1    223     Uncharacterized protein UL6 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL6 PE=3 SV=1
+sp|P16720|UL06_HCMVA    311.1   3.7e-93     1  10.6     42    283     42    283      1    223     Uncharacterized protein UL6 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL6 PE=3 SV=1
+sp|Q6SWB9|UL11P_HCMVM    99.7   1.7e-28     1  25.4      8    263     25    259     24    213     Protein UL11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL11 PE=1 SV=1
+sp|P16745|UL09_HCMVA     84.7   6.5e-24     1  10.2      3    226      9    223      8    218     Uncharacterized protein UL9 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL9 PE=3 SV=1
+sp|P16743|UL07_HCMVA     84.4   7.8e-24     1   2.2     12    216     26    211     13    198     CEACAM1-like protein UL7 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL7 PE=1 SV=1
+sp|Q6SWC3|UL07_HCMVM     82.6   2.8e-23     1   2.0     15    216     18    211      5    198     CEACAM1-like protein UL7 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL7 PE=3 SV=1
+sp|P16721|UL11P_HCMVA    79.6   2.4e-22     1  29.7      8    267     27    262     26    213     Protein UL11 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL11 PE=2 SV=1
+sp|P16744|UL08_HCMVA     73.0   2.4e-20     1   0.9     12    196     26    174     13    166     Membrane protein UL8 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL8 PE=1 SV=2
+sp|F5H9T4|UL09_HCMVM     72.1   4.5e-20     1   9.0      6    230     29    227     30    217     Membrane glycoprotein UL9 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL9 PE=3 SV=1
+sp|P16843|UL10_HCMVA     58.1   8.4e-16     1   0.3     16    248     28    241     28    214     Uncharacterized protein UL10 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL10 PE=3 SV=2
+sp|Q6SWC0|UL10_HCMVM     55.6   4.9e-15     1   0.2     16    246     28    240     28    214     Uncharacterized protein UL10 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL10 PE=3 SV=1
+sp|Q6SWC6|UL04_HCMVM     43.2   3.2e-11     1   7.7      5    149     18    149     14    128     Envelope glycoprotein UL4 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL4 PE=3 SV=1
+sp|P17175|UL04_HCMVT     40.0     3e-10     1   6.7      2    148     24    147     22    127     Early glycoprotein GP48 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL4 PE=3 SV=1
+sp|Q6SWC9|RL13_HCMVM     39.7   3.6e-10     1   4.5     96    272    109    260     34    192     Membrane protein RL13 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL13 PE=3 SV=1
+sp|P17146|UL04_HCMVA     37.2   2.1e-09     1   6.9      4    152     28    151     22    127     Early glycoprotein GP48 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL4 PE=3 SV=1
+sp|Q6SWD1|RL11_HCMVM     28.6   8.9e-07     1   0.4      9    132     51    121     43    108     Membrane glycoprotein RL11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL11 PE=3 SV=1
+sp|P16809|IR11_HCMVA     26.6   3.7e-06     1   0.2      9    132     51    121     43    108     Viral Fc-gamma receptor-like protein IR11 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|P16744|UL08_HCMVA     26.2   4.8e-06     2   0.1    211    320    256    318    167    221     Membrane protein UL8 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL8 PE=1 SV=2
+sp|P21602|TR14_HCMVA     25.0   1.1e-05     1   4.7     17    178     27    168     49    206     Protein TRL14 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|P15138|E321_ADE07     20.3    0.0003     1   3.2      6    179     59    165     83    192     Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 7 OX=10519 PE=3 SV=1
+sp|P11322|E321_ADE03     18.4    0.0012     1   3.0      5    179     59    166     83    193     Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+sp|P11321|E320_ADE03     15.1     0.013     1   5.4     53    166     62    135     84    149     Early E3 20.1 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+sp|P16810|IR12_HCMVA     14.9     0.014     2   4.5    231    408    246    388     57    202     Uncharacterized protein IRL12 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=4 SV=1
+sp|P35767|E320_ADE1A     14.7     0.016     1   5.6      6    171     57     89     79    111     Early E3 20.3 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain BC34) OX=343463 PE=3 SV=1
+sp|P16810|IR12_HCMVA     14.5     0.018     1   1.2    184    245    191    230     26     65     Uncharacterized protein IRL12 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=4 SV=1
+sp|P15137|E320_ADE35     13.9     0.028     1   6.5     50    170     59     95     81    117     Early E3 20.3 kDa glycoprotein OS=Human adenovirus B serotype 35 OX=10522 PE=3 SV=1
+sp|P16804|IR06_HCMVA     13.9     0.029     1   1.5      1     91      9     87     28    105     Uncharacterized protein IRL6 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|P35768|E320_ADE1P     13.8      0.03     1   6.6     50    169     59     95     81    117     Early E3 20.3 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain Slobiski) OX=343462 PE=3 SV=1
+sp|Q6SWD3|IR06_HCMVM     13.7     0.032     1   1.2      1     91      9     87     28    105     Uncharacterized protein IRL6 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL6 PE=3 SV=1
+sp|P16719|UL01_HCMVA     12.8     0.064     1  17.4      4    222     93    217     98    214     Glycoprotein UL1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL1 PE=3 SV=1
+sp|A9CBA2|105R_ADES1     12.7     0.065     1   0.0     47    122     75    114     89    128     Protein 105R OS=Snake adenovirus serotype 1 OX=189830 PE=3 SV=1
+sp|P35770|E321_ADE1P     12.2     0.097     1   9.7      1    172     62    164     86    190     Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain Slobiski) OX=343462 PE=3 SV=1
+sp|P15139|E321_ADE35     11.8      0.12     1   9.3      1    173     62    164     86    190     Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 35 OX=10522 PE=3 SV=2
+sp|P35769|E321_ADE1A      9.0      0.91     1  10.0      1    174     62    147     86    190     Early E3 20.2 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain BC34) OX=343463 PE=3 SV=1
+sp|P16809|IR11_HCMVA     -2.2   2.4e+03     2   0.0    163    217    186    203      7     23     Viral Fc-gamma receptor-like protein IR11 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|Q6SWD1|RL11_HCMVM     -3.3   5.1e+03     2   0.0    170    213    187    202      8     22     Membrane glycoprotein RL11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL11 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_612656@NC_003521.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_612656@NC_003521.txt data/models_hmm/NP_612656@NC_003521.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:10 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P19200|YOR1_COYMV    11.5      0.18   2   2.7   3.7    Uncharacterized 23 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P19200|YOR1_COYMV     8.2       1.9     1   1.7     96    147    104    121     24     41     Uncharacterized 23 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+sp|P19200|YOR1_COYMV     2.3   1.3e+02     2   0.0    172    195    175    193      5     23     Uncharacterized 23 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000323@SRS046686_LANL_scaffold_10590@SRS046686_LANL_scaffold_10590_gene_12062.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000323@SRS046686_LANL_scaffold_10590@SRS046686_LANL_scaffold_10590_gene_12062.txt data/models_hmm/7000000323@SRS046686_LANL_scaffold_10590@SRS046686_LANL_scaffold_10590_gene_12062.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:20 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03776|GP04_BPT7     14.5     0.029   1   1.1   0.0    Gene 0.4 protein OS=Escherichia phage T7 OX=10760 PE=1 SV=1
+sp|Q05275|VG62_BPML5    12.8     0.099   1   1.4   1.6    Gene 62 protein OS=Mycobacterium phage L5 OX=31757 GN=62 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03776|GP04_BPT7     14.2     0.036     1   0.0      5     47      6     44      2     40     Gene 0.4 protein OS=Escherichia phage T7 OX=10760 PE=1 SV=1
+sp|Q05275|VG62_BPML5    12.4      0.13     1   1.6      1     39     16     36     23     43     Gene 62 protein OS=Mycobacterium phage L5 OX=31757 GN=62 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ACF15834@EU734173.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ACF15834@EU734173.txt data/models_hmm/ACF15834@EU734173.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:19 2021
+# [ok]

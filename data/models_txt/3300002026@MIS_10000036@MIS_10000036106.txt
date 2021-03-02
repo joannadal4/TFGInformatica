@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9E1W2|IE61_CHV9D     6.7       0.6   1   1.0   1.6    E3 ubiquitin-protein ligase IE61 OS=Cercopithecine herpesvirus 9 (strain DHV) OX=36348 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9E1W2|IE61_CHV9D     6.2      0.83     1   1.6    105    193    109    183   1465   1539     E3 ubiquitin-protein ligase IE61 OS=Cercopithecine herpesvirus 9 (strain DHV) OX=36348 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000036@MIS_10000036106.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000036@MIS_10000036106.txt data/models_hmm/3300002026@MIS_10000036@MIS_10000036106.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:37 2021
+# [ok]

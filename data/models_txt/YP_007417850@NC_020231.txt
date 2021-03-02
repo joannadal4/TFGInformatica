@@ -1,0 +1,45 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HB40|UL84_HCMVM   751.5    3e-226   1   1.0   0.3    Protein UL84 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL84 PE=3 SV=1
+sp|P16727|UL84_HCMVA   749.7    1e-225   1   1.0   0.4    Protein UL84 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL84 PE=1 SV=1
+sp|P29839|UL84_HCMVT   745.0  2.9e-224   1   1.0   0.3    UL84 protein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL84 PE=2 SV=1
+sp|P52517|V55A_HHV7J    45.8   3.4e-12   1   1.2   0.1    Uncharacterized protein U55A OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U55A PE=4 SV=1
+sp|Q9QJ28|VU55_HHV6Z    45.2   5.1e-12   1   1.1   0.1    Uncharacterized protein U55 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U55 PE=4 SV=1
+sp|P24435|VU55_HHV6U    43.4   1.8e-11   1   1.2   0.1    Uncharacterized protein U55 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U55 PE=4 SV=1
+sp|P52518|V55B_HHV7J    28.7   5.4e-07   1   1.1   0.0    Uncharacterized protein U55B OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U55B PE=4 SV=1
+sp|P52516|VU54_HHV7J    24.7   8.4e-06   1   1.5   0.1    Protein U54 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U54 PE=3 SV=1
+sp|Q9QJ29|VU54_HHV6Z    23.7   1.8e-05   2   2.1   0.0    Protein U54 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U54 PE=3 SV=1
+sp|P24434|VU54_HHV6U    22.9     3e-05   2   2.2   0.3    Protein U54 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U54 PE=3 SV=1
+sp|Q9E6M6|DUT_GAHVM     13.3     0.024   1   1.2   0.0    Deoxyuridine 5'-triphosphate nucleotidohydrolase OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=DUT PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HB40|UL84_HCMVM   751.4  3.3e-226     1   0.3      1    587      1    586      1    462     Protein UL84 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL84 PE=3 SV=1
+sp|P16727|UL84_HCMVA   749.6  1.2e-225     1   0.4      1    586      1    585      1    462     Protein UL84 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL84 PE=1 SV=1
+sp|P29839|UL84_HCMVT   744.8  3.3e-224     1   0.3      1    587      1    586      1    462     UL84 protein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL84 PE=2 SV=1
+sp|P52517|V55A_HHV7J    45.3     5e-12     1   0.1    203    421    236    413    273    449     Uncharacterized protein U55A OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U55A PE=4 SV=1
+sp|Q9QJ28|VU55_HHV6Z    44.7   7.5e-12     1   0.1    275    482    296    464    270    435     Uncharacterized protein U55 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U55 PE=4 SV=1
+sp|P24435|VU55_HHV6U    42.9   2.6e-11     1   0.1    213    428    243    406    279    437     Uncharacterized protein U55 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U55 PE=4 SV=1
+sp|P52518|V55B_HHV7J    28.2   7.4e-07     1   0.0    255    425    304    414    338    445     Uncharacterized protein U55B OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U55B PE=4 SV=1
+sp|P52516|VU54_HHV7J    23.3   2.3e-05     1   0.0    279    372    281    365    335    418     Protein U54 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U54 PE=3 SV=1
+sp|Q9QJ29|VU54_HHV6Z    16.3     0.003     2   0.0    279    343    282    334    336    388     Protein U54 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U54 PE=3 SV=1
+sp|Q9E6M6|DUT_GAHVM     12.6     0.039     1   0.0    258    381    280    374    300    385     Deoxyuridine 5'-triphosphate nucleotidohydrolase OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=DUT PE=3 SV=1
+sp|P24434|VU54_HHV6U    11.6     0.081     2   0.0    279    346    282    335    336    389     Protein U54 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U54 PE=3 SV=1
+sp|P24434|VU54_HHV6U     9.2      0.42     1   0.1     37    125     42    115     89    160     Protein U54 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U54 PE=3 SV=1
+sp|Q9QJ29|VU54_HHV6Z     5.1       7.5     1   0.0     39    126     44    114     91    159     Protein U54 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U54 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007417850@NC_020231.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007417850@NC_020231.txt data/models_hmm/YP_007417850@NC_020231.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:57 2021
+# [ok]

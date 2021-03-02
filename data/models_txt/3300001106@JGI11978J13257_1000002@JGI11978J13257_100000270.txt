@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9JH50|VE7_HPV69     14.1     0.042   1   1.1   0.0    Protein E7 OS=Human papillomavirus type 69 OX=37121 GN=E7 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9JH50|VE7_HPV69     14.0     0.047     1   0.0      4     98     15     92     21    100     Protein E7 OS=Human papillomavirus type 69 OX=37121 GN=E7 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001106@JGI11978J13257_1000002@JGI11978J13257_100000270.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001106@JGI11978J13257_1000002@JGI11978J13257_100000270.txt data/models_hmm/3300001106@JGI11978J13257_1000002@JGI11978J13257_100000270.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:24 2021
+# [ok]

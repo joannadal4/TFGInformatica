@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP66|YR597_MIMIV    13.6     0.057   2   2.8   2.2    Putative ankyrin repeat protein R597 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R597 PE=4 SV=1
+sp|Q5UPF8|YL088_MIMIV     9.9       0.8   3   3.2   4.9    Putative ankyrin repeat protein L88 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L88 PE=4 SV=1
+sp|Q5UPL6|YR154_MIMIV     6.8       7.3   3   2.6   9.4    Putative BTB/POZ domain and WD-repeat protein R154 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R154 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPL6|YR154_MIMIV    11.0      0.37     3   1.2    416    461    422    454     12     44     Putative BTB/POZ domain and WD-repeat protein R154 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R154 PE=3 SV=1
+sp|Q5UP66|YR597_MIMIV     8.7       1.9     2   0.0     54    105     60    102     28     70     Putative ankyrin repeat protein R597 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R597 PE=4 SV=1
+sp|Q5UPF8|YL088_MIMIV     7.5       4.4     1   0.1     46     92     53     77     13     37     Putative ankyrin repeat protein L88 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L88 PE=4 SV=1
+sp|Q5UP66|YR597_MIMIV     2.7   1.5e+02     1   1.5      1     58      3     48      6     48     Putative ankyrin repeat protein R597 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R597 PE=4 SV=1
+sp|Q5UPF8|YL088_MIMIV     2.3   1.9e+02     2   0.8    448    507    455    504      8     55     Putative ankyrin repeat protein L88 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L88 PE=4 SV=1
+sp|Q5UPL6|YR154_MIMIV     0.3   8.1e+02     2   0.3    216    270    224    264      9     50     Putative BTB/POZ domain and WD-repeat protein R154 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R154 PE=3 SV=1
+sp|Q5UPL6|YR154_MIMIV    -2.3   5.1e+03     1   0.1    173    226    183    215     17     49     Putative BTB/POZ domain and WD-repeat protein R154 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R154 PE=3 SV=1
+sp|Q5UPF8|YL088_MIMIV    -3.6   1.3e+04     3   0.0    562    589    569    588     10     29     Putative ankyrin repeat protein L88 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L88 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000005@SRS022536_LANL_scaffold_62391@SRS022536_LANL_scaffold_62391_gene_142665.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000005@SRS022536_LANL_scaffold_62391@SRS022536_LANL_scaffold_62391_gene_142665.txt data/models_hmm/7000000005@SRS022536_LANL_scaffold_62391@SRS022536_LANL_scaffold_62391_gene_142665.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:32 2021
+# [ok]

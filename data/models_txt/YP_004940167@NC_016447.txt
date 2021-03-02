@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q49P94|GAAP_VACCL     9.8      0.42   1   1.8  12.8    Golgi anti-apoptotic protein OS=Vaccinia virus (strain Lister) OX=10252 GN=L6 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q49P94|GAAP_VACCL     8.2       1.3     1  12.8     24    231     91    222    131    264     Golgi anti-apoptotic protein OS=Vaccinia virus (strain Lister) OX=10252 GN=L6 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004940167@NC_016447.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004940167@NC_016447.txt data/models_hmm/YP_004940167@NC_016447.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:53 2021
+# [ok]

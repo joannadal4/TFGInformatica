@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91ID4|NS3_LDCPR     14.7     0.032   1   1.8   0.0    Non-structural protein 3 OS=Lymantria dispar cypovirus 1 (isolate Rao) OX=648169 GN=S7 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91ID4|NS3_LDCPR     13.2     0.094     1   0.0      2     58     15     47     39     70     Non-structural protein 3 OS=Lymantria dispar cypovirus 1 (isolate Rao) OX=648169 GN=S7 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001125@JGI11931J13222_1000001@JGI11931J13222_100000128.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001125@JGI11931J13222_1000001@JGI11931J13222_100000128.txt data/models_hmm/3300001125@JGI11931J13222_1000001@JGI11931J13222_100000128.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:28 2021
+# [ok]

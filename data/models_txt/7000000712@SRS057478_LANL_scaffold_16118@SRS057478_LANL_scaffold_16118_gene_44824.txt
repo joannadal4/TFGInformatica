@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52532|VU84_HHV6U    14.4     0.026   2   1.5   0.1    Protein U84 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U84 PE=3 SV=1
+sp|P52533|VU84_HHV6Z    14.4     0.026   1   1.5   0.0    Protein U84 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U84 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52532|VU84_HHV6U    13.3     0.057     2   0.0    147    234    161    222     39    100     Protein U84 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U84 PE=3 SV=1
+sp|P52533|VU84_HHV6Z    13.2     0.062     1   0.0    152    233    161    222     39    100     Protein U84 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U84 PE=3 SV=2
+sp|P52532|VU84_HHV6U    -3.5   8.7e+03     1   0.0     13     54     27     48     21     42     Protein U84 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U84 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000712@SRS057478_LANL_scaffold_16118@SRS057478_LANL_scaffold_16118_gene_44824.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000712@SRS057478_LANL_scaffold_16118@SRS057478_LANL_scaffold_16118_gene_44824.txt data/models_hmm/7000000712@SRS057478_LANL_scaffold_16118@SRS057478_LANL_scaffold_16118_gene_44824.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:04 2021
+# [ok]

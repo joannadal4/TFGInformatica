@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ59|SYR_MIMIV      6.2       3.4   2   2.2  19.3    Arginine--tRNA ligase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=RARS PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ59|SYR_MIMIV     13.5     0.021     1   6.3      4    143     10    136    342    468     Arginine--tRNA ligase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=RARS PE=3 SV=1
+sp|Q5UQ59|SYR_MIMIV     -1.7   8.4e+02     2   5.0    219    483    295    470    254    416     Arginine--tRNA ligase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=RARS PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000109@SRS011306_Baylor_scaffold_89342@SRS011306_Baylor_scaffold_89342_gene_120863.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000109@SRS011306_Baylor_scaffold_89342@SRS011306_Baylor_scaffold_89342_gene_120863.txt data/models_hmm/7000000109@SRS011306_Baylor_scaffold_89342@SRS011306_Baylor_scaffold_89342_gene_120863.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:28 2021
+# [ok]

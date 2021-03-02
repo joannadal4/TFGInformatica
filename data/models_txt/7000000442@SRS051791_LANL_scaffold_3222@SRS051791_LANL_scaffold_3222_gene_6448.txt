@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQF0|YL484_MIMIV     9.0       1.2   3   3.5   5.9    Putative ankyrin repeat protein L484 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L484 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQF0|YL484_MIMIV     4.7        26     3   0.4   1497   1597   1520   1591     44    115     Putative ankyrin repeat protein L484 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L484 PE=1 SV=1
+sp|Q5UQF0|YL484_MIMIV     4.7        26     1   0.3    151    262    205    247     60    102     Putative ankyrin repeat protein L484 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L484 PE=1 SV=1
+sp|Q5UQF0|YL484_MIMIV    -1.1   1.6e+03     2   0.0    720    782    729    773     60    103     Putative ankyrin repeat protein L484 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L484 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000442@SRS051791_LANL_scaffold_3222@SRS051791_LANL_scaffold_3222_gene_6448.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000442@SRS051791_LANL_scaffold_3222@SRS051791_LANL_scaffold_3222_gene_6448.txt data/models_hmm/7000000442@SRS051791_LANL_scaffold_3222@SRS051791_LANL_scaffold_3222_gene_6448.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:18 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03793|Y16_BPT7     146.9   1.6e-43   1   1.0   0.7    Protein 1.6 OS=Escherichia phage T7 OX=10760 GN=1.6 PE=4 SV=1
+sp|P07718|Y16_BPT3     134.0   1.6e-39   1   1.0   0.2    Uncharacterized gene 1.6 protein OS=Enterobacteria phage T3 OX=10759 GN=1.6 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03793|Y16_BPT7     146.8   1.8e-43     1   0.7      1     86      1     86      1     86     Protein 1.6 OS=Escherichia phage T7 OX=10760 GN=1.6 PE=4 SV=1
+sp|P07718|Y16_BPT3     133.9   1.8e-39     1   0.2      1     85      1     85      2     86     Uncharacterized gene 1.6 protein OS=Enterobacteria phage T3 OX=10759 GN=1.6 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ACF15893@EU734174.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ACF15893@EU734174.txt data/models_hmm/ACF15893@EU734174.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:19 2021
+# [ok]

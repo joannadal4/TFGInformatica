@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O55763|VF170_IIV6   347.2  4.2e-104   1   1.0   9.5    Uncharacterized protein 170L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-170L PE=3 SV=1
+sp|Q196W3|VF170_IIV3    94.8     5e-27   1   1.1   0.6    Uncharacterized protein 97L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-097L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O55763|VF170_IIV6   347.0  4.8e-104     1   9.5      1    246      1    246      1    243     Uncharacterized protein 170L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-170L PE=3 SV=1
+sp|Q196W3|VF170_IIV3    94.5   6.3e-27     1   0.6      1    205      2    203     25    236     Uncharacterized protein 97L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-097L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004347185@NC_015326.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004347185@NC_015326.txt data/models_hmm/YP_004347185@NC_015326.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:23 2021
+# [ok]

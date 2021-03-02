@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41467|AC66_NPVAC    11.0      0.34   2   3.6   3.8    Protein Ac66 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=Ac66 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41467|AC66_NPVAC     5.9        13     1   1.0    321    395    327    391     23     87     Protein Ac66 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=Ac66 PE=1 SV=1
+sp|P41467|AC66_NPVAC     3.2        91     2   0.1    697    740    704    735     52     85     Protein Ac66 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=Ac66 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000234@TB_GS09_5DRAFT_10000156@TB_GS09_5DRAFT_1000015662.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000234@TB_GS09_5DRAFT_10000156@TB_GS09_5DRAFT_1000015662.txt data/models_hmm/3300000234@TB_GS09_5DRAFT_10000156@TB_GS09_5DRAFT_1000015662.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:18 2021
+# [ok]

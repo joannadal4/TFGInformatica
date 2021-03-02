@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPN5|YL180_MIMIV    15.3     0.021   2   2.3   0.7    Uncharacterized protein L180 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L180 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPN5|YL180_MIMIV    15.3     0.021     1   0.7     46    150     68    133     19     84     Uncharacterized protein L180 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L180 PE=3 SV=1
+sp|Q5UPN5|YL180_MIMIV    -2.1     5e+03     2   0.1    164    231    188    217     30     59     Uncharacterized protein L180 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L180 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000351@SRS047219_WUGC_scaffold_19780@SRS047219_WUGC_scaffold_19780_gene_26499.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000351@SRS047219_WUGC_scaffold_19780@SRS047219_WUGC_scaffold_19780_gene_26499.txt data/models_hmm/7000000351@SRS047219_WUGC_scaffold_19780@SRS047219_WUGC_scaffold_19780_gene_26499.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:30 2021
+# [ok]

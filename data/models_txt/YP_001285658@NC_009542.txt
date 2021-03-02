@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ69|YL504_MIMIV    14.9     0.016   1   1.9   0.7    Uncharacterized protein L504 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L504 PE=4 SV=1
+sp|P14364|V248_FOWPN     13.3     0.049   1   1.4   0.4    Uncharacterized protein FPV248 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV248 PE=4 SV=1
+sp|Q5UQ33|YL813_MIMIV    12.7     0.078   1   1.2   0.0    Uncharacterized protein L813 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L813 PE=4 SV=1
+sp|P0DOK7|SPAN2_BPP21    12.4     0.093   1   1.1   0.2    Spanin, outer lipoprotein subunit OS=Enterobacteria phage P21 OX=10711 GN=Rz1 PE=3 SV=1
+sp|Q9T1T2|VP16_BPAPS     12.3       0.1   1   1.9   2.5    Putative protein p16 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=16 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ69|YL504_MIMIV    13.2     0.052     1   0.7     10     98     24     97     32    105     Uncharacterized protein L504 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L504 PE=4 SV=1
+sp|P14364|V248_FOWPN     12.5     0.089     1   0.4      2     60     10     53     54     98     Uncharacterized protein FPV248 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV248 PE=4 SV=1
+sp|Q5UQ33|YL813_MIMIV    12.3       0.1     1   0.0     37    102     40     99      4     66     Uncharacterized protein L813 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L813 PE=4 SV=1
+sp|P0DOK7|SPAN2_BPP21    12.3       0.1     1   0.2      1     47      3     37      2     39     Spanin, outer lipoprotein subunit OS=Enterobacteria phage P21 OX=10711 GN=Rz1 PE=3 SV=1
+sp|Q9T1T2|VP16_BPAPS     10.8      0.29     1   2.5     16    109     26    105      7     97     Putative protein p16 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=16 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001285658@NC_009542.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001285658@NC_009542.txt data/models_hmm/YP_001285658@NC_009542.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:07 2021
+# [ok]

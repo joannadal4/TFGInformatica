@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6QIB0|TSP_BPBMU     28.5   7.7e-07   1   1.3   0.5    Tail sheath protein OS=Burkholderia phage BcepMu (isolate -/United States/Summer/2002) OX=1283335 GN=BcepMu39 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6QIB0|TSP_BPBMU     27.8   1.2e-06     1   0.5     88    191    108    173    113    178     Tail sheath protein OS=Burkholderia phage BcepMu (isolate -/United States/Summer/2002) OX=1283335 GN=BcepMu39 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_164080@NC_006548.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_164080@NC_006548.txt data/models_hmm/YP_164080@NC_006548.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:06 2021
+# [ok]

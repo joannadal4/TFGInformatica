@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68347|VP38_GAHVG   668.5  8.7e-202   1   1.0   5.7    38 kDa phosphoprotein OS=Gallid herpesvirus 2 (strain GA) OX=10388 GN=PP38 PE=4 SV=1
+sp|P68348|VP38_GAHVN   668.5  8.7e-202   1   1.0   5.7    38 kDa phosphoprotein OS=Gallid herpesvirus 2 (strain MD11/75C/R2) OX=31527 GN=PP38 PE=4 SV=1
+sp|Q77MR0|PP38_GAHVM   668.5  8.7e-202   1   1.0   5.7    Phosphoprotein pp38 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV073 PE=4 SV=1
+sp|Q77MT0|PP24_GAHVM   160.1   6.6e-47   2   2.0  11.8    Phosphoprotein pp24 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV008 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68347|VP38_GAHVG   668.3  9.7e-202     1   5.7      1    290      1    290      1    290     38 kDa phosphoprotein OS=Gallid herpesvirus 2 (strain GA) OX=10388 GN=PP38 PE=4 SV=1
+sp|P68348|VP38_GAHVN   668.3  9.7e-202     1   5.7      1    290      1    290      1    290     38 kDa phosphoprotein OS=Gallid herpesvirus 2 (strain MD11/75C/R2) OX=31527 GN=PP38 PE=4 SV=1
+sp|Q77MR0|PP38_GAHVM   668.3  9.7e-202     1   5.7      1    290      1    290      1    290     Phosphoprotein pp38 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV073 PE=4 SV=1
+sp|Q77MT0|PP24_GAHVM   132.6   1.6e-38     1   7.1      1     70      1     66      1     66     Phosphoprotein pp24 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV008 PE=4 SV=1
+sp|Q77MT0|PP24_GAHVM    30.4   2.3e-07     2   0.2     67    155     72    151    192    271     Phosphoprotein pp24 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV008 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_073357@NC_002641.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_073357@NC_002641.txt data/models_hmm/NP_073357@NC_002641.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:47 2021
+# [ok]

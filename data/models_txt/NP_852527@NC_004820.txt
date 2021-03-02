@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q04764|SCAF_BPMV4    21.8   0.00011   1   1.2   4.4    Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+sp|Q04763|SCAF_BPLLH    21.0   0.00019   1   1.2   5.5    Capsid assembly scaffolding protein OS=Lactococcus phage LL-H OX=12348 GN=g20 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q04764|SCAF_BPMV4    21.5   0.00014     1   4.4     14    178     38    147     85    202     Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+sp|Q04763|SCAF_BPLLH    20.6   0.00027     1   5.5     14    170     41    160     99    215     Capsid assembly scaffolding protein OS=Lactococcus phage LL-H OX=12348 GN=g20 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_852527@NC_004820.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_852527@NC_004820.txt data/models_hmm/NP_852527@NC_004820.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:30 2021
+# [ok]

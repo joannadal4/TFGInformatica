@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q2Y0E6|VP5_APRVF     11.0      0.24   3   3.0   8.3    Outer capsid protein VP5 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S5 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q2Y0E6|VP5_APRVF     13.6     0.038     3   0.7    887   1016    898    986     44    133     Outer capsid protein VP5 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S5 PE=3 SV=1
+sp|Q2Y0E6|VP5_APRVF      0.9   2.9e+02     2   0.1    285    367    328    361    124    154     Outer capsid protein VP5 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S5 PE=3 SV=1
+sp|Q2Y0E6|VP5_APRVF     -3.0   4.8e+03     1   0.2    107    159    118    155     15     53     Outer capsid protein VP5 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S5 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000443@SRS058808_LANL_scaffold_63165@SRS058808_LANL_scaffold_63165_gene_81800.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000443@SRS058808_LANL_scaffold_63165@SRS058808_LANL_scaffold_63165_gene_81800.txt data/models_hmm/7000000443@SRS058808_LANL_scaffold_63165@SRS058808_LANL_scaffold_63165_gene_81800.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:27 2021
+# [ok]

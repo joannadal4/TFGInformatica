@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P29154|RDRP_PEMVW    16.3     0.007   1   1.7   0.0    Protein P1-P2 OS=Pea enation mosaic virus-1 (strain WSG) OX=693989 GN=ORF1/ORF2 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P29154|RDRP_PEMVW    14.9      0.02     1   0.0    855    936    865    932     30     96     Protein P1-P2 OS=Pea enation mosaic virus-1 (strain WSG) OX=693989 GN=ORF1/ORF2 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008857337@NC_022968.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008857337@NC_022968.txt data/models_hmm/YP_008857337@NC_022968.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:38 2021
+# [ok]

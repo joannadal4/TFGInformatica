@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q0Q4E7|VME1_BC133    19.4   0.00037   1   1.1   0.0    Membrane protein OS=Bat coronavirus 133/2005 OX=389230 GN=M PE=3 SV=1
+sp|A3EXA0|VME1_BCHK4    19.4   0.00037   1   1.1   0.0    Membrane protein OS=Bat coronavirus HKU4 OX=694007 GN=M PE=3 SV=1
+sp|A3EXD6|VME1_BCHK5    13.8     0.017   1   1.1   0.0    Membrane protein OS=Bat coronavirus HKU5 OX=694008 GN=M PE=3 SV=1
+sp|K9N7A1|VME1_MERS1    13.0     0.032   1   1.1   0.0    Membrane protein OS=Middle East respiratory syndrome-related coronavirus (isolate United Kingdom/H123990006/2012) OX=1263720 GN=M PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A3EXA0|VME1_BCHK4    19.0   0.00049     1   0.0    110    206    127    195     64    130     Membrane protein OS=Bat coronavirus HKU4 OX=694007 GN=M PE=3 SV=1
+sp|Q0Q4E7|VME1_BC133    19.0   0.00049     1   0.0    110    206    127    195     64    130     Membrane protein OS=Bat coronavirus 133/2005 OX=389230 GN=M PE=3 SV=1
+sp|A3EXD6|VME1_BCHK5    13.5     0.022     1   0.0    106    206    128    196     64    130     Membrane protein OS=Bat coronavirus HKU5 OX=694008 GN=M PE=3 SV=1
+sp|K9N7A1|VME1_MERS1    12.7     0.039     1   0.0     96    205    128    195     65    130     Membrane protein OS=Middle East respiratory syndrome-related coronavirus (isolate United Kingdom/H123990006/2012) OX=1263720 GN=M PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_4166581_len_188617_cov_1_000323@_HiSeq_16007980.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_4166581_len_188617_cov_1_000323@_HiSeq_16007980.txt data/models_hmm/2061766007@rumenHiSeq_NODE_4166581_len_188617_cov_1_000323@_HiSeq_16007980.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:45 2021
+# [ok]

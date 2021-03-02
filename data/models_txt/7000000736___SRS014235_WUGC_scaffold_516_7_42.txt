@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O36385|VG36_ALHV1    13.2     0.094   2   2.3   0.0    Putative tyrosine kinase 36 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=36 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O36385|VG36_ALHV1    10.0      0.89     1   0.0    272    317    281    313     41     73     Putative tyrosine kinase 36 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=36 PE=3 SV=1
+sp|O36385|VG36_ALHV1    -0.5   1.8e+03     2   0.0    390    422    394    419     45     70     Putative tyrosine kinase 36 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=36 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000736___SRS014235_WUGC_scaffold_516_7_42.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000736___SRS014235_WUGC_scaffold_516_7_42.txt data/models_hmm/7000000736___SRS014235_WUGC_scaffold_516_7_42.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:15 2021
+# [ok]

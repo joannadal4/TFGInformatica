@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68930|TUB11_BPPH2    18.1    0.0011   1   1.2  13.6    Proximal tail tube connector protein OS=Bacillus phage phi29 OX=10756 GN=11 PE=1 SV=1
+sp|P68931|TUB11_BPPZA    18.1    0.0011   1   1.2  13.6    Proximal tail tube connector protein OS=Bacillus phage PZA OX=10757 GN=11 PE=3 SV=1
+sp|Q37892|TUB11_BPB03    17.9    0.0013   1   1.2  14.7    Proximal tail tube connector protein OS=Bacillus phage B103 OX=10778 GN=11 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68930|TUB11_BPPH2    17.7    0.0015     1  13.6     36    271     89    246    127    287     Proximal tail tube connector protein OS=Bacillus phage phi29 OX=10756 GN=11 PE=1 SV=1
+sp|P68931|TUB11_BPPZA    17.7    0.0015     1  13.6     36    271     89    246    127    287     Proximal tail tube connector protein OS=Bacillus phage PZA OX=10757 GN=11 PE=3 SV=1
+sp|Q37892|TUB11_BPB03    17.5    0.0017     1  14.7     39    275     89    255    127    304     Proximal tail tube connector protein OS=Bacillus phage B103 OX=10778 GN=11 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006560316@NC_018270.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006560316@NC_018270.txt data/models_hmm/YP_006560316@NC_018270.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:18 2021
+# [ok]

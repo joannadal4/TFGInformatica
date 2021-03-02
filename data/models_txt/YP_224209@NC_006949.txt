@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03771|NINH_LAMBD   108.5   8.8e-32   1   1.0   0.1    Protein ninH OS=Escherichia phage lambda OX=10710 GN=ninH PE=3 SV=2
+sp|Q38669|NINH_BPP22   105.0   1.2e-30   1   1.0   1.5    Protein ninH OS=Salmonella phage P22 OX=10754 GN=ninH PE=3 SV=1
+sp|O48428|NINH_BPH19    99.9   4.2e-29   1   1.0   0.1    Protein ninH OS=Enterobacteria phage H19B OX=69932 GN=ninH PE=3 SV=2
+sp|P69176|NINH_BP933    99.4   6.2e-29   1   1.0   0.2    Protein ninH OS=Escherichia phage 933W OX=10730 GN=ninH PE=3 SV=1
+sp|P69177|NINH_BPVT2    99.4   6.2e-29   1   1.0   0.2    Protein ninH OS=Enterobacteria phage VT2-Sa OX=97081 GN=ninH PE=3 SV=1
+sp|Q37907|RCRO_BPD3     18.7   0.00093   1   1.2   0.0    Regulatory protein cro OS=Pseudomonas phage D3 OX=31535 GN=cro PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03771|NINH_LAMBD   108.4   9.5e-32     1   0.1      1     68      1     67      1     66     Protein ninH OS=Escherichia phage lambda OX=10710 GN=ninH PE=3 SV=2
+sp|Q38669|NINH_BPP22   104.8   1.2e-30     1   1.5      1     67      1     67      1     66     Protein ninH OS=Salmonella phage P22 OX=10754 GN=ninH PE=3 SV=1
+sp|O48428|NINH_BPH19    99.8   4.5e-29     1   0.1      1     64      1     63      1     62     Protein ninH OS=Enterobacteria phage H19B OX=69932 GN=ninH PE=3 SV=2
+sp|P69176|NINH_BP933    99.3   6.6e-29     1   0.2      1     64      1     63      1     62     Protein ninH OS=Escherichia phage 933W OX=10730 GN=ninH PE=3 SV=1
+sp|P69177|NINH_BPVT2    99.3   6.6e-29     1   0.2      1     64      1     63      1     62     Protein ninH OS=Enterobacteria phage VT2-Sa OX=97081 GN=ninH PE=3 SV=1
+sp|Q37907|RCRO_BPD3     18.5    0.0011     1   0.0      1     59      1     43      5     46     Regulatory protein cro OS=Pseudomonas phage D3 OX=31535 GN=cro PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_224209@NC_006949.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_224209@NC_006949.txt data/models_hmm/YP_224209@NC_006949.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:18 2021
+# [ok]

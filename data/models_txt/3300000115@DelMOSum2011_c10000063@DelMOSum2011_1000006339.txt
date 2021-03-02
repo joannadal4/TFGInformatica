@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27501|P4_RTBVP      17.9    0.0022   1   1.6   0.3    Protein P4 OS=Rice tungro bacilliform virus (isolate Philippines) OX=10655 PE=4 SV=1
+sp|Q9YS17|NSP4_ROTPC    13.1     0.069   2   2.1   5.8    Non-structural glycoprotein 4 OS=Rotavirus C (strain RVC/Pig/United States/Cowden/1980) OX=10916 PE=2 SV=1
+sp|Q914K5|Y025_SIFVH    12.3      0.12   2   2.1   0.4    Uncharacterized protein 25 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0025 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27501|P4_RTBVP      16.6    0.0053     1   0.3     61    118     64    108      5     49     Protein P4 OS=Rice tungro bacilliform virus (isolate Philippines) OX=10655 PE=4 SV=1
+sp|Q9YS17|NSP4_ROTPC    12.8     0.083     1   1.5     58    116     69    106     26     63     Non-structural glycoprotein 4 OS=Rotavirus C (strain RVC/Pig/United States/Cowden/1980) OX=10916 PE=2 SV=1
+sp|Q914K5|Y025_SIFVH    12.3      0.12     2   0.4     50     92     50     89      1     40     Uncharacterized protein 25 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0025 PE=4 SV=1
+sp|Q9YS17|NSP4_ROTPC     2.6   1.2e+02     2   0.4    106    143    111    133     30     51     Non-structural glycoprotein 4 OS=Rotavirus C (strain RVC/Pig/United States/Cowden/1980) OX=10916 PE=2 SV=1
+sp|Q914K5|Y025_SIFVH     0.7   4.9e+02     1   0.4      3     46      7     30     16     39     Uncharacterized protein 25 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0025 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000115@DelMOSum2011_c10000063@DelMOSum2011_1000006339.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000115@DelMOSum2011_c10000063@DelMOSum2011_1000006339.txt data/models_hmm/3300000115@DelMOSum2011_c10000063@DelMOSum2011_1000006339.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:34 2021
+# [ok]

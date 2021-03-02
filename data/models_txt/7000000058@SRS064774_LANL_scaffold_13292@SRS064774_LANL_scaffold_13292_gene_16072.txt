@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q2NNU1|VIE2_NPVHC    14.9     0.019   1   1.4   0.1    E3 ubiquitin-protein ligase IE2 OS=Hyphantria cunea nuclear polyhedrosis virus OX=28288 GN=IE2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q2NNU1|VIE2_NPVHC    14.2     0.033     1   0.1    122    219    170    200    115    145     E3 ubiquitin-protein ligase IE2 OS=Hyphantria cunea nuclear polyhedrosis virus OX=28288 GN=IE2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000058@SRS064774_LANL_scaffold_13292@SRS064774_LANL_scaffold_13292_gene_16072.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000058@SRS064774_LANL_scaffold_13292@SRS064774_LANL_scaffold_13292_gene_16072.txt data/models_hmm/7000000058@SRS064774_LANL_scaffold_13292@SRS064774_LANL_scaffold_13292_gene_16072.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:14 2021
+# [ok]

@@ -1,0 +1,38 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q779L9|VSR_PMTVS      18.1    0.0023   1   1.1   4.4    Suppressor of RNA silencing OS=Potato mop-top virus (isolate Potato/Sweden/Sw) OX=652839 GN=8K protein PE=3 SV=1
+sp|P27286|FUS_PI2HG      10.8      0.43   3   3.0   6.3    Fusion glycoprotein F0 OS=Human parainfluenza 2 virus (strain Greer) OX=11213 GN=F PE=3 SV=1
+sp|P25467|FUS_PI2H       10.8      0.43   3   3.0   6.3    Fusion glycoprotein F0 OS=Human parainfluenza 2 virus OX=1979160 GN=F PE=2 SV=1
+sp|P26629|FUS_PI2HT      10.7      0.45   3   3.0   6.4    Fusion glycoprotein F0 OS=Human parainfluenza 2 virus (strain Toshiba) OX=11214 GN=F PE=3 SV=1
+sp|Q5UP90|YL020_MIMIV    10.3       0.6   2   2.2   4.9    Uncharacterized protein L20 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L20 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q779L9|VSR_PMTVS      17.8    0.0028     1   4.4      3     65      6     58     15     71     Suppressor of RNA silencing OS=Potato mop-top virus (isolate Potato/Sweden/Sw) OX=652839 GN=8K protein PE=3 SV=1
+sp|Q5UP90|YL020_MIMIV     9.9      0.81     1   1.1      5     55      5     33      1     29     Uncharacterized protein L20 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L20 PE=4 SV=1
+sp|P25467|FUS_PI2H        9.0       1.5     3   0.2    452    519    469    511     34     76     Fusion glycoprotein F0 OS=Human parainfluenza 2 virus OX=1979160 GN=F PE=2 SV=1
+sp|P26629|FUS_PI2HT       9.0       1.5     3   0.2    452    519    469    511     34     76     Fusion glycoprotein F0 OS=Human parainfluenza 2 virus (strain Toshiba) OX=11214 GN=F PE=3 SV=1
+sp|P27286|FUS_PI2HG       9.0       1.5     3   0.2    452    519    469    511     34     76     Fusion glycoprotein F0 OS=Human parainfluenza 2 virus (strain Greer) OX=11213 GN=F PE=3 SV=1
+sp|P25467|FUS_PI2H        4.2        48     2   0.2    407    450    409    444      3     38     Fusion glycoprotein F0 OS=Human parainfluenza 2 virus OX=1979160 GN=F PE=2 SV=1
+sp|P26629|FUS_PI2HT       4.2        48     2   0.2    407    450    409    444      3     38     Fusion glycoprotein F0 OS=Human parainfluenza 2 virus (strain Toshiba) OX=11214 GN=F PE=3 SV=1
+sp|P27286|FUS_PI2HG       4.2        48     2   0.2    407    450    409    444      3     38     Fusion glycoprotein F0 OS=Human parainfluenza 2 virus (strain Greer) OX=11213 GN=F PE=3 SV=1
+sp|Q5UP90|YL020_MIMIV     2.2   1.9e+02     2   0.1     63    114     71     94      9     32     Uncharacterized protein L20 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L20 PE=4 SV=1
+sp|P26629|FUS_PI2HT      -3.1   8.4e+03     1   0.1     89    150    121    123     39     41     Fusion glycoprotein F0 OS=Human parainfluenza 2 virus (strain Toshiba) OX=11214 GN=F PE=3 SV=1
+sp|P25467|FUS_PI2H       -3.1   8.7e+03     1   0.1     89    149    120    123     38     41     Fusion glycoprotein F0 OS=Human parainfluenza 2 virus OX=1979160 GN=F PE=2 SV=1
+sp|P27286|FUS_PI2HG      -3.1   8.7e+03     1   0.1     89    149    120    123     38     41     Fusion glycoprotein F0 OS=Human parainfluenza 2 virus (strain Greer) OX=11213 GN=F PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001425967@NC_008603.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001425967@NC_008603.txt data/models_hmm/YP_001425967@NC_008603.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:12 2021
+# [ok]

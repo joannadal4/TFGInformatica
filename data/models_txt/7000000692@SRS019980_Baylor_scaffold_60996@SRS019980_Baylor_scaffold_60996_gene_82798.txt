@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9DUC3|YORF3_TTVV9    10.0      0.22   1   1.0   1.5    Uncharacterized ORF3 protein OS=Torque teno virus (isolate Japanese macaque/Japan/Mf-TTV9/2000) OX=687364 GN=ORF3 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9DUC3|YORF3_TTVV9     9.9      0.24     1   1.5      5     84     15     73     73    133     Uncharacterized ORF3 protein OS=Torque teno virus (isolate Japanese macaque/Japan/Mf-TTV9/2000) OX=687364 GN=ORF3 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000692@SRS019980_Baylor_scaffold_60996@SRS019980_Baylor_scaffold_60996_gene_82798.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000692@SRS019980_Baylor_scaffold_60996@SRS019980_Baylor_scaffold_60996_gene_82798.txt data/models_hmm/7000000692@SRS019980_Baylor_scaffold_60996@SRS019980_Baylor_scaffold_60996_gene_82798.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:59 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q0Q4E8|VEMP_BC133    17.6    0.0019   1   1.0   0.0    Envelope small membrane protein OS=Bat coronavirus 133/2005 OX=389230 GN=E PE=3 SV=1
+sp|A3EX99|VEMP_BCHK4    16.5    0.0042   1   1.0   0.0    Envelope small membrane protein OS=Bat coronavirus HKU4 OX=694007 GN=E PE=3 SV=1
+sp|K9N5R3|VEMP_MERS1    13.9     0.026   1   1.0   0.0    Envelope small membrane protein OS=Middle East respiratory syndrome-related coronavirus (isolate United Kingdom/H123990006/2012) OX=1263720 GN=E PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q0Q4E8|VEMP_BC133    17.5    0.0022     1   0.0      4     74      8     72     56    120     Envelope small membrane protein OS=Bat coronavirus 133/2005 OX=389230 GN=E PE=3 SV=1
+sp|A3EX99|VEMP_BCHK4    16.4    0.0047     1   0.0      4     74      8     72     56    120     Envelope small membrane protein OS=Bat coronavirus HKU4 OX=694007 GN=E PE=3 SV=1
+sp|K9N5R3|VEMP_MERS1    13.8     0.029     1   0.0      4     73     18     71     66    119     Envelope small membrane protein OS=Middle East respiratory syndrome-related coronavirus (isolate United Kingdom/H123990006/2012) OX=1263720 GN=E PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000233@TB_FS06_10DRAFT_1000002@TB_FS06_10DRAFT_100000254.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000233@TB_FS06_10DRAFT_1000002@TB_FS06_10DRAFT_100000254.txt data/models_hmm/3300000233@TB_FS06_10DRAFT_1000002@TB_FS06_10DRAFT_100000254.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:13 2021
+# [ok]

@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FK7|317L_IIV6     17.1    0.0044   4   3.6   0.0    Uncharacterized protein 317L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-317L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FK7|317L_IIV6      6.4       9.3     4   0.0    192    226    199    219     39     59     Uncharacterized protein 317L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-317L PE=4 SV=1
+sp|Q91FK7|317L_IIV6      5.2        23     1   0.0     24     53     31     50     40     59     Uncharacterized protein 317L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-317L PE=4 SV=1
+sp|Q91FK7|317L_IIV6     -1.0   1.9e+03     3   0.0    138    162    146    157     42     53     Uncharacterized protein 317L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-317L PE=4 SV=1
+sp|Q91FK7|317L_IIV6     -1.6   3.1e+03     2   0.0     84    106     90    102     42     54     Uncharacterized protein 317L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-317L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001679@TahiMoana_1000036@TahiMoana_100003654.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001679@TahiMoana_1000036@TahiMoana_100003654.txt data/models_hmm/3300001679@TahiMoana_1000036@TahiMoana_100003654.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:01 2021
+# [ok]

@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q196Z9|VF467_IIV3   847.2  3.2e-255   1   1.0   1.1    Uncharacterized protein 061R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-061R PE=3 SV=1
+sp|Q91F59|VF467_IIV6   120.6   7.1e-35   2   2.1  16.1    Uncharacterized protein 467R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-467R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q196Z9|VF467_IIV3   847.0  3.7e-255     1   1.1      6    488      6    488      1    476     Uncharacterized protein 061R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-061R PE=3 SV=1
+sp|Q91F59|VF467_IIV6   120.6   7.1e-35     2  16.1    205    500    213    499    201    475     Uncharacterized protein 467R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-467R PE=3 SV=1
+sp|Q91F59|VF467_IIV6     1.5        97     1   1.9      2    146      4     75     13     86     Uncharacterized protein 467R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-467R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/CCV01823@HF920633.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/CCV01823@HF920633.txt data/models_hmm/CCV01823@HF920633.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:10 2021
+# [ok]

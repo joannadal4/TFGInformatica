@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q45UG0|RDRP_ROTJ1    11.2      0.12   2   1.9   0.6    RNA-directed RNA polymerase OS=Rotavirus X (strain RVX/Human/China/NADRV-J19/1997/GXP[X]) OX=335103 PE=3 SV=1
+sp|P03457|HEMA_I66A1    10.8      0.16   1   1.1   2.7    Hemagglutinin OS=Influenza A virus (strain A/Turkey/Wisconsin/1/1966 H9N2) OX=385620 GN=HA PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03457|HEMA_I66A1    10.3      0.22     1   2.7    373    520    385    512     92    208     Hemagglutinin OS=Influenza A virus (strain A/Turkey/Wisconsin/1/1966 H9N2) OX=385620 GN=HA PE=3 SV=2
+sp|Q45UG0|RDRP_ROTJ1     9.6      0.36     2   0.1    866    954    890    947     25     82     RNA-directed RNA polymerase OS=Rotavirus X (strain RVX/Human/China/NADRV-J19/1997/GXP[X]) OX=335103 PE=3 SV=1
+sp|Q45UG0|RDRP_ROTJ1    -1.2   7.2e+02     1   0.0    684    735    691    723     17     50     RNA-directed RNA polymerase OS=Rotavirus X (strain RVX/Human/China/NADRV-J19/1997/GXP[X]) OX=335103 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002284383@NC_011373.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002284383@NC_011373.txt data/models_hmm/YP_002284383@NC_011373.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:01 2021
+# [ok]

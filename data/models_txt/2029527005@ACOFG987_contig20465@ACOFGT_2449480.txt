@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6WI88|CAPSP_BPKVM    13.8     0.046   2   2.0   0.2    Capsid vertex protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=24 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6WI88|CAPSP_BPKVM    11.6      0.21     2   0.0    175    234    178    223     87    132     Capsid vertex protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=24 PE=3 SV=1
+sp|Q6WI88|CAPSP_BPKVM    -1.1   1.8e+03     1   0.0    132    177    141    173     74    105     Capsid vertex protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=24 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2029527005@ACOFG987_contig20465@ACOFGT_2449480.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2029527005@ACOFG987_contig20465@ACOFGT_2449480.txt data/models_hmm/2029527005@ACOFG987_contig20465@ACOFGT_2449480.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:12 2021
+# [ok]

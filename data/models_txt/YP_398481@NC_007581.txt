@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|B2MW50|Z_PARVP        18.7     0.002   1   2.1   0.7    RING finger protein Z OS=Parana mammarenavirus (isolate Rat/Paraguay/12056/1965) OX=2169994 GN=Z PE=3 SV=1
+sp|A0PJ23|Z_BCNVU        14.9     0.029   1   2.0   2.5    RING finger protein Z OS=Bear Canyon mammarenavirus (isolate Mouse/United States/AV A0070039/2000) OX=192848 GN=Z PE=3 SV=1
+sp|Q3V4T9|Y383B_ATV      14.7     0.035   1   1.8   0.9    Putative transposase ORF383B OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+sp|Q3V4U8|Y383A_ATV      14.2      0.05   1   1.9   0.7    Putative transposase ORF383a OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+sp|P16516|GP166_BPPH2    12.2       0.2   2   1.6   2.4    Gene product 16.6 OS=Bacillus phage phi29 OX=10756 GN=16.6 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|B2MW50|Z_PARVP        14.3     0.046     1   0.7      4     81      9     78     17     67     RING finger protein Z OS=Parana mammarenavirus (isolate Rat/Paraguay/12056/1965) OX=2169994 GN=Z PE=3 SV=1
+sp|Q3V4T9|Y383B_ATV      13.1      0.11     1   0.9    302    353    314    350     31     65     Putative transposase ORF383B OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+sp|Q3V4U8|Y383A_ATV      12.6      0.16     1   0.7    301    353    314    350     31     65     Putative transposase ORF383a OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+sp|P16516|GP166_BPPH2    11.9      0.25     2   1.5     11     45     27     42     51     66     Gene product 16.6 OS=Bacillus phage phi29 OX=10756 GN=16.6 PE=3 SV=1
+sp|A0PJ23|Z_BCNVU        11.2      0.44     1   2.5      5     81      9     78     17     67     RING finger protein Z OS=Bear Canyon mammarenavirus (isolate Mouse/United States/AV A0070039/2000) OX=192848 GN=Z PE=3 SV=1
+sp|P16516|GP166_BPPH2    -0.7   2.2e+03     1   0.1      1     21      8     13      2      7     Gene product 16.6 OS=Bacillus phage phi29 OX=10756 GN=16.6 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_398481@NC_007581.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_398481@NC_007581.txt data/models_hmm/YP_398481@NC_007581.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:29 2021
+# [ok]

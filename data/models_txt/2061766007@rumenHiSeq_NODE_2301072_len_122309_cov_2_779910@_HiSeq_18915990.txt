@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q70LE0|Y166_AFV1Y    14.4     0.032   2   2.1   0.6    Uncharacterized protein ORF166 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF166 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q70LE0|Y166_AFV1Y     9.7       0.9     1   0.0     25     83     29     78     25     72     Uncharacterized protein ORF166 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF166 PE=4 SV=1
+sp|Q70LE0|Y166_AFV1Y     3.3        84     2   0.4     78    157     87    137     39     88     Uncharacterized protein ORF166 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF166 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_2301072_len_122309_cov_2_779910@_HiSeq_18915990.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_2301072_len_122309_cov_2_779910@_HiSeq_18915990.txt data/models_hmm/2061766007@rumenHiSeq_NODE_2301072_len_122309_cov_2_779910@_HiSeq_18915990.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:29 2021
+# [ok]

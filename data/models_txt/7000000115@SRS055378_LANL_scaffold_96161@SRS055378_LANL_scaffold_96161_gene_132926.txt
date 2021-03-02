@@ -1,0 +1,165 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q914L2|Y018_SIFVH     19.7    0.0006   2   2.1   8.1    Uncharacterized protein 18 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0018 PE=4 SV=1
+sp|Q8JPY0|VP35_EBORR     18.3    0.0016   2   2.0   0.1    Polymerase cofactor VP35 OS=Reston ebolavirus (strain Reston-89) OX=386032 GN=VP35 PE=1 SV=1
+sp|Q91DE0|VP35_EBORE     17.5    0.0029   2   1.8   0.3    Polymerase cofactor VP35 OS=Reston ebolavirus (strain Philippines-96) OX=129003 GN=VP35 PE=3 SV=1
+sp|P68576|SCP1_BPSPB     16.2    0.0072   1   1.4   0.1    Stress response protein SCP1 OS=Bacillus phage SPbeta OX=66797 GN=yorD PE=3 SV=1
+sp|P21738|PHOSP_PI4HB    14.4     0.027   2   2.1   1.5    Phosphoprotein OS=Human parainfluenza 4b virus (strain 68-333) OX=11227 GN=P/V PE=1 SV=1
+sp|Q3ZK63|NSP3_ROT41     14.0     0.035   4   3.3   8.4    Non-structural protein 3 OS=Rotavirus A (isolate RVA/Human/Belgium/B4106/2000/G3P11[14]) OX=578843 PE=3 SV=1
+sp|Q196U2|118R_IIV3      13.8      0.04   2   2.1   0.5    Uncharacterized protein 118R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-118R PE=4 SV=1
+sp|P04507|SIGM1_REOVJ    13.6     0.046   3   3.8   5.6    Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|B4YNG1|V21_SPTNK      13.6     0.046   2   2.8   0.5    Uncharacterized protein V21 OS=Sputnik virophage OX=543939 GN=ORF21 PE=4 SV=1
+sp|P12579|PHOSP_HRSVL    13.5     0.049   2   2.1   0.9    Phosphoprotein OS=Human respiratory syncytial virus A (strain Long) OX=11260 GN=P PE=1 SV=1
+sp|P22044|PHOSP_PI4HA    13.5     0.051   2   2.0   1.2    Phosphoprotein OS=Human parainfluenza 4a virus (strain Toshiba) OX=11225 GN=P/V PE=3 SV=1
+sp|B3SRV3|NSP3_ROTHP     13.5     0.053   3   3.8   7.4    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=1
+sp|P14156|PHOSP_HRSV     13.4     0.053   2   2.0   0.9    Phosphoprotein OS=Human respiratory syncytial virus OX=11250 GN=P PE=2 SV=1
+sp|P24567|PHOSP_HRSV1    13.4     0.054   2   2.0   0.8    Phosphoprotein OS=Human respiratory syncytial virus B (strain 18537) OX=11251 GN=P PE=3 SV=1
+sp|Q82053|NSP3_ROTHT     13.4     0.056   3   3.8   7.6    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=2 SV=1
+sp|O42062|PHOSP_HRSVB    13.3     0.058   2   1.9   0.8    Phosphoprotein OS=Human respiratory syncytial virus B (strain B1) OX=79692 GN=P PE=3 SV=1
+sp|P03421|PHOSP_HRSVA    13.2     0.061   2   2.0   1.1    Phosphoprotein OS=Human respiratory syncytial virus A (strain A2) OX=11259 GN=P PE=1 SV=1
+sp|Q86504|NSP3_ROTRF     12.9     0.079   3   3.5  11.6    Non-structural protein 3 OS=Rotavirus A (strain RVA/Cow/France/RF/1975/G6P6[1]) OX=10933 PE=1 SV=1
+sp|Q65701|NSP3_ROTBN     12.8     0.081   3   3.5  11.6    Non-structural protein 3 OS=Rotavirus A (strain RVA/Cow/United States/NCDV-Lincoln/1969/G6P6[1]) OX=36439 PE=2 SV=1
+sp|B2BRG4|NSP3_ROTW3     12.8     0.083   3   3.5  11.6    Non-structural protein 3 OS=Rotavirus A (strain RVA/Cow/United States/WC3/1981/G6P7[5]) OX=578828 PE=3 SV=1
+sp|B3SRS1|NSP3_ROTAD     12.7     0.087   3   3.8   8.1    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|P20535|A27_VACCC      12.7      0.09   1   1.4   1.8    14 kDa fusion protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A27L PE=3 SV=1
+sp|P11258|A27_VACCW      12.7     0.092   1   1.4   1.8    Protein A27 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR150 PE=1 SV=3
+sp|B3SRR3|NSP3_ROTH7     12.6     0.094   3   3.4   9.0    Non-structural protein 3 OS=Rotavirus A (isolate RVA/Human/United Kingdom/A64/1987/G10P11[14]) OX=578827 PE=3 SV=1
+sp|P26654|VFUS_ORFN2     12.6     0.098   1   1.6   0.8    10 kDa fusion protein OS=Orf virus (strain NZ2) OX=10259 PE=3 SV=1
+sp|P15633|Y3_SOCMV       12.6     0.099   3   2.8   1.6    Uncharacterized protein 3 OS=Soybean chlorotic mottle virus OX=10651 GN=ORF III PE=4 SV=2
+sp|Q9ICB2|NSP3_ROTAM     12.5       0.1   4   3.8   8.5    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/M/1976/G3P[X]) OX=578834 PE=3 SV=1
+sp|P08357|VP10_NPVOP     12.4      0.11   1   1.4   0.3    Protein p10 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P10 PE=3 SV=1
+sp|P04514|NSP3_ROTBU     12.4      0.11   3   4.1  10.3    Non-structural protein 3 OS=Rotavirus A (strain RVA/Cow/United Kingdom/UK/1975/G6P7[5]) OX=10934 PE=3 SV=1
+sp|Q82050|NSP3_ROTHK     12.3      0.12   3   3.7   8.1    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+sp|Q5XX07|VP35_EBOSU     12.0      0.15   1   1.5   0.0    Polymerase cofactor VP35 OS=Sudan ebolavirus (strain Human/Uganda/Gulu/2000) OX=386033 GN=VP35 PE=1 SV=1
+sp|Q85014|NSP3_ROTP5     11.7      0.19   3   4.2  13.5    Non-structural protein 3 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=2 SV=1
+sp|P18876|HEMA_I54A0     11.6       0.2   2   2.0   2.3    Hemagglutinin OS=Influenza A virus (strain A/Leningrad/1/1954 H1N1) OX=393557 GN=HA PE=3 SV=1
+sp|Q82054|NSP3_ROTHW     11.1      0.29   4   3.8   9.7    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=2 SV=1
+sp|Q82049|NSP3_ROTWI     10.5      0.44   3   4.0   9.4    Non-structural protein 3 OS=Rotavirus A (isolate RVA/Human/United States/WI61/1983/G9P1A[8]) OX=578830 PE=2 SV=1
+sp|P03536|NSP3_ROTS1     10.2      0.53   4   4.2   8.9    Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=1 SV=1
+sp|A4ZCW4|NSP3_ROTH3      7.7       3.3   3   4.1  12.1    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=3 SV=2
+sp|A2T3N5|NSP3_ROTSH      7.7       3.3   4   4.4  13.5    Non-structural protein 3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=3 SV=1
+sp|Q197B1|049R_IIV3       7.3       4.4   7   5.3  10.1    Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q00721|NSP3_ROTS4      7.2       4.8   4   4.3  13.0    Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-4F/G3P6[1]) OX=36436 PE=1 SV=1
+sp|Q2Y0F0|VP1_APRVF       6.8       6.2   3   3.2   9.4    Putative structural protein VP1 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S1 PE=4 SV=1
+sp|Q82051|NSP3_ROTH6      6.2       9.7   3   3.1  10.7    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Indonesia/69M/1980/G8P4[10]) OX=10947 PE=2 SV=1
+sp|Q8UZL8|NSP3_ROTRH      6.2       9.8   4   4.0  13.9    Non-structural protein 3 OS=Rotavirus A (strain RVA/Monkey/United States/RRV/1975/G3P5B[3]) OX=444185 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8JPY0|VP35_EBORR     16.2    0.0073     2   0.1     62    133     86    120     35     68     Polymerase cofactor VP35 OS=Reston ebolavirus (strain Reston-89) OX=386032 GN=VP35 PE=1 SV=1
+sp|Q91DE0|VP35_EBORE     16.0    0.0086     1   0.0     62    133     86    120     35     68     Polymerase cofactor VP35 OS=Reston ebolavirus (strain Philippines-96) OX=129003 GN=VP35 PE=3 SV=1
+sp|P68576|SCP1_BPSPB     15.5     0.012     1   0.1     40    102     54     97     21     59     Stress response protein SCP1 OS=Bacillus phage SPbeta OX=66797 GN=yorD PE=3 SV=1
+sp|P21738|PHOSP_PI4HB    13.1     0.068     1   0.5    213    268    227    265     35     73     Phosphoprotein OS=Human parainfluenza 4b virus (strain 68-333) OX=11227 GN=P/V PE=1 SV=1
+sp|P22044|PHOSP_PI4HA    12.5       0.1     1   0.3    214    268    228    265     36     73     Phosphoprotein OS=Human parainfluenza 4a virus (strain Toshiba) OX=11225 GN=P/V PE=3 SV=1
+sp|Q914L2|Y018_SIFVH     12.4      0.11     2   1.9     40    103     47     96     19     65     Uncharacterized protein 18 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0018 PE=4 SV=1
+sp|P11258|A27_VACCW      12.2      0.13     1   1.8     29    101     38     72     35     69     Protein A27 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR150 PE=1 SV=3
+sp|P20535|A27_VACCC      12.2      0.13     1   1.8     29    101     38     72     35     69     14 kDa fusion protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A27L PE=3 SV=1
+sp|P24567|PHOSP_HRSV1    12.2      0.13     1   0.3    102    177    113    153     34     66     Phosphoprotein OS=Human respiratory syncytial virus B (strain 18537) OX=11251 GN=P PE=3 SV=1
+sp|O42062|PHOSP_HRSVB    12.1      0.14     1   0.2    102    169    113    153     34     66     Phosphoprotein OS=Human respiratory syncytial virus B (strain B1) OX=79692 GN=P PE=3 SV=1
+sp|Q82050|NSP3_ROTHK     12.1      0.14     2   0.9    151    207    155    195     22     62     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+sp|P03421|PHOSP_HRSVA    12.0      0.15     1   0.3    102    164    113    153     34     66     Phosphoprotein OS=Human respiratory syncytial virus A (strain A2) OX=11259 GN=P PE=1 SV=1
+sp|P12579|PHOSP_HRSVL    11.9      0.16     1   0.3    102    160    113    153     34     66     Phosphoprotein OS=Human respiratory syncytial virus A (strain Long) OX=11260 GN=P PE=1 SV=1
+sp|P14156|PHOSP_HRSV     11.9      0.16     1   0.3    102    160    113    153     34     66     Phosphoprotein OS=Human respiratory syncytial virus OX=11250 GN=P PE=2 SV=1
+sp|P08357|VP10_NPVOP     11.8      0.17     1   0.2     11     65     28     60     31     63     Protein p10 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P10 PE=3 SV=1
+sp|P18876|HEMA_I54A0     11.6       0.2     1   0.1    392    437    399    430     26     57     Hemagglutinin OS=Influenza A virus (strain A/Leningrad/1/1954 H1N1) OX=393557 GN=HA PE=3 SV=1
+sp|Q9ICB2|NSP3_ROTAM     11.6       0.2     2   0.8    148    204    152    190     22     60     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/M/1976/G3P[X]) OX=578834 PE=3 SV=1
+sp|Q82053|NSP3_ROTHT     11.6       0.2     2   0.8    151    207    155    193     22     60     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=2 SV=1
+sp|B3SRS1|NSP3_ROTAD     11.5      0.22     2   0.7    148    204    152    190     22     60     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|P26654|VFUS_ORFN2     11.4      0.23     1   0.8     30     86     56     83     45     73     10 kDa fusion protein OS=Orf virus (strain NZ2) OX=10259 PE=3 SV=1
+sp|B3SRV3|NSP3_ROTHP     11.3      0.25     2   0.6    148    202    150    188     29     65     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=1
+sp|Q914L2|Y018_SIFVH     11.2      0.27     1   0.6      2     44      9     37     12     39     Uncharacterized protein 18 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0018 PE=4 SV=1
+sp|Q82054|NSP3_ROTHW     11.2      0.27     2   0.9    151    206    155    192     22     59     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=2 SV=1
+sp|Q5XX07|VP35_EBOSU     10.9      0.33     1   0.0     61    132     79    120     34     68     Polymerase cofactor VP35 OS=Sudan ebolavirus (strain Human/Uganda/Gulu/2000) OX=386033 GN=VP35 PE=1 SV=1
+sp|Q2Y0F0|VP1_APRVF      10.6       0.4     3   0.3    753    808    763    800     27     64     Putative structural protein VP1 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S1 PE=4 SV=1
+sp|Q85014|NSP3_ROTP5     10.3      0.52     2   0.8    147    207    153    190     29     64     Non-structural protein 3 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=2 SV=1
+sp|Q82051|NSP3_ROTH6     10.2      0.53     1   1.0    151    207    156    193     23     60     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Indonesia/69M/1980/G8P4[10]) OX=10947 PE=2 SV=1
+sp|B4YNG1|V21_SPTNK      10.2      0.54     2   0.1    317    402    338    362     41     65     Uncharacterized protein V21 OS=Sputnik virophage OX=543939 GN=ORF21 PE=4 SV=1
+sp|Q3ZK63|NSP3_ROT41     10.1      0.57     1   0.9    151    207    156    192     23     59     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Human/Belgium/B4106/2000/G3P11[14]) OX=578843 PE=3 SV=1
+sp|B3SRR3|NSP3_ROTH7     10.0      0.61     1   1.0    148    204    153    189     23     59     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Human/United Kingdom/A64/1987/G10P11[14]) OX=578827 PE=3 SV=1
+sp|B2BRG4|NSP3_ROTW3     10.0      0.62     1   1.0    151    207    156    192     23     59     Non-structural protein 3 OS=Rotavirus A (strain RVA/Cow/United States/WC3/1981/G6P7[5]) OX=578828 PE=3 SV=1
+sp|Q65701|NSP3_ROTBN     10.0      0.62     1   1.0    151    207    156    192     23     59     Non-structural protein 3 OS=Rotavirus A (strain RVA/Cow/United States/NCDV-Lincoln/1969/G6P6[1]) OX=36439 PE=2 SV=1
+sp|Q86504|NSP3_ROTRF     10.0      0.62     1   1.0    151    207    156    192     23     59     Non-structural protein 3 OS=Rotavirus A (strain RVA/Cow/France/RF/1975/G6P6[1]) OX=10933 PE=1 SV=1
+sp|Q8UZL8|NSP3_ROTRH      9.7       0.8     2   0.8    151    208    156    192     23     59     Non-structural protein 3 OS=Rotavirus A (strain RVA/Monkey/United States/RRV/1975/G3P5B[3]) OX=444185 PE=1 SV=1
+sp|A2T3N5|NSP3_ROTSH      9.2       1.1     2   0.5    151    208    156    192     23     59     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=3 SV=1
+sp|Q00721|NSP3_ROTS4      9.2       1.1     2   0.5    151    208    156    192     23     59     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-4F/G3P6[1]) OX=36436 PE=1 SV=1
+sp|P03536|NSP3_ROTS1      9.2       1.1     2   0.5    151    208    156    192     23     59     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=1 SV=1
+sp|Q82049|NSP3_ROTWI      9.1       1.2     2   0.7    151    204    153    190     29     64     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Human/United States/WI61/1983/G9P1A[8]) OX=578830 PE=2 SV=1
+sp|P04514|NSP3_ROTBU      9.0       1.3     2   0.5    151    207    156    192     23     59     Non-structural protein 3 OS=Rotavirus A (strain RVA/Cow/United Kingdom/UK/1975/G6P7[5]) OX=10934 PE=3 SV=1
+sp|A4ZCW4|NSP3_ROTH3      8.5       1.8     2   0.9    151    208    153    186     29     60     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=3 SV=2
+sp|Q196U2|118R_IIV3       7.9       2.9     1   0.1      4     43      7     35     32     59     Uncharacterized protein 118R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-118R PE=4 SV=1
+sp|Q3ZK63|NSP3_ROT41      7.6       3.6     2   0.4    198    268    205    250     23     70     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Human/Belgium/B4106/2000/G3P11[14]) OX=578843 PE=3 SV=1
+sp|Q197B1|049R_IIV3       6.7       6.8     6   0.0    422    477    426    464     27     65     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|B2BRG4|NSP3_ROTW3      6.6       7.2     2   2.9    197    296    207    245     25     65     Non-structural protein 3 OS=Rotavirus A (strain RVA/Cow/United States/WC3/1981/G6P7[5]) OX=578828 PE=3 SV=1
+sp|Q65701|NSP3_ROTBN      6.6       7.2     2   2.9    197    296    207    245     25     65     Non-structural protein 3 OS=Rotavirus A (strain RVA/Cow/United States/NCDV-Lincoln/1969/G6P6[1]) OX=36439 PE=2 SV=1
+sp|Q86504|NSP3_ROTRF      6.6       7.2     2   2.9    197    296    207    245     25     65     Non-structural protein 3 OS=Rotavirus A (strain RVA/Cow/France/RF/1975/G6P6[1]) OX=10933 PE=1 SV=1
+sp|P15633|Y3_SOCMV        6.3         9     3   0.2     91    139    107    127     36     56     Uncharacterized protein 3 OS=Soybean chlorotic mottle virus OX=10651 GN=ORF III PE=4 SV=2
+sp|P04507|SIGM1_REOVJ     6.2       9.4     2   0.2     59    155     75     94     46     65     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|B3SRR3|NSP3_ROTH7      6.0        11     2   0.9    196    288    202    243     23     66     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Human/United Kingdom/A64/1987/G10P11[14]) OX=578827 PE=3 SV=1
+sp|Q196U2|118R_IIV3       5.2        20     2   0.1     33     70     45     67     27     49     Uncharacterized protein 118R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-118R PE=4 SV=1
+sp|P04507|SIGM1_REOVJ     4.8        27     1   0.8     18     69     25     53     24     52     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|P04514|NSP3_ROTBU      4.7        29     3   2.0    197    294    207    245     25     65     Non-structural protein 3 OS=Rotavirus A (strain RVA/Cow/United Kingdom/UK/1975/G6P7[5]) OX=10934 PE=3 SV=1
+sp|P15633|Y3_SOCMV        4.5        34     1   0.1      1     45      3     30     38     65     Uncharacterized protein 3 OS=Soybean chlorotic mottle virus OX=10651 GN=ORF III PE=4 SV=2
+sp|Q82054|NSP3_ROTHW      3.4        74     3   0.2    197    268    203    235     21     56     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=2 SV=1
+sp|Q82053|NSP3_ROTHT      3.0        95     3   0.3    197    294    204    235     22     56     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=2 SV=1
+sp|B3SRV3|NSP3_ROTHP      2.9     1e+02     3   0.4    194    291    201    232     22     56     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=1
+sp|Q9ICB2|NSP3_ROTAM      2.9     1e+02     3   0.1    196    265    200    232     21     56     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/M/1976/G3P[X]) OX=578834 PE=3 SV=1
+sp|B3SRS1|NSP3_ROTAD      2.8   1.1e+02     3   0.4    196    291    201    232     22     56     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|Q8UZL8|NSP3_ROTRH      2.5   1.4e+02     3   1.2    192    294    211    250     33     66     Non-structural protein 3 OS=Rotavirus A (strain RVA/Monkey/United States/RRV/1975/G3P5B[3]) OX=444185 PE=1 SV=1
+sp|Q197B1|049R_IIV3       2.5   1.4e+02     3   0.0    259    317    270    308     26     56     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q85014|NSP3_ROTP5      2.2   1.7e+02     3   3.7    188    295    211    245     32     65     Non-structural protein 3 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=2 SV=1
+sp|Q82049|NSP3_ROTWI      2.0   1.9e+02     1   0.1     86    119     93    109     47     63     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Human/United States/WI61/1983/G9P1A[8]) OX=578830 PE=2 SV=1
+sp|Q82050|NSP3_ROTHK      2.0     2e+02     3   0.3    199    293    204    235     22     56     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+sp|Q85014|NSP3_ROTP5      2.0     2e+02     1   0.1     88    119     93    109     47     63     Non-structural protein 3 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=2 SV=1
+sp|Q82049|NSP3_ROTWI      1.9     2e+02     3   0.9    197    295    202    234     20     55     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Human/United States/WI61/1983/G9P1A[8]) OX=578830 PE=2 SV=1
+sp|A2T3N5|NSP3_ROTSH      1.9   2.1e+02     1   0.3     59    119     92    108     46     62     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=3 SV=1
+sp|A4ZCW4|NSP3_ROTH3      1.8   2.3e+02     3   2.1    196    298    212    252     34     66     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=3 SV=2
+sp|A2T3N5|NSP3_ROTSH      1.6   2.7e+02     3   0.6    199    267    211    245     29     65     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=3 SV=1
+sp|Q00721|NSP3_ROTS4      1.6   2.7e+02     3   0.6    199    267    211    245     29     65     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-4F/G3P6[1]) OX=36436 PE=1 SV=1
+sp|P03536|NSP3_ROTS1      1.4   3.1e+02     4   0.2    249    300    262    290     35     60     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=1 SV=1
+sp|A2T3N5|NSP3_ROTSH      1.3   3.2e+02     4   0.2    251    300    262    290     35     60     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=3 SV=1
+sp|Q00721|NSP3_ROTS4      1.3   3.2e+02     4   0.2    251    300    262    290     35     60     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-4F/G3P6[1]) OX=36436 PE=1 SV=1
+sp|Q82051|NSP3_ROTH6      1.1   3.8e+02     2   1.5    196    290    209    245     27     65     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Indonesia/69M/1980/G8P4[10]) OX=10947 PE=2 SV=1
+sp|P03536|NSP3_ROTS1      0.8   4.6e+02     1   0.0     62    118     93    108     47     62     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=1 SV=1
+sp|Q00721|NSP3_ROTS4      0.8   4.8e+02     1   0.2     61    119     93    108     47     62     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-4F/G3P6[1]) OX=36436 PE=1 SV=1
+sp|P04514|NSP3_ROTBU      0.6   5.2e+02     1   0.1     88    119     94    108     48     62     Non-structural protein 3 OS=Rotavirus A (strain RVA/Cow/United Kingdom/UK/1975/G6P7[5]) OX=10934 PE=3 SV=1
+sp|A4ZCW4|NSP3_ROTH3      0.6   5.2e+02     1   0.1     88    119     94    108     48     62     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=3 SV=2
+sp|P03536|NSP3_ROTS1      0.5   5.7e+02     3   0.3    200    263    217    245     38     65     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=1 SV=1
+sp|Q82050|NSP3_ROTHK      0.4   6.2e+02     1   0.1     88    118     93    105     47     59     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+sp|B3SRS1|NSP3_ROTAD      0.4   6.2e+02     1   0.1     85    115     90    102     47     59     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|B3SRV3|NSP3_ROTHP      0.4   6.2e+02     1   0.1     85    115     90    102     47     59     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=1
+sp|Q9ICB2|NSP3_ROTAM      0.4   6.2e+02     1   0.1     85    115     90    102     47     59     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/M/1976/G3P[X]) OX=578834 PE=3 SV=1
+sp|Q82053|NSP3_ROTHT      0.3   6.6e+02     1   0.1     89    118     93    105     47     59     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=2 SV=1
+sp|Q8UZL8|NSP3_ROTRH      0.2     7e+02     1   0.1     82    118     94    105     48     59     Non-structural protein 3 OS=Rotavirus A (strain RVA/Monkey/United States/RRV/1975/G3P5B[3]) OX=444185 PE=1 SV=1
+sp|B4YNG1|V21_SPTNK       0.0   8.1e+02     1   0.0     69    106     85     98     52     68     Uncharacterized protein V21 OS=Sputnik virophage OX=543939 GN=ORF21 PE=4 SV=1
+sp|Q2Y0F0|VP1_APRVF      -0.7   1.4e+03     2   1.2     55    130     81    116     35     70     Putative structural protein VP1 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S1 PE=4 SV=1
+sp|Q82054|NSP3_ROTHW     -0.8   1.4e+03     4   0.3    252    295    262    288     35     58     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=2 SV=1
+sp|P15633|Y3_SOCMV       -0.8   1.5e+03     2   0.0     78    106     81    104     53     75     Uncharacterized protein 3 OS=Soybean chlorotic mottle virus OX=10651 GN=ORF III PE=4 SV=2
+sp|Q82054|NSP3_ROTHW     -1.1   1.9e+03     1   0.1     90    117     93    105     47     59     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=2 SV=1
+sp|Q197B1|049R_IIV3      -1.2   1.9e+03     2   0.0    243    285    249    266     43     60     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q8JPY0|VP35_EBORR     -1.2   1.9e+03     1   0.0      3     49     28     47     29     48     Polymerase cofactor VP35 OS=Reston ebolavirus (strain Reston-89) OX=386032 GN=VP35 PE=1 SV=1
+sp|Q197B1|049R_IIV3      -1.3   2.1e+03     4   0.2    335    398    342    371     20     56     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q9ICB2|NSP3_ROTAM     -1.4   2.2e+03     4   0.1    237    291    263    281     38     54     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/M/1976/G3P[X]) OX=578834 PE=3 SV=1
+sp|Q2Y0F0|VP1_APRVF      -1.5   2.4e+03     1   0.1     12     71     16     63     24     67     Putative structural protein VP1 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S1 PE=4 SV=1
+sp|P04507|SIGM1_REOVJ    -1.7   2.9e+03     3   0.0    133    174    155    170     38     53     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|Q3ZK63|NSP3_ROT41     -1.8   2.9e+03     3   0.0    252    289    262    280     35     50     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Human/Belgium/B4106/2000/G3P11[14]) OX=578843 PE=3 SV=1
+sp|P18876|HEMA_I54A0     -1.9   3.3e+03     2   0.2    448    477    456    471     52     69     Hemagglutinin OS=Influenza A virus (strain A/Leningrad/1/1954 H1N1) OX=393557 GN=HA PE=3 SV=1
+sp|Q197B1|049R_IIV3      -2.0   3.4e+03     1   0.2     64    131     88     88     57     57     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|P21738|PHOSP_PI4HB    -2.1   3.6e+03     2   0.0    314    365    321    359     22     57     Phosphoprotein OS=Human parainfluenza 4b virus (strain 68-333) OX=11227 GN=P/V PE=1 SV=1
+sp|P24567|PHOSP_HRSV1    -2.1   3.7e+03     2   0.0    160    202    173    193     30     49     Phosphoprotein OS=Human respiratory syncytial virus B (strain 18537) OX=11251 GN=P PE=3 SV=1
+sp|Q197B1|049R_IIV3      -2.1   3.7e+03     5   0.1    365    410    385    409     32     56     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000115@SRS055378_LANL_scaffold_96161@SRS055378_LANL_scaffold_96161_gene_132926.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000115@SRS055378_LANL_scaffold_96161@SRS055378_LANL_scaffold_96161_gene_132926.txt data/models_hmm/7000000115@SRS055378_LANL_scaffold_96161@SRS055378_LANL_scaffold_96161_gene_132926.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:35 2021
+# [ok]

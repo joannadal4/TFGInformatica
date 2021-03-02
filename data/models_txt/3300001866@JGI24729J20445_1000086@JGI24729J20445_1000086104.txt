@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6QGE9|BPPB3_BPT5    12.7     0.052   1   1.5   0.1    Probable baseplate hub protein OS=Escherichia phage T5 OX=10726 GN=D16 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6QGE9|BPPB3_BPT5    11.6      0.12     1   0.1    626    698    643    686    141    184     Probable baseplate hub protein OS=Escherichia phage T5 OX=10726 GN=D16 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001866@JGI24729J20445_1000086@JGI24729J20445_1000086104.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001866@JGI24729J20445_1000086@JGI24729J20445_1000086104.txt data/models_hmm/3300001866@JGI24729J20445_1000086@JGI24729J20445_1000086104.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:28 2021
+# [ok]

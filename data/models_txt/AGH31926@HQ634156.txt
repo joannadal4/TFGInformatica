@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20833|V11_BPT3      11.2      0.26   1   1.2  13.4    Gene 1.1 protein OS=Enterobacteria phage T3 OX=10759 GN=1.1 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20833|V11_BPT3      10.9      0.33     1  13.4      2     46      7     46      9     50     Gene 1.1 protein OS=Enterobacteria phage T3 OX=10759 GN=1.1 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH31926@HQ634156.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH31926@HQ634156.txt data/models_hmm/AGH31926@HQ634156.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:45 2021
+# [ok]

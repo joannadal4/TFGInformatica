@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q2HRA1|UL92_HHV8P    13.2     0.067   2   2.3   0.5    Protein ORF31 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF31 PE=3 SV=1
+sp|Q01011|UL92_SHV21    11.2      0.28   2   2.4   9.2    Gene 31 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=31 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q2HRA1|UL92_HHV8P    13.2     0.067     1   0.5     10     45     17     39     44     66     Protein ORF31 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF31 PE=3 SV=1
+sp|Q01011|UL92_SHV21    10.0      0.65     1   5.4      8     49     19     45     40     65     Gene 31 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=31 PE=3 SV=1
+sp|Q2HRA1|UL92_HHV8P     2.3   1.7e+02     2   0.7    153    186    158    176     37     55     Protein ORF31 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF31 PE=3 SV=1
+sp|Q01011|UL92_SHV21     2.2   1.8e+02     2   0.1    158    195    165    182     37     54     Gene 31 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=31 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000069@TBL_comb48_EPIDRAFT_1000069120.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000069@TBL_comb48_EPIDRAFT_1000069120.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000069@TBL_comb48_EPIDRAFT_1000069120.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:41 2021
+# [ok]

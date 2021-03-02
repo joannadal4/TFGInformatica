@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36801|VE6_HPV09     10.1      0.63   3   2.9   5.3    Protein E6 OS=Human papillomavirus type 9 OX=10621 GN=E6 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36801|VE6_HPV09      8.0       2.9     3   0.1    120    148    128    147     18     37     Protein E6 OS=Human papillomavirus type 9 OX=10621 GN=E6 PE=3 SV=1
+sp|P36801|VE6_HPV09      4.0        51     2   0.2     77    129     83    127     10     50     Protein E6 OS=Human papillomavirus type 9 OX=10621 GN=E6 PE=3 SV=1
+sp|P36801|VE6_HPV09      0.1   8.7e+02     1   0.2     52     80     62     72     25     35     Protein E6 OS=Human papillomavirus type 9 OX=10621 GN=E6 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000584@MIS_1000058434.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000584@MIS_1000058434.txt data/models_hmm/3300002026@MIS_10000584@MIS_1000058434.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:56 2021
+# [ok]

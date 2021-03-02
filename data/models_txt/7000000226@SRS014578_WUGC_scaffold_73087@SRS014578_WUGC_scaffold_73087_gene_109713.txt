@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P89433|GM_HHV2H      17.5    0.0034   4   3.0   1.7    Envelope glycoprotein M OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=gM PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P89433|GM_HHV2H      17.5    0.0034     2   1.7     75    191     89    184     40    135     Envelope glycoprotein M OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=gM PE=3 SV=1
+sp|P89433|GM_HHV2H       0.3     7e+02     3   1.4    215    292    249    276     81    108     Envelope glycoprotein M OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=gM PE=3 SV=1
+sp|P89433|GM_HHV2H      -1.6   2.7e+03     4   0.2    320    374    328    366     37     69     Envelope glycoprotein M OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=gM PE=3 SV=1
+sp|P89433|GM_HHV2H      -3.3   8.8e+03     1   0.2     27     55     34     51     76     93     Envelope glycoprotein M OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=gM PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000226@SRS014578_WUGC_scaffold_73087@SRS014578_WUGC_scaffold_73087_gene_109713.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000226@SRS014578_WUGC_scaffold_73087@SRS014578_WUGC_scaffold_73087_gene_109713.txt data/models_hmm/7000000226@SRS014578_WUGC_scaffold_73087@SRS014578_WUGC_scaffold_73087_gene_109713.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:27 2021
+# [ok]

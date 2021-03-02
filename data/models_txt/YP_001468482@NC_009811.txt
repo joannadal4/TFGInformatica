@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09425|BP25_BPT4     27.6   1.8e-06   1   1.1   0.0    Baseplate wedge protein gp25 OS=Enterobacteria phage T4 OX=10665 GN=25 PE=1 SV=1
+sp|P51768|BPW_BPP2      18.7   0.00096   1   1.0   0.0    Baseplate protein W OS=Escherichia phage P2 OX=10679 GN=W PE=3 SV=1
+sp|O55719|096L_IIV6     13.2     0.047   1   1.1   0.2    Putative FAS1 domain-containing protein 096L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-096L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09425|BP25_BPT4     27.3   2.2e-06     1   0.0      3    128     10    113     90    194     Baseplate wedge protein gp25 OS=Enterobacteria phage T4 OX=10665 GN=25 PE=1 SV=1
+sp|P51768|BPW_BPP2      18.6     0.001     1   0.0      1    103      8     87     98    179     Baseplate protein W OS=Escherichia phage P2 OX=10679 GN=W PE=3 SV=1
+sp|O55719|096L_IIV6     12.7     0.064     1   0.2     75    172     88    171     32    118     Putative FAS1 domain-containing protein 096L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-096L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001468482@NC_009811.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001468482@NC_009811.txt data/models_hmm/YP_001468482@NC_009811.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:21 2021
+# [ok]

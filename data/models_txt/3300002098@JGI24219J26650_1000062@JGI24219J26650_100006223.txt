@@ -1,0 +1,490 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q82850|GAG_JEMBR     22.7   7.8e-05   2   2.5   5.9    Gag polyprotein OS=Jembrana disease virus OX=36370 GN=gag PE=3 SV=1
+sp|Q82851|POL_JEMBR     19.3   0.00085   2   2.7   5.5    Gag-Pol polyprotein OS=Jembrana disease virus OX=36370 GN=gag-pol PE=3 SV=1
+sp|Q8AII2|GAG_SIVTN     19.1   0.00097   2   2.4   6.8    Gag polyprotein OS=Simian immunodeficiency virus (isolate TAN1) OX=388910 GN=gag PE=3 SV=3
+sp|P04594|GAG_HV1MA     18.0    0.0021   2   2.5   5.1    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate MAL) OX=11697 GN=gag PE=3 SV=3
+sp|Q1A250|GAG_SIVEK     17.9    0.0023   2   2.5   5.4    Gag polyprotein OS=Simian immunodeficiency virus (isolate EK505) OX=388912 GN=gag PE=3 SV=3
+sp|P05892|GAG_SIVVT     17.7    0.0026   3   2.7   3.9    Gag polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM TYO-1) OX=11731 GN=gag PE=3 SV=1
+sp|P35955|GAG_VILVK     17.7    0.0027   2   2.7   8.3    Gag polyprotein OS=Maedi visna virus (strain KV1772) OX=36374 GN=gag PE=1 SV=1
+sp|P23425|GAG_VILV2     17.4    0.0033   2   2.7   8.7    Gag polyprotein OS=Maedi visna virus (strain 1514 / clone LV1-1KS2) OX=11744 GN=gag PE=3 SV=1
+sp|P23424|GAG_VILV1     17.4    0.0034   2   2.7   8.7    Gag polyprotein OS=Maedi visna virus (strain 1514 / clone LV1-1KS1) OX=11743 GN=gag PE=3 SV=1
+sp|P03352|GAG_VILV      17.3    0.0034   2   2.7   8.7    Gag polyprotein OS=Maedi visna virus (strain 1514) OX=11742 GN=gag PE=3 SV=1
+sp|P19558|GAG_BIV29     16.8     0.005   2   2.5  12.5    Gag polyprotein OS=Bovine immunodeficiency virus (strain R29) OX=417296 GN=gag PE=1 SV=2
+sp|P03349|GAG_HV1A2     16.6     0.006   2   2.5   6.7    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate ARV2/SF2) OX=11685 GN=gag PE=1 SV=3
+sp|Q8AII1|POL_SIVTN     16.4    0.0068   2   2.7   6.8    Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate TAN1) OX=388910 GN=gag-pol PE=3 SV=4
+sp|Q9IDV8|GAG_HV1YB     16.4    0.0069   2   2.4   4.9    Gag polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF106) OX=388819 GN=gag PE=3 SV=3
+sp|P20873|GAG_HV1JR     16.3    0.0073   2   2.5   6.5    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate JRCSF) OX=11688 GN=gag PE=3 SV=3
+sp|O89291|GAG_HV193     16.0    0.0087   2   2.5   5.7    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate 93BR020) OX=388814 GN=gag PE=3 SV=3
+sp|P20889|GAG_HV1OY     15.9    0.0095   2   2.5   6.4    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate OYI) OX=11699 GN=gag PE=3 SV=3
+sp|P69730|GAG_EIAV9     15.8     0.011   2   2.8   5.3    Gag polyprotein OS=Equine infectious anemia virus (isolate 1369) OX=11670 GN=gag PE=1 SV=1
+sp|P69731|GAG_EIAVC     15.8     0.011   2   2.8   5.3    Gag polyprotein OS=Equine infectious anemia virus (isolate CL22) OX=31675 GN=gag PE=3 SV=1
+sp|P69732|GAG_EIAVY     15.8     0.011   2   2.8   5.3    Gag polyprotein OS=Equine infectious anemia virus (strain Wyoming) OX=11672 GN=gag PE=1 SV=1
+sp|Q02843|GAG_SIVG1     15.8     0.011   2   2.5   5.9    Gag polyprotein OS=Simian immunodeficiency virus agm.grivet (isolate AGM gr-1) OX=31684 GN=gag PE=1 SV=1
+sp|P24736|GAG_HV1U4     15.5     0.013   2   2.4   5.3    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate U455) OX=11703 GN=gag PE=1 SV=3
+sp|P04592|GAG_HV1EL     15.5     0.013   2   2.5   5.6    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate ELI) OX=11689 GN=gag PE=3 SV=3
+sp|Q9WC62|GAG_HV1S9     15.4     0.014   2   2.7   6.5    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9173) OX=388904 GN=gag PE=1 SV=3
+sp|Q9QBY4|GAG_HV196     15.3     0.015   2   2.6   6.3    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype K (isolate 96CM-MP535) OX=388906 GN=gag PE=3 SV=2
+sp|Q9WC53|GAG_HV1S2     15.3     0.015   2   2.6   6.5    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9280) OX=388905 GN=gag PE=3 SV=3
+sp|P35962|GAG_HV1Y2     15.1     0.017   2   2.5   6.2    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate YU-2) OX=362651 GN=gag PE=1 SV=2
+sp|Q73367|GAG_HV1B9     15.1     0.017   2   2.5   6.2    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (strain 89.6) OX=401671 GN=gag PE=3 SV=3
+sp|Q77372|GAG_HV1AN     14.8     0.021   2   2.4   5.7    Gag polyprotein OS=Human immunodeficiency virus type 1 group O (isolate ANT70) OX=327105 GN=gag PE=3 SV=3
+sp|Q9QSR4|GAG_HV1VI     14.8     0.021   2   2.5   6.1    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate VI850) OX=388813 GN=gag PE=3 SV=3
+sp|Q75001|GAG_HV1ET     14.8     0.021   2   2.4   5.5    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype C (isolate ETH2220) OX=388796 GN=gag PE=3 SV=3
+sp|P05890|GAG_HV1RH     14.7     0.022   2   2.5   6.5    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate RF/HAT3) OX=11701 GN=gag PE=3 SV=3
+sp|P12498|POL_HV1J3     14.7     0.023   2   2.5   6.2    Gag-Pol polyprotein (Fragment) OS=Human immunodeficiency virus type 1 group M subtype B (isolate JH32) OX=11694 GN=gag-pol PE=3 SV=4
+sp|P12493|GAG_HV1N5     14.7     0.023   2   2.5   6.4    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate NY5) OX=11698 GN=gag PE=1 SV=3
+sp|O91079|GAG_HV1YF     14.5     0.027   2   2.4   5.1    Gag polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF30) OX=388818 GN=gag PE=3 SV=3
+sp|P18800|GAG_HV1ND     14.4     0.029   2   2.6   6.5    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=gag PE=3 SV=3
+sp|P05888|GAG_HV1MN     14.4     0.029   2   2.5   6.1    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate MN) OX=11696 GN=gag PE=1 SV=3
+sp|P12494|GAG_HV1J3     14.3      0.03   2   2.5   6.2    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate JH32) OX=11694 GN=gag PE=3 SV=3
+sp|P12495|GAG_HV1Z2     14.3      0.03   2   2.4   5.3    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate Z2/CDC-Z34) OX=11683 GN=gag PE=1 SV=3
+sp|Q70622|GAG_HV1LW     14.2     0.033   2   2.5   6.1    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate LW123) OX=82834 GN=gag PE=1 SV=3
+sp|Q9QC00|GAG_HV197     14.1     0.034   2   2.5   5.9    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype K (isolate 97ZR-EQTB11) OX=388907 GN=gag PE=3 SV=2
+sp|P03348|GAG_HV1BR     14.1     0.036   2   2.5   6.1    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRU/LAI) OX=11686 GN=gag PE=1 SV=3
+sp|Q9QBZ2|GAG_HV1M2     13.9     0.039   2   2.5   5.6    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype F2 (isolate MP257) OX=388823 GN=gag PE=3 SV=2
+sp|P05960|POL_HV1C4     13.9      0.04   2   2.5   6.4    Gag-Pol polyprotein (Fragment) OS=Human immunodeficiency virus type 1 group M subtype B (isolate CDC-451) OX=11687 GN=gag-pol PE=3 SV=3
+sp|Q0R5R4|GAG_HTL32     13.9      0.04   2   2.0   0.1    Gag polyprotein OS=Human T-cell leukemia virus 3 (strain 2026ND) OX=402036 GN=gag PE=3 SV=3
+sp|P27978|GAG_SIVVG     13.9      0.04   3   2.7   7.1    Gag polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM3) OX=11730 GN=gag PE=3 SV=1
+sp|P03347|GAG_HV1B1     13.8     0.042   2   2.5   6.5    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=gag PE=1 SV=3
+sp|P17282|GAG_SIVCZ     13.7     0.045   2   2.4   6.6    Gag polyprotein OS=Simian immunodeficiency virus (isolate CPZ GAB1) OX=402771 GN=gag PE=3 SV=1
+sp|P35956|POL_VILVK     13.7     0.047   2   2.7   8.1    Gag-Pol polyprotein OS=Maedi visna virus (strain KV1772) OX=36374 GN=pol PE=1 SV=2
+sp|Q9IDV9|POL_HV1YB     13.7     0.047   2   2.8   5.3    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF106) OX=388819 GN=gag-pol PE=1 SV=3
+sp|P04591|GAG_HV1H2     13.7     0.048   2   2.5   6.4    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=gag PE=1 SV=3
+sp|O12157|GAG_HV192     13.6     0.049   2   2.6   6.7    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype C (isolate 92BR025) OX=388812 GN=gag PE=3 SV=3
+sp|P04588|POL_HV1MA     13.6      0.05   3   2.9   7.0    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate MAL) OX=11697 GN=gag-pol PE=1 SV=3
+sp|P0C1K7|GAG_HV19N     13.5     0.052   2   2.4   6.2    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype G (isolate 92NG083) OX=388825 GN=gag PE=3 SV=2
+sp|Q79665|GAG_HV1MV     13.5     0.054   2   2.4   5.8    Gag polyprotein OS=Human immunodeficiency virus type 1 group O (isolate MVP5180) OX=388816 GN=gag PE=3 SV=3
+sp|P05887|GAG_HV1C4     13.5     0.054   2   2.5   6.6    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate CDC-451) OX=11687 GN=gag PE=3 SV=3
+sp|O89290|POL_HV193     13.4     0.056   2   2.8   6.2    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate 93BR020) OX=388814 GN=gag-pol PE=3 SV=3
+sp|P04593|GAG_HV1B5     13.4     0.058   2   2.5   6.2    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH5) OX=11682 GN=gag PE=3 SV=3
+sp|P23426|POL_VILV1     13.3     0.061   2   2.7   8.6    Gag-Pol polyprotein OS=Maedi visna virus (strain 1514 / clone LV1-1KS1) OX=11743 GN=pol PE=3 SV=2
+sp|P03370|POL_VILV      13.3     0.062   2   2.7   8.6    Gag-Pol polyprotein OS=Maedi visna virus (strain 1514) OX=11742 GN=pol PE=1 SV=2
+sp|P23427|POL_VILV2     13.3     0.063   2   2.7   8.6    Gag-Pol polyprotein OS=Maedi visna virus (strain 1514 / clone LV1-1KS2) OX=11744 GN=pol PE=3 SV=2
+sp|P24740|POL_HV1U4     13.2     0.066   2   2.9   5.1    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate U455) OX=11703 GN=gag-pol PE=1 SV=3
+sp|P27972|GAG_SIVV1     13.2     0.068   3   2.7   6.8    Gag polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM155) OX=11727 GN=gag PE=3 SV=1
+sp|Q02836|POL_SIVG1     13.1      0.07   2   2.7   5.8    Gag-Pol polyprotein OS=Simian immunodeficiency virus agm.grivet (isolate AGM gr-1) OX=31684 GN=gag-pol PE=3 SV=2
+sp|Q9WC63|POL_HV1S9     13.1      0.07   2   2.9   6.7    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9173) OX=388904 GN=gag-pol PE=3 SV=3
+sp|Q0R5R3|PRO_HTL32     13.0     0.074   2   1.8   0.1    Gag-Pro polyprotein OS=Human T-cell leukemia virus 3 (strain 2026ND) OX=402036 GN=gag-pro PE=3 SV=3
+sp|Q9WC54|POL_HV1S2     13.0     0.074   2   2.9   6.7    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9280) OX=388905 GN=gag-pol PE=3 SV=3
+sp|P33458|GAG_CAEVC     13.0     0.077   2   2.6   8.8    Gag polyprotein OS=Caprine arthritis encephalitis virus (strain Cork) OX=11661 GN=gag PE=3 SV=1
+sp|P03369|POL_HV1A2     12.8      0.09   3   2.9   8.4    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate ARV2/SF2) OX=11685 GN=gag-pol PE=1 SV=3
+sp|P20875|POL_HV1JR     12.8     0.091   3   2.8   7.9    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate JRCSF) OX=11688 GN=gag-pol PE=1 SV=3
+sp|P12497|POL_HV1N5     12.7     0.092   2   2.8   6.1    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate NY5) OX=11698 GN=gag-pol PE=1 SV=4
+sp|Q9QBZ5|POL_HV1MP     12.6       0.1   2   3.0   6.1    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype F2 (isolate MP255) OX=388815 GN=gag-pol PE=3 SV=3
+sp|Q1A249|POL_SIVEK     12.6       0.1   3   3.0   7.3    Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate EK505) OX=388912 GN=gag-pol PE=3 SV=3
+sp|O93182|GAG_HV190     12.5      0.11   3   2.9   9.2    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype H (isolate 90CF056) OX=388826 GN=gag PE=3 SV=3
+sp|Q09T00|GAG_HTL3P     12.4      0.12   2   1.8   0.1    Gag polyprotein OS=Human T-cell leukemia virus 3 (strain Pyl43) OX=406769 GN=gag PE=3 SV=3
+sp|P05895|POL_SIVVT     12.4      0.12   2   3.1   6.2    Gag-Pol polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM TYO-1) OX=11731 GN=gag-pol PE=3 SV=2
+sp|P20892|POL_HV1OY     12.3      0.13   3   2.9   7.9    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate OYI) OX=11699 GN=gag-pol PE=3 SV=3
+sp|P04589|POL_HV1EL     12.3      0.13   2   2.6   5.9    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate ELI) OX=11689 GN=gag-pol PE=3 SV=3
+sp|O89939|GAG_HV1SE     12.2      0.13   3   2.6   8.1    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype G (isolate SE6165) OX=388824 GN=gag PE=3 SV=3
+sp|P24106|GAG_HV2CA     12.2      0.14   2   2.4   5.0    Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate CAM2) OX=11715 GN=gag PE=3 SV=3
+sp|Q75002|POL_HV1ET     12.2      0.14   2   2.7   5.7    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype C (isolate ETH2220) OX=388796 GN=gag-pol PE=3 SV=3
+sp|P03346|GAG_HTLV2     12.1      0.15   2   1.9   0.6    Gag polyprotein OS=Human T-cell leukemia virus 2 OX=11909 GN=gag PE=1 SV=3
+sp|P27980|POL_SIVVG     12.1      0.15   2   3.0   6.2    Gag-Pol polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM3) OX=11730 GN=gag-pol PE=3 SV=2
+sp|P14077|GAG_HTL1M     12.1      0.15   2   1.8   0.2    Gag polyprotein OS=Human T-cell leukemia virus 1 (strain Japan MT-2 subtype A) OX=11928 GN=gag PE=1 SV=3
+sp|P03345|GAG_HTL1A     12.1      0.15   2   1.8   0.2    Gag polyprotein OS=Human T-cell leukemia virus 1 (strain Japan ATK-1 subtype A) OX=11926 GN=gag PE=1 SV=3
+sp|P14076|GAG_HTL1C     12.0      0.15   2   1.8   0.2    Gag polyprotein OS=Human T-cell leukemia virus 1 (isolate Caribbea HS-35 subtype A) OX=11927 GN=gag PE=3 SV=3
+sp|Q9QBZ6|GAG_HV1MP     12.0      0.15   3   2.7   9.2    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype F2 (isolate MP255) OX=388815 GN=gag PE=3 SV=2
+sp|P0C209|GAG_HTL1L     11.9      0.17   2   1.8   0.2    Gag polyprotein OS=Human T-cell leukemia virus 1 (isolate Melanesia mel5 subtype C) OX=402046 GN=gag PE=3 SV=2
+sp|P04590|GAG_HV2RO     11.9      0.17   2   2.4   4.9    Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate ROD) OX=11720 GN=gag PE=1 SV=3
+sp|P05959|POL_HV1RH     11.9      0.17   3   2.9   7.5    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate RF/HAT3) OX=11701 GN=gag-pol PE=1 SV=3
+sp|Q9QBZ9|POL_HV197     11.7       0.2   2   2.9   6.0    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype K (isolate 97ZR-EQTB11) OX=388907 GN=gag-pol PE=3 SV=2
+sp|P16900|GAG_OMVVS     11.6      0.21   2   2.9  10.4    Gag polyprotein OS=Ovine maedi visna related virus (strain South Africa) OX=11664 GN=gag PE=3 SV=1
+sp|Q09SZ9|PRO_HTL3P     11.6      0.21   2   1.7   0.1    Gag-Pro polyprotein OS=Human T-cell leukemia virus 3 (strain Pyl43) OX=406769 GN=gag-pro PE=3 SV=3
+sp|P35963|POL_HV1Y2     11.6      0.21   3   2.8   7.5    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate YU-2) OX=362651 GN=gag-pol PE=1 SV=3
+sp|Q77373|POL_HV1AN     11.6      0.21   2   2.6   5.5    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group O (isolate ANT70) OX=327105 GN=gag-pol PE=3 SV=3
+sp|Q9Q721|GAG_HV1V9     11.5      0.22   2   2.5   6.0    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype H (isolate VI991) OX=388888 GN=gag PE=3 SV=3
+sp|P11365|GAG_IPMA      11.5      0.23   2   2.1   4.2    Intracisternal A-particle Gag-related polyprotein OS=Mouse intracisternal a-particle MIA14 OX=11753 GN=gag PE=3 SV=2
+sp|Q1A268|GAG_SIVMB     11.4      0.24   2   2.4   7.1    Gag polyprotein OS=Simian immunodeficiency virus (isolate MB66) OX=388911 GN=gag PE=3 SV=3
+sp|P20874|GAG_HV2ST     11.3      0.26   3   3.3   8.3    Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate ST) OX=11721 GN=gag PE=3 SV=3
+sp|O93215|POL_HV190     11.3      0.26   3   3.1   8.1    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype H (isolate 90CF056) OX=388826 GN=gag-pol PE=3 SV=4
+sp|Q0R5R2|POL_HTL32     11.2      0.28   2   1.8   0.4    Gag-Pro-Pol polyprotein OS=Human T-cell leukemia virus 3 (strain 2026ND) OX=402036 GN=gag-pro-pol PE=3 SV=3
+sp|Q79666|POL_HV1MV     11.2      0.29   2   2.6   6.0    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group O (isolate MVP5180) OX=388816 GN=gag-pol PE=3 SV=3
+sp|P03353|PRO_HTLV2     11.1       0.3   2   1.8   0.8    Gag-Pro polyprotein OS=Human T-cell leukemia virus 2 OX=11909 GN=gag-pro PE=1 SV=3
+sp|Q9QBY3|POL_HV196     11.1      0.31   3   2.9   8.1    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype K (isolate 96CM-MP535) OX=388906 GN=gag-pol PE=3 SV=3
+sp|P12499|POL_HV1Z2     11.1      0.31   3   2.8   6.5    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate Z2/CDC-Z34) OX=11683 GN=gag-pol PE=1 SV=3
+sp|O41798|POL_HV19N     11.0      0.33   2   2.7   6.1    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype G (isolate 92NG083) OX=388825 GN=gag-pol PE=3 SV=3
+sp|P12450|GAG_HV2SB     10.9      0.35   2   2.6   5.4    Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate SBLISY) OX=11718 GN=gag PE=3 SV=3
+sp|P03367|POL_HV1BR     10.7      0.39   3   2.9   7.4    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRU/LAI) OX=11686 GN=gag-pol PE=1 SV=3
+sp|Q73368|POL_HV1B9     10.7       0.4   3   2.8   8.2    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (strain 89.6) OX=401671 GN=gag-pol PE=3 SV=3
+sp|P27973|POL_SIVV1     10.7       0.4   2   2.9   6.6    Gag-Pol polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM155) OX=11727 GN=gag-pol PE=3 SV=2
+sp|P03366|POL_HV1B1     10.7      0.41   3   2.9   7.6    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=gag-pol PE=1 SV=3
+sp|P0C6F2|POL_HV1LW     10.7      0.41   3   2.9   7.8    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate LW123) OX=82834 GN=gag-pol PE=1 SV=1
+sp|P10271|PRO_MMTVB     10.6      0.42   2   2.8   2.8    Gag-Pro polyprotein OS=Mouse mammary tumor virus (strain BR6) OX=11758 GN=gag-pro PE=1 SV=2
+sp|Q9QSR3|POL_HV1VI     10.5      0.45   3   3.0   8.3    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate VI850) OX=388813 GN=gag-pol PE=3 SV=3
+sp|P11283|POL_MMTVC     10.5      0.45   2   3.0   2.9    Gag-Pro-Pol polyprotein OS=Mouse mammary tumor virus (strain C3H) OX=11759 GN=gag-pro-pol PE=1 SV=2
+sp|P19560|POL_BIV29     10.5      0.46   3   2.9  15.8    Gag-Pol polyprotein OS=Bovine immunodeficiency virus (strain R29) OX=417296 GN=gag-pol PE=1 SV=2
+sp|P18802|POL_HV1ND     10.5      0.46   3   2.9   8.0    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=gag-pol PE=3 SV=3
+sp|Q74119|GAG_HV2KR     10.4      0.49   2   2.6   5.7    Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate KR) OX=73484 GN=gag PE=3 SV=3
+sp|P04585|POL_HV1H2     10.3      0.54   3   2.9   7.6    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=gag-pol PE=1 SV=4
+sp|O89940|POL_HV1SE     10.2      0.56   3   2.9   7.7    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype G (isolate SE6165) OX=388824 GN=gag-pol PE=3 SV=3
+sp|Q9QBZ1|POL_HV1M2     10.2      0.56   3   2.9   7.2    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype F2 (isolate MP257) OX=388823 GN=gag-pol PE=3 SV=3
+sp|P17756|GAG_HV2D1     10.2      0.59   2   2.4   5.6    Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate D194) OX=11713 GN=gag PE=3 SV=4
+sp|P05961|POL_HV1MN     10.1       0.6   3   2.9   8.3    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate MN) OX=11696 GN=gag-pol PE=1 SV=3
+sp|P04587|POL_HV1B5     10.0      0.64   3   2.9   7.4    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH5) OX=11682 GN=gag-pol PE=1 SV=3
+sp|P31821|GAG_FIVT2     10.0      0.64   2   2.6   3.9    Gag polyprotein OS=Feline immunodeficiency virus (isolate TM2) OX=31676 GN=gag PE=3 SV=1
+sp|P17283|POL_SIVCZ     10.0      0.66   3   3.0   8.5    Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate CPZ GAB1) OX=402771 GN=gag-pol PE=3 SV=2
+sp|P04023|GAG_IPHA       9.9      0.69   2   2.4   7.7    Intracisternal A-particle Gag-related polyprotein OS=Hamster intracisternal a-particle H18 OX=11752 GN=gag PE=3 SV=1
+sp|Q1A267|POL_SIVMB      9.7      0.84   2   2.8   7.4    Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate MB66) OX=388911 GN=gag-pol PE=3 SV=4
+sp|O12158|POL_HV192      9.6       0.9   3   2.9   8.3    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype C (isolate 92BR025) OX=388812 GN=gag-pol PE=1 SV=2
+sp|Q76633|GAG_HV2UC      9.5      0.91   2   2.5   6.7    Gag polyprotein OS=Human immunodeficiency virus type 2 subtype B (isolate UC1) OX=388822 GN=gag PE=3 SV=3
+sp|P24107|POL_HV2CA      9.4      0.99   2   2.7   5.1    Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate CAM2) OX=11715 GN=gag-pol PE=3 SV=3
+sp|P04584|POL_HV2RO      9.2       1.1   2   2.7   4.8    Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate ROD) OX=11720 GN=gag-pol PE=1 SV=3
+sp|P31634|GAG_SIVMS      8.9       1.4   2   2.4   6.2    Gag polyprotein OS=Simian immunodeficiency virus (isolate STM) OX=31683 GN=gag PE=3 SV=1
+sp|P12496|GAG_SIVS4      8.9       1.5   2   2.5   6.5    Gag polyprotein OS=Simian immunodeficiency virus (isolate F236/smH4) OX=11737 GN=gag PE=3 SV=1
+sp|P04022|GAG_SRV1       8.9       1.5   2   2.4   9.7    Gag polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=gag PE=1 SV=3
+sp|O91080|POL_HV1YF      8.8       1.5   3   2.9   7.5    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF30) OX=388818 GN=gag-pol PE=3 SV=3
+sp|P19504|GAG_SIVSP      8.7       1.6   2   2.4   6.2    Gag polyprotein OS=Simian immunodeficiency virus (isolate PBj14/BCL-3) OX=11738 GN=gag PE=3 SV=1
+sp|P15832|GAG_HV2D2      8.3       2.2   2   2.5   6.8    Gag polyprotein OS=Human immunodeficiency virus type 2 subtype B (isolate D205) OX=11716 GN=gag PE=3 SV=3
+sp|P18095|GAG_HV2BE      8.3       2.3   2   2.4   3.8    Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate BEN) OX=11714 GN=gag PE=3 SV=3
+sp|P12451|POL_HV2SB      8.1       2.5   2   2.8   5.4    Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate SBLISY) OX=11718 GN=gag-pol PE=3 SV=3
+sp|Q9Q720|POL_HV1V9      8.0       2.7   3   2.9   7.3    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype H (isolate VI991) OX=388888 GN=gag-pol PE=3 SV=3
+sp|P04024|PRO_SRV1       8.0       2.8   2   2.3   9.6    Gag-Pro polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=pro PE=3 SV=2
+sp|Q74230|GAG_HV2EH      8.0       2.8   2   2.5   6.0    Gag polyprotein OS=Human immunodeficiency virus type 2 subtype B (isolate EHO) OX=388821 GN=gag PE=3 SV=3
+sp|P18041|GAG_HV2G1      7.8       3.3   2   2.5   6.5    Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate Ghana-1) OX=11717 GN=gag PE=1 SV=3
+sp|O92954|GAG_RSVSB      7.7       3.3   2   2.3   5.9    Gag polyprotein OS=Rous sarcoma virus (strain Schmidt-Ruppin B) OX=269447 GN=gag PE=1 SV=1
+sp|P04025|POL_SRV1       7.7       3.4   2   2.2   8.2    Gag-Pro-Pol polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=pol PE=3 SV=2
+sp|Q05313|GAG_FIVWO      7.7       3.5   2   2.7   5.8    Gag polyprotein OS=Feline immunodeficiency virus (isolate Wo) OX=45409 GN=gag PE=3 SV=1
+sp|Q74120|POL_HV2KR      7.5         4   2   2.7   5.7    Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate KR) OX=73484 GN=gag-pol PE=3 SV=3
+sp|P17757|POL_HV2D1      7.4       4.1   2   2.7   5.6    Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate D194) OX=11713 GN=gag-pol PE=3 SV=3
+sp|P07572|POL_MPMV       7.4       4.2   2   2.2   7.6    Gag-Pro-Pol polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag-pro-pol PE=1 SV=2
+sp|P19027|GAG_FIVSD      7.4       4.2   2   2.6   5.7    Gag polyprotein OS=Feline immunodeficiency virus (strain San Diego) OX=11675 GN=gag PE=3 SV=1
+sp|P16087|GAG_FIVPE      7.3       4.6   2   2.7   6.3    Gag polyprotein OS=Feline immunodeficiency virus (isolate Petaluma) OX=11674 GN=gag PE=1 SV=1
+sp|P03322|GAG_RSVP       7.2       4.9   2   2.3   6.3    Gag polyprotein OS=Rous sarcoma virus (strain Prague C) OX=11888 GN=gag PE=1 SV=1
+sp|P51518|PRO_SRV2       7.1         5   2   2.5   7.0    Gag-Pro polyprotein OS=Simian retrovirus SRV-2 OX=39068 GN=pro PE=3 SV=2
+sp|P07567|GAG_MPMV       7.1       5.3   2   2.5  10.6    Gag polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag PE=1 SV=3
+sp|Q76634|POL_HV2UC      6.8       6.6   2   2.7   6.7    Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype B (isolate UC1) OX=388822 GN=gag-pol PE=3 SV=3
+sp|P11284|GAG_MMTVC      6.8       6.6   3   3.2  10.6    Gag polyprotein OS=Mouse mammary tumor virus (strain C3H) OX=11759 GN=gag PE=1 SV=3
+sp|P07570|PRO_MPMV       6.7       6.7   2   2.3   9.9    Gag-Pro polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag-pro PE=1 SV=2
+sp|P51516|GAG_SRV2       6.7       7.1   3   2.7   8.7    Gag polyprotein OS=Simian retrovirus SRV-2 OX=39068 GN=gag PE=3 SV=3
+sp|O92956|POL_RSVSB      6.6       7.7   2   2.1   4.9    Gag-Pol polyprotein OS=Rous sarcoma virus (strain Schmidt-Ruppin B) OX=269447 GN=gag-pol PE=1 SV=2
+sp|P20876|POL_HV2ST      6.5         8   3   3.4   8.8    Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate ST) OX=11721 GN=gag-pol PE=3 SV=3
+sp|P51517|POL_SRV2       6.2       9.6   2   2.2   5.9    Gag-Pro-Pol polyprotein OS=Simian retrovirus SRV-2 OX=39068 GN=pol PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03352|GAG_VILV      14.1     0.036     1   0.3    325    405    355    402     54     99     Gag polyprotein OS=Maedi visna virus (strain 1514) OX=11742 GN=gag PE=3 SV=1
+sp|P23424|GAG_VILV1     14.1     0.036     1   0.3    325    405    355    402     54     99     Gag polyprotein OS=Maedi visna virus (strain 1514 / clone LV1-1KS1) OX=11743 GN=gag PE=3 SV=1
+sp|P23425|GAG_VILV2     13.9     0.042     1   0.4    323    403    355    401     54     98     Gag polyprotein OS=Maedi visna virus (strain 1514 / clone LV1-1KS2) OX=11744 GN=gag PE=3 SV=1
+sp|P35955|GAG_VILVK     13.8     0.043     1   0.3    325    403    355    401     54     98     Gag polyprotein OS=Maedi visna virus (strain KV1772) OX=36374 GN=gag PE=1 SV=1
+sp|Q82850|GAG_JEMBR     13.6     0.049     2   1.2    384    410    385    405     81    101     Gag polyprotein OS=Jembrana disease virus OX=36370 GN=gag PE=3 SV=1
+sp|P04594|GAG_HV1MA     13.5     0.054     1   0.3    367    418    378    414     64    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate MAL) OX=11697 GN=gag PE=3 SV=3
+sp|P11365|GAG_IPMA      12.8     0.086     1   0.4    442    481    458    475     82     99     Intracisternal A-particle Gag-related polyprotein OS=Mouse intracisternal a-particle MIA14 OX=11753 GN=gag PE=3 SV=2
+sp|P20873|GAG_HV1JR     12.5      0.11     1   0.7    366    412    384    408     76    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate JRCSF) OX=11688 GN=gag PE=3 SV=3
+sp|Q1A250|GAG_SIVEK     12.5      0.11     1   0.4    364    415    381    410     70     99     Gag polyprotein OS=Simian immunodeficiency virus (isolate EK505) OX=388912 GN=gag PE=3 SV=3
+sp|Q8AII2|GAG_SIVTN     12.5      0.11     1   0.8    411    439    416    435     81    100     Gag polyprotein OS=Simian immunodeficiency virus (isolate TAN1) OX=388910 GN=gag PE=3 SV=3
+sp|Q9IDV8|GAG_HV1YB     12.3      0.13     1   0.4    362    414    380    409     70     99     Gag polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF106) OX=388819 GN=gag PE=3 SV=3
+sp|P19558|GAG_BIV29     11.9      0.16     2   2.9    419    445    422    440     83    101     Gag polyprotein OS=Bovine immunodeficiency virus (strain R29) OX=417296 GN=gag PE=1 SV=2
+sp|P20889|GAG_HV1OY     11.9      0.16     1   0.6    360    411    381    407     74    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate OYI) OX=11699 GN=gag PE=3 SV=3
+sp|P04022|GAG_SRV1      11.9      0.17     1   3.2    536    577    549    571     83    105     Gag polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=gag PE=1 SV=3
+sp|Q0R5R4|GAG_HTL32     11.8      0.18     1   0.0    332    368    348    365     81     98     Gag polyprotein OS=Human T-cell leukemia virus 3 (strain 2026ND) OX=402036 GN=gag PE=3 SV=3
+sp|P35956|POL_VILVK     11.8      0.18     1   0.3    328    405    356    402     55     99     Gag-Pol polyprotein OS=Maedi visna virus (strain KV1772) OX=36374 GN=pol PE=1 SV=2
+sp|Q82851|POL_JEMBR     11.7      0.19     2   1.0    384    409    385    405     81    101     Gag-Pol polyprotein OS=Jembrana disease virus OX=36370 GN=gag-pol PE=3 SV=1
+sp|P03370|POL_VILV      11.7      0.19     1   0.4    326    404    356    402     55     99     Gag-Pol polyprotein OS=Maedi visna virus (strain 1514) OX=11742 GN=pol PE=1 SV=2
+sp|P23426|POL_VILV1     11.7      0.19     1   0.4    326    404    356    402     55     99     Gag-Pol polyprotein OS=Maedi visna virus (strain 1514 / clone LV1-1KS1) OX=11743 GN=pol PE=3 SV=2
+sp|P23427|POL_VILV2     11.7      0.19     1   0.4    326    404    356    402     55     99     Gag-Pol polyprotein OS=Maedi visna virus (strain 1514 / clone LV1-1KS2) OX=11744 GN=pol PE=3 SV=2
+sp|Q82850|GAG_JEMBR     11.7      0.19     1   0.3    328    387    356    385     73     99     Gag polyprotein OS=Jembrana disease virus OX=36370 GN=gag PE=3 SV=1
+sp|P04588|POL_HV1MA     11.7       0.2     1   0.3    368    418    378    414     64    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate MAL) OX=11697 GN=gag-pol PE=1 SV=3
+sp|P05890|GAG_HV1RH     11.7       0.2     1   0.7    366    412    389    408     81    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate RF/HAT3) OX=11701 GN=gag PE=3 SV=3
+sp|P05892|GAG_SIVVT     11.7       0.2     1   0.2    370    418    384    412     69     97     Gag polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM TYO-1) OX=11731 GN=gag PE=3 SV=1
+sp|Q9WC53|GAG_HV1S2     11.5      0.22     1   0.7    358    411    379    407     73    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9280) OX=388905 GN=gag PE=3 SV=3
+sp|Q9WC62|GAG_HV1S9     11.5      0.22     1   0.7    358    411    379    407     73    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9173) OX=388904 GN=gag PE=1 SV=3
+sp|O89291|GAG_HV193     11.5      0.22     1   0.4    336    407    367    403     61    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate 93BR020) OX=388814 GN=gag PE=3 SV=3
+sp|Q9QBY4|GAG_HV196     11.5      0.23     1   0.7    357    407    376    403     74    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype K (isolate 96CM-MP535) OX=388906 GN=gag PE=3 SV=2
+sp|P04023|GAG_IPHA      11.5      0.23     1   0.5    425    470    435    464     70     99     Intracisternal A-particle Gag-related polyprotein OS=Hamster intracisternal a-particle H18 OX=11752 GN=gag PE=3 SV=1
+sp|P35962|GAG_HV1Y2     11.4      0.24     1   0.6    361    412    384    408     76    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate YU-2) OX=362651 GN=gag PE=1 SV=2
+sp|Q73367|GAG_HV1B9     11.4      0.24     1   0.6    361    412    384    408     76    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (strain 89.6) OX=401671 GN=gag PE=3 SV=3
+sp|Q77372|GAG_HV1AN     11.3      0.25     1   0.4    366    416    385    412     74    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group O (isolate ANT70) OX=327105 GN=gag PE=3 SV=3
+sp|Q0R5R3|PRO_HTL32     11.3      0.26     1   0.0    332    368    348    365     81     98     Gag-Pro polyprotein OS=Human T-cell leukemia virus 3 (strain 2026ND) OX=402036 GN=gag-pro PE=3 SV=3
+sp|P24736|GAG_HV1U4     11.2      0.27     1   0.3    355    406    376    402     74    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate U455) OX=11703 GN=gag PE=1 SV=3
+sp|P04024|PRO_SRV1      11.2      0.29     1   3.4    536    575    549    570     83    104     Gag-Pro polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=pro PE=3 SV=2
+sp|P12493|GAG_HV1N5     11.1      0.31     1   0.7    366    412    384    408     76    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate NY5) OX=11698 GN=gag PE=1 SV=3
+sp|Q9QBZ6|GAG_HV1MP     11.0      0.31     1   0.6    338    407    371    403     65    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype F2 (isolate MP255) OX=388815 GN=gag PE=3 SV=2
+sp|P03349|GAG_HV1A2     11.0      0.32     1   0.7    367    414    387    410     77    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate ARV2/SF2) OX=11685 GN=gag PE=1 SV=3
+sp|Q1A249|POL_SIVEK     10.8      0.36     1   0.4    363    415    381    410     70     99     Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate EK505) OX=388912 GN=gag-pol PE=3 SV=3
+sp|Q8AII1|POL_SIVTN     10.8      0.37     1   0.8    412    439    416    435     81    100     Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate TAN1) OX=388910 GN=gag-pol PE=3 SV=4
+sp|Q79665|GAG_HV1MV     10.8      0.37     1   0.4    359    416    390    412     78    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group O (isolate MVP5180) OX=388816 GN=gag PE=3 SV=3
+sp|Q09T00|GAG_HTL3P     10.8      0.37     1   0.0    332    368    348    365     81     98     Gag polyprotein OS=Human T-cell leukemia virus 3 (strain Pyl43) OX=406769 GN=gag PE=3 SV=3
+sp|P20875|POL_HV1JR     10.8      0.38     1   0.7    368    412    384    408     76    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate JRCSF) OX=11688 GN=gag-pol PE=1 SV=3
+sp|Q75001|GAG_HV1ET     10.7      0.39     1   0.4    359    409    385    405     80    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype C (isolate ETH2220) OX=388796 GN=gag PE=3 SV=3
+sp|P12494|GAG_HV1J3     10.7      0.41     1   0.6    361    412    386    408     78    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate JH32) OX=11694 GN=gag PE=3 SV=3
+sp|P12495|GAG_HV1Z2     10.6      0.41     1   0.5    367    414    390    409     80     99     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate Z2/CDC-Z34) OX=11683 GN=gag PE=1 SV=3
+sp|P07572|POL_MPMV      10.6      0.41     1   1.7    535    573    548    569     83    104     Gag-Pro-Pol polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag-pro-pol PE=1 SV=2
+sp|P33458|GAG_CAEVC     10.6      0.41     1   0.6    321    399    379    396     82     99     Gag polyprotein OS=Caprine arthritis encephalitis virus (strain Cork) OX=11661 GN=gag PE=3 SV=1
+sp|P12498|POL_HV1J3     10.6      0.42     1   0.6    360    412    386    408     78    100     Gag-Pol polyprotein (Fragment) OS=Human immunodeficiency virus type 1 group M subtype B (isolate JH32) OX=11694 GN=gag-pol PE=3 SV=4
+sp|P07567|GAG_MPMV      10.6      0.43     1   3.4    536    574    548    569     83    104     Gag polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag PE=1 SV=3
+sp|Q9IDV9|POL_HV1YB     10.6      0.44     1   0.4    363    414    380    409     70     99     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF106) OX=388819 GN=gag-pol PE=1 SV=3
+sp|P05888|GAG_HV1MN     10.6      0.44     1   0.6    365    415    390    411     79    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate MN) OX=11696 GN=gag PE=1 SV=3
+sp|Q9QSR4|GAG_HV1VI     10.6      0.44     1   0.5    355    406    383    402     81    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate VI850) OX=388813 GN=gag PE=3 SV=3
+sp|O93182|GAG_HV190     10.5      0.46     1   0.6    361    413    390    409     81    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype H (isolate 90CF056) OX=388826 GN=gag PE=3 SV=3
+sp|P03346|GAG_HTLV2     10.5      0.47     1   0.2    359    380    363    377     84     98     Gag polyprotein OS=Human T-cell leukemia virus 2 OX=11909 GN=gag PE=1 SV=3
+sp|P03345|GAG_HTL1A     10.5      0.47     1   0.0    340    374    354    371     81     98     Gag polyprotein OS=Human T-cell leukemia virus 1 (strain Japan ATK-1 subtype A) OX=11926 GN=gag PE=1 SV=3
+sp|P14076|GAG_HTL1C     10.5      0.47     1   0.0    340    374    354    371     81     98     Gag polyprotein OS=Human T-cell leukemia virus 1 (isolate Caribbea HS-35 subtype A) OX=11927 GN=gag PE=3 SV=3
+sp|P14077|GAG_HTL1M     10.5      0.47     1   0.0    340    374    354    371     81     98     Gag polyprotein OS=Human T-cell leukemia virus 1 (strain Japan MT-2 subtype A) OX=11928 GN=gag PE=1 SV=3
+sp|P03347|GAG_HV1B1     10.4      0.48     1   0.8    360    412    385    408     77    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=gag PE=1 SV=3
+sp|O12157|GAG_HV192     10.3      0.53     1   0.8    359    409    385    405     80    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype C (isolate 92BR025) OX=388812 GN=gag PE=3 SV=3
+sp|P0C209|GAG_HTL1L     10.3      0.53     1   0.0    341    374    354    371     81     98     Gag polyprotein OS=Human T-cell leukemia virus 1 (isolate Melanesia mel5 subtype C) OX=402046 GN=gag PE=3 SV=2
+sp|Q70622|GAG_HV1LW     10.3      0.53     1   0.6    365    412    387    408     79    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate LW123) OX=82834 GN=gag PE=1 SV=3
+sp|P04025|POL_SRV1      10.3      0.55     1   3.3    537    576    549    571     83    105     Gag-Pro-Pol polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=pol PE=3 SV=2
+sp|O91079|GAG_HV1YF     10.3      0.55     1   0.3    373    415    388    410     77     99     Gag polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF30) OX=388818 GN=gag PE=3 SV=3
+sp|Q09SZ9|PRO_HTL3P     10.3      0.55     1   0.0    332    368    348    365     81     98     Gag-Pro polyprotein OS=Human T-cell leukemia virus 3 (strain Pyl43) OX=406769 GN=gag-pro PE=3 SV=3
+sp|P03348|GAG_HV1BR     10.2      0.55     1   0.6    365    412    387    408     79    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRU/LAI) OX=11686 GN=gag PE=1 SV=3
+sp|P19560|POL_BIV29     10.2      0.56     2   2.6    419    443    422    439     83    100     Gag-Pol polyprotein OS=Bovine immunodeficiency virus (strain R29) OX=417296 GN=gag-pol PE=1 SV=2
+sp|P18800|GAG_HV1ND     10.2      0.58     1   0.7    365    410    386    406     80    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=gag PE=3 SV=3
+sp|P20892|POL_HV1OY     10.2      0.58     1   0.6    361    411    381    407     74    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate OYI) OX=11699 GN=gag-pol PE=3 SV=3
+sp|O89939|GAG_HV1SE     10.2      0.58     1   0.6    371    413    390    409     81    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype G (isolate SE6165) OX=388824 GN=gag PE=3 SV=3
+sp|P04592|GAG_HV1EL     10.2      0.59     1   0.5    365    413    391    409     82    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate ELI) OX=11689 GN=gag PE=3 SV=3
+sp|Q9QBZ2|GAG_HV1M2     10.1      0.63     1   0.6    360    411    389    407     82    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype F2 (isolate MP257) OX=388823 GN=gag PE=3 SV=2
+sp|Q9QC00|GAG_HV197     10.1      0.63     1   0.6    364    407    385    403     82    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype K (isolate 97ZR-EQTB11) OX=388907 GN=gag PE=3 SV=2
+sp|P19558|GAG_BIV29     10.0      0.64     1   2.5    400    422    404    420     83     99     Gag polyprotein OS=Bovine immunodeficiency virus (strain R29) OX=417296 GN=gag PE=1 SV=2
+sp|P05959|POL_HV1RH     10.0      0.65     1   0.6    364    412    389    408     81    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate RF/HAT3) OX=11701 GN=gag-pol PE=1 SV=3
+sp|P51516|GAG_SRV2      10.0      0.65     1   1.3    535    572    545    566     83    104     Gag polyprotein OS=Simian retrovirus SRV-2 OX=39068 GN=gag PE=3 SV=3
+sp|P07570|PRO_MPMV      10.0      0.67     1   3.4    537    574    548    569     83    104     Gag-Pro polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag-pro PE=1 SV=2
+sp|P03353|PRO_HTLV2      9.9      0.68     1   0.2    359    380    363    377     84     98     Gag-Pro polyprotein OS=Human T-cell leukemia virus 2 OX=11909 GN=gag-pro PE=1 SV=3
+sp|P04591|GAG_HV1H2      9.9      0.69     1   0.7    365    412    387    408     79    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=gag PE=1 SV=3
+sp|P16900|GAG_OMVVS      9.9       0.7     1   1.0    332    404    384    401     82     99     Gag polyprotein OS=Ovine maedi visna related virus (strain South Africa) OX=11664 GN=gag PE=3 SV=1
+sp|Q0R5R2|POL_HTL32      9.8      0.74     1   0.0    333    368    348    365     81     98     Gag-Pro-Pol polyprotein OS=Human T-cell leukemia virus 3 (strain 2026ND) OX=402036 GN=gag-pro-pol PE=3 SV=3
+sp|P04593|GAG_HV1B5      9.7      0.79     1   0.6    361    412    387    407     79     99     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH5) OX=11682 GN=gag PE=3 SV=3
+sp|P05887|GAG_HV1C4      9.7      0.81     1   0.7    361    412    388    407     80     99     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate CDC-451) OX=11687 GN=gag PE=3 SV=3
+sp|Q9QBY3|POL_HV196      9.7      0.82     1   0.7    357    407    376    403     74    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype K (isolate 96CM-MP535) OX=388906 GN=gag-pol PE=3 SV=3
+sp|O89290|POL_HV193      9.7      0.83     1   0.4    336    407    367    403     61    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate 93BR020) OX=388814 GN=gag-pol PE=3 SV=3
+sp|Q82851|POL_JEMBR      9.7      0.84     1   0.3    328    387    356    385     73     99     Gag-Pol polyprotein OS=Jembrana disease virus OX=36370 GN=gag-pol PE=3 SV=1
+sp|Q9WC54|POL_HV1S2      9.7      0.84     1   0.8    360    411    379    407     73    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9280) OX=388905 GN=gag-pol PE=3 SV=3
+sp|Q9WC63|POL_HV1S9      9.7      0.84     1   0.8    360    411    379    407     73    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9173) OX=388904 GN=gag-pol PE=3 SV=3
+sp|P0C1K7|GAG_HV19N      9.6      0.89     1   0.6    373    413    391    409     82    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype G (isolate 92NG083) OX=388825 GN=gag PE=3 SV=2
+sp|P05960|POL_HV1C4      9.6       0.9     1   0.6    362    412    388    407     80     99     Gag-Pol polyprotein (Fragment) OS=Human immunodeficiency virus type 1 group M subtype B (isolate CDC-451) OX=11687 GN=gag-pol PE=3 SV=3
+sp|Q77373|POL_HV1AN      9.5      0.91     1   0.4    367    416    385    412     74    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group O (isolate ANT70) OX=327105 GN=gag-pol PE=3 SV=3
+sp|Q73368|POL_HV1B9      9.5      0.92     1   0.7    364    412    384    408     76    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (strain 89.6) OX=401671 GN=gag-pol PE=3 SV=3
+sp|P35963|POL_HV1Y2      9.5      0.96     1   0.7    367    412    385    408     77    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate YU-2) OX=362651 GN=gag-pol PE=1 SV=3
+sp|P24740|POL_HV1U4      9.4      0.98     1   0.3    357    406    376    402     74    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate U455) OX=11703 GN=gag-pol PE=1 SV=3
+sp|P12497|POL_HV1N5      9.4      0.99     1   0.6    366    412    385    408     77    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate NY5) OX=11698 GN=gag-pol PE=1 SV=4
+sp|O92954|GAG_RSVSB      9.4         1     1   0.8    503    533    508    525     83    100     Gag polyprotein OS=Rous sarcoma virus (strain Schmidt-Ruppin B) OX=269447 GN=gag PE=1 SV=1
+sp|P51518|PRO_SRV2       9.3         1     1   1.4    535    570    545    566     83    104     Gag-Pro polyprotein OS=Simian retrovirus SRV-2 OX=39068 GN=pro PE=3 SV=2
+sp|Q8AII2|GAG_SIVTN      9.3       1.1     2   1.0    436    464    439    458     83    102     Gag polyprotein OS=Simian immunodeficiency virus (isolate TAN1) OX=388910 GN=gag PE=3 SV=3
+sp|P17282|GAG_SIVCZ      9.3       1.1     1   0.7    385    422    399    417     81     99     Gag polyprotein OS=Simian immunodeficiency virus (isolate CPZ GAB1) OX=402771 GN=gag PE=3 SV=1
+sp|Q9QBZ5|POL_HV1MP      9.2       1.2     1   0.5    352    407    372    403     66    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype F2 (isolate MP255) OX=388815 GN=gag-pol PE=3 SV=3
+sp|P03322|GAG_RSVP       9.2       1.2     1   0.8    504    533    508    525     83    100     Gag polyprotein OS=Rous sarcoma virus (strain Prague C) OX=11888 GN=gag PE=1 SV=1
+sp|P03369|POL_HV1A2      9.1       1.2     1   0.7    372    414    387    410     77    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate ARV2/SF2) OX=11685 GN=gag-pol PE=1 SV=3
+sp|Q02843|GAG_SIVG1      9.1       1.2     1   0.5    375    410    389    407     81     99     Gag polyprotein OS=Simian immunodeficiency virus agm.grivet (isolate AGM gr-1) OX=31684 GN=gag PE=1 SV=1
+sp|Q79666|POL_HV1MV      9.0       1.3     1   0.4    360    416    391    412     79    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group O (isolate MVP5180) OX=388816 GN=gag-pol PE=3 SV=3
+sp|Q75002|POL_HV1ET      9.0       1.3     1   0.4    359    409    385    405     80    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype C (isolate ETH2220) OX=388796 GN=gag-pol PE=3 SV=3
+sp|Q02843|GAG_SIVG1      9.0       1.3     2   0.7    406    432    410    428     81     99     Gag polyprotein OS=Simian immunodeficiency virus agm.grivet (isolate AGM gr-1) OX=31684 GN=gag PE=1 SV=1
+sp|P69730|GAG_EIAV9      8.9       1.4     1   0.5    376    401    381    398     82     99     Gag polyprotein OS=Equine infectious anemia virus (isolate 1369) OX=11670 GN=gag PE=1 SV=1
+sp|P69731|GAG_EIAVC      8.9       1.4     1   0.5    376    401    381    398     82     99     Gag polyprotein OS=Equine infectious anemia virus (isolate CL22) OX=31675 GN=gag PE=3 SV=1
+sp|P69732|GAG_EIAVY      8.9       1.4     1   0.5    376    401    381    398     82     99     Gag polyprotein OS=Equine infectious anemia virus (strain Wyoming) OX=11672 GN=gag PE=1 SV=1
+sp|P12499|POL_HV1Z2      8.9       1.4     1   0.5    368    414    390    409     80     99     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate Z2/CDC-Z34) OX=11683 GN=gag-pol PE=1 SV=3
+sp|P05961|POL_HV1MN      8.8       1.5     1   0.6    367    415    390    411     79    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate MN) OX=11696 GN=gag-pol PE=1 SV=3
+sp|Q9QSR3|POL_HV1VI      8.8       1.6     1   0.5    356    406    383    402     81    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate VI850) OX=388813 GN=gag-pol PE=3 SV=3
+sp|P03366|POL_HV1B1      8.7       1.6     1   0.7    362    412    385    408     77    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=gag-pol PE=1 SV=3
+sp|O93215|POL_HV190      8.7       1.7     1   0.6    364    413    390    409     81    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype H (isolate 90CF056) OX=388826 GN=gag-pol PE=3 SV=4
+sp|P03367|POL_HV1BR      8.6       1.7     1   0.6    364    412    387    408     79    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRU/LAI) OX=11686 GN=gag-pol PE=1 SV=3
+sp|Q76633|GAG_HV2UC      8.6       1.8     1   1.0    379    410    387    405     81     99     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype B (isolate UC1) OX=388822 GN=gag PE=3 SV=3
+sp|P27972|GAG_SIVV1      8.5       1.8     2   0.4    416    440    419    436     82     99     Gag polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM155) OX=11727 GN=gag PE=3 SV=1
+sp|P0C6F2|POL_HV1LW      8.5       1.9     1   0.7    365    412    387    408     79    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate LW123) OX=82834 GN=gag-pol PE=1 SV=1
+sp|O91080|POL_HV1YF      8.5       1.9     1   0.3    376    415    389    410     78     99     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF30) OX=388818 GN=gag-pol PE=3 SV=3
+sp|O12158|POL_HV192      8.5       1.9     1   0.9    362    409    386    405     81    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype C (isolate 92BR025) OX=388812 GN=gag-pol PE=1 SV=2
+sp|Q9QBZ9|POL_HV197      8.5         2     1   0.6    361    407    385    403     82    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype K (isolate 97ZR-EQTB11) OX=388907 GN=gag-pol PE=3 SV=2
+sp|O89940|POL_HV1SE      8.4         2     1   0.6    371    413    390    409     81    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype G (isolate SE6165) OX=388824 GN=gag-pol PE=3 SV=3
+sp|P18802|POL_HV1ND      8.4         2     1   0.7    368    410    387    406     81    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=gag-pol PE=3 SV=3
+sp|P04589|POL_HV1EL      8.4       2.1     1   0.5    367    413    391    409     82    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate ELI) OX=11689 GN=gag-pol PE=3 SV=3
+sp|P27978|GAG_SIVVG      8.4       2.1     2   0.4    419    444    423    440     82     99     Gag polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM3) OX=11730 GN=gag PE=3 SV=1
+sp|P51517|POL_SRV2       8.3       2.1     1   1.4    536    572    545    566     83    104     Gag-Pro-Pol polyprotein OS=Simian retrovirus SRV-2 OX=39068 GN=pol PE=3 SV=2
+sp|P19560|POL_BIV29      8.3       2.2     1   2.5    400    422    404    420     83     99     Gag-Pol polyprotein OS=Bovine immunodeficiency virus (strain R29) OX=417296 GN=gag-pol PE=1 SV=2
+sp|P04585|POL_HV1H2      8.3       2.2     1   0.7    364    412    387    408     79    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=gag-pol PE=1 SV=4
+sp|P27978|GAG_SIVVG      8.3       2.2     1   1.0    378    422    402    417     82     97     Gag polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM3) OX=11730 GN=gag PE=3 SV=1
+sp|P11284|GAG_MMTVC      8.2       2.3     1   0.5    513    549    526    542     83     99     Gag polyprotein OS=Mouse mammary tumor virus (strain C3H) OX=11759 GN=gag PE=1 SV=3
+sp|Q1A268|GAG_SIVMB      8.2       2.3     1   0.8    377    407    385    402     82     99     Gag polyprotein OS=Simian immunodeficiency virus (isolate MB66) OX=388911 GN=gag PE=3 SV=3
+sp|P03349|GAG_HV1A2      8.2       2.4     2   1.0    411    436    414    431     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate ARV2/SF2) OX=11685 GN=gag PE=1 SV=3
+sp|Q8AII1|POL_SIVTN      8.2       2.4     2   0.7    434    466    439    458     83    102     Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate TAN1) OX=388910 GN=gag-pol PE=3 SV=4
+sp|Q9QBZ1|POL_HV1M2      8.2       2.4     1   0.6    367    411    389    407     82    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype F2 (isolate MP257) OX=388823 GN=gag-pol PE=3 SV=3
+sp|Q9Q721|GAG_HV1V9      8.1       2.6     1   0.6    368    415    392    411     81    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype H (isolate VI991) OX=388888 GN=gag PE=3 SV=3
+sp|O41798|POL_HV19N      8.0       2.7     1   0.6    370    413    391    409     82    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype G (isolate 92NG083) OX=388825 GN=gag-pol PE=3 SV=3
+sp|O92956|POL_RSVSB      8.0       2.8     1   0.9    504    533    508    525     83    100     Gag-Pol polyprotein OS=Rous sarcoma virus (strain Schmidt-Ruppin B) OX=269447 GN=gag-pol PE=1 SV=2
+sp|P04587|POL_HV1B5      7.9       2.9     1   0.6    365    412    387    407     79     99     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH5) OX=11682 GN=gag-pol PE=1 SV=3
+sp|P17283|POL_SIVCZ      7.8       3.1     1   0.7    319    363    340    358     81     99     Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate CPZ GAB1) OX=402771 GN=gag-pol PE=3 SV=2
+sp|P69730|GAG_EIAV9      7.8       3.2     2   1.3    394    423    401    417     83     99     Gag polyprotein OS=Equine infectious anemia virus (isolate 1369) OX=11670 GN=gag PE=1 SV=1
+sp|P69731|GAG_EIAVC      7.8       3.2     2   1.3    394    423    401    417     83     99     Gag polyprotein OS=Equine infectious anemia virus (isolate CL22) OX=31675 GN=gag PE=3 SV=1
+sp|P69732|GAG_EIAVY      7.8       3.2     2   1.3    394    423    401    417     83     99     Gag polyprotein OS=Equine infectious anemia virus (strain Wyoming) OX=11672 GN=gag PE=1 SV=1
+sp|P12496|GAG_SIVS4      7.8       3.3     1   0.8    380    414    391    409     81     99     Gag polyprotein OS=Simian immunodeficiency virus (isolate F236/smH4) OX=11737 GN=gag PE=3 SV=1
+sp|P12450|GAG_HV2SB      7.7       3.3     1   0.7    378    410    386    405     80     99     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate SBLISY) OX=11718 GN=gag PE=3 SV=3
+sp|P24106|GAG_HV2CA      7.6       3.6     1   0.8    380    411    387    406     80     99     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate CAM2) OX=11715 GN=gag PE=3 SV=3
+sp|P20874|GAG_HV2ST      7.6       3.7     2   0.8    379    410    387    406     80     99     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate ST) OX=11721 GN=gag PE=3 SV=3
+sp|Q02836|POL_SIVG1      7.5       3.9     1   0.4    373    410    389    407     81     99     Gag-Pol polyprotein OS=Simian immunodeficiency virus agm.grivet (isolate AGM gr-1) OX=31684 GN=gag-pol PE=3 SV=2
+sp|Q1A250|GAG_SIVEK      7.5       3.9     2   0.6    411    440    415    437     83    105     Gag polyprotein OS=Simian immunodeficiency virus (isolate EK505) OX=388912 GN=gag PE=3 SV=3
+sp|Q02836|POL_SIVG1      7.5         4     2   0.7    408    436    410    428     81     99     Gag-Pol polyprotein OS=Simian immunodeficiency virus agm.grivet (isolate AGM gr-1) OX=31684 GN=gag-pol PE=3 SV=2
+sp|P19504|GAG_SIVSP      7.5         4     1   0.7    378    414    392    409     82     99     Gag polyprotein OS=Simian immunodeficiency virus (isolate PBj14/BCL-3) OX=11738 GN=gag PE=3 SV=1
+sp|Q74119|GAG_HV2KR      7.4       4.3     1   0.8    379    410    387    406     80     99     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate KR) OX=73484 GN=gag PE=3 SV=3
+sp|P04592|GAG_HV1EL      7.3       4.5     2   0.8    410    435    413    430     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate ELI) OX=11689 GN=gag PE=3 SV=3
+sp|P17756|GAG_HV2D1      7.3       4.5     1   0.8    380    411    388    406     81     99     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate D194) OX=11713 GN=gag PE=3 SV=4
+sp|P27973|POL_SIVV1      7.3       4.6     2   0.4    415    443    419    437     82    100     Gag-Pol polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM155) OX=11727 GN=gag-pol PE=3 SV=2
+sp|P04590|GAG_HV2RO      7.3       4.7     1   0.8    380    411    388    406     81     99     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate ROD) OX=11720 GN=gag PE=1 SV=3
+sp|P05960|POL_HV1C4      7.2       4.8     2   0.7    408    439    412    430     83    101     Gag-Pol polyprotein (Fragment) OS=Human immunodeficiency virus type 1 group M subtype B (isolate CDC-451) OX=11687 GN=gag-pol PE=3 SV=3
+sp|P03369|POL_HV1A2      7.1       5.1     2   1.0    411    441    414    432     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate ARV2/SF2) OX=11685 GN=gag-pol PE=1 SV=3
+sp|P15832|GAG_HV2D2      7.1       5.1     1   1.0    376    410    387    405     81     99     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype B (isolate D205) OX=11716 GN=gag PE=3 SV=3
+sp|P17282|GAG_SIVCZ      7.0       5.5     2   0.9    419    443    423    439     84    100     Gag polyprotein OS=Simian immunodeficiency virus (isolate CPZ GAB1) OX=402771 GN=gag PE=3 SV=1
+sp|P27980|POL_SIVVG      7.0       5.5     2   0.4    419    447    423    441     82    100     Gag-Pol polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM3) OX=11730 GN=gag-pol PE=3 SV=2
+sp|P05895|POL_SIVVT      7.0       5.6     2   0.4    419    448    423    441     82    100     Gag-Pol polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM TYO-1) OX=11731 GN=gag-pol PE=3 SV=2
+sp|Q76634|POL_HV2UC      7.0       5.8     1   1.0    379    410    387    405     81     99     Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype B (isolate UC1) OX=388822 GN=gag-pol PE=3 SV=3
+sp|O93182|GAG_HV190      6.8       6.3     2   0.7    409    435    413    430     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype H (isolate 90CF056) OX=388826 GN=gag PE=3 SV=3
+sp|O89291|GAG_HV193      6.8       6.4     2   0.7    403    429    407    424     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate 93BR020) OX=388814 GN=gag PE=3 SV=3
+sp|P31821|GAG_FIVT2      6.8       6.5     1   0.3    342    395    374    392     81     99     Gag polyprotein OS=Feline immunodeficiency virus (isolate TM2) OX=31676 GN=gag PE=3 SV=1
+sp|P27972|GAG_SIVV1      6.8       6.6     1   1.3    390    418    399    413     83     97     Gag polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM155) OX=11727 GN=gag PE=3 SV=1
+sp|P18041|GAG_HV2G1      6.7       6.7     1   0.9    381    412    390    407     82     99     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate Ghana-1) OX=11717 GN=gag PE=1 SV=3
+sp|Q74230|GAG_HV2EH      6.7       6.9     1   0.9    382    409    387    404     82     99     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype B (isolate EHO) OX=388821 GN=gag PE=3 SV=3
+sp|P11283|POL_MMTVC      6.7       6.9     1   0.3    517    549    526    542     83     99     Gag-Pro-Pol polyprotein OS=Mouse mammary tumor virus (strain C3H) OX=11759 GN=gag-pro-pol PE=1 SV=2
+sp|P05895|POL_SIVVT      6.7       7.2     1   0.9    380    422    402    417     82     97     Gag-Pol polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM TYO-1) OX=11731 GN=gag-pol PE=3 SV=2
+sp|P31634|GAG_SIVMS      6.7       7.2     1   1.0    383    413    390    408     81     99     Gag polyprotein OS=Simian immunodeficiency virus (isolate STM) OX=31683 GN=gag PE=3 SV=1
+sp|P27980|POL_SIVVG      6.6       7.3     1   1.0    379    422    402    417     82     97     Gag-Pol polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM3) OX=11730 GN=gag-pol PE=3 SV=2
+sp|Q9QSR4|GAG_HV1VI      6.6       7.6     2   0.9    403    428    406    423     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate VI850) OX=388813 GN=gag PE=3 SV=3
+sp|Q1A267|POL_SIVMB      6.6       7.7     1   0.8    377    407    385    402     82     99     Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate MB66) OX=388911 GN=gag-pol PE=3 SV=4
+sp|P20889|GAG_HV1OY      6.5       7.8     2   0.9    408    433    411    428     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate OYI) OX=11699 GN=gag PE=3 SV=3
+sp|P12498|POL_HV1J3      6.5       7.9     2   0.9    409    439    412    430     83    101     Gag-Pol polyprotein (Fragment) OS=Human immunodeficiency virus type 1 group M subtype B (isolate JH32) OX=11694 GN=gag-pol PE=3 SV=4
+sp|P18800|GAG_HV1ND      6.5       7.9     2   1.0    407    432    410    427     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=gag PE=3 SV=3
+sp|P05887|GAG_HV1C4      6.5       8.1     2   1.0    409    434    412    429     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate CDC-451) OX=11687 GN=gag PE=3 SV=3
+sp|P03352|GAG_VILV       6.5       8.3     2   2.7    402    429    404    424     82    102     Gag polyprotein OS=Maedi visna virus (strain 1514) OX=11742 GN=gag PE=3 SV=1
+sp|P23424|GAG_VILV1      6.5       8.3     2   2.7    402    429    404    424     82    102     Gag polyprotein OS=Maedi visna virus (strain 1514 / clone LV1-1KS1) OX=11743 GN=gag PE=3 SV=1
+sp|P35955|GAG_VILVK      6.4       8.3     2   2.7    402    429    404    424     82    102     Gag polyprotein OS=Maedi visna virus (strain KV1772) OX=36374 GN=gag PE=1 SV=1
+sp|P23425|GAG_VILV2      6.4       8.4     2   2.7    402    429    404    424     82    102     Gag polyprotein OS=Maedi visna virus (strain 1514 / clone LV1-1KS2) OX=11744 GN=gag PE=3 SV=1
+sp|Q9Q720|POL_HV1V9      6.4       8.5     1   0.5    368    415    392    411     81    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype H (isolate VI991) OX=388888 GN=gag-pol PE=3 SV=3
+sp|Q9WC53|GAG_HV1S2      6.4       8.7     2   0.6    407    433    411    428     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9280) OX=388905 GN=gag PE=3 SV=3
+sp|Q9WC62|GAG_HV1S9      6.4       8.7     2   0.6    407    433    411    428     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9173) OX=388904 GN=gag PE=1 SV=3
+sp|Q9QBZ6|GAG_HV1MP      6.4       8.8     2   0.6    403    429    407    424     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype F2 (isolate MP255) OX=388815 GN=gag PE=3 SV=2
+sp|P0C1K7|GAG_HV19N      6.3         9     2   0.8    410    435    413    430     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype G (isolate 92NG083) OX=388825 GN=gag PE=3 SV=2
+sp|P05892|GAG_SIVVT      6.3       9.2     2   0.5    415    439    419    435     83     99     Gag polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM TYO-1) OX=11731 GN=gag PE=3 SV=1
+sp|P20873|GAG_HV1JR      6.3       9.4     2   0.9    409    434    412    429     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate JRCSF) OX=11688 GN=gag PE=3 SV=3
+sp|Q1A268|GAG_SIVMB      6.2       9.6     2   0.9    403    430    408    425     84    101     Gag polyprotein OS=Simian immunodeficiency virus (isolate MB66) OX=388911 GN=gag PE=3 SV=3
+sp|Q9QBY4|GAG_HV196      6.2       9.8     2   0.7    404    429    407    424     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype K (isolate 96CM-MP535) OX=388906 GN=gag PE=3 SV=2
+sp|P33458|GAG_CAEVC      6.2       9.9     2   2.2    395    421    398    416     82    100     Gag polyprotein OS=Caprine arthritis encephalitis virus (strain Cork) OX=11661 GN=gag PE=3 SV=1
+sp|P04594|GAG_HV1MA      6.2        10     2   0.8    415    440    418    435     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate MAL) OX=11697 GN=gag PE=3 SV=3
+sp|O89939|GAG_HV1SE      6.1        10     2   0.8    410    435    413    430     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype G (isolate SE6165) OX=388824 GN=gag PE=3 SV=3
+sp|P35962|GAG_HV1Y2      6.1        10     2   0.8    409    434    412    429     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate YU-2) OX=362651 GN=gag PE=1 SV=2
+sp|Q73367|GAG_HV1B9      6.1        10     2   0.8    409    434    412    429     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (strain 89.6) OX=401671 GN=gag PE=3 SV=3
+sp|P04591|GAG_HV1H2      6.1        11     2   0.8    409    434    412    429     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=gag PE=1 SV=3
+sp|Q70622|GAG_HV1LW      6.1        11     2   0.8    409    434    412    429     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate LW123) OX=82834 GN=gag PE=1 SV=3
+sp|P12493|GAG_HV1N5      6.1        11     2   0.8    409    434    412    429     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate NY5) OX=11698 GN=gag PE=1 SV=3
+sp|P10271|PRO_MMTVB      6.1        11     1   0.3    515    549    526    542     83     99     Gag-Pro polyprotein OS=Mouse mammary tumor virus (strain BR6) OX=11758 GN=gag-pro PE=1 SV=2
+sp|P24736|GAG_HV1U4      6.1        11     2   0.8    403    427    406    423     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate U455) OX=11703 GN=gag PE=1 SV=3
+sp|P24106|GAG_HV2CA      6.1        11     2   0.2    409    431    412    428     84    100     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate CAM2) OX=11715 GN=gag PE=3 SV=3
+sp|P03347|GAG_HV1B1      6.1        11     2   0.8    409    434    412    429     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=gag PE=1 SV=3
+sp|P04590|GAG_HV2RO      6.1        11     2   0.2    409    431    412    428     84    100     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate ROD) OX=11720 GN=gag PE=1 SV=3
+sp|P03348|GAG_HV1BR      6.1        11     2   0.8    409    434    412    429     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRU/LAI) OX=11686 GN=gag PE=1 SV=3
+sp|P04593|GAG_HV1B5      6.1        11     2   0.9    409    434    412    429     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH5) OX=11682 GN=gag PE=3 SV=3
+sp|Q75001|GAG_HV1ET      6.0        11     2   0.9    406    430    409    426     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype C (isolate ETH2220) OX=388796 GN=gag PE=3 SV=3
+sp|P20876|POL_HV2ST      6.0        11     2   0.8    379    411    387    406     80     99     Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate ST) OX=11721 GN=gag-pol PE=3 SV=3
+sp|P12494|GAG_HV1J3      6.0        11     2   0.9    409    434    412    429     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate JH32) OX=11694 GN=gag PE=3 SV=3
+sp|P05888|GAG_HV1MN      6.0        11     2   0.9    412    437    416    432     84    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate MN) OX=11696 GN=gag PE=1 SV=3
+sp|P12451|POL_HV2SB      6.0        11     1   0.8    378    409    386    405     80     99     Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate SBLISY) OX=11718 GN=gag-pol PE=3 SV=3
+sp|P24107|POL_HV2CA      6.0        12     1   0.8    380    411    387    406     80     99     Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate CAM2) OX=11715 GN=gag-pol PE=3 SV=3
+sp|Q9QC00|GAG_HV197      5.9        12     2   0.8    404    428    407    424     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype K (isolate 97ZR-EQTB11) OX=388907 GN=gag PE=3 SV=2
+sp|P18095|GAG_HV2BE      5.9        12     2   0.3    408    431    412    428     84    100     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate BEN) OX=11714 GN=gag PE=3 SV=3
+sp|Q9Q721|GAG_HV1V9      5.9        12     2   0.7    411    437    415    432     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype H (isolate VI991) OX=388888 GN=gag PE=3 SV=3
+sp|O12157|GAG_HV192      5.9        13     2   0.8    406    431    409    426     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype C (isolate 92BR025) OX=388812 GN=gag PE=3 SV=3
+sp|O91079|GAG_HV1YF      5.9        13     2   0.6    413    441    416    438     84    106     Gag polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF30) OX=388818 GN=gag PE=3 SV=3
+sp|Q9IDV8|GAG_HV1YB      5.9        13     2   0.5    410    439    415    435     84    104     Gag polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF106) OX=388819 GN=gag PE=3 SV=3
+sp|P04589|POL_HV1EL      5.8        13     2   0.8    410    438    413    431     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate ELI) OX=11689 GN=gag-pol PE=3 SV=3
+sp|Q9QBZ2|GAG_HV1M2      5.8        13     2   0.6    408    432    412    428     84    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype F2 (isolate MP257) OX=388823 GN=gag PE=3 SV=2
+sp|P05890|GAG_HV1RH      5.8        13     2   0.8    408    437    412    434     83    105     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate RF/HAT3) OX=11701 GN=gag PE=3 SV=3
+sp|P16900|GAG_OMVVS      5.8        13     2   2.6    400    426    403    421     82    100     Gag polyprotein OS=Ovine maedi visna related virus (strain South Africa) OX=11664 GN=gag PE=3 SV=1
+sp|Q74120|POL_HV2KR      5.7        14     1   0.8    380    411    387    406     80     99     Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate KR) OX=73484 GN=gag-pol PE=3 SV=3
+sp|P12495|GAG_HV1Z2      5.7        14     2   0.5    410    436    415    431     84    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate Z2/CDC-Z34) OX=11683 GN=gag PE=1 SV=3
+sp|Q9WC54|POL_HV1S2      5.7        14     2   0.7    407    441    411    429     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9280) OX=388905 GN=gag-pol PE=3 SV=3
+sp|Q9WC63|POL_HV1S9      5.7        14     2   0.7    407    441    411    429     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9173) OX=388904 GN=gag-pol PE=3 SV=3
+sp|P17283|POL_SIVCZ      5.7        14     2   0.9    360    387    364    380     84    100     Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate CPZ GAB1) OX=402771 GN=gag-pol PE=3 SV=2
+sp|P17757|POL_HV2D1      5.7        14     1   0.8    380    411    388    406     81     99     Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate D194) OX=11713 GN=gag-pol PE=3 SV=3
+sp|P04584|POL_HV2RO      5.7        15     1   0.7    380    411    388    406     81     99     Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate ROD) OX=11720 GN=gag-pol PE=1 SV=3
+sp|Q77372|GAG_HV1AN      5.6        15     2   1.0    413    439    416    433     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group O (isolate ANT70) OX=327105 GN=gag PE=3 SV=3
+sp|O89290|POL_HV193      5.6        16     2   1.1    404    434    407    427     83    103     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate 93BR020) OX=388814 GN=gag-pol PE=3 SV=3
+sp|O93215|POL_HV190      5.5        16     2   1.1    410    440    413    433     83    103     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype H (isolate 90CF056) OX=388826 GN=gag-pol PE=3 SV=4
+sp|P0C6F2|POL_HV1LW      5.5        16     2   0.7    408    440    412    430     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate LW123) OX=82834 GN=gag-pol PE=1 SV=1
+sp|P18802|POL_HV1ND      5.5        16     2   0.9    407    437    410    428     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=gag-pol PE=3 SV=3
+sp|P20892|POL_HV1OY      5.5        17     2   0.9    408    438    411    429     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate OYI) OX=11699 GN=gag-pol PE=3 SV=3
+sp|P20875|POL_HV1JR      5.3        19     2   0.8    409    439    412    430     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate JRCSF) OX=11688 GN=gag-pol PE=1 SV=3
+sp|Q1A267|POL_SIVMB      5.3        19     2   1.2    404    433    408    430     84    106     Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate MB66) OX=388911 GN=gag-pol PE=3 SV=4
+sp|Q9QSR3|POL_HV1VI      5.3        19     2   1.0    403    433    406    424     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate VI850) OX=388813 GN=gag-pol PE=3 SV=3
+sp|Q79665|GAG_HV1MV      5.1        21     2   0.8    412    439    416    433     83    100     Gag polyprotein OS=Human immunodeficiency virus type 1 group O (isolate MVP5180) OX=388816 GN=gag PE=3 SV=3
+sp|Q9QBY3|POL_HV196      5.1        21     2   0.6    403    433    407    425     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype K (isolate 96CM-MP535) OX=388906 GN=gag-pol PE=3 SV=3
+sp|Q9QBZ5|POL_HV1MP      5.1        22     2   0.7    403    434    407    425     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype F2 (isolate MP255) OX=388815 GN=gag-pol PE=3 SV=3
+sp|P03366|POL_HV1B1      5.1        22     2   0.7    409    439    412    430     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=gag-pol PE=1 SV=3
+sp|P35963|POL_HV1Y2      5.1        22     2   0.8    409    439    412    430     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate YU-2) OX=362651 GN=gag-pol PE=1 SV=3
+sp|P04587|POL_HV1B5      5.1        22     2   0.7    409    439    412    430     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH5) OX=11682 GN=gag-pol PE=1 SV=3
+sp|P27973|POL_SIVV1      5.1        22     1   1.3    395    418    399    413     83     97     Gag-Pol polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM155) OX=11727 GN=gag-pol PE=3 SV=2
+sp|P04585|POL_HV1H2      5.1        22     2   0.8    409    439    412    430     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=gag-pol PE=1 SV=4
+sp|O41798|POL_HV19N      5.1        22     2   0.7    409    438    413    431     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype G (isolate 92NG083) OX=388825 GN=gag-pol PE=3 SV=3
+sp|P03367|POL_HV1BR      5.1        22     2   0.8    409    439    412    430     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRU/LAI) OX=11686 GN=gag-pol PE=1 SV=3
+sp|P12497|POL_HV1N5      5.1        22     2   0.8    409    439    412    430     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate NY5) OX=11698 GN=gag-pol PE=1 SV=4
+sp|P05961|POL_HV1MN      5.0        23     2   0.8    412    442    416    433     84    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate MN) OX=11696 GN=gag-pol PE=1 SV=3
+sp|P04588|POL_HV1MA      5.0        23     2   0.6    413    443    418    436     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate MAL) OX=11697 GN=gag-pol PE=1 SV=3
+sp|Q74119|GAG_HV2KR      5.0        24     2   0.3    406    431    412    428     84    100     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate KR) OX=73484 GN=gag PE=3 SV=3
+sp|P05959|POL_HV1RH      4.9        25     2   0.8    409    441    412    435     83    106     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate RF/HAT3) OX=11701 GN=gag-pol PE=1 SV=3
+sp|Q05313|GAG_FIVWO      4.9        25     2   0.7    392    421    395    416     83    104     Gag polyprotein OS=Feline immunodeficiency virus (isolate Wo) OX=45409 GN=gag PE=3 SV=1
+sp|Q1A249|POL_SIVEK      4.9        26     2   0.6    411    439    415    431     83     99     Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate EK505) OX=388912 GN=gag-pol PE=3 SV=3
+sp|Q9QBZ9|POL_HV197      4.8        26     2   0.7    403    432    407    425     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype K (isolate 97ZR-EQTB11) OX=388907 GN=gag-pol PE=3 SV=2
+sp|O89940|POL_HV1SE      4.8        26     2   0.9    410    440    413    431     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype G (isolate SE6165) OX=388824 GN=gag-pol PE=3 SV=3
+sp|P16087|GAG_FIVPE      4.8        26     2   0.9    392    421    395    416     83    104     Gag polyprotein OS=Feline immunodeficiency virus (isolate Petaluma) OX=11674 GN=gag PE=1 SV=1
+sp|Q73368|POL_HV1B9      4.8        27     2   0.9    409    438    412    430     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (strain 89.6) OX=401671 GN=gag-pol PE=3 SV=3
+sp|P17756|GAG_HV2D1      4.8        27     2   0.4    408    431    412    428     84    100     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate D194) OX=11713 GN=gag PE=3 SV=4
+sp|P19027|GAG_FIVSD      4.8        27     2   0.7    392    421    395    416     83    104     Gag polyprotein OS=Feline immunodeficiency virus (strain San Diego) OX=11675 GN=gag PE=3 SV=1
+sp|Q75002|POL_HV1ET      4.7        28     2   0.9    406    434    409    427     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype C (isolate ETH2220) OX=388796 GN=gag-pol PE=3 SV=3
+sp|P12450|GAG_HV2SB      4.7        28     2   0.4    408    430    411    427     84    100     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate SBLISY) OX=11718 GN=gag PE=3 SV=3
+sp|P24740|POL_HV1U4      4.7        29     2   0.8    403    431    406    424     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate U455) OX=11703 GN=gag-pol PE=1 SV=3
+sp|P19027|GAG_FIVSD      4.7        29     1   0.3    354    395    376    392     83     99     Gag polyprotein OS=Feline immunodeficiency virus (strain San Diego) OX=11675 GN=gag PE=3 SV=1
+sp|P24107|POL_HV2CA      4.7        30     2   0.2    407    432    412    428     84    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate CAM2) OX=11715 GN=gag-pol PE=3 SV=3
+sp|Q9QBZ1|POL_HV1M2      4.6        31     2   0.7    408    438    412    429     84    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype F2 (isolate MP257) OX=388823 GN=gag-pol PE=3 SV=3
+sp|P16087|GAG_FIVPE      4.6        31     1   0.3    363    395    376    392     83     99     Gag polyprotein OS=Feline immunodeficiency virus (isolate Petaluma) OX=11674 GN=gag PE=1 SV=1
+sp|P03370|POL_VILV       4.6        32     2   2.5    402    430    404    424     82    102     Gag-Pol polyprotein OS=Maedi visna virus (strain 1514) OX=11742 GN=pol PE=1 SV=2
+sp|P23426|POL_VILV1      4.6        32     2   2.5    402    430    404    424     82    102     Gag-Pol polyprotein OS=Maedi visna virus (strain 1514 / clone LV1-1KS1) OX=11743 GN=pol PE=3 SV=2
+sp|P23427|POL_VILV2      4.6        32     2   2.5    402    430    404    424     82    102     Gag-Pol polyprotein OS=Maedi visna virus (strain 1514 / clone LV1-1KS2) OX=11744 GN=pol PE=3 SV=2
+sp|P35956|POL_VILVK      4.6        32     2   2.7    401    430    404    424     82    102     Gag-Pol polyprotein OS=Maedi visna virus (strain KV1772) OX=36374 GN=pol PE=1 SV=2
+sp|P12499|POL_HV1Z2      4.5        33     2   0.6    411    441    415    432     84    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype D (isolate Z2/CDC-Z34) OX=11683 GN=gag-pol PE=1 SV=3
+sp|O12158|POL_HV192      4.5        33     2   0.9    406    435    409    427     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype C (isolate 92BR025) OX=388812 GN=gag-pol PE=1 SV=2
+sp|P04584|POL_HV2RO      4.5        34     2   0.2    409    431    412    428     84    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate ROD) OX=11720 GN=gag-pol PE=1 SV=3
+sp|P31634|GAG_SIVMS      4.5        34     2   0.5    410    432    414    430     84    100     Gag polyprotein OS=Simian immunodeficiency virus (isolate STM) OX=31683 GN=gag PE=3 SV=1
+sp|Q9Q720|POL_HV1V9      4.4        35     2   0.8    412    442    415    433     83    101     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group M subtype H (isolate VI991) OX=388888 GN=gag-pol PE=3 SV=3
+sp|Q05313|GAG_FIVWO      4.3        39     1   1.0    374    397    377    392     84     99     Gag polyprotein OS=Feline immunodeficiency virus (isolate Wo) OX=45409 GN=gag PE=3 SV=1
+sp|Q9IDV9|POL_HV1YB      4.3        40     2   0.7    412    440    415    437     84    106     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF106) OX=388819 GN=gag-pol PE=1 SV=3
+sp|P11284|GAG_MMTVC      4.2        40     2   0.2    550    578    554    574     84    104     Gag polyprotein OS=Mouse mammary tumor virus (strain C3H) OX=11759 GN=gag PE=1 SV=3
+sp|Q79666|POL_HV1MV      4.1        46     2   1.2    413    442    417    438     84    105     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group O (isolate MVP5180) OX=388816 GN=gag-pol PE=3 SV=3
+sp|P31821|GAG_FIVT2      3.9        52     2   0.4    392    419    395    411     83     99     Gag polyprotein OS=Feline immunodeficiency virus (isolate TM2) OX=31676 GN=gag PE=3 SV=1
+sp|Q77373|POL_HV1AN      3.9        53     2   0.6    412    439    416    432     83     99     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group O (isolate ANT70) OX=327105 GN=gag-pol PE=3 SV=3
+sp|P15832|GAG_HV2D2      3.8        55     2   0.6    408    430    411    427     84    100     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype B (isolate D205) OX=11716 GN=gag PE=3 SV=3
+sp|P20874|GAG_HV2ST      3.7        58     3   0.5    408    431    412    428     84    100     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate ST) OX=11721 GN=gag PE=3 SV=3
+sp|P19504|GAG_SIVSP      3.7        61     2   0.6    412    434    415    431     84    100     Gag polyprotein OS=Simian immunodeficiency virus (isolate PBj14/BCL-3) OX=11738 GN=gag PE=3 SV=1
+sp|P12496|GAG_SIVS4      3.7        61     2   0.7    411    434    415    431     84    100     Gag polyprotein OS=Simian immunodeficiency virus (isolate F236/smH4) OX=11737 GN=gag PE=3 SV=1
+sp|P10271|PRO_MMTVB      3.6        62     2   0.2    550    578    554    574     84    104     Gag-Pro polyprotein OS=Mouse mammary tumor virus (strain BR6) OX=11758 GN=gag-pro PE=1 SV=2
+sp|P18041|GAG_HV2G1      3.6        64     2   0.7    409    432    413    429     84    100     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate Ghana-1) OX=11717 GN=gag PE=1 SV=3
+sp|Q76633|GAG_HV2UC      3.5        70     2   0.7    407    430    411    427     84    100     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype B (isolate UC1) OX=388822 GN=gag PE=3 SV=3
+sp|O91080|POL_HV1YF      3.4        74     2   0.5    413    441    416    431     84     99     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF30) OX=388818 GN=gag-pol PE=3 SV=3
+sp|Q74120|POL_HV2KR      3.3        80     2   0.5    408    433    412    428     84    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate KR) OX=73484 GN=gag-pol PE=3 SV=3
+sp|Q74230|GAG_HV2EH      3.2        82     2   0.4    407    429    410    426     84    100     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype B (isolate EHO) OX=388821 GN=gag PE=3 SV=3
+sp|P17757|POL_HV2D1      3.2        83     2   0.4    408    431    412    428     84    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate D194) OX=11713 GN=gag-pol PE=3 SV=3
+sp|P12451|POL_HV2SB      3.1        88     2   0.3    408    430    411    427     84    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate SBLISY) OX=11718 GN=gag-pol PE=3 SV=3
+sp|P18095|GAG_HV2BE      3.0        96     1   0.4    380    411    389    406     82     99     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate BEN) OX=11714 GN=gag PE=3 SV=3
+sp|P20874|GAG_HV2ST      2.7   1.2e+02     1   0.0     88    124     93    115     18     40     Gag polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate ST) OX=11721 GN=gag PE=3 SV=3
+sp|P11283|POL_MMTVC      2.6   1.3e+02     2   0.2    550    578    554    574     84    104     Gag-Pro-Pol polyprotein OS=Mouse mammary tumor virus (strain C3H) OX=11759 GN=gag-pro-pol PE=1 SV=2
+sp|P20876|POL_HV2ST      2.1   1.8e+02     3   0.5    408    431    412    428     84    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate ST) OX=11721 GN=gag-pol PE=3 SV=3
+sp|Q76634|POL_HV2UC      2.0   1.9e+02     2   0.5    406    430    411    427     84    100     Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype B (isolate UC1) OX=388822 GN=gag-pol PE=3 SV=3
+sp|P04023|GAG_IPHA       1.8   2.3e+02     2   1.4    464    496    473    487     83     97     Intracisternal A-particle Gag-related polyprotein OS=Hamster intracisternal a-particle H18 OX=11752 GN=gag PE=3 SV=1
+sp|P20876|POL_HV2ST      1.0     4e+02     1   0.0     88    123     93    115     18     40     Gag-Pol polyprotein OS=Human immunodeficiency virus type 2 subtype A (isolate ST) OX=11721 GN=gag-pol PE=3 SV=3
+sp|P03322|GAG_RSVP       0.2   7.1e+02     2   0.5    528    556    534    551     83    100     Gag polyprotein OS=Rous sarcoma virus (strain Prague C) OX=11888 GN=gag PE=1 SV=1
+sp|O92954|GAG_RSVSB      0.1   7.7e+02     2   0.4    530    556    534    551     83    100     Gag polyprotein OS=Rous sarcoma virus (strain Schmidt-Ruppin B) OX=269447 GN=gag PE=1 SV=1
+sp|P04022|GAG_SRV1      -0.1   9.1e+02     2   0.4    572    600    579    595     84    100     Gag polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=gag PE=1 SV=3
+sp|P07567|GAG_MPMV      -0.3     1e+03     2   0.7    574    602    578    595     84    101     Gag polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag PE=1 SV=3
+sp|P51516|GAG_SRV2      -0.3     1e+03     2   0.5    570    596    575    591     84    100     Gag polyprotein OS=Simian retrovirus SRV-2 OX=39068 GN=gag PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002098@JGI24219J26650_1000062@JGI24219J26650_100006223.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002098@JGI24219J26650_1000062@JGI24219J26650_100006223.txt data/models_hmm/3300002098@JGI24219J26650_1000062@JGI24219J26650_100006223.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:13 2021
+# [ok]

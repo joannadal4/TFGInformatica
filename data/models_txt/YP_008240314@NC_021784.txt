@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPX7|RPO5_MIMIV    16.9    0.0047   3   2.6   0.7    DNA-directed RNA polymerase subunit 5 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L235 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPX7|RPO5_MIMIV    11.5      0.23     2   0.0     40     83     50     74     71     95     DNA-directed RNA polymerase subunit 5 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L235 PE=1 SV=1
+sp|Q5UPX7|RPO5_MIMIV     3.1        91     1   0.0      4     42     11     38     14     41     DNA-directed RNA polymerase subunit 5 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L235 PE=1 SV=1
+sp|Q5UPX7|RPO5_MIMIV    -2.1   3.9e+03     3   0.0     81    126    108    115     62     83     DNA-directed RNA polymerase subunit 5 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L235 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008240314@NC_021784.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008240314@NC_021784.txt data/models_hmm/YP_008240314@NC_021784.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:28 2021
+# [ok]

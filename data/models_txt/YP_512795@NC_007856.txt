@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03652|J_BPG4        62.3   2.8e-17   1   1.0   6.1    DNA-binding protein J OS=Escherichia phage G4 OX=10843 GN=J PE=1 SV=1
+sp|P69548|J_BPAL3       60.8   8.2e-17   1   1.0   5.8    DNA-binding protein J OS=Escherichia phage alpha3 OX=10849 GN=J PE=1 SV=1
+sp|P69549|J_BPPHK       60.8   8.2e-17   1   1.0   5.8    DNA-binding protein J OS=Enterobacteria phage phiK OX=10848 GN=J PE=3 SV=1
+sp|P69593|VGJ_BPS13     35.7     6e-09   2   2.2   3.0    Small core protein OS=Enterobacteria phage S13 OX=10844 GN=J PE=3 SV=1
+sp|P69592|J_BPPHS       35.6   6.4e-09   2   2.3   3.0    DNA-binding protein J OS=Enterobacteria phage phiX174 (Isolate Sanger) OX=1217068 GN=J PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03652|J_BPG4        62.2   2.9e-17     1   6.1      1     25      1     25      1     26     DNA-binding protein J OS=Escherichia phage G4 OX=10843 GN=J PE=1 SV=1
+sp|P69548|J_BPAL3       60.8   8.5e-17     1   5.8      1     24      1     24      1     26     DNA-binding protein J OS=Escherichia phage alpha3 OX=10849 GN=J PE=1 SV=1
+sp|P69549|J_BPPHK       60.8   8.5e-17     1   5.8      1     24      1     24      1     26     DNA-binding protein J OS=Enterobacteria phage phiK OX=10848 GN=J PE=3 SV=1
+sp|P69593|VGJ_BPS13     35.7     6e-09     2   3.0     16     37     22     37     11     26     Small core protein OS=Enterobacteria phage S13 OX=10844 GN=J PE=3 SV=1
+sp|P69592|J_BPPHS       35.6   6.4e-09     2   3.0     17     38     23     38     11     26     DNA-binding protein J OS=Enterobacteria phage phiX174 (Isolate Sanger) OX=1217068 GN=J PE=1 SV=2
+sp|P69592|J_BPPHS        3.2        87     1   3.0      1     14      1     11      1     12     DNA-binding protein J OS=Enterobacteria phage phiX174 (Isolate Sanger) OX=1217068 GN=J PE=1 SV=2
+sp|P69593|VGJ_BPS13      0.4   6.5e+02     1   2.6      1     13      2     10      3     12     Small core protein OS=Enterobacteria phage S13 OX=10844 GN=J PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_512795@NC_007856.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_512795@NC_007856.txt data/models_hmm/YP_512795@NC_007856.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:37 2021
+# [ok]

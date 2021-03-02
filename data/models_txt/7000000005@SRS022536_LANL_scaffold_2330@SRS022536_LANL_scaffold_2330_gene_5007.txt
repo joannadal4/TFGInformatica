@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q85672|S3BIS_DPIRV    14.5     0.028   3   4.0   4.6    Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+sp|Q5UPH4|YR096_MIMIV    12.8     0.094   1   1.6   0.7    Putative ankyrin repeat protein R96 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R96 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPH4|YR096_MIMIV    11.5      0.24     1   0.7    561    625    569    618     65    113     Putative ankyrin repeat protein R96 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R96 PE=4 SV=1
+sp|Q85672|S3BIS_DPIRV     4.6        32     1   0.1     63    115     68    104     67    103     Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+sp|Q85672|S3BIS_DPIRV     4.6        32     3   0.1    762    815    768    804     67    103     Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+sp|Q85672|S3BIS_DPIRV     4.2        44     2   0.1    412    465    418    454     67    103     Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000005@SRS022536_LANL_scaffold_2330@SRS022536_LANL_scaffold_2330_gene_5007.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000005@SRS022536_LANL_scaffold_2330@SRS022536_LANL_scaffold_2330_gene_5007.txt data/models_hmm/7000000005@SRS022536_LANL_scaffold_2330@SRS022536_LANL_scaffold_2330_gene_5007.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:27 2021
+# [ok]

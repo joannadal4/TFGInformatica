@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q18LF6|TEG7_ELHVK    13.7     0.036   1   1.4   0.2    Tegument protein UL51 homolog OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q18LF6|TEG7_ELHVK    12.9     0.061     1   0.2     63    179     69    154    116    211     Tegument protein UL51 homolog OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000433___SRS050752_LANL_scaffold_19031_1_33.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000433___SRS050752_LANL_scaffold_19031_1_33.txt data/models_hmm/7000000433___SRS050752_LANL_scaffold_19031_1_33.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:09 2021
+# [ok]

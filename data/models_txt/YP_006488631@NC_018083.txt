@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68930|TUB11_BPPH2   345.0  3.4e-103   1   1.0  22.0    Proximal tail tube connector protein OS=Bacillus phage phi29 OX=10756 GN=11 PE=1 SV=1
+sp|P68931|TUB11_BPPZA   345.0  3.4e-103   1   1.0  22.0    Proximal tail tube connector protein OS=Bacillus phage PZA OX=10757 GN=11 PE=3 SV=1
+sp|Q37892|TUB11_BPB03   340.9  5.9e-102   1   1.0  22.4    Proximal tail tube connector protein OS=Bacillus phage B103 OX=10778 GN=11 PE=3 SV=1
+sp|Q66648|VG45_EHV2       9.8      0.61   2   1.4   4.7    Uncharacterized gene 45 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=45 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68930|TUB11_BPPH2   344.8  3.9e-103     1  22.0      1    293      1    293      1    262     Proximal tail tube connector protein OS=Bacillus phage phi29 OX=10756 GN=11 PE=1 SV=1
+sp|P68931|TUB11_BPPZA   344.8  3.9e-103     1  22.0      1    293      1    293      1    262     Proximal tail tube connector protein OS=Bacillus phage PZA OX=10757 GN=11 PE=3 SV=1
+sp|Q37892|TUB11_BPB03   340.7  6.8e-102     1  22.4      1    293      1    293      1    262     Proximal tail tube connector protein OS=Bacillus phage B103 OX=10778 GN=11 PE=3 SV=1
+sp|Q66648|VG45_EHV2      12.3       0.1     1   1.2     45    209     99    182    123    207     Uncharacterized gene 45 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=45 PE=4 SV=1
+sp|Q66648|VG45_EHV2      -3.0   4.7e+03     2   0.1    217    272    247    253    139    210     Uncharacterized gene 45 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=45 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006488631@NC_018083.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006488631@NC_018083.txt data/models_hmm/YP_006488631@NC_018083.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:16 2021
+# [ok]

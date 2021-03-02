@@ -1,0 +1,70 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9YMJ7|ENV_NPVLD     821.3  4.9e-247   1   1.0   4.0    Envelope fusion protein OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 GN=LdOrf-130 PE=3 SV=1
+sp|O10282|Y023_NPVOP    138.0   3.4e-40   2   2.1   0.0    Uncharacterized 73.1 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF21 PE=3 SV=2
+sp|P0DTC2|SPIKE_SARS2    14.5    0.0083   2   1.9   0.1    Spike glycoprotein OS=Severe acute respiratory syndrome coronavirus 2 OX=2697049 GN=S PE=1 SV=1
+sp|D8V077|U3_TIBVC       14.2      0.01   1   1.0   3.4    Protein U3 OS=Tibrogargan virus (strain CS132) OX=1559361 GN=U3 PE=3 SV=1
+sp|Q91AV1|SPIKE_PEDV7    13.7     0.015   2   1.8   0.3    Spike glycoprotein OS=Porcine epidemic diarrhea virus (strain CV777) OX=229032 GN=S PE=1 SV=1
+sp|Q0Q475|SPIKE_BC279    11.9      0.05   2   2.0   0.1    Spike glycoprotein OS=Bat coronavirus 279/2005 OX=389167 GN=S PE=3 SV=1
+sp|Q3LZX1|SPIKE_BCHK3    11.9      0.05   2   1.8   0.1    Spike glycoprotein OS=Bat coronavirus HKU3 OX=442736 GN=S PE=3 SV=1
+sp|Q3I5J5|SPIKE_BCRP3    11.9      0.05   2   2.1   0.1    Spike glycoprotein OS=Bat coronavirus Rp3/2004 OX=349344 GN=S PE=1 SV=1
+sp|P59594|SPIKE_SARS     11.9     0.051   2   2.2   0.1    Spike glycoprotein OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=S PE=1 SV=1
+sp|P15779|VEMP_CVBM      11.8     0.054   1   1.0   0.7    Envelope small membrane protein OS=Bovine coronavirus (strain Mebus) OX=11132 GN=E PE=3 SV=1
+sp|P0C2Q1|VEMP_CVBEN     11.6     0.062   1   1.0   1.2    Envelope small membrane protein OS=Bovine coronavirus (strain 98TXSF-110-ENT) OX=233262 GN=E PE=3 SV=1
+sp|P0C2Q2|VEMP_CVBLS     11.6     0.062   1   1.0   1.2    Envelope small membrane protein OS=Bovine coronavirus (strain LSU-94LSS-051) OX=233261 GN=E PE=3 SV=1
+sp|P0C2Q3|VEMP_CVBLU     11.6     0.062   1   1.0   1.2    Envelope small membrane protein OS=Bovine coronavirus (strain 98TXSF-110-LUN) OX=233264 GN=E PE=3 SV=1
+sp|P0C2Q4|VEMP_CVBLY     11.6     0.062   1   1.0   1.2    Envelope small membrane protein OS=Bovine coronavirus (strain LY-138) OX=11131 GN=E PE=3 SV=1
+sp|P0C2Q5|VEMP_CVBOK     11.6     0.062   1   1.0   1.2    Envelope small membrane protein OS=Bovine coronavirus (strain OK-0514) OX=231432 GN=E PE=3 SV=1
+sp|P0C2Q6|VEMP_CVBON     11.6     0.062   1   1.0   1.2    Envelope small membrane protein OS=Bovine coronavirus (strain Ontario) OX=231422 GN=E PE=3 SV=1
+sp|P0C2Q7|VEMP_CVBQ      11.6     0.062   1   1.0   1.2    Envelope small membrane protein OS=Bovine coronavirus (strain Quebec) OX=11133 GN=E PE=3 SV=1
+sp|P15775|VEMP_CVBF      11.6     0.062   1   1.0   1.2    Envelope small membrane protein OS=Bovine coronavirus (strain F15) OX=11129 GN=E PE=3 SV=1
+sp|P0C2Q8|VEMP_CVP67     11.2     0.081   1   1.0   1.1    Envelope small membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain 67N) OX=230237 GN=E PE=3 SV=1
+sp|P0C2Q9|VEMP_CVPIA     11.2     0.081   1   1.0   1.1    Envelope small membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain IAF-404) OX=230236 GN=E PE=3 SV=1
+sp|Q04854|VEMP_CVHOC     10.7      0.12   1   1.0   0.8    Envelope small membrane protein OS=Human coronavirus OC43 OX=31631 GN=E PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9YMJ7|ENV_NPVLD     821.0  5.9e-247     1   4.0      1    652      6    645     12    621     Envelope fusion protein OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 GN=LdOrf-130 PE=3 SV=1
+sp|O10282|Y023_NPVOP    123.7     7e-36     2   0.0    157    556    190    536    197    532     Uncharacterized 73.1 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF21 PE=3 SV=2
+sp|P0DTC2|SPIKE_SARS2    14.5    0.0083     2   0.1   1149   1273   1178   1267    525    613     Spike glycoprotein OS=Severe acute respiratory syndrome coronavirus 2 OX=2697049 GN=S PE=1 SV=1
+sp|D8V077|U3_TIBVC       14.0     0.012     1   3.4     12     92     17     72    557    607     Protein U3 OS=Tibrogargan virus (strain CS132) OX=1559361 GN=U3 PE=3 SV=1
+sp|Q91AV1|SPIKE_PEDV7    13.7     0.015     2   0.3   1264   1378   1288   1359    524    600     Spike glycoprotein OS=Porcine epidemic diarrhea virus (strain CV777) OX=229032 GN=S PE=1 SV=1
+sp|O10282|Y023_NPVOP     12.2      0.04     1   0.0      1     85      5     70     11     78     Uncharacterized 73.1 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF21 PE=3 SV=2
+sp|Q0Q475|SPIKE_BC279    11.9      0.05     2   0.1   1117   1241   1146   1235    525    613     Spike glycoprotein OS=Bat coronavirus 279/2005 OX=389167 GN=S PE=3 SV=1
+sp|Q3LZX1|SPIKE_BCHK3    11.9      0.05     2   0.1   1118   1242   1147   1236    525    613     Spike glycoprotein OS=Bat coronavirus HKU3 OX=442736 GN=S PE=3 SV=1
+sp|Q3I5J5|SPIKE_BCRP3    11.9      0.05     2   0.1   1118   1241   1146   1235    525    613     Spike glycoprotein OS=Bat coronavirus Rp3/2004 OX=349344 GN=S PE=1 SV=1
+sp|P59594|SPIKE_SARS     11.9     0.051     2   0.1   1131   1255   1160   1249    525    613     Spike glycoprotein OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=S PE=1 SV=1
+sp|P15779|VEMP_CVBM      11.7     0.056     1   0.7      4     81     13     54    568    604     Envelope small membrane protein OS=Bovine coronavirus (strain Mebus) OX=11132 GN=E PE=3 SV=1
+sp|P0C2Q1|VEMP_CVBEN     11.5     0.064     1   1.2      4     81     13     55    568    608     Envelope small membrane protein OS=Bovine coronavirus (strain 98TXSF-110-ENT) OX=233262 GN=E PE=3 SV=1
+sp|P0C2Q2|VEMP_CVBLS     11.5     0.064     1   1.2      4     81     13     55    568    608     Envelope small membrane protein OS=Bovine coronavirus (strain LSU-94LSS-051) OX=233261 GN=E PE=3 SV=1
+sp|P0C2Q3|VEMP_CVBLU     11.5     0.064     1   1.2      4     81     13     55    568    608     Envelope small membrane protein OS=Bovine coronavirus (strain 98TXSF-110-LUN) OX=233264 GN=E PE=3 SV=1
+sp|P0C2Q4|VEMP_CVBLY     11.5     0.064     1   1.2      4     81     13     55    568    608     Envelope small membrane protein OS=Bovine coronavirus (strain LY-138) OX=11131 GN=E PE=3 SV=1
+sp|P0C2Q5|VEMP_CVBOK     11.5     0.064     1   1.2      4     81     13     55    568    608     Envelope small membrane protein OS=Bovine coronavirus (strain OK-0514) OX=231432 GN=E PE=3 SV=1
+sp|P0C2Q6|VEMP_CVBON     11.5     0.064     1   1.2      4     81     13     55    568    608     Envelope small membrane protein OS=Bovine coronavirus (strain Ontario) OX=231422 GN=E PE=3 SV=1
+sp|P0C2Q7|VEMP_CVBQ      11.5     0.064     1   1.2      4     81     13     55    568    608     Envelope small membrane protein OS=Bovine coronavirus (strain Quebec) OX=11133 GN=E PE=3 SV=1
+sp|P15775|VEMP_CVBF      11.5     0.064     1   1.2      4     81     13     55    568    608     Envelope small membrane protein OS=Bovine coronavirus (strain F15) OX=11129 GN=E PE=3 SV=1
+sp|P0C2Q8|VEMP_CVP67     11.2     0.081     1   1.1      4     81     17     55    566    608     Envelope small membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain 67N) OX=230237 GN=E PE=3 SV=1
+sp|P0C2Q9|VEMP_CVPIA     11.2     0.081     1   1.1      4     81     17     55    566    608     Envelope small membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain IAF-404) OX=230236 GN=E PE=3 SV=1
+sp|Q04854|VEMP_CVHOC     10.6      0.12     1   0.8      4     80     13     56    568    609     Envelope small membrane protein OS=Human coronavirus OC43 OX=31631 GN=E PE=3 SV=1
+sp|Q0Q475|SPIKE_BC279    -1.1   4.2e+02     1   1.4    878    984    884    960    171    243     Spike glycoprotein OS=Bat coronavirus 279/2005 OX=389167 GN=S PE=3 SV=1
+sp|P0DTC2|SPIKE_SARS2    -1.3   5.1e+02     1   0.5    914   1015    939    992    193    243     Spike glycoprotein OS=Severe acute respiratory syndrome coronavirus 2 OX=2697049 GN=S PE=1 SV=1
+sp|Q3I5J5|SPIKE_BCRP3    -1.4   5.3e+02     1   2.5    879    985    884    960    171    243     Spike glycoprotein OS=Bat coronavirus Rp3/2004 OX=349344 GN=S PE=1 SV=1
+sp|P59594|SPIKE_SARS     -1.4   5.4e+02     1   2.4    893    999    898    974    171    243     Spike glycoprotein OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=S PE=1 SV=1
+sp|Q3LZX1|SPIKE_BCHK3    -1.7   6.3e+02     1   0.4    884    983    922    959    175    241     Spike glycoprotein OS=Bat coronavirus HKU3 OX=442736 GN=S PE=3 SV=1
+sp|Q91AV1|SPIKE_PEDV7    -2.3   9.8e+02     1   0.6   1006   1117   1026   1079    193    243     Spike glycoprotein OS=Porcine epidemic diarrhea virus (strain CV777) OX=229032 GN=S PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_891877@NC_005068.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_891877@NC_005068.txt data/models_hmm/NP_891877@NC_005068.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:34 2021
+# [ok]

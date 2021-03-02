@@ -1,0 +1,77 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6SW62|SCAF_HCMVM   719.2  5.2e-216   1   1.1   0.0    Capsid scaffolding protein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL80 PE=3 SV=1
+sp|P16753|SCAF_HCMVA   716.4  3.9e-215   1   1.1   0.0    Capsid scaffolding protein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL80 PE=1 SV=1
+sp|P16046|SCAF_SCMVC   698.9  7.3e-210   1   1.0   0.2    Capsid scaffolding protein OS=Simian cytomegalovirus (strain Colburn) OX=50292 GN=UL80 PE=1 SV=3
+sp|P24433|SCAF_HHV6U   551.3  3.8e-165   1   2.9   3.5    Capsid scaffolding protein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U53 PE=3 SV=2
+sp|Q9QJ30|SCAF_HHV6Z   550.0  8.9e-165   2   2.9   4.1    Capsid scaffolding protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U53 PE=3 SV=1
+sp|P52351|SCAF_HHV7J   504.3  6.3e-151   2   2.9   7.8    Capsid scaffolding protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U53 PE=3 SV=1
+sp|Q18LE3|SCAF_ELHVK   465.9  2.6e-139   3   3.6  17.6    Capsid scaffolding protein OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+sp|P52369|SCAF_EHV2    216.6   8.3e-64   2   2.3   4.5    Capsid scaffolding protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=17 PE=3 SV=1
+sp|Q2HRB6|SCAF_HHV8P   213.9   5.4e-63   1   3.2  11.5    Capsid scaffolding protein OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF17 PE=1 SV=1
+sp|O36367|SCAF_ALHV1   201.6   2.8e-59   2   3.7   0.5    Capsid scaffolding protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=17 PE=3 SV=1
+sp|P03234|SCAF_EBVB9   191.4   3.5e-56   2   2.5   0.0    Capsid scaffolding protein OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BVRF2 PE=1 SV=1
+sp|Q01002|SCAF_SHV21   188.5   2.6e-55   1   2.2   6.3    Capsid scaffolding protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=17 PE=3 SV=1
+sp|Q1HVC7|SCAF_EBVA8   188.4   2.8e-55   2   2.6   0.0    Capsid scaffolding protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BVRF2 PE=1 SV=1
+sp|Q3KSP9|SCAF_EBVG    187.9   3.9e-55   1   2.5   9.4    Capsid scaffolding protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BVRF2 PE=3 SV=1
+sp|Q6UDK6|SCAF_PSHV1   168.3   3.3e-49   2   2.5  15.6    Capsid scaffolding protein OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL26 PE=3 SV=2
+sp|P23984|SCAF_ILTVT   165.9   1.8e-48   1   1.0   0.3    Capsid scaffolding protein OS=Infectious laryngotracheitis virus (strain Thorne V882) OX=10344 PE=3 SV=1
+sp|Q9E6P2|SCAF_GAHVM   134.8   4.6e-39   1   1.2   0.0    Capsid scaffolding protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV038 PE=3 SV=1
+sp|P28936|SCAF_EHV1B   130.0   1.3e-37   1   1.5   0.1    Capsid scaffolding protein OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=35 PE=3 SV=1
+sp|P84454|SCAF_EHV1V   130.0   1.3e-37   1   1.5   0.1    Capsid scaffolding protein OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=35 PE=3 SV=1
+sp|P54817|SCAF_BHV1C   124.5   6.1e-36   1   2.0   7.4    Capsid scaffolding protein OS=Bovine herpesvirus 1.1 (strain Cooper) OX=10323 GN=UL26 PE=3 SV=1
+sp|P09286|SCAF_VZVD    109.9   1.6e-31   2   2.0   0.0    Capsid scaffolding protein OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=33 PE=1 SV=1
+sp|P10210|SCAF_HHV11   109.4   2.2e-31   1   2.2   0.0    Capsid scaffolding protein OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL26 PE=1 SV=1
+sp|P89449|SCAF_HHV2H   109.3   2.4e-31   2   2.2   9.4    Capsid scaffolding protein OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL26 PE=3 SV=1
+sp|Q83417|SCAF_SUHVK    98.0   6.7e-28   3   3.2   0.0    Capsid scaffolding protein OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6SW62|SCAF_HCMVM   719.0  6.3e-216     1   0.0      1    708      1    708      1    609     Capsid scaffolding protein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL80 PE=3 SV=1
+sp|P16753|SCAF_HCMVA   716.1  4.7e-215     1   0.0      1    708      1    708      1    609     Capsid scaffolding protein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL80 PE=1 SV=1
+sp|P16046|SCAF_SCMVC   698.8  8.3e-210     1   0.2      1    589      1    589     10    609     Capsid scaffolding protein OS=Simian cytomegalovirus (strain Colburn) OX=50292 GN=UL80 PE=1 SV=3
+sp|P24433|SCAF_HHV6U   538.5  2.7e-161     1   3.5      1    527      1    527     11    609     Capsid scaffolding protein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U53 PE=3 SV=2
+sp|Q9QJ30|SCAF_HHV6Z   446.3  2.3e-133     1   0.0      1    394      1    390     11    415     Capsid scaffolding protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U53 PE=3 SV=1
+sp|P52351|SCAF_HHV7J   401.5  8.2e-120     1   0.0      1    376      1    367     11    397     Capsid scaffolding protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U53 PE=3 SV=1
+sp|Q18LE3|SCAF_ELHVK   349.2  5.6e-104     1   0.0     35    295     35    282      1    256     Capsid scaffolding protein OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+sp|P52369|SCAF_EHV2    215.7   1.5e-63     1   0.0     28    486     31    448      4    417     Capsid scaffolding protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=17 PE=3 SV=1
+sp|Q2HRB6|SCAF_HHV8P   201.4   3.1e-59     1  11.5      1    529      3    241     12    259     Capsid scaffolding protein OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF17 PE=1 SV=1
+sp|P03234|SCAF_EBVB9   191.4   3.5e-56     1   0.0      1    464      5    421     12    421     Capsid scaffolding protein OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BVRF2 PE=1 SV=1
+sp|Q1HVC7|SCAF_EBVA8   188.4   2.8e-55     1   0.0      1    464      5    421     12    421     Capsid scaffolding protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BVRF2 PE=1 SV=1
+sp|Q01002|SCAF_SHV21   185.5     2e-54     1   6.2      1    454      2    266     12    275     Capsid scaffolding protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=17 PE=3 SV=1
+sp|Q3KSP9|SCAF_EBVG    182.5   1.7e-53     1   9.4      1    593      5    421     12    421     Capsid scaffolding protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BVRF2 PE=3 SV=1
+sp|O36367|SCAF_ALHV1   178.3   3.2e-52     1   0.0      1    355      3    241     11    259     Capsid scaffolding protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=17 PE=3 SV=1
+sp|P23984|SCAF_ILTVT   165.5   2.5e-48     1   0.3      2    585      6    575     10    553     Capsid scaffolding protein OS=Infectious laryngotracheitis virus (strain Thorne V882) OX=10344 PE=3 SV=1
+sp|Q9E6P2|SCAF_GAHVM   134.5   5.8e-39     1   0.0      1    651      5    535     10    511     Capsid scaffolding protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV038 PE=3 SV=1
+sp|P28936|SCAF_EHV1B   128.6   3.5e-37     1   0.1      6    606     13    595     12    588     Capsid scaffolding protein OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=35 PE=3 SV=1
+sp|P84454|SCAF_EHV1V   128.6   3.5e-37     1   0.1      6    606     13    595     12    588     Capsid scaffolding protein OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=35 PE=3 SV=1
+sp|P54817|SCAF_BHV1C   122.4   2.6e-35     1   7.4     16    610     22    517      8    399     Capsid scaffolding protein OS=Bovine herpesvirus 1.1 (strain Cooper) OX=10323 GN=UL26 PE=3 SV=1
+sp|P89449|SCAF_HHV2H   109.3   2.4e-31     1   9.4      9    579     15    460      8    406     Capsid scaffolding protein OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL26 PE=3 SV=1
+sp|Q6UDK6|SCAF_PSHV1   104.4   7.5e-30     2  11.1    117    723    127    710    113    561     Capsid scaffolding protein OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL26 PE=3 SV=2
+sp|P10210|SCAF_HHV11   100.6     1e-28     1   0.0      9    628     14    498      7    515     Capsid scaffolding protein OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL26 PE=1 SV=1
+sp|P52351|SCAF_HHV7J   100.0   1.6e-28     2   6.3    368    511    373    511    445    609     Capsid scaffolding protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U53 PE=3 SV=1
+sp|Q9QJ30|SCAF_HHV6Z    98.6   4.2e-28     2   5.9    382    527    389    527    446    609     Capsid scaffolding protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U53 PE=3 SV=1
+sp|Q83417|SCAF_SUHVK    98.0   6.7e-28     1   0.0      1    230      1    226     11    249     Capsid scaffolding protein OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 PE=1 SV=1
+sp|Q18LE3|SCAF_ELHVK    95.0   5.4e-27     3  14.7    353    563    368    563    447    609     Capsid scaffolding protein OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+sp|P09286|SCAF_VZVD     88.3   5.6e-25     1   0.0      1    264      4    237      5    249     Capsid scaffolding protein OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=33 PE=1 SV=1
+sp|Q6UDK6|SCAF_PSHV1    65.2   5.5e-18     1   0.1      2     93      5     80      9     84     Capsid scaffolding protein OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL26 PE=3 SV=2
+sp|Q18LE3|SCAF_ELHVK    21.5   9.2e-05     2   0.0    281    373    290    332    294    337     Capsid scaffolding protein OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+sp|P09286|SCAF_VZVD     19.9   0.00029     2   0.0    276    600    342    564    365    547     Capsid scaffolding protein OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=33 PE=1 SV=1
+sp|O36367|SCAF_ALHV1    14.2     0.015     2   1.8    263    520    359    509    450    585     Capsid scaffolding protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=17 PE=3 SV=1
+sp|P89449|SCAF_HHV2H    -4.2   5.7e+03     2   2.7    550    623    564    593    344    366     Capsid scaffolding protein OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL26 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_073793@NC_001716.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_073793@NC_001716.txt data/models_hmm/YP_073793@NC_001716.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:02 2021
+# [ok]

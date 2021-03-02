@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DJX2|UXP_ADE02     91.6   1.4e-26   1   1.2   0.7    U exon protein OS=Human adenovirus C serotype 2 OX=10515 PE=2 SV=1
+sp|A8W995|UXP_ADE05     91.3   1.8e-26   2   1.6   0.7    U exon protein OS=Human adenovirus C serotype 5 OX=28285 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DJX2|UXP_ADE02     91.1     2e-26     1   0.7      1     55      1     54      1     52     U exon protein OS=Human adenovirus C serotype 2 OX=10515 PE=2 SV=1
+sp|A8W995|UXP_ADE05     90.2   3.7e-26     1   0.4      1     55      1     54      1     52     U exon protein OS=Human adenovirus C serotype 5 OX=28285 PE=2 SV=1
+sp|A8W995|UXP_ADE05     -2.3   2.9e+03     2   0.0    164    188    168    185      9     26     U exon protein OS=Human adenovirus C serotype 5 OX=28285 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AP_000631@AC_000020.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AP_000631@AC_000020.txt data/models_hmm/AP_000631@AC_000020.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:59 2021
+# [ok]

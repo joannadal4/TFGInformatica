@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q197A2|VF391_IIV3    15.7      0.01   1   1.5   0.1    Uncharacterized protein 058R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-058R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q197A2|VF391_IIV3    14.7     0.022     1   0.1     66    118     70    114     21     65     Uncharacterized protein 058R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-058R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2199034001@TB03JUN2009E_Contig_3@TB03JUN2009E_00004770.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2199034001@TB03JUN2009E_Contig_3@TB03JUN2009E_00004770.txt data/models_hmm/2199034001@TB03JUN2009E_Contig_3@TB03JUN2009E_00004770.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:09 2021
+# [ok]

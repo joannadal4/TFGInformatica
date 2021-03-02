@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9QIZ6|U4_FBNY2     180.8     5e-54   1   1.0   1.0    Protein U4 OS=Faba bean necrotic yellows virus (isolate SV292-88) OX=291604 GN=DNA-U4 PE=3 SV=1
+sp|Q08JR8|U4_MDV1      125.5   7.9e-37   1   1.0   0.1    Protein U4 OS=Milk vetch dwarf virus (isolate N) OX=291605 GN=DNA-U4 PE=3 SV=2
+sp|Q2L4I7|U4_FBNY1     123.1   4.6e-36   1   1.0   2.8    Protein U4 OS=Faba bean necrotic yellows virus (isolate Egyptian EV1-93) OX=291603 GN=DNA-U4 PE=3 SV=1
+sp|Q6R7B9|Y111_OSHVF    11.3      0.26   3   2.4   1.5    Putative transmembrane protein ORF111 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF110 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9QIZ6|U4_FBNY2     180.7   5.5e-54     1   1.0      1    106      1    106      1    106     Protein U4 OS=Faba bean necrotic yellows virus (isolate SV292-88) OX=291604 GN=DNA-U4 PE=3 SV=1
+sp|Q08JR8|U4_MDV1      125.3   9.5e-37     1   0.1      1    106      1    105      1    105     Protein U4 OS=Milk vetch dwarf virus (isolate N) OX=291605 GN=DNA-U4 PE=3 SV=2
+sp|Q2L4I7|U4_FBNY1     122.9     5e-36     1   2.8      1    105      1    103      1    104     Protein U4 OS=Faba bean necrotic yellows virus (isolate Egyptian EV1-93) OX=291603 GN=DNA-U4 PE=3 SV=1
+sp|Q6R7B9|Y111_OSHVF     9.7      0.82     1   0.1    100    148    106    142     13     49     Putative transmembrane protein ORF111 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF110 PE=4 SV=1
+sp|Q6R7B9|Y111_OSHVF    -1.4   2.3e+03     3   0.0    183    236    187    203     20     36     Putative transmembrane protein ORF111 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF110 PE=4 SV=1
+sp|Q6R7B9|Y111_OSHVF    -1.8   3.2e+03     2   0.3    145    177    155    166      8     19     Putative transmembrane protein ORF111 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF110 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008997809@NC_023311.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008997809@NC_023311.txt data/models_hmm/YP_008997809@NC_023311.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:45 2021
+# [ok]

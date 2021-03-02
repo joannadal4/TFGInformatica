@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P24307|HELI_NPVAC  1495.8         0   1   1.0  74.1    DNA replication helicase OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=HELI PE=1 SV=2
+sp|Q83950|V143_NPVOP  1481.7         0   1   1.0  27.0    ATP-dependent DNA helicase P143 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P143 PE=3 SV=1
+sp|P06420|VE1_HPV08     13.7    0.0084   1   1.2   0.2    Replication protein E1 OS=Human papillomavirus type 8 OX=10579 GN=E1 PE=3 SV=1
+sp|P50808|VE1_HPV36     12.6     0.019   1   1.1   0.1    Replication protein E1 OS=Human papillomavirus type 36 OX=37957 GN=E1 PE=3 SV=1
+sp|O40619|VE1_HPVR7     12.0     0.027   1   1.2   0.2    Replication protein E1 OS=Human papillomavirus type RTRX7 OX=79691 GN=E1 PE=3 SV=1
+sp|P06920|VE1_HPV05     12.0     0.028   1   1.2   0.2    Replication protein E1 OS=Human papillomavirus type 5 OX=333923 GN=E1 PE=3 SV=2
+sp|P26542|VE1_HPV5B     10.1      0.11   1   1.1   0.1    Replication protein E1 OS=Human papillomavirus type 5b OX=10599 GN=E1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P24307|HELI_NPVAC  1495.6         0     1  74.1      1   1221      1   1221      1   1164     DNA replication helicase OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=HELI PE=1 SV=2
+sp|Q83950|V143_NPVOP  1481.6         0     1  27.0      1   1223      1   1223      3   1164     ATP-dependent DNA helicase P143 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P143 PE=3 SV=1
+sp|P06420|VE1_HPV08     13.0     0.014     1   0.2    360    460    362    442    807    886     Replication protein E1 OS=Human papillomavirus type 8 OX=10579 GN=E1 PE=3 SV=1
+sp|P50808|VE1_HPV36     11.9     0.029     1   0.1    361    452    363    443    807    886     Replication protein E1 OS=Human papillomavirus type 36 OX=37957 GN=E1 PE=3 SV=1
+sp|O40619|VE1_HPVR7     11.4     0.043     1   0.2    360    450    363    443    807    886     Replication protein E1 OS=Human papillomavirus type RTRX7 OX=79691 GN=E1 PE=3 SV=1
+sp|P06920|VE1_HPV05     11.4     0.044     1   0.2    361    454    364    445    806    886     Replication protein E1 OS=Human papillomavirus type 5 OX=333923 GN=E1 PE=3 SV=2
+sp|P26542|VE1_HPV5B      9.5      0.16     1   0.1    363    454    365    445    807    886     Replication protein E1 OS=Human papillomavirus type 5b OX=10599 GN=E1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008378562@NC_021925.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008378562@NC_021925.txt data/models_hmm/YP_008378562@NC_021925.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:55 2021
+# [ok]

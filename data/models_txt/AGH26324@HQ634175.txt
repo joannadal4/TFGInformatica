@@ -1,0 +1,226 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04507|SIGM1_REOVJ    16.3    0.0057   4   4.0   4.6    Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|A8C8W3|HEMA_I67A2     15.0     0.014   1   1.6   0.8    Hemagglutinin OS=Influenza A virus (strain A/Swine/Wisconsin/1/1967 H1N1) OX=382855 GN=HA PE=3 SV=1
+sp|Q9WCD8|HEMA_I61A1     15.0     0.014   1   1.6   0.8    Hemagglutinin OS=Influenza A virus (strain A/Swine/Wisconsin/1/1961 H1N1) OX=383533 GN=HA PE=2 SV=1
+sp|P04376|CAP9_ADET1     14.9     0.015   1   1.3   0.2    Hexon-interlacing protein OS=Tree shrew adenovirus serotype 1 OX=47680 GN=IX PE=3 SV=1
+sp|P26140|HEMA_I88A6     14.6     0.019   1   1.6   0.1    Hemagglutinin OS=Influenza A virus (strain A/Swine/Indiana/1726/1988 H1N1) OX=384487 GN=HA PE=1 SV=1
+sp|Q9WCE1|HEMA_I81A3     14.3     0.025   1   1.6   0.2    Hemagglutinin OS=Influenza A virus (strain A/Turkey/Minnesota/1661/1981 H1N1) OX=380349 GN=HA PE=2 SV=1
+sp|A4GCJ7|HEMA_I80AA     14.0     0.029   1   1.8   1.1    Hemagglutinin OS=Influenza A virus (strain A/India/6263/1980 H1N1) OX=393562 GN=HA PE=3 SV=1
+sp|P03453|HEMA_I77AB     14.0      0.03   1   1.8   1.1    Hemagglutinin OS=Influenza A virus (strain A/USSR/90/1977 H1N1) OX=381516 GN=HA PE=3 SV=2
+sp|A4GBX7|HEMA_I77AA     14.0      0.03   1   1.8   1.1    Hemagglutinin OS=Influenza A virus (strain A/Brazil/11/1978 H1N1) OX=393560 GN=HA PE=3 SV=1
+sp|P18875|HEMA_I79A4     14.0      0.03   1   1.8   1.1    Hemagglutinin OS=Influenza A virus (strain A/Kiev/59/1979 H1N1) OX=384495 GN=HA PE=1 SV=1
+sp|Q0HD60|HEMA_I40A0     13.9     0.032   1   1.8   1.3    Hemagglutinin OS=Influenza A virus (strain A/Hickox/1940 H1N1) OX=383543 GN=HA PE=1 SV=1
+sp|Q8V3U0|HEMA_ISAV8     13.9     0.032   1   1.3   0.0    Hemagglutinin-esterase OS=Infectious salmon anemia virus (isolate Atlantic salmon/Norway/810/9/99) OX=652965 GN=Segment-6 PE=3 SV=1
+sp|P18876|HEMA_I54A0     13.9     0.032   1   1.8   1.2    Hemagglutinin OS=Influenza A virus (strain A/Leningrad/1/1954 H1N1) OX=393557 GN=HA PE=3 SV=1
+sp|A4U7A6|HEMA_I51A0     13.9     0.033   1   1.8   1.3    Hemagglutinin OS=Influenza A virus (strain A/USA:Albany/12/1951 H1N1) OX=425580 GN=HA PE=3 SV=1
+sp|A4K143|HEMA_I54A2     13.9     0.033   1   1.8   1.3    Hemagglutinin OS=Influenza A virus (strain A/Malaysia:Malaya/302/1954 H1N1) OX=425566 GN=HA PE=3 SV=1
+sp|P03455|HEMA_I76AI     13.8     0.035   1   1.6   0.6    Hemagglutinin OS=Influenza A virus (strain A/Swine/New Jersey/11/1976 H1N1) OX=186460 GN=HA PE=3 SV=1
+sp|A4GCL9|HEMA_I35A3     13.8     0.035   1   1.7   1.2    Hemagglutinin OS=Influenza A virus (strain A/USA:Phila/1935 H1N1) OX=425570 GN=HA PE=3 SV=1
+sp|A4GCI6|HEMA_I36A0     13.8     0.036   1   1.7   1.2    Hemagglutinin OS=Influenza A virus (strain A/Henry/1936 H1N1) OX=425562 GN=HA PE=3 SV=1
+sp|A4U6V2|HEMA_I45A0     13.8     0.036   1   1.7   1.2    Hemagglutinin OS=Influenza A virus (strain A/USA:Huston/AA/1945 H1N1) OX=425551 GN=HA PE=3 SV=1
+sp|P03549|VAT_CAMVC      13.7     0.036   2   2.8   3.0    Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|A4GCK8|HEMA_I43A0     13.7     0.037   1   1.8   1.4    Hemagglutinin OS=Influenza A virus (strain A/USA:Iowa/1943 H1N1) OX=425563 GN=HA PE=3 SV=1
+sp|P03454|HEMA_I33A0     13.6      0.04   1   1.7   1.0    Hemagglutinin OS=Influenza A virus (strain A/Wilson-Smith/1933 H1N1) OX=381518 GN=HA PE=1 SV=1
+sp|Q992I2|SIGC_ARVS1     13.6     0.041   3   3.0   0.3    Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|A4GCH5|HEMA_I83A1     13.5     0.042   1   1.8   1.3    Hemagglutinin OS=Influenza A virus (strain A/Chile/1/1983 H1N1) OX=380985 GN=HA PE=3 SV=1
+sp|Q9WFX3|HEMA_I18A0     13.4     0.047   1   1.6   0.7    Hemagglutinin OS=Influenza A virus (strain A/Brevig Mission/1/1918 H1N1) OX=88776 GN=HA PE=1 SV=2
+sp|P03548|VAT_CAMVS      13.3      0.05   2   2.8   3.2    Aphid transmission protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF II PE=3 SV=1
+sp|Q9WCE8|HEMA_I85A4     13.1     0.056   1   1.6   0.1    Hemagglutinin OS=Influenza A virus (strain A/Swine/Netherlands/12/1985 H1N1) OX=380347 GN=HA PE=2 SV=1
+sp|Q9WCE3|HEMA_I80A1     13.1     0.056   1   1.6   0.5    Hemagglutinin OS=Influenza A virus (strain A/Duck/Australia/749/1980 H1N1) OX=383547 GN=HA PE=2 SV=1
+sp|Q02966|VAT_CAMVE      12.9     0.066   2   2.8   2.8    Aphid transmission protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF II PE=3 SV=1
+sp|P19818|VAT_CAMVP      12.7     0.075   2   2.8   4.2    Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+sp|P19694|HEMA_I77AG     12.6     0.083   1   1.8   0.3    Hemagglutinin OS=Influenza A virus (strain A/Budgerigar/Hokkaido/1/1977 H4N6) OX=385587 GN=HA PE=3 SV=1
+sp|Q00965|VAT_CAMVN      12.5     0.087   2   2.8   2.8    Aphid transmission protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF II PE=3 SV=1
+sp|Q07FI5|HEMA_I96A3     12.5     0.089   1   1.8   0.9    Hemagglutinin OS=Influenza A virus (strain A/China:Nanchang/11/1996 H1N1) OX=394786 GN=HA PE=3 SV=1
+sp|P28955|LTP_EHV1B      12.5     0.089   4   4.0   1.2    Large tegument protein deneddylase OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=24 PE=3 SV=1
+sp|P26562|HEMA_I76A4     12.5      0.09   1   1.6   0.5    Hemagglutinin OS=Influenza A virus (strain A/Duck/Alberta/35/1976 H1N1) OX=352520 GN=HA PE=1 SV=2
+sp|Q289M7|HEMA_I00A1     12.5     0.091   1   1.7   0.9    Hemagglutinin OS=Influenza A virus (strain A/New Zealand:South Canterbury/35/2000 H1N1) OX=363066 GN=HA PE=3 SV=1
+sp|A8C8J4|HEMA_I07A0     12.4     0.097   1   1.7   0.9    Hemagglutinin OS=Influenza A virus (strain A/USA:Texas/UR06-0195/2007 H1N1) OX=455880 GN=HA PE=3 SV=1
+sp|B4URD6|HEMA_I06A0     12.3       0.1   1   1.7   1.0    Hemagglutinin OS=Influenza A virus (strain A/Russia:St.Petersburg/8/2006 H1N1) OX=518998 GN=HA PE=3 SV=1
+sp|P04849|FUS_PIV5       12.3       0.1   2   2.1   1.8    Fusion glycoprotein F0 OS=Parainfluenza virus 5 (strain W3) OX=11208 GN=F PE=1 SV=1
+sp|P19697|HEMA_I76AK     12.2      0.11   1   1.8   0.4    Hemagglutinin OS=Influenza A virus (strain A/Duck/New Zealand/31/1976 H4N6) OX=385592 GN=HA PE=3 SV=2
+sp|A3DRP0|HEMA_I96A2     12.2      0.11   1   1.8   1.2    Hemagglutinin OS=Influenza A virus (strain A/USA:Memphis/10/1996 H1N1) OX=416730 GN=HA PE=3 SV=1
+sp|P35837|NEEDL_BPP22    12.2      0.11   2   2.7   1.9    Tail needle protein gp26 OS=Salmonella phage P22 OX=10754 GN=26 PE=1 SV=2
+sp|P03441|HEMA_I79A0     12.2      0.11   1   1.7   0.3    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Bangkok/1/1979 H3N2) OX=385630 GN=HA PE=2 SV=3
+sp|Q9WCD9|HEMA_I30A0     12.1      0.11   1   1.5   0.1    Hemagglutinin OS=Influenza A virus (strain A/Swine/Iowa/15/1930 H1N1) OX=380342 GN=HA PE=1 SV=1
+sp|Q2RCH5|HEMA_I80A4     12.1      0.12   1   1.7   0.3    Hemagglutinin OS=Influenza A virus (strain A/Memphis/4/1980 H3N2) OX=383578 GN=HA PE=3 SV=1
+sp|P19201|YOR2_COYMV     12.0      0.13   2   1.8   2.1    Uncharacterized 15 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+sp|P68968|CAP9_ADECC     11.9      0.14   1   1.2   0.6    Hexon-interlacing protein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=IX PE=3 SV=1
+sp|P68969|CAP9_ADECR     11.9      0.14   1   1.2   0.6    Hexon-interlacing protein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=IX PE=3 SV=1
+sp|P03452|HEMA_I34A1     11.9      0.14   1   1.8   1.4    Hemagglutinin OS=Influenza A virus (strain A/Puerto Rico/8/1934 H1N1) OX=211044 GN=HA PE=1 SV=2
+sp|P41714|VP10_NPVCF     11.7      0.16   2   1.9   0.1    Protein p10 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=P10 PE=3 SV=1
+sp|Q91AV1|SPIKE_PEDV7    11.5      0.19   3   3.4   4.7    Spike glycoprotein OS=Porcine epidemic diarrhea virus (strain CV777) OX=229032 GN=S PE=1 SV=1
+sp|P03550|VAT_CAMVD      11.4       0.2   3   2.8   2.9    Aphid transmission protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF II PE=3 SV=1
+sp|P15423|SPIKE_CVH22    11.2      0.23   3   3.6   5.7    Spike glycoprotein OS=Human coronavirus 229E OX=11137 GN=S PE=1 SV=1
+sp|P17000|HEMA_I71A3     10.9      0.27   2   1.9   1.8    Hemagglutinin OS=Influenza A virus (strain A/Equine/Tokyo/1971 H3N2) OX=11418 GN=HA PE=3 SV=2
+sp|P03443|HEMA_I76A1     10.7      0.33   2   1.9   2.0    Hemagglutinin OS=Influenza A virus (strain A/Duck/Alberta/28/1976 H4N6) OX=385638 GN=HA PE=3 SV=2
+sp|P03440|HEMA_I77A8     10.6      0.35   2   1.8   2.0    Hemagglutinin OS=Influenza A virus (strain A/England/321/1977 H3N2) OX=393563 GN=HA PE=3 SV=1
+sp|Q2VND2|HEMA_I78A8     10.6      0.36   2   1.8   2.0    Hemagglutinin OS=Influenza A virus (strain A/Memphis/18/1978 H3N2) OX=383579 GN=HA PE=3 SV=1
+sp|Q2VNF2|HEMA_I78A7     10.6      0.36   2   1.8   2.0    Hemagglutinin OS=Influenza A virus (strain A/Memphis/2/1978 H3N2) OX=383580 GN=HA PE=3 SV=1
+sp|P16994|HEMA_I72A0     10.4       0.4   2   1.8   2.2    Hemagglutinin OS=Influenza A virus (strain A/Equine/Algiers/1972 H3N8) OX=387214 GN=HA PE=3 SV=2
+sp|P24413|SPIKE_CVPRM     9.8      0.62   2   3.3   2.0    Spike glycoprotein OS=Porcine respiratory coronavirus (strain RM4) OX=11148 GN=S PE=1 SV=1
+sp|P26138|HEMA_I78A4      9.5      0.75   2   1.9   3.2    Hemagglutinin OS=Influenza A virus (strain A/Mallard/New York/6874/1978 H3N2) OX=384518 GN=HA PE=3 SV=1
+sp|Q03909|HEMA_I89A7      9.5      0.76   2   1.9   2.9    Hemagglutinin OS=Influenza A virus (strain A/Equine/Jillin/1/1989 H3N8) OX=385585 GN=HA PE=1 SV=1
+sp|P27655|SPIKE_CVPR8     9.4      0.81   2   3.3   2.2    Spike glycoprotein OS=Porcine respiratory coronavirus (strain 86/137004 / isolate British) OX=33736 GN=S PE=3 SV=1
+sp|P26134|HEMA_I76A3      9.4      0.82   2   1.9   3.0    Hemagglutinin OS=Influenza A virus (strain A/Duck/Alberta/78/1976 H3N8) OX=385646 GN=HA PE=3 SV=1
+sp|P03442|HEMA_I63A3      9.3      0.92   2   1.9   4.1    Hemagglutinin OS=Influenza A virus (strain A/Duck/Ukraine/1/1963 H3N8) OX=385580 GN=HA PE=1 SV=1
+sp|Q197B1|049R_IIV3       9.2      0.98   8   7.6  21.0    Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|P03437|HEMA_I68A0      9.1         1   2   1.9   3.6    Hemagglutinin OS=Influenza A virus (strain A/Aichi/2/1968 H3N2) OX=387139 GN=HA PE=1 SV=1
+sp|P03449|HEMA_I71A1      9.1         1   2   1.9   3.6    Hemagglutinin OS=Influenza A virus (strain A/Memphis/1/1971 H3N2) OX=383586 GN=HA PE=3 SV=2
+sp|P03436|HEMA_I68A6      9.1         1   2   1.9   3.6    Hemagglutinin OS=Influenza A virus (strain A/Northern Territory/60/1968 H3N2) OX=384505 GN=HA PE=1 SV=1
+sp|Q91MA7|HEMA_I68A4      9.1         1   2   1.9   3.6    Hemagglutinin OS=Influenza A virus (strain A/Hong Kong/1/1968 H3N2) OX=506350 GN=HA PE=1 SV=1
+sp|P12583|HEMA_I80A6      9.1         1   2   1.8   3.6    Hemagglutinin OS=Influenza A virus (strain A/Duck/Hokkaido/8/1980 H3N8) OX=387207 GN=HA PE=2 SV=3
+sp|P15658|HEMA_I63A2      8.9       1.2   2   1.9   3.8    Hemagglutinin OS=Influenza A virus (strain A/Equine/Miami/1/1963 H3N8) OX=387222 GN=HA PE=3 SV=2
+sp|P43259|HEMA_I77A7      8.8       1.3   2   1.9   3.9    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hong Kong/231/1977 H3) OX=45411 GN=HA PE=3 SV=1
+sp|P12584|HEMA_I80A7      8.8       1.3   2   1.9   3.9    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hokkaido/33/1980 H3N8) OX=11359 GN=HA PE=3 SV=1
+sp|P12585|HEMA_I82A5      8.8       1.3   2   1.9   3.9    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hokkaido/7/1982 H3N8) OX=11360 GN=HA PE=3 SV=1
+sp|P43258|HEMA_I76AD      8.8       1.3   2   1.9   3.9    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hong Kong/64/1976 H3) OX=45412 GN=HA PE=3 SV=1
+sp|P11134|HEMA_I82A4      8.8       1.3   2   1.8   3.9    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Swine/Hong Kong/126/1982 H3N2) OX=382848 GN=HA PE=1 SV=1
+sp|P12582|HEMA_I77A6      8.8       1.3   2   1.8   3.9    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hokkaido/5/1977 H3N8) OX=11357 GN=HA PE=3 SV=1
+sp|P03438|HEMA_I000X      8.8       1.3   2   1.9   3.9    Hemagglutinin OS=Influenza A virus (strain A/X-31 H3N2) OX=132504 GN=HA PE=1 SV=2
+sp|P12588|HEMA_I85A2      8.7       1.4   2   1.8   3.9    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hokkaido/10/1985 H3N8) OX=11363 GN=HA PE=3 SV=1
+sp|P12587|HEMA_I85A1      8.7       1.4   2   1.8   3.9    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hokkaido/9/1985 H3N8) OX=11362 GN=HA PE=3 SV=2
+sp|Q1PUD9|HEMA_I73A5      8.7       1.4   2   1.8   3.9    Hemagglutinin OS=Influenza A virus (strain A/Port Chalmers/1/1973 H3N2) OX=385624 GN=HA PE=1 SV=1
+sp|P03439|HEMA_I72A3      8.7       1.4   2   1.8   3.9    Hemagglutinin OS=Influenza A virus (strain A/Memphis/102/1972 H3N2) OX=385640 GN=HA PE=3 SV=2
+sp|Q2ICR0|HEMA_I72A4      8.7       1.4   2   1.8   3.9    Hemagglutinin OS=Influenza A virus (strain A/Memphis/101/1972 H3N2) OX=383583 GN=HA PE=3 SV=1
+sp|P19106|HEMA_I72A2      8.7       1.4   2   1.8   3.9    Hemagglutinin OS=Influenza A virus (strain A/Udorn/307/1972 H3N2) OX=381517 GN=HA PE=3 SV=2
+sp|P10033|SPIKE_FIPV      8.6       1.5   3   3.4   3.8    Spike glycoprotein OS=Feline coronavirus (strain FIPV WSU-79/1146) OX=33734 GN=S PE=1 SV=1
+sp|P33481|FUS_MUMPS       7.2         4   3   2.4   7.3    Fusion glycoprotein F0 OS=Mumps virus (strain SBL) OX=33729 GN=F PE=3 SV=1
+sp|P19716|FUS_MUMP1       7.2       4.1   3   2.4   7.3    Fusion glycoprotein F0 OS=Mumps virus (strain SBL-1) OX=11173 GN=F PE=3 SV=1
+sp|P09458|FUS_MUMPR       7.0       4.7   3   2.4   7.8    Fusion glycoprotein F0 OS=Mumps virus (strain RW) OX=11172 GN=F PE=1 SV=1
+sp|P11236|FUS_MUMPM       6.0       9.5   3   2.4   7.8    Fusion glycoprotein F0 OS=Mumps virus (strain Miyahara vaccine) OX=11171 GN=F PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04376|CAP9_ADET1     14.4     0.022     1   0.2     56    116     68    104     13     49     Hexon-interlacing protein OS=Tree shrew adenovirus serotype 1 OX=47680 GN=IX PE=3 SV=1
+sp|A8C8W3|HEMA_I67A2     13.9     0.032     1   0.8    378    472    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/Swine/Wisconsin/1/1967 H1N1) OX=382855 GN=HA PE=3 SV=1
+sp|Q9WCD8|HEMA_I61A1     13.9     0.032     1   0.8    378    472    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/Swine/Wisconsin/1/1961 H1N1) OX=383533 GN=HA PE=2 SV=1
+sp|P26140|HEMA_I88A6     13.4     0.048     1   0.1    378    441    381    426      5     50     Hemagglutinin OS=Influenza A virus (strain A/Swine/Indiana/1726/1988 H1N1) OX=384487 GN=HA PE=1 SV=1
+sp|Q9WCE1|HEMA_I81A3     13.3     0.052     1   0.2    378    472    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/Turkey/Minnesota/1661/1981 H1N1) OX=380349 GN=HA PE=2 SV=1
+sp|Q8V3U0|HEMA_ISAV8     13.2     0.053     1   0.0    301    384    309    346     13     50     Hemagglutinin-esterase OS=Infectious salmon anemia virus (isolate Atlantic salmon/Norway/810/9/99) OX=652965 GN=Segment-6 PE=3 SV=1
+sp|P03455|HEMA_I76AI     12.7      0.08     1   0.6    378    468    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/Swine/New Jersey/11/1976 H1N1) OX=186460 GN=HA PE=3 SV=1
+sp|A4GBX7|HEMA_I77AA     12.6     0.081     1   1.1    378    475    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/Brazil/11/1978 H1N1) OX=393560 GN=HA PE=3 SV=1
+sp|A4GCJ7|HEMA_I80AA     12.6     0.081     1   1.1    378    475    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/India/6263/1980 H1N1) OX=393562 GN=HA PE=3 SV=1
+sp|P03453|HEMA_I77AB     12.6     0.081     1   1.1    378    475    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/USSR/90/1977 H1N1) OX=381516 GN=HA PE=3 SV=2
+sp|P18875|HEMA_I79A4     12.6     0.081     1   1.1    378    475    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/Kiev/59/1979 H1N1) OX=384495 GN=HA PE=1 SV=1
+sp|P18876|HEMA_I54A0     12.5     0.088     1   1.2    378    475    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/Leningrad/1/1954 H1N1) OX=393557 GN=HA PE=3 SV=1
+sp|A4K143|HEMA_I54A2     12.5     0.089     1   1.3    378    475    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/Malaysia:Malaya/302/1954 H1N1) OX=425566 GN=HA PE=3 SV=1
+sp|A4U7A6|HEMA_I51A0     12.5     0.089     1   1.3    378    475    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/USA:Albany/12/1951 H1N1) OX=425580 GN=HA PE=3 SV=1
+sp|Q0HD60|HEMA_I40A0     12.5     0.089     1   1.3    378    475    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/Hickox/1940 H1N1) OX=383543 GN=HA PE=1 SV=1
+sp|A4GCI6|HEMA_I36A0     12.5     0.091     1   1.2    378    475    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/Henry/1936 H1N1) OX=425562 GN=HA PE=3 SV=1
+sp|A4GCL9|HEMA_I35A3     12.5     0.091     1   1.2    378    475    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/USA:Phila/1935 H1N1) OX=425570 GN=HA PE=3 SV=1
+sp|P03454|HEMA_I33A0     12.5     0.091     1   1.0    377    473    380    426      5     51     Hemagglutinin OS=Influenza A virus (strain A/Wilson-Smith/1933 H1N1) OX=381518 GN=HA PE=1 SV=1
+sp|A4U6V2|HEMA_I45A0     12.4     0.094     1   1.2    378    474    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/USA:Huston/AA/1945 H1N1) OX=425551 GN=HA PE=3 SV=1
+sp|A4GCK8|HEMA_I43A0     12.3       0.1     1   1.4    377    474    380    426      5     51     Hemagglutinin OS=Influenza A virus (strain A/USA:Iowa/1943 H1N1) OX=425563 GN=HA PE=3 SV=1
+sp|Q9WFX3|HEMA_I18A0     12.3       0.1     1   0.7    378    474    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/Brevig Mission/1/1918 H1N1) OX=88776 GN=HA PE=1 SV=2
+sp|A4GCH5|HEMA_I83A1     12.2      0.11     1   1.3    378    475    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/Chile/1/1983 H1N1) OX=380985 GN=HA PE=3 SV=1
+sp|Q9WCE8|HEMA_I85A4     12.1      0.12     1   0.1    378    468    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/Swine/Netherlands/12/1985 H1N1) OX=380347 GN=HA PE=2 SV=1
+sp|P19201|YOR2_COYMV     12.1      0.12     1   0.4     37     98     44     84     12     52     Uncharacterized 15 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+sp|Q9WCE3|HEMA_I80A1     12.0      0.12     1   0.5    378    468    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/Duck/Australia/749/1980 H1N1) OX=383547 GN=HA PE=2 SV=1
+sp|P26562|HEMA_I76A4     11.4       0.2     1   0.4    378    468    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/Duck/Alberta/35/1976 H1N1) OX=352520 GN=HA PE=1 SV=2
+sp|P68968|CAP9_ADECC     11.4       0.2     1   0.6     56    102     58    101      3     46     Hexon-interlacing protein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=IX PE=3 SV=1
+sp|P68969|CAP9_ADECR     11.4       0.2     1   0.6     56    102     58    101      3     46     Hexon-interlacing protein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=IX PE=3 SV=1
+sp|P03442|HEMA_I63A3     11.3      0.21     1   0.4    383    440    391    432      7     48     Hemagglutinin OS=Influenza A virus (strain A/Duck/Ukraine/1/1963 H3N8) OX=385580 GN=HA PE=1 SV=1
+sp|Q9WCD9|HEMA_I30A0     11.2      0.22     1   0.1    378    466    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/Swine/Iowa/15/1930 H1N1) OX=380342 GN=HA PE=1 SV=1
+sp|P04849|FUS_PIV5       11.2      0.23     1   0.7    128    189    131    178      4     51     Fusion glycoprotein F0 OS=Parainfluenza virus 5 (strain W3) OX=11208 GN=F PE=1 SV=1
+sp|A8C8J4|HEMA_I07A0     11.1      0.24     1   0.9    377    474    380    426      5     51     Hemagglutinin OS=Influenza A virus (strain A/USA:Texas/UR06-0195/2007 H1N1) OX=455880 GN=HA PE=3 SV=1
+sp|Q07FI5|HEMA_I96A3     11.1      0.24     1   0.9    377    474    380    426      5     51     Hemagglutinin OS=Influenza A virus (strain A/China:Nanchang/11/1996 H1N1) OX=394786 GN=HA PE=3 SV=1
+sp|Q289M7|HEMA_I00A1     11.1      0.24     1   0.9    377    474    380    426      5     51     Hemagglutinin OS=Influenza A virus (strain A/New Zealand:South Canterbury/35/2000 H1N1) OX=363066 GN=HA PE=3 SV=1
+sp|B4URD6|HEMA_I06A0     11.1      0.24     1   1.0    377    474    380    426      5     51     Hemagglutinin OS=Influenza A virus (strain A/Russia:St.Petersburg/8/2006 H1N1) OX=518998 GN=HA PE=3 SV=1
+sp|P19694|HEMA_I77AG     11.0      0.26     1   0.3    382    438    394    430     12     48     Hemagglutinin OS=Influenza A virus (strain A/Budgerigar/Hokkaido/1/1977 H4N6) OX=385587 GN=HA PE=3 SV=1
+sp|A3DRP0|HEMA_I96A2     10.8       0.3     1   1.2    378    476    381    427      5     51     Hemagglutinin OS=Influenza A virus (strain A/USA:Memphis/10/1996 H1N1) OX=416730 GN=HA PE=3 SV=1
+sp|P03441|HEMA_I79A0     10.8       0.3     1   0.3    368    424    379    416     11     48     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Bangkok/1/1979 H3N2) OX=385630 GN=HA PE=2 SV=3
+sp|P11134|HEMA_I82A4     10.8       0.3     1   0.3    368    424    379    416     11     48     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Swine/Hong Kong/126/1982 H3N2) OX=382848 GN=HA PE=1 SV=1
+sp|P12582|HEMA_I77A6     10.8       0.3     1   0.3    368    424    379    416     11     48     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hokkaido/5/1977 H3N8) OX=11357 GN=HA PE=3 SV=1
+sp|P12584|HEMA_I80A7     10.8       0.3     1   0.3    368    424    379    416     11     48     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hokkaido/33/1980 H3N8) OX=11359 GN=HA PE=3 SV=1
+sp|P12585|HEMA_I82A5     10.8       0.3     1   0.3    368    424    379    416     11     48     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hokkaido/7/1982 H3N8) OX=11360 GN=HA PE=3 SV=1
+sp|P12587|HEMA_I85A1     10.8       0.3     1   0.3    368    424    379    416     11     48     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hokkaido/9/1985 H3N8) OX=11362 GN=HA PE=3 SV=2
+sp|P12588|HEMA_I85A2     10.8       0.3     1   0.3    368    424    379    416     11     48     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hokkaido/10/1985 H3N8) OX=11363 GN=HA PE=3 SV=1
+sp|P43258|HEMA_I76AD     10.8       0.3     1   0.3    368    424    379    416     11     48     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hong Kong/64/1976 H3) OX=45412 GN=HA PE=3 SV=1
+sp|P43259|HEMA_I77A7     10.8       0.3     1   0.3    368    424    379    416     11     48     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Hong Kong/231/1977 H3) OX=45411 GN=HA PE=3 SV=1
+sp|P03436|HEMA_I68A6     10.8      0.31     1   0.3    384    440    395    432     11     48     Hemagglutinin OS=Influenza A virus (strain A/Northern Territory/60/1968 H3N2) OX=384505 GN=HA PE=1 SV=1
+sp|P03437|HEMA_I68A0     10.8      0.31     1   0.3    384    440    395    432     11     48     Hemagglutinin OS=Influenza A virus (strain A/Aichi/2/1968 H3N2) OX=387139 GN=HA PE=1 SV=1
+sp|P03438|HEMA_I000X     10.8      0.31     1   0.3    384    440    395    432     11     48     Hemagglutinin OS=Influenza A virus (strain A/X-31 H3N2) OX=132504 GN=HA PE=1 SV=2
+sp|P03439|HEMA_I72A3     10.8      0.31     1   0.3    384    440    395    432     11     48     Hemagglutinin OS=Influenza A virus (strain A/Memphis/102/1972 H3N2) OX=385640 GN=HA PE=3 SV=2
+sp|P03440|HEMA_I77A8     10.8      0.31     1   0.3    384    440    395    432     11     48     Hemagglutinin OS=Influenza A virus (strain A/England/321/1977 H3N2) OX=393563 GN=HA PE=3 SV=1
+sp|P03449|HEMA_I71A1     10.8      0.31     1   0.3    384    440    395    432     11     48     Hemagglutinin OS=Influenza A virus (strain A/Memphis/1/1971 H3N2) OX=383586 GN=HA PE=3 SV=2
+sp|P12583|HEMA_I80A6     10.8      0.31     1   0.3    384    440    395    432     11     48     Hemagglutinin OS=Influenza A virus (strain A/Duck/Hokkaido/8/1980 H3N8) OX=387207 GN=HA PE=2 SV=3
+sp|P19106|HEMA_I72A2     10.8      0.31     1   0.3    384    440    395    432     11     48     Hemagglutinin OS=Influenza A virus (strain A/Udorn/307/1972 H3N2) OX=381517 GN=HA PE=3 SV=2
+sp|P26138|HEMA_I78A4     10.8      0.31     1   0.3    384    440    395    432     11     48     Hemagglutinin OS=Influenza A virus (strain A/Mallard/New York/6874/1978 H3N2) OX=384518 GN=HA PE=3 SV=1
+sp|Q1PUD9|HEMA_I73A5     10.8      0.31     1   0.3    384    440    395    432     11     48     Hemagglutinin OS=Influenza A virus (strain A/Port Chalmers/1/1973 H3N2) OX=385624 GN=HA PE=1 SV=1
+sp|Q2ICR0|HEMA_I72A4     10.8      0.31     1   0.3    384    440    395    432     11     48     Hemagglutinin OS=Influenza A virus (strain A/Memphis/101/1972 H3N2) OX=383583 GN=HA PE=3 SV=1
+sp|Q2RCH5|HEMA_I80A4     10.8      0.31     1   0.3    384    440    395    432     11     48     Hemagglutinin OS=Influenza A virus (strain A/Memphis/4/1980 H3N2) OX=383578 GN=HA PE=3 SV=1
+sp|Q2VND2|HEMA_I78A8     10.8      0.31     1   0.3    384    440    395    432     11     48     Hemagglutinin OS=Influenza A virus (strain A/Memphis/18/1978 H3N2) OX=383579 GN=HA PE=3 SV=1
+sp|Q2VNF2|HEMA_I78A7     10.8      0.31     1   0.3    384    440    395    432     11     48     Hemagglutinin OS=Influenza A virus (strain A/Memphis/2/1978 H3N2) OX=383580 GN=HA PE=3 SV=1
+sp|Q91MA7|HEMA_I68A4     10.8      0.31     1   0.3    384    440    395    432     11     48     Hemagglutinin OS=Influenza A virus (strain A/Hong Kong/1/1968 H3N2) OX=506350 GN=HA PE=1 SV=1
+sp|P15658|HEMA_I63A2     10.8      0.31     1   0.2    384    439    394    431     11     48     Hemagglutinin OS=Influenza A virus (strain A/Equine/Miami/1/1963 H3N8) OX=387222 GN=HA PE=3 SV=2
+sp|P16994|HEMA_I72A0     10.8      0.31     1   0.2    384    439    394    431     11     48     Hemagglutinin OS=Influenza A virus (strain A/Equine/Algiers/1972 H3N8) OX=387214 GN=HA PE=3 SV=2
+sp|P17000|HEMA_I71A3     10.8      0.31     1   0.2    384    439    394    431     11     48     Hemagglutinin OS=Influenza A virus (strain A/Equine/Tokyo/1971 H3N2) OX=11418 GN=HA PE=3 SV=2
+sp|Q03909|HEMA_I89A7     10.6      0.35     1   0.2    390    445    401    437     12     48     Hemagglutinin OS=Influenza A virus (strain A/Equine/Jillin/1/1989 H3N8) OX=385585 GN=HA PE=1 SV=1
+sp|P03443|HEMA_I76A1     10.6      0.35     1   0.4    382    438    393    430     11     48     Hemagglutinin OS=Influenza A virus (strain A/Duck/Alberta/28/1976 H4N6) OX=385638 GN=HA PE=3 SV=2
+sp|P19697|HEMA_I76AK     10.6      0.35     1   0.4    382    438    393    430     11     48     Hemagglutinin OS=Influenza A virus (strain A/Duck/New Zealand/31/1976 H4N6) OX=385592 GN=HA PE=3 SV=2
+sp|Q91AV1|SPIKE_PEDV7    10.5      0.37     1   0.1    997   1080   1006   1078     12     85     Spike glycoprotein OS=Porcine epidemic diarrhea virus (strain CV777) OX=229032 GN=S PE=1 SV=1
+sp|P26134|HEMA_I76A3     10.5      0.37     1   0.2    384    439    395    432     11     48     Hemagglutinin OS=Influenza A virus (strain A/Duck/Alberta/78/1976 H3N8) OX=385646 GN=HA PE=3 SV=1
+sp|P03452|HEMA_I34A1     10.5      0.37     1   1.4    377    474    380    426      5     51     Hemagglutinin OS=Influenza A virus (strain A/Puerto Rico/8/1934 H1N1) OX=211044 GN=HA PE=1 SV=2
+sp|P09458|FUS_MUMPR      10.5      0.37     1   1.7    128    187    132    178      5     51     Fusion glycoprotein F0 OS=Mumps virus (strain RW) OX=11172 GN=F PE=1 SV=1
+sp|P19716|FUS_MUMP1      10.4      0.41     1   1.4    128    186    132    178      5     51     Fusion glycoprotein F0 OS=Mumps virus (strain SBL-1) OX=11173 GN=F PE=3 SV=1
+sp|P33481|FUS_MUMPS      10.4      0.41     1   1.4    128    186    132    178      5     51     Fusion glycoprotein F0 OS=Mumps virus (strain SBL) OX=33729 GN=F PE=3 SV=1
+sp|P03549|VAT_CAMVC       9.8      0.61     2   1.6     80    158     89    150     11     74     Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|P11236|FUS_MUMPM       9.8      0.62     1   1.2    128    186    132    178      5     51     Fusion glycoprotein F0 OS=Mumps virus (strain Miyahara vaccine) OX=11171 GN=F PE=1 SV=1
+sp|P03548|VAT_CAMVS       9.5      0.77     2   1.6     83    157     97    147     19     71     Aphid transmission protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF II PE=3 SV=1
+sp|Q02966|VAT_CAMVE       9.3      0.87     2   1.3     82    157     97    139     19     63     Aphid transmission protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF II PE=3 SV=1
+sp|P19818|VAT_CAMVP       9.2      0.96     2   2.2     82    157     96    154     18     78     Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+sp|P15423|SPIKE_CVH22     9.0       1.1     1   0.6    794    878    801    840      9     48     Spike glycoprotein OS=Human coronavirus 229E OX=11137 GN=S PE=1 SV=1
+sp|Q00965|VAT_CAMVN       8.7       1.4     2   1.3     83    157     97    150     19     74     Aphid transmission protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF II PE=3 SV=1
+sp|P41714|VP10_NPVCF      8.5       1.6     1   0.0      2     50      6     38     16     48     Protein p10 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=P10 PE=3 SV=1
+sp|P10033|SPIKE_FIPV      7.6       3.1     1   0.1   1067   1151   1077   1145     12     81     Spike glycoprotein OS=Feline coronavirus (strain FIPV WSU-79/1146) OX=33734 GN=S PE=1 SV=1
+sp|P03550|VAT_CAMVD       7.5       3.3     2   0.9     95    153    103    131     11     39     Aphid transmission protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF II PE=3 SV=1
+sp|P35837|NEEDL_BPP22     7.2       4.1     1   0.6     68    144     76    117      9     50     Tail needle protein gp26 OS=Salmonella phage P22 OX=10754 GN=26 PE=1 SV=2
+sp|P24413|SPIKE_CVPRM     6.7       5.9     1   0.1    841    924    850    917     12     80     Spike glycoprotein OS=Porcine respiratory coronavirus (strain RM4) OX=11148 GN=S PE=1 SV=1
+sp|P27655|SPIKE_CVPR8     6.7       5.9     1   0.1    841    924    850    917     12     80     Spike glycoprotein OS=Porcine respiratory coronavirus (strain 86/137004 / isolate British) OX=33736 GN=S PE=3 SV=1
+sp|Q197B1|049R_IIV3       6.3       7.5     4   0.3    261    317    267    315     12     56     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|P04507|SIGM1_REOVJ     5.7        12     3   0.0     92    139    102    137     14     49     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|Q992I2|SIGC_ARVS1      5.7        12     1   0.1     20     69     29     62     16     49     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|P28955|LTP_EHV1B       5.5        14     1   0.0    636    700    657    696     32     70     Large tegument protein deneddylase OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=24 PE=3 SV=1
+sp|P04507|SIGM1_REOVJ     5.4        15     4   0.2    129    178    135    170      8     43     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|Q992I2|SIGC_ARVS1      4.8        23     2   0.0     56    110     60    104      5     49     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q197B1|049R_IIV3       4.7        25     3   0.3    141    263    180    261      9     85     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|P04507|SIGM1_REOVJ     4.4        30     1   0.2     18     69     23     66      5     48     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|Q197B1|049R_IIV3       3.5        58     5   0.0    383    410    396    408     73     85     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|P35837|NEEDL_BPP22     3.2        70     2   0.0    189    233    201    228     20     47     Tail needle protein gp26 OS=Salmonella phage P22 OX=10754 GN=26 PE=1 SV=2
+sp|P41714|VP10_NPVCF      3.1        79     2   0.0     36     71     40     58     26     44     Protein p10 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=P10 PE=3 SV=1
+sp|P04507|SIGM1_REOVJ     2.4   1.2e+02     2   0.0     45    106     61     88     22     49     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|P03550|VAT_CAMVD       2.4   1.2e+02     3   0.1    131    159    137    157     21     41     Aphid transmission protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF II PE=3 SV=1
+sp|P28955|LTP_EHV1B       2.1   1.5e+02     2   0.4   1186   1239   1198   1235      7     44     Large tegument protein deneddylase OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=24 PE=3 SV=1
+sp|P15423|SPIKE_CVH22     1.3   2.8e+02     2   0.2   1052   1101   1057   1095     17     54     Spike glycoprotein OS=Human coronavirus 229E OX=11137 GN=S PE=1 SV=1
+sp|P03548|VAT_CAMVS       1.0   3.4e+02     1   0.0     23     64     33     52     11     30     Aphid transmission protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF II PE=3 SV=1
+sp|Q00965|VAT_CAMVN       1.0   3.4e+02     1   0.0     23     64     33     52     11     30     Aphid transmission protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF II PE=3 SV=1
+sp|Q02966|VAT_CAMVE       1.0   3.4e+02     1   0.0     23     64     33     52     11     30     Aphid transmission protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF II PE=3 SV=1
+sp|Q197B1|049R_IIV3       1.0   3.5e+02     2   0.1     86    123     98    118     19     39     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|P03549|VAT_CAMVC       1.0   3.5e+02     1   0.0     23     63     33     52     11     30     Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|P19818|VAT_CAMVP       0.9   3.8e+02     1   0.0     23     58     33     52     11     30     Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+sp|Q992I2|SIGC_ARVS1      0.8   4.1e+02     3   0.0    106    158    124    153     20     49     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|P03550|VAT_CAMVD       0.2   6.2e+02     1   0.0     24     57     37     51     15     29     Aphid transmission protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF II PE=3 SV=1
+sp|Q91AV1|SPIKE_PEDV7    -0.1   7.4e+02     2   0.1   1275   1322   1282   1312      5     36     Spike glycoprotein OS=Porcine epidemic diarrhea virus (strain CV777) OX=229032 GN=S PE=1 SV=1
+sp|Q197B1|049R_IIV3      -0.1   7.8e+02     1   0.0     54     95     63     89     22     48     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|P24413|SPIKE_CVPRM    -0.6   1.1e+03     2   0.2   1112   1160   1114   1135     63     84     Spike glycoprotein OS=Porcine respiratory coronavirus (strain RM4) OX=11148 GN=S PE=1 SV=1
+sp|P27655|SPIKE_CVPR8    -0.9   1.3e+03     2   0.2   1112   1160   1114   1135     63     84     Spike glycoprotein OS=Porcine respiratory coronavirus (strain 86/137004 / isolate British) OX=33736 GN=S PE=3 SV=1
+sp|Q197B1|049R_IIV3      -0.9   1.4e+03     6   0.0    506    566    524    557     12     45     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|P10033|SPIKE_FIPV     -1.1   1.6e+03     2   0.2   1339   1386   1341   1362     63     84     Spike glycoprotein OS=Feline coronavirus (strain FIPV WSU-79/1146) OX=33734 GN=S PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH26324@HQ634175.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH26324@HQ634175.txt data/models_hmm/AGH26324@HQ634175.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:39 2021
+# [ok]

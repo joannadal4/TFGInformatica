@@ -1,0 +1,48 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P54308|TERL_BPSPP   427.2    5e-128   1   1.0   0.0    Terminase, large subunit OS=Bacillus phage SPP1 OX=10724 GN=2 PE=1 SV=1
+sp|Q6QGD2|TERL_BPT5    132.7   1.3e-38   1   1.0   0.1    Terminase, large subunit OS=Escherichia phage T5 OX=10726 GN=ORF144 PE=1 SV=1
+sp|P26745|TERL_BPP22    54.1   8.6e-15   1   1.5   0.6    Terminase, large subunit OS=Salmonella phage P22 OX=10754 GN=2 PE=1 SV=1
+sp|P16938|TERL_BPLP7    49.8   1.7e-13   1   1.6   0.3    Terminase, large subunit (Fragment) OS=Enterobacteria phage LP7 OX=10750 GN=2 PE=3 SV=1
+sp|Q01020|TRM3_SHV21    18.0   0.00081   2   1.6   0.4    Tripartite terminase subunit 3 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=TRM3 PE=3 SV=1
+sp|Q66632|TRM3_EHV2     13.5     0.019   1   1.1   0.9    Tripartite terminase subunit 3 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=TRM3 PE=3 SV=2
+sp|P03219|TRM3_EBVB9    11.5     0.078   1   1.1   0.8    Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=TRM3 PE=1 SV=2
+sp|P0C744|TRM3_EBVA8    11.5     0.078   1   1.1   0.8    Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=TRM3 PE=3 SV=1
+sp|Q3KSR3|TRM3_EBVG     11.3     0.087   1   1.1   1.0    Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=TRM3 PE=3 SV=1
+sp|F5HCU8|TRM3_HCMVM    10.7      0.13   1   1.2   0.1    Tripartite terminase subunit 3 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=TRM3 PE=3 SV=1
+sp|P16732|TRM3_HCMVA    10.7      0.13   1   1.2   0.1    Tripartite terminase subunit 3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=TRM3 PE=1 SV=1
+sp|O73556|POLG_HPE2W     9.0      0.43   3   2.9   4.4    Genome polyprotein OS=Human parechovirus 2 (strain Williamson) OX=122962 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P54308|TERL_BPSPP   426.9  6.1e-128     1   0.0      1    421      2    418      9    405     Terminase, large subunit OS=Bacillus phage SPP1 OX=10724 GN=2 PE=1 SV=1
+sp|Q6QGD2|TERL_BPT5    132.4   1.5e-38     1   0.1     43    438     62    434     37    399     Terminase, large subunit OS=Escherichia phage T5 OX=10726 GN=ORF144 PE=1 SV=1
+sp|P26745|TERL_BPP22    52.8   2.2e-14     1   0.6    193    491    217    486    152    412     Terminase, large subunit OS=Salmonella phage P22 OX=10754 GN=2 PE=1 SV=1
+sp|P16938|TERL_BPLP7    48.5   4.5e-13     1   0.3    207    475    213    472    152    404     Terminase, large subunit (Fragment) OS=Enterobacteria phage LP7 OX=10750 GN=2 PE=3 SV=1
+sp|Q01020|TRM3_SHV21    16.8    0.0019     1   0.2    199    358    219    331     38    149     Tripartite terminase subunit 3 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=TRM3 PE=3 SV=1
+sp|Q66632|TRM3_EHV2     13.0     0.027     1   0.9    186    379    221    350     38    166     Tripartite terminase subunit 3 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=TRM3 PE=3 SV=2
+sp|P03219|TRM3_EBVB9    10.9      0.11     1   0.8    204    388    228    351     38    160     Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=TRM3 PE=1 SV=2
+sp|P0C744|TRM3_EBVA8    10.9      0.11     1   0.8    204    388    228    351     38    160     Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=TRM3 PE=3 SV=1
+sp|Q3KSR3|TRM3_EBVG     10.8      0.13     1   1.0    206    388    228    351     38    160     Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=TRM3 PE=3 SV=1
+sp|P16732|TRM3_HCMVA    10.1       0.2     1   0.1    204    370    272    345     96    170     Tripartite terminase subunit 3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=TRM3 PE=1 SV=1
+sp|F5HCU8|TRM3_HCMVM    10.1       0.2     1   0.1    204    370    272    345     96    170     Tripartite terminase subunit 3 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=TRM3 PE=3 SV=1
+sp|O73556|POLG_HPE2W     5.0       7.2     2   0.0   1022   1180   1118   1160     42     84     Genome polyprotein OS=Human parechovirus 2 (strain Williamson) OX=122962 PE=3 SV=1
+sp|O73556|POLG_HPE2W     4.3        12     3   0.4   1319   1420   1332   1407    138    209     Genome polyprotein OS=Human parechovirus 2 (strain Williamson) OX=122962 PE=3 SV=1
+sp|O73556|POLG_HPE2W    -1.8   8.1e+02     1   0.0      2     77      4     66    343    403     Genome polyprotein OS=Human parechovirus 2 (strain Williamson) OX=122962 PE=3 SV=1
+sp|Q01020|TRM3_SHV21    -2.7   1.6e+03     2   0.0    419    476    428    474    287    332     Tripartite terminase subunit 3 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=TRM3 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000558@Draft_10227157@Draft_1022715742.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000558@Draft_10227157@Draft_1022715742.txt data/models_hmm/3300000558@Draft_10227157@Draft_1022715742.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:08 2021
+# [ok]

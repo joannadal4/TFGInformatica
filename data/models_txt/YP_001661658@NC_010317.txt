@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q65387|MVP_BBTVA    241.5   1.1e-72   1   1.0   0.3    Movement and RNA silencing protein OS=Banana bunchy top virus (isolate Autralia) OX=645099 GN=DNA-M PE=4 SV=1
+sp|Q87008|MVP_SCSVF     10.0      0.63   2   1.7   2.2    Putative movement protein OS=Subterranean clover stunt virus (strain F) OX=291607 GN=DNA-M PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q65387|MVP_BBTVA    241.4   1.2e-72     1   0.3      1    117      1    117      1    117     Movement and RNA silencing protein OS=Banana bunchy top virus (isolate Autralia) OX=645099 GN=DNA-M PE=4 SV=1
+sp|Q87008|MVP_SCSVF     10.4      0.47     1   0.3     19     86     34     60     22     48     Putative movement protein OS=Subterranean clover stunt virus (strain F) OX=291607 GN=DNA-M PE=3 SV=1
+sp|Q87008|MVP_SCSVF     -1.1   1.7e+03     2   0.1     86    110     88    103     55     69     Putative movement protein OS=Subterranean clover stunt virus (strain F) OX=291607 GN=DNA-M PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001661658@NC_010317.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001661658@NC_010317.txt data/models_hmm/YP_001661658@NC_010317.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:38 2021
+# [ok]

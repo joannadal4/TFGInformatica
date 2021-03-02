@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q08519|SPI1_SWPVK    13.2     0.057   1   1.4   0.9    Probable serine proteinase inhibitor 1 OS=Swinepox virus (strain Kasza) OX=10277 GN=SPI-1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q08519|SPI1_SWPVK    12.3      0.11     1   0.9     72    145     80    135    100    155     Probable serine proteinase inhibitor 1 OS=Swinepox virus (strain Kasza) OX=10277 GN=SPI-1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000380@SRS015663_WUGC_scaffold_23444@SRS015663_WUGC_scaffold_23444_gene_51322.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000380@SRS015663_WUGC_scaffold_23444@SRS015663_WUGC_scaffold_23444_gene_51322.txt data/models_hmm/7000000380@SRS015663_WUGC_scaffold_23444@SRS015663_WUGC_scaffold_23444_gene_51322.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:42 2021
+# [ok]

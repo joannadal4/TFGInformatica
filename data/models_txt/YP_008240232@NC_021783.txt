@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPD5|YL059_MIMIV    14.1     0.045   4   3.8   0.7    Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPD5|YL059_MIMIV     6.3        12     2   0.1    149    187    157    183     36     62     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|Q5UPD5|YL059_MIMIV     1.3   4.4e+02     1   0.0     94    138    102    125     41     64     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|Q5UPD5|YL059_MIMIV     0.5   7.6e+02     3   0.0    179    222    188    215     37     64     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|Q5UPD5|YL059_MIMIV     0.3   8.6e+02     4   0.0    239    283    249    273     38     62     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008240232@NC_021783.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008240232@NC_021783.txt data/models_hmm/YP_008240232@NC_021783.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:27 2021
+# [ok]

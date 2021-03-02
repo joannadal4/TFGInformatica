@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A8C8J7|NRAM_I07A0    12.2       0.1   2   2.2   0.2    Neuraminidase OS=Influenza A virus (strain A/USA:Texas/UR06-0195/2007 H1N1) OX=455880 GN=NA PE=3 SV=1
+sp|B4URD9|NRAM_I06A0    12.0      0.12   2   2.2   0.2    Neuraminidase OS=Influenza A virus (strain A/Russia:St.Petersburg/8/2006 H1N1) OX=518998 GN=NA PE=3 SV=1
+sp|Q289M4|NRAM_I00A1    12.0      0.12   2   2.2   0.2    Neuraminidase OS=Influenza A virus (strain A/New Zealand:South Canterbury/35/2000 H1N1) OX=363066 GN=NA PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|B4URD9|NRAM_I06A0     6.1       7.8     2   0.0    248    312    252    309      6     60     Neuraminidase OS=Influenza A virus (strain A/Russia:St.Petersburg/8/2006 H1N1) OX=518998 GN=NA PE=3 SV=1
+sp|Q289M4|NRAM_I00A1     6.1       7.8     2   0.0    248    312    252    309      6     60     Neuraminidase OS=Influenza A virus (strain A/New Zealand:South Canterbury/35/2000 H1N1) OX=363066 GN=NA PE=3 SV=1
+sp|A8C8J7|NRAM_I07A0     6.0         8     2   0.0    248    312    252    309      6     60     Neuraminidase OS=Influenza A virus (strain A/USA:Texas/UR06-0195/2007 H1N1) OX=455880 GN=NA PE=3 SV=1
+sp|A8C8J7|NRAM_I07A0     4.0        35     1   0.2      8     95     49     84    123    158     Neuraminidase OS=Influenza A virus (strain A/USA:Texas/UR06-0195/2007 H1N1) OX=455880 GN=NA PE=3 SV=1
+sp|B4URD9|NRAM_I06A0     3.7        43     1   0.2      9     95     49     84    123    158     Neuraminidase OS=Influenza A virus (strain A/Russia:St.Petersburg/8/2006 H1N1) OX=518998 GN=NA PE=3 SV=1
+sp|Q289M4|NRAM_I00A1     3.7        43     1   0.2      9     95     49     84    123    158     Neuraminidase OS=Influenza A virus (strain A/New Zealand:South Canterbury/35/2000 H1N1) OX=363066 GN=NA PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000329@SRS016495_LANL_scaffold_17374@SRS016495_LANL_scaffold_17374_gene_30446.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000329@SRS016495_LANL_scaffold_17374@SRS016495_LANL_scaffold_17374_gene_30446.txt data/models_hmm/7000000329@SRS016495_LANL_scaffold_17374@SRS016495_LANL_scaffold_17374_gene_30446.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:24 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P85229|VPN5_BPPHE   169.0   1.1e-49   1   1.0   3.8    Virion protein 5 OS=Enterococcus phage phiEF24C OX=442493 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P85229|VPN5_BPPHE   168.9   1.2e-49     1   3.8      1    140      3    135     11    144     Virion protein 5 OS=Enterococcus phage phiEF24C OX=442493 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008770017@NC_022761.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008770017@NC_022761.txt data/models_hmm/YP_008770017@NC_022761.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:26 2021
+# [ok]

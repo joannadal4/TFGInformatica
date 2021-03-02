@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P18924|AC_BPT4       81.1   3.7e-23   1   1.0   5.0    Uncharacterized protein 52.2 OS=Enterobacteria phage T4 OX=10665 GN=ac PE=4 SV=1
+sp|P24831|VE4_HPV39     11.0      0.28   1   1.2   2.2    Protein E4 OS=Human papillomavirus type 39 OX=10588 GN=E4 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P18924|AC_BPT4       81.0   3.8e-23     1   5.0      1     51      5     51      2     49     Uncharacterized protein 52.2 OS=Enterobacteria phage T4 OX=10665 GN=ac PE=4 SV=1
+sp|P24831|VE4_HPV39     10.6      0.37     1   2.2     60     91     62     82     16     36     Protein E4 OS=Human papillomavirus type 39 OX=10588 GN=E4 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007005004@NC_019505.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007005004@NC_019505.txt data/models_hmm/YP_007005004@NC_019505.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:11 2021
+# [ok]

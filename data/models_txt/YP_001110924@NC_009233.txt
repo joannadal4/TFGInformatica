@@ -1,0 +1,42 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O93122|A16_VACCA     12.3       0.1   3   2.9   0.2    Virion membrane protein A16 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA127L PE=2 SV=3
+sp|P16710|A16_VACCW     12.3      0.11   3   2.9   0.2    Virion membrane protein A16 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR136 PE=1 SV=4
+sp|P20993|A16_VACCC     11.7      0.16   2   2.6   0.1    Virion membrane protein A16 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A16L PE=1 SV=3
+sp|Q6RZG6|A16_RABPU     11.7      0.16   2   2.6   0.1    Virion membrane protein A16 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV125 PE=2 SV=3
+sp|Q77TI4|A16_VACCT     11.7      0.16   2   2.6   0.1    Virion membrane protein A16 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TA17L PE=2 SV=3
+sp|P33841|A16_VAR67      9.9      0.56   3   2.9   2.4    Virion membrane protein A16 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A16L PE=2 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O93122|A16_VACCA      5.1        18     2   0.0    203    238    211    234     34     57     Virion membrane protein A16 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA127L PE=2 SV=3
+sp|P16710|A16_VACCW      5.1        18     2   0.0    203    238    211    234     34     57     Virion membrane protein A16 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR136 PE=1 SV=4
+sp|P33841|A16_VAR67      5.1        18     3   0.0    203    238    211    234     34     57     Virion membrane protein A16 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A16L PE=2 SV=3
+sp|P20993|A16_VACCC      5.1        18     2   0.0    203    238    211    234     34     57     Virion membrane protein A16 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A16L PE=1 SV=3
+sp|Q6RZG6|A16_RABPU      5.1        18     2   0.0    203    238    211    234     34     57     Virion membrane protein A16 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV125 PE=2 SV=3
+sp|Q77TI4|A16_VACCT      5.1        18     2   0.0    203    238    211    234     34     57     Virion membrane protein A16 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TA17L PE=2 SV=3
+sp|O93122|A16_VACCA      3.6        53     1   0.0    114    148    118    139     32     51     Virion membrane protein A16 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA127L PE=2 SV=3
+sp|P16710|A16_VACCW      3.6        53     1   0.0    114    148    118    139     32     51     Virion membrane protein A16 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR136 PE=1 SV=4
+sp|P33841|A16_VAR67      3.6        53     2   0.0    114    148    118    139     32     51     Virion membrane protein A16 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A16L PE=2 SV=3
+sp|P20993|A16_VACCC      3.6        53     1   0.0    114    148    118    139     32     51     Virion membrane protein A16 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A16L PE=1 SV=3
+sp|Q6RZG6|A16_RABPU      3.6        53     1   0.0    114    148    118    139     32     51     Virion membrane protein A16 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV125 PE=2 SV=3
+sp|Q77TI4|A16_VACCT      3.6        53     1   0.0    114    148    118    139     32     51     Virion membrane protein A16 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TA17L PE=2 SV=3
+sp|O93122|A16_VACCA     -1.8   2.6e+03     3   0.0    298    357    320    351     37     68     Virion membrane protein A16 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA127L PE=2 SV=3
+sp|P16710|A16_VACCW     -1.8   2.6e+03     3   0.0    298    357    320    351     37     68     Virion membrane protein A16 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR136 PE=1 SV=4
+sp|P33841|A16_VAR67     -3.9   1.2e+04     1   0.4     28     51     36     48     48     60     Virion membrane protein A16 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A16L PE=2 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001110924@NC_009233.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001110924@NC_009233.txt data/models_hmm/YP_001110924@NC_009233.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:02 2021
+# [ok]

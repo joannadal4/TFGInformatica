@@ -1,0 +1,43 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8QL33|Y64_SIRV1     139.6   2.8e-41   1   1.0   8.2    Uncharacterized protein 64 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=64 PE=4 SV=1
+sp|Q914H0|Y062_SIFVH    138.8   4.8e-41   1   1.0   3.6    Uncharacterized protein 62 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0062 PE=4 SV=1
+sp|O55739|127L_IIV6      14.6     0.028   1   1.6   0.3    Uncharacterized protein 127L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-127L PE=4 SV=1
+sp|P03552|VAP_CAMVC      14.3     0.036   2   2.1   0.3    Virion-associated protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF III PE=3 SV=1
+sp|Q02967|VAP_CAMVE      14.3     0.037   2   2.1   0.3    Virion-associated protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF III PE=3 SV=1
+sp|Q65157|VF122_ASFB7    12.7      0.11   1   1.2   0.0    Uncharacterized protein C122R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-065 PE=3 SV=3
+sp|P0CA22|VF122_ASFK5    12.7      0.11   1   1.2   0.0    Uncharacterized protein C122R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-077 PE=3 SV=1
+sp|P0CA23|VF122_ASFM2    12.7      0.11   1   1.2   0.0    Uncharacterized protein C122R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-073 PE=3 SV=1
+sp|P0CA24|VF122_ASFP4    12.7      0.11   1   1.2   0.0    Uncharacterized protein C122R OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-077 PE=3 SV=1
+sp|P0CA25|VF122_ASFWA    12.7      0.11   1   1.2   0.0    Uncharacterized protein C122R OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-075 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8QL33|Y64_SIRV1     139.5     3e-41     1   8.2      1     64      1     64      1     64     Uncharacterized protein 64 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=64 PE=4 SV=1
+sp|Q914H0|Y062_SIFVH    138.7   5.3e-41     1   3.6      1     64      1     64      1     64     Uncharacterized protein 62 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0062 PE=4 SV=1
+sp|O55739|127L_IIV6      13.4     0.068     1   0.3    154    214    156    205      3     52     Uncharacterized protein 127L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-127L PE=4 SV=1
+sp|P0CA22|VF122_ASFK5    12.2      0.16     1   0.0     41     94     52     92     16     56     Uncharacterized protein C122R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-077 PE=3 SV=1
+sp|P0CA23|VF122_ASFM2    12.2      0.16     1   0.0     41     94     52     92     16     56     Uncharacterized protein C122R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-073 PE=3 SV=1
+sp|P0CA24|VF122_ASFP4    12.2      0.16     1   0.0     41     94     52     92     16     56     Uncharacterized protein C122R OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-077 PE=3 SV=1
+sp|P0CA25|VF122_ASFWA    12.2      0.16     1   0.0     41     94     52     92     16     56     Uncharacterized protein C122R OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-075 PE=3 SV=1
+sp|Q65157|VF122_ASFB7    12.2      0.16     1   0.0     41     94     52     92     16     56     Uncharacterized protein C122R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-065 PE=3 SV=3
+sp|P03552|VAP_CAMVC      11.8      0.22     2   0.2     17     69     34     59     25     50     Virion-associated protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF III PE=3 SV=1
+sp|Q02967|VAP_CAMVE      11.8      0.22     2   0.2     17     69     34     59     25     50     Virion-associated protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF III PE=3 SV=1
+sp|P03552|VAP_CAMVC       0.5   7.4e+02     1   0.1      3     31      5     22     31     48     Virion-associated protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF III PE=3 SV=1
+sp|Q02967|VAP_CAMVE       0.5   7.4e+02     1   0.1      3     31      5     22     31     48     Virion-associated protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF III PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_445725@NC_003214.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_445725@NC_003214.txt data/models_hmm/NP_445725@NC_003214.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:00 2021
+# [ok]

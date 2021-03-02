@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27281|VP3_EHDV1     13.2     0.054   1   1.6   0.1    Core protein VP3 OS=Epizootic hemorrhagic disease virus 1 OX=33720 GN=Segment-3 PE=3 SV=1
+sp|P33474|VP3_EHDVA     12.0      0.13   1   1.6   0.1    Core protein VP3 OS=Epizootic hemorrhagic disease virus 2 (strain Australia) OX=33719 GN=Segment-3 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27281|VP3_EHDV1     12.0      0.13     1   0.1     32     73     34     69     29     63     Core protein VP3 OS=Epizootic hemorrhagic disease virus 1 OX=33720 GN=Segment-3 PE=3 SV=1
+sp|P33474|VP3_EHDVA     10.8       0.3     1   0.1     32     73     34     69     29     63     Core protein VP3 OS=Epizootic hemorrhagic disease virus 2 (strain Australia) OX=33719 GN=Segment-3 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_795516@NC_004586.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_795516@NC_004586.txt data/models_hmm/NP_795516@NC_004586.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:22 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HHZ3|UL42_HCMVM    14.2     0.048   1   1.2   0.6    Protein UL42 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL42 PE=1 SV=1
+sp|P16815|UL42_HCMVA    14.2     0.048   1   1.2   0.6    Protein UL42 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL42 PE=3 SV=2
+sp|D5LX53|UL42_HCMVT    14.2     0.049   1   1.2   0.4    Protein UL42 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL42 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HHZ3|UL42_HCMVM    13.8     0.064     1   0.6     75    120     80    108     14     42     Protein UL42 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL42 PE=1 SV=1
+sp|P16815|UL42_HCMVA    13.8     0.064     1   0.6     75    120     80    108     14     42     Protein UL42 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL42 PE=3 SV=2
+sp|D5LX53|UL42_HCMVT    13.8     0.066     1   0.4     75    118     80    107     14     41     Protein UL42 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL42 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10001271@TBL_comb47_HYPODRAFT_1000127114.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000553@TBL_comb47_HYPODRAFT_10001271@TBL_comb47_HYPODRAFT_1000127114.txt data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10001271@TBL_comb47_HYPODRAFT_1000127114.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:02 2021
+# [ok]

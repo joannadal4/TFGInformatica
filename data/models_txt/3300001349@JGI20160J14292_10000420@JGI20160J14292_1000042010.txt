@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q196X6|VF232_IIV3    22.8   2.8e-05   2   2.2   0.1    Putative ubiquitin thioesterase 232R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-084L PE=3 SV=1
+sp|P22856|VL96_IRV1     17.3    0.0013   2   2.1   0.1    Putative ubiquitin thioesterase L96 OS=Tipula iridescent virus OX=10490 GN=L96 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q196X6|VF232_IIV3    16.5    0.0022     1   0.0    512    657    581    646    198    261     Putative ubiquitin thioesterase 232R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-084L PE=3 SV=1
+sp|P22856|VL96_IRV1     14.5     0.009     1   0.0    566    686    599    667    200    266     Putative ubiquitin thioesterase L96 OS=Tipula iridescent virus OX=10490 GN=L96 PE=3 SV=1
+sp|Q196X6|VF232_IIV3     4.2        12     2   0.0    651    721    657    713    337    387     Putative ubiquitin thioesterase 232R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-084L PE=3 SV=1
+sp|P22856|VL96_IRV1      1.2        92     2   0.1    670    738    674    718    334    376     Putative ubiquitin thioesterase L96 OS=Tipula iridescent virus OX=10490 GN=L96 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001349@JGI20160J14292_10000420@JGI20160J14292_1000042010.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001349@JGI20160J14292_10000420@JGI20160J14292_1000042010.txt data/models_hmm/3300001349@JGI20160J14292_10000420@JGI20160J14292_1000042010.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:59 2021
+# [ok]

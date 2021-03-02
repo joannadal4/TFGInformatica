@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13334|PORTL_BPT4    27.0   1.1e-06   2   1.5   0.7    Portal protein OS=Enterobacteria phage T4 OX=10665 GN=20 PE=1 SV=2
+sp|P03457|HEMA_I66A1    12.0     0.039   1   1.2   5.8    Hemagglutinin OS=Influenza A virus (strain A/Turkey/Wisconsin/1/1966 H9N2) OX=385620 GN=HA PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13334|PORTL_BPT4    27.0   1.1e-06     2   0.7    251    523    270    470    521    709     Portal protein OS=Enterobacteria phage T4 OX=10665 GN=20 PE=1 SV=2
+sp|P03457|HEMA_I66A1    11.5     0.056     1   5.8    372    504    373    468      2     78     Hemagglutinin OS=Influenza A virus (strain A/Turkey/Wisconsin/1/1966 H9N2) OX=385620 GN=HA PE=3 SV=2
+sp|P13334|PORTL_BPT4    -3.7   2.2e+03     1   0.1     52    127     80    100    172    192     Portal protein OS=Enterobacteria phage T4 OX=10665 GN=20 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000513@SRS047824_WUGC_scaffold_2288@SRS047824_WUGC_scaffold_2288_gene_3260.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000513@SRS047824_WUGC_scaffold_2288@SRS047824_WUGC_scaffold_2288_gene_3260.txt data/models_hmm/7000000513@SRS047824_WUGC_scaffold_2288@SRS047824_WUGC_scaffold_2288_gene_3260.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:56 2021
+# [ok]

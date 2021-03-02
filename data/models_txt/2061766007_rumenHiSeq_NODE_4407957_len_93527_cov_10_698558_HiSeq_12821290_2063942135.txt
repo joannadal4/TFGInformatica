@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|E7DNB6|TMP_BPDP1    130.2   5.4e-38   1   1.4  18.0    Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|O64314|TMP_BPP2      55.8   1.5e-15   1   1.4  34.4    Probable tape measure protein OS=Escherichia phage P2 OX=10679 GN=T PE=3 SV=1
+sp|Q24LI1|TMP_BPPCD     42.8   1.3e-11   1   1.1  25.1    Probable tape measure protein OS=Clostridium phage phiCD119 (strain Clostridium difficile/United States/Govind/2006) OX=1283341 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|E7DNB6|TMP_BPDP1    129.2   1.1e-37     1  18.0     25    503     73    470    182    537     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|O64314|TMP_BPP2      55.8   1.5e-15     1  34.4     24    549     67    515     48    468     Probable tape measure protein OS=Escherichia phage P2 OX=10679 GN=T PE=3 SV=1
+sp|Q24LI1|TMP_BPPCD     42.3   1.8e-11     1  25.1      2    425     24    397    127    477     Probable tape measure protein OS=Clostridium phage phiCD119 (strain Clostridium difficile/United States/Govind/2006) OX=1283341 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007_rumenHiSeq_NODE_4407957_len_93527_cov_10_698558_HiSeq_12821290_2063942135.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007_rumenHiSeq_NODE_4407957_len_93527_cov_10_698558_HiSeq_12821290_2063942135.txt data/models_hmm/2061766007_rumenHiSeq_NODE_4407957_len_93527_cov_10_698558_HiSeq_12821290_2063942135.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:55 2021
+# [ok]

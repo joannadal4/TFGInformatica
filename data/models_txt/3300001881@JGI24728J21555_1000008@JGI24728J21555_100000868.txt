@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q705D2|VE6_HPV94     13.4     0.037   1   1.3   0.2    Protein E6 OS=Human papillomavirus type 94 OX=260717 GN=E6 PE=3 SV=1
+sp|P50802|VE6_HPV28     12.5     0.067   1   1.2   0.2    Protein E6 OS=Human papillomavirus type 28 OX=37111 GN=E6 PE=3 SV=1
+sp|P25484|VE6_HPV2A     12.5     0.071   1   1.2   0.2    Protein E6 OS=Human papillomavirus type 2a OX=10584 GN=E6 PE=3 SV=1
+sp|P36799|VE6_HPV03     11.2      0.17   1   1.2   0.1    Protein E6 OS=Human papillomavirus type 3 OX=10614 GN=E6 PE=1 SV=1
+sp|P0C9Z9|P54_ASFP4     10.3      0.33   1   1.2   6.4    Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q705D2|VE6_HPV94     12.9     0.054     1   0.2      5     52     11     35     50     74     Protein E6 OS=Human papillomavirus type 94 OX=260717 GN=E6 PE=3 SV=1
+sp|P50802|VE6_HPV28     12.1     0.093     1   0.2      3     53      8     33     49     74     Protein E6 OS=Human papillomavirus type 28 OX=37111 GN=E6 PE=3 SV=1
+sp|P25484|VE6_HPV2A     11.8      0.11     1   0.2      6     44     11     34     50     73     Protein E6 OS=Human papillomavirus type 2a OX=10584 GN=E6 PE=3 SV=1
+sp|P36799|VE6_HPV03     10.7      0.25     1   0.1      8     58     15     39     50     74     Protein E6 OS=Human papillomavirus type 3 OX=10614 GN=E6 PE=1 SV=1
+sp|P0C9Z9|P54_ASFP4      9.7      0.49     1   6.4    116    188    135    160    124    149     Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001881@JGI24728J21555_1000008@JGI24728J21555_100000868.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001881@JGI24728J21555_1000008@JGI24728J21555_100000868.txt data/models_hmm/3300001881@JGI24728J21555_1000008@JGI24728J21555_100000868.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:34 2021
+# [ok]

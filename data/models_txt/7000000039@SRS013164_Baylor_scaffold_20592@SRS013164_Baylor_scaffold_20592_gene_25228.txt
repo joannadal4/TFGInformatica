@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P51735|FIB31_BPHC1    27.9   1.1e-06   2   2.4   0.0    Probable tail fiber protein OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P51735|FIB31_BPHC1    23.4   2.8e-05     1   0.0    504    641    530    624    122    216     Probable tail fiber protein OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|P51735|FIB31_BPHC1     1.7   1.1e+02     2   0.0    696    744    716    739    337    360     Probable tail fiber protein OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000039@SRS013164_Baylor_scaffold_20592@SRS013164_Baylor_scaffold_20592_gene_25228.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000039@SRS013164_Baylor_scaffold_20592@SRS013164_Baylor_scaffold_20592_gene_25228.txt data/models_hmm/7000000039@SRS013164_Baylor_scaffold_20592@SRS013164_Baylor_scaffold_20592_gene_25228.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:56 2021
+# [ok]

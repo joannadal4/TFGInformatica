@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HC16|UL34_HCMVM     10.4      0.27   1   1.2   5.6    Transcriptional regulator UL34 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL34 PE=3 SV=1
+sp|B9VXK4|UL34_HCMVT     10.4      0.27   1   1.2   5.7    Transcriptional regulator UL34 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL34 PE=3 SV=1
+sp|P16812|UL34_HCMVA      9.2      0.62   1   1.2   5.9    Transcriptional regulator UL34 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL34 PE=3 SV=2
+sp|Q3KSS1|BKRF4_EBVG      9.1      0.65   1   1.1   7.7    Tegument protein BKRF4 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BKRF4 PE=3 SV=1
+sp|P0C724|BKRF4_EBVA8     8.6      0.95   1   1.1   8.3    Tegument protein BKRF4 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BKRF4 PE=3 SV=1
+sp|P30117|BKRF4_EBVB9     8.6      0.95   1   1.1   8.3    Tegument protein BKRF4 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BKRF4 PE=3 SV=1
+sp|P20322|GP73_BPT3       7.3       2.3   1   1.6   9.8    Protein 7.3 OS=Enterobacteria phage T3 OX=10759 GN=7.3 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20322|GP73_BPT3      10.4      0.27     1   5.2     36    101     45     93     82    129     Protein 7.3 OS=Enterobacteria phage T3 OX=10759 GN=7.3 PE=3 SV=1
+sp|F5HC16|UL34_HCMVM      9.8       0.4     1   5.6    253    400    261    376     51    118     Transcriptional regulator UL34 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL34 PE=3 SV=1
+sp|B9VXK4|UL34_HCMVT      9.8      0.41     1   5.7    253    400    261    376     51    118     Transcriptional regulator UL34 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL34 PE=3 SV=1
+sp|Q3KSS1|BKRF4_EBVG      9.0       0.7     1   7.7     21    161     42    111     57    125     Tegument protein BKRF4 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BKRF4 PE=3 SV=1
+sp|P16812|UL34_HCMVA      8.6      0.93     1   5.9    255    400    273    376     63    118     Transcriptional regulator UL34 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL34 PE=3 SV=2
+sp|P0C724|BKRF4_EBVA8     8.5         1     1   8.3     21    167     42    111     57    125     Tegument protein BKRF4 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BKRF4 PE=3 SV=1
+sp|P30117|BKRF4_EBVB9     8.5         1     1   8.3     21    167     42    111     57    125     Tegument protein BKRF4 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BKRF4 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000484@SRS016018_WUGC_scaffold_13@SRS016018_WUGC_scaffold_13_gene_147.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000484@SRS016018_WUGC_scaffold_13@SRS016018_WUGC_scaffold_13_gene_147.txt data/models_hmm/7000000484@SRS016018_WUGC_scaffold_13@SRS016018_WUGC_scaffold_13_gene_147.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:38 2021
+# [ok]

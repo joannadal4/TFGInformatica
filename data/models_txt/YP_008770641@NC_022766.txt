@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P29885|F13_VACCP     14.2      0.04   1   1.8   0.0    Envelope phospholipase F13 OS=Vaccinia virus (strain L-IVP) OX=31531 GN=F5 PE=3 SV=1
+sp|P04021|F13_VACCW     14.1     0.043   1   1.7   0.0    Envelope phospholipase F13 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR052 PE=1 SV=1
+sp|P26653|F13_VACCI     14.1     0.043   1   1.7   0.0    Envelope phospholipase F13 OS=Vaccinia virus (strain IHD-J) OX=10251 GN=F13L PE=1 SV=1
+sp|O57179|F13_VACCA     14.1     0.043   1   1.7   0.0    Envelope phospholipase F13 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA043L PE=3 SV=1
+sp|P20638|F13_VACCC     14.1     0.044   1   1.7   0.0    Envelope phospholipase F13 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F13L PE=3 SV=1
+sp|P33815|F13_VAR67     14.1     0.044   1   1.7   0.0    Envelope protein F13 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C17L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O57179|F13_VACCA     12.7      0.12     1   0.0    310    365    312    361      3     54     Envelope phospholipase F13 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA043L PE=3 SV=1
+sp|P04021|F13_VACCW     12.7      0.12     1   0.0    310    365    312    361      3     54     Envelope phospholipase F13 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR052 PE=1 SV=1
+sp|P20638|F13_VACCC     12.7      0.12     1   0.0    310    365    312    361      3     54     Envelope phospholipase F13 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F13L PE=3 SV=1
+sp|P26653|F13_VACCI     12.7      0.12     1   0.0    310    365    312    361      3     54     Envelope phospholipase F13 OS=Vaccinia virus (strain IHD-J) OX=10251 GN=F13L PE=1 SV=1
+sp|P29885|F13_VACCP     12.7      0.12     1   0.0    310    365    312    361      3     54     Envelope phospholipase F13 OS=Vaccinia virus (strain L-IVP) OX=31531 GN=F5 PE=3 SV=1
+sp|P33815|F13_VAR67     12.7      0.12     1   0.0    310    365    312    361      3     54     Envelope protein F13 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C17L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008770641@NC_022766.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008770641@NC_022766.txt data/models_hmm/YP_008770641@NC_022766.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:28 2021
+# [ok]

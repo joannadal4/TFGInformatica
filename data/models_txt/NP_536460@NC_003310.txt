@@ -1,0 +1,38 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q85365|ARBH_VARV     443.4  2.9e-133   1   1.1  29.4    Apoptosis regulator Bcl-2 homolog OS=Variola virus OX=10255 GN=C5L PE=1 SV=1
+sp|Q6RZR2|F1_RABPU      428.5    1e-128   1   2.0  24.5    Protein F1 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV029 PE=3 SV=1
+sp|P24356|F1_VACCW      427.9  1.5e-128   1   2.0  24.4    Protein F1 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR040 PE=1 SV=2
+sp|P68450|F1_VACCC      427.0  2.9e-128   1   2.0  24.2    Protein F1 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F1L PE=3 SV=1
+sp|Q9JFF2|F1_VACCT      425.5  8.1e-128   1   2.0  24.2    Protein F1 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TF1L PE=3 SV=1
+sp|O57173|F1_VACCA      417.9  1.8e-125   2   2.0  23.4    Protein F1 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA029L PE=1 SV=1
+sp|P68451|F1_VACCP      383.8  4.6e-115   1   2.0  22.6    Protein F1 (Fragment) OS=Vaccinia virus (strain L-IVP) OX=31531 GN=F1L PE=1 SV=1
+sp|Q08FX8|DPV22_DPV83    41.5   1.4e-10   1   1.1  13.3    Apoptosis regulator DPV022 OS=Deerpox virus (strain Mule deer/United States/W-848-83/1983) OX=305674 GN=DPV022 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q85365|ARBH_VARV     443.1  3.5e-133     1  29.4      1    237      1    237      1    251     Apoptosis regulator Bcl-2 homolog OS=Variola virus OX=10255 GN=C5L PE=1 SV=1
+sp|Q6RZR2|F1_RABPU      422.5  7.1e-127     1  24.5      1    227      1    227      5    251     Protein F1 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV029 PE=3 SV=1
+sp|P24356|F1_VACCW      422.0  9.9e-127     1  24.4      1    226      1    226      5    251     Protein F1 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR040 PE=1 SV=2
+sp|P68450|F1_VACCC      421.1  1.9e-126     1  24.2      1    226      1    226      5    251     Protein F1 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F1L PE=3 SV=1
+sp|Q9JFF2|F1_VACCT      419.6  5.3e-126     1  24.2      1    226      1    226      5    251     Protein F1 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TF1L PE=3 SV=1
+sp|O57173|F1_VACCA      411.8  1.3e-123     2  17.2     15    222     16    222     45    251     Protein F1 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA029L PE=1 SV=1
+sp|P68451|F1_VACCP      377.7  3.3e-113     1  22.6      1    206      1    206      5    231     Protein F1 (Fragment) OS=Vaccinia virus (strain L-IVP) OX=31531 GN=F1L PE=1 SV=1
+sp|Q08FX8|DPV22_DPV83    41.2   1.7e-10     1  13.3      4    176     15    175     95    250     Apoptosis regulator DPV022 OS=Deerpox virus (strain Mule deer/United States/W-848-83/1983) OX=305674 GN=DPV022 PE=1 SV=1
+sp|O57173|F1_VACCA       11.9      0.15     1   0.5      1     18      1     15      5     19     Protein F1 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA029L PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_536460@NC_003310.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_536460@NC_003310.txt data/models_hmm/NP_536460@NC_003310.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:03 2021
+# [ok]

@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPQ5|YL763_MIMIV    13.4     0.063   3   2.9   5.0    Uncharacterized protein L763 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L763 PE=4 SV=1
+sp|Q38200|COM_BPD10      12.8     0.095   2   1.9   4.2    Translational activator com OS=Escherichia phage D108 OX=665033 GN=com PE=2 SV=2
+sp|Q38621|COM_BPMU       12.8     0.095   2   1.9   4.2    Translational activator com OS=Escherichia phage Mu OX=10677 GN=com PE=1 SV=1
+sp|Q5UP23|YR260_MIMIV     8.1       2.7   2   2.1   7.2    DnaJ-like protein R260 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R260 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38200|COM_BPD10      11.4      0.26     1   0.7      1     34      3     30     63     88     Translational activator com OS=Escherichia phage D108 OX=665033 GN=com PE=2 SV=2
+sp|Q38621|COM_BPMU       11.4      0.26     1   0.7      1     34      3     30     63     88     Translational activator com OS=Escherichia phage Mu OX=10677 GN=com PE=1 SV=1
+sp|Q5UPQ5|YL763_MIMIV     9.7       0.9     2   0.1     92    164    106    148     56     95     Uncharacterized protein L763 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L763 PE=4 SV=1
+sp|Q5UP23|YR260_MIMIV     5.3        21     2   7.2    122    218    127    208     13    102     DnaJ-like protein R260 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R260 PE=3 SV=1
+sp|Q5UPQ5|YL763_MIMIV     4.7        32     1   0.1     29     97     42     88     59    101     Uncharacterized protein L763 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L763 PE=4 SV=1
+sp|Q38200|COM_BPD10       3.2        87     2   0.2     31     61     37     59     56     78     Translational activator com OS=Escherichia phage D108 OX=665033 GN=com PE=2 SV=2
+sp|Q38621|COM_BPMU        3.2        87     2   0.2     31     61     37     59     56     78     Translational activator com OS=Escherichia phage Mu OX=10677 GN=com PE=1 SV=1
+sp|Q5UP23|YR260_MIMIV     0.6   5.8e+02     1   0.9    104    153    122    141     75     94     DnaJ-like protein R260 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R260 PE=3 SV=1
+sp|Q5UPQ5|YL763_MIMIV    -0.2     1e+03     3   0.1    173    251    191    196     84     89     Uncharacterized protein L763 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L763 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007379047@NC_020158.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007379047@NC_020158.txt data/models_hmm/YP_007379047@NC_020158.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:53 2021
+# [ok]

@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q0PI70|NCAP_EMARV    13.9     0.048   2   2.2   0.6    Nucleoprotein OS=European mountain ash ringspot-associated virus (isolate Sorbus aucuparia) OX=1980426 GN=N PE=2 SV=1
+sp|P26629|FUS_PI2HT     12.6      0.12   1   2.0   0.1    Fusion glycoprotein F0 OS=Human parainfluenza 2 virus (strain Toshiba) OX=11214 GN=F PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q0PI70|NCAP_EMARV    11.6      0.24     2   0.2    223    307    223    285      1     62     Nucleoprotein OS=European mountain ash ringspot-associated virus (isolate Sorbus aucuparia) OX=1980426 GN=N PE=2 SV=1
+sp|P26629|FUS_PI2HT     10.7      0.47     1   0.1    396    487    404    474      9     75     Fusion glycoprotein F0 OS=Human parainfluenza 2 virus (strain Toshiba) OX=11214 GN=F PE=3 SV=1
+sp|Q0PI70|NCAP_EMARV    -0.5   1.4e+03     1   0.0     80    141     86    113      8     35     Nucleoprotein OS=European mountain ash ringspot-associated virus (isolate Sorbus aucuparia) OX=1980426 GN=N PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006986508@NC_019398.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006986508@NC_019398.txt data/models_hmm/YP_006986508@NC_019398.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:38 2021
+# [ok]

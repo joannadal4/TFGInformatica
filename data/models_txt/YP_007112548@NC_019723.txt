@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64324|FII_BPN15    230.9   1.8e-69   1   1.0   0.3    Head-tail joining protein OS=Escherichia phage N15 OX=40631 GN=gene 10 PE=3 SV=1
+sp|P03714|FII_LAMBD    229.0   7.2e-69   1   1.0   0.2    Head-tail connector protein FII OS=Escherichia phage lambda OX=10710 GN=FII PE=1 SV=1
+sp|P36274|VG08_BPP21    59.5   2.6e-16   1   1.0   0.4    Tail attachment protein (Fragment) OS=Enterobacteria phage P21 OX=10711 GN=8 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64324|FII_BPN15    230.8     2e-69     1   0.3      1    117      1    117      1    117     Head-tail joining protein OS=Escherichia phage N15 OX=40631 GN=gene 10 PE=3 SV=1
+sp|P03714|FII_LAMBD    228.8     8e-69     1   0.2      1    117      1    117      1    117     Head-tail connector protein FII OS=Escherichia phage lambda OX=10710 GN=FII PE=1 SV=1
+sp|P36274|VG08_BPP21    59.4   2.8e-16     1   0.4      1     56      1     56      1     56     Tail attachment protein (Fragment) OS=Enterobacteria phage P21 OX=10711 GN=8 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007112548@NC_019723.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007112548@NC_019723.txt data/models_hmm/YP_007112548@NC_019723.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:32 2021
+# [ok]

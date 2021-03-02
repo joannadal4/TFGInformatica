@@ -1,0 +1,38 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q196W9|VF396_IIV3    33.0   3.1e-08   9   9.7  75.2    Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|Q197C4|VF219_IIV3    20.3   0.00021   1   1.3   6.2    Uncharacterized protein 036R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-036R PE=3 SV=1
+sp|Q91FD9|385L_IIV6     12.6     0.046   1   1.2   0.1    Uncharacterized protein 385L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-385L PE=4 SV=1
+sp|Q196T5|125R_IIV3     10.9      0.15   2   1.9   0.0    Uncharacterized protein 125R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-125R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q196W9|VF396_IIV3    30.9   1.3e-07     6  15.3    358    549    385    525     84    222     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|Q197C4|VF219_IIV3    19.7   0.00032     1   6.2     19    166     33     81    166    214     Uncharacterized protein 036R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-036R PE=3 SV=1
+sp|Q91FD9|385L_IIV6     12.1     0.065     1   0.1     50    124     72    116    164    207     Uncharacterized protein 385L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-385L PE=4 SV=1
+sp|Q196W9|VF396_IIV3     8.6      0.76     1   0.1     14     93     20     61    174    215     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|Q196T5|125R_IIV3      7.5       1.6     1   0.0     81    149     92    131    418    453     Uncharacterized protein 125R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-125R PE=4 SV=1
+sp|Q196W9|VF396_IIV3     6.0       4.5     8   0.2    715    770    723    760    417    455     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|Q196W9|VF396_IIV3     5.3       7.6     7   9.4    564    736    587    725    331    461     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|Q196W9|VF396_IIV3     5.0       9.3     4   0.0    187    254    193    234    415    456     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|Q196W9|VF396_IIV3     3.6        24     9   0.4    756    822    772    802    425    451     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|Q196W9|VF396_IIV3     2.7        48     3   0.2    138    191    147    186    418    456     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|Q196W9|VF396_IIV3     2.2        64     2   0.1     84    142     93    132     51     89     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|Q196T5|125R_IIV3      1.2   1.3e+02     2   0.0    142    179    149    170    188    209     Uncharacterized protein 125R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-125R PE=4 SV=1
+sp|Q196W9|VF396_IIV3    -4.8   8.9e+03     5   8.2    252    343    268    325    334    390     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001592@Draft_10000095@Draft_1000009579.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001592@Draft_10000095@Draft_1000009579.txt data/models_hmm/3300001592@Draft_10000095@Draft_1000009579.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:53 2021
+# [ok]

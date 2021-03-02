@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9T1W1|CAPSD_BPMU    35.9     4e-09   2   2.1   0.0    Major capsid protein OS=Escherichia phage Mu OX=10677 GN=T PE=1 SV=1
+sp|B4YNF7|V17_SPTNK     17.3    0.0018   1   1.0   0.3    Uncharacterized protein V17 OS=Sputnik virophage OX=543939 GN=ORF17 PE=4 SV=1
+sp|Q573F9|Y178_AFV2P    11.7     0.096   1   1.1   0.8    Uncharacterized protein ORF178 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF178 PE=4 SV=1
+sp|O55704|060L_IIV6     10.0      0.32   2   1.5   4.3    Uncharacterized protein 060L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-060L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9T1W1|CAPSD_BPMU    19.9   0.00029     1   0.0      2    164     11    156     12    163     Major capsid protein OS=Escherichia phage Mu OX=10677 GN=T PE=1 SV=1
+sp|B4YNF7|V17_SPTNK     17.2     0.002     1   0.3      5     87     13     79    175    239     Uncharacterized protein V17 OS=Sputnik virophage OX=543939 GN=ORF17 PE=4 SV=1
+sp|Q9T1W1|CAPSD_BPMU    14.2     0.016     2   0.0    204    305    227    292    159    224     Major capsid protein OS=Escherichia phage Mu OX=10677 GN=T PE=1 SV=1
+sp|Q573F9|Y178_AFV2P    11.4      0.12     1   0.8     13    153     27    127    113    211     Uncharacterized protein ORF178 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF178 PE=4 SV=1
+sp|O55704|060L_IIV6     10.8      0.18     2   2.2    111    212    137    204    166    233     Uncharacterized protein 060L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-060L PE=4 SV=1
+sp|O55704|060L_IIV6     -2.2   1.6e+03     1   0.0     78    117     81    111    154    184     Uncharacterized protein 060L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-060L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000149@TBL_comb48_EPIDRAFT_100014912.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000149@TBL_comb48_EPIDRAFT_100014912.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000149@TBL_comb48_EPIDRAFT_100014912.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:46 2021
+# [ok]

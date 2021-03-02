@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20329|Y65_BPT3      12.6     0.073   2   2.1   0.1    Uncharacterized gene 6.5 protein OS=Enterobacteria phage T3 OX=10759 GN=6.5 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20329|Y65_BPT3       6.1       6.8     2   0.0     40     74     49     70     82    103     Uncharacterized gene 6.5 protein OS=Enterobacteria phage T3 OX=10759 GN=6.5 PE=4 SV=1
+sp|P20329|Y65_BPT3       5.0        16     1   0.0      2     43      9     29     29     46     Uncharacterized gene 6.5 protein OS=Enterobacteria phage T3 OX=10759 GN=6.5 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000640@SRS015278_WUGC_scaffold_14787@SRS015278_WUGC_scaffold_14787_gene_33617.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000640@SRS015278_WUGC_scaffold_14787@SRS015278_WUGC_scaffold_14787_gene_33617.txt data/models_hmm/7000000640@SRS015278_WUGC_scaffold_14787@SRS015278_WUGC_scaffold_14787_gene_33617.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:42 2021
+# [ok]

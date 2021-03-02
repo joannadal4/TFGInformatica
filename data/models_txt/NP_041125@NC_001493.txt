@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q00155|VG34_ICHVA   708.7  2.8e-213   1   1.0   6.8    Uncharacterized protein ORF34 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF34 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q00155|VG34_ICHVA   708.4  3.5e-213     1   6.8      1    439      1    432      1    447     Uncharacterized protein ORF34 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF34 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_041125@NC_001493.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_041125@NC_001493.txt data/models_hmm/NP_041125@NC_001493.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:15 2021
+# [ok]

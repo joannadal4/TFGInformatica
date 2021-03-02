@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05245|VG35_BPML5     85.9   2.6e-24   1   1.0   1.2    Gene 35 protein OS=Mycobacterium phage L5 OX=31757 GN=35 PE=4 SV=1
+sp|Q9T1S9|PORTL_BPAPS    11.8      0.24   2   2.4   0.1    Portal protein OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=19 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05245|VG35_BPML5     85.8   2.7e-24     1   1.2      1     72      6     72     46    120     Gene 35 protein OS=Mycobacterium phage L5 OX=31757 GN=35 PE=4 SV=1
+sp|Q9T1S9|PORTL_BPAPS    11.8      0.24     1   0.1    385    478    398    450     37     87     Portal protein OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=19 PE=3 SV=1
+sp|Q9T1S9|PORTL_BPAPS    -1.8   3.9e+03     2   2.2    577    662    587    628     14     57     Portal protein OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=19 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008126122@NC_021533.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008126122@NC_021533.txt data/models_hmm/YP_008126122@NC_021533.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:23 2021
+# [ok]

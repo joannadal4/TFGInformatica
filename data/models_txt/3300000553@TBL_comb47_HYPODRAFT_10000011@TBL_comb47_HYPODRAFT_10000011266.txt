@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O40633|IL17_SHV2C    12.8       0.1   1   1.2   0.4    Viral interleukin-17 OS=Saimiriine herpesvirus 2 (strain 488) OX=10384 GN=13 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O40633|IL17_SHV2C    12.2      0.15     1   0.4     34    108     46    100     48    103     Viral interleukin-17 OS=Saimiriine herpesvirus 2 (strain 488) OX=10384 GN=13 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10000011@TBL_comb47_HYPODRAFT_10000011266.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000553@TBL_comb47_HYPODRAFT_10000011@TBL_comb47_HYPODRAFT_10000011266.txt data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10000011@TBL_comb47_HYPODRAFT_10000011266.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:50 2021
+# [ok]

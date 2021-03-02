@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52529|U79_HHV6U     13.8     0.053   3   2.7   1.1    Protein U79/U80 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U79/U80 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52529|U79_HHV6U     10.1      0.79     1   0.1      1     32      1     28     65     93     Protein U79/U80 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U79/U80 PE=3 SV=2
+sp|P52529|U79_HHV6U      1.6   3.5e+02     2   0.0     79    136     81    115      4     38     Protein U79/U80 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U79/U80 PE=3 SV=2
+sp|P52529|U79_HHV6U     -3.0   9.6e+03     3   0.1    257    300    265    290     42     67     Protein U79/U80 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U79/U80 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_338203@NC_007458.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_338203@NC_007458.txt data/models_hmm/YP_338203@NC_007458.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:28 2021
+# [ok]

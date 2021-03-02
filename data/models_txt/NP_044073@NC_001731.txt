@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DOR5|A17_VAR67    266.2   1.3e-79   1   1.0   5.5    Virion membrane protein A17 precursor OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A17L PE=3 SV=1
+sp|P0DOR6|A17_VARV     266.2   1.3e-79   1   1.0   5.5    Virion membrane protein A17 precursor OS=Variola virus OX=10255 GN=A17L PE=3 SV=1
+sp|P68592|A17_VACCC    266.2   1.3e-79   1   1.0   5.5    Virion membrane protein A17 precursor OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A17L PE=3 SV=1
+sp|P68593|A17_VACCW    266.2   1.3e-79   1   1.0   5.5    Virion membrane protein A17 precursor OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR137 PE=1 SV=1
+sp|Q9J551|A17_FOWPN    215.6   4.2e-64   1   1.0   2.5    Virion membrane protein A17 precursor homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV182 PE=3 SV=1
+sp|O55743|137R_IIV6     12.5     0.072   1   1.0   0.3    Uncharacterized protein 137R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-137R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DOR5|A17_VAR67    266.0   1.5e-79     1   5.5      1    198      1    197      1    197     Virion membrane protein A17 precursor OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A17L PE=3 SV=1
+sp|P0DOR6|A17_VARV     266.0   1.5e-79     1   5.5      1    198      1    197      1    197     Virion membrane protein A17 precursor OS=Variola virus OX=10255 GN=A17L PE=3 SV=1
+sp|P68592|A17_VACCC    266.0   1.5e-79     1   5.5      1    198      1    197      1    197     Virion membrane protein A17 precursor OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A17L PE=3 SV=1
+sp|P68593|A17_VACCW    266.0   1.5e-79     1   5.5      1    198      1    197      1    197     Virion membrane protein A17 precursor OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR137 PE=1 SV=1
+sp|Q9J551|A17_FOWPN    215.4   4.9e-64     1   2.5      1    195      4    192      2    195     Virion membrane protein A17 precursor homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV182 PE=3 SV=1
+sp|O55743|137R_IIV6     12.5     0.072     1   0.3      1     57      4     56    148    195     Uncharacterized protein 137R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-137R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_044073@NC_001731.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_044073@NC_001731.txt data/models_hmm/NP_044073@NC_001731.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:20 2021
+# [ok]

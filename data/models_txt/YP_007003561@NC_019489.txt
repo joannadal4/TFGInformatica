@@ -1,0 +1,79 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P87506|HEMA_I87A1    15.3      0.01   1   1.5   0.2    Hemagglutinin OS=Influenza A virus (strain A/Mallard/Ohio/556/1987 H5N9) OX=293055 GN=HA PE=2 SV=1
+sp|P03448|HEMA_I72A5    15.0     0.013   1   1.5   0.2    Hemagglutinin OS=Influenza A virus (strain A/Shearwater/Australia/1972 H6N5) OX=383604 GN=HA PE=3 SV=2
+sp|Q6DQ15|HEMA_I02A7    14.7     0.015   1   1.6   0.3    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Teal/China/2978.1/2002 H5N1 genotype W) OX=284215 GN=HA PE=3 SV=1
+sp|Q67018|HEMA_I88A4    14.7     0.016   1   1.4   0.2    Hemagglutinin OS=Influenza A virus (strain A/Herring gull/DE/677/1988 H2N8) OX=387243 GN=HA PE=3 SV=1
+sp|P07977|HEMA_I83A6    14.5     0.018   1   1.4   0.4    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Pennsylvania/1370/1983 H5N2) OX=385617 GN=HA PE=3 SV=2
+sp|P07976|HEMA_I83A5    14.5     0.018   1   1.4   0.4    Hemagglutinin OS=Influenza A virus (strain A/Chicken/Pennsylvania/1/1983 H5N2) OX=385586 GN=HA PE=3 SV=3
+sp|Q80A22|HEMA_I01A3    14.2     0.021   1   1.6   0.8    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Hong Kong/715.5/2001 H5N1 genotype E) OX=196434 GN=HA PE=3 SV=1
+sp|Q2F4V2|HEMA_I05A1    14.2     0.022   1   1.6   0.4    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Goose/Guangxi/345/2005 H5N1 genotype G) OX=365089 GN=HA PE=1 SV=1
+sp|Q82509|HEMA_I61A0    14.0     0.025   1   1.6   0.4    Hemagglutinin OS=Influenza A virus (strain A/Tern/South Africa/1961 H5N3) OX=384510 GN=HA PE=2 SV=1
+sp|Q80A30|HEMA_I01A1    14.0     0.025   1   1.6   0.7    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Hong Kong/YU562/2001 H5N1 genotype B) OX=196426 GN=HA PE=1 SV=1
+sp|Q8QPL1|HEMA_I00A0    14.0     0.026   1   1.6   0.7    Hemagglutinin OS=Influenza A virus (strain A/Duck/Hong Kong/2986.1/2000 H5N1 genotype C) OX=176674 GN=HA PE=1 SV=1
+sp|Q80A26|HEMA_I01A0    13.9     0.026   1   1.6   0.7    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/SF189/2001 H5N1 genotype A) OX=196430 GN=HA PE=3 SV=1
+sp|Q80A28|HEMA_I01A2    13.9     0.026   1   1.6   0.7    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Hong Kong/FY150/2001 H5N1 genotype D) OX=222142 GN=HA PE=3 SV=1
+sp|Q9Q0U6|HEMA_I96A0    13.9     0.027   1   1.6   0.7    Hemagglutinin OS=Influenza A virus (strain A/Goose/Guangdong/1/1996 H5N1 genotype Gs/Gd) OX=93838 GN=HA PE=1 SV=1
+sp|P11132|HEMA_I83A3    13.9     0.027   1   1.4   0.3    Hemagglutinin OS=Influenza A virus (strain A/Duck/Ireland/113/1983 H5N8) OX=387208 GN=HA PE=3 SV=1
+sp|Q6J8F6|HEMA_I03A0    13.9     0.028   1   1.6   0.7    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Hong Kong/212/2003 H5N1 genotype Z+) OX=279794 GN=HA PE=1 SV=1
+sp|Q6DPZ9|HEMA_I03A1    13.8     0.029   1   1.6   0.7    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Shantou/4231/2003 H5N1 genotype V) OX=284184 GN=HA PE=3 SV=1
+sp|Q6DQ18|HEMA_I02A6    13.8     0.029   1   1.5   0.7    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Hong Kong/YU22/2002 H5N1 genotype Z) OX=284177 GN=HA PE=1 SV=1
+sp|Q6J8E7|HEMA_I02A5    13.7      0.03   1   1.5   0.7    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Hong Kong/96.1/2002 H5N1 genotype Y) OX=279803 GN=HA PE=3 SV=1
+sp|P09345|HEMA_I59A0    13.7     0.032   1   1.4   0.5    Hemagglutinin OS=Influenza A virus (strain A/Chicken/Scotland/1959 H5N1) OX=402527 GN=HA PE=2 SV=2
+sp|P11135|HEMA_I83A4    13.5     0.037   1   1.4   0.2    Hemagglutinin OS=Influenza A virus (strain A/Turkey/Ireland/1378/1983 H5N8) OX=380285 GN=HA PE=3 SV=2
+sp|P03451|HEMA_I57A0    13.0     0.049   1   1.5   0.3    Hemagglutinin OS=Influenza A virus (strain A/Japan/305/1957 H2N2) OX=387161 GN=HA PE=1 SV=1
+sp|Q6DQ22|HEMA_I02A1    12.6     0.069   1   1.6   0.8    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Guinea fowl/Hong Kong/38/2002 H5N1 genotype X0) OX=284208 GN=HA PE=3 SV=1
+sp|Q6DQ21|HEMA_I02A2    12.6      0.07   1   1.6   0.8    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Hong Kong/31.2/2002 H5N1 genotype X1) OX=284169 GN=HA PE=3 SV=1
+sp|Q6DQ19|HEMA_I02A4    12.5      0.07   1   1.6   0.8    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/YU100/2002 H5N1 genotype X3) OX=284214 GN=HA PE=3 SV=1
+sp|O89746|HEMA_I97A0    12.5     0.073   1   1.6   0.7    Hemagglutinin OS=Influenza A virus (strain A/Chicken/Hong Kong/220/1997 H5N1 genotype Gs/Gd) OX=100834 GN=HA PE=3 SV=1
+sp|Q6DQ20|HEMA_I02A3    12.5     0.073   1   1.6   0.8    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Hong Kong/37.4/2002 H5N1 genotype X2) OX=284172 GN=HA PE=3 SV=1
+sp|O56140|HEMA_I97A1    12.5     0.074   1   1.6   0.8    Hemagglutinin OS=Influenza A virus (strain A/Hong Kong/156/1997 H5N1 genotype Gs/Gd) OX=130763 GN=HA PE=2 SV=2
+sp|Q67143|HEMA_I68A5    12.2     0.089   1   1.5   0.4    Hemagglutinin OS=Influenza A virus (strain A/Korea/426/1968 H2N2) OX=488241 GN=HA PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P87506|HEMA_I87A1    14.1     0.023     1   0.2    327    417    341    408    116    183     Hemagglutinin OS=Influenza A virus (strain A/Mallard/Ohio/556/1987 H5N9) OX=293055 GN=HA PE=2 SV=1
+sp|P03448|HEMA_I72A5    13.8     0.029     1   0.2    335    422    342    410    115    183     Hemagglutinin OS=Influenza A virus (strain A/Shearwater/Australia/1972 H6N5) OX=383604 GN=HA PE=3 SV=2
+sp|Q67018|HEMA_I88A4    13.6     0.032     1   0.2    331    417    339    409    116    186     Hemagglutinin OS=Influenza A virus (strain A/Herring gull/DE/677/1988 H2N8) OX=387243 GN=HA PE=3 SV=1
+sp|P07977|HEMA_I83A6    13.5     0.036     1   0.4    310    399    325    390    117    182     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Pennsylvania/1370/1983 H5N2) OX=385617 GN=HA PE=3 SV=2
+sp|P07976|HEMA_I83A5    13.4     0.038     1   0.4    327    416    342    407    117    182     Hemagglutinin OS=Influenza A virus (strain A/Chicken/Pennsylvania/1/1983 H5N2) OX=385586 GN=HA PE=3 SV=3
+sp|Q6DQ15|HEMA_I02A7    13.4     0.039     1   0.3    324    416    342    407    117    182     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Teal/China/2978.1/2002 H5N1 genotype W) OX=284215 GN=HA PE=3 SV=1
+sp|Q2F4V2|HEMA_I05A1    12.9     0.055     1   0.4    334    419    345    410    117    182     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Goose/Guangxi/345/2005 H5N1 genotype G) OX=365089 GN=HA PE=1 SV=1
+sp|P11132|HEMA_I83A3    12.9     0.055     1   0.3    325    419    344    410    117    183     Hemagglutinin OS=Influenza A virus (strain A/Duck/Ireland/113/1983 H5N8) OX=387208 GN=HA PE=3 SV=1
+sp|Q80A22|HEMA_I01A3    12.9     0.055     1   0.8    331    409    335    400    117    182     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Hong Kong/715.5/2001 H5N1 genotype E) OX=196434 GN=HA PE=3 SV=1
+sp|Q82509|HEMA_I61A0    12.8      0.06     1   0.4    332    421    346    412    117    183     Hemagglutinin OS=Influenza A virus (strain A/Tern/South Africa/1961 H5N3) OX=384510 GN=HA PE=2 SV=1
+sp|Q80A30|HEMA_I01A1    12.6     0.066     1   0.7    331    409    335    400    117    182     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Hong Kong/YU562/2001 H5N1 genotype B) OX=196426 GN=HA PE=1 SV=1
+sp|P09345|HEMA_I59A0    12.6     0.066     1   0.5    331    417    342    408    117    183     Hemagglutinin OS=Influenza A virus (strain A/Chicken/Scotland/1959 H5N1) OX=402527 GN=HA PE=2 SV=2
+sp|Q80A26|HEMA_I01A0    12.6     0.067     1   0.7    331    409    335    400    117    182     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/SF189/2001 H5N1 genotype A) OX=196430 GN=HA PE=3 SV=1
+sp|Q80A28|HEMA_I01A2    12.6     0.067     1   0.7    332    409    335    400    117    182     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Hong Kong/FY150/2001 H5N1 genotype D) OX=222142 GN=HA PE=3 SV=1
+sp|Q6J8F6|HEMA_I03A0    12.6     0.068     1   0.7    343    420    346    411    117    182     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Hong Kong/212/2003 H5N1 genotype Z+) OX=279794 GN=HA PE=1 SV=1
+sp|Q6J8E7|HEMA_I02A5    12.6     0.068     1   0.7    342    420    346    411    117    182     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Hong Kong/96.1/2002 H5N1 genotype Y) OX=279803 GN=HA PE=3 SV=1
+sp|Q8QPL1|HEMA_I00A0    12.6     0.069     1   0.7    342    420    346    411    117    182     Hemagglutinin OS=Influenza A virus (strain A/Duck/Hong Kong/2986.1/2000 H5N1 genotype C) OX=176674 GN=HA PE=1 SV=1
+sp|Q9Q0U6|HEMA_I96A0    12.6     0.069     1   0.7    342    420    346    411    117    182     Hemagglutinin OS=Influenza A virus (strain A/Goose/Guangdong/1/1996 H5N1 genotype Gs/Gd) OX=93838 GN=HA PE=1 SV=1
+sp|Q6DQ18|HEMA_I02A6    12.6     0.069     1   0.7    335    412    338    403    117    182     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Hong Kong/YU22/2002 H5N1 genotype Z) OX=284177 GN=HA PE=1 SV=1
+sp|Q6DPZ9|HEMA_I03A1    12.5      0.07     1   0.7    343    420    346    411    117    182     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Shantou/4231/2003 H5N1 genotype V) OX=284184 GN=HA PE=3 SV=1
+sp|P11135|HEMA_I83A4    12.5     0.071     1   0.2    325    419    344    410    117    183     Hemagglutinin OS=Influenza A virus (strain A/Turkey/Ireland/1378/1983 H5N8) OX=380285 GN=HA PE=3 SV=2
+sp|P03451|HEMA_I57A0    12.0       0.1     1   0.3    330    418    339    413    116    190     Hemagglutinin OS=Influenza A virus (strain A/Japan/305/1957 H2N2) OX=387161 GN=HA PE=1 SV=1
+sp|Q6DQ22|HEMA_I02A1    11.2      0.18     1   0.8    340    418    344    409    117    182     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Guinea fowl/Hong Kong/38/2002 H5N1 genotype X0) OX=284208 GN=HA PE=3 SV=1
+sp|Q6DQ19|HEMA_I02A4    11.2      0.19     1   0.8    342    420    346    411    117    182     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/YU100/2002 H5N1 genotype X3) OX=284214 GN=HA PE=3 SV=1
+sp|Q6DQ20|HEMA_I02A3    11.2      0.19     1   0.8    342    420    346    411    117    182     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Hong Kong/37.4/2002 H5N1 genotype X2) OX=284172 GN=HA PE=3 SV=1
+sp|Q6DQ21|HEMA_I02A2    11.2      0.19     1   0.8    342    420    346    411    117    182     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Chicken/Hong Kong/31.2/2002 H5N1 genotype X1) OX=284169 GN=HA PE=3 SV=1
+sp|O56140|HEMA_I97A1    11.2      0.19     1   0.8    342    420    346    411    117    182     Hemagglutinin OS=Influenza A virus (strain A/Hong Kong/156/1997 H5N1 genotype Gs/Gd) OX=130763 GN=HA PE=2 SV=2
+sp|O89746|HEMA_I97A0    11.2      0.19     1   0.7    342    420    346    411    117    182     Hemagglutinin OS=Influenza A virus (strain A/Chicken/Hong Kong/220/1997 H5N1 genotype Gs/Gd) OX=100834 GN=HA PE=3 SV=1
+sp|Q67143|HEMA_I68A5    11.0       0.2     1   0.4    330    416    339    406    116    183     Hemagglutinin OS=Influenza A virus (strain A/Korea/426/1968 H2N2) OX=488241 GN=HA PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007003561@NC_019489.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007003561@NC_019489.txt data/models_hmm/YP_007003561@NC_019489.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:01 2021
+# [ok]

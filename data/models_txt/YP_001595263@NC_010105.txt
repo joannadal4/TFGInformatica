@@ -1,0 +1,43 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39226|Y07A_BPT4    194.8   1.5e-58   1   1.0   5.8    Uncharacterized 10.2 kDa protein in e-segB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y07A PE=4 SV=1
+sp|P21037|VC02_VACCC    12.2      0.14   3   3.3   2.9    Kelch repeat protein C2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C2L PE=3 SV=1
+sp|P17371|C2_VACCW      12.2      0.15   3   3.3   2.9    Kelch repeat protein C2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR026 PE=3 SV=1
+sp|Q8JLI4|C2_ECTVM      12.0      0.17   3   3.5   3.3    Kelch repeat protein C2 OS=Ectromelia virus (strain Moscow) OX=265874 GN=EVM018 PE=3 SV=1
+sp|Q776A6|C2_CAMPS      11.3      0.27   3   3.4   4.1    Kelch repeat protein C2 OS=Camelpox virus (strain CMS) OX=203172 GN=CMP24L PE=3 SV=1
+sp|Q8V2Z3|C2_CAMPM      11.3      0.27   3   3.4   4.1    Kelch repeat protein C2 OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV024 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39226|Y07A_BPT4    194.7   1.6e-58     1   5.8      1     87      1     87      1     87     Uncharacterized 10.2 kDa protein in e-segB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y07A PE=4 SV=1
+sp|Q776A6|C2_CAMPS       8.3       2.4     2   0.3    221    289    229    275     26     72     Kelch repeat protein C2 OS=Camelpox virus (strain CMS) OX=203172 GN=CMP24L PE=3 SV=1
+sp|Q8V2Z3|C2_CAMPM       8.3       2.4     2   0.3    221    289    229    275     26     72     Kelch repeat protein C2 OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV024 PE=3 SV=1
+sp|P17371|C2_VACCW       8.2       2.4     2   0.1    222    293    229    276     26     73     Kelch repeat protein C2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR026 PE=3 SV=1
+sp|P21037|VC02_VACCC     8.2       2.4     2   0.1    222    293    229    276     26     73     Kelch repeat protein C2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C2L PE=3 SV=1
+sp|Q8JLI4|C2_ECTVM       7.9       3.2     2   0.2    221    289    229    275     26     72     Kelch repeat protein C2 OS=Ectromelia virus (strain Moscow) OX=265874 GN=EVM018 PE=3 SV=1
+sp|Q8JLI4|C2_ECTVM       2.4   1.7e+02     3   0.0    342    388    354    374     24     44     Kelch repeat protein C2 OS=Ectromelia virus (strain Moscow) OX=265874 GN=EVM018 PE=3 SV=1
+sp|P17371|C2_VACCW       2.3   1.7e+02     3   0.0    342    387    354    374     24     44     Kelch repeat protein C2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR026 PE=3 SV=1
+sp|P21037|VC02_VACCC     2.3   1.7e+02     3   0.0    342    387    354    374     24     44     Kelch repeat protein C2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C2L PE=3 SV=1
+sp|Q776A6|C2_CAMPS       2.3   1.7e+02     3   0.0    342    386    354    374     24     44     Kelch repeat protein C2 OS=Camelpox virus (strain CMS) OX=203172 GN=CMP24L PE=3 SV=1
+sp|Q8V2Z3|C2_CAMPM       2.3   1.7e+02     3   0.0    342    386    354    374     24     44     Kelch repeat protein C2 OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV024 PE=3 SV=1
+sp|Q8JLI4|C2_ECTVM      -1.1     2e+03     1   0.1    171    197    175    193     23     41     Kelch repeat protein C2 OS=Ectromelia virus (strain Moscow) OX=265874 GN=EVM018 PE=3 SV=1
+sp|Q776A6|C2_CAMPS      -2.1   4.2e+03     1   0.1    171    196    176    192     24     40     Kelch repeat protein C2 OS=Camelpox virus (strain CMS) OX=203172 GN=CMP24L PE=3 SV=1
+sp|Q8V2Z3|C2_CAMPM      -2.1   4.2e+03     1   0.1    171    196    176    192     24     40     Kelch repeat protein C2 OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV024 PE=3 SV=1
+sp|P17371|C2_VACCW      -2.4   5.2e+03     1   0.0    172    196    176    192     24     40     Kelch repeat protein C2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR026 PE=3 SV=1
+sp|P21037|VC02_VACCC    -2.4   5.2e+03     1   0.0    172    196    176    192     24     40     Kelch repeat protein C2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C2L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001595263@NC_010105.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001595263@NC_010105.txt data/models_hmm/YP_001595263@NC_010105.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:32 2021
+# [ok]

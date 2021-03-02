@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6QGF0|FIBC_BPT5    1326.6         0   1   1.0  26.7    Probable central straight fiber OS=Escherichia phage T5 OX=10726 GN=D17 PE=2 SV=1
+sp|Q0PDK6|FIBER_BPSPP    30.4   5.3e-08   3   2.6   4.7    Tail spike protein OS=Bacillus phage SPP1 OX=10724 GN=21 PE=1 SV=1
+sp|B0FII2|FIB20_BPE32    26.0   1.2e-06   1   1.2   1.7    Putative tail tip fiber protein OS=Escherichia phage Phieco32 OX=490103 GN=phi32_20 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6QGF0|FIBC_BPT5    1326.3         0     1  26.7      1    686      1    681      1    676     Probable central straight fiber OS=Escherichia phage T5 OX=10726 GN=D17 PE=2 SV=1
+sp|Q0PDK6|FIBER_BPSPP    30.4   5.3e-08     2   4.7    718    826    727    802   1302   1379     Tail spike protein OS=Bacillus phage SPP1 OX=10724 GN=21 PE=1 SV=1
+sp|B0FII2|FIB20_BPE32    25.9   1.2e-06     1   1.7    129    322    226    320   1320   1414     Putative tail tip fiber protein OS=Escherichia phage Phieco32 OX=490103 GN=phi32_20 PE=4 SV=1
+sp|Q0PDK6|FIBER_BPSPP     0.5        58     1   0.0    502    598    515    555   1328   1368     Tail spike protein OS=Bacillus phage SPP1 OX=10724 GN=21 PE=1 SV=1
+sp|Q0PDK6|FIBER_BPSPP    -0.6   1.3e+02     3   0.1    964   1091    983   1048    436    510     Tail spike protein OS=Bacillus phage SPP1 OX=10724 GN=21 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006382438@NC_017969.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006382438@NC_017969.txt data/models_hmm/YP_006382438@NC_017969.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:10 2021
+# [ok]

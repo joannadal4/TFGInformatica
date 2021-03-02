@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P25097|VF015_IRV22    14.0     0.043   2   2.1   0.1    Uncharacterized 15.9 kDa protein in MSP 5'region OS=Simulium iridescent virus OX=10489 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P25097|VF015_IRV22     9.0       1.6     1   0.1      5     63     15     51     49     85     Uncharacterized 15.9 kDa protein in MSP 5'region OS=Simulium iridescent virus OX=10489 PE=3 SV=1
+sp|P25097|VF015_IRV22     3.2     1e+02     2   0.0     74    128     81    108     28     55     Uncharacterized 15.9 kDa protein in MSP 5'region OS=Simulium iridescent virus OX=10489 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/CAY39812@FN386611.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/CAY39812@FN386611.txt data/models_hmm/CAY39812@FN386611.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:02 2021
+# [ok]

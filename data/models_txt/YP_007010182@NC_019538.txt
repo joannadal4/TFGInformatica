@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91G57|041L_IIV6      15.2     0.022   1   1.4   2.1    Uncharacterized protein 041L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-041L PE=4 SV=1
+sp|P19201|YOR2_COYMV     13.9     0.052   1   1.3   0.1    Uncharacterized 15 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+sp|Q7T6Y3|YR879_MIMIV     6.8       8.9   3   2.5  13.3    Putative KilA-N domain-containing protein R879 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R879 PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91G57|041L_IIV6      14.6     0.032     1   2.1     33    120     50    111     17     78     Uncharacterized protein 041L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-041L PE=4 SV=1
+sp|P19201|YOR2_COYMV     13.5     0.074     1   0.1     35    106     45     75     23     53     Uncharacterized 15 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+sp|Q7T6Y3|YR879_MIMIV     6.9       8.5     2  10.1     81    165     98    153     23     78     Putative KilA-N domain-containing protein R879 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R879 PE=4 SV=2
+sp|Q7T6Y3|YR879_MIMIV     0.7     7e+02     1   0.1     70    102     76     97     36     57     Putative KilA-N domain-containing protein R879 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R879 PE=4 SV=2
+sp|Q7T6Y3|YR879_MIMIV    -3.6   1.5e+04     3   0.0    177    202    180    196     33     49     Putative KilA-N domain-containing protein R879 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R879 PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007010182@NC_019538.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007010182@NC_019538.txt data/models_hmm/YP_007010182@NC_019538.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:24 2021
+# [ok]

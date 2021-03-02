@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6RJQ3|UL141_HCMVM   555.3  4.7e-167   1   1.0   4.4    Protein UL141 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL141 PE=1 SV=1
+sp|Q6SWB7|UL14_HCMVM    123.8   6.3e-36   1   1.1   1.0    Uncharacterized protein UL14 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL14 PE=3 SV=1
+sp|P16756|UL14_HCMVA    123.8   6.3e-36   1   1.1   1.0    Uncharacterized protein UL14 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL14 PE=3 SV=2
+sp|Q6SW14|UL139_HCMVM    14.2     0.012   1   1.2   0.1    Membrane glycoprotein UL139 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL139 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6RJQ3|UL141_HCMVM   555.0  5.7e-167     1   4.4      1    337      1    331      1    331     Protein UL141 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL141 PE=1 SV=1
+sp|Q6SWB7|UL14_HCMVM    123.5   7.8e-36     1   1.0     27    288     39    244     36    244     Uncharacterized protein UL14 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL14 PE=3 SV=1
+sp|P16756|UL14_HCMVA    123.4   7.9e-36     1   1.0     27    287     39    244     36    244     Uncharacterized protein UL14 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL14 PE=3 SV=2
+sp|Q6SW14|UL139_HCMVM    13.9     0.015     1   0.1     35    116     62    106    268    314     Membrane glycoprotein UL139 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL139 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004936099@NC_012783.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004936099@NC_012783.txt data/models_hmm/YP_004936099@NC_012783.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:51 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P26700|FIBH_BPP2     37.4     9e-10   3   3.4  24.6    Probable tail fiber protein OS=Escherichia phage P2 OX=10679 GN=H PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P26700|FIBH_BPP2     37.2   1.1e-09     3   1.8    305    408    325    400    625    700     Probable tail fiber protein OS=Escherichia phage P2 OX=10679 GN=H PE=3 SV=2
+sp|P26700|FIBH_BPP2     10.2      0.15     2   3.6    240    296    256    289     79    112     Probable tail fiber protein OS=Escherichia phage P2 OX=10679 GN=H PE=3 SV=2
+sp|P26700|FIBH_BPP2      0.5   1.4e+02     1   4.4    123    246    133    219    418    506     Probable tail fiber protein OS=Escherichia phage P2 OX=10679 GN=H PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004421505@NC_015463.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004421505@NC_015463.txt data/models_hmm/YP_004421505@NC_015463.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:26 2021
+# [ok]

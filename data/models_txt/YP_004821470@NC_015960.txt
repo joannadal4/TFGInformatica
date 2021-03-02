@@ -1,0 +1,47 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DSQ3|A14_VAR67    129.3     4e-38   1   1.0   3.6    Virion membrane protein A14 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A14L PE=3 SV=1
+sp|P0DSQ4|A14_VARV     129.3     4e-38   1   1.0   3.6    Virion membrane protein A14 OS=Variola virus OX=10255 GN=A14L PE=3 SV=1
+sp|P20991|A14_VACCC    128.9   5.1e-38   1   1.0   3.7    Virion membrane protein A14 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A14L PE=3 SV=1
+sp|Q76ZQ3|A14_VACCW    128.9   5.1e-38   1   1.0   3.7    Virion membrane protein A14 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR133 PE=1 SV=1
+sp|Q9J554|A14_FOWPN    107.6   2.2e-31   1   1.0   0.2    Virion membrane protein A14 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV179 PE=3 SV=1
+sp|P13102|HEMA_I84A2    17.6    0.0027   1   1.8   0.4    Hemagglutinin OS=Influenza A virus (strain A/Whale/Maine/328/1984 H13N2) OX=385593 GN=HA PE=3 SV=1
+sp|P13103|HEMA_I77AF    17.4    0.0032   1   1.6   0.4    Hemagglutinin OS=Influenza A virus (strain A/Gull/Maryland/704/1977 H13N6) OX=384499 GN=HA PE=1 SV=3
+sp|P13101|HEMA_I84A4    16.0    0.0088   2   2.0   0.4    Hemagglutinin OS=Influenza A virus (strain A/Gull/Astrakhan/227/1984 H13N6) OX=385603 GN=HA PE=3 SV=1
+sp|Q0A3Y1|HEMA_I80AD    15.5     0.012   3   2.0   0.3    Hemagglutinin OS=Influenza A virus (strain A/Gull/Minnesota/945/1980 H13N6) OX=385597 GN=HA PE=3 SV=1
+sp|Q91FC9|VF395_IIV6    15.0     0.018   1   1.4   0.0    Uncharacterized protein 395R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-395R PE=3 SV=1
+sp|A4ZUB4|Y116_ABVP      9.0       1.3   2   2.1   5.8    Putative transmembrane protein ORF116 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF116 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DSQ3|A14_VAR67    129.1   4.4e-38     1   3.6      1     90      1     90      1     93     Virion membrane protein A14 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A14L PE=3 SV=1
+sp|P0DSQ4|A14_VARV     129.1   4.4e-38     1   3.6      1     90      1     90      1     93     Virion membrane protein A14 OS=Variola virus OX=10255 GN=A14L PE=3 SV=1
+sp|P20991|A14_VACCC    128.8   5.6e-38     1   3.7      1     90      1     90      1     93     Virion membrane protein A14 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A14L PE=3 SV=1
+sp|Q76ZQ3|A14_VACCW    128.8   5.6e-38     1   3.7      1     90      1     90      1     93     Virion membrane protein A14 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR133 PE=1 SV=1
+sp|Q9J554|A14_FOWPN    107.6   2.4e-31     1   0.2      1     91      1     85      1     87     Virion membrane protein A14 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV179 PE=3 SV=1
+sp|P13103|HEMA_I77AF    16.2    0.0073     1   0.4    515    564    517    556     32     72     Hemagglutinin OS=Influenza A virus (strain A/Gull/Maryland/704/1977 H13N6) OX=384499 GN=HA PE=1 SV=3
+sp|P13102|HEMA_I84A2    16.2    0.0077     1   0.4    515    564    519    556     34     72     Hemagglutinin OS=Influenza A virus (strain A/Whale/Maine/328/1984 H13N2) OX=385593 GN=HA PE=3 SV=1
+sp|P13101|HEMA_I84A4    16.0    0.0088     2   0.4    514    563    518    555     34     72     Hemagglutinin OS=Influenza A virus (strain A/Gull/Astrakhan/227/1984 H13N6) OX=385603 GN=HA PE=3 SV=1
+sp|Q0A3Y1|HEMA_I80AD    15.5     0.012     3   0.3    515    564    519    556     34     72     Hemagglutinin OS=Influenza A virus (strain A/Gull/Minnesota/945/1980 H13N6) OX=385597 GN=HA PE=3 SV=1
+sp|Q91FC9|VF395_IIV6    14.3      0.03     1   0.0     64    125     85    123     10     48     Uncharacterized protein 395R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-395R PE=3 SV=1
+sp|A4ZUB4|Y116_ABVP      6.0        12     1   5.0     13     70     23     69     15     60     Putative transmembrane protein ORF116 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF116 PE=4 SV=1
+sp|A4ZUB4|Y116_ABVP      5.9        12     2   0.6     40     92     48     67      9     29     Putative transmembrane protein ORF116 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF116 PE=4 SV=1
+sp|P13101|HEMA_I84A4    -1.8     3e+03     1   0.2    481    509    485    505     70     91     Hemagglutinin OS=Influenza A virus (strain A/Gull/Astrakhan/227/1984 H13N6) OX=385603 GN=HA PE=3 SV=1
+sp|Q0A3Y1|HEMA_I80AD    -3.2   8.3e+03     2   0.2    484    506    486    504     70     89     Hemagglutinin OS=Influenza A virus (strain A/Gull/Minnesota/945/1980 H13N6) OX=385597 GN=HA PE=3 SV=1
+sp|Q0A3Y1|HEMA_I80AD    -3.6   1.1e+04     1   0.1      5     31      8     18     19     29     Hemagglutinin OS=Influenza A virus (strain A/Gull/Minnesota/945/1980 H13N6) OX=385597 GN=HA PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004821470@NC_015960.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004821470@NC_015960.txt data/models_hmm/YP_004821470@NC_015960.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:35 2021
+# [ok]

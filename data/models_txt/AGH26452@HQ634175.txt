@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q65216|MCE_ASFM2     12.5     0.096   1   1.8   0.0    Probable mRNA-capping enzyme OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-109 PE=3 SV=1
+sp|P0C995|MCE_ASFK5     12.4     0.099   1   1.8   0.0    Probable mRNA-capping enzyme OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-113 PE=3 SV=1
+sp|P0C994|MCE_ASFWA     12.4       0.1   1   1.7   0.0    Probable mRNA-capping enzyme OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-111 PE=3 SV=1
+sp|P0C993|MCE_ASFP4     12.4       0.1   1   1.7   0.0    Probable mRNA-capping enzyme OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-113 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C993|MCE_ASFP4     11.1      0.26     1   0.0    716    776    725    753      8     36     Probable mRNA-capping enzyme OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-113 PE=3 SV=1
+sp|P0C994|MCE_ASFWA     11.1      0.26     1   0.0    716    776    725    753      8     36     Probable mRNA-capping enzyme OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-111 PE=3 SV=1
+sp|Q65216|MCE_ASFM2     10.9       0.3     1   0.0    719    776    725    753      8     36     Probable mRNA-capping enzyme OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-109 PE=3 SV=1
+sp|P0C995|MCE_ASFK5     10.8      0.31     1   0.0    721    776    725    753      8     36     Probable mRNA-capping enzyme OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-113 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH26452@HQ634175.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH26452@HQ634175.txt data/models_hmm/AGH26452@HQ634175.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:40 2021
+# [ok]

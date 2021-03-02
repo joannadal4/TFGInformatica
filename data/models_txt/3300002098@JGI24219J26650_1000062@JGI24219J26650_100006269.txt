@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DOR5|A17_VAR67      5.9       9.1   2   1.9  15.1    Virion membrane protein A17 precursor OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A17L PE=3 SV=1
+sp|P0DOR6|A17_VARV       5.9       9.1   2   1.9  15.1    Virion membrane protein A17 precursor OS=Variola virus OX=10255 GN=A17L PE=3 SV=1
+sp|P68592|A17_VACCC      5.9       9.1   2   1.9  15.1    Virion membrane protein A17 precursor OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A17L PE=3 SV=1
+sp|P68593|A17_VACCW      5.9       9.1   2   1.9  15.1    Virion membrane protein A17 precursor OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR137 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DOR5|A17_VAR67     11.0      0.25     2   7.6    106    165    114    157      9     53     Virion membrane protein A17 precursor OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A17L PE=3 SV=1
+sp|P0DOR6|A17_VARV      11.0      0.25     2   7.6    106    165    114    157      9     53     Virion membrane protein A17 precursor OS=Variola virus OX=10255 GN=A17L PE=3 SV=1
+sp|P68592|A17_VACCC     11.0      0.25     2   7.6    106    165    114    157      9     53     Virion membrane protein A17 precursor OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A17L PE=3 SV=1
+sp|P68593|A17_VACCW     11.0      0.25     2   7.6    106    165    114    157      9     53     Virion membrane protein A17 precursor OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR137 PE=1 SV=1
+sp|P0DOR5|A17_VAR67     -0.8   1.1e+03     1   0.8     55    109     70     93     25     48     Virion membrane protein A17 precursor OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A17L PE=3 SV=1
+sp|P0DOR6|A17_VARV      -0.8   1.1e+03     1   0.8     55    109     70     93     25     48     Virion membrane protein A17 precursor OS=Variola virus OX=10255 GN=A17L PE=3 SV=1
+sp|P68592|A17_VACCC     -0.8   1.1e+03     1   0.8     55    109     70     93     25     48     Virion membrane protein A17 precursor OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A17L PE=3 SV=1
+sp|P68593|A17_VACCW     -0.8   1.1e+03     1   0.8     55    109     70     93     25     48     Virion membrane protein A17 precursor OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR137 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002098@JGI24219J26650_1000062@JGI24219J26650_100006269.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002098@JGI24219J26650_1000062@JGI24219J26650_100006269.txt data/models_hmm/3300002098@JGI24219J26650_1000062@JGI24219J26650_100006269.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:13 2021
+# [ok]

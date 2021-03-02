@@ -1,0 +1,74 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P05842|NS1_BMDNV    1207.5         0   1   1.1   0.9    Initiator protein NS1 OS=Bombyx mori densovirus OX=10809 PE=3 SV=1
+sp|Q90053|CAPSD_JDNVP    48.7   3.3e-13   1   1.8   0.5    Capsid protein VP1 OS=Junonia coenia densovirus (isolate pBRJ/1990) OX=648250 GN=VP PE=3 SV=1
+sp|Q90125|CAPSD_GMDNV    48.1   5.1e-13   1   1.8   0.4    Capsid protein VP1 OS=Galleria mellonella densovirus OX=37138 GN=VP PE=1 SV=1
+sp|O71155|CAPSD_DSDNV    46.2   1.9e-12   1   2.0   0.1    Capsid protein VP1 OS=Diatraea saccharalis densovirus OX=72003 GN=VP PE=3 SV=1
+sp|P33484|CAPSD_PAVP9    20.6   0.00011   2   1.7   0.1    Capsid protein VP1 OS=Porcine parvovirus (strain 90HS) OX=33725 PE=3 SV=1
+sp|P18546|CAPSD_PAVPN    20.5   0.00011   2   1.7   0.1    Capsid protein VP1 OS=Porcine parvovirus (strain NADL-2) OX=10797 PE=1 SV=1
+sp|P52501|CAPSD_PAVPK    20.5   0.00011   2   1.7   0.1    Capsid protein VP1 OS=Porcine parvovirus (strain Kresse) OX=73487 PE=3 SV=1
+sp|B9UYK7|CAPSD_HBOC2    19.3   0.00027   1   1.4   0.2    Minor capsid protein VP1 OS=Human bocavirus 2 OX=573977 GN=VP1 PE=3 SV=1
+sp|C1IWT2|CAPSD_HBOC3    19.2   0.00028   1   1.4   0.5    Minor capsid protein VP1 OS=Human bocavirus 3 OX=638313 GN=VP1 PE=1 SV=1
+sp|P03135|CAPSD_AAV2S    19.2   0.00028   1   1.3   0.0    Capsid protein VP1 OS=Adeno-associated virus 2 (isolate Srivastava/1982) OX=648242 GN=VP1 PE=1 SV=2
+sp|Q3YPH4|CAPSD_HBOC1    18.0   0.00063   1   1.4   0.3    Minor capsid protein VP1 OS=Primate bocaparvovirus 1 (strain Human bocavirus 1 type 1) OX=689403 GN=VP1 PE=1 SV=1
+sp|P07297|CAPSD_PAVBP    17.8   0.00072   3   2.0   0.1    Minor capsid protein VP1 OS=Bovine parvovirus (isolate pAT153/1986) OX=648243 PE=3 SV=1
+sp|C5IY46|CAPSD_HBOC4    17.7   0.00082   1   1.5   1.2    Minor capsid protein VP1 OS=Human bocavirus 4 OX=1511883 GN=VP1 PE=1 SV=1
+sp|P36310|CAPSD_PAVL3    16.5    0.0018   2   2.0   0.1    Capsid protein VP1 OS=Parvovirus LuIII OX=35339 PE=1 SV=2
+sp|P07302|CAPSD_MUMIM    15.9    0.0028   2   2.0   0.0    Capsid protein VP1 OS=Murine minute virus (strain MVMi) OX=10795 PE=1 SV=2
+sp|P03137|CAPSD_MUMIP    15.9    0.0028   2   2.0   0.1    Capsid protein VP1 OS=Murine minute virus (strain MVM prototype) OX=648235 PE=1 SV=3
+sp|P03136|CAPSD_PAVHH    14.8    0.0059   2   1.8   0.1    Capsid protein VP1 OS=Hamster parvovirus H1 OX=10799 PE=1 SV=2
+sp|P12930|CAPSD_PAVCN    13.5     0.015   2   1.7   0.0    Capsid protein VP1 OS=Canine parvovirus type 2 (isolate Dog/United States/CPV-N/1978) OX=10791 PE=3 SV=2
+sp|P17455|CAPSD_PAVCD    13.5     0.015   2   1.7   0.0    Capsid protein VP1 OS=Canine parvovirustype 2 (isolate Dog/United States/CPV-d/1988) OX=10790 PE=1 SV=2
+sp|P24840|CAPSD_FPV19    13.5     0.015   2   1.7   0.0    Capsid protein VP1 OS=Feline panleukopenia virus (strain 193) OX=10787 PE=1 SV=1
+sp|Q11213|CAPSD_PAVCB    13.5     0.015   2   1.7   0.0    Capsid protein VP1 OS=Canine parvovirus type 2 (isolate Dog/United States/CPV-b/1978) OX=59284 PE=1 SV=1
+sp|P27437|CAPSD_MEVA     12.7     0.026   2   1.7   0.0    Capsid protein VP1 OS=Mink enteritis virus (strain Abashiri) OX=10793 PE=3 SV=2
+sp|P04864|CAPSD_FPV      12.6     0.027   2   1.8   0.0    Capsid protein VP1 OS=Feline panleukopenia virus OX=10786 PE=1 SV=1
+sp|P04863|CAPSD_PAVC7    12.4     0.031   2   1.6   0.0    Capsid protein VP1 OS=Canine parvovirus type 2 (strain Dog/United States/780929/-) OX=10789 PE=3 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P05842|NS1_BMDNV    1207.1         0     1   0.9    249    884    253    875      6    629     Initiator protein NS1 OS=Bombyx mori densovirus OX=10809 PE=3 SV=1
+sp|Q90053|CAPSD_JDNVP    46.8   1.3e-12     1   0.5    175    513    179    501      6    331     Capsid protein VP1 OS=Junonia coenia densovirus (isolate pBRJ/1990) OX=648250 GN=VP PE=3 SV=1
+sp|Q90125|CAPSD_GMDNV    46.1     2e-12     1   0.4    174    524    178    502      6    331     Capsid protein VP1 OS=Galleria mellonella densovirus OX=37138 GN=VP PE=1 SV=1
+sp|O71155|CAPSD_DSDNV    43.2   1.5e-11     1   0.1    175    512    179    499      6    330     Capsid protein VP1 OS=Diatraea saccharalis densovirus OX=72003 GN=VP PE=3 SV=1
+sp|P33484|CAPSD_PAVP9    20.6   0.00011     1   0.1      9     96     12     89      5     81     Capsid protein VP1 OS=Porcine parvovirus (strain 90HS) OX=33725 PE=3 SV=1
+sp|P18546|CAPSD_PAVPN    20.5   0.00011     1   0.1      9     95     12     89      5     81     Capsid protein VP1 OS=Porcine parvovirus (strain NADL-2) OX=10797 PE=1 SV=1
+sp|P52501|CAPSD_PAVPK    20.5   0.00011     1   0.1      9     95     12     89      5     81     Capsid protein VP1 OS=Porcine parvovirus (strain Kresse) OX=73487 PE=3 SV=1
+sp|C1IWT2|CAPSD_HBOC3    18.7    0.0004     1   0.0      9    139     11     92      4     84     Minor capsid protein VP1 OS=Human bocavirus 3 OX=638313 GN=VP1 PE=1 SV=1
+sp|B9UYK7|CAPSD_HBOC2    18.5   0.00047     1   0.0      9    119     11     92      4     84     Minor capsid protein VP1 OS=Human bocavirus 2 OX=573977 GN=VP1 PE=3 SV=1
+sp|P03135|CAPSD_AAV2S    18.3   0.00051     1   0.0     43    141     46    123      5     81     Capsid protein VP1 OS=Adeno-associated virus 2 (isolate Srivastava/1982) OX=648242 GN=VP1 PE=1 SV=2
+sp|P07297|CAPSD_PAVBP    17.8   0.00072     1   0.1     11     72     14     49      5     40     Minor capsid protein VP1 OS=Bovine parvovirus (isolate pAT153/1986) OX=648243 PE=3 SV=1
+sp|C5IY46|CAPSD_HBOC4    17.6   0.00084     1   0.0      9    122     11     92      4     84     Minor capsid protein VP1 OS=Human bocavirus 4 OX=1511883 GN=VP1 PE=1 SV=1
+sp|Q3YPH4|CAPSD_HBOC1    17.1    0.0012     1   0.1      8    120     11     92      4     84     Minor capsid protein VP1 OS=Primate bocaparvovirus 1 (strain Human bocavirus 1 type 1) OX=689403 GN=VP1 PE=1 SV=1
+sp|P36310|CAPSD_PAVL3    16.5    0.0018     1   0.1     10    138     15     83      7     74     Capsid protein VP1 OS=Parvovirus LuIII OX=35339 PE=1 SV=2
+sp|P07302|CAPSD_MUMIM    15.9    0.0028     1   0.0     10     98     15     77      7     68     Capsid protein VP1 OS=Murine minute virus (strain MVMi) OX=10795 PE=1 SV=2
+sp|P03137|CAPSD_MUMIP    15.9    0.0028     1   0.1     10     99     15     77      7     68     Capsid protein VP1 OS=Murine minute virus (strain MVM prototype) OX=648235 PE=1 SV=3
+sp|P03136|CAPSD_PAVHH    14.8    0.0059     1   0.1     10     92     15     71      7     62     Capsid protein VP1 OS=Hamster parvovirus H1 OX=10799 PE=1 SV=2
+sp|P12930|CAPSD_PAVCN    13.5     0.015     1   0.0     11     98     15     90      7     81     Capsid protein VP1 OS=Canine parvovirus type 2 (isolate Dog/United States/CPV-N/1978) OX=10791 PE=3 SV=2
+sp|P17455|CAPSD_PAVCD    13.5     0.015     1   0.0     11     98     15     90      7     81     Capsid protein VP1 OS=Canine parvovirustype 2 (isolate Dog/United States/CPV-d/1988) OX=10790 PE=1 SV=2
+sp|P24840|CAPSD_FPV19    13.5     0.015     1   0.0     11     98     15     90      7     81     Capsid protein VP1 OS=Feline panleukopenia virus (strain 193) OX=10787 PE=1 SV=1
+sp|Q11213|CAPSD_PAVCB    13.5     0.015     1   0.0     11     98     15     90      7     81     Capsid protein VP1 OS=Canine parvovirus type 2 (isolate Dog/United States/CPV-b/1978) OX=59284 PE=1 SV=1
+sp|P27437|CAPSD_MEVA     12.7     0.026     1   0.0      5     92     10     84      7     80     Capsid protein VP1 OS=Mink enteritis virus (strain Abashiri) OX=10793 PE=3 SV=2
+sp|P04864|CAPSD_FPV      12.6     0.027     1   0.0     11     97     15     89      7     80     Capsid protein VP1 OS=Feline panleukopenia virus OX=10786 PE=1 SV=1
+sp|P04863|CAPSD_PAVC7    12.4     0.031     1   0.0     11     98     15     90      7     81     Capsid protein VP1 OS=Canine parvovirus type 2 (strain Dog/United States/780929/-) OX=10789 PE=3 SV=3
+sp|P07297|CAPSD_PAVBP    -1.4   4.8e+02     2   0.1    125    290    133    178    164    214     Minor capsid protein VP1 OS=Bovine parvovirus (isolate pAT153/1986) OX=648243 PE=3 SV=1
+sp|P03136|CAPSD_PAVHH    -2.9   1.4e+03     2   1.2    117    190    134    179    170    216     Capsid protein VP1 OS=Hamster parvovirus H1 OX=10799 PE=1 SV=2
+sp|P07302|CAPSD_MUMIM    -2.9   1.4e+03     2   4.2    118    206    134    181    170    215     Capsid protein VP1 OS=Murine minute virus (strain MVMi) OX=10795 PE=1 SV=2
+sp|P03137|CAPSD_MUMIP    -3.2   1.7e+03     2   4.0    118    202    133    182    169    216     Capsid protein VP1 OS=Murine minute virus (strain MVM prototype) OX=648235 PE=1 SV=3
+sp|P07297|CAPSD_PAVBP    -3.3   1.8e+03     3   0.0    338    488    345    465     79    190     Minor capsid protein VP1 OS=Bovine parvovirus (isolate pAT153/1986) OX=648243 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_025190@NC_005905.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_025190@NC_005905.txt data/models_hmm/YP_025190@NC_005905.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:52 2021
+# [ok]

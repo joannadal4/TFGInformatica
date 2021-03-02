@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P85989|CAPSD_BPSK9    13.3     0.074   1   1.5   0.0    Major capsid protein OS=Serratia phage KSP90 OX=552528 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P85989|CAPSD_BPSK9    12.2      0.16     1   0.0    138    212    154    205     41     92     Major capsid protein OS=Serratia phage KSP90 OX=552528 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2029527005@ACOFG987_contig49236@ACOFGT_1384940.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2029527005@ACOFG987_contig49236@ACOFGT_1384940.txt data/models_hmm/2029527005@ACOFG987_contig49236@ACOFGT_1384940.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:18 2021
+# [ok]

@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21969|D5_FOWPN     235.2   1.2e-69   1   1.2  52.4    Primase D5 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV058 PE=3 SV=2
+sp|P21010|D5_VACCC     217.4   2.8e-64   1   1.5  16.3    Primase D5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D5R PE=3 SV=1
+sp|P04305|D5_VACCW     217.0   3.6e-64   1   1.4  15.2    Primase D5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR110 PE=1 SV=1
+sp|P0DST7|D5_VAR67     211.4   1.7e-62   1   1.5  18.0    Primase D5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=D5R PE=3 SV=1
+sp|P0DST8|D5_VARV      211.4   1.7e-62   1   1.5  18.0    Primase D5 OS=Variola virus OX=10255 GN=D5R PE=3 SV=1
+sp|Q6GZV3|O22R_FRG3G    12.9     0.018   2   2.0   0.0    Putative helicase 022R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-022R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21969|D5_FOWPN     234.5   1.9e-69     1  52.4     13    711     35    692     37    728     Primase D5 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV058 PE=3 SV=2
+sp|P21010|D5_VACCC     216.1   6.8e-64     1  16.3     32    697     37    692     40    727     Primase D5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D5R PE=3 SV=1
+sp|P04305|D5_VACCW     216.0   7.2e-64     1  15.2     32    699     37    692     40    727     Primase D5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR110 PE=1 SV=1
+sp|P0DST7|D5_VAR67     210.2   4.1e-62     1  18.0     32    698     37    692     40    727     Primase D5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=D5R PE=3 SV=1
+sp|P0DST8|D5_VARV      210.2   4.1e-62     1  18.0     32    698     37    692     40    727     Primase D5 OS=Variola virus OX=10255 GN=D5R PE=3 SV=1
+sp|Q6GZV3|O22R_FRG3G     8.5       0.4     2   0.0    640    844    654    832    485    657     Putative helicase 022R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-022R PE=4 SV=1
+sp|Q6GZV3|O22R_FRG3G     2.2        32     1   0.0    529    589    549    577    430    458     Putative helicase 022R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-022R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_064869@NC_002520.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_064869@NC_002520.txt data/models_hmm/NP_064869@NC_002520.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:42 2021
+# [ok]

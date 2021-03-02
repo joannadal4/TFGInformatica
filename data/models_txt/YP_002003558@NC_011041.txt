@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQB4|YL215_MIMIV    15.6     0.011   1   1.1   0.0    Putative ankyrin repeat protein L215 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L215 PE=4 SV=1
+sp|Q197B1|049R_IIV3       7.5       3.5   4   3.6   9.5    Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQB4|YL215_MIMIV    15.3     0.014     1   0.0      3     88     16     86     84    151     Putative ankyrin repeat protein L215 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L215 PE=4 SV=1
+sp|Q197B1|049R_IIV3       8.2       2.1     3   0.1    383    457    386    440     64    119     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q197B1|049R_IIV3       3.5        62     4   0.2    524    589    537    584     77    124     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q197B1|049R_IIV3      -2.2   3.4e+03     2   0.1    244    323    271    289     71    119     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q197B1|049R_IIV3      -2.3   3.7e+03     1   0.1    109    193    161    173     10     22     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002003558@NC_011041.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002003558@NC_011041.txt data/models_hmm/YP_002003558@NC_011041.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:48 2021
+# [ok]

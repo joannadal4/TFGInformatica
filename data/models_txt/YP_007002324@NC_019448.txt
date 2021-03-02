@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q85672|S3BIS_DPIRV    20.9   0.00038   3   4.3   7.1    Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q85672|S3BIS_DPIRV     7.3       6.8     1   0.2    194    270    218    259     35     77     Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+sp|Q85672|S3BIS_DPIRV     7.3       6.8     3   0.2    894    970    918    959     35     77     Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+sp|Q85672|S3BIS_DPIRV     7.3       6.9     2   0.2    545    620    568    609     35     77     Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007002324@NC_019448.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007002324@NC_019448.txt data/models_hmm/YP_007002324@NC_019448.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:57 2021
+# [ok]

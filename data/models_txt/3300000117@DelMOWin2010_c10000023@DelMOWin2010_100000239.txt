@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPD1|YL051_MIMIV    13.9     0.051   3   2.5   5.3    Uncharacterized protein L51 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L51 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPD1|YL051_MIMIV    13.8     0.055     2   0.5     26     85     30     69     27     65     Uncharacterized protein L51 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L51 PE=3 SV=1
+sp|Q5UPD1|YL051_MIMIV     2.9   1.5e+02     1   0.5      5     31     11     29     24     42     Uncharacterized protein L51 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L51 PE=3 SV=1
+sp|Q5UPD1|YL051_MIMIV    -3.1   1.1e+04     3   0.0     92    115     95    111     36     52     Uncharacterized protein L51 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L51 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000117@DelMOWin2010_c10000023@DelMOWin2010_100000239.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000117@DelMOWin2010_c10000023@DelMOWin2010_100000239.txt data/models_hmm/3300000117@DelMOWin2010_c10000023@DelMOWin2010_100000239.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:46 2021
+# [ok]

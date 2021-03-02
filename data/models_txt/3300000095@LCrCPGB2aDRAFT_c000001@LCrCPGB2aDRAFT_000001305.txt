@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09699|US26_HCMVA    11.9     0.083   1   1.2   1.8    Uncharacterized protein HHLF5 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US26 PE=3 SV=1
+sp|F5H991|US26_HCMVM    11.9     0.083   1   1.2   1.8    Protein US26 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US26 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5H991|US26_HCMVM    11.3      0.13     1   1.8    469    573    485    520    164    199     Protein US26 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US26 PE=3 SV=1
+sp|P09699|US26_HCMVA    11.3      0.13     1   1.8    469    573    485    520    164    199     Uncharacterized protein HHLF5 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US26 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000095@LCrCPGB2aDRAFT_c000001@LCrCPGB2aDRAFT_000001305.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000095@LCrCPGB2aDRAFT_c000001@LCrCPGB2aDRAFT_000001305.txt data/models_hmm/3300000095@LCrCPGB2aDRAFT_c000001@LCrCPGB2aDRAFT_000001305.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:23 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9T1V4|BP45_BPMU     27.7   1.5e-06   1   1.1   0.2    Baseplate puncturing device gp45 OS=Escherichia phage Mu OX=10677 GN=Mup45 PE=1 SV=1
+sp|P31340|SPIKE_BPP2    14.8     0.013   1   1.1   0.0    Spike protein OS=Escherichia phage P2 OX=10679 GN=V PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9T1V4|BP45_BPMU     27.4   1.9e-06     1   0.2    103    196    113    192    221    307     Baseplate puncturing device gp45 OS=Escherichia phage Mu OX=10677 GN=Mup45 PE=1 SV=1
+sp|P31340|SPIKE_BPP2    14.4     0.017     1   0.0     96    210    115    206    211    307     Spike protein OS=Escherichia phage P2 OX=10679 GN=V PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004958053@NC_016571.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004958053@NC_016571.txt data/models_hmm/YP_004958053@NC_016571.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:00 2021
+# [ok]

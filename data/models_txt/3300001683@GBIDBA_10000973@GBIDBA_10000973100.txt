@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q66209|OE56_GVCPM    16.0    0.0046   1   1.2   0.0    Occlusion-derived virus envelope protein E56 OS=Cydia pomonella granulosis virus (isolate Mexico/1963) OX=654905 GN=odv-e56 PE=3 SV=1
+sp|Q65272|P54_ASFL6     13.0     0.037   1   1.2   0.3    Envelope protein p54 OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 PE=3 SV=1
+sp|Q89784|P54_ASFM2     12.7     0.045   1   1.1   0.2    Envelope protein p54 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-134 PE=3 SV=1
+sp|Q65194|P54_ASFB7     12.3     0.059   1   1.2   0.8    Envelope protein p54 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-126 PE=1 SV=1
+sp|P0CA00|P54_ASFWA     11.9     0.079   1   1.1   0.9    Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+sp|P0C9Z9|P54_ASFP4     11.9     0.082   1   1.1   0.9    Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+sp|P0C9Z8|P54_ASFK5     11.8     0.088   1   1.1   0.3    Envelope protein p54 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-138 PE=3 SV=1
+sp|P21071|A53_VACCC     11.2      0.13   1   1.1   5.3    Truncated secreted TNF-receptor-like protein A53 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A53R PE=3 SV=1
+sp|P24756|A53R_VACCW    10.2      0.26   1   1.2   4.7    Truncated secreted TNF-receptor-like protein A53R OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR179 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q66209|OE56_GVCPM    15.6     0.006     1   0.0    125    355    144    352    154    356     Occlusion-derived virus envelope protein E56 OS=Cydia pomonella granulosis virus (isolate Mexico/1963) OX=654905 GN=odv-e56 PE=3 SV=1
+sp|Q65272|P54_ASFL6     12.5     0.053     1   0.3     19     83     34     69    328    362     Envelope protein p54 OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 PE=3 SV=1
+sp|Q89784|P54_ASFM2     12.3     0.061     1   0.2     16     79     25     69    317    362     Envelope protein p54 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-134 PE=3 SV=1
+sp|Q65194|P54_ASFB7     11.8     0.085     1   0.8     25     83     34     69    328    362     Envelope protein p54 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-126 PE=1 SV=1
+sp|P0CA00|P54_ASFWA     11.5      0.11     1   0.9     21     82     34     69    328    362     Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+sp|P0C9Z9|P54_ASFP4     11.4      0.11     1   0.9     21     82     34     69    328    362     Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+sp|P0C9Z8|P54_ASFK5     11.4      0.11     1   0.3     18     79     32     70    324    362     Envelope protein p54 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-138 PE=3 SV=1
+sp|P21071|A53_VACCC     10.9      0.16     1   5.3      1    103      8    103    187    284     Truncated secreted TNF-receptor-like protein A53 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A53R PE=3 SV=1
+sp|P24756|A53R_VACCW    10.0       0.3     1   4.7      1    103      8    103    187    284     Truncated secreted TNF-receptor-like protein A53R OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR179 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001683@GBIDBA_10000973@GBIDBA_10000973100.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001683@GBIDBA_10000973@GBIDBA_10000973100.txt data/models_hmm/3300001683@GBIDBA_10000973@GBIDBA_10000973100.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:08 2021
+# [ok]

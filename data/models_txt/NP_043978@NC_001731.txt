@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q2HRA1|UL92_HHV8P    11.1     0.088   1   1.1   0.0    Protein ORF31 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF31 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q2HRA1|UL92_HHV8P    11.0     0.097     1   0.0     69    184     98    152     86    135     Protein ORF31 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF31 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_043978@NC_001731.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_043978@NC_001731.txt data/models_hmm/NP_043978@NC_001731.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:20 2021
+# [ok]

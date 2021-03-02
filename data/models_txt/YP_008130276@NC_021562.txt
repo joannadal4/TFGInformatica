@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O80295|G7P_BPIF1     16.4    0.0062   1   1.1   0.0    Tail virion protein G7P OS=Enterobacteria phage If1 OX=10868 GN=VII PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O80295|G7P_BPIF1     16.2    0.0071     1   0.0      2     32      4     32     11     39     Tail virion protein G7P OS=Enterobacteria phage If1 OX=10868 GN=VII PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008130276@NC_021562.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008130276@NC_021562.txt data/models_hmm/YP_008130276@NC_021562.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:24 2021
+# [ok]

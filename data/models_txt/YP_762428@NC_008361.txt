@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A4KXL9|CSPL_HVAVE   519.8  1.3e-156   1   1.0   2.0    Caspase-like protein OS=Heliothis virescens ascovirus 3e OX=260797 GN=ORF165 PE=3 SV=1
+sp|Q5K5C1|CASP_SFAVA   471.5    7e-142   1   1.0  12.1    Executioner caspase OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=ORF73 PE=2 SV=1
+sp|Q06VK9|CSPL_TNAVC   281.5   5.6e-84   1   1.2   2.7    Caspase-like protein OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF72 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A4KXL9|CSPL_HVAVE   519.6  1.5e-156     1   2.0      1    314      1    313      1    281     Caspase-like protein OS=Heliothis virescens ascovirus 3e OX=260797 GN=ORF165 PE=3 SV=1
+sp|Q5K5C1|CASP_SFAVA   471.3  7.8e-142     1  12.1      1    288      1    288      1    282     Executioner caspase OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=ORF73 PE=2 SV=1
+sp|Q06VK9|CSPL_TNAVC   281.0   7.8e-84     1   2.7      1    231      1    229      1    252     Caspase-like protein OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF72 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_762428@NC_008361.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_762428@NC_008361.txt data/models_hmm/YP_762428@NC_008361.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:49 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UNX0|YL717_MIMIV   231.0   5.6e-69   1   1.2  13.0    Uncharacterized protein L717 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L717 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UNX0|YL717_MIMIV   230.6   7.7e-69     1  13.0      1    179      1    179      1    160     Uncharacterized protein L717 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L717 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001348@JGI20154J14316_10000083@JGI20154J14316_1000008319.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001348@JGI20154J14316_10000083@JGI20154J14316_1000008319.txt data/models_hmm/3300001348@JGI20154J14316_10000083@JGI20154J14316_1000008319.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:53 2021
+# [ok]

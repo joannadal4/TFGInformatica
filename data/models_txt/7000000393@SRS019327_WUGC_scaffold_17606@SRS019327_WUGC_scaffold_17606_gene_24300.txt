@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q7T6X8|YR700_MIMIV    10.0      0.51   3   2.7   9.8    Uncharacterized serpin-like protein R700 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R700 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q7T6X8|YR700_MIMIV    10.7       0.3     2   5.6    148    282    159    247     12    101     Uncharacterized serpin-like protein R700 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R700 PE=3 SV=2
+sp|Q7T6X8|YR700_MIMIV    -0.7     1e+03     3   0.0    340    395    358    385     13     40     Uncharacterized serpin-like protein R700 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R700 PE=3 SV=2
+sp|Q7T6X8|YR700_MIMIV    -2.1   2.8e+03     1   0.0     98    157    115    136     70     91     Uncharacterized serpin-like protein R700 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R700 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000393@SRS019327_WUGC_scaffold_17606@SRS019327_WUGC_scaffold_17606_gene_24300.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000393@SRS019327_WUGC_scaffold_17606@SRS019327_WUGC_scaffold_17606_gene_24300.txt data/models_hmm/7000000393@SRS019327_WUGC_scaffold_17606@SRS019327_WUGC_scaffold_17606_gene_24300.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:49 2021
+# [ok]

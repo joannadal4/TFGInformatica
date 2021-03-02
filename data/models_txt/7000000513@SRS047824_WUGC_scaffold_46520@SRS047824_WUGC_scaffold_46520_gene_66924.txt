@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPD5|YL059_MIMIV    14.1     0.016   1   1.2   0.9    Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|Q805P9|VA003_VACCW    13.5     0.026   1   1.0   0.0    Uncharacterized protein VACWR003 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR003 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPD5|YL059_MIMIV    13.6     0.024     1   0.9      8    104     29     91    132    194     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|Q805P9|VA003_VACCW    13.3     0.028     1   0.0      2     71      7     69     57    115     Uncharacterized protein VACWR003 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR003 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000513@SRS047824_WUGC_scaffold_46520@SRS047824_WUGC_scaffold_46520_gene_66924.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000513@SRS047824_WUGC_scaffold_46520@SRS047824_WUGC_scaffold_46520_gene_66924.txt data/models_hmm/7000000513@SRS047824_WUGC_scaffold_46520@SRS047824_WUGC_scaffold_46520_gene_66924.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:58 2021
+# [ok]

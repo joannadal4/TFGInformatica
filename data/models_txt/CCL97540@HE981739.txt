@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O55726|110R_IIV6      18.2    0.0016   1   1.1   0.0    Uncharacterized protein 110R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-110R PE=3 SV=1
+sp|F5H9T4|UL09_HCMVM     15.0     0.017   1   1.6   0.4    Membrane glycoprotein UL9 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL9 PE=3 SV=1
+sp|P16745|UL09_HCMVA     12.9     0.075   2   1.7   0.5    Uncharacterized protein UL9 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL9 PE=3 SV=1
+sp|Q5UPY8|YR305_MIMIV    11.9      0.15   1   1.5   1.3    Uncharacterized protein R305 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R305 PE=4 SV=1
+sp|Q5UP57|P4H_MIMIV      11.3      0.23   1   1.6   1.5    Putative prolyl 4-hydroxylase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L593 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O55726|110R_IIV6      18.1    0.0018     1   0.0      1     57      7     49     11     54     Uncharacterized protein 110R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-110R PE=3 SV=1
+sp|F5H9T4|UL09_HCMVM     13.7     0.042     1   0.4    191    230    195    226      6     37     Membrane glycoprotein UL9 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL9 PE=3 SV=1
+sp|P16745|UL09_HCMVA     11.6      0.19     2   0.3    187    227    190    223      6     39     Uncharacterized protein UL9 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL9 PE=3 SV=1
+sp|Q5UPY8|YR305_MIMIV    11.1      0.26     1   1.3      8     51      9     34      2     27     Uncharacterized protein R305 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R305 PE=4 SV=1
+sp|Q5UP57|P4H_MIMIV      10.3      0.47     1   1.5      1     51      1     26      1     27     Putative prolyl 4-hydroxylase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L593 PE=1 SV=1
+sp|P16745|UL09_HCMVA     -3.1   7.3e+03     1   0.0     12     50     24     38     35     48     Uncharacterized protein UL9 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL9 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/CCL97540@HE981739.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/CCL97540@HE981739.txt data/models_hmm/CCL97540@HE981739.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:07 2021
+# [ok]

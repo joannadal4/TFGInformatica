@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P89470|TEG7_HHV2H    10.4      0.16   1   1.1   0.0    Tegument protein UL51 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL51 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P89470|TEG7_HHV2H    10.0      0.21     1   0.0     50    131     56    129     42    112     Tegument protein UL51 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL51 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000583@SRS019974_Baylor_scaffold_26106@SRS019974_Baylor_scaffold_26106_gene_28753.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000583@SRS019974_Baylor_scaffold_26106@SRS019974_Baylor_scaffold_26106_gene_28753.txt data/models_hmm/7000000583@SRS019974_Baylor_scaffold_26106@SRS019974_Baylor_scaffold_26106_gene_28753.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:23 2021
+# [ok]

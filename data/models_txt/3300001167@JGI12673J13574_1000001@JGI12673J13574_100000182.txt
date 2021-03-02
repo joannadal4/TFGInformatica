@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q04830|FIBER_BPK1F    14.5    0.0066   2   1.6   0.1    Tail spike protein OS=Escherichia phage K1F OX=344021 PE=1 SV=4
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q04830|FIBER_BPK1F    14.5    0.0066     1   0.1    230    276    239    264    221    246     Tail spike protein OS=Escherichia phage K1F OX=344021 PE=1 SV=4
+sp|Q04830|FIBER_BPK1F    -3.5   1.8e+03     2   0.4    686    741    703    736    593    625     Tail spike protein OS=Escherichia phage K1F OX=344021 PE=1 SV=4
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001167@JGI12673J13574_1000001@JGI12673J13574_100000182.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001167@JGI12673J13574_1000001@JGI12673J13574_100000182.txt data/models_hmm/3300001167@JGI12673J13574_1000001@JGI12673J13574_100000182.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:30 2021
+# [ok]

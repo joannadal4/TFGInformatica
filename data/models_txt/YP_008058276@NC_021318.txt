@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05230|VG02_BPML5   552.4  1.1e-166   1   1.0   0.1    Gene 2 protein OS=Mycobacterium phage L5 OX=31757 GN=2 PE=4 SV=1
+sp|O64198|VG02_BPMD2   542.8  9.6e-164   1   1.0   0.1    Gene 2 protein OS=Mycobacterium phage D29 OX=28369 GN=2 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05230|VG02_BPML5   552.3  1.3e-166     1   0.1      1    259      1    259      1    262     Gene 2 protein OS=Mycobacterium phage L5 OX=31757 GN=2 PE=4 SV=1
+sp|O64198|VG02_BPMD2   542.7  1.1e-163     1   0.1      1    259      1    259      1    263     Gene 2 protein OS=Mycobacterium phage D29 OX=28369 GN=2 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008058276@NC_021318.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008058276@NC_021318.txt data/models_hmm/YP_008058276@NC_021318.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:12 2021
+# [ok]

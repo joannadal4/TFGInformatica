@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P01110|MYC_AVIMC     12.3      0.11   1   1.5   0.1    Viral myc transforming protein OS=Avian myelocytomatosis virus MC29 OX=11868 GN=MYC PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P01110|MYC_AVIMC     11.3      0.22     1   0.1    361    416    363    414      4     54     Viral myc transforming protein OS=Avian myelocytomatosis virus MC29 OX=11868 GN=MYC PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001683@GBIDBA_10000616@GBIDBA_100006166.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001683@GBIDBA_10000616@GBIDBA_100006166.txt data/models_hmm/3300001683@GBIDBA_10000616@GBIDBA_100006166.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:07 2021
+# [ok]

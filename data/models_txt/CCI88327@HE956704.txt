@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CJ95|MVP_BYMV      14.1     0.036   2   2.1   0.0    P3N-PIPO polyprotein OS=Bean yellow mosaic virus OX=12197 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CJ95|MVP_BYMV      12.1      0.15     1   0.0    188    273    198    265     25     89     P3N-PIPO polyprotein OS=Bean yellow mosaic virus OX=12197 PE=3 SV=2
+sp|P0CJ95|MVP_BYMV      -3.2   8.3e+03     2   0.0    599    622    603    618     36     51     P3N-PIPO polyprotein OS=Bean yellow mosaic virus OX=12197 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/CCI88327@HE956704.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/CCI88327@HE956704.txt data/models_hmm/CCI88327@HE956704.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:04 2021
+# [ok]

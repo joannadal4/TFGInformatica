@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9T1U0|VP08_BPAPS    13.6     0.058   1   1.2   0.0    Putative protein p8 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=8 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9T1U0|VP08_BPAPS    13.3     0.071     1   0.0      1     51      4     41     20     57     Putative protein p8 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=8 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003517847@NC_013953.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003517847@NC_013953.txt data/models_hmm/YP_003517847@NC_013953.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:38 2021
+# [ok]

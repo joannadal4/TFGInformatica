@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q86285|S7_DPIRV      11.7      0.13   1   1.5   0.1    Uncharacterized protein S7 OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S7 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q86285|S7_DPIRV      10.6      0.28     1   0.1     10    118     23    102     44    124     Uncharacterized protein S7 OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S7 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000305@SRS062761_LANL_scaffold_51649@SRS062761_LANL_scaffold_51649_gene_65040.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000305@SRS062761_LANL_scaffold_51649@SRS062761_LANL_scaffold_51649_gene_65040.txt data/models_hmm/7000000305@SRS062761_LANL_scaffold_51649@SRS062761_LANL_scaffold_51649_gene_65040.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:09 2021
+# [ok]

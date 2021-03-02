@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q70LC7|Y132_AFV1Y    14.9     0.013   1   1.2   0.2    Uncharacterized protein ORF132 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF132 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q70LC7|Y132_AFV1Y    14.6     0.015     1   0.2     12    125     32    106    137    203     Uncharacterized protein ORF132 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF132 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000482@SRS016541_Baylor_scaffold_14506@SRS016541_Baylor_scaffold_14506_gene_18325.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000482@SRS016541_Baylor_scaffold_14506@SRS016541_Baylor_scaffold_14506_gene_18325.txt data/models_hmm/7000000482@SRS016541_Baylor_scaffold_14506@SRS016541_Baylor_scaffold_14506_gene_18325.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:37 2021
+# [ok]

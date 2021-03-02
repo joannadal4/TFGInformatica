@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6UDK4|GB_PSHV1      13.5     0.052   1   1.6   4.0    Envelope glycoprotein B OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=gB PE=3 SV=1
+sp|P24904|GB_ILTVT      11.7       0.2   1   1.9   3.2    Envelope glycoprotein B OS=Infectious laryngotracheitis virus (strain Thorne V882) OX=10344 GN=gB PE=3 SV=1
+sp|Q02409|GB_ILTV6      11.3      0.27   1   1.7   3.2    Envelope glycoprotein B OS=Infectious laryngotracheitis virus (strain 632) OX=31521 GN=gB PE=3 SV=2
+sp|P27415|GB_ILTVS       7.4       4.5   2   2.0   8.3    Envelope glycoprotein B OS=Infectious laryngotracheitis virus (strain SA-2) OX=10343 GN=gB PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6UDK4|GB_PSHV1      12.3      0.13     1   4.0    751    805    753    793      4     43     Envelope glycoprotein B OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=gB PE=3 SV=1
+sp|Q02409|GB_ILTV6       9.8      0.74     1   3.2    712    770    714    755      3     43     Envelope glycoprotein B OS=Infectious laryngotracheitis virus (strain 632) OX=31521 GN=gB PE=3 SV=2
+sp|P24904|GB_ILTVT       9.8      0.75     1   3.2    722    780    724    765      3     43     Envelope glycoprotein B OS=Infectious laryngotracheitis virus (strain Thorne V882) OX=10344 GN=gB PE=3 SV=1
+sp|P27415|GB_ILTVS       9.8      0.79     2   3.9    722    780    724    765      3     43     Envelope glycoprotein B OS=Infectious laryngotracheitis virus (strain SA-2) OX=10343 GN=gB PE=3 SV=1
+sp|P27415|GB_ILTVS      -3.7   1.3e+04     1   0.1    636    652    639    650     19     30     Envelope glycoprotein B OS=Infectious laryngotracheitis virus (strain SA-2) OX=10343 GN=gB PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001604199@NC_010152.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001604199@NC_010152.txt data/models_hmm/YP_001604199@NC_010152.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:34 2021
+# [ok]

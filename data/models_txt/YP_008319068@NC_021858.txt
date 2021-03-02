@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQJ9|YL397_MIMIV    11.8     0.096   1   1.4   1.2    Uncharacterized protein L397 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L397 PE=4 SV=1
+sp|P12518|VPU_HV1RH       9.8       0.4   1   1.2   1.3    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate RF/HAT3) OX=11701 GN=vpu PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQJ9|YL397_MIMIV    10.8      0.19     1   1.2    416    481    422    475     59    105     Uncharacterized protein L397 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L397 PE=4 SV=1
+sp|P12518|VPU_HV1RH       9.6      0.47     1   1.3      2     44      6     33    274    303     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate RF/HAT3) OX=11701 GN=vpu PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008319068@NC_021858.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008319068@NC_021858.txt data/models_hmm/YP_008319068@NC_021858.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:44 2021
+# [ok]

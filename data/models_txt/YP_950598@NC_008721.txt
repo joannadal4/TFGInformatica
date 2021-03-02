@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64220|VG26_BPMD2    28.4   3.9e-07   4   4.2  45.1    Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|Q05233|VG26_BPML5    27.2     9e-07   3   3.6  51.9    Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q0PDK7|TMP_BPSPP     26.4   1.5e-06   4   4.6   0.9    Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q0PDK7|TMP_BPSPP     26.4   1.5e-06     4   0.9    813    965    881    959    905    983     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|Q05233|VG26_BPML5    22.2   2.8e-05     2  29.1    285    587    308    563    447    707     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|O64220|VG26_BPMD2    16.8    0.0012     2   5.1    296    451    307    444    548    683     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|O64220|VG26_BPMD2    15.2    0.0037     4   0.1    586    682    594    661    908    976     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|O64220|VG26_BPMD2    11.1     0.063     3  14.5    439    589    444    571    555    677     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|Q05233|VG26_BPML5     8.5       0.4     3   0.5    566    684    586    670    903    983     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q05233|VG26_BPML5     3.8        10     1  12.5    124    371    145    346    525    718     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q0PDK7|TMP_BPSPP      1.9        40     2   3.1    290    515    312    491    595    761     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|Q0PDK7|TMP_BPSPP      1.8        43     3  17.9    523    793    543    763    502    730     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|O64220|VG26_BPMD2     0.3   1.2e+02     1   6.5    106    334    159    283    555    683     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|Q0PDK7|TMP_BPSPP     -1.7   4.7e+02     1   4.8     46    143     81    119    455    494     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_950598@NC_008721.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_950598@NC_008721.txt data/models_hmm/YP_950598@NC_008721.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:55 2021
+# [ok]

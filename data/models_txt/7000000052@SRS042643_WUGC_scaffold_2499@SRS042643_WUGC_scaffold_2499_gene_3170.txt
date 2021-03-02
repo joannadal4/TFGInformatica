@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q1A250|GAG_SIVEK     10.2      0.25   1   1.2   0.0    Gag polyprotein OS=Simian immunodeficiency virus (isolate EK505) OX=388912 GN=gag PE=3 SV=3
+sp|Q9IDV8|GAG_HV1YB     10.1      0.26   1   1.2   0.0    Gag polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF106) OX=388819 GN=gag PE=3 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9IDV8|GAG_HV1YB      9.5      0.41     1   0.0    145    218    159    211    226    273     Gag polyprotein OS=Human immunodeficiency virus type 1 group N (isolate YBF106) OX=388819 GN=gag PE=3 SV=3
+sp|Q1A250|GAG_SIVEK      9.5      0.41     1   0.0    143    217    160    212    226    273     Gag polyprotein OS=Simian immunodeficiency virus (isolate EK505) OX=388912 GN=gag PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000052@SRS042643_WUGC_scaffold_2499@SRS042643_WUGC_scaffold_2499_gene_3170.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000052@SRS042643_WUGC_scaffold_2499@SRS042643_WUGC_scaffold_2499_gene_3170.txt data/models_hmm/7000000052@SRS042643_WUGC_scaffold_2499@SRS042643_WUGC_scaffold_2499_gene_3170.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:03 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q70LB7|Y080_AFV1Y    12.8     0.057   1   1.1   0.0    Uncharacterized protein ORF80 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF80 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q70LB7|Y080_AFV1Y    12.7     0.061     1   0.0     25     71     43     61     28     46     Uncharacterized protein ORF80 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF80 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000214@SRS015158_WUGC_scaffold_4007@SRS015158_WUGC_scaffold_4007_gene_3948.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000214@SRS015158_WUGC_scaffold_4007@SRS015158_WUGC_scaffold_4007_gene_3948.txt data/models_hmm/7000000214@SRS015158_WUGC_scaffold_4007@SRS015158_WUGC_scaffold_4007_gene_3948.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:24 2021
+# [ok]

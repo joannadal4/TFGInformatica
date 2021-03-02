@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A7XCE1|ORF12_TTVV3     5.6       3.2   1   1.0  11.8    ORF1/2 protein OS=Torque teno virus (isolate Human/Finland/Hel32/2002) OX=687342 GN=ORF1/2 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A7XCE1|ORF12_TTVV3     5.5       3.3     1  11.8     12    124     24     88     68    132     ORF1/2 protein OS=Torque teno virus (isolate Human/Finland/Hel32/2002) OX=687342 GN=ORF1/2 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007003747@NC_019491.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007003747@NC_019491.txt data/models_hmm/YP_007003747@NC_019491.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:04 2021
+# [ok]

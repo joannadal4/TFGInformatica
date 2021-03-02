@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20210|C792_SSV1   1336.1         0   1   1.0 104.1    Uncharacterized protein C-792 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=c792 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20210|C792_SSV1   1336.0         0     1 104.1      1    792      1    792      1    791     Uncharacterized protein C-792 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=c792 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001552179@NC_009986.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001552179@NC_009986.txt data/models_hmm/YP_001552179@NC_009986.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:31 2021
+# [ok]

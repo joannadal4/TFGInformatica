@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q4Z9G3|PORTL_BPTWO    24.5   2.8e-05   2   2.1   0.1    Probable portal protein OS=Staphylococcus phage Twort (strain DSM 17442 / HER 48) OX=1283338 PE=3 SV=1
+sp|A8E264|PORTL_BPPHE    19.0    0.0014   1   1.8   0.0    Probable portal protein OS=Enterococcus phage phiEF24C OX=442493 GN=EFP_012 PE=3 SV=1
+sp|B6V2N4|PORTL_BPSP1    16.4    0.0087   1   1.7   0.0    Probable portal protein OS=Bacillus phage SP01 OX=10685 GN=3.1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q4Z9G3|PORTL_BPTWO    22.5   0.00012     2   0.0    441    523    450    486     11     47     Probable portal protein OS=Staphylococcus phage Twort (strain DSM 17442 / HER 48) OX=1283338 PE=3 SV=1
+sp|A8E264|PORTL_BPPHE    17.4    0.0043     1   0.0    439    510    447    473     10     36     Probable portal protein OS=Enterococcus phage phiEF24C OX=442493 GN=EFP_012 PE=3 SV=1
+sp|B6V2N4|PORTL_BPSP1    15.1     0.023     1   0.0    430    480    439    461     12     34     Probable portal protein OS=Bacillus phage SP01 OX=10685 GN=3.1 PE=3 SV=1
+sp|Q4Z9G3|PORTL_BPTWO    -3.1     1e+04     1   0.0     75    121     82    112     14     44     Probable portal protein OS=Staphylococcus phage Twort (strain DSM 17442 / HER 48) OX=1283338 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_612833@NC_003524.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_612833@NC_003524.txt data/models_hmm/NP_612833@NC_003524.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:11 2021
+# [ok]

@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P06955|NP_BPPZA     148.6   4.2e-44   1   1.0   7.3    Histone-like protein p6 OS=Bacillus phage PZA OX=10757 GN=6 PE=3 SV=1
+sp|Q37886|NP_BPB03     148.4   5.1e-44   1   1.0   2.8    Histone-like protein p6 OS=Bacillus phage B103 OX=10778 GN=6 PE=3 SV=1
+sp|P03685|NP_BPPH2     148.3   5.2e-44   1   1.0   8.7    Histone-like protein p6 OS=Bacillus phage phi29 OX=10756 GN=6 PE=1 SV=1
+sp|B7SSM6|NP_BPNF      144.5     8e-43   1   1.0   4.6    Double-stranded DNA-binding protein OS=Bacillus phage Nf OX=10753 GN=6 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P06955|NP_BPPZA     148.5   4.6e-44     1   7.3      1     96      1     96      1     95     Histone-like protein p6 OS=Bacillus phage PZA OX=10757 GN=6 PE=3 SV=1
+sp|Q37886|NP_BPB03     148.2   5.6e-44     1   2.8      1    100      1    100      1     98     Histone-like protein p6 OS=Bacillus phage B103 OX=10778 GN=6 PE=3 SV=1
+sp|P03685|NP_BPPH2     148.2   5.8e-44     1   8.7      1    104      1    104      1     95     Histone-like protein p6 OS=Bacillus phage phi29 OX=10756 GN=6 PE=1 SV=1
+sp|B7SSM6|NP_BPNF      144.4   8.8e-43     1   4.6      1    100      1    100      1     98     Double-stranded DNA-binding protein OS=Bacillus phage Nf OX=10753 GN=6 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008060113@NC_021336.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008060113@NC_021336.txt data/models_hmm/YP_008060113@NC_021336.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:18 2021
+# [ok]

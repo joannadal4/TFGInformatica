@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9JFS4|KBTB2_ECTVM    13.1     0.061   3   3.2   0.4    Kelch repeat and BTB domain-containing protein 2 OS=Ectromelia virus (strain Moscow) OX=265874 GN=KBTB2 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9JFS4|KBTB2_ECTVM    13.1     0.061     3   0.4    269    374    298    360     40     97     Kelch repeat and BTB domain-containing protein 2 OS=Ectromelia virus (strain Moscow) OX=265874 GN=KBTB2 PE=1 SV=1
+sp|Q9JFS4|KBTB2_ECTVM    -0.3     9e+02     2   0.3    107    194    110    148     41     80     Kelch repeat and BTB domain-containing protein 2 OS=Ectromelia virus (strain Moscow) OX=265874 GN=KBTB2 PE=1 SV=1
+sp|Q9JFS4|KBTB2_ECTVM    -1.9   2.8e+03     1   0.0     73    120     79    112     58     91     Kelch repeat and BTB domain-containing protein 2 OS=Ectromelia virus (strain Moscow) OX=265874 GN=KBTB2 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AP_000256@AC_000009.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AP_000256@AC_000009.txt data/models_hmm/AP_000256@AC_000009.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:58 2021
+# [ok]

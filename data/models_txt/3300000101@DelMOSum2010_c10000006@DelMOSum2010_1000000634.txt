@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O55731|116L_IIV6     12.2      0.16   2   2.0   0.3    Uncharacterized protein 116L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-116L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O55731|116L_IIV6     10.3      0.63     1   0.0     22     74     31     66     17     47     Uncharacterized protein 116L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-116L PE=4 SV=1
+sp|O55731|116L_IIV6     -0.4   1.4e+03     2   0.1     69     93     75     91     16     31     Uncharacterized protein 116L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-116L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000101@DelMOSum2010_c10000006@DelMOSum2010_1000000634.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000101@DelMOSum2010_c10000006@DelMOSum2010_1000000634.txt data/models_hmm/3300000101@DelMOSum2010_c10000006@DelMOSum2010_1000000634.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:26 2021
+# [ok]

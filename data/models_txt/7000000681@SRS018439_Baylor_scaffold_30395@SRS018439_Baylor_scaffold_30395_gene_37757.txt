@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36847|SPIKE_ADE15    14.7     0.021   1   1.7   0.0    Fiber protein OS=Human adenovirus D serotype 15 OX=28276 GN=L5 PE=2 SV=1
+sp|P68982|SPIKE_ADE09    13.3     0.061   1   1.6   0.0    Fiber protein OS=Human adenovirus D serotype 9 OX=10527 GN=L5 PE=2 SV=1
+sp|P68983|SPIKE_ADE1H    13.3     0.061   1   1.6   0.0    Fiber protein OS=Human adenovirus D serotype 15/H9 OX=308444 GN=L5 PE=2 SV=1
+sp|P36845|SPIKE_ADE08    12.4      0.11   1   1.6   0.0    Fiber protein OS=Human adenovirus D serotype 8 OX=31545 GN=L5 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36847|SPIKE_ADE15    13.4     0.056     1   0.0    130    197    137    171     18     52     Fiber protein OS=Human adenovirus D serotype 15 OX=28276 GN=L5 PE=2 SV=1
+sp|P68982|SPIKE_ADE09    12.2      0.13     1   0.0    131    215    138    186     19     62     Fiber protein OS=Human adenovirus D serotype 9 OX=10527 GN=L5 PE=2 SV=1
+sp|P68983|SPIKE_ADE1H    12.2      0.13     1   0.0    131    215    138    186     19     62     Fiber protein OS=Human adenovirus D serotype 15/H9 OX=308444 GN=L5 PE=2 SV=1
+sp|P36845|SPIKE_ADE08    11.1      0.29     1   0.0    130    212    137    186     18     62     Fiber protein OS=Human adenovirus D serotype 8 OX=31545 GN=L5 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000681@SRS018439_Baylor_scaffold_30395@SRS018439_Baylor_scaffold_30395_gene_37757.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000681@SRS018439_Baylor_scaffold_30395@SRS018439_Baylor_scaffold_30395_gene_37757.txt data/models_hmm/7000000681@SRS018439_Baylor_scaffold_30395@SRS018439_Baylor_scaffold_30395_gene_37757.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:55 2021
+# [ok]

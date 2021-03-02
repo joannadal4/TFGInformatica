@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q2HRC7|VIL6_HHV8P    12.8       0.1   1   1.5   0.0    Viral interleukin-6 homolog OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=K2 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q2HRC7|VIL6_HHV8P    11.8      0.21     1   0.0     71    132    104    129     65     90     Viral interleukin-6 homolog OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=K2 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000118@SRS024289_LANL_scaffold_45134@SRS024289_LANL_scaffold_45134_gene_59732.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000118@SRS024289_LANL_scaffold_45134@SRS024289_LANL_scaffold_45134_gene_59732.txt data/models_hmm/7000000118@SRS024289_LANL_scaffold_45134@SRS024289_LANL_scaffold_45134_gene_59732.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:36 2021
+# [ok]

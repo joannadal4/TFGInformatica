@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C6T7|R1A_BCRP3     20.5   0.00044   1   1.6   0.3    Replicase polyprotein 1a OS=Bat coronavirus Rp3/2004 OX=349344 GN=1a PE=3 SV=1
+sp|P0C6F5|R1A_BC279     19.6    0.0008   1   1.6   0.6    Replicase polyprotein 1a OS=Bat coronavirus 279/2005 OX=389167 GN=1a PE=3 SV=1
+sp|P0C6W6|R1AB_BCRP3    19.6   0.00082   1   1.6   0.3    Replicase polyprotein 1ab OS=Bat coronavirus Rp3/2004 OX=349344 GN=rep PE=3 SV=1
+sp|P0C6V9|R1AB_BC279    18.7    0.0015   1   1.5   0.6    Replicase polyprotein 1ab OS=Bat coronavirus 279/2005 OX=389167 GN=rep PE=3 SV=1
+sp|P0C6U8|R1A_SARS      17.2    0.0045   1   1.7   0.3    Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1
+sp|P0C6X7|R1AB_SARS     16.4     0.008   1   1.6   0.3    Replicase polyprotein 1ab OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=rep PE=1 SV=1
+sp|P0C6F8|R1A_BCHK3      6.8       7.3   2   2.1   9.5    Replicase polyprotein 1a OS=Bat coronavirus HKU3 OX=442736 GN=1a PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C6T7|R1A_BCRP3     19.1    0.0012     1   0.3   1963   2060   1992   2055     78    141     Replicase polyprotein 1a OS=Bat coronavirus Rp3/2004 OX=349344 GN=1a PE=3 SV=1
+sp|P0C6W6|R1AB_BCRP3    18.3     0.002     1   0.3   1963   2060   1992   2055     78    141     Replicase polyprotein 1ab OS=Bat coronavirus Rp3/2004 OX=349344 GN=rep PE=3 SV=1
+sp|P0C6F5|R1A_BC279     18.2    0.0021     1   0.6   1971   2068   1999   2063     77    141     Replicase polyprotein 1a OS=Bat coronavirus 279/2005 OX=389167 GN=1a PE=3 SV=1
+sp|P0C6V9|R1AB_BC279    17.5    0.0036     1   0.6   1971   2068   1999   2063     77    141     Replicase polyprotein 1ab OS=Bat coronavirus 279/2005 OX=389167 GN=rep PE=3 SV=1
+sp|P0C6U8|R1A_SARS      15.8     0.012     1   0.3   1965   2062   1994   2057     78    141     Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1
+sp|P0C6X7|R1AB_SARS     15.0     0.021     1   0.3   1965   2062   1994   2057     78    141     Replicase polyprotein 1ab OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=rep PE=1 SV=1
+sp|P0C6F8|R1A_BCHK3     13.6     0.058     2   0.4   1964   2056   1988   2051     78    141     Replicase polyprotein 1a OS=Bat coronavirus HKU3 OX=442736 GN=1a PE=3 SV=1
+sp|P0C6F8|R1A_BCHK3     -5.2   1.7e+04     1   3.2   1168   1207   1171   1204    113    144     Replicase polyprotein 1a OS=Bat coronavirus HKU3 OX=442736 GN=1a PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006908823@NC_018854.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006908823@NC_018854.txt data/models_hmm/YP_006908823@NC_018854.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:36 2021
+# [ok]

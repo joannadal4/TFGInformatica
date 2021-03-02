@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP41|YR871_MIMIV    14.9     0.022   2   1.7   0.5    Uncharacterized protein R871 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R871 PE=3 SV=1
+sp|Q2HRD0|DPOL_HHV8P     13.6     0.054   1   1.6   0.0    DNA polymerase catalytic subunit OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF9 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UP41|YR871_MIMIV    13.5      0.06     1   0.4    312    405    319    396     62    138     Uncharacterized protein R871 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R871 PE=3 SV=1
+sp|Q2HRD0|DPOL_HHV8P     12.4      0.13     1   0.0    725    820    738    801     65    127     DNA polymerase catalytic subunit OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF9 PE=3 SV=1
+sp|Q5UP41|YR871_MIMIV    -1.2   1.9e+03     2   0.0    376    451    392    446     84    140     Uncharacterized protein R871 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R871 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000442@SRS051791_LANL_scaffold_7629@SRS051791_LANL_scaffold_7629_gene_15927.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000442@SRS051791_LANL_scaffold_7629@SRS051791_LANL_scaffold_7629_gene_15927.txt data/models_hmm/7000000442@SRS051791_LANL_scaffold_7629@SRS051791_LANL_scaffold_7629_gene_15927.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:24 2021
+# [ok]

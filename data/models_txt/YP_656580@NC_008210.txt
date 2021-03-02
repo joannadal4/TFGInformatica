@@ -1,0 +1,106 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q00104|VG46_ICHVA     61.7   2.7e-17   3   2.8   0.6    Probable major glycoprotein OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF46 PE=3 SV=1
+sp|P09990|FUS_PI3B       31.4   3.7e-08   2   2.1   1.3    Fusion glycoprotein F0 OS=Bovine parainfluenza 3 virus OX=11215 GN=F PE=3 SV=2
+sp|P06828|FUS_PI3H4      30.3   8.6e-08   2   2.1   1.6    Fusion glycoprotein F0 OS=Human parainfluenza 3 virus (strain Wash/47885/57) OX=11217 GN=F PE=1 SV=2
+sp|P12574|FUS_RINDK      25.8     2e-06   1   1.2   1.3    Fusion glycoprotein F0 OS=Rinderpest virus (strain Kabete O) OX=11242 GN=F PE=3 SV=1
+sp|P41356|FUS_RINDR      25.4   2.5e-06   1   1.2   1.3    Fusion glycoprotein F0 OS=Rinderpest virus (strain RBOK) OX=36409 GN=F PE=3 SV=1
+sp|P41360|FUS_RINDB      24.5   4.6e-06   2   1.6   0.9    Fusion glycoprotein F0 OS=Rinderpest virus (strain RBT1) OX=39007 GN=F PE=3 SV=1
+sp|P10864|FUS_RINDL      23.6   8.6e-06   2   1.7   1.0    Fusion glycoprotein F0 OS=Rinderpest virus (strain L) OX=11243 GN=F PE=3 SV=1
+sp|Q9IH63|FUS_NIPAV      23.0   1.3e-05   1   1.3   0.1    Fusion glycoprotein F0 OS=Nipah virus OX=121791 GN=F PE=1 SV=1
+sp|P28886|FUS_PHODV      22.0   2.7e-05   2   1.4   1.5    Fusion glycoprotein F0 OS=Phocine distemper virus OX=11240 GN=F PE=3 SV=2
+sp|P12569|FUS_CDVO       20.8     6e-05   1   1.2   0.7    Fusion glycoprotein F0 OS=Canine distemper virus (strain Onderstepoort) OX=11233 GN=F PE=1 SV=1
+sp|P26031|FUS_MEASI      20.6     7e-05   1   1.1   1.8    Fusion glycoprotein F0 OS=Measles virus (strain IP-3-Ca) OX=11237 GN=F PE=3 SV=1
+sp|P24614|FUS_TRTV       20.4   8.2e-05   2   2.1   1.3    Fusion glycoprotein F0 OS=Turkey rhinotracheitis virus OX=11264 GN=F PE=2 SV=1
+sp|P06156|FUS_NDVB       20.3   8.7e-05   1   1.2   2.9    Fusion glycoprotein F0 OS=Newcastle disease virus (strain Beaudette C/45) OX=11178 GN=F PE=3 SV=1
+sp|P26032|FUS_MEASY      20.0    0.0001   1   1.1   0.8    Fusion glycoprotein F0 OS=Measles virus (strain Yamagata-1) OX=11239 GN=F PE=2 SV=1
+sp|P69353|FUS_MEASE      20.0   0.00011   1   1.2   1.1    Fusion glycoprotein F0 OS=Measles virus (strain Edmonston) OX=11235 GN=F PE=3 SV=1
+sp|P69354|FUS_MEASF      20.0   0.00011   1   1.2   1.1    Fusion glycoprotein F0 OS=Measles virus (strain Edmonston B) OX=70146 GN=F PE=3 SV=1
+sp|P69355|FUS_MEASH      20.0   0.00011   1   1.2   1.1    Fusion glycoprotein F0 OS=Measles virus (strain Halle) OX=11236 GN=F PE=2 SV=1
+sp|P69356|FUS_MEASL      20.0   0.00011   1   1.2   1.1    Fusion glycoprotein F0 OS=Measles virus (strain Leningrad-16) OX=70147 GN=F PE=3 SV=1
+sp|P69357|FUS_MEASP      20.0   0.00011   1   1.2   1.1    Fusion glycoprotein F0 OS=Measles virus (strain Philadelphia-26) OX=70148 GN=F PE=2 SV=1
+sp|P69358|FUS_MEASZ      20.0   0.00011   1   1.2   1.1    Fusion glycoprotein F0 OS=Measles virus (strain Edmonston-Zagreb vaccine) OX=70149 GN=F PE=3 SV=1
+sp|Q786F3|FUS_MEASC      20.0   0.00011   1   1.2   1.1    Fusion glycoprotein F0 OS=Measles virus (strain Ichinose-B95a) OX=645098 GN=F PE=1 SV=1
+sp|P35973|FUS_MEASA      19.9   0.00011   1   1.1   1.1    Fusion glycoprotein F0 OS=Measles virus (strain Edmonston-AIK-C vaccine) OX=36408 GN=F PE=3 SV=1
+sp|P12571|FUS_NDVTG      19.9   0.00012   1   1.2   2.7    Fusion glycoprotein F0 OS=Newcastle disease virus (strain Chicken/United States(TX)/GB/48) OX=11189 GN=F PE=3 SV=1
+sp|P10865|FUS_NDVM       19.2   0.00019   1   1.3   1.5    Fusion glycoprotein F0 OS=Newcastle disease virus (strain Miyadera/51) OX=11185 GN=F PE=3 SV=1
+sp|P26628|FUS_NDVT       18.0   0.00044   1   1.2   2.5    Fusion glycoprotein F0 OS=Newcastle disease virus (strain Texas) OX=11188 GN=F PE=3 SV=1
+sp|Q9DUD9|FUS_SENDA      14.1    0.0067   2   2.1   2.7    Fusion glycoprotein F0 OS=Sendai virus (strain Hamamatsu) OX=302271 GN=F PE=3 SV=1
+sp|O57295|FUS_SENDO      12.6     0.018   2   2.1   2.7    Fusion glycoprotein F0 OS=Sendai virus (strain Ohita) OX=302272 GN=F PE=3 SV=1
+sp|P12605|FUS_PI1HC      12.4     0.021   2   2.1   3.8    Fusion glycoprotein F0 OS=Human parainfluenza 1 virus (strain C39) OX=11210 GN=F PE=2 SV=1
+sp|P10259|ENV_MMTVB      10.6     0.076   1   1.1   1.0    Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain BR6) OX=11758 GN=env PE=3 SV=1
+sp|P03374|ENV_MMTVG      10.5     0.078   1   1.0   1.0    Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain GR) OX=11760 GN=env PE=1 SV=1
+sp|Q85646|ENV_MMTVC      10.2     0.097   1   1.1   1.0    Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain C3H) OX=11759 GN=env PE=1 SV=1
+sp|P04507|SIGM1_REOVJ     9.4      0.17   2   1.5   1.3    Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|P04855|FUS_SENDZ       8.6      0.29   2   2.1   4.7    Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|P12575|FUS_SENDF       7.5      0.62   2   2.1   5.3    Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+sp|P04856|FUS_SENDH       7.4      0.68   2   2.1   5.5    Fusion glycoprotein F0 OS=Sendai virus (strain Harris) OX=11196 GN=F PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q00104|VG46_ICHVA     61.7   2.7e-17     3   0.6    960   1293    971   1194    797   1015     Probable major glycoprotein OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF46 PE=3 SV=1
+sp|P12574|FUS_RINDK      25.2     3e-06     1   1.3     88    193     98    178    726    806     Fusion glycoprotein F0 OS=Rinderpest virus (strain Kabete O) OX=11242 GN=F PE=3 SV=1
+sp|P41356|FUS_RINDR      24.8   3.8e-06     1   1.3     89    193     98    178    726    806     Fusion glycoprotein F0 OS=Rinderpest virus (strain RBOK) OX=36409 GN=F PE=3 SV=1
+sp|P41360|FUS_RINDB      24.5   4.6e-06     1   0.9     90    192     98    178    726    806     Fusion glycoprotein F0 OS=Rinderpest virus (strain RBT1) OX=39007 GN=F PE=3 SV=1
+sp|P10864|FUS_RINDL      23.6   8.6e-06     1   1.0     88    193     98    178    726    806     Fusion glycoprotein F0 OS=Rinderpest virus (strain L) OX=11243 GN=F PE=3 SV=1
+sp|Q9IH63|FUS_NIPAV      22.4     2e-05     1   0.1     57    196    100    166    727    793     Fusion glycoprotein F0 OS=Nipah virus OX=121791 GN=F PE=1 SV=1
+sp|P09990|FUS_PI3B       22.3   2.2e-05     1   0.1     80    215     92    191    719    817     Fusion glycoprotein F0 OS=Bovine parainfluenza 3 virus OX=11215 GN=F PE=3 SV=2
+sp|P28886|FUS_PHODV      22.0   2.7e-05     1   1.5     80    180     92    165    729    802     Fusion glycoprotein F0 OS=Phocine distemper virus OX=11240 GN=F PE=3 SV=2
+sp|P12569|FUS_CDVO       20.2   9.1e-05     1   0.7    206    307    219    294    731    806     Fusion glycoprotein F0 OS=Canine distemper virus (strain Onderstepoort) OX=11233 GN=F PE=1 SV=1
+sp|P26031|FUS_MEASI      20.1    0.0001     1   1.8     91    201    103    184    724    805     Fusion glycoprotein F0 OS=Measles virus (strain IP-3-Ca) OX=11237 GN=F PE=3 SV=1
+sp|P06156|FUS_NDVB       19.6   0.00014     1   2.9     97    207    108    193    728    812     Fusion glycoprotein F0 OS=Newcastle disease virus (strain Beaudette C/45) OX=11178 GN=F PE=3 SV=1
+sp|P26032|FUS_MEASY      19.5   0.00015     1   0.8     95    198    106    181    730    805     Fusion glycoprotein F0 OS=Measles virus (strain Yamagata-1) OX=11239 GN=F PE=2 SV=1
+sp|P35973|FUS_MEASA      19.4   0.00017     1   1.1     94    198    103    180    727    804     Fusion glycoprotein F0 OS=Measles virus (strain Edmonston-AIK-C vaccine) OX=36408 GN=F PE=3 SV=1
+sp|P69353|FUS_MEASE      19.4   0.00017     1   1.1     94    198    103    180    727    804     Fusion glycoprotein F0 OS=Measles virus (strain Edmonston) OX=11235 GN=F PE=3 SV=1
+sp|P69354|FUS_MEASF      19.4   0.00017     1   1.1     94    198    103    180    727    804     Fusion glycoprotein F0 OS=Measles virus (strain Edmonston B) OX=70146 GN=F PE=3 SV=1
+sp|P69355|FUS_MEASH      19.4   0.00017     1   1.1     94    198    103    180    727    804     Fusion glycoprotein F0 OS=Measles virus (strain Halle) OX=11236 GN=F PE=2 SV=1
+sp|P69356|FUS_MEASL      19.4   0.00017     1   1.1     94    198    103    180    727    804     Fusion glycoprotein F0 OS=Measles virus (strain Leningrad-16) OX=70147 GN=F PE=3 SV=1
+sp|P69357|FUS_MEASP      19.4   0.00017     1   1.1     94    198    103    180    727    804     Fusion glycoprotein F0 OS=Measles virus (strain Philadelphia-26) OX=70148 GN=F PE=2 SV=1
+sp|P69358|FUS_MEASZ      19.4   0.00017     1   1.1     94    198    103    180    727    804     Fusion glycoprotein F0 OS=Measles virus (strain Edmonston-Zagreb vaccine) OX=70149 GN=F PE=3 SV=1
+sp|Q786F3|FUS_MEASC      19.4   0.00017     1   1.1     94    198    103    180    727    804     Fusion glycoprotein F0 OS=Measles virus (strain Ichinose-B95a) OX=645098 GN=F PE=1 SV=1
+sp|P12571|FUS_NDVTG      19.1    0.0002     1   2.7     97    203    108    187    728    807     Fusion glycoprotein F0 OS=Newcastle disease virus (strain Chicken/United States(TX)/GB/48) OX=11189 GN=F PE=3 SV=1
+sp|P10865|FUS_NDVM       18.4   0.00033     1   1.5     98    207    108    187    728    807     Fusion glycoprotein F0 OS=Newcastle disease virus (strain Miyadera/51) OX=11185 GN=F PE=3 SV=1
+sp|P26628|FUS_NDVT       17.3   0.00071     1   2.5     97    205    108    187    728    807     Fusion glycoprotein F0 OS=Newcastle disease virus (strain Texas) OX=11188 GN=F PE=3 SV=1
+sp|P06828|FUS_PI3H4      14.9    0.0038     1   0.1     78    210     93    180    720    807     Fusion glycoprotein F0 OS=Human parainfluenza 3 virus (strain Wash/47885/57) OX=11217 GN=F PE=1 SV=2
+sp|P06828|FUS_PI3H4      14.6    0.0045     2   0.2    406    537    415    530   1080   1186     Fusion glycoprotein F0 OS=Human parainfluenza 3 virus (strain Wash/47885/57) OX=11217 GN=F PE=1 SV=2
+sp|P03374|ENV_MMTVG      10.1       0.1     1   1.0    439    551    442    543    722    832     Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain GR) OX=11760 GN=env PE=1 SV=1
+sp|P10259|ENV_MMTVB      10.1       0.1     1   1.0    439    551    442    543    722    832     Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain BR6) OX=11758 GN=env PE=3 SV=1
+sp|P24614|FUS_TRTV       10.0      0.11     1   0.7     65    181     89    167    721    804     Fusion glycoprotein F0 OS=Turkey rhinotracheitis virus OX=11264 GN=F PE=2 SV=1
+sp|Q85646|ENV_MMTVC       9.8      0.13     1   1.0    439    551    442    543    722    832     Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain C3H) OX=11759 GN=env PE=1 SV=1
+sp|P24614|FUS_TRTV        8.9      0.24     2   0.0    408    536    467    523   1130   1186     Fusion glycoprotein F0 OS=Turkey rhinotracheitis virus OX=11264 GN=F PE=2 SV=1
+sp|P04507|SIGM1_REOVJ     8.8      0.26     1   0.9     21    171     44    125    787    869     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|P09990|FUS_PI3B        8.2      0.39     2   0.1    424    538    460    515   1119   1174     Fusion glycoprotein F0 OS=Bovine parainfluenza 3 virus OX=11215 GN=F PE=3 SV=2
+sp|P12605|FUS_PI1HC       8.0      0.45     1   0.1     90    236    102    169    725    793     Fusion glycoprotein F0 OS=Human parainfluenza 1 virus (strain C39) OX=11210 GN=F PE=2 SV=1
+sp|Q9DUD9|FUS_SENDA       7.2      0.76     1   0.2     95    214    106    186    725    806     Fusion glycoprotein F0 OS=Sendai virus (strain Hamamatsu) OX=302271 GN=F PE=3 SV=1
+sp|O57295|FUS_SENDO       6.9      0.94     2   0.2    467    546    493    532   1142   1183     Fusion glycoprotein F0 OS=Sendai virus (strain Ohita) OX=302272 GN=F PE=3 SV=1
+sp|Q9DUD9|FUS_SENDA       6.9      0.94     2   0.2    467    546    493    532   1142   1183     Fusion glycoprotein F0 OS=Sendai virus (strain Hamamatsu) OX=302271 GN=F PE=3 SV=1
+sp|O57295|FUS_SENDO       5.9       1.9     1   0.2     96    214    112    186    732    806     Fusion glycoprotein F0 OS=Sendai virus (strain Ohita) OX=302272 GN=F PE=3 SV=1
+sp|P04855|FUS_SENDZ       5.8       2.1     1   0.2     96    214    112    186    732    806     Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|P04856|FUS_SENDH       5.4       2.7     1   0.3     97    208    114    184    734    804     Fusion glycoprotein F0 OS=Sendai virus (strain Harris) OX=11196 GN=F PE=3 SV=1
+sp|P12575|FUS_SENDF       5.4       2.8     1   0.2     97    210    114    185    734    805     Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+sp|P12605|FUS_PI1HC       5.1       3.3     2   0.8    460    541    474    523   1132   1180     Fusion glycoprotein F0 OS=Human parainfluenza 1 virus (strain C39) OX=11210 GN=F PE=2 SV=1
+sp|P04855|FUS_SENDZ       4.6       4.9     2   0.6    482    536    499    527   1150   1178     Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|P04856|FUS_SENDH       4.2       6.3     2   0.9    482    535    499    526   1150   1177     Fusion glycoprotein F0 OS=Sendai virus (strain Harris) OX=11196 GN=F PE=3 SV=1
+sp|P12575|FUS_SENDF       4.2       6.3     2   0.9    482    535    499    526   1150   1177     Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+sp|Q00104|VG46_ICHVA      2.9        15     2   1.7    846    975    854    971    648    762     Probable major glycoprotein OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF46 PE=3 SV=1
+sp|P10864|FUS_RINDL      -1.5   3.4e+02     2   0.4    467    526    486    519   1151   1184     Fusion glycoprotein F0 OS=Rinderpest virus (strain L) OX=11243 GN=F PE=3 SV=1
+sp|P04507|SIGM1_REOVJ    -1.7   3.8e+02     2   0.1    118    190    143    187    784    827     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|Q00104|VG46_ICHVA     -2.0   4.6e+02     1   0.1    201    274    207    253    187    229     Probable major glycoprotein OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF46 PE=3 SV=1
+sp|P41360|FUS_RINDB      -2.6   7.1e+02     2   1.0    472    525    486    519   1151   1184     Fusion glycoprotein F0 OS=Rinderpest virus (strain RBT1) OX=39007 GN=F PE=3 SV=1
+sp|P28886|FUS_PHODV      -4.1     2e+03     2   0.3    343    416    350    413    597    663     Fusion glycoprotein F0 OS=Phocine distemper virus OX=11240 GN=F PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_656580@NC_008210.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_656580@NC_008210.txt data/models_hmm/YP_656580@NC_008210.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:44 2021
+# [ok]

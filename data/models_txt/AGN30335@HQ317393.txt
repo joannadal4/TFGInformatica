@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R7B4|Y003_OSHVF     7.0       6.4   3   2.6   9.6    Uncharacterized protein ORF3 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF3 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R7B4|Y003_OSHVF     7.6       4.1     2   5.3     57    127     63    123     17     77     Uncharacterized protein ORF3 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF3 PE=4 SV=1
+sp|Q6R7B4|Y003_OSHVF     0.1   9.4e+02     1   0.1     29     63     43     59     47     63     Uncharacterized protein ORF3 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF3 PE=4 SV=1
+sp|Q6R7B4|Y003_OSHVF    -2.7   7.1e+03     3   0.0    228    252    232    249     24     41     Uncharacterized protein ORF3 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF3 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGN30335@HQ317393.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGN30335@HQ317393.txt data/models_hmm/AGN30335@HQ317393.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:55 2021
+# [ok]

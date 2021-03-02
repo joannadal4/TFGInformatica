@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P89509|POLG_TUMVJ    19.8   0.00076   2   2.7   0.1    Genome polyprotein OS=Turnip mosaic virus (strain Japanese) OX=12230 PE=1 SV=1
+sp|Q02597|POLG_TUMVQ    19.3    0.0011   2   2.8   0.1    Genome polyprotein OS=Turnip mosaic virus (strain Quebec) OX=36396 PE=1 SV=2
+sp|Q197D4|VF350_IIV3    13.2     0.088   2   1.8   0.1    Uncharacterized protein 026R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-026R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q197D4|VF350_IIV3    11.6      0.28     2   0.0     65    162     82    153     22     94     Uncharacterized protein 026R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-026R PE=3 SV=1
+sp|P89509|POLG_TUMVJ     9.5       1.2     2   0.0   1990   2059   2010   2055     66    111     Genome polyprotein OS=Turnip mosaic virus (strain Japanese) OX=12230 PE=1 SV=1
+sp|Q02597|POLG_TUMVQ     9.2       1.5     2   0.0   1989   2058   2009   2054     66    111     Genome polyprotein OS=Turnip mosaic virus (strain Quebec) OX=36396 PE=1 SV=2
+sp|P89509|POLG_TUMVJ     7.3         6     1   0.0    447    552    454    537     12     95     Genome polyprotein OS=Turnip mosaic virus (strain Japanese) OX=12230 PE=1 SV=1
+sp|Q02597|POLG_TUMVQ     7.0       7.4     1   0.0    447    550    454    537     12     95     Genome polyprotein OS=Turnip mosaic virus (strain Quebec) OX=36396 PE=1 SV=2
+sp|Q197D4|VF350_IIV3    -2.5   6.2e+03     1   0.0      6     44     19     33     33     48     Uncharacterized protein 026R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-026R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007392600@NC_020201.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007392600@NC_020201.txt data/models_hmm/YP_007392600@NC_020201.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:55 2021
+# [ok]

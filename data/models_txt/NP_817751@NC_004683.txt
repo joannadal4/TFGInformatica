@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O71121|DPOL_RHCM6    14.3     0.028   2   2.3   0.0    DNA polymerase catalytic subunit OS=Rhesus cytomegalovirus (strain 68-1) OX=103930 GN=UL54 PE=3 SV=1
+sp|Q6SW77|DPOL_HCMVM    12.7     0.085   1   1.9   0.1    DNA polymerase catalytic subunit OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL54 PE=3 SV=1
+sp|P08546|DPOL_HCMVA    12.7     0.085   1   1.9   0.1    DNA polymerase catalytic subunit OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL54 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O71121|DPOL_RHCM6    11.8      0.17     1   0.0    193    252    199    248     13     64     DNA polymerase catalytic subunit OS=Rhesus cytomegalovirus (strain 68-1) OX=103930 GN=UL54 PE=3 SV=1
+sp|P08546|DPOL_HCMVA    11.0      0.29     1   0.1    202    260    208    253     13     60     DNA polymerase catalytic subunit OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL54 PE=1 SV=2
+sp|Q6SW77|DPOL_HCMVM    11.0      0.29     1   0.1    202    260    208    253     13     60     DNA polymerase catalytic subunit OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL54 PE=3 SV=1
+sp|O71121|DPOL_RHCM6    -3.4   8.9e+03     2   0.0    967   1000    981    995     50     64     DNA polymerase catalytic subunit OS=Rhesus cytomegalovirus (strain 68-1) OX=103930 GN=UL54 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_817751@NC_004683.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_817751@NC_004683.txt data/models_hmm/NP_817751@NC_004683.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:26 2021
+# [ok]

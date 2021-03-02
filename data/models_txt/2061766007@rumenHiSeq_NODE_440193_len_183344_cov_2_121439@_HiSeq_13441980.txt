@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HHQ0|GN_HCMVM        5.3       2.2   1   1.0  16.9    Envelope glycoprotein N OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gN PE=3 SV=1
+sp|F5HE12|UL35_HCMVM      5.1       2.6   1   1.0   5.8    Tegument protein UL35 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL35 PE=3 SV=1
+sp|P16721|UL11P_HCMVA     5.0       2.7   1   1.1  24.2    Protein UL11 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL11 PE=2 SV=1
+sp|P16766|UL35_HCMVA      4.6       3.5   1   1.0   5.7    Protein UL35 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL35 PE=1 SV=1
+sp|F5HET1|UL78_HCMVM      3.7       6.8   1   1.0   6.5    Protein UL78 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL78 PE=1 SV=1
+sp|P16751|UL78_HCMVA      3.7       6.8   1   1.0   6.5    Uncharacterized protein UL78 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL78 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HHQ0|GN_HCMVM        5.2       2.3     1  16.9      3     92     15     67   1478   1527     Envelope glycoprotein N OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gN PE=3 SV=1
+sp|P16721|UL11P_HCMVA     4.9         3     1  24.2     80    223    149    195   1486   1532     Protein UL11 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL11 PE=2 SV=1
+sp|F5HE12|UL35_HCMVM      4.7       3.4     1   5.8    430    569    497    562   1478   1537     Tegument protein UL35 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL35 PE=3 SV=1
+sp|P16766|UL35_HCMVA      4.2       4.7     1   5.7    430    567    496    559   1478   1534     Protein UL35 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL35 PE=1 SV=1
+sp|F5HET1|UL78_HCMVM      3.5       7.9     1   6.5    311    431    363    429   1479   1542     Protein UL78 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL78 PE=1 SV=1
+sp|P16751|UL78_HCMVA      3.5       7.9     1   6.5    311    431    363    429   1479   1542     Uncharacterized protein UL78 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL78 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_440193_len_183344_cov_2_121439@_HiSeq_13441980.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_440193_len_183344_cov_2_121439@_HiSeq_13441980.txt data/models_hmm/2061766007@rumenHiSeq_NODE_440193_len_183344_cov_2_121439@_HiSeq_13441980.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:50 2021
+# [ok]

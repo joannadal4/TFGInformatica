@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q00167|VG78_ICHVA    12.4     0.021   1   1.1   0.5    Putative zinc-binding protein ORF78 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF78 PE=4 SV=1
+sp|Q805H4|REP_PCV1      10.1       0.1   1   1.0   0.1    Replication-associated protein OS=Porcine circovirus 1 OX=133704 GN=Rep PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q00167|VG78_ICHVA    11.8      0.03     1   0.5    104    166    116    149   1083   1116     Putative zinc-binding protein ORF78 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF78 PE=4 SV=1
+sp|Q805H4|REP_PCV1       9.6      0.14     1   0.1    171    276    178    266    800    887     Replication-associated protein OS=Porcine circovirus 1 OX=133704 GN=Rep PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000012@TBL_comb48_EPIDRAFT_100001253.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000012@TBL_comb48_EPIDRAFT_100001253.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000012@TBL_comb48_EPIDRAFT_100001253.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:33 2021
+# [ok]

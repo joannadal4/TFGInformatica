@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39418|Y00H_BPT4    155.2   3.2e-46   1   1.0   5.7    Uncharacterized 9.5 kDa protein in dexA-dda intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y00H PE=4 SV=1
+sp|P32285|Y00G_BPT4     31.1   1.7e-07   1   1.1   0.3    Uncharacterized protein dexA.1 OS=Enterobacteria phage T4 OX=10665 GN=y00G PE=4 SV=3
+sp|Q8QL14|Y98_SIRV1     13.1     0.074   1   1.5   0.0    Uncharacterized protein 98 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=98 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39418|Y00H_BPT4    155.1   3.5e-46     1   5.7      1     81      1     81      1     81     Uncharacterized 9.5 kDa protein in dexA-dda intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y00H PE=4 SV=1
+sp|P32285|Y00G_BPT4     31.0   1.9e-07     1   0.3      3     80     23     78     22     76     Uncharacterized protein dexA.1 OS=Enterobacteria phage T4 OX=10665 GN=y00G PE=4 SV=3
+sp|Q8QL14|Y98_SIRV1     12.2      0.14     1   0.0      8     39     16     35     58     77     Uncharacterized protein 98 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=98 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004063696@NC_014792.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004063696@NC_014792.txt data/models_hmm/YP_004063696@NC_014792.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:06 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O36362|GB_ALHV1      12.8     0.049   2   2.2   0.0    Envelope glycoprotein B OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=gB PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O36362|GB_ALHV1       9.4      0.53     1   0.0    280    381    329    378     43     92     Envelope glycoprotein B OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=gB PE=3 SV=1
+sp|O36362|GB_ALHV1       0.6   2.7e+02     2   0.0    402    491    413    477     79    143     Envelope glycoprotein B OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=gB PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000001@TBL_comb48_EPIDRAFT_100000165.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000001@TBL_comb48_EPIDRAFT_100000165.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000001@TBL_comb48_EPIDRAFT_100000165.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:31 2021
+# [ok]

@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q914L2|Y018_SIFVH   164.0   9.8e-49   1   1.0  13.7    Uncharacterized protein 18 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0018 PE=4 SV=1
+sp|Q914L5|Y015_SIFVH   153.0   2.5e-45   1   1.0   7.5    Uncharacterized protein 15 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0015 PE=4 SV=1
+sp|Q914L0|Y020_SIFVH   132.2   7.8e-39   1   1.0  11.2    Uncharacterized protein 20 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0020 PE=4 SV=1
+sp|P20221|F92_SSV1      15.3     0.019   2   1.7   2.1    Uncharacterized protein F-92 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=f92 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q914L2|Y018_SIFVH   163.8   1.1e-48     1  13.7      1    103      1    103      1    103     Uncharacterized protein 18 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0018 PE=4 SV=1
+sp|Q914L5|Y015_SIFVH   152.9   2.8e-45     1   7.5      1     99      1     99      1    103     Uncharacterized protein 15 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0015 PE=4 SV=1
+sp|Q914L0|Y020_SIFVH   132.0   8.6e-39     1  11.2      1     95      1     95      1    103     Uncharacterized protein 20 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0020 PE=4 SV=1
+sp|P20221|F92_SSV1      14.4     0.036     1   1.7      5     62     23     55     63     96     Uncharacterized protein F-92 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=f92 PE=4 SV=1
+sp|P20221|F92_SSV1      -1.5   3.2e+03     2   0.0     64     89     70     78     65     73     Uncharacterized protein F-92 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=f92 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_445685@NC_003214.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_445685@NC_003214.txt data/models_hmm/NP_445685@NC_003214.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:00 2021
+# [ok]

@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQV1|YR354_MIMIV    13.6     0.061   1   1.8   0.2    Uncharacterized protein R354 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R354 PE=1 SV=1
+sp|Q64905|VNS3_AHSV8     13.3     0.079   1   1.9   0.0    Non-structural protein NS3 OS=African horse sickness virus 8 OX=86062 GN=Segment-10 PE=3 SV=1
+sp|Q64914|VNS3_AHSV2     13.1     0.087   1   1.8   0.0    Non-structural protein NS3 OS=African horse sickness virus 2 OX=48295 GN=Segment-10 PE=3 SV=1
+sp|Q64903|VNS3_AHSV1     13.1     0.088   1   1.7   0.0    Non-structural protein NS3 OS=African horse sickness virus 1 OX=33714 GN=Segment-10 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQV1|YR354_MIMIV    12.0       0.2     1   0.2     15     43     20     37     45     62     Uncharacterized protein R354 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R354 PE=1 SV=1
+sp|Q64903|VNS3_AHSV1     11.9      0.21     1   0.0    151    212    162    200      4     42     Non-structural protein NS3 OS=African horse sickness virus 1 OX=33714 GN=Segment-10 PE=3 SV=1
+sp|Q64905|VNS3_AHSV8     11.8      0.23     1   0.0    158    215    162    199      4     41     Non-structural protein NS3 OS=African horse sickness virus 8 OX=86062 GN=Segment-10 PE=3 SV=1
+sp|Q64914|VNS3_AHSV2     11.7      0.25     1   0.0    158    210    162    199      4     41     Non-structural protein NS3 OS=African horse sickness virus 2 OX=48295 GN=Segment-10 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_957790@NC_005336.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_957790@NC_005336.txt data/models_hmm/NP_957790@NC_005336.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:46 2021
+# [ok]

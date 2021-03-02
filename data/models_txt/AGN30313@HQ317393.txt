@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q0E517|Y084_SFAVA     16.0     0.011   2   2.1   0.1    Putative structural protein ORF84 OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=ORF84 PE=3 SV=1
+sp|Q914G9|GT063_SIFVH    13.5     0.066   2   1.8   1.1    Putative glycosyltransferase 63 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0063 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q0E517|Y084_SFAVA     13.9     0.049     1   0.0    565    624    570    614     27     70     Putative structural protein ORF84 OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=ORF84 PE=3 SV=1
+sp|Q914G9|GT063_SIFVH    13.0     0.095     1   0.1    107    185    109    177      3     68     Putative glycosyltransferase 63 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0063 PE=3 SV=1
+sp|Q914G9|GT063_SIFVH    -2.6     7e+03     2   0.1    207    255    237    250     35     48     Putative glycosyltransferase 63 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0063 PE=3 SV=1
+sp|Q0E517|Y084_SFAVA     -3.4   1.2e+04     2   0.0    946    965    953    962     51     60     Putative structural protein ORF84 OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=ORF84 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGN30313@HQ317393.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGN30313@HQ317393.txt data/models_hmm/AGN30313@HQ317393.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:54 2021
+# [ok]

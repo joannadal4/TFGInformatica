@@ -1,0 +1,43 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9JGF2|NS1AB_ANV1     12.6     0.016   1   1.5   0.0    Non-structural polyprotein 1AB OS=Avian nephritis virus 1 OX=336960 GN=ORF1 PE=3 SV=1
+sp|O55752|148R_IIV6      11.8     0.027   1   1.0   2.3    Putative MSV199 domain-containing protein 148R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-148R PE=4 SV=1
+sp|Q04763|SCAF_BPLLH     11.1     0.046   1   1.0   0.9    Capsid assembly scaffolding protein OS=Lactococcus phage LL-H OX=12348 GN=g20 PE=3 SV=1
+sp|Q8VAK2|UB403_WSSVS     8.0      0.39   1   1.0   3.3    RING finger containing E3 ubiquitin-protein ligase WSV403 OS=White spot syndrome virus (isolate Shrimp/China/Tongan/1996) OX=654913 GN=WSV403 PE=1 SV=2
+sp|P16091|CG30_NPVAC      6.4       1.2   1   1.0  12.2    Zinc finger protein CG30 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=CG30 PE=3 SV=1
+sp|P0CAH7|VF475_ASFK5     6.4       1.2   1   1.1   7.8    Uncharacterized protein B475L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-089 PE=3 SV=1
+sp|Q6R7J5|Y028_OSHVF      6.0       1.6   1   1.1  11.3    Uncharacterized protein ORF28 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF28 PE=4 SV=1
+sp|Q7T6Y3|YR879_MIMIV     4.8       3.7   1   1.0  11.1    Putative KilA-N domain-containing protein R879 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R879 PE=4 SV=2
+sp|Q65167|VF475_ASFB7     4.8       3.7   1   1.1   7.8    Uncharacterized protein B475L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-077 PE=3 SV=1
+sp|B4YNF1|V11_SPTNK       3.8       7.1   1   1.0   9.3    Uncharacterized protein V11 OS=Sputnik virophage OX=543939 PE=4 SV=1
+sp|Q90173|CG30_NPVBM      3.7       7.9   1   1.0   9.7    Zinc finger protein CG30 OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=CG30 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O55752|148R_IIV6      11.7      0.03     1   2.3    128    395    161    316    788    917     Putative MSV199 domain-containing protein 148R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-148R PE=4 SV=1
+sp|Q04763|SCAF_BPLLH     11.0     0.048     1   0.9      6    156     14     96    832    916     Capsid assembly scaffolding protein OS=Lactococcus phage LL-H OX=12348 GN=g20 PE=3 SV=1
+sp|Q9JGF2|NS1AB_ANV1     11.0      0.05     1   0.0     83    872     92    804    792   1001     Non-structural polyprotein 1AB OS=Avian nephritis virus 1 OX=336960 GN=ORF1 PE=3 SV=1
+sp|Q8VAK2|UB403_WSSVS     8.2      0.33     1   3.3     70    629    440    566    829    952     RING finger containing E3 ubiquitin-protein ligase WSV403 OS=White spot syndrome virus (isolate Shrimp/China/Tongan/1996) OX=654913 GN=WSV403 PE=1 SV=2
+sp|P16091|CG30_NPVAC      6.2       1.4     1  12.2     53    263    107    248    819    955     Zinc finger protein CG30 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=CG30 PE=3 SV=1
+sp|P0CAH7|VF475_ASFK5     6.1       1.5     1   7.8    106    419    129    321    796    988     Uncharacterized protein B475L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-089 PE=3 SV=1
+sp|Q6R7J5|Y028_OSHVF      5.8       1.9     1  11.3    104    638    279    604    809   1073     Uncharacterized protein ORF28 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF28 PE=4 SV=1
+sp|Q7T6Y3|YR879_MIMIV     4.7       3.9     1  11.1     39    297     76    268    844    967     Putative KilA-N domain-containing protein R879 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R879 PE=4 SV=2
+sp|Q65167|VF475_ASFB7     4.4       4.7     1   7.8    103    440    129    395    796    974     Uncharacterized protein B475L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-077 PE=3 SV=1
+sp|B4YNF1|V11_SPTNK       3.7       7.6     1   9.3      8    160     26    126    845    946     Uncharacterized protein V11 OS=Sputnik virophage OX=543939 PE=4 SV=1
+sp|Q90173|CG30_NPVBM      3.6       8.3     1   9.7     35    265    120    259    830    963     Zinc finger protein CG30 OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=CG30 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000418___SRS012273_Baylor_scaffold_1322_5_21.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000418___SRS012273_Baylor_scaffold_1322_5_21.txt data/models_hmm/7000000418___SRS012273_Baylor_scaffold_1322_5_21.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:04 2021
+# [ok]

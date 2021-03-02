@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                       bits   E-value   n   exp  bias    description
+#      ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A0A1L4BKQ4|PORTL_BPG20    16.7    0.0012   3   2.4   0.0    Portal protein OS=Thermus phage G20c OX=1406341 GN=G20c_81 PE=1 SV=1
+sp|A7XXB9|PORTL_BP234        14.8    0.0045   3   2.4   0.0    Portal protein OS=Thermus virus P23-45 OX=466051 GN=P23p86 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                      bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#      ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A0A1L4BKQ4|PORTL_BPG20    11.7     0.037     2   0.0    174    278    184    272    280    371     Portal protein OS=Thermus phage G20c OX=1406341 GN=G20c_81 PE=1 SV=1
+sp|A7XXB9|PORTL_BP234        10.2      0.11     2   0.0    175    278    184    272    280    371     Portal protein OS=Thermus virus P23-45 OX=466051 GN=P23p86 PE=1 SV=1
+sp|A0A1L4BKQ4|PORTL_BPG20     2.1        30     3   0.0    289    417    329    411    459    537     Portal protein OS=Thermus phage G20c OX=1406341 GN=G20c_81 PE=1 SV=1
+sp|A7XXB9|PORTL_BP234         1.6        41     3   0.0    289    416    328    411    458    537     Portal protein OS=Thermus virus P23-45 OX=466051 GN=P23p86 PE=1 SV=1
+sp|A0A1L4BKQ4|PORTL_BPG20    -2.6   7.6e+02     1   0.0     57    108     60    104    135    174     Portal protein OS=Thermus phage G20c OX=1406341 GN=G20c_81 PE=1 SV=1
+sp|A7XXB9|PORTL_BP234        -2.6   7.6e+02     1   0.0     57    108     60    104    135    174     Portal protein OS=Thermus virus P23-45 OX=466051 GN=P23p86 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004934704@NC_016166.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004934704@NC_016166.txt data/models_hmm/YP_004934704@NC_016166.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:47 2021
+# [ok]

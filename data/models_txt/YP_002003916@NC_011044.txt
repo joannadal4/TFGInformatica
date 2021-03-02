@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPA8|YR029_MIMIV    15.9    0.0087   1   1.5   0.3    Uncharacterized protein R29 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R29 PE=4 SV=1
+sp|Q3V4V8|Y189_ATV       12.3      0.12   2   2.4   0.9    Putative zinc finger protein ORF189 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPA8|YR029_MIMIV    15.1     0.015     1   0.3     35     75     38     61      5     28     Uncharacterized protein R29 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R29 PE=4 SV=1
+sp|Q3V4V8|Y189_ATV        8.6       1.6     2   0.0    136    168    138    149      4     15     Putative zinc finger protein ORF189 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|Q3V4V8|Y189_ATV        1.6   2.5e+02     1   0.2    109    129    114    127      7     20     Putative zinc finger protein ORF189 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002003916@NC_011044.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002003916@NC_011044.txt data/models_hmm/YP_002003916@NC_011044.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:49 2021
+# [ok]

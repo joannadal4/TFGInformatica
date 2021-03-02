@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P51737|YO33_BPHC1    76.2   2.4e-21   1   1.1   0.5    Uncharacterized 28.3 kDa protein in lys 3'region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|P17498|VPHE_NPVOP    11.8       0.1   2   2.0   5.0    Polyhedral envelope protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF129 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P51737|YO33_BPHC1    75.9   2.8e-21     1   0.5      4    254     34    240     70    281     Uncharacterized 28.3 kDa protein in lys 3'region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|P17498|VPHE_NPVOP    12.7     0.052     1   0.6    109    196    121    177    193    249     Polyhedral envelope protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF129 PE=3 SV=1
+sp|P17498|VPHE_NPVOP     0.2   3.3e+02     2   1.5    171    266    196    244    193    237     Polyhedral envelope protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF129 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001285668@NC_009542.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001285668@NC_009542.txt data/models_hmm/YP_001285668@NC_009542.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:07 2021
+# [ok]

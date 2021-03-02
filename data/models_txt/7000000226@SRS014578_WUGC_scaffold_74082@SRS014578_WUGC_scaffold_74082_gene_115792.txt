@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52449|GM_HHV6Z      12.7      0.12   5   3.9   0.4    Envelope glycoprotein M OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=gM PE=3 SV=1
+sp|Q04630|GM_HHV6U      12.4      0.14   5   4.1   0.3    Envelope glycoprotein M OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=gM PE=3 SV=1
+sp|P0C6T5|R1A_BCHK5      6.5       9.9   3   3.4  11.4    Replicase polyprotein 1a OS=Bat coronavirus HKU5 OX=694008 GN=1a PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52449|GM_HHV6Z      12.7      0.12     2   0.4     62    119     70    101     31     61     Envelope glycoprotein M OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=gM PE=3 SV=1
+sp|Q04630|GM_HHV6U      12.4      0.14     2   0.3     61    119     70    101     31     61     Envelope glycoprotein M OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=gM PE=3 SV=1
+sp|P0C6T5|R1A_BCHK5      5.7        18     1   1.6   2361   2416   2370   2403     21     53     Replicase polyprotein 1a OS=Bat coronavirus HKU5 OX=694008 GN=1a PE=3 SV=1
+sp|P0C6T5|R1A_BCHK5      5.5        20     3   0.8   3180   3255   3196   3235     22     56     Replicase polyprotein 1a OS=Bat coronavirus HKU5 OX=694008 GN=1a PE=3 SV=1
+sp|Q04630|GM_HHV6U       0.0     1e+03     5   0.1    291    333    300    320     38     58     Envelope glycoprotein M OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=gM PE=3 SV=1
+sp|Q04630|GM_HHV6U      -0.2   1.2e+03     1   0.7      7     43     12     35     35     58     Envelope glycoprotein M OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=gM PE=3 SV=1
+sp|P52449|GM_HHV6Z      -0.8   1.9e+03     5   0.1    292    331    302    316     40     54     Envelope glycoprotein M OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=gM PE=3 SV=1
+sp|Q04630|GM_HHV6U      -0.8   1.9e+03     3   0.2    129    190    161    184     47     70     Envelope glycoprotein M OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=gM PE=3 SV=1
+sp|P52449|GM_HHV6Z      -1.2   2.4e+03     3   0.2    129    190    165    185     51     71     Envelope glycoprotein M OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=gM PE=3 SV=1
+sp|P52449|GM_HHV6Z      -1.5   3.1e+03     4   0.5    202    269    243    260     37     54     Envelope glycoprotein M OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=gM PE=3 SV=1
+sp|P52449|GM_HHV6Z      -1.9   4.1e+03     1   0.8      8     42     13     32     36     55     Envelope glycoprotein M OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=gM PE=3 SV=1
+sp|Q04630|GM_HHV6U      -2.0   4.3e+03     4   0.3    212    269    244    264     38     58     Envelope glycoprotein M OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=gM PE=3 SV=1
+sp|P0C6T5|R1A_BCHK5     -2.7   7.2e+03     2   0.0   2828   2879   2843   2873     36     66     Replicase polyprotein 1a OS=Bat coronavirus HKU5 OX=694008 GN=1a PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000226@SRS014578_WUGC_scaffold_74082@SRS014578_WUGC_scaffold_74082_gene_115792.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000226@SRS014578_WUGC_scaffold_74082@SRS014578_WUGC_scaffold_74082_gene_115792.txt data/models_hmm/7000000226@SRS014578_WUGC_scaffold_74082@SRS014578_WUGC_scaffold_74082_gene_115792.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:29 2021
+# [ok]

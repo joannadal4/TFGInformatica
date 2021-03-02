@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q06VC5|MMP_TNAVC     14.1     0.021   2   2.1   0.2    Putative matrix metalloproteinase OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF158 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q06VC5|MMP_TNAVC     11.9     0.096     2   0.1    126    177    136    167     65     96     Putative matrix metalloproteinase OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF158 PE=3 SV=1
+sp|Q06VC5|MMP_TNAVC     -1.5   1.2e+03     1   0.0     80    133     94    126    114    146     Putative matrix metalloproteinase OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF158 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10001733@MIS_1000173347.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10001733@MIS_1000173347.txt data/models_hmm/3300002026@MIS_10001733@MIS_1000173347.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:02 2021
+# [ok]

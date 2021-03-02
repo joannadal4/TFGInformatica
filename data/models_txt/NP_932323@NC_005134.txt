@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P26550|VE4_HPV5B     48.0   1.3e-12   2   2.5   8.0    Protein E4 OS=Human papillomavirus type 5b OX=10599 GN=E4 PE=3 SV=2
+sp|P06924|VE4_HPV05     47.6   1.7e-12   2   2.5   7.6    Protein E4 OS=Human papillomavirus type 5 OX=333923 GN=E4 PE=3 SV=3
+sp|P22421|VE4_HPV47     43.9   2.2e-11   2   2.5   4.0    Protein E4 OS=Human papillomavirus type 47 OX=10594 GN=E4 PE=3 SV=2
+sp|P06425|VE4_HPV08     43.0   4.3e-11   3   2.8   4.9    Protein E4 OS=Human papillomavirus type 8 OX=10579 GN=E4 PE=3 SV=2
+sp|Q07873|VE4_HPV65     15.5     0.011   2   1.7   0.9    Protein E4 OS=Human papillomavirus type 65 OX=28312 GN=E4 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P26550|VE4_HPV5B     48.0   1.3e-12     2   8.0     91    240    110    240     97    231     Protein E4 OS=Human papillomavirus type 5b OX=10599 GN=E4 PE=3 SV=2
+sp|P06924|VE4_HPV05     47.6   1.7e-12     2   7.6     96    240    137    240    124    231     Protein E4 OS=Human papillomavirus type 5 OX=333923 GN=E4 PE=3 SV=3
+sp|P22421|VE4_HPV47     43.9   2.2e-11     2   4.0     94    230    143    230    139    231     Protein E4 OS=Human papillomavirus type 47 OX=10594 GN=E4 PE=3 SV=2
+sp|P06425|VE4_HPV08     43.0   4.3e-11     3   4.9     97    222    146    222    152    231     Protein E4 OS=Human papillomavirus type 8 OX=10579 GN=E4 PE=3 SV=2
+sp|Q07873|VE4_HPV65     15.5     0.011     2   0.9     60    127     77    125    181    229     Protein E4 OS=Human papillomavirus type 65 OX=28312 GN=E4 PE=3 SV=2
+sp|P06924|VE4_HPV05      0.8   3.5e+02     1  10.7     29     96     33     89     88    145     Protein E4 OS=Human papillomavirus type 5 OX=333923 GN=E4 PE=3 SV=3
+sp|Q07873|VE4_HPV65     -0.8   1.1e+03     1   1.9      6     93     60     88    100    132     Protein E4 OS=Human papillomavirus type 65 OX=28312 GN=E4 PE=3 SV=2
+sp|P26550|VE4_HPV5B     -1.6   1.8e+03     1  11.3     29     95     33     87     88    143     Protein E4 OS=Human papillomavirus type 5b OX=10599 GN=E4 PE=3 SV=2
+sp|P06425|VE4_HPV08     -3.1   5.3e+03     2   8.2     73    170    130    167    106    143     Protein E4 OS=Human papillomavirus type 8 OX=10579 GN=E4 PE=3 SV=2
+sp|P06425|VE4_HPV08     -9.2   1.7e+04     1  17.2      5     79      9     57     36     81     Protein E4 OS=Human papillomavirus type 8 OX=10579 GN=E4 PE=3 SV=2
+sp|P22421|VE4_HPV47    -10.6   1.7e+04     1  14.2      5     83     37     59     60     81     Protein E4 OS=Human papillomavirus type 47 OX=10594 GN=E4 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_932323@NC_005134.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_932323@NC_005134.txt data/models_hmm/NP_932323@NC_005134.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:38 2021
+# [ok]

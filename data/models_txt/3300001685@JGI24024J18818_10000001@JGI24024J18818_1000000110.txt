@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P32652|POLG_MDMV     12.7     0.096   1   1.4   0.6    Genome polyprotein (Fragment) OS=Maize dwarf mosaic virus OX=12203 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P32652|POLG_MDMV     11.7       0.2     1   0.6    154    224    158    212      5     62     Genome polyprotein (Fragment) OS=Maize dwarf mosaic virus OX=12203 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001685@JGI24024J18818_10000001@JGI24024J18818_1000000110.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001685@JGI24024J18818_10000001@JGI24024J18818_1000000110.txt data/models_hmm/3300001685@JGI24024J18818_10000001@JGI24024J18818_1000000110.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:10 2021
+# [ok]

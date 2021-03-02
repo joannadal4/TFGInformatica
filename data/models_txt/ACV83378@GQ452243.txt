@@ -1,0 +1,50 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q0PDK7|TMP_BPSPP     63.3   9.5e-18   4   4.2   0.2    Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|Q24LI1|TMP_BPPCD     33.9   7.1e-09   2   2.9  29.6    Probable tape measure protein OS=Clostridium phage phiCD119 (strain Clostridium difficile/United States/Govind/2006) OX=1283341 PE=3 SV=1
+sp|Q6QIA5|TMP_BPBMU     30.1   9.9e-08   1   1.3   0.2    Probable tape measure protein OS=Burkholderia phage BcepMu (isolate -/United States/Summer/2002) OX=1283335 GN=BcepMu44 PE=3 SV=1
+sp|O64220|VG26_BPMD2    27.9   4.5e-07   5   4.6   0.0    Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|E7DNB6|TMP_BPDP1     22.3   2.3e-05   5   4.6   6.1    Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|Q05233|VG26_BPML5    15.7    0.0022   6   4.6   0.4    Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q0PDK7|TMP_BPSPP     63.3   9.5e-18     4   0.2    710    998    716    989    870   1158     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|Q24LI1|TMP_BPPCD     33.8   7.8e-09     2   0.0    683    924    716    862    993   1131     Probable tape measure protein OS=Clostridium phage phiCD119 (strain Clostridium difficile/United States/Govind/2006) OX=1283341 PE=3 SV=1
+sp|Q6QIA5|TMP_BPBMU     29.2   1.9e-07     1   0.2    682    786    684    778    845    941     Probable tape measure protein OS=Burkholderia phage BcepMu (isolate -/United States/Summer/2002) OX=1283335 GN=BcepMu44 PE=3 SV=1
+sp|O64220|VG26_BPMD2    27.9   4.5e-07     5   0.0    546    687    553    676   1011   1135     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|E7DNB6|TMP_BPDP1     22.3   2.3e-05     5   6.1    910   1049    929   1039   1028   1139     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|Q05233|VG26_BPML5    15.7    0.0022     6   0.4    579    710    596    671    850    925     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q24LI1|TMP_BPPCD      5.3       3.1     1  20.8    397    607    408    547    330    472     Probable tape measure protein OS=Clostridium phage phiCD119 (strain Clostridium difficile/United States/Govind/2006) OX=1283341 PE=3 SV=1
+sp|Q0PDK7|TMP_BPSPP      4.4       5.9     3  32.2    512    680    521    672    323    472     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|Q0PDK7|TMP_BPSPP      4.2       6.6     2   9.9    408    545    418    509    306    400     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|E7DNB6|TMP_BPDP1      1.7        36     2   0.6    151    309    173    287     24    137     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|Q05233|VG26_BPML5     1.0        60     3   4.3    389    494    402    468    311    374     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q05233|VG26_BPML5     0.7        74     2   1.6    142    256    167    235    293    355     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|O64220|VG26_BPMD2     0.0   1.2e+02     2   0.2    160    250    164    242    302    377     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|Q05233|VG26_BPML5    -0.2   1.4e+02     1   0.1     91    152     97    145     35     79     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|O64220|VG26_BPMD2    -0.5   1.8e+02     1   0.1     89    150     95    144     34     79     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|O64220|VG26_BPMD2    -0.8     2e+02     3   0.1    394    455    400    440    310    349     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|E7DNB6|TMP_BPDP1     -1.3   2.9e+02     1   0.8      4    136     16    123    420    522     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|E7DNB6|TMP_BPDP1     -1.3     3e+02     4   0.2    785    929    799    898    979   1085     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|Q05233|VG26_BPML5    -1.5   3.3e+02     4   5.4    419    551    437    485    303    349     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q05233|VG26_BPML5    -2.5   6.8e+02     5   0.9    475    582    496    556    318    378     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|O64220|VG26_BPMD2    -3.1     1e+03     4   6.9    425    538    448    487    314    352     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|Q0PDK7|TMP_BPSPP     -3.1     1e+03     1   2.2     22    169     51    142    290    378     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|E7DNB6|TMP_BPDP1     -9.0   1.7e+04     3  13.2    589    789    626    779    336    468     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ACV83378@GQ452243.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ACV83378@GQ452243.txt data/models_hmm/ACV83378@GQ452243.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:20 2021
+# [ok]

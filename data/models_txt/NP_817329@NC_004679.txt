@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q37890|DIT9_BPB03    61.5   6.4e-17   3   3.1  21.7    Tail knob protein gp9 OS=Bacillus phage B103 OX=10778 GN=9 PE=3 SV=1
+sp|Q04395|DIT9_BPNF     56.0   2.9e-15   3   3.0  22.0    Tail knob protein gp9 OS=Bacillus phage Nf OX=10753 GN=9 PE=3 SV=2
+sp|P07534|DIT9_BPPZA    53.1   2.3e-14   3   3.1  19.8    Tail knob protein gp9 OS=Bacillus phage PZA OX=10757 GN=9 PE=3 SV=1
+sp|P04331|DIT9_BPPH2    50.4   1.5e-13   3   3.1  22.2    Tail knob protein gp9 OS=Bacillus phage phi29 OX=10756 GN=9 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q37890|DIT9_BPB03    44.0   1.3e-11     1   5.8      2    135      9    118     13    116     Tail knob protein gp9 OS=Bacillus phage B103 OX=10778 GN=9 PE=3 SV=1
+sp|Q04395|DIT9_BPNF     41.9   5.6e-11     1   5.4      2    137      9    118     13    116     Tail knob protein gp9 OS=Bacillus phage Nf OX=10753 GN=9 PE=3 SV=2
+sp|P04331|DIT9_BPPH2    24.6   9.9e-06     1   6.6      2    134      9    118     13    116     Tail knob protein gp9 OS=Bacillus phage phi29 OX=10756 GN=9 PE=1 SV=2
+sp|P07534|DIT9_BPPZA    24.0   1.5e-05     1   7.2      2    134      9    118     13    116     Tail knob protein gp9 OS=Bacillus phage PZA OX=10757 GN=9 PE=3 SV=1
+sp|P07534|DIT9_BPPZA    23.3   2.3e-05     3   1.0    407    599    474    591    556    674     Tail knob protein gp9 OS=Bacillus phage PZA OX=10757 GN=9 PE=3 SV=1
+sp|P04331|DIT9_BPPH2    21.7   7.4e-05     3   3.1    402    599    411    592    491    675     Tail knob protein gp9 OS=Bacillus phage phi29 OX=10756 GN=9 PE=1 SV=2
+sp|Q04395|DIT9_BPNF     18.8   0.00055     3   5.6    362    598    375    594    462    678     Tail knob protein gp9 OS=Bacillus phage Nf OX=10753 GN=9 PE=3 SV=2
+sp|Q37890|DIT9_BPB03    18.6   0.00063     3   2.6    400    598    478    594    561    678     Tail knob protein gp9 OS=Bacillus phage B103 OX=10778 GN=9 PE=3 SV=1
+sp|P07534|DIT9_BPPZA    13.5     0.022     2   0.2    315    418    319    396    330    415     Tail knob protein gp9 OS=Bacillus phage PZA OX=10757 GN=9 PE=3 SV=1
+sp|P04331|DIT9_BPPH2    13.0     0.032     2   0.2    314    414    319    396    330    415     Tail knob protein gp9 OS=Bacillus phage phi29 OX=10756 GN=9 PE=1 SV=2
+sp|Q37890|DIT9_BPB03     7.9       1.1     2   1.4    311    465    317    405    329    424     Tail knob protein gp9 OS=Bacillus phage B103 OX=10778 GN=9 PE=3 SV=1
+sp|Q04395|DIT9_BPNF      3.7        20     2   0.2    311    406    317    385    329    404     Tail knob protein gp9 OS=Bacillus phage Nf OX=10753 GN=9 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_817329@NC_004679.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_817329@NC_004679.txt data/models_hmm/NP_817329@NC_004679.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:25 2021
+# [ok]

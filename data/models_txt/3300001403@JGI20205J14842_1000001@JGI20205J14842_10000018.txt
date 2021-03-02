@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q96686|CAP6_ADECR     13.7     0.034   1   1.2   0.1    Pre-protein VI OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=L3 PE=3 SV=1
+sp|Q65954|CAP6_ADECC     12.4     0.081   1   1.2   0.0    Pre-protein VI OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=L3 PE=3 SV=1
+sp|Q5UPY0|YL294_MIMIV    12.0      0.11   2   3.0   0.1    Uncharacterized protein L294 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L294 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q96686|CAP6_ADECR     13.0     0.053     1   0.1     41    140     44    135     50    139     Pre-protein VI OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=L3 PE=3 SV=1
+sp|Q65954|CAP6_ADECC     11.8      0.13     1   0.0     41    140     44    135     50    139     Pre-protein VI OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=L3 PE=3 SV=1
+sp|Q5UPY0|YL294_MIMIV     8.3       1.5     2   0.0   2720   2807   2727   2790     78    138     Uncharacterized protein L294 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L294 PE=1 SV=1
+sp|Q5UPY0|YL294_MIMIV    -1.8   1.9e+03     1   0.0   2311   2405   2351   2403    107    152     Uncharacterized protein L294 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L294 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001403@JGI20205J14842_1000001@JGI20205J14842_10000018.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001403@JGI20205J14842_1000001@JGI20205J14842_10000018.txt data/models_hmm/3300001403@JGI20205J14842_1000001@JGI20205J14842_10000018.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:10 2021
+# [ok]

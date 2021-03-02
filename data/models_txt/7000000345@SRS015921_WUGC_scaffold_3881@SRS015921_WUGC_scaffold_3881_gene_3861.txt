@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P35954|ENV_VILVK     13.7     0.034   2   2.8   3.1    Envelope glycoprotein gp160 OS=Maedi visna virus (strain KV1772) OX=36374 GN=env PE=1 SV=1
+sp|P03379|ENV_VILV      12.2     0.099   2   2.8   4.5    Envelope glycoprotein gp160 OS=Maedi visna virus (strain 1514) OX=11742 GN=env PE=1 SV=1
+sp|A3EXG8|VEMP_BCHK9    11.9      0.12   1   1.1   3.1    Envelope small membrane protein OS=Bat coronavirus HKU9 OX=694006 GN=E PE=3 SV=1
+sp|P23422|ENV_VILV1     11.5      0.16   2   2.8   4.8    Envelope glycoprotein gp160 OS=Maedi visna virus (strain 1514 / clone LV1-1KS1) OX=11743 GN=env PE=3 SV=1
+sp|P23423|ENV_VILV2      9.2      0.77   3   2.8   6.8    Envelope glycoprotein gp160 OS=Maedi visna virus (strain 1514 / clone LV1-1KS2) OX=11744 GN=env PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A3EXG8|VEMP_BCHK9    11.6      0.14     1   3.1      6     61     14     52     78    116     Envelope small membrane protein OS=Bat coronavirus HKU9 OX=694006 GN=E PE=3 SV=1
+sp|P03379|ENV_VILV       8.1       1.8     2   0.9    814    880    822    874     71    124     Envelope glycoprotein gp160 OS=Maedi visna virus (strain 1514) OX=11742 GN=env PE=1 SV=1
+sp|P35954|ENV_VILVK      8.1       1.8     2   0.9    815    881    823    875     71    124     Envelope glycoprotein gp160 OS=Maedi visna virus (strain KV1772) OX=36374 GN=env PE=1 SV=1
+sp|P23422|ENV_VILV1      7.8       2.1     2   1.0    821    887    829    881     71    124     Envelope glycoprotein gp160 OS=Maedi visna virus (strain 1514 / clone LV1-1KS1) OX=11743 GN=env PE=3 SV=1
+sp|P23423|ENV_VILV2      7.1       3.6     3   1.1    823    889    831    883     71    124     Envelope glycoprotein gp160 OS=Maedi visna virus (strain 1514 / clone LV1-1KS2) OX=11744 GN=env PE=3 SV=1
+sp|P35954|ENV_VILVK      4.6        21     1   0.0     36    122     73    107    150    184     Envelope glycoprotein gp160 OS=Maedi visna virus (strain KV1772) OX=36374 GN=env PE=1 SV=1
+sp|P03379|ENV_VILV       4.5        23     1   0.1     43    122     73    107    150    184     Envelope glycoprotein gp160 OS=Maedi visna virus (strain 1514) OX=11742 GN=env PE=1 SV=1
+sp|P23423|ENV_VILV2      4.5        23     1   0.1     43    122     73    107    150    184     Envelope glycoprotein gp160 OS=Maedi visna virus (strain 1514 / clone LV1-1KS2) OX=11744 GN=env PE=3 SV=1
+sp|P23422|ENV_VILV1      4.1        29     1   0.1     43    122     73    107    150    184     Envelope glycoprotein gp160 OS=Maedi visna virus (strain 1514 / clone LV1-1KS1) OX=11743 GN=env PE=3 SV=1
+sp|P23423|ENV_VILV2     -3.8   7.8e+03     2   0.0    643    708    659    682     33     55     Envelope glycoprotein gp160 OS=Maedi visna virus (strain 1514 / clone LV1-1KS2) OX=11744 GN=env PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000345@SRS015921_WUGC_scaffold_3881@SRS015921_WUGC_scaffold_3881_gene_3861.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000345@SRS015921_WUGC_scaffold_3881@SRS015921_WUGC_scaffold_3881_gene_3861.txt data/models_hmm/7000000345@SRS015921_WUGC_scaffold_3881@SRS015921_WUGC_scaffold_3881_gene_3861.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:30 2021
+# [ok]

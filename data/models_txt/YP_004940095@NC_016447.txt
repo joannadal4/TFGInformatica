@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HET1|UL78_HCMVM    407.5  4.6e-122   1   1.0  14.8    Protein UL78 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL78 PE=1 SV=1
+sp|P16751|UL78_HCMVA    407.5  4.6e-122   1   1.0  14.8    Uncharacterized protein UL78 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL78 PE=4 SV=1
+sp|P52382|VU51_HHV6U     29.0   4.1e-07   1   1.2  13.4    G-protein coupled receptor homolog U51 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U51 PE=3 SV=1
+sp|P52542|VU51_HHV6Z     25.9   3.5e-06   1   1.2  15.3    G-protein coupled receptor homolog U51 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U51 PE=3 SV=1
+sp|P52383|VU51_HHV7J     15.5    0.0051   1   1.1  14.0    G-protein coupled receptor homolog U51 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U51 PE=3 SV=1
+sp|P0C9J7|1101B_ASFP4    11.7     0.071   2   2.1   2.2    Protein MGF 360-1L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-023 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HET1|UL78_HCMVM    407.2  5.7e-122     1  14.8     33    423     33    417      1    396     Protein UL78 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL78 PE=1 SV=1
+sp|P16751|UL78_HCMVA    407.2  5.7e-122     1  14.8     33    423     33    417      1    396     Uncharacterized protein UL78 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL78 PE=4 SV=1
+sp|P52382|VU51_HHV6U     28.6   5.3e-07     1  13.4     17    292     55    230     56    232     G-protein coupled receptor homolog U51 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U51 PE=3 SV=1
+sp|P52542|VU51_HHV6Z     25.5   4.5e-06     1  15.3     19    289     65    260     66    249     G-protein coupled receptor homolog U51 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U51 PE=3 SV=1
+sp|P52383|VU51_HHV7J     15.1    0.0069     1  14.0      9    231     22    220     24    224     G-protein coupled receptor homolog U51 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U51 PE=3 SV=1
+sp|P0C9J7|1101B_ASFP4     7.0         2     2   0.5     65    110     67     91    198    222     Protein MGF 360-1L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-023 PE=3 SV=1
+sp|P0C9J7|1101B_ASFP4     5.3       6.2     1   0.1     24     67     41     66    151    176     Protein MGF 360-1L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-023 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004940095@NC_016447.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004940095@NC_016447.txt data/models_hmm/YP_004940095@NC_016447.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:52 2021
+# [ok]

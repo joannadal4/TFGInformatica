@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQG0|YR486_MIMIV    12.9     0.032   1   1.1   2.6    Putative PAN domain-containing protein R486 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R486 PE=1 SV=1
+sp|Q197B6|044L_IIV3      10.8      0.14   1   1.1   2.7    Putative serine/threonine-protein kinase 040L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-044L PE=3 SV=1
+sp|P16779|UL38_HCMVA      5.5       5.3   1   1.1   8.0    Apoptosis inhibitor UL38 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL38 PE=3 SV=1
+sp|P17101|HBSAG_HBVA4     5.5       5.5   1   1.3   4.3    Large envelope protein OS=Hepatitis B virus genotype A2 subtype adw2 (isolate Germany/991/1990) OX=10410 GN=S PE=1 SV=3
+sp|O71305|HBSAG_WMHBV     5.2       6.7   1   1.3   6.5    Large envelope protein OS=Woolly monkey hepatitis B virus (isolate Louisville) OX=490134 GN=S PE=3 SV=1
+sp|P03346|GAG_HTLV2       5.0         8   1   1.2  11.9    Gag polyprotein OS=Human T-cell leukemia virus 2 OX=11909 GN=gag PE=1 SV=3
+sp|Q65194|P54_ASFB7       4.8         9   1   1.1   8.1    Envelope protein p54 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-126 PE=1 SV=1
+sp|Q65272|P54_ASFL6       4.8       9.2   1   1.1   8.1    Envelope protein p54 OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQG0|YR486_MIMIV    12.7     0.035     1   2.6     28    159     35     87     10     64     Putative PAN domain-containing protein R486 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R486 PE=1 SV=1
+sp|Q197B6|044L_IIV3      10.2       0.2     1   2.7    114    222    120    219    238    330     Putative serine/threonine-protein kinase 040L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-044L PE=3 SV=1
+sp|P16779|UL38_HCMVA      5.1         7     1   8.0    220    315    253    297     36     81     Apoptosis inhibitor UL38 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL38 PE=3 SV=1
+sp|P17101|HBSAG_HBVA4     4.6        10     1   4.3     76    188     84    178     10     94     Large envelope protein OS=Hepatitis B virus genotype A2 subtype adw2 (isolate Germany/991/1990) OX=10410 GN=S PE=1 SV=3
+sp|P03346|GAG_HTLV2       4.4        12     1  11.9     84    204     89    145      8     62     Gag polyprotein OS=Human T-cell leukemia virus 2 OX=11909 GN=gag PE=1 SV=3
+sp|Q65194|P54_ASFB7       4.4        12     1   8.1     70    182     82    160     11     80     Envelope protein p54 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-126 PE=1 SV=1
+sp|Q65272|P54_ASFL6       4.4        12     1   8.1     70    182     82    160     11     80     Envelope protein p54 OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 PE=3 SV=1
+sp|O71305|HBSAG_WMHBV     4.3        12     1   6.5     66    173     77    167     12     89     Large envelope protein OS=Woolly monkey hepatitis B virus (isolate Louisville) OX=490134 GN=S PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003969767@NC_014637.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003969767@NC_014637.txt data/models_hmm/YP_003969767@NC_014637.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:50 2021
+# [ok]

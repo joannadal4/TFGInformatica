@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04507|SIGM1_REOVJ    11.1     0.085   2   2.0   6.2    Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04507|SIGM1_REOVJ    12.4     0.034     1   0.4     15    111     27     84    123    180     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|P04507|SIGM1_REOVJ     0.6   1.3e+02     2   0.6    129    219    136    190    370    424     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000301@SRS016092_WUGC_scaffold_3459@SRS016092_WUGC_scaffold_3459_gene_4476.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000301@SRS016092_WUGC_scaffold_3459@SRS016092_WUGC_scaffold_3459_gene_4476.txt data/models_hmm/7000000301@SRS016092_WUGC_scaffold_3459@SRS016092_WUGC_scaffold_3459_gene_4476.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:06 2021
+# [ok]

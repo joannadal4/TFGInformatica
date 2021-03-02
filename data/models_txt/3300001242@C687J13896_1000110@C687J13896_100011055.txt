@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9T1W0|GP35_BPMU     13.6     0.046   1   1.3   0.0    Uncharacterized protein gp35 OS=Escherichia phage Mu OX=10677 GN=Mup35 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9T1W0|GP35_BPMU     13.1     0.065     1   0.0     62    136     94    130     75    111     Uncharacterized protein gp35 OS=Escherichia phage Mu OX=10677 GN=Mup35 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001242@C687J13896_1000110@C687J13896_100011055.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001242@C687J13896_1000110@C687J13896_100011055.txt data/models_hmm/3300001242@C687J13896_1000110@C687J13896_100011055.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:38 2021
+# [ok]

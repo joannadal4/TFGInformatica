@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q859P9|RPOLV_BPN4   408.8    4e-122   4   4.2  41.1    Virion DNA-directed RNA polymerase OS=Enterobacteria phage N4 OX=10752 GN=50 PE=1 SV=2
+sp|P0C758|VF96_ASFK5    13.6    0.0051   1   1.0   0.3    Uncharacterized protein DP96R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-168 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q859P9|RPOLV_BPN4   293.1     3e-87     4  20.9   2401   3468   2443   3449   1831   2849     Virion DNA-directed RNA polymerase OS=Enterobacteria phage N4 OX=10752 GN=50 PE=1 SV=2
+sp|Q859P9|RPOLV_BPN4   132.6   7.3e-39     3  12.2   1307   2166   1321   2087   1051   1723     Virion DNA-directed RNA polymerase OS=Enterobacteria phage N4 OX=10752 GN=50 PE=1 SV=2
+sp|P0C758|VF96_ASFK5    13.4    0.0058     1   0.3      5    115     12    100    714    783     Uncharacterized protein DP96R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-168 PE=3 SV=1
+sp|Q859P9|RPOLV_BPN4    -0.8   1.2e+02     1  10.8    372    599    387    550    354    484     Virion DNA-directed RNA polymerase OS=Enterobacteria phage N4 OX=10752 GN=50 PE=1 SV=2
+sp|Q859P9|RPOLV_BPN4    -3.4   7.1e+02     2   7.6    835   1051    886    987    652    741     Virion DNA-directed RNA polymerase OS=Enterobacteria phage N4 OX=10752 GN=50 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000151@MIS_10000151119.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000151@MIS_10000151119.txt data/models_hmm/3300002026@MIS_10000151@MIS_10000151119.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:49 2021
+# [ok]

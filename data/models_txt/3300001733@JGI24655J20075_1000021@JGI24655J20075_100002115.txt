@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36709|E413_ADE12    16.6    0.0083   1   1.4   0.1    Probable early E4 13 kDa protein OS=Human adenovirus A serotype 12 OX=28282 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36709|E413_ADE12    15.8     0.015     1   0.1     90    120     95    113     29     47     Probable early E4 13 kDa protein OS=Human adenovirus A serotype 12 OX=28282 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001733@JGI24655J20075_1000021@JGI24655J20075_100002115.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001733@JGI24655J20075_1000021@JGI24655J20075_100002115.txt data/models_hmm/3300001733@JGI24655J20075_1000021@JGI24655J20075_100002115.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:17 2021
+# [ok]

@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68677|IL10H_EHV2T   239.1   1.9e-71   1   1.0   1.2    Viral interleukin-10 homolog OS=Equine herpesvirus 2 (strain T400/3) OX=82832 GN=E7 PE=3 SV=1
+sp|P68678|IL10H_EHV2    239.1   1.9e-71   1   1.0   1.2    Viral interleukin-10 homolog OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=E7 PE=3 SV=1
+sp|P03180|IL10H_EBVB9   228.2   4.3e-68   1   1.0   2.3    Viral interleukin-10 homolog OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BCRF1 PE=1 SV=1
+sp|P0C6Z6|IL10H_EBVA8   228.2   4.3e-68   1   1.0   2.3    Viral interleukin-10 homolog OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BCRF1 PE=3 SV=1
+sp|P0CAP9|IL10H_EBVG    228.2   4.3e-68   1   1.0   2.3    Viral interleukin-10 homolog OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BCRF1 PE=3 SV=1
+sp|F5HC71|IL10H_HCMVM   160.7   2.2e-47   1   1.0   0.0    Viral interleukin-10 homolog OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL111A PE=3 SV=1
+sp|P17150|IL10H_HCMVA   159.2   6.6e-47   1   1.0   0.0    Viral interleukin-10 homolog OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL111A PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68677|IL10H_EHV2T   239.0   2.1e-71     1   1.2      1    176      3    176      7    175     Viral interleukin-10 homolog OS=Equine herpesvirus 2 (strain T400/3) OX=82832 GN=E7 PE=3 SV=1
+sp|P68678|IL10H_EHV2    239.0   2.1e-71     1   1.2      1    176      3    176      7    175     Viral interleukin-10 homolog OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=E7 PE=3 SV=1
+sp|P03180|IL10H_EBVB9   228.1   4.7e-68     1   2.3      1    168      5    167      7    174     Viral interleukin-10 homolog OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BCRF1 PE=1 SV=1
+sp|P0C6Z6|IL10H_EBVA8   228.1   4.7e-68     1   2.3      1    168      5    167      7    174     Viral interleukin-10 homolog OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BCRF1 PE=3 SV=1
+sp|P0CAP9|IL10H_EBVG    228.1   4.7e-68     1   2.3      1    168      5    167      7    174     Viral interleukin-10 homolog OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BCRF1 PE=3 SV=1
+sp|F5HC71|IL10H_HCMVM   160.6   2.5e-47     1   0.0      1    175      1    174      1    174     Viral interleukin-10 homolog OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL111A PE=3 SV=1
+sp|P17150|IL10H_HCMVA   159.1   7.3e-47     1   0.0      1    174      1    173      1    174     Viral interleukin-10 homolog OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL111A PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_659579@NC_004002.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_659579@NC_004002.txt data/models_hmm/NP_659579@NC_004002.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:13 2021
+# [ok]

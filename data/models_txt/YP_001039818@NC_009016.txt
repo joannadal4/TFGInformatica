@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|B0ZSF3|CAPSD_BPHA1   836.2  1.7e-251   1   1.0   4.2    Major capsid protein OS=Halomonas phage phiHAP-1 (isolate -/Gulf of Mexico/-/2001) OX=1283337 GN=HAPgp05 PE=3 SV=1
+sp|P85500|CAPSD_BPPAJ   117.0   9.3e-34   1   1.1   4.0    Capsid polyprotein OS=Pseudomonas phage PAJU2 OX=504346 PE=1 SV=2
+sp|B2ZYY5|CAPSD_BPMR2    45.1   5.5e-12   1   1.0   0.0    Putative major capsid protein OS=Staphylococcus phage phiMR25 OX=487152 GN=orf47 PE=1 SV=1
+sp|Q05223|CAPSD_BPML5    39.4     3e-10   2   1.9   0.3    Probable major capsid protein gp17 OS=Mycobacterium phage L5 OX=31757 GN=17 PE=1 SV=2
+sp|O64210|CAPSD_BPMD2    36.0   3.1e-09   1   1.9   0.7    Probable major capsid protein gp17 OS=Mycobacterium phage D29 OX=28369 GN=17 PE=3 SV=1
+sp|P49861|CAPSD_BPHK7    30.9   1.1e-07   1   1.2   1.8    Major capsid protein OS=Enterobacteria phage HK97 OX=37554 GN=5 PE=1 SV=1
+sp|Q6QGD8|CAPSD_BPT5     18.9   0.00049   2   2.1   3.8    Major capsid protein OS=Escherichia phage T5 OX=10726 GN=D20 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|B0ZSF3|CAPSD_BPHA1   836.1  1.8e-251     1   4.2      1    602      1    601     22    609     Major capsid protein OS=Halomonas phage phiHAP-1 (isolate -/Gulf of Mexico/-/2001) OX=1283337 GN=HAPgp05 PE=3 SV=1
+sp|P85500|CAPSD_BPPAJ   116.6   1.3e-33     1   4.0     44    655     50    650     56    606     Capsid polyprotein OS=Pseudomonas phage PAJU2 OX=504346 PE=1 SV=2
+sp|B2ZYY5|CAPSD_BPMR2    44.8     7e-12     1   0.0     72    301     82    286    390    591     Putative major capsid protein OS=Staphylococcus phage phiMR25 OX=487152 GN=orf47 PE=1 SV=1
+sp|O64210|CAPSD_BPMD2    33.0   2.5e-08     1   0.7     26    313     41    307    362    604     Probable major capsid protein gp17 OS=Mycobacterium phage D29 OX=28369 GN=17 PE=3 SV=1
+sp|P49861|CAPSD_BPHK7    30.7   1.3e-07     1   1.8      4    383    154    379    384    605     Major capsid protein OS=Enterobacteria phage HK97 OX=37554 GN=5 PE=1 SV=1
+sp|Q05223|CAPSD_BPML5    24.3   1.1e-05     1   0.1     21    191     53    143    369    459     Probable major capsid protein gp17 OS=Mycobacterium phage L5 OX=31757 GN=17 PE=1 SV=2
+sp|Q6QGD8|CAPSD_BPT5     18.2   0.00079     2   0.1    178    353    216    307    383    475     Major capsid protein OS=Escherichia phage T5 OX=10726 GN=D20 PE=1 SV=1
+sp|Q05223|CAPSD_BPML5    13.7     0.018     2   0.0    204    322    238    317    541    604     Probable major capsid protein gp17 OS=Mycobacterium phage L5 OX=31757 GN=17 PE=1 SV=2
+sp|Q6QGD8|CAPSD_BPT5      1.1   1.2e+02     1   1.3      4    122     24     94    164    229     Major capsid protein OS=Escherichia phage T5 OX=10726 GN=D20 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001039818@NC_009016.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001039818@NC_009016.txt data/models_hmm/YP_001039818@NC_009016.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:55 2021
+# [ok]

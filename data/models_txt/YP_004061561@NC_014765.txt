@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQL1|YR409_MIMIV   164.3   3.6e-48   1   1.0  12.8    Uncharacterized protein R409 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R409 PE=4 SV=1
+sp|P03535|NSP4_ROTHW     10.8      0.31   2   2.1   4.5    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=2 SV=1
+sp|Q9YJN7|NSP4_ROTAD     10.8      0.32   2   2.1   4.5    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|Q9QNA6|NSP4_ROTHK     10.6      0.35   2   2.0   4.3    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+sp|O12674|NSP4_ROTHV      9.9      0.59   2   2.1   5.4    Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Human/Italy/VA70/1975/G4P1A[8]) OX=10961 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQL1|YR409_MIMIV   164.2     4e-48     1  12.8      1    185      3    184     26    201     Uncharacterized protein R409 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R409 PE=4 SV=1
+sp|Q9QNA6|NSP4_ROTHK      9.3      0.86     1   1.1     35    130     54    122    136    204     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+sp|P03535|NSP4_ROTHW      9.1         1     1   1.3     36    124     54    116    136    198     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=2 SV=1
+sp|Q9YJN7|NSP4_ROTAD      9.1         1     1   1.3     36    124     54    116    136    198     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|O12674|NSP4_ROTHV      8.6       1.5     1   2.0     38    125     54    117    136    199     Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Human/Italy/VA70/1975/G4P1A[8]) OX=10961 PE=3 SV=1
+sp|P03535|NSP4_ROTHW      3.8        42     2   0.4    100    173    117    161     17     59     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=2 SV=1
+sp|Q9YJN7|NSP4_ROTAD      3.8        42     2   0.4    100    173    117    161     17     59     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|Q9QNA6|NSP4_ROTHK      3.8        42     2   0.5     99    172    116    159     16     57     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+sp|O12674|NSP4_ROTHV      3.8        43     2   0.5     98    173    117    161     17     59     Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Human/Italy/VA70/1975/G4P1A[8]) OX=10961 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004061561@NC_014765.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004061561@NC_014765.txt data/models_hmm/YP_004061561@NC_014765.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:02 2021
+# [ok]

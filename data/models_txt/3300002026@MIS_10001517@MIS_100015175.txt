@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQW8|YL385_MIMIV    18.7    0.0014   2   1.8   2.2    Uncharacterized protein L385 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L385 PE=4 SV=1
+sp|Q91FV9|212L_IIV6       8.5       2.1   2   2.5   6.9    Putative MSV199 domain-containing protein 212L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-212L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQW8|YL385_MIMIV    18.7    0.0014     2   0.2     65    131     78    115     56     93     Uncharacterized protein L385 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L385 PE=4 SV=1
+sp|Q91FV9|212L_IIV6       9.9      0.78     2   1.9    196    255    212    248     67    103     Putative MSV199 domain-containing protein 212L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-212L PE=4 SV=1
+sp|Q91FV9|212L_IIV6      -0.2   1.1e+03     1   0.7    152    210    181    203     68     90     Putative MSV199 domain-containing protein 212L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-212L PE=4 SV=1
+sp|Q5UQW8|YL385_MIMIV    -0.5   1.3e+03     1   0.2     24     77     43     60     78     95     Uncharacterized protein L385 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L385 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10001517@MIS_100015175.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10001517@MIS_100015175.txt data/models_hmm/3300002026@MIS_10001517@MIS_100015175.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:02 2021
+# [ok]

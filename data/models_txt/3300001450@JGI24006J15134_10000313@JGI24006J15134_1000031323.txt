@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P15630|Y2_SOCMV      11.2      0.24   2   2.2   2.7    Uncharacterized protein 2 OS=Soybean chlorotic mottle virus OX=10651 GN=ORF II PE=4 SV=2
+sp|P06856|DPOL_VACCW    10.8      0.33   2   2.7   2.6    DNA polymerase OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=POL PE=1 SV=5
+sp|O57191|DPOL_VACCA    10.8      0.33   2   2.7   2.6    DNA polymerase OS=Vaccinia virus (strain Ankara) OX=126794 GN=POL PE=3 SV=1
+sp|P20509|DPOL_VACCC    10.7      0.34   2   2.7   2.6    DNA polymerase OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=POL PE=1 SV=1
+sp|P06226|GP33_BPSP1     8.4       1.7   1   2.0   5.0    Gene 33 protein OS=Bacillus phage SP01 OX=10685 GN=33 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P15630|Y2_SOCMV       8.9       1.2     1   0.1      5     54      9     37      5     33     Uncharacterized protein 2 OS=Soybean chlorotic mottle virus OX=10651 GN=ORF II PE=4 SV=2
+sp|O57191|DPOL_VACCA     7.2         4     2   0.4    749    849    775    818     28     69     DNA polymerase OS=Vaccinia virus (strain Ankara) OX=126794 GN=POL PE=3 SV=1
+sp|P06856|DPOL_VACCW     7.2         4     2   0.4    749    849    775    818     28     69     DNA polymerase OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=POL PE=1 SV=5
+sp|P20509|DPOL_VACCC     7.2         4     2   0.4    749    849    775    818     28     69     DNA polymerase OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=POL PE=1 SV=1
+sp|P06226|GP33_BPSP1     4.8        22     1   5.0      1     96      2     72     12     55     Gene 33 protein OS=Bacillus phage SP01 OX=10685 GN=33 PE=4 SV=1
+sp|O57191|DPOL_VACCA     2.5   1.2e+02     1   0.1    624    705    628    700     12     86     DNA polymerase OS=Vaccinia virus (strain Ankara) OX=126794 GN=POL PE=3 SV=1
+sp|P06856|DPOL_VACCW     2.5   1.2e+02     1   0.1    624    705    628    700     12     86     DNA polymerase OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=POL PE=1 SV=5
+sp|P20509|DPOL_VACCC     2.5   1.2e+02     1   0.1    624    705    628    700     12     86     DNA polymerase OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=POL PE=1 SV=1
+sp|P15630|Y2_SOCMV       2.2   1.4e+02     2   0.6    109    176    115    156      7     46     Uncharacterized protein 2 OS=Soybean chlorotic mottle virus OX=10651 GN=ORF II PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001450@JGI24006J15134_10000313@JGI24006J15134_1000031323.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001450@JGI24006J15134_10000313@JGI24006J15134_1000031323.txt data/models_hmm/3300001450@JGI24006J15134_10000313@JGI24006J15134_1000031323.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:31 2021
+# [ok]

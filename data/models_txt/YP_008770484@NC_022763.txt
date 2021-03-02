@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CK40|REP_BGYMJ     11.1      0.14   2   1.5   0.1    Replication-associated protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico-Japan) OX=222449 GN=AC1 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CK40|REP_BGYMJ     10.0      0.29     1   0.0     66    118     72    113    306    347     Replication-associated protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico-Japan) OX=222449 GN=AC1 PE=1 SV=1
+sp|P0CK40|REP_BGYMJ     -3.9     5e+03     2   0.0    244    280    255    273    168    186     Replication-associated protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico-Japan) OX=222449 GN=AC1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008770484@NC_022763.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008770484@NC_022763.txt data/models_hmm/YP_008770484@NC_022763.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:28 2021
+# [ok]

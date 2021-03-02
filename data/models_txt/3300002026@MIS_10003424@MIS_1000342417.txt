@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5I154|PTPD1_MDBVW    13.3     0.061   2   2.2   1.3    Truncated tyrosine phosphatase D1 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=D1 PE=3 SV=1
+sp|Q5I137|PTPJ4_MDBVW    10.4      0.48   3   2.7   2.3    Probable tyrosine phosphatase protein J4 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=J5 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5I154|PTPD1_MDBVW     8.1       2.4     2   0.2     59     97     63     90     29     56     Truncated tyrosine phosphatase D1 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=D1 PE=3 SV=1
+sp|Q5I137|PTPJ4_MDBVW     6.9       5.7     2   0.2     70    120     86    114     28     56     Probable tyrosine phosphatase protein J4 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=J5 PE=3 SV=1
+sp|Q5I154|PTPD1_MDBVW     4.3        35     1   0.1      3     62     10     59     16     63     Truncated tyrosine phosphatase D1 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=D1 PE=3 SV=1
+sp|Q5I137|PTPJ4_MDBVW     2.5   1.3e+02     1   0.1     26     86     35     83     17     63     Probable tyrosine phosphatase protein J4 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=J5 PE=3 SV=1
+sp|Q5I137|PTPJ4_MDBVW    -1.7   2.6e+03     3   0.0    130    207    144    181     18     56     Probable tyrosine phosphatase protein J4 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=J5 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10003424@MIS_1000342417.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10003424@MIS_1000342417.txt data/models_hmm/3300002026@MIS_10003424@MIS_1000342417.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:04 2021
+# [ok]

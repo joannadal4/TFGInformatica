@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64209|SCAF_BPMD2    14.3     0.034   1   1.2   0.2    Probable capsid assembly scaffolding protein OS=Mycobacterium phage D29 OX=28369 GN=16 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64209|SCAF_BPMD2    13.8     0.045     1   0.2     41    150     61    135     25    102     Probable capsid assembly scaffolding protein OS=Mycobacterium phage D29 OX=28369 GN=16 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10000183@TBL_comb47_HYPODRAFT_10000183102.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000553@TBL_comb47_HYPODRAFT_10000183@TBL_comb47_HYPODRAFT_10000183102.txt data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10000183@TBL_comb47_HYPODRAFT_10000183102.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:54 2021
+# [ok]

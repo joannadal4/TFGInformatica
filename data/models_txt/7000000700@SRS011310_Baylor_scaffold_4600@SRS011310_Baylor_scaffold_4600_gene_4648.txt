@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P18178|VP31_FRG3G    12.4     0.086   1   1.3   0.0    Early 31 kDa protein OS=Frog virus 3 (isolate Goorha) OX=654924 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P18178|VP31_FRG3G    11.6      0.16     1   0.0     81    139     90    136     32     79     Early 31 kDa protein OS=Frog virus 3 (isolate Goorha) OX=654924 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000700@SRS011310_Baylor_scaffold_4600@SRS011310_Baylor_scaffold_4600_gene_4648.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000700@SRS011310_Baylor_scaffold_4600@SRS011310_Baylor_scaffold_4600_gene_4648.txt data/models_hmm/7000000700@SRS011310_Baylor_scaffold_4600@SRS011310_Baylor_scaffold_4600_gene_4648.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:01 2021
+# [ok]

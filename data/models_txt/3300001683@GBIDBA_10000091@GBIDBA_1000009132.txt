@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R7J9|Y024_OSHVF    10.9       0.3   2   2.1   2.1    Uncharacterized protein ORF24 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF24 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R7J9|Y024_OSHVF     9.8      0.65     2   0.2    253    350    271    334     54    116     Uncharacterized protein ORF24 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF24 PE=4 SV=1
+sp|Q6R7J9|Y024_OSHVF     0.4   5.3e+02     1   0.1     13    152     25    129     12    116     Uncharacterized protein ORF24 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF24 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001683@GBIDBA_10000091@GBIDBA_1000009132.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001683@GBIDBA_10000091@GBIDBA_1000009132.txt data/models_hmm/3300001683@GBIDBA_10000091@GBIDBA_1000009132.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:05 2021
+# [ok]

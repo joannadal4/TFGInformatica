@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DOL9|I6_VAR67      12.8     0.085   2   2.4   0.1    Telomere-binding protein I6 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=I6L PE=3 SV=1
+sp|P0DOM0|I6_VARV       12.8     0.085   2   2.4   0.1    Telomere-binding protein I6 OS=Variola virus OX=10255 GN=I6L PE=3 SV=1
+sp|P68462|I6_VACCW      12.5      0.11   2   2.4   0.1    Telomere-binding protein I6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR075 PE=1 SV=1
+sp|P68463|I6_VACCC      12.5      0.11   2   2.4   0.1    Telomere-binding protein I6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=I6L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DOL9|I6_VAR67       6.1        11     1   0.0     93    151    108    137     25     54     Telomere-binding protein I6 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=I6L PE=3 SV=1
+sp|P0DOM0|I6_VARV        6.1        11     1   0.0     93    151    108    137     25     54     Telomere-binding protein I6 OS=Variola virus OX=10255 GN=I6L PE=3 SV=1
+sp|P68462|I6_VACCW       5.7        14     1   0.0     97    151    109    137     26     54     Telomere-binding protein I6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR075 PE=1 SV=1
+sp|P68463|I6_VACCC       5.7        14     1   0.0     97    151    109    137     26     54     Telomere-binding protein I6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=I6L PE=3 SV=1
+sp|P0DOL9|I6_VAR67       4.2        40     2   0.0    272    326    280    314     29     63     Telomere-binding protein I6 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=I6L PE=3 SV=1
+sp|P0DOM0|I6_VARV        4.2        40     2   0.0    272    326    280    314     29     63     Telomere-binding protein I6 OS=Variola virus OX=10255 GN=I6L PE=3 SV=1
+sp|P68462|I6_VACCW       4.2        40     2   0.0    272    326    280    314     29     63     Telomere-binding protein I6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR075 PE=1 SV=1
+sp|P68463|I6_VACCC       4.2        40     2   0.0    272    326    280    314     29     63     Telomere-binding protein I6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=I6L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001751@JGI2172J19969_10000010@JGI2172J19969_1000001038.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001751@JGI2172J19969_10000010@JGI2172J19969_1000001038.txt data/models_hmm/3300001751@JGI2172J19969_10000010@JGI2172J19969_1000001038.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:20 2021
+# [ok]

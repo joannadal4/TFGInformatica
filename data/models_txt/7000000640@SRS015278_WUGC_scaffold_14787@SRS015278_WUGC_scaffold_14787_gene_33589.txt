@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPD9|YL066_MIMIV     8.8      0.89   2   2.8   5.5    Putative ankyrin repeat protein L66 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L66 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPD9|YL066_MIMIV     7.3       2.6     2   1.1    433    528    480    521     67    105     Putative ankyrin repeat protein L66 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L66 PE=4 SV=1
+sp|Q5UPD9|YL066_MIMIV     2.4        85     1   0.2    204    288    210    268     34     89     Putative ankyrin repeat protein L66 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L66 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000640@SRS015278_WUGC_scaffold_14787@SRS015278_WUGC_scaffold_14787_gene_33589.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000640@SRS015278_WUGC_scaffold_14787@SRS015278_WUGC_scaffold_14787_gene_33589.txt data/models_hmm/7000000640@SRS015278_WUGC_scaffold_14787@SRS015278_WUGC_scaffold_14787_gene_33589.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:42 2021
+# [ok]

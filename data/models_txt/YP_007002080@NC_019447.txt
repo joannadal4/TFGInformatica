@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8HAE6|DECO_BPST6     21.7   0.00014   1   1.4   1.1    Decoration protein OS=Salmonella phage ST64T OX=173443 GN=dec PE=4 SV=1
+sp|P07532|CAPSF_BPPZA    19.2   0.00086   1   1.5   4.2    Capsid fiber protein OS=Bacillus phage PZA OX=10757 GN=8.5 PE=3 SV=1
+sp|Q37889|CAPSF_BPB03    17.8    0.0022   2   2.2   5.5    Capsid fiber protein OS=Bacillus phage B103 OX=10778 GN=8.5 PE=3 SV=1
+sp|B3VMP4|CAPSF_BPPH2    17.2    0.0036   1   1.6   4.3    Capsid fiber protein OS=Bacillus phage phi29 OX=10756 GN=8.5 PE=1 SV=1
+sp|P11186|VG85_BPNF      14.4     0.026   2   1.9   4.3    Head fiber protein OS=Bacillus phage Nf OX=10753 GN=8.5 PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8HAE6|DECO_BPST6     21.4   0.00018     1   1.1     47    134     96    131     52     88     Decoration protein OS=Salmonella phage ST64T OX=173443 GN=dec PE=4 SV=1
+sp|P07532|CAPSF_BPPZA    18.2    0.0017     1   4.2    204    280    227    279     82    135     Capsid fiber protein OS=Bacillus phage PZA OX=10757 GN=8.5 PE=3 SV=1
+sp|Q37889|CAPSF_BPB03    17.8    0.0022     2   5.5    214    282    220    280     72    133     Capsid fiber protein OS=Bacillus phage B103 OX=10778 GN=8.5 PE=3 SV=1
+sp|B3VMP4|CAPSF_BPPH2    16.0    0.0081     1   4.3    209    280    227    279     82    135     Capsid fiber protein OS=Bacillus phage phi29 OX=10756 GN=8.5 PE=1 SV=1
+sp|P11186|VG85_BPNF      14.4     0.026     2   4.3    188    257    194    256     72    135     Head fiber protein OS=Bacillus phage Nf OX=10753 GN=8.5 PE=4 SV=2
+sp|Q37889|CAPSF_BPB03     1.5   2.5e+02     1   0.6     48    175     56    112     14     65     Capsid fiber protein OS=Bacillus phage B103 OX=10778 GN=8.5 PE=3 SV=1
+sp|P11186|VG85_BPNF      -0.7   1.2e+03     1   0.1     50    118     60    108     18     60     Head fiber protein OS=Bacillus phage Nf OX=10753 GN=8.5 PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007002080@NC_019447.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007002080@NC_019447.txt data/models_hmm/YP_007002080@NC_019447.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:56 2021
+# [ok]

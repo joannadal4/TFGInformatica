@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9T1W7|TERS_BPMU      16.1     0.009   2   2.5   0.0    Probable terminase, small subunit gp27 OS=Escherichia phage Mu OX=10677 GN=Mup27 PE=1 SV=1
+sp|Q5URA2|YL146_MIMIV    15.9      0.01   2   2.6   0.1    Uncharacterized protein L146 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L146 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5URA2|YL146_MIMIV    10.0       0.7     1   0.0      6     89     59     81     56     78     Uncharacterized protein L146 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L146 PE=4 SV=1
+sp|Q9T1W7|TERS_BPMU       8.8       1.7     2   0.0    122    189    150    187     50     87     Probable terminase, small subunit gp27 OS=Escherichia phage Mu OX=10677 GN=Mup27 PE=1 SV=1
+sp|Q9T1W7|TERS_BPMU       4.7        31     1   0.0     37     87     39     79      4     43     Probable terminase, small subunit gp27 OS=Escherichia phage Mu OX=10677 GN=Mup27 PE=1 SV=1
+sp|Q5URA2|YL146_MIMIV     3.1        95     2   0.0    134    203    142    192     40     87     Uncharacterized protein L146 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L146 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001866@JGI24729J20445_1000001@JGI24729J20445_100000173.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001866@JGI24729J20445_1000001@JGI24729J20445_100000173.txt data/models_hmm/3300001866@JGI24729J20445_1000001@JGI24729J20445_100000173.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:26 2021
+# [ok]

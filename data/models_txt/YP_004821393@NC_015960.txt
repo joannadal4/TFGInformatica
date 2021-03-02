@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21607|E6_VACCW     966.7  3.2e-291   1   1.0  44.3    Protein E6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR062 PE=2 SV=1
+sp|P21047|E6_VACCC     966.4  3.8e-291   1   1.0  44.2    Protein E6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=E6R PE=2 SV=1
+sp|P0DSX1|E6_VAR67     962.3  6.6e-290   1   1.0  44.4    Protein E6 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=E6R PE=2 SV=1
+sp|P0DSX2|E6_VARV      962.3  6.6e-290   1   1.0  44.4    Protein E6 OS=Variola virus OX=10255 GN=E6R PE=2 SV=1
+sp|Q9J5C4|E6_FOWPN     894.1    3e-269   1   1.0  61.1    Protein E6 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV096 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21607|E6_VACCW     966.5  3.6e-291     1  44.3      1    567      1    567      1    566     Protein E6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR062 PE=2 SV=1
+sp|P21047|E6_VACCC     966.3  4.3e-291     1  44.2      1    567      1    567      1    566     Protein E6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=E6R PE=2 SV=1
+sp|P0DSX1|E6_VAR67     962.2  7.4e-290     1  44.4      1    567      1    567      1    566     Protein E6 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=E6R PE=2 SV=1
+sp|P0DSX2|E6_VARV      962.2  7.4e-290     1  44.4      1    567      1    567      1    566     Protein E6 OS=Variola virus OX=10255 GN=E6R PE=2 SV=1
+sp|Q9J5C4|E6_FOWPN     894.0  3.4e-269     1  61.1      1    571      1    570      1    565     Protein E6 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV096 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004821393@NC_015960.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004821393@NC_015960.txt data/models_hmm/YP_004821393@NC_015960.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:35 2021
+# [ok]

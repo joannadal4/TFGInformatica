@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R325|POLG_AEVVR    15.8     0.013   2   2.7   2.1    Genome polyprotein OS=Avian encephalomyelitis virus (strain Van Reokel) OX=475779 PE=3 SV=1
+sp|Q6WQ42|POLG_AEVL2    15.1     0.021   2   2.8   2.1    Genome polyprotein OS=Avian encephalomyelitis virus (strain L2Z) OX=475780 PE=3 SV=1
+sp|Q9YML3|BROJ_NPVLD    13.2     0.079   2   2.7  22.6    Uncharacterized Bro-N domain-containing protein J OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=1
+sp|Q9YLS4|POLG_AEVCA    11.8      0.22   3   2.8   0.1    Genome polyprotein OS=Avian encephalomyelitis virus (strain Calnek vaccine) OX=475778 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9YLS4|POLG_AEVCA    11.8      0.22     1   0.1    881    966    894    950     72    128     Genome polyprotein OS=Avian encephalomyelitis virus (strain Calnek vaccine) OX=475778 PE=2 SV=1
+sp|Q6R325|POLG_AEVVR    11.5      0.27     1   0.1    881    967    894    950     72    128     Genome polyprotein OS=Avian encephalomyelitis virus (strain Van Reokel) OX=475779 PE=3 SV=1
+sp|Q6WQ42|POLG_AEVL2    10.7      0.46     1   0.0    881    964    894    950     72    128     Genome polyprotein OS=Avian encephalomyelitis virus (strain L2Z) OX=475780 PE=3 SV=1
+sp|Q9YML3|BROJ_NPVLD    10.7      0.47     2  12.3    203    308    215    281     38    101     Uncharacterized Bro-N domain-containing protein J OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=1
+sp|Q9YML3|BROJ_NPVLD     7.3       5.2     1   2.6    124    202    128    202     85    155     Uncharacterized Bro-N domain-containing protein J OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=1
+sp|Q6R325|POLG_AEVVR     2.7   1.4e+02     2   0.4   1008   1105   1026   1079     64    117     Genome polyprotein OS=Avian encephalomyelitis virus (strain Van Reokel) OX=475779 PE=3 SV=1
+sp|Q9YLS4|POLG_AEVCA     2.5   1.6e+02     2   0.6   1009   1105   1026   1079     64    117     Genome polyprotein OS=Avian encephalomyelitis virus (strain Calnek vaccine) OX=475778 PE=2 SV=1
+sp|Q6WQ42|POLG_AEVL2     2.5   1.6e+02     2   0.5   1011   1104   1026   1079     64    117     Genome polyprotein OS=Avian encephalomyelitis virus (strain L2Z) OX=475780 PE=3 SV=1
+sp|Q9YLS4|POLG_AEVCA    -4.3   1.7e+04     3   0.3   1769   1801   1778   1797     51     70     Genome polyprotein OS=Avian encephalomyelitis virus (strain Calnek vaccine) OX=475778 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000576@SRS022621_Baylor_scaffold_720@SRS022621_Baylor_scaffold_720_gene_865.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000576@SRS022621_Baylor_scaffold_720@SRS022621_Baylor_scaffold_720_gene_865.txt data/models_hmm/7000000576@SRS022621_Baylor_scaffold_720@SRS022621_Baylor_scaffold_720_gene_865.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:21 2021
+# [ok]

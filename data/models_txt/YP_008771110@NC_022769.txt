@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FV9|212L_IIV6     16.4    0.0076   2   2.5   1.1    Putative MSV199 domain-containing protein 212L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-212L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FV9|212L_IIV6      8.0       3.2     2   0.0    270    360    291    330     29     68     Putative MSV199 domain-containing protein 212L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-212L PE=4 SV=1
+sp|Q91FV9|212L_IIV6      6.9       6.7     1   0.2    134    206    158    204     46     90     Putative MSV199 domain-containing protein 212L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-212L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008771110@NC_022769.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008771110@NC_022769.txt data/models_hmm/YP_008771110@NC_022769.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:29 2021
+# [ok]

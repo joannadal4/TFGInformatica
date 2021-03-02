@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CK27|A145_VAR67    93.0   9.3e-27   1   1.0  11.5    Virion membrane protein A14.5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A 14.5L PE=2 SV=1
+sp|P0CK28|A145_VACCC    93.0   9.3e-27   1   1.0  11.5    Virion membrane protein A14.5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A 14.5L PE=2 SV=1
+sp|Q80HV6|A145_VACCW    93.0   9.3e-27   1   1.0  11.5    Virion membrane protein A14.5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR134 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CK27|A145_VAR67    92.9     1e-26     1  11.5      1     53      1     53      1     53     Virion membrane protein A14.5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A 14.5L PE=2 SV=1
+sp|P0CK28|A145_VACCC    92.9     1e-26     1  11.5      1     53      1     53      1     53     Virion membrane protein A14.5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A 14.5L PE=2 SV=1
+sp|Q80HV6|A145_VACCW    92.9     1e-26     1  11.5      1     53      1     53      1     53     Virion membrane protein A14.5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR134 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_005296311@NC_016924.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_005296311@NC_016924.txt data/models_hmm/YP_005296311@NC_016924.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:06 2021
+# [ok]

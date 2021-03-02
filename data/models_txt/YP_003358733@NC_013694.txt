@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91F87|438L_IIV6     12.4      0.12   1   1.4   0.2    Probable deoxyuridine 5'-triphosphate nucleotidohydrolase OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-438L PE=3 SV=1
+sp|P19200|YOR1_COYMV    10.5      0.45   3   2.5   4.9    Uncharacterized 23 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91F87|438L_IIV6     11.7      0.19     1   0.2     30    120     55    107     54    112     Probable deoxyuridine 5'-triphosphate nucleotidohydrolase OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-438L PE=3 SV=1
+sp|P19200|YOR1_COYMV    10.7      0.39     2   0.6     87    156     92    145     41     93     Uncharacterized 23 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+sp|P19200|YOR1_COYMV     0.8   4.5e+02     3   0.1    146    190    157    182     69     94     Uncharacterized 23 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+sp|P19200|YOR1_COYMV    -1.3   1.9e+03     1   0.0     28     87     42     72     83    112     Uncharacterized 23 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003358733@NC_013694.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003358733@NC_013694.txt data/models_hmm/YP_003358733@NC_013694.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:30 2021
+# [ok]

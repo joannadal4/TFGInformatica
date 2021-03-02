@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P05077|V16K_TRVSY    13.9     0.045   2   2.0   2.2    16 kDa protein OS=Tobacco rattle virus (strain SYM) OX=12298 PE=4 SV=1
+sp|Q77JX3|VSR_TRVPP     13.9     0.045   2   2.0   2.2    Suppressor of RNA silencing OS=Tobacco rattle virus (isolate PpK20) OX=652939 PE=4 SV=1
+sp|P13322|Y07D_BPT4     13.2     0.071   2   2.2   3.4    Uncharacterized 6.6 kDa protein in segB-ipI intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y07D PE=4 SV=1
+sp|P05075|V16K_TRVPS    11.9      0.18   2   2.0   8.7    16 kDa protein OS=Tobacco rattle virus (strain PSG) OX=12297 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13322|Y07D_BPT4     11.1      0.34     2   0.9     38     59     38     55      1     18     Uncharacterized 6.6 kDa protein in segB-ipI intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y07D PE=4 SV=1
+sp|P05077|V16K_TRVSY    10.8      0.42     2   1.5     51    130     70    118     22     70     16 kDa protein OS=Tobacco rattle virus (strain SYM) OX=12298 PE=4 SV=1
+sp|Q77JX3|VSR_TRVPP     10.8      0.42     2   1.5     51    130     70    118     22     70     Suppressor of RNA silencing OS=Tobacco rattle virus (isolate PpK20) OX=652939 PE=4 SV=1
+sp|P05075|V16K_TRVPS    10.4      0.54     2   6.5     49    130     70    118     22     70     16 kDa protein OS=Tobacco rattle virus (strain PSG) OX=12297 PE=4 SV=1
+sp|P13322|Y07D_BPT4      2.5   1.6e+02     1   0.1     20     36     21     33      2     14     Uncharacterized 6.6 kDa protein in segB-ipI intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y07D PE=4 SV=1
+sp|P05075|V16K_TRVPS     2.0   2.4e+02     1   0.0     11     51     25     45     23     40     16 kDa protein OS=Tobacco rattle virus (strain PSG) OX=12297 PE=4 SV=1
+sp|P05077|V16K_TRVSY     1.9   2.5e+02     1   0.0     11     49     25     45     23     40     16 kDa protein OS=Tobacco rattle virus (strain SYM) OX=12298 PE=4 SV=1
+sp|Q77JX3|VSR_TRVPP      1.9   2.5e+02     1   0.0     11     49     25     45     23     40     Suppressor of RNA silencing OS=Tobacco rattle virus (isolate PpK20) OX=652939 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006990@NC_005859.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006990@NC_005859.txt data/models_hmm/YP_006990@NC_005859.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:55 2021
+# [ok]

@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03646|H_BPPHS        14.4     0.023   2   2.3   0.1    Minor spike protein H OS=Enterobacteria phage phiX174 (Isolate Sanger) OX=1217068 GN=H PE=1 SV=1
+sp|P07933|VGH_BPS13      14.1     0.027   2   2.2   0.1    Minor spike protein OS=Enterobacteria phage S13 OX=10844 GN=H PE=3 SV=1
+sp|Q573G1|Y104B_AFV2P    13.9     0.032   1   1.3   0.1    Putative zinc finger protein ORF104b OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF104b PE=4 SV=1
+sp|P20211|C80_SSV1       13.3     0.051   1   1.2   0.0    Uncharacterized protein C-80 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=c80 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q573G1|Y104B_AFV2P    13.4     0.046     1   0.1      1     48      1     38      6     43     Putative zinc finger protein ORF104b OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF104b PE=4 SV=1
+sp|P20211|C80_SSV1       12.7     0.075     1   0.0     36     79     39     78      6     45     Uncharacterized protein C-80 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=c80 PE=4 SV=1
+sp|P03646|H_BPPHS        11.6      0.17     1   0.1    214    240    220    236     27     43     Minor spike protein H OS=Enterobacteria phage phiX174 (Isolate Sanger) OX=1217068 GN=H PE=1 SV=1
+sp|P07933|VGH_BPS13      11.6      0.17     1   0.1    214    240    220    236     27     43     Minor spike protein OS=Enterobacteria phage S13 OX=10844 GN=H PE=3 SV=1
+sp|P03646|H_BPPHS        -0.8   1.2e+03     2   0.0    274    297    278    295     27     44     Minor spike protein H OS=Enterobacteria phage phiX174 (Isolate Sanger) OX=1217068 GN=H PE=1 SV=1
+sp|P07933|VGH_BPS13      -0.8   1.2e+03     2   0.0    274    297    278    295     27     44     Minor spike protein OS=Enterobacteria phage S13 OX=10844 GN=H PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10000397@TBL_comb47_HYPODRAFT_1000039729.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000553@TBL_comb47_HYPODRAFT_10000397@TBL_comb47_HYPODRAFT_1000039729.txt data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10000397@TBL_comb47_HYPODRAFT_1000039729.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:58 2021
+# [ok]

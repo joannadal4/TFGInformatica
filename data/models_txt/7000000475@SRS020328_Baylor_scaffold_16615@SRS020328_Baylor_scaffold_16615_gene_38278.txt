@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CAM1|VFB66_ASFM2    12.1      0.15   1   1.5   6.7    Transmembrane protein B66L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-095 PE=3 SV=1
+sp|P0CAM2|VFB66_ASFP4    12.1      0.15   1   1.5   6.7    Transmembrane protein B66L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-099 PE=3 SV=1
+sp|P0CAM3|VFB66_ASFWA    12.1      0.15   1   1.5   6.7    Transmembrane protein B66L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-097 PE=3 SV=1
+sp|Q65176|VFB66_ASFB7    12.1      0.15   1   1.5   6.7    Transmembrane protein B66L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-087 PE=3 SV=1
+sp|P0CAM0|VFB66_ASFK5    10.8      0.37   1   1.8   7.0    Transmembrane protein B66L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-099 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CAM1|VFB66_ASFM2    11.1      0.31     1   6.7      2     60      4     57      9     56     Transmembrane protein B66L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-095 PE=3 SV=1
+sp|P0CAM2|VFB66_ASFP4    11.1      0.31     1   6.7      2     60      4     57      9     56     Transmembrane protein B66L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-099 PE=3 SV=1
+sp|P0CAM3|VFB66_ASFWA    11.1      0.31     1   6.7      2     60      4     57      9     56     Transmembrane protein B66L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-097 PE=3 SV=1
+sp|Q65176|VFB66_ASFB7    11.1      0.31     1   6.7      2     60      4     57      9     56     Transmembrane protein B66L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-087 PE=3 SV=1
+sp|P0CAM0|VFB66_ASFK5     9.5         1     1   6.6      2     59      4     56      9     55     Transmembrane protein B66L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-099 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000475@SRS020328_Baylor_scaffold_16615@SRS020328_Baylor_scaffold_16615_gene_38278.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000475@SRS020328_Baylor_scaffold_16615@SRS020328_Baylor_scaffold_16615_gene_38278.txt data/models_hmm/7000000475@SRS020328_Baylor_scaffold_16615@SRS020328_Baylor_scaffold_16615_gene_38278.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:32 2021
+# [ok]

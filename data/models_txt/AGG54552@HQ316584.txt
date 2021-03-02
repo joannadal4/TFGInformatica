@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q18LF2|ORFC_ELHVK  3232.4         0   2   2.0 176.3    Protein ORF C OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=4 SV=1
+sp|P33884|VNS3_AHSV3    10.1     0.061   1   1.1   0.0    Non-structural protein NS3 OS=African horse sickness virus 3 OX=117204 GN=Segment-10 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q18LF2|ORFC_ELHVK  3053.5         0     1 163.5     38   1387     45   1385    323   1662     Protein ORF C OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=4 SV=1
+sp|Q18LF2|ORFC_ELHVK   185.5   7.7e-55     2   4.8   1386   1483   1387   1483   1757   1853     Protein ORF C OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=4 SV=1
+sp|P33884|VNS3_AHSV3     9.7     0.082     1   0.0    133    213    166    208    639    681     Non-structural protein NS3 OS=African horse sickness virus 3 OX=117204 GN=Segment-10 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGG54552@HQ316584.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGG54552@HQ316584.txt data/models_hmm/AGG54552@HQ316584.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:33 2021
+# [ok]

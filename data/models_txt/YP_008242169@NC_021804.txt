@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P50766|VE2_HPV20      12.1       0.1   1   1.5   8.1    Regulatory protein E2 OS=Human papillomavirus type 20 OX=31547 GN=E2 PE=3 SV=1
+sp|P41726|BVCP_GVCL      10.6      0.29   1   1.1   4.2    DNA-binding protein OS=Cryptophlebia leucotreta granulosis virus OX=35254 GN=P7.3 PE=4 SV=1
+sp|P36785|VE2_HPV17       9.5      0.64   1   1.4   6.6    Regulatory protein E2 OS=Human papillomavirus type 17 OX=10607 GN=E2 PE=3 SV=1
+sp|P36787|VE2_HPV25       9.2      0.79   1   1.5  11.0    Regulatory protein E2 OS=Human papillomavirus type 25 OX=10609 GN=E2 PE=3 SV=1
+sp|Q5UR52|YR584_MIMIV     8.7       1.1   2   1.6  17.3    Uncharacterized N-acetyltransferase R584 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R584 PE=1 SV=1
+sp|P24728|VPHE_NPVAC      6.7       4.6   1   1.2   7.0    Polyhedral envelope-associated phosphoprotein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=pp34 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P50766|VE2_HPV20      11.1       0.2     1   8.1    215    328    265    308    162    206     Regulatory protein E2 OS=Human papillomavirus type 20 OX=31547 GN=E2 PE=3 SV=1
+sp|Q5UR52|YR584_MIMIV    11.1       0.2     1  13.5    133    210    151    203    166    223     Uncharacterized N-acetyltransferase R584 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R584 PE=1 SV=1
+sp|P41726|BVCP_GVCL      10.6      0.29     1   4.2      1     57     13     47    171    208     DNA-binding protein OS=Cryptophlebia leucotreta granulosis virus OX=35254 GN=P7.3 PE=4 SV=1
+sp|P36785|VE2_HPV17       8.5       1.3     1   6.6    253    359    263    351    137    224     Regulatory protein E2 OS=Human papillomavirus type 17 OX=10607 GN=E2 PE=3 SV=1
+sp|P36787|VE2_HPV25       8.4       1.4     1  11.0    231    359    266    310    162    207     Regulatory protein E2 OS=Human papillomavirus type 25 OX=10609 GN=E2 PE=3 SV=1
+sp|P24728|VPHE_NPVAC      6.0       7.2     1   7.0     94    152    102    142    165    205     Polyhedral envelope-associated phosphoprotein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=pp34 PE=1 SV=1
+sp|Q5UR52|YR584_MIMIV    -2.5   2.8e+03     2   0.1    266    392    302    335     43     75     Uncharacterized N-acetyltransferase R584 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R584 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008242169@NC_021804.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008242169@NC_021804.txt data/models_hmm/YP_008242169@NC_021804.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:34 2021
+# [ok]

@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6XQB2|PORTL_BPT1    508.2  3.4e-152   1   1.1  36.0    Portal protein OS=Escherichia phage T1 OX=1921008 GN=26 PE=3 SV=1
+sp|B0FIH7|FIB11_BPE32    55.2   4.8e-15   1   1.5   0.0    Probable tail fiber protein OS=Escherichia phage Phieco32 OX=490103 GN=phi32_15 PE=4 SV=1
+sp|P03748|FIBER_BPT7     17.4    0.0014   2   2.3   1.6    Tail fiber protein OS=Escherichia phage T7 OX=10760 GN=17 PE=1 SV=1
+sp|P10308|FIBER_BPT3      8.2       0.8   2   2.2  16.1    Tail fiber protein OS=Enterobacteria phage T3 OX=10759 GN=17 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6XQB2|PORTL_BPT1    507.8  4.5e-152     1  36.0      1    363      1    343      1    342     Portal protein OS=Escherichia phage T1 OX=1921008 GN=26 PE=3 SV=1
+sp|B0FIH7|FIB11_BPE32    54.3   8.8e-15     1   0.0    525    722    605    719    479    608     Probable tail fiber protein OS=Escherichia phage Phieco32 OX=490103 GN=phi32_15 PE=4 SV=1
+sp|P03748|FIBER_BPT7     17.4    0.0014     1   1.6     78    213    116    211     81    176     Tail fiber protein OS=Escherichia phage T7 OX=10760 GN=17 PE=1 SV=1
+sp|P10308|FIBER_BPT3      4.3        12     1  16.0     98    257    136    242    101    208     Tail fiber protein OS=Enterobacteria phage T3 OX=10759 GN=17 PE=3 SV=1
+sp|P03748|FIBER_BPT7      0.4   1.8e+02     2  11.4    200    285    215    255    220    260     Tail fiber protein OS=Escherichia phage T7 OX=10760 GN=17 PE=1 SV=1
+sp|P10308|FIBER_BPT3     -2.0     1e+03     2   6.3    207    272    215    248    220    254     Tail fiber protein OS=Enterobacteria phage T3 OX=10759 GN=17 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004414872@NC_015456.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004414872@NC_015456.txt data/models_hmm/YP_004414872@NC_015456.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:25 2021
+# [ok]

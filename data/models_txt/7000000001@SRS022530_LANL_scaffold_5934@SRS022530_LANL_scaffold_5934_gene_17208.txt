@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03444|HEMA_I53A0    12.2     0.096   1   1.1   0.0    Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Manitoba/1/1953 H10N7) OX=383555 GN=HA PE=3 SV=1
+sp|P31632|VP7_ROTBJ     11.7      0.14   1   1.5   2.6    Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Cow/Japan/KN-4/1983/G6P8[11]) OX=31587 PE=2 SV=1
+sp|P42547|YO12_BPL2     10.4      0.35   2   1.8   8.4    Uncharacterized 17.2 kDa protein OS=Acholeplasma phage L2 OX=46014 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P42547|YO12_BPL2     13.9      0.03     2   3.3     32    130     43    105     14     75     Uncharacterized 17.2 kDa protein OS=Acholeplasma phage L2 OX=46014 PE=4 SV=1
+sp|P03444|HEMA_I53A0    11.9      0.12     1   0.0      2     69     10     57     62    107     Hemagglutinin (Fragment) OS=Influenza A virus (strain A/Duck/Manitoba/1/1953 H10N7) OX=383555 GN=HA PE=3 SV=1
+sp|P31632|VP7_ROTBJ     10.8      0.27     1   2.6      1     70      7     49     34     75     Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Cow/Japan/KN-4/1983/G6P8[11]) OX=31587 PE=2 SV=1
+sp|P42547|YO12_BPL2     -0.6   8.2e+02     1   0.3      4     49      9     29     56     75     Uncharacterized 17.2 kDa protein OS=Acholeplasma phage L2 OX=46014 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000001@SRS022530_LANL_scaffold_5934@SRS022530_LANL_scaffold_5934_gene_17208.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000001@SRS022530_LANL_scaffold_5934@SRS022530_LANL_scaffold_5934_gene_17208.txt data/models_hmm/7000000001@SRS022530_LANL_scaffold_5934@SRS022530_LANL_scaffold_5934_gene_17208.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:25 2021
+# [ok]

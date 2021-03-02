@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P19061|BP07_BPT4      31.4   4.4e-08   2   2.2   4.0    Baseplate wedge protein gp7 OS=Enterobacteria phage T4 OX=10665 GN=7 PE=1 SV=1
+sp|P13332|TSP_BPT4       23.3   1.2e-05   1   1.2   0.2    Tail sheath protein OS=Enterobacteria phage T4 OX=10665 GN=18 PE=1 SV=5
+sp|Q5UP25|KITH_MIMIV     12.8     0.019   1   1.1   0.4    Thymidine kinase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=TK PE=3 SV=1
+sp|Q89869|50510_ASFB7    10.7     0.082   1   1.1   0.1    Protein MGF 505-10R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71R-031 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P19061|BP07_BPT4      25.6   2.4e-06     1   2.6    638    839    646    805     38    196     Baseplate wedge protein gp7 OS=Enterobacteria phage T4 OX=10665 GN=7 PE=1 SV=1
+sp|P13332|TSP_BPT4       22.8   1.8e-05     1   0.2     49    185    100    152    259    312     Tail sheath protein OS=Enterobacteria phage T4 OX=10665 GN=18 PE=1 SV=5
+sp|Q5UP25|KITH_MIMIV     12.4     0.024     1   0.4      8    134      9     96     54    142     Thymidine kinase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=TK PE=3 SV=1
+sp|Q89869|50510_ASFB7    10.2      0.12     1   0.1    459    530    488    516     48     76     Protein MGF 505-10R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71R-031 PE=3 SV=1
+sp|P19061|BP07_BPT4       5.1         4     2   0.0    777    923    852    900    360    404     Baseplate wedge protein gp7 OS=Enterobacteria phage T4 OX=10665 GN=7 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000510@SRS053917_LANL_scaffold_35430@SRS053917_LANL_scaffold_35430_gene_79935.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000510@SRS053917_LANL_scaffold_35430@SRS053917_LANL_scaffold_35430_gene_79935.txt data/models_hmm/7000000510@SRS053917_LANL_scaffold_35430@SRS053917_LANL_scaffold_35430_gene_79935.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:53 2021
+# [ok]

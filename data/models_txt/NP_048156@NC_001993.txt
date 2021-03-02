@@ -1,0 +1,76 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UR90|YR642_MIMIV    17.5    0.0034   2   2.5   6.9    Uncharacterized protein R642 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R642 PE=4 SV=1
+sp|P11208|PHOSP_PIV5     16.3    0.0079   2   1.8   0.4    Phosphoprotein OS=Parainfluenza virus 5 (strain W3) OX=11208 GN=P/V PE=1 SV=1
+sp|B4YNF2|VF546_SPTNK    16.0    0.0094   1   1.4   3.1    Uncharacterized protein V12 OS=Sputnik virophage OX=543939 PE=3 SV=1
+sp|B4URE1|NEP_I06A0      14.5     0.027   2   1.9   0.3    Nuclear export protein OS=Influenza A virus (strain A/Russia:St.Petersburg/8/2006 H1N1) OX=518998 GN=NS PE=3 SV=1
+sp|P03508|NEP_I34A1      14.5     0.027   2   1.9   0.3    Nuclear export protein OS=Influenza A virus (strain A/Puerto Rico/8/1934 H1N1) OX=211044 GN=NS PE=1 SV=1
+sp|Q5UR53|YL583_MIMIV    13.5     0.059   1   1.7  12.3    Uncharacterized protein L583 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L583 PE=4 SV=1
+sp|Q04763|SCAF_BPLLH     13.1     0.075   1   1.9   2.1    Capsid assembly scaffolding protein OS=Lactococcus phage LL-H OX=12348 GN=g20 PE=3 SV=1
+sp|Q04764|SCAF_BPMV4     12.9     0.085   1   1.9   3.2    Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+sp|Q8BD31|NCAP_TAMVU     12.3      0.13   2   2.0   1.3    Nucleoprotein OS=Tamiami mammarenavirus (isolate Rat/United States/W 10777/1964) OX=45223 GN=N PE=3 SV=1
+sp|Q992I2|SIGC_ARVS1     12.0      0.17   2   1.9   0.0    Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|P03549|VAT_CAMVC      11.6      0.23   2   2.8   9.0    Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|Q82049|NSP3_ROTWI     11.0      0.34   2   2.6   8.3    Non-structural protein 3 OS=Rotavirus A (isolate RVA/Human/United States/WI61/1983/G9P1A[8]) OX=578830 PE=2 SV=1
+sp|P19818|VAT_CAMVP      10.9      0.36   2   2.6  10.7    Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+sp|Q197A4|VF287_IIV3     10.5      0.48   2   2.5   3.4    Uncharacterized protein 056L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-056L PE=3 SV=1
+sp|Q82053|NSP3_ROTHT     10.1      0.63   3   2.8   9.5    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=2 SV=1
+sp|Q27YG8|YORF3_NORAV     8.4       2.2   2   2.8   7.9    Uncharacterized ORF3 protein OS=Nora virus OX=363716 GN=ORF3 PE=4 SV=1
+sp|Q8UZL8|NSP3_ROTRH      7.7       3.5   2   2.6  12.6    Non-structural protein 3 OS=Rotavirus A (strain RVA/Monkey/United States/RRV/1975/G3P5B[3]) OX=444185 PE=1 SV=1
+sp|Q82050|NSP3_ROTHK      7.6       3.9   3   2.8  11.5    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+sp|A4ZCW4|NSP3_ROTH3      7.1       5.5   2   2.5  11.9    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UR90|YR642_MIMIV    17.5    0.0034     2   6.9    134    214    144    206     54    116     Uncharacterized protein R642 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R642 PE=4 SV=1
+sp|B4YNF2|VF546_SPTNK    15.8     0.011     1   2.5     51    113     57    112     69    124     Uncharacterized protein V12 OS=Sputnik virophage OX=543939 PE=3 SV=1
+sp|P11208|PHOSP_PIV5     14.9      0.02     2   0.2    192    276    201    257     53    113     Phosphoprotein OS=Parainfluenza virus 5 (strain W3) OX=11208 GN=P/V PE=1 SV=1
+sp|Q82053|NSP3_ROTHT     12.4      0.13     2   2.4    153    243    174    235     57    114     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=2 SV=1
+sp|Q5UR53|YL583_MIMIV    12.3      0.14     1  12.3      1     93     10     86     48    120     Uncharacterized protein L583 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L583 PE=4 SV=1
+sp|Q04764|SCAF_BPMV4     12.0      0.16     1   2.4      5     85     14     69     62    114     Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+sp|Q04763|SCAF_BPLLH     12.0      0.17     1   1.6      7     88     14     69     62    114     Capsid assembly scaffolding protein OS=Lactococcus phage LL-H OX=12348 GN=g20 PE=3 SV=1
+sp|Q82050|NSP3_ROTHK     12.0      0.17     2   2.2    154    243    174    234     57    113     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+sp|Q82049|NSP3_ROTWI     11.4      0.25     1   3.2    151    243    174    235     57    114     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Human/United States/WI61/1983/G9P1A[8]) OX=578830 PE=2 SV=1
+sp|B4URE1|NEP_I06A0      11.3      0.28     1   0.2      9     99     22     93     51    119     Nuclear export protein OS=Influenza A virus (strain A/Russia:St.Petersburg/8/2006 H1N1) OX=518998 GN=NS PE=3 SV=1
+sp|P03508|NEP_I34A1      11.3      0.28     1   0.2      9     99     22     93     51    119     Nuclear export protein OS=Influenza A virus (strain A/Puerto Rico/8/1934 H1N1) OX=211044 GN=NS PE=1 SV=1
+sp|Q8BD31|NCAP_TAMVU     10.8      0.39     1   0.5     53    120     62    115     59    116     Nucleoprotein OS=Tamiami mammarenavirus (isolate Rat/United States/W 10777/1964) OX=45223 GN=N PE=3 SV=1
+sp|B4URE1|NEP_I06A0      10.0      0.71     2   0.2     44    117     52    102     54    104     Nuclear export protein OS=Influenza A virus (strain A/Russia:St.Petersburg/8/2006 H1N1) OX=518998 GN=NS PE=3 SV=1
+sp|P03508|NEP_I34A1      10.0      0.71     2   0.2     44    117     52    102     54    104     Nuclear export protein OS=Influenza A virus (strain A/Puerto Rico/8/1934 H1N1) OX=211044 GN=NS PE=1 SV=1
+sp|Q992I2|SIGC_ARVS1      9.7      0.84     1   0.0     12     98     26     90     53    117     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q27YG8|YORF3_NORAV     9.3       1.1     2   1.0     82    188     94    184     22    109     Uncharacterized ORF3 protein OS=Nora virus OX=363716 GN=ORF3 PE=4 SV=1
+sp|Q8UZL8|NSP3_ROTRH      9.0       1.4     1   6.5    156    247    174    235     57    114     Non-structural protein 3 OS=Rotavirus A (strain RVA/Monkey/United States/RRV/1975/G3P5B[3]) OX=444185 PE=1 SV=1
+sp|A4ZCW4|NSP3_ROTH3      8.6       1.9     1   6.4    168    246    174    235     57    114     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=3 SV=2
+sp|P19818|VAT_CAMVP       6.9       6.4     2   5.8     90    158    101    156     63    115     Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+sp|P03549|VAT_CAMVC       6.4       9.1     2   4.9     84    158    102    155     64    114     Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|Q197A4|VF287_IIV3      6.0        12     2   0.1    261    334    293    323     63     93     Uncharacterized protein 056L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-056L PE=3 SV=1
+sp|P03549|VAT_CAMVC       5.9        13     1   0.1     15     62     31     52     49     70     Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|P19818|VAT_CAMVP       5.7        15     1   0.2     15     58     31     52     49     70     Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+sp|Q197A4|VF287_IIV3      4.4        38     1   0.8    213    254    217    249     88    116     Uncharacterized protein 056L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-056L PE=3 SV=1
+sp|Q8UZL8|NSP3_ROTRH      1.4   3.2e+02     2   0.3    245    308    275    295     61     81     Non-structural protein 3 OS=Rotavirus A (strain RVA/Monkey/United States/RRV/1975/G3P5B[3]) OX=444185 PE=1 SV=1
+sp|Q27YG8|YORF3_NORAV     1.4   3.2e+02     1   0.1      3     50      8     41     81    114     Uncharacterized ORF3 protein OS=Nora virus OX=363716 GN=ORF3 PE=4 SV=1
+sp|Q82049|NSP3_ROTWI      1.3   3.3e+02     2   0.2    247    304    269    293     55     79     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Human/United States/WI61/1983/G9P1A[8]) OX=578830 PE=2 SV=1
+sp|Q82053|NSP3_ROTHT      0.8     5e+02     3   0.2    247    304    270    293     56     79     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=2 SV=1
+sp|Q82050|NSP3_ROTHK      0.7   5.1e+02     3   0.1    247    304    269    293     55     79     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+sp|A4ZCW4|NSP3_ROTH3      0.6   5.7e+02     2   0.2    248    308    275    295     61     81     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=3 SV=2
+sp|Q992I2|SIGC_ARVS1      0.2   7.7e+02     2   0.0     88    146     99    137     77    115     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q5UR90|YR642_MIMIV    -0.3   1.1e+03     1   0.9     75    143     97    120     67     91     Uncharacterized protein R642 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R642 PE=4 SV=1
+sp|Q82053|NSP3_ROTHT     -0.8   1.5e+03     1   0.0      9    112     48     88     48     88     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=2 SV=1
+sp|Q82050|NSP3_ROTHK     -0.8   1.6e+03     1   0.2      9    112     72    105     72    110     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+sp|Q8BD31|NCAP_TAMVU     -1.0   1.8e+03     2   0.0    184    242    192    236     57     99     Nucleoprotein OS=Tamiami mammarenavirus (isolate Rat/United States/W 10777/1964) OX=45223 GN=N PE=3 SV=1
+sp|P11208|PHOSP_PIV5     -3.0   7.4e+03     1   0.0      6     29      8     19     52     63     Phosphoprotein OS=Parainfluenza virus 5 (strain W3) OX=11208 GN=P/V PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_048156@NC_001993.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_048156@NC_001993.txt data/models_hmm/NP_048156@NC_001993.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:29 2021
+# [ok]

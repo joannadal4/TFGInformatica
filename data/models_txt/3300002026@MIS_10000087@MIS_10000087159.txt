@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPH3|YR097_MIMIV    20.7   0.00031   4   3.7   1.8    Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+sp|Q6R7E2|IAP2_OSHVF     11.9      0.17   2   2.0   0.1    Putative apoptosis inhibitor ORF87 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF87 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPH3|YR097_MIMIV    20.7   0.00031     1   1.8     32     93     35     82      4     49     Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+sp|Q6R7E2|IAP2_OSHVF     11.9      0.17     1   0.1     43     92     49     78      4     33     Putative apoptosis inhibitor ORF87 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF87 PE=4 SV=1
+sp|Q5UPH3|YR097_MIMIV     2.4   1.5e+02     3   0.1    170    246    183    221      8     45     Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+sp|Q5UPH3|YR097_MIMIV     0.3   6.9e+02     2   1.1     91    130     98    119      5     21     Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+sp|Q6R7E2|IAP2_OSHVF     -2.5   5.1e+03     2   0.4    132    146    136    142     12     18     Putative apoptosis inhibitor ORF87 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF87 PE=4 SV=1
+sp|Q5UPH3|YR097_MIMIV    -3.0   7.4e+03     4   0.4    263    276    268    274     11     17     Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000087@MIS_10000087159.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000087@MIS_10000087159.txt data/models_hmm/3300002026@MIS_10000087@MIS_10000087159.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:45 2021
+# [ok]

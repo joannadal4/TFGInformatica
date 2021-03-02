@@ -1,0 +1,105 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9J555|A13_FOWPN     103.1   6.6e-30   1   1.0   0.6    Virion membrane protein A13 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV178 PE=2 SV=1
+sp|P20990|A13_VACCC      29.8   5.1e-07   1   1.0   0.0    Protein A13 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A13L PE=2 SV=1
+sp|Q76ZQ4|A13_VACCW      29.8   5.1e-07   1   1.0   0.0    Virion membrane protein A13 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR132 PE=1 SV=1
+sp|P0DSW1|A13_VAR67      29.4   6.7e-07   1   1.0   0.0    Virion membrane protein A13 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A13L PE=2 SV=1
+sp|P0DSW2|A13_VARV       29.4   6.7e-07   1   1.0   0.0    Virion membrane protein A13 OS=Variola virus OX=10255 GN=A13L PE=2 SV=1
+sp|Q5UPZ4|YL310_MIMIV    19.8   0.00068   2   1.7   1.2    Uncharacterized protein L310 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L310 PE=4 SV=1
+sp|P23169|ENV22_ASFB7    19.2    0.0011   1   1.5   0.4    Envelope protein p22 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-005 PE=2 SV=1
+sp|Q5UP57|P4H_MIMIV      18.5    0.0017   1   1.4   1.6    Putative prolyl 4-hydroxylase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L593 PE=1 SV=1
+sp|P0C9Z8|P54_ASFK5      16.3    0.0084   1   1.6   0.8    Envelope protein p54 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-138 PE=3 SV=1
+sp|P0C9W3|ENV22_ASFWA    15.5     0.015   1   1.5   0.4    Envelope protein p22 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-003 PE=2 SV=1
+sp|P0C9W2|ENV22_ASFP4    15.5     0.015   1   1.5   0.4    Envelope protein p22 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-004 PE=2 SV=1
+sp|P0C9W1|ENV22_ASFM2    15.3     0.018   1   1.3   0.4    Envelope protein p22 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-002 PE=2 SV=1
+sp|P0C9W0|ENV22_ASFK5    14.5     0.031   1   1.3   0.1    Envelope protein p22 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-004 PE=2 SV=1
+sp|O10371|OE18_NPVOP     14.5     0.032   1   1.3   0.0    Occlusion-derived virus envelope protein E18 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF140 PE=4 SV=1
+sp|O57044|RDRP_HV19S     14.4     0.034   1   1.6   0.0    Probable RNA-directed RNA polymerase OS=Helminthosporium victoriae virus-190S OX=45237 PE=3 SV=2
+sp|O70901|VPU_HV190      14.0     0.046   1   1.1   0.5    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype H (isolate 90CF056) OX=388826 GN=vpu PE=3 SV=1
+sp|P33865|F5_VAR67       13.5     0.061   1   1.6   6.9    36 kDa major membrane protein F5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C9L PE=3 SV=1
+sp|P05923|VPU_HV1BR      13.4     0.066   1   1.1   2.3    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRU/LAI) OX=11686 GN=vpu PE=1 SV=1
+sp|O55714|083L_IIV6      13.2     0.078   1   1.1   0.7    Uncharacterized protein 083L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-083L PE=4 SV=1
+sp|Q5UPZ5|YL309_MIMIV    13.1     0.082   1   1.7   0.0    Uncharacterized protein L309 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L309 PE=1 SV=1
+sp|Q5UQ56|YR710_MIMIV    13.0     0.092   2   1.9   0.4    Uncharacterized protein R710 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R710 PE=1 SV=1
+sp|F5HB53|GB_HCMVM       12.9       0.1   1   2.0   1.3    Envelope glycoprotein B OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gB PE=3 SV=1
+sp|Q5UPY8|YR305_MIMIV    12.6      0.12   2   2.0   2.7    Uncharacterized protein R305 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R305 PE=4 SV=1
+sp|P69699|VPU_HV1B1      12.4      0.14   1   1.3   3.2    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=vpu PE=1 SV=1
+sp|P69700|VPU_HV1H3      12.4      0.14   1   1.3   3.2    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB3) OX=11707 GN=vpu PE=3 SV=1
+sp|P19554|VPU_HV1S1      12.4      0.14   1   1.3   0.8    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate SF162) OX=11691 GN=vpu PE=1 SV=1
+sp|Q70625|VPU_HV1LW      12.4      0.14   1   1.2   3.2    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate LW123) OX=82834 GN=vpu PE=1 SV=1
+sp|P13201|GB_HCMVT       12.2      0.16   1   2.0   1.6    Envelope glycoprotein B OS=Human cytomegalovirus (strain Towne) OX=10363 GN=gB PE=1 SV=1
+sp|O12163|VPU_HV192      12.1      0.18   1   1.2   1.2    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype C (isolate 92BR025) OX=388812 GN=vpu PE=3 SV=1
+sp|P05919|VPU_HV1H2      12.0      0.19   1   1.3   3.6    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=vpu PE=1 SV=1
+sp|P18806|VPU_HV1ND      11.7      0.23   1   1.3   4.7    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=vpu PE=3 SV=1
+sp|P05921|VPU_HV1B8      10.8      0.44   1   1.2   2.8    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH8) OX=11684 GN=vpu PE=3 SV=1
+sp|P04855|FUS_SENDZ       9.7      0.97   1   1.6   5.2    Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|Q9DUD9|FUS_SENDA       9.7      0.98   1   1.8   5.2    Fusion glycoprotein F0 OS=Sendai virus (strain Hamamatsu) OX=302271 GN=F PE=3 SV=1
+sp|P06473|GB_HCMVA        9.6         1   2   2.2   5.0    Envelope glycoprotein B OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gB PE=1 SV=1
+sp|O57295|FUS_SENDO       9.6         1   1   1.8   5.2    Fusion glycoprotein F0 OS=Sendai virus (strain Ohita) OX=302272 GN=F PE=3 SV=1
+sp|P04856|FUS_SENDH       9.6       1.1   1   1.6   5.1    Fusion glycoprotein F0 OS=Sendai virus (strain Harris) OX=11196 GN=F PE=3 SV=1
+sp|P12575|FUS_SENDF       9.5       1.1   1   1.6   5.1    Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+sp|P12605|FUS_PI1HC       8.0       3.3   1   1.6   6.6    Fusion glycoprotein F0 OS=Human parainfluenza 1 virus (strain C39) OX=11210 GN=F PE=2 SV=1
+sp|Q5UQR8|YL323_MIMIV     7.5       4.7   2   2.4   5.5    Uncharacterized protein L323 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L323 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9J555|A13_FOWPN     103.0   7.2e-30     1   0.6      1     71      1     71      1     68     Virion membrane protein A13 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV178 PE=2 SV=1
+sp|P20990|A13_VACCC      29.7   5.4e-07     1   0.0      1     70      5     70      6     68     Protein A13 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A13L PE=2 SV=1
+sp|Q76ZQ4|A13_VACCW      29.7   5.4e-07     1   0.0      1     70      5     70      6     68     Virion membrane protein A13 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR132 PE=1 SV=1
+sp|P0DSW1|A13_VAR67      29.3   7.2e-07     1   0.0      1     68      5     68      6     68     Virion membrane protein A13 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A13L PE=2 SV=1
+sp|P0DSW2|A13_VARV       29.3   7.2e-07     1   0.0      1     68      5     68      6     68     Virion membrane protein A13 OS=Variola virus OX=10255 GN=A13L PE=2 SV=1
+sp|Q5UPZ4|YL310_MIMIV    18.9    0.0013     1   0.7     47    103     52     90      8     51     Uncharacterized protein L310 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L310 PE=4 SV=1
+sp|P23169|ENV22_ASFB7    18.3    0.0021     1   0.4      6     50      6     38      1     34     Envelope protein p22 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-005 PE=2 SV=1
+sp|Q5UP57|P4H_MIMIV      17.9    0.0028     1   1.6      1     52      5     31      6     32     Putative prolyl 4-hydroxylase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L593 PE=1 SV=1
+sp|P0C9Z8|P54_ASFK5      15.1      0.02     1   0.8     30     77     36     67      6     37     Envelope protein p54 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-138 PE=3 SV=1
+sp|P0C9W1|ENV22_ASFM2    14.7     0.027     1   0.4      1     46      4     34      3     34     Envelope protein p22 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-002 PE=2 SV=1
+sp|P0C9W2|ENV22_ASFP4    14.5     0.031     1   0.4      6     50      6     38      1     34     Envelope protein p22 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-004 PE=2 SV=1
+sp|P0C9W3|ENV22_ASFWA    14.5     0.031     1   0.4      6     50      6     38      1     34     Envelope protein p22 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-003 PE=2 SV=1
+sp|O10371|OE18_NPVOP     14.0     0.044     1   0.0     25     69     28     48      4     24     Occlusion-derived virus envelope protein E18 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF140 PE=4 SV=1
+sp|P0C9W0|ENV22_ASFK5    13.8      0.05     1   0.1      6     50      6     38      1     34     Envelope protein p22 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-004 PE=2 SV=1
+sp|O70901|VPU_HV190      13.7     0.055     1   0.5      6     51      7     37      2     33     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype H (isolate 90CF056) OX=388826 GN=vpu PE=3 SV=1
+sp|O55714|083L_IIV6      13.2     0.079     1   0.7      1     44      5     25      8     31     Uncharacterized protein 083L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-083L PE=4 SV=1
+sp|P05923|VPU_HV1BR      13.0     0.089     1   2.3      6     52     10     48      6     44     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRU/LAI) OX=11686 GN=vpu PE=1 SV=1
+sp|O57044|RDRP_HV19S     13.0     0.089     1   0.0    760    788    766    785     47     66     Probable RNA-directed RNA polymerase OS=Helminthosporium victoriae virus-190S OX=45237 PE=3 SV=2
+sp|Q5UQ56|YR710_MIMIV    13.0     0.092     2   0.4    167    194    167    192      1     26     Uncharacterized protein R710 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R710 PE=1 SV=1
+sp|Q5UPY8|YR305_MIMIV    12.5      0.13     1   0.5     10     57     14     44      7     39     Uncharacterized protein R305 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R305 PE=4 SV=1
+sp|P33865|F5_VAR67       12.4      0.14     1   6.9    288    321    288    317      1     30     36 kDa major membrane protein F5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C9L PE=3 SV=1
+sp|P19554|VPU_HV1S1      11.9      0.19     1   0.8      4     57     12     45      6     40     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate SF162) OX=11691 GN=vpu PE=1 SV=1
+sp|P69699|VPU_HV1B1      11.9       0.2     1   3.2      4     52     10     48      6     44     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=vpu PE=1 SV=1
+sp|P69700|VPU_HV1H3      11.9       0.2     1   3.2      4     52     10     48      6     44     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB3) OX=11707 GN=vpu PE=3 SV=1
+sp|Q70625|VPU_HV1LW      11.9       0.2     1   3.2      4     52     10     48      6     44     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate LW123) OX=82834 GN=vpu PE=1 SV=1
+sp|O12163|VPU_HV192      11.8      0.21     1   1.2     12     56     14     39      3     28     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype C (isolate 92BR025) OX=388812 GN=vpu PE=3 SV=1
+sp|Q5UPZ5|YL309_MIMIV    11.8      0.22     1   0.0      1     46      5     31      6     31     Uncharacterized protein L309 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L309 PE=1 SV=1
+sp|P05919|VPU_HV1H2      11.5      0.27     1   3.6      5     52     10     48      6     44     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=vpu PE=1 SV=1
+sp|P18806|VPU_HV1ND      11.3      0.31     1   4.7      4     51     11     35      6     29     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=vpu PE=3 SV=1
+sp|P06473|GB_HCMVA       11.1      0.36     1   1.3    751    790    755    781      5     32     Envelope glycoprotein B OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gB PE=1 SV=1
+sp|F5HB53|GB_HCMVM       11.1      0.36     1   1.3    752    791    756    782      5     32     Envelope glycoprotein B OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gB PE=3 SV=1
+sp|P13201|GB_HCMVT       10.4      0.58     1   1.6    752    790    756    782      5     32     Envelope glycoprotein B OS=Human cytomegalovirus (strain Towne) OX=10363 GN=gB PE=1 SV=1
+sp|P05921|VPU_HV1B8      10.4       0.6     1   2.8      5     52     11     48      7     44     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH8) OX=11684 GN=vpu PE=3 SV=1
+sp|P04855|FUS_SENDZ       8.5       2.3     1   5.2    498    545    505    527      6     28     Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|P04856|FUS_SENDH       8.3       2.6     1   5.1    498    544    505    528      6     29     Fusion glycoprotein F0 OS=Sendai virus (strain Harris) OX=11196 GN=F PE=3 SV=1
+sp|P12575|FUS_SENDF       8.3       2.6     1   5.1    498    545    505    527      6     28     Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+sp|O57295|FUS_SENDO       8.1         3     1   5.2    498    545    506    525      7     26     Fusion glycoprotein F0 OS=Sendai virus (strain Ohita) OX=302272 GN=F PE=3 SV=1
+sp|Q9DUD9|FUS_SENDA       8.1         3     1   5.2    498    545    506    525      7     26     Fusion glycoprotein F0 OS=Sendai virus (strain Hamamatsu) OX=302271 GN=F PE=3 SV=1
+sp|P12605|FUS_PI1HC       6.7       8.2     1   6.6    496    539    501    521      6     26     Fusion glycoprotein F0 OS=Human parainfluenza 1 virus (strain C39) OX=11210 GN=F PE=2 SV=1
+sp|Q5UQR8|YL323_MIMIV     5.9        15     1   0.7    177    225    183    198      8     23     Uncharacterized protein L323 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L323 PE=3 SV=1
+sp|Q5UQR8|YL323_MIMIV     3.6        75     2   0.4    245    278    250    264      6     20     Uncharacterized protein L323 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L323 PE=3 SV=1
+sp|Q5UPY8|YR305_MIMIV    -0.8   1.9e+03     2   0.1     90    118     92    106     23     36     Uncharacterized protein R305 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R305 PE=4 SV=1
+sp|Q5UQ56|YR710_MIMIV    -1.4   2.8e+03     1   0.2     78    117    104    115     45     56     Uncharacterized protein R710 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R710 PE=1 SV=1
+sp|Q5UPZ4|YL310_MIMIV    -1.8   3.7e+03     2   0.0     97    126    100    122     23     46     Uncharacterized protein L310 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L310 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_044068@NC_001731.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_044068@NC_001731.txt data/models_hmm/NP_044068@NC_001731.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:20 2021
+# [ok]

@@ -1,0 +1,53 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P06501|E1BS_ADES7    213.2   2.5e-63   1   1.0   1.8    E1B protein, small T-antigen OS=Simian adenovirus serotype 7 OX=10532 PE=3 SV=1
+sp|P03246|E1BS_ADE05    202.7   4.1e-60   1   1.0   3.2    E1B protein, small T-antigen OS=Human adenovirus C serotype 5 OX=28285 PE=1 SV=1
+sp|P03247|E1BS_ADE02    202.4   4.9e-60   1   1.0   2.9    E1B protein, small T-antigen OS=Human adenovirus C serotype 2 OX=10515 GN=E1B PE=1 SV=2
+sp|P10543|E1BS_ADE40    198.4   8.5e-59   1   1.1   0.2    E1B protein, small T-antigen OS=Human adenovirus F serotype 40 OX=28284 PE=3 SV=1
+sp|P10544|E1BS_ADE41    197.9   1.2e-58   1   1.1   0.3    E1B protein, small T-antigen OS=Human adenovirus F serotype 41 OX=10524 PE=2 SV=1
+sp|P03248|E1BS_ADE07    197.7   1.4e-58   1   1.2   0.0    E1B protein, small T-antigen OS=Human adenovirus B serotype 7 OX=10519 PE=3 SV=1
+sp|P10406|E1BS_ADE04    189.2   5.4e-56   1   1.0   0.6    E1B protein, small T-antigen OS=Human adenovirus E serotype 4 OX=28280 PE=3 SV=1
+sp|P04492|E1BS_ADE12    186.9   2.8e-55   1   1.0   2.0    E1B protein, small T-antigen OS=Human adenovirus A serotype 12 OX=28282 PE=3 SV=1
+sp|P14265|E1BS_ADECT    153.4     5e-45   1   1.0   0.0    E1B protein, small T-antigen OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 PE=3 SV=2
+sp|P35984|E1BS_ADECG    151.7   1.6e-44   1   1.0   0.0    E1B protein, small T-antigen OS=Canine adenovirus serotype 1 (strain Glaxo) OX=10513 PE=3 SV=1
+sp|Q65942|E1BS_ADECC    150.1   5.1e-44   1   1.0   0.0    E1B protein, small T-antigen OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 PE=3 SV=1
+sp|Q96678|E1BS_ADECR    150.0   5.5e-44   1   1.0   0.0    E1B protein, small T-antigen OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 PE=3 SV=1
+sp|P12535|E1BS_ADEM1    132.9   9.2e-39   1   1.0   2.7    E1B protein, small T-antigen OS=Murine adenovirus A serotype 1 OX=10530 PE=3 SV=1
+sp|P35983|E1BS_ADEC2    127.6   4.1e-37   1   1.0   0.1    E1B protein, small T-antigen OS=Canine adenovirus serotype 2 OX=10514 PE=3 SV=1
+sp|P04886|E1BS_ADET1    115.4   2.1e-33   1   1.0   0.1    E1B protein, small T-antigen homolog OS=Tree shrew adenovirus serotype 1 OX=47680 PE=3 SV=1
+sp|Q85232|ICP27_SUHVK     7.5       2.4   1   1.3   7.2    mRNA export factor ICP27 homolog OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=UL54 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P06501|E1BS_ADES7    213.0   2.8e-63     1   1.8      1    180      1    179      1    185     E1B protein, small T-antigen OS=Simian adenovirus serotype 7 OX=10532 PE=3 SV=1
+sp|P03246|E1BS_ADE05    202.5   4.6e-60     1   3.2      1    176      1    175      1    183     E1B protein, small T-antigen OS=Human adenovirus C serotype 5 OX=28285 PE=1 SV=1
+sp|P03247|E1BS_ADE02    202.3   5.4e-60     1   2.9      1    175      1    174      1    183     E1B protein, small T-antigen OS=Human adenovirus C serotype 2 OX=10515 GN=E1B PE=1 SV=2
+sp|P10543|E1BS_ADE40    198.1     1e-58     1   0.2      1    167      1    163      1    182     E1B protein, small T-antigen OS=Human adenovirus F serotype 40 OX=28284 PE=3 SV=1
+sp|P10544|E1BS_ADE41    197.5   1.5e-58     1   0.3      1    170      1    169      1    185     E1B protein, small T-antigen OS=Human adenovirus F serotype 41 OX=10524 PE=2 SV=1
+sp|P03248|E1BS_ADE07    197.3   1.8e-58     1   0.0      1    178      1    178      1    186     E1B protein, small T-antigen OS=Human adenovirus B serotype 7 OX=10519 PE=3 SV=1
+sp|P10406|E1BS_ADE04    189.0   6.2e-56     1   0.6      1    139      1    131      1    131     E1B protein, small T-antigen OS=Human adenovirus E serotype 4 OX=28280 PE=3 SV=1
+sp|P04492|E1BS_ADE12    186.7   3.1e-55     1   2.0      1    163      1    158      1    160     E1B protein, small T-antigen OS=Human adenovirus A serotype 12 OX=28282 PE=3 SV=1
+sp|P14265|E1BS_ADECT    153.2   5.7e-45     1   0.0      1    166      1    156      1    157     E1B protein, small T-antigen OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 PE=3 SV=2
+sp|P35984|E1BS_ADECG    151.5   1.8e-44     1   0.0      1    167      1    160      1    161     E1B protein, small T-antigen OS=Canine adenovirus serotype 1 (strain Glaxo) OX=10513 PE=3 SV=1
+sp|Q65942|E1BS_ADECC    149.9     6e-44     1   0.0      1    167      1    158      1    159     E1B protein, small T-antigen OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 PE=3 SV=1
+sp|Q96678|E1BS_ADECR    149.8   6.2e-44     1   0.0      1    167      1    158      1    159     E1B protein, small T-antigen OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 PE=3 SV=1
+sp|P12535|E1BS_ADEM1    132.7   1.1e-38     1   2.7      7    175      9    173      4    170     E1B protein, small T-antigen OS=Murine adenovirus A serotype 1 OX=10530 PE=3 SV=1
+sp|P35983|E1BS_ADEC2    127.4   4.6e-37     1   0.1      1    167      1    157      1    157     E1B protein, small T-antigen OS=Canine adenovirus serotype 2 OX=10514 PE=3 SV=1
+sp|P04886|E1BS_ADET1    115.2   2.4e-33     1   0.1      1    132      1    125      1    129     E1B protein, small T-antigen homolog OS=Tree shrew adenovirus serotype 1 OX=47680 PE=3 SV=1
+sp|Q85232|ICP27_SUHVK     6.8       3.9     1   7.2     24    117     57    112    147    201     mRNA export factor ICP27 homolog OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=UL54 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_044185@NC_001734.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_044185@NC_001734.txt data/models_hmm/NP_044185@NC_001734.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:20 2021
+# [ok]

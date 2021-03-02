@@ -1,0 +1,76 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P06427|VE6_HPV33     17.4    0.0033   2   2.1   1.3    Protein E6 OS=Human papillomavirus type 33 OX=10586 GN=E6 PE=1 SV=1
+sp|P36799|VE6_HPV03     17.3    0.0034   2   2.2   1.1    Protein E6 OS=Human papillomavirus type 3 OX=10614 GN=E6 PE=1 SV=1
+sp|P50802|VE6_HPV28     17.0    0.0044   2   2.2   2.0    Protein E6 OS=Human papillomavirus type 28 OX=37111 GN=E6 PE=3 SV=1
+sp|P26555|VE6_HPV58     15.4     0.013   2   2.2   1.1    Protein E6 OS=Human papillomavirus type 58 OX=10598 GN=E6 PE=3 SV=1
+sp|P24837|VE7_HPV39     15.4     0.014   1   1.2   0.7    Protein E7 OS=Human papillomavirus type 39 OX=10588 GN=E7 PE=3 SV=1
+sp|P27963|VE7_HPVME     15.2     0.015   1   1.3   2.9    Protein E7 OS=Human papillomavirus type ME180 OX=10602 GN=E7 PE=3 SV=1
+sp|P35982|E1A_ADECG     15.1     0.016   1   1.5   0.9    Early E1A protein OS=Canine adenovirus serotype 1 (strain Glaxo) OX=10513 PE=3 SV=1
+sp|P35981|E1A_ADEC2     14.4     0.026   1   2.0   5.2    Early E1A protein OS=Canine adenovirus serotype 2 OX=10514 PE=3 SV=1
+sp|P50803|VE6_HPV29     14.2      0.03   2   2.1   0.5    Protein E6 OS=Human papillomavirus type 29 OX=37112 GN=E6 PE=3 SV=1
+sp|P54668|VE7_HPV68     14.2     0.031   1   1.3   1.2    Protein E7 OS=Human papillomavirus type 68 OX=45240 GN=E7 PE=3 SV=1
+sp|Q96676|E1A_ADECR     14.1     0.033   1   1.5   1.3    Early E1A protein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 PE=3 SV=1
+sp|Q80949|VE7_HPV61     13.5     0.049   1   1.1   0.2    Protein E7 OS=Human papillomavirus type 61 OX=37116 GN=E7 PE=3 SV=1
+sp|P36832|VE7_HPV53     13.2     0.061   1   1.2   1.1    Protein E7 OS=Human papillomavirus type 53 OX=333765 GN=E7 PE=3 SV=1
+sp|P50785|VE7_HPV70     13.2     0.063   1   1.3   4.1    Protein E7 OS=Human papillomavirus type 70 OX=39457 GN=E7 PE=3 SV=1
+sp|P36815|VE6_HPV53     13.0      0.07   2   2.2   1.8    Protein E6 OS=Human papillomavirus type 53 OX=333765 GN=E6 PE=3 SV=1
+sp|P14264|E1A_ADECT     12.5       0.1   1   2.1   5.3    Early E1A protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 PE=3 SV=1
+sp|P17386|VE6_HPV31     12.2      0.13   2   2.1   0.5    Protein E6 OS=Human papillomavirus type 31 OX=10585 GN=E6 PE=1 SV=1
+sp|P36802|VE6_HPV10     11.9      0.16   2   2.2   3.0    Protein E6 OS=Human papillomavirus type 10 OX=333759 GN=E6 PE=3 SV=1
+sp|P06788|VE7_HPV18     11.5      0.21   1   1.4   3.7    Protein E7 OS=Human papillomavirus type 18 OX=333761 GN=E7 PE=1 SV=2
+sp|Q80948|VE6_HPV61     11.2      0.26   2   2.2   1.5    Protein E6 OS=Human papillomavirus type 61 OX=37116 GN=E6 PE=3 SV=1
+sp|Q705D2|VE6_HPV94     10.8      0.34   2   2.3   6.1    Protein E6 OS=Human papillomavirus type 94 OX=260717 GN=E6 PE=3 SV=1
+sp|P30735|VE6_MNPVA     10.6       0.4   2   1.5   3.2    Protein E6 OS=Mastomys natalensis papillomavirus (isolate African multimammate rat) OX=654915 GN=E6 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P24837|VE7_HPV39     15.2     0.016     1   0.7     13    106     21     70     95    141     Protein E7 OS=Human papillomavirus type 39 OX=10588 GN=E7 PE=3 SV=1
+sp|P27963|VE7_HPVME     14.6     0.023     1   2.9     14     77     24     70     98    140     Protein E7 OS=Human papillomavirus type ME180 OX=10602 GN=E7 PE=3 SV=1
+sp|P54668|VE7_HPV68     14.2     0.031     1   1.2     12     79     21     48     95    120     Protein E7 OS=Human papillomavirus type 68 OX=45240 GN=E7 PE=3 SV=1
+sp|P35982|E1A_ADECG     14.0     0.036     1   0.7     62    168     68    157     70    148     Early E1A protein OS=Canine adenovirus serotype 1 (strain Glaxo) OX=10513 PE=3 SV=1
+sp|Q96676|E1A_ADECR     13.3     0.057     1   1.3     36    168     67    157     69    149     Early E1A protein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 PE=3 SV=1
+sp|Q80949|VE7_HPV61     13.3      0.06     1   0.2      3     69     18     65     94    144     Protein E7 OS=Human papillomavirus type 61 OX=37116 GN=E7 PE=3 SV=1
+sp|P36832|VE7_HPV53     13.2     0.065     1   1.1     15    101     22     70     99    142     Protein E7 OS=Human papillomavirus type 53 OX=333765 GN=E7 PE=3 SV=1
+sp|P50785|VE7_HPV70     13.0     0.072     1   4.1     14    108     22     70     96    141     Protein E7 OS=Human papillomavirus type 70 OX=39457 GN=E7 PE=3 SV=1
+sp|P35981|E1A_ADEC2     12.8     0.081     1   5.2     30    168     66    124     58    118     Early E1A protein OS=Canine adenovirus serotype 2 OX=10514 PE=3 SV=1
+sp|P30735|VE6_MNPVA     12.0      0.14     1   0.7     16     71     22     60    136    168     Protein E6 OS=Mastomys natalensis papillomavirus (isolate African multimammate rat) OX=654915 GN=E6 PE=3 SV=2
+sp|P06788|VE7_HPV18     11.2      0.27     1   3.7     13    103     23     47     98    122     Protein E7 OS=Human papillomavirus type 18 OX=333761 GN=E7 PE=1 SV=2
+sp|P14264|E1A_ADECT     10.2      0.53     1   5.3     47    172     68    125     59    118     Early E1A protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 PE=3 SV=1
+sp|P50802|VE6_HPV28      9.9      0.64     1   0.1     13     77     22     69    132    173     Protein E6 OS=Human papillomavirus type 28 OX=37111 GN=E6 PE=3 SV=1
+sp|P06427|VE6_HPV33      9.4       0.9     1   0.2      2     76     14     67    121    168     Protein E6 OS=Human papillomavirus type 33 OX=10586 GN=E6 PE=1 SV=1
+sp|P36799|VE6_HPV03      8.9       1.3     1   0.1     20     82     27     51    131    155     Protein E6 OS=Human papillomavirus type 3 OX=10614 GN=E6 PE=1 SV=1
+sp|P36802|VE6_HPV10      8.7       1.5     1   0.4     15     78     27     47    135    155     Protein E6 OS=Human papillomavirus type 10 OX=333759 GN=E6 PE=3 SV=1
+sp|P50803|VE6_HPV29      8.6       1.6     1   0.1     16     78     25     47    133    155     Protein E6 OS=Human papillomavirus type 29 OX=37112 GN=E6 PE=3 SV=1
+sp|P36815|VE6_HPV53      8.6       1.6     1   0.1     20     82     32     71    135    168     Protein E6 OS=Human papillomavirus type 53 OX=333765 GN=E6 PE=3 SV=1
+sp|P17386|VE6_HPV31      8.0       2.5     1   0.0      7     78     28     67    135    168     Protein E6 OS=Human papillomavirus type 31 OX=10585 GN=E6 PE=1 SV=1
+sp|P26555|VE6_HPV58      7.8       2.9     2   0.1     83    146     96    124    130    158     Protein E6 OS=Human papillomavirus type 58 OX=10598 GN=E6 PE=3 SV=1
+sp|Q705D2|VE6_HPV94      7.6       3.4     2   0.6     83    144     88    117    123    152     Protein E6 OS=Human papillomavirus type 94 OX=260717 GN=E6 PE=3 SV=1
+sp|P36799|VE6_HPV03      7.5       3.5     2   0.1     85    148     92    121    123    152     Protein E6 OS=Human papillomavirus type 3 OX=10614 GN=E6 PE=1 SV=1
+sp|P06427|VE6_HPV33      7.4       3.7     2   0.1     74    146     96    122    130    156     Protein E6 OS=Human papillomavirus type 33 OX=10586 GN=E6 PE=1 SV=1
+sp|P50802|VE6_HPV28      7.0         5     2   0.2     80    141     86    115    123    152     Protein E6 OS=Human papillomavirus type 28 OX=37111 GN=E6 PE=3 SV=1
+sp|Q80948|VE6_HPV61      6.9       5.4     1   0.2     12     71     18     44    128    154     Protein E6 OS=Human papillomavirus type 61 OX=37116 GN=E6 PE=3 SV=1
+sp|P26555|VE6_HPV58      6.7       6.1     1   0.1      2     71     14     47    121    154     Protein E6 OS=Human papillomavirus type 58 OX=10598 GN=E6 PE=3 SV=1
+sp|Q705D2|VE6_HPV94      6.3         8     1   0.6     14     78     26     47    134    155     Protein E6 OS=Human papillomavirus type 94 OX=260717 GN=E6 PE=3 SV=1
+sp|P50803|VE6_HPV29      4.3        34     2   0.0     83    138     90    117    123    152     Protein E6 OS=Human papillomavirus type 29 OX=37112 GN=E6 PE=3 SV=1
+sp|P36815|VE6_HPV53      4.1        40     2   0.2     88    148     99    122    129    152     Protein E6 OS=Human papillomavirus type 53 OX=333765 GN=E6 PE=3 SV=1
+sp|P36802|VE6_HPV10      3.8        47     2   0.1     83    143     90    117    125    152     Protein E6 OS=Human papillomavirus type 10 OX=333759 GN=E6 PE=3 SV=1
+sp|Q80948|VE6_HPV61      3.4        63     2   0.1     75    118     92    111    129    148     Protein E6 OS=Human papillomavirus type 61 OX=37116 GN=E6 PE=3 SV=1
+sp|P17386|VE6_HPV31      2.7   1.1e+02     2   0.1     85    125     94    117    128    151     Protein E6 OS=Human papillomavirus type 31 OX=10585 GN=E6 PE=1 SV=1
+sp|P30735|VE6_MNPVA     -3.2   6.8e+03     2   0.1     84    113     95    104    136    145     Protein E6 OS=Mastomys natalensis papillomavirus (isolate African multimammate rat) OX=654915 GN=E6 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_647585@NC_003973.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_647585@NC_003973.txt data/models_hmm/NP_647585@NC_003973.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:13 2021
+# [ok]

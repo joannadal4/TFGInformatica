@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05221|VG15_BPML5     38.5   6.1e-10   1   1.2   0.6    Gene 15 protein OS=Mycobacterium phage L5 OX=31757 GN=15 PE=4 SV=1
+sp|O64208|VG15_BPMD2     35.0   7.1e-09   1   1.2   0.1    Gene 15 protein OS=Mycobacterium phage D29 OX=28369 GN=15 PE=4 SV=1
+sp|Q8VAK2|UB403_WSSVS    14.1     0.016   1   1.2   0.1    RING finger containing E3 ubiquitin-protein ligase WSV403 OS=White spot syndrome virus (isolate Shrimp/China/Tongan/1996) OX=654913 GN=WSV403 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05221|VG15_BPML5     38.2   7.5e-10     1   0.6      1    287      4    240      6    198     Gene 15 protein OS=Mycobacterium phage L5 OX=31757 GN=15 PE=4 SV=1
+sp|O64208|VG15_BPMD2     34.5     1e-08     1   0.1     10    265     22    230     33    203     Gene 15 protein OS=Mycobacterium phage D29 OX=28369 GN=15 PE=4 SV=1
+sp|Q8VAK2|UB403_WSSVS    14.0     0.016     1   0.1    129    534    430    507    259    332     RING finger containing E3 ubiquitin-protein ligase WSV403 OS=White spot syndrome virus (isolate Shrimp/China/Tongan/1996) OX=654913 GN=WSV403 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008409542@NC_022060.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008409542@NC_022060.txt data/models_hmm/YP_008409542@NC_022060.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:58 2021
+# [ok]

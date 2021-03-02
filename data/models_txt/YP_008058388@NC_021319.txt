@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R7C7|Y102_OSHVF    14.2     0.048   2   2.2   0.1    Uncharacterized protein ORF102 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF102 PE=4 SV=1
+sp|Q9T1W7|TERS_BPMU     12.5      0.17   3   2.7   2.2    Probable terminase, small subunit gp27 OS=Escherichia phage Mu OX=10677 GN=Mup27 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R7C7|Y102_OSHVF    12.1      0.22     1   0.0    424    485    430    463     14     47     Uncharacterized protein ORF102 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF102 PE=4 SV=1
+sp|Q9T1W7|TERS_BPMU      9.3       1.7     1   0.0      8     72     23     69     46     90     Probable terminase, small subunit gp27 OS=Escherichia phage Mu OX=10677 GN=Mup27 PE=1 SV=1
+sp|Q9T1W7|TERS_BPMU      1.4   4.6e+02     3   0.3    136    190    148    182     30     63     Probable terminase, small subunit gp27 OS=Escherichia phage Mu OX=10677 GN=Mup27 PE=1 SV=1
+sp|Q9T1W7|TERS_BPMU     -1.1   2.8e+03     2   0.0     64    120     78     92     53     67     Probable terminase, small subunit gp27 OS=Escherichia phage Mu OX=10677 GN=Mup27 PE=1 SV=1
+sp|Q6R7C7|Y102_OSHVF    -3.2   1.3e+04     2   0.0    550    566    554    565     78     89     Uncharacterized protein ORF102 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF102 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008058388@NC_021319.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008058388@NC_021319.txt data/models_hmm/YP_008058388@NC_021319.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:12 2021
+# [ok]

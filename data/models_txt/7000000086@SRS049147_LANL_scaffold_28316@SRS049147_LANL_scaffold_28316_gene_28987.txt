@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68325|GC_EHV1D       8.7      0.37   1   1.2   5.1    Envelope glycoprotein C OS=Equine herpesvirus 1 (strain Kentucky D) OX=10330 GN=gC PE=1 SV=1
+sp|Q6S6Q5|GC_EHV1B       8.7      0.37   1   1.2   5.1    Envelope glycoprotein C OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=gC PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68325|GC_EHV1D       8.1      0.56     1   5.1      6    109     12    101     21    109     Envelope glycoprotein C OS=Equine herpesvirus 1 (strain Kentucky D) OX=10330 GN=gC PE=1 SV=1
+sp|Q6S6Q5|GC_EHV1B       8.1      0.56     1   5.1      6    109     12    101     21    109     Envelope glycoprotein C OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=gC PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000086@SRS049147_LANL_scaffold_28316@SRS049147_LANL_scaffold_28316_gene_28987.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000086@SRS049147_LANL_scaffold_28316@SRS049147_LANL_scaffold_28316_gene_28987.txt data/models_hmm/7000000086@SRS049147_LANL_scaffold_28316@SRS049147_LANL_scaffold_28316_gene_28987.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:22 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P34052|VP10_NPVSE    15.3    0.0087   1   1.1   0.7    Protein p10 OS=Spodoptera exigua nuclear polyhedrosis virus (strain US) OX=31506 GN=P10 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P34052|VP10_NPVSE    15.0     0.011     1   0.7      8     69     11     62     15     65     Protein p10 OS=Spodoptera exigua nuclear polyhedrosis virus (strain US) OX=31506 GN=P10 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_037877@NC_002169.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_037877@NC_002169.txt data/models_hmm/NP_037877@NC_002169.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:11 2021
+# [ok]

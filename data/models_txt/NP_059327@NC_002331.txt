@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P15736|VP3_ROTS1     17.4    0.0024   2   2.4   0.8    Protein VP3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=3 SV=2
+sp|A2T3S5|VP3_ROTSH     17.4    0.0026   2   2.4   0.8    Protein VP3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=1 SV=1
+sp|B1NKS7|VP3_ROTHL     15.0     0.014   2   2.4   1.2    Protein VP3 OS=Rotavirus A (strain RVA/Human/Philippines/L26/1987/G12P1B[4]) OX=10953 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P15736|VP3_ROTS1     13.5      0.04     2   0.4    385    510    393    480      9     94     Protein VP3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=3 SV=2
+sp|A2T3S5|VP3_ROTSH     13.5      0.04     2   0.4    385    510    393    480      9     94     Protein VP3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=1 SV=1
+sp|B1NKS7|VP3_ROTHL     11.9      0.12     2   0.6    385    511    393    480      9     94     Protein VP3 OS=Rotavirus A (strain RVA/Human/Philippines/L26/1987/G12P1B[4]) OX=10953 PE=3 SV=1
+sp|A2T3S5|VP3_ROTSH      1.4   1.9e+02     1   0.0    205    249    214    240    115    141     Protein VP3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=1 SV=1
+sp|P15736|VP3_ROTS1      1.4   1.9e+02     1   0.0    205    249    214    240    115    141     Protein VP3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=3 SV=2
+sp|B1NKS7|VP3_ROTHL      0.5   3.8e+02     1   0.0    201    256    214    241    115    142     Protein VP3 OS=Rotavirus A (strain RVA/Human/Philippines/L26/1987/G12P1B[4]) OX=10953 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_059327@NC_002331.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_059327@NC_002331.txt data/models_hmm/NP_059327@NC_002331.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:39 2021
+# [ok]

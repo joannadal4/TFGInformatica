@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O36366|VG11_ALHV1    12.4      0.11   2   2.9   0.3    Uncharacterized gene 11 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=11 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O36366|VG11_ALHV1     6.1       9.9     2   0.0    288    329    294    322     32     57     Uncharacterized gene 11 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=11 PE=4 SV=1
+sp|O36366|VG11_ALHV1     3.3        76     1   0.1     29    104     56     81      9     34     Uncharacterized gene 11 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=11 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000114@MIS_1000011417.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000114@MIS_1000011417.txt data/models_hmm/3300002026@MIS_10000114@MIS_1000011417.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:47 2021
+# [ok]

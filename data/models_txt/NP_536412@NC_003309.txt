@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21678|RPC2_BP186    19.2   0.00073   1   1.3   0.0    Regulatory protein CII OS=Escherichia phage 186 OX=29252 GN=CII PE=4 SV=1
+sp|Q196Y9|VF259_IIV3    16.3    0.0054   1   1.5   0.1    Uncharacterized protein 071L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-071L PE=3 SV=1
+sp|Q91FR3|VF259_IIV6    15.6    0.0089   1   1.6   0.1    Uncharacterized protein 259R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-259R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21678|RPC2_BP186    18.8   0.00095     1   0.0     14    149     24    117     17    116     Regulatory protein CII OS=Escherichia phage 186 OX=29252 GN=CII PE=4 SV=1
+sp|Q196Y9|VF259_IIV3    15.4     0.011     1   0.1    119    192    139    172     93    126     Uncharacterized protein 071L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-071L PE=3 SV=1
+sp|Q91FR3|VF259_IIV6    14.6     0.019     1   0.1    199    275    209    251     85    129     Uncharacterized protein 259R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-259R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_536412@NC_003309.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_536412@NC_003309.txt data/models_hmm/NP_536412@NC_003309.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:03 2021
+# [ok]

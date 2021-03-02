@@ -1,0 +1,53 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P11208|PHOSP_PIV5     15.7     0.011   1   1.7   0.2    Phosphoprotein OS=Parainfluenza virus 5 (strain W3) OX=11208 GN=P/V PE=1 SV=1
+sp|P05397|VAT_CERV       15.4     0.015   1   1.5   0.4    Aphid transmission protein OS=Carnation etched ring virus OX=10640 GN=ORF II PE=3 SV=1
+sp|P0C790|P9_LIYV9       14.2     0.033   1   1.1   0.4    Protein P9 OS=Lettuce infectious yellows virus (isolate United States/92) OX=651355 PE=1 SV=1
+sp|P14268|CAP9_ADECT     12.9     0.087   1   1.2   0.3    Hexon-interlacing protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=IX PE=3 SV=1
+sp|P04506|SIGM1_REOVL    12.7     0.098   4   3.4   1.5    Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|Q5UQW6|YR387_MIMIV    10.4      0.51   4   3.7   9.9    Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q914J7|Y033_SIFVH      9.3       1.1   2   1.6   6.9    Uncharacterized protein 33 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0033 PE=4 SV=1
+sp|Q197B1|049R_IIV3       6.5       7.8   5   6.3  20.7    Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q5UP02|YL750_MIMIV     6.3       9.4   4   3.5  15.1    Uncharacterized protein L750 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L750 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P11208|PHOSP_PIV5     14.4     0.028     1   0.2    205    302    212    275     13     74     Phosphoprotein OS=Parainfluenza virus 5 (strain W3) OX=11208 GN=P/V PE=1 SV=1
+sp|P05397|VAT_CERV       14.4     0.029     1   0.4     99    158    118    139     22     43     Aphid transmission protein OS=Carnation etched ring virus OX=10640 GN=ORF II PE=3 SV=1
+sp|P0C790|P9_LIYV9       14.0     0.039     1   0.4      3     77      9     69     53    114     Protein P9 OS=Lettuce infectious yellows virus (isolate United States/92) OX=651355 PE=1 SV=1
+sp|P14268|CAP9_ADECT     12.4      0.12     1   0.3     61    102     65    100      6     41     Hexon-interlacing protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=IX PE=3 SV=1
+sp|Q914J7|Y033_SIFVH     12.3      0.13     1   2.9      1     71      3     48      9     54     Uncharacterized protein 33 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0033 PE=4 SV=1
+sp|Q5UP02|YL750_MIMIV    12.0      0.15     2   1.5     73    164     87    132     40     86     Uncharacterized protein L750 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L750 PE=4 SV=1
+sp|P04506|SIGM1_REOVL     7.9         3     1   0.4     28    109     38     75      9     46     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|Q5UQW6|YR387_MIMIV     7.5       4.1     3   0.5    149    232    163    221     19     76     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q197B1|049R_IIV3       6.8       6.3     5   0.3    485    558    509    550     25     66     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q5UQW6|YR387_MIMIV     4.9        25     2   0.3     59    106     72     93     19     40     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q197B1|049R_IIV3       4.1        44     1   0.1     62     98     66     89     21     44     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q5UQW6|YR387_MIMIV     2.5   1.4e+02     1   0.2     23     68     36     65      9     38     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q197B1|049R_IIV3       2.3   1.6e+02     3   0.1    269    324    280    307     14     41     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q197B1|049R_IIV3       2.2   1.7e+02     4   0.6    328    428    344    401      8     63     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q5UP02|YL750_MIMIV     2.1   1.8e+02     4   0.2    296    337    306    334     71     99     Uncharacterized protein L750 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L750 PE=4 SV=1
+sp|Q5UQW6|YR387_MIMIV     1.8   2.3e+02     4   0.1    195    253    200    236      9     44     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|P04506|SIGM1_REOVL     0.2   7.1e+02     2   0.0     80    134     94    120      9     35     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|Q5UP02|YL750_MIMIV    -0.0   8.6e+02     3   0.3    193    287    244    268     59     83     Uncharacterized protein L750 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L750 PE=4 SV=1
+sp|Q197B1|049R_IIV3      -0.2   9.8e+02     2   0.1    171    221    194    217     19     42     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|P04506|SIGM1_REOVL    -0.6   1.3e+03     3   0.0    115    174    127    164     14     51     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|P04506|SIGM1_REOVL    -0.7   1.3e+03     4   0.0    228    278    246    271     22     46     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|Q5UP02|YL750_MIMIV    -2.1   3.6e+03     1   0.0      3     74     24     24     18     18     Uncharacterized protein L750 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L750 PE=4 SV=1
+sp|Q914J7|Y033_SIFVH     -3.1   7.8e+03     2   0.1     95    126    109    115     46     52     Uncharacterized protein 33 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0033 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001346@JGI20151J14362_10000195@JGI20151J14362_1000019519.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001346@JGI20151J14362_10000195@JGI20151J14362_1000019519.txt data/models_hmm/3300001346@JGI20151J14362_10000195@JGI20151J14362_1000019519.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:50 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q06425|YO83_BPP2     94.4   3.4e-27   1   1.0   0.0    Uncharacterized 10.2 kDa protein in GpA 5'region OS=Escherichia phage P2 OX=10679 GN=ORF83 PE=4 SV=1
+sp|P41061|CP83_BP186    74.2   6.8e-21   1   1.0   0.4    Uncharacterized 10.4 kDa protein in GpA 5'region OS=Escherichia phage 186 OX=29252 GN=CP83 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q06425|YO83_BPP2     94.2   4.1e-27     1   0.0      3     90      3     84      1     83     Uncharacterized 10.2 kDa protein in GpA 5'region OS=Escherichia phage P2 OX=10679 GN=ORF83 PE=4 SV=1
+sp|P41061|CP83_BP186    74.1   7.5e-21     1   0.4      3     91      3     87      1     87     Uncharacterized 10.4 kDa protein in GpA 5'region OS=Escherichia phage 186 OX=29252 GN=CP83 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008126742@NC_021539.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008126742@NC_021539.txt data/models_hmm/YP_008126742@NC_021539.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:24 2021
+# [ok]

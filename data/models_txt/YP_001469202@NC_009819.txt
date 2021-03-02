@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9XJJ6|SPAN1_BP933    14.5      0.02   1   1.6   0.7    Spanin, inner membrane subunit OS=Escherichia phage 933W OX=10730 GN=Rz PE=3 SV=1
+sp|P00726|SPAN1_LAMBD    14.1     0.025   2   1.8   1.3    Spanin, inner membrane subunit OS=Escherichia phage lambda OX=10710 GN=Rz PE=1 SV=1
+sp|P10438|SPAN1_BPPA2    14.0     0.027   1   1.0   0.3    Spanin, inner membrane subunit (Fragment) OS=Enterobacteria phage PA-2 OX=10738 GN=Rz PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9XJJ6|SPAN1_BP933    14.2     0.024     1   0.3      1    123      5     61     32     84     Spanin, inner membrane subunit OS=Escherichia phage 933W OX=10730 GN=Rz PE=3 SV=1
+sp|P10438|SPAN1_BPPA2    13.8      0.03     1   0.3      2     63      6     60     30     83     Spanin, inner membrane subunit (Fragment) OS=Enterobacteria phage PA-2 OX=10738 GN=Rz PE=3 SV=1
+sp|P00726|SPAN1_LAMBD    13.7     0.034     1   0.2      2    122      8     61     29     84     Spanin, inner membrane subunit OS=Escherichia phage lambda OX=10710 GN=Rz PE=1 SV=1
+sp|P00726|SPAN1_LAMBD    -0.6   8.1e+02     2   0.1    107    151    127    142     53     68     Spanin, inner membrane subunit OS=Escherichia phage lambda OX=10710 GN=Rz PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001469202@NC_009819.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001469202@NC_009819.txt data/models_hmm/YP_001469202@NC_009819.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:22 2021
+# [ok]

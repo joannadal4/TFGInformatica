@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ40|UBC4_MIMIV    10.6      0.38   2   2.2   3.6    Probable bifunctional E2/E3 enzyme R795 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R795 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ40|UBC4_MIMIV    10.4      0.45     1   1.4    246    275    252    274     32     54     Probable bifunctional E2/E3 enzyme R795 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R795 PE=3 SV=1
+sp|Q5UQ40|UBC4_MIMIV    -2.0   3.1e+03     2   0.0   1071   1099   1072   1096     25     49     Probable bifunctional E2/E3 enzyme R795 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R795 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000149@LPaug09P1610mDRAFT_c1000001@LPaug09P1610mDRAFT_100000165.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000149@LPaug09P1610mDRAFT_c1000001@LPaug09P1610mDRAFT_100000165.txt data/models_hmm/3300000149@LPaug09P1610mDRAFT_c1000001@LPaug09P1610mDRAFT_100000165.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:52 2021
+# [ok]

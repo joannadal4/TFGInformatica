@@ -1,0 +1,38 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P30328|MCP_PBCV1      25.2   1.3e-05   1   1.7   0.1    Major capsid protein OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=A430L PE=1 SV=3
+sp|A7U6F0|MCP_PPV01      24.8   1.8e-05   2   2.0   0.3    Major capsid protein OS=Phaeocystis pouchetii virus OX=455365 GN=MCP PE=3 SV=1
+sp|A7U6E7|MCP_CEV01      23.5   4.6e-05   1   1.6   0.1    Major capsid protein OS=Chrysochromulina ericina virus OX=455364 GN=MCP PE=3 SV=1
+sp|Q5UQL7|CAPS1_MIMIV    23.1   5.9e-05   2   1.8   1.1    Capsid protein 1 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L425 PE=1 SV=2
+sp|A7U6E9|MCP_POV01      19.8   0.00063   2   1.9   1.0    Major capsid protein OS=Pyramimonas orientalis virus OX=455367 GN=MCP PE=3 SV=1
+sp|Q7T6Y5|CAPS4_MIMIV    16.8    0.0056   1   1.9   0.1    Probable capsid protein 4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R441 PE=3 SV=2
+sp|Q91FU5|227L_IIV6      16.0      0.01   1   1.1   2.6    Uncharacterized protein 227L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-227L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P30328|MCP_PBCV1      24.0   3.1e-05     1   0.1      1     30      1     21     25     45     Major capsid protein OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=A430L PE=1 SV=3
+sp|A7U6F0|MCP_PPV01      23.2   5.7e-05     1   0.1      1     28      1     21     25     45     Major capsid protein OS=Phaeocystis pouchetii virus OX=455365 GN=MCP PE=3 SV=1
+sp|Q5UQL7|CAPS1_MIMIV    22.7   7.9e-05     1   0.1      1     28      1     22     25     46     Capsid protein 1 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L425 PE=1 SV=2
+sp|A7U6E7|MCP_CEV01      22.3    0.0001     1   0.1      1     29      1     21     25     45     Major capsid protein OS=Chrysochromulina ericina virus OX=455364 GN=MCP PE=3 SV=1
+sp|A7U6E9|MCP_POV01      19.1    0.0011     1   0.1      1     28      1     21     25     45     Major capsid protein OS=Pyramimonas orientalis virus OX=455367 GN=MCP PE=3 SV=1
+sp|Q91FU5|227L_IIV6      15.8     0.012     1   2.6      1     36      2     26     53     77     Uncharacterized protein 227L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-227L PE=4 SV=1
+sp|Q7T6Y5|CAPS4_MIMIV    15.2     0.018     1   0.1      1     28      1     21     25     45     Probable capsid protein 4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R441 PE=3 SV=2
+sp|A7U6E9|MCP_POV01      -3.1   8.8e+03     2   0.1    129    153    131    150     21     40     Major capsid protein OS=Pyramimonas orientalis virus OX=455367 GN=MCP PE=3 SV=1
+sp|A7U6F0|MCP_PPV01      -3.1   9.2e+03     2   0.0    470    505    481    500     22     41     Major capsid protein OS=Phaeocystis pouchetii virus OX=455365 GN=MCP PE=3 SV=1
+sp|Q5UQL7|CAPS1_MIMIV    -3.9   1.6e+04     2   0.1    563    580    568    577     56     66     Capsid protein 1 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L425 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004678955@NC_000852.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004678955@NC_000852.txt data/models_hmm/YP_004678955@NC_000852.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:31 2021
+# [ok]

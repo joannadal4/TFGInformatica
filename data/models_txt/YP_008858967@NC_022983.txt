@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q82045|NSP1_ROTHT    12.3      0.14   1   1.7   0.0    Non-structural protein 1 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=2 SV=1
+sp|B3SRX6|NSP1_ROTWI    12.2      0.14   1   1.6   0.0    Non-structural protein 1 OS=Rotavirus A (isolate RVA/Human/United States/WI61/1983/G9P1A[8]) OX=578830 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|B3SRX6|NSP1_ROTWI    11.0      0.35     1   0.0     77    173     83    155      9     78     Non-structural protein 1 OS=Rotavirus A (isolate RVA/Human/United States/WI61/1983/G9P1A[8]) OX=578830 PE=3 SV=1
+sp|Q82045|NSP1_ROTHT    10.9      0.38     1   0.0     77    170     83    155      9     78     Non-structural protein 1 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008858967@NC_022983.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008858967@NC_022983.txt data/models_hmm/YP_008858967@NC_022983.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:41 2021
+# [ok]

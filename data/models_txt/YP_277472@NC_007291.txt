@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q38442|GP7_BPSPP      35.5   5.1e-09   1   2.0   6.2    Minor head protein GP7 OS=Bacillus phage SPP1 OX=10724 GN=7 PE=1 SV=2
+sp|Q01259|GPF_BPMU       15.4    0.0064   2   1.9   2.1    Putative capsid assembly protein F OS=Escherichia phage Mu OX=10677 GN=F PE=2 SV=2
+sp|Q5GA89|PHOSP_TAVCV    12.9     0.038   1   1.1   0.0    Phosphoprotein OS=Taro vein chlorosis virus OX=303300 GN=P PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38442|GP7_BPSPP      32.3   4.8e-08     1   6.1     18    275     26    268     16    245     Minor head protein GP7 OS=Bacillus phage SPP1 OX=10724 GN=7 PE=1 SV=2
+sp|Q01259|GPF_BPMU       15.0    0.0082     2   0.2    132    190    147    187    207    245     Putative capsid assembly protein F OS=Escherichia phage Mu OX=10677 GN=F PE=2 SV=2
+sp|Q5GA89|PHOSP_TAVCV    12.6     0.046     1   0.0    119    268    178    259     27    106     Phosphoprotein OS=Taro vein chlorosis virus OX=303300 GN=P PE=3 SV=1
+sp|Q01259|GPF_BPMU       -1.0     6e+02     1   0.1     22    103     33     97    116    181     Putative capsid assembly protein F OS=Escherichia phage Mu OX=10677 GN=F PE=2 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_277472@NC_007291.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_277472@NC_007291.txt data/models_hmm/YP_277472@NC_007291.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:25 2021
+# [ok]

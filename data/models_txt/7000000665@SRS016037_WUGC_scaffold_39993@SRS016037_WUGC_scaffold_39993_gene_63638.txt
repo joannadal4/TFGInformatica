@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q04704|NS7B_CVCAK    12.9     0.053   1   1.5   0.1    Non-structural protein 7b OS=Canine coronavirus (strain K378) OX=33732 GN=7b PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q04704|NS7B_CVCAK    11.9      0.11     1   0.1     62     88     65     76     26     37     Non-structural protein 7b OS=Canine coronavirus (strain K378) OX=33732 GN=7b PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000665@SRS016037_WUGC_scaffold_39993@SRS016037_WUGC_scaffold_39993_gene_63638.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000665@SRS016037_WUGC_scaffold_39993@SRS016037_WUGC_scaffold_39993_gene_63638.txt data/models_hmm/7000000665@SRS016037_WUGC_scaffold_39993@SRS016037_WUGC_scaffold_39993_gene_63638.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:51 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P10277|PRIM_BPP4     15.0    0.0039   1   1.2   0.0    Putative P4-specific DNA primase OS=Enterobacteria phage P4 OX=10680 GN=Alpha PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P10277|PRIM_BPP4     14.5    0.0057     1   0.0    445    714    470    639    411    591     Putative P4-specific DNA primase OS=Enterobacteria phage P4 OX=10680 GN=Alpha PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001426552@NC_008724.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001426552@NC_008724.txt data/models_hmm/YP_001426552@NC_008724.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:14 2021
+# [ok]

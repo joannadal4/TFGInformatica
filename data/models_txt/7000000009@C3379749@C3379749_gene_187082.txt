@@ -1,0 +1,66 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P89677|CAPSD_TOMK2    18.9    0.0011   1   1.3   0.0    Capsid protein OS=Tomato mosaic virus (strain Kazakh K2) OX=138312 GN=CP PE=3 SV=3
+sp|Q9Q1T6|CAPSD_TOMK1    18.7    0.0012   1   1.4   0.0    Capsid protein OS=Tomato mosaic virus (strain Kazakh K1) OX=138311 GN=CP PE=1 SV=3
+sp|P03578|CAPSD_ORSVJ    16.4    0.0063   2   1.9   0.0    Capsid protein OS=Odontoglossum ringspot virus (isolate Japan) OX=138307 GN=CP PE=1 SV=3
+sp|Q84136|CAPSD_ORSVS    16.4    0.0063   2   1.9   0.0    Capsid protein OS=Odontoglossum ringspot virus (isolate Singapore 1) OX=138662 GN=CP PE=3 SV=3
+sp|P03575|CAPSD_TMVDA    16.3    0.0069   1   1.4   0.0    Capsid protein OS=Tobacco mosaic virus (strain Dahlemense) OX=12246 GN=CP PE=1 SV=2
+sp|Q9WDG4|CAPSD_PMMV1    16.3     0.007   1   1.3   0.0    Capsid protein OS=Pepper mild mottle virus (strain P1) OX=138304 GN=CP PE=2 SV=3
+sp|O41345|CAPSD_TOMS1    16.3    0.0071   1   1.4   0.0    Capsid protein OS=Tomato mosaic virus (strain S-1) OX=138314 GN=CP PE=3 SV=3
+sp|P03576|CAPSD_TOML     16.2    0.0076   1   1.4   0.0    Capsid protein OS=Tomato mosaic virus (strain L) OX=12252 GN=CP PE=3 SV=2
+sp|Q98747|CAPSD_TMVRA    15.6     0.011   1   1.4   0.0    Capsid protein OS=Tobacco mosaic virus (strain Rakkyo) OX=138310 GN=CP PE=3 SV=3
+sp|Q84843|CAPSD_PMMVI    15.1     0.016   1   1.4   0.0    Capsid protein OS=Pepper mild mottle virus (strain Italian) OX=138306 GN=CP PE=3 SV=3
+sp|Q83482|CAPSD_TOMKO    15.1     0.016   1   1.4   0.0    Capsid protein OS=Tomato mosaic virus (strain Korean) OX=138313 GN=CP PE=3 SV=3
+sp|P69509|CAPSD_PMMVJ    15.1     0.016   1   1.4   0.0    Capsid protein OS=Pepper mild mottle virus (strain Japan) OX=138663 GN=CP PE=2 SV=2
+sp|P69510|CAPSD_PMMVS    15.1     0.016   1   1.4   0.0    Capsid protein OS=Pepper mild mottle virus (strain Spain) OX=31745 GN=CP PE=3 SV=2
+sp|Q9WDG3|CAPSD_PMMV0    14.8      0.02   1   1.4   0.0    Capsid protein OS=Pepper mild mottle virus (strain P0) OX=138303 GN=CP PE=2 SV=3
+sp|Q84122|CAPSD_ORSVC    13.4     0.055   2   1.9   0.0    Capsid protein OS=Odontoglossum ringspot virus (isolate Korean Cy) OX=138661 GN=CP PE=2 SV=3
+sp|Q9WDG5|CAPSD_PMMV2    12.9     0.082   1   1.4   0.0    Capsid protein OS=Pepper mild mottle virus (strain P2) OX=138305 GN=CP PE=2 SV=3
+sp|P69687|CAPSD_TMV      12.8     0.089   1   1.4   0.0    Capsid protein OS=Tobacco mosaic virus (strain vulgare) OX=12243 GN=CP PE=1 SV=2
+sp|P69688|CAPSD_TMVB     12.8     0.089   1   1.4   0.0    Capsid protein OS=Tobacco mosaic virus (strain B935A) OX=138309 GN=CP PE=3 SV=2
+sp|P69689|CAPSD_TMVKR    12.8     0.089   1   1.4   0.0    Capsid protein OS=Tobacco mosaic virus (strain Korean NC 82) OX=31746 GN=CP PE=3 SV=2
+sp|P03573|CAPSD_TMVER    12.7     0.091   1   1.4   0.0    Capsid protein OS=Tobacco mosaic virus (strain ER) OX=12247 GN=CP PE=1 SV=2
+sp|P03579|CAPSD_TMGMV    12.4      0.11   1   1.4   0.0    Capsid protein OS=Tobacco mild green mosaic virus OX=12241 GN=CP PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P89677|CAPSD_TOMK2    18.2    0.0018     1   0.0     77    141     84    136     23     73     Capsid protein OS=Tomato mosaic virus (strain Kazakh K2) OX=138312 GN=CP PE=3 SV=3
+sp|Q9Q1T6|CAPSD_TOMK1    18.0    0.0021     1   0.0     76    141     86    136     25     73     Capsid protein OS=Tomato mosaic virus (strain Kazakh K1) OX=138311 GN=CP PE=1 SV=3
+sp|Q9WDG4|CAPSD_PMMV1    15.6     0.011     1   0.0     77    141     86    136     25     73     Capsid protein OS=Pepper mild mottle virus (strain P1) OX=138304 GN=CP PE=2 SV=3
+sp|P03575|CAPSD_TMVDA    15.5     0.012     1   0.0     76    141     86    136     25     73     Capsid protein OS=Tobacco mosaic virus (strain Dahlemense) OX=12246 GN=CP PE=1 SV=2
+sp|O41345|CAPSD_TOMS1    15.5     0.012     1   0.0     77    141     86    136     25     73     Capsid protein OS=Tomato mosaic virus (strain S-1) OX=138314 GN=CP PE=3 SV=3
+sp|P03576|CAPSD_TOML     15.4     0.013     1   0.0     77    141     87    136     26     73     Capsid protein OS=Tomato mosaic virus (strain L) OX=12252 GN=CP PE=3 SV=2
+sp|Q98747|CAPSD_TMVRA    14.8     0.021     1   0.0     76    141     86    136     25     73     Capsid protein OS=Tobacco mosaic virus (strain Rakkyo) OX=138310 GN=CP PE=3 SV=3
+sp|Q84843|CAPSD_PMMVI    14.3      0.03     1   0.0     72    141     81    136     20     73     Capsid protein OS=Pepper mild mottle virus (strain Italian) OX=138306 GN=CP PE=3 SV=3
+sp|P69509|CAPSD_PMMVJ    14.2      0.03     1   0.0     72    141     81    136     20     73     Capsid protein OS=Pepper mild mottle virus (strain Japan) OX=138663 GN=CP PE=2 SV=2
+sp|P69510|CAPSD_PMMVS    14.2      0.03     1   0.0     72    141     81    136     20     73     Capsid protein OS=Pepper mild mottle virus (strain Spain) OX=31745 GN=CP PE=3 SV=2
+sp|Q83482|CAPSD_TOMKO    14.2      0.03     1   0.0     72    141     81    136     20     73     Capsid protein OS=Tomato mosaic virus (strain Korean) OX=138313 GN=CP PE=3 SV=3
+sp|P03578|CAPSD_ORSVJ    14.0     0.035     2   0.0     82    143     90    138     27     73     Capsid protein OS=Odontoglossum ringspot virus (isolate Japan) OX=138307 GN=CP PE=1 SV=3
+sp|Q84136|CAPSD_ORSVS    14.0     0.035     2   0.0     82    143     90    138     27     73     Capsid protein OS=Odontoglossum ringspot virus (isolate Singapore 1) OX=138662 GN=CP PE=3 SV=3
+sp|Q9WDG3|CAPSD_PMMV0    14.0     0.037     1   0.0     72    141     81    136     20     73     Capsid protein OS=Pepper mild mottle virus (strain P0) OX=138303 GN=CP PE=2 SV=3
+sp|Q9WDG5|CAPSD_PMMV2    12.0      0.15     1   0.0     71    141     81    136     20     73     Capsid protein OS=Pepper mild mottle virus (strain P2) OX=138305 GN=CP PE=2 SV=3
+sp|P03573|CAPSD_TMVER    11.9      0.16     1   0.0     76    141     86    135     25     72     Capsid protein OS=Tobacco mosaic virus (strain ER) OX=12247 GN=CP PE=1 SV=2
+sp|P69687|CAPSD_TMV      11.9      0.16     1   0.0     76    141     86    135     25     72     Capsid protein OS=Tobacco mosaic virus (strain vulgare) OX=12243 GN=CP PE=1 SV=2
+sp|P69688|CAPSD_TMVB     11.9      0.16     1   0.0     76    141     86    135     25     72     Capsid protein OS=Tobacco mosaic virus (strain B935A) OX=138309 GN=CP PE=3 SV=2
+sp|P69689|CAPSD_TMVKR    11.9      0.16     1   0.0     76    141     86    135     25     72     Capsid protein OS=Tobacco mosaic virus (strain Korean NC 82) OX=31746 GN=CP PE=3 SV=2
+sp|P03579|CAPSD_TMGMV    11.6       0.2     1   0.0     75    141     82    136     21     73     Capsid protein OS=Tobacco mild green mosaic virus OX=12241 GN=CP PE=1 SV=3
+sp|Q84122|CAPSD_ORSVC    11.1       0.3     2   0.0     82    143     95    138     32     73     Capsid protein OS=Odontoglossum ringspot virus (isolate Korean Cy) OX=138661 GN=CP PE=2 SV=3
+sp|P03578|CAPSD_ORSVJ    -0.1   9.3e+02     1   0.0      4     56     14     29     20     35     Capsid protein OS=Odontoglossum ringspot virus (isolate Japan) OX=138307 GN=CP PE=1 SV=3
+sp|Q84122|CAPSD_ORSVC    -0.1   9.3e+02     1   0.0      4     56     14     29     20     35     Capsid protein OS=Odontoglossum ringspot virus (isolate Korean Cy) OX=138661 GN=CP PE=2 SV=3
+sp|Q84136|CAPSD_ORSVS    -0.1   9.3e+02     1   0.0      4     56     14     29     20     35     Capsid protein OS=Odontoglossum ringspot virus (isolate Singapore 1) OX=138662 GN=CP PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000009@C3379749@C3379749_gene_187082.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000009@C3379749@C3379749_gene_187082.txt data/models_hmm/7000000009@C3379749@C3379749_gene_187082.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:35 2021
+# [ok]

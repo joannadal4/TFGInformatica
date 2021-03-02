@@ -1,0 +1,273 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C6J2|HBEAG_WHV1    467.7  4.4e-141   1   1.0   4.1    External core antigen OS=Woodchuck hepatitis B virus (isolate 1) OX=10430 GN=C PE=1 SV=1
+sp|P0C6J4|HBEAG_WHV3    465.3  2.5e-140   1   1.0   4.0    External core antigen OS=Woodchuck hepatitis B virus (isolate 59) OX=10431 GN=C PE=1 SV=1
+sp|P0C6J5|HBEAG_WHV4    465.3  2.5e-140   1   1.0   4.0    External core antigen OS=Woodchuck hepatitis B virus (isolate 7) OX=10432 GN=C PE=3 SV=1
+sp|P0C6J6|HBEAG_WHV5    465.3  2.5e-140   1   1.0   4.0    External core antigen OS=Woodchuck hepatitis B virus (isolate 8) OX=10433 GN=C PE=3 SV=1
+sp|P03153|HBEAG_GSHV    463.6  8.1e-140   1   1.0   4.8    External core antigen OS=Ground squirrel hepatitis virus (strain 27) OX=10406 GN=C PE=3 SV=1
+sp|P0C6J3|HBEAG_WHV2    453.3  1.2e-136   1   1.0   4.3    External core antigen OS=Woodchuck hepatitis B virus (isolate 2) OX=341946 GN=C PE=3 SV=1
+sp|Q64896|HBEAG_ASHV    442.8  1.9e-133   1   1.0   4.6    External core antigen OS=Arctic squirrel hepatitis virus OX=41952 GN=C PE=3 SV=1
+sp|P0C6G7|HBEAG_HBVB2   432.3    3e-130   1   1.0   3.7    External core antigen OS=Hepatitis B virus genotype B2 (isolate Indonesia/pIDW420/1988) OX=10412 GN=C PE=3 SV=1
+sp|P0C6H5|HBEAG_HBVC3   432.3    3e-130   1   1.0   3.7    External core antigen OS=Hepatitis B virus genotype C subtype adr (strain Japan/adr4/1983) OX=10409 GN=C PE=3 SV=1
+sp|P0C6G9|HBEAG_HBVB4   431.7  4.8e-130   1   1.0   3.8    External core antigen OS=Hepatitis B virus genotype B/C subtype adw (isolate Okinawa/pODW282/1998) OX=10415 GN=C PE=3 SV=1
+sp|P0C6H2|HBEAG_HBVC0   431.7  4.8e-130   1   1.0   3.8    External core antigen OS=Hepatitis B virus genotype C (isolate Vietnam/3270/2000) OX=489472 GN=C PE=1 SV=1
+sp|P0C767|HBEAG_HBVCJ   430.7  9.6e-130   1   1.0   3.6    External core antigen OS=Hepatitis B virus genotype C subtype ayr (isolate Human/Japan/Okamoto/-) OX=928302 GN=C PE=3 SV=1
+sp|P0C692|HBEAG_HBVA2   426.1  2.4e-128   1   1.0   4.0    External core antigen OS=Hepatitis B virus genotype A2 subtype adw (isolate Japan/Nishioka/1983) OX=482134 GN=C PE=3 SV=1
+sp|Q9WMB7|HBEAG_HBVC2   425.8    3e-128   1   1.0   3.6    External core antigen OS=Hepatitis B virus genotype C subtype ar (isolate Japan/S-207/1988) OX=489467 GN=C PE=3 SV=1
+sp|P0C573|HBEAG_HBVD3   424.9  5.6e-128   1   1.0   4.1    External core antigen OS=Hepatitis B virus genotype D subtype ayw (isolate France/Tiollais/1979) OX=490133 GN=C PE=1 SV=1
+sp|Q91C37|HBEAG_HBVA6   424.1  9.5e-128   1   1.0   3.8    External core antigen OS=Hepatitis B virus genotype A1 subtype adw2 (isolate South Africa/84/2001) OX=489454 GN=C PE=3 SV=1
+sp|O91532|HBEAG_HBVA7   423.8  1.2e-127   1   1.0   4.7    External core antigen OS=Hepatitis B virus genotype A2 (isolate Japan/11D11HCCW/1998) OX=489457 GN=C PE=3 SV=1
+sp|Q4R1S8|HBEAG_HBVA8   423.8  1.2e-127   1   1.0   3.7    External core antigen OS=Hepatitis B virus genotype A3 (isolate Cameroon/CMR983/1994) OX=489458 GN=C PE=3 SV=1
+sp|P0C699|HBEAG_HBVB1   423.4  1.6e-127   1   1.0   4.5    External core antigen OS=Hepatitis B virus genotype B1 subtype adw (isolate Japan/pJDW233/1988) OX=10413 GN=C PE=3 SV=1
+sp|Q913A8|HBEAG_HBVC7   422.9  2.3e-127   1   1.0   3.5    External core antigen OS=Hepatitis B virus genotype C subtype ayw (isolate China/Tibet127/2002) OX=489469 GN=C PE=3 SV=1
+sp|Q4R1S0|HBEAG_HBVA9   422.4  3.2e-127   1   1.0   4.1    External core antigen OS=Hepatitis B virus genotype A3 (isolate Cameroon/CMR711/1994) OX=489459 GN=C PE=3 SV=1
+sp|P0C625|HBEAG_HBVA3   422.0  4.4e-127   1   1.0   3.7    External core antigen OS=Hepatitis B virus genotype A2 subtype adw2 (strain Rutter 1979) OX=480116 GN=C PE=1 SV=1
+sp|Q67876|HBEAG_HBVD6   421.8  4.8e-127   1   1.0   4.0    External core antigen OS=Hepatitis B virus genotype D subtype ayw (isolate Italy/CI/1992) OX=489489 GN=C PE=3 SV=1
+sp|Q81105|HBEAG_HBVA5   420.7  1.1e-126   1   1.0   3.8    External core antigen OS=Hepatitis B virus genotype A1 subtype adw (isolate Philippines/pFDW294/1988) OX=31514 GN=C PE=3 SV=2
+sp|O92920|HBEAG_HBVD7   420.6  1.2e-126   1   1.0   4.8    External core antigen OS=Hepatitis B virus genotype D (isolate Germany/1-91/1991) OX=489490 GN=C PE=3 SV=1
+sp|Q05495|HBEAG_HBVF1   420.5  1.2e-126   1   1.0   2.9    External core antigen OS=Hepatitis B virus genotype F2 (isolate Brazil/w4B) OX=45410 GN=C PE=3 SV=1
+sp|Q67863|XCORE_HBVC4   419.9    2e-126   1   1.1   4.0    Putative X-Core fused protein OS=Hepatitis B virus genotype C subtype adr (isolate Korea/Kim/1989) OX=31512 PE=3 SV=1
+sp|P17099|HBEAG_HBVA4   418.2  6.2e-126   1   1.0   3.4    External core antigen OS=Hepatitis B virus genotype A2 subtype adw2 (isolate Germany/991/1990) OX=10410 GN=C PE=3 SV=1
+sp|P0C6I5|HBEAG_HBVF6   417.8  8.4e-126   1   1.0   3.0    External core antigen OS=Hepatitis B virus genotype F2 subtype adw4q (isolate Senegal/9203) OX=489503 GN=C PE=3 SV=1
+sp|Q8JMZ4|HBEAG_HBVH3   416.7  1.9e-125   1   1.0   2.5    External core antigen OS=Hepatitis B virus genotype H subtype adw4 (isolate Nicaragua/2928Nic/1997) OX=489541 GN=C PE=3 SV=1
+sp|P89951|HBEAG_HBVGB   415.1  5.8e-125   1   1.0   2.8    External core antigen OS=Gibbon hepatitis B virus subtype ayw3q (isolate Hope) OX=489544 GN=C PE=3 SV=1
+sp|Q9WJE9|HBEAG_HBVGO   414.8  6.8e-125   1   1.0   2.7    External core antigen OS=Gorilla hepatitis B virus (isolate Cameroon/gor97) OX=489546 GN=C PE=3 SV=1
+sp|P0C6H3|HBEAG_HBVC1   414.1  1.1e-124   1   1.0   4.0    External core antigen OS=Hepatitis B virus genotype C subtype adr (isolate Japan/Nishioka/1983) OX=482133 GN=C PE=3 SV=1
+sp|P69709|CAPSD_WHV1    404.8  7.6e-122   1   1.0   2.7    Capsid protein OS=Woodchuck hepatitis B virus (isolate 1) OX=10430 GN=C PE=3 SV=1
+sp|P69710|CAPSD_WHV4    404.8  7.6e-122   1   1.0   2.7    Capsid protein OS=Woodchuck hepatitis B virus (isolate 7) OX=10432 GN=C PE=3 SV=1
+sp|P69711|CAPSD_WHV5    404.8  7.6e-122   1   1.0   2.7    Capsid protein OS=Woodchuck hepatitis B virus (isolate 8) OX=10433 GN=C PE=3 SV=1
+sp|P69712|CAPSD_WHV3    404.8  7.6e-122   1   1.0   2.7    Capsid protein OS=Woodchuck hepatitis B virus (isolate 59) OX=10431 GN=C PE=3 SV=1
+sp|P0C6I1|HBEAG_HBVD5   404.5  9.7e-122   1   1.0   4.5    External core antigen OS=Hepatitis B virus genotype D subtype ayw (isolate Australia/AustKW/1991) OX=489488 GN=C PE=3 SV=1
+sp|P0C6J1|CAPSD_GSHV    400.6  1.5e-120   1   1.0   3.3    Capsid protein OS=Ground squirrel hepatitis virus (strain 27) OX=10406 GN=C PE=3 SV=1
+sp|P0C6J0|HBEAG_WMHBV   393.7    2e-118   1   1.0   3.6    External core antigen OS=Woolly monkey hepatitis B virus (isolate Louisville) OX=490134 GN=C PE=3 SV=1
+sp|P06433|CAPSD_WHV2    393.1  3.1e-118   1   1.0   2.7    Capsid protein OS=Woodchuck hepatitis B virus (isolate 2) OX=341946 GN=C PE=3 SV=1
+sp|Q64897|CAPSD_ASHV    379.1  5.9e-114   1   1.0   2.9    Capsid protein OS=Arctic squirrel hepatitis virus OX=41952 GN=C PE=3 SV=1
+sp|P69706|CAPSD_HBVC3   365.4  9.1e-110   1   1.0   2.0    Capsid protein OS=Hepatitis B virus genotype C subtype adr (strain Japan/adr4/1983) OX=10409 GN=C PE=1 SV=1
+sp|P69707|CAPSD_HBVB2   365.4  9.1e-110   1   1.0   2.0    Capsid protein OS=Hepatitis B virus genotype B2 (isolate Indonesia/pIDW420/1988) OX=10412 GN=C PE=3 SV=1
+sp|P69708|CAPSD_HBVC5   365.4  9.1e-110   1   1.0   2.0    Capsid protein OS=Hepatitis B virus genotype C subtype ad (isolate Japan/S-179/1988) OX=489468 GN=C PE=3 SV=1
+sp|Q76R61|CAPSD_HBVCJ   365.4  9.1e-110   1   1.0   2.0    Capsid protein OS=Hepatitis B virus genotype C subtype ayr (isolate Human/Japan/Okamoto/-) OX=928302 GN=C PE=1 SV=1
+sp|P17392|CAPSD_HBVB4   364.7  1.4e-109   1   1.0   2.1    Capsid protein OS=Hepatitis B virus genotype B/C subtype adw (isolate Okinawa/pODW282/1998) OX=10415 GN=C PE=3 SV=1
+sp|Q9E6S6|CAPSD_HBVC0   364.7  1.4e-109   1   1.0   2.1    Capsid protein OS=Hepatitis B virus genotype C (isolate Vietnam/3270/2000) OX=489472 GN=C PE=3 SV=1
+sp|P0C6H8|CAPSD_HBVC9   364.3    2e-109   1   1.0   1.9    Capsid protein OS=Hepatitis B virus genotype C subtype ayw (isolate Australia/AustRC/1992) OX=489471 GN=C PE=3 SV=1
+sp|P0C6H6|CAPSD_HBVC4   362.8  5.7e-109   1   1.0   1.9    Capsid protein OS=Hepatitis B virus genotype C subtype adr (isolate Korea/Kim/1989) OX=31512 GN=C PE=3 SV=1
+sp|P03149|CAPSD_HBVA2   360.3  3.3e-108   1   1.0   2.4    Capsid protein OS=Hepatitis B virus genotype A2 subtype adw (isolate Japan/Nishioka/1983) OX=482134 GN=C PE=1 SV=1
+sp|P0C682|CAPSD_HBVG3   359.4  6.1e-108   1   1.0   1.3    Capsid protein OS=Hepatitis B virus genotype G (isolate IG29227/2000) OX=489538 GN=C PE=3 SV=1
+sp|Q9QAB9|CAPSD_HBVB3   359.0  7.8e-108   1   1.0   2.0    Capsid protein OS=Hepatitis B virus genotype B2 (isolate Vietnam/9873/1997) OX=489461 GN=C PE=3 SV=1
+sp|P0C697|CAPSD_HBVA8   358.8  9.2e-108   1   1.0   2.3    Capsid protein OS=Hepatitis B virus genotype A3 (isolate Cameroon/CMR983/1994) OX=489458 GN=C PE=3 SV=1
+sp|Q67924|CAPSD_HBVB6   358.7  9.6e-108   1   1.0   1.0    Capsid protein OS=Hepatitis B virus genotype B2 subtype adw (isolate China/patient4/1996) OX=489463 GN=C PE=3 SV=1
+sp|P0C6H4|CAPSD_HBVC2   358.7  9.6e-108   1   1.0   2.0    Capsid protein OS=Hepatitis B virus genotype C subtype ar (isolate Japan/S-207/1988) OX=489467 GN=C PE=3 SV=1
+sp|P0C698|CAPSD_HBVA9   358.5  1.2e-107   1   1.0   2.6    Capsid protein OS=Hepatitis B virus genotype A3 (isolate Cameroon/CMR711/1994) OX=489459 GN=C PE=3 SV=1
+sp|P0C683|CAPSD_HBVG2   358.4  1.2e-107   1   1.0   1.2    Capsid protein OS=Hepatitis B virus genotype G (isolate United States/USG17/2002) OX=489537 GN=C PE=3 SV=1
+sp|P0C695|CAPSD_HBVA6   358.2  1.4e-107   1   1.0   2.3    Capsid protein OS=Hepatitis B virus genotype A1 subtype adw2 (isolate South Africa/84/2001) OX=489454 GN=C PE=3 SV=1
+sp|P0C696|CAPSD_HBVA7   358.2  1.4e-107   1   1.0   2.9    Capsid protein OS=Hepatitis B virus genotype A2 (isolate Japan/11D11HCCW/1998) OX=489457 GN=C PE=3 SV=1
+sp|P03146|CAPSD_HBVD3   358.0  1.7e-107   1   1.0   2.3    Capsid protein OS=Hepatitis B virus genotype D subtype ayw (isolate France/Tiollais/1979) OX=490133 GN=C PE=1 SV=1
+sp|P0C694|CAPSD_HBVA5   357.3  2.7e-107   1   1.0   2.4    Capsid protein OS=Hepatitis B virus genotype A1 subtype adw (isolate Philippines/pFDW294/1988) OX=31514 GN=C PE=3 SV=1
+sp|Q9QBF2|CAPSD_HBVB7   356.9  3.6e-107   1   1.0   2.2    Capsid protein OS=Hepatitis B virus genotype B1 (isolate Japan/Yamagata-2/1998) OX=489464 GN=C PE=3 SV=1
+sp|P17391|CAPSD_HBVB1   356.5  4.8e-107   1   1.0   2.6    Capsid protein OS=Hepatitis B virus genotype B1 subtype adw (isolate Japan/pJDW233/1988) OX=10413 GN=C PE=3 SV=1
+sp|P0C6I2|CAPSD_HBVD6   356.2  5.8e-107   1   1.0   2.2    Capsid protein OS=Hepatitis B virus genotype D subtype ayw (isolate Italy/CI/1992) OX=489489 GN=C PE=3 SV=1
+sp|P03148|CAPSD_HBVA3   356.0  6.5e-107   1   1.0   2.2    Capsid protein OS=Hepatitis B virus genotype A2 subtype adw2 (strain Rutter 1979) OX=480116 GN=C PE=1 SV=3
+sp|Q81164|CAPSD_HBVC8   356.0  6.7e-107   1   1.0   1.7    Capsid protein OS=Hepatitis B virus genotype C subtype adr (isolate Japan/A4/1994) OX=489470 GN=C PE=3 SV=1
+sp|P0C6H7|CAPSD_HBVC7   355.8  7.8e-107   1   1.0   2.0    Capsid protein OS=Hepatitis B virus genotype C subtype ayw (isolate China/Tibet127/2002) OX=489469 GN=C PE=3 SV=1
+sp|P0C6I4|CAPSD_HBVF1   355.6  8.6e-107   1   1.0   1.4    Capsid protein OS=Hepatitis B virus genotype F2 (isolate Brazil/w4B) OX=45410 GN=C PE=3 SV=1
+sp|P29178|CAPSD_HBVG1   355.4  1.1e-106   1   1.0   2.0    Capsid protein OS=Hepatitis B virus genotype G subtype adw2 (isolate United States/sf/1990) OX=31515 GN=C PE=3 SV=1
+sp|P12901|CAPSD_HBVCP   354.5  1.9e-106   1   1.0   1.8    Capsid protein OS=Chimpanzee hepatitis B virus (isolate United Kingdom/LSH/1988) OX=10414 GN=C PE=1 SV=1
+sp|P0C6I3|CAPSD_HBVD7   354.0  2.7e-106   1   1.0   2.6    Capsid protein OS=Hepatitis B virus genotype D (isolate Germany/1-91/1991) OX=489490 GN=C PE=3 SV=1
+sp|P03147|CAPSD_HBVD1   354.0  2.7e-106   1   1.0   2.1    Capsid protein OS=Hepatitis B virus genotype D subtype adw (isolate United Kingdom/adyw/1979) OX=10419 GN=C PE=1 SV=1
+sp|Q9QMI2|CAPSD_HBVD4   353.2  4.8e-106   1   1.0   2.1    Capsid protein OS=Hepatitis B virus genotype D subtype ayw (isolate Japan/JYW796/1988) OX=489487 GN=C PE=3 SV=1
+sp|P0C6I8|CAPSD_HBVGB   352.8  6.1e-106   1   1.0   1.6    Capsid protein OS=Gibbon hepatitis B virus subtype ayw3q (isolate Hope) OX=489544 GN=C PE=3 SV=1
+sp|Q81102|CAPSD_HBVC1   352.7  6.8e-106   1   1.0   2.4    Capsid protein OS=Hepatitis B virus genotype C subtype adr (isolate Japan/Nishioka/1983) OX=482133 GN=C PE=1 SV=1
+sp|P0C6I9|CAPSD_HBVGO   352.4  8.2e-106   1   1.0   1.7    Capsid protein OS=Gorilla hepatitis B virus (isolate Cameroon/gor97) OX=489546 GN=C PE=3 SV=1
+sp|P24023|CAPSD_HBVD2   352.2  9.8e-106   1   1.0   2.1    Capsid protein OS=Hepatitis B virus genotype D (isolate France/alpha1/1989) OX=10411 GN=C PE=3 SV=2
+sp|P0C693|CAPSD_HBVA4   352.0  1.1e-105   1   1.0   2.2    Capsid protein OS=Hepatitis B virus genotype A2 subtype adw2 (isolate Germany/991/1990) OX=10410 GN=C PE=1 SV=1
+sp|P0C6I6|CAPSD_HBVH3   351.7  1.3e-105   1   1.0   1.1    Capsid protein OS=Hepatitis B virus genotype H subtype adw4 (isolate Nicaragua/2928Nic/1997) OX=489541 GN=C PE=3 SV=1
+sp|P0C677|CAPSD_HBVB8   351.3  1.9e-105   1   1.0   3.1    Capsid protein OS=Hepatitis B virus genotype B1 (isolate Japan/Ry30/2002) OX=489465 GN=C PE=3 SV=1
+sp|Q69608|CAPSD_HBVF6   350.7  2.8e-105   1   1.0   1.4    Capsid protein OS=Hepatitis B virus genotype F2 subtype adw4q (isolate Senegal/9203) OX=489503 GN=C PE=3 SV=1
+sp|P0C680|CAPSD_HBVD5   338.3  1.8e-101   1   1.0   2.0    Capsid protein OS=Hepatitis B virus genotype D subtype ayw (isolate Australia/AustKW/1991) OX=489488 GN=C PE=3 SV=1
+sp|O71303|CAPSD_WMHBV   335.4  1.3e-100   1   1.0   2.1    Capsid protein OS=Woolly monkey hepatitis B virus (isolate Louisville) OX=490134 GN=C PE=3 SV=1
+sp|P0C6H1|HBEAG_HBVB7    44.9   9.5e-12   1   1.0   2.7    Truncated HBeAg protein OS=Hepatitis B virus genotype B1 (isolate Japan/Yamagata-2/1998) OX=489464 GN=C PE=4 SV=1
+sp|P0C6I7|HBEAG_HBVCP    44.9   9.5e-12   1   1.0   2.7    Truncated HBeAg protein OS=Chimpanzee hepatitis B virus (isolate United Kingdom/LSH/1988) OX=10414 GN=C PE=4 SV=1
+sp|P0C6K6|HBEAG_HBVB8    44.9   9.5e-12   1   1.0   2.7    Truncated HBeAg protein OS=Hepatitis B virus genotype B1 (isolate Japan/Ry30/2002) OX=489465 GN=C PE=4 SV=1
+sp|P0C6G8|HBEAG_HBVB3    44.8     1e-11   1   1.0   2.7    Truncated HBeAg protein OS=Hepatitis B virus genotype B2 (isolate Vietnam/9873/1997) OX=489461 GN=C PE=4 SV=1
+sp|P0C6H0|HBEAG_HBVB6    44.8     1e-11   1   1.0   2.7    Truncated HBeAg protein OS=Hepatitis B virus genotype B2 subtype adw (isolate China/patient4/1996) OX=489463 GN=C PE=4 SV=1
+sp|P0C6H9|HBEAG_HBVD2    44.8     1e-11   1   1.0   2.7    Truncated HBeAg protein OS=Hepatitis B virus genotype D (isolate France/alpha1/1989) OX=10411 GN=C PE=4 SV=1
+sp|P0C6K5|HBEAG_HBVC9    44.8     1e-11   1   1.0   2.7    Truncated HBeAg protein OS=Hepatitis B virus genotype C subtype ayw (isolate Australia/AustRC/1992) OX=489471 GN=C PE=4 SV=1
+sp|P0C6I0|HBEAG_HBVD4    42.3   5.8e-11   1   1.0   2.8    Truncated HBeAg protein OS=Hepatitis B virus genotype D subtype ayw (isolate Japan/JYW796/1988) OX=489487 GN=C PE=4 SV=1
+sp|P0C6K0|CAPSD_HHBV     42.0   7.5e-11   3   3.0  19.8    Capsid protein OS=Heron hepatitis B virus OX=28300 GN=C PE=3 SV=1
+sp|P13845|HBEAG_HHBV     41.8   8.6e-11   3   3.0  21.1    External core antigen OS=Heron hepatitis B virus OX=28300 GN=C PE=3 SV=1
+sp|P30027|HBEAG_HPBDC    38.4   9.2e-10   3   3.1  24.0    External core antigen OS=Duck hepatitis B virus (strain China) OX=31510 GN=C PE=3 SV=1
+sp|P17190|HBEAG_HPBDB    38.3     1e-09   3   3.1  23.9    External core antigen OS=Duck hepatitis B virus (isolate brown Shanghai duck S5) OX=10439 GN=C PE=3 SV=2
+sp|P17191|HBEAG_HPBDW    38.1   1.1e-09   3   3.1  24.0    External core antigen OS=Duck hepatitis B virus (isolate white Shanghai duck S31) OX=10440 GN=C PE=3 SV=2
+sp|Q89860|HBEAG_DHBVQ    37.4   1.9e-09   3   3.1  24.3    External core antigen OS=Duck hepatitis B virus (isolate Shanghai/DHBVQCA34) OX=644639 GN=C PE=3 SV=1
+sp|P0C6K1|CAPSD_HPBDC    37.1   2.3e-09   3   3.1  23.4    Capsid protein OS=Duck hepatitis B virus (strain China) OX=31510 GN=C PE=3 SV=1
+sp|P0C6K2|CAPSD_HPBDW    37.1   2.3e-09   3   3.1  23.1    Capsid protein OS=Duck hepatitis B virus (isolate white Shanghai duck S31) OX=10440 GN=C PE=3 SV=1
+sp|P0C6K3|CAPSD_HPBDB    37.0   2.6e-09   3   3.1  23.3    Capsid protein OS=Duck hepatitis B virus (isolate brown Shanghai duck S5) OX=10439 GN=C PE=3 SV=1
+sp|Q66406|CAPSD_DHBVQ    36.4   3.8e-09   3   3.1  23.4    Capsid protein OS=Duck hepatitis B virus (isolate Shanghai/DHBVQCA34) OX=644639 GN=C PE=3 SV=1
+sp|P03154|HBEAG_DHBV1    36.2   4.6e-09   3   3.0  24.5    External core antigen OS=Duck hepatitis B virus (strain United States/DHBV-16) OX=489543 GN=C PE=3 SV=1
+sp|P0C6J9|HBEAG_DHBV3    36.1   4.8e-09   3   3.0  24.9    External core antigen OS=Duck hepatitis B virus (strain Germany/DHBV-3) OX=489542 GN=C PE=3 SV=1
+sp|P0C6J7|CAPSD_DHBV1    35.0     1e-08   3   3.0  22.7    Capsid protein OS=Duck hepatitis B virus (strain United States/DHBV-16) OX=489543 GN=C PE=1 SV=1
+sp|P0C6J8|CAPSD_DHBV3    35.0   1.1e-08   3   3.0  23.0    Capsid protein OS=Duck hepatitis B virus (strain Germany/DHBV-3) OX=489542 GN=C PE=3 SV=1
+sp|Q5UQF1|YL483_MIMIV    21.1   0.00018   7   5.9   0.0    Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV    18.9   0.00085   6   4.6   0.1    Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV    17.8    0.0019  10   6.6   0.0    Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5UPE2|YL063_MIMIV    14.8     0.015   7   4.9   0.0    Putative ankyrin repeat protein L63 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L63 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C6J2|HBEAG_WHV1    467.6  4.9e-141     1   4.1      1    218      1    218      1    217     External core antigen OS=Woodchuck hepatitis B virus (isolate 1) OX=10430 GN=C PE=1 SV=1
+sp|P0C6J4|HBEAG_WHV3    465.1  2.8e-140     1   4.0      1    218      1    218      1    217     External core antigen OS=Woodchuck hepatitis B virus (isolate 59) OX=10431 GN=C PE=1 SV=1
+sp|P0C6J5|HBEAG_WHV4    465.1  2.8e-140     1   4.0      1    218      1    218      1    217     External core antigen OS=Woodchuck hepatitis B virus (isolate 7) OX=10432 GN=C PE=3 SV=1
+sp|P0C6J6|HBEAG_WHV5    465.1  2.8e-140     1   4.0      1    218      1    218      1    217     External core antigen OS=Woodchuck hepatitis B virus (isolate 8) OX=10433 GN=C PE=3 SV=1
+sp|P03153|HBEAG_GSHV    463.4  9.1e-140     1   4.8      1    217      1    217      1    217     External core antigen OS=Ground squirrel hepatitis virus (strain 27) OX=10406 GN=C PE=3 SV=1
+sp|P0C6J3|HBEAG_WHV2    453.1  1.3e-136     1   4.3      1    217      1    217      1    217     External core antigen OS=Woodchuck hepatitis B virus (isolate 2) OX=341946 GN=C PE=3 SV=1
+sp|Q64896|HBEAG_ASHV    442.6  2.1e-133     1   4.6      1    217      1    217      1    217     External core antigen OS=Arctic squirrel hepatitis virus OX=41952 GN=C PE=3 SV=1
+sp|P0C6G7|HBEAG_HBVB2   432.2  3.4e-130     1   3.7      1    212      1    212      1    217     External core antigen OS=Hepatitis B virus genotype B2 (isolate Indonesia/pIDW420/1988) OX=10412 GN=C PE=3 SV=1
+sp|P0C6H5|HBEAG_HBVC3   432.2  3.4e-130     1   3.7      1    212      1    212      1    217     External core antigen OS=Hepatitis B virus genotype C subtype adr (strain Japan/adr4/1983) OX=10409 GN=C PE=3 SV=1
+sp|P0C6G9|HBEAG_HBVB4   431.5  5.4e-130     1   3.8      1    212      1    212      1    217     External core antigen OS=Hepatitis B virus genotype B/C subtype adw (isolate Okinawa/pODW282/1998) OX=10415 GN=C PE=3 SV=1
+sp|P0C6H2|HBEAG_HBVC0   431.5  5.4e-130     1   3.8      1    212      1    212      1    217     External core antigen OS=Hepatitis B virus genotype C (isolate Vietnam/3270/2000) OX=489472 GN=C PE=1 SV=1
+sp|P0C767|HBEAG_HBVCJ   430.5  1.1e-129     1   3.6      1    212      1    212      1    217     External core antigen OS=Hepatitis B virus genotype C subtype ayr (isolate Human/Japan/Okamoto/-) OX=928302 GN=C PE=3 SV=1
+sp|P0C692|HBEAG_HBVA2   425.9  2.7e-128     1   4.0      1    214      1    214      1    217     External core antigen OS=Hepatitis B virus genotype A2 subtype adw (isolate Japan/Nishioka/1983) OX=482134 GN=C PE=3 SV=1
+sp|Q9WMB7|HBEAG_HBVC2   425.6  3.4e-128     1   3.6      1    212      1    212      1    217     External core antigen OS=Hepatitis B virus genotype C subtype ar (isolate Japan/S-207/1988) OX=489467 GN=C PE=3 SV=1
+sp|P0C573|HBEAG_HBVD3   424.8  6.2e-128     1   4.1      1    212      1    212      1    217     External core antigen OS=Hepatitis B virus genotype D subtype ayw (isolate France/Tiollais/1979) OX=490133 GN=C PE=1 SV=1
+sp|Q91C37|HBEAG_HBVA6   424.0  1.1e-127     1   3.8      1    214      1    214      1    217     External core antigen OS=Hepatitis B virus genotype A1 subtype adw2 (isolate South Africa/84/2001) OX=489454 GN=C PE=3 SV=1
+sp|O91532|HBEAG_HBVA7   423.7  1.3e-127     1   4.7      1    214      1    214      1    217     External core antigen OS=Hepatitis B virus genotype A2 (isolate Japan/11D11HCCW/1998) OX=489457 GN=C PE=3 SV=1
+sp|Q4R1S8|HBEAG_HBVA8   423.6  1.4e-127     1   3.7      1    214      1    214      1    217     External core antigen OS=Hepatitis B virus genotype A3 (isolate Cameroon/CMR983/1994) OX=489458 GN=C PE=3 SV=1
+sp|P0C699|HBEAG_HBVB1   423.2  1.8e-127     1   4.5      1    212      1    212      1    217     External core antigen OS=Hepatitis B virus genotype B1 subtype adw (isolate Japan/pJDW233/1988) OX=10413 GN=C PE=3 SV=1
+sp|Q913A8|HBEAG_HBVC7   422.7  2.6e-127     1   3.5      1    212      1    212      1    217     External core antigen OS=Hepatitis B virus genotype C subtype ayw (isolate China/Tibet127/2002) OX=489469 GN=C PE=3 SV=1
+sp|Q4R1S0|HBEAG_HBVA9   422.3  3.5e-127     1   4.1      1    214      1    214      1    217     External core antigen OS=Hepatitis B virus genotype A3 (isolate Cameroon/CMR711/1994) OX=489459 GN=C PE=3 SV=1
+sp|P0C625|HBEAG_HBVA3   421.8  4.9e-127     1   3.7      1    214      1    214      1    217     External core antigen OS=Hepatitis B virus genotype A2 subtype adw2 (strain Rutter 1979) OX=480116 GN=C PE=1 SV=1
+sp|Q67876|HBEAG_HBVD6   421.7  5.4e-127     1   4.0      1    212      1    212      1    217     External core antigen OS=Hepatitis B virus genotype D subtype ayw (isolate Italy/CI/1992) OX=489489 GN=C PE=3 SV=1
+sp|Q81105|HBEAG_HBVA5   420.6  1.2e-126     1   3.8      1    214      1    214      1    217     External core antigen OS=Hepatitis B virus genotype A1 subtype adw (isolate Philippines/pFDW294/1988) OX=31514 GN=C PE=3 SV=2
+sp|O92920|HBEAG_HBVD7   420.4  1.3e-126     1   4.8      1    212      1    212      1    217     External core antigen OS=Hepatitis B virus genotype D (isolate Germany/1-91/1991) OX=489490 GN=C PE=3 SV=1
+sp|Q05495|HBEAG_HBVF1   420.3  1.4e-126     1   2.9      1    212      1    212      1    217     External core antigen OS=Hepatitis B virus genotype F2 (isolate Brazil/w4B) OX=45410 GN=C PE=3 SV=1
+sp|Q67863|XCORE_HBVC4   419.5  2.5e-126     1   4.0    148    359    150    359      3    217     Putative X-Core fused protein OS=Hepatitis B virus genotype C subtype adr (isolate Korea/Kim/1989) OX=31512 PE=3 SV=1
+sp|P17099|HBEAG_HBVA4   418.1    7e-126     1   3.4      1    214      1    214      1    217     External core antigen OS=Hepatitis B virus genotype A2 subtype adw2 (isolate Germany/991/1990) OX=10410 GN=C PE=3 SV=1
+sp|P0C6I5|HBEAG_HBVF6   417.6  9.3e-126     1   3.0      1    212      1    212      1    217     External core antigen OS=Hepatitis B virus genotype F2 subtype adw4q (isolate Senegal/9203) OX=489503 GN=C PE=3 SV=1
+sp|Q8JMZ4|HBEAG_HBVH3   416.5  2.1e-125     1   2.5      1    212      1    212      1    217     External core antigen OS=Hepatitis B virus genotype H subtype adw4 (isolate Nicaragua/2928Nic/1997) OX=489541 GN=C PE=3 SV=1
+sp|P89951|HBEAG_HBVGB   414.9  6.4e-125     1   2.8      1    212      1    212      1    217     External core antigen OS=Gibbon hepatitis B virus subtype ayw3q (isolate Hope) OX=489544 GN=C PE=3 SV=1
+sp|Q9WJE9|HBEAG_HBVGO   414.7  7.6e-125     1   2.7      1    212      1    212      1    217     External core antigen OS=Gorilla hepatitis B virus (isolate Cameroon/gor97) OX=489546 GN=C PE=3 SV=1
+sp|P0C6H3|HBEAG_HBVC1   413.9  1.3e-124     1   4.0      1    212      1    212      1    217     External core antigen OS=Hepatitis B virus genotype C subtype adr (isolate Japan/Nishioka/1983) OX=482133 GN=C PE=3 SV=1
+sp|P69709|CAPSD_WHV1    404.7  8.5e-122     1   2.7      1    188      1    188     30    217     Capsid protein OS=Woodchuck hepatitis B virus (isolate 1) OX=10430 GN=C PE=3 SV=1
+sp|P69710|CAPSD_WHV4    404.7  8.5e-122     1   2.7      1    188      1    188     30    217     Capsid protein OS=Woodchuck hepatitis B virus (isolate 7) OX=10432 GN=C PE=3 SV=1
+sp|P69711|CAPSD_WHV5    404.7  8.5e-122     1   2.7      1    188      1    188     30    217     Capsid protein OS=Woodchuck hepatitis B virus (isolate 8) OX=10433 GN=C PE=3 SV=1
+sp|P69712|CAPSD_WHV3    404.7  8.5e-122     1   2.7      1    188      1    188     30    217     Capsid protein OS=Woodchuck hepatitis B virus (isolate 59) OX=10431 GN=C PE=3 SV=1
+sp|P0C6I1|HBEAG_HBVD5   404.4  1.1e-121     1   4.5      1    212      1    212      1    217     External core antigen OS=Hepatitis B virus genotype D subtype ayw (isolate Australia/AustKW/1991) OX=489488 GN=C PE=3 SV=1
+sp|P0C6J1|CAPSD_GSHV    400.5  1.7e-120     1   3.3      1    187      1    187     30    217     Capsid protein OS=Ground squirrel hepatitis virus (strain 27) OX=10406 GN=C PE=3 SV=1
+sp|P0C6J0|HBEAG_WMHBV   393.5  2.2e-118     1   3.6      1    211      1    211      1    217     External core antigen OS=Woolly monkey hepatitis B virus (isolate Louisville) OX=490134 GN=C PE=3 SV=1
+sp|P06433|CAPSD_WHV2    392.9  3.4e-118     1   2.7      1    187      1    187     30    217     Capsid protein OS=Woodchuck hepatitis B virus (isolate 2) OX=341946 GN=C PE=3 SV=1
+sp|Q64897|CAPSD_ASHV    378.9  6.6e-114     1   2.9      1    187      1    187     30    217     Capsid protein OS=Arctic squirrel hepatitis virus OX=41952 GN=C PE=3 SV=1
+sp|P69706|CAPSD_HBVC3   365.2    1e-109     1   2.0      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype C subtype adr (strain Japan/adr4/1983) OX=10409 GN=C PE=1 SV=1
+sp|P69707|CAPSD_HBVB2   365.2    1e-109     1   2.0      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype B2 (isolate Indonesia/pIDW420/1988) OX=10412 GN=C PE=3 SV=1
+sp|P69708|CAPSD_HBVC5   365.2    1e-109     1   2.0      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype C subtype ad (isolate Japan/S-179/1988) OX=489468 GN=C PE=3 SV=1
+sp|Q76R61|CAPSD_HBVCJ   365.2    1e-109     1   2.0      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype C subtype ayr (isolate Human/Japan/Okamoto/-) OX=928302 GN=C PE=1 SV=1
+sp|P17392|CAPSD_HBVB4   364.6  1.6e-109     1   2.1      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype B/C subtype adw (isolate Okinawa/pODW282/1998) OX=10415 GN=C PE=3 SV=1
+sp|Q9E6S6|CAPSD_HBVC0   364.6  1.6e-109     1   2.1      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype C (isolate Vietnam/3270/2000) OX=489472 GN=C PE=3 SV=1
+sp|P0C6H8|CAPSD_HBVC9   364.1  2.2e-109     1   1.9      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype C subtype ayw (isolate Australia/AustRC/1992) OX=489471 GN=C PE=3 SV=1
+sp|P0C6H6|CAPSD_HBVC4   362.6  6.4e-109     1   1.9      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype C subtype adr (isolate Korea/Kim/1989) OX=31512 GN=C PE=3 SV=1
+sp|P03149|CAPSD_HBVA2   360.1  3.6e-108     1   2.4      1    185      1    185     30    217     Capsid protein OS=Hepatitis B virus genotype A2 subtype adw (isolate Japan/Nishioka/1983) OX=482134 GN=C PE=1 SV=1
+sp|P0C682|CAPSD_HBVG3   359.2  7.1e-108     1   1.3      3    195     10    195     27    217     Capsid protein OS=Hepatitis B virus genotype G (isolate IG29227/2000) OX=489538 GN=C PE=3 SV=1
+sp|Q9QAB9|CAPSD_HBVB3   358.9  8.7e-108     1   2.0      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype B2 (isolate Vietnam/9873/1997) OX=489461 GN=C PE=3 SV=1
+sp|P0C697|CAPSD_HBVA8   358.7    1e-107     1   2.3      1    185      1    185     30    217     Capsid protein OS=Hepatitis B virus genotype A3 (isolate Cameroon/CMR983/1994) OX=489458 GN=C PE=3 SV=1
+sp|Q67924|CAPSD_HBVB6   358.6  1.1e-107     1   1.0      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype B2 subtype adw (isolate China/patient4/1996) OX=489463 GN=C PE=3 SV=1
+sp|P0C6H4|CAPSD_HBVC2   358.6  1.1e-107     1   2.0      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype C subtype ar (isolate Japan/S-207/1988) OX=489467 GN=C PE=3 SV=1
+sp|P0C698|CAPSD_HBVA9   358.3  1.3e-107     1   2.6      1    185      1    185     30    217     Capsid protein OS=Hepatitis B virus genotype A3 (isolate Cameroon/CMR711/1994) OX=489459 GN=C PE=3 SV=1
+sp|P0C683|CAPSD_HBVG2   358.2  1.4e-107     1   1.2      3    195     10    195     27    217     Capsid protein OS=Hepatitis B virus genotype G (isolate United States/USG17/2002) OX=489537 GN=C PE=3 SV=1
+sp|P0C695|CAPSD_HBVA6   358.1  1.6e-107     1   2.3      1    185      1    185     30    217     Capsid protein OS=Hepatitis B virus genotype A1 subtype adw2 (isolate South Africa/84/2001) OX=489454 GN=C PE=3 SV=1
+sp|P0C696|CAPSD_HBVA7   358.0  1.6e-107     1   2.9      1    185      1    185     30    217     Capsid protein OS=Hepatitis B virus genotype A2 (isolate Japan/11D11HCCW/1998) OX=489457 GN=C PE=3 SV=1
+sp|P03146|CAPSD_HBVD3   357.8  1.8e-107     1   2.3      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype D subtype ayw (isolate France/Tiollais/1979) OX=490133 GN=C PE=1 SV=1
+sp|P0C694|CAPSD_HBVA5   357.2    3e-107     1   2.4      1    185      1    185     30    217     Capsid protein OS=Hepatitis B virus genotype A1 subtype adw (isolate Philippines/pFDW294/1988) OX=31514 GN=C PE=3 SV=1
+sp|Q9QBF2|CAPSD_HBVB7   356.7    4e-107     1   2.2      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype B1 (isolate Japan/Yamagata-2/1998) OX=489464 GN=C PE=3 SV=1
+sp|P17391|CAPSD_HBVB1   356.3  5.3e-107     1   2.6      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype B1 subtype adw (isolate Japan/pJDW233/1988) OX=10413 GN=C PE=3 SV=1
+sp|P0C6I2|CAPSD_HBVD6   356.0  6.5e-107     1   2.2      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype D subtype ayw (isolate Italy/CI/1992) OX=489489 GN=C PE=3 SV=1
+sp|P03148|CAPSD_HBVA3   355.9  7.3e-107     1   2.2      1    185      1    185     30    217     Capsid protein OS=Hepatitis B virus genotype A2 subtype adw2 (strain Rutter 1979) OX=480116 GN=C PE=1 SV=3
+sp|Q81164|CAPSD_HBVC8   355.8  7.5e-107     1   1.7      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype C subtype adr (isolate Japan/A4/1994) OX=489470 GN=C PE=3 SV=1
+sp|P0C6H7|CAPSD_HBVC7   355.6  8.7e-107     1   2.0      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype C subtype ayw (isolate China/Tibet127/2002) OX=489469 GN=C PE=3 SV=1
+sp|P0C6I4|CAPSD_HBVF1   355.5  9.6e-107     1   1.4      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype F2 (isolate Brazil/w4B) OX=45410 GN=C PE=3 SV=1
+sp|P29178|CAPSD_HBVG1   355.1  1.2e-106     1   2.0      3    195     10    195     27    217     Capsid protein OS=Hepatitis B virus genotype G subtype adw2 (isolate United States/sf/1990) OX=31515 GN=C PE=3 SV=1
+sp|P12901|CAPSD_HBVCP   354.4  2.1e-106     1   1.8      1    183      1    183     30    217     Capsid protein OS=Chimpanzee hepatitis B virus (isolate United Kingdom/LSH/1988) OX=10414 GN=C PE=1 SV=1
+sp|P0C6I3|CAPSD_HBVD7   353.9    3e-106     1   2.6      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype D (isolate Germany/1-91/1991) OX=489490 GN=C PE=3 SV=1
+sp|P03147|CAPSD_HBVD1   353.9    3e-106     1   2.1      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype D subtype adw (isolate United Kingdom/adyw/1979) OX=10419 GN=C PE=1 SV=1
+sp|Q9QMI2|CAPSD_HBVD4   353.0  5.3e-106     1   2.1      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype D subtype ayw (isolate Japan/JYW796/1988) OX=489487 GN=C PE=3 SV=1
+sp|P0C6I8|CAPSD_HBVGB   352.7  6.8e-106     1   1.6      1    183      1    183     30    217     Capsid protein OS=Gibbon hepatitis B virus subtype ayw3q (isolate Hope) OX=489544 GN=C PE=3 SV=1
+sp|Q81102|CAPSD_HBVC1   352.5  7.6e-106     1   2.4      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype C subtype adr (isolate Japan/Nishioka/1983) OX=482133 GN=C PE=1 SV=1
+sp|P0C6I9|CAPSD_HBVGO   352.3  9.1e-106     1   1.7      1    183      1    183     30    217     Capsid protein OS=Gorilla hepatitis B virus (isolate Cameroon/gor97) OX=489546 GN=C PE=3 SV=1
+sp|P24023|CAPSD_HBVD2   352.0  1.1e-105     1   2.1      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype D (isolate France/alpha1/1989) OX=10411 GN=C PE=3 SV=2
+sp|P0C693|CAPSD_HBVA4   351.9  1.2e-105     1   2.2      1    185      1    185     30    217     Capsid protein OS=Hepatitis B virus genotype A2 subtype adw2 (isolate Germany/991/1990) OX=10410 GN=C PE=1 SV=1
+sp|P0C6I6|CAPSD_HBVH3   351.6  1.5e-105     1   1.1      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype H subtype adw4 (isolate Nicaragua/2928Nic/1997) OX=489541 GN=C PE=3 SV=1
+sp|P0C677|CAPSD_HBVB8   351.1  2.1e-105     1   3.1      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype B1 (isolate Japan/Ry30/2002) OX=489465 GN=C PE=3 SV=1
+sp|Q69608|CAPSD_HBVF6   350.5  3.1e-105     1   1.4      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype F2 subtype adw4q (isolate Senegal/9203) OX=489503 GN=C PE=3 SV=1
+sp|P0C680|CAPSD_HBVD5   338.1    2e-101     1   2.0      1    183      1    183     30    217     Capsid protein OS=Hepatitis B virus genotype D subtype ayw (isolate Australia/AustKW/1991) OX=489488 GN=C PE=3 SV=1
+sp|O71303|CAPSD_WMHBV   335.3  1.4e-100     1   2.1      1    182      1    182     30    217     Capsid protein OS=Woolly monkey hepatitis B virus (isolate Louisville) OX=490134 GN=C PE=3 SV=1
+sp|P0C6H1|HBEAG_HBVB7    44.9   9.9e-12     1   2.7      1     27      1     27      1     27     Truncated HBeAg protein OS=Hepatitis B virus genotype B1 (isolate Japan/Yamagata-2/1998) OX=489464 GN=C PE=4 SV=1
+sp|P0C6I7|HBEAG_HBVCP    44.9   9.9e-12     1   2.7      1     27      1     27      1     27     Truncated HBeAg protein OS=Chimpanzee hepatitis B virus (isolate United Kingdom/LSH/1988) OX=10414 GN=C PE=4 SV=1
+sp|P0C6K6|HBEAG_HBVB8    44.9   9.9e-12     1   2.7      1     27      1     27      1     27     Truncated HBeAg protein OS=Hepatitis B virus genotype B1 (isolate Japan/Ry30/2002) OX=489465 GN=C PE=4 SV=1
+sp|P0C6G8|HBEAG_HBVB3    44.8   1.1e-11     1   2.7      1     27      1     27      1     27     Truncated HBeAg protein OS=Hepatitis B virus genotype B2 (isolate Vietnam/9873/1997) OX=489461 GN=C PE=4 SV=1
+sp|P0C6H0|HBEAG_HBVB6    44.8   1.1e-11     1   2.7      1     27      1     27      1     27     Truncated HBeAg protein OS=Hepatitis B virus genotype B2 subtype adw (isolate China/patient4/1996) OX=489463 GN=C PE=4 SV=1
+sp|P0C6H9|HBEAG_HBVD2    44.8   1.1e-11     1   2.7      1     27      1     27      1     27     Truncated HBeAg protein OS=Hepatitis B virus genotype D (isolate France/alpha1/1989) OX=10411 GN=C PE=4 SV=1
+sp|P0C6K5|HBEAG_HBVC9    44.8   1.1e-11     1   2.7      1     27      1     27      1     27     Truncated HBeAg protein OS=Hepatitis B virus genotype C subtype ayw (isolate Australia/AustRC/1992) OX=489471 GN=C PE=4 SV=1
+sp|P0C6I0|HBEAG_HBVD4    42.3   6.1e-11     1   2.8      1     27      1     27      1     27     Truncated HBeAg protein OS=Hepatitis B virus genotype D subtype ayw (isolate Japan/JYW796/1988) OX=489487 GN=C PE=4 SV=1
+sp|P0C6K0|CAPSD_HHBV     37.3     2e-09     2  11.4    121    243    135    233    118    213     Capsid protein OS=Heron hepatitis B virus OX=28300 GN=C PE=3 SV=1
+sp|P13845|HBEAG_HHBV     36.9   2.6e-09     2  11.3    164    286    178    276    118    213     External core antigen OS=Heron hepatitis B virus OX=28300 GN=C PE=3 SV=1
+sp|P17191|HBEAG_HPBDW    36.9   2.7e-09     2   8.2    166    278    179    277    119    214     External core antigen OS=Duck hepatitis B virus (isolate white Shanghai duck S31) OX=10440 GN=C PE=3 SV=2
+sp|P0C6K2|CAPSD_HPBDW    36.3   4.2e-09     2   9.6    126    236    136    234    119    214     Capsid protein OS=Duck hepatitis B virus (isolate white Shanghai duck S31) OX=10440 GN=C PE=3 SV=1
+sp|P0C6K1|CAPSD_HPBDC    36.1   4.7e-09     2  10.0    123    236    136    234    119    214     Capsid protein OS=Duck hepatitis B virus (strain China) OX=31510 GN=C PE=3 SV=1
+sp|P0C6K3|CAPSD_HPBDB    35.9   5.4e-09     2   9.8    123    236    136    234    119    214     Capsid protein OS=Duck hepatitis B virus (isolate brown Shanghai duck S5) OX=10439 GN=C PE=3 SV=1
+sp|P30027|HBEAG_HPBDC    35.6   6.7e-09     2  10.0    167    279    179    277    119    214     External core antigen OS=Duck hepatitis B virus (strain China) OX=31510 GN=C PE=3 SV=1
+sp|P17190|HBEAG_HPBDB    35.5   7.2e-09     2   9.8    167    279    179    277    119    214     External core antigen OS=Duck hepatitis B virus (isolate brown Shanghai duck S5) OX=10439 GN=C PE=3 SV=2
+sp|Q66406|CAPSD_DHBVQ    35.3   8.5e-09     2  10.3    124    237    136    234    119    214     Capsid protein OS=Duck hepatitis B virus (isolate Shanghai/DHBVQCA34) OX=644639 GN=C PE=3 SV=1
+sp|Q89860|HBEAG_DHBVQ    34.6   1.4e-08     2  10.4    169    280    179    277    119    214     External core antigen OS=Duck hepatitis B virus (isolate Shanghai/DHBVQCA34) OX=644639 GN=C PE=3 SV=1
+sp|P0C6J8|CAPSD_DHBV3    34.4   1.5e-08     2  10.9    122    237    135    234    118    214     Capsid protein OS=Duck hepatitis B virus (strain Germany/DHBV-3) OX=489542 GN=C PE=3 SV=1
+sp|P0C6J7|CAPSD_DHBV1    34.4   1.6e-08     2  10.5    124    237    136    234    119    214     Capsid protein OS=Duck hepatitis B virus (strain United States/DHBV-16) OX=489543 GN=C PE=1 SV=1
+sp|P0C6J9|HBEAG_DHBV3    34.2   1.8e-08     2  10.6    166    280    179    277    119    214     External core antigen OS=Duck hepatitis B virus (strain Germany/DHBV-3) OX=489542 GN=C PE=3 SV=1
+sp|P03154|HBEAG_DHBV1    33.9   2.2e-08     2  10.5    167    280    179    277    119    214     External core antigen OS=Duck hepatitis B virus (strain United States/DHBV-16) OX=489543 GN=C PE=3 SV=1
+sp|P03154|HBEAG_DHBV1    11.1      0.21     1   0.2     16    101     20     74      5     64     External core antigen OS=Duck hepatitis B virus (strain United States/DHBV-16) OX=489543 GN=C PE=3 SV=1
+sp|P0C6J9|HBEAG_DHBV3    11.0      0.22     1   0.2     16    103     20     74      5     64     External core antigen OS=Duck hepatitis B virus (strain Germany/DHBV-3) OX=489542 GN=C PE=3 SV=1
+sp|P17190|HBEAG_HPBDB    10.2       0.4     1   0.1      9    101     39     74     31     64     External core antigen OS=Duck hepatitis B virus (isolate brown Shanghai duck S5) OX=10439 GN=C PE=3 SV=2
+sp|P17191|HBEAG_HPBDW    10.2       0.4     1   0.1      9    101     39     74     31     64     External core antigen OS=Duck hepatitis B virus (isolate white Shanghai duck S31) OX=10440 GN=C PE=3 SV=2
+sp|Q89860|HBEAG_DHBVQ    10.2       0.4     1   0.1      9    101     39     74     31     64     External core antigen OS=Duck hepatitis B virus (isolate Shanghai/DHBVQCA34) OX=644639 GN=C PE=3 SV=1
+sp|P30027|HBEAG_HPBDC    10.1      0.42     1   0.1      9    101     41     74     33     64     External core antigen OS=Duck hepatitis B virus (strain China) OX=31510 GN=C PE=3 SV=1
+sp|P13845|HBEAG_HHBV      9.9      0.48     1   0.1     19    112     43     74     35     64     External core antigen OS=Heron hepatitis B virus OX=28300 GN=C PE=3 SV=1
+sp|Q5URB9|YR840_MIMIV     8.8       1.1     1   0.0     14    152     24    142     47    162     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|P0C6K0|CAPSD_HHBV      8.3       1.5     1   0.0      1     70     14     31     47     64     Capsid protein OS=Heron hepatitis B virus OX=28300 GN=C PE=3 SV=1
+sp|P0C6J7|CAPSD_DHBV1     7.7       2.2     1   0.1      1     60     14     31     47     64     Capsid protein OS=Duck hepatitis B virus (strain United States/DHBV-16) OX=489543 GN=C PE=1 SV=1
+sp|P0C6K1|CAPSD_HPBDC     7.7       2.2     1   0.1      1     60     14     31     47     64     Capsid protein OS=Duck hepatitis B virus (strain China) OX=31510 GN=C PE=3 SV=1
+sp|P0C6K2|CAPSD_HPBDW     7.7       2.2     1   0.1      1     60     14     31     47     64     Capsid protein OS=Duck hepatitis B virus (isolate white Shanghai duck S31) OX=10440 GN=C PE=3 SV=1
+sp|P0C6K3|CAPSD_HPBDB     7.7       2.2     1   0.1      1     60     14     31     47     64     Capsid protein OS=Duck hepatitis B virus (isolate brown Shanghai duck S5) OX=10439 GN=C PE=3 SV=1
+sp|Q66406|CAPSD_DHBVQ     7.7       2.2     1   0.1      1     60     14     31     47     64     Capsid protein OS=Duck hepatitis B virus (isolate Shanghai/DHBVQCA34) OX=644639 GN=C PE=3 SV=1
+sp|P0C6J8|CAPSD_DHBV3     7.7       2.2     1   0.0      1     63     14     31     47     64     Capsid protein OS=Duck hepatitis B virus (strain Germany/DHBV-3) OX=489542 GN=C PE=3 SV=1
+sp|Q5UPE2|YL063_MIMIV     4.4        23     2   0.0    157    210    183    204    140    161     Putative ankyrin repeat protein L63 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L63 PE=4 SV=1
+sp|Q5UQF1|YL483_MIMIV     4.4        24     2   0.0    153    212    180    202    140    162     Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+sp|Q5UPE2|YL063_MIMIV     2.7        78     1   0.0     73    141     85    114    131    161     Putative ankyrin repeat protein L63 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L63 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV     2.7        81     4   0.0    185    244    211    233    140    162     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV     2.4        96     4   0.0    315    414    361    378    113    129     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5UQF1|YL483_MIMIV     2.4        99     6   0.0    293    362    311    351    122    161     Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+sp|Q5UPE2|YL063_MIMIV     2.3     1e+02     3   0.0    187    257    187    204    144    161     Putative ankyrin repeat protein L63 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L63 PE=4 SV=1
+sp|Q5UQF1|YL483_MIMIV     2.0   1.3e+02     4   0.0    233    267    240    261    140    161     Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV     1.7   1.6e+02     5   0.0    244    307    271    293    140    162     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5UQF1|YL483_MIMIV     1.6   1.7e+02     5   0.0    267    334    298    322    138    162     Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV     1.4     2e+02     3   0.0    277    360    310    349    123    161     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5URB9|YR840_MIMIV     0.7   3.3e+02     2   0.0    219    322    279    314    122    156     Putative ankyrin repeat protein R840 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R840 PE=4 SV=1
+sp|Q5UQF1|YL483_MIMIV     0.6   3.3e+02     1   0.0    116    147    120    141    140    161     Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV     0.5   3.6e+02     3   0.0    151    208    180    202    139    161     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV     0.1   4.8e+02     8   0.0    365    419    391    412    140    161     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5UQF1|YL483_MIMIV     0.0   5.1e+02     3   0.0    208    237    213    232    143    162     Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV    -0.0   5.4e+02     1   0.0     70    126     92    112    141    161     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV    -0.7   8.7e+02     7   0.0    335    393    361    382    140    161     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV    -0.9   9.6e+02     2   0.0    116    183    150    168    139    157     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV    -1.3   1.3e+03     6   0.0    326    359    331    352    140    161     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV    -1.4   1.4e+03     9   0.0    417    448    421    442    140    161     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_355335@NC_003977.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_355335@NC_003977.txt data/models_hmm/YP_355335@NC_003977.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:28 2021
+# [ok]

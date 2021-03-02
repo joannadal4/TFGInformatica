@@ -1,0 +1,53 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P30914|NEP_I49A0     14.8     0.016   1   1.1   0.2    Nuclear export protein OS=Influenza A virus (strain A/Chicken/Germany/n/1949 H10N7) OX=11339 GN=NS PE=3 SV=1
+sp|Q0A443|NEP_I49A1     14.8     0.016   1   1.1   0.2    Nuclear export protein OS=Influenza A virus (strain A/Duck/Germany/1949 H10N7) OX=382838 GN=NS PE=3 SV=1
+sp|P13145|NEP_I76A5     14.7     0.018   1   1.1   0.2    Nuclear export protein OS=Influenza A virus (strain A/Mallard/Alberta/88/1976 H3N8) OX=11430 GN=NS PE=3 SV=2
+sp|P08277|NEP_I71A2     14.5      0.02   1   1.1   0.2    Nuclear export protein OS=Influenza A virus (strain A/Turkey/Oregon/1971 H7N3) OX=385636 GN=NS PE=3 SV=2
+sp|P69261|NEP_I76A2     14.5      0.02   1   1.1   0.2    Nuclear export protein OS=Influenza A virus (strain A/Duck/Alberta/60/1976 H12N5) OX=385582 GN=NS PE=3 SV=1
+sp|P69262|NEP_I79A3     14.5      0.02   1   1.1   0.2    Nuclear export protein OS=Influenza A virus (strain A/Pintail/Alberta/358/1979 H3N6) OX=11452 GN=NS PE=3 SV=1
+sp|P69263|NEP_I63A1     14.5      0.02   1   1.1   0.2    Nuclear export protein OS=Influenza A virus (strain A/Turkey/Canada/1963 H6N8) OX=387262 GN=NS PE=3 SV=1
+sp|P13144|NEP_I78A1     14.4     0.023   1   1.1   0.2    Nuclear export protein OS=Influenza A virus (strain A/Mallard/Alberta/827/1978 H8N4) OX=11432 GN=NS PE=3 SV=2
+sp|P69268|NEP_I79A2     14.1     0.027   1   1.1   0.2    Nuclear export protein OS=Influenza A virus (strain A/Pintail/Alberta/121/1979 H7N8) OX=11450 GN=NS PE=3 SV=1
+sp|P69269|NEP_I72A6     14.1     0.027   1   1.1   0.2    Nuclear export protein OS=Influenza A virus (strain A/Tern/Turkmenia/18/1972 H3N3) OX=384492 GN=NS PE=3 SV=1
+sp|Q08IG7|NEP_I80A6     14.1     0.027   1   1.1   0.2    Nuclear export protein OS=Influenza A virus (strain A/Duck/Hokkaido/8/1980 H3N8) OX=387207 GN=NS PE=3 SV=1
+sp|Q04265|NEP_I89A7     13.9     0.032   1   1.1   0.2    Nuclear export protein OS=Influenza A virus (strain A/Equine/Jillin/1/1989 H3N8) OX=385585 GN=NS PE=3 SV=1
+sp|Q9Q0L7|NEP_I96A0     13.1     0.056   1   1.1   0.2    Nuclear export protein OS=Influenza A virus (strain A/Goose/Guangdong/1/1996 H5N1 genotype Gs/Gd) OX=93838 GN=NS PE=3 SV=1
+sp|P30915|NEP_I82A8     12.4     0.091   1   1.1   0.2    Nuclear export protein OS=Influenza A virus (strain A/Turkey/Bethlehem-Glilit/1492-B/1982 H1N1) OX=31663 GN=NS PE=3 SV=1
+sp|P35767|E320_ADE1A    12.2      0.11   1   1.2   0.0    Early E3 20.3 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain BC34) OX=343463 PE=3 SV=1
+sp|P03709|FI_LAMBD      12.1      0.11   1   1.2   0.6    DNA-packaging protein FI OS=Escherichia phage lambda OX=10710 GN=Fi PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P30914|NEP_I49A0     14.8     0.017     1   0.2      3    110     34     95     35     96     Nuclear export protein OS=Influenza A virus (strain A/Chicken/Germany/n/1949 H10N7) OX=11339 GN=NS PE=3 SV=1
+sp|Q0A443|NEP_I49A1     14.8     0.017     1   0.2      3    110     34     95     35     96     Nuclear export protein OS=Influenza A virus (strain A/Duck/Germany/1949 H10N7) OX=382838 GN=NS PE=3 SV=1
+sp|P13145|NEP_I76A5     14.7     0.018     1   0.2      1    110     34     95     35     96     Nuclear export protein OS=Influenza A virus (strain A/Mallard/Alberta/88/1976 H3N8) OX=11430 GN=NS PE=3 SV=2
+sp|P08277|NEP_I71A2     14.5     0.021     1   0.2      3    110     34     95     35     96     Nuclear export protein OS=Influenza A virus (strain A/Turkey/Oregon/1971 H7N3) OX=385636 GN=NS PE=3 SV=2
+sp|P69261|NEP_I76A2     14.5     0.021     1   0.2      3    110     34     95     35     96     Nuclear export protein OS=Influenza A virus (strain A/Duck/Alberta/60/1976 H12N5) OX=385582 GN=NS PE=3 SV=1
+sp|P69262|NEP_I79A3     14.5     0.021     1   0.2      3    110     34     95     35     96     Nuclear export protein OS=Influenza A virus (strain A/Pintail/Alberta/358/1979 H3N6) OX=11452 GN=NS PE=3 SV=1
+sp|P69263|NEP_I63A1     14.5     0.021     1   0.2      3    110     34     95     35     96     Nuclear export protein OS=Influenza A virus (strain A/Turkey/Canada/1963 H6N8) OX=387262 GN=NS PE=3 SV=1
+sp|P13144|NEP_I78A1     14.3     0.024     1   0.2      3    109     34     95     35     96     Nuclear export protein OS=Influenza A virus (strain A/Mallard/Alberta/827/1978 H8N4) OX=11432 GN=NS PE=3 SV=2
+sp|P69268|NEP_I79A2     14.1     0.027     1   0.2      1    110     34     95     35     96     Nuclear export protein OS=Influenza A virus (strain A/Pintail/Alberta/121/1979 H7N8) OX=11450 GN=NS PE=3 SV=1
+sp|P69269|NEP_I72A6     14.1     0.027     1   0.2      1    110     34     95     35     96     Nuclear export protein OS=Influenza A virus (strain A/Tern/Turkmenia/18/1972 H3N3) OX=384492 GN=NS PE=3 SV=1
+sp|Q08IG7|NEP_I80A6     14.1     0.027     1   0.2      1    110     34     95     35     96     Nuclear export protein OS=Influenza A virus (strain A/Duck/Hokkaido/8/1980 H3N8) OX=387207 GN=NS PE=3 SV=1
+sp|Q04265|NEP_I89A7     13.9     0.033     1   0.2      2    110     34     95     35     96     Nuclear export protein OS=Influenza A virus (strain A/Equine/Jillin/1/1989 H3N8) OX=385585 GN=NS PE=3 SV=1
+sp|Q9Q0L7|NEP_I96A0     13.0     0.058     1   0.2      3    110     34     95     35     96     Nuclear export protein OS=Influenza A virus (strain A/Goose/Guangdong/1/1996 H5N1 genotype Gs/Gd) OX=93838 GN=NS PE=3 SV=1
+sp|P30915|NEP_I82A8     12.5     0.086     1   0.2      1    110     34     95     35     96     Nuclear export protein OS=Influenza A virus (strain A/Turkey/Bethlehem-Glilit/1492-B/1982 H1N1) OX=31663 GN=NS PE=3 SV=1
+sp|P03709|FI_LAMBD      11.7      0.15     1   0.6      1     50      3     42     74    112     DNA-packaging protein FI OS=Escherichia phage lambda OX=10710 GN=Fi PE=1 SV=1
+sp|P35767|E320_ADE1A    11.7      0.15     1   0.0     90    137     93    135    106    148     Early E3 20.3 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain BC34) OX=343463 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001242@C687J13896_1000076@C687J13896_100007625.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001242@C687J13896_1000076@C687J13896_100007625.txt data/models_hmm/3300001242@C687J13896_1000076@C687J13896_100007625.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:37 2021
+# [ok]

@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FX0|200R_IIV6      12.2     0.076   1   1.0   0.1    Putative MSV199 domain-containing protein 200R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-200R PE=4 SV=1
+sp|Q5UPH1|YL099_MIMIV    11.9     0.094   2   2.1   7.1    Putative ankyrin repeat protein L99 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L99 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FX0|200R_IIV6      12.1      0.08     1   0.1      1     47      3     41     22     59     Putative MSV199 domain-containing protein 200R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-200R PE=4 SV=1
+sp|Q5UPH1|YL099_MIMIV    11.2      0.15     2   4.6    162    261    184    259     99    173     Putative ankyrin repeat protein L99 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L99 PE=4 SV=1
+sp|Q5UPH1|YL099_MIMIV     0.7   2.4e+02     1   0.0     86    161     98    139    199    240     Putative ankyrin repeat protein L99 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L99 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000025@SRS023617_Baylor_scaffold_64213@SRS023617_Baylor_scaffold_64213_gene_89515.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000025@SRS023617_Baylor_scaffold_64213@SRS023617_Baylor_scaffold_64213_gene_89515.txt data/models_hmm/7000000025@SRS023617_Baylor_scaffold_64213@SRS023617_Baylor_scaffold_64213_gene_89515.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:47 2021
+# [ok]

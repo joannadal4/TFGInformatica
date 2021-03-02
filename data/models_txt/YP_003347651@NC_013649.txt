@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6XQB2|PORTL_BPT1   148.2   2.6e-43   2   2.1  13.9    Portal protein OS=Escherichia phage T1 OX=1921008 GN=26 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6XQB2|PORTL_BPT1   148.2   2.6e-43     1  13.9      1    208      1    181      1    181     Portal protein OS=Escherichia phage T1 OX=1921008 GN=26 PE=3 SV=1
+sp|Q6XQB2|PORTL_BPT1   -11.7   1.7e+04     2  15.3    183    277    207    259    121    173     Portal protein OS=Escherichia phage T1 OX=1921008 GN=26 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003347651@NC_013649.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003347651@NC_013649.txt data/models_hmm/YP_003347651@NC_013649.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:26 2021
+# [ok]

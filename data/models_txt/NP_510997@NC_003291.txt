@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP78|YR001_MIMIV     9.7      0.78   4   3.4   7.0    Putative replication origin-binding protein OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UP78|YR001_MIMIV    10.8      0.35     1   0.7    199    234    201    226      3     26     Putative replication origin-binding protein OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R1 PE=3 SV=1
+sp|Q5UP78|YR001_MIMIV    -0.1   8.5e+02     4   0.0    701    733    710    727     43     60     Putative replication origin-binding protein OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R1 PE=3 SV=1
+sp|Q5UP78|YR001_MIMIV    -1.5   2.3e+03     2   0.0    304    365    329    349     69     89     Putative replication origin-binding protein OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R1 PE=3 SV=1
+sp|Q5UP78|YR001_MIMIV    -3.1   7.6e+03     3   0.1    518    565    525    553     65     93     Putative replication origin-binding protein OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_510997@NC_003291.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_510997@NC_003291.txt data/models_hmm/NP_510997@NC_003291.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:03 2021
+# [ok]

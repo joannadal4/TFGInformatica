@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5I124|PTPN3_MDBVW    14.7     0.017   3   2.5   0.6    Tyrosine phosphatase-like protein N3 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=N7 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5I124|PTPN3_MDBVW     9.3      0.75     2   0.2    136    193    141    187    127    171     Tyrosine phosphatase-like protein N3 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=N7 PE=3 SV=1
+sp|Q5I124|PTPN3_MDBVW     3.3        50     1   0.0     74    141     80    138     32     90     Tyrosine phosphatase-like protein N3 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=N7 PE=3 SV=1
+sp|Q5I124|PTPN3_MDBVW    -3.4   5.4e+03     3   0.0    241    277    257    275    174    192     Tyrosine phosphatase-like protein N3 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=N7 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000466@SRS063603_LANL_scaffold_14500@SRS063603_LANL_scaffold_14500_gene_13646.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000466@SRS063603_LANL_scaffold_14500@SRS063603_LANL_scaffold_14500_gene_13646.txt data/models_hmm/7000000466@SRS063603_LANL_scaffold_14500@SRS063603_LANL_scaffold_14500_gene_13646.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:31 2021
+# [ok]

@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P19894|DPOL_BPM2     13.1     0.065   3   2.6   0.2    DNA polymerase OS=Bacillus phage M2 OX=331976 GN=G PE=3 SV=1
+sp|B7SSM2|DPOL_BPNF     12.6     0.094   3   2.3   0.1    DNA polymerase OS=Bacillus phage Nf OX=10753 GN=2 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|B7SSM2|DPOL_BPNF      9.9      0.64     3   0.0    459    529    463    517      5     60     DNA polymerase OS=Bacillus phage Nf OX=10753 GN=2 PE=1 SV=1
+sp|P19894|DPOL_BPM2      9.9      0.64     3   0.0    459    529    463    517      5     60     DNA polymerase OS=Bacillus phage M2 OX=331976 GN=G PE=3 SV=1
+sp|P19894|DPOL_BPM2     -1.0   1.5e+03     1   0.0     35    124     87    113     64     90     DNA polymerase OS=Bacillus phage M2 OX=331976 GN=G PE=3 SV=1
+sp|B7SSM2|DPOL_BPNF     -1.7   2.5e+03     2   0.0    326    366    338    353     73     88     DNA polymerase OS=Bacillus phage Nf OX=10753 GN=2 PE=1 SV=1
+sp|P19894|DPOL_BPM2     -1.7   2.5e+03     2   0.0    326    366    338    353     73     88     DNA polymerase OS=Bacillus phage M2 OX=331976 GN=G PE=3 SV=1
+sp|B7SSM2|DPOL_BPNF     -2.9   5.6e+03     1   0.0     67    122     89    110     66     87     DNA polymerase OS=Bacillus phage Nf OX=10753 GN=2 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004327156@NC_015294.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004327156@NC_015294.txt data/models_hmm/YP_004327156@NC_015294.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:20 2021
+# [ok]

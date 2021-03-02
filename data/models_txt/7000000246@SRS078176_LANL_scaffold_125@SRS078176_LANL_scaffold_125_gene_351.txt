@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C9H0|1104L_ASFWA    13.3     0.038   1   1.1   1.6    Protein MGF 110-4L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-009 PE=3 SV=1
+sp|P18558|1104L_ASFB7    12.0     0.091   1   1.1   1.6    Protein MGF 110-4L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-011 PE=3 SV=1
+sp|P0C9H3|1104L_ASFP4    11.6      0.12   1   1.1   1.4    Protein MGF 110-4L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-011 PE=3 SV=1
+sp|P0C9H2|1104L_ASFM2    11.5      0.13   1   1.1   1.6    Protein MGF 110-4L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-008 PE=3 SV=1
+sp|P03615|CAPSD_BPQBE    11.1      0.17   2   1.8   0.2    Capsid protein OS=Escherichia phage Qbeta OX=39803 PE=1 SV=2
+sp|P26708|V125_ASFL5     10.6      0.24   1   1.1   1.7    Protein LIS 124-2 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS124-2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C9H0|1104L_ASFWA    13.0     0.046     1   1.6     44    121     54    106     58    107     Protein MGF 110-4L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-009 PE=3 SV=1
+sp|P18558|1104L_ASFB7    11.8       0.1     1   1.6     43    121     53    106     58    108     Protein MGF 110-4L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-011 PE=3 SV=1
+sp|P0C9H3|1104L_ASFP4    11.4      0.14     1   1.4     43    120     53    105     58    107     Protein MGF 110-4L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-011 PE=3 SV=1
+sp|P0C9H2|1104L_ASFM2    11.3      0.15     1   1.6     43    123     53    106     58    108     Protein MGF 110-4L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-008 PE=3 SV=1
+sp|P26708|V125_ASFL5     10.4      0.29     1   1.7     43    121     53    105     58    107     Protein LIS 124-2 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS124-2 PE=3 SV=1
+sp|P03615|CAPSD_BPQBE     9.1      0.71     1   0.1     44    102     58     90     17     48     Capsid protein OS=Escherichia phage Qbeta OX=39803 PE=1 SV=2
+sp|P03615|CAPSD_BPQBE     1.6   1.4e+02     2   0.0     87    123     89    114    168    193     Capsid protein OS=Escherichia phage Qbeta OX=39803 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000246@SRS078176_LANL_scaffold_125@SRS078176_LANL_scaffold_125_gene_351.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000246@SRS078176_LANL_scaffold_125@SRS078176_LANL_scaffold_125_gene_351.txt data/models_hmm/7000000246@SRS078176_LANL_scaffold_125@SRS078176_LANL_scaffold_125_gene_351.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:46 2021
+# [ok]

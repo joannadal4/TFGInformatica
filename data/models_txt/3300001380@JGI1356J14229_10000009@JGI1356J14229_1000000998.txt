@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36799|VE6_HPV03     13.8     0.043   2   2.7   1.1    Protein E6 OS=Human papillomavirus type 3 OX=10614 GN=E6 PE=1 SV=1
+sp|P50802|VE6_HPV28     12.8      0.09   2   2.5   0.4    Protein E6 OS=Human papillomavirus type 28 OX=37111 GN=E6 PE=3 SV=1
+sp|P50803|VE6_HPV29      7.3       4.5   3   3.0   6.5    Protein E6 OS=Human papillomavirus type 29 OX=37112 GN=E6 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P50802|VE6_HPV28      7.6       3.9     2   0.0     98    117     99    113      3     17     Protein E6 OS=Human papillomavirus type 28 OX=37111 GN=E6 PE=3 SV=1
+sp|P36799|VE6_HPV03      7.4       4.4     2   0.1    104    123    105    119      3     17     Protein E6 OS=Human papillomavirus type 3 OX=10614 GN=E6 PE=1 SV=1
+sp|P50803|VE6_HPV29      5.2        21     2   0.1     99    120    101    115      3     17     Protein E6 OS=Human papillomavirus type 29 OX=37112 GN=E6 PE=3 SV=1
+sp|P50803|VE6_HPV29      5.1        23     1   0.1     27     54     28     40      3     15     Protein E6 OS=Human papillomavirus type 29 OX=37112 GN=E6 PE=3 SV=1
+sp|P36799|VE6_HPV03      4.3        39     1   0.1     31     48     32     44      3     15     Protein E6 OS=Human papillomavirus type 3 OX=10614 GN=E6 PE=1 SV=1
+sp|P50802|VE6_HPV28      2.6   1.3e+02     1   0.1     25     42     26     38      3     15     Protein E6 OS=Human papillomavirus type 28 OX=37111 GN=E6 PE=3 SV=1
+sp|P50803|VE6_HPV29     -3.0   7.5e+03     3   0.4    128    142    133    139      2      8     Protein E6 OS=Human papillomavirus type 29 OX=37112 GN=E6 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001380@JGI1356J14229_10000009@JGI1356J14229_1000000998.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001380@JGI1356J14229_10000009@JGI1356J14229_1000000998.txt data/models_hmm/3300001380@JGI1356J14229_10000009@JGI1356J14229_1000000998.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:08 2021
+# [ok]

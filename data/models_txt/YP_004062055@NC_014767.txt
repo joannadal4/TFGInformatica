@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q1I0U1|VP11_MPRVN    40.0   2.6e-10   1   1.1   0.0    Uncharacterized protein VP11 OS=Micromonas pusilla reovirus (isolate Netherlands/2005) OX=649596 GN=S11 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q1I0U1|VP11_MPRVN    39.7   3.2e-10     1   0.0      4    189      7    167     18    182     Uncharacterized protein VP11 OS=Micromonas pusilla reovirus (isolate Netherlands/2005) OX=649596 GN=S11 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004062055@NC_014767.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004062055@NC_014767.txt data/models_hmm/YP_004062055@NC_014767.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:05 2021
+# [ok]

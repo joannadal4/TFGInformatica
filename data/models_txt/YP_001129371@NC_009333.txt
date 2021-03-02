@@ -1,0 +1,41 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P16752|UL79_HCMVA   362.6    1e-108   1   1.0   0.0    Protein UL79 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL79 PE=3 SV=1
+sp|Q6SW63|UL79_HCMVM   362.1  1.4e-108   1   1.0   0.0    Protein UL79 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL79 PE=3 SV=1
+sp|Q01003|UL79_SHV21   325.0   3.1e-97   1   1.0   2.4    Gene 18 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=18 PE=3 SV=1
+sp|O36368|UL79_ALHV1   318.0     4e-95   1   1.0   0.1    Gene 18 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=18 PE=3 SV=1
+sp|Q2HRB4|UL79_HHV8P   314.0     7e-94   1   1.0   0.0    Protein UL79 homolog OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF18 PE=3 SV=1
+sp|P52470|UL79_HHV7J   311.9     3e-93   1   1.0   3.1    Protein U52 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U52 PE=3 SV=1
+sp|Q66621|UL79_EHV2    305.4   2.8e-91   1   1.0   0.0    Gene 18 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=18 PE=3 SV=1
+sp|P52548|UL79_HHV6Z   295.0   4.3e-88   1   1.0   3.6    Protein U52 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U52 PE=3 SV=2
+sp|P52469|UL79_HHV6U   293.8   9.8e-88   1   1.0   3.9    Protein U52 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U52 PE=3 SV=1
+sp|Q18LE4|UL79_ELHVK   291.0   7.2e-87   1   1.0   0.8    Protein U52 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P16752|UL79_HCMVA   362.3  1.3e-108     1   0.0      6    266      8    255      3    250     Protein UL79 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL79 PE=3 SV=1
+sp|Q6SW63|UL79_HCMVM   361.8  1.8e-108     1   0.0      6    266      8    255      3    250     Protein UL79 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL79 PE=3 SV=1
+sp|Q01003|UL79_SHV21   324.8   3.4e-97     1   2.4      1    256      2    255      9    264     Gene 18 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=18 PE=3 SV=1
+sp|O36368|UL79_ALHV1   317.8   4.7e-95     1   0.1      5    269      9    268      5    266     Gene 18 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=18 PE=3 SV=1
+sp|Q2HRB4|UL79_HHV8P   313.8   7.8e-94     1   0.0      1    257      1    256     10    264     Protein UL79 homolog OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF18 PE=3 SV=1
+sp|P52470|UL79_HHV7J   311.6   3.6e-93     1   3.1      1    252      1    247      8    258     Protein U52 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U52 PE=3 SV=1
+sp|Q66621|UL79_EHV2    305.3   3.1e-91     1   0.0      1    257      1    256     10    265     Gene 18 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=18 PE=3 SV=1
+sp|P52548|UL79_HHV6Z   294.7   5.1e-88     1   3.6      1    255      1    236      8    242     Protein U52 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U52 PE=3 SV=2
+sp|P52469|UL79_HHV6U   293.6   1.2e-87     1   3.9      1    255      1    236      8    242     Protein U52 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U52 PE=3 SV=1
+sp|Q18LE4|UL79_ELHVK   290.8   7.9e-87     1   0.8     17    278     18    271      2    260     Protein U52 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001129371@NC_009333.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001129371@NC_009333.txt data/models_hmm/YP_001129371@NC_009333.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:03 2021
+# [ok]

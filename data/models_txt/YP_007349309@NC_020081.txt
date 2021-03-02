@@ -1,0 +1,43 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P29833|SHDAG_HDVL1    12.0       0.1   1   1.2   0.9    Small delta antigen OS=Hepatitis delta virus genotype I (isolate Lebanon-1) OX=31763 PE=3 SV=3
+sp|O64270|VG89_BPMD2     11.8      0.12   1   1.0   0.2    Gene 89 protein OS=Mycobacterium phage D29 OX=28369 GN=89 PE=4 SV=1
+sp|P0C6M1|LHDAG_HDVL1    11.8      0.12   1   1.2   0.8    Large delta antigen OS=Hepatitis delta virus genotype I (isolate Lebanon-1) OX=31763 PE=3 SV=1
+sp|Q81835|SHDAG_HDVU2    11.8      0.12   1   1.3   0.5    Small delta antigen OS=Hepatitis delta virus genotype I (isolate US-2) OX=261991 PE=3 SV=2
+sp|P0C6M5|LHDAG_HDVU2    11.5      0.15   1   1.3   0.5    Large delta antigen OS=Hepatitis delta virus genotype I (isolate US-2) OX=261991 PE=3 SV=1
+sp|P25882|SHDAG_HDVM2     9.5      0.59   2   1.5   3.8    Small delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-2) OX=10425 PE=3 SV=3
+sp|P25881|SHDAG_HDVM1     9.5      0.61   2   1.4   3.8    Small delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-1) OX=10424 PE=3 SV=3
+sp|P0C6L8|LHDAG_HDVM2     9.1      0.81   2   1.4   3.9    Large delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-2) OX=10425 PE=3 SV=1
+sp|P0C6L7|LHDAG_HDVM1     8.9      0.94   2   1.4   4.1    Large delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-1) OX=10424 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64270|VG89_BPMD2     11.6      0.14     1   0.2      2     94     23     85     49    109     Gene 89 protein OS=Mycobacterium phage D29 OX=28369 GN=89 PE=4 SV=1
+sp|P25881|SHDAG_HDVM1    11.6      0.14     1   0.6      4     63     15     61    121    166     Small delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-1) OX=10424 PE=3 SV=3
+sp|P25882|SHDAG_HDVM2    11.6      0.14     1   0.6      4     63     15     61    121    166     Small delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-2) OX=10425 PE=3 SV=3
+sp|P29833|SHDAG_HDVL1    11.4      0.16     1   0.9      4     63     17     61    123    166     Small delta antigen OS=Hepatitis delta virus genotype I (isolate Lebanon-1) OX=31763 PE=3 SV=3
+sp|P0C6L7|LHDAG_HDVM1    11.3      0.17     1   0.6      4     63     15     61    121    166     Large delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-1) OX=10424 PE=3 SV=1
+sp|P0C6L8|LHDAG_HDVM2    11.3      0.17     1   0.6      4     63     15     61    121    166     Large delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-2) OX=10425 PE=3 SV=1
+sp|P0C6M1|LHDAG_HDVL1    11.2      0.18     1   0.8      4     63     17     61    123    166     Large delta antigen OS=Hepatitis delta virus genotype I (isolate Lebanon-1) OX=31763 PE=3 SV=1
+sp|Q81835|SHDAG_HDVU2    11.0      0.21     1   0.5      5     63     17     61    123    166     Small delta antigen OS=Hepatitis delta virus genotype I (isolate US-2) OX=261991 PE=3 SV=2
+sp|P0C6M5|LHDAG_HDVU2    10.8      0.24     1   0.5      5     63     17     61    123    166     Large delta antigen OS=Hepatitis delta virus genotype I (isolate US-2) OX=261991 PE=3 SV=1
+sp|P25882|SHDAG_HDVM2    -2.9   3.7e+03     2   0.1     99    136    117    129    100    112     Small delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-2) OX=10425 PE=3 SV=3
+sp|P25881|SHDAG_HDVM1    -3.0   4.1e+03     2   0.1    102    136    117    130    100    113     Small delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-1) OX=10424 PE=3 SV=3
+sp|P0C6L8|LHDAG_HDVM2    -3.1   4.3e+03     2   0.1    100    136    117    129    100    112     Large delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-2) OX=10425 PE=3 SV=1
+sp|P0C6L7|LHDAG_HDVM1    -3.3     5e+03     2   0.2    104    136    117    130    100    113     Large delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-1) OX=10424 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007349309@NC_020081.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007349309@NC_020081.txt data/models_hmm/YP_007349309@NC_020081.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:42 2021
+# [ok]

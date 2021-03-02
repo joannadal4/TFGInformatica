@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5I158|YC3_MDBVW    199.7   7.5e-60   1   1.1   0.3    Uncharacterized protein C3 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=C3 PE=4 SV=1
+sp|Q5I157|YF1_MDBVW    198.6   1.7e-59   1   1.0   0.2    Uncharacterized protein F1 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=F1 PE=4 SV=1
+sp|Q5EFR0|YI2_MDBVW    150.3   1.6e-44   1   1.0   0.1    Uncharacterized protein I2 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=I2 PE=4 SV=1
+sp|Q5I162|YE2_MDBVW    128.0   1.3e-37   1   1.0   0.4    Uncharacterized protein E2 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=E2 PE=4 SV=1
+sp|Q5I134|YM2_MDBVW     39.2   4.5e-10   1   1.0   0.0    Uncharacterized protein M2 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=M2 PE=4 SV=1
+sp|Q5I136|YK1_MDBVW     35.7   5.6e-09   2   1.9   2.8    Uncharacterized protein K1 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=K1 PE=4 SV=1
+sp|Q5I133|YM3_MDBVW     32.9   4.1e-08   1   1.1   0.0    Uncharacterized protein M3 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=M3 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5I158|YC3_MDBVW    199.5   8.8e-60     1   0.3      1    116      1    116      1    116     Uncharacterized protein C3 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=C3 PE=4 SV=1
+sp|Q5I157|YF1_MDBVW    198.4     2e-59     1   0.2     18    133     18    133      1    116     Uncharacterized protein F1 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=F1 PE=4 SV=1
+sp|Q5EFR0|YI2_MDBVW    150.1   1.8e-44     1   0.1      1    109      1    109      1    110     Uncharacterized protein I2 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=I2 PE=4 SV=1
+sp|Q5I162|YE2_MDBVW    127.8   1.5e-37     1   0.4     11    108     11    108      1     98     Uncharacterized protein E2 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=E2 PE=4 SV=1
+sp|Q5I134|YM2_MDBVW     38.9   5.6e-10     1   0.0      3     95      8     89      6     87     Uncharacterized protein M2 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=M2 PE=4 SV=1
+sp|Q5I136|YK1_MDBVW     35.5   6.6e-09     2   0.0     18     98     22     92      6     76     Uncharacterized protein K1 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=K1 PE=4 SV=1
+sp|Q5I133|YM3_MDBVW     32.6     5e-08     1   0.0     30    110     34    107      6     79     Uncharacterized protein M3 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=M3 PE=4 SV=1
+sp|Q5I136|YK1_MDBVW     -1.4   1.8e+03     1   2.9      1     21      3     16     85    101     Uncharacterized protein K1 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=K1 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_184905@NC_006661.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_184905@NC_006661.txt data/models_hmm/YP_184905@NC_006661.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:11 2021
+# [ok]

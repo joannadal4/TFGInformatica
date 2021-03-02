@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P10350|VNS2_BTV1X    14.2     0.015   1   1.3   7.1    Non-structural protein NS2 OS=Bluetongue virus 10 OX=10906 GN=Segment-8 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P10350|VNS2_BTV1X    13.6     0.024     1   7.1    148    294    173    281     62    168     Non-structural protein NS2 OS=Bluetongue virus 10 OX=10906 GN=Segment-8 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003429349@NC_013797.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003429349@NC_013797.txt data/models_hmm/YP_003429349@NC_013797.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:37 2021
+# [ok]

@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P07567|GAG_MPMV      14.0     0.026   1   1.7   0.0    Gag polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag PE=1 SV=3
+sp|P04022|GAG_SRV1      13.9     0.027   2   1.8   0.1    Gag polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=gag PE=1 SV=3
+sp|P07570|PRO_MPMV      13.4      0.04   1   1.7   0.0    Gag-Pro polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag-pro PE=1 SV=2
+sp|P04024|PRO_SRV1      13.3     0.044   1   1.7   0.0    Gag-Pro polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=pro PE=3 SV=2
+sp|P07572|POL_MPMV      12.3     0.089   1   1.6   0.0    Gag-Pro-Pol polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag-pro-pol PE=1 SV=2
+sp|P04025|POL_SRV1      12.1       0.1   1   1.7   0.0    Gag-Pro-Pol polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=pol PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P07567|GAG_MPMV      12.5     0.074     1   0.0     74    119     82    111     30     59     Gag polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag PE=1 SV=3
+sp|P04022|GAG_SRV1      12.3     0.087     1   0.0     74    117     82    110     30     58     Gag polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=gag PE=1 SV=3
+sp|P07570|PRO_MPMV      12.0      0.11     1   0.0     75    119     82    111     30     59     Gag-Pro polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag-pro PE=1 SV=2
+sp|P04024|PRO_SRV1      11.7      0.13     1   0.0     75    117     82    110     30     58     Gag-Pro polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=pro PE=3 SV=2
+sp|P07572|POL_MPMV      10.9      0.24     1   0.0     75    119     82    111     30     59     Gag-Pro-Pol polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag-pro-pol PE=1 SV=2
+sp|P04025|POL_SRV1      10.7      0.28     1   0.0     75    117     82    110     30     58     Gag-Pro-Pol polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=pol PE=3 SV=2
+sp|P04022|GAG_SRV1      -3.8   8.2e+03     2   0.0    290    306    291    304     40     53     Gag polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=gag PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008240466@NC_021785.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008240466@NC_021785.txt data/models_hmm/YP_008240466@NC_021785.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:28 2021
+# [ok]

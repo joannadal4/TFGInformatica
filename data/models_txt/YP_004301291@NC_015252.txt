@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O48459|DIT_BPSPP     76.6   1.7e-21   1   1.0   0.1    Distal tail protein OS=Bacillus phage SPP1 OX=10724 PE=1 SV=1
+sp|P04525|DPA5_BPT4     12.5     0.062   1   1.5   0.1    DNA polymerase clamp OS=Enterobacteria phage T4 OX=10665 GN=45 PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O48459|DIT_BPSPP     76.2   2.2e-21     1   0.1      9    251     12    240     22    244     Distal tail protein OS=Bacillus phage SPP1 OX=10724 PE=1 SV=1
+sp|P04525|DPA5_BPT4     11.7      0.11     1   0.1     96    196    104    160    167    225     DNA polymerase clamp OS=Enterobacteria phage T4 OX=10665 GN=45 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004301291@NC_015252.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004301291@NC_015252.txt data/models_hmm/YP_004301291@NC_015252.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:15 2021
+# [ok]

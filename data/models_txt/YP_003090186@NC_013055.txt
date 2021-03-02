@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P85503|STRU3_BPPAJ    26.5   4.5e-06   2   2.5   0.1    Structural protein 3 OS=Pseudomonas phage PAJU2 OX=504346 PE=1 SV=2
+sp|P03733|TUBE_LAMBD     16.3    0.0064   3   2.2   2.7    Tail tube protein OS=Escherichia phage lambda OX=10710 GN=V PE=1 SV=1
+sp|P24614|FUS_TRTV       13.1     0.062   2   2.3   0.3    Fusion glycoprotein F0 OS=Turkey rhinotracheitis virus OX=11264 GN=F PE=2 SV=1
+sp|B9VXQ2|UL95_HCMVT     12.6     0.085   1   1.4   0.0    Protein UL95 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL95 PE=3 SV=1
+sp|P16801|UL95_HCMVA     11.7      0.17   2   1.7   0.0    Protein UL95 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL95 PE=3 SV=1
+sp|Q6SW48|UL95_HCMVM     11.7      0.17   2   1.6   0.0    Protein UL95 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL95 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P85503|STRU3_BPPAJ    18.9     0.001     2   0.0    112    164    120    162    114    156     Structural protein 3 OS=Pseudomonas phage PAJU2 OX=504346 PE=1 SV=2
+sp|P03733|TUBE_LAMBD     16.1    0.0073     1   0.0     66    156     73    150     74    151     Tail tube protein OS=Escherichia phage lambda OX=10710 GN=V PE=1 SV=1
+sp|B9VXQ2|UL95_HCMVT     11.8      0.16     1   0.0     90    176     94    159     61    125     Protein UL95 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL95 PE=3 SV=1
+sp|P16801|UL95_HCMVA     11.7      0.17     2   0.0     91    176     94    159     61    125     Protein UL95 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL95 PE=3 SV=1
+sp|Q6SW48|UL95_HCMVM     11.7      0.17     2   0.0     91    176     94    159     61    125     Protein UL95 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL95 PE=3 SV=1
+sp|P24614|FUS_TRTV        5.5        13     2   0.0    178    222    196    218    117    139     Fusion glycoprotein F0 OS=Turkey rhinotracheitis virus OX=11264 GN=F PE=2 SV=1
+sp|P85503|STRU3_BPPAJ     5.4        14     1   0.0      1     88     39     72     55     86     Structural protein 3 OS=Pseudomonas phage PAJU2 OX=504346 PE=1 SV=2
+sp|P24614|FUS_TRTV        5.2        16     1   0.1     64    141     79    139     95    155     Fusion glycoprotein F0 OS=Turkey rhinotracheitis virus OX=11264 GN=F PE=2 SV=1
+sp|P03733|TUBE_LAMBD     -0.9   1.3e+03     2   0.4    151    212    155    182      4     31     Tail tube protein OS=Escherichia phage lambda OX=10710 GN=V PE=1 SV=1
+sp|P03733|TUBE_LAMBD     -1.3   1.7e+03     3   0.2    175    240    208    216    138    146     Tail tube protein OS=Escherichia phage lambda OX=10710 GN=V PE=1 SV=1
+sp|P16801|UL95_HCMVA     -5.2   1.7e+04     1   3.0     48     90     56     89    124    157     Protein UL95 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL95 PE=3 SV=1
+sp|Q6SW48|UL95_HCMVM     -5.2   1.7e+04     1   2.9     51     90     57     89    125    157     Protein UL95 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL95 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003090186@NC_013055.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003090186@NC_013055.txt data/models_hmm/YP_003090186@NC_013055.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:18 2021
+# [ok]

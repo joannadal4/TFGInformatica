@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQS6|PAP1_MIMIV  1017.0         0   1   1.0  33.5    Putative poly(A) polymerase catalytic subunit OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R341 PE=1 SV=1
+sp|P0C9D5|PAP1_ASFK5    77.0   9.8e-22   1   1.2   1.8    Putative poly(A) polymerase catalytic subunit OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-079 PE=3 SV=1
+sp|P0C9D4|PAP1_ASFWA    76.5   1.4e-21   1   1.2   1.8    Putative poly(A) polymerase catalytic subunit OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-077 PE=3 SV=1
+sp|P0C9D3|PAP1_ASFP4    76.5   1.4e-21   1   1.2   1.8    Putative poly(A) polymerase catalytic subunit OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-079 PE=3 SV=1
+sp|Q65159|PAP1_ASFB7    76.4   1.5e-21   1   1.2   1.8    Putative poly(A) polymerase catalytic subunit OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-067 PE=3 SV=1
+sp|P0C9D2|PAP1_ASFM2    76.2   1.7e-21   1   1.2   2.0    Putative poly(A) polymerase catalytic subunit OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-075 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQS6|PAP1_MIMIV  1016.8         0     1  33.5      1    568      1    568      1    543     Putative poly(A) polymerase catalytic subunit OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R341 PE=1 SV=1
+sp|P0C9D5|PAP1_ASFK5    76.3   1.6e-21     1   1.8     13    211     19    188     40    206     Putative poly(A) polymerase catalytic subunit OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-079 PE=3 SV=1
+sp|P0C9D4|PAP1_ASFWA    75.8   2.2e-21     1   1.8     10    204     19    188     40    206     Putative poly(A) polymerase catalytic subunit OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-077 PE=3 SV=1
+sp|P0C9D3|PAP1_ASFP4    75.8   2.2e-21     1   1.8     11    204     19    188     40    206     Putative poly(A) polymerase catalytic subunit OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-079 PE=3 SV=1
+sp|Q65159|PAP1_ASFB7    75.8   2.3e-21     1   1.8     11    201     19    188     40    206     Putative poly(A) polymerase catalytic subunit OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-067 PE=3 SV=1
+sp|P0C9D2|PAP1_ASFM2    75.5   2.8e-21     1   2.0     11    202     19    188     40    206     Putative poly(A) polymerase catalytic subunit OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-075 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004894612@NC_016072.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004894612@NC_016072.txt data/models_hmm/YP_004894612@NC_016072.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:40 2021
+# [ok]

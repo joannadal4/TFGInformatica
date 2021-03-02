@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q0PI71|VG27_EMARV    12.1      0.17   4   3.1   1.0    Uncharacterized 27 kDa protein OS=European mountain ash ringspot-associated virus (isolate Sorbus aucuparia) OX=1980426 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q0PI71|VG27_EMARV     7.1       6.4     1   0.1     43     99     44     88      2     44     Uncharacterized 27 kDa protein OS=European mountain ash ringspot-associated virus (isolate Sorbus aucuparia) OX=1980426 PE=2 SV=1
+sp|Q0PI71|VG27_EMARV     0.4   7.4e+02     3   0.0    162    204    165    182     15     32     Uncharacterized 27 kDa protein OS=European mountain ash ringspot-associated virus (isolate Sorbus aucuparia) OX=1980426 PE=2 SV=1
+sp|Q0PI71|VG27_EMARV     0.3   8.1e+02     2   0.0    108    148    121    144     18     41     Uncharacterized 27 kDa protein OS=European mountain ash ringspot-associated virus (isolate Sorbus aucuparia) OX=1980426 PE=2 SV=1
+sp|Q0PI71|VG27_EMARV    -2.1   4.5e+03     4   0.0    181    219    193    207     17     30     Uncharacterized 27 kDa protein OS=European mountain ash ringspot-associated virus (isolate Sorbus aucuparia) OX=1980426 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH57097@HQ634194.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH57097@HQ634194.txt data/models_hmm/AGH57097@HQ634194.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:50 2021
+# [ok]

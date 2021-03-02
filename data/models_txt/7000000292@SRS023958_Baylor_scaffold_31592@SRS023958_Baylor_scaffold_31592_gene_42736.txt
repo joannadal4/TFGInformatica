@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FS8|VF244_IIV6    40.2   1.6e-10   1   2.1   5.2    Putative phosphoesterase 244L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-244L PE=3 SV=1
+sp|Q196Y2|VF244_IIV3    25.2   5.9e-06   1   1.4   0.3    Putative phosphoesterase 078R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-078R PE=3 SV=1
+sp|P04521|EXO1_BPT4     20.7   0.00014   2   2.6   6.1    Exonuclease subunit 1 OS=Enterobacteria phage T4 OX=10665 GN=47 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FS8|VF244_IIV6    37.5   1.1e-09     1   5.2      1    232      4    221      5    238     Putative phosphoesterase 244L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-244L PE=3 SV=1
+sp|Q196Y2|VF244_IIV3    24.3   1.1e-05     1   0.3      6    240     10    214      5    223     Putative phosphoesterase 078R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-078R PE=3 SV=1
+sp|P04521|EXO1_BPT4     13.0     0.029     2   0.3    171    332    181    269    197    278     Exonuclease subunit 1 OS=Enterobacteria phage T4 OX=10665 GN=47 PE=1 SV=1
+sp|P04521|EXO1_BPT4      9.7      0.29     1   0.8      1    126      1     83      5     89     Exonuclease subunit 1 OS=Enterobacteria phage T4 OX=10665 GN=47 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000292@SRS023958_Baylor_scaffold_31592@SRS023958_Baylor_scaffold_31592_gene_42736.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000292@SRS023958_Baylor_scaffold_31592@SRS023958_Baylor_scaffold_31592_gene_42736.txt data/models_hmm/7000000292@SRS023958_Baylor_scaffold_31592@SRS023958_Baylor_scaffold_31592_gene_42736.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:56 2021
+# [ok]

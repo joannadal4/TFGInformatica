@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q77D96|M1_THOGV      16.0    0.0084   2   2.6   0.0    Matrix protein OS=Thogoto virus (isolate SiAr 126) OX=126796 GN=Segment 6 PE=4 SV=1
+sp|Q80A33|ML_THOGV      15.5     0.012   2   2.5   0.1    Protein ML OS=Thogoto virus (isolate SiAr 126) OX=126796 GN=Segment 6 PE=1 SV=1
+sp|P32209|RIR2_SWPVK    14.4     0.026   3   2.4   0.4    Ribonucleoside-diphosphate reductase small chain OS=Swinepox virus (strain Kasza) OX=10277 GN=C14L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q77D96|M1_THOGV      12.4      0.11     2   0.0    198    254    199    226      3     30     Matrix protein OS=Thogoto virus (isolate SiAr 126) OX=126796 GN=Segment 6 PE=4 SV=1
+sp|Q80A33|ML_THOGV      12.2      0.13     2   0.0    198    254    199    226      3     30     Protein ML OS=Thogoto virus (isolate SiAr 126) OX=126796 GN=Segment 6 PE=1 SV=1
+sp|P32209|RIR2_SWPVK    11.7      0.19     1   0.0     11     68     13     57      3     45     Ribonucleoside-diphosphate reductase small chain OS=Swinepox virus (strain Kasza) OX=10277 GN=C14L PE=3 SV=1
+sp|Q77D96|M1_THOGV      -0.0   8.5e+02     1   0.0     89    126     99    124     37     62     Matrix protein OS=Thogoto virus (isolate SiAr 126) OX=126796 GN=Segment 6 PE=4 SV=1
+sp|P32209|RIR2_SWPVK    -0.2   9.9e+02     2   0.0    100    136    104    119      5     20     Ribonucleoside-diphosphate reductase small chain OS=Swinepox virus (strain Kasza) OX=10277 GN=C14L PE=3 SV=1
+sp|Q80A33|ML_THOGV      -0.3     1e+03     1   0.0     90    126     99    124     37     62     Protein ML OS=Thogoto virus (isolate SiAr 126) OX=126796 GN=Segment 6 PE=1 SV=1
+sp|P32209|RIR2_SWPVK    -2.8   6.4e+03     3   0.1    237    268    243    265     33     55     Ribonucleoside-diphosphate reductase small chain OS=Swinepox virus (strain Kasza) OX=10277 GN=C14L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004030769@NC_006884.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004030769@NC_006884.txt data/models_hmm/YP_004030769@NC_006884.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:02 2021
+# [ok]

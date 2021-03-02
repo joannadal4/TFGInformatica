@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P84254|NCAP_WYHV     12.2     0.082   1   1.6   0.7    Nucleoprotein OS=Wheat yellow head virus OX=299385 GN=pc3 PE=1 SV=1
+sp|Q6QT02|NSP4_ROT18    11.4      0.14   1   1.3   3.8    Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Cow/India/Hg18/2000/G15P[21]) OX=141270 PE=3 SV=1
+sp|Q82028|NSP4_ROTH5    10.1      0.34   1   1.2   4.7    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Australia/RV-5/1981/G2P1B[4]) OX=31569 PE=2 SV=1
+sp|Q82030|NSP4_ROTH1     9.5      0.52   1   1.3   7.1    Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Human/Sweden/1076/1983/G2P2A[6]) OX=10944 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P84254|NCAP_WYHV     11.1      0.17     1   0.4    234    299    259    291    112    144     Nucleoprotein OS=Wheat yellow head virus OX=299385 GN=pc3 PE=1 SV=1
+sp|Q6QT02|NSP4_ROT18    10.8      0.21     1   3.8     76    163     94    144     99    151     Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Cow/India/Hg18/2000/G15P[21]) OX=141270 PE=3 SV=1
+sp|Q82028|NSP4_ROTH5     9.6      0.51     1   4.7     77    161     86    148     93    157     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Australia/RV-5/1981/G2P1B[4]) OX=31569 PE=2 SV=1
+sp|Q82030|NSP4_ROTH1     9.2      0.67     1   6.7     79    162     86    148     93    157     Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Human/Sweden/1076/1983/G2P2A[6]) OX=10944 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003407077@NC_013756.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003407077@NC_013756.txt data/models_hmm/YP_003407077@NC_013756.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:34 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P08232|FIB37_BPOX2    28.7   3.1e-07   1   1.1   2.5    Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage Ox2 OX=10691 GN=37 PE=3 SV=1
+sp|P08231|FIB37_BPM1     27.9   5.4e-07   1   1.1   3.0    Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage M1 OX=10676 GN=37 PE=3 SV=1
+sp|O64225|VG31_BPMD2     16.6    0.0014   1   1.2   0.1    Gene 31 protein OS=Mycobacterium phage D29 OX=28369 GN=31 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P08232|FIB37_BPOX2    28.2   4.2e-07     1   2.5    133    247    139    244    848    946     Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage Ox2 OX=10691 GN=37 PE=3 SV=1
+sp|P08231|FIB37_BPM1     27.4   7.5e-07     1   3.0    133    247    139    244    848    946     Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage M1 OX=10676 GN=37 PE=3 SV=1
+sp|O64225|VG31_BPMD2     15.8    0.0023     1   0.1    479    565    497    547    130    175     Gene 31 protein OS=Mycobacterium phage D29 OX=28369 GN=31 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10000303@TBL_comb47_HYPODRAFT_1000030334.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000553@TBL_comb47_HYPODRAFT_10000303@TBL_comb47_HYPODRAFT_1000030334.txt data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10000303@TBL_comb47_HYPODRAFT_1000030334.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:56 2021
+# [ok]

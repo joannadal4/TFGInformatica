@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q7T6Y3|YR879_MIMIV     8.0       1.6   1   1.5  10.4    Putative KilA-N domain-containing protein R879 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R879 PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q7T6Y3|YR879_MIMIV     6.9       3.6     1  10.4     64    183     79    148    125    171     Putative KilA-N domain-containing protein R879 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R879 PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000114@IMNBL3_c10000161@IMNBL3_1000016141.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000114@IMNBL3_c10000161@IMNBL3_1000016141.txt data/models_hmm/3300000114@IMNBL3_c10000161@IMNBL3_1000016141.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:31 2021
+# [ok]

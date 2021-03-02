@@ -1,0 +1,42 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64208|VG15_BPMD2     24.0   2.1e-05   3   2.2   0.8    Gene 15 protein OS=Mycobacterium phage D29 OX=28369 GN=15 PE=4 SV=1
+sp|Q05221|VG15_BPML5     17.6    0.0019   2   2.3   0.2    Gene 15 protein OS=Mycobacterium phage L5 OX=31757 GN=15 PE=4 SV=1
+sp|P04022|GAG_SRV1       17.5     0.002   1   1.2   0.3    Gag polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=gag PE=1 SV=3
+sp|P04024|PRO_SRV1       16.8    0.0033   1   1.2   0.3    Gag-Pro polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=pro PE=3 SV=2
+sp|P04025|POL_SRV1       15.6    0.0078   1   1.2   0.3    Gag-Pro-Pol polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=pol PE=3 SV=2
+sp|P07567|GAG_MPMV       15.0     0.011   1   1.2   0.2    Gag polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag PE=1 SV=3
+sp|P07570|PRO_MPMV       14.3     0.019   1   1.2   0.2    Gag-Pro polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag-pro PE=1 SV=2
+sp|Q5UNX9|YR721_MIMIV    14.1     0.022   1   1.1   0.2    Uncharacterized protein R721 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R721 PE=1 SV=1
+sp|P07572|POL_MPMV       13.1     0.044   1   1.2   0.2    Gag-Pro-Pol polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag-pro-pol PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64208|VG15_BPMD2     22.0   8.3e-05     2   0.1     86    175    106    163    231    286     Gene 15 protein OS=Mycobacterium phage D29 OX=28369 GN=15 PE=4 SV=1
+sp|P04022|GAG_SRV1       16.7    0.0035     1   0.3    156    266    162    260     80    178     Gag polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=gag PE=1 SV=3
+sp|P04024|PRO_SRV1       16.1    0.0055     1   0.3    156    266    162    260     80    178     Gag-Pro polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=pro PE=3 SV=2
+sp|P04025|POL_SRV1       14.9     0.013     1   0.3    156    266    162    260     80    178     Gag-Pro-Pol polyprotein OS=Simian retrovirus SRV-1 OX=11942 GN=pol PE=3 SV=2
+sp|P07567|GAG_MPMV       14.3     0.019     1   0.2    156    266    161    259     80    178     Gag polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag PE=1 SV=3
+sp|Q05221|VG15_BPML5     14.2      0.02     1   0.1     95    191    111    171    226    283     Gene 15 protein OS=Mycobacterium phage L5 OX=31757 GN=15 PE=4 SV=1
+sp|P07570|PRO_MPMV       13.6      0.03     1   0.2    156    266    161    259     80    178     Gag-Pro polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag-pro PE=1 SV=2
+sp|Q5UNX9|YR721_MIMIV    13.6     0.031     1   0.2      9     83     19     78    292    354     Uncharacterized protein R721 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R721 PE=1 SV=1
+sp|P07572|POL_MPMV       12.4     0.072     1   0.2    156    265    161    259     80    178     Gag-Pro-Pol polyprotein OS=Mason-Pfizer monkey virus OX=11855 GN=gag-pro-pol PE=1 SV=2
+sp|Q05221|VG15_BPML5      0.7   2.6e+02     2   0.0    203    252    212    233    290    311     Gene 15 protein OS=Mycobacterium phage L5 OX=31757 GN=15 PE=4 SV=1
+sp|O64208|VG15_BPMD2     -0.5   5.8e+02     3   0.0    191    262    197    220    294    317     Gene 15 protein OS=Mycobacterium phage D29 OX=28369 GN=15 PE=4 SV=1
+sp|O64208|VG15_BPMD2     -3.1   3.7e+03     1   0.0     21     62     25     60     49     81     Gene 15 protein OS=Mycobacterium phage D29 OX=28369 GN=15 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008051411@NC_021304.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008051411@NC_021304.txt data/models_hmm/YP_008051411@NC_021304.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:09 2021
+# [ok]

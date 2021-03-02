@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6JM09|SSB_BPLP2    218.8   1.2e-65   1   1.0   1.8    SSB protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=2
+sp|O21902|SSB_BPLSK    218.4   1.5e-65   1   1.0   1.6    SSB protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6JM09|SSB_BPLP2    218.6   1.3e-65     1   1.8      1    119      1    119      1    118     SSB protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=2
+sp|O21902|SSB_BPLSK    218.3   1.6e-65     1   1.6      1    119      1    119      1    118     SSB protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008318134@NC_021853.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008318134@NC_021853.txt data/models_hmm/YP_008318134@NC_021853.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:35 2021
+# [ok]

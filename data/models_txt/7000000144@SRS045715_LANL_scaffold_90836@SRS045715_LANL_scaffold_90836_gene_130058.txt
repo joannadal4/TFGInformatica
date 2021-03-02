@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9WS40|NCAP_TPMV     11.4       0.1   1   1.3   0.0    Nucleoprotein OS=Tupaia paramyxovirus OX=92129 GN=N PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9WS40|NCAP_TPMV     10.6      0.19     1   0.0    202    267    219    262    231    275     Nucleoprotein OS=Tupaia paramyxovirus OX=92129 GN=N PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000144@SRS045715_LANL_scaffold_90836@SRS045715_LANL_scaffold_90836_gene_130058.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000144@SRS045715_LANL_scaffold_90836@SRS045715_LANL_scaffold_90836_gene_130058.txt data/models_hmm/7000000144@SRS045715_LANL_scaffold_90836@SRS045715_LANL_scaffold_90836_gene_130058.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:52 2021
+# [ok]

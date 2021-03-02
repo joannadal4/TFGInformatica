@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQY0|YR890_MIMIV   316.6   2.8e-95   1   1.3  30.4    Uncharacterized protein R890 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R890 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQY0|YR890_MIMIV   316.6   2.8e-95     1  30.4      1    168      1    166      1    162     Uncharacterized protein R890 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R890 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007354042@NC_020104.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007354042@NC_020104.txt data/models_hmm/YP_007354042@NC_020104.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:43 2021
+# [ok]

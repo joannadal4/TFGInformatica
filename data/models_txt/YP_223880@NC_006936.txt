@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPV6|YL278_MIMIV    13.9      0.04   1   1.2   0.2    Uncharacterized protein L278 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L278 PE=4 SV=1
+sp|P20539|H7_VACCC       13.8     0.041   1   1.7   0.1    Late protein H7 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=H7R PE=2 SV=1
+sp|O57208|H7_VACCA       13.8     0.043   2   1.7   0.1    Late protein H7 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA097R PE=2 SV=1
+sp|P08586|H7_VACCW       13.8     0.043   2   1.7   0.1    Late protein H7 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR105 PE=1 SV=2
+sp|P23074|POL_SFV1       13.3     0.058   1   1.7   0.1    Pro-Pol polyprotein OS=Simian foamy virus type 1 OX=338478 GN=pol PE=1 SV=3
+sp|P03072|LT_POVJC       12.4      0.11   1   1.8   1.1    Large T antigen OS=JC polyomavirus OX=10632 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPV6|YL278_MIMIV    13.3     0.058     1   0.2      7     86     11     66     63    117     Uncharacterized protein L278 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L278 PE=4 SV=1
+sp|P20539|H7_VACCC       13.0     0.075     1   0.1     11    132     23     67     18     61     Late protein H7 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=H7R PE=2 SV=1
+sp|O57208|H7_VACCA       12.5       0.1     1   0.0     16     88     24     66     19     60     Late protein H7 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA097R PE=2 SV=1
+sp|P08586|H7_VACCW       12.5      0.11     1   0.0     16     88     24     66     19     60     Late protein H7 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR105 PE=1 SV=2
+sp|P23074|POL_SFV1       11.9      0.16     1   0.1    415    526    426    521     47    138     Pro-Pol polyprotein OS=Simian foamy virus type 1 OX=338478 GN=pol PE=1 SV=3
+sp|P03072|LT_POVJC       10.9      0.32     1   1.1    264    376    268    352     40    120     Large T antigen OS=JC polyomavirus OX=10632 PE=1 SV=1
+sp|O57208|H7_VACCA       -1.4   2.1e+03     2   0.1     89    132    107    119     76     88     Late protein H7 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA097R PE=2 SV=1
+sp|P08586|H7_VACCW       -1.4   2.1e+03     2   0.1     89    132    107    119     76     88     Late protein H7 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR105 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_223880@NC_006936.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_223880@NC_006936.txt data/models_hmm/YP_223880@NC_006936.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:17 2021
+# [ok]

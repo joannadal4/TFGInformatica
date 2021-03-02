@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03200|GP350_EBVB9  1890.2         0   1   1.0 126.4    Envelope glycoprotein GP350 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BLLF1 PE=1 SV=1
+sp|P68343|GP350_EBVA8  1760.9         0   1   1.0 116.9    Envelope glycoprotein GP350 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BLLF1 PE=1 SV=1
+sp|P68344|VGP3_EBVP3   1760.9         0   1   1.0 116.9    Envelope glycoprotein GP340 OS=Epstein-Barr virus (strain P3HR-1) OX=82829 GN=BLLF1 PE=4 SV=1
+sp|Q3KST4|GP350_EBVG   1712.8         0   2   2.0 135.4    Envelope glycoprotein GP350 OS=Epstein-Barr virus (strain GD1) OX=10376 PE=1 SV=1
+sp|P13390|FIBL1_BPT5      5.6       3.7   1   1.3  34.5    L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03200|GP350_EBVB9  1890.0         0     1 126.4      1    907      1    907      1    907     Envelope glycoprotein GP350 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BLLF1 PE=1 SV=1
+sp|P68343|GP350_EBVA8  1760.7         0     1 116.9      1    886      1    886      1    907     Envelope glycoprotein GP350 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BLLF1 PE=1 SV=1
+sp|P68344|VGP3_EBVP3   1760.7         0     1 116.9      1    886      1    886      1    907     Envelope glycoprotein GP340 OS=Epstein-Barr virus (strain P3HR-1) OX=82829 GN=BLLF1 PE=4 SV=1
+sp|Q3KST4|GP350_EBVG   1154.1         0     1  47.1      1    559      1    559      1    573     Envelope glycoprotein GP350 OS=Epstein-Barr virus (strain GD1) OX=10376 PE=1 SV=1
+sp|Q3KST4|GP350_EBVG    573.6  8.1e-172     2  80.4    533    856    533    856    568    907     Envelope glycoprotein GP350 OS=Epstein-Barr virus (strain GD1) OX=10376 PE=1 SV=1
+sp|P13390|FIBL1_BPT5      4.7       6.8     1  34.5      6    243     34    199    464    626     L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_067963@NC_006146.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_067963@NC_006146.txt data/models_hmm/YP_067963@NC_006146.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:56 2021
+# [ok]

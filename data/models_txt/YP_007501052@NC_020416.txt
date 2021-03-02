@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q01437|MOTB_BPT4     23.9   3.3e-05   1   1.6   0.2    Transcription regulatory protein motB OS=Enterobacteria phage T4 OX=10665 GN=motB PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q01437|MOTB_BPT4     22.9   6.3e-05     1   0.2     10    159     59    151     45    123     Transcription regulatory protein motB OS=Enterobacteria phage T4 OX=10665 GN=motB PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007501052@NC_020416.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007501052@NC_020416.txt data/models_hmm/YP_007501052@NC_020416.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:58 2021
+# [ok]

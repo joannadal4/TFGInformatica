@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P07876|VG38_BPK3     17.2    0.0013   1   1.1  41.5    Receptor-recognizing protein OS=Enterobacteria phage K3 OX=10674 GN=38 PE=4 SV=1
+sp|P07875|VG38_BPT2     16.9    0.0015   1   1.0  36.1    Receptor-recognizing protein OS=Enterobacteria phage T2 OX=10664 GN=38 PE=4 SV=1
+sp|Q9G0B4|VG38_BPAR1     7.7      0.91   1   1.0  26.1    Receptor-recognizing protein OS=Escherichia phage AR1 OX=66711 GN=38 PE=4 SV=1
+sp|P08234|VG38_BPM1      4.5       8.7   1   1.0  36.0    Receptor-recognizing protein OS=Enterobacteria phage M1 OX=10676 GN=38 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P07876|VG38_BPK3     17.0    0.0015     1  41.5     42    260     76    258    578    756     Receptor-recognizing protein OS=Enterobacteria phage K3 OX=10674 GN=38 PE=4 SV=1
+sp|P07875|VG38_BPT2     16.8    0.0017     1  36.1     41    262     87    261    591    757     Receptor-recognizing protein OS=Enterobacteria phage T2 OX=10664 GN=38 PE=4 SV=1
+sp|Q9G0B4|VG38_BPAR1     7.6         1     1  26.1     76    258    110    228    615    733     Receptor-recognizing protein OS=Escherichia phage AR1 OX=66711 GN=38 PE=4 SV=1
+sp|P08234|VG38_BPM1      4.3       9.7     1  36.0     76    262    112    259    615    755     Receptor-recognizing protein OS=Enterobacteria phage M1 OX=10676 GN=38 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001729@JGI24651J20071_1000001@JGI24651J20071_100000164.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001729@JGI24651J20071_1000001@JGI24651J20071_100000164.txt data/models_hmm/3300001729@JGI24651J20071_1000001@JGI24651J20071_100000164.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:16 2021
+# [ok]

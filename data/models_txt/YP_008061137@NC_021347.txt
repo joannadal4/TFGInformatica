@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9IMP3|PB2_INCJH     13.5      0.05   2   2.2   0.0    Polymerase basic protein 2 OS=Influenza C virus (strain C/Johannesburg/1/1966) OX=100673 GN=PB2 PE=1 SV=2
+sp|Q6I7C4|PB2_INCAA     12.9     0.081   2   2.2   0.0    Polymerase basic protein 2 OS=Influenza C virus (strain C/Ann Arbor/1/1950) OX=11553 GN=PB2 PE=3 SV=1
+sp|P13877|PB2_INCJJ     12.9     0.081   2   2.2   0.0    Polymerase basic protein 2 OS=Influenza C virus (strain C/JJ/1950) OX=11560 GN=PB2 PE=3 SV=1
+sp|P21770|PB2_INCBE     12.8     0.083   2   2.2   0.0    Polymerase basic protein 2 OS=Influenza C virus (strain C/Berlin/1/1985) OX=11554 GN=PB2 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9IMP3|PB2_INCJH     10.4      0.45     1   0.0    207    296    227    289     92    154     Polymerase basic protein 2 OS=Influenza C virus (strain C/Johannesburg/1/1966) OX=100673 GN=PB2 PE=1 SV=2
+sp|P13877|PB2_INCJJ      9.8      0.72     1   0.0    207    296    227    289     92    154     Polymerase basic protein 2 OS=Influenza C virus (strain C/JJ/1950) OX=11560 GN=PB2 PE=3 SV=1
+sp|P21770|PB2_INCBE      9.8      0.72     1   0.0    207    296    227    289     92    154     Polymerase basic protein 2 OS=Influenza C virus (strain C/Berlin/1/1985) OX=11554 GN=PB2 PE=2 SV=1
+sp|Q6I7C4|PB2_INCAA      9.8      0.72     1   0.0    207    296    227    289     92    154     Polymerase basic protein 2 OS=Influenza C virus (strain C/Ann Arbor/1/1950) OX=11553 GN=PB2 PE=3 SV=1
+sp|P13877|PB2_INCJJ     -0.1   7.8e+02     2   0.0    485    540    488    533     43     88     Polymerase basic protein 2 OS=Influenza C virus (strain C/JJ/1950) OX=11560 GN=PB2 PE=3 SV=1
+sp|P21770|PB2_INCBE     -0.1   7.8e+02     2   0.0    485    540    488    533     43     88     Polymerase basic protein 2 OS=Influenza C virus (strain C/Berlin/1/1985) OX=11554 GN=PB2 PE=2 SV=1
+sp|Q6I7C4|PB2_INCAA     -0.1   7.8e+02     2   0.0    485    540    488    533     43     88     Polymerase basic protein 2 OS=Influenza C virus (strain C/Ann Arbor/1/1950) OX=11553 GN=PB2 PE=3 SV=1
+sp|Q9IMP3|PB2_INCJH     -0.1   7.8e+02     2   0.0    485    540    488    533     43     88     Polymerase basic protein 2 OS=Influenza C virus (strain C/Johannesburg/1/1966) OX=100673 GN=PB2 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008061137@NC_021347.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008061137@NC_021347.txt data/models_hmm/YP_008061137@NC_021347.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:20 2021
+# [ok]

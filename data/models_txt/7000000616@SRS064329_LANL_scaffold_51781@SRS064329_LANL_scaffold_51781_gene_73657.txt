@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52458|CEP1_HHV7J    13.9     0.033   2   2.1   0.5    Cytoplasmic envelopment protein 1 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U75 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52458|CEP1_HHV7J    11.7      0.16     2   0.2     27     76     42     72    106    132     Cytoplasmic envelopment protein 1 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U75 PE=3 SV=1
+sp|P52458|CEP1_HHV7J    -0.2   7.4e+02     1   0.0      9     41     20     37    125    142     Cytoplasmic envelopment protein 1 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U75 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000616@SRS064329_LANL_scaffold_51781@SRS064329_LANL_scaffold_51781_gene_73657.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000616@SRS064329_LANL_scaffold_51781@SRS064329_LANL_scaffold_51781_gene_73657.txt data/models_hmm/7000000616@SRS064329_LANL_scaffold_51781@SRS064329_LANL_scaffold_51781_gene_73657.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:34 2021
+# [ok]

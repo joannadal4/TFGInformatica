@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91MG0|MP_MSVRA      11.2      0.29   1   1.2   1.4    Movement protein OS=Maize streak virus genotype D (isolate Raw) OX=268343 GN=V2 PE=3 SV=1
+sp|O40984|MP_MSVSE      11.2      0.29   1   1.2   1.4    Movement protein OS=Maize streak virus genotype C (isolate Set) OX=268344 GN=V2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O40984|MP_MSVSE      10.7      0.43     1   1.4     19     52     20     48      2     30     Movement protein OS=Maize streak virus genotype C (isolate Set) OX=268344 GN=V2 PE=3 SV=1
+sp|Q91MG0|MP_MSVRA      10.7      0.43     1   1.4     19     52     20     48      2     30     Movement protein OS=Maize streak virus genotype D (isolate Raw) OX=268343 GN=V2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ADO98847@GU071101.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ADO98847@GU071101.txt data/models_hmm/ADO98847@GU071101.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:25 2021
+# [ok]

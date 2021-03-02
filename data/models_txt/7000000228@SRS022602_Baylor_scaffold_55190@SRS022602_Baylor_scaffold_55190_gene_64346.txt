@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UR57|YL805_MIMIV    12.5     0.026   1   1.1   0.1    Uncharacterized protein L805 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L805 PE=4 SV=1
+sp|Q82685|L_IHNVW        11.0     0.077   2   1.8   0.1    RNA-directed RNA polymerase L OS=Infectious hematopoietic necrosis virus (strain WRAC) OX=429314 GN=L PE=3 SV=1
+sp|Q82707|L_IHNVO        10.4      0.11   2   1.9   0.1    RNA-directed RNA polymerase L OS=Infectious hematopoietic necrosis virus (strain Oregon69) OX=429315 GN=L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UR57|YL805_MIMIV    12.1     0.034     1   0.1      4     85      9     60     32     82     Uncharacterized protein L805 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L805 PE=4 SV=1
+sp|Q82685|L_IHNVW         8.8      0.33     2   0.0   1629   1853   1635   1841    253    443     RNA-directed RNA polymerase L OS=Infectious hematopoietic necrosis virus (strain WRAC) OX=429314 GN=L PE=3 SV=1
+sp|Q82707|L_IHNVO         8.2      0.51     2   0.0   1629   1853   1635   1841    253    443     RNA-directed RNA polymerase L OS=Infectious hematopoietic necrosis virus (strain Oregon69) OX=429315 GN=L PE=3 SV=1
+sp|Q82685|L_IHNVW        -1.0   3.2e+02     1   0.0   1118   1252   1185   1225    466    504     RNA-directed RNA polymerase L OS=Infectious hematopoietic necrosis virus (strain WRAC) OX=429314 GN=L PE=3 SV=1
+sp|Q82707|L_IHNVO        -1.0   3.2e+02     1   0.0   1118   1252   1185   1225    466    504     RNA-directed RNA polymerase L OS=Infectious hematopoietic necrosis virus (strain Oregon69) OX=429315 GN=L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000228@SRS022602_Baylor_scaffold_55190@SRS022602_Baylor_scaffold_55190_gene_64346.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000228@SRS022602_Baylor_scaffold_55190@SRS022602_Baylor_scaffold_55190_gene_64346.txt data/models_hmm/7000000228@SRS022602_Baylor_scaffold_55190@SRS022602_Baylor_scaffold_55190_gene_64346.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:31 2021
+# [ok]

@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09507|RDRP_TYYVF     11.5     0.097   1   1.2   3.1    Protein P1-P2 OS=Turnip yellows virus (isolate FL-1) OX=12043 GN=ORF1/ORF2 PE=3 SV=2
+sp|P51897|VE4_HPV29      10.4      0.21   1   1.1   7.6    Protein E4 OS=Human papillomavirus type 29 OX=37112 GN=E4 PE=3 SV=2
+sp|Q8V7G4|ORF23_TTVV7     8.6      0.75   1   1.1  14.2    Probable protein VP2 OS=Torque teno virus (isolate Human/China/CT39F/2001) OX=486279 GN=ORF2/3 PE=3 SV=1
+sp|P24728|VPHE_NPVAC      7.7       1.4   1   1.3  18.6    Polyhedral envelope-associated phosphoprotein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=pp34 PE=1 SV=1
+sp|Q06502|RPOA_LDVC       7.5       1.6   1   1.2   4.8    Replicase polyprotein 1ab OS=Lactate dehydrogenase elevating virus (strain C) OX=300015 GN=rep PE=3 SV=2
+sp|Q5UR52|YR584_MIMIV     7.4       1.8   1   1.3  16.7    Uncharacterized N-acetyltransferase R584 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R584 PE=1 SV=1
+sp|Q8QVM1|ORF3_TTVI1      5.7       5.6   1   1.1  11.5    Uncharacterized ORF3 protein OS=Torque teno sus virus 1 (isolate Sd-TTV31) OX=766190 GN=ORF1 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09507|RDRP_TYYVF     10.9      0.15     1   3.1    415    539    445    533    255    344     Protein P1-P2 OS=Turnip yellows virus (isolate FL-1) OX=12043 GN=ORF1/ORF2 PE=3 SV=2
+sp|P51897|VE4_HPV29      10.2      0.24     1   7.6     20     97     24     81    284    344     Protein E4 OS=Human papillomavirus type 29 OX=37112 GN=E4 PE=3 SV=2
+sp|Q8V7G4|ORF23_TTVV7     8.3      0.95     1  14.2    106    272    125    269    196    329     Probable protein VP2 OS=Torque teno virus (isolate Human/China/CT39F/2001) OX=486279 GN=ORF2/3 PE=3 SV=1
+sp|P24728|VPHE_NPVAC      7.1       2.2     1  18.6     82    165     99    147    272    317     Polyhedral envelope-associated phosphoprotein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=pp34 PE=1 SV=1
+sp|Q06502|RPOA_LDVC       6.7       2.8     1   4.8    647    758    665    745    261    348     Replicase polyprotein 1ab OS=Lactate dehydrogenase elevating virus (strain C) OX=300015 GN=rep PE=3 SV=2
+sp|Q5UR52|YR584_MIMIV     6.6         3     1  16.7     94    207    114    196    248    330     Uncharacterized N-acetyltransferase R584 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R584 PE=1 SV=1
+sp|Q8QVM1|ORF3_TTVI1      5.4       7.2     1  11.5    130    223    148    220    276    346     Uncharacterized ORF3 protein OS=Torque teno sus virus 1 (isolate Sd-TTV31) OX=766190 GN=ORF1 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001256973@NC_009503.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001256973@NC_009503.txt data/models_hmm/YP_001256973@NC_009503.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:05 2021
+# [ok]

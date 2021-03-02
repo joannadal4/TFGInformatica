@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21416|GAG_GALV      12.0      0.16   1   1.6  11.3    Gag polyprotein OS=Gibbon ape leukemia virus OX=11840 GN=gag PE=3 SV=3
+sp|P21414|POL_GALV       9.9       0.7   1   1.5  11.3    Gag-Pol polyprotein OS=Gibbon ape leukemia virus OX=11840 GN=pol PE=3 SV=2
+sp|P03330|GAG_WMSV       9.4         1   1   1.5  18.7    Gag polyprotein OS=Woolly monkey sarcoma virus OX=11970 GN=gag PE=3 SV=4
+sp|P03359|POL_WMSV       7.3       4.7   1   1.5  18.7    Gag-Pol polyprotein OS=Woolly monkey sarcoma virus OX=11970 GN=pol PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21416|GAG_GALV      10.8      0.38     1  11.3    405    481    418    461     19     62     Gag polyprotein OS=Gibbon ape leukemia virus OX=11840 GN=gag PE=3 SV=3
+sp|P21414|POL_GALV       8.8       1.6     1  11.3    405    481    418    461     19     62     Gag-Pol polyprotein OS=Gibbon ape leukemia virus OX=11840 GN=pol PE=3 SV=2
+sp|P03330|GAG_WMSV       8.2       2.4     1  18.7    405    484    410    479     11     76     Gag polyprotein OS=Woolly monkey sarcoma virus OX=11970 GN=gag PE=3 SV=4
+sp|P03359|POL_WMSV       6.2        11     1  18.7    406    484    410    479     11     76     Gag-Pol polyprotein OS=Woolly monkey sarcoma virus OX=11970 GN=pol PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001031344@NC_008996.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001031344@NC_008996.txt data/models_hmm/YP_001031344@NC_008996.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:53 2021
+# [ok]

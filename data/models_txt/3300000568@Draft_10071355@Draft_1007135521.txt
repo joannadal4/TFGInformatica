@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O21882|TMP_BPLSK     13.4     0.022   4   5.7  77.9    Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|D3WAD2|TMP_BPLP2     12.8     0.035   3   5.7  79.3    Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|Q9WRL5|GB_TUHV2      10.1      0.22   1   1.2   0.3    Envelope glycoprotein B OS=Tupaiid herpesvirus (strain 2) OX=132678 GN=gB PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O21882|TMP_BPLSK     14.9    0.0078     2  25.9    452    677    463    673    239    427     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|D3WAD2|TMP_BPLP2     14.4     0.011     2  27.1    453    700    464    674    240    428     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|Q9WRL5|GB_TUHV2       9.4      0.36     1   0.3    748    841    764    822    304    352     Envelope glycoprotein B OS=Tupaiid herpesvirus (strain 2) OX=132678 GN=gB PE=3 SV=1
+sp|O21882|TMP_BPLSK      6.6       2.5     4  19.0    712    896    720    886    259    425     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|D3WAD2|TMP_BPLP2      4.9       8.6     3  21.8    704    933    720    886    259    425     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|O21882|TMP_BPLSK      1.6        84     3  15.0    614    773    618    772    280    424     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|O21882|TMP_BPLSK      1.5        90     1  13.6    121    446    198    434     98    307     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|D3WAD2|TMP_BPLP2      1.2   1.1e+02     1  14.1    119    442    135    432     22    305     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000568@Draft_10071355@Draft_1007135521.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000568@Draft_10071355@Draft_1007135521.txt data/models_hmm/3300000568@Draft_10071355@Draft_1007135521.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:10 2021
+# [ok]

@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03713|CAPSD_LAMBD   446.9  3.6e-134   1   1.0   0.2    Major capsid protein OS=Escherichia phage lambda OX=10710 GN=E PE=1 SV=1
+sp|O64322|CAPSD_BPN15   437.2  3.3e-131   1   1.0   0.0    Major capsid protein OS=Escherichia phage N15 OX=40631 GN=gene 8 PE=3 SV=1
+sp|P05481|CAPSD_BPPH8   422.8  7.7e-127   1   1.0   0.1    Major capsid protein OS=Enterobacteria phage phi80 OX=10713 GN=E PE=3 SV=1
+sp|P68650|CAPSD_BPP21   413.5  5.4e-124   1   1.0   0.0    Major capsid protein OS=Enterobacteria phage P21 OX=10711 GN=E PE=3 SV=1
+sp|A7XXC2|CAPSD_BP234    13.4     0.024   1   1.8   0.4    Major capsid protein OS=Thermus virus P23-45 OX=466051 GN=P23p89 PE=1 SV=1
+sp|Q6QIB5|CAPSD_BPBMU    11.8     0.077   1   1.3   0.0    Major capsid protein OS=Burkholderia phage BcepMu (isolate -/United States/Summer/2002) OX=1283335 GN=BcepMu34 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03713|CAPSD_LAMBD   446.8  4.1e-134     1   0.2      1    341      1    340      2    345     Major capsid protein OS=Escherichia phage lambda OX=10710 GN=E PE=1 SV=1
+sp|O64322|CAPSD_BPN15   437.1  3.6e-131     1   0.0      1    341      1    341      2    346     Major capsid protein OS=Escherichia phage N15 OX=40631 GN=gene 8 PE=3 SV=1
+sp|P05481|CAPSD_BPPH8   422.7  8.6e-127     1   0.1      1    341      1    341      2    346     Major capsid protein OS=Enterobacteria phage phi80 OX=10713 GN=E PE=3 SV=1
+sp|P68650|CAPSD_BPP21   413.3  6.1e-124     1   0.0      1    342      1    342      2    346     Major capsid protein OS=Enterobacteria phage P21 OX=10711 GN=E PE=3 SV=1
+sp|A7XXC2|CAPSD_BP234    11.7     0.079     1   0.4     27    329     51    319     26    286     Major capsid protein OS=Thermus virus P23-45 OX=466051 GN=P23p89 PE=1 SV=1
+sp|Q6QIB5|CAPSD_BPBMU    11.4       0.1     1   0.0     89    228    138    200    164    226     Major capsid protein OS=Burkholderia phage BcepMu (isolate -/United States/Summer/2002) OX=1283335 GN=BcepMu34 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2088090015@GPICI_8739680@GPICI_00008930.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2088090015@GPICI_8739680@GPICI_00008930.txt data/models_hmm/2088090015@GPICI_8739680@GPICI_00008930.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:57 2021
+# [ok]

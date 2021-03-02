@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P34011|ATI_VAR67      7.2       5.3   3   2.6   6.2    A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P34011|ATI_VAR67     10.2       0.6     3   0.4    570    629    574    621     44     91     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|P34011|ATI_VAR67     -2.9   7.5e+03     1   0.1    434    493    447    464     58     75     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|P34011|ATI_VAR67     -3.3   9.7e+03     2   0.5    460    524    497    511     70     84     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007517877@NC_020484.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007517877@NC_020484.txt data/models_hmm/YP_007517877@NC_020484.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:01 2021
+# [ok]

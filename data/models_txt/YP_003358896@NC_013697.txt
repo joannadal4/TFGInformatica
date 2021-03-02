@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04538|GP68_BPT4     20.8   0.00014   1   1.2   2.7    Prohead assembly protein gp68 OS=Enterobacteria phage T4 OX=10665 GN=gp68 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04538|GP68_BPT4     20.8   0.00014     1   2.7     31    141     93    141    186    235     Prohead assembly protein gp68 OS=Enterobacteria phage T4 OX=10665 GN=gp68 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003358896@NC_013697.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003358896@NC_013697.txt data/models_hmm/YP_003358896@NC_013697.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:31 2021
+# [ok]

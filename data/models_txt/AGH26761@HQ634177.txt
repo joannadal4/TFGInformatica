@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C6F4|R1A_BRV1      18.1    0.0024   2   2.5   0.1    Replicase polyprotein 1a OS=Breda virus 1 OX=360393 GN=1a PE=3 SV=1
+sp|P0C6V8|R1AB_BRV1     15.2     0.019   3   2.9   3.0    Replicase polyprotein 1ab OS=Breda virus 1 OX=360393 GN=rep PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C6F4|R1A_BRV1      15.1     0.019     1   0.3   1826   1886   1843   1876     19     51     Replicase polyprotein 1a OS=Breda virus 1 OX=360393 GN=1a PE=3 SV=1
+sp|P0C6V8|R1AB_BRV1     14.5      0.03     1   0.3   1826   1886   1843   1876     19     51     Replicase polyprotein 1ab OS=Breda virus 1 OX=360393 GN=rep PE=2 SV=1
+sp|P0C6V8|R1AB_BRV1     -2.9   8.4e+03     3   0.3   5020   5039   5022   5036     25     39     Replicase polyprotein 1ab OS=Breda virus 1 OX=360393 GN=rep PE=2 SV=1
+sp|P0C6F4|R1A_BRV1      -3.3   1.1e+04     2   0.0   3729   3759   3742   3758     28     44     Replicase polyprotein 1a OS=Breda virus 1 OX=360393 GN=1a PE=3 SV=1
+sp|P0C6V8|R1AB_BRV1     -4.1   1.7e+04     2   0.0   3732   3759   3743   3758     29     44     Replicase polyprotein 1ab OS=Breda virus 1 OX=360393 GN=rep PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH26761@HQ634177.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH26761@HQ634177.txt data/models_hmm/AGH26761@HQ634177.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:40 2021
+# [ok]

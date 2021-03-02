@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20323|PORTL_BPT3    699.2  2.6e-210   1   1.0   0.2    Portal protein OS=Enterobacteria phage T3 OX=10759 GN=8 PE=3 SV=1
+sp|P03728|PORTL_BPT7    699.1  2.7e-210   1   1.0   1.2    Portal protein OS=Escherichia phage T7 OX=10760 GN=8 PE=1 SV=1
+sp|Q7Y5P0|PORTL_BPSP6   583.8  2.3e-175   1   1.0   0.2    Portal protein OS=Enterobacteria phage SP6 OX=194966 GN=30 PE=3 SV=1
+sp|Q7Y2D5|PORTL_BPKMV   569.5  5.2e-171   1   1.0   3.5    Portal protein OS=Pseudomonas phage phiKMV OX=204270 GN=gp30 PE=3 SV=1
+sp|Q775C3|PORTL_BPBPP    63.9     9e-18   1   2.0   0.2    Probable portal protein OS=Bordetella phage BPP-1 OX=194699 GN=bbp21 PE=3 SV=1
+sp|Q858H1|PORTL_BPE15    30.7     1e-07   2   2.2   3.7    Portal protein OS=Salmonella phage epsilon15 OX=215158 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20323|PORTL_BPT3    698.8  3.3e-210     1   0.2     10    524     12    522      4    515     Portal protein OS=Enterobacteria phage T3 OX=10759 GN=8 PE=3 SV=1
+sp|P03728|PORTL_BPT7    698.8  3.4e-210     1   1.2      7    524     10    522      3    515     Portal protein OS=Escherichia phage T7 OX=10760 GN=8 PE=1 SV=1
+sp|Q7Y5P0|PORTL_BPSP6   583.7  2.6e-175     1   0.2      9    515     12    514      3    514     Portal protein OS=Enterobacteria phage SP6 OX=194966 GN=30 PE=3 SV=1
+sp|Q7Y2D5|PORTL_BPKMV   569.2  6.1e-171     1   3.5      1    509      1    506      2    511     Portal protein OS=Pseudomonas phage phiKMV OX=204270 GN=gp30 PE=3 SV=1
+sp|Q775C3|PORTL_BPBPP    61.6   4.4e-17     1   0.2      5    543     11    530      7    504     Probable portal protein OS=Bordetella phage BPP-1 OX=194699 GN=bbp21 PE=3 SV=1
+sp|Q858H1|PORTL_BPE15    23.0   2.1e-05     2   3.9    340    542    393    535    373    510     Portal protein OS=Salmonella phage epsilon15 OX=215158 PE=3 SV=1
+sp|Q858H1|PORTL_BPE15     5.4       4.7     1   0.0      4    239     13    191     10    189     Portal protein OS=Salmonella phage epsilon15 OX=215158 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003347930@NC_013651.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003347930@NC_013651.txt data/models_hmm/YP_003347930@NC_013651.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:26 2021
+# [ok]

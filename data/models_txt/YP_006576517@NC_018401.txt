@@ -1,0 +1,41 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P54089|CAPSD_CAV26   180.7   3.5e-53   2   3.0  21.3    Capsid protein OS=Chicken anemia virus (isolate USA 26p4) OX=73477 GN=VP1 PE=2 SV=1
+sp|Q9IZU5|CAPSD_CAVCA   180.6   3.8e-53   2   3.0  20.9    Capsid protein OS=Chicken anemia virus (isolate Australia/CAU269-7/2000) OX=486492 GN=VP1 PE=2 SV=1
+sp|Q99153|CAPSD_CAVC1   179.7     7e-53   2   3.0  21.6    Capsid protein OS=Chicken anemia virus (isolate Germany Cuxhaven-1) OX=73475 GN=VP1 PE=2 SV=1
+sp|P54090|CAPSD_CAV82   178.9   1.2e-52   2   3.0  20.1    Capsid protein OS=Chicken anemia virus (isolate Japan 82-2) OX=73476 GN=VP1 PE=2 SV=1
+sp|P54087|CAPSD_CAVAU   178.9   1.3e-52   2   3.0  21.0    Capsid protein OS=Chicken anemia virus (isolate Australia) OX=73474 GN=VP1 PE=2 SV=1
+sp|P54088|CAPSD_CAVCI   178.5   1.6e-52   2   3.0  21.3    Capsid protein OS=Chicken anemia virus (isolate USA CIA-1) OX=73478 GN=VP1 PE=2 SV=2
+sp|P41713|UDPE_NPVLD     12.0     0.069   1   1.2   0.0    Ecdysteroid UDP-glucosyltransferase OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 GN=EGT PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P54090|CAPSD_CAV82    97.7   6.3e-28     2   1.3    276    442    280    430    200    342     Capsid protein OS=Chicken anemia virus (isolate Japan 82-2) OX=73476 GN=VP1 PE=2 SV=1
+sp|P54088|CAPSD_CAVCI    96.3   1.6e-27     2   1.7    277    442    283    430    203    342     Capsid protein OS=Chicken anemia virus (isolate USA CIA-1) OX=73478 GN=VP1 PE=2 SV=2
+sp|Q99153|CAPSD_CAVC1    96.3   1.6e-27     2   1.7    277    442    283    430    203    342     Capsid protein OS=Chicken anemia virus (isolate Germany Cuxhaven-1) OX=73475 GN=VP1 PE=2 SV=1
+sp|P54089|CAPSD_CAV26    96.1   1.8e-27     2   1.8    277    442    283    430    203    342     Capsid protein OS=Chicken anemia virus (isolate USA 26p4) OX=73477 GN=VP1 PE=2 SV=1
+sp|Q9IZU5|CAPSD_CAVCA    96.1   1.9e-27     2   1.4    275    442    283    430    203    342     Capsid protein OS=Chicken anemia virus (isolate Australia/CAU269-7/2000) OX=486492 GN=VP1 PE=2 SV=1
+sp|P54087|CAPSD_CAVAU    94.4   6.2e-27     2   1.4    277    442    283    430    203    342     Capsid protein OS=Chicken anemia virus (isolate Australia) OX=73474 GN=VP1 PE=2 SV=1
+sp|P54089|CAPSD_CAV26    85.1   4.3e-24     1  12.0      1    244      4    234      5    215     Capsid protein OS=Chicken anemia virus (isolate USA 26p4) OX=73477 GN=VP1 PE=2 SV=1
+sp|P54087|CAPSD_CAVAU    84.9   4.7e-24     1  12.3      1    245      4    234      5    215     Capsid protein OS=Chicken anemia virus (isolate Australia) OX=73474 GN=VP1 PE=2 SV=1
+sp|Q9IZU5|CAPSD_CAVCA    84.9   4.7e-24     1  12.3      1    245      4    234      5    215     Capsid protein OS=Chicken anemia virus (isolate Australia/CAU269-7/2000) OX=486492 GN=VP1 PE=2 SV=1
+sp|Q99153|CAPSD_CAVC1    84.0   9.1e-24     1  12.4      1    245      4    234      5    215     Capsid protein OS=Chicken anemia virus (isolate Germany Cuxhaven-1) OX=73475 GN=VP1 PE=2 SV=1
+sp|P54088|CAPSD_CAVCI    83.0   1.8e-23     1  12.1      1    245      4    234      5    215     Capsid protein OS=Chicken anemia virus (isolate USA CIA-1) OX=73478 GN=VP1 PE=2 SV=2
+sp|P54090|CAPSD_CAV82    82.2   3.2e-23     1  11.6      1    246      4    234      5    215     Capsid protein OS=Chicken anemia virus (isolate Japan 82-2) OX=73476 GN=VP1 PE=2 SV=1
+sp|P41713|UDPE_NPVLD     11.3      0.11     1   0.0    289    384    294    375    122    202     Ecdysteroid UDP-glucosyltransferase OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 GN=EGT PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006576517@NC_018401.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006576517@NC_018401.txt data/models_hmm/YP_006576517@NC_018401.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:21 2021
+# [ok]

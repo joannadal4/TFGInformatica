@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91DH7|SHDAG_HDVV1     9.3       1.5   2   2.2  12.2    Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8624) OX=261993 PE=3 SV=3
+sp|P0C6M8|LHDAG_HDVV1     8.7       2.3   2   2.2  12.3    Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8624) OX=261993 PE=3 SV=1
+sp|Q91DH9|SHDAG_HDVV3     8.4       2.7   2   2.2  12.1    Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8375) OX=261995 PE=3 SV=3
+sp|P0C6M6|LHDAG_HDVV2     8.2       3.1   2   2.2  11.2    Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8349) OX=261994 PE=3 SV=1
+sp|Q91DH8|SHDAG_HDVV2     8.2       3.3   2   2.2  11.8    Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8349) OX=261994 PE=3 SV=3
+sp|P0C6M7|LHDAG_HDVV3     7.9         4   2   2.2  12.2    Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8375) OX=261995 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91DH9|SHDAG_HDVV3     8.6       2.5     1   2.3     11     81     24     71     24     70     Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8375) OX=261995 PE=3 SV=3
+sp|P0C6M7|LHDAG_HDVV3     8.3       2.9     1   2.3     11     81     24     71     24     70     Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8375) OX=261995 PE=3 SV=1
+sp|Q91DH7|SHDAG_HDVV1     7.7       4.5     1   1.9     16     78     24     71     24     70     Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8624) OX=261993 PE=3 SV=3
+sp|P0C6M8|LHDAG_HDVV1     7.5       5.5     1   1.9     16     78     24     71     24     70     Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8624) OX=261993 PE=3 SV=1
+sp|P0C6M6|LHDAG_HDVV2     7.4       5.5     1   2.3      6     75     23     68     23     68     Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8349) OX=261994 PE=3 SV=1
+sp|Q91DH8|SHDAG_HDVV2     7.3       6.1     1   2.7      6     73     23     68     23     68     Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8349) OX=261994 PE=3 SV=3
+sp|P0C6M8|LHDAG_HDVV1     6.5        11     2   3.0     77    147     85    120     15     48     Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8624) OX=261993 PE=3 SV=1
+sp|Q91DH8|SHDAG_HDVV2     6.2        14     2   2.1     69    147     82    120     14     48     Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8349) OX=261994 PE=3 SV=3
+sp|Q91DH7|SHDAG_HDVV1     5.9        16     2   4.1     71    147     85    120     15     48     Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8624) OX=261993 PE=3 SV=3
+sp|P0C6M6|LHDAG_HDVV2     5.5        22     2   2.3     70    146     83    120     14     48     Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8349) OX=261994 PE=3 SV=1
+sp|Q91DH9|SHDAG_HDVV3     5.5        23     2   2.4     74    147     85    120     15     48     Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8375) OX=261995 PE=3 SV=3
+sp|P0C6M7|LHDAG_HDVV3     5.2        27     2   2.3     75    147     85    120     15     48     Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8375) OX=261995 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008052528@NC_021312.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008052528@NC_021312.txt data/models_hmm/YP_008052528@NC_021312.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:11 2021
+# [ok]

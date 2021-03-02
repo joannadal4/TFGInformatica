@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A8C8W9|NS1_I67A2     11.8     0.082   1   1.1   0.0    Non-structural protein 1 (Fragment) OS=Influenza A virus (strain A/Swine/Wisconsin/1/1967 H1N1) OX=382855 GN=NS PE=3 SV=1
+sp|O92564|NS1_I61A1     11.3      0.12   1   1.2   0.0    Non-structural protein 1 OS=Influenza A virus (strain A/Swine/Wisconsin/1/1961 H1N1) OX=383533 GN=NS PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A8C8W9|NS1_I67A2     11.3      0.11     1   0.0     39    158     45    136     51    148     Non-structural protein 1 (Fragment) OS=Influenza A virus (strain A/Swine/Wisconsin/1/1967 H1N1) OX=382855 GN=NS PE=3 SV=1
+sp|O92564|NS1_I61A1     10.8      0.16     1   0.0     39    158     45    136     51    148     Non-structural protein 1 OS=Influenza A virus (strain A/Swine/Wisconsin/1/1961 H1N1) OX=383533 GN=NS PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000063@SRS015057_WUGC_scaffold_47951@SRS015057_WUGC_scaffold_47951_gene_58801.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000063@SRS015057_WUGC_scaffold_47951@SRS015057_WUGC_scaffold_47951_gene_58801.txt data/models_hmm/7000000063@SRS015057_WUGC_scaffold_47951@SRS015057_WUGC_scaffold_47951_gene_58801.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:15 2021
+# [ok]

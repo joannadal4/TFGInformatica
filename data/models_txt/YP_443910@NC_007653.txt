@@ -1,0 +1,46 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P81780|GG_HHV2B      280.8   2.6e-83   1   3.0 141.2    Envelope glycoprotein G OS=Human herpesvirus 2 (strain B4327UR) OX=103921 GN=gG PE=1 SV=2
+sp|P13290|GG_HHV2H      277.3   3.1e-82   1   3.4 146.5    Envelope glycoprotein G OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=gG PE=3 SV=1
+sp|P06484|GG_HHV11       58.9   3.8e-16   1   1.2  18.5    Envelope glycoprotein G OS=Human herpesvirus 1 (strain 17) OX=10299 GN=gG PE=3 SV=1
+sp|P28967|GG_EHV1B       55.5   4.2e-15   1   1.6   0.1    Envelope glycoprotein G OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=gG PE=1 SV=1
+sp|P84393|GG_EHV1V       55.5   4.2e-15   1   1.6   0.1    Envelope glycoprotein G OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=gG PE=3 SV=1
+sp|P32514|GG_EHV1K       55.2   5.2e-15   1   1.6   0.1    Envelope glycoprotein G OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=gG PE=3 SV=2
+sp|P07562|GG_SUHVR       46.9   1.6e-12   2   2.3   8.5    Envelope glycoprotein G OS=Suid herpesvirus 1 (strain Rice) OX=10350 GN=gG PE=3 SV=1
+sp|P32650|GG_EHV4        46.8   1.8e-12   1   1.3   0.0    Envelope glycoprotein G OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=gG PE=3 SV=1
+sp|Q08103|VGLX_BHV1S     18.6   0.00059   2   1.7  13.8    Glycoprotein GX OS=Bovine herpesvirus 1.2 (strain ST) OX=45407 PE=3 SV=1
+sp|P24940|SF33K_ADE05    13.7     0.018   1   1.1  15.4    Protein 33K OS=Human adenovirus C serotype 5 OX=28285 GN=L4 PE=1 SV=1
+sp|P16833|UL116_HCMVA     7.9         1   1   1.1  22.6    Uncharacterized protein UL116 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL116 PE=3 SV=2
+sp|Q6SW34|UL116_HCMVM     6.5       2.8   1   1.1  21.1    Uncharacterized protein UL116 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL116 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P81780|GG_HHV2B      276.5   5.3e-82     1 141.2      1    696      1    693      1    644     Envelope glycoprotein G OS=Human herpesvirus 2 (strain B4327UR) OX=103921 GN=gG PE=1 SV=2
+sp|P13290|GG_HHV2H      269.9   5.2e-80     1 146.5      1    698      1    695      1    644     Envelope glycoprotein G OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=gG PE=3 SV=1
+sp|P06484|GG_HHV11       58.6   4.9e-16     1  18.5     20    238     32    235    444    645     Envelope glycoprotein G OS=Human herpesvirus 1 (strain 17) OX=10299 GN=gG PE=3 SV=1
+sp|P28967|GG_EHV1B       54.3   9.7e-15     1   0.1     16    356     57    289     77    295     Envelope glycoprotein G OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=gG PE=1 SV=1
+sp|P84393|GG_EHV1V       54.3   9.7e-15     1   0.1     16    356     57    289     77    295     Envelope glycoprotein G OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=gG PE=3 SV=1
+sp|P32514|GG_EHV1K       53.9   1.3e-14     1   0.1     16    356     57    175     77    197     Envelope glycoprotein G OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=gG PE=3 SV=2
+sp|P07562|GG_SUHVR       46.9   1.6e-12     1   8.5     15    232     18    186     36    206     Envelope glycoprotein G OS=Suid herpesvirus 1 (strain Rice) OX=10350 GN=gG PE=3 SV=1
+sp|P32650|GG_EHV4        46.4   2.3e-12     1   0.0     15    305     58    172     78    194     Envelope glycoprotein G OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=gG PE=3 SV=1
+sp|Q08103|VGLX_BHV1S     18.6   0.00059     1  13.8      9    259     20    189     34    198     Glycoprotein GX OS=Bovine herpesvirus 1.2 (strain ST) OX=45407 PE=3 SV=1
+sp|P24940|SF33K_ADE05    13.4     0.023     1  15.4      4    168     41    157    326    428     Protein 33K OS=Human adenovirus C serotype 5 OX=28285 GN=L4 PE=1 SV=1
+sp|P16833|UL116_HCMVA     7.4       1.4     1  22.6     19    205     27    199    347    509     Uncharacterized protein UL116 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL116 PE=3 SV=2
+sp|Q6SW34|UL116_HCMVM     6.0       3.9     1  21.1     14    202     23    198    333    510     Uncharacterized protein UL116 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL116 PE=3 SV=1
+sp|Q08103|VGLX_BHV1S     -4.3   5.3e+03     2   1.4    385    436    401    429    612    641     Glycoprotein GX OS=Bovine herpesvirus 1.2 (strain ST) OX=45407 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_443910@NC_007653.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_443910@NC_007653.txt data/models_hmm/YP_443910@NC_007653.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:35 2021
+# [ok]

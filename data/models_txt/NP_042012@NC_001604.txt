@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03790|Y193_BPT7     93.9   3.9e-27   1   1.1   9.3    Protein 19.3 OS=Escherichia phage T7 OX=10760 GN=19.3 PE=4 SV=1
+sp|P10304|V193_BPT3     81.2   3.6e-23   1   1.1   8.4    Gene 19.3 protein OS=Enterobacteria phage T3 OX=10759 GN=19.3 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03790|Y193_BPT7     93.6   4.7e-27     1   9.3      1     42      1     42      1     42     Protein 19.3 OS=Escherichia phage T7 OX=10760 GN=19.3 PE=4 SV=1
+sp|P10304|V193_BPT3     81.0   4.3e-23     1   8.4      1     42      1     42      1     42     Gene 19.3 protein OS=Enterobacteria phage T3 OX=10759 GN=19.3 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_042012@NC_001604.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_042012@NC_001604.txt data/models_hmm/NP_042012@NC_001604.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:16 2021
+# [ok]

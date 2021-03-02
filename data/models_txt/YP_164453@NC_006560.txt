@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q68980|CEP3_HHV1K   176.1   1.2e-52   1   1.0   1.2    Cytoplasmic envelopment protein 3 OS=Human herpesvirus 1 (strain KOS) OX=10306 GN=UL11 PE=1 SV=1
+sp|P04289|CEP3_HHV11   174.6   3.5e-52   1   1.0   1.1    Cytoplasmic envelopment protein 3 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL11 PE=1 SV=3
+sp|P13294|CEP3_HHV2H   173.6   7.6e-52   1   1.0   1.3    Cytoplasmic envelopment protein 3 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL11 PE=1 SV=3
+sp|Q77MS5|CEP3_GAHVM    28.4   1.5e-06   1   1.2   0.0    Cytoplasmic envelopment protein 3 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV023 PE=3 SV=1
+sp|P28982|CEP3_EHV1B    22.2   0.00013   1   1.4   0.9    Cytoplasmic envelopment protein 3 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=51 PE=3 SV=3
+sp|P84448|CEP3_EHV1V    22.2   0.00013   1   1.4   0.9    Cytoplasmic envelopment protein 3 OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=51 PE=3 SV=3
+sp|P09297|CEP3_VZVD     17.5    0.0037   1   1.3   0.9    Cytoplasmic envelopment protein 3 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF49 PE=3 SV=3
+sp|Q77NP3|CEP3_VZVO     17.5    0.0037   1   1.3   0.9    Cytoplasmic envelopment protein 3 OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF49 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q68980|CEP3_HHV1K   176.0   1.3e-52     1   1.2      1     96      1     96      1     96     Cytoplasmic envelopment protein 3 OS=Human herpesvirus 1 (strain KOS) OX=10306 GN=UL11 PE=1 SV=1
+sp|P04289|CEP3_HHV11   174.5   3.9e-52     1   1.1      1     96      1     96      1     96     Cytoplasmic envelopment protein 3 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL11 PE=1 SV=3
+sp|P13294|CEP3_HHV2H   173.4   8.4e-52     1   1.3      1     96      1     96      1     96     Cytoplasmic envelopment protein 3 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL11 PE=1 SV=3
+sp|Q77MS5|CEP3_GAHVM    28.3   1.6e-06     1   0.0      1     77     13     53     10     50     Cytoplasmic envelopment protein 3 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV023 PE=3 SV=1
+sp|P28982|CEP3_EHV1B    21.7   0.00018     1   0.9      1     73      3     36      6     39     Cytoplasmic envelopment protein 3 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=51 PE=3 SV=3
+sp|P84448|CEP3_EHV1V    21.7   0.00018     1   0.9      1     73      3     36      6     39     Cytoplasmic envelopment protein 3 OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=51 PE=3 SV=3
+sp|P09297|CEP3_VZVD     17.2    0.0045     1   0.9      1     80     12     46      8     42     Cytoplasmic envelopment protein 3 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF49 PE=3 SV=3
+sp|Q77NP3|CEP3_VZVO     17.2    0.0045     1   0.9      1     80     12     46      8     42     Cytoplasmic envelopment protein 3 OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF49 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_164453@NC_006560.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_164453@NC_006560.txt data/models_hmm/YP_164453@NC_006560.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:08 2021
+# [ok]

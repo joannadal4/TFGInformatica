@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21970|D9_FOWPN      12.8      0.11   2   2.1   0.0    Putative Nudix hydrolase FPV054 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV054 PE=2 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21970|D9_FOWPN      10.3      0.64     1   0.0     61    153     63    143      3     85     Putative Nudix hydrolase FPV054 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV054 PE=2 SV=2
+sp|P21970|D9_FOWPN      -0.4   1.4e+03     2   0.0    194    224    201    219     63     81     Putative Nudix hydrolase FPV054 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV054 PE=2 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004894034@NC_016071.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004894034@NC_016071.txt data/models_hmm/YP_004894034@NC_016071.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:37 2021
+# [ok]

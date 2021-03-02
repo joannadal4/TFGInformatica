@@ -1,0 +1,45 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39253|Y04N_BPT4     112.5   5.8e-33   1   1.1   1.4    Uncharacterized 12.2 kDa protein in nrdC-mobD intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y04N PE=4 SV=2
+sp|P50785|VE7_HPV70      16.9    0.0037   2   1.7   2.1    Protein E7 OS=Human papillomavirus type 70 OX=39457 GN=E7 PE=3 SV=1
+sp|P24837|VE7_HPV39      15.7    0.0091   2   2.0   1.9    Protein E7 OS=Human papillomavirus type 39 OX=10588 GN=E7 PE=3 SV=1
+sp|P54668|VE7_HPV68      10.6      0.36   2   2.2   6.2    Protein E7 OS=Human papillomavirus type 68 OX=45240 GN=E7 PE=3 SV=1
+sp|P27963|VE7_HPVME      10.1      0.51   3   2.5   9.5    Protein E7 OS=Human papillomavirus type ME180 OX=10602 GN=E7 PE=3 SV=1
+sp|Q25BJ1|Y04_HIS1I       8.5       1.6   2   2.1   4.9    Uncharacterized protein ORF4 OS=His1 virus (isolate Australia/Victoria) OX=654912 GN=ORF4 PE=4 SV=1
+sp|Q5UPH3|YR097_MIMIV     6.9       5.1   5   4.7  13.2    Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39253|Y04N_BPT4     112.2   6.7e-33     1   1.4      1    102      1    100      1     73     Uncharacterized 12.2 kDa protein in nrdC-mobD intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y04N PE=4 SV=2
+sp|P50785|VE7_HPV70      16.9    0.0037     1   2.1     27     86     32     72      6     46     Protein E7 OS=Human papillomavirus type 70 OX=39457 GN=E7 PE=3 SV=1
+sp|P24837|VE7_HPV39      15.7    0.0091     1   1.9     25     86     43     79     17     52     Protein E7 OS=Human papillomavirus type 39 OX=10588 GN=E7 PE=3 SV=1
+sp|P27963|VE7_HPVME      11.8      0.15     2   3.5     19     87     48     79     21     51     Protein E7 OS=Human papillomavirus type ME180 OX=10602 GN=E7 PE=3 SV=1
+sp|P54668|VE7_HPV68      10.3      0.45     1   2.4     29     86     50     79     23     51     Protein E7 OS=Human papillomavirus type 68 OX=45240 GN=E7 PE=3 SV=1
+sp|Q5UPH3|YR097_MIMIV     7.3       3.9     4   0.1    159    202    182    199     55     72     Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+sp|Q25BJ1|Y04_HIS1I       5.9        10     2   0.4     19     41     27     37     35     45     Uncharacterized protein ORF4 OS=His1 virus (isolate Australia/Victoria) OX=654912 GN=ORF4 PE=4 SV=1
+sp|Q25BJ1|Y04_HIS1I       5.1        18     1   1.0      1     24      3     17     56     70     Uncharacterized protein ORF4 OS=His1 virus (isolate Australia/Victoria) OX=654912 GN=ORF4 PE=4 SV=1
+sp|Q5UPH3|YR097_MIMIV     3.8        46     2   0.1     98    123    105    120     55     70     Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+sp|P54668|VE7_HPV68       1.7   2.1e+02     2   0.0     94    110     99    108     37     46     Protein E7 OS=Human papillomavirus type 68 OX=45240 GN=E7 PE=3 SV=1
+sp|P27963|VE7_HPVME       1.6   2.2e+02     3   0.1     95    110     99    108     37     46     Protein E7 OS=Human papillomavirus type ME180 OX=10602 GN=E7 PE=3 SV=1
+sp|Q5UPH3|YR097_MIMIV     0.7   4.4e+02     1   0.0     35     59     42     55     58     71     Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+sp|Q5UPH3|YR097_MIMIV     0.3     6e+02     3   0.1    125    148    129    137     36     44     Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+sp|P24837|VE7_HPV39      -0.4   9.6e+02     2   0.0     94    109     99    107     38     46     Protein E7 OS=Human papillomavirus type 39 OX=10588 GN=E7 PE=3 SV=1
+sp|Q5UPH3|YR097_MIMIV    -1.4     2e+03     5   0.3    258    278    268    277     59     68     Uncharacterized protein R97 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R97 PE=4 SV=1
+sp|P50785|VE7_HPV70      -1.5   2.1e+03     2   0.1     94    108     99    106     38     45     Protein E7 OS=Human papillomavirus type 70 OX=39457 GN=E7 PE=3 SV=1
+sp|P27963|VE7_HPVME      -1.6   2.3e+03     1   0.1      9     35     16     28     40     52     Protein E7 OS=Human papillomavirus type ME180 OX=10602 GN=E7 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004301214@NC_015251.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004301214@NC_015251.txt data/models_hmm/YP_004301214@NC_015251.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:15 2021
+# [ok]

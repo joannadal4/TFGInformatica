@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36273|VG05_BPP21    10.1      0.71   2   2.7   3.4    Head-tail preconnector protein GP5 OS=Enterobacteria phage P21 OX=10711 GN=5 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36273|VG05_BPP21     7.1       6.1     1   0.1    330    365    338    356     16     34     Head-tail preconnector protein GP5 OS=Enterobacteria phage P21 OX=10711 GN=5 PE=3 SV=1
+sp|P36273|VG05_BPP21     2.4   1.8e+02     2   0.7    427    464    438    458     19     39     Head-tail preconnector protein GP5 OS=Enterobacteria phage P21 OX=10711 GN=5 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000101@DelMOSum2010_c10000157@DelMOSum2010_1000015769.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000101@DelMOSum2010_c10000157@DelMOSum2010_1000015769.txt data/models_hmm/3300000101@DelMOSum2010_c10000157@DelMOSum2010_1000015769.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:27 2021
+# [ok]

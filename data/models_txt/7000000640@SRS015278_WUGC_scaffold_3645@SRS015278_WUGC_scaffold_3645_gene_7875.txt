@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DOU3|G6_VAR67      11.7     0.086   1   1.3   0.0    Uncharacterized protein G6 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G6R PE=3 SV=1
+sp|P0DOU4|G6_VARV       11.7     0.086   1   1.3   0.0    Uncharacterized protein G6 OS=Variola virus OX=10255 GN=G6R PE=3 SV=1
+sp|P21027|G6_VACCC      11.7     0.088   1   1.2   0.0    Uncharacterized protein G6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G6R PE=3 SV=1
+sp|Q80HW9|G6_VACCW      11.7     0.088   1   1.2   0.0    Uncharacterized protein G6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR084 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DOU3|G6_VAR67      11.2      0.12     1   0.0      7     68     15     47     41     76     Uncharacterized protein G6 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G6R PE=3 SV=1
+sp|P0DOU4|G6_VARV       11.2      0.12     1   0.0      7     68     15     47     41     76     Uncharacterized protein G6 OS=Variola virus OX=10255 GN=G6R PE=3 SV=1
+sp|P21027|G6_VACCC      11.2      0.13     1   0.0      7     66     15     47     41     76     Uncharacterized protein G6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G6R PE=3 SV=1
+sp|Q80HW9|G6_VACCW      11.2      0.13     1   0.0      7     66     15     47     41     76     Uncharacterized protein G6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR084 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000640@SRS015278_WUGC_scaffold_3645@SRS015278_WUGC_scaffold_3645_gene_7875.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000640@SRS015278_WUGC_scaffold_3645@SRS015278_WUGC_scaffold_3645_gene_7875.txt data/models_hmm/7000000640@SRS015278_WUGC_scaffold_3645@SRS015278_WUGC_scaffold_3645_gene_7875.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:42 2021
+# [ok]

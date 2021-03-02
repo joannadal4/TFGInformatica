@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O10364|CATV_NPVOP    12.9     0.079   2   2.5   1.5    Viral cathepsin OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=VCATH PE=3 SV=1
+sp|O48428|NINH_BPH19    12.2      0.13   1   1.1   0.0    Protein ninH OS=Enterobacteria phage H19B OX=69932 GN=ninH PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O48428|NINH_BPH19    12.2      0.13     1   0.0      2     59     10     47     34     70     Protein ninH OS=Enterobacteria phage H19B OX=69932 GN=ninH PE=3 SV=2
+sp|O10364|CATV_NPVOP     5.9        12     1   0.7     22     90     47     77     24     54     Viral cathepsin OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=VCATH PE=3 SV=1
+sp|O10364|CATV_NPVOP     5.1        21     2   0.0    217    283    248    278     45     76     Viral cathepsin OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=VCATH PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH32249@HQ634157.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH32249@HQ634157.txt data/models_hmm/AGH32249@HQ634157.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:47 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P25909|NCAP_FIPV     12.2      0.11   2   2.0   1.9    Nucleoprotein OS=Feline coronavirus (strain FIPV WSU-79/1146) OX=33734 GN=N PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P25909|NCAP_FIPV     11.8      0.15     1   0.4    129    225    168    218     11     61     Nucleoprotein OS=Feline coronavirus (strain FIPV WSU-79/1146) OX=33734 GN=N PE=3 SV=1
+sp|P25909|NCAP_FIPV     -2.6   4.2e+03     2   0.1    317    363    338    347     51     60     Nucleoprotein OS=Feline coronavirus (strain FIPV WSU-79/1146) OX=33734 GN=N PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001348@JGI20154J14316_10000119@JGI20154J14316_1000011925.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001348@JGI20154J14316_10000119@JGI20154J14316_1000011925.txt data/models_hmm/3300001348@JGI20154J14316_10000119@JGI20154J14316_1000011925.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:55 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P51739|YO35_BPHC1    14.6     0.014   1   1.3   0.0    Uncharacterized 58.7 kDa protein in lys 3'region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P51739|YO35_BPHC1    13.9     0.024     1   0.0     81    184     89    152     15     79     Uncharacterized 58.7 kDa protein in lys 3'region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001096159@NC_009127.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001096159@NC_009127.txt data/models_hmm/YP_001096159@NC_009127.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:01 2021
+# [ok]

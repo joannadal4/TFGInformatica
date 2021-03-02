@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q85672|S3BIS_DPIRV    19.4   0.00075   3   3.9   4.3    Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+sp|A4PBP7|NSP4_RGDV      15.0     0.018   1   1.7   0.0    Non-structural protein 4 OS=Rice gall dwarf virus OX=10986 PE=4 SV=1
+sp|P03040|RCRO_LAMBD     14.4     0.027   1   1.2   0.0    Regulatory protein cro OS=Escherichia phage lambda OX=10710 GN=cro PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03040|RCRO_LAMBD     14.1     0.034     1   0.0     12     63     17     57      4     45     Regulatory protein cro OS=Escherichia phage lambda OX=10710 GN=cro PE=1 SV=1
+sp|A4PBP7|NSP4_RGDV      13.6     0.048     1   0.0    497    560    504    557     18     70     Non-structural protein 4 OS=Rice gall dwarf virus OX=10986 PE=4 SV=1
+sp|Q85672|S3BIS_DPIRV     6.1        10     2   0.1    477    518    482    504     24     46     Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+sp|Q85672|S3BIS_DPIRV     6.1        11     1   0.1    127    167    132    154     24     46     Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+sp|Q85672|S3BIS_DPIRV     6.1        11     3   0.1    827    867    832    854     24     46     Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_195097@NC_006820.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_195097@NC_006820.txt data/models_hmm/YP_195097@NC_006820.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:11 2021
+# [ok]

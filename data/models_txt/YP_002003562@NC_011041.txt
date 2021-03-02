@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6KGI8|CAPSD_BPFO1   415.5  1.4e-124   1   1.0   0.3    Major capsid protein OS=Salmonella phage Felix O1 (isolate Felix O1-VT1) OX=1283336 GN=gene 58 PE=3 SV=1
+sp|D6RRG1|CAPSD_BPKPP   414.9  2.1e-124   1   1.0   0.1    Major capsid protein OS=Pseudomonas phage KPP10 OX=582345 GN=ORF4 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6KGI8|CAPSD_BPFO1   415.3  1.5e-124     1   0.3      1    366      1    365      1    339     Major capsid protein OS=Salmonella phage Felix O1 (isolate Felix O1-VT1) OX=1283336 GN=gene 58 PE=3 SV=1
+sp|D6RRG1|CAPSD_BPKPP   414.7  2.5e-124     1   0.1      5    351      8    350      7    337     Major capsid protein OS=Pseudomonas phage KPP10 OX=582345 GN=ORF4 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002003562@NC_011041.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002003562@NC_011041.txt data/models_hmm/YP_002003562@NC_011041.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:48 2021
+# [ok]

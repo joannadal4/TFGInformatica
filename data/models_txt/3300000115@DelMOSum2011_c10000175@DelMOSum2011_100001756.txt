@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ15|YL202_MIMIV    27.2   2.1e-06   1   1.5   1.5    Uncharacterized protein L202 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L202 PE=4 SV=1
+sp|P12827|E26_NPVAC      11.7      0.13   2   1.7   3.3    Protein E26 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=DA26 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ15|YL202_MIMIV    27.2   2.2e-06     1   0.4      4    118     26    109     67    153     Uncharacterized protein L202 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L202 PE=4 SV=1
+sp|P12827|E26_NPVAC      10.7      0.27     1   2.6     29    107     49    104     22     76     Protein E26 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=DA26 PE=1 SV=1
+sp|P12827|E26_NPVAC      -1.2   1.2e+03     2   0.0    155    225    186    220     33     67     Protein E26 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=DA26 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000115@DelMOSum2011_c10000175@DelMOSum2011_100001756.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000115@DelMOSum2011_c10000175@DelMOSum2011_100001756.txt data/models_hmm/3300000115@DelMOSum2011_c10000175@DelMOSum2011_100001756.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:36 2021
+# [ok]

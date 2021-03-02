@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O72737|HEMA_CWPXG    15.3     0.011   1   1.3   0.0    Protein A56 OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=HA PE=3 SV=1
+sp|P08714|HEMA_VACCI    15.0     0.014   1   1.2   0.0    Protein A56 OS=Vaccinia virus (strain IHD-J) OX=10251 GN=HA PE=3 SV=1
+sp|Q91DS2|PHOSP_SVCV     9.5      0.63   1   1.4  10.2    Phosphoprotein OS=Spring viremia of carp virus OX=696863 GN=P PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O72737|HEMA_CWPXG    14.6     0.018     1   0.0    175    281    205    278     77    145     Protein A56 OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=HA PE=3 SV=1
+sp|P08714|HEMA_VACCI    14.3     0.022     1   0.0    198    283    206    279     77    145     Protein A56 OS=Vaccinia virus (strain IHD-J) OX=10251 GN=HA PE=3 SV=1
+sp|Q91DS2|PHOSP_SVCV     8.6       1.2     1  10.2      2     98      6     95    150    236     Phosphoprotein OS=Spring viremia of carp virus OX=696863 GN=P PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH31311@HQ632827.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH31311@HQ632827.txt data/models_hmm/AGH31311@HQ632827.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:43 2021
+# [ok]

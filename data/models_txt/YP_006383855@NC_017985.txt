@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P38396|SIEB_BPP22   421.4  3.3e-127   1   1.0   1.5    Superinfection exclusion protein B OS=Salmonella phage P22 OX=10754 GN=sieB PE=4 SV=1
+sp|P03762|SIEB_LAMBD    18.0    0.0015   1   1.1   0.3    Superinfection exclusion protein B OS=Escherichia phage lambda OX=10710 GN=sieB PE=4 SV=2
+sp|Q91FS3|249R_IIV6     11.6      0.13   1   1.1   0.2    Uncharacterized protein 249R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-249R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P38396|SIEB_BPP22   421.2  3.7e-127     1   1.5      1    192      1    192      1    192     Superinfection exclusion protein B OS=Salmonella phage P22 OX=10754 GN=sieB PE=4 SV=1
+sp|P03762|SIEB_LAMBD    17.7    0.0018     1   0.3     13    168     21    146     19    147     Superinfection exclusion protein B OS=Escherichia phage lambda OX=10710 GN=sieB PE=4 SV=2
+sp|Q91FS3|249R_IIV6     11.6      0.13     1   0.2      1     38      2     25     20     42     Uncharacterized protein 249R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-249R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006383855@NC_017985.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006383855@NC_017985.txt data/models_hmm/YP_006383855@NC_017985.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:15 2021
+# [ok]

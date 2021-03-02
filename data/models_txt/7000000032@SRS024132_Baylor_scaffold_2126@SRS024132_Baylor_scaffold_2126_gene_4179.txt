@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9T0T0|Y16A_BPT4      14.1     0.037   1   1.1   0.3    Uncharacterized 5.9 kDa protein in asiA-arn intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16A PE=4 SV=1
+sp|Q5UR99|YL573_MIMIV     7.2       5.2   2   2.3   6.9    Uncharacterized protein L573 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L573 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9T0T0|Y16A_BPT4      14.1     0.038     1   0.3      3     50     16     49     27     60     Uncharacterized 5.9 kDa protein in asiA-arn intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16A PE=4 SV=1
+sp|Q5UR99|YL573_MIMIV     5.3        20     1   1.8     69    177     72    158     23    110     Uncharacterized protein L573 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L573 PE=4 SV=1
+sp|Q5UR99|YL573_MIMIV     4.8        29     2   0.5    159    240    175    235     27     83     Uncharacterized protein L573 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L573 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000032@SRS024132_Baylor_scaffold_2126@SRS024132_Baylor_scaffold_2126_gene_4179.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000032@SRS024132_Baylor_scaffold_2126@SRS024132_Baylor_scaffold_2126_gene_4179.txt data/models_hmm/7000000032@SRS024132_Baylor_scaffold_2126@SRS024132_Baylor_scaffold_2126_gene_4179.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:55 2021
+# [ok]

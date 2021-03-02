@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5I135|YM1_MDBVW    177.7   1.1e-52   1   1.0  11.7    Uncharacterized protein M1 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=M1 PE=4 SV=1
+sp|Q5I153|YD2_MDBVW    158.3   1.1e-46   1   1.0   6.6    Uncharacterized protein D2 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=D2 PE=4 SV=1
+sp|Q5I123|YL1_MDBVW     25.7   1.2e-05   1   1.1   0.2    Uncharacterized protein L1 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=L1 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5I135|YM1_MDBVW    177.6   1.2e-52     1  11.7      1    111      2    111     17    126     Uncharacterized protein M1 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=M1 PE=4 SV=1
+sp|Q5I153|YD2_MDBVW    158.1   1.2e-46     1   6.6      1    121      1    121      1    126     Uncharacterized protein D2 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=D2 PE=4 SV=1
+sp|Q5I123|YL1_MDBVW     25.4   1.4e-05     1   0.2     23    125     34    122     32    123     Uncharacterized protein L1 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=L1 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_239393@NC_007038.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_239393@NC_007038.txt data/models_hmm/YP_239393@NC_007038.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:21 2021
+# [ok]

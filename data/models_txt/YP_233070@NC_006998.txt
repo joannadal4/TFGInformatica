@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68442|B6_VACCW     322.5   6.4e-97   1   1.0  12.8    Protein B6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR188 PE=3 SV=1
+sp|P68443|B6_VACCC     322.5   6.4e-97   1   1.0  12.8    Protein B6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B6R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68442|B6_VACCW     322.3   7.1e-97     1  12.8      1    173      1    173      1    175     Protein B6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR188 PE=3 SV=1
+sp|P68443|B6_VACCC     322.3   7.1e-97     1  12.8      1    173      1    173      1    175     Protein B6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B6R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_233070@NC_006998.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_233070@NC_006998.txt data/models_hmm/YP_233070@NC_006998.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:19 2021
+# [ok]

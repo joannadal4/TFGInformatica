@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6QGM3|TFLI_BPT5     13.8     0.034   1   1.5   0.1    H-N-H endonuclease F-TflI OS=Escherichia phage T5 OX=10726 GN=hegC PE=2 SV=1
+sp|P10429|YIM5_BPPH1    13.5     0.041   1   1.4   0.1    Uncharacterized immunity region protein 5 OS=Bacillus phage phi105 OX=10717 PE=4 SV=1
+sp|P20199|A79_SSV1      12.7     0.072   2   2.2   3.4    Uncharacterized protein A-79 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=a79 PE=4 SV=1
+sp|Q3V4U8|Y383A_ATV      7.0       4.4   2   2.5   5.1    Putative transposase ORF383a OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6QGM3|TFLI_BPT5     12.8     0.067     1   0.1     93    131     98    123     31     56     H-N-H endonuclease F-TflI OS=Escherichia phage T5 OX=10726 GN=hegC PE=2 SV=1
+sp|P10429|YIM5_BPPH1    12.8     0.069     1   0.1     66    124     81    111     33     58     Uncharacterized immunity region protein 5 OS=Bacillus phage phi105 OX=10717 PE=4 SV=1
+sp|P20199|A79_SSV1       9.6      0.68     2   0.2     16     43     25     36     42     53     Uncharacterized protein A-79 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=a79 PE=4 SV=1
+sp|Q3V4U8|Y383A_ATV      4.9        20     1   0.3    306    340    324    334     43     53     Putative transposase ORF383a OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+sp|P20199|A79_SSV1       4.6        24     1   0.2      1     25      3     11     46     54     Uncharacterized protein A-79 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=a79 PE=4 SV=1
+sp|Q3V4U8|Y383A_ATV      3.7        46     2   0.6    337    353    341    350     43     52     Putative transposase ORF383a OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_2460581_len_243054_cov_1_720433@_HiSeq_26907160.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_2460581_len_243054_cov_1_720433@_HiSeq_26907160.txt data/models_hmm/2061766007@rumenHiSeq_NODE_2460581_len_243054_cov_1_720433@_HiSeq_26907160.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:31 2021
+# [ok]

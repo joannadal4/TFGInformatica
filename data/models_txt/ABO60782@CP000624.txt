@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27212|P6_TNVD       13.6     0.037   1   1.3   0.1    Uncharacterized protein p6 OS=Tobacco necrosis virus (strain D) OX=12056 GN=ORF3 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27212|P6_TNVD       13.1     0.055     1   0.1      5     44      8     41      6     42     Uncharacterized protein p6 OS=Tobacco necrosis virus (strain D) OX=12056 GN=ORF3 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ABO60782@CP000624.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ABO60782@CP000624.txt data/models_hmm/ABO60782@CP000624.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:17 2021
+# [ok]

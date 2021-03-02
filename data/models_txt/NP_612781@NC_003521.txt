@@ -1,0 +1,43 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HC33|US09_HCMVM   325.5   1.5e-97   1   1.0   4.5    Membrane glycoprotein US9 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US9 PE=3 SV=1
+sp|P09729|US09_HCMVA   325.5   1.5e-97   1   1.0   4.5    Unique short US9 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US9 PE=3 SV=1
+sp|F5HB52|US08_HCMVM   301.3   3.7e-90   1   1.0   4.5    Membrane glycoprotein US8 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US8 PE=3 SV=1
+sp|P09730|US08_HCMVA   296.1   1.5e-88   1   1.0   5.4    Unique short US8 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US8 PE=3 SV=2
+sp|P09727|US11_HCMVA    79.2   2.6e-22   1   1.0   1.1    Unique short US11 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US11 PE=1 SV=1
+sp|Q6SVZ5|US11_HCMVM    78.3   4.9e-22   1   1.0   0.8    Membrane glycoprotein US11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US11 PE=2 SV=1
+sp|Q8UZK5|US11_HCMVT    78.3   4.9e-22   1   1.0   0.8    Unique short US11 glycoprotein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=US11 PE=2 SV=1
+sp|P09731|US07_HCMVA    51.0   1.1e-13   1   1.2   0.3    Unique short US7 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US7 PE=3 SV=1
+sp|F5HDD3|US07_HCMVM    50.5   1.5e-13   1   1.2   0.4    Membrane glycoprotein US7 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US7 PE=3 SV=1
+sp|F5HFJ7|US10_HCMVM    11.7      0.11   1   1.4   0.0    Membrane glycoprotein US10 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US10 PE=3 SV=1
+sp|P09728|US10_HCMVA    11.7      0.11   1   1.4   0.0    Unique short US10 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US10 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HC33|US09_HCMVM   325.3   1.8e-97     1   4.5      1    246      3    228      3    235     Membrane glycoprotein US9 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US9 PE=3 SV=1
+sp|P09729|US09_HCMVA   325.3   1.8e-97     1   4.5      1    246      3    228      3    235     Unique short US9 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US9 PE=3 SV=1
+sp|F5HB52|US08_HCMVM   301.2     4e-90     1   4.5      1    227     12    227     12    235     Membrane glycoprotein US8 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US8 PE=3 SV=1
+sp|P09730|US08_HCMVA   295.9   1.6e-88     1   5.4      1    227     12    227     12    235     Unique short US8 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US8 PE=3 SV=2
+sp|P09727|US11_HCMVA    78.9   3.3e-22     1   1.1     31    207     41    194     64    214     Unique short US11 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US11 PE=1 SV=1
+sp|Q6SVZ5|US11_HCMVM    78.0   6.3e-22     1   0.8     31    207     41    194     64    214     Membrane glycoprotein US11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US11 PE=2 SV=1
+sp|Q8UZK5|US11_HCMVT    78.0   6.3e-22     1   0.8     31    207     41    194     64    214     Unique short US11 glycoprotein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=US11 PE=2 SV=1
+sp|P09731|US07_HCMVA    50.5   1.5e-13     1   0.3      7    213     53    195     69    218     Unique short US7 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US7 PE=3 SV=1
+sp|F5HDD3|US07_HCMVM    50.1   2.1e-13     1   0.4      7    213     53    195     69    218     Membrane glycoprotein US7 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US7 PE=3 SV=1
+sp|F5HFJ7|US10_HCMVM    10.6      0.23     1   0.0     24    104     38    102     78    144     Membrane glycoprotein US10 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US10 PE=3 SV=1
+sp|P09728|US10_HCMVA    10.6      0.23     1   0.0     24    104     38    102     78    144     Unique short US10 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US10 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_612781@NC_003521.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_612781@NC_003521.txt data/models_hmm/NP_612781@NC_003521.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:11 2021
+# [ok]

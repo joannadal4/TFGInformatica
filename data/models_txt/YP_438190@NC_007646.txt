@@ -1,0 +1,44 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P14347|BFRF2_EBVB9   975.2  6.5e-294   1   1.0   7.0    Uncharacterized protein BFRF2 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BFRF2 PE=3 SV=1
+sp|O36416|UL49_ALHV1    398.2  4.2e-119   2   2.4  14.7    Uncharacterized gene 66 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=66 PE=3 SV=1
+sp|Q66668|UL49_EHV2     180.3   4.3e-53   1   1.9  12.4    Uncharacterized gene 66 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=66 PE=3 SV=1
+sp|F5HG20|UL49_HHV8P    175.8   9.3e-52   1   1.6  15.1    Protein ORF66 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF66 PE=3 SV=1
+sp|Q01046|UL49_SHV21    172.7   8.5e-51   2   2.4  22.0    Uncharacterized gene 66 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=66 PE=3 SV=1
+sp|Q6SW82|UL49_HCMVM    112.8   1.1e-32   1   1.2  17.3    Protein UL49 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL49 PE=3 SV=1
+sp|P16786|UL49_HCMVA    108.9   1.8e-31   1   1.2  17.7    Uncharacterized protein UL49 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL49 PE=3 SV=1
+sp|P52442|UL49_HHV7J     95.2   2.4e-27   1   1.2  15.9    Protein U33 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U33 PE=3 SV=1
+sp|Q9QJ36|UL49_HHV6Z     80.5   7.2e-23   1   1.2  18.1    Protein U33 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U33 PE=4 SV=1
+sp|P52441|UL49_HHV6U     78.7   2.5e-22   2   1.4  18.7    Protein U33 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U33 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P14347|BFRF2_EBVB9   975.1  7.1e-294     1   7.0      1    591      1    577      1    551     Uncharacterized protein BFRF2 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BFRF2 PE=3 SV=1
+sp|O36416|UL49_ALHV1    383.6  1.1e-114     2  13.1     82    437     98    437    124    502     Uncharacterized gene 66 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=66 PE=3 SV=1
+sp|Q66668|UL49_EHV2     177.5   2.9e-52     1  12.4    161    455    172    452    185    501     Uncharacterized gene 66 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=66 PE=3 SV=1
+sp|F5HG20|UL49_HHV8P    174.4   2.6e-51     1  15.1    180    429    199    429    250    502     Protein ORF66 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF66 PE=3 SV=1
+sp|Q01046|UL49_SHV21    168.4   1.7e-49     2  22.8     96    431    154    428    185    501     Uncharacterized gene 66 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=66 PE=3 SV=1
+sp|Q6SW82|UL49_HCMVM    112.3   1.7e-32     1  17.3    240    565    251    560    253    548     Protein UL49 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL49 PE=3 SV=1
+sp|P16786|UL49_HCMVA    108.3   2.7e-31     1  17.7    240    565    251    562    253    550     Uncharacterized protein UL49 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL49 PE=3 SV=1
+sp|P52442|UL49_HHV7J     94.6   3.7e-27     1  15.9    185    476    203    463    259    536     Protein U33 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U33 PE=3 SV=1
+sp|Q9QJ36|UL49_HHV6Z     79.8   1.1e-22     1  18.1    159    469    198    445    254    505     Protein U33 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U33 PE=4 SV=1
+sp|P52441|UL49_HHV6U     78.7   2.5e-22     2  18.7    160    469    198    445    254    505     Protein U33 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U33 PE=3 SV=1
+sp|O36416|UL49_ALHV1     13.9     0.011     1   0.0      1     93      4     81      1     78     Uncharacterized gene 66 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=66 PE=3 SV=1
+sp|Q01046|UL49_SHV21     -1.6   5.2e+02     1   0.0     19     72     25     55     33     60     Uncharacterized gene 66 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=66 PE=3 SV=1
+sp|P52441|UL49_HHV6U     -3.3   1.7e+03     1   0.0      4     53      6     32     35     59     Protein U33 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U33 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_438190@NC_007646.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_438190@NC_007646.txt data/models_hmm/YP_438190@NC_007646.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:33 2021
+# [ok]

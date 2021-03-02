@@ -1,0 +1,62 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ82|YR513_MIMIV    16.3    0.0078   1   1.4   0.2    Uncharacterized protein R513 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R513 PE=4 SV=1
+sp|Q89424|P17_ASFB7      16.3    0.0078   1   1.2   0.3    Major structural protein p17 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-107 PE=3 SV=1
+sp|Q65223|P17_ASFM2      16.1    0.0093   1   1.2   1.0    Major structural protein p17 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-115 PE=3 SV=1
+sp|P0C9Y8|P17_ASFK5      16.0      0.01   1   1.1   1.1    Major structural protein p17 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-119 PE=3 SV=1
+sp|P23728|FUS_BRSVR      15.9     0.011   3   2.7   1.7    Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain Rb94) OX=11249 GN=F PE=2 SV=1
+sp|Q5UQD3|YR468_MIMIV    15.3     0.015   2   2.2   1.8    Uncharacterized protein R468 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R468 PE=4 SV=1
+sp|P22167|FUS_BRSVC      15.2     0.017   3   2.7   1.6    Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain Copenhagen) OX=11248 GN=F PE=1 SV=1
+sp|P0C9Z0|P17_ASFWA      15.0      0.02   1   1.2   0.7    Major structural protein p17 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-117 PE=3 SV=1
+sp|P52449|GM_HHV6Z       14.6     0.026   4   3.4   1.2    Envelope glycoprotein M OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=gM PE=3 SV=1
+sp|O55743|137R_IIV6      14.5     0.029   1   1.0   0.2    Uncharacterized protein 137R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-137R PE=3 SV=1
+sp|P0C9Y9|P17_ASFP4      13.8     0.047   1   1.2   1.1    Major structural protein p17 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-119 PE=3 SV=1
+sp|B4YNF5|V15_SPTNK      13.4     0.061   1   1.2   2.5    Uncharacterized protein V15 OS=Sputnik virophage OX=543939 GN=ORF15 PE=4 SV=1
+sp|P29791|FUS_BRSVA      13.3     0.065   2   2.7   6.2    Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain A51908) OX=11247 GN=F PE=1 SV=1
+sp|Q6WB94|VGLG_HMPVC      7.5       4.2   3   2.2   8.1    Major surface glycoprotein G OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=G PE=1 SV=1
+sp|P60672|A28_YMTV5       6.9       6.5   1   1.9   9.0    Envelope protein A28 homolog OS=Yaba monkey tumor virus (strain VR587) OX=928314 GN=118L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P23728|FUS_BRSVR      15.9     0.011     3   1.7    512    566    516    555     17     56     Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain Rb94) OX=11249 GN=F PE=2 SV=1
+sp|Q89424|P17_ASFB7      15.8     0.011     1   0.3     28     74     38     69     27     58     Major structural protein p17 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-107 PE=3 SV=1
+sp|P0C9Y8|P17_ASFK5      15.6     0.013     1   1.1     27     73     38     69     27     58     Major structural protein p17 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-119 PE=3 SV=1
+sp|Q5UQ82|YR513_MIMIV    15.6     0.013     1   0.2     17    116     34    101     25     91     Uncharacterized protein R513 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R513 PE=4 SV=1
+sp|Q65223|P17_ASFM2      15.5     0.014     1   1.0     27     72     38     68     27     57     Major structural protein p17 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-115 PE=3 SV=1
+sp|Q5UQD3|YR468_MIMIV    15.3     0.015     2   1.8     61    152     67    134      7     65     Uncharacterized protein R468 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R468 PE=4 SV=1
+sp|P22167|FUS_BRSVC      15.2     0.017     3   1.6    512    566    516    555     17     56     Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain Copenhagen) OX=11248 GN=F PE=1 SV=1
+sp|P52449|GM_HHV6Z       14.6     0.026     2   1.2     60    146     75    136     27     90     Envelope glycoprotein M OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=gM PE=3 SV=1
+sp|P0C9Z0|P17_ASFWA      14.4      0.03     1   0.7     27     73     38     69     27     58     Major structural protein p17 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-117 PE=3 SV=1
+sp|O55743|137R_IIV6      14.4      0.03     1   0.2      1     54      4     47     32     75     Uncharacterized protein 137R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-137R PE=3 SV=1
+sp|P0C9Y9|P17_ASFP4      13.3     0.068     1   1.1     27     72     38     68     27     57     Major structural protein p17 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-119 PE=3 SV=1
+sp|B4YNF5|V15_SPTNK      13.1     0.079     1   2.5     12     81     18     58     18     58     Uncharacterized protein V15 OS=Sputnik virophage OX=543939 GN=ORF15 PE=4 SV=1
+sp|P29791|FUS_BRSVA      13.0     0.083     2   2.4    510    566    514    553     17     56     Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain A51908) OX=11247 GN=F PE=1 SV=1
+sp|Q6WB94|VGLG_HMPVC     12.4      0.12     1   0.7      8     84     22     81     17     73     Major surface glycoprotein G OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=G PE=1 SV=1
+sp|P60672|A28_YMTV5       5.6        17     1   8.9      1    111      5     45     28     67     Envelope protein A28 homolog OS=Yaba monkey tumor virus (strain VR587) OX=928314 GN=118L PE=3 SV=1
+sp|P29791|FUS_BRSVA       0.2   7.7e+02     1   0.1    372    433    386    415     64     92     Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain A51908) OX=11247 GN=F PE=1 SV=1
+sp|P22167|FUS_BRSVC      -0.1     1e+03     2   0.1    376    435    392    417     68     92     Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain Copenhagen) OX=11248 GN=F PE=1 SV=1
+sp|P23728|FUS_BRSVR      -0.2   1.1e+03     2   0.1    376    435    392    417     68     92     Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain Rb94) OX=11249 GN=F PE=2 SV=1
+sp|Q5UQD3|YR468_MIMIV    -0.4   1.2e+03     1   0.5      5     39     12     36     32     56     Uncharacterized protein R468 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R468 PE=4 SV=1
+sp|P52449|GM_HHV6Z       -0.4   1.2e+03     3   1.3    224    268    235    262     23     50     Envelope glycoprotein M OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=gM PE=3 SV=1
+sp|P52449|GM_HHV6Z       -1.0   1.8e+03     4   0.1    294    337    303    324     31     52     Envelope glycoprotein M OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=gM PE=3 SV=1
+sp|P52449|GM_HHV6Z       -2.3   4.6e+03     1   1.0      5     37     13     30     28     45     Envelope glycoprotein M OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=gM PE=3 SV=1
+sp|Q6WB94|VGLG_HMPVC     -2.4   4.9e+03     3   0.6    187    217    191    203     53     66     Major surface glycoprotein G OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=G PE=1 SV=1
+sp|P22167|FUS_BRSVC      -2.8   6.6e+03     1   0.2      2     39      5     23     28     46     Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain Copenhagen) OX=11248 GN=F PE=1 SV=1
+sp|Q6WB94|VGLG_HMPVC     -3.4     1e+04     2   0.0    118    138    120    133     13     26     Major surface glycoprotein G OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=G PE=1 SV=1
+sp|P23728|FUS_BRSVR      -3.5   1.1e+04     1   0.2      3     32      8     20     31     43     Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain Rb94) OX=11249 GN=F PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004956773@NC_004156.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004956773@NC_004156.txt data/models_hmm/YP_004956773@NC_004156.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:56 2021
+# [ok]

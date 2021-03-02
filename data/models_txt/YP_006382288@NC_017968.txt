@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P54309|PORTL_BPSPP   455.0  2.1e-136   1   1.0  11.6    Portal protein OS=Bacillus phage SPP1 OX=10724 GN=6 PE=1 SV=1
+sp|Q24LJ4|PORTL_BPPCD   414.5    4e-124   1   1.0  23.0    Portal protein OS=Clostridium phage phiCD119 (strain Clostridium difficile/United States/Govind/2006) OX=1283341 PE=3 SV=1
+sp|P0C9M5|3603L_ASFK5    13.5     0.017   2   1.7   0.0    Protein MGF 360-3L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-006 PE=3 SV=1
+sp|P03349|GAG_HV1A2      11.1      0.09   1   1.2   0.8    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate ARV2/SF2) OX=11685 GN=gag PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P54309|PORTL_BPSPP   454.7  2.6e-136     1  11.6     13    493     16    486      4    457     Portal protein OS=Bacillus phage SPP1 OX=10724 GN=6 PE=1 SV=1
+sp|Q24LJ4|PORTL_BPPCD   414.4  4.4e-124     1  23.0      1    451      3    447     19    446     Portal protein OS=Clostridium phage phiCD119 (strain Clostridium difficile/United States/Govind/2006) OX=1283341 PE=3 SV=1
+sp|P0C9M5|3603L_ASFK5    12.0     0.049     2   0.0    253    348    257    344    315    395     Protein MGF 360-3L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-006 PE=3 SV=1
+sp|P03349|GAG_HV1A2      10.5      0.14     1   0.8     72    134     84    131    412    457     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate ARV2/SF2) OX=11685 GN=gag PE=1 SV=3
+sp|P0C9M5|3603L_ASFK5    -2.3   1.1e+03     1   0.0    175    213    178    210     75    108     Protein MGF 360-3L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-006 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006382288@NC_017968.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006382288@NC_017968.txt data/models_hmm/YP_006382288@NC_017968.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:09 2021
+# [ok]

@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DOQ3|NTP1_VAR67     14.0     0.052   2   2.4   0.4    Nucleoside triphosphatase I OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=NPH1 PE=3 SV=1
+sp|P0DOQ4|NTP1_VARV      14.0     0.052   2   2.4   0.4    Nucleoside triphosphatase I OS=Variola virus OX=10255 GN=NPH1 PE=3 SV=1
+sp|P20637|NTP1_VACCC     14.0     0.054   2   2.5   0.4    Nucleoside triphosphatase I OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=NPH1 PE=3 SV=1
+sp|O57214|NTP1_VACCA     14.0     0.054   2   2.5   0.4    Nucleoside triphosphatase I OS=Vaccinia virus (strain Ankara) OX=126794 GN=NPH1 PE=3 SV=1
+sp|P05807|NTP1_VACCW     13.9     0.057   2   2.5   0.4    Nucleoside triphosphatase I OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=NPH1 PE=1 SV=1
+sp|Q5UR96|YL576_MIMIV    10.2      0.79   2   2.1   4.2    Uncharacterized protein L576 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L576 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DOQ3|NTP1_VAR67     11.6       0.3     1   0.2    216    289    229    276     12     62     Nucleoside triphosphatase I OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=NPH1 PE=3 SV=1
+sp|P0DOQ4|NTP1_VARV      11.6       0.3     1   0.2    216    289    229    276     12     62     Nucleoside triphosphatase I OS=Variola virus OX=10255 GN=NPH1 PE=3 SV=1
+sp|Q5UR96|YL576_MIMIV    11.3      0.37     2   0.9    131    197    140    187     11     56     Uncharacterized protein L576 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L576 PE=4 SV=1
+sp|O57214|NTP1_VACCA     11.3      0.37     1   0.2    217    289    229    276     12     62     Nucleoside triphosphatase I OS=Vaccinia virus (strain Ankara) OX=126794 GN=NPH1 PE=3 SV=1
+sp|P05807|NTP1_VACCW     11.3      0.37     1   0.2    217    289    229    276     12     62     Nucleoside triphosphatase I OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=NPH1 PE=1 SV=1
+sp|P20637|NTP1_VACCC     11.3      0.37     1   0.2    217    289    229    276     12     62     Nucleoside triphosphatase I OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=NPH1 PE=3 SV=1
+sp|Q5UR96|YL576_MIMIV    -1.5   3.5e+03     1   0.1     90    136     98    113     14     29     Uncharacterized protein L576 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L576 PE=4 SV=1
+sp|O57214|NTP1_VACCA     -2.2     6e+03     2   0.0    427    483    436    478     28     70     Nucleoside triphosphatase I OS=Vaccinia virus (strain Ankara) OX=126794 GN=NPH1 PE=3 SV=1
+sp|P05807|NTP1_VACCW     -2.2     6e+03     2   0.0    427    483    436    478     28     70     Nucleoside triphosphatase I OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=NPH1 PE=1 SV=1
+sp|P0DOQ3|NTP1_VAR67     -2.2     6e+03     2   0.0    427    483    436    478     28     70     Nucleoside triphosphatase I OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=NPH1 PE=3 SV=1
+sp|P0DOQ4|NTP1_VARV      -2.2     6e+03     2   0.0    427    483    436    478     28     70     Nucleoside triphosphatase I OS=Variola virus OX=10255 GN=NPH1 PE=3 SV=1
+sp|P20637|NTP1_VACCC     -2.2     6e+03     2   0.0    427    483    436    478     28     70     Nucleoside triphosphatase I OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=NPH1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000029@SRS042131_WUGC_scaffold_27665@SRS042131_WUGC_scaffold_27665_gene_45521.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000029@SRS042131_WUGC_scaffold_27665@SRS042131_WUGC_scaffold_27665_gene_45521.txt data/models_hmm/7000000029@SRS042131_WUGC_scaffold_27665@SRS042131_WUGC_scaffold_27665_gene_45521.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:51 2021
+# [ok]

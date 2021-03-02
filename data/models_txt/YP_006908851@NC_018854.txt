@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91GH8|VP91_NPVEP    13.8     0.045   1   1.7   0.2    Capsid-associated protein Vp91 OS=Epiphyas postvittana nucleopolyhedrovirus OX=70600 GN=ORF75 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91GH8|VP91_NPVEP    12.3      0.13     1   0.2     18    103     23     95     13     76     Capsid-associated protein Vp91 OS=Epiphyas postvittana nucleopolyhedrovirus OX=70600 GN=ORF75 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006908851@NC_018854.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006908851@NC_018854.txt data/models_hmm/YP_006908851@NC_018854.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:36 2021
+# [ok]

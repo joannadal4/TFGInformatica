@@ -1,0 +1,48 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64299|EXO2_BPR69    11.8      0.17   2   2.6   5.8    Exonuclease subunit 2 OS=Escherichia phage RB69 OX=12353 GN=46 PE=4 SV=2
+sp|Q82050|NSP3_ROTHK    11.6       0.2   2   2.4   6.8    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+sp|Q85014|NSP3_ROTP5     9.4      0.99   2   2.3   6.4    Non-structural protein 3 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=2 SV=1
+sp|Q82054|NSP3_ROTHW     9.3         1   2   2.3   6.8    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=2 SV=1
+sp|B3SRV3|NSP3_ROTHP     9.2       1.1   2   2.4   6.9    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=1
+sp|Q82049|NSP3_ROTWI     8.9       1.3   2   2.2   7.9    Non-structural protein 3 OS=Rotavirus A (isolate RVA/Human/United States/WI61/1983/G9P1A[8]) OX=578830 PE=2 SV=1
+sp|Q9ICB2|NSP3_ROTAM     8.8       1.4   2   2.3   7.5    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/M/1976/G3P[X]) OX=578834 PE=3 SV=1
+sp|B3SRS1|NSP3_ROTAD     8.6       1.7   2   2.3   7.5    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|Q82053|NSP3_ROTHT     8.6       1.7   2   2.3   7.6    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q82050|NSP3_ROTHK    10.5      0.44     2   5.3    116    241    165    234     40    108     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+sp|Q82054|NSP3_ROTHW     8.8       1.5     2   4.8    116    241    162    234     37    108     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=2 SV=1
+sp|B3SRV3|NSP3_ROTHP     8.4       1.9     2   5.0    113    238    158    231     36    108     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=1
+sp|Q85014|NSP3_ROTP5     8.4         2     2   4.8    116    242    150    235     35    109     Non-structural protein 3 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=2 SV=1
+sp|Q82049|NSP3_ROTWI     8.2       2.2     2   6.2    118    240    152    233     25    107     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Human/United States/WI61/1983/G9P1A[8]) OX=578830 PE=2 SV=1
+sp|Q9ICB2|NSP3_ROTAM     8.2       2.2     2   5.5    113    238    158    231     36    108     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/M/1976/G3P[X]) OX=578834 PE=3 SV=1
+sp|Q82053|NSP3_ROTHT     8.2       2.3     2   5.5    116    241    161    234     36    108     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=2 SV=1
+sp|O64299|EXO2_BPR69     8.1       2.4     1   0.8    165    260    171    248     15     90     Exonuclease subunit 2 OS=Escherichia phage RB69 OX=12353 GN=46 PE=4 SV=2
+sp|B3SRS1|NSP3_ROTAD     8.0       2.6     2   5.6    113    238    158    231     36    108     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|O64299|EXO2_BPR69     5.4        16     2   0.4    314    412    330    403     45    108     Exonuclease subunit 2 OS=Escherichia phage RB69 OX=12353 GN=46 PE=4 SV=2
+sp|Q85014|NSP3_ROTP5    -1.2   1.8e+03     1   0.0     15     72     35     53     62     80     Non-structural protein 3 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=2 SV=1
+sp|Q82050|NSP3_ROTHK    -1.3   1.9e+03     1   0.0     16     70     35     52     62     79     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+sp|Q82049|NSP3_ROTWI    -1.4   2.1e+03     1   0.0     18     68     35     52     62     79     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Human/United States/WI61/1983/G9P1A[8]) OX=578830 PE=2 SV=1
+sp|B3SRS1|NSP3_ROTAD    -1.4   2.1e+03     1   0.0     15     64     32     49     62     79     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|B3SRV3|NSP3_ROTHP    -1.4   2.1e+03     1   0.0     15     64     32     49     62     79     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=1
+sp|Q9ICB2|NSP3_ROTAM    -1.4   2.1e+03     1   0.0     15     64     32     49     62     79     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/M/1976/G3P[X]) OX=578834 PE=3 SV=1
+sp|Q82053|NSP3_ROTHT    -1.5   2.3e+03     1   0.0     17     63     35     51     62     78     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=2 SV=1
+sp|Q82054|NSP3_ROTHW    -1.5   2.3e+03     1   0.0     17     63     35     51     62     78     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000712@SRS057478_LANL_scaffold_12409@SRS057478_LANL_scaffold_12409_gene_35414.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000712@SRS057478_LANL_scaffold_12409@SRS057478_LANL_scaffold_12409_gene_35414.txt data/models_hmm/7000000712@SRS057478_LANL_scaffold_12409@SRS057478_LANL_scaffold_12409_gene_35414.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:04 2021
+# [ok]

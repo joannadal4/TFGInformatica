@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20313|VHED_BPT3     17.9    0.0017   1   1.8   2.0    Helix-destabilizing protein OS=Enterobacteria phage T3 OX=10759 GN=2.5 PE=4 SV=1
+sp|P03696|DNBI_BPT7     10.5      0.32   1   2.0   8.0    Single-stranded DNA-binding protein gp2.5 OS=Escherichia phage T7 OX=10760 GN=2.5 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20313|VHED_BPT3     16.1    0.0064     1   2.0     30    228     92    208     91    205     Helix-destabilizing protein OS=Enterobacteria phage T3 OX=10759 GN=2.5 PE=4 SV=1
+sp|P03696|DNBI_BPT7      8.8       1.1     1   8.0     27    231     89    209     91    210     Single-stranded DNA-binding protein gp2.5 OS=Escherichia phage T7 OX=10760 GN=2.5 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006990452@NC_019420.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006990452@NC_019420.txt data/models_hmm/YP_006990452@NC_019420.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:53 2021
+# [ok]

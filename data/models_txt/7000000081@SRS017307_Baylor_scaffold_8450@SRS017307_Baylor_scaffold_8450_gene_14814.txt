@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6RZR2|F1_RABPU      16.7    0.0049   2   2.4   0.2    Protein F1 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV029 PE=3 SV=1
+sp|O57173|F1_VACCA      13.7     0.043   2   2.5   0.9    Protein F1 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA029L PE=1 SV=1
+sp|P68450|F1_VACCC      13.5     0.051   2   2.5   1.0    Protein F1 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F1L PE=3 SV=1
+sp|Q9JFF2|F1_VACCT      13.5     0.051   2   2.5   1.0    Protein F1 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TF1L PE=3 SV=1
+sp|Q91FC1|404L_IIV6      6.9       5.8   2   2.1   9.9    Uncharacterized protein 404L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-404L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6RZR2|F1_RABPU      10.6      0.41     2   0.0    146    211    159    210     36     88     Protein F1 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV029 PE=3 SV=1
+sp|O57173|F1_VACCA       8.6       1.7     2   0.0    114    206    155    205     36     88     Protein F1 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA029L PE=1 SV=1
+sp|P68450|F1_VACCC       8.6       1.7     2   0.0    118    210    159    209     36     88     Protein F1 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F1L PE=3 SV=1
+sp|Q9JFF2|F1_VACCT       8.6       1.7     2   0.0    118    210    159    209     36     88     Protein F1 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TF1L PE=3 SV=1
+sp|Q91FC1|404L_IIV6      7.7       3.2     2   6.9    165    235    180    232     34     83     Uncharacterized protein 404L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-404L PE=4 SV=1
+sp|Q6RZR2|F1_RABPU       4.0        46     1   0.2     63    135     87    119     40     73     Protein F1 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV029 PE=3 SV=1
+sp|P68450|F1_VACCC       3.1        86     1   0.5     80    136     87    113     40     67     Protein F1 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F1L PE=3 SV=1
+sp|Q9JFF2|F1_VACCT       3.1        86     1   0.5     80    136     87    113     40     67     Protein F1 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TF1L PE=3 SV=1
+sp|O57173|F1_VACCA       3.1        88     1   0.4     76    126     83    109     40     67     Protein F1 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA029L PE=1 SV=1
+sp|Q91FC1|404L_IIV6     -1.2   1.9e+03     1   0.0      9     48     27     45     70     88     Uncharacterized protein 404L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-404L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000081@SRS017307_Baylor_scaffold_8450@SRS017307_Baylor_scaffold_8450_gene_14814.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000081@SRS017307_Baylor_scaffold_8450@SRS017307_Baylor_scaffold_8450_gene_14814.txt data/models_hmm/7000000081@SRS017307_Baylor_scaffold_8450@SRS017307_Baylor_scaffold_8450_gene_14814.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:21 2021
+# [ok]

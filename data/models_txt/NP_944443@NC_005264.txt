@@ -1,0 +1,43 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6UDG1|US02_PSHV1    135.5   1.7e-39   1   1.0   2.3    Uncharacterized protein US2 OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=US2 PE=4 SV=1
+sp|P32517|US02_EHV1K     74.3   8.2e-21   1   1.7   0.2    US1 protein OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=US1 PE=3 SV=2
+sp|P28964|US02_EHV1B     73.1     2e-20   1   1.6   0.2    Gene 68 protein OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=68 PE=3 SV=1
+sp|Q9E6L9|US02_GAHVM     50.5   1.6e-13   2   2.1   0.2    Protein US2 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV091 PE=3 SV=1
+sp|P13292|US02_HHV2H     39.4     4e-10   1   1.9   1.1    Protein US2 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=US2 PE=1 SV=3
+sp|P06485|US02_HHV11     38.7   6.3e-10   1   1.9   1.0    Protein US2 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=US2 PE=1 SV=3
+sp|P24382|US02_SUHVN     38.7   6.6e-10   2   2.1   0.4    Protein US2 homolog OS=Suid herpesvirus 1 (strain NIA-3) OX=10349 GN=28K PE=3 SV=1
+sp|Q08099|US02_BHV1S     19.4   0.00052   1   2.1   0.1    Protein US2 homolog OS=Bovine herpesvirus 1.2 (strain ST) OX=45407 PE=3 SV=1
+sp|Q05106|US453_GAHVG    14.0     0.023   1   1.2   0.0    Uncharacterized 16.6 kDa protein OS=Gallid herpesvirus 2 (strain GA) OX=10388 GN=US453 PE=4 SV=1
+sp|P18547|NS1_PAVPN      11.2      0.16   1   1.3   0.0    Initiator protein NS1 OS=Porcine parvovirus (strain NADL-2) OX=10797 GN=NS1 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6UDG1|US02_PSHV1    135.4   1.8e-39     1   2.3      1     86      1     85      1     91     Uncharacterized protein US2 OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=US2 PE=4 SV=1
+sp|P32517|US02_EHV1K     72.7   2.6e-20     1   0.2      1    168      1    152      1    140     US1 protein OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=US1 PE=3 SV=2
+sp|P28964|US02_EHV1B     71.7   5.3e-20     1   0.2      1    166      1    152      1    140     Gene 68 protein OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=68 PE=3 SV=1
+sp|P13292|US02_HHV2H     36.7   2.6e-09     1   1.1      1    155      1    138      1    127     Protein US2 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=US2 PE=1 SV=3
+sp|P06485|US02_HHV11     36.6   2.9e-09     1   1.0      1    145      1    138      1    127     Protein US2 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=US2 PE=1 SV=3
+sp|P24382|US02_SUHVN     26.2   4.4e-06     2   0.1     85    172    118    161     83    126     Protein US2 homolog OS=Suid herpesvirus 1 (strain NIA-3) OX=10349 GN=28K PE=3 SV=1
+sp|Q9E6L9|US02_GAHVM     24.7   1.2e-05     1   0.0      1     96      4     81      4     84     Protein US2 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV091 PE=3 SV=1
+sp|Q9E6L9|US02_GAHVM     24.1   1.9e-05     2   0.0     93    167    103    162     83    141     Protein US2 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV091 PE=3 SV=1
+sp|Q08099|US02_BHV1S     16.1    0.0054     1   0.1      1    150      2    139      6    134     Protein US2 homolog OS=Bovine herpesvirus 1.2 (strain ST) OX=45407 PE=3 SV=1
+sp|Q05106|US453_GAHVG    13.5     0.033     1   0.0      2     48     12     43    111    141     Uncharacterized 16.6 kDa protein OS=Gallid herpesvirus 2 (strain GA) OX=10388 GN=US453 PE=4 SV=1
+sp|P24382|US02_SUHVN     11.1      0.18     1   0.0      1     96      4     83      4     79     Protein US2 homolog OS=Suid herpesvirus 1 (strain NIA-3) OX=10349 GN=28K PE=3 SV=1
+sp|P18547|NS1_PAVPN      10.4      0.29     1   0.0    297    408    312    399    135    215     Initiator protein NS1 OS=Porcine parvovirus (strain NADL-2) OX=10797 GN=NS1 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_944443@NC_005264.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_944443@NC_005264.txt data/models_hmm/NP_944443@NC_005264.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:43 2021
+# [ok]

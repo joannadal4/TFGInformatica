@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05277|VG64_BPML5    14.8     0.022   1   1.1   0.0    Gene 64 protein OS=Mycobacterium phage L5 OX=31757 GN=64 PE=4 SV=1
+sp|O64256|VG64_BPMD2    13.1     0.073   1   1.1   0.0    Gene 64 protein OS=Mycobacterium phage D29 OX=28369 GN=64 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05277|VG64_BPML5    14.7     0.025     1   0.0     14    114     22     78     79    134     Gene 64 protein OS=Mycobacterium phage L5 OX=31757 GN=64 PE=4 SV=1
+sp|O64256|VG64_BPMD2    12.7     0.098     1   0.0     14     85     22     78     79    134     Gene 64 protein OS=Mycobacterium phage D29 OX=28369 GN=64 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000393___SRS019327_WUGC_scaffold_71581_10_68.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000393___SRS019327_WUGC_scaffold_71581_10_68.txt data/models_hmm/7000000393___SRS019327_WUGC_scaffold_71581_10_68.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:54 2021
+# [ok]

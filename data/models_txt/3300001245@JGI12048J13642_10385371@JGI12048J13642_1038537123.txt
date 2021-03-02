@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O72158|CAPSD_SBMVA    18.4    0.0015   2   1.8   0.0    Capsid protein OS=Southern bean mosaic virus (isolate Bean/United States/Arkansas) OX=652938 GN=ORF3 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O72158|CAPSD_SBMVA    16.7    0.0047     1   0.0    143    186    153    182     51     80     Capsid protein OS=Southern bean mosaic virus (isolate Bean/United States/Arkansas) OX=652938 GN=ORF3 PE=3 SV=1
+sp|O72158|CAPSD_SBMVA    -2.3   3.4e+03     2   0.0    198    255    218    218     99     99     Capsid protein OS=Southern bean mosaic virus (isolate Bean/United States/Arkansas) OX=652938 GN=ORF3 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001245@JGI12048J13642_10385371@JGI12048J13642_1038537123.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001245@JGI12048J13642_10385371@JGI12048J13642_1038537123.txt data/models_hmm/3300001245@JGI12048J13642_10385371@JGI12048J13642_1038537123.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:40 2021
+# [ok]

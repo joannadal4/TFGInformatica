@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04376|CAP9_ADET1    13.2     0.049   1   1.2   1.7    Hexon-interlacing protein OS=Tree shrew adenovirus serotype 1 OX=47680 GN=IX PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04376|CAP9_ADET1    12.9     0.062     1   1.7     45    107     67    104     20     57     Hexon-interlacing protein OS=Tree shrew adenovirus serotype 1 OX=47680 GN=IX PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_223934@NC_006938.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_223934@NC_006938.txt data/models_hmm/YP_223934@NC_006938.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:18 2021
+# [ok]

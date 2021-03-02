@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9PYC7|NSP4_ROTCU    14.6     0.029   1   1.4   0.3    Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Dog/United States/Cu-1/1982/G3P5A[3]) OX=101357 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9PYC7|NSP4_ROTCU    13.9     0.049     1   0.2    105    173    109    157      5     52     Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Dog/United States/Cu-1/1982/G3P5A[3]) OX=101357 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH31654@HQ633071.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH31654@HQ633071.txt data/models_hmm/AGH31654@HQ633071.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:43 2021
+# [ok]

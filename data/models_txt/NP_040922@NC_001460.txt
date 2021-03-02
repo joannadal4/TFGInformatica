@@ -1,0 +1,43 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P35986|L2MU_ADE12    108.1   1.7e-31   1   1.0   7.8    Late L2 mu core protein OS=Human adenovirus A serotype 12 OX=28282 GN=PX PE=1 SV=2
+sp|P14269|COR10_ADE02   103.1   6.3e-30   1   1.0   8.9    Pre-core protein X OS=Human adenovirus C serotype 2 OX=10515 GN=L2 PE=1 SV=2
+sp|Q2KS10|COR10_ADE05   103.1   6.3e-30   1   1.0   8.9    Pre-core protein X OS=Human adenovirus C serotype 5 OX=28285 GN=L2 PE=2 SV=1
+sp|Q64858|L2MU_ADE40    101.8   1.6e-29   1   1.0  10.5    Late L2 mu core protein OS=Human adenovirus F serotype 40 OX=28284 GN=PX PE=3 SV=1
+sp|P68974|L2MU_ADECC     98.9   1.3e-28   1   1.0   9.6    Late L2 mu core protein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=PX PE=3 SV=1
+sp|P68975|L2MU_ADECR     98.9   1.3e-28   1   1.0   9.6    Late L2 mu core protein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=PX PE=3 SV=1
+sp|O10443|L2MU_ADEM1     98.8   1.4e-28   1   1.0   5.7    Late L2 mu core protein OS=Murine adenovirus A serotype 1 OX=10530 GN=PX PE=3 SV=1
+sp|Q96626|L2MU_ADEB2     90.5   5.5e-26   1   1.0  10.3    Late L2 mu core protein OS=Bovine adenovirus 2 OX=114429 GN=PX PE=3 SV=1
+sp|Q8JN69|L2MU_ADES1     70.2   1.1e-19   2   1.4  12.8    Late L2 mu core protein OS=Snake adenovirus serotype 1 OX=189830 GN=PX PE=3 SV=1
+sp|Q64756|L2MU_ADEG1     64.2   8.6e-18   2   2.6   6.5    Late L2 mu core protein OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=PX PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P35986|L2MU_ADE12    108.0   1.8e-31     1   7.8      1     72      1     72      3     72     Late L2 mu core protein OS=Human adenovirus A serotype 12 OX=28282 GN=PX PE=1 SV=2
+sp|P14269|COR10_ADE02   102.9   7.1e-30     1   8.9      1     80      1     80      3     71     Pre-core protein X OS=Human adenovirus C serotype 2 OX=10515 GN=L2 PE=1 SV=2
+sp|Q2KS10|COR10_ADE05   102.9   7.1e-30     1   8.9      1     80      1     80      3     71     Pre-core protein X OS=Human adenovirus C serotype 5 OX=28285 GN=L2 PE=2 SV=1
+sp|Q64858|L2MU_ADE40    101.7   1.8e-29     1  10.5      1     70      1     69      3     71     Late L2 mu core protein OS=Human adenovirus F serotype 40 OX=28284 GN=PX PE=3 SV=1
+sp|P68974|L2MU_ADECC     98.8   1.4e-28     1   9.6      2     68      3     68      2     71     Late L2 mu core protein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=PX PE=3 SV=1
+sp|P68975|L2MU_ADECR     98.8   1.4e-28     1   9.6      2     68      3     68      2     71     Late L2 mu core protein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=PX PE=3 SV=1
+sp|O10443|L2MU_ADEM1     98.7   1.5e-28     1   5.7      2     73      4     72      3     71     Late L2 mu core protein OS=Murine adenovirus A serotype 1 OX=10530 GN=PX PE=3 SV=1
+sp|Q96626|L2MU_ADEB2     90.3     6e-26     1  10.3      3     70      6     70      4     71     Late L2 mu core protein OS=Bovine adenovirus 2 OX=114429 GN=PX PE=3 SV=1
+sp|Q8JN69|L2MU_ADES1     70.2   1.1e-19     2  12.8     13     84     14     84      2     68     Late L2 mu core protein OS=Snake adenovirus serotype 1 OX=189830 GN=PX PE=3 SV=1
+sp|Q64756|L2MU_ADEG1     64.2   8.6e-18     2   6.5    105    174    124    170     24     68     Late L2 mu core protein OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=PX PE=3 SV=1
+sp|Q8JN69|L2MU_ADES1      2.1   2.1e+02     1   0.4      2     21      6     17     19     33     Late L2 mu core protein OS=Snake adenovirus serotype 1 OX=189830 GN=PX PE=3 SV=1
+sp|Q64756|L2MU_ADEG1     -2.3   4.9e+03     1   3.4     18     77     34     48     10     22     Late L2 mu core protein OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=PX PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_040922@NC_001460.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_040922@NC_001460.txt data/models_hmm/NP_040922@NC_001460.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:15 2021
+# [ok]

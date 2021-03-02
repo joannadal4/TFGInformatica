@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21290|ADPP_NPVAC    13.0     0.087   1   1.4   0.4    Protein ADP-ribose pyrophosphatase ORF38 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=1 SV=2
+sp|P17359|V017_VACCW    13.0     0.091   2   2.0   0.6    Uncharacterized protein 17 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR017 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21290|ADPP_NPVAC    12.2      0.16     1   0.4    147    214    148    205      2     60     Protein ADP-ribose pyrophosphatase ORF38 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=1 SV=2
+sp|P17359|V017_VACCW     7.2       5.9     1   0.2      1     34      3     28     11     36     Uncharacterized protein 17 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR017 PE=4 SV=1
+sp|P17359|V017_VACCW     4.8        31     2   0.0     30     69     34     61      7     34     Uncharacterized protein 17 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR017 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002875681@NC_012663.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002875681@NC_012663.txt data/models_hmm/YP_002875681@NC_012663.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:12 2021
+# [ok]

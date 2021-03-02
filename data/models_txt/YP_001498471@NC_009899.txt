@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P43139|DPOL_ASFL6     35.7   8.6e-09   1   1.5   2.1    DNA polymerase beta OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 GN=DPOL PE=3 SV=1
+sp|Q91FF8|366R_IIV6      20.1   0.00061   1   2.0  10.9    Uncharacterized protein 366R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-366R PE=4 SV=1
+sp|Q6GZU4|032R_FRG3G     16.2    0.0094   3   3.8   0.7    Uncharacterized protein 032R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-032R PE=4 SV=1
+sp|Q5UR92|YR640_MIMIV     8.6       2.2   2   1.8  11.9    Uncharacterized protein R640 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R640 PE=3 SV=1
+sp|Q5UPJ3|YL116_MIMIV     8.1         3   2   2.6  10.3    Uncharacterized protein L116 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L116 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P43139|DPOL_ASFL6     34.6   1.9e-08     1   2.1   1051   1148   1057   1135     18     94     DNA polymerase beta OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 GN=DPOL PE=3 SV=1
+sp|Q91FF8|366R_IIV6      17.5     0.004     1  10.9      2    110     13     46     32     73     Uncharacterized protein 366R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-366R PE=4 SV=1
+sp|Q6GZU4|032R_FRG3G     16.2    0.0094     2   0.7    184    257    195    246     33     82     Uncharacterized protein 032R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-032R PE=4 SV=1
+sp|Q5UPJ3|YL116_MIMIV    10.9      0.43     2   3.9    126    234    139    188     38     87     Uncharacterized protein L116 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L116 PE=3 SV=1
+sp|Q5UR92|YR640_MIMIV     9.8      0.92     1   9.0    131    225    151    217     30     96     Uncharacterized protein R640 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R640 PE=3 SV=1
+sp|Q6GZU4|032R_FRG3G     -1.3   2.6e+03     3   0.1    484    534    497    521     61     86     Uncharacterized protein 032R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-032R PE=4 SV=1
+sp|Q5UPJ3|YL116_MIMIV    -3.0   8.7e+03     1   0.4     32     97     52     74     44     66     Uncharacterized protein L116 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L116 PE=3 SV=1
+sp|Q5UR92|YR640_MIMIV    -3.3     1e+04     2   0.0    310    331    314    320     20     26     Uncharacterized protein R640 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R640 PE=3 SV=1
+sp|Q6GZU4|032R_FRG3G     -3.3   1.1e+04     1  12.2     33    162     45    107     17     75     Uncharacterized protein 032R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-032R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001498471@NC_009899.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001498471@NC_009899.txt data/models_hmm/YP_001498471@NC_009899.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:29 2021
+# [ok]

@@ -1,0 +1,40 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6SW85|ITP_HCMVM   1089.9         0   1   1.0   0.0    Inner tegument protein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL47 PE=3 SV=1
+sp|P16784|ITP_HCMVA   1088.8         0   1   1.0   0.0    Inner tegument protein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL47 PE=3 SV=2
+sp|P52437|ITP_HHV6U    958.9  2.7e-288   1   1.1  54.0    Inner tegument protein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U30 PE=3 SV=1
+sp|P52438|ITP_HHV7J    948.1  4.8e-285   1   1.0  65.1    Inner tegument protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U30 PE=3 SV=1
+sp|Q9QJ38|ITP_HHV6Z    934.6  5.6e-281   1   1.1  52.1    Inner tegument protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U30 PE=3 SV=1
+sp|P30003|UL37_HHV6G   828.1  8.6e-249   1   1.0  46.8    Capsid assembly protein UL37 homolog (Fragment) OS=Human herpesvirus 6A (strain GS) OX=10369 GN=U30 PE=3 SV=2
+sp|Q66665|ITP_EHV2      28.8   2.7e-07   3   3.0   0.0    Inner tegument protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=63 PE=3 SV=1
+sp|F5HEU7|ITP_HHV8P     18.5   0.00035   2   2.1   2.0    Inner tegument protein OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF63 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6SW85|ITP_HCMVM   1089.8         0     1   0.0      1    983      1    979      1    951     Inner tegument protein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL47 PE=3 SV=1
+sp|P16784|ITP_HCMVA   1088.6         0     1   0.0      1    983      1    979      1    951     Inner tegument protein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL47 PE=3 SV=2
+sp|P52437|ITP_HHV6U    958.5  3.5e-288     1  54.0    147   1082    147   1081      1    940     Inner tegument protein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U30 PE=3 SV=1
+sp|P52438|ITP_HHV7J    947.9  5.4e-285     1  65.1      1    938      1    936      2    942     Inner tegument protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U30 PE=3 SV=1
+sp|Q9QJ38|ITP_HHV6Z    934.3  7.2e-281     1  52.1    147   1082    147   1081      1    940     Inner tegument protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U30 PE=3 SV=1
+sp|P30003|UL37_HHV6G   828.0  9.6e-249     1  46.8      1    798     11    797    140    940     Capsid assembly protein UL37 homolog (Fragment) OS=Human herpesvirus 6A (strain GS) OX=10369 GN=U30 PE=3 SV=2
+sp|Q66665|ITP_EHV2      15.5    0.0029     2   0.1    278    426    284    414    296    420     Inner tegument protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=63 PE=3 SV=1
+sp|F5HEU7|ITP_HHV8P     15.4    0.0031     1   0.5    266    420    277    415    294    427     Inner tegument protein OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF63 PE=3 SV=1
+sp|Q66665|ITP_EHV2       6.8       1.2     1   0.0      4    162     45    141     47    132     Inner tegument protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=63 PE=3 SV=1
+sp|Q66665|ITP_EHV2       2.5        25     3   0.0    507    573    522    568    518    568     Inner tegument protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=63 PE=3 SV=1
+sp|F5HEU7|ITP_HHV8P      2.1        32     2   0.0    489    643    509    573    518    586     Inner tegument protein OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF63 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008492969@NC_022233.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008492969@NC_022233.txt data/models_hmm/YP_008492969@NC_022233.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:19 2021
+# [ok]

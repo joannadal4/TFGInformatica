@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C9N7|3608L_ASFK5    12.9     0.077   2   1.9   0.1    Protein MGF 360-8L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-031 PE=3 SV=1
+sp|P0C9P1|3609L_ASFK5    12.9     0.077   2   1.9   0.1    Protein MGF 360-9L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=032 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C9N7|3608L_ASFK5    11.3      0.26     2   0.1    243    295    244    293      3     52     Protein MGF 360-8L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-031 PE=3 SV=1
+sp|P0C9P1|3609L_ASFK5    11.3      0.26     2   0.1    243    295    244    293      3     52     Protein MGF 360-9L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=032 PE=3 SV=1
+sp|P0C9N7|3608L_ASFK5    -2.2   3.9e+03     1   0.0    203    237    206    235     15     43     Protein MGF 360-8L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-031 PE=3 SV=1
+sp|P0C9P1|3609L_ASFK5    -2.2   3.9e+03     1   0.0    203    237    206    235     15     43     Protein MGF 360-9L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=032 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002884247@NC_012672.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002884247@NC_012672.txt data/models_hmm/YP_002884247@NC_012672.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:13 2021
+# [ok]

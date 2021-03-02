@@ -1,0 +1,43 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P10233|VP22_HHV11   195.6   1.2e-57   1   1.1  31.1    Tegument protein VP22 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL49 PE=1 SV=1
+sp|P89468|VP22_HHV2H   184.0   4.3e-54   1   1.1  33.7    Tegument protein VP22 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL49 PE=3 SV=1
+sp|P28960|VP22_EHV1B    86.6   2.1e-24   1   1.4  10.8    Tegument protein VP22 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=11 PE=3 SV=1
+sp|Q00039|VP22_EHV4     86.5   2.2e-24   1   1.1   9.0    Tegument protein VP22 OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=11 PE=3 SV=1
+sp|P09272|VP22_VZVD     74.7     9e-21   2   2.4   4.0    Tegument protein VP22 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF9 PE=3 SV=1
+sp|Q4JQW6|VP22_VZVO     74.5     1e-20   2   2.4   4.2    Tegument protein VP22 OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF9 PE=1 SV=1
+sp|P30022|VP22_BHV1C    66.9     2e-18   1   1.8  35.8    Tegument protein VP22 OS=Bovine herpesvirus 1.1 (strain Cooper) OX=10323 GN=UL49 PE=1 SV=2
+sp|Q9E6M7|VP22_GAHVM    63.5   2.2e-17   2   1.8   2.8    Tegument protein VP22 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV062 PE=3 SV=1
+sp|Q6UDL8|VP22_PSHV1    12.5     0.076   2   2.6  27.3    Tegument protein VP22 OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL49 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P10233|VP22_HHV11   195.4   1.5e-57     1  31.1      1    301      1    299      1    284     Tegument protein VP22 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL49 PE=1 SV=1
+sp|P89468|VP22_HHV2H   183.8   5.1e-54     1  33.7      1    300      9    298      5    284     Tegument protein VP22 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL49 PE=3 SV=1
+sp|Q00039|VP22_EHV4     86.0   3.2e-24     1   9.0     92    279    108    255    124    258     Tegument protein VP22 OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=11 PE=3 SV=1
+sp|P28960|VP22_EHV1B    85.7   3.8e-24     1  10.8    104    294    119    285    120    277     Tegument protein VP22 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=11 PE=3 SV=1
+sp|P09272|VP22_VZVD     74.7     9e-21     1   4.0     96    265    147    239    159    251     Tegument protein VP22 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF9 PE=3 SV=1
+sp|Q4JQW6|VP22_VZVO     74.5     1e-20     1   4.2     92    261    147    239    159    251     Tegument protein VP22 OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF9 PE=1 SV=1
+sp|P30022|VP22_BHV1C    64.7   9.4e-18     1  35.8     27    257     64    236     85    256     Tegument protein VP22 OS=Bovine herpesvirus 1.1 (strain Cooper) OX=10323 GN=UL49 PE=1 SV=2
+sp|Q9E6M7|VP22_GAHVM    63.5   2.2e-17     1   2.8     11    211     76    175    151    249     Tegument protein VP22 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV062 PE=3 SV=1
+sp|Q6UDL8|VP22_PSHV1     8.8       1.1     1  23.9     14    260     50    226     60    252     Tegument protein VP22 OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL49 PE=3 SV=1
+sp|P09272|VP22_VZVD      0.2   4.4e+02     2   1.7    260    302    278    298    259    281     Tegument protein VP22 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF9 PE=3 SV=1
+sp|Q4JQW6|VP22_VZVO     -0.1   5.6e+02     2   2.0    263    302    278    298    259    281     Tegument protein VP22 OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF9 PE=1 SV=1
+sp|Q9E6M7|VP22_GAHVM    -0.8   8.8e+02     2   1.2    176    247    204    239     61     96     Tegument protein VP22 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV062 PE=3 SV=1
+sp|Q6UDL8|VP22_PSHV1    -1.4   1.4e+03     2   0.4    230    283    248    277    107    136     Tegument protein VP22 OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL49 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_164492@NC_006560.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_164492@NC_006560.txt data/models_hmm/YP_164492@NC_006560.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:08 2021
+# [ok]

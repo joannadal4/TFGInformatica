@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41708|AC152_NPVAC    13.7      0.03   1   1.1   0.1    Protein AC152 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC152 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41708|AC152_NPVAC    13.6     0.033     1   0.1      4     74     13     55    110    152     Protein AC152 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC152 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001111364@NC_009240.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001111364@NC_009240.txt data/models_hmm/YP_001111364@NC_009240.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:03 2021
+# [ok]

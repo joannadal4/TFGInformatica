@@ -1,0 +1,104 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q070J7|PAP1_CPRVZ   119.9   1.2e-34   2   2.3  14.0    Poly(A) polymerase catalytic subunit OS=Nile crocodilepox virus (isolate Crocodylus niloticus/Zimbabwe/Ume/2001) OX=1289473 GN=PAPL PE=3 SV=1
+sp|Q6VZL8|PAP1_CNPV     99.6   1.7e-28   2   2.7  44.5    Poly(A) polymerase catalytic subunit OS=Canarypox virus OX=44088 GN=PAPL PE=3 SV=1
+sp|P0DTA7|PAP1_FOWPN    97.5   7.2e-28   2   2.5  23.4    Poly(A) polymerase catalytic subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=PAPL PE=3 SV=1
+sp|P0DTA8|PAP1_FOWPV    97.5   7.2e-28   2   2.5  23.4    Poly(A) polymerase catalytic subunit OS=Fowlpox virus OX=10261 GN=PAPL PE=3 SV=1
+sp|Q08FE1|PAP1_DPV84    96.9   1.1e-27   2   2.5  40.8    Poly(A) polymerase catalytic subunit OS=Deerpox virus (strain W-1170-84) OX=305676 GN=PAPL PE=3 SV=1
+sp|P0DOM1|PAP1_VAR67    95.6   2.7e-27   2   2.6  33.3    Poly(A) polymerase catalytic subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=PAPL PE=3 SV=1
+sp|P0DOM2|PAP1_VARV     95.6   2.7e-27   2   2.6  33.3    Poly(A) polymerase catalytic subunit OS=Variola virus OX=10255 GN=PAPL PE=3 SV=1
+sp|Q6RZP5|PAP1_RABPU    95.2   3.7e-27   2   2.6  42.2    Poly(A) polymerase catalytic subunit OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=PAPL PE=3 SV=1
+sp|Q80E12|PAP1_CWPXG    95.2   3.7e-27   2   2.6  42.2    Poly(A) polymerase catalytic subunit OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=PAPL PE=3 SV=1
+sp|O57184|PAP1_VACCA    95.2   3.7e-27   2   2.6  42.2    Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=PAPL PE=3 SV=1
+sp|P23371|PAP1_VACCW    95.1   3.9e-27   2   2.6  42.7    Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=PAPL PE=1 SV=2
+sp|Q8JLG4|PAP1_ECTVM    94.7     5e-27   2   2.6  31.8    Poly(A) polymerase catalytic subunit OS=Ectromelia virus (strain Moscow) OX=265874 GN=PAPL PE=3 SV=1
+sp|Q8QQ67|PAP1_CAMPS    94.5   5.7e-27   2   2.6  42.6    Poly(A) polymerase catalytic subunit OS=Camelpox virus (strain CMS) OX=203172 GN=PAPL PE=3 SV=1
+sp|P21079|PAP1_VACCC    94.4   6.1e-27   2   2.7  42.9    Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PAPL PE=3 SV=1
+sp|Q8QMZ9|PAP1_CWPXB    94.3   6.5e-27   2   2.6  41.9    Poly(A) polymerase catalytic subunit OS=Cowpox virus (strain Brighton Red) OX=265872 GN=PAPL PE=3 SV=1
+sp|Q8V2W4|PAP1_CAMPM    94.2   7.2e-27   2   2.6  42.7    Poly(A) polymerase catalytic subunit OS=Camelpox virus (strain M-96) OX=203173 GN=PAPL PE=3 SV=1
+sp|Q9Q944|PAP1_RFVKA    94.1   7.7e-27   2   2.9  33.7    Poly(A) polymerase catalytic subunit OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=PAPL PE=3 SV=1
+sp|Q9DHT0|PAP1_YLDV     93.4   1.3e-26   2   2.7  40.4    Poly(A) polymerase catalytic subunit OS=Yaba-like disease virus OX=132475 GN=PAPL PE=3 SV=1
+sp|Q91MX5|PAP1_LSDVN    93.1   1.5e-26   2   2.9  30.9    Poly(A) polymerase catalytic subunit OS=Lumpy skin disease virus (isolate Bovine/Kenya/Neethling 2490/1958) OX=376849 GN=PAPL PE=3 SV=1
+sp|Q98199|PAP1_MCV1     93.0   1.7e-26   3   2.5  11.4    Poly(A) polymerase catalytic subunit OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=PAPL PE=3 SV=1
+sp|Q08FW1|PAP1_DPV83    93.0   1.7e-26   2   2.5  43.2    Poly(A) polymerase catalytic subunit OS=Deerpox virus (strain Mule deer/United States/W-848-83/1983) OX=305674 GN=PAPL PE=3 SV=1
+sp|Q0GP30|PAP1_HSPV     92.2   2.9e-26   2   2.7  43.8    Poly(A) polymerase catalytic subunit OS=Horsepox virus OX=397342 GN=PAPL PE=3 SV=1
+sp|Q9Q8R9|PAP1_MYXVL    92.0   3.4e-26   2   3.0  32.3    Poly(A) polymerase catalytic subunit OS=Myxoma virus (strain Lausanne) OX=31530 GN=PAPL PE=3 SV=1
+sp|Q8V3R4|PAP1_SWPV1    91.3   5.4e-26   2   2.7  45.6    Poly(A) polymerase catalytic subunit OS=Swinepox virus (strain Swine/Nebraska/17077-99/1999) OX=300880 GN=PAPL PE=3 SV=1
+sp|Q6TUY0|PAP1_YMTV5    91.3   5.5e-26   2   2.8  36.4    Poly(A) polymerase catalytic subunit OS=Yaba monkey tumor virus (strain VR587) OX=928314 GN=PAPL PE=3 SV=1
+sp|Q9JFD9|PAP1_VACCT    91.3   5.5e-26   2   2.6  41.6    Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=PAPL PE=3 SV=1
+sp|Q2F8F7|PAP1_ORFN2    91.2   5.8e-26   3   2.5   0.0    Poly(A) polymerase catalytic subunit OS=Orf virus (strain NZ2) OX=10259 GN=PAPL PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q070J7|PAP1_CPRVZ   115.9     2e-33     1  14.5      7    315     10    309      4    319     Poly(A) polymerase catalytic subunit OS=Nile crocodilepox virus (isolate Crocodylus niloticus/Zimbabwe/Ume/2001) OX=1289473 GN=PAPL PE=3 SV=1
+sp|P0DTA7|PAP1_FOWPN    97.5   7.2e-28     1  23.4     11    317     12    308      2    317     Poly(A) polymerase catalytic subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=PAPL PE=3 SV=1
+sp|P0DTA8|PAP1_FOWPV    97.5   7.2e-28     1  23.4     11    317     12    308      2    317     Poly(A) polymerase catalytic subunit OS=Fowlpox virus OX=10261 GN=PAPL PE=3 SV=1
+sp|P0DOM1|PAP1_VAR67    95.6   2.7e-27     1  33.3     18    353     36    334     18    333     Poly(A) polymerase catalytic subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=PAPL PE=3 SV=1
+sp|P0DOM2|PAP1_VARV     95.6   2.7e-27     1  33.3     18    353     36    334     18    333     Poly(A) polymerase catalytic subunit OS=Variola virus OX=10255 GN=PAPL PE=3 SV=1
+sp|Q8JLG4|PAP1_ECTVM    94.7     5e-27     1  31.8     18    341     36    318     18    319     Poly(A) polymerase catalytic subunit OS=Ectromelia virus (strain Moscow) OX=265874 GN=PAPL PE=3 SV=1
+sp|O57184|PAP1_VACCA    94.5     6e-27     1  33.3     18    356     33    334     16    333     Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=PAPL PE=3 SV=1
+sp|Q6RZP5|PAP1_RABPU    94.5     6e-27     1  33.3     18    356     33    334     16    333     Poly(A) polymerase catalytic subunit OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=PAPL PE=3 SV=1
+sp|Q80E12|PAP1_CWPXG    94.5     6e-27     1  33.3     18    356     33    334     16    333     Poly(A) polymerase catalytic subunit OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=PAPL PE=3 SV=1
+sp|P23371|PAP1_VACCW    94.3   6.7e-27     1  33.8     18    356     33    334     16    333     Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=PAPL PE=1 SV=2
+sp|Q8QMZ9|PAP1_CWPXB    94.0   8.5e-27     1  32.5     18    352     33    330     16    329     Poly(A) polymerase catalytic subunit OS=Cowpox virus (strain Brighton Red) OX=265872 GN=PAPL PE=3 SV=1
+sp|Q8QQ67|PAP1_CAMPS    93.9   8.7e-27     1  33.2     20    350     38    334     20    333     Poly(A) polymerase catalytic subunit OS=Camelpox virus (strain CMS) OX=203172 GN=PAPL PE=3 SV=1
+sp|P21079|PAP1_VACCC    93.9   9.1e-27     1  33.5     18    351     33    334     16    333     Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PAPL PE=3 SV=1
+sp|Q9Q944|PAP1_RFVKA    93.8   9.6e-27     1  23.2     12    333     29    306     20    317     Poly(A) polymerase catalytic subunit OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=PAPL PE=3 SV=1
+sp|Q91MX5|PAP1_LSDVN    93.1   1.5e-26     1  30.9     10    367     13    347      4    365     Poly(A) polymerase catalytic subunit OS=Lumpy skin disease virus (isolate Bovine/Kenya/Neethling 2490/1958) OX=376849 GN=PAPL PE=3 SV=1
+sp|Q8V2W4|PAP1_CAMPM    93.0   1.7e-26     1  34.0     20    356     38    333     20    332     Poly(A) polymerase catalytic subunit OS=Camelpox virus (strain M-96) OX=203173 GN=PAPL PE=3 SV=1
+sp|Q9DHT0|PAP1_YLDV     92.9   1.8e-26     1  28.1     11    331     27    306     18    317     Poly(A) polymerase catalytic subunit OS=Yaba-like disease virus OX=132475 GN=PAPL PE=3 SV=1
+sp|Q0GP30|PAP1_HSPV     91.7   4.2e-26     1  34.3     18    351     31    334     14    333     Poly(A) polymerase catalytic subunit OS=Horsepox virus OX=397342 GN=PAPL PE=3 SV=1
+sp|Q9JFD9|PAP1_VACCT    91.1   6.1e-26     1  31.9     18    349     33    330     16    329     Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=PAPL PE=3 SV=1
+sp|Q6VZL8|PAP1_CNPV     91.0   6.8e-26     1  30.5     14    345     26    309     15    318     Poly(A) polymerase catalytic subunit OS=Canarypox virus OX=44088 GN=PAPL PE=3 SV=1
+sp|Q08FE1|PAP1_DPV84    90.9   7.3e-26     1  34.2     12    365     30    351     21    369     Poly(A) polymerase catalytic subunit OS=Deerpox virus (strain W-1170-84) OX=305676 GN=PAPL PE=3 SV=1
+sp|Q9Q8R9|PAP1_MYXVL    90.8   7.7e-26     1  22.3     12    331     29    306     20    317     Poly(A) polymerase catalytic subunit OS=Myxoma virus (strain Lausanne) OX=31530 GN=PAPL PE=3 SV=1
+sp|Q6TUY0|PAP1_YMTV5    90.7     8e-26     1  25.3     12    348     29    320     20    329     Poly(A) polymerase catalytic subunit OS=Yaba monkey tumor virus (strain VR587) OX=928314 GN=PAPL PE=3 SV=1
+sp|Q08FW1|PAP1_DPV83    89.1   2.6e-25     1  35.4     12    363     30    336     21    354     Poly(A) polymerase catalytic subunit OS=Deerpox virus (strain Mule deer/United States/W-848-83/1983) OX=305674 GN=PAPL PE=3 SV=1
+sp|Q8V3R4|PAP1_SWPV1    86.2     2e-24     1  29.0     11    326     28    309     19    320     Poly(A) polymerase catalytic subunit OS=Swinepox virus (strain Swine/Nebraska/17077-99/1999) OX=300880 GN=PAPL PE=3 SV=1
+sp|Q98199|PAP1_MCV1     80.6   9.4e-23     2   1.7    137    324    165    306    177    317     Poly(A) polymerase catalytic subunit OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=PAPL PE=3 SV=1
+sp|Q2F8F7|PAP1_ORFN2    69.0   3.1e-19     2   0.0    145    309    153    305    166    317     Poly(A) polymerase catalytic subunit OS=Orf virus (strain NZ2) OX=10259 GN=PAPL PE=3 SV=1
+sp|Q2F8F7|PAP1_ORFN2    19.4   0.00033     1   0.0      8    129     27    102     21     99     Poly(A) polymerase catalytic subunit OS=Orf virus (strain NZ2) OX=10259 GN=PAPL PE=3 SV=1
+sp|Q98199|PAP1_MCV1     18.6   0.00057     1   0.6     18    107     31    100     22     94     Poly(A) polymerase catalytic subunit OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=PAPL PE=3 SV=1
+sp|Q8V3R4|PAP1_SWPV1     9.7      0.29     2   9.1    310    470    330    468    406    539     Poly(A) polymerase catalytic subunit OS=Swinepox virus (strain Swine/Nebraska/17077-99/1999) OX=300880 GN=PAPL PE=3 SV=1
+sp|Q6VZL8|PAP1_CNPV      9.2       0.4     2  10.8    311    472    342    469    412    538     Poly(A) polymerase catalytic subunit OS=Canarypox virus OX=44088 GN=PAPL PE=3 SV=1
+sp|Q08FE1|PAP1_DPV84     6.4       2.8     2   4.2    327    470    378    468    438    539     Poly(A) polymerase catalytic subunit OS=Deerpox virus (strain W-1170-84) OX=305676 GN=PAPL PE=3 SV=1
+sp|P0DTA7|PAP1_FOWPN     5.0       7.4     2   3.4    327    472    379    469    437    538     Poly(A) polymerase catalytic subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=PAPL PE=3 SV=1
+sp|P0DTA8|PAP1_FOWPV     5.0       7.4     2   3.4    327    472    379    469    437    538     Poly(A) polymerase catalytic subunit OS=Fowlpox virus OX=10261 GN=PAPL PE=3 SV=1
+sp|Q08FW1|PAP1_DPV83     4.6       9.6     2   5.1    325    470    350    468    421    539     Poly(A) polymerase catalytic subunit OS=Deerpox virus (strain Mule deer/United States/W-848-83/1983) OX=305674 GN=PAPL PE=3 SV=1
+sp|Q9DHT0|PAP1_YLDV      4.5        10     2   4.8    326    470    347    468    418    539     Poly(A) polymerase catalytic subunit OS=Yaba-like disease virus OX=132475 GN=PAPL PE=3 SV=1
+sp|Q8QQ67|PAP1_CAMPS     3.6        20     2   3.4    334    478    356    476    418    538     Poly(A) polymerase catalytic subunit OS=Camelpox virus (strain CMS) OX=203172 GN=PAPL PE=3 SV=1
+sp|Q8QMZ9|PAP1_CWPXB     3.6        21     2   3.3    335    478    356    476    418    538     Poly(A) polymerase catalytic subunit OS=Cowpox virus (strain Brighton Red) OX=265872 GN=PAPL PE=3 SV=1
+sp|O57184|PAP1_VACCA     3.4        22     2   3.5    334    478    356    476    418    538     Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=PAPL PE=3 SV=1
+sp|Q6RZP5|PAP1_RABPU     3.4        22     2   3.5    334    478    356    476    418    538     Poly(A) polymerase catalytic subunit OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=PAPL PE=3 SV=1
+sp|Q80E12|PAP1_CWPXG     3.4        22     2   3.5    334    478    356    476    418    538     Poly(A) polymerase catalytic subunit OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=PAPL PE=3 SV=1
+sp|Q9JFD9|PAP1_VACCT     3.4        22     2   3.6    333    478    356    476    418    538     Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=PAPL PE=3 SV=1
+sp|Q0GP30|PAP1_HSPV      3.4        23     2   3.5    335    478    356    476    418    538     Poly(A) polymerase catalytic subunit OS=Horsepox virus OX=397342 GN=PAPL PE=3 SV=1
+sp|P21079|PAP1_VACCC     3.4        23     2   3.5    336    478    357    476    419    538     Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PAPL PE=3 SV=1
+sp|P23371|PAP1_VACCW     3.3        24     2   3.6    334    478    356    476    418    538     Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=PAPL PE=1 SV=2
+sp|Q6TUY0|PAP1_YMTV5     3.1        29     2   4.8    327    470    347    468    418    539     Poly(A) polymerase catalytic subunit OS=Yaba monkey tumor virus (strain VR587) OX=928314 GN=PAPL PE=3 SV=1
+sp|Q8V2W4|PAP1_CAMPM     3.0        30     2   4.2    329    478    355    476    417    538     Poly(A) polymerase catalytic subunit OS=Camelpox virus (strain M-96) OX=203173 GN=PAPL PE=3 SV=1
+sp|P0DOM1|PAP1_VAR67     2.9        33     2   4.5    333    478    358    476    420    538     Poly(A) polymerase catalytic subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=PAPL PE=3 SV=1
+sp|P0DOM2|PAP1_VARV      2.9        33     2   4.5    333    478    358    476    420    538     Poly(A) polymerase catalytic subunit OS=Variola virus OX=10255 GN=PAPL PE=3 SV=1
+sp|Q91MX5|PAP1_LSDVN     2.6        41     2   2.8    347    474    363    472    420    539     Poly(A) polymerase catalytic subunit OS=Lumpy skin disease virus (isolate Bovine/Kenya/Neethling 2490/1958) OX=376849 GN=PAPL PE=3 SV=1
+sp|Q8JLG4|PAP1_ECTVM     2.6        41     2   3.1    333    478    357    476    419    538     Poly(A) polymerase catalytic subunit OS=Ectromelia virus (strain Moscow) OX=265874 GN=PAPL PE=3 SV=1
+sp|Q9Q8R9|PAP1_MYXVL     2.5        42     2   2.8    307    470    358    468    419    539     Poly(A) polymerase catalytic subunit OS=Myxoma virus (strain Lausanne) OX=31530 GN=PAPL PE=3 SV=1
+sp|Q9Q944|PAP1_RFVKA     2.2        54     2   3.4    307    470    356    468    417    539     Poly(A) polymerase catalytic subunit OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=PAPL PE=3 SV=1
+sp|Q070J7|PAP1_CPRVZ    -0.1   2.7e+02     2   0.0    433    472    446    470    515    539     Poly(A) polymerase catalytic subunit OS=Nile crocodilepox virus (isolate Crocodylus niloticus/Zimbabwe/Ume/2001) OX=1289473 GN=PAPL PE=3 SV=1
+sp|Q98199|PAP1_MCV1     -2.0   9.6e+02     3   0.1    351    469    363    467    431    538     Poly(A) polymerase catalytic subunit OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=PAPL PE=3 SV=1
+sp|Q2F8F7|PAP1_ORFN2    -2.2   1.2e+03     3   0.0    361    471    443    469    510    538     Poly(A) polymerase catalytic subunit OS=Orf virus (strain NZ2) OX=10259 GN=PAPL PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_009001619@NC_023426.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_009001619@NC_023426.txt data/models_hmm/YP_009001619@NC_023426.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:48 2021
+# [ok]

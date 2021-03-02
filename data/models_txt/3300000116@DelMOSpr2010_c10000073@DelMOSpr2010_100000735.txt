@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P19274|VTPX_TTV1K    12.8     0.076   2   2.7   0.1    Viral protein TPX OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+sp|P19275|VTP3_TTV1V    11.7      0.17   2   2.6   0.2    Viral protein TPX OS=Thermoproteus tenax virus 1 (strain VT3) OX=10481 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P19274|VTPX_TTV1K     5.2        18     1   0.0    289    311    291    305      3     17     Viral protein TPX OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+sp|P19275|VTP3_TTV1V     4.7        26     1   0.0    365    384    367    381      3     17     Viral protein TPX OS=Thermoproteus tenax virus 1 (strain VT3) OX=10481 PE=4 SV=1
+sp|P19274|VTPX_TTV1K     4.6        27     2   0.0    320    339    322    336      3     17     Viral protein TPX OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+sp|P19275|VTP3_TTV1V     4.2        37     2   0.0    434    453    436    450      3     17     Viral protein TPX OS=Thermoproteus tenax virus 1 (strain VT3) OX=10481 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000116@DelMOSpr2010_c10000073@DelMOSpr2010_100000735.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000116@DelMOSpr2010_c10000073@DelMOSpr2010_100000735.txt data/models_hmm/3300000116@DelMOSpr2010_c10000073@DelMOSpr2010_100000735.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:38 2021
+# [ok]

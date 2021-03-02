@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q65173|VF407_ASFB7   190.5   1.3e-56   1   1.4   0.0    Uncharacterized protein B407L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-084 PE=3 SV=1
+sp|P0CAG4|VF407_ASFP4   186.6   2.1e-55   1   1.4   0.0    Uncharacterized protein B407L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-096 PE=3 SV=1
+sp|P0CAG5|VF407_ASFWA   186.6   2.1e-55   1   1.4   0.0    Uncharacterized protein B407L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-094 PE=3 SV=1
+sp|P0CAG3|VF407_ASFK5   175.3   6.6e-52   1   1.5   0.1    Uncharacterized protein B407L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-096 PE=3 SV=1
+sp|Q8V9R9|VF407_ASFM2   173.6   2.2e-51   1   1.4   0.1    Uncharacterized protein B407L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-092 PE=3 SV=2
+sp|P33813|RP19_VAR67     14.0     0.049   1   1.5   0.2    DNA-directed RNA polymerase 19 kDa subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=RPO19 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q65173|VF407_ASFB7   190.1   1.8e-56     1   0.0     38    407    174    407      2    131     Uncharacterized protein B407L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-084 PE=3 SV=1
+sp|P0CAG4|VF407_ASFP4   185.6   4.4e-55     1   0.0    178    412    179    412      2    131     Uncharacterized protein B407L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-096 PE=3 SV=1
+sp|P0CAG5|VF407_ASFWA   185.6   4.4e-55     1   0.0    178    412    179    412      2    131     Uncharacterized protein B407L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-094 PE=3 SV=1
+sp|P0CAG3|VF407_ASFK5   174.5   1.2e-51     1   0.1     89    410    177    410      2    131     Uncharacterized protein B407L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-096 PE=3 SV=1
+sp|Q8V9R9|VF407_ASFM2   173.0   3.4e-51     1   0.1     92    421    188    421      2    131     Uncharacterized protein B407L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-092 PE=3 SV=2
+sp|P33813|RP19_VAR67     13.1     0.089     1   0.2     11    114     30    112     52    129     DNA-directed RNA polymerase 19 kDa subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=RPO19 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004894030@NC_016071.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004894030@NC_016071.txt data/models_hmm/YP_004894030@NC_016071.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:37 2021
+# [ok]

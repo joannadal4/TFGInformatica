@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q08316|P39_PCV87     15.7      0.01   3   2.6   0.5    Protein P39 OS=Peanut clump virus (isolate 87/TGTA2) OX=652837 PE=4 SV=1
+sp|Q6GZS6|050L_FRG3G    10.9       0.3   2   1.6   6.0    Uncharacterized protein 050L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-050L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q08316|P39_PCV87     12.2      0.12     3   0.1    272    357    278    351      7     73     Protein P39 OS=Peanut clump virus (isolate 87/TGTA2) OX=652837 PE=4 SV=1
+sp|Q6GZS6|050L_FRG3G    11.7      0.18     2   4.1     85    178    100    173     21     94     Uncharacterized protein 050L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-050L PE=4 SV=1
+sp|Q08316|P39_PCV87      1.3   2.8e+02     2   0.0    251    287    254    279      5     30     Protein P39 OS=Peanut clump virus (isolate 87/TGTA2) OX=652837 PE=4 SV=1
+sp|Q08316|P39_PCV87     -2.2   3.3e+03     1   0.0     84    111     89    103     76     90     Protein P39 OS=Peanut clump virus (isolate 87/TGTA2) OX=652837 PE=4 SV=1
+sp|Q6GZS6|050L_FRG3G    -3.4   7.5e+03     1   0.0     46     73     50     63      5     18     Uncharacterized protein 050L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-050L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGN33839@HQ332141.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGN33839@HQ332141.txt data/models_hmm/AGN33839@HQ332141.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:56 2021
+# [ok]

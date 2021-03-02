@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13200|CEP3_HCMVA     6.3       1.5   1   1.0   6.6    Cytoplasmic envelopment protein 3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL99 PE=1 SV=3
+sp|F5HI87|CEP3_HCMVM     5.7       2.3   1   1.0   6.1    Cytoplasmic envelopment protein 3 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL99 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13200|CEP3_HCMVA     6.0       1.9     1   6.6     27    141     39    131    807    897     Cytoplasmic envelopment protein 3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL99 PE=1 SV=3
+sp|F5HI87|CEP3_HCMVM     5.4       2.9     1   6.1     27    141     39    131    807    897     Cytoplasmic envelopment protein 3 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL99 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002321402@NC_011588.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002321402@NC_011588.txt data/models_hmm/YP_002321402@NC_011588.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:05 2021
+# [ok]

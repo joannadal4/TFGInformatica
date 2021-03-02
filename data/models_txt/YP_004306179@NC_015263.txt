@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P14364|V248_FOWPN    13.4      0.05   1   1.9   0.0    Uncharacterized protein FPV248 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV248 PE=4 SV=1
+sp|Q9J531|V204_FOWPN    11.4      0.22   3   2.6   1.7    Uncharacterized serpin-like protein FPV204 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV204 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P14364|V248_FOWPN    11.7      0.18     1   0.0     52     97     55     91      5     40     Uncharacterized protein FPV248 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV248 PE=4 SV=1
+sp|Q9J531|V204_FOWPN     9.4      0.91     2   0.4    150    183    154    177     16     39     Uncharacterized serpin-like protein FPV204 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV204 PE=3 SV=1
+sp|Q9J531|V204_FOWPN    -1.1   1.7e+03     3   0.0    289    331    291    297     17     23     Uncharacterized serpin-like protein FPV204 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV204 PE=3 SV=1
+sp|Q9J531|V204_FOWPN    -3.1   7.4e+03     1   0.0     74     94     80     93     11     24     Uncharacterized serpin-like protein FPV204 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV204 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004306179@NC_015263.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004306179@NC_015263.txt data/models_hmm/YP_004306179@NC_015263.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:16 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HI68|UL19_HCMVM   162.2   2.5e-48   1   1.0   0.6    Uncharacterized protein UL19 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL19 PE=3 SV=1
+sp|P16723|UL19_HCMVA   161.8   3.2e-48   1   1.0   0.3    Uncharacterized protein UL19 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL19 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HI68|UL19_HCMVM   162.0   2.7e-48     1   0.6      1     98      1     97      1     97     Uncharacterized protein UL19 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL19 PE=3 SV=1
+sp|P16723|UL19_HCMVA   161.7   3.5e-48     1   0.3      1     98      1     97      1     97     Uncharacterized protein UL19 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL19 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_612663@NC_003521.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_612663@NC_003521.txt data/models_hmm/NP_612663@NC_003521.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:10 2021
+# [ok]

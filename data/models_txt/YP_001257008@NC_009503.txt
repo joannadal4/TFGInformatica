@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q196U2|118R_IIV3      15.4     0.021   1   1.1   0.5    Uncharacterized protein 118R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-118R PE=4 SV=1
+sp|Q5MKM7|PHOSP_MPV15    11.3      0.41   3   2.5   3.0    Phosphoprotein OS=Murine pneumonia virus (strain 15) OX=296738 GN=P PE=3 SV=1
+sp|P0C9U6|5059R_ASFK5    10.9      0.52   2   2.4   2.9    Protein MGF 505-9R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-044 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q196U2|118R_IIV3      15.3     0.022     1   0.5      1     72     13     66     13     66     Uncharacterized protein 118R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-118R PE=4 SV=1
+sp|Q5MKM7|PHOSP_MPV15    11.2      0.44     2   0.0    160    244    169    203     35     69     Phosphoprotein OS=Murine pneumonia virus (strain 15) OX=296738 GN=P PE=3 SV=1
+sp|P0C9U6|5059R_ASFK5     8.5       2.9     2   0.5    353    421    358    413      8     63     Protein MGF 505-9R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-044 PE=3 SV=1
+sp|P0C9U6|5059R_ASFK5     1.8   3.7e+02     1   0.1    279    328    282    326     27     71     Protein MGF 505-9R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-044 PE=3 SV=1
+sp|Q5MKM7|PHOSP_MPV15    -0.2   1.5e+03     3   0.3    220    291    231    258     16     43     Phosphoprotein OS=Murine pneumonia virus (strain 15) OX=296738 GN=P PE=3 SV=1
+sp|Q5MKM7|PHOSP_MPV15    -2.3     7e+03     1   0.1     82    129     99    122     57     81     Phosphoprotein OS=Murine pneumonia virus (strain 15) OX=296738 GN=P PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001257008@NC_009503.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001257008@NC_009503.txt data/models_hmm/YP_001257008@NC_009503.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:05 2021
+# [ok]

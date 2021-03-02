@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ68|YR505_MIMIV   354.6  5.5e-106   2   2.0  76.0    Uncharacterized protein R505 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R505 PE=4 SV=1
+sp|Q5UQ66|YR503_MIMIV    25.3   7.2e-06   2   2.7  13.5    Uncharacterized protein R503 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R503 PE=4 SV=1
+sp|Q5UPT2|UNG_MIMIV       8.3       1.1   1   1.2  20.4    Probable uracil-DNA glycosylase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=UNG PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ68|YR505_MIMIV   350.8  7.8e-105     1  52.7      1    368      1    367      1    346     Uncharacterized protein R505 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R505 PE=4 SV=1
+sp|Q5UQ66|YR503_MIMIV    25.2   7.5e-06     2   8.7     68    222     73    212    101    255     Uncharacterized protein R503 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R503 PE=4 SV=1
+sp|Q5UQ68|YR505_MIMIV    12.3     0.064     2  32.5    341    402    343    402    296    352     Uncharacterized protein R505 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R505 PE=4 SV=1
+sp|Q5UPT2|UNG_MIMIV       7.7       1.6     1  20.4      2    113     19     83    261    325     Probable uracil-DNA glycosylase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=UNG PE=1 SV=1
+sp|Q5UQ66|YR503_MIMIV     0.6   2.3e+02     1   0.2      1     61      9     42     13     54     Uncharacterized protein R503 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R503 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000736@JGI12547J11936_1000036@JGI12547J11936_100003611.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000736@JGI12547J11936_1000036@JGI12547J11936_100003611.txt data/models_hmm/3300000736@JGI12547J11936_1000036@JGI12547J11936_100003611.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:15 2021
+# [ok]

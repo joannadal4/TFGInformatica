@@ -1,0 +1,44 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03191|EAD_EBVB9     481.5    2e-144   1   1.0   0.0    DNA polymerase processivity factor BMRF1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BMRF1 PE=1 SV=1
+sp|P0C6Z0|EAD_EBVA8     481.5    2e-144   1   1.0   0.0    DNA polymerase processivity factor BMRF1 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BMRF1 PE=3 SV=1
+sp|Q3KSU3|EAD_EBVG      480.4  4.2e-144   1   1.0   0.0    DNA polymerase processivity factor BMRF1 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BMRF1 PE=3 SV=1
+sp|O36409|VG59_ALHV1    462.9    9e-139   1   1.0   7.3    DNA polymerase processivity factor OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=59 PE=3 SV=1
+sp|Q66661|VG59_EHV2     457.9  2.8e-137   1   1.0   0.0    DNA polymerase processivity factor OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=59 PE=3 SV=1
+sp|Q01052|VG59_SHV21    453.0    9e-136   1   1.9   8.9    Gene 59 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=59 PE=4 SV=1
+sp|F5HID2|PAP_HHV8P     447.7  3.5e-134   1   1.0   0.0    DNA polymerase processivity factor OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF59 PE=3 SV=1
+sp|Q6UDI9|PAP_PSHV1      15.5    0.0067   2   1.6   0.0    DNA polymerase processivity factor OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL42 PE=3 SV=1
+sp|O36398|BRLF1_ALHV1     5.5       7.3   1   1.4   7.5    Putative transcription activator BRLF1 homolog OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=50 PE=3 SV=1
+sp|P68337|ICP22_EHV1K     5.3       8.3   1   1.2   9.3    Transcriptional regulator ICP22 homolog OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=IR4 PE=1 SV=1
+sp|Q6S6W5|ICP22_EHV1B     5.3       8.3   1   1.2   9.3    Transcriptional regulator ICP22 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=IR4 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03191|EAD_EBVB9     481.3  2.2e-144     1   0.0      1    404      1    404      1    393     DNA polymerase processivity factor BMRF1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BMRF1 PE=1 SV=1
+sp|P0C6Z0|EAD_EBVA8     481.3  2.2e-144     1   0.0      1    404      1    404      1    393     DNA polymerase processivity factor BMRF1 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BMRF1 PE=3 SV=1
+sp|Q3KSU3|EAD_EBVG      480.2  4.7e-144     1   0.0      1    404      1    404      1    393     DNA polymerase processivity factor BMRF1 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BMRF1 PE=3 SV=1
+sp|O36409|VG59_ALHV1    462.7    1e-138     1   7.3      1    411      1    411      1    393     DNA polymerase processivity factor OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=59 PE=3 SV=1
+sp|Q66661|VG59_EHV2     457.8  3.2e-137     1   0.0      5    414      5    414      1    393     DNA polymerase processivity factor OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=59 PE=3 SV=1
+sp|Q01052|VG59_SHV21    450.0  7.3e-135     1   8.9      7    368      8    368      2    393     Gene 59 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=59 PE=4 SV=1
+sp|F5HID2|PAP_HHV8P     447.6    4e-134     1   0.0      3    396      3    396      1    393     DNA polymerase processivity factor OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF59 PE=3 SV=1
+sp|Q6UDI9|PAP_PSHV1      14.0     0.019     2   0.0    289    469    311    456    240    375     DNA polymerase processivity factor OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL42 PE=3 SV=1
+sp|P68337|ICP22_EHV1K     4.9        11     1   9.3    186    293    201    292    303    386     Transcriptional regulator ICP22 homolog OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=IR4 PE=1 SV=1
+sp|Q6S6W5|ICP22_EHV1B     4.9        11     1   9.3    186    293    201    292    303    386     Transcriptional regulator ICP22 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=IR4 PE=3 SV=1
+sp|O36398|BRLF1_ALHV1     4.7        13     1   7.5    286    398    304    396    300    391     Putative transcription activator BRLF1 homolog OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=50 PE=3 SV=1
+sp|Q6UDI9|PAP_PSHV1      -2.1   1.5e+03     1   0.0    179    236    188    224    153    191     DNA polymerase processivity factor OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL42 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_076551@NC_002665.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_076551@NC_002665.txt data/models_hmm/NP_076551@NC_002665.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:48 2021
+# [ok]

@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P05074|V29K_TRVTC    13.5     0.052   1   1.2   0.0    29 kDa protein (Fragment) OS=Tobacco rattle virus (strain TCM) OX=12299 PE=4 SV=1
+sp|Q9QPN4|MVP_TRVPP     12.2      0.14   1   1.4   0.0    Movement protein OS=Tobacco rattle virus (isolate PpK20) OX=652939 PE=3 SV=1
+sp|P69472|V29K_TRVPS    12.2      0.14   1   1.4   0.0    29 kDa protein OS=Tobacco rattle virus (strain PSG) OX=12297 PE=4 SV=1
+sp|P69473|V29K_TRVSY    12.2      0.14   1   1.4   0.0    29 kDa protein OS=Tobacco rattle virus (strain SYM) OX=12298 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P05074|V29K_TRVTC    13.3     0.062     1   0.0     19     98     34     65     23     53     29 kDa protein (Fragment) OS=Tobacco rattle virus (strain TCM) OX=12299 PE=4 SV=1
+sp|P69472|V29K_TRVPS    11.3      0.25     1   0.0    142    210    156    187     23     53     29 kDa protein OS=Tobacco rattle virus (strain PSG) OX=12297 PE=4 SV=1
+sp|P69473|V29K_TRVSY    11.3      0.25     1   0.0    142    210    156    187     23     53     29 kDa protein OS=Tobacco rattle virus (strain SYM) OX=12298 PE=4 SV=1
+sp|Q9QPN4|MVP_TRVPP     11.3      0.25     1   0.0    142    210    156    187     23     53     Movement protein OS=Tobacco rattle virus (isolate PpK20) OX=652939 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006906503@NC_018840.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006906503@NC_018840.txt data/models_hmm/YP_006906503@NC_018840.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:25 2021
+# [ok]

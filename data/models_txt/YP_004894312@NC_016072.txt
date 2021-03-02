@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ56|YR710_MIMIV   265.4   2.5e-79   1   1.0   0.2    Uncharacterized protein R710 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R710 PE=1 SV=1
+sp|Q9E8F2|NSP5_ROTRF     13.8     0.044   1   1.4   1.9    Non-structural protein 5 OS=Rotavirus A (strain RVA/Cow/France/RF/1975/G6P6[1]) OX=10933 PE=1 SV=1
+sp|B2BRG5|NSP5_ROTW3     13.2     0.066   1   1.4   1.7    Non-structural protein 5 OS=Rotavirus A (strain RVA/Cow/United States/WC3/1981/G6P7[5]) OX=578828 PE=3 SV=1
+sp|Q06094|GN_HHV6U       10.0      0.65   1   1.1   2.4    Envelope glycoprotein N OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=gN PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ56|YR710_MIMIV   265.3   2.8e-79     1   0.2      1    194      1    194      1    178     Uncharacterized protein R710 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R710 PE=1 SV=1
+sp|Q9E8F2|NSP5_ROTRF     13.0     0.075     1   1.9     64    164     95    151     30     87     Non-structural protein 5 OS=Rotavirus A (strain RVA/Cow/France/RF/1975/G6P6[1]) OX=10933 PE=1 SV=1
+sp|B2BRG5|NSP5_ROTW3     12.5      0.11     1   1.7     64    164     95    151     30     87     Non-structural protein 5 OS=Rotavirus A (strain RVA/Cow/United States/WC3/1981/G6P7[5]) OX=578828 PE=3 SV=1
+sp|Q06094|GN_HHV6U        9.9      0.71     1   2.4     10     76     32     74    131    175     Envelope glycoprotein N OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=gN PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004894312@NC_016072.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004894312@NC_016072.txt data/models_hmm/YP_004894312@NC_016072.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:38 2021
+# [ok]

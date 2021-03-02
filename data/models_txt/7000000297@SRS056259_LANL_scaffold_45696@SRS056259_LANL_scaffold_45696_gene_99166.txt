@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R7A0|Y121_OSHVF    10.4      0.43   2   2.5   4.2    Putative zinc finger protein ORF121 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF121 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R7A0|Y121_OSHVF    10.1      0.55     1   0.7     61    101     76     93     16     33     Putative zinc finger protein ORF121 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF121 PE=4 SV=1
+sp|Q6R7A0|Y121_OSHVF     0.5   5.5e+02     2   0.1    162    208    175    195     46     64     Putative zinc finger protein ORF121 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF121 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000297@SRS056259_LANL_scaffold_45696@SRS056259_LANL_scaffold_45696_gene_99166.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000297@SRS056259_LANL_scaffold_45696@SRS056259_LANL_scaffold_45696_gene_99166.txt data/models_hmm/7000000297@SRS056259_LANL_scaffold_45696@SRS056259_LANL_scaffold_45696_gene_99166.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:00 2021
+# [ok]

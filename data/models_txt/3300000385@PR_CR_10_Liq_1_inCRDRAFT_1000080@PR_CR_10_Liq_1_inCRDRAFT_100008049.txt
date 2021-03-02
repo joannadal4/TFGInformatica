@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQF4|YL485_MIMIV    45.3   8.5e-12   2   1.9   0.6    Uncharacterized protein L485 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L485 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQF4|YL485_MIMIV    45.3   8.5e-12     2   0.6     62    153     69    144      9     82     Uncharacterized protein L485 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L485 PE=1 SV=1
+sp|Q5UQF4|YL485_MIMIV    -0.3   9.7e+02     1   0.2      4     60     28     51     76     98     Uncharacterized protein L485 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L485 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000385@PR_CR_10_Liq_1_inCRDRAFT_1000080@PR_CR_10_Liq_1_inCRDRAFT_100008049.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000385@PR_CR_10_Liq_1_inCRDRAFT_1000080@PR_CR_10_Liq_1_inCRDRAFT_100008049.txt data/models_hmm/3300000385@PR_CR_10_Liq_1_inCRDRAFT_1000080@PR_CR_10_Liq_1_inCRDRAFT_100008049.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:27 2021
+# [ok]

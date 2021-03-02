@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6QGT3|A1_BPT5      605.5  6.9e-182   1   1.0   0.6    Protein A1 OS=Escherichia phage T5 OX=10726 GN=A1 PE=1 SV=1
+sp|O64245|VG54_BPMD2     9.9      0.21   2   1.5   0.8    Gene 54 protein OS=Mycobacterium phage D29 OX=28369 GN=54 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6QGT3|A1_BPT5      605.2  8.2e-182     1   0.6     14    556     36    555      5    526     Protein A1 OS=Escherichia phage T5 OX=10726 GN=A1 PE=1 SV=1
+sp|O64245|VG54_BPMD2     8.5      0.56     2   1.0    132    218    143    190    444    486     Gene 54 protein OS=Mycobacterium phage D29 OX=28369 GN=54 PE=4 SV=1
+sp|O64245|VG54_BPMD2    -2.1   8.9e+02     1   0.0      5    104     16     65    289    337     Gene 54 protein OS=Mycobacterium phage D29 OX=28369 GN=54 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000301@SRS016092_WUGC_scaffold_3459@SRS016092_WUGC_scaffold_3459_gene_4526.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000301@SRS016092_WUGC_scaffold_3459@SRS016092_WUGC_scaffold_3459_gene_4526.txt data/models_hmm/7000000301@SRS016092_WUGC_scaffold_3459@SRS016092_WUGC_scaffold_3459_gene_4526.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:06 2021
+# [ok]

@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPJ3|YL116_MIMIV    18.7    0.0011   4   4.6   3.3    Uncharacterized protein L116 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L116 PE=3 SV=1
+sp|Q5UPI7|YL111_MIMIV    13.3     0.052   7   5.2  10.6    Uncharacterized protein L111 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L111 PE=3 SV=1
+sp|Q5UP41|YR871_MIMIV     9.1       1.1   4   3.8   6.4    Uncharacterized protein R871 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R871 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPI7|YL111_MIMIV     9.0       1.2     2   0.2     98    111    100    109     23     32     Uncharacterized protein L111 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L111 PE=3 SV=1
+sp|Q5UP41|YR871_MIMIV     8.9       1.3     3   0.4    409    423    411    421     23     33     Uncharacterized protein R871 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R871 PE=3 SV=1
+sp|Q5UPJ3|YL116_MIMIV     8.5       1.7     2   0.0    440    454    442    452     23     33     Uncharacterized protein L116 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L116 PE=3 SV=1
+sp|Q5UPI7|YL111_MIMIV     5.5        14     1   0.0     72     87     74     84     21     31     Uncharacterized protein L111 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L111 PE=3 SV=1
+sp|Q5UPJ3|YL116_MIMIV     4.4        31     1   0.0    342    354    346    352     23     29     Uncharacterized protein L116 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L116 PE=3 SV=1
+sp|Q5UPJ3|YL116_MIMIV     1.0   3.7e+02     3   0.1    465    478    471    475     28     32     Uncharacterized protein L116 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L116 PE=3 SV=1
+sp|Q5UPJ3|YL116_MIMIV     0.7   4.4e+02     4   0.0    501    515    502    513     24     35     Uncharacterized protein L116 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L116 PE=3 SV=1
+sp|Q5UPI7|YL111_MIMIV     0.6   4.9e+02     4   0.1    171    183    173    181     24     32     Uncharacterized protein L111 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L111 PE=3 SV=1
+sp|Q5UP41|YR871_MIMIV     0.3   5.8e+02     4   0.0    505    519    507    517     24     34     Uncharacterized protein R871 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R871 PE=3 SV=1
+sp|Q5UPI7|YL111_MIMIV    -0.6   1.2e+03     5   0.0    193    209    196    207     23     34     Uncharacterized protein L111 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L111 PE=3 SV=1
+sp|Q5UP41|YR871_MIMIV    -1.7   2.6e+03     1   0.0    335    346    336    342     23     29     Uncharacterized protein R871 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R871 PE=3 SV=1
+sp|Q5UP41|YR871_MIMIV    -1.9     3e+03     2   0.1    363    371    364    370     23     29     Uncharacterized protein R871 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R871 PE=3 SV=1
+sp|Q5UPI7|YL111_MIMIV    -2.3   3.9e+03     7   0.1    315    325    316    324     24     32     Uncharacterized protein L111 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L111 PE=3 SV=1
+sp|Q5UPI7|YL111_MIMIV    -3.4   8.5e+03     3   0.0    147    158    148    156     23     31     Uncharacterized protein L111 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L111 PE=3 SV=1
+sp|Q5UPI7|YL111_MIMIV    -4.1   1.5e+04     6   0.0    244    251    244    250     24     30     Uncharacterized protein L111 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L111 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006908944@NC_018859.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006908944@NC_018859.txt data/models_hmm/YP_006908944@NC_018859.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:37 2021
+# [ok]

@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P14553|POLG_HAVS2    12.3      0.13   3   3.5   1.1    Genome polyprotein OS=Simian hepatitis A virus genotype V (isolate AGM-27) OX=12102 PE=3 SV=2
+sp|Q9DWR1|POLG_HAVNO    10.0      0.69   3   3.5   2.4    Genome polyprotein OS=Human hepatitis A virus genotype IIIA (isolate NOR-21) OX=470593 PE=3 SV=4
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P14553|POLG_HAVS2     4.2        44     3   0.0   1449   1485   1454   1475     30     51     Genome polyprotein OS=Simian hepatitis A virus genotype V (isolate AGM-27) OX=12102 PE=3 SV=2
+sp|Q9DWR1|POLG_HAVNO     3.9        55     1   0.1    897    931    901    928     23     50     Genome polyprotein OS=Human hepatitis A virus genotype IIIA (isolate NOR-21) OX=470593 PE=3 SV=4
+sp|P14553|POLG_HAVS2     2.2   1.9e+02     1   0.1    903    935    906    932     24     50     Genome polyprotein OS=Simian hepatitis A virus genotype V (isolate AGM-27) OX=12102 PE=3 SV=2
+sp|Q9DWR1|POLG_HAVNO     1.9   2.3e+02     2   0.0   1278   1306   1282   1299     32     49     Genome polyprotein OS=Human hepatitis A virus genotype IIIA (isolate NOR-21) OX=470593 PE=3 SV=4
+sp|P14553|POLG_HAVS2     1.9   2.3e+02     2   0.0   1282   1310   1286   1303     32     49     Genome polyprotein OS=Simian hepatitis A virus genotype V (isolate AGM-27) OX=12102 PE=3 SV=2
+sp|Q9DWR1|POLG_HAVNO     1.1   4.2e+02     3   0.0   1447   1484   1450   1471     30     51     Genome polyprotein OS=Human hepatitis A virus genotype IIIA (isolate NOR-21) OX=470593 PE=3 SV=4
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004893974@NC_016071.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004893974@NC_016071.txt data/models_hmm/YP_004893974@NC_016071.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:36 2021
+# [ok]

@@ -1,0 +1,41 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O71155|CAPSD_DSDNV    15.8    0.0094   1   1.5   0.0    Capsid protein VP1 OS=Diatraea saccharalis densovirus OX=72003 GN=VP PE=3 SV=1
+sp|Q90125|CAPSD_GMDNV    15.6     0.011   1   1.4   0.0    Capsid protein VP1 OS=Galleria mellonella densovirus OX=37138 GN=VP PE=1 SV=1
+sp|Q90053|CAPSD_JDNVP    15.5     0.012   1   1.5   0.0    Capsid protein VP1 OS=Junonia coenia densovirus (isolate pBRJ/1990) OX=648250 GN=VP PE=3 SV=1
+sp|Q3YPH4|CAPSD_HBOC1    14.0     0.034   1   1.4   0.0    Minor capsid protein VP1 OS=Primate bocaparvovirus 1 (strain Human bocavirus 1 type 1) OX=689403 GN=VP1 PE=1 SV=1
+sp|C1IWT2|CAPSD_HBOC3    13.7     0.042   2   1.8   0.0    Minor capsid protein VP1 OS=Human bocavirus 3 OX=638313 GN=VP1 PE=1 SV=1
+sp|B9UYK7|CAPSD_HBOC2    12.9     0.075   2   1.8   0.0    Minor capsid protein VP1 OS=Human bocavirus 2 OX=573977 GN=VP1 PE=3 SV=1
+sp|C5IY46|CAPSD_HBOC4    12.5       0.1   3   1.8   0.1    Minor capsid protein VP1 OS=Human bocavirus 4 OX=1511883 GN=VP1 PE=1 SV=1
+sp|O56044|CAPSD_RRSVT    11.8      0.16   1   1.5   0.0    Major inner capsid protein VP3 OS=Rice ragged stunt virus (isolate Thailand) OX=649603 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O71155|CAPSD_DSDNV    14.8      0.02     1   0.0    177    282    182    232     47     97     Capsid protein VP1 OS=Diatraea saccharalis densovirus OX=72003 GN=VP PE=3 SV=1
+sp|Q90125|CAPSD_GMDNV    14.7     0.021     1   0.0    176    274    181    230     47     96     Capsid protein VP1 OS=Galleria mellonella densovirus OX=37138 GN=VP PE=1 SV=1
+sp|Q90053|CAPSD_JDNVP    14.5     0.024     1   0.0    177    285    182    232     47     97     Capsid protein VP1 OS=Junonia coenia densovirus (isolate pBRJ/1990) OX=648250 GN=VP PE=3 SV=1
+sp|Q3YPH4|CAPSD_HBOC1    13.1     0.065     1   0.0     11    120     16     96     47    122     Minor capsid protein VP1 OS=Primate bocaparvovirus 1 (strain Human bocavirus 1 type 1) OX=689403 GN=VP1 PE=1 SV=1
+sp|C1IWT2|CAPSD_HBOC3    12.1      0.13     1   0.0     11    116     16     96     47    122     Minor capsid protein VP1 OS=Human bocavirus 3 OX=638313 GN=VP1 PE=1 SV=1
+sp|B9UYK7|CAPSD_HBOC2    11.4      0.22     1   0.0     11    114     16     96     47    122     Minor capsid protein VP1 OS=Human bocavirus 2 OX=573977 GN=VP1 PE=3 SV=1
+sp|C5IY46|CAPSD_HBOC4    11.0      0.29     1   0.0     11    116     16     96     47    122     Minor capsid protein VP1 OS=Human bocavirus 4 OX=1511883 GN=VP1 PE=1 SV=1
+sp|O56044|CAPSD_RRSVT    10.7      0.36     1   0.0    652    725    673    718     46     88     Major inner capsid protein VP3 OS=Rice ragged stunt virus (isolate Thailand) OX=649603 PE=3 SV=1
+sp|B9UYK7|CAPSD_HBOC2    -3.0   5.9e+03     2   0.0    175    203    180    201     28     49     Minor capsid protein VP1 OS=Human bocavirus 2 OX=573977 GN=VP1 PE=3 SV=1
+sp|C1IWT2|CAPSD_HBOC3    -3.3   6.8e+03     2   0.0    176    204    181    202     28     49     Minor capsid protein VP1 OS=Human bocavirus 3 OX=638313 GN=VP1 PE=1 SV=1
+sp|C5IY46|CAPSD_HBOC4    -3.3   6.8e+03     2   0.0    176    204    181    202     28     49     Minor capsid protein VP1 OS=Human bocavirus 4 OX=1511883 GN=VP1 PE=1 SV=1
+sp|C5IY46|CAPSD_HBOC4    -4.1   1.2e+04     3   0.0    216    261    221    252     19     48     Minor capsid protein VP1 OS=Human bocavirus 4 OX=1511883 GN=VP1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_025282@NC_005906.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_025282@NC_005906.txt data/models_hmm/YP_025282@NC_005906.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:53 2021
+# [ok]

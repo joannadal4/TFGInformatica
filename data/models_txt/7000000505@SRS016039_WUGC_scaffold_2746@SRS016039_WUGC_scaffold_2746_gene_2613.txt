@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R798|Y119_OSHVF     12.5      0.14   1   1.4   0.1    Uncharacterized protein ORF119 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF119 PE=4 SV=1
+sp|Q5UQP4|ADPRL_MIMIV    12.3      0.16   2   1.9   0.5    Putative ADP-ribosyl glycohydrolase L444 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L444 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R798|Y119_OSHVF     11.8      0.23     1   0.1     21    113     42     85     32     75     Uncharacterized protein ORF119 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF119 PE=4 SV=1
+sp|Q5UQP4|ADPRL_MIMIV    11.1      0.37     1   0.0     30    113     56     90     29     63     Putative ADP-ribosyl glycohydrolase L444 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L444 PE=3 SV=1
+sp|Q5UQP4|ADPRL_MIMIV    -3.5   1.3e+04     2   0.1    465    505    479    497     50     67     Putative ADP-ribosyl glycohydrolase L444 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L444 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000505@SRS016039_WUGC_scaffold_2746@SRS016039_WUGC_scaffold_2746_gene_2613.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000505@SRS016039_WUGC_scaffold_2746@SRS016039_WUGC_scaffold_2746_gene_2613.txt data/models_hmm/7000000505@SRS016039_WUGC_scaffold_2746@SRS016039_WUGC_scaffold_2746_gene_2613.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:49 2021
+# [ok]

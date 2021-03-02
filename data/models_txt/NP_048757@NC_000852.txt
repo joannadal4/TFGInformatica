@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQF5|YL491_MIMIV    24.7   1.5e-05   2   2.1  31.9    Uncharacterized protein L491 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L491 PE=4 SV=1
+sp|Q6GZW1|014R_FRG3G     23.9   2.5e-05   1   1.1   0.1    Uncharacterized protein 014R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-014R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQF5|YL491_MIMIV    24.7   1.5e-05     2  31.9     58    258     60    247     27    203     Uncharacterized protein L491 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L491 PE=4 SV=1
+sp|Q6GZW1|014R_FRG3G     23.8   2.8e-05     1   0.1      1    114      3    107    110    216     Uncharacterized protein 014R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-014R PE=4 SV=1
+sp|Q5UQF5|YL491_MIMIV    -9.0   1.7e+04     1  19.2      5    100     19     85     19     88     Uncharacterized protein L491 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L491 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_048757@NC_000852.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_048757@NC_000852.txt data/models_hmm/NP_048757@NC_000852.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:32 2021
+# [ok]

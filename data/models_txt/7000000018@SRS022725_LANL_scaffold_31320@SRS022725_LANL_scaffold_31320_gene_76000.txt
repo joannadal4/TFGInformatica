@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q01028|CEP1_SHV21    11.1      0.06   1   1.1   0.0    Cytoplasmic envelopment protein 1 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=42 PE=3 SV=1
+sp|P54308|TERL_BPSPP    10.1      0.12   1   1.2   0.0    Terminase, large subunit OS=Bacillus phage SPP1 OX=10724 GN=2 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q01028|CEP1_SHV21    10.8     0.076     1   0.0      1     95      4     84    147    224     Cytoplasmic envelopment protein 1 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=42 PE=3 SV=1
+sp|P54308|TERL_BPSPP     9.5      0.18     1   0.0      3     99     37     94    684    740     Terminase, large subunit OS=Bacillus phage SPP1 OX=10724 GN=2 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000018@SRS022725_LANL_scaffold_31320@SRS022725_LANL_scaffold_31320_gene_76000.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000018@SRS022725_LANL_scaffold_31320@SRS022725_LANL_scaffold_31320_gene_76000.txt data/models_hmm/7000000018@SRS022725_LANL_scaffold_31320@SRS022725_LANL_scaffold_31320_gene_76000.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:41 2021
+# [ok]

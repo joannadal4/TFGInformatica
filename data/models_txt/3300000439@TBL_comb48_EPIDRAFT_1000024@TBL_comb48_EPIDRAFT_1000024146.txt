@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P26192|VP3_ROTPC     13.6     0.049   1   1.8   0.0    Protein VP3 OS=Rotavirus C (strain RVC/Pig/United States/Cowden/1980) OX=10916 PE=3 SV=1
+sp|Q65526|VP3_ROTBS     12.6       0.1   3   2.5   0.8    Protein VP3 OS=Rotavirus C (isolate RVC/Cow/Japan/Shintoku/1991/G2P[3]) OX=33723 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P26192|VP3_ROTPC     12.1      0.14     1   0.0    204    326    223    290     20     88     Protein VP3 OS=Rotavirus C (strain RVC/Pig/United States/Cowden/1980) OX=10916 PE=3 SV=1
+sp|Q65526|VP3_ROTBS     10.4      0.49     1   0.0    206    316    227    287     24     85     Protein VP3 OS=Rotavirus C (isolate RVC/Cow/Japan/Shintoku/1991/G2P[3]) OX=33723 PE=3 SV=1
+sp|Q65526|VP3_ROTBS     -1.3   1.9e+03     2   0.0    325    392    334    364     44     72     Protein VP3 OS=Rotavirus C (isolate RVC/Cow/Japan/Shintoku/1991/G2P[3]) OX=33723 PE=3 SV=1
+sp|Q65526|VP3_ROTBS     -2.5   4.6e+03     3   0.1    541    582    545    576     93    126     Protein VP3 OS=Rotavirus C (isolate RVC/Cow/Japan/Shintoku/1991/G2P[3]) OX=33723 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000024@TBL_comb48_EPIDRAFT_1000024146.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000024@TBL_comb48_EPIDRAFT_1000024146.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000024@TBL_comb48_EPIDRAFT_1000024146.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:34 2021
+# [ok]

@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05219|VG13_BPML5   864.6  2.8e-260   1   1.0   0.1    Gene 13 protein OS=Mycobacterium phage L5 OX=31757 GN=13 PE=3 SV=1
+sp|O64206|VG13_BPMD2   850.9  3.9e-256   1   1.0   0.0    Gene 13 protein OS=Mycobacterium phage D29 OX=28369 GN=13 PE=3 SV=1
+sp|P59217|TERL_BPSF5    49.4   2.8e-13   2   2.7   0.0    Putative terminase large subunit OS=Shigella phage SfV OX=55884 GN=2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05219|VG13_BPML5   864.4  3.2e-260     1   0.1     12    592     12    591      1    536     Gene 13 protein OS=Mycobacterium phage L5 OX=31757 GN=13 PE=3 SV=1
+sp|O64206|VG13_BPMD2   850.7  4.5e-256     1   0.0     12    594     12    593      1    536     Gene 13 protein OS=Mycobacterium phage D29 OX=28369 GN=13 PE=3 SV=1
+sp|P59217|TERL_BPSF5    28.3   6.9e-07     1   0.0     60    390    141    376    117    356     Putative terminase large subunit OS=Shigella phage SfV OX=55884 GN=2 PE=3 SV=1
+sp|P59217|TERL_BPSF5    17.8    0.0011     2   0.0    472    558    484    552    445    513     Putative terminase large subunit OS=Shigella phage SfV OX=55884 GN=2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004935746@NC_016434.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004935746@NC_016434.txt data/models_hmm/YP_004935746@NC_016434.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:48 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P06228|GP27_BPSP1     7.9       1.2   1   1.0   9.1    Gene 27 protein OS=Bacillus phage SP01 OX=10685 GN=27 PE=4 SV=1
+sp|P0C746|HBZ_HTL1A      5.5       6.3   1   1.0  11.8    HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (strain Japan ATK-1 subtype A) OX=11926 GN=HBZ PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P06228|GP27_BPSP1     7.9       1.2     1   9.1     14    153     47    108     18     90     Gene 27 protein OS=Bacillus phage SP01 OX=10685 GN=27 PE=4 SV=1
+sp|P0C746|HBZ_HTL1A      5.3       7.2     1  11.8     24    194     38    158      7    115     HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (strain Japan ATK-1 subtype A) OX=11926 GN=HBZ PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000016@SRS023538_Baylor_scaffold_21016@SRS023538_Baylor_scaffold_21016_gene_28103.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000016@SRS023538_Baylor_scaffold_21016@SRS023538_Baylor_scaffold_21016_gene_28103.txt data/models_hmm/7000000016@SRS023538_Baylor_scaffold_21016@SRS023538_Baylor_scaffold_21016_gene_28103.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:39 2021
+# [ok]

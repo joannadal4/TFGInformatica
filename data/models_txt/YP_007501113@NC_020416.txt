@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P07069|Y04K_BPT4     151.0   1.1e-44   1   1.0   2.7    Uncharacterized 12.6 kDa protein in pin-nrdC intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y04K PE=4 SV=1
+sp|Q5UPC5|YR047_MIMIV     9.5       1.1   3   2.5   5.2    Uncharacterized protein R47 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R47 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P07069|Y04K_BPT4     150.9   1.2e-44     1   2.7      1    106      2    105      5    108     Uncharacterized 12.6 kDa protein in pin-nrdC intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y04K PE=4 SV=1
+sp|Q5UPC5|YR047_MIMIV    10.1      0.68     1   0.4     12     79     17     41     48     72     Uncharacterized protein R47 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R47 PE=4 SV=1
+sp|Q5UPC5|YR047_MIMIV     1.2     4e+02     2   0.3     53    100     71     96      8     33     Uncharacterized protein R47 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R47 PE=4 SV=1
+sp|Q5UPC5|YR047_MIMIV    -2.1   4.2e+03     3   0.0    140    174    149    165     47     63     Uncharacterized protein R47 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R47 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007501113@NC_020416.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007501113@NC_020416.txt data/models_hmm/YP_007501113@NC_020416.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:58 2021
+# [ok]

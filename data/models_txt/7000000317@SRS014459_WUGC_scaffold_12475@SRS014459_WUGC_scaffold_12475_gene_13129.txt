@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZQ2|073L_FRG3G    13.3     0.063   2   2.3   0.6    Uncharacterized protein 073L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-073L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6GZQ2|073L_FRG3G     7.1       5.5     1   0.1    164    200    175    194     91    110     Uncharacterized protein 073L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-073L PE=4 SV=1
+sp|Q6GZQ2|073L_FRG3G     4.3        41     2   0.0    220    316    250    285     39     73     Uncharacterized protein 073L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-073L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000317@SRS014459_WUGC_scaffold_12475@SRS014459_WUGC_scaffold_12475_gene_13129.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000317@SRS014459_WUGC_scaffold_12475@SRS014459_WUGC_scaffold_12475_gene_13129.txt data/models_hmm/7000000317@SRS014459_WUGC_scaffold_12475@SRS014459_WUGC_scaffold_12475_gene_13129.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:14 2021
+# [ok]

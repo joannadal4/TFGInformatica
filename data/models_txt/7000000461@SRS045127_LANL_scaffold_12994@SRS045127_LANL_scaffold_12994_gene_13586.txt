@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P16011|BP53_BPT4     27.3   2.5e-06   2   2.3   3.2    Baseplate wedge protein gp53 OS=Enterobacteria phage T4 OX=10665 GN=53 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P16011|BP53_BPT4     24.6   1.8e-05     1   0.6      6     84     18     81     34     98     Baseplate wedge protein gp53 OS=Enterobacteria phage T4 OX=10665 GN=53 PE=1 SV=1
+sp|P16011|BP53_BPT4      3.0        84     2   0.1    149    195    165    190    104    129     Baseplate wedge protein gp53 OS=Enterobacteria phage T4 OX=10665 GN=53 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000461@SRS045127_LANL_scaffold_12994@SRS045127_LANL_scaffold_12994_gene_13586.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000461@SRS045127_LANL_scaffold_12994@SRS045127_LANL_scaffold_12994_gene_13586.txt data/models_hmm/7000000461@SRS045127_LANL_scaffold_12994@SRS045127_LANL_scaffold_12994_gene_13586.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:29 2021
+# [ok]

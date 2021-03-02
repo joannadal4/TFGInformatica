@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91EK1|CAPSD_GOCV   334.2  4.9e-100   1   1.0   9.9    Probable capsid protein OS=Goose circovirus OX=146032 GN=Cap PE=3 SV=1
+sp|O56129|CAPSD_PCV2    64.2   1.5e-17   1   1.5  16.9    Capsid protein OS=Porcine circovirus 2 OX=85708 GN=Cap PE=1 SV=1
+sp|Q8QME6|CAPSD_CACV    52.8   4.5e-14   1   1.2   0.5    Probable capsid protein OS=Canary circovirus OX=142661 GN=Cap PE=3 SV=1
+sp|Q80QL5|CAPSD_PCV1    51.9   8.9e-14   1   2.1  20.8    Capsid protein OS=Porcine circovirus 1 OX=133704 GN=Cap PE=3 SV=2
+sp|Q9YUC8|CAPSD_BFDV    50.2   2.8e-13   1   1.8  25.9    Capsid protein OS=Beak and feather disease virus OX=77856 GN=Cap PE=1 SV=1
+sp|Q9IG42|CAPSD_PICV    44.8   1.3e-11   1   1.4  10.8    Probable capsid protein OS=Pigeon circovirus OX=126070 GN=Cap PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91EK1|CAPSD_GOCV   334.0  5.5e-100     1   9.9      3    246      3    246      1    236     Probable capsid protein OS=Goose circovirus OX=146032 GN=Cap PE=3 SV=1
+sp|O56129|CAPSD_PCV2    63.5   2.6e-17     1  16.9      1    225      5    224      7    235     Capsid protein OS=Porcine circovirus 2 OX=85708 GN=Cap PE=1 SV=1
+sp|Q8QME6|CAPSD_CACV    52.3   6.8e-14     1   0.5      3    242     10    241     11    235     Probable capsid protein OS=Canary circovirus OX=142661 GN=Cap PE=3 SV=1
+sp|Q80QL5|CAPSD_PCV1    49.0   6.8e-13     1  20.8      2    226     39    225     32    235     Capsid protein OS=Porcine circovirus 1 OX=133704 GN=Cap PE=3 SV=2
+sp|Q9YUC8|CAPSD_BFDV    47.4   2.1e-12     1  25.9     13    241     15    240      3    235     Capsid protein OS=Beak and feather disease virus OX=77856 GN=Cap PE=1 SV=1
+sp|Q9IG42|CAPSD_PICV    43.9   2.4e-11     1  10.8      1    231      2    230      7    235     Probable capsid protein OS=Pigeon circovirus OX=126070 GN=Cap PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_164519@NC_006561.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_164519@NC_006561.txt data/models_hmm/YP_164519@NC_006561.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:09 2021
+# [ok]

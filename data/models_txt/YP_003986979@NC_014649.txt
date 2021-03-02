@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQE4|YR472_MIMIV  2438.9         0   1   1.0 180.4    Uncharacterized protein R472 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R472 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQE4|YR472_MIMIV  2438.7         0     1 180.4      1   1700      1   1696      1   1541     Uncharacterized protein R472 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R472 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003986979@NC_014649.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003986979@NC_014649.txt data/models_hmm/YP_003986979@NC_014649.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:56 2021
+# [ok]

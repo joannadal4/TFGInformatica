@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQP4|ADPRL_MIMIV   890.6  3.1e-268   1   1.0   9.0    Putative ADP-ribosyl glycohydrolase L444 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L444 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQP4|ADPRL_MIMIV   890.5  3.4e-268     1   9.0      1    513     19    512      4    484     Putative ADP-ribosyl glycohydrolase L444 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L444 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003969803@NC_014637.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003969803@NC_014637.txt data/models_hmm/YP_003969803@NC_014637.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:50 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP25|KITH_MIMIV    10.9      0.26   1   2.0   5.9    Thymidine kinase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=TK PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UP25|KITH_MIMIV     8.2       1.7     1   5.9     10    157     10    147      1    123     Thymidine kinase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=TK PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001450@JGI24006J15134_10000259@JGI24006J15134_100002593.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001450@JGI24006J15134_10000259@JGI24006J15134_100002593.txt data/models_hmm/3300001450@JGI24006J15134_10000259@JGI24006J15134_100002593.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:28 2021
+# [ok]

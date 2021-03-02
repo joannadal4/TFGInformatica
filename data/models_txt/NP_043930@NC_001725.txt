@@ -1,0 +1,78 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09521|VAT_FMVD      217.4   8.2e-65   1   1.0   9.0    Aphid transmission protein OS=Figwort mosaic virus (strain DxS) OX=10650 GN=ORF II PE=3 SV=1
+sp|P03548|VAT_CAMVS     206.7   1.6e-61   1   1.0   9.1    Aphid transmission protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF II PE=3 SV=1
+sp|Q02966|VAT_CAMVE     206.4     2e-61   1   1.0   9.6    Aphid transmission protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF II PE=3 SV=1
+sp|Q00965|VAT_CAMVN     205.9   2.7e-61   1   1.0   8.8    Aphid transmission protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF II PE=3 SV=1
+sp|P19818|VAT_CAMVP     205.2   4.6e-61   1   1.0   8.9    Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+sp|P03550|VAT_CAMVD     205.1     5e-61   1   1.0   8.2    Aphid transmission protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF II PE=3 SV=1
+sp|P03549|VAT_CAMVC     202.3   3.5e-60   1   1.0  10.0    Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|P05397|VAT_CERV      202.2   3.7e-60   1   1.0   2.2    Aphid transmission protein OS=Carnation etched ring virus OX=10640 GN=ORF II PE=3 SV=1
+sp|Q01087|VAT_CAMVW     143.9   3.3e-42   1   1.0   1.6    Aphid transmission protein (Fragment) OS=Cauliflower mosaic virus (strain W260) OX=31558 GN=ORF II PE=3 SV=1
+sp|P08357|VP10_NPVOP     19.9   0.00042   1   1.0   0.5    Protein p10 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P10 PE=3 SV=1
+sp|P41714|VP10_NPVCF     16.6    0.0044   1   1.1   0.1    Protein p10 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=P10 PE=3 SV=1
+sp|Q197B1|049R_IIV3      14.9     0.014   8   6.5   0.2    Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|P04376|CAP9_ADET1     13.4     0.044   1   1.2   0.1    Hexon-interlacing protein OS=Tree shrew adenovirus serotype 1 OX=47680 GN=IX PE=3 SV=1
+sp|P04870|P10_NPVAC      13.1     0.051   1   1.1   0.2    Protein p10 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P10 PE=4 SV=2
+sp|P34052|VP10_NPVSE     12.8     0.063   1   2.0   2.7    Protein p10 OS=Spodoptera exigua nuclear polyhedrosis virus (strain US) OX=31506 GN=P10 PE=3 SV=1
+sp|P04507|SIGM1_REOVJ    10.8      0.27   2   2.3   5.0    Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|P22044|PHOSP_PI4HA     9.8      0.53   3   2.4   4.2    Phosphoprotein OS=Human parainfluenza 4a virus (strain Toshiba) OX=11225 GN=P/V PE=3 SV=1
+sp|Q80HU9|ATI4_VACCW      9.5      0.67   3   3.0  14.7    27 kDa A-type inclusion protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR147 PE=4 SV=1
+sp|P21738|PHOSP_PI4HB     9.2      0.84   2   2.5   4.7    Phosphoprotein OS=Human parainfluenza 4b virus (strain 68-333) OX=11227 GN=P/V PE=1 SV=1
+sp|Q38580|SCAF_BPSPP      7.5       2.8   2   2.3   7.3    Capsid assembly scaffolding protein OS=Bacillus phage SPP1 OX=10724 GN=11 PE=1 SV=1
+sp|Q914J7|Y033_SIFVH      6.8       4.6   2   2.1  11.9    Uncharacterized protein 33 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0033 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09521|VAT_FMVD      217.2   9.4e-65     1   9.0      2    164      3    164      2    166     Aphid transmission protein OS=Figwort mosaic virus (strain DxS) OX=10650 GN=ORF II PE=3 SV=1
+sp|P03548|VAT_CAMVS     206.6   1.8e-61     1   9.1      1    159      1    159      2    166     Aphid transmission protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF II PE=3 SV=1
+sp|Q02966|VAT_CAMVE     206.2   2.2e-61     1   9.6      1    159      1    159      2    166     Aphid transmission protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF II PE=3 SV=1
+sp|Q00965|VAT_CAMVN     205.8     3e-61     1   8.8      1    159      1    159      2    166     Aphid transmission protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF II PE=3 SV=1
+sp|P19818|VAT_CAMVP     205.0   5.1e-61     1   8.9      1    159      1    159      2    166     Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+sp|P03550|VAT_CAMVD     204.9   5.6e-61     1   8.2      1    159      1    159      2    166     Aphid transmission protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF II PE=3 SV=1
+sp|P03549|VAT_CAMVC     202.2   3.9e-60     1  10.0      1    159      1    159      2    166     Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|P05397|VAT_CERV      202.1   4.1e-60     1   2.2      1    166      1    166      2    166     Aphid transmission protein OS=Carnation etched ring virus OX=10640 GN=ORF II PE=3 SV=1
+sp|Q01087|VAT_CAMVW     143.8   3.6e-42     1   1.6      1     99      1     97      2    101     Aphid transmission protein (Fragment) OS=Cauliflower mosaic virus (strain W260) OX=31558 GN=ORF II PE=3 SV=1
+sp|P08357|VP10_NPVOP     19.6   0.00053     1   0.5      2     61      7     60    109    162     Protein p10 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P10 PE=3 SV=1
+sp|P41714|VP10_NPVCF     16.3    0.0055     1   0.1      2     61      7     58    109    160     Protein p10 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=P10 PE=3 SV=1
+sp|Q197B1|049R_IIV3      14.9     0.014     1   0.2     29    121     60    118    104    162     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|P04376|CAP9_ADET1     13.3     0.047     1   0.1      3    113     61    103    105    146     Hexon-interlacing protein OS=Tree shrew adenovirus serotype 1 OX=47680 GN=IX PE=3 SV=1
+sp|P04870|P10_NPVAC      12.9     0.061     1   0.2      1     64      6     59    108    161     Protein p10 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P10 PE=4 SV=2
+sp|Q914J7|Y033_SIFVH     10.7      0.28     1   5.5      1     71      7     47    116    155     Uncharacterized protein 33 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0033 PE=4 SV=1
+sp|Q80HU9|ATI4_VACCW     10.6      0.32     1   0.6      3     60     10     56    116    162     27 kDa A-type inclusion protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR147 PE=4 SV=1
+sp|P22044|PHOSP_PI4HA    10.3      0.37     3   0.9    186    282    219    278    102    161     Phosphoprotein OS=Human parainfluenza 4a virus (strain Toshiba) OX=11225 GN=P/V PE=3 SV=1
+sp|P34052|VP10_NPVSE     10.3      0.38     1   2.0      2     63      8     62    112    165     Protein p10 OS=Spodoptera exigua nuclear polyhedrosis virus (strain US) OX=31506 GN=P10 PE=3 SV=1
+sp|P21738|PHOSP_PI4HB     8.6       1.3     2   1.0    212    282    226    278    109    161     Phosphoprotein OS=Human parainfluenza 4b virus (strain 68-333) OX=11227 GN=P/V PE=1 SV=1
+sp|Q38580|SCAF_BPSPP      8.2       1.6     1   2.4     11     94     37     87    107    157     Capsid assembly scaffolding protein OS=Bacillus phage SPP1 OX=10724 GN=11 PE=1 SV=1
+sp|Q197B1|049R_IIV3       7.2       3.3     2   2.3    122    214    143    212     97    164     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|P04507|SIGM1_REOVJ     6.2         7     2   0.2    101    177    118    170    108    159     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|P04507|SIGM1_REOVJ     6.1       7.4     1   0.7     11     89     20     87    101    164     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|Q197B1|049R_IIV3       5.6        11     4   1.7    265    351    272    350     86    165     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q80HU9|ATI4_VACCW      3.8        38     3   4.8     87    206     88    176     71    157     27 kDa A-type inclusion protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR147 PE=4 SV=1
+sp|Q80HU9|ATI4_VACCW      3.7        39     2   1.0     59    125     68    117    114    162     27 kDa A-type inclusion protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR147 PE=4 SV=1
+sp|Q197B1|049R_IIV3       3.7        41     7   0.9    484    566    505    560    103    157     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q197B1|049R_IIV3       2.9        70     6   1.2    353    470    373    433     99    154     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q197B1|049R_IIV3       2.6        88     3   0.1    222    288    234    284    103    156     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q197B1|049R_IIV3       1.6   1.8e+02     5   0.8    317    373    334    370    118    161     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q38580|SCAF_BPSPP      1.5     2e+02     2   0.3     88    154     98    148     83    136     Capsid assembly scaffolding protein OS=Bacillus phage SPP1 OX=10724 GN=11 PE=1 SV=1
+sp|P21738|PHOSP_PI4HB     0.9     3e+02     1   0.1    124    210    146    188     92    135     Phosphoprotein OS=Human parainfluenza 4b virus (strain 68-333) OX=11227 GN=P/V PE=1 SV=1
+sp|Q914J7|Y033_SIFVH     -0.2   6.5e+02     2   0.4     79    130    106    116    107    131     Uncharacterized protein 33 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0033 PE=4 SV=1
+sp|P22044|PHOSP_PI4HA    -1.8     2e+03     2   0.0    129    184    147    161     93    107     Phosphoprotein OS=Human parainfluenza 4a virus (strain Toshiba) OX=11225 GN=P/V PE=3 SV=1
+sp|P22044|PHOSP_PI4HA    -2.8     4e+03     1   0.0      5     45      8     31    107    129     Phosphoprotein OS=Human parainfluenza 4a virus (strain Toshiba) OX=11225 GN=P/V PE=3 SV=1
+sp|Q197B1|049R_IIV3      -2.8   4.2e+03     8   0.1    593    651    629    642    116    129     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_043930@NC_001725.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_043930@NC_001725.txt data/models_hmm/NP_043930@NC_001725.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:19 2021
+# [ok]

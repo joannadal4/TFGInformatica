@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPT4|YL247_MIMIV    14.8     0.009   1   1.2   7.8    Uncharacterized HNH endonuclease L247 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L247 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPT4|YL247_MIMIV    14.2     0.013     1   7.8    300    398    311    396    240    327     Uncharacterized HNH endonuclease L247 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L247 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_996646@NC_005809.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_996646@NC_005809.txt data/models_hmm/NP_996646@NC_005809.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:50 2021
+# [ok]

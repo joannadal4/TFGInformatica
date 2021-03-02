@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|B0FIH7|FIB11_BPE32  1037.0         0   1   1.0  14.0    Probable tail fiber protein OS=Escherichia phage Phieco32 OX=490103 GN=phi32_15 PE=4 SV=1
+sp|P08232|FIB37_BPOX2    34.9   6.1e-09   1   1.0   0.0    Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage Ox2 OX=10691 GN=37 PE=3 SV=1
+sp|P08231|FIB37_BPM1     34.7   7.2e-09   1   1.1   0.0    Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage M1 OX=10676 GN=37 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|B0FIH7|FIB11_BPE32  1036.8         0     1  14.0      1    722      1    721      1    720     Probable tail fiber protein OS=Escherichia phage Phieco32 OX=490103 GN=phi32_15 PE=4 SV=1
+sp|P08232|FIB37_BPOX2    34.7   6.9e-09     1   0.0      4    242     88    235    565    716     Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage Ox2 OX=10691 GN=37 PE=3 SV=1
+sp|P08231|FIB37_BPM1     34.5   8.1e-09     1   0.0      4    242     88    237    565    718     Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage M1 OX=10676 GN=37 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006908864@NC_018859.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006908864@NC_018859.txt data/models_hmm/YP_006908864@NC_018859.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:36 2021
+# [ok]

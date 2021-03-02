@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09425|BP25_BPT4      14.6     0.018   1   1.2   0.1    Baseplate wedge protein gp25 OS=Enterobacteria phage T4 OX=10665 GN=25 PE=1 SV=1
+sp|Q5UPY9|YR304_MIMIV     9.7      0.59   2   2.5   7.5    Uncharacterized protein R304 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R304 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09425|BP25_BPT4      14.2     0.024     1   0.1     20    130     31    114     30    114     Baseplate wedge protein gp25 OS=Enterobacteria phage T4 OX=10665 GN=25 PE=1 SV=1
+sp|Q5UPY9|YR304_MIMIV    11.1      0.21     2   2.2    149    234    153    218     59    124     Uncharacterized protein R304 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R304 PE=4 SV=1
+sp|Q5UPY9|YR304_MIMIV     0.3   4.7e+02     1   0.2      7     86     56     80    115    139     Uncharacterized protein R304 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R304 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001041@C687J13239_1000024@C687J13239_100002480.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001041@C687J13239_1000024@C687J13239_100002480.txt data/models_hmm/3300001041@C687J13239_1000024@C687J13239_100002480.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:18 2021
+# [ok]

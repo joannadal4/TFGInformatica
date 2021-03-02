@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P42539|YO04_BPL2     14.4     0.034   1   1.5   2.3    Uncharacterized 18.2 kDa protein OS=Acholeplasma phage L2 OX=46014 PE=4 SV=1
+sp|Q9JH49|VE1_HPV69     12.2      0.16   1   1.7   0.0    Replication protein E1 OS=Human papillomavirus type 69 OX=37121 GN=E1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P42539|YO04_BPL2     14.0     0.044     1   1.9     37    136     71    131     71    127     Uncharacterized 18.2 kDa protein OS=Acholeplasma phage L2 OX=46014 PE=4 SV=1
+sp|Q9JH49|VE1_HPV69     10.7      0.45     1   0.0     11     70     19     58     79    117     Replication protein E1 OS=Human papillomavirus type 69 OX=37121 GN=E1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000116@DelMOSpr2010_c10000078@DelMOSpr2010_1000007851.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000116@DelMOSpr2010_c10000078@DelMOSpr2010_1000007851.txt data/models_hmm/3300000116@DelMOSpr2010_c10000078@DelMOSpr2010_1000007851.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:39 2021
+# [ok]

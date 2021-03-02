@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CA91|VF196_ASFM2    15.5    0.0051   1   1.1   1.2    Late protein I196L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-153 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CA91|VF196_ASFM2    15.3     0.006     1   1.2      6    162     39    156    147    262     Late protein I196L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-153 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000230@SRS015574_WUGC_scaffold_24411@SRS015574_WUGC_scaffold_24411_gene_26092.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000230@SRS015574_WUGC_scaffold_24411@SRS015574_WUGC_scaffold_24411_gene_26092.txt data/models_hmm/7000000230@SRS015574_WUGC_scaffold_24411@SRS015574_WUGC_scaffold_24411_gene_26092.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:33 2021
+# [ok]

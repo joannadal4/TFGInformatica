@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36319|GB_HHV6G      13.0     0.083   2   2.6   0.1    Envelope glycoprotein B OS=Human herpesvirus 6A (strain GS) OX=10369 GN=gB PE=3 SV=1
+sp|P36320|GB_HHV6Z      12.0      0.16   2   2.0   0.3    Envelope glycoprotein B OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=gB PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36320|GB_HHV6Z      10.3      0.55     1   0.0    280    345    286    341     10     67     Envelope glycoprotein B OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=gB PE=3 SV=2
+sp|P36319|GB_HHV6G       9.2       1.3     1   0.0    280    344    286    338     10     64     Envelope glycoprotein B OS=Human herpesvirus 6A (strain GS) OX=10369 GN=gB PE=3 SV=1
+sp|P36319|GB_HHV6G       0.2   8.1e+02     2   0.0    390    412    394    409      6     21     Envelope glycoprotein B OS=Human herpesvirus 6A (strain GS) OX=10369 GN=gB PE=3 SV=1
+sp|P36320|GB_HHV6Z      -3.5   1.2e+04     2   0.1    392    410    397    408      9     20     Envelope glycoprotein B OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=gB PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH32246@HQ634157.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH32246@HQ634157.txt data/models_hmm/AGH32246@HQ634157.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:47 2021
+# [ok]

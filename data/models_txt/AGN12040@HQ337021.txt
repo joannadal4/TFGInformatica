@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|B2C4J3|L_CHAVB       13.7     0.051   2   3.1   0.4    RNA-directed RNA polymerase L OS=Chapare mammarenavirus (isolate Human/Bolivia/810419/2003) OX=499556 GN=L PE=3 SV=1
+sp|P35423|NSP1_ROTHD    13.2     0.075   4   2.8   1.6    Non-structural protein 1 OS=Rotavirus A (strain RVA/Human/United States/DS-1/1976/G2P1B[4]) OX=10950 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P35423|NSP1_ROTHD    10.7      0.43     1   0.0     78    127     85    116     25     56     Non-structural protein 1 OS=Rotavirus A (strain RVA/Human/United States/DS-1/1976/G2P1B[4]) OX=10950 PE=3 SV=1
+sp|B2C4J3|L_CHAVB        7.4       4.7     1   0.1    933    977    944    972     35     62     RNA-directed RNA polymerase L OS=Chapare mammarenavirus (isolate Human/Bolivia/810419/2003) OX=499556 GN=L PE=3 SV=1
+sp|B2C4J3|L_CHAVB        2.7   1.4e+02     2   0.0   2104   2146   2114   2141     33     59     RNA-directed RNA polymerase L OS=Chapare mammarenavirus (isolate Human/Bolivia/810419/2003) OX=499556 GN=L PE=3 SV=1
+sp|P35423|NSP1_ROTHD    -0.4   1.3e+03     2   0.0    218    252    222    247     24     49     Non-structural protein 1 OS=Rotavirus A (strain RVA/Human/United States/DS-1/1976/G2P1B[4]) OX=10950 PE=3 SV=1
+sp|P35423|NSP1_ROTHD    -3.7   1.4e+04     4   0.0    463    485    467    485     50     68     Non-structural protein 1 OS=Rotavirus A (strain RVA/Human/United States/DS-1/1976/G2P1B[4]) OX=10950 PE=3 SV=1
+sp|P35423|NSP1_ROTHD    -3.7   1.4e+04     3   0.0    365    384    371    383     16     28     Non-structural protein 1 OS=Rotavirus A (strain RVA/Human/United States/DS-1/1976/G2P1B[4]) OX=10950 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGN12040@HQ337021.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGN12040@HQ337021.txt data/models_hmm/AGN12040@HQ337021.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:51 2021
+# [ok]

@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q3YPH5|NP1_HBOC1     16.9    0.0039   1   1.4   0.2    Non-structural protein NP-1 OS=Primate bocaparvovirus 1 (strain Human bocavirus 1 type 1) OX=689403 GN=NP1 PE=1 SV=1
+sp|C1IWT1|NP1_HBOC3     16.9     0.004   1   1.3   0.2    Non-structural protein NP-1 OS=Human bocavirus 3 OX=638313 GN=NP1 PE=3 SV=1
+sp|P04331|DIT9_BPPH2    16.0    0.0077   1   1.6   0.0    Tail knob protein gp9 OS=Bacillus phage phi29 OX=10756 GN=9 PE=1 SV=2
+sp|P07534|DIT9_BPPZA    15.7    0.0094   1   1.6   0.0    Tail knob protein gp9 OS=Bacillus phage PZA OX=10757 GN=9 PE=3 SV=1
+sp|B9UYK6|NP1_HBOC2     12.3      0.11   2   1.7   0.7    Non-structural protein NP-1 OS=Human bocavirus 2 OX=573977 GN=NP1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|C1IWT1|NP1_HBOC3     16.1     0.007     1   0.2    136    214    141    205      7     71     Non-structural protein NP-1 OS=Human bocavirus 3 OX=638313 GN=NP1 PE=3 SV=1
+sp|Q3YPH5|NP1_HBOC1     16.1     0.007     1   0.2    138    216    142    206      7     71     Non-structural protein NP-1 OS=Primate bocaparvovirus 1 (strain Human bocavirus 1 type 1) OX=689403 GN=NP1 PE=1 SV=1
+sp|P04331|DIT9_BPPH2    14.8     0.018     1   0.0    206    285    246    276     68     98     Tail knob protein gp9 OS=Bacillus phage phi29 OX=10756 GN=9 PE=1 SV=2
+sp|P07534|DIT9_BPPZA    14.5     0.023     1   0.0    208    285    246    276     68     98     Tail knob protein gp9 OS=Bacillus phage PZA OX=10757 GN=9 PE=3 SV=1
+sp|B9UYK6|NP1_HBOC2     11.4      0.19     2   0.1    133    210    138    202      7     72     Non-structural protein NP-1 OS=Human bocavirus 2 OX=573977 GN=NP1 PE=3 SV=1
+sp|B9UYK6|NP1_HBOC2     -1.9   2.6e+03     1   0.1     22     86     52     74     30     52     Non-structural protein NP-1 OS=Human bocavirus 2 OX=573977 GN=NP1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001914@JGI24731J21663_1000278@JGI24731J21663_100027839.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001914@JGI24731J21663_1000278@JGI24731J21663_100027839.txt data/models_hmm/3300001914@JGI24731J21663_1000278@JGI24731J21663_100027839.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:34 2021
+# [ok]

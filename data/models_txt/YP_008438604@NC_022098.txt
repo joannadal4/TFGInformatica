@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9T1S2|VP26_BPAPS   148.0   4.7e-43   2   2.0   6.6    Putative protein p26 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=26 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9T1S2|VP26_BPAPS   117.6   8.1e-34     2   4.7     34    109     35    109    320    392     Putative protein p26 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=26 PE=4 SV=1
+sp|Q9T1S2|VP26_BPAPS    31.8   8.6e-08     1   0.0      1     36      2     34     88    121     Putative protein p26 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=26 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008438604@NC_022098.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008438604@NC_022098.txt data/models_hmm/YP_008438604@NC_022098.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:17 2021
+# [ok]

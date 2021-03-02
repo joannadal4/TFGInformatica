@@ -1,0 +1,61 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HAC7|CEP2_HCMVM   394.4  4.1e-118   1   1.0   4.0    Cytoplasmic envelopment protein 2 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL94 PE=3 SV=1
+sp|P16800|CEP2_HCMVA   393.6  7.2e-118   1   1.0   5.4    Cytoplasmic envelopment protein 2 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL94 PE=1 SV=1
+sp|Q9QJ19|CEP2_HHV6Z   385.4  2.2e-115   1   1.0  13.6    Cytoplasmic envelopment protein 2 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U65 PE=3 SV=1
+sp|P24442|CEP2_HHV6U   384.7  3.7e-115   1   1.0   7.9    Cytoplasmic envelopment protein 2 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U65 PE=3 SV=1
+sp|P0CK53|CEP2_EBVB9   367.5  5.9e-110   1   1.0   0.0    Cytoplasmic envelopment protein 2 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BGLF2 PE=1 SV=1
+sp|P0CK54|CEP2_EBVA8   367.5  5.9e-110   1   1.0   0.0    Cytoplasmic envelopment protein 2 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BGLF2 PE=3 SV=1
+sp|P0CK55|CEP2_EBVG    367.5  5.9e-110   1   1.0   0.0    Cytoplasmic envelopment protein 2 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BGLF2 PE=1 SV=1
+sp|P52359|CEP2_HHV7J   356.3  1.5e-106   1   1.0  12.8    Cytoplasmic envelopment protein 2 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U65 PE=3 SV=1
+sp|Q01022|CEP2_SHV21   349.6  1.7e-104   1   1.0  13.9    Cytoplasmic envelopment protein 2 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=33 PE=3 SV=1
+sp|O36382|CEP2_ALHV1   339.0  2.7e-101   1   1.0   0.9    Cytoplasmic envelopment protein 2 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=33 PE=3 SV=1
+sp|Q66636|CEP2_EHV2    332.3   3.2e-99   1   1.0   0.0    Cytoplasmic envelopment protein 2 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=33 PE=3 SV=1
+sp|F5HEF2|CEP2_HHV8P   317.2   1.2e-94   1   1.0   0.0    Cytoplasmic envelopment protein 2 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF33 PE=3 SV=1
+sp|Q18LD3|CEP2_ELHVK   316.6   1.9e-94   1   1.0   2.5    Cytoplasmic envelopment protein 2 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+sp|Q6S6S5|CEP2_EHV1V    72.9   2.4e-20   1   1.1   0.0    Cytoplasmic envelopment protein 2 OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=46 PE=3 SV=1
+sp|P28970|CEP2_EHV1B    72.5   3.3e-20   1   1.2   0.0    Cytoplasmic envelopment protein 2 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=46 PE=3 SV=1
+sp|Q6UDI0|CEP2_PSHV1    71.3   7.5e-20   1   1.3   0.0    Cytoplasmic envelopment protein 2 OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL16 PE=3 SV=1
+sp|P09293|CEP2_VZVD     62.3     4e-17   1   1.2   0.0    Cytoplasmic envelopment protein 2 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=44 PE=3 SV=1
+sp|P10200|CEP2_HHV11    59.0     4e-16   1   1.7   0.2    Cytoplasmic envelopment protein 2 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL16 PE=1 SV=1
+sp|Q9E6Q1|CEP2_GAHVM    52.3   4.3e-14   1   1.2   1.9    Cytoplasmic envelopment protein 2 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV028 PE=3 SV=1
+sp|P89439|CEP2_HHV2H    49.0   4.6e-13   1   1.2   0.0    Cytoplasmic envelopment protein 2 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL16 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HAC7|CEP2_HCMVM   394.2  4.6e-118     1   4.0      3    345      4    345      2    337     Cytoplasmic envelopment protein 2 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL94 PE=3 SV=1
+sp|P16800|CEP2_HCMVA   393.4  8.1e-118     1   5.4      3    345      4    345      2    337     Cytoplasmic envelopment protein 2 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL94 PE=1 SV=1
+sp|Q9QJ19|CEP2_HHV6Z   385.2  2.5e-115     1  13.6      2    335      3    334      2    337     Cytoplasmic envelopment protein 2 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U65 PE=3 SV=1
+sp|P24442|CEP2_HHV6U   384.5  4.1e-115     1   7.9      2    335      3    334      2    337     Cytoplasmic envelopment protein 2 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U65 PE=3 SV=1
+sp|P0CK53|CEP2_EBVB9   367.4  6.6e-110     1   0.0      1    336      2    336      3    340     Cytoplasmic envelopment protein 2 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BGLF2 PE=1 SV=1
+sp|P0CK54|CEP2_EBVA8   367.4  6.6e-110     1   0.0      1    336      2    336      3    340     Cytoplasmic envelopment protein 2 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BGLF2 PE=3 SV=1
+sp|P0CK55|CEP2_EBVG    367.4  6.6e-110     1   0.0      1    336      2    336      3    340     Cytoplasmic envelopment protein 2 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BGLF2 PE=1 SV=1
+sp|P52359|CEP2_HHV7J   356.2  1.7e-106     1  12.8      1    330      2    329      3    337     Cytoplasmic envelopment protein 2 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U65 PE=3 SV=1
+sp|Q01022|CEP2_SHV21   349.4  1.9e-104     1  13.9      1    330      2    330      7    340     Cytoplasmic envelopment protein 2 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=33 PE=3 SV=1
+sp|O36382|CEP2_ALHV1   338.9    3e-101     1   0.9      1    335      2    335      5    340     Cytoplasmic envelopment protein 2 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=33 PE=3 SV=1
+sp|Q66636|CEP2_EHV2    332.1   3.5e-99     1   0.0      1    341      3    341      3    340     Cytoplasmic envelopment protein 2 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=33 PE=3 SV=1
+sp|F5HEF2|CEP2_HHV8P   317.1   1.3e-94     1   0.0      1    334      1    334      6    340     Cytoplasmic envelopment protein 2 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF33 PE=3 SV=1
+sp|Q18LD3|CEP2_ELHVK   316.4   2.1e-94     1   2.5      1    336      1    333      2    337     Cytoplasmic envelopment protein 2 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+sp|Q6S6S5|CEP2_EHV1V    72.5   3.2e-20     1   0.0     36    357     47    354     27    336     Cytoplasmic envelopment protein 2 OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=46 PE=3 SV=1
+sp|P28970|CEP2_EHV1B    72.0   4.4e-20     1   0.0     38    357    107    354     86    336     Cytoplasmic envelopment protein 2 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=46 PE=3 SV=1
+sp|Q6UDI0|CEP2_PSHV1    70.7   1.2e-19     1   0.0     55    346    151    342    142    336     Cytoplasmic envelopment protein 2 OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL16 PE=3 SV=1
+sp|P09293|CEP2_VZVD     61.9   5.4e-17     1   0.0     36    351     38    348     23    337     Cytoplasmic envelopment protein 2 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=44 PE=3 SV=1
+sp|P10200|CEP2_HHV11    57.2   1.4e-15     1   0.2     39    368     54    366     22    338     Cytoplasmic envelopment protein 2 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL16 PE=1 SV=1
+sp|Q9E6Q1|CEP2_GAHVM    52.0   5.6e-14     1   1.9     29    356     77    353     58    337     Cytoplasmic envelopment protein 2 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV028 PE=3 SV=1
+sp|P89439|CEP2_HHV2H    48.3   7.1e-13     1   0.0     48    367     52    365     22    338     Cytoplasmic envelopment protein 2 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL16 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_065531@NC_002531.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_065531@NC_002531.txt data/models_hmm/NP_065531@NC_002531.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:43 2021
+# [ok]

@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P15075|VG50_BPT4     38.7   7.9e-10   1   1.1   0.1    Head completion protein Gp50 OS=Enterobacteria phage T4 OX=10665 GN=50 PE=4 SV=2
+sp|P00641|ENDO_BPT7     35.3   8.9e-09   1   1.1   0.0    Endonuclease I OS=Escherichia phage T7 OX=10760 GN=3 PE=1 SV=1
+sp|P20314|ENRN_BPT3     31.4   1.4e-07   1   1.1   0.0    Endodeoxyribonuclease 1 OS=Enterobacteria phage T3 OX=10759 GN=3 PE=4 SV=1
+sp|P20199|A79_SSV1      16.8    0.0039   2   2.1   2.7    Uncharacterized protein A-79 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=a79 PE=4 SV=1
+sp|Q70LF0|Y150_AFV1Y     8.1       1.8   2   2.1   6.5    Uncharacterized protein ORF150 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF150 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P15075|VG50_BPT4     38.5   9.6e-10     1   0.1      2    126      9    105    163    250     Head completion protein Gp50 OS=Enterobacteria phage T4 OX=10665 GN=50 PE=4 SV=2
+sp|P00641|ENDO_BPT7     35.0   1.1e-08     1   0.0      5    103     13     83    174    245     Endonuclease I OS=Escherichia phage T7 OX=10760 GN=3 PE=1 SV=1
+sp|P20314|ENRN_BPT3     31.0   1.8e-07     1   0.0      4    103     10     82    171    244     Endodeoxyribonuclease 1 OS=Enterobacteria phage T3 OX=10759 GN=3 PE=4 SV=1
+sp|P20199|A79_SSV1      12.0      0.11     1   0.2      1     29      2     27      3     27     Uncharacterized protein A-79 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=a79 PE=4 SV=1
+sp|Q70LF0|Y150_AFV1Y     6.8       4.4     1   3.0      4     94     10     45    203    237     Uncharacterized protein ORF150 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF150 PE=4 SV=1
+sp|P20199|A79_SSV1       6.6         5     2   0.3     26     77     27     51      2     28     Uncharacterized protein A-79 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=a79 PE=4 SV=1
+sp|Q70LF0|Y150_AFV1Y     2.2   1.1e+02     2   1.4     58    149     87    134    217    254     Uncharacterized protein ORF150 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF150 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000036@MIS_1000003630.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000036@MIS_1000003630.txt data/models_hmm/3300002026@MIS_10000036@MIS_1000003630.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:38 2021
+# [ok]

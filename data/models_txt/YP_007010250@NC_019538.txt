@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPZ9|GNA1_MIMIV    13.7     0.029   2   2.0   0.7    Probable glucosamine 6-phosphate N-acetyltransferase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L316 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPZ9|GNA1_MIMIV    10.2      0.36     2   0.2     73    145     84    136     78    132     Probable glucosamine 6-phosphate N-acetyltransferase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L316 PE=3 SV=1
+sp|Q5UPZ9|GNA1_MIMIV     2.3        91     1   0.0      5     81     32     63     93    125     Probable glucosamine 6-phosphate N-acetyltransferase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L316 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007010250@NC_019538.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007010250@NC_019538.txt data/models_hmm/YP_007010250@NC_019538.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:25 2021
+# [ok]

@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q914L6|Y014_SIFVH   126.5   3.9e-37   1   1.1   7.2    Uncharacterized protein 14 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0014 PE=1 SV=1
+sp|Q8QL51|Y102_SIRV1   115.9   8.1e-34   1   1.0   7.4    Uncharacterized protein 102 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=102 PE=4 SV=1
+sp|Q8QL18|Y95_SIRV1    113.0   6.5e-33   1   1.0   4.1    Uncharacterized protein 95 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=95 PE=4 SV=1
+sp|Q8QL19|Y90B_SIRV1    97.8   3.5e-28   1   1.0  10.1    Uncharacterized protein 90B OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=90b PE=4 SV=1
+sp|Q70LE8|Y099_AFV1Y    96.9   6.8e-28   1   1.0   2.6    Uncharacterized protein ORF99 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF99 PE=1 SV=1
+sp|Q8QL13|Y75_SIRV1     37.6   2.1e-09   1   2.0   8.8    Uncharacterized protein 75 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=75 PE=4 SV=1
+sp|O55748|RNC_IIV6      12.0      0.19   2   2.6   2.5    Putative ribonuclease 3 OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-142R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q914L6|Y014_SIFVH   126.3   4.6e-37     1   7.2     15    112     16    112      2     99     Uncharacterized protein 14 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0014 PE=1 SV=1
+sp|Q8QL51|Y102_SIRV1   115.7   9.1e-34     1   7.4      1     96      1     95      4     98     Uncharacterized protein 102 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=102 PE=4 SV=1
+sp|Q8QL18|Y95_SIRV1    112.9   7.1e-33     1   4.1      1     95      1     95      4     98     Uncharacterized protein 95 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=95 PE=4 SV=1
+sp|Q8QL19|Y90B_SIRV1    97.7   3.8e-28     1  10.1      1     90      1     89      4     96     Uncharacterized protein 90B OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=90b PE=4 SV=1
+sp|Q70LE8|Y099_AFV1Y    96.8   7.3e-28     1   2.6      1     99      1     96      1     94     Uncharacterized protein ORF99 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF99 PE=1 SV=1
+sp|Q8QL13|Y75_SIRV1     29.9   5.4e-07     1   8.8      1     75      1     74     13     98     Uncharacterized protein 75 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=75 PE=4 SV=1
+sp|O55748|RNC_IIV6       8.2         3     2   0.3    185    253    197    246     17     70     Putative ribonuclease 3 OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-142R PE=3 SV=1
+sp|O55748|RNC_IIV6       2.9   1.4e+02     1   0.1     94    128     99    125     70     95     Putative ribonuclease 3 OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-142R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_666580@NC_004086.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_666580@NC_004086.txt data/models_hmm/NP_666580@NC_004086.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:15 2021
+# [ok]

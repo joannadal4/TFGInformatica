@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20221|F92_SSV1      10.2      0.59   2   2.4   6.8    Uncharacterized protein F-92 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=f92 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20221|F92_SSV1       9.4         1     2   0.1     64     92     78     91     47     60     Uncharacterized protein F-92 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=f92 PE=4 SV=1
+sp|P20221|F92_SSV1       2.0   2.1e+02     1   3.5     20     63     28     50     47     70     Uncharacterized protein F-92 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=f92 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000025@SRS023617_Baylor_scaffold_11447@SRS023617_Baylor_scaffold_11447_gene_15494.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000025@SRS023617_Baylor_scaffold_11447@SRS023617_Baylor_scaffold_11447_gene_15494.txt data/models_hmm/7000000025@SRS023617_Baylor_scaffold_11447@SRS023617_Baylor_scaffold_11447_gene_15494.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:42 2021
+# [ok]

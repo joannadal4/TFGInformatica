@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q18LF5|ORFA_ELHVK    12.6       0.1   2   2.3   0.3    Protein ORF A OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q18LF5|ORFA_ELHVK     8.7       1.5     2   0.2    354    425    369    416     90    136     Protein ORF A OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=4 SV=1
+sp|Q18LF5|ORFA_ELHVK     1.1   3.5e+02     1   0.0     54    114     60    108     89    136     Protein ORF A OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000624@SRS024435_LANL_scaffold_10804@SRS024435_LANL_scaffold_10804_gene_26824.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000624@SRS024435_LANL_scaffold_10804@SRS024435_LANL_scaffold_10804_gene_26824.txt data/models_hmm/7000000624@SRS024435_LANL_scaffold_10804@SRS024435_LANL_scaffold_10804_gene_26824.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:37 2021
+# [ok]

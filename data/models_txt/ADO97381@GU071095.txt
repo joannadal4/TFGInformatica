@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P08232|FIB37_BPOX2    15.2     0.003   1   1.1   0.0    Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage Ox2 OX=10691 GN=37 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P08232|FIB37_BPOX2    14.8    0.0038     1   0.0     95    238    127    231   1273   1377     Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage Ox2 OX=10691 GN=37 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ADO97381@GU071095.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ADO97381@GU071095.txt data/models_hmm/ADO97381@GU071095.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:20 2021
+# [ok]

@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P51735|FIB31_BPHC1    13.9     0.027   1   1.5   0.0    Probable tail fiber protein OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|Q89425|VF113_ASFM2    13.0      0.05   1   1.5   0.0    Putative ATP-dependent RNA helicase D1133L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-114 PE=3 SV=1
+sp|P0C9A6|VF113_ASFWA    12.6     0.065   1   1.5   0.0    Putative ATP-dependent RNA helicase D1133L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-116 PE=3 SV=1
+sp|P0C9A5|VF113_ASFP4    12.6     0.067   1   1.5   0.0    Putative ATP-dependent RNA helicase D1133L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-118 PE=3 SV=1
+sp|Q89525|VF113_ASFB7    12.6     0.067   1   1.5   0.0    Putative ATP-dependent RNA helicase D1133L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-106 PE=3 SV=1
+sp|P0C9A7|VF113_ASFK5    12.4     0.073   1   1.6   0.0    Putative ATP-dependent RNA helicase D1133L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-118 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P51735|FIB31_BPHC1    12.8     0.057     1   0.0    766    847    788    826     81    119     Probable tail fiber protein OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|Q89425|VF113_ASFM2    11.8      0.11     1   0.0    674    805    689    772     82    170     Putative ATP-dependent RNA helicase D1133L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-114 PE=3 SV=1
+sp|P0C9A5|VF113_ASFP4    11.4      0.15     1   0.0    709    836    724    790     82    152     Putative ATP-dependent RNA helicase D1133L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-118 PE=3 SV=1
+sp|P0C9A6|VF113_ASFWA    11.4      0.15     1   0.0    709    836    724    790     82    152     Putative ATP-dependent RNA helicase D1133L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-116 PE=3 SV=1
+sp|Q89525|VF113_ASFB7    11.4      0.15     1   0.0    709    836    724    790     82    152     Putative ATP-dependent RNA helicase D1133L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-106 PE=3 SV=1
+sp|P0C9A7|VF113_ASFK5    11.2      0.18     1   0.0    710    837    725    785     82    146     Putative ATP-dependent RNA helicase D1133L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-118 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000380@SRS015663_WUGC_scaffold_29152@SRS015663_WUGC_scaffold_29152_gene_64555.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000380@SRS015663_WUGC_scaffold_29152@SRS015663_WUGC_scaffold_29152_gene_64555.txt data/models_hmm/7000000380@SRS015663_WUGC_scaffold_29152@SRS015663_WUGC_scaffold_29152_gene_64555.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:42 2021
+# [ok]

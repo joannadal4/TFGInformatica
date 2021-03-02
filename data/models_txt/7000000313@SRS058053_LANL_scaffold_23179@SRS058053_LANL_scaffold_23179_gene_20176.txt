@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q914J8|Y032_SIFVH    14.2     0.023   2   2.0   0.9    Uncharacterized protein 32 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0032 PE=4 SV=1
+sp|O21870|TERL_BPLSK    12.5     0.072   2   1.9   0.2    Terminase large subunit OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O21870|TERL_BPLSK    10.8      0.24     1   0.0    121    231    137    220     44    123     Terminase large subunit OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|Q914J8|Y032_SIFVH     7.9       1.8     1   0.1      3     50     12     38     82    108     Uncharacterized protein 32 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0032 PE=4 SV=1
+sp|Q914J8|Y032_SIFVH     5.5        11     2   0.1     44    114     59    108     73    121     Uncharacterized protein 32 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0032 PE=4 SV=1
+sp|O21870|TERL_BPLSK    -2.1   2.3e+03     2   0.0    238    275    246    271     65     86     Terminase large subunit OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000313@SRS058053_LANL_scaffold_23179@SRS058053_LANL_scaffold_23179_gene_20176.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000313@SRS058053_LANL_scaffold_23179@SRS058053_LANL_scaffold_23179_gene_20176.txt data/models_hmm/7000000313@SRS058053_LANL_scaffold_23179@SRS058053_LANL_scaffold_23179_gene_20176.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:10 2021
+# [ok]

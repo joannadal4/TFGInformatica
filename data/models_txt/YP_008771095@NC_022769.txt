@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05266|VG56_BPML5     13.1     0.065   1   1.1   0.0    Gene 56 protein OS=Mycobacterium phage L5 OX=31757 GN=56 PE=4 SV=1
+sp|P41429|PIKP1_NPVAC    10.4      0.44   2   1.9   6.2    Protein kinase-interacting protein PIKP1 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC24 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05266|VG56_BPML5     12.9     0.076     1   0.0     28     99     36     79     24     67     Gene 56 protein OS=Mycobacterium phage L5 OX=31757 GN=56 PE=4 SV=1
+sp|P41429|PIKP1_NPVAC    11.9      0.16     2   2.0     67    167     74    163     31    124     Protein kinase-interacting protein PIKP1 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC24 PE=1 SV=1
+sp|P41429|PIKP1_NPVAC     0.2   6.4e+02     1   0.1     10     61     20     46     86    112     Protein kinase-interacting protein PIKP1 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC24 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008771095@NC_022769.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008771095@NC_022769.txt data/models_hmm/YP_008771095@NC_022769.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:29 2021
+# [ok]

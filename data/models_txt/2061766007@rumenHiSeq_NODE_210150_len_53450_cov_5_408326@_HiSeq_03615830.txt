@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P89061|NSP4_ROTP5    13.0     0.075   1   1.2   1.4    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=1 SV=1
+sp|Q9QNA6|NSP4_ROTHK    12.9      0.08   1   1.1   0.6    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P89061|NSP4_ROTP5    12.6       0.1     1   1.4     73    152     83    141     64    125     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=1 SV=1
+sp|Q9QNA6|NSP4_ROTHK    12.5      0.11     1   0.6     77    150     83    140     64    124     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_210150_len_53450_cov_5_408326@_HiSeq_03615830.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_210150_len_53450_cov_5_408326@_HiSeq_03615830.txt data/models_hmm/2061766007@rumenHiSeq_NODE_210150_len_53450_cov_5_408326@_HiSeq_03615830.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:28 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q69555|U20_HHV6U    845.6    7e-255   1   1.0   7.2    Glycoprotein U20 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U20 PE=3 SV=1
+sp|Q9QJ46|U20_HHV6Z    765.0  2.1e-230   1   1.0   5.5    Glycoprotein U20 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U20 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q69555|U20_HHV6U    845.5  7.8e-255     1   7.2      1    422      1    422      1    422     Glycoprotein U20 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U20 PE=3 SV=1
+sp|Q9QJ46|U20_HHV6Z    764.7  2.5e-230     1   5.5      1    423      1    421      1    420     Glycoprotein U20 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U20 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_073760@NC_001716.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_073760@NC_001716.txt data/models_hmm/YP_073760@NC_001716.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:01 2021
+# [ok]

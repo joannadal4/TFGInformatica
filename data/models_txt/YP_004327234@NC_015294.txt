@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36821|VE7_HPV17      11.7       0.2   1   2.1   2.5    Protein E7 OS=Human papillomavirus type 17 OX=10607 GN=E7 PE=3 SV=1
+sp|P15854|GP166_BPPH5     6.6         8   1   2.0   7.0    Gene product 16.6 OS=Bacillus phage phi15 OX=10755 GN=16.6 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36821|VE7_HPV17       8.6       1.9     1   2.5     38     95     50     93     17     61     Protein E7 OS=Human papillomavirus type 17 OX=10607 GN=E7 PE=3 SV=1
+sp|P15854|GP166_BPPH5     3.0   1.1e+02     1   7.0      2     47      4     42     15     59     Gene product 16.6 OS=Bacillus phage phi15 OX=10755 GN=16.6 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004327234@NC_015294.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004327234@NC_015294.txt data/models_hmm/YP_004327234@NC_015294.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:20 2021
+# [ok]

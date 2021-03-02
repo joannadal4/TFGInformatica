@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A0PJ23|Z_BCNVU       14.1     0.032   2   2.0   2.5    RING finger protein Z OS=Bear Canyon mammarenavirus (isolate Mouse/United States/AV A0070039/2000) OX=192848 GN=Z PE=3 SV=1
+sp|Q197F1|RPB2_IIV3     13.7     0.042   1   1.9   0.7    Probable DNA-directed RNA polymerase II subunit RPB2 homolog OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-009R PE=3 SV=1
+sp|A9JR22|Z_TAMVU       12.1      0.13   2   2.0   2.2    RING finger protein Z OS=Tamiami mammarenavirus (isolate Rat/United States/W 10777/1964) OX=45223 GN=Z PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q197F1|RPB2_IIV3     12.0      0.14     1   0.7   1067   1121   1088   1111     42     65     Probable DNA-directed RNA polymerase II subunit RPB2 homolog OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-009R PE=3 SV=1
+sp|A0PJ23|Z_BCNVU        9.6       0.8     2   4.1     37     95     56     88     45     76     RING finger protein Z OS=Bear Canyon mammarenavirus (isolate Mouse/United States/AV A0070039/2000) OX=192848 GN=Z PE=3 SV=1
+sp|A9JR22|Z_TAMVU        9.2         1     2   0.8     43     95     56     91     45     78     RING finger protein Z OS=Tamiami mammarenavirus (isolate Rat/United States/W 10777/1964) OX=45223 GN=Z PE=3 SV=1
+sp|A9JR22|Z_TAMVU        2.9        93     1   0.1      3     54     14     41     35     62     RING finger protein Z OS=Tamiami mammarenavirus (isolate Rat/United States/W 10777/1964) OX=45223 GN=Z PE=3 SV=1
+sp|A0PJ23|Z_BCNVU        1.5   2.6e+02     1   0.1      3     54     14     41     35     62     RING finger protein Z OS=Bear Canyon mammarenavirus (isolate Mouse/United States/AV A0070039/2000) OX=192848 GN=Z PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001450@JGI24006J15134_10000090@JGI24006J15134_1000009035.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001450@JGI24006J15134_10000090@JGI24006J15134_1000009035.txt data/models_hmm/3300001450@JGI24006J15134_10000090@JGI24006J15134_1000009035.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:13 2021
+# [ok]

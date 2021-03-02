@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9MCD1|SSB_BPNF      13.6     0.046   1   1.5   0.4    Single-stranded DNA-binding protein OS=Bacillus phage Nf OX=10753 GN=5 PE=1 SV=1
+sp|Q37885|SSB_BPB03     13.3     0.054   1   1.4   0.3    Single-stranded DNA-binding protein OS=Bacillus phage B103 OX=10778 GN=5 PE=3 SV=1
+sp|Q04764|SCAF_BPMV4     8.9       1.3   2   2.0   6.3    Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q37885|SSB_BPB03     12.7     0.086     1   0.2     59    117     81    114    123    156     Single-stranded DNA-binding protein OS=Bacillus phage B103 OX=10778 GN=5 PE=3 SV=1
+sp|Q9MCD1|SSB_BPNF      12.7     0.086     1   0.2     58    117     80    114    122    156     Single-stranded DNA-binding protein OS=Bacillus phage Nf OX=10753 GN=5 PE=1 SV=1
+sp|Q04764|SCAF_BPMV4     8.2         2     2   2.8     48    137     54    109     57    106     Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+sp|Q04764|SCAF_BPMV4     3.6        55     1   0.4     24     63     33     60     50     77     Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007_rumenHiSeq_NODE_1097138_len_109831_cov_9_192423_HiSeq_25924170_2065252423.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007_rumenHiSeq_NODE_1097138_len_109831_cov_9_192423_HiSeq_25924170_2065252423.txt data/models_hmm/2061766007_rumenHiSeq_NODE_1097138_len_109831_cov_9_192423_HiSeq_25924170_2065252423.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:57 2021
+# [ok]

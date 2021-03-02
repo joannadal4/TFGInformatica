@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03048|RP28_BPSP1    14.6      0.02   2   2.0   0.0    RNA polymerase sigma GP28 factor OS=Bacillus phage SP01 OX=10685 GN=28 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03048|RP28_BPSP1    12.6     0.085     2   0.1    154    218    180    212     62     94     RNA polymerase sigma GP28 factor OS=Bacillus phage SP01 OX=10685 GN=28 PE=4 SV=1
+sp|P03048|RP28_BPSP1    -1.5   1.9e+03     1   0.0     15     64     19     51     94    126     RNA polymerase sigma GP28 factor OS=Bacillus phage SP01 OX=10685 GN=28 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000705@MIS_1000070513.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000705@MIS_1000070513.txt data/models_hmm/3300002026@MIS_10000705@MIS_1000070513.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:56 2021
+# [ok]

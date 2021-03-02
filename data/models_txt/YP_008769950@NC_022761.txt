@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O48401|GP47_BPSP1   162.8   1.7e-48   1   1.0   1.4    Putative gene 47 protein OS=Bacillus phage SP01 OX=10685 GN=47 PE=4 SV=1
+sp|P32537|POLG_HE701    12.8       0.1   2   2.7   0.0    Genome polyprotein OS=Human enterovirus 70 (strain J670/71) OX=31915 PE=1 SV=4
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O48401|GP47_BPSP1   162.7   1.9e-48     1   1.4      1     94      1     94      1     95     Putative gene 47 protein OS=Bacillus phage SP01 OX=10685 GN=47 PE=4 SV=1
+sp|P32537|POLG_HE701     9.5       1.2     1   0.0   1001   1071   1005   1060     31     82     Genome polyprotein OS=Human enterovirus 70 (strain J670/71) OX=31915 PE=1 SV=4
+sp|P32537|POLG_HE701    -1.4     3e+03     2   0.0   1289   1336   1305   1327     10     30     Genome polyprotein OS=Human enterovirus 70 (strain J670/71) OX=31915 PE=1 SV=4
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008769950@NC_022761.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008769950@NC_022761.txt data/models_hmm/YP_008769950@NC_022761.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:26 2021
+# [ok]

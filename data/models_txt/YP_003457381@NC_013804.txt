@@ -1,0 +1,42 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q08517|D13_SWPVK     917.9  1.5e-276   1   1.0  29.1    Scaffold protein D13 ortholog OS=Swinepox virus (strain Kasza) OX=10277 PE=3 SV=1
+sp|P68440|D13_VACCW     908.0  1.6e-273   1   1.0  22.6    Scaffold protein D13 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR118 PE=1 SV=1
+sp|P68441|D13_VACCC     908.0  1.6e-273   1   1.0  22.6    Scaffold protein D13 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D13L PE=3 SV=1
+sp|Q76ZR4|D13_VACCA     908.0  1.6e-273   1   1.0  22.6    Scaffold protein D13 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA110L PE=3 SV=1
+sp|Q77TJ4|D13_VACCT     908.0  1.6e-273   1   1.0  22.6    Scaffold protein D13 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TD15L PE=3 SV=1
+sp|P0DOU9|D13_VARV      905.4  9.3e-273   1   1.0  23.0    Scaffold protein D13 OS=Variola virus OX=10255 GN=D13L PE=3 SV=1
+sp|P0DSP6|D13_VAR67     905.4  9.3e-273   1   1.0  23.0    Scaffold protein D13 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=D13L PE=3 SV=1
+sp|P0DTA5|D13_FOWPN     835.0    2e-251   1   1.0  34.3    Scaffold protein OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV050 PE=3 SV=1
+sp|P0DTA6|D13_FOWPV     835.0    2e-251   1   1.0  34.3    Scaffold protein OS=Fowlpox virus OX=10261 GN=FPV050 PE=3 SV=1
+sp|Q5UQL7|CAPS1_MIMIV    25.6   3.4e-06   2   2.0   0.2    Capsid protein 1 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L425 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q08517|D13_SWPVK     917.8  1.7e-276     1  29.1      1    550      1    549      1    544     Scaffold protein D13 ortholog OS=Swinepox virus (strain Kasza) OX=10277 PE=3 SV=1
+sp|P68440|D13_VACCW     907.8  1.8e-273     1  22.6      1    549      1    548      1    544     Scaffold protein D13 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR118 PE=1 SV=1
+sp|P68441|D13_VACCC     907.8  1.8e-273     1  22.6      1    549      1    548      1    544     Scaffold protein D13 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D13L PE=3 SV=1
+sp|Q76ZR4|D13_VACCA     907.8  1.8e-273     1  22.6      1    549      1    548      1    544     Scaffold protein D13 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA110L PE=3 SV=1
+sp|Q77TJ4|D13_VACCT     907.8  1.8e-273     1  22.6      1    549      1    548      1    544     Scaffold protein D13 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TD15L PE=3 SV=1
+sp|P0DOU9|D13_VARV      905.2  1.1e-272     1  23.0      1    549      1    548      1    544     Scaffold protein D13 OS=Variola virus OX=10255 GN=D13L PE=3 SV=1
+sp|P0DSP6|D13_VAR67     905.2  1.1e-272     1  23.0      1    549      1    548      1    544     Scaffold protein D13 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=D13L PE=3 SV=1
+sp|P0DTA5|D13_FOWPN     834.9  2.2e-251     1  34.3      1    552      1    552      1    544     Scaffold protein OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV050 PE=3 SV=1
+sp|P0DTA6|D13_FOWPV     834.9  2.2e-251     1  34.3      1    552      1    552      1    544     Scaffold protein OS=Fowlpox virus OX=10261 GN=FPV050 PE=3 SV=1
+sp|Q5UQL7|CAPS1_MIMIV    23.2   1.9e-05     1   0.0     59    306     67    249     62    227     Capsid protein 1 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L425 PE=1 SV=2
+sp|Q5UQL7|CAPS1_MIMIV    -0.2   2.2e+02     2   0.1    398    473    401    433    426    457     Capsid protein 1 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L425 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003457381@NC_013804.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003457381@NC_013804.txt data/models_hmm/YP_003457381@NC_013804.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:37 2021
+# [ok]

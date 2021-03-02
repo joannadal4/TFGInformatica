@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A4ZUB9|Y059_ABVP      8.8      0.93   1   1.0   5.9    Uncharacterized protein ORF59 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF59 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A4ZUB9|Y059_ABVP      8.7      0.96     1   5.9      1     57      6     51     45     88     Uncharacterized protein ORF59 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF59 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000147@SRS014690_WUGC_scaffold_2449@SRS014690_WUGC_scaffold_2449_gene_2398.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000147@SRS014690_WUGC_scaffold_2449@SRS014690_WUGC_scaffold_2449_gene_2398.txt data/models_hmm/7000000147@SRS014690_WUGC_scaffold_2449@SRS014690_WUGC_scaffold_2449_gene_2398.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:54 2021
+# [ok]

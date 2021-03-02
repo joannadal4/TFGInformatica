@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05240|VG31_BPML5    18.0    0.0015   2   1.6   0.5    Gene 31 protein OS=Mycobacterium phage L5 OX=31757 GN=31 PE=4 SV=1
+sp|O64225|VG31_BPMD2     9.9      0.44   2   1.9   5.0    Gene 31 protein OS=Mycobacterium phage D29 OX=28369 GN=31 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05240|VG31_BPML5    18.0    0.0015     2   0.5    449    539    469    505    131    167     Gene 31 protein OS=Mycobacterium phage L5 OX=31757 GN=31 PE=4 SV=1
+sp|O64225|VG31_BPMD2    11.5      0.14     1   1.2    458    509    480    503    138    161     Gene 31 protein OS=Mycobacterium phage D29 OX=28369 GN=31 PE=4 SV=1
+sp|O64225|VG31_BPMD2    -1.0     9e+02     2   0.1    507    612    530    592     87    142     Gene 31 protein OS=Mycobacterium phage D29 OX=28369 GN=31 PE=4 SV=1
+sp|Q05240|VG31_BPML5    -3.5   5.4e+03     1   0.1    380    426    386    398    124    136     Gene 31 protein OS=Mycobacterium phage L5 OX=31757 GN=31 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000297___SRS056259_LANL_scaffold_516_8_57.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000297___SRS056259_LANL_scaffold_516_8_57.txt data/models_hmm/7000000297___SRS056259_LANL_scaffold_516_8_57.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:01 2021
+# [ok]

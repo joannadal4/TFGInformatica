@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P16714|I1_VACCW     539.1  2.5e-162   1   1.0  15.7    Telomere-binding protein I1 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR070 PE=1 SV=2
+sp|P20498|I1_VACCC     539.1  2.5e-162   1   1.0  15.7    Telomere-binding protein I1 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=I1L PE=2 SV=1
+sp|Q6RZN2|I1_RABPU     539.1  2.5e-162   1   1.0  15.7    Telomere-binding protein I1 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV059 PE=2 SV=1
+sp|Q77TL8|I1_VACCT     539.1  2.5e-162   1   1.0  15.7    Telomere-binding protein I1 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TI1L PE=2 SV=1
+sp|Q8V518|I1_MONPZ     538.0  5.5e-162   1   1.0  16.0    Telomere-binding protein I1 OS=Monkeypox virus (strain Zaire-96-I-16) OX=619591 GN=I1L PE=2 SV=1
+sp|O93117|I1_VACCA     536.3  1.9e-161   1   1.0  16.0    Telomere-binding protein I1 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA062L PE=2 SV=1
+sp|Q9QBG0|I1_VACCP     535.8  2.5e-161   1   1.0  16.3    Telomere-binding protein I1 OS=Vaccinia virus (strain L-IVP) OX=31531 PE=2 SV=1
+sp|P32999|I1_VAR67     522.8  2.4e-157   1   1.0  15.0    Telomere-binding protein I1 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=I1L PE=2 SV=1
+sp|Q9J5C9|I1_FOWPN     501.3  8.3e-151   1   1.0  26.8    Telomere-binding protein I1 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV090 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P16714|I1_VACCW     539.0  2.8e-162     1  15.7      2    312      3    311      2    311     Telomere-binding protein I1 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR070 PE=1 SV=2
+sp|P20498|I1_VACCC     539.0  2.8e-162     1  15.7      2    312      3    311      2    311     Telomere-binding protein I1 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=I1L PE=2 SV=1
+sp|Q6RZN2|I1_RABPU     539.0  2.8e-162     1  15.7      2    312      3    311      2    311     Telomere-binding protein I1 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV059 PE=2 SV=1
+sp|Q77TL8|I1_VACCT     539.0  2.8e-162     1  15.7      2    312      3    311      2    311     Telomere-binding protein I1 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TI1L PE=2 SV=1
+sp|Q8V518|I1_MONPZ     537.8  6.2e-162     1  16.0      2    312      3    311      2    311     Telomere-binding protein I1 OS=Monkeypox virus (strain Zaire-96-I-16) OX=619591 GN=I1L PE=2 SV=1
+sp|O93117|I1_VACCA     536.1  2.1e-161     1  16.0      2    312      3    311      2    311     Telomere-binding protein I1 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA062L PE=2 SV=1
+sp|Q9QBG0|I1_VACCP     535.6  2.9e-161     1  16.3      2    312      3    311      2    311     Telomere-binding protein I1 OS=Vaccinia virus (strain L-IVP) OX=31531 PE=2 SV=1
+sp|P32999|I1_VAR67     522.6  2.7e-157     1  15.0      2    312      3    311      2    311     Telomere-binding protein I1 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=I1L PE=2 SV=1
+sp|Q9J5C9|I1_FOWPN     501.1  9.3e-151     1  26.8      1    311      2    310      2    311     Telomere-binding protein I1 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV090 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_150477@NC_003027.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_150477@NC_003027.txt data/models_hmm/NP_150477@NC_003027.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:57 2021
+# [ok]

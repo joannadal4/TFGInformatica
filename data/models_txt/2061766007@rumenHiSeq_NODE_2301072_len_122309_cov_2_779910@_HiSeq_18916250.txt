@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36737|VL1_HPV32     12.6      0.12   2   2.1   0.0    Major capsid protein L1 OS=Human papillomavirus type 32 OX=333763 GN=L1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36737|VL1_HPV32     10.4      0.56     1   0.0    140    237    146    233     49    139     Major capsid protein L1 OS=Human papillomavirus type 32 OX=333763 GN=L1 PE=3 SV=1
+sp|P36737|VL1_HPV32     -2.1     4e+03     2   0.0    374    403    387    402     24     39     Major capsid protein L1 OS=Human papillomavirus type 32 OX=333763 GN=L1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_2301072_len_122309_cov_2_779910@_HiSeq_18916250.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_2301072_len_122309_cov_2_779910@_HiSeq_18916250.txt data/models_hmm/2061766007@rumenHiSeq_NODE_2301072_len_122309_cov_2_779910@_HiSeq_18916250.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:29 2021
+# [ok]

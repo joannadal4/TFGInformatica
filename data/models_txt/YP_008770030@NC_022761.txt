@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09990|FUS_PI3B       15.5     0.011   2   2.4   4.3    Fusion glycoprotein F0 OS=Bovine parainfluenza 3 virus OX=11215 GN=F PE=3 SV=2
+sp|P06828|FUS_PI3H4      15.3     0.013   2   2.4   0.5    Fusion glycoprotein F0 OS=Human parainfluenza 3 virus (strain Wash/47885/57) OX=11217 GN=F PE=1 SV=2
+sp|Q805K5|VA005_VACCW    12.6     0.092   1   1.1   0.2    Uncharacterized protein VACWR005 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR005 PE=3 SV=1
+sp|Q8QME4|VIE2_NPVCF     12.2      0.12   1   1.4   0.1    E3 ubiquitin-protein ligase IE2 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=IE2 PE=3 SV=1
+sp|Q71TF8|DARB_BPP1      12.1      0.13   1   2.0   0.6    Defense against restriction protein B OS=Escherichia phage P1 OX=10678 GN=darB PE=3 SV=1
+sp|Q91F87|438L_IIV6       7.1       4.8   2   2.4  10.9    Probable deoxyuridine 5'-triphosphate nucleotidohydrolase OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-438L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q805K5|VA005_VACCW    12.4      0.11     1   0.2      4     37     12     35     44     67     Uncharacterized protein VACWR005 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR005 PE=3 SV=1
+sp|Q8QME4|VIE2_NPVCF     11.3      0.24     1   0.1    269    319    272    304     17     49     E3 ubiquitin-protein ligase IE2 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=IE2 PE=3 SV=1
+sp|Q71TF8|DARB_BPP1      10.2       0.5     1   0.6   1618   1660   1623   1651     24     52     Defense against restriction protein B OS=Escherichia phage P1 OX=10678 GN=darB PE=3 SV=1
+sp|P09990|FUS_PI3B        9.0       1.2     1   0.1    130    176    137    165     31     59     Fusion glycoprotein F0 OS=Bovine parainfluenza 3 virus OX=11215 GN=F PE=3 SV=2
+sp|Q91F87|438L_IIV6       9.0       1.2     1   1.7      2     47     11     41     35     65     Probable deoxyuridine 5'-triphosphate nucleotidohydrolase OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-438L PE=3 SV=1
+sp|P09990|FUS_PI3B        7.2       4.5     2   0.9    455    486    458    483     29     54     Fusion glycoprotein F0 OS=Bovine parainfluenza 3 virus OX=11215 GN=F PE=3 SV=2
+sp|P06828|FUS_PI3H4       6.8       6.1     2   0.1    454    490    459    484     30     55     Fusion glycoprotein F0 OS=Human parainfluenza 3 virus (strain Wash/47885/57) OX=11217 GN=F PE=1 SV=2
+sp|P06828|FUS_PI3H4       6.2       9.1     1   0.0    130    175    138    161     32     55     Fusion glycoprotein F0 OS=Human parainfluenza 3 virus (strain Wash/47885/57) OX=11217 GN=F PE=1 SV=2
+sp|Q91F87|438L_IIV6       2.9     1e+02     2   2.1     58    128     83    103     21     41     Probable deoxyuridine 5'-triphosphate nucleotidohydrolase OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-438L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008770030@NC_022761.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008770030@NC_022761.txt data/models_hmm/YP_008770030@NC_022761.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:26 2021
+# [ok]

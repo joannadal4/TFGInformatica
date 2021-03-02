@@ -1,0 +1,44 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5H8R6|UL96_HCMVM    155.9   5.3e-46   1   1.0  11.2    Protein UL96 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL96 PE=3 SV=1
+sp|P16787|UL96_HCMVA    155.9   5.3e-46   1   1.0  11.2    Protein UL96 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL96 PE=3 SV=2
+sp|Q18LD1|UL96_ELHVK    115.6   1.6e-33   1   1.0   4.1    Protein U68 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+sp|P24445|UL96_HHV6U    112.3   1.8e-32   1   1.0   6.7    Protein U68 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U68 PE=3 SV=1
+sp|Q67669|UL96_GPCMV    111.3   3.6e-32   1   1.0   2.7    Protein GP96 OS=Guinea pig cytomegalovirus (strain 22122) OX=103920 GN=UL96 PE=3 SV=2
+sp|P52475|UL96_HHV7J    109.2   1.5e-31   1   1.0   8.1    Protein U68 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U68 PE=3 SV=1
+sp|Q9QJ18|UL96_HHV6Z    107.2   6.6e-31   1   1.0   6.7    Protein U68 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U68 PE=3 SV=1
+sp|Q01024|UL96_SHV21     23.6   5.4e-05   1   1.1   1.5    Gene 35 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=35 PE=3 SV=1
+sp|F5HCD4|ORF35_HHV8P    22.2   0.00015   1   1.3   0.5    Protein ORF35 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF35 PE=4 SV=1
+sp|Q66639|UL96_EHV2      18.5     0.002   2   1.5   0.5    Gene 35 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=35 PE=3 SV=1
+sp|O36384|UL96_ALHV1     13.4     0.074   1   1.3   2.1    Gene 35 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=35 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5H8R6|UL96_HCMVM    155.7   6.1e-46     1  11.2      1    120      1    120      1    120     Protein UL96 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL96 PE=3 SV=1
+sp|P16787|UL96_HCMVA    155.7   6.1e-46     1  11.2      1    120      1    120      1    120     Protein UL96 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL96 PE=3 SV=2
+sp|Q18LD1|UL96_ELHVK    115.5   1.8e-33     1   4.1      1    122      1    122      1    120     Protein U68 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+sp|P24445|UL96_HHV6U    112.2   1.9e-32     1   6.7      1    114      1    112      3    114     Protein U68 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U68 PE=3 SV=1
+sp|Q67669|UL96_GPCMV    111.2   3.9e-32     1   2.7      1    120      1    118      2    118     Protein GP96 OS=Guinea pig cytomegalovirus (strain 22122) OX=103920 GN=UL96 PE=3 SV=2
+sp|P52475|UL96_HHV7J    109.1   1.6e-31     1   8.1      1    114      2    112      4    114     Protein U68 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U68 PE=3 SV=1
+sp|Q9QJ18|UL96_HHV6Z    107.1   7.1e-31     1   6.7      1    114      1    112      3    114     Protein U68 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U68 PE=3 SV=1
+sp|Q01024|UL96_SHV21     23.3   6.4e-05     1   1.5      1    122      1    105      1    102     Gene 35 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=35 PE=3 SV=1
+sp|F5HCD4|ORF35_HHV8P    21.6   0.00021     1   0.4      3    125      4    109      2    103     Protein ORF35 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF35 PE=4 SV=1
+sp|Q66639|UL96_EHV2      18.5     0.002     1   0.5      6    125      9    110      5    103     Gene 35 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=35 PE=3 SV=1
+sp|O36384|UL96_ALHV1     12.8      0.12     1   2.1      2    113      6    106      9    109     Gene 35 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=35 PE=3 SV=1
+sp|Q66639|UL96_EHV2      -3.3   1.1e+04     2   0.0    131    145    132    143     90    101     Gene 35 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=35 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_116444@NC_002794.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_116444@NC_002794.txt data/models_hmm/NP_116444@NC_002794.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:54 2021
+# [ok]

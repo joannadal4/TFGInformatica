@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9QJ38|ITP_HHV6Z     17.5    0.0029   1   1.8   0.7    Inner tegument protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U30 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9QJ38|ITP_HHV6Z     16.1    0.0085     1   0.7    918   1008    930    992     26     88     Inner tegument protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U30 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_077223@NC_006268.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_077223@NC_006268.txt data/models_hmm/YP_077223@NC_006268.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:02 2021
+# [ok]

@@ -1,0 +1,40 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZW4|011R_FRG3G    111.1   2.1e-32   1   1.0   0.5    Uncharacterized protein 011R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-011R PE=4 SV=1
+sp|P0C9Y3|P12_ASFP4      12.9     0.092   1   1.1   0.0    Virus attachment protein p12 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-110 PE=3 SV=1
+sp|P0C9Y4|P12_ASFWA      12.9     0.092   1   1.1   0.0    Virus attachment protein p12 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-108 PE=3 SV=1
+sp|P32510|P12_ASFB7      12.9     0.092   1   1.1   0.0    Virus attachment protein p12 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-98 PE=1 SV=1
+sp|P18806|VPU_HV1ND      12.8     0.096   1   1.3   0.1    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=vpu PE=3 SV=1
+sp|P0C9Y2|P12_ASFM2      12.8       0.1   1   1.1   0.1    Virus attachment protein p12 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-106 PE=3 SV=1
+sp|Q9QSQ8|VPU_HV1VI      12.6      0.11   1   1.2   0.2    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate VI850) OX=388813 GN=vpu PE=3 SV=1
+sp|P19554|VPU_HV1S1      12.4      0.13   1   1.3   0.0    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate SF162) OX=11691 GN=vpu PE=1 SV=1
+sp|Q5UPZ4|YL310_MIMIV    10.7      0.45   2   1.8   2.4    Uncharacterized protein L310 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L310 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6GZW4|011R_FRG3G    111.0   2.2e-32     1   0.5      1     70      3     69      2     64     Uncharacterized protein 011R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-011R PE=4 SV=1
+sp|P0C9Y3|P12_ASFP4      12.8     0.099     1   0.0     11     55     13     43      3     33     Virus attachment protein p12 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-110 PE=3 SV=1
+sp|P0C9Y4|P12_ASFWA      12.8     0.099     1   0.0     11     55     13     43      3     33     Virus attachment protein p12 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-108 PE=3 SV=1
+sp|P32510|P12_ASFB7      12.8     0.099     1   0.0     11     55     13     43      3     33     Virus attachment protein p12 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-98 PE=1 SV=1
+sp|P0C9Y2|P12_ASFM2      12.7      0.11     1   0.1     11     54     13     41      3     31     Virus attachment protein p12 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-106 PE=3 SV=1
+sp|P18806|VPU_HV1ND      12.7      0.11     1   0.1      4     74     13     47      8     41     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=vpu PE=3 SV=1
+sp|P19554|VPU_HV1S1      12.3      0.15     1   0.0      4     75     12     47      6     41     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate SF162) OX=11691 GN=vpu PE=1 SV=1
+sp|Q9QSQ8|VPU_HV1VI      12.2      0.15     1   0.2      7     57     13     47      6     41     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate VI850) OX=388813 GN=vpu PE=3 SV=1
+sp|Q5UPZ4|YL310_MIMIV    10.1      0.69     1   1.4     47     92     50     77      5     32     Uncharacterized protein L310 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L310 PE=4 SV=1
+sp|Q5UPZ4|YL310_MIMIV    -0.4   1.3e+03     2   0.0     76    117     80    115     57     95     Uncharacterized protein L310 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L310 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_031589@NC_005946.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_031589@NC_005946.txt data/models_hmm/YP_031589@NC_005946.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:53 2021
+# [ok]

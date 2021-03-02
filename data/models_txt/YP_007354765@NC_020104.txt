@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UR06|YR651_MIMIV    41.0   1.4e-10   3   3.3   8.7    Uncharacterized protein R651 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R651 PE=3 SV=1
+sp|Q5UPE6|YR069_MIMIV    27.8   1.4e-06   2   3.2  10.6    Uncharacterized protein R69 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R69 PE=3 SV=1
+sp|Q5UPS4|YL781_MIMIV    26.1   4.8e-06   1   1.2   4.6    Uncharacterized protein L781 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L781 PE=3 SV=1
+sp|Q5UNU4|YL685_MIMIV    25.1   9.2e-06   2   2.6  16.5    Uncharacterized protein L685 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L685 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UR06|YR651_MIMIV    41.0   1.4e-10     2   8.7    131    300    141    296    251    389     Uncharacterized protein R651 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R651 PE=3 SV=1
+sp|Q5UPE6|YR069_MIMIV    27.8   1.4e-06     2  10.6    177    309    209    307    294    390     Uncharacterized protein R69 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R69 PE=3 SV=1
+sp|Q5UPS4|YL781_MIMIV    25.6   6.5e-06     1   4.6      8    130     32    128    318    389     Uncharacterized protein L781 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L781 PE=3 SV=1
+sp|Q5UNU4|YL685_MIMIV    25.1   9.2e-06     2  16.5    128    312    213    311    311    391     Uncharacterized protein L685 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L685 PE=3 SV=1
+sp|Q5UR06|YR651_MIMIV     2.9        51     1   8.5     15    149     47    137    120    222     Uncharacterized protein R651 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R651 PE=3 SV=1
+sp|Q5UNU4|YL685_MIMIV    -1.1   8.4e+02     1   9.1      3    131     17    109     51    135     Uncharacterized protein L685 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L685 PE=3 SV=1
+sp|Q5UR06|YR651_MIMIV    -2.2   1.9e+03     3   0.4    419    491    430    476    266    312     Uncharacterized protein R651 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R651 PE=3 SV=1
+sp|Q5UPE6|YR069_MIMIV    -5.9   1.7e+04     1  11.1     26    163     87    147    116    158     Uncharacterized protein R69 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R69 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007354765@NC_020104.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007354765@NC_020104.txt data/models_hmm/YP_007354765@NC_020104.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:51 2021
+# [ok]

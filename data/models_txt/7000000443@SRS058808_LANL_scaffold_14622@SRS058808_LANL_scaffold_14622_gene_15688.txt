@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q04763|SCAF_BPLLH    17.4    0.0019   1   1.1   3.7    Capsid assembly scaffolding protein OS=Lactococcus phage LL-H OX=12348 GN=g20 PE=3 SV=1
+sp|Q04764|SCAF_BPMV4    14.5     0.014   1   1.1   4.0    Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q04763|SCAF_BPLLH    17.1    0.0022     1   3.7     14    144     37    134    280    376     Capsid assembly scaffolding protein OS=Lactococcus phage LL-H OX=12348 GN=g20 PE=3 SV=1
+sp|Q04764|SCAF_BPMV4    14.2     0.017     1   4.0     16    145     37    136    280    378     Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000443@SRS058808_LANL_scaffold_14622@SRS058808_LANL_scaffold_14622_gene_15688.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000443@SRS058808_LANL_scaffold_14622@SRS058808_LANL_scaffold_14622_gene_15688.txt data/models_hmm/7000000443@SRS058808_LANL_scaffold_14622@SRS058808_LANL_scaffold_14622_gene_15688.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:25 2021
+# [ok]

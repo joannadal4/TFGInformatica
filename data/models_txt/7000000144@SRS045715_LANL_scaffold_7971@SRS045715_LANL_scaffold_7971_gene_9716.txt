@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8V336|NCAP_DUGBA    14.4     0.024   2   2.2   0.2    Nucleoprotein OS=Dugbe virus (isolate ArD44313) OX=766194 GN=N PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8V336|NCAP_DUGBA    11.8      0.16     1   0.0    149    172    152    169     21     38     Nucleoprotein OS=Dugbe virus (isolate ArD44313) OX=766194 GN=N PE=3 SV=1
+sp|Q8V336|NCAP_DUGBA    -0.7   1.3e+03     2   0.0    408    425    411    423     10     22     Nucleoprotein OS=Dugbe virus (isolate ArD44313) OX=766194 GN=N PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000144@SRS045715_LANL_scaffold_7971@SRS045715_LANL_scaffold_7971_gene_9716.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000144@SRS045715_LANL_scaffold_7971@SRS045715_LANL_scaffold_7971_gene_9716.txt data/models_hmm/7000000144@SRS045715_LANL_scaffold_7971@SRS045715_LANL_scaffold_7971_gene_9716.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:52 2021
+# [ok]

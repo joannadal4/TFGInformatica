@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P15896|ORF5_SPV1R    14.5     0.027   1   1.2   0.2    Uncharacterized protein ORF5 OS=Spiroplasma virus SpV1-R8A2 B OX=10854 GN=ORF5 PE=3 SV=2
+sp|Q4U3V0|DPOL_TNAVC    12.4      0.12   2   2.0   1.5    DNA polymerase OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF1 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P15896|ORF5_SPV1R    14.3     0.031     1   0.2      4    121     23    105     20    106     Uncharacterized protein ORF5 OS=Spiroplasma virus SpV1-R8A2 B OX=10854 GN=ORF5 PE=3 SV=2
+sp|Q4U3V0|DPOL_TNAVC    11.7       0.2     1   0.1    539    637    554    632     62    139     DNA polymerase OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF1 PE=3 SV=2
+sp|Q4U3V0|DPOL_TNAVC    -2.2   3.8e+03     2   0.1    891    928    902    917     73     88     DNA polymerase OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF1 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_294070@NC_007346.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_294070@NC_007346.txt data/models_hmm/YP_294070@NC_007346.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:26 2021
+# [ok]

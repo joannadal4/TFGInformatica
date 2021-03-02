@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39261|Y05F_BPT4     15.8    0.0031   1   1.1   0.3    Uncharacterized 36.7 kDa protein in nrdC-mobD intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y05F PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39261|Y05F_BPT4     15.5    0.0037     1   0.3     20    300     58    268    159    363     Uncharacterized 36.7 kDa protein in nrdC-mobD intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y05F PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000300@SRS043701_LANL_scaffold_26382@SRS043701_LANL_scaffold_26382_gene_55236.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000300@SRS043701_LANL_scaffold_26382@SRS043701_LANL_scaffold_26382_gene_55236.txt data/models_hmm/7000000300@SRS043701_LANL_scaffold_26382@SRS043701_LANL_scaffold_26382_gene_55236.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:05 2021
+# [ok]

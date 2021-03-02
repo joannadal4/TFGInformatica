@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ72|RFCS4_MIMIV    14.7     0.017   3   3.2   7.6    Putative replication factor C small subunit L510 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R510 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ72|RFCS4_MIMIV     6.7       4.9     3   0.9    267    352    268    329      2     61     Putative replication factor C small subunit L510 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R510 PE=3 SV=1
+sp|Q5UQ72|RFCS4_MIMIV     5.9       8.8     1   0.0      1     45      4     37     72    105     Putative replication factor C small subunit L510 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R510 PE=3 SV=1
+sp|Q5UQ72|RFCS4_MIMIV     4.6        22     2   0.5     73    195     89    184     37    124     Putative replication factor C small subunit L510 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R510 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_373253_len_70348_cov_0_914027@_HiSeq_04188440.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_373253_len_70348_cov_0_914027@_HiSeq_04188440.txt data/models_hmm/2061766007@rumenHiSeq_NODE_373253_len_70348_cov_0_914027@_HiSeq_04188440.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:35 2021
+# [ok]

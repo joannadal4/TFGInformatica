@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21080|E2_VACCC      36.7   1.2e-09   2   2.2   0.9    Protein E2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=E2L PE=3 SV=1
+sp|P21604|E2_VACCW      36.7   1.2e-09   2   2.2   0.9    Protein E2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR058 PE=1 SV=2
+sp|P33862|E2_VAR67      36.2   1.7e-09   2   2.2   0.9    Protein E2 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=E2L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21080|E2_VACCC      36.7   1.2e-09     1   0.9      2    237     21    199     20    202     Protein E2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=E2L PE=3 SV=1
+sp|P21604|E2_VACCW      36.7   1.2e-09     1   0.9      2    237     21    199     20    202     Protein E2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR058 PE=1 SV=2
+sp|P33862|E2_VAR67      36.2   1.7e-09     1   0.9      2    231     21    198     20    201     Protein E2 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=E2L PE=3 SV=1
+sp|P21080|E2_VACCC       2.0        36     2   0.8    261    370    272    331     58    117     Protein E2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=E2L PE=3 SV=1
+sp|P21604|E2_VACCW       2.0        36     2   0.8    261    370    272    331     58    117     Protein E2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR058 PE=1 SV=2
+sp|P33862|E2_VAR67       1.4        54     2   0.9    262    370    272    331     58    117     Protein E2 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=E2L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_784254@NC_008030.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_784254@NC_008030.txt data/models_hmm/YP_784254@NC_008030.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:51 2021
+# [ok]

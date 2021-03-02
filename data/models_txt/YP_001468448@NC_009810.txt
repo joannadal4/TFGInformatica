@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q3V4R5|Y161B_ATV     14.7     0.017   2   1.4   0.7    Uncharacterized protein ORF161b OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q3V4R5|Y161B_ATV     14.7     0.017     2   0.7     76    160     85    156    106    178     Uncharacterized protein ORF161b OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|Q3V4R5|Y161B_ATV     -3.3   5.5e+03     1   0.0      4     32      9     31    181    203     Uncharacterized protein ORF161b OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001468448@NC_009810.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001468448@NC_009810.txt data/models_hmm/YP_001468448@NC_009810.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:20 2021
+# [ok]

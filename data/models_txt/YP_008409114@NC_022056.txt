@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P15895|ORF4_SPV1R    12.3      0.12   1   1.5   0.5    Uncharacterized protein ORF4 OS=Spiroplasma virus SpV1-R8A2 B OX=10854 GN=ORF4 PE=3 SV=2
+sp|Q88423|ORF4_SPV1C    12.2      0.13   1   1.4   0.4    Uncharacterized protein ORF4 OS=Spiroplasma virus SpV1-C74 OX=185959 GN=ORF4 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P15895|ORF4_SPV1R    11.3      0.25     1   0.5     98    121    102    117     13     28     Uncharacterized protein ORF4 OS=Spiroplasma virus SpV1-R8A2 B OX=10854 GN=ORF4 PE=3 SV=2
+sp|Q88423|ORF4_SPV1C    11.2      0.26     1   0.4    101    124    105    120     13     28     Uncharacterized protein ORF4 OS=Spiroplasma virus SpV1-C74 OX=185959 GN=ORF4 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008409114@NC_022056.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008409114@NC_022056.txt data/models_hmm/YP_008409114@NC_022056.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:57 2021
+# [ok]

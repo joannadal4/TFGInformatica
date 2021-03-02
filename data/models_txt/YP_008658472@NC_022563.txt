@@ -1,0 +1,45 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8QMY0|GLRX2_CWPXB   167.2   1.6e-49   1   1.0   0.2    Glutaredoxin-2 OS=Cowpox virus (strain Brighton Red) OX=265872 GN=CPXV091 PE=3 SV=1
+sp|P68460|GLRX2_VACCW   166.7   2.3e-49   1   1.0   0.2    Glutaredoxin-2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR081 PE=1 SV=1
+sp|P68461|GLRX2_VACCC   166.7   2.3e-49   1   1.0   0.2    Glutaredoxin-2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G4L PE=3 SV=1
+sp|Q6RZM1|GLRX2_RABPU   166.7   2.3e-49   1   1.0   0.2    Glutaredoxin-2 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV070 PE=3 SV=1
+sp|Q8V507|GLRX2_ECTVM   166.6   2.5e-49   1   1.0   0.2    Glutaredoxin-2 OS=Ectromelia virus (strain Moscow) OX=265874 GN=EVM065 PE=3 SV=1
+sp|O57195|GLRX2_VACCA   166.4   2.8e-49   1   1.0   0.2    Glutaredoxin-2 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA073L PE=3 SV=1
+sp|Q77TL3|GLRX2_VACCT   166.4   2.8e-49   1   1.0   0.2    Glutaredoxin-2 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TG4R PE=3 SV=1
+sp|P0DSY3|GLRX2_VAR67   166.3     3e-49   1   1.0   0.2    Glutaredoxin-2 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G4L PE=3 SV=1
+sp|P0DSY4|GLRX2_VARV    166.3     3e-49   1   1.0   0.2    Glutaredoxin-2 OS=Variola virus OX=10255 GN=G4L PE=3 SV=1
+sp|Q76QK5|GLRX2_CWPXG   166.3     3e-49   1   1.0   0.2    Glutaredoxin-2 OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=H4L PE=3 SV=1
+sp|Q775W3|GLRX2_CAMPS   166.3     3e-49   1   1.0   0.2    Glutaredoxin-2 OS=Camelpox virus (strain CMS) OX=203172 GN=CMP78L PE=3 SV=1
+sp|Q77FQ5|GLRX2_CAMPM   166.3     3e-49   1   1.0   0.2    Glutaredoxin-2 OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV079 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8QMY0|GLRX2_CWPXB   167.1   1.7e-49     1   0.2      1    124      1    123      1    123     Glutaredoxin-2 OS=Cowpox virus (strain Brighton Red) OX=265872 GN=CPXV091 PE=3 SV=1
+sp|P68460|GLRX2_VACCW   166.5   2.5e-49     1   0.2      1    124      1    123      1    123     Glutaredoxin-2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR081 PE=1 SV=1
+sp|P68461|GLRX2_VACCC   166.5   2.5e-49     1   0.2      1    124      1    123      1    123     Glutaredoxin-2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G4L PE=3 SV=1
+sp|Q6RZM1|GLRX2_RABPU   166.5   2.5e-49     1   0.2      1    124      1    123      1    123     Glutaredoxin-2 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV070 PE=3 SV=1
+sp|Q8V507|GLRX2_ECTVM   166.5   2.7e-49     1   0.2      1    124      1    123      1    123     Glutaredoxin-2 OS=Ectromelia virus (strain Moscow) OX=265874 GN=EVM065 PE=3 SV=1
+sp|O57195|GLRX2_VACCA   166.3   3.1e-49     1   0.2      1    124      1    123      1    123     Glutaredoxin-2 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA073L PE=3 SV=1
+sp|Q77TL3|GLRX2_VACCT   166.3   3.1e-49     1   0.2      1    124      1    123      1    123     Glutaredoxin-2 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TG4R PE=3 SV=1
+sp|P0DSY3|GLRX2_VAR67   166.2   3.3e-49     1   0.2      1    124      1    123      1    123     Glutaredoxin-2 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G4L PE=3 SV=1
+sp|P0DSY4|GLRX2_VARV    166.2   3.3e-49     1   0.2      1    124      1    123      1    123     Glutaredoxin-2 OS=Variola virus OX=10255 GN=G4L PE=3 SV=1
+sp|Q76QK5|GLRX2_CWPXG   166.2   3.3e-49     1   0.2      1    124      1    123      1    123     Glutaredoxin-2 OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=H4L PE=3 SV=1
+sp|Q775W3|GLRX2_CAMPS   166.2   3.3e-49     1   0.2      1    124      1    123      1    123     Glutaredoxin-2 OS=Camelpox virus (strain CMS) OX=203172 GN=CMP78L PE=3 SV=1
+sp|Q77FQ5|GLRX2_CAMPM   166.2   3.3e-49     1   0.2      1    124      1    123      1    123     Glutaredoxin-2 OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV079 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008658472@NC_022563.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008658472@NC_022563.txt data/models_hmm/YP_008658472@NC_022563.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:23 2021
+# [ok]

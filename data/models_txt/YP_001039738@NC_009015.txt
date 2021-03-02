@@ -1,0 +1,92 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P23052|SPIKE_BEV      16.3     0.006   2   2.2   1.9    Spike glycoprotein OS=Berne virus OX=11156 GN=S PE=2 SV=1
+sp|P0CK00|MVP_PEMVM      16.0    0.0073   2   2.8   0.9    P3N-PIPO polyprotein OS=Peanut mottle virus (strain M) OX=103926 PE=3 SV=2
+sp|Q197B1|049R_IIV3      14.9     0.016   6   5.2   0.2    Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|P34052|VP10_NPVSE     13.5     0.045   1   1.4   0.3    Protein p10 OS=Spodoptera exigua nuclear polyhedrosis virus (strain US) OX=31506 GN=P10 PE=3 SV=1
+sp|Q5UR08|YL649_MIMIV    12.9     0.068   1   1.3   0.7    Uncharacterized protein L649 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L649 PE=4 SV=1
+sp|Q573E3|Y100A_AFV2P    12.9     0.069   1   1.8   6.6    Uncharacterized protein ORF100a OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF100a PE=4 SV=1
+sp|A6QL29|AGNO1_BFPYV    12.8      0.07   1   1.1   0.2    Avian agnoprotein 1a OS=Budgerigar fledgling disease virus OX=1891747 PE=1 SV=1
+sp|Q82053|NSP3_ROTHT     12.3       0.1   2   2.0   8.8    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=2 SV=1
+sp|P19818|VAT_CAMVP      12.3       0.1   2   1.8   0.3    Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+sp|Q82051|NSP3_ROTH6     12.1      0.12   1   2.1   8.9    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Indonesia/69M/1980/G8P4[10]) OX=10947 PE=2 SV=1
+sp|P03550|VAT_CAMVD      12.0      0.13   2   1.6   1.4    Aphid transmission protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF II PE=3 SV=1
+sp|P04514|NSP3_ROTBU     11.9      0.14   1   1.7   5.1    Non-structural protein 3 OS=Rotavirus A (strain RVA/Cow/United Kingdom/UK/1975/G6P7[5]) OX=10934 PE=3 SV=1
+sp|Q9ICB2|NSP3_ROTAM     11.7      0.16   2   2.1   9.6    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/M/1976/G3P[X]) OX=578834 PE=3 SV=1
+sp|P03549|VAT_CAMVC      11.0      0.25   2   1.7   2.2    Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|P15317|YHYA_BPH44     10.9      0.28   2   2.2   5.5    Uncharacterized 65 kDa protein in hyaluronidase region OS=Streptococcus pyogenes phage H4489A OX=12366 PE=4 SV=1
+sp|P03548|VAT_CAMVS      10.9      0.28   2   1.7   2.1    Aphid transmission protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF II PE=3 SV=1
+sp|Q00965|VAT_CAMVN      10.7      0.32   2   1.8   1.8    Aphid transmission protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF II PE=3 SV=1
+sp|A2T3N5|NSP3_ROTSH     10.5      0.36   3   2.3  10.9    Non-structural protein 3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=3 SV=1
+sp|P03536|NSP3_ROTS1     10.3      0.41   3   2.1   8.9    Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=1 SV=1
+sp|B3SRS1|NSP3_ROTAD      9.8      0.59   2   2.1   9.6    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|Q00721|NSP3_ROTS4      9.5      0.73   3   2.2  11.6    Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-4F/G3P6[1]) OX=36436 PE=1 SV=1
+sp|O56075|POLG_PEMVM      9.1      0.97   4   3.4   0.0    Genome polyprotein OS=Peanut mottle virus (strain M) OX=103926 PE=3 SV=1
+sp|Q82054|NSP3_ROTHW      9.0         1   2   2.2   9.6    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q197B1|049R_IIV3      14.9     0.016     5   0.2    350    462    355    439     63    143     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|P23052|SPIKE_BEV      13.4     0.049     2   1.1   1126   1242   1131   1233     51    151     Spike glycoprotein OS=Berne virus OX=11156 GN=S PE=2 SV=1
+sp|A2T3N5|NSP3_ROTSH     13.3     0.049     2   5.3    121    245    143    231     57    148     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=3 SV=1
+sp|Q00721|NSP3_ROTS4     13.2     0.055     2   5.5    121    246    143    231     57    148     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-4F/G3P6[1]) OX=36436 PE=1 SV=1
+sp|Q9ICB2|NSP3_ROTAM     12.8     0.072     1   6.3    118    243    137    230     54    150     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/M/1976/G3P[X]) OX=578834 PE=3 SV=1
+sp|Q82053|NSP3_ROTHT     12.8     0.073     1   6.1    126    242    140    233     54    150     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=2 SV=1
+sp|P34052|VP10_NPVSE     12.6      0.08     1   0.3      2     88     13     86     61    120     Protein p10 OS=Spodoptera exigua nuclear polyhedrosis virus (strain US) OX=31506 GN=P10 PE=3 SV=1
+sp|A6QL29|AGNO1_BFPYV    12.4     0.093     1   0.2     66    119     76    114     59     97     Avian agnoprotein 1a OS=Budgerigar fledgling disease virus OX=1891747 PE=1 SV=1
+sp|P03536|NSP3_ROTS1     12.4     0.094     2   4.4    121    246    143    224     57    141     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=1 SV=1
+sp|Q5UR08|YL649_MIMIV    12.2      0.11     1   0.7    218    281    232    281     54    104     Uncharacterized protein L649 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L649 PE=4 SV=1
+sp|P03550|VAT_CAMVD      11.4      0.19     2   0.8     52    157    107    152     55     97     Aphid transmission protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF II PE=3 SV=1
+sp|P04514|NSP3_ROTBU     11.2      0.22     1   4.3    121    247    140    235     54    152     Non-structural protein 3 OS=Rotavirus A (strain RVA/Cow/United Kingdom/UK/1975/G6P7[5]) OX=10934 PE=3 SV=1
+sp|B3SRS1|NSP3_ROTAD     11.0      0.25     1   6.1    118    241    137    230     54    150     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|P0CK00|MVP_PEMVM      10.9      0.27     2   0.0    545    620    548    597     24     73     P3N-PIPO polyprotein OS=Peanut mottle virus (strain M) OX=103926 PE=3 SV=2
+sp|Q82054|NSP3_ROTHW     10.9      0.27     1   5.2    122    245    152    233     65    150     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=2 SV=1
+sp|P19818|VAT_CAMVP      10.7      0.31     2   0.2     66    158    108    155     56    138     Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+sp|P03549|VAT_CAMVC      10.6      0.35     2   1.3     52    157    105    152     53     97     Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|Q573E3|Y100A_AFV2P    10.4      0.38     1   6.6      6     99     17     96     62    137     Uncharacterized protein ORF100a OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF100a PE=4 SV=1
+sp|P15317|YHYA_BPH44     10.2      0.45     1   1.0     72    195    100    166     75    132     Uncharacterized 65 kDa protein in hyaluronidase region OS=Streptococcus pyogenes phage H4489A OX=12366 PE=4 SV=1
+sp|Q82051|NSP3_ROTH6     10.0      0.53     1   8.9    123    295    138    224     52    134     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Indonesia/69M/1980/G8P4[10]) OX=10947 PE=2 SV=1
+sp|P03548|VAT_CAMVS       9.8      0.61     2   1.5     74    157    108    152     56     97     Aphid transmission protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF II PE=3 SV=1
+sp|Q00965|VAT_CAMVN       9.8      0.61     2   1.1     66    158    107    152     55     97     Aphid transmission protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF II PE=3 SV=1
+sp|O56075|POLG_PEMVM      9.1      0.97     2   0.0    545    620    548    597     24     73     Genome polyprotein OS=Peanut mottle virus (strain M) OX=103926 PE=3 SV=1
+sp|Q197B1|049R_IIV3       4.2        30     6   0.2    480    566    492    560     63    126     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q197B1|049R_IIV3       2.7        87     1   0.4     33    122     64     88     77    101     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|P15317|YHYA_BPH44      2.7        91     2   0.2    169    306    211    269     79    136     Uncharacterized 65 kDa protein in hyaluronidase region OS=Streptococcus pyogenes phage H4489A OX=12366 PE=4 SV=1
+sp|P0CK00|MVP_PEMVM       1.3   2.4e+02     1   1.4    363    496    376    427     48     98     P3N-PIPO polyprotein OS=Peanut mottle virus (strain M) OX=103926 PE=3 SV=2
+sp|P03536|NSP3_ROTS1      1.1   2.7e+02     3   0.5    196    295    217    288     72    140     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=1 SV=1
+sp|Q00721|NSP3_ROTS4      0.9   3.2e+02     3   1.3    198    295    212    287     67    139     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-4F/G3P6[1]) OX=36436 PE=1 SV=1
+sp|A2T3N5|NSP3_ROTSH      0.8   3.3e+02     3   1.3    198    295    212    287     67    139     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=3 SV=1
+sp|P23052|SPIKE_BEV       0.8   3.4e+02     1   0.0    984   1034    995   1028     51     84     Spike glycoprotein OS=Berne virus OX=11156 GN=S PE=2 SV=1
+sp|O56075|POLG_PEMVM      0.5   4.1e+02     1   0.2    365    496    376    427     48     98     Genome polyprotein OS=Peanut mottle virus (strain M) OX=103926 PE=3 SV=1
+sp|Q197B1|049R_IIV3       0.5   4.2e+02     2   1.3    103    218    156    197     64    105     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q9ICB2|NSP3_ROTAM      0.5   4.2e+02     2   0.8    210    293    217    285     68    136     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/M/1976/G3P[X]) OX=578834 PE=3 SV=1
+sp|B3SRS1|NSP3_ROTAD      0.5   4.2e+02     2   0.8    210    293    217    285     68    136     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|Q197B1|049R_IIV3       0.5   4.3e+02     4   0.2    238    349    281    306     66     91     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q82054|NSP3_ROTHW     -0.2   6.9e+02     2   0.3    222    296    263    288    111    140     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=2 SV=1
+sp|Q197B1|049R_IIV3      -0.3   7.2e+02     3   0.5    161    259    186    218     61     94     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q00965|VAT_CAMVN      -0.9   1.1e+03     1   0.0     18     80     22     53    109    140     Aphid transmission protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF II PE=3 SV=1
+sp|A2T3N5|NSP3_ROTSH     -1.1   1.2e+03     1   0.1      3    123     38     91     91    146     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=3 SV=1
+sp|P03548|VAT_CAMVS      -1.1   1.3e+03     1   0.0     18     66     22     53    109    140     Aphid transmission protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF II PE=3 SV=1
+sp|P03550|VAT_CAMVD      -1.2   1.4e+03     1   0.0     19     68     22     53    109    140     Aphid transmission protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF II PE=3 SV=1
+sp|P03549|VAT_CAMVC      -1.3   1.4e+03     1   0.0     18     60     22     52    109    139     Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|P19818|VAT_CAMVP      -1.3   1.5e+03     1   0.0     18     59     22     52    109    139     Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+sp|Q00721|NSP3_ROTS4     -1.7     2e+03     1   0.1      3    118     38     53     91    106     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-4F/G3P6[1]) OX=36436 PE=1 SV=1
+sp|Q82053|NSP3_ROTHT     -1.9   2.3e+03     2   0.0    253    296    276    288    128    140     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=2 SV=1
+sp|O56075|POLG_PEMVM     -2.4   3.3e+03     3   0.1   1721   1802   1740   1788     76    135     Genome polyprotein OS=Peanut mottle virus (strain M) OX=103926 PE=3 SV=1
+sp|P03536|NSP3_ROTS1     -2.5   3.6e+03     1   0.0      4    105     51     51    104    104     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001039738@NC_009015.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001039738@NC_009015.txt data/models_hmm/YP_001039738@NC_009015.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:54 2021
+# [ok]

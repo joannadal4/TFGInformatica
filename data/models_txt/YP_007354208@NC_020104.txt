@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ26|YR203_MIMIV   568.7  5.1e-171   1   1.0  36.4    Uncharacterized protein R203 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R203 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ26|YR203_MIMIV   568.5  5.7e-171     1  36.4      1    337      2    337      7    357     Uncharacterized protein R203 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R203 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007354208@NC_020104.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007354208@NC_020104.txt data/models_hmm/YP_007354208@NC_020104.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:45 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP68|YR608_MIMIV   438.5  7.3e-132   1   1.0  15.0    Uncharacterized protein R608 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R608 PE=4 SV=1
+sp|Q9Q944|PAP1_RFVKA     19.0   0.00091   1   1.7   0.9    Poly(A) polymerase catalytic subunit OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=PAPL PE=3 SV=1
+sp|Q9Q8R9|PAP1_MYXVL     18.9   0.00098   1   1.6   0.9    Poly(A) polymerase catalytic subunit OS=Myxoma virus (strain Lausanne) OX=31530 GN=PAPL PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UP68|YR608_MIMIV   438.4  8.1e-132     1  15.0      1    246      1    244     11    245     Uncharacterized protein R608 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R608 PE=4 SV=1
+sp|Q9Q8R9|PAP1_MYXVL     17.5    0.0025     1   0.9     23    107     30    101     63    129     Poly(A) polymerase catalytic subunit OS=Myxoma virus (strain Lausanne) OX=31530 GN=PAPL PE=3 SV=1
+sp|Q9Q944|PAP1_RFVKA     17.5    0.0025     1   0.9     23    107     30    101     63    129     Poly(A) polymerase catalytic subunit OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=PAPL PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003987125@NC_014649.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003987125@NC_014649.txt data/models_hmm/YP_003987125@NC_014649.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:57 2021
+# [ok]

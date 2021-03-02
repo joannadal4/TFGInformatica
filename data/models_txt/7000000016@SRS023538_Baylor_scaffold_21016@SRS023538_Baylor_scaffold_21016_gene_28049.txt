@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P30328|MCP_PBCV1     14.5    0.0095   2   1.8   0.2    Major capsid protein OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=A430L PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P30328|MCP_PBCV1     12.8     0.032     2   0.1    108    174    120    161    356    397     Major capsid protein OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=A430L PE=1 SV=3
+sp|P30328|MCP_PBCV1     -1.4   6.2e+02     1   0.0     40     94     53     78     67     92     Major capsid protein OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=A430L PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000016@SRS023538_Baylor_scaffold_21016@SRS023538_Baylor_scaffold_21016_gene_28049.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000016@SRS023538_Baylor_scaffold_21016@SRS023538_Baylor_scaffold_21016_gene_28049.txt data/models_hmm/7000000016@SRS023538_Baylor_scaffold_21016@SRS023538_Baylor_scaffold_21016_gene_28049.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:39 2021
+# [ok]

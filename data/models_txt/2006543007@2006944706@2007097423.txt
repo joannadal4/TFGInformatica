@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04376|CAP9_ADET1     17.1     0.004   1   1.1   0.1    Hexon-interlacing protein OS=Tree shrew adenovirus serotype 1 OX=47680 GN=IX PE=3 SV=1
+sp|Q7T6X0|YR161_MIMIV    10.5      0.45   2   2.4   8.5    Uncharacterized protein R161 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R161 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04376|CAP9_ADET1     16.7    0.0055     1   0.1     61    120     67    117      8     58     Hexon-interlacing protein OS=Tree shrew adenovirus serotype 1 OX=47680 GN=IX PE=3 SV=1
+sp|Q7T6X0|YR161_MIMIV     7.4         4     2   1.5    225    309    260    304      5     49     Uncharacterized protein R161 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R161 PE=1 SV=2
+sp|Q7T6X0|YR161_MIMIV     6.7       6.6     1   0.9    116    196    124    189     60    125     Uncharacterized protein R161 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R161 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2006543007@2006944706@2007097423.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2006543007@2006944706@2007097423.txt data/models_hmm/2006543007@2006944706@2007097423.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:10 2021
+# [ok]

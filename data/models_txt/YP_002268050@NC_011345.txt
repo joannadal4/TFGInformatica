@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q90165|HRF1_NPVLD   432.4  3.1e-130   1   1.0   4.3    Host range factor 1 OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 GN=HRF-1 PE=4 SV=1
+sp|O10374|HRF1_NPVOP    29.8   4.5e-07   1   1.0   0.2    Host range factor 1 homolog OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=HRF-1 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q90165|HRF1_NPVLD   432.2  3.5e-130     1   4.3      1    218      1    218      1    218     Host range factor 1 OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 GN=HRF-1 PE=4 SV=1
+sp|O10374|HRF1_NPVOP    29.7   4.7e-07     1   0.2      1     74      1     60      1     63     Host range factor 1 homolog OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=HRF-1 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002268050@NC_011345.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002268050@NC_011345.txt data/models_hmm/YP_002268050@NC_011345.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:00 2021
+# [ok]

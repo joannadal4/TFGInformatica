@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FT4|238R_IIV6     12.1     0.099   1   1.7   0.0    Putative MSV199 domain-containing protein 238R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-238R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FT4|238R_IIV6     10.7      0.27     1   0.0    172    241    189    228     65    104     Putative MSV199 domain-containing protein 238R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-238R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000110@SRS011098_Baylor_scaffold_3534@SRS011098_Baylor_scaffold_3534_gene_3942.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000110@SRS011098_Baylor_scaffold_3534@SRS011098_Baylor_scaffold_3534_gene_3942.txt data/models_hmm/7000000110@SRS011098_Baylor_scaffold_3534@SRS011098_Baylor_scaffold_3534_gene_3942.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:29 2021
+# [ok]

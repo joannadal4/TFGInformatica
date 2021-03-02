@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05248|VG38_BPML5     20.7   0.00034   1   1.1   0.1    Gene 38 protein OS=Mycobacterium phage L5 OX=31757 GN=38 PE=4 SV=1
+sp|O64229|VG38_BPMD2     17.2    0.0041   1   1.3   4.1    Gene 38 protein OS=Mycobacterium phage D29 OX=28369 GN=38 PE=4 SV=1
+sp|P19721|SPIKE_ADEM1    12.7       0.1   3   3.6   2.7    Fiber protein OS=Murine adenovirus A serotype 1 OX=10530 GN=L5 PE=2 SV=1
+sp|P18048|SPIK2_ADE40     9.7      0.95   3   3.0   4.2    Fiber protein 2 OS=Human adenovirus F serotype 40 OX=28284 PE=2 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05248|VG38_BPML5     20.5   0.00039     1   0.1      1     46      1     32      1     39     Gene 38 protein OS=Mycobacterium phage L5 OX=31757 GN=38 PE=4 SV=1
+sp|O64229|VG38_BPMD2     16.6    0.0064     1   4.1      1     48      2     45      3     53     Gene 38 protein OS=Mycobacterium phage D29 OX=28369 GN=38 PE=4 SV=1
+sp|P19721|SPIKE_ADEM1     7.3       5.4     1   0.0    259    300    275    296     41     62     Fiber protein OS=Murine adenovirus A serotype 1 OX=10530 GN=L5 PE=2 SV=1
+sp|P18048|SPIK2_ADE40     5.9        14     1   1.2     97    167    108    162     13     67     Fiber protein 2 OS=Human adenovirus F serotype 40 OX=28284 PE=2 SV=3
+sp|P18048|SPIK2_ADE40     2.6   1.5e+02     2   0.0    187    217    190    210     42     62     Fiber protein 2 OS=Human adenovirus F serotype 40 OX=28284 PE=2 SV=3
+sp|P19721|SPIKE_ADEM1     2.0   2.3e+02     2   0.1    299    333    309    329     42     62     Fiber protein OS=Murine adenovirus A serotype 1 OX=10530 GN=L5 PE=2 SV=1
+sp|P19721|SPIKE_ADEM1     0.6   6.5e+02     3   0.1    356    380    360    376     46     62     Fiber protein OS=Murine adenovirus A serotype 1 OX=10530 GN=L5 PE=2 SV=1
+sp|P18048|SPIK2_ADE40    -1.2   2.3e+03     3   0.0    313    352    325    347     28     50     Fiber protein 2 OS=Human adenovirus F serotype 40 OX=28284 PE=2 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008767101@NC_022753.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008767101@NC_022753.txt data/models_hmm/YP_008767101@NC_022753.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:24 2021
+# [ok]

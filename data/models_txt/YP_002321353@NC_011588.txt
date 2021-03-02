@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPP2|YL184_MIMIV    10.3      0.12   1   1.4   1.3    Uncharacterized protein L184 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L184 PE=3 SV=1
+sp|P0DKA3|VE8E2_HPV29     4.1         9   1   1.1   8.5    Protein E8^E2C OS=Human papillomavirus type 29 OX=37112 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPP2|YL184_MIMIV     9.5       0.2     1   1.3     81    237     92    168    482    567     Uncharacterized protein L184 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L184 PE=3 SV=1
+sp|P0DKA3|VE8E2_HPV29     3.9        10     1   8.5      3     83     49     69    391    411     Protein E8^E2C OS=Human papillomavirus type 29 OX=37112 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002321353@NC_011588.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002321353@NC_011588.txt data/models_hmm/YP_002321353@NC_011588.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:04 2021
+# [ok]

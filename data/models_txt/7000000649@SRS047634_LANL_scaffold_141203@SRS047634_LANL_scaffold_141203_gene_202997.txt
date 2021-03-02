@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52455|PORTL_HHV7J    14.2     0.037   2   2.2   1.7    Portal protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U76 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52455|PORTL_HHV7J    13.2     0.075     1   0.3     95    237    123    232     34    139     Portal protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U76 PE=3 SV=1
+sp|P52455|PORTL_HHV7J    -2.2   3.9e+03     2   0.1    314    372    332    365     76    109     Portal protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U76 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000649@SRS047634_LANL_scaffold_141203@SRS047634_LANL_scaffold_141203_gene_202997.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000649@SRS047634_LANL_scaffold_141203@SRS047634_LANL_scaffold_141203_gene_202997.txt data/models_hmm/7000000649@SRS047634_LANL_scaffold_141203@SRS047634_LANL_scaffold_141203_gene_202997.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:45 2021
+# [ok]

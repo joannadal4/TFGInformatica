@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q197C1|ICP46_IIV3    857.4    2e-258   1   1.0   9.8    Immediate-early protein ICP-46 homolog OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-039R PE=3 SV=1
+sp|Q91FD1|ICP46_IIV6    123.8   7.6e-36   1   1.2   8.8    Immediate-early protein ICP-46 homolog OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-393L PE=3 SV=1
+sp|P14358|ICP46_FRG3G    47.8   8.9e-13   1   1.2   0.0    Immediate-early protein ICP-46 OS=Frog virus 3 (isolate Goorha) OX=654924 GN=ICR489 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q197C1|ICP46_IIV3    857.3  2.2e-258     1   9.8      1    443      2    443      4    450     Immediate-early protein ICP-46 homolog OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-039R PE=3 SV=1
+sp|Q91FD1|ICP46_IIV6    123.3   1.1e-35     1   8.8     69    427     88    421     80    386     Immediate-early protein ICP-46 homolog OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-393L PE=3 SV=1
+sp|P14358|ICP46_FRG3G    47.0   1.5e-12     1   0.0     52    302     58    284    108    311     Immediate-early protein ICP-46 OS=Frog virus 3 (isolate Goorha) OX=654924 GN=ICR489 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_654611@NC_008187.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_654611@NC_008187.txt data/models_hmm/YP_654611@NC_008187.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:40 2021
+# [ok]

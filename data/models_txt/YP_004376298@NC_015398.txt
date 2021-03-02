@@ -1,0 +1,113 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q06693|AC78_NPVAC     33.9   2.1e-08   1   1.3   0.5    Protein AC78 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC78 PE=3 SV=1
+sp|O10331|Y078_NPVOP     26.8   3.5e-06   1   1.2   0.0    Uncharacterized 11.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF81 PE=4 SV=1
+sp|Q89784|P54_ASFM2      17.5    0.0028   1   1.3   0.9    Envelope protein p54 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-134 PE=3 SV=1
+sp|Q65272|P54_ASFL6      17.1    0.0036   1   1.4   0.9    Envelope protein p54 OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 PE=3 SV=1
+sp|P04856|FUS_SENDH      16.9    0.0042   1   1.5   0.5    Fusion glycoprotein F0 OS=Sendai virus (strain Harris) OX=11196 GN=F PE=3 SV=1
+sp|P12575|FUS_SENDF      16.8    0.0045   1   1.5   0.7    Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+sp|P21115|B5_VACCC       16.6    0.0052   2   2.0   1.1    Protein B5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PS/HR PE=3 SV=1
+sp|Q01227|B5_VACCW       16.6    0.0053   2   2.0   1.1    Protein B5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=PS/HR PE=1 SV=1
+sp|Q65194|P54_ASFB7      16.5    0.0055   1   1.4   1.3    Envelope protein p54 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-126 PE=1 SV=1
+sp|P04855|FUS_SENDZ      16.4    0.0062   1   1.5   0.6    Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|O57254|B5_VACCA       16.4    0.0063   2   2.0   1.3    Protein B5 OS=Vaccinia virus (strain Ankara) OX=126794 GN=PS/HR PE=3 SV=1
+sp|P24083|VB05_VACCL     16.4    0.0063   2   2.0   1.3    Plaque-size/host range protein OS=Vaccinia virus (strain Lister) OX=10252 GN=PS/HR PE=3 SV=1
+sp|P24084|B5_VACC0       16.4    0.0063   2   2.0   1.3    Protein B5 OS=Vaccinia virus (strain LC16m0) OX=10246 GN=PS/HR PE=3 SV=1
+sp|Q9JF44|B5_VACCT       16.2    0.0069   2   2.0   0.9    Protein B5 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=PS/HR PE=3 SV=1
+sp|P0CA00|P54_ASFWA      15.5     0.012   1   1.3   2.3    Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+sp|P0C9Z9|P54_ASFP4      15.4     0.012   1   1.4   2.3    Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+sp|O71191|MVP2_GLRV3     15.0     0.016   1   1.0   0.5    Movement protein p5 OS=Grapevine leafroll-associated virus 3 (isolate United States/NY1) OX=651354 GN=ORF3 PE=3 SV=1
+sp|P0C9Z8|P54_ASFK5      14.8     0.019   1   1.3   0.3    Envelope protein p54 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-138 PE=3 SV=1
+sp|P25467|FUS_PI2H       14.6     0.023   1   1.6   1.9    Fusion glycoprotein F0 OS=Human parainfluenza 2 virus OX=1979160 GN=F PE=2 SV=1
+sp|P27286|FUS_PI2HG      14.6     0.023   1   1.6   1.9    Fusion glycoprotein F0 OS=Human parainfluenza 2 virus (strain Greer) OX=11213 GN=F PE=3 SV=1
+sp|P26629|FUS_PI2HT      14.6     0.023   1   1.6   1.9    Fusion glycoprotein F0 OS=Human parainfluenza 2 virus (strain Toshiba) OX=11214 GN=F PE=3 SV=1
+sp|P41701|E18_NPVAC      14.1     0.032   1   1.2   0.1    Protein E18 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=E18 PE=4 SV=2
+sp|Q6XQ97|SPANU_BPT1     13.6     0.046   1   1.4   0.2    U-spanin OS=Escherichia phage T1 OX=1921008 GN=11 PE=1 SV=1
+sp|Q008X4|SPIKE_WBV24    13.4     0.055   1   1.5   2.9    Spike glycoprotein OS=White bream virus (isolate Blicca bjoerkna L./Germany/DF24/00) OX=766180 GN=S PE=3 SV=1
+sp|Q6SWC0|UL10_HCMVM     13.3     0.056   1   1.5   0.0    Uncharacterized protein UL10 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL10 PE=3 SV=1
+sp|P35770|E321_ADE1P     13.3     0.058   1   1.3   0.1    Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain Slobiski) OX=343462 PE=3 SV=1
+sp|P15139|E321_ADE35     13.2     0.059   1   1.3   0.1    Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 35 OX=10522 PE=3 SV=2
+sp|Q5UQR8|YL323_MIMIV    13.2     0.059   2   2.5   5.4    Uncharacterized protein L323 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L323 PE=3 SV=1
+sp|Q89738|OX2V_HHV6U     13.0     0.069   1   1.7   0.5    Putative OX-2 membrane glycoprotein homolog OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U85 PE=3 SV=1
+sp|O57295|FUS_SENDO      12.8     0.079   1   1.6   1.0    Fusion glycoprotein F0 OS=Sendai virus (strain Ohita) OX=302272 GN=F PE=3 SV=1
+sp|Q9DUD9|FUS_SENDA      12.8     0.082   1   1.6   1.0    Fusion glycoprotein F0 OS=Sendai virus (strain Hamamatsu) OX=302271 GN=F PE=3 SV=1
+sp|O10371|OE18_NPVOP     12.7      0.09   1   1.3   0.0    Occlusion-derived virus envelope protein E18 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF140 PE=4 SV=1
+sp|P16745|UL09_HCMVA     12.6     0.097   1   1.4   0.2    Uncharacterized protein UL9 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL9 PE=3 SV=1
+sp|P16843|UL10_HCMVA     12.5     0.099   1   1.3   0.0    Uncharacterized protein UL10 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL10 PE=3 SV=2
+sp|F5H9T4|UL09_HCMVM     12.4      0.11   1   1.6   0.4    Membrane glycoprotein UL9 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL9 PE=3 SV=1
+sp|Q5UQP0|YL448_MIMIV     9.5      0.88   2   2.3   6.6    Uncharacterized protein L448 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L448 PE=4 SV=1
+sp|Q08552|TGB3_PCV87      8.5       1.8   2   2.2   7.8    Movement protein TGB3 OS=Peanut clump virus (isolate 87/TGTA2) OX=652837 PE=3 SV=1
+sp|Q5UNU8|YR694_MIMIV     7.9       2.7   2   2.1  11.5    Uncharacterized protein R694 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R694 PE=4 SV=1
+sp|Q9J551|A17_FOWPN       7.5       3.6   2   2.5   9.2    Virion membrane protein A17 precursor homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV182 PE=3 SV=1
+sp|Q3V4Q6|Y104B_ATV       6.3       8.6   2   2.1  14.4    Structural protein ORF104b OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q06693|AC78_NPVAC     33.3   3.4e-08     1   0.5      1    103      2     95      4     82     Protein AC78 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC78 PE=3 SV=1
+sp|O10331|Y078_NPVOP     26.3   5.1e-06     1   0.0      1     99      2     94      4     85     Uncharacterized 11.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF81 PE=4 SV=1
+sp|Q89784|P54_ASFM2      16.6    0.0051     1   0.9     19     71     28     67     46     88     Envelope protein p54 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-134 PE=3 SV=1
+sp|Q65272|P54_ASFL6      16.3    0.0068     1   0.9     19     71     28     67     46     88     Envelope protein p54 OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 PE=3 SV=1
+sp|P04856|FUS_SENDH      15.8    0.0093     1   0.5    457    542    463    528     21     77     Fusion glycoprotein F0 OS=Sendai virus (strain Harris) OX=11196 GN=F PE=3 SV=1
+sp|P12575|FUS_SENDF      15.7      0.01     1   0.7    456    542    463    528     21     77     Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+sp|Q65194|P54_ASFB7      15.6     0.011     1   1.3     23     71     29     67     47     88     Envelope protein p54 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-126 PE=1 SV=1
+sp|P04855|FUS_SENDZ      15.3     0.014     1   0.6    456    543    463    528     21     77     Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|O71191|MVP2_GLRV3     15.0     0.016     1   0.5      1     44      5     39     46     81     Movement protein p5 OS=Grapevine leafroll-associated virus 3 (isolate United States/NY1) OX=651354 GN=ORF3 PE=3 SV=1
+sp|P21115|B5_VACCC       14.9     0.018     2   0.4    253    314    272    309     44     81     Protein B5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PS/HR PE=3 SV=1
+sp|Q01227|B5_VACCW       14.9     0.018     2   0.4    253    314    272    309     44     81     Protein B5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=PS/HR PE=1 SV=1
+sp|O57254|B5_VACCA       14.8      0.02     2   0.5    254    314    272    309     44     81     Protein B5 OS=Vaccinia virus (strain Ankara) OX=126794 GN=PS/HR PE=3 SV=1
+sp|P24083|VB05_VACCL     14.8      0.02     2   0.5    254    314    272    309     44     81     Plaque-size/host range protein OS=Vaccinia virus (strain Lister) OX=10252 GN=PS/HR PE=3 SV=1
+sp|P24084|B5_VACC0       14.8      0.02     2   0.5    254    314    272    309     44     81     Protein B5 OS=Vaccinia virus (strain LC16m0) OX=10246 GN=PS/HR PE=3 SV=1
+sp|P0CA00|P54_ASFWA      14.6     0.022     1   2.3     21     71     29     67     47     88     Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+sp|P0C9Z9|P54_ASFP4      14.6     0.023     1   2.3     21     71     29     67     47     88     Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+sp|Q9JF44|B5_VACCT       14.4     0.025     2   0.3    253    314    272    309     44     81     Protein B5 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=PS/HR PE=3 SV=1
+sp|P0C9Z8|P54_ASFK5      14.2     0.031     1   0.3     19     72     29     69     47     89     Envelope protein p54 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-138 PE=3 SV=1
+sp|P41701|E18_NPVAC      13.8      0.04     1   0.1      5     55     18     45     38     65     Protein E18 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=E18 PE=4 SV=2
+sp|P25467|FUS_PI2H       13.3     0.056     1   1.9    435    532    447    513     19     70     Fusion glycoprotein F0 OS=Human parainfluenza 2 virus OX=1979160 GN=F PE=2 SV=1
+sp|P26629|FUS_PI2HT      13.3     0.056     1   1.9    435    532    447    513     19     70     Fusion glycoprotein F0 OS=Human parainfluenza 2 virus (strain Toshiba) OX=11214 GN=F PE=3 SV=1
+sp|P27286|FUS_PI2HG      13.3     0.056     1   1.9    435    532    447    513     19     70     Fusion glycoprotein F0 OS=Human parainfluenza 2 virus (strain Greer) OX=11213 GN=F PE=3 SV=1
+sp|Q6XQ97|SPANU_BPT1     13.1     0.065     1   0.2     58    133     89    131     33     77     U-spanin OS=Escherichia phage T1 OX=1921008 GN=11 PE=1 SV=1
+sp|P15139|E321_ADE35     12.7      0.09     1   0.1    114    181    131    176     32     77     Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 35 OX=10522 PE=3 SV=2
+sp|P35770|E321_ADE1P     12.7      0.09     1   0.1    114    181    131    176     32     77     Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain Slobiski) OX=343462 PE=3 SV=1
+sp|Q6SWC0|UL10_HCMVM     12.5       0.1     1   0.0    162    242    193    226     32     65     Uncharacterized protein UL10 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL10 PE=3 SV=1
+sp|O10371|OE18_NPVOP     12.4      0.11     1   0.0      5     61     18     45     38     65     Occlusion-derived virus envelope protein E18 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF140 PE=4 SV=1
+sp|Q008X4|SPIKE_WBV24    12.2      0.13     1   2.9   1118   1214   1124   1209      7     79     Spike glycoprotein OS=White bream virus (isolate Blicca bjoerkna L./Germany/DF24/00) OX=766180 GN=S PE=3 SV=1
+sp|P16843|UL10_HCMVA     11.8      0.16     1   0.0    169    243    194    226     32     64     Uncharacterized protein UL10 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL10 PE=3 SV=2
+sp|O57295|FUS_SENDO      11.6      0.19     1   1.0    458    539    496    528     44     77     Fusion glycoprotein F0 OS=Sendai virus (strain Ohita) OX=302272 GN=F PE=3 SV=1
+sp|Q9DUD9|FUS_SENDA      11.6      0.19     1   1.0    458    539    496    528     44     77     Fusion glycoprotein F0 OS=Sendai virus (strain Hamamatsu) OX=302271 GN=F PE=3 SV=1
+sp|Q89738|OX2V_HHV6U     11.6      0.19     1   0.5    233    289    250    286     35     71     Putative OX-2 membrane glycoprotein homolog OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U85 PE=3 SV=1
+sp|P16745|UL09_HCMVA     11.6      0.19     1   0.2    161    208    165    204     25     64     Uncharacterized protein UL9 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL9 PE=3 SV=1
+sp|F5H9T4|UL09_HCMVM     11.1      0.27     1   0.4    165    213    176    209     31     64     Membrane glycoprotein UL9 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL9 PE=3 SV=1
+sp|Q9J551|A17_FOWPN      10.9      0.33     1   1.0     72    120     77    111     43     77     Virion membrane protein A17 precursor homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV182 PE=3 SV=1
+sp|Q08552|TGB3_PCV87     10.6      0.39     1   0.2     26     91     45     82     48     82     Movement protein TGB3 OS=Peanut clump virus (isolate 87/TGTA2) OX=652837 PE=3 SV=1
+sp|Q5UQP0|YL448_MIMIV    10.5      0.42     2   2.3    142    222    177    214     31     68     Uncharacterized protein L448 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L448 PE=4 SV=1
+sp|Q5UQR8|YL323_MIMIV     7.9       2.8     2   0.4    230    270    243    264     45     66     Uncharacterized protein L323 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L323 PE=3 SV=1
+sp|Q5UNU8|YR694_MIMIV     7.6       3.5     1   1.1      9     68     20     53     43     76     Uncharacterized protein R694 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R694 PE=4 SV=1
+sp|Q5UQR8|YL323_MIMIV     7.1       4.9     1   0.6    179    220    181    207     52     75     Uncharacterized protein L323 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L323 PE=3 SV=1
+sp|Q3V4Q6|Y104B_ATV       7.0       5.3     1   1.5      6     56     10     35     48     74     Structural protein ORF104b OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|Q5UNU8|YR694_MIMIV     5.7        13     2   3.5     61    111     81    106     46     71     Uncharacterized protein R694 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R694 PE=4 SV=1
+sp|Q3V4Q6|Y104B_ATV       5.4        17     2   5.6     40     99     69     92     49     72     Structural protein ORF104b OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|Q08552|TGB3_PCV87      1.4     3e+02     2   2.5     85    151    137    147     56     66     Movement protein TGB3 OS=Peanut clump virus (isolate 87/TGTA2) OX=652837 PE=3 SV=1
+sp|Q9J551|A17_FOWPN       1.2   3.5e+02     2   0.8    146    173    149    164     60     75     Virion membrane protein A17 precursor homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV182 PE=3 SV=1
+sp|Q5UQP0|YL448_MIMIV     0.6     5e+02     1   0.1      2     47      6     38     10     42     Uncharacterized protein L448 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L448 PE=4 SV=1
+sp|P24083|VB05_VACCL     -0.8   1.4e+03     1   0.0      2     41      4     32     54     82     Plaque-size/host range protein OS=Vaccinia virus (strain Lister) OX=10252 GN=PS/HR PE=3 SV=1
+sp|P24084|B5_VACC0       -0.8   1.4e+03     1   0.0      2     41      4     32     54     82     Protein B5 OS=Vaccinia virus (strain LC16m0) OX=10246 GN=PS/HR PE=3 SV=1
+sp|Q01227|B5_VACCW       -0.8   1.4e+03     1   0.0      2     41      4     32     54     82     Protein B5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=PS/HR PE=1 SV=1
+sp|Q9JF44|B5_VACCT       -0.8   1.4e+03     1   0.0      2     41      4     32     54     82     Protein B5 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=PS/HR PE=3 SV=1
+sp|O57254|B5_VACCA       -0.8   1.4e+03     1   0.0      2     42      4     32     54     82     Protein B5 OS=Vaccinia virus (strain Ankara) OX=126794 GN=PS/HR PE=3 SV=1
+sp|P21115|B5_VACCC       -0.8   1.4e+03     1   0.0      2     42      4     32     54     82     Protein B5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PS/HR PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004376298@NC_015398.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004376298@NC_015398.txt data/models_hmm/YP_004376298@NC_015398.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:24 2021
+# [ok]

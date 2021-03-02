@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P31653|YG29_BPSP1    25.6   1.2e-05   2   1.6   0.1    Uncharacterized 16.2 kDa protein in gene 29 5'region OS=Bacillus phage SP01 OX=10685 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P31653|YG29_BPSP1    24.2   3.3e-05     2   0.0     60    142     69    140     92    163     Uncharacterized 16.2 kDa protein in gene 29 5'region OS=Bacillus phage SP01 OX=10685 PE=4 SV=1
+sp|P31653|YG29_BPSP1    -0.9   1.8e+03     1   0.0     21     69     41     61     36     56     Uncharacterized 16.2 kDa protein in gene 29 5'region OS=Bacillus phage SP01 OX=10685 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008771894@NC_022773.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008771894@NC_022773.txt data/models_hmm/YP_008771894@NC_022773.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:32 2021
+# [ok]

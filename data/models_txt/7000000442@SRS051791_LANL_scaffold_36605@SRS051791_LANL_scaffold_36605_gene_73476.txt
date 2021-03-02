@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P18339|RDRP_TMGMV    14.7     0.015   1   1.7   0.6    Replicase large subunit OS=Tobacco mild green mosaic virus OX=12241 PE=1 SV=2
+sp|P06952|TF4_BPPZA     12.7      0.06   1   1.1   0.1    Late genes activator p4 OS=Bacillus phage PZA OX=10757 GN=4 PE=3 SV=1
+sp|P03682|TF4_BPPH2     12.0     0.098   1   1.1   0.1    Late genes activator p4 OS=Bacillus phage phi29 OX=10756 GN=4 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P18339|RDRP_TMGMV    13.4     0.039     1   0.6   1265   1408   1317   1400     48    132     Replicase large subunit OS=Tobacco mild green mosaic virus OX=12241 PE=1 SV=2
+sp|P06952|TF4_BPPZA     12.6     0.065     1   0.1      7    116     19     97     64    139     Late genes activator p4 OS=Bacillus phage PZA OX=10757 GN=4 PE=3 SV=1
+sp|P03682|TF4_BPPH2     11.9      0.11     1   0.1      7    112     20     81     65    125     Late genes activator p4 OS=Bacillus phage phi29 OX=10756 GN=4 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000442@SRS051791_LANL_scaffold_36605@SRS051791_LANL_scaffold_36605_gene_73476.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000442@SRS051791_LANL_scaffold_36605@SRS051791_LANL_scaffold_36605_gene_73476.txt data/models_hmm/7000000442@SRS051791_LANL_scaffold_36605@SRS051791_LANL_scaffold_36605_gene_73476.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:22 2021
+# [ok]

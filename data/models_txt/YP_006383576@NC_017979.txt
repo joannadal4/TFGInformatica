@@ -1,0 +1,60 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20748|YO11_ADEG1    196.9   2.4e-58   1   1.0   0.0    Uncharacterized protein ORF11 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=11 PE=4 SV=1
+sp|Q00320|F5_VACCP       29.3   5.1e-07   2   1.7   1.1    36 kDa major membrane protein F5 OS=Vaccinia virus (strain L-IVP) OX=31531 GN=F13 PE=2 SV=1
+sp|P24358|F5_VACCW       28.6   7.9e-07   2   1.7   1.5    36 kDa major membrane protein F5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR044 PE=2 SV=1
+sp|P21014|F5_VACCC       27.5   1.8e-06   2   1.6   0.2    36 kDa major membrane protein F5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F5L PE=3 SV=1
+sp|P20746|YO9_ADEG1      21.2   0.00015   2   2.0   0.6    Uncharacterized protein ORF9 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=9 PE=4 SV=2
+sp|P33865|F5_VAR67       20.5   0.00024   2   1.6   0.4    36 kDa major membrane protein F5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C9L PE=3 SV=1
+sp|Q6SWC3|UL07_HCMVM     18.2    0.0012   1   1.1   0.0    CEACAM1-like protein UL7 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL7 PE=3 SV=1
+sp|P16743|UL07_HCMVA     17.0    0.0029   1   1.1   0.0    CEACAM1-like protein UL7 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL7 PE=1 SV=1
+sp|P16744|UL08_HCMVA     15.9    0.0062   1   1.3   0.0    Membrane protein UL8 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL8 PE=1 SV=2
+sp|P17146|UL04_HCMVA     15.7    0.0073   1   1.2   0.2    Early glycoprotein GP48 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL4 PE=3 SV=1
+sp|P25212|IL1BP_VACCW    14.5     0.017   2   2.3   0.4    Interleukin-1-binding protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR197 PE=1 SV=1
+sp|O57261|IL1BP_VACCA    14.5     0.017   2   2.3   0.4    Interleukin-1-binding protein OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA184R PE=3 SV=1
+sp|P21602|TR14_HCMVA     13.5     0.033   1   1.4   0.1    Protein TRL14 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|Q6SWC6|UL04_HCMVM     12.9     0.051   1   1.4   0.4    Envelope glycoprotein UL4 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL4 PE=3 SV=1
+sp|P0C788|OX2V_HHV8P     12.6     0.065   1   1.2   0.1    OX-2 membrane glycoprotein homolog OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=K14 PE=1 SV=1
+sp|Q6SWD1|RL11_HCMVM     12.4     0.072   1   1.3   0.0    Membrane glycoprotein RL11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL11 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20748|YO11_ADEG1    196.7   2.9e-58     1   0.0      4    128      4    119      1    113     Uncharacterized protein ORF11 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=11 PE=4 SV=1
+sp|Q00320|F5_VACCP       28.8   7.2e-07     1   0.1      5    150      8    115      5    116     36 kDa major membrane protein F5 OS=Vaccinia virus (strain L-IVP) OX=31531 GN=F13 PE=2 SV=1
+sp|P24358|F5_VACCW       28.5   8.6e-07     1   0.1      5    149      8    114      5    115     36 kDa major membrane protein F5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR044 PE=2 SV=1
+sp|P21014|F5_VACCC       27.5   1.8e-06     1   0.2      3    149      7    114      4    115     36 kDa major membrane protein F5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F5L PE=3 SV=1
+sp|P33865|F5_VAR67       19.6   0.00046     1   0.1      5    146     11    114      8    115     36 kDa major membrane protein F5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C9L PE=3 SV=1
+sp|P20746|YO9_ADEG1      19.5   0.00048     2   0.1    121    267    140    218     19     95     Uncharacterized protein ORF9 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=9 PE=4 SV=2
+sp|Q6SWC3|UL07_HCMVM     18.1    0.0013     1   0.0     22    211     28    163      7    132     CEACAM1-like protein UL7 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL7 PE=3 SV=1
+sp|P16743|UL07_HCMVA     16.7    0.0036     1   0.0     22    174     41    152     18    123     CEACAM1-like protein UL7 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL7 PE=1 SV=1
+sp|P17146|UL04_HCMVA     15.4     0.009     1   0.2     47    152     66    151     31    112     Early glycoprotein GP48 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL4 PE=3 SV=1
+sp|P16744|UL08_HCMVA     15.4    0.0091     1   0.0     22    174     42    152     19    123     Membrane protein UL8 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL8 PE=1 SV=2
+sp|P21602|TR14_HCMVA     12.9     0.051     1   0.1     47    141     61     99     72    113     Protein TRL14 OS=Human cytomegalovirus (strain AD169) OX=10360 PE=3 SV=1
+sp|Q6SWC6|UL04_HCMVM     12.6     0.063     1   0.4     20    149    106    148     70    112     Envelope glycoprotein UL4 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL4 PE=3 SV=1
+sp|P0C788|OX2V_HHV8P     12.0       0.1     1   0.1     75    177     93    162     78    152     OX-2 membrane glycoprotein homolog OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=K14 PE=1 SV=1
+sp|Q6SWD1|RL11_HCMVM     11.8      0.11     1   0.0     85    166     90    122     63     96     Membrane glycoprotein RL11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL11 PE=3 SV=1
+sp|O57261|IL1BP_VACCA     9.8      0.46     2   0.0    162    267    170    208     69    107     Interleukin-1-binding protein OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA184R PE=3 SV=1
+sp|P25212|IL1BP_VACCW     9.6      0.54     2   0.0    163    258    170    208     69    107     Interleukin-1-binding protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR197 PE=1 SV=1
+sp|P25212|IL1BP_VACCW     2.6        74     1   0.2     74    164     82    106     77    101     Interleukin-1-binding protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR197 PE=1 SV=1
+sp|O57261|IL1BP_VACCA     2.5        78     1   0.2     74    163     82    105     77    100     Interleukin-1-binding protein OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA184R PE=3 SV=1
+sp|P20746|YO9_ADEG1      -0.5   6.8e+02     1   0.0     22    103     33     58     25     51     Uncharacterized protein ORF9 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=9 PE=4 SV=2
+sp|Q00320|F5_VACCP       -1.6   1.5e+03     2   0.1    193    317    268    298    141    174     36 kDa major membrane protein F5 OS=Vaccinia virus (strain L-IVP) OX=31531 GN=F13 PE=2 SV=1
+sp|P24358|F5_VACCW       -2.1   2.1e+03     2   0.1    238    318    273    301    145    175     36 kDa major membrane protein F5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR044 PE=2 SV=1
+sp|P21014|F5_VACCC       -2.4   2.5e+03     2   0.1    240    316    277    298    153    174     36 kDa major membrane protein F5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F5L PE=3 SV=1
+sp|P33865|F5_VAR67       -2.5   2.7e+03     2   0.0    239    303    253    273     82    101     36 kDa major membrane protein F5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C9L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006383576@NC_017979.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006383576@NC_017979.txt data/models_hmm/YP_006383576@NC_017979.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:14 2021
+# [ok]

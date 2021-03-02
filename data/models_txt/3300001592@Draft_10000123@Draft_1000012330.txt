@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5URB5|YL185_MIMIV    14.6     0.025   1   1.9   0.1    Uncharacterized protein L185 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L185 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5URB5|YL185_MIMIV    13.0     0.078     1   0.1    168    225    191    220     42     71     Uncharacterized protein L185 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L185 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001592@Draft_10000123@Draft_1000012330.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001592@Draft_10000123@Draft_1000012330.txt data/models_hmm/3300001592@Draft_10000123@Draft_1000012330.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:53 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P22117|MVP_PSVJ      11.9      0.18   2   1.7   0.0    Movement protein OS=Peanut stunt virus (strain J) OX=12314 GN=ORF3a PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P22117|MVP_PSVJ      10.2      0.62     1   0.0     13     88     28     86     29     92     Movement protein OS=Peanut stunt virus (strain J) OX=12314 GN=ORF3a PE=3 SV=1
+sp|P22117|MVP_PSVJ      -1.9   3.7e+03     2   0.0    219    273    229    269     23     63     Movement protein OS=Peanut stunt virus (strain J) OX=12314 GN=ORF3a PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2029527005@ACOFG987_contig49236@ACOFGT_1385720.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2029527005@ACOFG987_contig49236@ACOFGT_1385720.txt data/models_hmm/2029527005@ACOFG987_contig49236@ACOFGT_1385720.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:18 2021
+# [ok]

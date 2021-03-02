@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O10370|Y142_NPVOP    639.0  3.5e-192   1   1.0   4.8    Uncharacterized 55.8 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF139 PE=4 SV=1
+sp|P41700|AC142_NPVAC   622.1  4.4e-187   1   1.0  13.7    Protein AC142 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=ORF142 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O10370|Y142_NPVOP    638.8    4e-192     1   4.8      5    474      7    471      3    456     Uncharacterized 55.8 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF139 PE=4 SV=1
+sp|P41700|AC142_NPVAC   622.0  4.9e-187     1  13.7      6    477      8    474      3    456     Protein AC142 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=ORF142 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_667911@NC_008252.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_667911@NC_008252.txt data/models_hmm/YP_667911@NC_008252.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:47 2021
+# [ok]

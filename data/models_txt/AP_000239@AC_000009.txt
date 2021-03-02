@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36712|CAP3_ADE12   843.6  5.8e-254   1   1.0   0.0    Pre-hexon-linking protein IIIa OS=Human adenovirus A serotype 12 OX=28282 GN=L1 PE=1 SV=1
+sp|P12537|CAP3_ADE05   832.1  1.7e-250   1   1.0   0.1    Pre-hexon-linking protein IIIa OS=Human adenovirus C serotype 5 OX=28285 GN=L1 PE=1 SV=2
+sp|P03279|CAP3_ADE02   831.9    2e-250   1   1.0   0.1    Pre-hexon-linking protein IIIa OS=Human adenovirus C serotype 2 OX=10515 GN=L1 PE=1 SV=1
+sp|Q96684|CAP3_ADECR   779.3  1.7e-234   1   1.0   1.1    Pre-hexon-linking protein IIIa OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=L1 PE=3 SV=1
+sp|Q65949|CAP3_ADECC   777.4  6.8e-234   1   1.0   1.0    Pre-hexon-linking protein IIIa OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=L1 PE=3 SV=1
+sp|O10438|CAP3_ADEM1   655.1  7.5e-197   1   2.4   7.5    Pre-hexon-linking protein IIIa OS=Murine adenovirus A serotype 1 OX=10530 GN=L1 PE=3 SV=1
+sp|A9CB89|CAP3_ADES1   609.6  4.6e-183   1   1.0   0.0    Pre-hexon-linking protein IIIa OS=Snake adenovirus serotype 1 OX=189830 GN=L1 PE=3 SV=1
+sp|Q64754|CAP3_ADEG1   330.9   1.3e-98   1   1.1   0.0    Pre-hexon-linking protein IIIa OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36712|CAP3_ADE12   843.4  6.8e-254     1   0.0     10    580     13    577      4    536     Pre-hexon-linking protein IIIa OS=Human adenovirus A serotype 12 OX=28282 GN=L1 PE=1 SV=1
+sp|P12537|CAP3_ADE05   831.9    2e-250     1   0.1      2    585      3    583      2    537     Pre-hexon-linking protein IIIa OS=Human adenovirus C serotype 5 OX=28285 GN=L1 PE=1 SV=2
+sp|P03279|CAP3_ADE02   831.7  2.3e-250     1   0.1      2    585      3    583      2    537     Pre-hexon-linking protein IIIa OS=Human adenovirus C serotype 2 OX=10515 GN=L1 PE=1 SV=1
+sp|Q96684|CAP3_ADECR   779.2    2e-234     1   1.1     16    563     17    561      2    537     Pre-hexon-linking protein IIIa OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=L1 PE=3 SV=1
+sp|Q65949|CAP3_ADECC   777.2  7.7e-234     1   1.0     16    563     17    561      2    537     Pre-hexon-linking protein IIIa OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=L1 PE=3 SV=1
+sp|O10438|CAP3_ADEM1   651.5    9e-196     1   7.5      1    494      2    475      3    495     Pre-hexon-linking protein IIIa OS=Murine adenovirus A serotype 1 OX=10530 GN=L1 PE=3 SV=1
+sp|A9CB89|CAP3_ADES1   609.3  5.8e-183     1   0.0      2    615      7    614     19    537     Pre-hexon-linking protein IIIa OS=Snake adenovirus serotype 1 OX=189830 GN=L1 PE=3 SV=1
+sp|Q64754|CAP3_ADEG1   330.6   1.6e-98     1   0.0     13    507     27    426     34    418     Pre-hexon-linking protein IIIa OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AP_000239@AC_000009.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AP_000239@AC_000009.txt data/models_hmm/AP_000239@AC_000009.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:58 2021
+# [ok]

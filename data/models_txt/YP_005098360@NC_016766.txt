@@ -1,0 +1,38 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91G54|044R_IIV6     14.5     0.024   1   1.1   2.0    Uncharacterized protein 044R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-044R PE=4 SV=1
+sp|P68466|K7_VACCW       9.4      0.94   3   2.9   3.6    Protein K7 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR039 PE=1 SV=1
+sp|P68467|K7_VACCC       9.4      0.94   3   2.9   3.6    Protein K7 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=K7R PE=1 SV=1
+sp|Q76ZX2|K7_VACCA       9.4      0.94   3   2.9   3.6    Protein K7 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA028R PE=3 SV=1
+sp|Q77PA8|M11L_MYXVL     9.3         1   2   1.8   3.2    Apoptosis regulator M11L OS=Myxoma virus (strain Lausanne) OX=31530 GN=m011L PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91G54|044R_IIV6     14.2      0.03     1   2.0      3     63      7     59      9     61     Uncharacterized protein 044R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-044R PE=4 SV=1
+sp|Q77PA8|M11L_MYXVL    10.2      0.53     1   0.8      1     63      3     52     24     73     Apoptosis regulator M11L OS=Myxoma virus (strain Lausanne) OX=31530 GN=m011L PE=1 SV=1
+sp|P68466|K7_VACCW       5.0        22     2   0.8     22     97     44     82     35     75     Protein K7 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR039 PE=1 SV=1
+sp|P68467|K7_VACCC       5.0        22     2   0.8     22     97     44     82     35     75     Protein K7 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=K7R PE=1 SV=1
+sp|Q76ZX2|K7_VACCA       5.0        22     2   0.8     22     97     44     82     35     75     Protein K7 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA028R PE=3 SV=1
+sp|P68466|K7_VACCW       4.1        44     1   0.5      4     43      9     39     28     58     Protein K7 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR039 PE=1 SV=1
+sp|P68467|K7_VACCC       4.1        44     1   0.5      4     43      9     39     28     58     Protein K7 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=K7R PE=1 SV=1
+sp|Q76ZX2|K7_VACCA       4.1        44     1   0.5      4     43      9     39     28     58     Protein K7 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA028R PE=3 SV=1
+sp|P68466|K7_VACCW       0.5   5.5e+02     3   0.0    108    145    128    138     30     40     Protein K7 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR039 PE=1 SV=1
+sp|P68467|K7_VACCC       0.5   5.5e+02     3   0.0    108    145    128    138     30     40     Protein K7 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=K7R PE=1 SV=1
+sp|Q76ZX2|K7_VACCA       0.5   5.5e+02     3   0.0    108    145    128    138     30     40     Protein K7 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA028R PE=3 SV=1
+sp|Q77PA8|M11L_MYXVL    -1.6   2.5e+03     2   0.1     92    136    107    126     43     62     Apoptosis regulator M11L OS=Myxoma virus (strain Lausanne) OX=31530 GN=m011L PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_005098360@NC_016766.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_005098360@NC_016766.txt data/models_hmm/YP_005098360@NC_016766.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:05 2021
+# [ok]

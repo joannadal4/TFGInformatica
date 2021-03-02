@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03247|E1BS_ADE02     9.1      0.91   2   2.5   3.4    E1B protein, small T-antigen OS=Human adenovirus C serotype 2 OX=10515 GN=E1B PE=1 SV=2
+sp|P03246|E1BS_ADE05     9.1      0.92   2   2.5   3.4    E1B protein, small T-antigen OS=Human adenovirus C serotype 5 OX=28285 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03247|E1BS_ADE02     4.9        19     2   0.1     96    124    100    110     20     30     E1B protein, small T-antigen OS=Human adenovirus C serotype 2 OX=10515 GN=E1B PE=1 SV=2
+sp|P03246|E1BS_ADE05     4.8        19     2   0.1     96    124    100    110     20     30     E1B protein, small T-antigen OS=Human adenovirus C serotype 5 OX=28285 PE=1 SV=1
+sp|P03247|E1BS_ADE02     4.4        27     1   0.7     37     75     44     58     18     32     E1B protein, small T-antigen OS=Human adenovirus C serotype 2 OX=10515 GN=E1B PE=1 SV=2
+sp|P03246|E1BS_ADE05     4.3        28     1   0.7     37     75     44     58     18     32     E1B protein, small T-antigen OS=Human adenovirus C serotype 5 OX=28285 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006560976@NC_018281.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006560976@NC_018281.txt data/models_hmm/YP_006560976@NC_018281.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:20 2021
+# [ok]

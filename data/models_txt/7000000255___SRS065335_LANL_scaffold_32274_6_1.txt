@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q02966|VAT_CAMVE     13.2      0.08   2   2.6   0.5    Aphid transmission protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF II PE=3 SV=1
+sp|P19818|VAT_CAMVP     11.4      0.29   2   2.5   1.9    Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q02966|VAT_CAMVE      5.8        16     2   0.1    132    156    136    155     92    111     Aphid transmission protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF II PE=3 SV=1
+sp|P19818|VAT_CAMVP      5.5        20     1   0.0      1     55     28     53     86    110     Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+sp|Q02966|VAT_CAMVE      5.2        25     1   0.0      2     55     28     53     86    110     Aphid transmission protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF II PE=3 SV=1
+sp|P19818|VAT_CAMVP      5.1        27     2   0.4    119    156    136    155     92    111     Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000255___SRS065335_LANL_scaffold_32274_6_1.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000255___SRS065335_LANL_scaffold_32274_6_1.txt data/models_hmm/7000000255___SRS065335_LANL_scaffold_32274_6_1.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:48 2021
+# [ok]

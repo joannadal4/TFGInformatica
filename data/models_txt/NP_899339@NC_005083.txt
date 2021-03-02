@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P08386|GP167_BPPZA    14.8     0.018   1   1.2   0.1    DNA replication protein 16.7 OS=Bacillus phage PZA OX=10757 GN=16.7 PE=3 SV=1
+sp|P16517|GP167_BPPH2    13.2     0.058   1   1.1   0.2    DNA replication protein 16.7 OS=Bacillus phage phi29 OX=10756 GN=16.7 PE=1 SV=1
+sp|P18806|VPU_HV1ND      11.3      0.22   1   1.1   0.2    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=vpu PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P08386|GP167_BPPZA    14.8     0.018     1   0.1      1    107      3     67      7     72     DNA replication protein 16.7 OS=Bacillus phage PZA OX=10757 GN=16.7 PE=3 SV=1
+sp|P16517|GP167_BPPH2    12.8     0.074     1   0.2      1     77      3     66      7     71     DNA replication protein 16.7 OS=Bacillus phage phi29 OX=10756 GN=16.7 PE=1 SV=1
+sp|P18806|VPU_HV1ND      11.1      0.26     1   0.2      4     75     13     70      4     61     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=vpu PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_899339@NC_005083.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_899339@NC_005083.txt data/models_hmm/NP_899339@NC_005083.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:35 2021
+# [ok]

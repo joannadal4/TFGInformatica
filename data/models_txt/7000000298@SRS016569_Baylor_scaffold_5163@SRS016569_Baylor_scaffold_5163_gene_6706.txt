@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P19291|YORG_TTV1K    13.4     0.061   1   1.1   0.0    Uncharacterized 7.1 kDa protein OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P19291|YORG_TTV1K    13.2     0.071     1   0.0      2     59     10     55     22     65     Uncharacterized 7.1 kDa protein OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000298@SRS016569_Baylor_scaffold_5163@SRS016569_Baylor_scaffold_5163_gene_6706.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000298@SRS016569_Baylor_scaffold_5163@SRS016569_Baylor_scaffold_5163_gene_6706.txt data/models_hmm/7000000298@SRS016569_Baylor_scaffold_5163@SRS016569_Baylor_scaffold_5163_gene_6706.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:03 2021
+# [ok]

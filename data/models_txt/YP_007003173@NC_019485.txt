@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q859P9|RPOLV_BPN4   4634.2         0   1   2.0 129.7    Virion DNA-directed RNA polymerase OS=Enterobacteria phage N4 OX=10752 GN=50 PE=1 SV=2
+sp|P00573|RPOL_BPT7       9.6     0.068   1   1.2   0.0    T7 RNA polymerase OS=Escherichia phage T7 OX=10760 GN=1 PE=1 SV=2
+sp|O64220|VG26_BPMD2      6.0      0.86   2   2.1   7.4    Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|Q5UP72|YR604_MIMIV     5.3       1.4   1   1.0  32.4    Uncharacterized protein R604 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R604 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q859P9|RPOLV_BPN4   4629.3         0     1 129.7      1   3500      1   3500      1   3481     Virion DNA-directed RNA polymerase OS=Enterobacteria phage N4 OX=10752 GN=50 PE=1 SV=2
+sp|P00573|RPOL_BPT7       8.9      0.11     1   0.0    391    454    398    445   1426   1472     T7 RNA polymerase OS=Escherichia phage T7 OX=10760 GN=1 PE=1 SV=2
+sp|O64220|VG26_BPMD2      6.2       0.7     2   1.1    574    784    582    720    396    527     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|Q5UP72|YR604_MIMIV     5.1       1.5     1  32.4     83    365    110    268    867   1042     Uncharacterized protein R604 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R604 PE=4 SV=1
+sp|O64220|VG26_BPMD2      3.1       6.3     1   0.7    152    252    154    236    404    487     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007003173@NC_019485.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007003173@NC_019485.txt data/models_hmm/YP_007003173@NC_019485.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:00 2021
+# [ok]

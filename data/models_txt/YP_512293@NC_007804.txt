@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36700|F11_FOWPN     17.6    0.0032   2   1.8   1.7    Protein F11 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV110 PE=3 SV=2
+sp|P33802|KITH_AHV1W    13.7     0.053   2   2.5   0.2    Thymidine kinase OS=Alcelaphine herpesvirus 1 (strain WC11) OX=33705 GN=TK PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36700|F11_FOWPN     17.3    0.0039     2   0.4    270    360    281    343     14     76     Protein F11 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV110 PE=3 SV=2
+sp|P33802|KITH_AHV1W     8.7       1.9     2   0.0    610    667    614    661     32     78     Thymidine kinase OS=Alcelaphine herpesvirus 1 (strain WC11) OX=33705 GN=TK PE=3 SV=1
+sp|P33802|KITH_AHV1W     2.2     2e+02     1   0.1    469    508    475    495      8     28     Thymidine kinase OS=Alcelaphine herpesvirus 1 (strain WC11) OX=33705 GN=TK PE=3 SV=1
+sp|P36700|F11_FOWPN     -2.9   7.7e+03     1   0.0    229    266    247    262     32     47     Protein F11 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV110 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_512293@NC_007804.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_512293@NC_007804.txt data/models_hmm/YP_512293@NC_007804.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:37 2021
+# [ok]

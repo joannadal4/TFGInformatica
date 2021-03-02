@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|E7DNB6|TMP_BPDP1     76.0   7.9e-22   1   1.5  26.3    Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|O64314|TMP_BPP2      36.8   5.5e-10   1   1.6  26.2    Probable tape measure protein OS=Escherichia phage P2 OX=10679 GN=T PE=3 SV=1
+sp|Q24LI1|TMP_BPPCD     26.9   5.4e-07   1   1.2  36.4    Probable tape measure protein OS=Clostridium phage phiCD119 (strain Clostridium difficile/United States/Govind/2006) OX=1283341 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|E7DNB6|TMP_BPDP1     75.8   9.2e-22     1  25.2      7    414     40    378    571    911     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|O64314|TMP_BPP2      36.2   7.9e-10     1  25.2     67    423    148    400    543    789     Probable tape measure protein OS=Escherichia phage P2 OX=10679 GN=T PE=3 SV=1
+sp|Q24LI1|TMP_BPPCD     26.2   8.5e-07     1  36.4      9    559     17    544    540   1031     Probable tape measure protein OS=Clostridium phage phiCD119 (strain Clostridium difficile/United States/Govind/2006) OX=1283341 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000228@TB_PC08_66DRAFT_10000038@TB_PC08_66DRAFT_1000003822.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000228@TB_PC08_66DRAFT_10000038@TB_PC08_66DRAFT_1000003822.txt data/models_hmm/3300000228@TB_PC08_66DRAFT_10000038@TB_PC08_66DRAFT_1000003822.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:10 2021
+# [ok]

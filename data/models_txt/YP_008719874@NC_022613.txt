@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20743|YO17_ADEG1   239.2   1.7e-71   1   1.0   1.8    Uncharacterized protein ORF17 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=17 PE=4 SV=2
+sp|P20744|YO16_ADEG1    24.6     2e-05   1   1.1   0.3    Uncharacterized protein ORF16 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=16 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20743|YO17_ADEG1   239.0   1.9e-71     1   1.8      1    158      1    157      1    155     Uncharacterized protein ORF17 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=17 PE=4 SV=2
+sp|P20744|YO16_ADEG1    24.3   2.4e-05     1   0.3      4    138     16    133     19    140     Uncharacterized protein ORF16 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=16 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008719874@NC_022613.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008719874@NC_022613.txt data/models_hmm/YP_008719874@NC_022613.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:24 2021
+# [ok]

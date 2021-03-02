@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39250|END4_BPT4     13.0     0.062   2   1.8   0.0    Endonuclease IV OS=Enterobacteria phage T4 OX=10665 GN=denB PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39250|END4_BPT4     11.3      0.22     2   0.0    145    170    149    166     13     30     Endonuclease IV OS=Enterobacteria phage T4 OX=10665 GN=denB PE=1 SV=1
+sp|P39250|END4_BPT4     -1.7   2.5e+03     1   0.0     93    108     95    101     25     31     Endonuclease IV OS=Enterobacteria phage T4 OX=10665 GN=denB PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_4159826_len_143499_cov_4_825037@_HiSeq_26529460.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_4159826_len_143499_cov_4_825037@_HiSeq_26529460.txt data/models_hmm/2061766007@rumenHiSeq_NODE_4159826_len_143499_cov_4_825037@_HiSeq_26529460.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:42 2021
+# [ok]

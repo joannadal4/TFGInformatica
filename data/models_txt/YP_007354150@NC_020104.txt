@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UNV2|YL688_MIMIV   402.0  5.2e-121   1   1.0  36.5    Uncharacterized protein L688 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L688 PE=1 SV=1
+sp|Q5UPL2|YR135_MIMIV     9.0      0.85   1   1.4  10.1    Putative GMC-type oxidoreductase R135 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R135 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UNV2|YL688_MIMIV   401.9  5.9e-121     1  36.5     15    236     15    234      1    219     Uncharacterized protein L688 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L688 PE=1 SV=1
+sp|Q5UPL2|YR135_MIMIV     8.1       1.6     1  10.1      2     68      6     47     15     58     Putative GMC-type oxidoreductase R135 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R135 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007354150@NC_020104.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007354150@NC_020104.txt data/models_hmm/YP_007354150@NC_020104.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:45 2021
+# [ok]

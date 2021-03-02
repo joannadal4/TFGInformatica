@@ -1,0 +1,67 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q77JN0|GB_ELHVK       16.1    0.0083   2   2.1   0.2    Envelope glycoprotein B OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 GN=gB PE=3 SV=1
+sp|P22044|PHOSP_PI4HA    16.0    0.0086   1   1.5   0.2    Phosphoprotein OS=Human parainfluenza 4a virus (strain Toshiba) OX=11225 GN=P/V PE=3 SV=1
+sp|Q75007|VPU_HV1ET      15.9    0.0093   1   1.2   0.1    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype C (isolate ETH2220) OX=388796 GN=vpu PE=3 SV=1
+sp|P21738|PHOSP_PI4HB    15.5     0.012   1   1.5   0.3    Phosphoprotein OS=Human parainfluenza 4b virus (strain 68-333) OX=11227 GN=P/V PE=1 SV=1
+sp|P05924|VPU_HV1MA      15.2     0.016   1   1.2   0.1    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype A (isolate MAL) OX=11697 GN=vpu PE=3 SV=1
+sp|P08803|VPU_HV1C4      15.1     0.017   1   1.2   0.1    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate CDC-451) OX=11687 GN=vpu PE=3 SV=2
+sp|O70891|VPU_HV193      15.0     0.018   1   1.1   0.3    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate 93BR020) OX=388814 GN=vpu PE=3 SV=1
+sp|Q05249|VG39_BPML5     14.7     0.022   1   1.3   0.0    Gene 39 protein OS=Mycobacterium phage L5 OX=31757 GN=39 PE=4 SV=1
+sp|Q91E93|NSP4_ROTHL     14.3     0.029   1   1.6   0.5    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Philippines/L26/1987/G12P1B[4]) OX=10953 PE=3 SV=1
+sp|P03457|HEMA_I66A1     14.3     0.029   1   1.6   0.2    Hemagglutinin OS=Influenza A virus (strain A/Turkey/Wisconsin/1/1966 H9N2) OX=385620 GN=HA PE=3 SV=2
+sp|P11208|PHOSP_PIV5     14.1     0.033   1   1.6   0.1    Phosphoprotein OS=Parainfluenza virus 5 (strain W3) OX=11208 GN=P/V PE=1 SV=1
+sp|P19554|VPU_HV1S1      14.0     0.036   1   1.2   0.2    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate SF162) OX=11691 GN=vpu PE=1 SV=1
+sp|O70901|VPU_HV190      13.8     0.043   1   1.2   0.0    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype H (isolate 90CF056) OX=388826 GN=vpu PE=3 SV=1
+sp|P05947|VPU_HV1MN      13.5     0.051   1   1.3   0.3    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate MN) OX=11696 GN=vpu PE=3 SV=2
+sp|Q89843|VPU_HV1B9      12.8     0.088   1   1.2   0.1    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (strain 89.6) OX=401671 GN=vpu PE=3 SV=1
+sp|P35966|VPU_HV1Y2      12.6     0.099   1   1.2   0.1    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate YU-2) OX=362651 GN=vpu PE=3 SV=1
+sp|P12516|VPU_HV1BN      12.6       0.1   1   1.2   0.1    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRVA) OX=11693 GN=vpu PE=3 SV=1
+sp|Q82035|NSP4_ROTHT     12.4      0.12   1   1.5   2.8    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=1 SV=1
+sp|Q6QT02|NSP4_ROT18     11.4      0.23   1   1.7   3.2    Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Cow/India/Hg18/2000/G15P[21]) OX=141270 PE=3 SV=1
+sp|P89061|NSP4_ROTP5     11.3      0.25   1   1.6   3.9    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=1 SV=1
+sp|Q82030|NSP4_ROTH1     11.2      0.28   1   1.6   3.4    Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Human/Sweden/1076/1983/G2P2A[6]) OX=10944 PE=2 SV=1
+sp|Q9PYC8|NSP4_ROTBB      9.4         1   2   2.3   5.7    Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Cow/United States/B223/1983/G10P8[11]) OX=1835656 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q75007|VPU_HV1ET      15.4     0.013     1   0.1     14     61     16     49      3     29     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype C (isolate ETH2220) OX=388796 GN=vpu PE=3 SV=1
+sp|P22044|PHOSP_PI4HA    15.0     0.018     1   0.2    221    266    228    263     47     83     Phosphoprotein OS=Human parainfluenza 4a virus (strain Toshiba) OX=11225 GN=P/V PE=3 SV=1
+sp|P05924|VPU_HV1MA      14.9     0.019     1   0.1      8     65     11     45      4     38     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype A (isolate MAL) OX=11697 GN=vpu PE=3 SV=1
+sp|P08803|VPU_HV1C4      14.6     0.024     1   0.1      9     57      9     46      1     38     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate CDC-451) OX=11687 GN=vpu PE=3 SV=2
+sp|O70891|VPU_HV193      14.6     0.024     1   0.3      9     53     12     48      4     40     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate 93BR020) OX=388814 GN=vpu PE=3 SV=1
+sp|P21738|PHOSP_PI4HB    14.4     0.027     1   0.3    225    266    229    263     48     83     Phosphoprotein OS=Human parainfluenza 4b virus (strain 68-333) OX=11227 GN=P/V PE=1 SV=1
+sp|Q05249|VG39_BPML5     14.1     0.033     1   0.0     75    138     91    133     20     59     Gene 39 protein OS=Mycobacterium phage L5 OX=31757 GN=39 PE=4 SV=1
+sp|P19554|VPU_HV1S1      13.9     0.039     1   0.2      6     70     12     48      4     40     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate SF162) OX=11691 GN=vpu PE=1 SV=1
+sp|Q77JN0|GB_ELHVK       13.8     0.042     1   0.1    318    381    321    373      7     58     Envelope glycoprotein B OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 GN=gB PE=3 SV=1
+sp|O70901|VPU_HV190      13.6     0.048     1   0.0      8     67     11     47      4     40     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype H (isolate 90CF056) OX=388826 GN=vpu PE=3 SV=1
+sp|Q91E93|NSP4_ROTHL     13.6     0.049     1   0.5     36    136     80    125     36     78     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Philippines/L26/1987/G12P1B[4]) OX=10953 PE=3 SV=1
+sp|P05947|VPU_HV1MN      13.0     0.076     1   0.3      5     53     12     48      4     40     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate MN) OX=11696 GN=vpu PE=3 SV=2
+sp|P03457|HEMA_I66A1     13.0     0.078     1   0.2    369    430    374    426     15     70     Hemagglutinin OS=Influenza A virus (strain A/Turkey/Wisconsin/1/1966 H9N2) OX=385620 GN=HA PE=3 SV=2
+sp|P11208|PHOSP_PIV5     12.9     0.079     1   0.1    205    258    221    255     47     82     Phosphoprotein OS=Parainfluenza virus 5 (strain W3) OX=11208 GN=P/V PE=1 SV=1
+sp|P35966|VPU_HV1Y2      12.5      0.11     1   0.1      7     70     12     48      4     40     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate YU-2) OX=362651 GN=vpu PE=3 SV=1
+sp|Q89843|VPU_HV1B9      12.4      0.12     1   0.1      7     58     12     46      4     38     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (strain 89.6) OX=401671 GN=vpu PE=3 SV=1
+sp|P12516|VPU_HV1BN      12.3      0.13     1   0.1      6     65     12     46      4     38     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRVA) OX=11693 GN=vpu PE=3 SV=1
+sp|Q82035|NSP4_ROTHT     11.7      0.19     1   2.8     36    133     87    128     40     81     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=1 SV=1
+sp|P89061|NSP4_ROTP5     10.6      0.42     1   3.8     36    136     87    125     40     78     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=1 SV=1
+sp|Q6QT02|NSP4_ROT18     10.6      0.43     1   3.2     36    136     87    125     40     78     Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Cow/India/Hg18/2000/G15P[21]) OX=141270 PE=3 SV=1
+sp|Q82030|NSP4_ROTH1     10.4      0.49     1   3.4     36    136     87    125     40     78     Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Human/Sweden/1076/1983/G2P2A[6]) OX=10944 PE=2 SV=1
+sp|Q9PYC8|NSP4_ROTBB      8.6       1.7     1   3.5     36    136     87    123     40     76     Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Cow/United States/B223/1983/G10P8[11]) OX=1835656 PE=3 SV=1
+sp|Q9PYC8|NSP4_ROTBB      2.1     2e+02     2   0.2    123    153    127    143     59     75     Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Cow/United States/B223/1983/G10P8[11]) OX=1835656 PE=3 SV=1
+sp|Q77JN0|GB_ELHVK       -2.0   3.6e+03     2   0.0    660    700    670    697     27     53     Envelope glycoprotein B OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 GN=gB PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001130@JGI1221J13441_10000010@JGI1221J13441_1000001012.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001130@JGI1221J13441_10000010@JGI1221J13441_1000001012.txt data/models_hmm/3300001130@JGI1221J13441_10000010@JGI1221J13441_1000001012.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:28 2021
+# [ok]

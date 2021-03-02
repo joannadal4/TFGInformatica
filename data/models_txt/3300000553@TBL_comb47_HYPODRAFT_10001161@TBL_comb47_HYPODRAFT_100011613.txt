@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P24795|E15_BPD10     13.4     0.046   1   1.1   0.1    Uncharacterized protein gp14 OS=Escherichia phage D108 OX=665033 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P24795|E15_BPD10     13.3      0.05     1   0.1      1     76     11     68    184    241     Uncharacterized protein gp14 OS=Escherichia phage D108 OX=665033 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10001161@TBL_comb47_HYPODRAFT_100011613.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000553@TBL_comb47_HYPODRAFT_10001161@TBL_comb47_HYPODRAFT_100011613.txt data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10001161@TBL_comb47_HYPODRAFT_100011613.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:02 2021
+# [ok]

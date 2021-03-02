@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q859K6|PORTL_BP44A    13.3     0.065   1   1.3   0.1    Portal protein OS=Staphylococcus phage 44AHJD OX=204086 PE=3 SV=1
+sp|Q5UQ46|YL396_MIMIV    12.8     0.092   2   2.0   2.1    Putative ATP-dependent RNA helicase L396 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L396 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q859K6|PORTL_BP44A    12.7       0.1     1   0.1     74    171    101    165     75    139     Portal protein OS=Staphylococcus phage 44AHJD OX=204086 PE=3 SV=1
+sp|Q5UQ46|YL396_MIMIV    12.6      0.11     2   0.3    431    513    448    504     23     79     Putative ATP-dependent RNA helicase L396 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L396 PE=3 SV=1
+sp|Q5UQ46|YL396_MIMIV    -1.8     3e+03     1   0.1    135    199    149    179     46     75     Putative ATP-dependent RNA helicase L396 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L396 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001285490@NC_009540.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001285490@NC_009540.txt data/models_hmm/YP_001285490@NC_009540.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:07 2021
+# [ok]

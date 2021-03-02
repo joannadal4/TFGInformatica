@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q197C6|VF077_IIV3    469.7  2.7e-141   1   1.0  10.3    Putative zinc finger protein 034R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-034R PE=3 SV=1
+sp|O55712|VF077_IIV6     25.0   1.2e-05   2   2.2  14.4    Putative zinc finger protein 077L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-077L PE=3 SV=1
+sp|Q5UQK8|YL412_MIMIV    13.5     0.036   3   2.8   0.5    Uncharacterized protein L412 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L412 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q197C6|VF077_IIV3    469.5  3.1e-141     1  10.3      1    265      2    261      4    269     Putative zinc finger protein 034R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-034R PE=3 SV=1
+sp|O55712|VF077_IIV6     25.0   1.2e-05     1  14.4      6    248     24    242     32    262     Putative zinc finger protein 077L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-077L PE=3 SV=1
+sp|Q5UQK8|YL412_MIMIV    13.5     0.036     1   0.5      5    118     30     66    176    211     Uncharacterized protein L412 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L412 PE=4 SV=1
+sp|Q5UQK8|YL412_MIMIV     0.6     3e+02     2   3.9     87    204    120    182    182    242     Uncharacterized protein L412 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L412 PE=4 SV=1
+sp|O55712|VF077_IIV6     -0.2   5.3e+02     2   0.1    275    310    284    306     17     39     Putative zinc finger protein 077L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-077L PE=3 SV=1
+sp|Q5UQK8|YL412_MIMIV    -1.9   1.8e+03     3   1.2    210    282    247    260     22     35     Uncharacterized protein L412 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L412 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/CCV01832@HF920633.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/CCV01832@HF920633.txt data/models_hmm/CCV01832@HF920633.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:10 2021
+# [ok]

@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UR46|YR571_MIMIV    13.1     0.019   1   1.1   0.1    Uncharacterized protein R571 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R571 PE=3 SV=1
+sp|P11128|FUS_BPPH6       6.1       2.4   2   2.1   7.7    Fusion protein P6 OS=Pseudomonas phage phi6 OX=10879 GN=P6 PE=1 SV=3
+sp|Q573D5|Y554_AFV2P      5.4         4   2   2.0   9.6    Uncharacterized protein ORF554 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF554 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UR46|YR571_MIMIV    12.8     0.022     1   0.1      1    165      5    141    315    450     Uncharacterized protein R571 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R571 PE=3 SV=1
+sp|Q573D5|Y554_AFV2P      8.6      0.42     1   3.8     32    138     47    104    636    692     Uncharacterized protein ORF554 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF554 PE=4 SV=1
+sp|P11128|FUS_BPPH6       5.8         3     1   4.5      2     90      5     50    532    577     Fusion protein P6 OS=Pseudomonas phage phi6 OX=10879 GN=P6 PE=1 SV=3
+sp|P11128|FUS_BPPH6       1.6        55     2   0.6     45    115     57     89    531    566     Fusion protein P6 OS=Pseudomonas phage phi6 OX=10879 GN=P6 PE=1 SV=3
+sp|Q573D5|Y554_AFV2P     -0.6   2.6e+02     2   0.3    191    263    212    238    542    568     Uncharacterized protein ORF554 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF554 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ADO98053@GU071097.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ADO98053@GU071097.txt data/models_hmm/ADO98053@GU071097.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:21 2021
+# [ok]

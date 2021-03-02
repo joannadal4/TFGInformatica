@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZU4|032R_FRG3G    14.3     0.012   2   2.0   0.0    Uncharacterized protein 032R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-032R PE=4 SV=1
+sp|Q196X6|VF232_IIV3    12.3      0.05   2   2.0   2.0    Putative ubiquitin thioesterase 232R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-084L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q196X6|VF232_IIV3    11.5     0.088     1   0.3      3     52     14     48     42     76     Putative ubiquitin thioesterase 232R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-084L PE=3 SV=1
+sp|Q6GZU4|032R_FRG3G    11.1      0.11     1   0.0    137    209    148    188     37     76     Uncharacterized protein 032R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-032R PE=4 SV=1
+sp|Q6GZU4|032R_FRG3G     0.7   1.6e+02     2   0.0    583    629    594    628    417    451     Uncharacterized protein 032R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-032R PE=4 SV=1
+sp|Q196X6|VF232_IIV3    -0.9     5e+02     2   0.1     81    160     93    150     80    135     Putative ubiquitin thioesterase 232R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-084L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_078746@NC_001824.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_078746@NC_001824.txt data/models_hmm/NP_078746@NC_001824.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:53 2021
+# [ok]

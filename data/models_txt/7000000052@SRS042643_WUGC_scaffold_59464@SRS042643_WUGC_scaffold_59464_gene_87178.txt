@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q09113|VP4_ROTHU     17.7     0.002   1   1.7   0.3    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/India/116E/1986/G9P8[11]) OX=638299 PE=2 SV=1
+sp|P35746|VP4_ROTBB     17.4    0.0024   1   1.8   0.2    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cow/United States/B223/1983/G10P8[11]) OX=1835656 PE=1 SV=2
+sp|P36307|VP4_ROTBA     17.3    0.0026   1   1.6   1.0    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cow/Thailand/A44/1988/G10P8[11]) OX=1835658 PE=3 SV=1
+sp|P36308|VP4_ROTBK     17.1     0.003   1   1.7   1.0    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cow/Japan/KK3/1983/G10P8[11]) OX=1835657 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q09113|VP4_ROTHU     16.5    0.0046     1   0.3    546    742    568    675     13    119     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/India/116E/1986/G9P8[11]) OX=638299 PE=2 SV=1
+sp|P36307|VP4_ROTBA     16.2    0.0057     1   1.0    547    744    568    724     13    168     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cow/Thailand/A44/1988/G10P8[11]) OX=1835658 PE=3 SV=1
+sp|P35746|VP4_ROTBB     16.2    0.0059     1   0.2    547    732    568    633     13     76     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cow/United States/B223/1983/G10P8[11]) OX=1835656 PE=1 SV=2
+sp|P36308|VP4_ROTBK     16.0    0.0068     1   1.0    547    744    567    722     12    166     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cow/Japan/KK3/1983/G10P8[11]) OX=1835657 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000052@SRS042643_WUGC_scaffold_59464@SRS042643_WUGC_scaffold_59464_gene_87178.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000052@SRS042643_WUGC_scaffold_59464@SRS042643_WUGC_scaffold_59464_gene_87178.txt data/models_hmm/7000000052@SRS042643_WUGC_scaffold_59464@SRS042643_WUGC_scaffold_59464_gene_87178.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:06 2021
+# [ok]

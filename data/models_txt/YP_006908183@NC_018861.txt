@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q38055|CAPSH_BPT6     20.5    0.0002   1   2.0   0.0    Major capsid protein (Fragment) OS=Enterobacteria phage T6 OX=10666 GN=23 PE=3 SV=1
+sp|Q9ZXI0|CAPSH_BPAR1    20.3   0.00024   1   1.9   0.0    Major capsid protein OS=Escherichia phage AR1 OX=66711 GN=23 PE=3 SV=1
+sp|P04535|CAPSH_BPT4     19.1   0.00053   1   1.9   0.0    Major capsid protein OS=Enterobacteria phage T4 OX=10665 GN=gp23 PE=1 SV=2
+sp|Q6WI88|CAPSP_BPKVM    19.1   0.00053   2   2.1   0.2    Capsid vertex protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=24 PE=3 SV=1
+sp|Q6WHE1|CAPSH_BPKVM    14.5     0.013   2   2.2   0.4    Major capsid protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=23 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38055|CAPSH_BPT6     18.1    0.0011     1   0.0    222    491    247    454     91    274     Major capsid protein (Fragment) OS=Enterobacteria phage T6 OX=10666 GN=23 PE=3 SV=1
+sp|Q9ZXI0|CAPSH_BPAR1    17.9    0.0012     1   0.0    228    492    247    454     91    274     Major capsid protein OS=Escherichia phage AR1 OX=66711 GN=23 PE=3 SV=1
+sp|P04535|CAPSH_BPT4     16.8    0.0026     1   0.0    191    492    247    454     91    274     Major capsid protein OS=Enterobacteria phage T4 OX=10665 GN=gp23 PE=1 SV=2
+sp|Q6WHE1|CAPSH_BPKVM    11.3      0.13     1   0.1    218    321    243    305     91    154     Major capsid protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=23 PE=1 SV=1
+sp|Q6WI88|CAPSP_BPKVM     9.6      0.42     1   0.0     12    164     55    142     91    180     Capsid vertex protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=24 PE=3 SV=1
+sp|Q6WI88|CAPSP_BPKVM     7.8       1.5     2   0.1    190    276    201    273    245    310     Capsid vertex protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=24 PE=3 SV=1
+sp|Q6WHE1|CAPSH_BPKVM     0.6   2.2e+02     2   0.0    343    488    368    479    198    302     Major capsid protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=23 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006908183@NC_018861.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006908183@NC_018861.txt data/models_hmm/YP_006908183@NC_018861.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:32 2021
+# [ok]

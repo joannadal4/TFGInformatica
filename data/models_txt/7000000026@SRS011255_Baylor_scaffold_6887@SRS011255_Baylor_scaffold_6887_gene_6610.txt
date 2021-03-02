@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9J560|A9_FOWPN      13.0     0.057   1   1.1   1.5    Protein A9 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV173 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9J560|A9_FOWPN      12.8     0.063     1   1.5      4     64     14     60     95    139     Protein A9 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV173 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000026@SRS011255_Baylor_scaffold_6887@SRS011255_Baylor_scaffold_6887_gene_6610.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000026@SRS011255_Baylor_scaffold_6887@SRS011255_Baylor_scaffold_6887_gene_6610.txt data/models_hmm/7000000026@SRS011255_Baylor_scaffold_6887@SRS011255_Baylor_scaffold_6887_gene_6610.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:49 2021
+# [ok]

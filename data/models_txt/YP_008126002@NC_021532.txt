@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q7Y2B9|SPAN1_BPKMV    14.3     0.035   1   1.5   1.6    Probable spanin, inner membrane subunit OS=Pseudomonas phage phiKMV OX=204270 GN=46 PE=3 SV=1
+sp|P03541|NCAP_PIARV     13.1     0.078   1   1.6   0.3    Nucleoprotein OS=Pichinde mammarenavirus OX=2169993 GN=N PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q7Y2B9|SPAN1_BPKMV    13.8      0.05     1   1.6      1     77      6     36      6     36     Probable spanin, inner membrane subunit OS=Pseudomonas phage phiKMV OX=204270 GN=46 PE=3 SV=1
+sp|P03541|NCAP_PIARV     11.9       0.2     1   0.3     33     77     43     75     43     76     Nucleoprotein OS=Pichinde mammarenavirus OX=2169993 GN=N PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008126002@NC_021532.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008126002@NC_021532.txt data/models_hmm/YP_008126002@NC_021532.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:23 2021
+# [ok]

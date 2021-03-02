@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q914M6|Y004_SIFVH    137.1   1.7e-40   1   1.0  15.4    Uncharacterized protein 4 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0004 PE=4 SV=1
+sp|Q5UPV1|YL271_MIMIV     8.9       1.6   3   3.2  15.2    Putative ankyrin repeat protein L271 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L271 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q914M6|Y004_SIFVH    137.0   1.8e-40     1  15.4      1     82      1     78      1     78     Uncharacterized protein 4 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0004 PE=4 SV=1
+sp|Q5UPV1|YL271_MIMIV    11.0      0.36     2   8.6    287    367    314    357     21     63     Putative ankyrin repeat protein L271 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L271 PE=4 SV=1
+sp|Q5UPV1|YL271_MIMIV    -0.3   1.2e+03     3   0.1    432    467    436    459     26     47     Putative ankyrin repeat protein L271 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L271 PE=4 SV=1
+sp|Q5UPV1|YL271_MIMIV    -3.7   1.4e+04     1   0.0      9     37     11     31     17     37     Putative ankyrin repeat protein L271 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L271 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001604348@NC_010155.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001604348@NC_010155.txt data/models_hmm/YP_001604348@NC_010155.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:35 2021
+# [ok]

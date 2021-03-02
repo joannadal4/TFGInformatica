@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O10358|Y119_NPVOP    12.8     0.079   2   2.6   0.2    Uncharacterized 59.0 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF119 PE=3 SV=1
+sp|P41672|PIF1_NPVAC    12.0      0.14   3   2.9   3.3    Per os infectivity factor 1 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=1 SV=1
+sp|P03518|GP_RVFV       11.6      0.18   3   3.0   2.6    Envelopment polyprotein OS=Rift valley fever virus OX=11588 GN=GP PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03518|GP_RVFV       10.3      0.48     2   0.3    492    551    504    538     30     69     Envelopment polyprotein OS=Rift valley fever virus OX=11588 GN=GP PE=1 SV=2
+sp|P41672|PIF1_NPVAC     6.8         6     3   0.0    447    510    453    481     24     52     Per os infectivity factor 1 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=1 SV=1
+sp|O10358|Y119_NPVOP     5.5        15     1   0.1    424    452    426    446     26     46     Uncharacterized 59.0 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF119 PE=3 SV=1
+sp|P41672|PIF1_NPVAC     5.4        16     2   0.1    424    452    428    447     27     46     Per os infectivity factor 1 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=1 SV=1
+sp|O10358|Y119_NPVOP     4.6        29     2   0.0    447    505    454    479     26     51     Uncharacterized 59.0 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF119 PE=3 SV=1
+sp|P03518|GP_RVFV       -1.9     3e+03     1   0.1    304    363    322    354     16     47     Envelopment polyprotein OS=Rift valley fever virus OX=11588 GN=GP PE=1 SV=2
+sp|P41672|PIF1_NPVAC    -3.4   8.9e+03     1   0.4    160    192    166    186     18     37     Per os infectivity factor 1 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=1 SV=1
+sp|P03518|GP_RVFV       -4.0   1.4e+04     3   0.0    752    770    754    768     59     73     Envelopment polyprotein OS=Rift valley fever virus OX=11588 GN=GP PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003344959@NC_013600.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003344959@NC_013600.txt data/models_hmm/YP_003344959@NC_013600.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:23 2021
+# [ok]

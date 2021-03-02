@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HGK9|PORTL_HHV8P    18.0    0.0015   2   2.3   0.3    Portal protein OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF43 PE=1 SV=1
+sp|P31117|T2C2_PBCV1     15.1     0.011   2   2.2   2.2    Type-2 restriction enzyme CviAII OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=CVIAIIR PE=4 SV=1
+sp|Q5UQU2|YR350_MIMIV    10.1      0.37   2   2.6   4.5    Putative ATP-dependent RNA helicase R350 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R350 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P31117|T2C2_PBCV1     15.1     0.011     1   2.2     20    108     35    101    107    168     Type-2 restriction enzyme CviAII OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=CVIAIIR PE=4 SV=1
+sp|F5HGK9|PORTL_HHV8P     9.8      0.46     2   0.0    335    410    352    394     92    136     Portal protein OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF43 PE=1 SV=1
+sp|Q5UQU2|YR350_MIMIV     7.4       2.5     2   0.9    393    482    396    480    108    186     Putative ATP-dependent RNA helicase R350 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R350 PE=1 SV=1
+sp|F5HGK9|PORTL_HHV8P     5.9       7.6     1   0.1     94    245    102    227     28    153     Portal protein OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF43 PE=1 SV=1
+sp|Q5UQU2|YR350_MIMIV     3.1        53     1   0.1    184    243    191    222    118    147     Putative ATP-dependent RNA helicase R350 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R350 PE=1 SV=1
+sp|P31117|T2C2_PBCV1      1.4   1.8e+02     2   0.4    215    286    240    276    129    164     Type-2 restriction enzyme CviAII OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=CVIAIIR PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001685@JGI24024J18818_10000004@JGI24024J18818_1000000478.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001685@JGI24024J18818_10000004@JGI24024J18818_1000000478.txt data/models_hmm/3300001685@JGI24024J18818_10000004@JGI24024J18818_1000000478.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:12 2021
+# [ok]

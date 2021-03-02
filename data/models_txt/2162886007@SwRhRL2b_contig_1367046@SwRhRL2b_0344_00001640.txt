@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPT2|UNG_MIMIV     12.4     0.053   1   1.1  11.6    Probable uracil-DNA glycosylase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=UNG PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPT2|UNG_MIMIV     12.0      0.07     1  11.6      2    106     21     89    166    234     Probable uracil-DNA glycosylase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=UNG PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2162886007@SwRhRL2b_contig_1367046@SwRhRL2b_0344_00001640.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2162886007@SwRhRL2b_contig_1367046@SwRhRL2b_0344_00001640.txt data/models_hmm/2162886007@SwRhRL2b_contig_1367046@SwRhRL2b_0344_00001640.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:02 2021
+# [ok]

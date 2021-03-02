@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O73556|POLG_HPE2W    12.9     0.066   2   2.2   0.3    Genome polyprotein OS=Human parechovirus 2 (strain Williamson) OX=122962 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O73556|POLG_HPE2W    10.9      0.28     1   0.0    814    895    828    889     73    134     Genome polyprotein OS=Human parechovirus 2 (strain Williamson) OX=122962 PE=3 SV=1
+sp|O73556|POLG_HPE2W    -3.2   5.8e+03     2   0.1    981   1039    986   1011     76    102     Genome polyprotein OS=Human parechovirus 2 (strain Williamson) OX=122962 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000515@SRS049995_LANL_scaffold_24778@SRS049995_LANL_scaffold_24778_gene_63619.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000515@SRS049995_LANL_scaffold_24778@SRS049995_LANL_scaffold_24778_gene_63619.txt data/models_hmm/7000000515@SRS049995_LANL_scaffold_24778@SRS049995_LANL_scaffold_24778_gene_63619.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:59 2021
+# [ok]

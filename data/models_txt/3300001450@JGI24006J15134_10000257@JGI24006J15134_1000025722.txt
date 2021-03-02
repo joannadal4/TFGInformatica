@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q914J8|Y032_SIFVH    13.1     0.075   2   1.7   0.7    Uncharacterized protein 32 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0032 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q914J8|Y032_SIFVH    12.1      0.16     2   0.5     19     85     40     79     41     79     Uncharacterized protein 32 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0032 PE=4 SV=1
+sp|Q914J8|Y032_SIFVH    -1.5   2.8e+03     1   0.0      2     37      3     27     48     72     Uncharacterized protein 32 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0032 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001450@JGI24006J15134_10000257@JGI24006J15134_1000025722.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001450@JGI24006J15134_10000257@JGI24006J15134_1000025722.txt data/models_hmm/3300001450@JGI24006J15134_10000257@JGI24006J15134_1000025722.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:28 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CA97|VF205_ASFK5    11.4      0.27   2   2.4   3.8    Uncharacterized protein K205R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-060 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CA97|VF205_ASFK5     8.5       2.2     2   0.6     38     87     41     74      4     37     Uncharacterized protein K205R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-060 PE=3 SV=1
+sp|P0CA97|VF205_ASFK5     4.0        54     1   0.1      2     42     11     38     31     59     Uncharacterized protein K205R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-060 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000112@SRS011302_Baylor_scaffold_6243@SRS011302_Baylor_scaffold_6243_gene_11294.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000112@SRS011302_Baylor_scaffold_6243@SRS011302_Baylor_scaffold_6243_gene_11294.txt data/models_hmm/7000000112@SRS011302_Baylor_scaffold_6243@SRS011302_Baylor_scaffold_6243_gene_11294.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:31 2021
+# [ok]

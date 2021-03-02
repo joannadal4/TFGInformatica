@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9G0B5|FIB37_BPAR1    56.6   1.4e-15   2   2.4   0.3    Long tail fiber protein p37 OS=Escherichia phage AR1 OX=66711 GN=37 PE=3 SV=1
+sp|P13390|FIBL1_BPT5     49.9   1.5e-13   3   3.5  34.9    L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+sp|P08232|FIB37_BPOX2    31.4   5.7e-08   1   1.2   0.1    Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage Ox2 OX=10691 GN=37 PE=3 SV=1
+sp|P08231|FIB37_BPM1     31.0   7.7e-08   1   1.2   0.0    Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage M1 OX=10676 GN=37 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9G0B5|FIB37_BPAR1    56.6   1.4e-15     2   0.3    981   1101    993   1097    669    768     Long tail fiber protein p37 OS=Escherichia phage AR1 OX=66711 GN=37 PE=3 SV=1
+sp|P13390|FIBL1_BPT5     49.9   1.5e-13     2  34.9    117    351    119    252      3    131     L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+sp|P08232|FIB37_BPOX2    31.3   6.4e-08     1   0.1     60    244    136    234    666    759     Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage Ox2 OX=10691 GN=37 PE=3 SV=1
+sp|P08231|FIB37_BPM1     30.9   8.4e-08     1   0.0     61    245    138    234    668    759     Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage M1 OX=10676 GN=37 PE=3 SV=1
+sp|P13390|FIBL1_BPT5      1.7        54     1  21.3     47    120     56    116      3     66     L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+sp|P13390|FIBL1_BPT5      0.4   1.4e+02     3   0.0   1242   1319   1261   1288    666    689     L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+sp|Q9G0B5|FIB37_BPAR1    -4.6   4.4e+03     1   4.3    317    510    410    481    587    661     Long tail fiber protein p37 OS=Escherichia phage AR1 OX=66711 GN=37 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000910@JGI12437J12857_1000001@JGI12437J12857_100000158.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000910@JGI12437J12857_1000001@JGI12437J12857_100000158.txt data/models_hmm/3300000910@JGI12437J12857_1000001@JGI12437J12857_100000158.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:17 2021
+# [ok]

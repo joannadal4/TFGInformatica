@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q37979|AEPE_BPA50    19.2   0.00036   1   1.4   1.9    L-alanyl-D-glutamate peptidase OS=Listeria phage A500 OX=40522 GN=ply PE=1 SV=1
+sp|Q88938|ENV_WDSV      12.1      0.05   1   1.2   0.0    Envelope glycoprotein OS=Walleye dermal sarcoma virus OX=39720 GN=env PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q37979|AEPE_BPA50    18.3   0.00069     1   1.9     21    152     30    135    416    507     L-alanyl-D-glutamate peptidase OS=Listeria phage A500 OX=40522 GN=ply PE=1 SV=1
+sp|Q88938|ENV_WDSV      11.5     0.076     1   0.0    309    538    324    529     48    239     Envelope glycoprotein OS=Walleye dermal sarcoma virus OX=39720 GN=env PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ADO99800@GU075905.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ADO99800@GU075905.txt data/models_hmm/ADO99800@GU075905.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:28 2021
+# [ok]

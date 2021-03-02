@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q65946|DPOL_ADECC    11.6      0.15   2   2.5   0.2    DNA polymerase OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=POL PE=3 SV=1
+sp|P87553|DPOL_ADECT    11.4      0.18   2   2.6   0.1    DNA polymerase OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=POL PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q65946|DPOL_ADECC     7.6       2.7     2   0.0    626    644    628    642     16     30     DNA polymerase OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=POL PE=3 SV=1
+sp|P87553|DPOL_ADECT     7.6       2.7     2   0.0    627    645    629    643     16     30     DNA polymerase OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=POL PE=3 SV=1
+sp|Q65946|DPOL_ADECC     0.7   3.8e+02     1   0.0    339    363    340    358      3     20     DNA polymerase OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=POL PE=3 SV=1
+sp|P87553|DPOL_ADECT     0.2   5.3e+02     1   0.0    340    365    341    359      3     20     DNA polymerase OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=POL PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_2460581_len_243054_cov_1_720433@_HiSeq_26904590.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_2460581_len_243054_cov_1_720433@_HiSeq_26904590.txt data/models_hmm/2061766007@rumenHiSeq_NODE_2460581_len_243054_cov_1_720433@_HiSeq_26904590.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:30 2021
+# [ok]

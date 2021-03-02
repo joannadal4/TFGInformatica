@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C736|EAR_EBVG      13.2     0.059   1   1.5   0.1    Apoptosis regulator BHRF1 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BHRF1 PE=1 SV=1
+sp|P03182|EAR_EBVB9     13.2      0.06   1   1.5   0.1    Apoptosis regulator BHRF1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BHRF1 PE=1 SV=1
+sp|P0C6Z1|EAR_EBVA8     13.2      0.06   1   1.5   0.1    Apoptosis regulator BHRF1 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BHRF1 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03182|EAR_EBVB9     12.4      0.11     1   0.1    108    189    138    183     34     78     Apoptosis regulator BHRF1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BHRF1 PE=1 SV=1
+sp|P0C6Z1|EAR_EBVA8     12.4      0.11     1   0.1    108    189    138    183     34     78     Apoptosis regulator BHRF1 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BHRF1 PE=1 SV=1
+sp|P0C736|EAR_EBVG      12.4      0.11     1   0.1    108    189    138    183     34     78     Apoptosis regulator BHRF1 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BHRF1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006988197@NC_019405.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006988197@NC_019405.txt data/models_hmm/YP_006988197@NC_019405.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:46 2021
+# [ok]

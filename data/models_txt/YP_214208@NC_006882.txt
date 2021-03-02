@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03747|TUBE2_BPT7   369.4  3.6e-110   2   2.0   8.8    Tail tubular protein gp12 OS=Escherichia phage T7 OX=10760 GN=12 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03747|TUBE2_BPT7   275.6   8.4e-82     2   4.7    183    793    207    791    341    933     Tail tubular protein gp12 OS=Escherichia phage T7 OX=10760 GN=12 PE=1 SV=1
+sp|P03747|TUBE2_BPT7    96.0   1.5e-27     1   0.1      1    181      1    175      1    175     Tail tubular protein gp12 OS=Escherichia phage T7 OX=10760 GN=12 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_214208@NC_006882.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_214208@NC_006882.txt data/models_hmm/YP_214208@NC_006882.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:16 2021
+# [ok]

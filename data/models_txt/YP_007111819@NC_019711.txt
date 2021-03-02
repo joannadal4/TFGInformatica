@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P07243|REGN_BPPH3   111.6   1.3e-32   1   1.2   6.0    Probable regulatory protein N OS=Enterobacteria phage phi21 OX=10737 GN=N PE=1 SV=1
+sp|P04891|REGN_BPP22    44.5   1.1e-11   1   2.0   2.4    Probable regulatory protein N OS=Salmonella phage P22 OX=10754 GN=N PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P07243|REGN_BPPH3   111.2   1.8e-32     1   6.0      1     71      1     65      1     65     Probable regulatory protein N OS=Enterobacteria phage phi21 OX=10737 GN=N PE=1 SV=1
+sp|P04891|REGN_BPP22    40.6   1.9e-10     1   2.4      1    100      2    100      2     90     Probable regulatory protein N OS=Salmonella phage P22 OX=10754 GN=N PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007111819@NC_019711.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007111819@NC_019711.txt data/models_hmm/YP_007111819@NC_019711.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:31 2021
+# [ok]

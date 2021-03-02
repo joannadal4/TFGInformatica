@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A4ZUB9|Y059_ABVP     14.8     0.014   1   1.0   2.2    Uncharacterized protein ORF59 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF59 PE=3 SV=1
+sp|Q49P94|GAAP_VACCL     9.1      0.73   1   1.5  12.1    Golgi anti-apoptotic protein OS=Vaccinia virus (strain Lister) OX=10252 GN=L6 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A4ZUB9|Y059_ABVP     14.7     0.015     1   2.2      1     56      4     53    142    193     Uncharacterized protein ORF59 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF59 PE=3 SV=1
+sp|Q49P94|GAAP_VACCL     8.0       1.6     1  12.1     15    232     30    191     43    207     Golgi anti-apoptotic protein OS=Vaccinia virus (strain Lister) OX=10252 GN=L6 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004940306@NC_016448.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004940306@NC_016448.txt data/models_hmm/YP_004940306@NC_016448.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:56 2021
+# [ok]

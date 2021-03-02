@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P89029|OPEP2_NPVOP    13.8     0.041   3   2.5   0.2    OPEP-2 protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=OPEP-2 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P89029|OPEP2_NPVOP    11.1      0.29     2   0.0     84    161     96    124     13     41     OPEP-2 protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=OPEP-2 PE=4 SV=1
+sp|P89029|OPEP2_NPVOP    -1.1   1.9e+03     1   0.0      4     41     12     37     35     60     OPEP-2 protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=OPEP-2 PE=4 SV=1
+sp|P89029|OPEP2_NPVOP    -2.1     4e+03     3   0.0    173    223    181    203     45     66     OPEP-2 protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=OPEP-2 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004301165@NC_015251.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004301165@NC_015251.txt data/models_hmm/YP_004301165@NC_015251.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:14 2021
+# [ok]

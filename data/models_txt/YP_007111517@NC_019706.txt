@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64331|TIPM_BPN15   114.8   2.3e-33   1   1.0   0.1    Tail tip protein M OS=Escherichia phage N15 OX=40631 GN=gene 17 PE=3 SV=1
+sp|P03737|TIPM_LAMBD   104.8   2.9e-30   1   1.0   0.0    Tail tip protein M OS=Escherichia phage lambda OX=10710 GN=M PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64331|TIPM_BPN15   114.7   2.6e-33     1   0.1      1    115      1    115      1    114     Tail tip protein M OS=Escherichia phage N15 OX=40631 GN=gene 17 PE=3 SV=1
+sp|P03737|TIPM_LAMBD   104.7   3.2e-30     1   0.0      1    109      1    108      3    112     Tail tip protein M OS=Escherichia phage lambda OX=10710 GN=M PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007111517@NC_019706.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007111517@NC_019706.txt data/models_hmm/YP_007111517@NC_019706.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:30 2021
+# [ok]

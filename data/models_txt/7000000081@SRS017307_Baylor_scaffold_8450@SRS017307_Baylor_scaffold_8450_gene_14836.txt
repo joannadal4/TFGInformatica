@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P35939|PHOSP_PHODV    12.2      0.15   1   1.7   1.4    Phosphoprotein OS=Phocine distemper virus OX=11240 GN=P/V PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P35939|PHOSP_PHODV    10.9      0.39     1   1.4    306    355    309    354     28     69     Phosphoprotein OS=Phocine distemper virus OX=11240 GN=P/V PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000081@SRS017307_Baylor_scaffold_8450@SRS017307_Baylor_scaffold_8450_gene_14836.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000081@SRS017307_Baylor_scaffold_8450@SRS017307_Baylor_scaffold_8450_gene_14836.txt data/models_hmm/7000000081@SRS017307_Baylor_scaffold_8450@SRS017307_Baylor_scaffold_8450_gene_14836.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:21 2021
+# [ok]

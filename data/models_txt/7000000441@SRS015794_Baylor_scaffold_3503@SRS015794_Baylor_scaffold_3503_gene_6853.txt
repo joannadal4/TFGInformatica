@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q06VK9|CSPL_TNAVC    16.4    0.0068   1   1.7   0.0    Caspase-like protein OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF72 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q06VK9|CSPL_TNAVC    15.1     0.018     1   0.0    119    189    132    180     57    105     Caspase-like protein OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF72 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000441@SRS015794_Baylor_scaffold_3503@SRS015794_Baylor_scaffold_3503_gene_6853.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000441@SRS015794_Baylor_scaffold_3503@SRS015794_Baylor_scaffold_3503_gene_6853.txt data/models_hmm/7000000441@SRS015794_Baylor_scaffold_3503@SRS015794_Baylor_scaffold_3503_gene_6853.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:15 2021
+# [ok]

@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPX1|YL289_MIMIV    12.2      0.17   4   4.4  12.8    Putative ankyrin repeat protein L289 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L289 PE=4 SV=1
+sp|Q197A6|054L_IIV3      10.8      0.45   3   2.5   3.3    Uncharacterized protein 054L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-054L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPX1|YL289_MIMIV    10.9      0.41     2   0.5    221    297    232    270     11     49     Putative ankyrin repeat protein L289 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L289 PE=4 SV=1
+sp|Q197A6|054L_IIV3      10.9      0.41     2   0.1    106    187    120    162     31     72     Uncharacterized protein 054L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-054L PE=4 SV=1
+sp|Q5UPX1|YL289_MIMIV     4.6        39     4   0.3    430    516    432    471      3     42     Putative ankyrin repeat protein L289 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L289 PE=4 SV=1
+sp|Q5UPX1|YL289_MIMIV     0.9   5.6e+02     1   0.1    151    214    161    194     14     47     Putative ankyrin repeat protein L289 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L289 PE=4 SV=1
+sp|Q5UPX1|YL289_MIMIV     0.8   5.8e+02     3   0.1    305    371    314    360     12     56     Putative ankyrin repeat protein L289 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L289 PE=4 SV=1
+sp|Q197A6|054L_IIV3      -1.5   3.1e+03     1   0.0     18     70     28     43     19     34     Uncharacterized protein 054L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-054L PE=4 SV=1
+sp|Q197A6|054L_IIV3      -1.6   3.3e+03     3   0.1    194    244    211    225     19     33     Uncharacterized protein 054L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-054L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000422___SRS057791_LANL_scaffold_59625_3_117.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000422___SRS057791_LANL_scaffold_59625_3_117.txt data/models_hmm/7000000422___SRS057791_LANL_scaffold_59625_3_117.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:06 2021
+# [ok]

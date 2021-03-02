@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ21|YL208_MIMIV   267.1   8.6e-80   1   1.0  22.0    Uncharacterized protein L208 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L208 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ21|YL208_MIMIV   267.0   9.6e-80     1  22.0      1    192      1    191      1    191     Uncharacterized protein L208 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L208 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001605@Draft_10000625@Draft_1000062514.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001605@Draft_10000625@Draft_1000062514.txt data/models_hmm/3300001605@Draft_10000625@Draft_1000062514.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:00 2021
+# [ok]

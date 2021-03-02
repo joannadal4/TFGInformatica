@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q66283|CP_CSVMV      13.1      0.08   1   2.4   0.4    Putative Polyprotein CP OS=Cassava vein mosaic virus OX=38062 GN=ORF 1 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q66283|CP_CSVMV      10.5      0.51     1   0.4    112    157    126    152     23     49     Putative Polyprotein CP OS=Cassava vein mosaic virus OX=38062 GN=ORF 1 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001472@JGI24004J15324_10000010@JGI24004J15324_1000001046.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001472@JGI24004J15324_10000010@JGI24004J15324_1000001046.txt data/models_hmm/3300001472@JGI24004J15324_10000010@JGI24004J15324_1000001046.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:37 2021
+# [ok]

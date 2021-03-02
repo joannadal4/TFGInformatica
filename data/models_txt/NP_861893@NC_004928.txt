@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P17173|TAP51_BPT4   360.8  3.5e-108   1   1.0  10.8    Baseplate hub assembly protein gp51 OS=Enterobacteria phage T4 OX=10665 GN=51 PE=4 SV=3
+sp|P13335|GP26_BPT4     80.8     1e-22   1   1.0   0.9    Baseplate hub assembly protein gp26 OS=Enterobacteria phage T4 OX=10665 GN=26 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P17173|TAP51_BPT4   360.6  3.9e-108     1  10.8      1    249      1    248      1    248     Baseplate hub assembly protein gp51 OS=Enterobacteria phage T4 OX=10665 GN=51 PE=4 SV=3
+sp|P13335|GP26_BPT4     80.6   1.2e-22     1   0.9      3    208      8    208      7    203     Baseplate hub assembly protein gp26 OS=Enterobacteria phage T4 OX=10665 GN=26 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_861893@NC_004928.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_861893@NC_004928.txt data/models_hmm/NP_861893@NC_004928.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:32 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9E780|VP4_ROT18       6.3       7.5   1   1.3   8.3    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cow/India/Hg18/2000/G15P[21]) OX=141270 PE=2 SV=1
+sp|Q98637|VP4_ROTCU       6.2       8.3   1   1.3  11.4    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Dog/United States/Cu-1/1982/G3P5A[3]) OX=101357 PE=2 SV=1
+sp|Q06894|VP4_ROTD9       6.2       8.5   1   1.3  11.9    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Dog/United States/K9/1981/G3P5A[3]) OX=557232 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9E780|VP4_ROT18       5.6        13     1   8.3    536    632    559    615     64    120     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cow/India/Hg18/2000/G15P[21]) OX=141270 PE=2 SV=1
+sp|Q98637|VP4_ROTCU       5.4        15     1  11.4    541    630    559    613     62    118     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Dog/United States/Cu-1/1982/G3P5A[3]) OX=101357 PE=2 SV=1
+sp|Q06894|VP4_ROTD9       5.4        15     1  11.9    541    630    559    613     62    118     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Dog/United States/K9/1981/G3P5A[3]) OX=557232 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000323@SRS046686_LANL_scaffold_6514@SRS046686_LANL_scaffold_6514_gene_7324.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000323@SRS046686_LANL_scaffold_6514@SRS046686_LANL_scaffold_6514_gene_7324.txt data/models_hmm/7000000323@SRS046686_LANL_scaffold_6514@SRS046686_LANL_scaffold_6514_gene_7324.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:21 2021
+# [ok]

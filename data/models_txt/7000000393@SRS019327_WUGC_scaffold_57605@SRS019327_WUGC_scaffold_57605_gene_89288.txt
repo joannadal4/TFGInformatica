@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P22153|VE1_HPV57     14.3     0.033   1   1.6   0.0    Replication protein E1 OS=Human papillomavirus type 57 OX=333753 GN=E1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P22153|VE1_HPV57     13.0     0.084     1   0.0    464    550    479    546     45    112     Replication protein E1 OS=Human papillomavirus type 57 OX=333753 GN=E1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000393@SRS019327_WUGC_scaffold_57605@SRS019327_WUGC_scaffold_57605_gene_89288.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000393@SRS019327_WUGC_scaffold_57605@SRS019327_WUGC_scaffold_57605_gene_89288.txt data/models_hmm/7000000393@SRS019327_WUGC_scaffold_57605@SRS019327_WUGC_scaffold_57605_gene_89288.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:52 2021
+# [ok]

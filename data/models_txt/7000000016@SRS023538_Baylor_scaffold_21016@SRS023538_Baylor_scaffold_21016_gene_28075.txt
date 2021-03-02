@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8V9T2|VF475_ASFM2    11.3      0.18   3   2.5   0.1    Uncharacterized protein B475L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-085 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8V9T2|VF475_ASFM2    11.3      0.18     2   0.1    192    261    210    255    142    187     Uncharacterized protein B475L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-085 PE=3 SV=2
+sp|Q8V9T2|VF475_ASFM2    -2.0   2.1e+03     3   0.2    353    423    364    391     36     62     Uncharacterized protein B475L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-085 PE=3 SV=2
+sp|Q8V9T2|VF475_ASFM2    -2.1   2.3e+03     1   0.2     50    113     53     97    137    179     Uncharacterized protein B475L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-085 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000016@SRS023538_Baylor_scaffold_21016@SRS023538_Baylor_scaffold_21016_gene_28075.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000016@SRS023538_Baylor_scaffold_21016@SRS023538_Baylor_scaffold_21016_gene_28075.txt data/models_hmm/7000000016@SRS023538_Baylor_scaffold_21016@SRS023538_Baylor_scaffold_21016_gene_28075.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:39 2021
+# [ok]

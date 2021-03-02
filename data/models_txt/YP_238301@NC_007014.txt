@@ -1,0 +1,77 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A4GZ95|ORF3_TTVG1    249.2   4.5e-74   1   1.7   6.4    Uncharacterized ORF3 protein OS=Torque teno midi virus 1 (isolate MD1-073) OX=766184 GN=ORF3 PE=4 SV=1
+sp|Q914N3|ORF24_TTVV4    35.9   6.3e-09   2   2.7   8.0    Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/Germany/KAV/2001) OX=687345 GN=ORF2/4 PE=4 SV=2
+sp|Q8V7J2|ORF24_TTVV6    34.7   1.4e-08   3   2.6   1.5    Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/China/CT23F/2001) OX=687366 GN=ORF2/4 PE=4 SV=1
+sp|Q8V7G5|ORF24_TTVV7    31.2   1.7e-07   3   3.1   3.9    Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/China/CT39F/2001) OX=486279 GN=ORF2/4 PE=4 SV=1
+sp|Q9WGZ1|YORF3_TTVVG    23.8   3.1e-05   1   1.0   0.5    Uncharacterized ORF3 protein OS=Torque teno virus (isolate Human/Ghana/GH1/1996) OX=487067 GN=ORF3 PE=4 SV=1
+sp|Q9DUC5|YORF2_TTVV9    21.3   0.00018   2   1.5   0.1    Uncharacterized ORF2 protein OS=Torque teno virus (isolate Japanese macaque/Japan/Mf-TTV9/2000) OX=687364 GN=ORF2 PE=4 SV=1
+sp|P0C675|ORF24_TTVV2    20.1   0.00042   3   3.8   0.7    ORF2/4 protein OS=Torque teno virus (isolate Human/Japan/TRM1/1999) OX=486275 GN=ORF2/4 PE=4 SV=1
+sp|A7XCC9|ORF24_TTVV3    20.1   0.00043   3   2.9   0.2    ORF2/4 protein OS=Torque teno virus (isolate Human/Finland/Hel32/2002) OX=687342 GN=ORF2/4 PE=4 SV=1
+sp|Q9DH22|ORF24_TTVV1    19.1   0.00083   3   3.8   0.5    Uncharacterized ORF2/4 protein OS=Torque teno virus (strain VT416) OX=486280 GN=ORF2/4 PE=2 SV=1
+sp|Q6SW03|US01_HCMVM     15.7    0.0095   2   2.1   4.4    Protein US1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US1 PE=4 SV=1
+sp|P09714|US01_HCMVA     15.7    0.0095   2   2.1   4.4    Uncharacterized protein HQLF3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US1 PE=3 SV=2
+sp|Q9QU31|ORF2_TTVB1     14.7     0.019   1   1.9   3.3    Uncharacterized ORF2 protein OS=Torque teno mini virus 1 (isolate TLMV-CBD279) OX=766183 GN=ORF2 PE=4 SV=1
+sp|F5HAM4|US31_HCMVM     14.5     0.021   2   2.2   2.6    Uncharacterized protein US31 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US31 PE=3 SV=1
+sp|P09707|US31_HCMVA     14.5     0.021   2   2.2   2.6    Uncharacterized protein HHRF6 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US31 PE=3 SV=3
+sp|Q91PQ2|ORF2_TTVD1     14.3     0.025   1   1.1   0.5    Uncharacterized ORF2 protein OS=Torque teno tupaia virus (isolate Tbc-TTV14) OX=766185 GN=ORF2 PE=4 SV=1
+sp|P21416|GAG_GALV       11.1      0.23   1   1.2   2.2    Gag polyprotein OS=Gibbon ape leukemia virus OX=11840 GN=gag PE=3 SV=3
+sp|Q9DUC2|ORF2_TTVE1      8.5       1.4   1   1.6   3.9    Uncharacterized ORF2 protein OS=Torque teno tamarin virus (isolate So-TTV2) OX=766186 GN=ORF2 PE=4 SV=1
+sp|F5HD03|US32_HCMVM      7.7       2.6   2   2.0   5.4    Protein US32 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US32 PE=3 SV=1
+sp|P09708|US32_HCMVA      7.7       2.6   2   2.0   5.4    Uncharacterized protein HHRF7 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US32 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A4GZ95|ORF3_TTVG1    249.2   4.5e-74     1   6.4      1    226      1    149      1    144     Uncharacterized ORF3 protein OS=Torque teno midi virus 1 (isolate MD1-073) OX=766184 GN=ORF3 PE=4 SV=1
+sp|Q8V7J2|ORF24_TTVV6    34.7   1.4e-08     3   1.5    237    293    247    292    200    244     Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/China/CT23F/2001) OX=687366 GN=ORF2/4 PE=4 SV=1
+sp|Q914N3|ORF24_TTVV4    25.1   1.3e-05     2   6.6     82    273    170    265    146    235     Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/Germany/KAV/2001) OX=687345 GN=ORF2/4 PE=4 SV=2
+sp|Q9WGZ1|YORF3_TTVVG    23.8   3.1e-05     1   0.5      8     57     18     56    206    243     Uncharacterized ORF3 protein OS=Torque teno virus (isolate Human/Ghana/GH1/1996) OX=487067 GN=ORF3 PE=4 SV=1
+sp|Q9DUC5|YORF2_TTVV9    20.3   0.00035     1   0.0      1     50      4     40      9     45     Uncharacterized ORF2 protein OS=Torque teno virus (isolate Japanese macaque/Japan/Mf-TTV9/2000) OX=687364 GN=ORF2 PE=4 SV=1
+sp|P0C675|ORF24_TTVV2    20.1   0.00042     3   0.7    241    290    251    289    206    243     ORF2/4 protein OS=Torque teno virus (isolate Human/Japan/TRM1/1999) OX=486275 GN=ORF2/4 PE=4 SV=1
+sp|A7XCC9|ORF24_TTVV3    20.1   0.00043     3   0.2    223    275    234    273    205    242     ORF2/4 protein OS=Torque teno virus (isolate Human/Finland/Hel32/2002) OX=687342 GN=ORF2/4 PE=4 SV=1
+sp|Q9DH22|ORF24_TTVV1    19.1   0.00083     3   0.5    240    290    251    289    206    243     Uncharacterized ORF2/4 protein OS=Torque teno virus (strain VT416) OX=486280 GN=ORF2/4 PE=2 SV=1
+sp|Q91PQ2|ORF2_TTVD1     14.3     0.025     1   0.5      2     46      6     28     23     45     Uncharacterized ORF2 protein OS=Torque teno tupaia virus (isolate Tbc-TTV14) OX=766185 GN=ORF2 PE=4 SV=1
+sp|Q8V7G5|ORF24_TTVV7    14.1     0.029     3   0.4    217    266    232    266    209    244     Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/China/CT39F/2001) OX=486279 GN=ORF2/4 PE=4 SV=1
+sp|Q9QU31|ORF2_TTVB1     12.1      0.12     1   3.3      1     90      3     42      8     47     Uncharacterized ORF2 protein OS=Torque teno mini virus 1 (isolate TLMV-CBD279) OX=766183 GN=ORF2 PE=4 SV=1
+sp|F5HAM4|US31_HCMVM     11.1      0.24     2   0.2     49     88     56     78     24     46     Uncharacterized protein US31 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US31 PE=3 SV=1
+sp|P09707|US31_HCMVA     11.1      0.24     2   0.2     49     88     56     78     24     46     Uncharacterized protein HHRF6 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US31 PE=3 SV=3
+sp|P21416|GAG_GALV       10.4      0.38     1   2.2    410    497    425    474     85    134     Gag polyprotein OS=Gibbon ape leukemia virus OX=11840 GN=gag PE=3 SV=3
+sp|Q8V7G5|ORF24_TTVV7     9.6      0.66     2   0.2    104    209    114    185    105    169     Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/China/CT39F/2001) OX=486279 GN=ORF2/4 PE=4 SV=1
+sp|Q914N3|ORF24_TTVV4     9.4      0.78     1   0.0      2     43      5     38     12     45     Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/Germany/KAV/2001) OX=687345 GN=ORF2/4 PE=4 SV=2
+sp|P09714|US01_HCMVA      9.1      0.97     2   0.2     60    105     66     91     23     48     Uncharacterized protein HQLF3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US1 PE=3 SV=2
+sp|Q6SW03|US01_HCMVM      9.1      0.97     2   0.2     60    105     66     91     23     48     Protein US1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US1 PE=4 SV=1
+sp|F5HD03|US32_HCMVM      9.1      0.97     1   0.9      1     48      6     34     17     46     Protein US32 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US32 PE=3 SV=1
+sp|P09708|US32_HCMVA      9.1      0.97     1   0.9      1     48      6     34     17     46     Uncharacterized protein HHRF7 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US32 PE=1 SV=1
+sp|P09714|US01_HCMVA      8.3       1.7     1   0.5     16     56     21     43     23     45     Uncharacterized protein HQLF3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US1 PE=3 SV=2
+sp|Q6SW03|US01_HCMVM      8.3       1.7     1   0.5     16     56     21     43     23     45     Protein US1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US1 PE=4 SV=1
+sp|P0C675|ORF24_TTVV2     8.0         2     1   0.2      2     54     12     44     20     50     ORF2/4 protein OS=Torque teno virus (isolate Human/Japan/TRM1/1999) OX=486275 GN=ORF2/4 PE=4 SV=1
+sp|Q9DUC2|ORF2_TTVE1      8.0       2.1     1   3.9      2    100      5     31     19     45     Uncharacterized ORF2 protein OS=Torque teno tamarin virus (isolate So-TTV2) OX=766186 GN=ORF2 PE=4 SV=1
+sp|Q9DH22|ORF24_TTVV1     7.8       2.4     1   0.4      2     54     13     44     21     50     Uncharacterized ORF2/4 protein OS=Torque teno virus (strain VT416) OX=486280 GN=ORF2/4 PE=2 SV=1
+sp|Q8V7G5|ORF24_TTVV7     7.3       3.5     1   0.0      3     51     12     41     18     47     Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/China/CT39F/2001) OX=486279 GN=ORF2/4 PE=4 SV=1
+sp|A7XCC9|ORF24_TTVV3     4.0        35     1   0.2      1     48      8     37     16     45     ORF2/4 protein OS=Torque teno virus (isolate Human/Finland/Hel32/2002) OX=687342 GN=ORF2/4 PE=4 SV=1
+sp|F5HAM4|US31_HCMVM      3.5        48     1   0.2      5     34      8     30     22     44     Uncharacterized protein US31 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US31 PE=3 SV=1
+sp|P09707|US31_HCMVA      3.5        48     1   0.2      5     34      8     30     22     44     Uncharacterized protein HHRF6 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US31 PE=3 SV=3
+sp|F5HD03|US32_HCMVM      1.0   2.8e+02     2   0.5     34     92     41     78      9     46     Protein US32 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US32 PE=3 SV=1
+sp|P09708|US32_HCMVA      1.0   2.8e+02     2   0.5     34     92     41     78      9     46     Uncharacterized protein HHRF7 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US32 PE=1 SV=1
+sp|A7XCC9|ORF24_TTVV3    -1.4   1.6e+03     2   1.5     93    200    104    132    106    134     ORF2/4 protein OS=Torque teno virus (isolate Human/Finland/Hel32/2002) OX=687342 GN=ORF2/4 PE=4 SV=1
+sp|Q9DH22|ORF24_TTVV1    -1.8   2.1e+03     2   5.5     84    213    110    138    112    141     Uncharacterized ORF2/4 protein OS=Torque teno virus (strain VT416) OX=486280 GN=ORF2/4 PE=2 SV=1
+sp|Q9DUC5|YORF2_TTVV9    -1.9   2.2e+03     2   0.0    104    136    112    135     99    122     Uncharacterized ORF2 protein OS=Torque teno virus (isolate Japanese macaque/Japan/Mf-TTV9/2000) OX=687364 GN=ORF2 PE=4 SV=1
+sp|Q8V7J2|ORF24_TTVV6    -2.3   2.8e+03     2   6.0     99    221    169    208    135    176     Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/China/CT23F/2001) OX=687366 GN=ORF2/4 PE=4 SV=1
+sp|P0C675|ORF24_TTVV2    -2.9   4.3e+03     2   6.3    103    206    110    138    112    141     ORF2/4 protein OS=Torque teno virus (isolate Human/Japan/TRM1/1999) OX=486275 GN=ORF2/4 PE=4 SV=1
+sp|Q8V7J2|ORF24_TTVV6    -3.2   5.5e+03     1   0.4     17     44     24     43     31     51     Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/China/CT23F/2001) OX=687366 GN=ORF2/4 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_238301@NC_007014.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_238301@NC_007014.txt data/models_hmm/YP_238301@NC_007014.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:20 2021
+# [ok]

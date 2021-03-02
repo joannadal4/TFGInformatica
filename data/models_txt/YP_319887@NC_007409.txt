@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q3V4Q9|Y277_ATV     389.2  9.1e-117   1   1.0  17.6    Uncharacterized protein ORF277 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q3V4Q9|Y277_ATV     388.9  1.1e-116     1  17.6      1    271      1    271      2    280     Uncharacterized protein ORF277 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_319887@NC_007409.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_319887@NC_007409.txt data/models_hmm/YP_319887@NC_007409.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:27 2021
+# [ok]

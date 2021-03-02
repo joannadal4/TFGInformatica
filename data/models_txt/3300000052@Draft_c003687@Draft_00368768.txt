@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P24125|V51K_BPL79    12.2      0.15   1   1.8   0.1    51.5 kDa protein OS=Lactococcus phage (isolate 7-9) OX=12375 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P24125|V51K_BPL79    10.7      0.43     1   0.1    418    452    424    451     13     38     51.5 kDa protein OS=Lactococcus phage (isolate 7-9) OX=12375 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000052@Draft_c003687@Draft_00368768.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000052@Draft_c003687@Draft_00368768.txt data/models_hmm/3300000052@Draft_c003687@Draft_00368768.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:16 2021
+# [ok]

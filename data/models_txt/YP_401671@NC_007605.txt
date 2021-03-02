@@ -1,0 +1,50 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q69140|EBNA6_EBVA8  2055.5         0   1   1.0  80.9    Epstein-Barr nuclear antigen 6 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA6 PE=3 SV=1
+sp|P03204|EBNA6_EBVB9  1934.6         0   2   2.0  85.6    Epstein-Barr nuclear antigen 6 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA6 PE=1 SV=1
+sp|Q3KST0|EBNA6_EBVG   1856.2         0   3   3.4 120.5    Epstein-Barr nuclear antigen 6 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA6 PE=3 SV=1
+sp|P03203|EBNA4_EBVB9   100.5   5.6e-29   2   2.3   1.1    Epstein-Barr nuclear antigen 4 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA4 PE=1 SV=3
+sp|Q3KST1|EBNA4_EBVG     99.6   1.1e-28   2   2.3   1.1    Epstein-Barr nuclear antigen 4 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA4 PE=3 SV=1
+sp|Q1HVG4|EBNA4_EBVA8    87.9   3.5e-25   3   3.0  18.5    Epstein-Barr nuclear antigen 4 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA4 PE=3 SV=2
+sp|Q3KST2|EBNA3_EBVG     79.4   1.3e-22   2   2.6   1.0    Epstein-Barr nuclear antigen 3 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA3 PE=1 SV=2
+sp|Q69138|EBNA3_EBVA8    75.1   2.6e-21   2   3.3   2.2    Epstein-Barr nuclear antigen 3 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA3 PE=3 SV=1
+sp|P12977|EBNA3_EBVB9    72.7   1.4e-20   3   2.6   0.8    Epstein-Barr nuclear antigen 3 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA3 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q69140|EBNA6_EBVA8  2055.3         0     1  80.9      1   1069      1   1069      1   1042     Epstein-Barr nuclear antigen 6 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA6 PE=3 SV=1
+sp|P03204|EBNA6_EBVB9  1541.8         0     1  51.5      1    783      1    781      1    785     Epstein-Barr nuclear antigen 6 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA6 PE=1 SV=1
+sp|Q3KST0|EBNA6_EBVG   1186.3         0     1  22.7      1    576      1    576      1    577     Epstein-Barr nuclear antigen 6 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA6 PE=3 SV=1
+sp|Q3KST0|EBNA6_EBVG    430.1  1.6e-128     3  61.8    731   1009    731   1009    741   1042     Epstein-Barr nuclear antigen 6 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA6 PE=3 SV=1
+sp|P03204|EBNA6_EBVB9   399.7  2.5e-119     2  26.4    780    992    782    992    825   1042     Epstein-Barr nuclear antigen 6 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA6 PE=1 SV=1
+sp|Q3KST0|EBNA6_EBVG    266.2   5.1e-79     2  27.4    567    746    569    743    605    782     Epstein-Barr nuclear antigen 6 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA6 PE=3 SV=1
+sp|P03203|EBNA4_EBVB9   100.5   5.6e-29     1   1.1     88    490    108    462    109    464     Epstein-Barr nuclear antigen 4 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA4 PE=1 SV=3
+sp|Q3KST1|EBNA4_EBVG     99.6   1.1e-28     1   1.1     85    489    108    452    109    457     Epstein-Barr nuclear antigen 4 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA4 PE=3 SV=1
+sp|Q1HVG4|EBNA4_EBVA8    87.9   3.5e-25     1  18.5     89    630    108    548    109    557     Epstein-Barr nuclear antigen 4 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA4 PE=3 SV=2
+sp|Q3KST2|EBNA3_EBVG     79.4   1.3e-22     1   1.0     59    401    107    387    114    411     Epstein-Barr nuclear antigen 3 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA3 PE=1 SV=2
+sp|Q69138|EBNA3_EBVA8    75.1   2.6e-21     1   2.2     57    391    101    386    109    411     Epstein-Barr nuclear antigen 3 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA3 PE=3 SV=1
+sp|P12977|EBNA3_EBVB9    72.7   1.4e-20     1   0.8     63    399    109    387    116    411     Epstein-Barr nuclear antigen 3 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA3 PE=1 SV=2
+sp|P12977|EBNA3_EBVB9    -3.9     2e+03     3   2.3    708    849    733    823    889    971     Epstein-Barr nuclear antigen 3 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA3 PE=1 SV=2
+sp|P03203|EBNA4_EBVB9   -39.3   1.7e+04     2  58.9    510    771    530    740    745    921     Epstein-Barr nuclear antigen 4 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA4 PE=1 SV=3
+sp|P12977|EBNA3_EBVB9   -44.5   1.7e+04     2  56.0    395    745    427    696    724    962     Epstein-Barr nuclear antigen 3 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA3 PE=1 SV=2
+sp|Q1HVG4|EBNA4_EBVA8   -23.9   1.7e+04     2  27.6    551    710    606    684    726    798     Epstein-Barr nuclear antigen 4 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA4 PE=3 SV=2
+sp|Q1HVG4|EBNA4_EBVA8   -20.7   1.7e+04     3  30.5    684    874    695    768    563    638     Epstein-Barr nuclear antigen 4 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA4 PE=3 SV=2
+sp|Q3KST1|EBNA4_EBVG    -38.6   1.7e+04     2  61.7    510    783    527    761    742    938     Epstein-Barr nuclear antigen 4 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA4 PE=3 SV=1
+sp|Q3KST2|EBNA3_EBVG    -43.8   1.7e+04     2  50.4    401    708    445    686    740    949     Epstein-Barr nuclear antigen 3 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA3 PE=1 SV=2
+sp|Q69138|EBNA3_EBVA8   -48.4   1.7e+04     2  57.4    392    780    553    689    786    885     Epstein-Barr nuclear antigen 3 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA3 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_401671@NC_007605.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_401671@NC_007605.txt data/models_hmm/YP_401671@NC_007605.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:30 2021
+# [ok]

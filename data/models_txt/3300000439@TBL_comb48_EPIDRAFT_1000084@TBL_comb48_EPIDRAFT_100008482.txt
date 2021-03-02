@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C9F9|1003L_ASFM2    15.6     0.012   1   1.5   2.5    Protein MGF 100-3L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-159 PE=3 SV=1
+sp|Q9QSQ8|VPU_HV1VI      15.5     0.013   1   1.1   0.1    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate VI850) OX=388813 GN=vpu PE=3 SV=1
+sp|O70891|VPU_HV193      13.9     0.041   1   1.1   0.1    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate 93BR020) OX=388814 GN=vpu PE=3 SV=1
+sp|P0C9F7|1003L_ASFWA    13.8     0.046   1   1.5   1.3    Protein MGF 100-3L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-162 PE=3 SV=1
+sp|P0C9F8|1003L_ASFK5    13.7     0.047   1   1.4   2.7    Protein MGF 100-3L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-163 PE=3 SV=1
+sp|P0CA01|PP220_ASFK5    13.6     0.053   2   2.6   1.0    Polyprotein pp220 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-104 PE=3 SV=1
+sp|Q5UPY8|YR305_MIMIV    10.9      0.35   1   1.7   6.3    Uncharacterized protein R305 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R305 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9QSQ8|VPU_HV1VI      15.4     0.014     1   0.1      4     68     12     46      7     40     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate VI850) OX=388813 GN=vpu PE=3 SV=1
+sp|P0C9F9|1003L_ASFM2    14.9     0.021     1   2.5     15     97     23     75     25     77     Protein MGF 100-3L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-159 PE=3 SV=1
+sp|O70891|VPU_HV193      13.9     0.041     1   0.1      4     70     12     48      7     42     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate 93BR020) OX=388814 GN=vpu PE=3 SV=1
+sp|P0C9F8|1003L_ASFK5    12.9     0.087     1   2.7     19     76     25     73     27     75     Protein MGF 100-3L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-163 PE=3 SV=1
+sp|P0C9F7|1003L_ASFWA    12.8      0.09     1   1.3     18     85     23     74     25     76     Protein MGF 100-3L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-162 PE=3 SV=1
+sp|P0CA01|PP220_ASFK5    11.7       0.2     2   0.1   1162   1228   1168   1222      7     61     Polyprotein pp220 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-104 PE=3 SV=1
+sp|Q5UPY8|YR305_MIMIV    10.3      0.55     1   5.9      9     92     12     44      6     37     Uncharacterized protein R305 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R305 PE=4 SV=1
+sp|P0CA01|PP220_ASFK5    -3.9   1.4e+04     1   0.1    220    263    226    254     27     56     Polyprotein pp220 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-104 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000084@TBL_comb48_EPIDRAFT_100008482.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000084@TBL_comb48_EPIDRAFT_100008482.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000084@TBL_comb48_EPIDRAFT_100008482.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:43 2021
+# [ok]

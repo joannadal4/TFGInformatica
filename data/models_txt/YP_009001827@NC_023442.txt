@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41452|LEF8_NPVAC  1418.1         0   1   1.0  49.9    Probable DNA-directed RNA polymerase catalytic subunit OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=LEF-8 PE=1 SV=1
+sp|O57030|RPOB_NPVSL  1402.2         0   1   1.0  27.5    Probable DNA-directed RNA polymerase subunit beta OS=Spodoptera littoralis nuclear polyhedrosis virus OX=10456 GN=LEF-8 PE=3 SV=1
+sp|O12934|RPOB_NPVOP  1389.4         0   1   1.0   4.7    Probable DNA-directed RNA polymerase subunit beta OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=LEF-8 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41452|LEF8_NPVAC  1417.9         0     1  49.9      1    876      1    875      1    868     Probable DNA-directed RNA polymerase catalytic subunit OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=LEF-8 PE=1 SV=1
+sp|O57030|RPOB_NPVSL  1402.0         0     1  27.5      1    909      1    909      1    868     Probable DNA-directed RNA polymerase subunit beta OS=Spodoptera littoralis nuclear polyhedrosis virus OX=10456 GN=LEF-8 PE=3 SV=1
+sp|O12934|RPOB_NPVOP  1389.3         0     1   4.7      1    884      1    884      1    868     Probable DNA-directed RNA polymerase subunit beta OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=LEF-8 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_009001827@NC_023442.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_009001827@NC_023442.txt data/models_hmm/YP_009001827@NC_023442.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:49 2021
+# [ok]

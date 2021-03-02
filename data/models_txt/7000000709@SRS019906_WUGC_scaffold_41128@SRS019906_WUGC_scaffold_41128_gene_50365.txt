@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68456|G2_VACCW      15.5     0.014   3   2.7   0.1    Late transcription elongation factor G2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR080 PE=1 SV=1
+sp|P68457|G2_VACCC      15.5     0.014   3   2.7   0.1    Late transcription elongation factor G2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G2R PE=3 SV=1
+sp|P0DOP7|G2_VAR67      15.4     0.016   3   2.7   0.2    Late transcription elongation factor G2 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G2R PE=3 SV=1
+sp|P0DOP8|G2_VARV       15.4     0.016   3   2.7   0.2    Late transcription elongation factor G2 OS=Variola virus OX=10255 GN=G2R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68456|G2_VACCW       8.0       3.1     1   0.0      3     77      9     41     14     46     Late transcription elongation factor G2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR080 PE=1 SV=1
+sp|P68457|G2_VACCC       8.0       3.1     1   0.0      3     77      9     41     14     46     Late transcription elongation factor G2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G2R PE=3 SV=1
+sp|P0DOP7|G2_VAR67       6.5       9.4     1   0.0      3     77      9     39     14     44     Late transcription elongation factor G2 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G2R PE=3 SV=1
+sp|P0DOP8|G2_VARV        6.5       9.4     1   0.0      3     77      9     39     14     44     Late transcription elongation factor G2 OS=Variola virus OX=10255 GN=G2R PE=3 SV=1
+sp|P0DOP7|G2_VAR67       6.3        11     3   0.1    121    213    144    199     25     77     Late transcription elongation factor G2 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G2R PE=3 SV=1
+sp|P0DOP8|G2_VARV        6.3        11     3   0.1    121    213    144    199     25     77     Late transcription elongation factor G2 OS=Variola virus OX=10255 GN=G2R PE=3 SV=1
+sp|P68456|G2_VACCW       4.7        34     3   0.1    138    213    144    199     25     77     Late transcription elongation factor G2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR080 PE=1 SV=1
+sp|P68457|G2_VACCC       4.7        34     3   0.1    138    213    144    199     25     77     Late transcription elongation factor G2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G2R PE=3 SV=1
+sp|P0DOP7|G2_VAR67      -1.9   3.9e+03     2   0.0     96    139    103    124     38     58     Late transcription elongation factor G2 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G2R PE=3 SV=1
+sp|P0DOP8|G2_VARV       -1.9   3.9e+03     2   0.0     96    139    103    124     38     58     Late transcription elongation factor G2 OS=Variola virus OX=10255 GN=G2R PE=3 SV=1
+sp|P68456|G2_VACCW      -2.0     4e+03     2   0.0     96    138    103    124     38     58     Late transcription elongation factor G2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR080 PE=1 SV=1
+sp|P68457|G2_VACCC      -2.0     4e+03     2   0.0     96    138    103    124     38     58     Late transcription elongation factor G2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G2R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000709@SRS019906_WUGC_scaffold_41128@SRS019906_WUGC_scaffold_41128_gene_50365.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000709@SRS019906_WUGC_scaffold_41128@SRS019906_WUGC_scaffold_41128_gene_50365.txt data/models_hmm/7000000709@SRS019906_WUGC_scaffold_41128@SRS019906_WUGC_scaffold_41128_gene_50365.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:03 2021
+# [ok]

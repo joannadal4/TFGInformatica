@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P07234|CAPSD_BPGA    11.2     0.095   2   1.4   1.5    Capsid protein OS=Enterobacteria phage GA OX=12018 PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P07234|CAPSD_BPGA    10.3      0.17     1   1.4      1    115      2     96    471    564     Capsid protein OS=Enterobacteria phage GA OX=12018 PE=1 SV=3
+sp|P07234|CAPSD_BPGA    -1.6   6.7e+02     2   0.0    100    124    107    122    343    358     Capsid protein OS=Enterobacteria phage GA OX=12018 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007007681@NC_019526.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007007681@NC_019526.txt data/models_hmm/YP_007007681@NC_019526.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:21 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03446|HEMA_I76A2    12.2      0.12   1   1.4   1.2    Hemagglutinin OS=Influenza A virus (strain A/Duck/Alberta/60/1976 H12N5) OX=385582 GN=HA PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03446|HEMA_I76A2    11.3      0.22     1   1.2    378    467    383    428     61     99     Hemagglutinin OS=Influenza A virus (strain A/Duck/Alberta/60/1976 H12N5) OX=385582 GN=HA PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007011095@NC_019549.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007011095@NC_019549.txt data/models_hmm/YP_007011095@NC_019549.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:28 2021
+# [ok]

@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21077|SANS_VACCC   101.9     3e-29   1   1.0   8.2    Surface antigen S OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B19R PE=3 SV=1
+sp|P25213|B18_VACCW    101.0     6e-29   1   1.0   7.8    Soluble interferon alpha/beta receptor B18 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR200 PE=1 SV=1
+sp|P0DST1|SANS_VAR67   100.8   6.6e-29   1   1.0  11.2    Surface antigen S OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=B19R PE=3 SV=1
+sp|P0DST2|SANS_VARV    100.8   6.6e-29   1   1.0  11.2    Surface antigen S OS=Variola virus OX=10255 GN=B19R PE=3 SV=1
+sp|P23998|SANS_VACCD   100.5   8.3e-29   1   1.0   8.9    Surface antigen S OS=Vaccinia virus (strain Dairen I) OX=10250 GN=B19R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21077|SANS_VACCC   101.8   3.4e-29     1   8.2      3    353     10    351      5    348     Surface antigen S OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B19R PE=3 SV=1
+sp|P25213|B18_VACCW    100.8   6.8e-29     1   7.8      3    351      6    349      3    348     Soluble interferon alpha/beta receptor B18 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR200 PE=1 SV=1
+sp|P0DST1|SANS_VAR67   100.6   7.8e-29     1  11.2      6    354      9    351      3    347     Surface antigen S OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=B19R PE=3 SV=1
+sp|P0DST2|SANS_VARV    100.6   7.8e-29     1  11.2      6    354      9    351      3    347     Surface antigen S OS=Variola virus OX=10255 GN=B19R PE=3 SV=1
+sp|P23998|SANS_VACCD   100.3   9.5e-29     1   8.9      3    351      6    349      3    348     Surface antigen S OS=Vaccinia virus (strain Dairen I) OX=10250 GN=B19R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_051849@NC_001132.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_051849@NC_001132.txt data/models_hmm/NP_051849@NC_001132.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:36 2021
+# [ok]

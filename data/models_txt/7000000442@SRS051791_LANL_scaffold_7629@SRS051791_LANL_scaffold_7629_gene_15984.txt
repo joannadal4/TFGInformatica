@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|D6RRG7|ORF10_BPKPP    11.8      0.12   1   1.1   0.1    Structural protein ORF10 OS=Pseudomonas phage KPP10 OX=582345 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|D6RRG7|ORF10_BPKPP    11.4      0.16     1   0.1      6    120     13    108     32    125     Structural protein ORF10 OS=Pseudomonas phage KPP10 OX=582345 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000442@SRS051791_LANL_scaffold_7629@SRS051791_LANL_scaffold_7629_gene_15984.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000442@SRS051791_LANL_scaffold_7629@SRS051791_LANL_scaffold_7629_gene_15984.txt data/models_hmm/7000000442@SRS051791_LANL_scaffold_7629@SRS051791_LANL_scaffold_7629_gene_15984.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:24 2021
+# [ok]

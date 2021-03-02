@@ -1,0 +1,44 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPA0|YL025_MIMIV    20.5   0.00021   6   5.6   5.1    Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q9DH90|VG81_GAHVM     16.7    0.0033   7   6.9  23.8    Uncharacterized gene 81 protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV103 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV     9.5      0.59   7   6.2  11.1    Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPA0|YL025_MIMIV     5.6       9.4     1   0.1     13     35     14     28      2     14     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q9DH90|VG81_GAHVM      5.4        11     6   0.1     99    123    102    118      8     23     Uncharacterized gene 81 protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV103 PE=4 SV=1
+sp|Q9DH90|VG81_GAHVM      5.4        11     3   0.1     39     62     42     58      8     23     Uncharacterized gene 81 protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV103 PE=4 SV=1
+sp|Q9DH90|VG81_GAHVM      5.4        11     4   0.1     59     82     62     78      8     23     Uncharacterized gene 81 protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV103 PE=4 SV=1
+sp|Q9DH90|VG81_GAHVM      5.4        11     2   0.1     19     42     22     38      8     23     Uncharacterized gene 81 protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV103 PE=4 SV=1
+sp|Q9DH90|VG81_GAHVM      5.4        12     5   0.1     79    102     82     98      8     23     Uncharacterized gene 81 protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV103 PE=4 SV=1
+sp|Q9DH90|VG81_GAHVM      5.1        14     1   0.1      1     22      2     18      8     23     Uncharacterized gene 81 protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV103 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV     4.4        24     5   0.0    217    239    218    233      2     15     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV     3.4        46     4   0.0    187    205    188    202      2     14     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV     3.0        65     2   0.1    140    160    141    155      2     14     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV     2.8        71     5   0.0    230    252    231    245      2     14     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV     2.3   1.1e+02     3   0.0    159    179    160    172      4     14     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV     2.0   1.3e+02     4   0.0    200    221    201    216      2     15     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV     1.6   1.8e+02     2   0.0    100    120    101    114      4     15     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV     1.5   1.9e+02     3   0.0    171    187    173    185      4     14     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV     0.3   4.5e+02     7   0.0    321    337    329    335      8     14     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q9DH90|VG81_GAHVM     -0.1   5.9e+02     7   0.1    120    132    122    126      8     12     Uncharacterized gene 81 protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV103 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV    -1.1   1.2e+03     6   0.0    298    308    299    305      8     14     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV    -1.4   1.5e+03     1   0.3    119    130    119    125      8     14     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV    -3.4   6.3e+03     6   0.0    282    293    285    291      7     13     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000380@SRS015663_WUGC_scaffold_32773@SRS015663_WUGC_scaffold_32773_gene_72741.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000380@SRS015663_WUGC_scaffold_32773@SRS015663_WUGC_scaffold_32773_gene_72741.txt data/models_hmm/7000000380@SRS015663_WUGC_scaffold_32773@SRS015663_WUGC_scaffold_32773_gene_72741.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:43 2021
+# [ok]

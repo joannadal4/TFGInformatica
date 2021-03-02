@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P19385|LYS_BPCP7     15.7     0.013   3   3.2   0.0    Lysozyme OS=Streptococcus phage Cp-7 OX=10748 GN=CPL7 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P19385|LYS_BPCP7      4.8        33     1   0.0    180    250    193    244     23     73     Lysozyme OS=Streptococcus phage Cp-7 OX=10748 GN=CPL7 PE=1 SV=2
+sp|P19385|LYS_BPCP7      3.9        62     2   0.0    244    298    249    292     30     73     Lysozyme OS=Streptococcus phage Cp-7 OX=10748 GN=CPL7 PE=1 SV=2
+sp|P19385|LYS_BPCP7      3.6        74     3   0.0    287    341    297    339     30     72     Lysozyme OS=Streptococcus phage Cp-7 OX=10748 GN=CPL7 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000565@SRS052227_LANL_scaffold_8852@SRS052227_LANL_scaffold_8852_gene_7203.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000565@SRS052227_LANL_scaffold_8852@SRS052227_LANL_scaffold_8852_gene_7203.txt data/models_hmm/7000000565@SRS052227_LANL_scaffold_8852@SRS052227_LANL_scaffold_8852_gene_7203.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:19 2021
+# [ok]

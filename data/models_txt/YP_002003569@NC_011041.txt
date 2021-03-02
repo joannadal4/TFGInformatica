@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q37935|SPAN2_LAMBD    16.0      0.01   1   1.1   0.2    Spanin, outer lipoprotein subunit OS=Escherichia phage lambda OX=10710 GN=Rz1 PE=1 SV=1
+sp|P0DOK7|SPAN2_BPP21    15.3     0.018   1   1.1   0.2    Spanin, outer lipoprotein subunit OS=Enterobacteria phage P21 OX=10711 GN=Rz1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q37935|SPAN2_LAMBD    15.8     0.012     1   0.2      3     50      5     43      3     40     Spanin, outer lipoprotein subunit OS=Escherichia phage lambda OX=10710 GN=Rz1 PE=1 SV=1
+sp|P0DOK7|SPAN2_BPP21    15.2     0.019     1   0.2      1     53      5     44      3     41     Spanin, outer lipoprotein subunit OS=Enterobacteria phage P21 OX=10711 GN=Rz1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002003569@NC_011041.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002003569@NC_011041.txt data/models_hmm/YP_002003569@NC_011041.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:48 2021
+# [ok]

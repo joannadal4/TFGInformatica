@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q859Q5|CAPSD_BPN4    13.3     0.043   1   1.2   0.0    Major capsid protein OS=Enterobacteria phage N4 OX=10752 GN=56 PE=1 SV=2
+sp|Q66632|TRM3_EHV2      8.9      0.95   2   2.4   4.2    Tripartite terminase subunit 3 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=TRM3 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q859Q5|CAPSD_BPN4    12.8     0.061     1   0.0     18    181     54    159    126    229     Major capsid protein OS=Enterobacteria phage N4 OX=10752 GN=56 PE=1 SV=2
+sp|Q66632|TRM3_EHV2      6.9       3.9     1   0.3    211    296    228    286    185    242     Tripartite terminase subunit 3 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=TRM3 PE=3 SV=2
+sp|Q66632|TRM3_EHV2      5.4        11     2   0.8    272    391    277    367     13     99     Tripartite terminase subunit 3 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=TRM3 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000005@SRS022536_LANL_scaffold_2330@SRS022536_LANL_scaffold_2330_gene_4969.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000005@SRS022536_LANL_scaffold_2330@SRS022536_LANL_scaffold_2330_gene_4969.txt data/models_hmm/7000000005@SRS022536_LANL_scaffold_2330@SRS022536_LANL_scaffold_2330_gene_4969.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:26 2021
+# [ok]

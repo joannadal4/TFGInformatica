@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9T1V4|BP45_BPMU    239.1   1.9e-71   1   1.0   0.1    Baseplate puncturing device gp45 OS=Escherichia phage Mu OX=10677 GN=Mup45 PE=1 SV=1
+sp|P31340|SPIKE_BPP2    20.6   0.00022   2   2.3   3.2    Spike protein OS=Escherichia phage P2 OX=10679 GN=V PE=1 SV=2
+sp|Q6GZP5|RNC_FRG3G     14.6     0.015   2   2.3   1.8    Putative ribonuclease 3 OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-080L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9T1V4|BP45_BPMU    239.0   2.2e-71     1   0.1     10    197     10    197      1    181     Baseplate puncturing device gp45 OS=Escherichia phage Mu OX=10677 GN=Mup45 PE=1 SV=1
+sp|P31340|SPIKE_BPP2    18.7   0.00084     2   0.8    106    210    129    207    107    177     Spike protein OS=Escherichia phage P2 OX=10679 GN=V PE=1 SV=2
+sp|Q6GZP5|RNC_FRG3G      8.0       1.7     1   0.1    172    260    188    213     93    119     Putative ribonuclease 3 OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-080L PE=3 SV=1
+sp|Q6GZP5|RNC_FRG3G      6.0       6.8     2   0.3    268    358    286    347     61    119     Putative ribonuclease 3 OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-080L PE=3 SV=1
+sp|P31340|SPIKE_BPP2     1.8   1.4e+02     1   0.1      5     83      9     79      6     75     Spike protein OS=Escherichia phage P2 OX=10679 GN=V PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007002953@NC_019455.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007002953@NC_019455.txt data/models_hmm/YP_007002953@NC_019455.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:58 2021
+# [ok]

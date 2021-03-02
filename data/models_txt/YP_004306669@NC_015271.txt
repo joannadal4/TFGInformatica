@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20316|V42_BPT3     166.0   3.6e-49   1   1.0   2.5    Gene 4.2 protein OS=Enterobacteria phage T3 OX=10759 GN=4.2 PE=4 SV=1
+sp|P03783|Y42_BPT7     146.4   4.2e-43   1   1.0   0.2    Preotein 4.2 OS=Escherichia phage T7 OX=10760 GN=4.2 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20316|V42_BPT3     165.9     4e-49     1   2.5      1    109      1    109      1    115     Gene 4.2 protein OS=Enterobacteria phage T3 OX=10759 GN=4.2 PE=4 SV=1
+sp|P03783|Y42_BPT7     146.3   4.7e-43     1   0.2      1    108      1     98      1     98     Preotein 4.2 OS=Escherichia phage T7 OX=10760 GN=4.2 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004306669@NC_015271.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004306669@NC_015271.txt data/models_hmm/YP_004306669@NC_015271.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:18 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|B2MW49|L_LATVB       13.9     0.056   2   2.8   1.3    RNA-directed RNA polymerase L OS=Latino mammarenavirus (isolate Rat/Bolivia/MARU 1924/1965) OX=45221 GN=L PE=3 SV=1
+sp|Q02484|YIE2_BHV4D    12.8      0.12   2   2.5   2.1    Uncharacterized protein in IE2 5'region (Fragment) OS=Bovine herpesvirus 4 (strain DN-599) OX=10355 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|B2MW49|L_LATVB       11.6      0.28     2   0.0    364    447    393    438     19     67     RNA-directed RNA polymerase L OS=Latino mammarenavirus (isolate Rat/Bolivia/MARU 1924/1965) OX=45221 GN=L PE=3 SV=1
+sp|Q02484|YIE2_BHV4D     8.5       2.7     2   0.5     70    151     88    141     34     87     Uncharacterized protein in IE2 5'region (Fragment) OS=Bovine herpesvirus 4 (strain DN-599) OX=10355 PE=3 SV=1
+sp|Q02484|YIE2_BHV4D     3.4     1e+02     1   0.1      3     79     26     65     37     76     Uncharacterized protein in IE2 5'region (Fragment) OS=Bovine herpesvirus 4 (strain DN-599) OX=10355 PE=3 SV=1
+sp|B2MW49|L_LATVB       -1.7   4.1e+03     1   0.6    181    270    187    262     12     83     RNA-directed RNA polymerase L OS=Latino mammarenavirus (isolate Rat/Bolivia/MARU 1924/1965) OX=45221 GN=L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002300532@NC_011423.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002300532@NC_011423.txt data/models_hmm/YP_002300532@NC_011423.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:03 2021
+# [ok]

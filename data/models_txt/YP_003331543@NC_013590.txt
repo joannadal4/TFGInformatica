@@ -1,0 +1,145 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P28955|LTP_EHV1B    4197.0         0   1   1.8  77.2    Large tegument protein deneddylase OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=24 PE=3 SV=1
+sp|P09278|LTP_VZVD     3315.6         0   2   2.6   7.1    Large tegument protein deneddylase OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF22 PE=3 SV=1
+sp|Q4JQX9|LTP_VZVO     3311.8         0   3   2.9   7.1    Large tegument protein deneddylase OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF22 PE=3 SV=2
+sp|P89459|LTP_HHV2H    3155.5         0   1   1.1   0.0    Large tegument protein deneddylase OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL36 PE=3 SV=1
+sp|Q9E6N3|LTP_GAHVM    2993.5         0   1   1.1   0.0    Large tegument protein deneddylase OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV049 PE=3 SV=1
+sp|P10220|LTP_HHV11    2862.4         0   1   1.0   0.0    Large tegument protein deneddylase OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL36 PE=1 SV=1
+sp|Q6UDJ5|LTP_PSHV1    2646.8         0   1   1.0  34.7    Large tegument protein deneddylase OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL36 PE=3 SV=1
+sp|P52340|LTP_HHV6U      50.0   5.1e-14   2   2.4   1.3    Large tegument protein deneddylase OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U31 PE=3 SV=1
+sp|P30002|LTP_HHV6G      48.7   1.3e-13   2   2.4   1.2    Large tegument protein deneddylase OS=Human herpesvirus 6A (strain GS) OX=10369 GN=U31 PE=3 SV=1
+sp|P52362|LTP_HHV7J      43.8   3.7e-12   1   1.3   0.0    Large tegument protein deneddylase OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U31 PE=3 SV=1
+sp|Q9QJ37|LTP_HHV6Z      41.4   2.1e-11   2   2.4   0.2    Large tegument protein deneddylase OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U31 PE=3 SV=1
+sp|Q6UDM4|ICP27_PSHV1    21.0   2.8e-05   1   1.0  13.7    mRNA export factor OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL54 PE=3 SV=1
+sp|Q6UY66|VGP_MABVO      11.3     0.023   1   1.0  22.6    Envelope glycoprotein OS=Lake Victoria marburgvirus (strain Ozolin-75) OX=482820 GN=GP PE=3 SV=1
+sp|P22420|VE2_HPV47      10.3     0.048   1   1.2  12.3    Regulatory protein E2 OS=Human papillomavirus type 47 OX=10594 GN=E2 PE=3 SV=1
+sp|Q5UPK9|YL138_MIMIV     9.9     0.062   1   1.1   1.7    Uncharacterized protein L138 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L138 PE=3 SV=1
+sp|P50809|VE2_HPV36       9.3     0.097   1   1.1  12.0    Regulatory protein E2 OS=Human papillomavirus type 36 OX=37957 GN=E2 PE=3 SV=1
+sp|Q9DLD6|PHOSP_NDVB1     9.1       0.1   1   1.0  13.5    Phosphoprotein OS=Newcastle disease virus (strain Chicken/United States/B1/48) OX=652953 GN=P PE=3 SV=1
+sp|P50766|VE2_HPV20       8.7      0.14   1   1.0  10.9    Regulatory protein E2 OS=Human papillomavirus type 20 OX=31547 GN=E2 PE=3 SV=1
+sp|P36787|VE2_HPV25       8.4      0.18   1   1.0  14.2    Regulatory protein E2 OS=Human papillomavirus type 25 OX=10609 GN=E2 PE=3 SV=1
+sp|P28986|GC_HHV1K        8.2      0.21   1   1.0   4.8    Envelope glycoprotein C OS=Human herpesvirus 1 (strain KOS) OX=10306 GN=gC PE=1 SV=1
+sp|Q9DRA1|RDRP_BOTVF      7.4      0.36   1   1.2   6.6    RNA replication protein OS=Botrytis virus F (isolate Botrytis cinerea/New Zealand/Howitt/2001) OX=686946 GN=ORF1 PE=4 SV=1
+sp|P10228|GC_HHV11        7.3      0.38   1   1.0   5.7    Envelope glycoprotein C OS=Human herpesvirus 1 (strain 17) OX=10299 GN=gC PE=1 SV=1
+sp|Q7T6Y0|PCNA_MIMIV      7.2      0.39   1   1.0  14.0    Probable DNA polymerase sliding clamp OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=PCNA PE=3 SV=2
+sp|P16073|PHOSP_NDVA      6.9       0.5   1   1.0  17.1    Phosphoprotein OS=Newcastle disease virus (strain Chicken/Australia-Victoria/32) OX=11177 GN=P/C PE=3 SV=1
+sp|P32515|GP2_EHV1K       6.9      0.51   1   1.0   1.8    Glycoprotein gp2 OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=US4 PE=3 SV=1
+sp|P36782|VE2_HPV12       6.7      0.58   1   1.0  12.4    Regulatory protein E2 OS=Human papillomavirus type 12 OX=10604 GN=E2 PE=3 SV=1
+sp|P50770|VE2_HPV24       6.5      0.66   1   1.0   5.4    Regulatory protein E2 OS=Human papillomavirus type 24 OX=37956 GN=E2 PE=3 SV=1
+sp|P22856|VL96_IRV1       6.4       0.7   1   1.1  32.9    Putative ubiquitin thioesterase L96 OS=Tipula iridescent virus OX=10490 GN=L96 PE=3 SV=1
+sp|P06422|VE2_HPV08       6.4      0.71   1   1.1  10.7    Regulatory protein E2 OS=Human papillomavirus type 8 OX=10579 GN=E2 PE=1 SV=1
+sp|P36786|VE2_HPV19       6.3      0.76   1   1.0  14.3    Regulatory protein E2 OS=Human papillomavirus type 19 OX=10608 GN=E2 PE=3 SV=1
+sp|Q5UP44|YL645_MIMIV     5.9      0.97   1   1.0  26.2    Uncharacterized protein L645 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L645 PE=4 SV=1
+sp|P24698|PHOSP_NDVB      5.9      0.98   1   1.0  17.2    Phosphoprotein OS=Newcastle disease virus (strain Beaudette C/45) OX=11178 GN=P PE=2 SV=1
+sp|Q06427|PHOSP_NDVU2     5.6       1.2   1   1.0  15.9    Phosphoprotein OS=Newcastle disease virus (strain Ulster/2C) OX=36411 GN=P/V PE=3 SV=2
+sp|Q1PD50|VGP_MABVA       5.5       1.3   1   1.0  25.3    Envelope glycoprotein OS=Lake Victoria marburgvirus (strain Angola/2005) OX=378830 GN=GP PE=3 SV=1
+sp|Q6GZN6|089R_FRG3G      5.5       1.4   1   1.1  20.7    Uncharacterized protein 89R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-089R PE=4 SV=1
+sp|P36783|VE2_HPV14       5.4       1.4   1   1.1  12.3    Regulatory protein E2 OS=Human papillomavirus type 14 OX=10605 GN=E2 PE=3 SV=1
+sp|P50767|VE2_HPV21       5.1       1.7   1   1.0  12.4    Regulatory protein E2 OS=Human papillomavirus type 21 OX=31548 GN=E2 PE=3 SV=1
+sp|P06228|GP27_BPSP1      5.1       1.8   1   1.0   9.6    Gene 27 protein OS=Bacillus phage SP01 OX=10685 GN=27 PE=4 SV=1
+sp|P0DOD2|VE8E2_HPV08     4.9         2   1   1.2  11.9    Protein E8^E2C OS=Human papillomavirus type 8 OX=10579 PE=3 SV=1
+sp|Q05320|VGP_EBOZM       4.8       2.2   1   1.0  10.7    Envelope glycoprotein OS=Zaire ebolavirus (strain Mayinga-76) OX=128952 GN=GP PE=1 SV=1
+sp|A7XCC9|ORF24_TTVV3     4.7       2.3   1   1.0   3.0    ORF2/4 protein OS=Torque teno virus (isolate Human/Finland/Hel32/2002) OX=687342 GN=ORF2/4 PE=4 SV=1
+sp|P87671|VGP_EBOEC       4.6       2.5   1   1.0  10.9    Envelope glycoprotein OS=Zaire ebolavirus (strain Eckron-76) OX=129000 GN=GP PE=1 SV=1
+sp|P33495|VGLG_TRTV       4.6       2.5   1   1.0   6.0    Major surface glycoprotein G OS=Turkey rhinotracheitis virus OX=11264 GN=G PE=2 SV=1
+sp|Q00132|VG01_ICHVA      4.4       2.8   1   1.1  28.6    Uncharacterized protein ORF1 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF1 PE=4 SV=1
+sp|P17588|LRP1_HHV1F      4.3         3   1   1.0  10.8    Latency-related protein 1 OS=Human herpesvirus 1 (strain F) OX=10304 PE=4 SV=1
+sp|Q9QEE7|CAPSD_ICRSV     4.2       3.4   1   1.0   5.2    Capsid protein OS=Indian citrus ringspot virus (isolate Kinnow mandarin/India/K1/1996) OX=651357 GN=ORF5 PE=3 SV=1
+sp|Q3KST4|GP350_EBVG      4.1       3.4   1   1.0  49.3    Envelope glycoprotein GP350 OS=Epstein-Barr virus (strain GD1) OX=10376 PE=1 SV=1
+sp|Q01042|ICP22_SHV21     4.0       3.7   1   1.0  30.8    Transcriptional regulator ICP22 homolog OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=73 PE=3 SV=1
+sp|Q03209|P78_NPVAC       3.8       4.3   1   1.2  23.1    Protein P78/83 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P61 PE=1 SV=2
+sp|Q1PDC7|VGP_MABVR       3.8       4.3   1   1.0  13.2    Envelope glycoprotein OS=Lake Victoria marburgvirus (strain Ravn-87) OX=378809 GN=GP PE=1 SV=1
+sp|P35253|VGP_MABVM       3.6       4.9   1   1.0  26.4    Envelope glycoprotein OS=Lake Victoria marburgvirus (strain Musoke-80) OX=33727 GN=GP PE=1 SV=1
+sp|P35254|VGP_MABVP       3.5       5.3   1   1.0  25.2    Envelope glycoprotein OS=Lake Victoria marburgvirus (strain Popp-67) OX=33728 GN=GP PE=1 SV=1
+sp|P0C765|V_NDVB1         3.5       5.4   1   1.0  11.4    Protein V OS=Newcastle disease virus (strain Chicken/United States/B1/48) OX=652953 GN=V PE=1 SV=1
+sp|P26545|VE2_HPV5B       3.4       5.6   1   1.0  13.6    Regulatory protein E2 OS=Human papillomavirus type 5b OX=10599 GN=E2 PE=3 SV=1
+sp|P06921|VE2_HPV05       3.4       5.6   1   1.0  15.5    Regulatory protein E2 OS=Human papillomavirus type 5 OX=333923 GN=E2 PE=3 SV=2
+sp|Q66810|VGP_TAFVC       3.1         7   1   1.0   9.9    Envelope glycoprotein OS=Tai Forest ebolavirus (strain Cote d'Ivoire-94) OX=128999 GN=GP PE=1 SV=1
+sp|Q07499|NCAP_PEDV7      2.9         8   1   1.0   9.2    Nucleoprotein OS=Porcine epidemic diarrhea virus (strain CV777) OX=229032 GN=N PE=3 SV=1
+sp|P87666|VGP_EBOZ5       2.9       8.1   1   1.0  11.9    Envelope glycoprotein OS=Zaire ebolavirus (strain Kikwit-95) OX=128951 GN=GP PE=1 SV=1
+sp|P0DOK1|POLSF_CHIKS     2.7       9.3   1   1.1   7.9    Frameshifted structural polyprotein OS=Chikungunya virus (strain S27-African prototype) OX=371094 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P28955|LTP_EHV1B    4194.4         0     1  77.2      1   3421      1   3421      1   3006     Large tegument protein deneddylase OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=24 PE=3 SV=1
+sp|P09278|LTP_VZVD     3206.6         0     1   0.0      1   2455      1   2450      8   2397     Large tegument protein deneddylase OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF22 PE=3 SV=1
+sp|Q4JQX9|LTP_VZVO     3203.7         0     1   0.0      1   2454      1   2450      8   2397     Large tegument protein deneddylase OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF22 PE=3 SV=2
+sp|P89459|LTP_HHV2H    3155.3         0     1   0.0      2   3122      5   3122      4   3006     Large tegument protein deneddylase OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL36 PE=3 SV=1
+sp|Q9E6N3|LTP_GAHVM    2993.2         0     1   0.0     60   3341     62   3341      3   3006     Large tegument protein deneddylase OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV049 PE=3 SV=1
+sp|P10220|LTP_HHV11    2862.1         0     1   0.0     27   3164     31   3164      5   3006     Large tegument protein deneddylase OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL36 PE=1 SV=1
+sp|Q6UDJ5|LTP_PSHV1    2646.6         0     1  34.7      1   3195      1   3195     10   3006     Large tegument protein deneddylase OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL36 PE=3 SV=1
+sp|Q4JQX9|LTP_VZVO      100.8   2.5e-29     3   0.8   2530   2759   2537   2759   2796   3006     Large tegument protein deneddylase OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF22 PE=3 SV=2
+sp|P09278|LTP_VZVD       98.4   1.3e-28     2  14.3   2452   2759   2458   2759   2732   3006     Large tegument protein deneddylase OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF22 PE=3 SV=1
+sp|P52340|LTP_HHV6U      46.9   4.3e-13     1   0.0      3    306      7    236     23    254     Large tegument protein deneddylase OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U31 PE=3 SV=1
+sp|P30002|LTP_HHV6G      46.2   7.3e-13     1   0.0      3    295      7    235     23    253     Large tegument protein deneddylase OS=Human herpesvirus 6A (strain GS) OX=10369 GN=U31 PE=3 SV=1
+sp|P52362|LTP_HHV7J      43.0   6.7e-12     1   0.0      3    325      5    268     21    290     Large tegument protein deneddylase OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U31 PE=3 SV=1
+sp|Q9QJ37|LTP_HHV6Z      41.4   2.1e-11     1   0.2      3    295      7    236     23    254     Large tegument protein deneddylase OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U31 PE=3 SV=1
+sp|Q6UDM4|ICP27_PSHV1    20.9     3e-05     1  13.7     21    557     91    386   2512   2778     mRNA export factor OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL54 PE=3 SV=1
+sp|Q6UY66|VGP_MABVO      11.1     0.027     1  22.6    140    510    209    425   2459   2664     Envelope glycoprotein OS=Lake Victoria marburgvirus (strain Ozolin-75) OX=482820 GN=GP PE=3 SV=1
+sp|P22420|VE2_HPV47      10.0     0.056     1  12.3     66    443    194    389   2507   2701     Regulatory protein E2 OS=Human papillomavirus type 47 OX=10594 GN=E2 PE=3 SV=1
+sp|Q5UPK9|YL138_MIMIV     9.9     0.064     1   1.7    214    694    268    359   2441   2593     Uncharacterized protein L138 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L138 PE=3 SV=1
+sp|P50809|VE2_HPV36       9.0      0.11     1  12.0    118    418    176    345   2587   2770     Regulatory protein E2 OS=Human papillomavirus type 36 OX=37957 GN=E2 PE=3 SV=1
+sp|Q9DLD6|PHOSP_NDVB1     9.0      0.12     1  13.5     10    323     27    232   2485   2694     Phosphoprotein OS=Newcastle disease virus (strain Chicken/United States/B1/48) OX=652953 GN=P PE=3 SV=1
+sp|P50766|VE2_HPV20       8.6      0.16     1  10.9     73    413    201    363   2513   2668     Regulatory protein E2 OS=Human papillomavirus type 20 OX=31547 GN=E2 PE=3 SV=1
+sp|P36787|VE2_HPV25       8.2       0.2     1  14.2     90    408    196    352   2439   2774     Regulatory protein E2 OS=Human papillomavirus type 25 OX=10609 GN=E2 PE=3 SV=1
+sp|P28986|GC_HHV1K        8.1      0.22     1   4.8     22    262     42    121   2478   2814     Envelope glycoprotein C OS=Human herpesvirus 1 (strain KOS) OX=10306 GN=gC PE=1 SV=1
+sp|Q7T6Y0|PCNA_MIMIV      7.4      0.35     1  14.0      1    352     26    146   2818   2942     Probable DNA polymerase sliding clamp OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=PCNA PE=3 SV=2
+sp|P10228|GC_HHV11        7.2      0.41     1   5.7     21    253     42    121   2478   2814     Envelope glycoprotein C OS=Human herpesvirus 1 (strain 17) OX=10299 GN=gC PE=1 SV=1
+sp|Q9DRA1|RDRP_BOTVF      7.0      0.45     1   6.6    802   1502    839   1017   2510   2694     RNA replication protein OS=Botrytis virus F (isolate Botrytis cinerea/New Zealand/Howitt/2001) OX=686946 GN=ORF1 PE=4 SV=1
+sp|P32515|GP2_EHV1K       6.9      0.49     1   1.8     12    283     28    130   2705   2802     Glycoprotein gp2 OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=US4 PE=3 SV=1
+sp|P16073|PHOSP_NDVA      6.8      0.52     1  17.1     13    379     27    250   2485   2702     Phosphoprotein OS=Newcastle disease virus (strain Chicken/Australia-Victoria/32) OX=11177 GN=P/C PE=3 SV=1
+sp|P36782|VE2_HPV12       6.6      0.61     1  12.4     61    414    206    376   2491   2658     Regulatory protein E2 OS=Human papillomavirus type 12 OX=10604 GN=E2 PE=3 SV=1
+sp|P50770|VE2_HPV24       6.4      0.72     1   5.4     94    367    210    318   2525   2710     Regulatory protein E2 OS=Human papillomavirus type 24 OX=37956 GN=E2 PE=3 SV=1
+sp|P06422|VE2_HPV08       6.3      0.76     1  10.7     73    434    200    360   2515   2675     Regulatory protein E2 OS=Human papillomavirus type 8 OX=10579 GN=E2 PE=1 SV=1
+sp|P22856|VL96_IRV1       6.1      0.88     1  32.9     41    726    106    635   2388   2867     Putative ubiquitin thioesterase L96 OS=Tipula iridescent virus OX=10490 GN=L96 PE=3 SV=1
+sp|P36786|VE2_HPV19       6.0      0.93     1  14.3    137    398    210    364   2472   2613     Regulatory protein E2 OS=Human papillomavirus type 19 OX=10608 GN=E2 PE=3 SV=1
+sp|P24698|PHOSP_NDVB      5.9         1     1  17.2     10    378     29    250   2487   2702     Phosphoprotein OS=Newcastle disease virus (strain Beaudette C/45) OX=11178 GN=P PE=2 SV=1
+sp|Q5UP44|YL645_MIMIV     5.7       1.1     1  26.2      3    388     85    345   2417   2840     Uncharacterized protein L645 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L645 PE=4 SV=1
+sp|Q06427|PHOSP_NDVU2     5.5       1.3     1  15.9     11    374     29    249   2487   2702     Phosphoprotein OS=Newcastle disease virus (strain Ulster/2C) OX=36411 GN=P/V PE=3 SV=2
+sp|P36783|VE2_HPV14       5.3       1.5     1  12.3     78    411    197    347   2510   2720     Regulatory protein E2 OS=Human papillomavirus type 14 OX=10605 GN=E2 PE=3 SV=1
+sp|Q1PD50|VGP_MABVA       5.3       1.6     1  25.3    152    513    209    420   2459   2652     Envelope glycoprotein OS=Lake Victoria marburgvirus (strain Angola/2005) OX=378830 GN=GP PE=3 SV=1
+sp|Q6GZN6|089R_FRG3G      5.2       1.6     1  20.7    143    386    226    374   2440   2616     Uncharacterized protein 89R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-089R PE=4 SV=1
+sp|P50767|VE2_HPV21       5.0       1.8     1  12.4     78    417    210    354   2478   2668     Regulatory protein E2 OS=Human papillomavirus type 21 OX=31548 GN=E2 PE=3 SV=1
+sp|P06228|GP27_BPSP1      5.0       1.9     1   9.6      4    144     29    114   2463   2545     Gene 27 protein OS=Bacillus phage SP01 OX=10685 GN=27 PE=4 SV=1
+sp|A7XCC9|ORF24_TTVV3     4.6       2.4     1   3.0     18    254     56    206   2460   2602     ORF2/4 protein OS=Torque teno virus (isolate Human/Finland/Hel32/2002) OX=687342 GN=ORF2/4 PE=4 SV=1
+sp|P0DOD2|VE8E2_HPV08     4.6       2.5     1  11.9      6    254     16    166   2495   2672     Protein E8^E2C OS=Human papillomavirus type 8 OX=10579 PE=3 SV=1
+sp|P33495|VGLG_TRTV       4.6       2.5     1   6.0     62    364    173    304   2433   2581     Major surface glycoprotein G OS=Turkey rhinotracheitis virus OX=11264 GN=G PE=2 SV=1
+sp|Q05320|VGP_EBOZM       4.4       2.8     1  10.7    256    505    312    477   2506   2671     Envelope glycoprotein OS=Zaire ebolavirus (strain Mayinga-76) OX=128952 GN=GP PE=1 SV=1
+sp|P87671|VGP_EBOEC       4.2       3.1     1  10.9    256    506    312    477   2506   2671     Envelope glycoprotein OS=Zaire ebolavirus (strain Eckron-76) OX=129000 GN=GP PE=1 SV=1
+sp|P17588|LRP1_HHV1F      4.0       3.6     1  10.8      7    191     19    149   2496   2623     Latency-related protein 1 OS=Human herpesvirus 1 (strain F) OX=10304 PE=4 SV=1
+sp|Q9QEE7|CAPSD_ICRSV     4.0       3.7     1   5.2      9    199     39    129   2473   2577     Capsid protein OS=Indian citrus ringspot virus (isolate Kinnow mandarin/India/K1/1996) OX=651357 GN=ORF5 PE=3 SV=1
+sp|Q00132|VG01_ICHVA      4.0       3.7     1  28.6    592    857    615    819   2496   2697     Uncharacterized protein ORF1 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF1 PE=4 SV=1
+sp|Q01042|ICP22_SHV21     3.9       4.1     1  30.8      2    403     51    299   2584   2837     Transcriptional regulator ICP22 homolog OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=73 PE=3 SV=1
+sp|Q3KST4|GP350_EBVG      3.8       4.2     1  49.3    297    852    394    801   2486   2866     Envelope glycoprotein GP350 OS=Epstein-Barr virus (strain GD1) OX=10376 PE=1 SV=1
+sp|Q1PDC7|VGP_MABVR       3.6       4.8     1  13.2     96    499    208    423   2459   2655     Envelope glycoprotein OS=Lake Victoria marburgvirus (strain Ravn-87) OX=378809 GN=GP PE=1 SV=1
+sp|Q03209|P78_NPVAC       3.4       5.6     1  23.1     73    475    150    364   2473   2702     Protein P78/83 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P61 PE=1 SV=2
+sp|P0C765|V_NDVB1         3.3       6.2     1  11.4      8    200     28    172   2486   2621     Protein V OS=Newcastle disease virus (strain Chicken/United States/B1/48) OX=652953 GN=V PE=1 SV=1
+sp|P35253|VGP_MABVM       3.3       6.2     1  26.4    159    435    225    421   2459   2632     Envelope glycoprotein OS=Lake Victoria marburgvirus (strain Musoke-80) OX=33727 GN=GP PE=1 SV=1
+sp|P35254|VGP_MABVP       3.1       6.9     1  25.2    154    436    225    424   2459   2637     Envelope glycoprotein OS=Lake Victoria marburgvirus (strain Popp-67) OX=33728 GN=GP PE=1 SV=1
+sp|P06921|VE2_HPV05       3.1       6.9     1  15.5    162    412    210    352   2488   2742     Regulatory protein E2 OS=Human papillomavirus type 5 OX=333923 GN=E2 PE=3 SV=2
+sp|P26545|VE2_HPV5B       3.1         7     1  13.6    168    411    201    354   2598   2751     Regulatory protein E2 OS=Human papillomavirus type 5b OX=10599 GN=E2 PE=3 SV=1
+sp|Q66810|VGP_TAFVC       2.8       8.7     1   9.9    238    520    315    469   2427   2589     Envelope glycoprotein OS=Tai Forest ebolavirus (strain Cote d'Ivoire-94) OX=128999 GN=GP PE=1 SV=1
+sp|Q07499|NCAP_PEDV7      2.7       9.3     1   9.2     90    421    113    275   2624   2771     Nucleoprotein OS=Porcine epidemic diarrhea virus (strain CV777) OX=229032 GN=N PE=3 SV=1
+sp|P87666|VGP_EBOZ5       2.6        10     1  11.9    256    527    309    473   2503   2667     Envelope glycoprotein OS=Zaire ebolavirus (strain Kikwit-95) OX=128951 GN=GP PE=1 SV=1
+sp|P0DOK1|POLSF_CHIKS     2.3        12     1   7.9      5    183     23    106   2781   2856     Frameshifted structural polyprotein OS=Chikungunya virus (strain S27-African prototype) OX=371094 PE=1 SV=1
+sp|Q4JQX9|LTP_VZVO        1.7        19     2  12.1   2443   2564   2452   2551   2507   2615     Large tegument protein deneddylase OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF22 PE=3 SV=2
+sp|P52340|LTP_HHV6U       0.9        32     2   0.3   1163   1222   1171   1215   1450   1494     Large tegument protein deneddylase OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U31 PE=3 SV=1
+sp|P30002|LTP_HHV6G      -0.3        75     2   0.3   1163   1222   1171   1215   1450   1494     Large tegument protein deneddylase OS=Human herpesvirus 6A (strain GS) OX=10369 GN=U31 PE=3 SV=1
+sp|Q9QJ37|LTP_HHV6Z      -0.7        97     2   0.8   1130   1222   1171   1215   1450   1494     Large tegument protein deneddylase OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U31 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003331543@NC_013590.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003331543@NC_013590.txt data/models_hmm/YP_003331543@NC_013590.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:23 2021
+# [ok]

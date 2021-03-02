@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6WHG9|NEEDL_BPKVM    57.5   6.5e-16   2   2.0   0.0    Protein Gp5 OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=5 PE=1 SV=1
+sp|P16009|BP5_BPT4       47.1   9.1e-13   2   1.5   0.2    Baseplate central spike complex protein gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6WHG9|NEEDL_BPKVM    57.5   6.5e-16     1   0.0      1    181      3    133     14    146     Protein Gp5 OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=5 PE=1 SV=1
+sp|P16009|BP5_BPT4       47.1   9.1e-13     1   0.2      2    163      5    104     16    114     Baseplate central spike complex protein gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2
+sp|Q6WHG9|NEEDL_BPKVM    -2.3   7.6e+02     2   7.7    206    384    242    371    559    687     Protein Gp5 OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=5 PE=1 SV=1
+sp|P16009|BP5_BPT4       -4.0   2.4e+03     2   0.4    441    537    475    502    590    665     Baseplate central spike complex protein gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_195245@NC_006820.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_195245@NC_006820.txt data/models_hmm/YP_195245@NC_006820.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:13 2021
+# [ok]

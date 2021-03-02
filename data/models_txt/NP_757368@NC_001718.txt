@@ -1,0 +1,212 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P12929|NS1_PAVCN     975.4  2.3e-294   1   1.0  13.6    Initiator protein NS1 OS=Canine parvovirus type 2 (isolate Dog/United States/CPV-N/1978) OX=10791 GN=NS1 PE=3 SV=1
+sp|P27438|NS1_MEVA      969.1  1.9e-292   1   1.0  13.7    Initiator protein NS1 OS=Mink enteritis virus (strain Abashiri) OX=10793 GN=NS1 PE=3 SV=1
+sp|P24842|NS1_FPV19     967.6  5.5e-292   1   1.0  13.2    Initiator protein NS1 OS=Feline panleukopenia virus (strain 193) OX=10787 GN=NS1 PE=3 SV=1
+sp|P06431|NS1_FPV       752.1  1.3e-226   1   1.0   4.3    Initiator protein NS1 (Fragment) OS=Feline panleukopenia virus OX=10786 GN=NS1 PE=3 SV=1
+sp|P03133|NS1_PAVHH     748.0  2.3e-225   1   1.0   6.6    Initiator protein NS1 OS=Hamster parvovirus H1 OX=10799 GN=NS1 PE=3 SV=1
+sp|P07300|NS1_MUMIM     747.9  2.5e-225   1   1.0   8.0    Initiator protein NS1 OS=Murine minute virus (strain MVMi) OX=10795 GN=NS1 PE=3 SV=2
+sp|P03134|NS1_MUMIP     740.1  5.7e-223   1   1.0   8.0    Initiator protein NS1 OS=Murine minute virus (strain MVM prototype) OX=648235 GN=NS1 PE=1 SV=1
+sp|P36311|NS1_PAVL3     721.7  2.3e-217   1   1.0  11.0    Initiator protein NS1 OS=Parvovirus LuIII OX=35339 GN=NS1 PE=3 SV=1
+sp|P18547|NS1_PAVPN     680.7  6.3e-205   1   1.1  11.0    Initiator protein NS1 OS=Porcine parvovirus (strain NADL-2) OX=10797 GN=NS1 PE=3 SV=2
+sp|P52502|NS1_PAVPK     677.1  7.4e-204   1   1.1   9.1    Initiator protein NS1 OS=Porcine parvovirus (strain Kresse) OX=73487 GN=NS1 PE=3 SV=1
+sp|P0DJZ2|NS2_MUMIP     243.0   4.1e-72   2   1.9   2.7    Non-structural protein NS2 OS=Murine minute virus (strain MVM prototype) OX=648235 GN=NS2 PE=1 SV=1
+sp|Q89270|REP52_AAV2S   144.7   2.7e-42   1   1.1   0.2    Protein Rep52 OS=Adeno-associated virus 2 (isolate Srivastava/1982) OX=648242 GN=Rep52 PE=1 SV=1
+sp|Q89269|REP40_AAV2S   144.3   3.5e-42   1   1.1   0.1    Protein Rep40 OS=Adeno-associated virus 2 (isolate Srivastava/1982) OX=648242 GN=Rep40 PE=1 SV=1
+sp|Q89268|REP78_AAV2S   143.2   7.3e-42   1   1.2   0.2    Protein Rep78 OS=Adeno-associated virus 2 (isolate Srivastava/1982) OX=648242 GN=Rep78 PE=1 SV=1
+sp|P03132|REP68_AAV2S   142.4   1.3e-41   1   1.2   0.3    Protein Rep68 OS=Adeno-associated virus 2 (isolate Srivastava/1982) OX=648242 GN=Rep68 PE=1 SV=1
+sp|C5IY43|NS1_HBOC4     129.2   1.3e-37   1   1.1   0.3    Initiator protein NS1 OS=Human bocavirus 4 OX=1511883 GN=NS1 PE=3 SV=1
+sp|B9UYK5|NS1_HBOC2     128.8   1.7e-37   1   1.1   0.6    Initiator protein NS1 OS=Human bocavirus 2 OX=573977 GN=NS1 PE=3 SV=2
+sp|C5IY48|NS1_HBOC3     127.1   5.9e-37   1   1.1   0.1    Initiator protein NS1 OS=Human bocavirus 3 OX=638313 GN=NS1 PE=3 SV=1
+sp|D0EZM8|NS1_HBOC1     123.2   9.1e-36   1   1.2   0.6    Initiator protein NS1 OS=Primate bocaparvovirus 1 (strain Human bocavirus 1 type 1) OX=689403 GN=NS1 PE=1 SV=1
+sp|P24030|NS1_ADVG      116.7   8.4e-34   1   1.5   4.3    Initiator protein NS1 OS=Aleutian mink disease parvovirus (strain G) OX=10783 GN=NS1 PE=1 SV=2
+sp|P07296|NS1_PAVBP     109.2   1.5e-31   1   1.4   0.0    Initiator protein NS1 OS=Bovine parvovirus (isolate pAT153/1986) OX=648243 GN=NS1 PE=3 SV=1
+sp|Q9PZT1|NS1_PAVHV      99.6   1.3e-28   1   1.1   0.1    Initiator protein NS1 OS=Human parvovirus B19 (strain HV) OX=648237 GN=NS1 PE=1 SV=1
+sp|P07298|NS1_PAVHU      99.6   1.3e-28   1   1.1   0.1    Initiator protein NS1 OS=Human parvovirus B19 (isolate AU) OX=648238 GN=NS1 PE=3 SV=1
+sp|Q00683|VU94_HHV6U     33.7   1.3e-08   1   1.2   0.1    Protein U94 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U94 PE=4 SV=1
+sp|Q89621|YO2_ADEG1      31.4   6.4e-08   1   1.1   0.0    Uncharacterized protein ORF2 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=2 PE=4 SV=1
+sp|Q9WSZ6|VU94_HHV6Z     30.4   1.3e-07   1   1.2   0.1    Protein U94 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U94 PE=4 SV=1
+sp|Q05112|VE1_HPV30      27.1   1.3e-06   2   1.6   0.0    Replication protein E1 OS=Human papillomavirus type 30 OX=10611 GN=E1 PE=3 SV=2
+sp|Q705G8|VE1_BPV5       25.3   4.6e-06   2   1.9   0.2    Replication protein E1 OS=Bovine papillomavirus type 5 OX=40537 GN=E1 PE=3 SV=1
+sp|Q80943|VE1_HPV60      24.9   5.8e-06   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 60 OX=40540 GN=E1 PE=3 SV=1
+sp|P22153|VE1_HPV57      24.1   1.1e-05   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 57 OX=333753 GN=E1 PE=3 SV=1
+sp|P27454|NS1_AEDEV      24.0   1.1e-05   2   1.7   0.6    Initiator protein NS1 OS=Aedes densonucleosis virus (strain GKV 002 002) OX=10808 GN=NS1 PE=3 SV=1
+sp|P36723|VE1_HPV27      23.8   1.3e-05   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 27 OX=333752 GN=E1 PE=3 SV=1
+sp|Q81966|VE1_HPV59      23.5   1.6e-05   1   1.3   0.0    Replication protein E1 OS=Human papillomavirus type 59 OX=37115 GN=E1 PE=3 SV=1
+sp|P25481|VE1_HPV2A      23.2   1.9e-05   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 2a OX=10584 GN=E1 PE=3 SV=1
+sp|Q05111|VE1_HPV09      23.1   2.1e-05   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 9 OX=10621 GN=E1 PE=3 SV=2
+sp|Q80950|VE1_HPV61      22.9   2.4e-05   2   2.1   0.0    Replication protein E1 OS=Human papillomavirus type 61 OX=37116 GN=E1 PE=3 SV=1
+sp|Q80957|VE1_HPV66      22.6   2.9e-05   2   1.8   0.0    Replication protein E1 OS=Human papillomavirus type 66 OX=37119 GN=E1 PE=3 SV=1
+sp|Q02512|VE1_HPV17      22.4   3.5e-05   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 17 OX=10607 GN=E1 PE=3 SV=2
+sp|P24829|VE1_HPV39      22.2   3.8e-05   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 39 OX=10588 GN=E1 PE=3 SV=1
+sp|P06789|VE1_HPV18      22.0   4.5e-05   1   1.4   0.0    Replication protein E1 OS=Human papillomavirus type 18 OX=333761 GN=E1 PE=1 SV=1
+sp|Q90185|NS1_AADNV      22.0   4.6e-05   1   1.3   0.3    Initiator protein NS1 OS=Aedes albopictus densovirus (isolate Boublik/1994) OX=648330 GN=NS1 PE=3 SV=1
+sp|Q84356|VE1_MNPVA      21.8   5.1e-05   1   1.3   0.0    Replication protein E1 OS=Mastomys natalensis papillomavirus (isolate African multimammate rat) OX=654915 GN=E1 PE=3 SV=1
+sp|Q80902|VE1_HPV37      21.5   6.5e-05   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 37 OX=37958 GN=E1 PE=3 SV=1
+sp|P03111|VE1_HPV1       21.5   6.5e-05   1   1.5   0.0    Replication protein E1 OS=Human papillomavirus type 1 OX=10583 GN=E1 PE=3 SV=2
+sp|P36728|VE1_HPV45      21.2   7.6e-05   1   1.3   0.0    Replication protein E1 OS=Human papillomavirus type 45 OX=10593 GN=E1 PE=3 SV=1
+sp|P06420|VE1_HPV08      20.1   0.00017   1   1.3   0.0    Replication protein E1 OS=Human papillomavirus type 8 OX=10579 GN=E1 PE=3 SV=1
+sp|P36730|VE1_HPV52      20.0   0.00018   1   1.5   0.0    Replication protein E1 OS=Human papillomavirus type 52 OX=10618 GN=E1 PE=3 SV=1
+sp|Q81020|VE1_HPV54      19.8    0.0002   1   1.7   0.0    Replication protein E1 OS=Human papillomavirus type 54 OX=1671798 GN=E1 PE=3 SV=1
+sp|P27551|VE1_HPV41      19.8   0.00021   1   1.4   0.0    Replication protein E1 OS=Human papillomavirus type 41 OX=10589 GN=E1 PE=3 SV=1
+sp|Q07847|VE1_HPV63      19.8   0.00021   1   1.4   0.0    Replication protein E1 OS=Human papillomavirus type 63 OX=28311 GN=E1 PE=3 SV=1
+sp|Q81999|VE1_HPV72      19.8   0.00021   1   1.3   0.0    Replication protein E1 OS=Human papillomavirus type 72 OX=333770 GN=E1 PE=3 SV=1
+sp|Q02262|VE1_PCPV1      19.6   0.00023   1   1.3   0.1    Replication protein E1 OS=Pygmy chimpanzee papillomavirus type 1 OX=10576 GN=E1 PE=3 SV=1
+sp|P50763|VE1_HPV28      19.4   0.00027   1   1.3   0.0    Replication protein E1 OS=Human papillomavirus type 28 OX=37111 GN=E1 PE=3 SV=1
+sp|P22154|VE1_RHPV1      18.8   0.00043   1   1.2   0.0    Replication protein E1 OS=Rhesus papillomavirus type 1 OX=10570 GN=E1 PE=3 SV=1
+sp|P11298|VE1_BPV2       18.7   0.00047   1   1.2   0.0    Replication protein E1 OS=Bovine papillomavirus type 2 OX=2758382 GN=E1 PE=3 SV=1
+sp|P36729|VE1_HPV49      17.9   0.00076   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 49 OX=10616 GN=E1 PE=3 SV=1
+sp|P50764|VE1_HPV29      17.7   0.00089   1   1.3   0.0    Replication protein E1 OS=Human papillomavirus type 29 OX=37112 GN=E1 PE=3 SV=1
+sp|P03116|VE1_BPV1       17.6   0.00097   1   1.2   0.0    Replication protein E1 OS=Bovine papillomavirus type 1 OX=337052 GN=E1 PE=1 SV=1
+sp|Q89536|VE1_COPV6      17.6   0.00097   1   1.3   0.0    Replication protein E1 OS=Canine oral papillomavirus (strain Y62) OX=766192 GN=E1 PE=3 SV=1
+sp|P08344|VE1_BPV4       17.5     0.001   2   1.7   0.0    Replication protein E1 OS=Bovine papillomavirus type 4 OX=10562 GN=E1 PE=3 SV=2
+sp|Q9JH49|VE1_HPV69      17.1    0.0014   1   1.4   0.0    Replication protein E1 OS=Human papillomavirus type 69 OX=37121 GN=E1 PE=3 SV=1
+sp|P81174|VE1_PCPVC      17.0    0.0014   1   1.2   0.0    Replication protein E1 OS=Pygmy chimpanzee papillomavirus type 1C OX=521527 GN=E1 PE=3 SV=1
+sp|P36719|VE1_HPV03      17.0    0.0015   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 3 OX=10614 GN=E1 PE=3 SV=1
+sp|Q80909|VE1_HPV38      16.9    0.0016   1   1.1   0.0    Replication protein E1 OS=Human papillomavirus type 38 OX=37959 GN=E1 PE=3 SV=1
+sp|P22419|VE1_HPV47      16.8    0.0017   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 47 OX=10594 GN=E1 PE=3 SV=1
+sp|P50760|VE1_HPV22      16.7    0.0018   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 22 OX=37954 GN=E1 PE=3 SV=1
+sp|P36720|VE1_HPV10      16.5    0.0021   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 10 OX=333759 GN=E1 PE=3 SV=1
+sp|P17382|VE1_HPV31      16.0     0.003   2   1.7   0.0    Replication protein E1 OS=Human papillomavirus type 31 OX=10585 GN=E1 PE=3 SV=1
+sp|P50761|VE1_HPV23      16.0     0.003   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 23 OX=37955 GN=E1 PE=3 SV=1
+sp|P11328|VE1_PAPVE      15.9    0.0032   1   1.2   0.0    Replication protein E1 OS=European elk papillomavirus OX=10565 GN=E1 PE=3 SV=1
+sp|P03112|VE1_CRPVK      15.9    0.0033   1   1.2   0.0    Replication protein E1 OS=Cottontail rabbit papillomavirus (strain Kansas) OX=31553 GN=E1 PE=3 SV=1
+sp|Q05135|VE1_HPV15      15.8    0.0034   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 15 OX=10606 GN=E1 PE=3 SV=2
+sp|P36727|VE1_HPV40      15.6    0.0039   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 40 OX=10615 GN=E1 PE=3 SV=1
+sp|Q07846|VE1_HPV04      15.3    0.0047   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 4 OX=10617 GN=E1 PE=3 SV=1
+sp|P05842|NS1_BMDNV      15.2    0.0053   1   1.2   0.0    Initiator protein NS1 OS=Bombyx mori densovirus OX=10809 PE=3 SV=1
+sp|Q80915|VE1_HPV44      15.0    0.0061   1   1.5   0.1    Replication protein E1 OS=Human papillomavirus type 44 OX=10592 GN=E1 PE=3 SV=1
+sp|Q07848|VE1_HPV65      14.9    0.0063   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 65 OX=28312 GN=E1 PE=3 SV=1
+sp|P36725|VE1_HPV34      14.9    0.0064   1   1.5   0.0    Replication protein E1 OS=Human papillomavirus type 34 OX=333764 GN=E1 PE=3 SV=1
+sp|Q80922|VE1_HPV48      14.6    0.0079   2   1.6   0.3    Replication protein E1 OS=Human papillomavirus type 48 OX=40538 GN=E1 PE=3 SV=1
+sp|Q02049|VE1_HPV25      14.3    0.0096   1   1.3   0.0    Replication protein E1 OS=Human papillomavirus type 25 OX=10609 GN=E1 PE=3 SV=2
+sp|Q02261|VE1_HPV13      14.2      0.01   1   1.3   0.0    Replication protein E1 OS=Human papillomavirus type 13 OX=10573 GN=E1 PE=3 SV=1
+sp|P50762|VE1_HPV24      14.1     0.011   1   1.4   0.0    Replication protein E1 OS=Human papillomavirus type 24 OX=37956 GN=E1 PE=3 SV=1
+sp|P50808|VE1_HPV36      13.9     0.013   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 36 OX=37957 GN=E1 PE=3 SV=1
+sp|P03114|VE1_HPV16      13.7     0.015   1   1.3   0.0    Replication protein E1 OS=Human papillomavirus type 16 OX=333760 GN=E1 PE=1 SV=2
+sp|Q90054|NS1_JDNVP      13.4     0.018   1   1.3   0.0    Initiator protein NS1 OS=Junonia coenia densovirus (isolate pBRJ/1990) OX=648250 GN=NS1 PE=3 SV=1
+sp|P36721|VE1_HPV14      12.8     0.028   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 14 OX=10605 GN=E1 PE=3 SV=1
+sp|P04014|VE1_HPV11      12.8     0.028   1   1.3   0.0    Replication protein E1 OS=Human papillomavirus type 11 OX=10580 GN=E1 PE=1 SV=1
+sp|O71153|NS1_DSDNV      12.6     0.031   1   1.3   0.0    Initiator protein NS1 OS=Diatraea saccharalis densovirus OX=72003 GN=NS1 PE=3 SV=1
+sp|P03075|LT_POVHA       12.6     0.032   1   1.4   0.0    Large T antigen OS=Hamster polyomavirus OX=1891729 PE=3 SV=1
+sp|P50758|VE1_HPV20      12.5     0.035   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type 20 OX=31547 GN=E1 PE=3 SV=1
+sp|Q02048|VE1_HPV19      11.4     0.075   2   1.6   0.0    Replication protein E1 OS=Human papillomavirus type 19 OX=10608 GN=E1 PE=3 SV=2
+sp|O40619|VE1_HPVR7      11.1     0.093   1   1.2   0.0    Replication protein E1 OS=Human papillomavirus type RTRX7 OX=79691 GN=E1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P12929|NS1_PAVCN     975.2  2.6e-294     1  13.6      1    668      1    668      1    443     Initiator protein NS1 OS=Canine parvovirus type 2 (isolate Dog/United States/CPV-N/1978) OX=10791 GN=NS1 PE=3 SV=1
+sp|P27438|NS1_MEVA      968.9  2.2e-292     1  13.7      1    668      1    668      1    443     Initiator protein NS1 OS=Mink enteritis virus (strain Abashiri) OX=10793 GN=NS1 PE=3 SV=1
+sp|P24842|NS1_FPV19     967.4  6.3e-292     1  13.2      1    668      1    668      1    443     Initiator protein NS1 OS=Feline panleukopenia virus (strain 193) OX=10787 GN=NS1 PE=3 SV=1
+sp|P06431|NS1_FPV       751.9  1.5e-226     1   4.3      5    392     41    392    114    443     Initiator protein NS1 (Fragment) OS=Feline panleukopenia virus OX=10786 GN=NS1 PE=3 SV=1
+sp|P03133|NS1_PAVHH     747.8  2.7e-225     1   6.6      1    670      1    669      1    442     Initiator protein NS1 OS=Hamster parvovirus H1 OX=10799 GN=NS1 PE=3 SV=1
+sp|P07300|NS1_MUMIM     747.6    3e-225     1   8.0      1    670      1    669      1    442     Initiator protein NS1 OS=Murine minute virus (strain MVMi) OX=10795 GN=NS1 PE=3 SV=2
+sp|P03134|NS1_MUMIP     739.9  6.9e-223     1   8.0      1    670      1    669      1    442     Initiator protein NS1 OS=Murine minute virus (strain MVM prototype) OX=648235 GN=NS1 PE=1 SV=1
+sp|P36311|NS1_PAVL3     721.3  2.9e-217     1  11.0      1    664      1    660      1    437     Initiator protein NS1 OS=Parvovirus LuIII OX=35339 GN=NS1 PE=3 SV=1
+sp|P18547|NS1_PAVPN     680.2  8.7e-205     1  11.0      2    655      2    650      1    430     Initiator protein NS1 OS=Porcine parvovirus (strain NADL-2) OX=10797 GN=NS1 PE=3 SV=2
+sp|P52502|NS1_PAVPK     676.6    1e-203     1   9.1      2    657      2    652      1    430     Initiator protein NS1 OS=Porcine parvovirus (strain Kresse) OX=73487 GN=NS1 PE=3 SV=1
+sp|P0DJZ2|NS2_MUMIP     239.8   3.8e-71     1   2.3      1    150      1    148      1    149     Non-structural protein NS2 OS=Murine minute virus (strain MVM prototype) OX=648235 GN=NS2 PE=1 SV=1
+sp|Q89270|REP52_AAV2S   144.1   3.9e-42     1   0.2     64    320     97    307    162    368     Protein Rep52 OS=Adeno-associated virus 2 (isolate Srivastava/1982) OX=648242 GN=Rep52 PE=1 SV=1
+sp|Q89269|REP40_AAV2S   143.9   4.8e-42     1   0.1     63    305     96    299    161    360     Protein Rep40 OS=Adeno-associated virus 2 (isolate Srivastava/1982) OX=648242 GN=Rep40 PE=1 SV=1
+sp|Q89268|REP78_AAV2S   142.8     1e-41     1   0.2    226    544    320    531    161    368     Protein Rep78 OS=Adeno-associated virus 2 (isolate Srivastava/1982) OX=648242 GN=Rep78 PE=1 SV=1
+sp|P03132|REP68_AAV2S   142.1   1.7e-41     1   0.3    186    529    320    523    161    360     Protein Rep68 OS=Adeno-associated virus 2 (isolate Srivastava/1982) OX=648242 GN=Rep68 PE=1 SV=1
+sp|C5IY43|NS1_HBOC4     128.6     2e-37     1   0.3    344    587    387    584    139    335     Initiator protein NS1 OS=Human bocavirus 4 OX=1511883 GN=NS1 PE=3 SV=1
+sp|B9UYK5|NS1_HBOC2     128.3   2.6e-37     1   0.6    344    586    383    584    135    335     Initiator protein NS1 OS=Human bocavirus 2 OX=573977 GN=NS1 PE=3 SV=2
+sp|C5IY48|NS1_HBOC3     126.4   9.1e-37     1   0.1    368    590    384    578    136    331     Initiator protein NS1 OS=Human bocavirus 3 OX=638313 GN=NS1 PE=3 SV=1
+sp|D0EZM8|NS1_HBOC1     122.6   1.4e-35     1   0.6    342    586    384    578    136    331     Initiator protein NS1 OS=Primate bocaparvovirus 1 (strain Human bocavirus 1 type 1) OX=689403 GN=NS1 PE=1 SV=1
+sp|P24030|NS1_ADVG      115.8   1.6e-33     1   4.3    215    556    411    547    154    291     Initiator protein NS1 OS=Aleutian mink disease parvovirus (strain G) OX=10783 GN=NS1 PE=1 SV=2
+sp|P07296|NS1_PAVBP     108.4   2.7e-31     1   0.0     96    467    245    450    115    312     Initiator protein NS1 OS=Bovine parvovirus (isolate pAT153/1986) OX=648243 GN=NS1 PE=3 SV=1
+sp|Q9PZT1|NS1_PAVHV      99.1   1.8e-28     1   0.1    274    545    300    489    147    336     Initiator protein NS1 OS=Human parvovirus B19 (strain HV) OX=648237 GN=NS1 PE=1 SV=1
+sp|P07298|NS1_PAVHU      99.1   1.9e-28     1   0.1    274    539    300    488    147    335     Initiator protein NS1 OS=Human parvovirus B19 (isolate AU) OX=648238 GN=NS1 PE=3 SV=1
+sp|Q00683|VU94_HHV6U     33.0   2.1e-08     1   0.1    285    485    293    472    130    313     Protein U94 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U94 PE=4 SV=1
+sp|Q89621|YO2_ADEG1      31.0   8.6e-08     1   0.0     89    271    109    246    165    297     Uncharacterized protein ORF2 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=2 PE=4 SV=1
+sp|Q9WSZ6|VU94_HHV6Z     29.8   1.9e-07     1   0.1    286    485    293    472    130    313     Protein U94 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U94 PE=4 SV=1
+sp|Q05112|VE1_HPV30      25.7   3.3e-06     2   0.0    400    554    426    551    141    264     Replication protein E1 OS=Human papillomavirus type 30 OX=10611 GN=E1 PE=3 SV=2
+sp|Q80943|VE1_HPV60      24.4   8.3e-06     1   0.0    347    553    401    530    138    265     Replication protein E1 OS=Human papillomavirus type 60 OX=40540 GN=E1 PE=3 SV=1
+sp|P27454|NS1_AEDEV      24.0   1.1e-05     1   0.6    442    753    584    737    140    288     Initiator protein NS1 OS=Aedes densonucleosis virus (strain GKV 002 002) OX=10808 GN=NS1 PE=3 SV=1
+sp|P22153|VE1_HPV57      23.3   1.8e-05     1   0.0    433    566    460    563    164    264     Replication protein E1 OS=Human papillomavirus type 57 OX=333753 GN=E1 PE=3 SV=1
+sp|P36723|VE1_HPV27      23.0   2.2e-05     1   0.0    433    566    460    563    164    264     Replication protein E1 OS=Human papillomavirus type 27 OX=333752 GN=E1 PE=3 SV=1
+sp|Q705G8|VE1_BPV5       23.0   2.3e-05     2   0.0    377    555    418    545    140    265     Replication protein E1 OS=Bovine papillomavirus type 5 OX=40537 GN=E1 PE=3 SV=1
+sp|Q81966|VE1_HPV59      22.8   2.6e-05     1   0.0    415    587    438    563    141    264     Replication protein E1 OS=Human papillomavirus type 59 OX=37115 GN=E1 PE=3 SV=1
+sp|Q05111|VE1_HPV09      22.5   3.1e-05     1   0.0    373    533    400    527    141    266     Replication protein E1 OS=Human papillomavirus type 9 OX=10621 GN=E1 PE=3 SV=2
+sp|P25481|VE1_HPV2A      22.5   3.2e-05     1   0.0    429    566    460    563    164    264     Replication protein E1 OS=Human papillomavirus type 2a OX=10584 GN=E1 PE=3 SV=1
+sp|P24829|VE1_HPV39      21.8   5.3e-05     1   0.0    259    570    424    566    126    264     Replication protein E1 OS=Human papillomavirus type 39 OX=10588 GN=E1 PE=3 SV=1
+sp|Q02512|VE1_HPV17      21.7   5.5e-05     1   0.0    393    535    404    530    141    265     Replication protein E1 OS=Human papillomavirus type 17 OX=10607 GN=E1 PE=3 SV=2
+sp|Q90185|NS1_AADNV      21.2   7.6e-05     1   0.3    446    703    544    691    139    283     Initiator protein NS1 OS=Aedes albopictus densovirus (isolate Boublik/1994) OX=648330 GN=NS1 PE=3 SV=1
+sp|Q80957|VE1_HPV66      21.0   8.9e-05     2   0.0    394    554    426    550    142    264     Replication protein E1 OS=Human papillomavirus type 66 OX=37119 GN=E1 PE=3 SV=1
+sp|P03111|VE1_HPV1       21.0   9.2e-05     1   0.0    129    539    406    533    140    265     Replication protein E1 OS=Human papillomavirus type 1 OX=10583 GN=E1 PE=3 SV=2
+sp|P06789|VE1_HPV18      21.0   9.2e-05     1   0.0    423    578    450    574    140    262     Replication protein E1 OS=Human papillomavirus type 18 OX=333761 GN=E1 PE=1 SV=1
+sp|Q84356|VE1_MNPVA      21.0   9.2e-05     1   0.0    395    528    417    523    163    266     Replication protein E1 OS=Mastomys natalensis papillomavirus (isolate African multimammate rat) OX=654915 GN=E1 PE=3 SV=1
+sp|Q80902|VE1_HPV37      20.8    0.0001     1   0.0    393    542    404    531    141    266     Replication protein E1 OS=Human papillomavirus type 37 OX=37958 GN=E1 PE=3 SV=1
+sp|P36728|VE1_HPV45      20.5   0.00013     1   0.0    409    564    436    560    140    262     Replication protein E1 OS=Human papillomavirus type 45 OX=10593 GN=E1 PE=3 SV=1
+sp|Q80950|VE1_HPV61      19.9    0.0002     2   0.0    417    570    465    568    164    264     Replication protein E1 OS=Human papillomavirus type 61 OX=37116 GN=E1 PE=3 SV=1
+sp|P27551|VE1_HPV41      19.5   0.00025     1   0.0     79    542    433    537    165    266     Replication protein E1 OS=Human papillomavirus type 41 OX=10589 GN=E1 PE=3 SV=1
+sp|P06420|VE1_HPV08      19.5   0.00026     1   0.0    314    528    381    524    126    265     Replication protein E1 OS=Human papillomavirus type 8 OX=10579 GN=E1 PE=3 SV=1
+sp|Q02262|VE1_PCPV1      19.0   0.00037     1   0.1    364    577    445    571    142    266     Replication protein E1 OS=Pygmy chimpanzee papillomavirus type 1 OX=10576 GN=E1 PE=3 SV=1
+sp|Q81999|VE1_HPV72      18.9   0.00039     1   0.0    435    572    457    568    155    264     Replication protein E1 OS=Human papillomavirus type 72 OX=333770 GN=E1 PE=3 SV=1
+sp|P36730|VE1_HPV52      18.9   0.00039     1   0.0    438    569    464    566    166    265     Replication protein E1 OS=Human papillomavirus type 52 OX=10618 GN=E1 PE=3 SV=1
+sp|Q07847|VE1_HPV63      18.6   0.00048     1   0.0    388    554    413    540    141    266     Replication protein E1 OS=Human papillomavirus type 63 OX=28311 GN=E1 PE=3 SV=1
+sp|P50763|VE1_HPV28      18.6   0.00048     1   0.0    451    585    457    582    141    264     Replication protein E1 OS=Human papillomavirus type 28 OX=37111 GN=E1 PE=3 SV=1
+sp|P11298|VE1_BPV2       18.4   0.00056     1   0.0    208    535    399    525    141    265     Replication protein E1 OS=Bovine papillomavirus type 2 OX=2758382 GN=E1 PE=3 SV=1
+sp|Q81020|VE1_HPV54      18.2   0.00065     1   0.0    141    558    154    553     64    265     Replication protein E1 OS=Human papillomavirus type 54 OX=1671798 GN=E1 PE=3 SV=1
+sp|P22154|VE1_RHPV1      18.2   0.00065     1   0.0    375    549    419    545    140    264     Replication protein E1 OS=Rhesus papillomavirus type 1 OX=10570 GN=E1 PE=3 SV=1
+sp|P36729|VE1_HPV49      17.3    0.0012     1   0.0    384    534    403    531    140    266     Replication protein E1 OS=Human papillomavirus type 49 OX=10616 GN=E1 PE=3 SV=1
+sp|P03116|VE1_BPV1       17.1    0.0014     1   0.0    324    532    402    526    143    265     Replication protein E1 OS=Bovine papillomavirus type 1 OX=337052 GN=E1 PE=1 SV=1
+sp|Q89536|VE1_COPV6      17.0    0.0015     1   0.0    293    524    414    519    163    265     Replication protein E1 OS=Canine oral papillomavirus (strain Y62) OX=766192 GN=E1 PE=3 SV=1
+sp|P50764|VE1_HPV29      16.9    0.0016     1   0.0    442    583    472    580    160    264     Replication protein E1 OS=Human papillomavirus type 29 OX=37112 GN=E1 PE=3 SV=1
+sp|P81174|VE1_PCPVC      16.4    0.0022     1   0.0    388    579    466    572    164    267     Replication protein E1 OS=Pygmy chimpanzee papillomavirus type 1C OX=521527 GN=E1 PE=3 SV=1
+sp|Q80909|VE1_HPV38      16.4    0.0023     1   0.0    382    551    400    525    142    265     Replication protein E1 OS=Human papillomavirus type 38 OX=37959 GN=E1 PE=3 SV=1
+sp|P36719|VE1_HPV03      16.3    0.0023     1   0.0    450    586    469    579    156    264     Replication protein E1 OS=Human papillomavirus type 3 OX=10614 GN=E1 PE=3 SV=1
+sp|P22419|VE1_HPV47      16.2    0.0026     1   0.0    355    532    399    526    140    265     Replication protein E1 OS=Human papillomavirus type 47 OX=10594 GN=E1 PE=3 SV=1
+sp|Q9JH49|VE1_HPV69      16.1    0.0027     1   0.0    353    557    430    555    141    264     Replication protein E1 OS=Human papillomavirus type 69 OX=37121 GN=E1 PE=3 SV=1
+sp|P50760|VE1_HPV22      16.1    0.0028     1   0.0    385    533    404    527    142    263     Replication protein E1 OS=Human papillomavirus type 22 OX=37954 GN=E1 PE=3 SV=1
+sp|P36720|VE1_HPV10      15.9    0.0033     1   0.0    471    607    479    601    144    264     Replication protein E1 OS=Human papillomavirus type 10 OX=333759 GN=E1 PE=3 SV=1
+sp|P08344|VE1_BPV4       15.7    0.0036     1   0.0    372    533    401    530    138    265     Replication protein E1 OS=Bovine papillomavirus type 4 OX=10562 GN=E1 PE=3 SV=2
+sp|P50761|VE1_HPV23      15.5    0.0044     1   0.0    363    532    404    526    143    263     Replication protein E1 OS=Human papillomavirus type 23 OX=37955 GN=E1 PE=3 SV=1
+sp|P11328|VE1_PAPVE      15.4    0.0046     1   0.0    348    535    406    531    142    265     Replication protein E1 OS=European elk papillomavirus OX=10565 GN=E1 PE=3 SV=1
+sp|Q05135|VE1_HPV15      15.2    0.0052     1   0.0    385    549    397    524    141    266     Replication protein E1 OS=Human papillomavirus type 15 OX=10606 GN=E1 PE=3 SV=2
+sp|P03112|VE1_CRPVK      15.1    0.0054     1   0.0    388    528    419    524    163    265     Replication protein E1 OS=Cottontail rabbit papillomavirus (strain Kansas) OX=31553 GN=E1 PE=3 SV=1
+sp|P36727|VE1_HPV40      15.0    0.0062     1   0.0    420    575    443    571    143    266     Replication protein E1 OS=Human papillomavirus type 40 OX=10615 GN=E1 PE=3 SV=1
+sp|Q07846|VE1_HPV04      14.7    0.0072     1   0.0    338    536    416    521    163    265     Replication protein E1 OS=Human papillomavirus type 4 OX=10617 GN=E1 PE=3 SV=1
+sp|P17382|VE1_HPV31      14.6    0.0081     2   0.0    359    553    425    549    142    264     Replication protein E1 OS=Human papillomavirus type 31 OX=10585 GN=E1 PE=3 SV=1
+sp|P05842|NS1_BMDNV      14.5    0.0088     1   0.0     28    171     58    164    159    263     Initiator protein NS1 OS=Bombyx mori densovirus OX=10809 PE=3 SV=1
+sp|Q07848|VE1_HPV65      14.3    0.0099     1   0.0    342    525    415    520    163    265     Replication protein E1 OS=Human papillomavirus type 65 OX=28312 GN=E1 PE=3 SV=1
+sp|Q80915|VE1_HPV44      14.0     0.012     1   0.1    384    572    461    566    164    266     Replication protein E1 OS=Human papillomavirus type 44 OX=10592 GN=E1 PE=3 SV=1
+sp|P36725|VE1_HPV34      13.9     0.013     1   0.0    420    570    464    567    164    264     Replication protein E1 OS=Human papillomavirus type 34 OX=333764 GN=E1 PE=3 SV=1
+sp|Q02049|VE1_HPV25      13.7     0.015     1   0.0    316    529    397    522    139    262     Replication protein E1 OS=Human papillomavirus type 25 OX=10609 GN=E1 PE=3 SV=2
+sp|Q02261|VE1_HPV13      13.5     0.017     1   0.0    403    572    465    569    165    266     Replication protein E1 OS=Human papillomavirus type 13 OX=10573 GN=E1 PE=3 SV=1
+sp|P50762|VE1_HPV24      13.4     0.019     1   0.0    283    531    400    527    139    264     Replication protein E1 OS=Human papillomavirus type 24 OX=37956 GN=E1 PE=3 SV=1
+sp|Q80922|VE1_HPV48      13.4     0.019     1   0.0    338    529    389    517    141    267     Replication protein E1 OS=Human papillomavirus type 48 OX=40538 GN=E1 PE=3 SV=1
+sp|P50808|VE1_HPV36      13.3      0.02     1   0.0    359    529    398    525    140    265     Replication protein E1 OS=Human papillomavirus type 36 OX=37957 GN=E1 PE=3 SV=1
+sp|P03114|VE1_HPV16      13.0     0.025     1   0.0    390    575    456    569    153    264     Replication protein E1 OS=Human papillomavirus type 16 OX=333760 GN=E1 PE=1 SV=2
+sp|Q90054|NS1_JDNVP      12.7      0.03     1   0.0    363    510    388    499    156    265     Initiator protein NS1 OS=Junonia coenia densovirus (isolate pBRJ/1990) OX=648250 GN=NS1 PE=3 SV=1
+sp|P36721|VE1_HPV14      12.4     0.036     1   0.0    253    531    376    525    119    264     Replication protein E1 OS=Human papillomavirus type 14 OX=10605 GN=E1 PE=3 SV=1
+sp|P04014|VE1_HPV11      12.1     0.046     1   0.0    378    578    468    572    165    266     Replication protein E1 OS=Human papillomavirus type 11 OX=10580 GN=E1 PE=1 SV=1
+sp|P50758|VE1_HPV20      12.0     0.049     1   0.0    309    531    394    526    137    265     Replication protein E1 OS=Human papillomavirus type 20 OX=31547 GN=E1 PE=3 SV=1
+sp|O71153|NS1_DSDNV      11.8     0.057     1   0.0    378    511    389    499    157    265     Initiator protein NS1 OS=Diatraea saccharalis densovirus OX=72003 GN=NS1 PE=3 SV=1
+sp|P03075|LT_POVHA       11.6     0.066     1   0.0    525    616    539    595    166    219     Large T antigen OS=Hamster polyomavirus OX=1891729 PE=3 SV=1
+sp|O40619|VE1_HPVR7      10.5      0.14     1   0.0    346    530    385    525    129    265     Replication protein E1 OS=Human papillomavirus type RTRX7 OX=79691 GN=E1 PE=3 SV=1
+sp|Q02048|VE1_HPV19      10.1      0.18     2   0.0    333    529    397    523    139    263     Replication protein E1 OS=Human papillomavirus type 19 OX=10608 GN=E1 PE=3 SV=2
+sp|P0DJZ2|NS2_MUMIP       1.8        60     2   0.0    148    180    152    170    223    241     Non-structural protein NS2 OS=Murine minute virus (strain MVM prototype) OX=648235 GN=NS2 PE=1 SV=1
+sp|Q80950|VE1_HPV61      -0.0   2.1e+02     1   0.1    128    200    133    188    317    371     Replication protein E1 OS=Human papillomavirus type 61 OX=37116 GN=E1 PE=3 SV=1
+sp|Q705G8|VE1_BPV5       -0.5     3e+02     1   0.1    289    324    295    317    318    340     Replication protein E1 OS=Bovine papillomavirus type 5 OX=40537 GN=E1 PE=3 SV=1
+sp|P17382|VE1_HPV31      -1.9   8.1e+02     1   0.0    258    351    300    323    317    340     Replication protein E1 OS=Human papillomavirus type 31 OX=10585 GN=E1 PE=3 SV=1
+sp|Q80957|VE1_HPV66      -2.2   9.6e+02     1   0.0    295    367    302    325    318    341     Replication protein E1 OS=Human papillomavirus type 66 OX=37119 GN=E1 PE=3 SV=1
+sp|Q05112|VE1_HPV30      -2.6   1.3e+03     1   0.0    279    335    302    325    317    340     Replication protein E1 OS=Human papillomavirus type 30 OX=10611 GN=E1 PE=3 SV=2
+sp|Q02048|VE1_HPV19      -2.8   1.5e+03     1   0.0     60    100     64     92    271    299     Replication protein E1 OS=Human papillomavirus type 19 OX=10608 GN=E1 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_757368@NC_001718.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_757368@NC_001718.txt data/models_hmm/NP_757368@NC_001718.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:20 2021
+# [ok]

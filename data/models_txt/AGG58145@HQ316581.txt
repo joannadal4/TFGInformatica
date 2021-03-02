@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q38494|GEMA_BPMU    176.8   2.7e-52   1   1.1   0.3    GemA protein OS=Escherichia phage Mu OX=10677 GN=gemA PE=1 SV=2
+sp|P24796|GEMA_BPD10   171.8   9.3e-51   1   1.1   0.6    GemA protein OS=Escherichia phage D108 OX=665033 GN=gemA PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38494|GEMA_BPMU    176.5   3.2e-52     1   0.3      1    149      1    149      1    147     GemA protein OS=Escherichia phage Mu OX=10677 GN=gemA PE=1 SV=2
+sp|P24796|GEMA_BPD10   171.5   1.1e-50     1   0.6      1    149      1    149      1    147     GemA protein OS=Escherichia phage D108 OX=665033 GN=gemA PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGG58145@HQ316581.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGG58145@HQ316581.txt data/models_hmm/AGG58145@HQ316581.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:36 2021
+# [ok]

@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P51767|BPJ_BPP2     122.9   1.3e-35   2   2.0   2.6    Baseplate protein J OS=Escherichia phage P2 OX=10679 GN=J PE=3 SV=1
+sp|P51733|BP29_BPHC1    52.8   2.5e-14   1   1.1   0.0    Putative baseplate protein gp29 OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 GN=29 PE=3 SV=1
+sp|Q9T1V2|BP47_BPMU     42.5   3.5e-11   1   1.4   0.4    Baseplate protein gp47 OS=Escherichia phage Mu OX=10677 GN=Mup47 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P51767|BPJ_BPP2     101.8   3.2e-29     2   0.4    116    302    118    298    185    366     Baseplate protein J OS=Escherichia phage P2 OX=10679 GN=J PE=3 SV=1
+sp|P51733|BP29_BPHC1    52.5   3.2e-14     1   0.0     15    326     19    278     18    264     Putative baseplate protein gp29 OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 GN=29 PE=3 SV=1
+sp|Q9T1V2|BP47_BPMU     41.5   6.9e-11     1   0.4     28    357     57    337     60    342     Baseplate protein gp47 OS=Escherichia phage Mu OX=10677 GN=Mup47 PE=1 SV=1
+sp|P51767|BPJ_BPP2      21.3   9.5e-05     1   0.1      9    111     17    106     10     90     Baseplate protein J OS=Escherichia phage P2 OX=10679 GN=J PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_024723@NC_005882.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_024723@NC_005882.txt data/models_hmm/YP_024723@NC_005882.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:50 2021
+# [ok]

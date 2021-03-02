@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CAB8|VF257_ASFM2    13.1     0.067   1   1.5   2.5    Transmembrane protein C257L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-074 PE=3 SV=1
+sp|Q65158|VF257_ASFB7    12.4      0.11   1   1.5   1.9    Transmembrane protein C257L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-066 PE=3 SV=1
+sp|P12722|SPIKE_IBVD2    10.5      0.42   1   1.5   3.4    Spike glycoprotein OS=Avian infectious bronchitis virus (strain D274) OX=11124 GN=S PE=3 SV=1
+sp|Q3V4V0|Y081_ATV        7.4       3.8   2   2.1  11.4    Uncharacterized protein ORF81 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|P28882|HEMA_PHODV      6.3       8.9   2   2.4   7.1    Hemagglutinin glycoprotein OS=Phocine distemper virus OX=11240 GN=H PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CAB8|VF257_ASFM2    12.0      0.14     1   2.5    162    198    163    189     44     70     Transmembrane protein C257L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-074 PE=3 SV=1
+sp|Q65158|VF257_ASFB7    11.4      0.22     1   1.9    162    198    163    189     44     70     Transmembrane protein C257L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-066 PE=3 SV=1
+sp|P12722|SPIKE_IBVD2     9.4      0.91     1   3.4   1089   1120   1096   1118     41     63     Spike glycoprotein OS=Avian infectious bronchitis virus (strain D274) OX=11124 GN=S PE=3 SV=1
+sp|Q3V4V0|Y081_ATV        8.3       2.1     1   4.1      3     41     10     32     43     64     Uncharacterized protein ORF81 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|Q3V4V0|Y081_ATV        4.1        42     2   0.7     42     79     56     72     49     64     Uncharacterized protein ORF81 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|P28882|HEMA_PHODV      3.5        67     1   4.1     37     70     38     68     48     74     Hemagglutinin glycoprotein OS=Phocine distemper virus OX=11240 GN=H PE=3 SV=2
+sp|P28882|HEMA_PHODV      3.1        84     2   0.0     72    105     80    103     15     38     Hemagglutinin glycoprotein OS=Phocine distemper virus OX=11240 GN=H PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001347@JGI20156J14371_10000996@JGI20156J14371_1000099611.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001347@JGI20156J14371_10000996@JGI20156J14371_1000099611.txt data/models_hmm/3300001347@JGI20156J14371_10000996@JGI20156J14371_1000099611.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:52 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DTC7|NS7A_SARS2    11.5      0.11   1   1.1   0.0    ORF7a protein OS=Severe acute respiratory syndrome coronavirus 2 OX=2697049 GN=7a PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DTC7|NS7A_SARS2    11.1      0.15     1   0.0      7     83     12     77     99    164     ORF7a protein OS=Severe acute respiratory syndrome coronavirus 2 OX=2697049 GN=7a PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000132@MIS_100001325.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000132@MIS_100001325.txt data/models_hmm/3300002026@MIS_10000132@MIS_100001325.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:48 2021
+# [ok]

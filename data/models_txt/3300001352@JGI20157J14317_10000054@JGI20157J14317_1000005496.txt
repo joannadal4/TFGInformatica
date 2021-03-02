@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPZ6|YL308_MIMIV    46.0   3.7e-12   2   2.4  31.6    Uncharacterized protein L308 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L308 PE=4 SV=1
+sp|Q5I153|YD2_MDBVW      13.1     0.037   1   1.1   0.1    Uncharacterized protein D2 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=D2 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPZ6|YL308_MIMIV    40.8   1.4e-10     1  24.9     12    279     17    277      6    268     Uncharacterized protein L308 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L308 PE=4 SV=1
+sp|Q5I153|YD2_MDBVW      12.8     0.045     1   0.1      2     88     17     73     23     80     Uncharacterized protein D2 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=D2 PE=4 SV=1
+sp|Q5UPZ6|YL308_MIMIV    11.4      0.12     2   0.7    273    313    275    303    294    322     Uncharacterized protein L308 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L308 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001352@JGI20157J14317_10000054@JGI20157J14317_1000005496.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001352@JGI20157J14317_10000054@JGI20157J14317_1000005496.txt data/models_hmm/3300001352@JGI20157J14317_10000054@JGI20157J14317_1000005496.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:02 2021
+# [ok]

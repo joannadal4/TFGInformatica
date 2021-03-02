@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DOS9|G1_VAR67      16.4    0.0076   1   2.0   0.2    Metalloendopeptidase G1 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G1L PE=3 SV=1
+sp|P0DOT0|G1_VARV       16.4    0.0076   1   2.0   0.2    Metalloendopeptidase G1 OS=Variola virus OX=10255 GN=G1L PE=3 SV=1
+sp|P68492|MP44_VACCA    15.2     0.017   1   2.0   0.2    Metalloendopeptidase G1 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA070L PE=3 SV=1
+sp|P68493|MP44_VACCT    15.2     0.017   1   2.0   0.2    Metalloendopeptidase G1 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TG1L PE=3 SV=1
+sp|P16713|G1_VACCW      15.1     0.019   1   2.0   0.3    Metalloendopeptidase G1 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR078 PE=1 SV=2
+sp|P21022|G1_VACCC      13.9     0.045   2   2.1   1.6    Metalloendopeptidase G1 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G1L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DOS9|G1_VAR67      14.4     0.031     1   0.2    469    549    483    540     55    112     Metalloendopeptidase G1 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G1L PE=3 SV=1
+sp|P0DOT0|G1_VARV       14.4     0.031     1   0.2    469    549    483    540     55    112     Metalloendopeptidase G1 OS=Variola virus OX=10255 GN=G1L PE=3 SV=1
+sp|P21022|G1_VACCC      13.2     0.071     2   0.2    472    549    483    540     55    112     Metalloendopeptidase G1 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G1L PE=3 SV=1
+sp|P68492|MP44_VACCA    13.2     0.071     1   0.2    472    549    483    540     55    112     Metalloendopeptidase G1 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA070L PE=3 SV=1
+sp|P68493|MP44_VACCT    13.2     0.071     1   0.2    472    549    483    540     55    112     Metalloendopeptidase G1 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TG1L PE=3 SV=1
+sp|P16713|G1_VACCW      13.1     0.076     1   0.3    472    550    483    540     55    112     Metalloendopeptidase G1 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR078 PE=1 SV=2
+sp|P21022|G1_VACCC      -3.9   1.5e+04     1   0.1    271    294    273    291     15     32     Metalloendopeptidase G1 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G1L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000707@SRS019045_WUGC_scaffold_1443@SRS019045_WUGC_scaffold_1443_gene_619.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000707@SRS019045_WUGC_scaffold_1443@SRS019045_WUGC_scaffold_1443_gene_619.txt data/models_hmm/7000000707@SRS019045_WUGC_scaffold_1443@SRS019045_WUGC_scaffold_1443_gene_619.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:02 2021
+# [ok]

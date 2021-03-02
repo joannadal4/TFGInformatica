@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q0E558|Y043_SFAVA     11.6     0.078   1   1.1   0.7    Uncharacterized protein ORF43 OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=ORF43 PE=3 SV=1
+sp|P36865|VPHE_NPVLD      9.5      0.32   1   1.4   4.4    Polyhedral envelope protein OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=3 SV=1
+sp|Q6X2U3|POLS_RUBVB      6.3       3.2   1   1.4   8.6    Structural polyprotein OS=Rubella virus (strain BRD1) OX=376262 PE=3 SV=1
+sp|P0CA28|VF123_ASFP4     6.2       3.4   1   1.1   6.3    Uncharacterized protein CP123L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-103 PE=3 SV=1
+sp|Q6X2U1|POLS_RUBVC      5.7       4.8   1   1.4   8.6    Structural polyprotein OS=Rubella virus (strain BRDII) OX=376263 PE=3 SV=1
+sp|P0CA26|VF123_ASFK5     5.2       6.6   1   1.1   7.5    Uncharacterized protein CP123L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-103 PE=3 SV=1
+sp|Q6GZX3|002L_FRG3G      5.1       7.3   1   1.1  27.8    Uncharacterized protein 002L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-002L PE=4 SV=1
+sp|P0CA29|VF123_ASFWA     5.0       7.4   1   1.1   7.4    Uncharacterized protein CP123L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-101 PE=3 SV=1
+sp|Q66626|VG23_EHV2       4.9       8.1   1   1.1   7.6    Uncharacterized gene 23 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=23 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q0E558|Y043_SFAVA     11.4      0.09     1   0.7     84    158    112    133    269    290     Uncharacterized protein ORF43 OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=ORF43 PE=3 SV=1
+sp|P36865|VPHE_NPVLD      8.7      0.58     1   4.4     89    157    112    140    254    282     Polyhedral envelope protein OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=3 SV=1
+sp|P0CA28|VF123_ASFP4     5.9       4.1     1   6.3     30     71     35     48    266    279     Uncharacterized protein CP123L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-103 PE=3 SV=1
+sp|Q6X2U3|POLS_RUBVB      5.3       6.1     1   8.6      5    113     77    107    254    282     Structural polyprotein OS=Rubella virus (strain BRD1) OX=376262 PE=3 SV=1
+sp|P0CA26|VF123_ASFK5     5.0       7.8     1   7.5     27     72     37     48    268    279     Uncharacterized protein CP123L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-103 PE=3 SV=1
+sp|P0CA29|VF123_ASFWA     4.9       8.3     1   7.4     27     72     37     48    268    279     Uncharacterized protein CP123L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-101 PE=3 SV=1
+sp|Q6X2U1|POLS_RUBVC      4.7       9.1     1   8.6      5    113     77    107    254    282     Structural polyprotein OS=Rubella virus (strain BRDII) OX=376263 PE=3 SV=1
+sp|Q6GZX3|002L_FRG3G      4.7       9.3     1  27.8    224    306    262    297    251    286     Uncharacterized protein 002L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-002L PE=4 SV=1
+sp|Q66626|VG23_EHV2       4.5        11     1   7.6    147    222    175    202    254    281     Uncharacterized gene 23 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=23 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_258270@NC_003102.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_258270@NC_003102.txt data/models_hmm/NP_258270@NC_003102.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:59 2021
+# [ok]

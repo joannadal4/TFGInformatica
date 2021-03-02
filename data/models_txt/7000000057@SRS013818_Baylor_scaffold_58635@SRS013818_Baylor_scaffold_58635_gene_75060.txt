@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64267|VG86_BPMD2    10.9       0.3   1   1.1   1.7    Gene 86 protein OS=Mycobacterium phage D29 OX=28369 GN=86 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64267|VG86_BPMD2    10.6      0.36     1   1.7      5     59     24     51     76    106     Gene 86 protein OS=Mycobacterium phage D29 OX=28369 GN=86 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000057@SRS013818_Baylor_scaffold_58635@SRS013818_Baylor_scaffold_58635_gene_75060.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000057@SRS013818_Baylor_scaffold_58635@SRS013818_Baylor_scaffold_58635_gene_75060.txt data/models_hmm/7000000057@SRS013818_Baylor_scaffold_58635@SRS013818_Baylor_scaffold_58635_gene_75060.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:11 2021
+# [ok]

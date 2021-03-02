@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P19654|REPL_BPP1     14.0     0.029   2   2.2   0.3    Replication protein repL OS=Escherichia phage P1 OX=10678 GN=repL PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P19654|REPL_BPP1      9.9       0.5     2   0.2    163    216    171    211    136    176     Replication protein repL OS=Escherichia phage P1 OX=10678 GN=repL PE=4 SV=1
+sp|P19654|REPL_BPP1      1.7   1.8e+02     1   0.0     37     91     48     70    132    154     Replication protein repL OS=Escherichia phage P1 OX=10678 GN=repL PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001450@JGI24006J15134_10000100@JGI24006J15134_100001009.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001450@JGI24006J15134_10000100@JGI24006J15134_100001009.txt data/models_hmm/3300001450@JGI24006J15134_10000100@JGI24006J15134_100001009.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:15 2021
+# [ok]

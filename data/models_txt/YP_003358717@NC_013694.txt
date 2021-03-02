@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05222|SCAF_BPML5   265.8   1.5e-79   1   1.0   0.9    Probable capsid assembly scaffolding protein OS=Mycobacterium phage L5 OX=31757 GN=16 PE=1 SV=2
+sp|O64209|SCAF_BPMD2   262.4   1.7e-78   1   1.0   1.6    Probable capsid assembly scaffolding protein OS=Mycobacterium phage D29 OX=28369 GN=16 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05222|SCAF_BPML5   265.6   1.7e-79     1   0.9      1    172      1    172      1    171     Probable capsid assembly scaffolding protein OS=Mycobacterium phage L5 OX=31757 GN=16 PE=1 SV=2
+sp|O64209|SCAF_BPMD2   262.2   1.9e-78     1   1.6     13    185     13    185      1    171     Probable capsid assembly scaffolding protein OS=Mycobacterium phage D29 OX=28369 GN=16 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003358717@NC_013694.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003358717@NC_013694.txt data/models_hmm/YP_003358717@NC_013694.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:30 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P18058|INH_BPT4      23.4   4.3e-05   2   3.0   7.8    Protein inh OS=Enterobacteria phage T4 OX=10665 GN=inh PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P18058|INH_BPT4      20.2    0.0004     2   0.0    177    226    199    226    134    161     Protein inh OS=Enterobacteria phage T4 OX=10665 GN=inh PE=4 SV=2
+sp|P18058|INH_BPT4      -0.0   6.7e+02     1   6.9      9    146     16     60      9     53     Protein inh OS=Enterobacteria phage T4 OX=10665 GN=inh PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGN30044@HQ317393.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGN30044@HQ317393.txt data/models_hmm/AGN30044@HQ317393.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:52 2021
+# [ok]

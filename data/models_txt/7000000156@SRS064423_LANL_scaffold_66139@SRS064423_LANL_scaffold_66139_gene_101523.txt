@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P51727|HOLIN_BPHC1    14.4     0.012   1   1.0   0.1    Holin OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 GN=hol PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P51727|HOLIN_BPHC1    14.3     0.013     1   0.1     28     78     39     76     20     57     Holin OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 GN=hol PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000156@SRS064423_LANL_scaffold_66139@SRS064423_LANL_scaffold_66139_gene_101523.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000156@SRS064423_LANL_scaffold_66139@SRS064423_LANL_scaffold_66139_gene_101523.txt data/models_hmm/7000000156@SRS064423_LANL_scaffold_66139@SRS064423_LANL_scaffold_66139_gene_101523.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:59 2021
+# [ok]

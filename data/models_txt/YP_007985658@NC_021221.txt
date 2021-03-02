@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A9CB92|33K_ADES1      47.5   2.5e-12   2   2.0  11.1    Putative protein 33K OS=Snake adenovirus serotype 1 OX=189830 PE=4 SV=1
+sp|P11805|SF33K_ADE40    31.2   2.4e-07   1   1.1   7.1    Protein 33K OS=Human adenovirus F serotype 40 OX=28284 GN=L4 PE=2 SV=2
+sp|P19416|SF33K_ADE41    29.1   1.1e-06   1   1.2   8.9    Protein 33K OS=Human adenovirus F serotype 41 OX=10524 GN=L4 PE=2 SV=1
+sp|P24939|SF33K_ADE02    27.0   4.8e-06   1   1.9  10.1    Protein 33K OS=Human adenovirus C serotype 2 OX=10515 GN=L4 PE=1 SV=1
+sp|P24940|SF33K_ADE05    25.7   1.1e-05   1   2.0  13.4    Protein 33K OS=Human adenovirus C serotype 5 OX=28285 GN=L4 PE=1 SV=1
+sp|A9CB93|22K_ADES1      17.1    0.0053   1   1.1   2.2    Putative protein 22K OS=Snake adenovirus serotype 1 OX=189830 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A9CB92|33K_ADES1      41.7   1.5e-10     2   1.0     84    178     89    175     99    188     Putative protein 33K OS=Snake adenovirus serotype 1 OX=189830 PE=4 SV=1
+sp|P11805|SF33K_ADE40    30.9   2.9e-07     1   7.1      6    208     24    204     23    189     Protein 33K OS=Human adenovirus F serotype 40 OX=28284 GN=L4 PE=2 SV=2
+sp|P19416|SF33K_ADE41    28.7   1.4e-06     1   8.9      6    214     30    210     22    189     Protein 33K OS=Human adenovirus F serotype 41 OX=10524 GN=L4 PE=2 SV=1
+sp|P24939|SF33K_ADE02    24.2   3.5e-05     1  10.1     11    225     23    219     25    187     Protein 33K OS=Human adenovirus C serotype 2 OX=10515 GN=L4 PE=1 SV=1
+sp|P24940|SF33K_ADE05    21.9   0.00017     1  13.4      8    226     38    220     32    187     Protein 33K OS=Human adenovirus C serotype 5 OX=28285 GN=L4 PE=1 SV=1
+sp|A9CB93|22K_ADES1      16.8    0.0063     1   2.2     19    103     21     93      3     75     Putative protein 22K OS=Snake adenovirus serotype 1 OX=189830 PE=4 SV=1
+sp|A9CB92|33K_ADES1      11.2      0.32     1   5.6     19    103     22     93      4     75     Putative protein 33K OS=Snake adenovirus serotype 1 OX=189830 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007985658@NC_021221.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007985658@NC_021221.txt data/models_hmm/YP_007985658@NC_021221.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:07 2021
+# [ok]

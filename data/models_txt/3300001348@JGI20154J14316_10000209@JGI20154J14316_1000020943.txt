@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03277|CAPSH_ADE02    16.1    0.0058   1   1.2   1.9    Hexon protein OS=Human adenovirus C serotype 2 OX=10515 GN=L3 PE=1 SV=3
+sp|P0CA00|P54_ASFWA       6.7       4.2   2   1.7   4.8    Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+sp|P0C9Z9|P54_ASFP4       6.6       4.5   2   1.7   5.5    Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03277|CAPSH_ADE02    15.5    0.0091     1   1.9    112    229    116    174     54    110     Hexon protein OS=Human adenovirus C serotype 2 OX=10515 GN=L3 PE=1 SV=3
+sp|P0C9Z9|P54_ASFP4       7.6       2.3     2   2.7    108    196    131    191    144    202     Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+sp|P0CA00|P54_ASFWA       7.5       2.4     2   2.1    109    192    131    187    144    202     Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+sp|P0CA00|P54_ASFWA      -0.7   7.6e+02     1   0.0     23     70     38     57    248    267     Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+sp|P0C9Z9|P54_ASFP4      -0.7   7.8e+02     1   0.0     23     70     38     57    248    267     Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001348@JGI20154J14316_10000209@JGI20154J14316_1000020943.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001348@JGI20154J14316_10000209@JGI20154J14316_1000020943.txt data/models_hmm/3300001348@JGI20154J14316_10000209@JGI20154J14316_1000020943.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:55 2021
+# [ok]

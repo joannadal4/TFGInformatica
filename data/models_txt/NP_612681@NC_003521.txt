@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6SW94|VGLI_HCMVM   611.1    6e-184   1   1.2   9.5    UL37 immediate early glycoprotein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL37 PE=3 SV=1
+sp|P16778|VGLI_HCMVA   561.2    9e-169   1   1.2  11.0    UL37 immediate early glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL37 PE=1 SV=2
+sp|Q69553|U18_HHV6U     36.8   1.7e-09   1   1.1   4.3    Putative immediate early glycoprotein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U18 PE=3 SV=1
+sp|Q9WT46|U18_HHV6Z     35.0   6.1e-09   1   1.2   6.1    Putative immediate early glycoprotein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U18 PE=3 SV=1
+sp|P03749|TIPJ_LAMBD    11.8     0.067   1   1.5   0.0    Tip attachment protein J OS=Escherichia phage lambda OX=10710 GN=J PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6SW94|VGLI_HCMVM   610.6  8.9e-184     1   9.5      1    488      1    487      4    384     UL37 immediate early glycoprotein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL37 PE=3 SV=1
+sp|P16778|VGLI_HCMVA   560.5  1.4e-168     1  11.0      1    486      1    478      4    379     UL37 immediate early glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL37 PE=1 SV=2
+sp|Q69553|U18_HHV6U     36.5   2.1e-09     1   4.3      2    293     26    292    108    372     Putative immediate early glycoprotein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U18 PE=3 SV=1
+sp|Q9WT46|U18_HHV6Z     34.6     8e-09     1   6.1      1    294     23    293    105    373     Putative immediate early glycoprotein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U18 PE=3 SV=1
+sp|P03749|TIPJ_LAMBD    10.6      0.15     1   0.0   1030   1097   1035   1079    104    148     Tip attachment protein J OS=Escherichia phage lambda OX=10710 GN=J PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_612681@NC_003521.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_612681@NC_003521.txt data/models_hmm/NP_612681@NC_003521.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:10 2021
+# [ok]

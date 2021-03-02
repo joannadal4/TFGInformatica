@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04537|UVSY_BPT4     13.7     0.042   2   1.9   1.4    Recombination protein uvsY OS=Enterobacteria phage T4 OX=10665 GN=uvsY PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04537|UVSY_BPT4     12.2      0.12     1   0.7      6     64      9     51      5     47     Recombination protein uvsY OS=Enterobacteria phage T4 OX=10665 GN=uvsY PE=1 SV=3
+sp|P04537|UVSY_BPT4      1.9   1.8e+02     2   0.1     39     95     43     87    116    157     Recombination protein uvsY OS=Enterobacteria phage T4 OX=10665 GN=uvsY PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001881@JGI24728J21555_1000008@JGI24728J21555_100000845.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001881@JGI24728J21555_1000008@JGI24728J21555_100000845.txt data/models_hmm/3300001881@JGI24728J21555_1000008@JGI24728J21555_100000845.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:34 2021
+# [ok]

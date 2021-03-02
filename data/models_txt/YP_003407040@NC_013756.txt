@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FM9|VF295_IIV6   153.8     4e-45   2   2.2  10.7    Uncharacterized protein 295L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-295L PE=3 SV=1
+sp|Q6GZT5|041R_FRG3G    88.8   1.7e-25   2   1.9   0.0    Uncharacterized protein 041R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-041R PE=4 SV=1
+sp|Q197E4|VF295_IIV3    80.3   6.3e-23   1   1.3   2.5    Uncharacterized protein 016R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-016R PE=3 SV=1
+sp|Q06VN8|Y043_TNAVC    51.5   3.1e-14   2   2.2   3.0    Structural protein ORF43 OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF43 PE=1 SV=1
+sp|Q0E517|Y084_SFAVA    42.3   1.9e-11   1   1.7   0.5    Putative structural protein ORF84 OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=ORF84 PE=3 SV=1
+sp|A4KXK0|Y146_HVAVE    40.2   8.2e-11   1   1.3   0.3    Putative structural protein ORF146 OS=Heliothis virescens ascovirus 3e OX=260797 GN=ORF146 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FM9|VF295_IIV6   153.8     4e-45     1  10.7    373   1020    380   1007    300    846     Uncharacterized protein 295L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-295L PE=3 SV=1
+sp|Q6GZT5|041R_FRG3G    86.0   1.2e-24     1   0.0    285    690    370    680    377    681     Uncharacterized protein 041R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-041R PE=4 SV=1
+sp|Q197E4|VF295_IIV3    79.6     1e-22     1   2.5    296    851    319    704    314    715     Uncharacterized protein 016R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-016R PE=3 SV=1
+sp|Q0E517|Y084_SFAVA    40.4   7.1e-11     1   0.5    367    747    497    739    456    681     Putative structural protein ORF84 OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=ORF84 PE=3 SV=1
+sp|A4KXK0|Y146_HVAVE    39.4   1.4e-10     1   0.3    388    817    451    766    397    682     Putative structural protein ORF146 OS=Heliothis virescens ascovirus 3e OX=260797 GN=ORF146 PE=3 SV=1
+sp|Q06VN8|Y043_TNAVC    30.8   5.7e-08     1   1.0     47    382     68    333    298    541     Structural protein ORF43 OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF43 PE=1 SV=1
+sp|Q06VN8|Y043_TNAVC    20.5   7.4e-05     2   0.0    398    523    413    509    585    682     Structural protein ORF43 OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF43 PE=1 SV=1
+sp|Q6GZT5|041R_FRG3G     0.4        87     2   0.0    905   1127    960   1100    975   1101     Uncharacterized protein 041R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-041R PE=4 SV=1
+sp|Q91FM9|VF295_IIV6    -5.6   5.4e+03     2   1.7   1098   1231   1156   1195    959    999     Uncharacterized protein 295L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-295L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003407040@NC_013756.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003407040@NC_013756.txt data/models_hmm/YP_003407040@NC_013756.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:34 2021
+# [ok]

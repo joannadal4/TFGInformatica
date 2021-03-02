@@ -1,0 +1,50 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q85672|S3BIS_DPIRV    20.2    0.0005   3   3.5   0.5    Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+sp|P00726|SPAN1_LAMBD    15.2     0.018   1   1.4   0.8    Spanin, inner membrane subunit OS=Escherichia phage lambda OX=10710 GN=Rz PE=1 SV=1
+sp|P27358|SPAN1_BPP21    14.2     0.035   1   1.5   0.5    Spanin, inner membrane subunit OS=Enterobacteria phage P21 OX=10711 GN=Rz PE=3 SV=1
+sp|Q9INI1|NS2_BAVJK      10.5      0.52   2   2.6   4.3    Non-structural protein 2 OS=Banna virus (strain Indonesia/JKT-6423/1980) OX=649604 GN=Segment-6 PE=4 SV=1
+sp|O55736|122R_IIV6       9.6         1   3   2.3   7.3    Uncharacterized protein 122R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-122R PE=4 SV=1
+sp|B0FII2|FIB20_BPE32     9.5       1.1   3   3.0   4.2    Putative tail tip fiber protein OS=Escherichia phage Phieco32 OX=490103 GN=phi32_20 PE=4 SV=1
+sp|P14363|V249_FOWPN      9.1       1.5   3   2.8  12.8    Uncharacterized protein FPV249 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV249 PE=4 SV=1
+sp|Q197B1|049R_IIV3       8.2       2.8   5   4.7   8.3    Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P00726|SPAN1_LAMBD    14.2     0.037     1   0.8     25     90     29     85      6     62     Spanin, inner membrane subunit OS=Escherichia phage lambda OX=10710 GN=Rz PE=1 SV=1
+sp|P27358|SPAN1_BPP21    13.3     0.071     1   0.5     25     90     29     85      6     62     Spanin, inner membrane subunit OS=Enterobacteria phage P21 OX=10711 GN=Rz PE=3 SV=1
+sp|O55736|122R_IIV6      12.3      0.15     1   1.1     15     62     28     56     37     65     Uncharacterized protein 122R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-122R PE=4 SV=1
+sp|Q9INI1|NS2_BAVJK       9.2       1.3     1   2.1      6     61     36     55     44     63     Non-structural protein 2 OS=Banna virus (strain Indonesia/JKT-6423/1980) OX=649604 GN=Segment-6 PE=4 SV=1
+sp|P14363|V249_FOWPN      7.8       3.5     2   2.5     25     78     30     68     26     62     Uncharacterized protein FPV249 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV249 PE=4 SV=1
+sp|Q85672|S3BIS_DPIRV     7.8       3.7     2   0.0    346    405    353    391     23     61     Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+sp|Q85672|S3BIS_DPIRV     7.8       3.7     3   0.0    696    755    703    741     23     61     Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+sp|P14363|V249_FOWPN      6.1        13     3   2.1     68    105     90    105     45     60     Uncharacterized protein FPV249 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV249 PE=4 SV=1
+sp|Q197B1|049R_IIV3       5.5        20     4   0.0    372    411    381    408     36     63     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|B0FII2|FIB20_BPE32     5.4        21     2   0.0    117    171    127    165     27     65     Putative tail tip fiber protein OS=Escherichia phage Phieco32 OX=490103 GN=phi32_20 PE=4 SV=1
+sp|B0FII2|FIB20_BPE32     4.4        43     1   0.2     33    106     60     94     19     52     Putative tail tip fiber protein OS=Escherichia phage Phieco32 OX=490103 GN=phi32_20 PE=4 SV=1
+sp|P14363|V249_FOWPN      3.6        76     1   0.4      6     46     15     38     35     58     Uncharacterized protein FPV249 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV249 PE=4 SV=1
+sp|Q197B1|049R_IIV3       2.0   2.4e+02     1   0.1     65    130     81    121     20     60     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q197B1|049R_IIV3       1.0   4.8e+02     5   0.0    522    567    543    558     49     64     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q9INI1|NS2_BAVJK       0.1   8.9e+02     2   0.0     56    113     68     92     25     49     Non-structural protein 2 OS=Banna virus (strain Indonesia/JKT-6423/1980) OX=649604 GN=Segment-6 PE=4 SV=1
+sp|O55736|122R_IIV6       0.0   9.9e+02     3   0.3    100    140    104    130     16     41     Uncharacterized protein 122R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-122R PE=4 SV=1
+sp|O55736|122R_IIV6      -0.2   1.1e+03     2   0.2     81    129    104    115     16     58     Uncharacterized protein 122R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-122R PE=4 SV=1
+sp|Q85672|S3BIS_DPIRV    -0.3   1.2e+03     1   0.0      6     53     18     41     38     61     Uncharacterized protein S3bis OS=Diadromus pulchellus idnoreovirus 1 OX=37368 GN=S3bis PE=4 SV=1
+sp|Q197B1|049R_IIV3      -1.0     2e+03     3   0.1    332    375    351    367     51     67     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|B0FII2|FIB20_BPE32    -1.4   2.6e+03     3   0.3    232    272    240    257     25     42     Putative tail tip fiber protein OS=Escherichia phage Phieco32 OX=490103 GN=phi32_20 PE=4 SV=1
+sp|Q197B1|049R_IIV3      -2.5   5.8e+03     2   0.2    158    213    168    203     23     57     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000037@TBL_comb48_EPIDRAFT_100003798.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000037@TBL_comb48_EPIDRAFT_100003798.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000037@TBL_comb48_EPIDRAFT_100003798.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:37 2021
+# [ok]

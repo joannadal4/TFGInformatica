@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64210|CAPSD_BPMD2    13.2     0.033   1   1.2   0.2    Probable major capsid protein gp17 OS=Mycobacterium phage D29 OX=28369 GN=17 PE=3 SV=1
+sp|Q05223|CAPSD_BPML5    12.8     0.043   1   1.2   0.3    Probable major capsid protein gp17 OS=Mycobacterium phage L5 OX=31757 GN=17 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64210|CAPSD_BPMD2    12.6     0.051     1   0.2     79    153     91    132    252    293     Probable major capsid protein gp17 OS=Mycobacterium phage D29 OX=28369 GN=17 PE=3 SV=1
+sp|Q05223|CAPSD_BPML5    12.2     0.068     1   0.3     85    157     96    136    252    292     Probable major capsid protein gp17 OS=Mycobacterium phage L5 OX=31757 GN=17 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008437624@NC_022098.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008437624@NC_022098.txt data/models_hmm/YP_008437624@NC_022098.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:14 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39237|Y05L_BPT4    101.1   3.8e-29   1   1.0   3.3    Uncharacterized 6.8 kDa protein in mobD-ri intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y05L PE=4 SV=2
+sp|P13306|Y06A_BPT4     16.9    0.0076   1   1.4   1.1    Uncharacterized 7.2 kDa protein in tk-vs intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y06A PE=4 SV=1
+sp|P39238|Y05K_BPT4     13.9     0.065   1   1.6   0.5    Uncharacterized 7.6 kDa protein in mobD-ri intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y05K PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39237|Y05L_BPT4    101.0   4.2e-29     1   3.3      1     60      1     60      1     63     Uncharacterized 6.8 kDa protein in mobD-ri intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y05L PE=4 SV=2
+sp|P13306|Y06A_BPT4     16.1     0.013     1   1.1      1     62      1     59      1     57     Uncharacterized 7.2 kDa protein in tk-vs intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y06A PE=4 SV=1
+sp|P39238|Y05K_BPT4     12.9      0.13     1   0.5      1     62      1     58      1     57     Uncharacterized 7.6 kDa protein in mobD-ri intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y05K PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004063789@NC_014792.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004063789@NC_014792.txt data/models_hmm/YP_004063789@NC_014792.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:06 2021
+# [ok]

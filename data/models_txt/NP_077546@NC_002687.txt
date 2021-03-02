@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q196T5|125R_IIV3      13.8      0.04   1   1.4   0.1    Uncharacterized protein 125R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-125R PE=4 SV=1
+sp|P27981|REV_SIVVG      12.9     0.078   1   1.2   0.0    Protein Rev OS=Simian immunodeficiency virus agm.vervet (isolate AGM3) OX=11730 GN=rev PE=3 SV=1
+sp|P51897|VE4_HPV29       9.0       1.3   2   2.2   7.3    Protein E4 OS=Human papillomavirus type 29 OX=37112 GN=E4 PE=3 SV=2
+sp|Q84711|MCAPS_PEMVW     7.0       5.3   3   3.0  12.3    Minor capsid protein P3-RTD OS=Pea enation mosaic virus-1 (strain WSG) OX=693989 GN=ORF3/ORF5 PE=3 SV=2
+sp|Q66650|VG48_EHV2       6.4       8.5   1   1.6   9.6    Tegument protein G48 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=48 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q196T5|125R_IIV3      13.0     0.075     1   0.1     10     93     14     93      5     89     Uncharacterized protein 125R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-125R PE=4 SV=1
+sp|P27981|REV_SIVVG      12.3      0.12     1   0.0     17     79     22     75     20     68     Protein Rev OS=Simian immunodeficiency virus agm.vervet (isolate AGM3) OX=11730 GN=rev PE=3 SV=1
+sp|P51897|VE4_HPV29       6.4       8.1     1   0.6      1     46     16     29     12     25     Protein E4 OS=Human papillomavirus type 29 OX=37112 GN=E4 PE=3 SV=2
+sp|P51897|VE4_HPV29       6.4       8.3     2   1.2     55     88     63     77      9     23     Protein E4 OS=Human papillomavirus type 29 OX=37112 GN=E4 PE=3 SV=2
+sp|Q66650|VG48_EHV2       5.1        21     1   9.6    329    357    332    351      8     27     Tegument protein G48 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=48 PE=3 SV=2
+sp|Q84711|MCAPS_PEMVW     3.7        58     2  10.3    191    245    195    213      6     24     Minor capsid protein P3-RTD OS=Pea enation mosaic virus-1 (strain WSG) OX=693989 GN=ORF3/ORF5 PE=3 SV=2
+sp|Q84711|MCAPS_PEMVW     1.1   3.8e+02     3   0.0    436    475    445    471     16     41     Minor capsid protein P3-RTD OS=Pea enation mosaic virus-1 (strain WSG) OX=693989 GN=ORF3/ORF5 PE=3 SV=2
+sp|Q84711|MCAPS_PEMVW    -2.0   3.4e+03     1   0.0    139    167    148    161     34     47     Minor capsid protein P3-RTD OS=Pea enation mosaic virus-1 (strain WSG) OX=693989 GN=ORF3/ORF5 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_077546@NC_002687.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_077546@NC_002687.txt data/models_hmm/NP_077546@NC_002687.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:51 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6SWC5|UL05_HCMVM    339.7  2.7e-102   1   1.0   0.8    Protein UL5 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL5 PE=4 SV=1
+sp|P16776|UL05_HCMVA    335.7  4.7e-101   1   1.0   0.8    Protein UL5 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL5 PE=3 SV=1
+sp|Q6SWB9|UL11P_HCMVM     9.9      0.66   1   1.7   7.3    Protein UL11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL11 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6SWC5|UL05_HCMVM    339.6    3e-102     1   0.8      1    166      1    166      1    166     Protein UL5 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL5 PE=4 SV=1
+sp|P16776|UL05_HCMVA    335.5  5.2e-101     1   0.8      1    166      1    166      1    166     Protein UL5 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL5 PE=3 SV=1
+sp|Q6SWB9|UL11P_HCMVM     8.6       1.7     1   7.1    128    264    153    254     56    141     Protein UL11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL11 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_612650@NC_003521.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_612650@NC_003521.txt data/models_hmm/NP_612650@NC_003521.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:10 2021
+# [ok]

@@ -1,0 +1,50 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A9CB97|E43_ADES1    298.5   3.2e-89   1   1.0   9.9    Protein E4.3 OS=Snake adenovirus serotype 1 OX=189830 PE=4 SV=1
+sp|Q96690|E434_ADECR    29.0     7e-07   2   1.7   0.9    Early E4 31 kDa protein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 PE=3 SV=1
+sp|Q65962|E434_ADECC    28.3   1.2e-06   2   1.7   0.9    Early E4 31 kDa protein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 PE=3 SV=1
+sp|P03239|E434_ADE02    25.7   7.5e-06   1   1.9   1.1    Early 4 ORF6 protein OS=Human adenovirus C serotype 2 OX=10515 PE=1 SV=1
+sp|P87568|E434_ADECT    25.6   7.5e-06   2   1.9   3.4    Early E4 30 kDa protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 PE=3 SV=1
+sp|P89083|E434_ADE09    25.4   8.9e-06   1   1.6   1.6    Early E4 34 kDa protein OS=Human adenovirus D serotype 9 OX=10527 PE=3 SV=1
+sp|Q64865|E434_ADE40    20.7   0.00025   2   1.7   0.3    Early E4 34 kDa protein OS=Human adenovirus F serotype 40 OX=28284 PE=3 SV=2
+sp|A9CB98|E42_ADES1     18.1    0.0015   1   1.8  14.1    Protein E4.2 OS=Snake adenovirus serotype 1 OX=189830 PE=4 SV=1
+sp|P36710|E434_ADE12    16.8    0.0037   2   2.0   2.0    Early E4 34 kDa protein OS=Human adenovirus A serotype 12 OX=28282 PE=3 SV=1
+sp|P68341|TEG6_EHV1K    13.8     0.031   1   1.3   0.2    Tegument protein UL55 homolog OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=4 PE=3 SV=1
+sp|Q6S6R7|TEG6_EHV1B    13.8     0.031   1   1.3   0.2    Tegument protein UL55 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=4 PE=3 SV=1
+sp|Q77MR2|VG69_GAHVM    11.0      0.22   1   1.2   0.5    Uncharacterized gene 69 protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV069 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A9CB97|E43_ADES1    298.4   3.6e-89     1   9.9      1    217      1    215      4    216     Protein E4.3 OS=Snake adenovirus serotype 1 OX=189830 PE=4 SV=1
+sp|Q96690|E434_ADECR    29.0     7e-07     1   0.9     41    115     66    106     37     77     Early E4 31 kDa protein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 PE=3 SV=1
+sp|Q65962|E434_ADECC    28.3   1.2e-06     1   0.9     41    115     66    106     37     77     Early E4 31 kDa protein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 PE=3 SV=1
+sp|P87568|E434_ADECT    25.6   7.5e-06     1   3.4     24    107     58    100     36     77     Early E4 30 kDa protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 PE=3 SV=1
+sp|P89083|E434_ADE09    24.3     2e-05     1   1.5     79    230    108    223     48    150     Early E4 34 kDa protein OS=Human adenovirus D serotype 9 OX=10527 PE=3 SV=1
+sp|P03239|E434_ADE02    23.8   2.8e-05     1   1.0     92    241    119    234     49    151     Early 4 ORF6 protein OS=Human adenovirus C serotype 2 OX=10515 PE=1 SV=1
+sp|Q64865|E434_ADE40    20.7   0.00025     1   0.3     87    168    110    139     49     78     Early E4 34 kDa protein OS=Human adenovirus F serotype 40 OX=28284 PE=3 SV=2
+sp|A9CB98|E42_ADES1     18.1    0.0015     1  14.1     31    198     62    136     36    107     Protein E4.2 OS=Snake adenovirus serotype 1 OX=189830 PE=4 SV=1
+sp|P36710|E434_ADE12    16.8    0.0037     1   2.0     73    150    108    132     48     72     Early E4 34 kDa protein OS=Human adenovirus A serotype 12 OX=28282 PE=3 SV=1
+sp|P68341|TEG6_EHV1K    13.1      0.05     1   0.2    148    191    157    175     51     69     Tegument protein UL55 homolog OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=4 PE=3 SV=1
+sp|Q6S6R7|TEG6_EHV1B    13.1      0.05     1   0.2    148    191    157    175     51     69     Tegument protein UL55 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=4 PE=3 SV=1
+sp|Q77MR2|VG69_GAHVM    10.5      0.33     1   0.5    181    241    192    228     43     78     Uncharacterized gene 69 protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV069 PE=4 SV=1
+sp|P87568|E434_ADECT    -1.9   1.9e+03     2   0.7    144    225    187    212     52     79     Early E4 30 kDa protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 PE=3 SV=1
+sp|Q65962|E434_ADECC    -2.3   2.7e+03     2   0.3    142    231    193    193     52     52     Early E4 31 kDa protein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 PE=3 SV=1
+sp|Q96690|E434_ADECR    -2.3   2.7e+03     2   0.3    142    231    193    193     52     52     Early E4 31 kDa protein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 PE=3 SV=1
+sp|P36710|E434_ADE12    -2.6   3.1e+03     2   1.9    206    253    211    241     51     79     Early E4 34 kDa protein OS=Human adenovirus A serotype 12 OX=28282 PE=3 SV=1
+sp|Q64865|E434_ADE40    -2.8   3.7e+03     2   0.2    208    249    217    232     55     70     Early E4 34 kDa protein OS=Human adenovirus F serotype 40 OX=28284 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_659530@NC_004037.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_659530@NC_004037.txt data/models_hmm/NP_659530@NC_004037.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:13 2021
+# [ok]

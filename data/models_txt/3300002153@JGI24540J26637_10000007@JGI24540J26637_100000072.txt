@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DSS1|I5_VAR67      12.1      0.13   1   1.4   0.7    Protein I5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=I5L PE=2 SV=1
+sp|P0DSS2|I5_VARV       12.1      0.13   1   1.4   0.7    Protein I5 OS=Variola virus OX=10255 GN=I5L PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DSS1|I5_VAR67      11.8      0.16     1   0.3      1     44      1     34     62     93     Protein I5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=I5L PE=2 SV=1
+sp|P0DSS2|I5_VARV       11.8      0.16     1   0.3      1     44      1     34     62     93     Protein I5 OS=Variola virus OX=10255 GN=I5L PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002153@JGI24540J26637_10000007@JGI24540J26637_100000072.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002153@JGI24540J26637_10000007@JGI24540J26637_100000072.txt data/models_hmm/3300002153@JGI24540J26637_10000007@JGI24540J26637_100000072.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:13 2021
+# [ok]

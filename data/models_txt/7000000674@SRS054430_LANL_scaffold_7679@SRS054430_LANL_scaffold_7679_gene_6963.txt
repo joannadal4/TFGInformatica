@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DSQ3|A14_VAR67     11.9      0.13   1   1.1   1.0    Virion membrane protein A14 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A14L PE=3 SV=1
+sp|P0DSQ4|A14_VARV      11.9      0.13   1   1.1   1.0    Virion membrane protein A14 OS=Variola virus OX=10255 GN=A14L PE=3 SV=1
+sp|P0DTD8|NS7B_SARS2    10.9      0.28   1   1.0   2.9    ORF7b protein OS=Severe acute respiratory syndrome coronavirus 2 OX=2697049 GN=7b PE=1 SV=1
+sp|P42547|YO12_BPL2      6.5       6.2   2   1.9   7.0    Uncharacterized 17.2 kDa protein OS=Acholeplasma phage L2 OX=46014 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DSQ3|A14_VAR67     11.8      0.14     1   1.0      3     84     17     62     31     76     Virion membrane protein A14 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A14L PE=3 SV=1
+sp|P0DSQ4|A14_VARV      11.8      0.14     1   1.0      3     84     17     62     31     76     Virion membrane protein A14 OS=Variola virus OX=10255 GN=A14L PE=3 SV=1
+sp|P0DTD8|NS7B_SARS2    10.9      0.27     1   2.9      1     42      8     35     22     49     ORF7b protein OS=Severe acute respiratory syndrome coronavirus 2 OX=2697049 GN=7b PE=1 SV=1
+sp|P42547|YO12_BPL2      9.3      0.81     2   2.2     41    127     60    116     31     82     Uncharacterized 17.2 kDa protein OS=Acholeplasma phage L2 OX=46014 PE=4 SV=1
+sp|P42547|YO12_BPL2     -0.7     1e+03     1   0.2      5     51     17     31     62     76     Uncharacterized 17.2 kDa protein OS=Acholeplasma phage L2 OX=46014 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000674@SRS054430_LANL_scaffold_7679@SRS054430_LANL_scaffold_7679_gene_6963.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000674@SRS054430_LANL_scaffold_7679@SRS054430_LANL_scaffold_7679_gene_6963.txt data/models_hmm/7000000674@SRS054430_LANL_scaffold_7679@SRS054430_LANL_scaffold_7679_gene_6963.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:54 2021
+# [ok]

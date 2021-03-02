@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C9G1|1101L_ASFWA    12.2     0.058   1   1.1   0.2    Protein MGF 110-1L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-006 PE=3 SV=1
+sp|P0C9G4|1101L_ASFP4    12.2     0.058   1   1.1   0.2    Protein MGF 110-1L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-008 PE=3 SV=1
+sp|P0C9G3|1101L_ASFM2    10.2      0.22   1   1.1   0.3    Protein MGF 110-1L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-005 PE=3 SV=1
+sp|P11805|SF33K_ADE40     7.4       1.6   2   1.5   5.8    Protein 33K OS=Human adenovirus F serotype 40 OX=28284 GN=L4 PE=2 SV=2
+sp|P29839|UL84_HCMVT      6.5       3.1   1   1.2   4.5    UL84 protein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL84 PE=2 SV=1
+sp|Q8BDD9|VE8_BPV3        6.3       3.4   1   1.0   4.2    Uncharacterized protein E8 OS=Bovine papillomavirus type 3 OX=10561 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C9G1|1101L_ASFWA    11.7     0.078     1   0.2     99    173    117    168     41     92     Protein MGF 110-1L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-006 PE=3 SV=1
+sp|P0C9G4|1101L_ASFP4    11.7     0.078     1   0.2     99    173    117    168     41     92     Protein MGF 110-1L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-008 PE=3 SV=1
+sp|P0C9G3|1101L_ASFM2     9.8      0.31     1   0.3    101    174    118    169     41     92     Protein MGF 110-1L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-005 PE=3 SV=1
+sp|P11805|SF33K_ADE40     9.0      0.52     1   3.0      4    107      9     79    316    387     Protein 33K OS=Human adenovirus F serotype 40 OX=28284 GN=L4 PE=2 SV=2
+sp|Q8BDD9|VE8_BPV3        6.2       3.7     1   4.2     18     72     29     70     42     84     Uncharacterized protein E8 OS=Bovine papillomavirus type 3 OX=10561 PE=4 SV=1
+sp|P29839|UL84_HCMVT      5.8         5     1   4.5    128    200    132    195    300    365     UL84 protein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL84 PE=2 SV=1
+sp|P11805|SF33K_ADE40    -2.5   1.6e+03     2   0.0    158    205    167    194    196    223     Protein 33K OS=Human adenovirus F serotype 40 OX=28284 GN=L4 PE=2 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000029@SRS042131_WUGC_scaffold_2136@SRS042131_WUGC_scaffold_2136_gene_2844.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000029@SRS042131_WUGC_scaffold_2136@SRS042131_WUGC_scaffold_2136_gene_2844.txt data/models_hmm/7000000029@SRS042131_WUGC_scaffold_2136@SRS042131_WUGC_scaffold_2136_gene_2844.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:51 2021
+# [ok]

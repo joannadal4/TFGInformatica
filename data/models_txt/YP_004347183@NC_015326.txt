@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P23801|PE38_NPVAC     14.7     0.011   1   1.4   3.1    Major immediate early protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PE38 PE=4 SV=2
+sp|P13583|SPAN1_BPP22    14.4     0.013   1   1.1   0.4    Spanin, inner membrane subunit OS=Salmonella phage P22 OX=10754 GN=15 PE=3 SV=1
+sp|P21270|LY_BPSF6        8.4      0.88   2   2.3   3.9    Putative lysozyme OS=Bacillus phage SF6 OX=10773 PE=3 SV=1
+sp|P03528|SIGM1_REOVD     8.3      0.93   2   2.2   4.6    Outer capsid protein sigma-1 OS=Reovirus type 3 (strain Dearing) OX=10886 GN=S1 PE=1 SV=3
+sp|Q37887|SCAF_BPB03      7.5       1.7   1   1.2   6.2    Capsid assembly scaffolding protein OS=Bacillus phage B103 OX=10778 GN=7 PE=3 SV=1
+sp|Q91G56|042R_IIV6       6.8       2.8   2   1.7   6.8    Uncharacterized protein 042R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-042R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13583|SPAN1_BPP22    14.1     0.016     1   0.4     19     95     36     86    151    201     Spanin, inner membrane subunit OS=Salmonella phage P22 OX=10754 GN=15 PE=3 SV=1
+sp|P23801|PE38_NPVAC     13.8      0.02     1   3.1    160    291    174    282    157    261     Major immediate early protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PE38 PE=4 SV=2
+sp|Q37887|SCAF_BPB03      7.1       2.2     1   6.2      3     99      5     78    170    243     Capsid assembly scaffolding protein OS=Bacillus phage B103 OX=10778 GN=7 PE=3 SV=1
+sp|Q91G56|042R_IIV6       5.5       6.8     1   6.1      1     76      4     56    194    246     Uncharacterized protein 042R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-042R PE=4 SV=1
+sp|P03528|SIGM1_REOVD     5.4       7.5     2   0.3     78    175    114    165    206    257     Outer capsid protein sigma-1 OS=Reovirus type 3 (strain Dearing) OX=10886 GN=S1 PE=1 SV=3
+sp|P21270|LY_BPSF6        5.2       8.3     1   0.8      3    117      6     96    170    255     Putative lysozyme OS=Bacillus phage SF6 OX=10773 PE=3 SV=1
+sp|P03528|SIGM1_REOVD     4.4        14     1   0.9      3    105      6     94    170    253     Outer capsid protein sigma-1 OS=Reovirus type 3 (strain Dearing) OX=10886 GN=S1 PE=1 SV=3
+sp|P21270|LY_BPSF6        4.3        15     2   0.2     81    176    116    163    208    255     Putative lysozyme OS=Bacillus phage SF6 OX=10773 PE=3 SV=1
+sp|Q91G56|042R_IIV6       4.1        18     2   1.4     35     90     39     79    180    220     Uncharacterized protein 042R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-042R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004347183@NC_015326.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004347183@NC_015326.txt data/models_hmm/YP_004347183@NC_015326.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:23 2021
+# [ok]

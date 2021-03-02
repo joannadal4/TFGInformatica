@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03551|VAP_CAMVS      15.8    0.0089   1   1.1   1.9    Virion-associated protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF III PE=1 SV=1
+sp|P03553|VAP_CAMVD      14.0      0.03   1   1.1   1.6    Virion-associated protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF III PE=3 SV=1
+sp|A6QL29|AGNO1_BFPYV    13.8     0.036   1   1.1   0.1    Avian agnoprotein 1a OS=Budgerigar fledgling disease virus OX=1891747 PE=1 SV=1
+sp|Q00967|VAP_CAMVN      13.7     0.038   1   1.1   2.5    Virion-associated protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF III PE=3 SV=1
+sp|Q02967|VAP_CAMVE      13.5     0.042   1   1.1   2.4    Virion-associated protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF III PE=3 SV=1
+sp|P03552|VAP_CAMVC      13.5     0.043   1   1.1   2.4    Virion-associated protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF III PE=3 SV=1
+sp|P23801|PE38_NPVAC      6.0       8.4   2   2.2  15.6    Major immediate early protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PE38 PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03551|VAP_CAMVS      15.4     0.011     1   1.9      2     90     10     84    123    199     Virion-associated protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF III PE=1 SV=1
+sp|P03553|VAP_CAMVD      13.7     0.038     1   1.6      2     90     10     83    123    198     Virion-associated protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF III PE=3 SV=1
+sp|A6QL29|AGNO1_BFPYV    13.4     0.048     1   0.1     64    118     75    111     64    101     Avian agnoprotein 1a OS=Budgerigar fledgling disease virus OX=1891747 PE=1 SV=1
+sp|Q00967|VAP_CAMVN      13.4     0.048     1   2.5      2     90     10     84    123    199     Virion-associated protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF III PE=3 SV=1
+sp|P03552|VAP_CAMVC      13.2     0.054     1   2.4      2     90     10     84    123    199     Virion-associated protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF III PE=3 SV=1
+sp|Q02967|VAP_CAMVE      13.2     0.054     1   2.4      2     90     10     84    123    199     Virion-associated protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF III PE=3 SV=1
+sp|P23801|PE38_NPVAC     12.9     0.068     2   2.9    118    255    169    240     84    160     Major immediate early protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PE38 PE=4 SV=2
+sp|P23801|PE38_NPVAC     -1.2   1.4e+03     1   4.9      3     82      6     58     43     98     Major immediate early protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PE38 PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008873458@NC_023007.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008873458@NC_023007.txt data/models_hmm/YP_008873458@NC_023007.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:44 2021
+# [ok]

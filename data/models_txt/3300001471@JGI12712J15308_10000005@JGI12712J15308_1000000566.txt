@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FK9|315L_IIV6     23.7   2.7e-05   1   1.3   0.0    Putative KilA-N domain-containing protein 315L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-315L PE=4 SV=1
+sp|Q91F66|460R_IIV6     16.6    0.0042   1   1.2   0.1    Uncharacterized protein 460R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-460R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FK9|315L_IIV6     22.9   4.7e-05     1   0.0    101    210    106    198     31    115     Putative KilA-N domain-containing protein 315L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-315L PE=4 SV=1
+sp|Q91F66|460R_IIV6     16.3    0.0052     1   0.1      1    143      5     89     39    117     Uncharacterized protein 460R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-460R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001471@JGI12712J15308_10000005@JGI12712J15308_1000000566.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001471@JGI12712J15308_10000005@JGI12712J15308_1000000566.txt data/models_hmm/3300001471@JGI12712J15308_10000005@JGI12712J15308_1000000566.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:36 2021
+# [ok]

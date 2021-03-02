@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P06828|FUS_PI3H4     11.5      0.21   2   2.6   0.9    Fusion glycoprotein F0 OS=Human parainfluenza 3 virus (strain Wash/47885/57) OX=11217 GN=F PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P06828|FUS_PI3H4      6.0        12     2   0.0    450    486    455    475     43     63     Fusion glycoprotein F0 OS=Human parainfluenza 3 virus (strain Wash/47885/57) OX=11217 GN=F PE=1 SV=2
+sp|P06828|FUS_PI3H4      3.1        90     1   0.3    122    181    133    167     44     82     Fusion glycoprotein F0 OS=Human parainfluenza 3 virus (strain Wash/47885/57) OX=11217 GN=F PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000109@SRS011306_Baylor_scaffold_37810@SRS011306_Baylor_scaffold_37810_gene_44092.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000109@SRS011306_Baylor_scaffold_37810@SRS011306_Baylor_scaffold_37810_gene_44092.txt data/models_hmm/7000000109@SRS011306_Baylor_scaffold_37810@SRS011306_Baylor_scaffold_37810_gene_44092.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:27 2021
+# [ok]

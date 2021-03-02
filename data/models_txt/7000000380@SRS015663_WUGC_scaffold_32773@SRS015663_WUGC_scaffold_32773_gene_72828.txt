@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41433|Y029_NPVAC    19.7   0.00073   1   1.0   2.2    Uncharacterized 8.6 kDa protein in IAP1-SOD intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|P11258|A27_VACCW     13.8     0.046   1   1.2   1.5    Protein A27 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR150 PE=1 SV=3
+sp|P33816|A27_VAR67     13.7     0.053   1   1.2   1.0    14 kDa fusion protein OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A27L PE=3 SV=1
+sp|Q914J7|Y033_SIFVH     7.4       4.5   2   2.2  12.5    Uncharacterized protein 33 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0033 PE=4 SV=1
+sp|P03456|HEMA_I68A3     6.6       7.8   2   2.3   8.5    Hemagglutinin OS=Influenza A virus (strain A/Turkey/Ontario/6118/1968 H8N4) OX=311175 GN=HA PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41433|Y029_NPVAC    19.5   0.00083     1   2.2      2     70     10     69     36     96     Uncharacterized 8.6 kDa protein in IAP1-SOD intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|P11258|A27_VACCW     13.4     0.064     1   1.5     14    104     23     98     32     93     Protein A27 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR150 PE=1 SV=3
+sp|P33816|A27_VAR67     13.2     0.071     1   1.0     14    104     22     93     31     88     14 kDa fusion protein OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A27L PE=3 SV=1
+sp|Q914J7|Y033_SIFVH    11.7      0.21     1   4.7      1     89      4     42     35     73     Uncharacterized protein 33 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0033 PE=4 SV=1
+sp|P03456|HEMA_I68A3     8.7       1.9     1   2.9    375    434    380    423     40     83     Hemagglutinin OS=Influenza A virus (strain A/Turkey/Ontario/6118/1968 H8N4) OX=311175 GN=HA PE=3 SV=2
+sp|Q914J7|Y033_SIFVH     0.7   5.5e+02     2   1.2     59    129     95    117     32     54     Uncharacterized protein 33 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0033 PE=4 SV=1
+sp|P03456|HEMA_I68A3     0.5   6.1e+02     2   0.4    427    530    441    472     24     55     Hemagglutinin OS=Influenza A virus (strain A/Turkey/Ontario/6118/1968 H8N4) OX=311175 GN=HA PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000380@SRS015663_WUGC_scaffold_32773@SRS015663_WUGC_scaffold_32773_gene_72828.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000380@SRS015663_WUGC_scaffold_32773@SRS015663_WUGC_scaffold_32773_gene_72828.txt data/models_hmm/7000000380@SRS015663_WUGC_scaffold_32773@SRS015663_WUGC_scaffold_32773_gene_72828.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:43 2021
+# [ok]

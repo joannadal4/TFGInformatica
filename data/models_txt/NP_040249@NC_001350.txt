@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O36396|GL_ALHV1     182.5     4e-54   1   1.0   0.9    Envelope glycoprotein L OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=gL PE=3 SV=1
+sp|F5HDB7|GL_HHV8P     177.0   1.9e-52   1   1.0   0.6    Envelope glycoprotein L OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=gL PE=1 SV=1
+sp|Q66649|GL_EHV2      173.4   2.5e-51   1   1.0   0.4    Envelope glycoprotein L OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=gL PE=3 SV=1
+sp|Q01031|GL_SHV21     159.3   5.4e-47   1   1.0   1.3    Envelope glycoprotein L OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=gL PE=3 SV=1
+sp|P03212|GL_EBVB9      62.0   4.7e-17   1   1.0   0.3    Envelope glycoprotein L OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=gL PE=1 SV=1
+sp|Q3KSS3|GL_EBVG       62.0   4.8e-17   1   1.0   0.5    Envelope glycoprotein L OS=Epstein-Barr virus (strain GD1) OX=10376 GN=gL PE=1 SV=1
+sp|Q1HVF6|GL_EBVA8      61.5     7e-17   1   1.0   0.4    Envelope glycoprotein L OS=Epstein-Barr virus (strain AG876) OX=82830 GN=gL PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O36396|GL_ALHV1     182.3   4.5e-54     1   0.9      1    158      1    157      1    155     Envelope glycoprotein L OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=gL PE=3 SV=1
+sp|F5HDB7|GL_HHV8P     176.8   2.2e-52     1   0.6      1    154      3    153      6    155     Envelope glycoprotein L OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=gL PE=1 SV=1
+sp|Q66649|GL_EHV2      173.2   2.8e-51     1   0.4      1    152      1    152      1    156     Envelope glycoprotein L OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=gL PE=3 SV=1
+sp|Q01031|GL_SHV21     159.2   5.9e-47     1   1.3      1    141      3    140      7    154     Envelope glycoprotein L OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=gL PE=3 SV=1
+sp|Q3KSS3|GL_EBVG       61.8   5.4e-17     1   0.5      1    128      7    120      9    120     Envelope glycoprotein L OS=Epstein-Barr virus (strain GD1) OX=10376 GN=gL PE=1 SV=1
+sp|P03212|GL_EBVB9      61.8   5.4e-17     1   0.3      1    127      7    120      8    120     Envelope glycoprotein L OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=gL PE=1 SV=1
+sp|Q1HVF6|GL_EBVA8      61.3   8.1e-17     1   0.4      1    127      7    120      9    120     Envelope glycoprotein L OS=Epstein-Barr virus (strain AG876) OX=82830 GN=gL PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_040249@NC_001350.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_040249@NC_001350.txt data/models_hmm/NP_040249@NC_001350.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:13 2021
+# [ok]

@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                       bits   E-value   n   exp  bias    description
+#      ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A0A1L4BKQ4|PORTL_BPG20   334.2   1.1e-99   1   1.0   0.0    Portal protein OS=Thermus phage G20c OX=1406341 GN=G20c_81 PE=1 SV=1
+sp|A7XXB9|PORTL_BP234       331.2   9.7e-99   1   1.0   0.0    Portal protein OS=Thermus virus P23-45 OX=466051 GN=P23p86 PE=1 SV=1
+sp|Q9T1W5|PORTL_BPMU         67.4   9.9e-19   2   2.0   0.2    Portal protein OS=Escherichia phage Mu OX=10677 GN=H PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                      bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#      ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A0A1L4BKQ4|PORTL_BPG20   334.0   1.4e-99     1   0.0      1    441      1    436      1    428     Portal protein OS=Thermus phage G20c OX=1406341 GN=G20c_81 PE=1 SV=1
+sp|A7XXB9|PORTL_BP234       330.9   1.2e-98     1   0.0      1    441      1    436      1    428     Portal protein OS=Thermus virus P23-45 OX=466051 GN=P23p86 PE=1 SV=1
+sp|Q9T1W5|PORTL_BPMU         59.0   3.4e-16     2   0.0    192    452    207    420    212    421     Portal protein OS=Escherichia phage Mu OX=10677 GN=H PE=1 SV=1
+sp|Q9T1W5|PORTL_BPMU          6.4         3     1   0.1     17    144     44    139     38    134     Portal protein OS=Escherichia phage Mu OX=10677 GN=H PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001552335@NC_009993.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001552335@NC_009993.txt data/models_hmm/YP_001552335@NC_009993.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:32 2021
+# [ok]

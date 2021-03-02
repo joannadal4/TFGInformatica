@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6Q304|GLYC_EMARV    13.6     0.047   2   2.6   5.4    Envelope glycoprotein OS=European mountain ash ringspot-associated virus (isolate Sorbus aucuparia) OX=1980426 PE=2 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6Q304|GLYC_EMARV    12.9     0.077     2   0.4    500    595    518    582     47    109     Envelope glycoprotein OS=European mountain ash ringspot-associated virus (isolate Sorbus aucuparia) OX=1980426 PE=2 SV=2
+sp|Q6Q304|GLYC_EMARV     2.2   1.5e+02     1   0.6    143    196    158    192    114    147     Envelope glycoprotein OS=European mountain ash ringspot-associated virus (isolate Sorbus aucuparia) OX=1980426 PE=2 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001426451@NC_008603.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001426451@NC_008603.txt data/models_hmm/YP_001426451@NC_008603.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:14 2021
+# [ok]

@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20532|SPI3_VACCC    10.0      0.57   3   2.5   4.5    Protein K2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=SPI-3 PE=1 SV=1
+sp|Q85339|SPI3_VACCA     9.3       0.9   3   2.5   6.0    Protein K2 OS=Vaccinia virus (strain Ankara) OX=126794 GN=SPI-3 PE=3 SV=1
+sp|P18384|SPI3_VACCW     8.9       1.2   3   2.5   5.9    Protein K2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=SPI-3 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q85339|SPI3_VACCA     9.5      0.77     2   1.1    146    245    176    226     42     92     Protein K2 OS=Vaccinia virus (strain Ankara) OX=126794 GN=SPI-3 PE=3 SV=1
+sp|P18384|SPI3_VACCW     9.2      0.99     2   1.1    144    249    176    226     42     92     Protein K2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=SPI-3 PE=1 SV=1
+sp|P20532|SPI3_VACCC     9.0       1.2     2   1.0    143    245    177    226     43     92     Protein K2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=SPI-3 PE=1 SV=1
+sp|P18384|SPI3_VACCW     1.7   1.9e+02     3   0.0    230    342    278    336    110    167     Protein K2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=SPI-3 PE=1 SV=1
+sp|P20532|SPI3_VACCC     1.7   1.9e+02     3   0.0    230    342    278    336    110    167     Protein K2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=SPI-3 PE=1 SV=1
+sp|Q85339|SPI3_VACCA     1.7   1.9e+02     3   0.0    230    342    278    336    110    167     Protein K2 OS=Vaccinia virus (strain Ankara) OX=126794 GN=SPI-3 PE=3 SV=1
+sp|P18384|SPI3_VACCW    -3.3   6.9e+03     1   0.1     86    117     91    102     74     85     Protein K2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=SPI-3 PE=1 SV=1
+sp|Q85339|SPI3_VACCA    -3.3   6.9e+03     1   0.1     86    117     91    102     74     85     Protein K2 OS=Vaccinia virus (strain Ankara) OX=126794 GN=SPI-3 PE=3 SV=1
+sp|P20532|SPI3_VACCC    -3.5   7.9e+03     1   0.0     86    113     91    102     74     85     Protein K2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=SPI-3 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008431062@NC_022088.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008431062@NC_022088.txt data/models_hmm/YP_008431062@NC_022088.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:03 2021
+# [ok]

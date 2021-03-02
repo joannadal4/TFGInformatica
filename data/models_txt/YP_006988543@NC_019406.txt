@@ -1,0 +1,348 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q04260|M1_I89A7      16.7    0.0057   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Equine/Jillin/1/1989 H3N8) OX=385585 GN=M PE=3 SV=1
+sp|Q80A02|M1_I01A0      16.2    0.0078   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/SF189/2001 H5N1 genotype A) OX=196430 GN=M PE=3 SV=1
+sp|Q6DPT8|M1_I02A3      16.2    0.0081   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/37.4/2002 H5N1 genotype X2) OX=284172 GN=M PE=3 SV=1
+sp|Q77XR8|M1_I97A0      16.2    0.0081   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/220/1997 H5N1 genotype Gs/Gd) OX=100834 GN=M PE=3 SV=1
+sp|Q77Y95|M1_I97A1      16.2    0.0081   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Hong Kong/156/1997 H5N1 genotype Gs/Gd) OX=130763 GN=M PE=3 SV=1
+sp|Q67187|M1_I88A5      16.1    0.0086   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Swine/Iowa/17672/1988 H1N1) OX=380341 GN=M PE=3 SV=1
+sp|Q6J8C3|M1_I02A5      16.0    0.0093   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/96.1/2002 H5N1 genotype Y) OX=279803 GN=M PE=3 SV=1
+sp|Q9Q0L8|M1_I96A0      15.7     0.011   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Goose/Guangdong/1/1996 H5N1 genotype Gs/Gd) OX=93838 GN=M PE=3 SV=1
+sp|P21429|M1_I60A0      15.7     0.011   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Ann Arbor/6/1960 H2N2) OX=384498 GN=M PE=3 SV=1
+sp|Q8QPI1|M1_I00A0      15.6     0.012   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Duck/Hong Kong/2986.1/2000 H5N1 genotype C) OX=176674 GN=M PE=3 SV=1
+sp|Q809Z8|M1_I01A3      15.5     0.013   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/715.5/2001 H5N1 genotype E) OX=196434 GN=M PE=3 SV=1
+sp|Q80A04|M1_I01A2      15.5     0.013   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/FY150/2001 H5N1 genotype D) OX=222142 GN=M PE=3 SV=1
+sp|Q67200|M1_I54A1      15.4     0.014   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Swine/May/1954 H1N1) OX=383535 GN=M PE=3 SV=1
+sp|A8C8J6|M1_I07A0      15.2     0.016   2   2.2   0.0    Matrix protein 1 (Fragment) OS=Influenza A virus (strain A/USA:Texas/UR06-0195/2007 H1N1) OX=455880 GN=M PE=3 SV=1
+sp|A4GCJ9|M1_I80AA      15.2     0.016   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/India/6263/1980 H1N1) OX=393562 GN=M PE=3 SV=1
+sp|A3DRP2|M1_I96A2      15.2     0.016   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/USA:Memphis/10/1996 H1N1) OX=416730 GN=M PE=3 SV=1
+sp|Q289M5|M1_I00A1      15.2     0.016   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/New Zealand:South Canterbury/35/2000 H1N1) OX=363066 GN=M PE=3 SV=1
+sp|Q07FI3|M1_I96A3      15.2     0.016   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/China:Nanchang/11/1996 H1N1) OX=394786 GN=M PE=3 SV=1
+sp|Q0A435|M1_I56A2      15.1     0.018   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Duck/England/1/1956 H11N6) OX=383550 GN=M PE=3 SV=1
+sp|Q80A06|M1_I01A1      15.0     0.018   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/YU562/2001 H5N1 genotype B) OX=196426 GN=M PE=3 SV=1
+sp|P05775|M1_I000F      15.0     0.018   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Weybridge H7N7) OX=11384 GN=M PE=2 SV=1
+sp|Q9IQ48|M1_I000X      15.0     0.019   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/X-31 H3N2) OX=132504 GN=M PE=3 SV=1
+sp|Q0A2H4|M1_I59A0      14.9     0.019   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Scotland/1959 H5N1) OX=402527 GN=M PE=3 SV=1
+sp|Q89562|M1_I61A1      14.9     0.019   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Swine/Wisconsin/1/1961 H1N1) OX=383533 GN=M PE=3 SV=1
+sp|Q67204|M1_I81A4      14.9     0.019   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Swine/Ontario/2/1981 H1N1) OX=384501 GN=M PE=3 SV=1
+sp|Q89862|M1_I77AC      14.9      0.02   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Swine/Tennessee/24/1977 H1N1) OX=385606 GN=M PE=3 SV=1
+sp|A8C8W5|M1_I67A2      14.9      0.02   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Swine/Wisconsin/1/1967 H1N1) OX=382855 GN=M PE=3 SV=1
+sp|Q76V07|M1_I88A7      14.9      0.02   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Wisconsin/3523/1988 H1N1) OX=380346 GN=M PE=3 SV=1
+sp|Q76V10|M1_I37A0      14.9      0.02   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Swine/29/1937 H1N1) OX=382842 GN=M PE=3 SV=1
+sp|B4URD8|M1_I06A0      14.9      0.02   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Russia:St.Petersburg/8/2006 H1N1) OX=518998 GN=M PE=3 SV=1
+sp|P03485|M1_I34A1      14.9      0.02   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Puerto Rico/8/1934 H1N1) OX=211044 GN=M PE=1 SV=1
+sp|P36347|M1_I02A0      14.9      0.02   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Brescia/1902 H7N7) OX=36418 GN=M PE=3 SV=2
+sp|Q0A2G3|M1_I83A4      14.9      0.02   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Ireland/1378/1983 H5N8) OX=380285 GN=M PE=3 SV=1
+sp|A4GCM1|M1_I35A3      14.8     0.021   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/USA:Phila/1935 H1N1) OX=425570 GN=M PE=3 SV=1
+sp|P05777|M1_I33A0      14.8     0.021   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Wilson-Smith/1933 H1N1) OX=381518 GN=M PE=1 SV=2
+sp|Q67147|M1_I72A5      14.8     0.021   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Shearwater/Australia/1972 H6N5) OX=383604 GN=M PE=3 SV=1
+sp|A4GCI8|M1_I36A0      14.8     0.021   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Henry/1936 H1N1) OX=425562 GN=M PE=3 SV=1
+sp|Q6XTU9|M1_I67A0      14.8     0.022   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Tokyo/3/1967 H2N2) OX=380960 GN=M PE=3 SV=1
+sp|Q0A2D5|M1_I83A6      14.8     0.022   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Pennsylvania/1370/1983 H5N2) OX=385617 GN=M PE=3 SV=1
+sp|Q0A446|M1_I49A1      14.8     0.022   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Duck/Germany/1949 H10N7) OX=382838 GN=M PE=3 SV=1
+sp|Q9EA40|M1_I77A4      14.8     0.022   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Swine/Colorado/1/1977 H3N2) OX=385645 GN=M PE=3 SV=1
+sp|Q08IG8|M1_I80A6      14.8     0.022   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Duck/Hokkaido/8/1980 H3N8) OX=387207 GN=M PE=3 SV=1
+sp|Q0A457|M1_I66A1      14.8     0.022   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Wisconsin/1/1966 H9N2) OX=385620 GN=M PE=3 SV=1
+sp|Q20NV9|M1_I80AD      14.8     0.022   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Gull/Minnesota/945/1980 H13N6) OX=385597 GN=M PE=3 SV=1
+sp|Q20P02|M1_I68A3      14.8     0.022   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Ontario/6118/1968 H8N4) OX=311175 GN=M PE=3 SV=1
+sp|Q20PM1|M1_I79A7      14.8     0.022   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Grey teal/Australia/2/1979 H4N4) OX=402464 GN=M PE=3 SV=1
+sp|Q76V02|M1_I80AC      14.8     0.022   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Gull/Massachusetts/26/1980 H13N6) OX=385626 GN=M PE=3 SV=1
+sp|Q76V03|M1_I79A8      14.8     0.022   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Gull/Maryland/1815/1979 H13N6) OX=385601 GN=M PE=3 SV=1
+sp|Q76V05|M1_I80A8      14.8     0.022   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Minnesota/833/1980 H4N2) OX=383603 GN=M PE=3 SV=1
+sp|Q77W48|M1_I71A2      14.8     0.022   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Oregon/1971 H7N3) OX=385636 GN=M PE=3 SV=1
+sp|Q8BAC3|M1_I18A0      14.7     0.022   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Brevig Mission/1/1918 H1N1) OX=88776 GN=M PE=3 SV=1
+sp|Q9W9L6|M1_I77A9      14.7     0.022   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Equine/New Market/1/1977 H7N7) OX=217831 GN=M PE=3 SV=1
+sp|Q67157|M1_I68A0      14.7     0.023   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Aichi/2/1968 H3N2) OX=387139 GN=M PE=3 SV=1
+sp|Q0A414|M1_I77AF      14.7     0.023   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Gull/Maryland/704/1977 H13N6) OX=384499 GN=M PE=3 SV=1
+sp|P35937|M1_I77AB      14.7     0.023   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/USSR/90/1977 H1N1) OX=381516 GN=M PE=3 SV=1
+sp|A4GBX9|M1_I77AA      14.7     0.023   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Brazil/11/1978 H1N1) OX=393560 GN=M PE=3 SV=1
+sp|P69275|M1_I50A0      14.7     0.023   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Fort Warren/1/1950 H1N1) OX=384525 GN=M PE=3 SV=1
+sp|P69276|M1_I57A5      14.7     0.023   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Singapore/1/1957 H2N2) OX=382781 GN=M PE=3 SV=1
+sp|Q76R37|M1_I68A6      14.7     0.023   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Northern Territory/60/1968 H3N2) OX=384505 GN=M PE=3 SV=1
+sp|Q67202|M1_I85A4      14.7     0.023   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Swine/Netherlands/12/1985 H1N1) OX=380347 GN=M PE=3 SV=1
+sp|Q67167|M1_I56A1      14.7     0.023   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Duck/Czechoslovakia/1956 H4N6) OX=385590 GN=M PE=3 SV=1
+sp|A4U6V4|M1_I45A0      14.7     0.023   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/USA:Huston/AA/1945 H1N1) OX=425551 GN=M PE=3 SV=1
+sp|Q67163|M1_I85A3      14.7     0.024   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Victoria/1/1985 H7N7) OX=402520 GN=M PE=3 SV=1
+sp|A4U7A8|M1_I51A0      14.6     0.024   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/USA:Albany/12/1951 H1N1) OX=425580 GN=M PE=3 SV=1
+sp|Q6XT42|M1_I69A0      14.6     0.024   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/England/878/1969 H3N2) OX=387147 GN=M PE=3 SV=1
+sp|Q910N6|M1_I68A4      14.6     0.024   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Hong Kong/1/1968 H3N2) OX=506350 GN=M PE=3 SV=1
+sp|A4GCL0|M1_I43A0      14.6     0.024   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/USA:Iowa/1943 H1N1) OX=425563 GN=M PE=3 SV=1
+sp|Q0HD58|M1_I40A0      14.6     0.024   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Hickox/1940 H1N1) OX=383543 GN=M PE=3 SV=1
+sp|Q6XU11|M1_I57A0      14.6     0.025   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Japan/305/1957 H2N2) OX=387161 GN=M PE=3 SV=1
+sp|Q67177|M1_I78AF      14.6     0.025   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Gull/Maryland/1824/1978 H13N6) OX=385602 GN=M PE=3 SV=1
+sp|Q8QV58|M1_I82A9      14.6     0.025   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Philippines/2/1982 H3N2) OX=382825 GN=M PE=2 SV=1
+sp|P0DOF4|M1_I72A2      14.6     0.025   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Udorn/307/1972 H3N2) OX=381517 GN=M PE=3 SV=1
+sp|P0DOF7|M1_I72A8      14.6     0.025   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Udorn/1972 H3N2) OX=385599 GN=M PE=1 SV=1
+sp|P63234|M1_I73A5      14.6     0.025   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Port Chalmers/1/1973 H3N2) OX=385624 GN=M PE=3 SV=1
+sp|Q2ICQ8|M1_I72A4      14.6     0.025   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Memphis/101/1972 H3N2) OX=383583 GN=M PE=3 SV=1
+sp|Q2PIK4|M1_I76A6      14.6     0.025   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Memphis/110/1976 H3N2) OX=383581 GN=M PE=3 SV=1
+sp|Q2PIM0|M1_I78A8      14.6     0.025   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Memphis/18/1978 H3N2) OX=383579 GN=M PE=3 SV=1
+sp|Q30NP9|M1_I75A0      14.6     0.025   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Beijing/39/1975 H3N2) OX=383596 GN=M PE=3 SV=1
+sp|Q463X3|M1_I72A3      14.6     0.025   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Memphis/102/1972 H3N2) OX=385640 GN=M PE=3 SV=1
+sp|Q6XT32|M1_I70A0      14.6     0.025   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Qu/7/1970 H3N2) OX=221016 GN=M PE=3 SV=1
+sp|Q3YPZ3|M1_I71A1      14.6     0.025   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Memphis/1/1971 H3N2) OX=383586 GN=M PE=3 SV=1
+sp|Q6DPU2|M1_I02A1      14.6     0.025   2   2.2   0.0    Matrix protein 1 (Fragment) OS=Influenza A virus (strain A/Guinea fowl/Hong Kong/38/2002 H5N1 genotype X0) OX=284208 GN=M PE=3 SV=1
+sp|Q2PI08|M1_I80A4      14.6     0.025   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Memphis/4/1980 H3N2) OX=383578 GN=M PE=3 SV=1
+sp|Q2PIM4|M1_I78A7      14.5     0.026   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Memphis/2/1978 H3N2) OX=383580 GN=M PE=3 SV=1
+sp|Q67181|M1_I88A3      14.5     0.026   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Memphis/8/1988 H3N2) OX=383588 GN=M PE=3 SV=1
+sp|Q38SQ6|M1_I83A8      14.5     0.026   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Hong Kong/5/1983 H3N2) OX=387159 GN=M PE=3 SV=1
+sp|Q77GW1|M1_I89A2      14.5     0.026   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Beijing/353/1989 H3N2) OX=380949 GN=M PE=3 SV=1
+sp|Q6DPT6|M1_I02A4      14.5     0.027   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/YU100/2002 H5N1 genotype X3) OX=284214 GN=M PE=3 SV=1
+sp|Q6DPU0|M1_I02A2      14.5     0.027   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/31.2/2002 H5N1 genotype X1) OX=284169 GN=M PE=3 SV=1
+sp|Q0A3Q7|M1_I78AC      14.4     0.028   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Minnesota/501/1978 H6N8) OX=387259 GN=M PE=3 SV=1
+sp|Q6DPQ6|M1_I02A7      14.4     0.028   2   2.2   0.0    Matrix protein 1 (Fragment) OS=Influenza A virus (strain A/Teal/China/2978.1/2002 H5N1 genotype W) OX=284215 GN=M PE=3 SV=1
+sp|Q6DPQ0|M1_I03A1      14.4     0.029   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Shantou/4231/2003 H5N1 genotype V) OX=284184 GN=M PE=3 SV=1
+sp|Q2LG20|M1_I05A1      14.4     0.029   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Goose/Guangxi/345/2005 H5N1 genotype G) OX=365089 GN=M PE=3 SV=1
+sp|Q6DPT4|M1_I02A6      14.4     0.029   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/YU22/2002 H5N1 genotype Z) OX=284177 GN=M PE=3 SV=1
+sp|Q6J8D2|M1_I03A0      14.4     0.029   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Hong Kong/212/2003 H5N1 genotype Z+) OX=279794 GN=M PE=3 SV=1
+sp|A4K145|M1_I54A2      14.3      0.03   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Malaysia:Malaya/302/1954 H1N1) OX=425566 GN=M PE=3 SV=1
+sp|Q2VC89|M1_I80A2      14.2     0.032   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Seal/Massachusetts/1/1980 H7N7) OX=384493 GN=M PE=3 SV=1
+sp|Q0A2E3|M1_I66A0      14.2     0.033   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Ontario/7732/1966 H5N9) OX=380301 GN=M PE=3 SV=1
+sp|A4GCH7|M1_I83A1      14.0     0.038   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Chile/1/1983 H1N1) OX=380985 GN=M PE=3 SV=1
+sp|Q67171|M1_I56A3      13.9     0.041   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Equine/Prague/1/1956 H7N7) OX=380337 GN=M PE=3 SV=1
+sp|Q67185|M1_I82A7      13.9     0.041   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Swine/Hong Kong/127/1982 H3N2) OX=384483 GN=M PE=3 SV=1
+sp|Q67161|M1_I77AG      13.9     0.042   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Budgerigar/Hokkaido/1/1977 H4N6) OX=385587 GN=M PE=3 SV=1
+sp|P03487|M1_I79A0      13.5     0.054   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Bangkok/1/1979 H3N2) OX=385630 GN=M PE=3 SV=1
+sp|P03488|M1_I34A0      13.5     0.055   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Fowl plague virus/Rostock/8/1934 H7N1) OX=392810 GN=M PE=3 SV=1
+sp|P67864|M1_I57A2      13.5     0.055   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Leningrad/134/17/1957 H2N2) OX=380984 GN=M PE=3 SV=1
+sp|P67865|M1_I57A3      13.5     0.055   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Leningrad/134/47/1957 H2N2) OX=380983 GN=M PE=3 SV=1
+sp|P26127|M1_I57A1      13.5     0.055   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Leningrad/134/1957 H2N2) OX=387163 GN=M PE=3 SV=1
+sp|P05776|M1_I30A0      13.3      0.06   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Swine/Iowa/15/1930 H1N1) OX=380342 GN=M PE=3 SV=1
+sp|Q0A2I5|M1_I83A5      12.9     0.085   2   2.2   0.0    Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Pennsylvania/1/1983 H5N2) OX=385586 GN=M PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q04260|M1_I89A7      10.4      0.51     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Equine/Jillin/1/1989 H3N8) OX=385585 GN=M PE=3 SV=1
+sp|Q80A02|M1_I01A0      10.1      0.61     2   0.0    121    214    132    194     31     93     Matrix protein 1 OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/SF189/2001 H5N1 genotype A) OX=196430 GN=M PE=3 SV=1
+sp|Q6DPT8|M1_I02A3      10.0      0.63     2   0.0    121    218    132    196     31     95     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/37.4/2002 H5N1 genotype X2) OX=284172 GN=M PE=3 SV=1
+sp|Q77XR8|M1_I97A0      10.0      0.63     2   0.0    121    218    132    196     31     95     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/220/1997 H5N1 genotype Gs/Gd) OX=100834 GN=M PE=3 SV=1
+sp|Q77Y95|M1_I97A1      10.0      0.63     2   0.0    121    218    132    196     31     95     Matrix protein 1 OS=Influenza A virus (strain A/Hong Kong/156/1997 H5N1 genotype Gs/Gd) OX=130763 GN=M PE=3 SV=1
+sp|Q67187|M1_I88A5      10.0      0.66     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Iowa/17672/1988 H1N1) OX=380341 GN=M PE=3 SV=1
+sp|Q6J8C3|M1_I02A5       9.8      0.73     2   0.0    121    218    132    196     31     95     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/96.1/2002 H5N1 genotype Y) OX=279803 GN=M PE=3 SV=1
+sp|P21429|M1_I60A0       9.8      0.77     2   0.0    119    216    132    196     31     95     Matrix protein 1 OS=Influenza A virus (strain A/Ann Arbor/6/1960 H2N2) OX=384498 GN=M PE=3 SV=1
+sp|Q9Q0L8|M1_I96A0       9.6      0.88     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Goose/Guangdong/1/1996 H5N1 genotype Gs/Gd) OX=93838 GN=M PE=3 SV=1
+sp|Q8QPI1|M1_I00A0       9.5      0.92     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Duck/Hong Kong/2986.1/2000 H5N1 genotype C) OX=176674 GN=M PE=3 SV=1
+sp|Q809Z8|M1_I01A3       9.4      0.98     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/715.5/2001 H5N1 genotype E) OX=196434 GN=M PE=3 SV=1
+sp|Q80A04|M1_I01A2       9.4      0.98     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/FY150/2001 H5N1 genotype D) OX=222142 GN=M PE=3 SV=1
+sp|A8C8J6|M1_I07A0       9.3       1.1     2   0.0    116    214    129    193     31     95     Matrix protein 1 (Fragment) OS=Influenza A virus (strain A/USA:Texas/UR06-0195/2007 H1N1) OX=455880 GN=M PE=3 SV=1
+sp|Q67200|M1_I54A1       9.3       1.1     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Swine/May/1954 H1N1) OX=383535 GN=M PE=3 SV=1
+sp|A3DRP2|M1_I96A2       9.2       1.1     2   0.0    119    217    132    196     31     95     Matrix protein 1 OS=Influenza A virus (strain A/USA:Memphis/10/1996 H1N1) OX=416730 GN=M PE=3 SV=1
+sp|A4GCJ9|M1_I80AA       9.2       1.1     2   0.0    119    217    132    196     31     95     Matrix protein 1 OS=Influenza A virus (strain A/India/6263/1980 H1N1) OX=393562 GN=M PE=3 SV=1
+sp|Q07FI3|M1_I96A3       9.2       1.1     2   0.0    119    217    132    196     31     95     Matrix protein 1 OS=Influenza A virus (strain A/China:Nanchang/11/1996 H1N1) OX=394786 GN=M PE=3 SV=1
+sp|Q289M5|M1_I00A1       9.2       1.1     2   0.0    119    217    132    196     31     95     Matrix protein 1 OS=Influenza A virus (strain A/New Zealand:South Canterbury/35/2000 H1N1) OX=363066 GN=M PE=3 SV=1
+sp|Q0A435|M1_I56A2       9.2       1.2     2   0.0    121    218    132    196     31     95     Matrix protein 1 OS=Influenza A virus (strain A/Duck/England/1/1956 H11N6) OX=383550 GN=M PE=3 SV=1
+sp|Q67147|M1_I72A5       8.9       1.4     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Shearwater/Australia/1972 H6N5) OX=383604 GN=M PE=3 SV=1
+sp|Q80A06|M1_I01A1       8.9       1.4     2   0.0    121    218    133    195     32     94     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/YU562/2001 H5N1 genotype B) OX=196426 GN=M PE=3 SV=1
+sp|P05775|M1_I000F       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Weybridge H7N7) OX=11384 GN=M PE=2 SV=1
+sp|Q08IG8|M1_I80A6       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Duck/Hokkaido/8/1980 H3N8) OX=387207 GN=M PE=3 SV=1
+sp|Q0A2H4|M1_I59A0       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Scotland/1959 H5N1) OX=402527 GN=M PE=3 SV=1
+sp|Q0A446|M1_I49A1       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Duck/Germany/1949 H10N7) OX=382838 GN=M PE=3 SV=1
+sp|Q0A457|M1_I66A1       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Wisconsin/1/1966 H9N2) OX=385620 GN=M PE=3 SV=1
+sp|Q20NV9|M1_I80AD       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Gull/Minnesota/945/1980 H13N6) OX=385597 GN=M PE=3 SV=1
+sp|Q20P02|M1_I68A3       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Ontario/6118/1968 H8N4) OX=311175 GN=M PE=3 SV=1
+sp|Q20PM1|M1_I79A7       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Grey teal/Australia/2/1979 H4N4) OX=402464 GN=M PE=3 SV=1
+sp|Q67204|M1_I81A4       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Ontario/2/1981 H1N1) OX=384501 GN=M PE=3 SV=1
+sp|Q76V02|M1_I80AC       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Gull/Massachusetts/26/1980 H13N6) OX=385626 GN=M PE=3 SV=1
+sp|Q76V03|M1_I79A8       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Gull/Maryland/1815/1979 H13N6) OX=385601 GN=M PE=3 SV=1
+sp|Q76V05|M1_I80A8       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Minnesota/833/1980 H4N2) OX=383603 GN=M PE=3 SV=1
+sp|Q77W48|M1_I71A2       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Oregon/1971 H7N3) OX=385636 GN=M PE=3 SV=1
+sp|Q9W9L6|M1_I77A9       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Equine/New Market/1/1977 H7N7) OX=217831 GN=M PE=3 SV=1
+sp|Q6XTU9|M1_I67A0       8.8       1.5     2   0.0    119    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Tokyo/3/1967 H2N2) OX=380960 GN=M PE=3 SV=1
+sp|A8C8W5|M1_I67A2       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Wisconsin/1/1967 H1N1) OX=382855 GN=M PE=3 SV=1
+sp|Q76V07|M1_I88A7       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Wisconsin/3523/1988 H1N1) OX=380346 GN=M PE=3 SV=1
+sp|Q76V10|M1_I37A0       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Swine/29/1937 H1N1) OX=382842 GN=M PE=3 SV=1
+sp|Q89562|M1_I61A1       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Wisconsin/1/1961 H1N1) OX=383533 GN=M PE=3 SV=1
+sp|Q89862|M1_I77AC       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Tennessee/24/1977 H1N1) OX=385606 GN=M PE=3 SV=1
+sp|Q8BAC3|M1_I18A0       8.8       1.5     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Brevig Mission/1/1918 H1N1) OX=88776 GN=M PE=3 SV=1
+sp|Q0A414|M1_I77AF       8.8       1.5     2   0.0    121    217    133    195     32     94     Matrix protein 1 OS=Influenza A virus (strain A/Gull/Maryland/704/1977 H13N6) OX=384499 GN=M PE=3 SV=1
+sp|A4GBX9|M1_I77AA       8.8       1.6     2   0.0    119    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Brazil/11/1978 H1N1) OX=393560 GN=M PE=3 SV=1
+sp|P35937|M1_I77AB       8.8       1.6     2   0.0    119    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/USSR/90/1977 H1N1) OX=381516 GN=M PE=3 SV=1
+sp|P36347|M1_I02A0       8.8       1.6     2   0.0    121    218    132    196     31     95     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Brescia/1902 H7N7) OX=36418 GN=M PE=3 SV=2
+sp|Q9IQ48|M1_I000X       8.8       1.6     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/X-31 H3N2) OX=132504 GN=M PE=3 SV=1
+sp|Q0A2D5|M1_I83A6       8.8       1.6     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Pennsylvania/1370/1983 H5N2) OX=385617 GN=M PE=3 SV=1
+sp|Q0A2G3|M1_I83A4       8.8       1.6     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Ireland/1378/1983 H5N8) OX=380285 GN=M PE=3 SV=1
+sp|Q67202|M1_I85A4       8.8       1.6     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Netherlands/12/1985 H1N1) OX=380347 GN=M PE=3 SV=1
+sp|P69275|M1_I50A0       8.7       1.6     2   0.0    121    219    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Fort Warren/1/1950 H1N1) OX=384525 GN=M PE=3 SV=1
+sp|P69276|M1_I57A5       8.7       1.6     2   0.0    121    219    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Singapore/1/1957 H2N2) OX=382781 GN=M PE=3 SV=1
+sp|Q67157|M1_I68A0       8.7       1.6     2   0.0    121    219    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Aichi/2/1968 H3N2) OX=387139 GN=M PE=3 SV=1
+sp|Q76R37|M1_I68A6       8.7       1.6     2   0.0    121    219    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Northern Territory/60/1968 H3N2) OX=384505 GN=M PE=3 SV=1
+sp|Q67163|M1_I85A3       8.7       1.6     2   0.0    121    217    133    195     32     94     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Victoria/1/1985 H7N7) OX=402520 GN=M PE=3 SV=1
+sp|A4GCI8|M1_I36A0       8.7       1.6     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Henry/1936 H1N1) OX=425562 GN=M PE=3 SV=1
+sp|A4U6V4|M1_I45A0       8.7       1.6     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/USA:Huston/AA/1945 H1N1) OX=425551 GN=M PE=3 SV=1
+sp|B4URD8|M1_I06A0       8.7       1.6     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Russia:St.Petersburg/8/2006 H1N1) OX=518998 GN=M PE=3 SV=1
+sp|P03485|M1_I34A1       8.7       1.6     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Puerto Rico/8/1934 H1N1) OX=211044 GN=M PE=1 SV=1
+sp|Q67177|M1_I78AF       8.7       1.7     2   0.0    121    218    133    195     32     94     Matrix protein 1 OS=Influenza A virus (strain A/Gull/Maryland/1824/1978 H13N6) OX=385602 GN=M PE=3 SV=1
+sp|A4GCL0|M1_I43A0       8.7       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/USA:Iowa/1943 H1N1) OX=425563 GN=M PE=3 SV=1
+sp|A4U7A8|M1_I51A0       8.7       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/USA:Albany/12/1951 H1N1) OX=425580 GN=M PE=3 SV=1
+sp|Q0HD58|M1_I40A0       8.7       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Hickox/1940 H1N1) OX=383543 GN=M PE=3 SV=1
+sp|Q6XT42|M1_I69A0       8.7       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/England/878/1969 H3N2) OX=387147 GN=M PE=3 SV=1
+sp|Q910N6|M1_I68A4       8.7       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Hong Kong/1/1968 H3N2) OX=506350 GN=M PE=3 SV=1
+sp|Q6XU11|M1_I57A0       8.6       1.7     2   0.0    123    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Japan/305/1957 H2N2) OX=387161 GN=M PE=3 SV=1
+sp|P05777|M1_I33A0       8.6       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Wilson-Smith/1933 H1N1) OX=381518 GN=M PE=1 SV=2
+sp|P0DOF4|M1_I72A2       8.6       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Udorn/307/1972 H3N2) OX=381517 GN=M PE=3 SV=1
+sp|P0DOF7|M1_I72A8       8.6       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Udorn/1972 H3N2) OX=385599 GN=M PE=1 SV=1
+sp|P63234|M1_I73A5       8.6       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Port Chalmers/1/1973 H3N2) OX=385624 GN=M PE=3 SV=1
+sp|Q2ICQ8|M1_I72A4       8.6       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Memphis/101/1972 H3N2) OX=383583 GN=M PE=3 SV=1
+sp|Q2PI08|M1_I80A4       8.6       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Memphis/4/1980 H3N2) OX=383578 GN=M PE=3 SV=1
+sp|Q2PIK4|M1_I76A6       8.6       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Memphis/110/1976 H3N2) OX=383581 GN=M PE=3 SV=1
+sp|Q2PIM0|M1_I78A8       8.6       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Memphis/18/1978 H3N2) OX=383579 GN=M PE=3 SV=1
+sp|Q30NP9|M1_I75A0       8.6       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Beijing/39/1975 H3N2) OX=383596 GN=M PE=3 SV=1
+sp|Q3YPZ3|M1_I71A1       8.6       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Memphis/1/1971 H3N2) OX=383586 GN=M PE=3 SV=1
+sp|Q463X3|M1_I72A3       8.6       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Memphis/102/1972 H3N2) OX=385640 GN=M PE=3 SV=1
+sp|Q6XT32|M1_I70A0       8.6       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Qu/7/1970 H3N2) OX=221016 GN=M PE=3 SV=1
+sp|Q8QV58|M1_I82A9       8.6       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Philippines/2/1982 H3N2) OX=382825 GN=M PE=2 SV=1
+sp|Q9EA40|M1_I77A4       8.6       1.7     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Colorado/1/1977 H3N2) OX=385645 GN=M PE=3 SV=1
+sp|Q2PIM4|M1_I78A7       8.6       1.8     2   0.0    122    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Memphis/2/1978 H3N2) OX=383580 GN=M PE=3 SV=1
+sp|A4GCM1|M1_I35A3       8.6       1.8     2   0.0    121    218    133    195     32     94     Matrix protein 1 OS=Influenza A virus (strain A/USA:Phila/1935 H1N1) OX=425570 GN=M PE=3 SV=1
+sp|Q38SQ6|M1_I83A8       8.6       1.8     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Hong Kong/5/1983 H3N2) OX=387159 GN=M PE=3 SV=1
+sp|Q67181|M1_I88A3       8.6       1.8     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Memphis/8/1988 H3N2) OX=383588 GN=M PE=3 SV=1
+sp|Q77GW1|M1_I89A2       8.6       1.8     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Beijing/353/1989 H3N2) OX=380949 GN=M PE=3 SV=1
+sp|Q67167|M1_I56A1       8.6       1.8     2   0.0    121    217    133    195     32     94     Matrix protein 1 OS=Influenza A virus (strain A/Duck/Czechoslovakia/1956 H4N6) OX=385590 GN=M PE=3 SV=1
+sp|Q0A3Q7|M1_I78AC       8.5       1.9     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Minnesota/501/1978 H6N8) OX=387259 GN=M PE=3 SV=1
+sp|Q6DPU2|M1_I02A1       8.4         2     2   0.0    114    211    126    189     32     95     Matrix protein 1 (Fragment) OS=Influenza A virus (strain A/Guinea fowl/Hong Kong/38/2002 H5N1 genotype X0) OX=284208 GN=M PE=3 SV=1
+sp|A4K145|M1_I54A2       8.4       2.1     2   0.0    121    214    133    194     32     93     Matrix protein 1 OS=Influenza A virus (strain A/Malaysia:Malaya/302/1954 H1N1) OX=425566 GN=M PE=3 SV=1
+sp|Q6DPT6|M1_I02A4       8.3       2.1     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/YU100/2002 H5N1 genotype X3) OX=284214 GN=M PE=3 SV=1
+sp|Q6DPU0|M1_I02A2       8.3       2.1     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/31.2/2002 H5N1 genotype X1) OX=284169 GN=M PE=3 SV=1
+sp|Q2VC89|M1_I80A2       8.3       2.2     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Seal/Massachusetts/1/1980 H7N7) OX=384493 GN=M PE=3 SV=1
+sp|Q6DPQ6|M1_I02A7       8.3       2.2     2   0.0    119    216    131    194     32     95     Matrix protein 1 (Fragment) OS=Influenza A virus (strain A/Teal/China/2978.1/2002 H5N1 genotype W) OX=284215 GN=M PE=3 SV=1
+sp|Q0A2E3|M1_I66A0       8.3       2.2     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Ontario/7732/1966 H5N9) OX=380301 GN=M PE=3 SV=1
+sp|Q2LG20|M1_I05A1       8.3       2.3     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Goose/Guangxi/345/2005 H5N1 genotype G) OX=365089 GN=M PE=3 SV=1
+sp|Q6DPQ0|M1_I03A1       8.3       2.3     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Shantou/4231/2003 H5N1 genotype V) OX=284184 GN=M PE=3 SV=1
+sp|Q6DPT4|M1_I02A6       8.3       2.3     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/YU22/2002 H5N1 genotype Z) OX=284177 GN=M PE=3 SV=1
+sp|Q6J8D2|M1_I03A0       8.3       2.3     2   0.0    121    218    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Hong Kong/212/2003 H5N1 genotype Z+) OX=279794 GN=M PE=3 SV=1
+sp|A4GCH7|M1_I83A1       8.1       2.6     2   0.0    119    217    132    196     31     95     Matrix protein 1 OS=Influenza A virus (strain A/Chile/1/1983 H1N1) OX=380985 GN=M PE=3 SV=1
+sp|Q67161|M1_I77AG       7.9       2.8     2   0.0    121    216    133    194     32     93     Matrix protein 1 OS=Influenza A virus (strain A/Budgerigar/Hokkaido/1/1977 H4N6) OX=385587 GN=M PE=3 SV=1
+sp|Q67185|M1_I82A7       7.9       2.8     2   0.0    121    216    133    194     32     93     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Hong Kong/127/1982 H3N2) OX=384483 GN=M PE=3 SV=1
+sp|Q67171|M1_I56A3       7.7       3.4     2   0.0    123    217    133    194     32     93     Matrix protein 1 OS=Influenza A virus (strain A/Equine/Prague/1/1956 H7N7) OX=380337 GN=M PE=3 SV=1
+sp|P03487|M1_I79A0       7.5       3.8     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Bangkok/1/1979 H3N2) OX=385630 GN=M PE=3 SV=1
+sp|P26127|M1_I57A1       7.5       3.8     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Leningrad/134/1957 H2N2) OX=387163 GN=M PE=3 SV=1
+sp|P67864|M1_I57A2       7.5       3.8     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Leningrad/134/17/1957 H2N2) OX=380984 GN=M PE=3 SV=1
+sp|P67865|M1_I57A3       7.5       3.8     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Leningrad/134/47/1957 H2N2) OX=380983 GN=M PE=3 SV=1
+sp|P05776|M1_I30A0       7.4       4.1     2   0.0    122    216    133    195     32     94     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Iowa/15/1930 H1N1) OX=380342 GN=M PE=3 SV=1
+sp|P03488|M1_I34A0       7.3       4.5     2   0.0    122    218    134    196     33     95     Matrix protein 1 OS=Influenza A virus (strain A/Fowl plague virus/Rostock/8/1934 H7N1) OX=392810 GN=M PE=3 SV=1
+sp|Q0A2I5|M1_I83A5       6.8       6.2     2   0.0    121    217    133    196     32     95     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Pennsylvania/1/1983 H5N2) OX=385586 GN=M PE=3 SV=1
+sp|A4GCM1|M1_I35A3       4.2        40     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/USA:Phila/1935 H1N1) OX=425570 GN=M PE=3 SV=1
+sp|Q04260|M1_I89A7       4.2        40     1   0.0     66    114     76     99     82    106     Matrix protein 1 OS=Influenza A virus (strain A/Equine/Jillin/1/1989 H3N8) OX=385585 GN=M PE=3 SV=1
+sp|P05777|M1_I33A0       4.2        42     1   0.0     65    116     75     98     81    105     Matrix protein 1 OS=Influenza A virus (strain A/Wilson-Smith/1933 H1N1) OX=381518 GN=M PE=1 SV=2
+sp|B4URD8|M1_I06A0       4.1        43     1   0.0     65    115     75     98     81    105     Matrix protein 1 OS=Influenza A virus (strain A/Russia:St.Petersburg/8/2006 H1N1) OX=518998 GN=M PE=3 SV=1
+sp|P03485|M1_I34A1       4.1        43     1   0.0     65    115     75     98     81    105     Matrix protein 1 OS=Influenza A virus (strain A/Puerto Rico/8/1934 H1N1) OX=211044 GN=M PE=1 SV=1
+sp|Q9IQ48|M1_I000X       4.1        43     1   0.0     65    115     75     98     81    105     Matrix protein 1 OS=Influenza A virus (strain A/X-31 H3N2) OX=132504 GN=M PE=3 SV=1
+sp|Q9EA40|M1_I77A4       4.1        44     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Colorado/1/1977 H3N2) OX=385645 GN=M PE=3 SV=1
+sp|Q6DPU2|M1_I02A1       4.1        44     1   0.0     59    107     69     92     82    106     Matrix protein 1 (Fragment) OS=Influenza A virus (strain A/Guinea fowl/Hong Kong/38/2002 H5N1 genotype X0) OX=284208 GN=M PE=3 SV=1
+sp|Q67171|M1_I56A3       4.1        45     1   0.0     66    109     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Equine/Prague/1/1956 H7N7) OX=380337 GN=M PE=3 SV=1
+sp|P03488|M1_I34A0       4.1        45     1   0.0     65    113     75     98     81    105     Matrix protein 1 OS=Influenza A virus (strain A/Fowl plague virus/Rostock/8/1934 H7N1) OX=392810 GN=M PE=3 SV=1
+sp|P05775|M1_I000F       4.1        45     1   0.0     65    113     75     98     81    105     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Weybridge H7N7) OX=11384 GN=M PE=2 SV=1
+sp|Q67167|M1_I56A1       4.1        45     1   0.0     65    113     73     98     79    105     Matrix protein 1 OS=Influenza A virus (strain A/Duck/Czechoslovakia/1956 H4N6) OX=385590 GN=M PE=3 SV=1
+sp|A4GCI8|M1_I36A0       4.0        45     1   0.0     66    115     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Henry/1936 H1N1) OX=425562 GN=M PE=3 SV=1
+sp|Q6DPQ6|M1_I02A7       4.0        45     1   0.0     64    112     74     97     82    106     Matrix protein 1 (Fragment) OS=Influenza A virus (strain A/Teal/China/2978.1/2002 H5N1 genotype W) OX=284215 GN=M PE=3 SV=1
+sp|P36347|M1_I02A0       4.0        46     1   0.0     66    114     76     99     82    106     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Brescia/1902 H7N7) OX=36418 GN=M PE=3 SV=2
+sp|Q0A2G3|M1_I83A4       4.0        46     1   0.0     66    114     76     99     82    106     Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Ireland/1378/1983 H5N8) OX=380285 GN=M PE=3 SV=1
+sp|Q0A2H4|M1_I59A0       4.0        46     1   0.0     66    114     76     99     82    106     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Scotland/1959 H5N1) OX=402527 GN=M PE=3 SV=1
+sp|Q2LG20|M1_I05A1       4.0        46     1   0.0     66    114     76     99     82    106     Matrix protein 1 OS=Influenza A virus (strain A/Goose/Guangxi/345/2005 H5N1 genotype G) OX=365089 GN=M PE=3 SV=1
+sp|Q6DPQ0|M1_I03A1       4.0        46     1   0.0     66    114     76     99     82    106     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Shantou/4231/2003 H5N1 genotype V) OX=284184 GN=M PE=3 SV=1
+sp|Q6DPT4|M1_I02A6       4.0        46     1   0.0     66    114     76     99     82    106     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/YU22/2002 H5N1 genotype Z) OX=284177 GN=M PE=3 SV=1
+sp|Q6DPT6|M1_I02A4       4.0        46     1   0.0     66    114     76     99     82    106     Matrix protein 1 OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/YU100/2002 H5N1 genotype X3) OX=284214 GN=M PE=3 SV=1
+sp|Q6DPU0|M1_I02A2       4.0        46     1   0.0     66    114     76     99     82    106     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/31.2/2002 H5N1 genotype X1) OX=284169 GN=M PE=3 SV=1
+sp|Q6J8C3|M1_I02A5       4.0        46     1   0.0     66    114     76     99     82    106     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/96.1/2002 H5N1 genotype Y) OX=279803 GN=M PE=3 SV=1
+sp|Q6J8D2|M1_I03A0       4.0        46     1   0.0     66    114     76     99     82    106     Matrix protein 1 OS=Influenza A virus (strain A/Hong Kong/212/2003 H5N1 genotype Z+) OX=279794 GN=M PE=3 SV=1
+sp|Q809Z8|M1_I01A3       4.0        46     1   0.0     66    114     76     99     82    106     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/715.5/2001 H5N1 genotype E) OX=196434 GN=M PE=3 SV=1
+sp|Q80A02|M1_I01A0       4.0        46     1   0.0     66    114     76     99     82    106     Matrix protein 1 OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/SF189/2001 H5N1 genotype A) OX=196430 GN=M PE=3 SV=1
+sp|Q80A04|M1_I01A2       4.0        46     1   0.0     66    114     76     99     82    106     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/FY150/2001 H5N1 genotype D) OX=222142 GN=M PE=3 SV=1
+sp|Q80A06|M1_I01A1       4.0        46     1   0.0     66    114     76     99     82    106     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/YU562/2001 H5N1 genotype B) OX=196426 GN=M PE=3 SV=1
+sp|Q8QPI1|M1_I00A0       4.0        46     1   0.0     66    114     76     99     82    106     Matrix protein 1 OS=Influenza A virus (strain A/Duck/Hong Kong/2986.1/2000 H5N1 genotype C) OX=176674 GN=M PE=3 SV=1
+sp|Q9Q0L8|M1_I96A0       4.0        46     1   0.0     66    114     76     99     82    106     Matrix protein 1 OS=Influenza A virus (strain A/Goose/Guangdong/1/1996 H5N1 genotype Gs/Gd) OX=93838 GN=M PE=3 SV=1
+sp|Q6DPT8|M1_I02A3       4.0        46     1   0.0     66    114     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/37.4/2002 H5N1 genotype X2) OX=284172 GN=M PE=3 SV=1
+sp|Q77XR8|M1_I97A0       4.0        46     1   0.0     66    114     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Hong Kong/220/1997 H5N1 genotype Gs/Gd) OX=100834 GN=M PE=3 SV=1
+sp|Q77Y95|M1_I97A1       4.0        46     1   0.0     66    114     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Hong Kong/156/1997 H5N1 genotype Gs/Gd) OX=130763 GN=M PE=3 SV=1
+sp|Q67200|M1_I54A1       4.0        46     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Swine/May/1954 H1N1) OX=383535 GN=M PE=3 SV=1
+sp|Q89562|M1_I61A1       4.0        46     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Wisconsin/1/1961 H1N1) OX=383533 GN=M PE=3 SV=1
+sp|A8C8W5|M1_I67A2       4.0        47     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Wisconsin/1/1967 H1N1) OX=382855 GN=M PE=3 SV=1
+sp|Q67187|M1_I88A5       4.0        47     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Iowa/17672/1988 H1N1) OX=380341 GN=M PE=3 SV=1
+sp|Q67204|M1_I81A4       4.0        47     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Ontario/2/1981 H1N1) OX=384501 GN=M PE=3 SV=1
+sp|Q76V07|M1_I88A7       4.0        47     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Wisconsin/3523/1988 H1N1) OX=380346 GN=M PE=3 SV=1
+sp|Q76V10|M1_I37A0       4.0        47     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Swine/29/1937 H1N1) OX=382842 GN=M PE=3 SV=1
+sp|Q89862|M1_I77AC       4.0        47     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Tennessee/24/1977 H1N1) OX=385606 GN=M PE=3 SV=1
+sp|A8C8J6|M1_I07A0       3.9        49     1   0.0     63    113     73     95     82    105     Matrix protein 1 (Fragment) OS=Influenza A virus (strain A/USA:Texas/UR06-0195/2007 H1N1) OX=455880 GN=M PE=3 SV=1
+sp|Q67157|M1_I68A0       3.9        49     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Aichi/2/1968 H3N2) OX=387139 GN=M PE=3 SV=1
+sp|A3DRP2|M1_I96A2       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/USA:Memphis/10/1996 H1N1) OX=416730 GN=M PE=3 SV=1
+sp|A4GBX9|M1_I77AA       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Brazil/11/1978 H1N1) OX=393560 GN=M PE=3 SV=1
+sp|A4GCH7|M1_I83A1       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Chile/1/1983 H1N1) OX=380985 GN=M PE=3 SV=1
+sp|A4GCJ9|M1_I80AA       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/India/6263/1980 H1N1) OX=393562 GN=M PE=3 SV=1
+sp|A4GCL0|M1_I43A0       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/USA:Iowa/1943 H1N1) OX=425563 GN=M PE=3 SV=1
+sp|A4K145|M1_I54A2       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Malaysia:Malaya/302/1954 H1N1) OX=425566 GN=M PE=3 SV=1
+sp|A4U6V4|M1_I45A0       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/USA:Huston/AA/1945 H1N1) OX=425551 GN=M PE=3 SV=1
+sp|A4U7A8|M1_I51A0       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/USA:Albany/12/1951 H1N1) OX=425580 GN=M PE=3 SV=1
+sp|P03487|M1_I79A0       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Bangkok/1/1979 H3N2) OX=385630 GN=M PE=3 SV=1
+sp|P0DOF4|M1_I72A2       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Udorn/307/1972 H3N2) OX=381517 GN=M PE=3 SV=1
+sp|P0DOF7|M1_I72A8       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Udorn/1972 H3N2) OX=385599 GN=M PE=1 SV=1
+sp|P21429|M1_I60A0       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Ann Arbor/6/1960 H2N2) OX=384498 GN=M PE=3 SV=1
+sp|P26127|M1_I57A1       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Leningrad/134/1957 H2N2) OX=387163 GN=M PE=3 SV=1
+sp|P35937|M1_I77AB       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/USSR/90/1977 H1N1) OX=381516 GN=M PE=3 SV=1
+sp|P63234|M1_I73A5       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Port Chalmers/1/1973 H3N2) OX=385624 GN=M PE=3 SV=1
+sp|P67864|M1_I57A2       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Leningrad/134/17/1957 H2N2) OX=380984 GN=M PE=3 SV=1
+sp|P67865|M1_I57A3       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Leningrad/134/47/1957 H2N2) OX=380983 GN=M PE=3 SV=1
+sp|P69275|M1_I50A0       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Fort Warren/1/1950 H1N1) OX=384525 GN=M PE=3 SV=1
+sp|P69276|M1_I57A5       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Singapore/1/1957 H2N2) OX=382781 GN=M PE=3 SV=1
+sp|Q07FI3|M1_I96A3       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/China:Nanchang/11/1996 H1N1) OX=394786 GN=M PE=3 SV=1
+sp|Q0HD58|M1_I40A0       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Hickox/1940 H1N1) OX=383543 GN=M PE=3 SV=1
+sp|Q289M5|M1_I00A1       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/New Zealand:South Canterbury/35/2000 H1N1) OX=363066 GN=M PE=3 SV=1
+sp|Q2ICQ8|M1_I72A4       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Memphis/101/1972 H3N2) OX=383583 GN=M PE=3 SV=1
+sp|Q2PI08|M1_I80A4       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Memphis/4/1980 H3N2) OX=383578 GN=M PE=3 SV=1
+sp|Q2PIK4|M1_I76A6       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Memphis/110/1976 H3N2) OX=383581 GN=M PE=3 SV=1
+sp|Q2PIM0|M1_I78A8       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Memphis/18/1978 H3N2) OX=383579 GN=M PE=3 SV=1
+sp|Q30NP9|M1_I75A0       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Beijing/39/1975 H3N2) OX=383596 GN=M PE=3 SV=1
+sp|Q38SQ6|M1_I83A8       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Hong Kong/5/1983 H3N2) OX=387159 GN=M PE=3 SV=1
+sp|Q3YPZ3|M1_I71A1       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Memphis/1/1971 H3N2) OX=383586 GN=M PE=3 SV=1
+sp|Q463X3|M1_I72A3       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Memphis/102/1972 H3N2) OX=385640 GN=M PE=3 SV=1
+sp|Q67181|M1_I88A3       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Memphis/8/1988 H3N2) OX=383588 GN=M PE=3 SV=1
+sp|Q6XT32|M1_I70A0       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Qu/7/1970 H3N2) OX=221016 GN=M PE=3 SV=1
+sp|Q6XT42|M1_I69A0       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/England/878/1969 H3N2) OX=387147 GN=M PE=3 SV=1
+sp|Q6XTU9|M1_I67A0       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Tokyo/3/1967 H2N2) OX=380960 GN=M PE=3 SV=1
+sp|Q76R37|M1_I68A6       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Northern Territory/60/1968 H3N2) OX=384505 GN=M PE=3 SV=1
+sp|Q77GW1|M1_I89A2       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Beijing/353/1989 H3N2) OX=380949 GN=M PE=3 SV=1
+sp|Q8QV58|M1_I82A9       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Philippines/2/1982 H3N2) OX=382825 GN=M PE=2 SV=1
+sp|Q910N6|M1_I68A4       3.9        50     1   0.0     66    116     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Hong Kong/1/1968 H3N2) OX=506350 GN=M PE=3 SV=1
+sp|Q0A2D5|M1_I83A6       3.9        51     1   0.0     65    113     75     98     81    105     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Pennsylvania/1370/1983 H5N2) OX=385617 GN=M PE=3 SV=1
+sp|Q0A2I5|M1_I83A5       3.9        51     1   0.0     65    113     75     98     81    105     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Pennsylvania/1/1983 H5N2) OX=385586 GN=M PE=3 SV=1
+sp|Q6XU11|M1_I57A0       3.9        51     1   0.0     66    115     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Japan/305/1957 H2N2) OX=387161 GN=M PE=3 SV=1
+sp|P05776|M1_I30A0       3.8        53     1   0.0     66    113     77     98     84    105     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Iowa/15/1930 H1N1) OX=380342 GN=M PE=3 SV=1
+sp|Q08IG8|M1_I80A6       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Duck/Hokkaido/8/1980 H3N8) OX=387207 GN=M PE=3 SV=1
+sp|Q0A2E3|M1_I66A0       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Ontario/7732/1966 H5N9) OX=380301 GN=M PE=3 SV=1
+sp|Q0A3Q7|M1_I78AC       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Minnesota/501/1978 H6N8) OX=387259 GN=M PE=3 SV=1
+sp|Q0A414|M1_I77AF       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Gull/Maryland/704/1977 H13N6) OX=384499 GN=M PE=3 SV=1
+sp|Q0A435|M1_I56A2       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Duck/England/1/1956 H11N6) OX=383550 GN=M PE=3 SV=1
+sp|Q0A446|M1_I49A1       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Duck/Germany/1949 H10N7) OX=382838 GN=M PE=3 SV=1
+sp|Q0A457|M1_I66A1       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Wisconsin/1/1966 H9N2) OX=385620 GN=M PE=3 SV=1
+sp|Q20NV9|M1_I80AD       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Gull/Minnesota/945/1980 H13N6) OX=385597 GN=M PE=3 SV=1
+sp|Q20P02|M1_I68A3       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Ontario/6118/1968 H8N4) OX=311175 GN=M PE=3 SV=1
+sp|Q20PM1|M1_I79A7       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Grey teal/Australia/2/1979 H4N4) OX=402464 GN=M PE=3 SV=1
+sp|Q2PIM4|M1_I78A7       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Memphis/2/1978 H3N2) OX=383580 GN=M PE=3 SV=1
+sp|Q2VC89|M1_I80A2       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Seal/Massachusetts/1/1980 H7N7) OX=384493 GN=M PE=3 SV=1
+sp|Q67161|M1_I77AG       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Budgerigar/Hokkaido/1/1977 H4N6) OX=385587 GN=M PE=3 SV=1
+sp|Q67163|M1_I85A3       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Chicken/Victoria/1/1985 H7N7) OX=402520 GN=M PE=3 SV=1
+sp|Q67177|M1_I78AF       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Gull/Maryland/1824/1978 H13N6) OX=385602 GN=M PE=3 SV=1
+sp|Q67185|M1_I82A7       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Hong Kong/127/1982 H3N2) OX=384483 GN=M PE=3 SV=1
+sp|Q67202|M1_I85A4       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Swine/Netherlands/12/1985 H1N1) OX=380347 GN=M PE=3 SV=1
+sp|Q76V02|M1_I80AC       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Gull/Massachusetts/26/1980 H13N6) OX=385626 GN=M PE=3 SV=1
+sp|Q76V03|M1_I79A8       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Gull/Maryland/1815/1979 H13N6) OX=385601 GN=M PE=3 SV=1
+sp|Q76V05|M1_I80A8       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Minnesota/833/1980 H4N2) OX=383603 GN=M PE=3 SV=1
+sp|Q77W48|M1_I71A2       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Turkey/Oregon/1971 H7N3) OX=385636 GN=M PE=3 SV=1
+sp|Q8BAC3|M1_I18A0       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Brevig Mission/1/1918 H1N1) OX=88776 GN=M PE=3 SV=1
+sp|Q9W9L6|M1_I77A9       3.8        53     1   0.0     66    113     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Equine/New Market/1/1977 H7N7) OX=217831 GN=M PE=3 SV=1
+sp|Q67147|M1_I72A5       3.8        54     1   0.0     66    112     76     98     82    105     Matrix protein 1 OS=Influenza A virus (strain A/Shearwater/Australia/1972 H6N5) OX=383604 GN=M PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006988543@NC_019406.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006988543@NC_019406.txt data/models_hmm/YP_006988543@NC_019406.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:48 2021
+# [ok]

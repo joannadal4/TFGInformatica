@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP58|YR592_MIMIV    10.9      0.34   1   2.1   2.0    Putative helicase R592 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R592 PE=4 SV=1
+sp|P19285|YORA_TTV1K     10.7      0.38   2   1.8   0.1    Uncharacterized 8.1 kDa protein OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P19285|YORA_TTV1K     10.7      0.38     2   0.1     50     70     54     68     29     43     Uncharacterized 8.1 kDa protein OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+sp|Q5UP58|YR592_MIMIV     8.8       1.5     1   2.0    433    470    435    459      4     26     Putative helicase R592 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R592 PE=4 SV=1
+sp|P19285|YORA_TTV1K     -0.9   1.6e+03     1   0.3      2     18      4     16     28     40     Uncharacterized 8.1 kDa protein OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003331469@NC_013587.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003331469@NC_013587.txt data/models_hmm/YP_003331469@NC_013587.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:19 2021
+# [ok]

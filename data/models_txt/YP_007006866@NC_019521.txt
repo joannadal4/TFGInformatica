@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P16009|BP5_BPT4       13.5     0.032   1   1.5   0.0    Baseplate central spike complex protein gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2
+sp|P20639|K3_VACCC       11.9       0.1   1   1.0   0.5    Protein K3 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=K3L PE=1 SV=1
+sp|P03275|SPIKE_ADE02     8.6         1   3   2.6   5.7    Fiber protein OS=Human adenovirus C serotype 2 OX=10515 GN=L5 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P16009|BP5_BPT4       12.5     0.067     1   0.0      1     82      6     57      7     48     Baseplate central spike complex protein gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2
+sp|P20639|K3_VACCC       11.6      0.12     1   0.5      2     82      6     75     55    122     Protein K3 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=K3L PE=1 SV=1
+sp|P03275|SPIKE_ADE02     9.6      0.52     2   0.1    289    364    294    337     92    135     Fiber protein OS=Human adenovirus C serotype 2 OX=10515 GN=L5 PE=1 SV=1
+sp|P03275|SPIKE_ADE02     0.6   2.7e+02     1   0.5     64    148     75    140    170    232     Fiber protein OS=Human adenovirus C serotype 2 OX=10515 GN=L5 PE=1 SV=1
+sp|P03275|SPIKE_ADE02    -3.9   6.5e+03     3   0.0    472    511    475    495    193    213     Fiber protein OS=Human adenovirus C serotype 2 OX=10515 GN=L5 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007006866@NC_019521.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007006866@NC_019521.txt data/models_hmm/YP_007006866@NC_019521.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:16 2021
+# [ok]

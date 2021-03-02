@@ -1,0 +1,51 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9JFC1|G9_VACCT     460.9  2.2e-138   1   1.0   1.5    Myristoylated protein G9 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TG10R PE=3 SV=3
+sp|P07611|G9_VACCW     460.8  2.5e-138   1   1.0   1.3    Myristoylated protein G9 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR087 PE=1 SV=3
+sp|P21030|G9_VACCC     460.8  2.5e-138   1   1.0   1.3    Myristoylated protein G9 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G9R PE=1 SV=3
+sp|P0DOS7|G9_VAR67     459.0  8.9e-138   1   1.0   1.6    Myristoylated protein G9 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G9R PE=3 SV=1
+sp|P0DOS8|G9_VARV      459.0  8.9e-138   1   1.0   1.6    Myristoylated protein G9 OS=Variola virus OX=10255 GN=G9R PE=3 SV=1
+sp|O57199|G9_VACCA     458.6  1.1e-137   1   1.0   1.5    Myristoylated protein G9 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA079R PE=3 SV=3
+sp|P0DTB1|V127_FOWPN   419.5    9e-126   1   1.0   1.1    Protein FPV127 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV127 PE=3 SV=1
+sp|P0DTB2|V127_FOWPV   418.6  1.7e-125   1   1.0   1.0    Protein FPV127 OS=Fowlpox virus OX=10261 GN=FPV127 PE=3 SV=1
+sp|P33055|J5_VAR67      34.4   1.3e-08   1   1.1   2.0    Protein J5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=J5L PE=3 SV=1
+sp|P07618|J5_VACCW      34.3   1.3e-08   1   1.1   2.1    Protein J5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR097 PE=1 SV=2
+sp|P21083|J5_VACCC      34.3   1.3e-08   1   1.1   2.1    Protein J5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=J5L PE=3 SV=1
+sp|Q76VD9|J5_VACCA      34.3   1.3e-08   1   1.1   2.1    Protein J5 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA089L PE=3 SV=1
+sp|Q85281|J5_FOWPN      16.7    0.0032   1   1.1   0.8    Protein J5 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV136 PE=3 SV=1
+sp|P33084|Y12E_BPT4     14.5     0.015   1   1.0   0.0    Uncharacterized 10.8 kDa protein in Gp30-rIII intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y12E PE=4 SV=1
+sp|Q65223|P17_ASFM2     12.3     0.068   1   1.1   0.2    Major structural protein p17 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-115 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9JFC1|G9_VACCT     460.8  2.5e-138     1   1.5      1    340      4    340      2    332     Myristoylated protein G9 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TG10R PE=3 SV=3
+sp|P07611|G9_VACCW     460.6  2.8e-138     1   1.3      1    340      4    340      2    332     Myristoylated protein G9 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR087 PE=1 SV=3
+sp|P21030|G9_VACCC     460.6  2.8e-138     1   1.3      1    340      4    340      2    332     Myristoylated protein G9 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G9R PE=1 SV=3
+sp|P0DOS7|G9_VAR67     458.8  9.8e-138     1   1.6      1    340      4    340      2    332     Myristoylated protein G9 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G9R PE=3 SV=1
+sp|P0DOS8|G9_VARV      458.8  9.8e-138     1   1.6      1    340      4    340      2    332     Myristoylated protein G9 OS=Variola virus OX=10255 GN=G9R PE=3 SV=1
+sp|O57199|G9_VACCA     458.4  1.3e-137     1   1.5      1    340      5    340      3    332     Myristoylated protein G9 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA079R PE=3 SV=3
+sp|P0DTB1|V127_FOWPN   419.3    1e-125     1   1.1      1    336      1    335      1    331     Protein FPV127 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV127 PE=3 SV=1
+sp|P0DTB2|V127_FOWPV   418.4  1.9e-125     1   1.0      1    336      1    335      1    331     Protein FPV127 OS=Fowlpox virus OX=10261 GN=FPV127 PE=3 SV=1
+sp|P33055|J5_VAR67      34.3   1.3e-08     1   2.0      1    133     18    130    214    327     Protein J5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=J5L PE=3 SV=1
+sp|P07618|J5_VACCW      34.3   1.4e-08     1   2.1      1    133     18    130    214    327     Protein J5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR097 PE=1 SV=2
+sp|P21083|J5_VACCC      34.3   1.4e-08     1   2.1      1    133     18    130    214    327     Protein J5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=J5L PE=3 SV=1
+sp|Q76VD9|J5_VACCA      34.3   1.4e-08     1   2.1      1    133     18    130    214    327     Protein J5 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA089L PE=3 SV=1
+sp|Q85281|J5_FOWPN      16.7    0.0032     1   0.8      1    137     15     96    207    288     Protein J5 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV136 PE=3 SV=1
+sp|P33084|Y12E_BPT4     14.3     0.016     1   0.0      2     87      9     78     97    170     Uncharacterized 10.8 kDa protein in Gp30-rIII intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y12E PE=4 SV=1
+sp|Q65223|P17_ASFM2     12.0     0.085     1   0.2      2     57     15     57    290    332     Major structural protein p17 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-115 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_938314@NC_005179.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_938314@NC_005179.txt data/models_hmm/NP_938314@NC_005179.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:40 2021
+# [ok]

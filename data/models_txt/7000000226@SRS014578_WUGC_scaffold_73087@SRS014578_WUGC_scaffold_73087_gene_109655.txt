@@ -1,0 +1,38 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQJ2|YR863_MIMIV    15.2     0.012   5   4.7   1.4    Putative ankyrin repeat protein R863 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L863 PE=4 SV=1
+sp|O64247|VG56_BPMD2     13.6     0.037   2   1.8   0.3    Gene 56 protein OS=Mycobacterium phage D29 OX=28369 GN=56 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV    12.3     0.097   2   2.9   0.2    Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UQF1|YL483_MIMIV    11.5      0.17   4   3.6   0.6    Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64247|VG56_BPMD2     11.6      0.16     1   0.1      4     69     13     59     26     80     Gene 56 protein OS=Mycobacterium phage D29 OX=28369 GN=56 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV     6.4       6.4     1   0.1    119    214    140    162     33     55     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UQJ2|YR863_MIMIV     5.6        11     2   0.0    158    208    169    196     25     52     Putative ankyrin repeat protein R863 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L863 PE=4 SV=1
+sp|Q5UQF1|YL483_MIMIV     5.3        13     3   0.0    265    335    277    316     20     59     Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV     2.5        98     2   0.0    236    305    252    278     25     51     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UQJ2|YR863_MIMIV     1.2   2.4e+02     1   0.0     92    153    103    138     19     54     Putative ankyrin repeat protein R863 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L863 PE=4 SV=1
+sp|Q5UQJ2|YR863_MIMIV     1.2   2.4e+02     4   0.1    380    463    410    441     26     57     Putative ankyrin repeat protein R863 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L863 PE=4 SV=1
+sp|Q5UQF1|YL483_MIMIV     0.7   3.6e+02     2   0.0    152    215    169    196     32     60     Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+sp|O64247|VG56_BPMD2      0.4   4.5e+02     2   0.0     61     88     68     80    124    136     Gene 56 protein OS=Mycobacterium phage D29 OX=28369 GN=56 PE=4 SV=1
+sp|Q5UQJ2|YR863_MIMIV    -0.1   6.1e+02     3   0.0    199    245    206    236     32     63     Putative ankyrin repeat protein R863 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L863 PE=4 SV=1
+sp|Q5UQF1|YL483_MIMIV    -0.4   7.6e+02     1   0.0    120    175    139    161     32     54     Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+sp|Q5UQJ2|YR863_MIMIV    -0.7   9.5e+02     5   0.0    427    485    446    476     32     63     Putative ankyrin repeat protein R863 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L863 PE=4 SV=1
+sp|Q5UQF1|YL483_MIMIV    -1.1   1.3e+03     4   0.0    342    391    351    370     34     54     Putative ankyrin repeat protein L483 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L483 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000226@SRS014578_WUGC_scaffold_73087@SRS014578_WUGC_scaffold_73087_gene_109655.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000226@SRS014578_WUGC_scaffold_73087@SRS014578_WUGC_scaffold_73087_gene_109655.txt data/models_hmm/7000000226@SRS014578_WUGC_scaffold_73087@SRS014578_WUGC_scaffold_73087_gene_109655.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:27 2021
+# [ok]

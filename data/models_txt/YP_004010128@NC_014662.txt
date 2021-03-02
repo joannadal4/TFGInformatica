@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21038|C4_VACCC      12.6      0.11   2   1.8   0.8    Protein C4 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C4L PE=3 SV=1
+sp|P17370|C4_VACCW      12.6      0.11   2   1.8   0.8    Protein C4 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR024 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P17370|C4_VACCW      11.6      0.22     1   0.3     42    134     48    100      8     54     Protein C4 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR024 PE=3 SV=2
+sp|P21038|C4_VACCC      11.6      0.22     1   0.3     42    134     48    100      8     54     Protein C4 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C4L PE=3 SV=1
+sp|P17370|C4_VACCW      -3.8   1.4e+04     2   0.0    273    301    283    295     38     50     Protein C4 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR024 PE=3 SV=2
+sp|P21038|C4_VACCC      -3.8   1.4e+04     2   0.0    273    301    283    295     38     50     Protein C4 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C4L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004010128@NC_014662.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004010128@NC_014662.txt data/models_hmm/YP_004010128@NC_014662.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:01 2021
+# [ok]

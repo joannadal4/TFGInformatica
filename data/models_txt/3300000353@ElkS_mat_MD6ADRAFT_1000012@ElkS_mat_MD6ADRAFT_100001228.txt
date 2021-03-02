@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9J584|MCEL_FOWPN    12.7      0.12   2   2.0   0.1    mRNA-capping enzyme catalytic subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV146 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9J584|MCEL_FOWPN    10.7      0.51     1   0.1    262    313    269    306     28     65     mRNA-capping enzyme catalytic subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV146 PE=3 SV=1
+sp|Q9J584|MCEL_FOWPN    -2.8   8.1e+03     2   0.0    740    766    743    759     29     45     mRNA-capping enzyme catalytic subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV146 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000353@ElkS_mat_MD6ADRAFT_1000012@ElkS_mat_MD6ADRAFT_100001228.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000353@ElkS_mat_MD6ADRAFT_1000012@ElkS_mat_MD6ADRAFT_100001228.txt data/models_hmm/3300000353@ElkS_mat_MD6ADRAFT_1000012@ElkS_mat_MD6ADRAFT_100001228.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:24 2021
+# [ok]

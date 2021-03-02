@@ -1,0 +1,47 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91DH7|SHDAG_HDVV1    16.9    0.0047   2   2.1   5.0    Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8624) OX=261993 PE=3 SV=3
+sp|Q91DH8|SHDAG_HDVV2    16.9    0.0047   2   2.0   5.0    Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8349) OX=261994 PE=3 SV=3
+sp|Q91DH9|SHDAG_HDVV3    16.9    0.0047   2   2.2   5.0    Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8375) OX=261995 PE=3 SV=3
+sp|P0C6M7|LHDAG_HDVV3    16.9    0.0048   2   2.1   4.8    Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8375) OX=261995 PE=3 SV=1
+sp|P0C6M8|LHDAG_HDVV1    16.9    0.0048   2   2.1   4.8    Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8624) OX=261993 PE=3 SV=1
+sp|P0C6M6|LHDAG_HDVV2    16.7    0.0055   2   2.0   5.0    Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8349) OX=261994 PE=3 SV=1
+sp|Q81842|SHDAG_HDVP1    14.0     0.037   2   2.1   5.9    Small delta antigen OS=Hepatitis delta virus genotype III (isolate Peru-1) OX=261996 PE=3 SV=2
+sp|P0C6M3|LHDAG_HDVP1    13.8     0.043   2   2.0   5.9    Large delta antigen OS=Hepatitis delta virus genotype III (isolate Peru-1) OX=261996 PE=1 SV=1
+sp|P13312|REGB_BPT4      13.4     0.057   1   1.4   0.1    Endoribonuclease RegB OS=Enterobacteria phage T4 OX=10665 GN=regB PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91DH7|SHDAG_HDVV1    16.9    0.0047     1   5.0     13     53     24     47     24     47     Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8624) OX=261993 PE=3 SV=3
+sp|Q91DH8|SHDAG_HDVV2    16.9    0.0047     1   5.0     13     53     24     47     24     47     Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8349) OX=261994 PE=3 SV=3
+sp|Q91DH9|SHDAG_HDVV3    16.9    0.0047     1   5.0     13     53     24     47     24     47     Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8375) OX=261995 PE=3 SV=3
+sp|P0C6M7|LHDAG_HDVV3    16.9    0.0048     1   4.8     14     53     24     47     24     47     Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8375) OX=261995 PE=3 SV=1
+sp|P0C6M8|LHDAG_HDVV1    16.9    0.0048     1   4.8     14     53     24     47     24     47     Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8624) OX=261993 PE=3 SV=1
+sp|P0C6M6|LHDAG_HDVV2    16.7    0.0055     1   5.0     13     53     24     47     24     47     Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8349) OX=261994 PE=3 SV=1
+sp|Q81842|SHDAG_HDVP1    14.0     0.037     1   5.9     11     54     23     47     23     47     Small delta antigen OS=Hepatitis delta virus genotype III (isolate Peru-1) OX=261996 PE=3 SV=2
+sp|P0C6M3|LHDAG_HDVP1    13.8     0.043     1   5.9     11     54     23     47     23     47     Large delta antigen OS=Hepatitis delta virus genotype III (isolate Peru-1) OX=261996 PE=1 SV=1
+sp|P13312|REGB_BPT4      12.6      0.11     1   0.1      1     51      3     47     16     59     Endoribonuclease RegB OS=Enterobacteria phage T4 OX=10665 GN=regB PE=1 SV=1
+sp|Q81842|SHDAG_HDVP1    -2.9   7.2e+03     2   2.1     96    141    115    115     35     35     Small delta antigen OS=Hepatitis delta virus genotype III (isolate Peru-1) OX=261996 PE=3 SV=2
+sp|Q91DH8|SHDAG_HDVV2    -3.1   8.1e+03     2   2.0     96    141    112    112     36     36     Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8349) OX=261994 PE=3 SV=3
+sp|P0C6M3|LHDAG_HDVP1    -3.1   8.4e+03     2   2.1     97    141    118    118     38     38     Large delta antigen OS=Hepatitis delta virus genotype III (isolate Peru-1) OX=261996 PE=1 SV=1
+sp|P0C6M6|LHDAG_HDVV2    -3.2   9.1e+03     2   1.9     97    141    112    112     36     36     Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8349) OX=261994 PE=3 SV=1
+sp|P0C6M7|LHDAG_HDVV3    -3.6   1.2e+04     2   2.7     97    141    121    121     26     26     Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8375) OX=261995 PE=3 SV=1
+sp|P0C6M8|LHDAG_HDVV1    -3.6   1.2e+04     2   2.7     97    141    121    121     26     26     Large delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8624) OX=261993 PE=3 SV=1
+sp|Q91DH7|SHDAG_HDVV1    -3.7   1.3e+04     2   3.2     96    142    121    121     26     26     Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8624) OX=261993 PE=3 SV=3
+sp|Q91DH9|SHDAG_HDVV3    -3.7   1.3e+04     2   3.2     96    142    121    121     26     26     Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8375) OX=261995 PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007517692@NC_020480.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007517692@NC_020480.txt data/models_hmm/YP_007517692@NC_020480.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:01 2021
+# [ok]

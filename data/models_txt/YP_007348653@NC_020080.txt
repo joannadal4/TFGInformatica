@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20223|VP1_SSV1       9.4       1.2   3   2.6   0.0    Structural protein VP1 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=VP1 PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20223|VP1_SSV1       9.4       1.2     1   0.0      8     62     14     52     55     93     Structural protein VP1 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=VP1 PE=1 SV=3
+sp|P20223|VP1_SSV1      -0.2   1.2e+03     3   0.3    119    144    126    143      8     25     Structural protein VP1 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=VP1 PE=1 SV=3
+sp|P20223|VP1_SSV1      -2.2   4.8e+03     2   1.7     78    103     85     98      4     17     Structural protein VP1 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=VP1 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007348653@NC_020080.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007348653@NC_020080.txt data/models_hmm/YP_007348653@NC_020080.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:40 2021
+# [ok]

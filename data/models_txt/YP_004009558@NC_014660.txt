@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13336|GP28_BPT4    262.7   1.3e-78   1   1.0   0.1    Baseplate hub assembly protein gp28 OS=Enterobacteria phage T4 OX=10665 GN=28 PE=1 SV=4
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13336|GP28_BPT4    262.6   1.4e-78     1   0.0      1    177      1    177      1    175     Baseplate hub assembly protein gp28 OS=Enterobacteria phage T4 OX=10665 GN=28 PE=1 SV=4
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004009558@NC_014660.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004009558@NC_014660.txt data/models_hmm/YP_004009558@NC_014660.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:59 2021
+# [ok]

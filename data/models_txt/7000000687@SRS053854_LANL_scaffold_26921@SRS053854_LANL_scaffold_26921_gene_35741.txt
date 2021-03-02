@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O72899|I2_FOWPN      14.4     0.037   1   1.2   0.9    Protein I2 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV089 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O72899|I2_FOWPN      14.1     0.045     1   0.9     18     64     28     60     59     90     Protein I2 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV089 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000687@SRS053854_LANL_scaffold_26921@SRS053854_LANL_scaffold_26921_gene_35741.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000687@SRS053854_LANL_scaffold_26921@SRS053854_LANL_scaffold_26921_gene_35741.txt data/models_hmm/7000000687@SRS053854_LANL_scaffold_26921@SRS053854_LANL_scaffold_26921_gene_35741.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:58 2021
+# [ok]

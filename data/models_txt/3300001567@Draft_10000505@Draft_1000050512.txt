@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P30314|DPOL_BPSP1    14.7     0.017   2   1.7   0.0    DNA polymerase OS=Bacillus phage SP01 OX=10685 GN=31 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P30314|DPOL_BPSP1    13.2     0.047     1   0.0     12     90     18     62     15     59     DNA polymerase OS=Bacillus phage SP01 OX=10685 GN=31 PE=3 SV=2
+sp|P30314|DPOL_BPSP1    -3.8   7.6e+03     2   0.0    836    872    839    867     13     41     DNA polymerase OS=Bacillus phage SP01 OX=10685 GN=31 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001567@Draft_10000505@Draft_1000050512.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001567@Draft_10000505@Draft_1000050512.txt data/models_hmm/3300001567@Draft_10000505@Draft_1000050512.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:41 2021
+# [ok]

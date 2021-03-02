@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27978|GAG_SIVVG     12.3      0.15   2   2.2   0.0    Gag polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM3) OX=11730 GN=gag PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27978|GAG_SIVVG      9.7      0.97     2   0.0    299    352    302    348      5     51     Gag polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM3) OX=11730 GN=gag PE=3 SV=1
+sp|P27978|GAG_SIVVG     -1.8   3.8e+03     1   0.0    192    222    206    219     43     56     Gag polyprotein OS=Simian immunodeficiency virus agm.vervet (isolate AGM3) OX=11730 GN=gag PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008242091@NC_021803.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008242091@NC_021803.txt data/models_hmm/YP_008242091@NC_021803.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:34 2021
+# [ok]

@@ -1,0 +1,47 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03550|VAT_CAMVD     17.4    0.0036   2   2.3   0.5    Aphid transmission protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF II PE=3 SV=1
+sp|P04376|CAP9_ADET1    15.6     0.014   1   1.2   0.6    Hexon-interlacing protein OS=Tree shrew adenovirus serotype 1 OX=47680 GN=IX PE=3 SV=1
+sp|P19818|VAT_CAMVP     14.8     0.023   1   2.4   1.9    Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+sp|P03549|VAT_CAMVC     14.8     0.023   1   2.4   1.1    Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|P03548|VAT_CAMVS     14.3     0.034   1   2.4   1.6    Aphid transmission protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF II PE=3 SV=1
+sp|Q00965|VAT_CAMVN     14.2     0.036   2   2.4   1.3    Aphid transmission protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF II PE=3 SV=1
+sp|Q02966|VAT_CAMVE     13.6     0.055   2   2.4   1.3    Aphid transmission protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF II PE=3 SV=1
+sp|P14362|V250_FOWPN    13.6     0.056   2   1.7   0.5    Uncharacterized protein FPV250 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV250 PE=4 SV=1
+sp|P0CK27|A145_VAR67    12.4      0.14   1   1.1   1.7    Virion membrane protein A14.5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A 14.5L PE=2 SV=1
+sp|P0CK28|A145_VACCC    12.4      0.14   1   1.1   1.7    Virion membrane protein A14.5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A 14.5L PE=2 SV=1
+sp|Q80HV6|A145_VACCW    12.4      0.14   1   1.1   1.7    Virion membrane protein A14.5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR134 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04376|CAP9_ADET1    15.3     0.017     1   0.6     50    105     76    104     63     91     Hexon-interlacing protein OS=Tree shrew adenovirus serotype 1 OX=47680 GN=IX PE=3 SV=1
+sp|P14362|V250_FOWPN    12.6      0.12     2   0.2     64    138     92    134     40     81     Uncharacterized protein FPV250 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV250 PE=4 SV=1
+sp|P0CK27|A145_VAR67    11.9      0.19     1   1.7     20     48     21     45     10     34     Virion membrane protein A14.5 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A 14.5L PE=2 SV=1
+sp|P0CK28|A145_VACCC    11.9      0.19     1   1.7     20     48     21     45     10     34     Virion membrane protein A14.5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A 14.5L PE=2 SV=1
+sp|Q80HV6|A145_VACCW    11.9      0.19     1   1.7     20     48     21     45     10     34     Virion membrane protein A14.5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR134 PE=1 SV=1
+sp|P19818|VAT_CAMVP     10.1      0.72     1   1.8     48    158    135    157     68     90     Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+sp|P03549|VAT_CAMVC      9.7      0.92     1   1.1     47    158    136    157     69     90     Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|P03548|VAT_CAMVS      9.4       1.2     1   1.5     49    158    136    157     69     90     Aphid transmission protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF II PE=3 SV=1
+sp|P03550|VAT_CAMVD      9.0       1.5     2   0.1    134    158    136    157     69     90     Aphid transmission protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF II PE=3 SV=1
+sp|Q00965|VAT_CAMVN      8.8       1.8     2   0.4    134    158    136    157     69     90     Aphid transmission protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF II PE=3 SV=1
+sp|Q02966|VAT_CAMVE      7.4       4.7     2   0.3    134    158    136    157     69     90     Aphid transmission protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF II PE=3 SV=1
+sp|P03550|VAT_CAMVD      6.5       9.4     1   0.0     47    133     63    131     29     88     Aphid transmission protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF II PE=3 SV=1
+sp|Q02966|VAT_CAMVE      4.9        29     1   0.0     45    133     64    131     30     88     Aphid transmission protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF II PE=3 SV=1
+sp|Q00965|VAT_CAMVN      4.0        55     1   0.0     48    134     64    131     30     88     Aphid transmission protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF II PE=3 SV=1
+sp|P14362|V250_FOWPN    -2.5   5.8e+03     1   0.0      3     23      6     21     67     82     Uncharacterized protein FPV250 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV250 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001344@JGI20152J14361_10000077@JGI20152J14361_1000007763.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001344@JGI20152J14361_10000077@JGI20152J14361_1000007763.txt data/models_hmm/3300001344@JGI20152J14361_10000077@JGI20152J14361_1000007763.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:47 2021
+# [ok]

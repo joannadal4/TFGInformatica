@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P10393|HOLIN_BPK3    13.7     0.046   1   1.6   0.0    Holin OS=Enterobacteria phage K3 OX=10674 GN=T PE=3 SV=1
+sp|P06808|HOLIN_BPT4    13.7     0.046   1   1.6   0.0    Holin OS=Enterobacteria phage T4 OX=10665 GN=t PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P06808|HOLIN_BPT4    12.5      0.11     1   0.0    134    156    135    153      3     21     Holin OS=Enterobacteria phage T4 OX=10665 GN=t PE=1 SV=1
+sp|P10393|HOLIN_BPK3    12.5      0.11     1   0.0    134    156    135    153      3     21     Holin OS=Enterobacteria phage K3 OX=10674 GN=T PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH57441@JF974292.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH57441@JF974292.txt data/models_hmm/AGH57441@JF974292.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:50 2021
+# [ok]

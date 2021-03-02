@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q37896|ENLYS_BPB03    10.3      0.51   3   2.2   3.6    Endolysin OS=Bacillus phage B103 OX=10778 GN=15 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q37896|ENLYS_BPB03    11.1      0.29     2   0.5    102    197    109    169     10     71     Endolysin OS=Bacillus phage B103 OX=10778 GN=15 PE=3 SV=1
+sp|Q37896|ENLYS_BPB03    -2.7   5.3e+03     1   0.0      7     34     10     32     72     94     Endolysin OS=Bacillus phage B103 OX=10778 GN=15 PE=3 SV=1
+sp|Q37896|ENLYS_BPB03    -2.8   5.7e+03     3   0.1    214    253    220    230     85     95     Endolysin OS=Bacillus phage B103 OX=10778 GN=15 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_764298@NC_008370.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_764298@NC_008370.txt data/models_hmm/YP_764298@NC_008370.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:50 2021
+# [ok]

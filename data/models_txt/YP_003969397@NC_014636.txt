@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13338|VG33_BPT4     22.8   6.6e-05   1   1.5   0.2    RNA polymerase-associated protein Gp33 OS=Enterobacteria phage T4 OX=10665 GN=33 PE=1 SV=1
+sp|P0DSS9|VB04_VAR67    11.6      0.21   2   2.0   0.8    Ankyrin repeat protein B4 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=B4R PE=4 SV=1
+sp|P0DST0|VB04_VARV     11.6      0.21   2   2.0   0.8    Ankyrin repeat protein B4 OS=Variola virus OX=10255 GN=B4R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13338|VG33_BPT4     22.1   0.00011     1   0.1     32    112     42    111     12     76     RNA polymerase-associated protein Gp33 OS=Enterobacteria phage T4 OX=10665 GN=33 PE=1 SV=1
+sp|P0DSS9|VB04_VAR67    10.3      0.53     2   0.1    284    318    288    313     22     47     Ankyrin repeat protein B4 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=B4R PE=4 SV=1
+sp|P0DST0|VB04_VARV     10.3      0.53     2   0.1    284    318    288    313     22     47     Ankyrin repeat protein B4 OS=Variola virus OX=10255 GN=B4R PE=4 SV=1
+sp|P0DSS9|VB04_VAR67    -2.8   6.8e+03     1   0.1    219    243    221    231      4     14     Ankyrin repeat protein B4 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=B4R PE=4 SV=1
+sp|P0DST0|VB04_VARV     -2.8   6.8e+03     1   0.1    219    243    221    231      4     14     Ankyrin repeat protein B4 OS=Variola virus OX=10255 GN=B4R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003969397@NC_014636.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003969397@NC_014636.txt data/models_hmm/YP_003969397@NC_014636.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:47 2021
+# [ok]

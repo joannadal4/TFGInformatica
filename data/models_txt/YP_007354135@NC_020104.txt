@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|E7DNB6|TMP_BPDP1     23.2   9.1e-06   1   1.3   4.5    Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|B0ZSH1|TMP_BPHA1     13.4    0.0087   2   2.1   1.9    Probable tape measure protein OS=Halomonas phage phiHAP-1 (isolate -/Gulf of Mexico/-/2001) OX=1283337 GN=HAPgp23 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|E7DNB6|TMP_BPDP1     22.6   1.5e-05     1   4.5    114    400    144    252   1573   1691     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|B0ZSH1|TMP_BPHA1     10.2     0.078     1   0.8    277    403    293    366   1576   1647     Probable tape measure protein OS=Halomonas phage phiHAP-1 (isolate -/Gulf of Mexico/-/2001) OX=1283337 GN=HAPgp23 PE=3 SV=1
+sp|B0ZSH1|TMP_BPHA1      1.8        26     2   0.0    420    514    437    506   1733   1799     Probable tape measure protein OS=Halomonas phage phiHAP-1 (isolate -/Gulf of Mexico/-/2001) OX=1283337 GN=HAPgp23 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007354135@NC_020104.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007354135@NC_020104.txt data/models_hmm/YP_007354135@NC_020104.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:44 2021
+# [ok]

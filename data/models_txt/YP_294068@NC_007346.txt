@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UNU8|YR694_MIMIV    13.6     0.038   1   1.3   0.2    Uncharacterized protein R694 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R694 PE=4 SV=1
+sp|P0C9W5|EV164_ASFK5    13.4     0.043   1   1.7   0.0    Envelope protein 164 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-164 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UNU8|YR694_MIMIV    13.3     0.047     1   0.1      1     82      2     52      2     51     Uncharacterized protein R694 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R694 PE=4 SV=1
+sp|P0C9W5|EV164_ASFK5    12.1      0.11     1   0.0    100    163    108    156     92    141     Envelope protein 164 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-164 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_294068@NC_007346.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_294068@NC_007346.txt data/models_hmm/YP_294068@NC_007346.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:26 2021
+# [ok]

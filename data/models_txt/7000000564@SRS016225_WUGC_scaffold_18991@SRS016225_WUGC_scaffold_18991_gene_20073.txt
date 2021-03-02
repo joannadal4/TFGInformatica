@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9JGT6|VP6_NCMV      12.2     0.048   1   1.1   0.0    Protein 6 OS=Northern cereal mosaic virus OX=1985704 GN=6 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9JGT6|VP6_NCMV      12.1     0.053     1   0.0      9     88     30     70     42     82     Protein 6 OS=Northern cereal mosaic virus OX=1985704 GN=6 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000564@SRS016225_WUGC_scaffold_18991@SRS016225_WUGC_scaffold_18991_gene_20073.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000564@SRS016225_WUGC_scaffold_18991@SRS016225_WUGC_scaffold_18991_gene_20073.txt data/models_hmm/7000000564@SRS016225_WUGC_scaffold_18991@SRS016225_WUGC_scaffold_18991_gene_20073.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:17 2021
+# [ok]

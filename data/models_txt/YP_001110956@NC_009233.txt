@@ -1,0 +1,43 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q197D4|VF350_IIV3    225.8   2.5e-67   1   1.0   2.3    Uncharacterized protein 026R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-026R PE=3 SV=1
+sp|Q91FH4|VF350_IIV6    205.5   4.4e-61   1   1.0   7.5    Uncharacterized protein 350L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-350L PE=3 SV=1
+sp|P0CA78|VF175_ASFP4    42.9   2.8e-11   1   1.5   0.3    Uncharacterized protein B175L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-097 PE=3 SV=1
+sp|P0CA79|VF175_ASFWA    42.9   2.8e-11   1   1.5   0.3    Uncharacterized protein B175L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-095 PE=3 SV=1
+sp|Q65174|VF175_ASFB7    42.9     3e-11   1   1.5   0.4    Uncharacterized protein B175L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-085 PE=3 SV=1
+sp|P0CA77|VF175_ASFM2    40.6   1.5e-10   2   1.5   0.5    Uncharacterized protein B175L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-093 PE=3 SV=1
+sp|P0CA76|VF175_ASFK5    39.4   3.5e-10   1   1.4   0.2    Uncharacterized protein B175L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-097 PE=3 SV=1
+sp|Q5UQQ2|YR450_MIMIV    37.3   1.5e-09   3   2.7   3.0    Uncharacterized protein R450 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R450 PE=4 SV=1
+sp|Q6GZP8|077L_FRG3G     27.4   1.6e-06   2   1.9   0.6    LCDV1 orf2-like protein OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-077L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q197D4|VF350_IIV3    225.7   2.8e-67     1   2.3      1    226      2    226      2    196     Uncharacterized protein 026R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-026R PE=3 SV=1
+sp|Q91FH4|VF350_IIV6    205.3   4.9e-61     1   7.5      1    207      4    207      4    194     Uncharacterized protein 350L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-350L PE=3 SV=1
+sp|P0CA78|VF175_ASFP4    42.2   4.7e-11     1   0.3     17    172     86    164     87    166     Uncharacterized protein B175L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-097 PE=3 SV=1
+sp|P0CA79|VF175_ASFWA    42.2   4.7e-11     1   0.3     17    172     86    164     87    166     Uncharacterized protein B175L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-095 PE=3 SV=1
+sp|Q65174|VF175_ASFB7    42.1     5e-11     1   0.4     15    172     86    164     87    166     Uncharacterized protein B175L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-085 PE=3 SV=1
+sp|P0CA77|VF175_ASFM2    39.7   2.7e-10     2   0.1     70    171     86    164     87    166     Uncharacterized protein B175L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-093 PE=3 SV=1
+sp|P0CA76|VF175_ASFK5    38.5   6.3e-10     1   0.1     70    171     86    164     87    166     Uncharacterized protein B175L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-097 PE=3 SV=1
+sp|Q5UQQ2|YR450_MIMIV    27.7   1.3e-06     3   0.0    214    308    220    300     89    167     Uncharacterized protein R450 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R450 PE=4 SV=1
+sp|Q6GZP8|077L_FRG3G     25.1   8.3e-06     2   0.0      8    108     22     90     87    161     LCDV1 orf2-like protein OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-077L PE=4 SV=1
+sp|Q5UQQ2|YR450_MIMIV     9.8      0.42     2   0.2    145    223    167    215     19     59     Uncharacterized protein R450 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R450 PE=4 SV=1
+sp|Q6GZP8|077L_FRG3G      0.9   2.1e+02     1   1.9      1     24      2     20     38     59     LCDV1 orf2-like protein OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-077L PE=4 SV=1
+sp|P0CA77|VF175_ASFM2    -0.7   6.8e+02     1   0.0     15     90     43     81     22     61     Uncharacterized protein B175L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-093 PE=3 SV=1
+sp|Q5UQQ2|YR450_MIMIV    -2.4   2.2e+03     1   0.3     14     52     17     49      4     36     Uncharacterized protein R450 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R450 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001110956@NC_009233.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001110956@NC_009233.txt data/models_hmm/YP_001110956@NC_009233.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:02 2021
+# [ok]

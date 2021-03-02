@@ -1,0 +1,62 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P28925|ICP4_EHV1B   2396.7         0   1   1.0  93.3    Major viral transcription factor OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=IE PE=3 SV=1
+sp|Q6S6U0|ICP4_EHV1V   2394.5         0   1   1.0  93.7    Major viral transcription factor ICP4 homolog OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=IE PE=3 SV=1
+sp|P17473|ICP4_EHV1K   2389.2         0   1   1.0  94.0    Major viral transcription factor OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=IE PE=1 SV=1
+sp|P11675|ICP4_SUHVF   1116.1         0   3   4.5  82.9    Major viral transcription factor ICP4 homolog OS=Suid herpesvirus 1 (strain Indiana-Funkhauser / Becker) OX=31523 GN=IE PE=3 SV=2
+sp|P33479|ICP4_SUHVK   1110.7         0   4   4.5  83.0    Major viral transcription factor ICP4 homolog OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=IE PE=3 SV=1
+sp|Q8AZM1|ICP4_VZVO     898.3  1.3e-269   4   3.5  80.0    Major viral transcription factor ICP4 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF62 PE=3 SV=1
+sp|P09310|ICP4_VZVD     897.7    2e-269   4   3.5  80.6    Major viral transcription factor ICP4 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF62 PE=1 SV=1
+sp|P90493|ICP4_HHV2H    833.0  6.5e-250   3   3.5 108.4    Major viral transcription factor ICP4 homolog OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=ICP4 PE=1 SV=1
+sp|P08392|ICP4_HHV11    824.1  3.2e-247   3   3.7 148.9    Major viral transcription factor ICP4 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=ICP4 PE=1 SV=1
+sp|Q02362|ICP4_GAHVG    502.1  4.7e-150   4   4.7  13.2    Major viral transcription factor ICP4 homolog OS=Gallid herpesvirus 2 (strain GA) OX=10388 GN=ICP4 PE=3 SV=1
+sp|Q9DGT6|ICP4_GAHVM    494.9  7.1e-148   6   6.6  11.8    Major viral transcription factor ICP4 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV084 PE=3 SV=1
+sp|Q5UR26|VF546_MIMIV    11.5     0.053   1   1.2  14.1    Uncharacterized protein R546 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R546 PE=3 SV=1
+sp|Q196Y6|VF268_IIV3      7.9      0.66   1   1.1  41.6    Uncharacterized protein 074L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-074L PE=3 SV=1
+sp|P36786|VE2_HPV19       6.8       1.4   1   1.0  27.1    Regulatory protein E2 OS=Human papillomavirus type 19 OX=10608 GN=E2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P28925|ICP4_EHV1B   2396.5         0     1  93.3      1   1487      1   1487      1   1436     Major viral transcription factor OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=IE PE=3 SV=1
+sp|Q6S6U0|ICP4_EHV1V   2394.4         0     1  93.7      1   1487      1   1487      1   1436     Major viral transcription factor ICP4 homolog OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=IE PE=3 SV=1
+sp|P17473|ICP4_EHV1K   2389.1         0     1  94.0      1   1487      1   1487      1   1436     Major viral transcription factor OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=IE PE=1 SV=1
+sp|P11675|ICP4_SUHVF   1116.1         0     1  82.9    413   1459    429   1458    329   1435     Major viral transcription factor ICP4 homolog OS=Suid herpesvirus 1 (strain Indiana-Funkhauser / Becker) OX=31523 GN=IE PE=3 SV=2
+sp|P33479|ICP4_SUHVK    773.7  5.3e-232     2  52.2    664   1444    677   1443    629   1435     Major viral transcription factor ICP4 homolog OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=IE PE=3 SV=1
+sp|Q8AZM1|ICP4_VZVO     640.3  9.5e-192     3  32.9    651   1212    658   1194    852   1379     Major viral transcription factor ICP4 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF62 PE=3 SV=1
+sp|P09310|ICP4_VZVD     639.4  1.8e-191     3  33.6    652   1212    659   1194    853   1379     Major viral transcription factor ICP4 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF62 PE=1 SV=1
+sp|P90493|ICP4_HHV2H    595.7  2.8e-178     2  63.4    763   1314    788   1286    901   1381     Major viral transcription factor ICP4 homolog OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=ICP4 PE=1 SV=1
+sp|P08392|ICP4_HHV11    576.5  1.7e-172     3  65.2    702   1285    732   1268    864   1387     Major viral transcription factor ICP4 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=ICP4 PE=1 SV=1
+sp|P33479|ICP4_SUHVK    352.6  6.3e-105     1  22.7    406    682    417    664    327    583     Major viral transcription factor ICP4 homolog OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=IE PE=3 SV=1
+sp|Q02362|ICP4_GAHVG    285.1   1.5e-84     2   5.9    910   1406    948   1394    940   1401     Major viral transcription factor ICP4 homolog OS=Gallid herpesvirus 2 (strain GA) OX=10388 GN=ICP4 PE=3 SV=1
+sp|Q9DGT6|ICP4_GAHVM    281.1   2.3e-83     3   5.9   1808   2312   1853   2300    939   1401     Major viral transcription factor ICP4 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV084 PE=3 SV=1
+sp|P09310|ICP4_VZVD     263.9   3.7e-78     2  12.5    402    680    439    656    380    588     Major viral transcription factor ICP4 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF62 PE=1 SV=1
+sp|Q8AZM1|ICP4_VZVO     263.7   4.2e-78     2  12.5    402    679    439    656    380    588     Major viral transcription factor ICP4 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF62 PE=3 SV=1
+sp|P90493|ICP4_HHV2H    252.8   7.9e-75     1  37.0    281    758    295    740    330    738     Major viral transcription factor ICP4 homolog OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=ICP4 PE=1 SV=1
+sp|P08392|ICP4_HHV11    246.7   5.6e-73     2  45.9    224    733    235    672    351    739     Major viral transcription factor ICP4 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=ICP4 PE=1 SV=1
+sp|Q02362|ICP4_GAHVG    231.2   2.7e-68     1   0.7    267    668    283    663    401    758     Major viral transcription factor ICP4 homolog OS=Gallid herpesvirus 2 (strain GA) OX=10388 GN=ICP4 PE=3 SV=1
+sp|Q9DGT6|ICP4_GAHVM    227.6   3.2e-67     2   0.3   1185   1574   1189   1569    401    758     Major viral transcription factor ICP4 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV084 PE=3 SV=1
+sp|Q5UR26|VF546_MIMIV    11.4     0.059     1  14.1     42    210    143    195    174    241     Uncharacterized protein R546 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R546 PE=3 SV=1
+sp|Q196Y6|VF268_IIV3      7.4      0.91     1  41.6    155    347    171    282    134    252     Uncharacterized protein 074L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-074L PE=3 SV=1
+sp|P36786|VE2_HPV19       6.4       1.8     1  27.1    130    406    180    378     75    268     Regulatory protein E2 OS=Human papillomavirus type 19 OX=10608 GN=E2 PE=3 SV=1
+sp|Q8AZM1|ICP4_VZVO       6.3         2     1  20.0    169    423    218    411     73    251     Major viral transcription factor ICP4 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF62 PE=3 SV=1
+sp|P09310|ICP4_VZVD       6.1       2.2     1  20.3    168    427    218    411     73    251     Major viral transcription factor ICP4 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF62 PE=1 SV=1
+sp|P08392|ICP4_HHV11      2.1        36     1  32.6     42    236     64    232     96    252     Major viral transcription factor ICP4 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=ICP4 PE=1 SV=1
+sp|Q8AZM1|ICP4_VZVO      -2.1     7e+02     4   0.1   1248   1297   1257   1293   1393   1430     Major viral transcription factor ICP4 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF62 PE=3 SV=1
+sp|P09310|ICP4_VZVD      -2.2   7.4e+02     4   0.1   1250   1297   1258   1293   1394   1430     Major viral transcription factor ICP4 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF62 PE=1 SV=1
+sp|Q9DGT6|ICP4_GAHVM     -5.5   7.1e+03     1  17.0     17    187     72    180    111    212     Major viral transcription factor ICP4 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV084 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002333545@NC_011644.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002333545@NC_011644.txt data/models_hmm/YP_002333545@NC_011644.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:07 2021
+# [ok]

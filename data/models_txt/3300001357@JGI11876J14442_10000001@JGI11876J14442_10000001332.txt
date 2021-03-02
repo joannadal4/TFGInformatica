@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q86695|GLYC_ORSVW    14.1      0.03   1   1.2   0.8    Major surface glycoprotein G OS=Ovine respiratory syncytial virus (strain WSU 83-1578) OX=79699 GN=G PE=3 SV=1
+sp|P20896|GLYC_HRSV1     9.9       0.6   1   1.2   4.6    Major surface glycoprotein G OS=Human respiratory syncytial virus B (strain 18537) OX=11251 GN=G PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q86695|GLYC_ORSVW    13.7     0.042     1   0.8      1     66      4     61     37     91     Major surface glycoprotein G OS=Ovine respiratory syncytial virus (strain WSU 83-1578) OX=79699 GN=G PE=3 SV=1
+sp|P20896|GLYC_HRSV1     9.3      0.95     1   4.6     11     94     21     90     53    115     Major surface glycoprotein G OS=Human respiratory syncytial virus B (strain 18537) OX=11251 GN=G PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001357@JGI11876J14442_10000001@JGI11876J14442_10000001332.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001357@JGI11876J14442_10000001@JGI11876J14442_10000001332.txt data/models_hmm/3300001357@JGI11876J14442_10000001@JGI11876J14442_10000001332.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:06 2021
+# [ok]

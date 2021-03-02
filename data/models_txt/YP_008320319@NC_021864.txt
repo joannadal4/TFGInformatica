@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P17146|UL04_HCMVA    11.7      0.17   1   1.4   0.6    Early glycoprotein GP48 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL4 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P17146|UL04_HCMVA    11.0      0.29     1   0.6      1     29      4     25      7     28     Early glycoprotein GP48 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL4 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008320319@NC_021864.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008320319@NC_021864.txt data/models_hmm/YP_008320319@NC_021864.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:53 2021
+# [ok]

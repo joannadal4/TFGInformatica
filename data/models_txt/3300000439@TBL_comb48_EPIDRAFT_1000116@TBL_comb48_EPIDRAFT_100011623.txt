@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O10293|Y030_NPVOP    17.7    0.0014   2   1.9   0.0    Uncharacterized 52.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF38 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O10293|Y030_NPVOP    15.9    0.0048     1   0.0     11    144     41    122    150    229     Uncharacterized 52.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF38 PE=4 SV=1
+sp|O10293|Y030_NPVOP    -3.0   2.7e+03     2   0.0    287    319    298    310    164    176     Uncharacterized 52.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF38 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000116@TBL_comb48_EPIDRAFT_100011623.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000116@TBL_comb48_EPIDRAFT_100011623.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000116@TBL_comb48_EPIDRAFT_100011623.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:45 2021
+# [ok]

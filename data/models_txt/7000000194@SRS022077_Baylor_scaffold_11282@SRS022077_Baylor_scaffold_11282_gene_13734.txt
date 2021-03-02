@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P08386|GP167_BPPZA    16.5    0.0051   1   1.4   0.6    DNA replication protein 16.7 OS=Bacillus phage PZA OX=10757 GN=16.7 PE=3 SV=1
+sp|P15853|GP167_BPPH5    15.9    0.0078   1   1.4   0.7    DNA replication protein 16.7 OS=Bacillus phage phi15 OX=10755 GN=16.7 PE=3 SV=1
+sp|P16517|GP167_BPPH2    13.8     0.035   2   1.6   0.5    DNA replication protein 16.7 OS=Bacillus phage phi29 OX=10756 GN=16.7 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P08386|GP167_BPPZA    15.7    0.0093     1   0.5     51    129     65    123     87    148     DNA replication protein 16.7 OS=Bacillus phage PZA OX=10757 GN=16.7 PE=3 SV=1
+sp|P15853|GP167_BPPH5    15.1     0.014     1   0.4     50    129     65    123     87    148     DNA replication protein 16.7 OS=Bacillus phage phi15 OX=10755 GN=16.7 PE=3 SV=1
+sp|P16517|GP167_BPPH2    12.5     0.086     2   0.2     57    129     67    123     89    148     DNA replication protein 16.7 OS=Bacillus phage phi29 OX=10756 GN=16.7 PE=1 SV=1
+sp|P16517|GP167_BPPH2     0.5   4.1e+02     1   0.0     23     74     34     67     17     50     DNA replication protein 16.7 OS=Bacillus phage phi29 OX=10756 GN=16.7 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000194@SRS022077_Baylor_scaffold_11282@SRS022077_Baylor_scaffold_11282_gene_13734.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000194@SRS022077_Baylor_scaffold_11282@SRS022077_Baylor_scaffold_11282_gene_13734.txt data/models_hmm/7000000194@SRS022077_Baylor_scaffold_11282@SRS022077_Baylor_scaffold_11282_gene_13734.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:12 2021
+# [ok]

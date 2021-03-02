@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68650|CAPSD_BPP21    17.2    0.0019   1   1.3   0.0    Major capsid protein OS=Enterobacteria phage P21 OX=10711 GN=E PE=3 SV=1
+sp|Q6QIB5|CAPSD_BPBMU    15.8    0.0052   1   1.2   0.0    Major capsid protein OS=Burkholderia phage BcepMu (isolate -/United States/Summer/2002) OX=1283335 GN=BcepMu34 PE=3 SV=1
+sp|P03713|CAPSD_LAMBD    11.8     0.085   1   1.6   0.1    Major capsid protein OS=Escherichia phage lambda OX=10710 GN=E PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68650|CAPSD_BPP21    16.6    0.0029     1   0.0    105    274    111    183    112    182     Major capsid protein OS=Enterobacteria phage P21 OX=10711 GN=E PE=3 SV=1
+sp|Q6QIB5|CAPSD_BPBMU    15.2     0.008     1   0.0    131    230    140    198    164    222     Major capsid protein OS=Burkholderia phage BcepMu (isolate -/United States/Summer/2002) OX=1283335 GN=BcepMu34 PE=3 SV=1
+sp|P03713|CAPSD_LAMBD    10.5      0.22     1   0.1    108    281    112    214    113    214     Major capsid protein OS=Escherichia phage lambda OX=10710 GN=E PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000016@SRS023538_Baylor_scaffold_31797@SRS023538_Baylor_scaffold_31797_gene_44958.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000016@SRS023538_Baylor_scaffold_31797@SRS023538_Baylor_scaffold_31797_gene_44958.txt data/models_hmm/7000000016@SRS023538_Baylor_scaffold_31797@SRS023538_Baylor_scaffold_31797_gene_44958.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:39 2021
+# [ok]

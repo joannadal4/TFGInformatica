@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q914L0|Y020_SIFVH    12.9     0.028   1   1.1   0.3    Uncharacterized protein 20 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0020 PE=4 SV=1
+sp|P11258|A27_VACCW     12.3     0.041   1   1.0   0.5    Protein A27 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR150 PE=1 SV=3
+sp|P20535|A27_VACCC     12.2     0.045   1   1.0   0.7    14 kDa fusion protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A27L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q914L0|Y020_SIFVH    12.8      0.03     1   0.3     12     92     41     85     66    110     Uncharacterized protein 20 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0020 PE=4 SV=1
+sp|P11258|A27_VACCW     12.2     0.046     1   0.5     21     97     29     82     70    123     Protein A27 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR150 PE=1 SV=3
+sp|P20535|A27_VACCC     12.1     0.049     1   0.7     21     97     29     82     70    123     14 kDa fusion protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A27L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003591083@NC_014099.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003591083@NC_014099.txt data/models_hmm/YP_003591083@NC_014099.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:40 2021
+# [ok]

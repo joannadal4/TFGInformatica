@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q65675|TGB2_BNYVS    13.8     0.037   2   2.0   2.2    Movement protein TGB2 OS=Beet necrotic yellow vein virus (isolate Japan/S) OX=652670 PE=3 SV=1
+sp|Q9J5A4|RP07_FOWPN    11.6      0.17   1   1.0   0.0    DNA-directed RNA polymerase 7 kDa subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO7 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9J5A4|RP07_FOWPN    11.5      0.18     1   0.0      8     57     13     55    171    211     DNA-directed RNA polymerase 7 kDa subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO7 PE=2 SV=1
+sp|Q65675|TGB2_BNYVS     7.9       2.3     1   0.0      3     70     10     65     25     74     Movement protein TGB2 OS=Beet necrotic yellow vein virus (isolate Japan/S) OX=652670 PE=3 SV=1
+sp|Q65675|TGB2_BNYVS     5.8        10     2   0.7     65    114     71    107     11     49     Movement protein TGB2 OS=Beet necrotic yellow vein virus (isolate Japan/S) OX=652670 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002302536@NC_011523.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002302536@NC_011523.txt data/models_hmm/YP_002302536@NC_011523.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:03 2021
+# [ok]

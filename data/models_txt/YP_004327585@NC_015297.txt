@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03625|G6P_BPPF3     15.8     0.013   1   1.2   5.1    Head virion protein G6P OS=Pseudomonas phage Pf3 OX=10872 GN=VI PE=3 SV=1
+sp|Q3V4S7|Y119_ATV      10.7      0.49   2   2.2   7.1    Putative transmembrane protein ORF119 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03625|G6P_BPPF3     15.6     0.015     1   5.1      1     91     10     83     16     93     Head virion protein G6P OS=Pseudomonas phage Pf3 OX=10872 GN=VI PE=3 SV=1
+sp|Q3V4S7|Y119_ATV      10.9      0.42     2   0.4     68    113     74    103     44     74     Putative transmembrane protein ORF119 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|Q3V4S7|Y119_ATV       3.1   1.1e+02     1   1.4      3     68     13     59     26     67     Putative transmembrane protein ORF119 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004327585@NC_015297.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004327585@NC_015297.txt data/models_hmm/YP_004327585@NC_015297.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:21 2021
+# [ok]

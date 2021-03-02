@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O21894|SAV_BPLSK     154.8   5.4e-46   1   1.2   9.3    SaV protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|B6UL32|SAV_BPLP2     154.7   5.9e-46   1   1.2   8.0    SaV protein OS=Lactococcus phage p2 OX=254252 PE=2 SV=1
+sp|P03781|NUCK_BPT7      31.4   1.6e-07   1   1.4   0.4    Nucleotide kinase gp1.7 OS=Escherichia phage T7 OX=10760 GN=1.7 PE=1 SV=1
+sp|P07719|V17_BPT3       29.9     5e-07   1   1.3   0.1    Gene 1.7 protein OS=Enterobacteria phage T3 OX=10759 GN=1.7 PE=4 SV=1
+sp|Q5UQK1|YR407_MIMIV    15.0     0.022   2   2.4   1.3    Putative RNA methyltransferase R407 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R407 PE=1 SV=1
+sp|Q5UQ04|YR791_MIMIV     9.1       1.6   4   3.2   5.8    Putative ankyrin repeat protein R791 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R791 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O21894|SAV_BPLSK     154.3   7.9e-46     1   9.3      1    102      1    102      1     98     SaV protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|B6UL32|SAV_BPLP2     154.2   8.6e-46     1   8.0      1    102      1    102      1     98     SaV protein OS=Lactococcus phage p2 OX=254252 PE=2 SV=1
+sp|P03781|NUCK_BPT7      30.6   2.9e-07     1   0.4    122    194    128    186      9     67     Nucleotide kinase gp1.7 OS=Escherichia phage T7 OX=10760 GN=1.7 PE=1 SV=1
+sp|P07719|V17_BPT3       29.2   7.9e-07     1   0.1     85    154     91    149      7     64     Gene 1.7 protein OS=Enterobacteria phage T3 OX=10759 GN=1.7 PE=4 SV=1
+sp|Q5UQK1|YR407_MIMIV    13.2     0.081     1   0.2     30     70     32     56      3     27     Putative RNA methyltransferase R407 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R407 PE=1 SV=1
+sp|Q5UQ04|YR791_MIMIV     8.4       2.5     1   0.3     19     63     25     59      8     41     Putative ankyrin repeat protein R791 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R791 PE=4 SV=1
+sp|Q5UQ04|YR791_MIMIV     1.9   2.6e+02     3   0.1    149    220    165    191     22     48     Putative ankyrin repeat protein R791 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R791 PE=4 SV=1
+sp|Q5UQK1|YR407_MIMIV    -0.8   1.8e+03     2   0.1    114    149    118    136     60     78     Putative RNA methyltransferase R407 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R407 PE=1 SV=1
+sp|Q5UQ04|YR791_MIMIV    -1.4   2.8e+03     4   0.0    237    285    260    263     61     64     Putative ankyrin repeat protein R791 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R791 PE=4 SV=1
+sp|Q5UQ04|YR791_MIMIV    -2.3   5.6e+03     2   0.0     75    143     93     99     39     45     Putative ankyrin repeat protein R791 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R791 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_762609@NC_008364.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_762609@NC_008364.txt data/models_hmm/YP_762609@NC_008364.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:50 2021
+# [ok]

@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13341|BP54_BPT4    419.7  4.8e-126   1   1.1   0.3    Baseplate tail-tube junction protein gp54 OS=Enterobacteria phage T4 OX=10665 GN=54 PE=1 SV=1
+sp|P13333|TUBE_BPT4     42.6   3.8e-11   2   2.0   0.3    Tail tube protein gp19 OS=Enterobacteria phage T4 OX=10665 GN=19 PE=1 SV=1
+sp|Q38435|TUBE_BPT6     42.4   4.4e-11   2   2.0   0.3    Tail tube protein gp19 OS=Enterobacteria phage T6 OX=10666 GN=19 PE=3 SV=1
+sp|P85992|TUBE_BPSK9    18.8    0.0007   1   1.1   0.0    Tail tube protein OS=Serratia phage KSP90 OX=552528 PE=1 SV=2
+sp|P13331|TTTP_BPT4     12.2      0.07   1   1.2   0.0    Tail tube terminator protein OS=Enterobacteria phage T4 OX=10665 GN=3 PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13341|BP54_BPT4    419.4  5.7e-126     1   0.3      1    301      1    298      2    284     Baseplate tail-tube junction protein gp54 OS=Enterobacteria phage T4 OX=10665 GN=54 PE=1 SV=1
+sp|P13333|TUBE_BPT4     36.2   3.3e-09     2   0.1     27    162     60    159    150    247     Tail tube protein gp19 OS=Enterobacteria phage T4 OX=10665 GN=19 PE=1 SV=1
+sp|Q38435|TUBE_BPT6     36.1   3.5e-09     2   0.1     25    162     40    159    130    247     Tail tube protein gp19 OS=Enterobacteria phage T6 OX=10666 GN=19 PE=3 SV=1
+sp|P85992|TUBE_BPSK9    18.6   0.00081     1   0.0     35    175     73    168    153    247     Tail tube protein OS=Serratia phage KSP90 OX=552528 PE=1 SV=2
+sp|P13331|TTTP_BPT4     12.0     0.082     1   0.0      1    171      4    119     97    207     Tail tube terminator protein OS=Enterobacteria phage T4 OX=10665 GN=3 PE=1 SV=3
+sp|P13333|TUBE_BPT4      4.9        12     1   0.0      2     35      7     24      9     26     Tail tube protein gp19 OS=Enterobacteria phage T4 OX=10665 GN=19 PE=1 SV=1
+sp|Q38435|TUBE_BPT6      4.8        12     1   0.0      2     33      7     24      9     26     Tail tube protein gp19 OS=Enterobacteria phage T6 OX=10666 GN=19 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007010370@NC_019538.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007010370@NC_019538.txt data/models_hmm/YP_007010370@NC_019538.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:25 2021
+# [ok]

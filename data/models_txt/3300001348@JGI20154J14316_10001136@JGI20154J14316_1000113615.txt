@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQF7|YR489_MIMIV   219.3   5.3e-65   1   1.2   8.7    Uncharacterized protein R489 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R489 PE=1 SV=1
+sp|Q5UQD3|YR468_MIMIV    21.1   0.00021   2   1.6   2.9    Uncharacterized protein R468 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R468 PE=4 SV=1
+sp|B4YNF5|V15_SPTNK      13.3     0.052   1   1.2   2.0    Uncharacterized protein V15 OS=Sputnik virophage OX=543939 GN=ORF15 PE=4 SV=1
+sp|P11317|E311_ADE03     12.1      0.12   1   1.1   0.4    Early E3 9.0 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQF7|YR489_MIMIV   218.9   7.3e-65     1   8.7      1    221      3    220      2    226     Uncharacterized protein R489 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R489 PE=1 SV=1
+sp|Q5UQD3|YR468_MIMIV    21.1   0.00021     2   2.9     93    233     99    152     14     66     Uncharacterized protein R468 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R468 PE=4 SV=1
+sp|B4YNF5|V15_SPTNK      12.9     0.068     1   2.0     25     88     33     78      7     53     Uncharacterized protein V15 OS=Sputnik virophage OX=543939 GN=ORF15 PE=4 SV=1
+sp|P11317|E311_ADE03     12.1      0.12     1   0.4     23     75     23     50      1     29     Early E3 9.0 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+sp|Q5UQD3|YR468_MIMIV    -3.1   5.5e+03     1   0.4      8     46      9     36      4     30     Uncharacterized protein R468 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R468 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001348@JGI20154J14316_10001136@JGI20154J14316_1000113615.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001348@JGI20154J14316_10001136@JGI20154J14316_1000113615.txt data/models_hmm/3300001348@JGI20154J14316_10001136@JGI20154J14316_1000113615.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:57 2021
+# [ok]

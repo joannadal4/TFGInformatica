@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q90056|VNS3_JDNVP    27.5     2e-06   1   1.5  10.6    Putative non-structural protein NS3 OS=Junonia coenia densovirus (isolate pBRJ/1990) OX=648250 GN=NS3 PE=4 SV=1
+sp|O71152|VNS3_DSDNV    27.0   2.7e-06   1   1.7   8.6    Non-structural protein NS3 OS=Diatraea saccharalis densovirus OX=72003 GN=NS3 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q90056|VNS3_JDNVP    26.4   4.2e-06     1  10.5     13    183     38    173     79    208     Putative non-structural protein NS3 OS=Junonia coenia densovirus (isolate pBRJ/1990) OX=648250 GN=NS3 PE=4 SV=1
+sp|O71152|VNS3_DSDNV    25.7   6.9e-06     1   8.6     20    202     31    198     17    189     Non-structural protein NS3 OS=Diatraea saccharalis densovirus OX=72003 GN=NS3 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008766860@NC_022748.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008766860@NC_022748.txt data/models_hmm/YP_008766860@NC_022748.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:24 2021
+# [ok]

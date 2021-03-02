@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P85501|TMP_BPPAJ     34.9   3.1e-09   2   3.1   7.9    Tape measure protein OS=Pseudomonas phage PAJU2 OX=504346 GN=18 PE=1 SV=2
+sp|B0ZSH1|TMP_BPHA1     20.2   8.6e-05   2   1.7   0.5    Probable tape measure protein OS=Halomonas phage phiHAP-1 (isolate -/Gulf of Mexico/-/2001) OX=1283337 GN=HAPgp23 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P85501|TMP_BPPAJ     34.9   3.1e-09     2   7.9    746    820    756    812   1195   1251     Tape measure protein OS=Pseudomonas phage PAJU2 OX=504346 GN=18 PE=1 SV=2
+sp|B0ZSH1|TMP_BPHA1     20.2   8.6e-05     2   0.5    308    519    320    392    268    340     Probable tape measure protein OS=Halomonas phage phiHAP-1 (isolate -/Gulf of Mexico/-/2001) OX=1283337 GN=HAPgp23 PE=3 SV=1
+sp|B0ZSH1|TMP_BPHA1     -3.4   1.1e+03     1   0.2     41    162     88    108     54     76     Probable tape measure protein OS=Halomonas phage phiHAP-1 (isolate -/Gulf of Mexico/-/2001) OX=1283337 GN=HAPgp23 PE=3 SV=1
+sp|P85501|TMP_BPPAJ    -16.1   1.7e+04     1  30.3    400    739    429    718    793   1076     Tape measure protein OS=Pseudomonas phage PAJU2 OX=504346 GN=18 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003347390@NC_013644.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003347390@NC_013644.txt data/models_hmm/YP_003347390@NC_013644.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:24 2021
+# [ok]

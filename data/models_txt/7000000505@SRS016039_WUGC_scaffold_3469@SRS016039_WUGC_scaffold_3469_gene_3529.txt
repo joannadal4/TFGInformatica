@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05267|VG05_BPML5    17.1    0.0035   1   1.4   0.0    Gene 5 protein OS=Mycobacterium phage L5 OX=31757 GN=5 PE=4 SV=1
+sp|O64201|VG05_BPMD2    17.0    0.0039   1   1.2   0.0    Gene 5 protein OS=Mycobacterium phage D29 OX=28369 GN=5 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05267|VG05_BPML5    16.8    0.0045     1   0.0     11    132     35     96     29     90     Gene 5 protein OS=Mycobacterium phage L5 OX=31757 GN=5 PE=4 SV=1
+sp|O64201|VG05_BPMD2    16.7    0.0046     1   0.0      7    130     12     96      6     90     Gene 5 protein OS=Mycobacterium phage D29 OX=28369 GN=5 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000505@SRS016039_WUGC_scaffold_3469@SRS016039_WUGC_scaffold_3469_gene_3529.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000505@SRS016039_WUGC_scaffold_3469@SRS016039_WUGC_scaffold_3469_gene_3529.txt data/models_hmm/7000000505@SRS016039_WUGC_scaffold_3469@SRS016039_WUGC_scaffold_3469_gene_3529.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:51 2021
+# [ok]

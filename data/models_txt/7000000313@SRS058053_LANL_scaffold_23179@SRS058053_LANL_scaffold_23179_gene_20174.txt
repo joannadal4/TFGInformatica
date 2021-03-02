@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O09781|VP8_RRSVT     13.6     0.048   2   1.8   1.1    Structural protein precursor VP8 OS=Rice ragged stunt virus (isolate Thailand) OX=649603 PE=4 SV=1
+sp|O10336|VP91_NPVOP    13.4     0.056   2   2.0   0.1    Capsid-associated protein Vp91 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=p91 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O09781|VP8_RRSVT     12.8     0.088     2   0.3    310    388    320    384     37    101     Structural protein precursor VP8 OS=Rice ragged stunt virus (isolate Thailand) OX=649603 PE=4 SV=1
+sp|O10336|VP91_NPVOP    11.5      0.22     1   0.1     32    100     55     96     66    108     Capsid-associated protein Vp91 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=p91 PE=3 SV=1
+sp|O10336|VP91_NPVOP    -3.2   7.9e+03     2   0.0    359    425    362    400      6     42     Capsid-associated protein Vp91 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=p91 PE=3 SV=1
+sp|O09781|VP8_RRSVT     -3.8   1.3e+04     1   0.0     10     32     12     26      4     18     Structural protein precursor VP8 OS=Rice ragged stunt virus (isolate Thailand) OX=649603 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000313@SRS058053_LANL_scaffold_23179@SRS058053_LANL_scaffold_23179_gene_20174.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000313@SRS058053_LANL_scaffold_23179@SRS058053_LANL_scaffold_23179_gene_20174.txt data/models_hmm/7000000313@SRS058053_LANL_scaffold_23179@SRS058053_LANL_scaffold_23179_gene_20174.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:10 2021
+# [ok]

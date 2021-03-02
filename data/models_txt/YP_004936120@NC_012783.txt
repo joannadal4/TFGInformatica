@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6SVZ5|US11_HCMVM   255.6     4e-76   1   1.0   1.4    Membrane glycoprotein US11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US11 PE=2 SV=1
+sp|Q8UZK5|US11_HCMVT   255.4   4.4e-76   1   1.0   1.3    Unique short US11 glycoprotein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=US11 PE=2 SV=1
+sp|P09727|US11_HCMVA   254.3   9.4e-76   1   1.0   1.6    Unique short US11 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US11 PE=1 SV=1
+sp|F5HC33|US09_HCMVM    81.7   5.4e-23   1   1.1   0.3    Membrane glycoprotein US9 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US9 PE=3 SV=1
+sp|P09729|US09_HCMVA    81.7   5.4e-23   1   1.1   0.3    Unique short US9 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US9 PE=3 SV=1
+sp|F5HB52|US08_HCMVM    41.5   1.1e-10   1   1.2   0.2    Membrane glycoprotein US8 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US8 PE=3 SV=1
+sp|P09730|US08_HCMVA    40.1   2.8e-10   1   1.2   0.3    Unique short US8 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US8 PE=3 SV=2
+sp|F5HDD3|US07_HCMVM    20.2   0.00035   1   1.4   1.3    Membrane glycoprotein US7 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US7 PE=3 SV=1
+sp|P09731|US07_HCMVA    19.7   0.00049   1   1.4   1.5    Unique short US7 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US7 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6SVZ5|US11_HCMVM   255.4   4.4e-76     1   1.4      1    215      5    215     11    230     Membrane glycoprotein US11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US11 PE=2 SV=1
+sp|Q8UZK5|US11_HCMVT   255.3   4.9e-76     1   1.3      1    215      6    215     18    230     Unique short US11 glycoprotein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=US11 PE=2 SV=1
+sp|P09727|US11_HCMVA   254.2     1e-75     1   1.6      1    215      5    215     11    230     Unique short US11 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US11 PE=1 SV=1
+sp|F5HC33|US09_HCMVM    81.4   6.7e-23     1   0.3     10    231     66    228     58    225     Membrane glycoprotein US9 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US9 PE=3 SV=1
+sp|P09729|US09_HCMVA    81.4   6.7e-23     1   0.3     10    231     66    228     58    225     Unique short US9 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US9 PE=3 SV=1
+sp|F5HB52|US08_HCMVM    41.1   1.4e-10     1   0.2     19    217     56    212     55    225     Membrane glycoprotein US8 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US8 PE=3 SV=1
+sp|P09730|US08_HCMVA    39.8   3.6e-10     1   0.3     19    217     56    203     55    213     Unique short US8 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US8 PE=3 SV=2
+sp|F5HDD3|US07_HCMVM    19.6   0.00053     1   1.3      3    206     56    188     66    211     Membrane glycoprotein US7 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US7 PE=3 SV=1
+sp|P09731|US07_HCMVA    19.0    0.0008     1   1.5      4    206     58    188     68    211     Unique short US7 glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US7 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004936120@NC_012783.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004936120@NC_012783.txt data/models_hmm/YP_004936120@NC_012783.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:52 2021
+# [ok]

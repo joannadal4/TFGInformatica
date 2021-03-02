@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q80HU9|ATI4_VACCW    13.1     0.091   3   3.1   2.0    27 kDa A-type inclusion protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR147 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q80HU9|ATI4_VACCW     9.3       1.4     2   0.1     41    135     85    127     43     85     27 kDa A-type inclusion protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR147 PE=4 SV=1
+sp|Q80HU9|ATI4_VACCW     2.0   2.8e+02     3   0.1    137    201    149    176     43     70     27 kDa A-type inclusion protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR147 PE=4 SV=1
+sp|Q80HU9|ATI4_VACCW    -0.3   1.4e+03     1   0.0     10     84     13     26      4     17     27 kDa A-type inclusion protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR147 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000001@SRS022530_LANL_scaffold_51249@SRS022530_LANL_scaffold_51249_gene_135510.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000001@SRS022530_LANL_scaffold_51249@SRS022530_LANL_scaffold_51249_gene_135510.txt data/models_hmm/7000000001@SRS022530_LANL_scaffold_51249@SRS022530_LANL_scaffold_51249_gene_135510.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:19 2021
+# [ok]

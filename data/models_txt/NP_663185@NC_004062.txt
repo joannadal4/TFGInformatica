@@ -1,0 +1,94 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P08357|VP10_NPVOP     21.5   0.00013   1   1.0   0.7    Protein p10 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P10 PE=3 SV=1
+sp|P36865|VPHE_NPVLD     19.1   0.00072   2   1.6  22.0    Polyhedral envelope protein OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=3 SV=1
+sp|P04870|P10_NPVAC      16.2    0.0053   1   1.0   0.2    Protein p10 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P10 PE=4 SV=2
+sp|Q14EB0|SPIKE_CVHN2    14.8     0.015   1   1.6   2.6    Spike glycoprotein OS=Human coronavirus HKU1 (isolate N2) OX=443240 GN=S PE=3 SV=1
+sp|Q0ZME7|SPIKE_CVHN5    14.8     0.015   1   1.6   2.6    Spike glycoprotein OS=Human coronavirus HKU1 (isolate N5) OX=443241 GN=S PE=1 SV=1
+sp|P25478|SCAF_BPP2      14.7     0.015   1   1.2   0.1    Capsid assembly scaffolding protein OS=Escherichia phage P2 OX=10679 GN=O PE=1 SV=1
+sp|P35837|NEEDL_BPP22    14.6     0.016   1   1.2   2.0    Tail needle protein gp26 OS=Salmonella phage P22 OX=10754 GN=26 PE=1 SV=2
+sp|Q992I2|SIGC_ARVS1     13.1     0.047   2   2.0  11.2    Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q5MQD0|SPIKE_CVHN1    13.1     0.048   1   1.5   1.7    Spike glycoprotein OS=Human coronavirus HKU1 (isolate N1) OX=443239 GN=S PE=1 SV=1
+sp|Q05233|VG26_BPML5     12.7     0.062   3   3.4  21.0    Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|P11224|SPIKE_CVMA5    12.5     0.071   1   1.6   2.3    Spike glycoprotein OS=Murine coronavirus (strain A59) OX=11142 GN=S PE=1 SV=2
+sp|Q9IKD1|SPIKE_CVRSD    12.5     0.074   1   1.5   2.1    Spike glycoprotein OS=Rat coronavirus (strain 681) OX=33740 GN=S PE=3 SV=1
+sp|Q02385|SPIKE_CVMJC    12.4     0.077   1   1.6   1.8    Spike glycoprotein OS=Murine coronavirus (strain JHMV / variant CL-2) OX=33735 GN=S PE=1 SV=1
+sp|Q04583|ORF4_SHVX      12.4     0.079   2   2.1   6.6    Uncharacterized ORF4 protein OS=Shallot virus X OX=31770 GN=ORF4 PE=4 SV=1
+sp|P11225|SPIKE_CVMJH    12.2     0.086   1   1.6   2.5    Spike glycoprotein OS=Murine coronavirus (strain JHM) OX=11144 GN=S PE=1 SV=1
+sp|P17498|VPHE_NPVOP     12.2      0.09   1   1.9  16.4    Polyhedral envelope protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF129 PE=3 SV=1
+sp|P36334|SPIKE_CVHOC    12.1     0.092   1   1.7   2.3    Spike glycoprotein OS=Human coronavirus OC43 OX=31631 GN=S PE=3 SV=1
+sp|P22432|SPIKE_CVM4     12.0       0.1   1   1.6   2.5    Spike glycoprotein OS=Murine coronavirus (strain 4) OX=12760 GN=S PE=3 SV=1
+sp|P04506|SIGM1_REOVL    10.7      0.26   3   2.3   8.3    Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|O64220|VG26_BPMD2     10.2      0.37   3   3.3  13.1    Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|P04507|SIGM1_REOVJ     9.7      0.49   4   3.0   8.5    Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|Q91AV1|SPIKE_PEDV7     9.2      0.72   2   2.7   9.1    Spike glycoprotein OS=Porcine epidemic diarrhea virus (strain CV777) OX=229032 GN=S PE=1 SV=1
+sp|P03528|SIGM1_REOVD     7.5       2.4   2   2.2   5.6    Outer capsid protein sigma-1 OS=Reovirus type 3 (strain Dearing) OX=10886 GN=S1 PE=1 SV=3
+sp|Q0Q4F2|SPIKE_BC133     7.2         3   2   2.0   6.4    Spike glycoprotein OS=Bat coronavirus 133/2005 OX=389230 GN=S PE=3 SV=1
+sp|P21270|LY_BPSF6        6.8       3.9   3   2.6   7.9    Putative lysozyme OS=Bacillus phage SF6 OX=10773 PE=3 SV=1
+sp|P15423|SPIKE_CVH22     6.8       3.9   2   2.3  14.1    Spike glycoprotein OS=Human coronavirus 229E OX=11137 GN=S PE=1 SV=1
+sp|K9N5Q8|SPIKE_MERS1     6.4       5.2   2   1.7   7.0    Spike glycoprotein OS=Middle East respiratory syndrome-related coronavirus (isolate United Kingdom/H123990006/2012) OX=1263720 GN=S PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P08357|VP10_NPVOP     21.4   0.00014     1   0.7      1     67      4     60    175    232     Protein p10 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P10 PE=3 SV=1
+sp|P36865|VPHE_NPVLD     17.0    0.0031     1   8.7    101    269    133    265    128    248     Polyhedral envelope protein OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=3 SV=1
+sp|P04870|P10_NPVAC      16.2    0.0054     1   0.2      1     80      4     59    175    231     Protein p10 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P10 PE=4 SV=2
+sp|P36865|VPHE_NPVLD     15.4    0.0091     2   5.3    175    308    186    286    142    243     Polyhedral envelope protein OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=3 SV=1
+sp|P35837|NEEDL_BPP22    14.4     0.018     1   2.0     18    227     88    171    175    258     Tail needle protein gp26 OS=Salmonella phage P22 OX=10754 GN=26 PE=1 SV=2
+sp|P25478|SCAF_BPP2      14.2     0.022     1   0.1    142    269    177    250    154    230     Capsid assembly scaffolding protein OS=Escherichia phage P2 OX=10679 GN=O PE=1 SV=1
+sp|Q0ZME7|SPIKE_CVHN5    13.4     0.037     1   2.6    949   1105    962   1090    113    250     Spike glycoprotein OS=Human coronavirus HKU1 (isolate N5) OX=443241 GN=S PE=1 SV=1
+sp|Q14EB0|SPIKE_CVHN2    13.4     0.037     1   2.6    949   1105    962   1090    113    250     Spike glycoprotein OS=Human coronavirus HKU1 (isolate N2) OX=443240 GN=S PE=3 SV=1
+sp|Q992I2|SIGC_ARVS1     12.9     0.053     1   3.8      5     99     20     96    167    245     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q5MQD0|SPIKE_CVHN1    11.9      0.11     1   1.7    953   1109    967   1094    114    250     Spike glycoprotein OS=Human coronavirus HKU1 (isolate N1) OX=443239 GN=S PE=1 SV=1
+sp|Q9IKD1|SPIKE_CVRSD    11.3      0.16     1   2.1    959   1119    971   1095    117    250     Spike glycoprotein OS=Rat coronavirus (strain 681) OX=33740 GN=S PE=3 SV=1
+sp|P11224|SPIKE_CVMA5    11.2      0.18     1   2.3    925   1091    958   1059    141    250     Spike glycoprotein OS=Murine coronavirus (strain A59) OX=11142 GN=S PE=1 SV=2
+sp|Q02385|SPIKE_CVMJC    11.1      0.19     1   1.8    975   1142    987   1111    117    250     Spike glycoprotein OS=Murine coronavirus (strain JHMV / variant CL-2) OX=33735 GN=S PE=1 SV=1
+sp|P11225|SPIKE_CVMJH    11.0      0.21     1   2.5    834   1002    846    970    117    250     Spike glycoprotein OS=Murine coronavirus (strain JHM) OX=11144 GN=S PE=1 SV=1
+sp|P22432|SPIKE_CVM4     10.7      0.24     1   2.5    975   1143    987   1111    117    250     Spike glycoprotein OS=Murine coronavirus (strain 4) OX=12760 GN=S PE=3 SV=1
+sp|P36334|SPIKE_CVHOC    10.6      0.27     1   2.3    961   1119    986   1093    135    250     Spike glycoprotein OS=Human coronavirus OC43 OX=31631 GN=S PE=3 SV=1
+sp|Q04583|ORF4_SHVX      10.4       0.3     2   1.7    111    259    122    252    111    241     Uncharacterized ORF4 protein OS=Shallot virus X OX=31770 GN=ORF4 PE=4 SV=1
+sp|P04506|SIGM1_REOVL    10.2      0.36     1   5.5     15    162     25    157    139    248     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|P17498|VPHE_NPVOP     10.2      0.36     1  16.3     95    266    112    258    127    251     Polyhedral envelope protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF129 PE=3 SV=1
+sp|P15423|SPIKE_CVH22     9.9      0.44     1   7.2    769    921    778    869    152    231     Spike glycoprotein OS=Human coronavirus 229E OX=11137 GN=S PE=1 SV=1
+sp|Q05233|VG26_BPML5      9.2      0.72     1   0.5    140    332    183    298    162    279     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q91AV1|SPIKE_PEDV7     8.9      0.89     1   4.5    976   1110   1010   1102    155    256     Spike glycoprotein OS=Porcine epidemic diarrhea virus (strain CV777) OX=229032 GN=S PE=1 SV=1
+sp|Q05233|VG26_BPML5      8.5       1.1     2   4.4    352    483    361    451    160    248     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q0Q4F2|SPIKE_BC133     8.4       1.3     1   3.1    970   1104    984   1082    146    252     Spike glycoprotein OS=Bat coronavirus 133/2005 OX=389230 GN=S PE=3 SV=1
+sp|O64220|VG26_BPMD2      8.2       1.4     2   3.0    340    465    356    449    156    247     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|K9N5Q8|SPIKE_MERS1     8.1       1.6     1   3.7    974   1098    985   1086    155    253     Spike glycoprotein OS=Middle East respiratory syndrome-related coronavirus (isolate United Kingdom/H123990006/2012) OX=1263720 GN=S PE=1 SV=1
+sp|Q992I2|SIGC_ARVS1      7.8         2     2   9.2     54    163     56    147    147    236     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|P04507|SIGM1_REOVJ     7.5       2.4     2   0.4     75    152     87    148    188    239     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|P04506|SIGM1_REOVL     7.3       2.7     2   0.6    121    207    131    196    176    247     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|P04507|SIGM1_REOVJ     7.0       3.4     3   2.2    121    213    133    193    185    244     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|P21270|LY_BPSF6        7.0       3.4     1   3.7      9    185     80    142    184    236     Putative lysozyme OS=Bacillus phage SF6 OX=10773 PE=3 SV=1
+sp|O64220|VG26_BPMD2      6.5       4.7     1   0.1    143    332    189    299    169    281     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|P03528|SIGM1_REOVD     5.9       7.5     1   4.9     20    237     72    146    179    247     Outer capsid protein sigma-1 OS=Reovirus type 3 (strain Dearing) OX=10886 GN=S1 PE=1 SV=3
+sp|Q04583|ORF4_SHVX       4.5        20     1   0.2      8     96     16     81    181    246     Uncharacterized ORF4 protein OS=Shallot virus X OX=31770 GN=ORF4 PE=4 SV=1
+sp|Q05233|VG26_BPML5      4.4        22     3   2.5    482    623    493    612    139    254     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|P21270|LY_BPSF6        1.5   1.6e+02     2   0.9    116    229    140    168    181    209     Putative lysozyme OS=Bacillus phage SF6 OX=10773 PE=3 SV=1
+sp|P04507|SIGM1_REOVJ     1.4   1.8e+02     1   0.0     13     76     24     69    206    251     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|Q91AV1|SPIKE_PEDV7     1.0   2.3e+02     2   0.1   1244   1321   1275   1312    198    235     Spike glycoprotein OS=Porcine epidemic diarrhea virus (strain CV777) OX=229032 GN=S PE=1 SV=1
+sp|O64220|VG26_BPMD2      0.3   3.6e+02     3   0.3    455    562    489    535    201    247     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|P15423|SPIKE_CVH22     0.2     4e+02     2   0.6   1005   1112   1067   1100    199    232     Spike glycoprotein OS=Human coronavirus 229E OX=11137 GN=S PE=1 SV=1
+sp|P21270|LY_BPSF6       -0.6   6.7e+02     3   0.1    197    288    225    252    146    173     Putative lysozyme OS=Bacillus phage SF6 OX=10773 PE=3 SV=1
+sp|P03528|SIGM1_REOVD    -1.3   1.1e+03     2   0.1    193    287    225    252    146    173     Outer capsid protein sigma-1 OS=Reovirus type 3 (strain Dearing) OX=10886 GN=S1 PE=1 SV=3
+sp|Q0Q4F2|SPIKE_BC133    -2.8   3.2e+03     2   0.1   1248   1287   1260   1282    291    313     Spike glycoprotein OS=Bat coronavirus 133/2005 OX=389230 GN=S PE=3 SV=1
+sp|P04506|SIGM1_REOVL    -3.0   3.8e+03     3   0.0    368    443    380    427    177    224     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|K9N5Q8|SPIKE_MERS1    -3.1   3.9e+03     2   0.1   1231   1286   1251   1278    202    308     Spike glycoprotein OS=Middle East respiratory syndrome-related coronavirus (isolate United Kingdom/H123990006/2012) OX=1263720 GN=S PE=1 SV=1
+sp|P04507|SIGM1_REOVJ    -3.6   5.5e+03     4   0.0    372    421    380    404    248    270     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_663185@NC_004062.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_663185@NC_004062.txt data/models_hmm/NP_663185@NC_004062.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:14 2021
+# [ok]

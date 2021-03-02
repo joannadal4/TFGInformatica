@@ -1,0 +1,67 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27265|REN_TYLCI    212.0   2.2e-63   1   1.0   1.7    Replication enhancer protein OS=Tomato yellow leaf curl virus (strain Israel) OX=66366 GN=C3 PE=1 SV=1
+sp|P36281|REN_TLCVA    204.7     4e-61   1   1.0   1.4    Replication enhancer protein OS=Tomato leaf curl virus (strain Australia) OX=223353 GN=C3 PE=3 SV=1
+sp|Q08590|REN_ICMV     203.5   9.4e-61   1   1.0   1.2    Replication enhancer protein OS=Indian cassava mosaic virus OX=31600 GN=AC3 PE=3 SV=1
+sp|Q9DXE7|REN_TYLCC    203.5   9.4e-61   1   1.0   2.8    Replication enhancer protein OS=Tomato yellow leaf curl China virus OX=185793 GN=C3 PE=3 SV=1
+sp|P14977|REN_CLVK     197.7   5.7e-59   1   1.0   3.4    Replication enhancer protein OS=African cassava mosaic virus (isolate West Kenyan 844) OX=10818 GN=AC3 PE=3 SV=1
+sp|P14969|REN_CLVN     197.7   5.9e-59   1   1.0   2.6    Replication enhancer protein OS=African cassava mosaic virus (isolate Nigerian) OX=222073 GN=AC3 PE=3 SV=1
+sp|P38611|REN_TYCS1    197.0   9.9e-59   1   1.0   4.4    Replication enhancer protein OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-1) OX=37139 GN=C3 PE=3 SV=1
+sp|P27266|REN_TYCSV    196.4   1.4e-58   1   1.0   4.8    Replication enhancer protein OS=Tomato yellow leaf curl Sardinia virus OX=123735 GN=C3 PE=1 SV=1
+sp|Q67618|REN_TYCS2    195.9   2.1e-58   1   1.0   4.4    Replication enhancer protein OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-2) OX=221538 GN=C3 PE=3 SV=1
+sp|P03563|REN_TGMVY    192.8     2e-57   1   1.0   1.0    Replication enhancer protein OS=Tomato golden mosaic virus (strain Yellow vein) OX=223341 GN=AC3 PE=1 SV=1
+sp|Q06659|REN_TMOV     188.9     3e-56   1   1.0   2.2    Replication enhancer protein OS=Tomato mottle virus (isolate Florida) OX=223359 GN=AC3 PE=3 SV=1
+sp|P21943|REN_ABMVW    187.3   9.6e-56   1   1.0   3.4    Replication enhancer protein OS=Abutilon mosaic virus (isolate West India) OX=10816 GN=AC3 PE=3 SV=1
+sp|P0CK35|REN_BGYMV    187.2   1.1e-55   1   1.0   1.9    Replication enhancer protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico) OX=222448 GN=AC3 PE=3 SV=1
+sp|P0CK36|REN_BGYMJ    186.1   2.3e-55   1   1.0   1.8    Replication enhancer protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico-Japan) OX=222449 GN=AC3 PE=3 SV=1
+sp|P27264|REN_PYMVV    183.1   1.9e-54   1   1.0   1.6    Replication enhancer protein OS=Potato yellow mosaic virus (isolate Venezuela) OX=223310 GN=AC3 PE=3 SV=1
+sp|P29049|REN_SLCV     177.4   1.1e-52   1   1.0   0.9    Replication enhancer protein OS=Squash leaf curl virus OX=10829 GN=AC3 PE=3 SV=1
+sp|Q96702|REN_CALCV    172.0     5e-51   1   1.0   0.8    Replication enhancer protein OS=Cabbage leaf curl virus (isolate Jamaica) OX=345184 GN=AC3 PE=3 SV=1
+sp|Q06925|REN_PHUV     156.8   2.4e-46   1   1.0   0.8    Replication enhancer protein OS=Pepper huasteco yellow vein virus OX=223303 GN=AC3 PE=3 SV=1
+sp|Q9YPS4|REN_MYMVV    151.9     8e-45   1   1.0   0.8    Replication enhancer protein OS=Mungbean yellow mosaic virus (strain Vigna) OX=223295 GN=AC3 PE=3 SV=1
+sp|P14994|REN_BCTVC    142.6   6.2e-42   1   1.0   0.4    Replication enhancer OS=Beet curly top virus (strain California/Logan) OX=268960 GN=C3 PE=3 SV=2
+sp|Q88890|REN_TPCTV    127.4   2.9e-37   1   1.0   1.1    Replication enhancer protein OS=Tomato pseudo-curly top virus OX=49267 GN=C3 PE=3 SV=1
+sp|Q8QL45|Y117_SIRV1    16.8    0.0041   1   1.3   1.4    Uncharacterized protein 117 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=117 PE=4 SV=1
+sp|Q9Z0D1|U1_MDV1       12.6     0.083   1   1.1   0.7    Protein U1 OS=Milk vetch dwarf virus (isolate N) OX=291605 GN=DNA-U1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27265|REN_TYLCI    211.9   2.5e-63     1   1.7      1    134      1    134      1    133     Replication enhancer protein OS=Tomato yellow leaf curl virus (strain Israel) OX=66366 GN=C3 PE=1 SV=1
+sp|P36281|REN_TLCVA    204.6   4.4e-61     1   1.4      1    134      1    134      1    133     Replication enhancer protein OS=Tomato leaf curl virus (strain Australia) OX=223353 GN=C3 PE=3 SV=1
+sp|Q08590|REN_ICMV     203.4     1e-60     1   1.2      1    134      1    134      1    133     Replication enhancer protein OS=Indian cassava mosaic virus OX=31600 GN=AC3 PE=3 SV=1
+sp|Q9DXE7|REN_TYLCC    203.4     1e-60     1   2.8      1    134      1    134      1    133     Replication enhancer protein OS=Tomato yellow leaf curl China virus OX=185793 GN=C3 PE=3 SV=1
+sp|P14977|REN_CLVK     197.6   6.3e-59     1   3.4      1    134      1    134      1    133     Replication enhancer protein OS=African cassava mosaic virus (isolate West Kenyan 844) OX=10818 GN=AC3 PE=3 SV=1
+sp|P14969|REN_CLVN     197.5   6.6e-59     1   2.6      1    134      1    134      1    133     Replication enhancer protein OS=African cassava mosaic virus (isolate Nigerian) OX=222073 GN=AC3 PE=3 SV=1
+sp|P38611|REN_TYCS1    196.8   1.1e-58     1   4.4      1    134      1    134      1    133     Replication enhancer protein OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-1) OX=37139 GN=C3 PE=3 SV=1
+sp|P27266|REN_TYCSV    196.3   1.6e-58     1   4.8      1    134      1    134      1    133     Replication enhancer protein OS=Tomato yellow leaf curl Sardinia virus OX=123735 GN=C3 PE=1 SV=1
+sp|Q67618|REN_TYCS2    195.8   2.3e-58     1   4.4      1    134      1    134      1    133     Replication enhancer protein OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-2) OX=221538 GN=C3 PE=3 SV=1
+sp|P03563|REN_TGMVY    192.6   2.2e-57     1   1.0      1    132      1    132      1    133     Replication enhancer protein OS=Tomato golden mosaic virus (strain Yellow vein) OX=223341 GN=AC3 PE=1 SV=1
+sp|Q06659|REN_TMOV     188.8   3.3e-56     1   2.2      1    132      1    132      1    133     Replication enhancer protein OS=Tomato mottle virus (isolate Florida) OX=223359 GN=AC3 PE=3 SV=1
+sp|P21943|REN_ABMVW    187.1   1.1e-55     1   3.4      1    132      1    132      1    133     Replication enhancer protein OS=Abutilon mosaic virus (isolate West India) OX=10816 GN=AC3 PE=3 SV=1
+sp|P0CK35|REN_BGYMV    187.0   1.2e-55     1   1.9      1    132      1    132      1    133     Replication enhancer protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico) OX=222448 GN=AC3 PE=3 SV=1
+sp|P0CK36|REN_BGYMJ    185.9   2.6e-55     1   1.8      1    132      1    132      1    133     Replication enhancer protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico-Japan) OX=222449 GN=AC3 PE=3 SV=1
+sp|P27264|REN_PYMVV    183.0   2.1e-54     1   1.6      1    132      1    132      1    133     Replication enhancer protein OS=Potato yellow mosaic virus (isolate Venezuela) OX=223310 GN=AC3 PE=3 SV=1
+sp|P29049|REN_SLCV     177.2   1.2e-52     1   0.9      3    134      3    134      1    133     Replication enhancer protein OS=Squash leaf curl virus OX=10829 GN=AC3 PE=3 SV=1
+sp|Q96702|REN_CALCV    171.9   5.6e-51     1   0.8      1    132      1    132      1    133     Replication enhancer protein OS=Cabbage leaf curl virus (isolate Jamaica) OX=345184 GN=AC3 PE=3 SV=1
+sp|Q06925|REN_PHUV     156.7   2.7e-46     1   0.8      1    132      1    132      1    133     Replication enhancer protein OS=Pepper huasteco yellow vein virus OX=223303 GN=AC3 PE=3 SV=1
+sp|Q9YPS4|REN_MYMVV    151.8   8.9e-45     1   0.8      1    134      1    134      1    133     Replication enhancer protein OS=Mungbean yellow mosaic virus (strain Vigna) OX=223295 GN=AC3 PE=3 SV=1
+sp|P14994|REN_BCTVC    142.3   7.5e-42     1   0.4      3    136      6    136      2    133     Replication enhancer OS=Beet curly top virus (strain California/Logan) OX=268960 GN=C3 PE=3 SV=2
+sp|Q88890|REN_TPCTV    127.3   3.2e-37     1   1.1      1    134      1    134      1    133     Replication enhancer protein OS=Tomato pseudo-curly top virus OX=49267 GN=C3 PE=3 SV=1
+sp|Q8QL45|Y117_SIRV1    16.7    0.0047     1   1.2      1     96      2     69     56    119     Uncharacterized protein 117 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=117 PE=4 SV=1
+sp|Q9Z0D1|U1_MDV1       12.2      0.11     1   0.7     38    143     50    128     42    117     Protein U1 OS=Milk vetch dwarf virus (isolate N) OX=291605 GN=DNA-U1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001911130@NC_010713.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001911130@NC_010713.txt data/models_hmm/YP_001911130@NC_010713.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:42 2021
+# [ok]

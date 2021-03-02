@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64328|G_BPN15      187.4   8.8e-56   1   1.0   0.1    Tail assembly protein G OS=Escherichia phage N15 OX=40631 GN=gene 14 PE=3 SV=1
+sp|P03734|G_LAMBD      181.8     5e-54   1   1.0   0.6    Tail assembly protein G OS=Escherichia phage lambda OX=10710 GN=G PE=1 SV=1
+sp|O64329|GT_BPN15     176.8   1.7e-52   1   1.2   0.1    Tail assembly protein GT OS=Escherichia phage N15 OX=40631 GN=gene 15 PE=3 SV=2
+sp|P03735|GT_LAMBD     172.0   5.1e-51   1   1.3   0.4    Tail assembly protein GT OS=Escherichia phage lambda OX=10710 GN=T PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64328|G_BPN15      187.3     1e-55     1   0.1      1    140      1    140      1    141     Tail assembly protein G OS=Escherichia phage N15 OX=40631 GN=gene 14 PE=3 SV=1
+sp|P03734|G_LAMBD      181.6   5.6e-54     1   0.6      1    140      1    140      1    141     Tail assembly protein G OS=Escherichia phage lambda OX=10710 GN=G PE=1 SV=1
+sp|O64329|GT_BPN15     176.4   2.2e-52     1   0.1      1    140      1    137      1    138     Tail assembly protein GT OS=Escherichia phage N15 OX=40631 GN=gene 15 PE=3 SV=2
+sp|P03735|GT_LAMBD     171.3   8.6e-51     1   0.4      1    138      1    135      1    136     Tail assembly protein GT OS=Escherichia phage lambda OX=10710 GN=T PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001272524@NC_009514.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001272524@NC_009514.txt data/models_hmm/YP_001272524@NC_009514.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:06 2021
+# [ok]

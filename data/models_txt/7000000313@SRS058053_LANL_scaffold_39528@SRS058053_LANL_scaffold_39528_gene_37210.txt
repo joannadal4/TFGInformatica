@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P24836|VE6_HPV56     14.9     0.017   1   1.1   0.0    Protein E6 OS=Human papillomavirus type 56 OX=10596 GN=E6 PE=3 SV=1
+sp|P19282|YOR7_TTV1K    12.3      0.11   1   1.0   0.0    Uncharacterized 6.5 kDa protein OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+sp|Q80955|VE6_HPV66     12.3      0.11   1   1.1   0.2    Protein E6 OS=Human papillomavirus type 66 OX=37119 GN=E6 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P24836|VE6_HPV56     14.6      0.02     1   0.0     23    134     38    121     35    114     Protein E6 OS=Human papillomavirus type 56 OX=10596 GN=E6 PE=3 SV=1
+sp|P19282|YOR7_TTV1K    12.2      0.11     1   0.0      5     54     11     46     82    117     Uncharacterized 6.5 kDa protein OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+sp|Q80955|VE6_HPV66     12.0      0.13     1   0.2     35    139     50    115     47    107     Protein E6 OS=Human papillomavirus type 66 OX=37119 GN=E6 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000313@SRS058053_LANL_scaffold_39528@SRS058053_LANL_scaffold_39528_gene_37210.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000313@SRS058053_LANL_scaffold_39528@SRS058053_LANL_scaffold_39528_gene_37210.txt data/models_hmm/7000000313@SRS058053_LANL_scaffold_39528@SRS058053_LANL_scaffold_39528_gene_37210.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:10 2021
+# [ok]

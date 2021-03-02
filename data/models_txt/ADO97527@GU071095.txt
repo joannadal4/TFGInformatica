@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9JGU0|PHOSP_NCMV    14.9     0.017   2   2.2   0.2    Phosphoprotein OS=Northern cereal mosaic virus OX=1985704 GN=P PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9JGU0|PHOSP_NCMV     9.7      0.62     1   0.0    101    179    116    154     49     87     Phosphoprotein OS=Northern cereal mosaic virus OX=1985704 GN=P PE=3 SV=1
+sp|Q9JGU0|PHOSP_NCMV     3.0        71     2   0.0    198    266    214    248     33     67     Phosphoprotein OS=Northern cereal mosaic virus OX=1985704 GN=P PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ADO97527@GU071095.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ADO97527@GU071095.txt data/models_hmm/ADO97527@GU071095.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:21 2021
+# [ok]

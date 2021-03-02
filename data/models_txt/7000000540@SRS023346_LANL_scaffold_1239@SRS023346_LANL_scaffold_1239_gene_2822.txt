@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A0PJ24|L_BCNVU       10.9      0.25   2   2.6   1.6    RNA-directed RNA polymerase L OS=Bear Canyon mammarenavirus (isolate Mouse/United States/AV A0070039/2000) OX=192848 GN=L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A0PJ24|L_BCNVU        6.8       4.3     2   0.1   2125   2201   2130   2188    126    187     RNA-directed RNA polymerase L OS=Bear Canyon mammarenavirus (isolate Mouse/United States/AV A0070039/2000) OX=192848 GN=L PE=3 SV=1
+sp|A0PJ24|L_BCNVU        2.2   1.1e+02     1   0.2    367    457    385    443    113    173     RNA-directed RNA polymerase L OS=Bear Canyon mammarenavirus (isolate Mouse/United States/AV A0070039/2000) OX=192848 GN=L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000540@SRS023346_LANL_scaffold_1239@SRS023346_LANL_scaffold_1239_gene_2822.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000540@SRS023346_LANL_scaffold_1239@SRS023346_LANL_scaffold_1239_gene_2822.txt data/models_hmm/7000000540@SRS023346_LANL_scaffold_1239@SRS023346_LANL_scaffold_1239_gene_2822.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:10 2021
+# [ok]

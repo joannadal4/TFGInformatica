@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O71194|P20A_GLRV3    17.4    0.0041   1   2.0   0.9    Protein P20A OS=Grapevine leafroll-associated virus 3 (isolate United States/NY1) OX=651354 GN=ORF9 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O71194|P20A_GLRV3    15.2      0.02     1   0.9     57    147    112    146     41     73     Protein P20A OS=Grapevine leafroll-associated virus 3 (isolate United States/NY1) OX=651354 GN=ORF9 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008239997@NC_021781.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008239997@NC_021781.txt data/models_hmm/YP_008239997@NC_021781.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:27 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8QL38|Y179_SIRV1    15.0     0.011   3   2.0   1.4    Uncharacterized protein 179 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=179 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8QL38|Y179_SIRV1    15.0     0.011     2   1.4     34    118     43     94     34     86     Uncharacterized protein 179 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=179 PE=4 SV=1
+sp|Q8QL38|Y179_SIRV1     1.6   1.3e+02     3   0.5     81    178     84    166     11     90     Uncharacterized protein 179 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=179 PE=4 SV=1
+sp|Q8QL38|Y179_SIRV1    -2.5   2.3e+03     1   0.0      2     40      3     21     86    104     Uncharacterized protein 179 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=179 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000673@SRS017025_Baylor_scaffold_35@SRS017025_Baylor_scaffold_35_gene_60.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000673@SRS017025_Baylor_scaffold_35@SRS017025_Baylor_scaffold_35_gene_60.txt data/models_hmm/7000000673@SRS017025_Baylor_scaffold_35@SRS017025_Baylor_scaffold_35_gene_60.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:54 2021
+# [ok]

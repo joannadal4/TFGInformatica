@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q77PA8|M11L_MYXVL    12.8     0.061   2   2.1   2.2    Apoptosis regulator M11L OS=Myxoma virus (strain Lausanne) OX=31530 GN=m011L PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q77PA8|M11L_MYXVL     9.3       0.7     1   0.3      8    103     30     77    119    169     Apoptosis regulator M11L OS=Myxoma virus (strain Lausanne) OX=31530 GN=m011L PE=1 SV=1
+sp|Q77PA8|M11L_MYXVL     3.4        44     2   0.1     98    152    106    136    104    132     Apoptosis regulator M11L OS=Myxoma virus (strain Lausanne) OX=31530 GN=m011L PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_418036@NC_007623.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_418036@NC_007623.txt data/models_hmm/YP_418036@NC_007623.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:31 2021
+# [ok]

@@ -1,0 +1,38 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPW9|YL291_MIMIV    53.4   2.3e-14   2   4.2  45.1    Uncharacterized protein L291 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L291 PE=4 SV=1
+sp|Q5UQ67|YR506_MIMIV    48.8   5.8e-13   1   1.2  20.5    Uncharacterized protein R506 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R506 PE=4 SV=1
+sp|Q3KSS1|BKRF4_EBVG     12.5     0.063   1   1.2   5.0    Tegument protein BKRF4 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BKRF4 PE=3 SV=1
+sp|P0C724|BKRF4_EBVA8    12.2      0.08   1   1.2   4.9    Tegument protein BKRF4 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BKRF4 PE=3 SV=1
+sp|P30117|BKRF4_EBVB9    12.2      0.08   1   1.2   4.9    Tegument protein BKRF4 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BKRF4 PE=3 SV=1
+sp|Q66659|IE63_EHV2      11.8       0.1   1   1.1   1.9    Immediate-early phosphoprotein 57 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=57 PE=3 SV=2
+sp|Q5UPT2|UNG_MIMIV       8.6      0.97   1   1.2  18.3    Probable uracil-DNA glycosylase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=UNG PE=1 SV=1
+sp|P03720|VPIP_BPT4       7.9       1.6   1   1.1  12.4    Prehead core component PIP OS=Enterobacteria phage T4 OX=10665 GN=67 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPW9|YL291_MIMIV    53.4   2.3e-14     2  45.1    148    594    154    582     38    323     Uncharacterized protein L291 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L291 PE=4 SV=1
+sp|Q5UQ67|YR506_MIMIV    48.3   8.4e-13     1  20.5      6    312     14    272     15    254     Uncharacterized protein R506 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R506 PE=4 SV=1
+sp|Q3KSS1|BKRF4_EBVG     12.5     0.065     1   5.0     20    212     41    123    221    273     Tegument protein BKRF4 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BKRF4 PE=3 SV=1
+sp|P0C724|BKRF4_EBVA8    12.1     0.082     1   4.9     20    205     41    115    221    273     Tegument protein BKRF4 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BKRF4 PE=3 SV=1
+sp|P30117|BKRF4_EBVB9    12.1     0.082     1   4.9     20    205     41    115    221    273     Tegument protein BKRF4 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BKRF4 PE=3 SV=1
+sp|Q66659|IE63_EHV2      11.6      0.12     1   1.9      7    314     28    110    219    273     Immediate-early phosphoprotein 57 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=57 PE=3 SV=2
+sp|Q5UPT2|UNG_MIMIV       8.0       1.5     1  18.3      1    109     12    104    235    327     Probable uracil-DNA glycosylase OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=UNG PE=1 SV=1
+sp|P03720|VPIP_BPT4       7.8       1.7     1  12.4     21     80     34     79    207    272     Prehead core component PIP OS=Enterobacteria phage T4 OX=10665 GN=67 PE=4 SV=1
+sp|Q5UPW9|YL291_MIMIV   -23.8   1.7e+04     1  41.1     35    156     90    148    219    272     Uncharacterized protein L291 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L291 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000736@JGI12547J11936_1000002@JGI12547J11936_100000242.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000736@JGI12547J11936_1000002@JGI12547J11936_100000242.txt data/models_hmm/3300000736@JGI12547J11936_1000002@JGI12547J11936_100000242.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:15 2021
+# [ok]

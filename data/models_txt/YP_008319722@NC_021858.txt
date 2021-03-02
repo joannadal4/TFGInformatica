@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P18385|VT4_SHEVN      10.3      0.17   1   1.1   0.0    T4 protein OS=Sheeppox virus (strain InS-1) OX=10268 GN=T4 PE=3 SV=1
+sp|Q5UPB3|YL037_MIMIV     5.9       3.8   1   1.3  11.2    Putative KilA-N domain-containing protein L37 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L37 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P18385|VT4_SHEVN       9.8      0.25     1   0.0      6     67     10     52    142    182     T4 protein OS=Sheeppox virus (strain InS-1) OX=10268 GN=T4 PE=3 SV=1
+sp|Q5UPB3|YL037_MIMIV     5.3       5.9     1  11.2     18    222     47    139    340    429     Putative KilA-N domain-containing protein L37 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L37 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008319722@NC_021858.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008319722@NC_021858.txt data/models_hmm/YP_008319722@NC_021858.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:50 2021
+# [ok]

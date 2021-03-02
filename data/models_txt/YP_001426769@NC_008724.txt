@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52442|UL49_HHV7J    14.4     0.026   1   1.9   1.2    Protein U33 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U33 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52442|UL49_HHV7J    12.7     0.088     1   1.2     86    189     90    156      4     67     Protein U33 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U33 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001426769@NC_008724.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001426769@NC_008724.txt data/models_hmm/YP_001426769@NC_008724.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:15 2021
+# [ok]

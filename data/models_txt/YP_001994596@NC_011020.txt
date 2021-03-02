@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05261|VG49_BPML5   229.5   2.7e-68   1   1.0  11.7    Gene 49 protein OS=Mycobacterium phage L5 OX=31757 GN=49 PE=4 SV=1
+sp|O64239|VG49_BPMD2   217.9   9.4e-65   1   1.0   8.2    Gene 49 protein OS=Mycobacterium phage D29 OX=28369 GN=49 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05261|VG49_BPML5   229.3     3e-68     1  11.7      6    178      6    177      1    176     Gene 49 protein OS=Mycobacterium phage L5 OX=31757 GN=49 PE=4 SV=1
+sp|O64239|VG49_BPMD2   217.7   1.1e-64     1   8.2      1    189      1    188      1    176     Gene 49 protein OS=Mycobacterium phage D29 OX=28369 GN=49 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001994596@NC_011020.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001994596@NC_011020.txt data/models_hmm/YP_001994596@NC_011020.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:45 2021
+# [ok]

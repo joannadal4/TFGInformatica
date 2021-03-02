@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21738|PHOSP_PI4HB    13.6     0.053   1   1.6   0.2    Phosphoprotein OS=Human parainfluenza 4b virus (strain 68-333) OX=11227 GN=P/V PE=1 SV=1
+sp|P22044|PHOSP_PI4HA    12.9     0.085   1   1.6   0.2    Phosphoprotein OS=Human parainfluenza 4a virus (strain Toshiba) OX=11225 GN=P/V PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21738|PHOSP_PI4HB    12.4      0.12     1   0.2    220    284    224    264     64    102     Phosphoprotein OS=Human parainfluenza 4b virus (strain 68-333) OX=11227 GN=P/V PE=1 SV=1
+sp|P22044|PHOSP_PI4HA    11.7      0.19     1   0.2    216    284    225    264     65    102     Phosphoprotein OS=Human parainfluenza 4a virus (strain Toshiba) OX=11225 GN=P/V PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000238@SRS013950_WUGC_scaffold_4400@SRS013950_WUGC_scaffold_4400_gene_3115.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000238@SRS013950_WUGC_scaffold_4400@SRS013950_WUGC_scaffold_4400_gene_3115.txt data/models_hmm/7000000238@SRS013950_WUGC_scaffold_4400@SRS013950_WUGC_scaffold_4400_gene_3115.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:42 2021
+# [ok]

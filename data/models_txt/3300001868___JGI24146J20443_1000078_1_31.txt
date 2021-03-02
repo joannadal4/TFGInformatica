@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9J593|RP147_FOWPN    17.6    0.0019   3   3.7   6.3    DNA-directed RNA polymerase 147 kDa polypeptide OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO147 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9J593|RP147_FOWPN    16.7    0.0037     2   0.5    301    368    316    368    165    215     DNA-directed RNA polymerase 147 kDa polypeptide OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO147 PE=3 SV=1
+sp|Q9J593|RP147_FOWPN     0.8   2.7e+02     1   0.0    223    281    225    266    116    153     DNA-directed RNA polymerase 147 kDa polypeptide OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO147 PE=3 SV=1
+sp|Q9J593|RP147_FOWPN    -0.4   6.1e+02     3   0.2   1022   1069   1026   1059    119    152     DNA-directed RNA polymerase 147 kDa polypeptide OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO147 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001868___JGI24146J20443_1000078_1_31.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001868___JGI24146J20443_1000078_1_31.txt data/models_hmm/3300001868___JGI24146J20443_1000078_1_31.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:33 2021
+# [ok]

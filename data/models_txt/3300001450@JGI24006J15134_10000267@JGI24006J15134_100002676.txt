@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                      bits   E-value   n   exp  bias    description
+#     ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P17312|TERL_BPT4         31.9   3.8e-08   1   1.6   0.0    Terminase, large subunit OS=Enterobacteria phage T4 OX=10665 GN=17 PE=1 SV=1
+sp|P10310|TERL_BPT3         11.8     0.044   1   1.1   0.0    Terminase, large subunit OS=Enterobacteria phage T3 OX=10759 GN=19 PE=1 SV=1
+sp|A0A1L4BKS3|TERL_BPG20    11.1     0.075   1   1.2   0.0    Terminase, large subunit OS=Thermus phage G20c OX=1406341 GN=G20c_80 PE=1 SV=1
+sp|Q70LD6|Y426_AFV1Y        10.9     0.082   1   1.2   0.0    Uncharacterized protein ORF426 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF426 PE=4 SV=1
+sp|A7XXB7|TERL_BP234        10.8     0.089   1   1.2   0.0    Terminase, large subunit OS=Thermus virus P23-45 OX=466051 GN=P23p85 PE=3 SV=1
+sp|P03694|TERL_BPT7         10.5      0.11   1   1.1   0.0    Terminase, large subunit OS=Escherichia phage T7 OX=10760 GN=19 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                     bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#     ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P17312|TERL_BPT4         30.6   9.4e-08     1   0.0     55    290     76    278    138    315     Terminase, large subunit OS=Enterobacteria phage T4 OX=10665 GN=17 PE=1 SV=1
+sp|P10310|TERL_BPT3         11.3     0.062     1   0.0     39    126     47    113    169    232     Terminase, large subunit OS=Enterobacteria phage T3 OX=10759 GN=19 PE=1 SV=1
+sp|A0A1L4BKS3|TERL_BPG20    10.5      0.11     1   0.0     19    178     38    172    181    316     Terminase, large subunit OS=Thermus phage G20c OX=1406341 GN=G20c_80 PE=1 SV=1
+sp|Q70LD6|Y426_AFV1Y        10.4      0.12     1   0.0    295    384    306    363    410    472     Uncharacterized protein ORF426 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF426 PE=4 SV=1
+sp|A7XXB7|TERL_BP234        10.2      0.13     1   0.0     19    178     38    172    181    316     Terminase, large subunit OS=Thermus virus P23-45 OX=466051 GN=P23p85 PE=3 SV=1
+sp|P03694|TERL_BPT7          9.9      0.16     1   0.0     39    124     47    111    169    230     Terminase, large subunit OS=Escherichia phage T7 OX=10760 GN=19 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001450@JGI24006J15134_10000267@JGI24006J15134_100002676.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001450@JGI24006J15134_10000267@JGI24006J15134_100002676.txt data/models_hmm/3300001450@JGI24006J15134_10000267@JGI24006J15134_100002676.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:29 2021
+# [ok]

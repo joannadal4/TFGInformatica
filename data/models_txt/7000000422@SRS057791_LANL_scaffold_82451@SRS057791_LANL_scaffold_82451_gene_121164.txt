@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6WB93|L_HMPVC       16.6    0.0035   2   2.3   0.0    RNA-directed RNA polymerase L OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=L PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6WB93|L_HMPVC       12.4     0.064     1   0.0   1114   1172   1126   1163    271    310     RNA-directed RNA polymerase L OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=L PE=1 SV=1
+sp|Q6WB93|L_HMPVC        1.2   1.7e+02     2   0.0   1739   1860   1802   1853    100    155     RNA-directed RNA polymerase L OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=L PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000422@SRS057791_LANL_scaffold_82451@SRS057791_LANL_scaffold_82451_gene_121164.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000422@SRS057791_LANL_scaffold_82451@SRS057791_LANL_scaffold_82451_gene_121164.txt data/models_hmm/7000000422@SRS057791_LANL_scaffold_82451@SRS057791_LANL_scaffold_82451_gene_121164.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:06 2021
+# [ok]

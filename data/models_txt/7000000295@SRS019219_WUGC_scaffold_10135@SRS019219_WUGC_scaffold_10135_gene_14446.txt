@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41470|Y070_NPVAC     14.6     0.027   1   1.6   0.0    Uncharacterized 34.4 kDa protein in LEF3-IAP2 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|Q07855|VE6_HPV63      13.5      0.06   1   1.5   0.0    Protein E6 OS=Human papillomavirus type 63 OX=28311 GN=E6 PE=3 SV=1
+sp|P0CA93|VF196_ASFWA    12.8       0.1   1   1.4   0.1    Late protein I196L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-156 PE=2 SV=1
+sp|P0C6F6|R1A_BC512       8.2       2.7   3   3.5   5.5    Replicase polyprotein 1a OS=Bat coronavirus 512/2005 OX=693999 GN=1a PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41470|Y070_NPVAC     13.5     0.059     1   0.0    220    290    235    285     21     73     Uncharacterized 34.4 kDa protein in LEF3-IAP2 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|Q07855|VE6_HPV63      12.5      0.12     1   0.0     69    137     73    132     11     70     Protein E6 OS=Human papillomavirus type 63 OX=28311 GN=E6 PE=3 SV=1
+sp|P0CA93|VF196_ASFWA    12.3      0.14     1   0.1     22    136     58    107     35     82     Late protein I196L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-156 PE=2 SV=1
+sp|P0C6F6|R1A_BC512       6.8         7     2   0.6   1652   1739   1677   1731     41     95     Replicase polyprotein 1a OS=Bat coronavirus 512/2005 OX=693999 GN=1a PE=3 SV=1
+sp|P0C6F6|R1A_BC512       0.8   5.4e+02     1   0.0    892    940    900    934     45     78     Replicase polyprotein 1a OS=Bat coronavirus 512/2005 OX=693999 GN=1a PE=3 SV=1
+sp|P0C6F6|R1A_BC512      -0.8   1.6e+03     3   0.1   1839   1918   1851   1907     39     95     Replicase polyprotein 1a OS=Bat coronavirus 512/2005 OX=693999 GN=1a PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000295@SRS019219_WUGC_scaffold_10135@SRS019219_WUGC_scaffold_10135_gene_14446.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000295@SRS019219_WUGC_scaffold_10135@SRS019219_WUGC_scaffold_10135_gene_14446.txt data/models_hmm/7000000295@SRS019219_WUGC_scaffold_10135@SRS019219_WUGC_scaffold_10135_gene_14446.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:56 2021
+# [ok]

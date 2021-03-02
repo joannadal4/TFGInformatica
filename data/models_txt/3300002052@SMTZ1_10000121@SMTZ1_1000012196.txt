@@ -1,0 +1,38 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P59594|SPIKE_SARS     11.3      0.15   2   2.1   3.6    Spike glycoprotein OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=S PE=1 SV=1
+sp|Q3LZX1|SPIKE_BCHK3    11.0      0.19   2   2.1   2.0    Spike glycoprotein OS=Bat coronavirus HKU3 OX=442736 GN=S PE=3 SV=1
+sp|P0DTC2|SPIKE_SARS2    10.8      0.22   2   1.8   1.7    Spike glycoprotein OS=Severe acute respiratory syndrome coronavirus 2 OX=2697049 GN=S PE=1 SV=1
+sp|Q0Q475|SPIKE_BC279     9.4      0.57   3   2.6   6.2    Spike glycoprotein OS=Bat coronavirus 279/2005 OX=389167 GN=S PE=3 SV=1
+sp|Q3I5J5|SPIKE_BCRP3     9.1      0.75   3   2.4   6.3    Spike glycoprotein OS=Bat coronavirus Rp3/2004 OX=349344 GN=S PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DTC2|SPIKE_SARS2    10.4      0.29     2   0.1   1132   1211   1137   1201     83    147     Spike glycoprotein OS=Severe acute respiratory syndrome coronavirus 2 OX=2697049 GN=S PE=1 SV=1
+sp|Q0Q475|SPIKE_BC279    10.4      0.29     3   0.1   1100   1179   1105   1169     83    147     Spike glycoprotein OS=Bat coronavirus 279/2005 OX=389167 GN=S PE=3 SV=1
+sp|Q3I5J5|SPIKE_BCRP3    10.4      0.29     3   0.1   1100   1179   1105   1169     83    147     Spike glycoprotein OS=Bat coronavirus Rp3/2004 OX=349344 GN=S PE=1 SV=1
+sp|Q3LZX1|SPIKE_BCHK3    10.4      0.29     2   0.1   1101   1180   1106   1170     83    147     Spike glycoprotein OS=Bat coronavirus HKU3 OX=442736 GN=S PE=3 SV=1
+sp|P59594|SPIKE_SARS     10.4       0.3     2   0.1   1114   1193   1119   1183     83    147     Spike glycoprotein OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=S PE=1 SV=1
+sp|Q3I5J5|SPIKE_BCRP3     1.0   2.2e+02     2   1.0    878    984    892    960    116    187     Spike glycoprotein OS=Bat coronavirus Rp3/2004 OX=349344 GN=S PE=1 SV=1
+sp|P59594|SPIKE_SARS      1.0   2.2e+02     1   1.0    892    998    906    974    116    187     Spike glycoprotein OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=S PE=1 SV=1
+sp|Q0Q475|SPIKE_BC279     0.5     3e+02     2   1.2    877    985    892    963    116    190     Spike glycoprotein OS=Bat coronavirus 279/2005 OX=389167 GN=S PE=3 SV=1
+sp|Q3LZX1|SPIKE_BCHK3    -1.3   1.1e+03     1   0.3    880    983    920    950    131    176     Spike glycoprotein OS=Bat coronavirus HKU3 OX=442736 GN=S PE=3 SV=1
+sp|P0DTC2|SPIKE_SARS2    -1.5   1.3e+03     1   0.3    911   1013    951    967    131    147     Spike glycoprotein OS=Severe acute respiratory syndrome coronavirus 2 OX=2697049 GN=S PE=1 SV=1
+sp|Q0Q475|SPIKE_BC279    -2.1   1.9e+03     1   0.0    122    189    131    176     62    106     Spike glycoprotein OS=Bat coronavirus 279/2005 OX=389167 GN=S PE=3 SV=1
+sp|Q3I5J5|SPIKE_BCRP3    -4.0   7.5e+03     1   0.0    123    180    132    173     63    103     Spike glycoprotein OS=Bat coronavirus Rp3/2004 OX=349344 GN=S PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002052@SMTZ1_10000121@SMTZ1_1000012196.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002052@SMTZ1_10000121@SMTZ1_1000012196.txt data/models_hmm/3300002052@SMTZ1_10000121@SMTZ1_1000012196.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:09 2021
+# [ok]

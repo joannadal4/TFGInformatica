@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03709|FI_LAMBD     202.9     2e-60   1   1.0   3.6    DNA-packaging protein FI OS=Escherichia phage lambda OX=10710 GN=Fi PE=1 SV=1
+sp|P36276|YG78_BPP21    67.9   1.1e-18   1   1.6   4.5    Uncharacterized 13.5 kDa protein in GP7-GP8 intergenic region OS=Enterobacteria phage P21 OX=10711 PE=4 SV=1
+sp|Q914J7|Y033_SIFVH    14.8     0.027   2   1.6   0.6    Uncharacterized protein 33 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0033 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03709|FI_LAMBD     202.8   2.3e-60     1   3.6      1    132      1    132      1    133     DNA-packaging protein FI OS=Escherichia phage lambda OX=10710 GN=Fi PE=1 SV=1
+sp|P36276|YG78_BPP21    66.6   2.6e-18     1   4.5      1    124      1    122      1    131     Uncharacterized 13.5 kDa protein in GP7-GP8 intergenic region OS=Enterobacteria phage P21 OX=10711 PE=4 SV=1
+sp|Q914J7|Y033_SIFVH    13.6     0.064     1   0.4      3     74      8     64     22     79     Uncharacterized protein 33 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0033 PE=4 SV=1
+sp|Q914J7|Y033_SIFVH    -1.6   3.1e+03     2   0.0     91    127     97    113     75     91     Uncharacterized protein 33 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0033 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001700606@NC_010392.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001700606@NC_010392.txt data/models_hmm/YP_001700606@NC_010392.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:40 2021
+# [ok]

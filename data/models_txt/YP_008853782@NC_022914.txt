@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P42547|YO12_BPL2      7.0       6.3   2   2.5   8.0    Uncharacterized 17.2 kDa protein OS=Acholeplasma phage L2 OX=46014 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P42547|YO12_BPL2      9.0       1.4     2   1.2     60     99     64     90      6     32     Uncharacterized 17.2 kDa protein OS=Acholeplasma phage L2 OX=46014 PE=4 SV=1
+sp|P42547|YO12_BPL2      1.3   3.7e+02     1   0.9      9     27     11     21      5     15     Uncharacterized 17.2 kDa protein OS=Acholeplasma phage L2 OX=46014 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008853782@NC_022914.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008853782@NC_022914.txt data/models_hmm/YP_008853782@NC_022914.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:34 2021
+# [ok]

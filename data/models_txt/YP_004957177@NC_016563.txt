@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPH0|YL100_MIMIV     7.6       3.5   2   3.3   5.8    Putative ankyrin repeat protein L100 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L100 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPH0|YL100_MIMIV     6.6       7.4     2   1.6    193    275    236    269     41     74     Putative ankyrin repeat protein L100 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L100 PE=4 SV=1
+sp|Q5UPH0|YL100_MIMIV    -1.4   2.3e+03     1   0.1    108    142    117    132     57     71     Putative ankyrin repeat protein L100 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L100 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004957177@NC_016563.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004957177@NC_016563.txt data/models_hmm/YP_004957177@NC_016563.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:57 2021
+# [ok]

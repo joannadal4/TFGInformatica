@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5H9Z4|UL20_HCMVM    391.5  5.1e-117   1   1.3  22.3    Membrane protein UL20 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL20 PE=3 SV=1
+sp|P16758|UL20_HCMVA    377.8  7.2e-113   1   1.2   4.4    Uncharacterized protein UL20 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL20 PE=3 SV=1
+sp|Q6SW10|UL133_HCMVM    10.8      0.15   1   1.2  11.7    Protein UL133 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL133 PE=4 SV=1
+sp|P0C9Q0|36012_ASFK5     9.3      0.44   1   1.2   4.3    Protein MGF 360-12L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-036 PE=3 SV=1
+sp|P11805|SF33K_ADE40     8.8      0.62   1   1.2   4.2    Protein 33K OS=Human adenovirus F serotype 40 OX=28284 GN=L4 PE=2 SV=2
+sp|P03290|Y115_ADE02      5.2         8   1   1.0  10.4    Uncharacterized protein E-115 OS=Human adenovirus C serotype 2 OX=10515 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5H9Z4|UL20_HCMVM    390.6  9.2e-117     1  22.3      1    336      5    333      3    353     Membrane protein UL20 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL20 PE=3 SV=1
+sp|P16758|UL20_HCMVA    377.2  1.1e-112     1   4.4      1    338      5    335      3    353     Uncharacterized protein UL20 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL20 PE=3 SV=1
+sp|Q6SW10|UL133_HCMVM    10.3      0.23     1  11.7     56    214     82    198    240    347     Protein UL133 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL133 PE=4 SV=1
+sp|P0C9Q0|36012_ASFK5     8.8      0.62     1   4.3    153    285    187    263    175    250     Protein MGF 360-12L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-036 PE=3 SV=1
+sp|P11805|SF33K_ADE40     8.5       0.8     1   4.2     20    156     35     99    271    325     Protein 33K OS=Human adenovirus F serotype 40 OX=28284 GN=L4 PE=2 SV=2
+sp|P03290|Y115_ADE02      5.0       9.3     1  10.4     26    112     32    107    377    446     Uncharacterized protein E-115 OS=Human adenovirus C serotype 2 OX=10515 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_612664@NC_003521.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_612664@NC_003521.txt data/models_hmm/NP_612664@NC_003521.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:10 2021
+# [ok]

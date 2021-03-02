@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQG5|YR495_MIMIV    12.8     0.083   2   2.5   2.6    Uncharacterized protein R495 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R495 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQG5|YR495_MIMIV    10.0      0.61     1   1.7     11    111     50    102     20     72     Uncharacterized protein R495 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R495 PE=4 SV=1
+sp|Q5UQG5|YR495_MIMIV    -0.5   1.1e+03     2   0.0    103    132    108    125    127    145     Uncharacterized protein R495 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R495 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004062057@NC_014767.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004062057@NC_014767.txt data/models_hmm/YP_004062057@NC_014767.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:05 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A4K153|PB2_I54A2     12.6     0.089   1   1.9   0.0    Polymerase basic protein 2 OS=Influenza A virus (strain A/Malaysia:Malaya/302/1954 H1N1) OX=425566 GN=PB2 PE=3 SV=1
+sp|P26114|PB2_I77AC     12.5     0.093   1   2.0   0.0    Polymerase basic protein 2 OS=Influenza A virus (strain A/Swine/Tennessee/24/1977 H1N1) OX=385606 GN=PB2 PE=3 SV=1
+sp|Q0A449|PB2_I66A1     12.2      0.12   1   2.0   0.0    Polymerase basic protein 2 OS=Influenza A virus (strain A/Turkey/Wisconsin/1/1966 H9N2) OX=385620 GN=PB2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A4K153|PB2_I54A2     10.8      0.32     1   0.0    349    392    353    380      5     31     Polymerase basic protein 2 OS=Influenza A virus (strain A/Malaysia:Malaya/302/1954 H1N1) OX=425566 GN=PB2 PE=3 SV=1
+sp|P26114|PB2_I77AC     10.6      0.39     1   0.0    349    391    353    379      5     31     Polymerase basic protein 2 OS=Influenza A virus (strain A/Swine/Tennessee/24/1977 H1N1) OX=385606 GN=PB2 PE=3 SV=1
+sp|Q0A449|PB2_I66A1     10.3      0.47     1   0.0    349    395    353    387      5     36     Polymerase basic protein 2 OS=Influenza A virus (strain A/Turkey/Wisconsin/1/1966 H9N2) OX=385620 GN=PB2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000241@SRS015064_WUGC_scaffold_6680@SRS015064_WUGC_scaffold_6680_gene_4973.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000241@SRS015064_WUGC_scaffold_6680@SRS015064_WUGC_scaffold_6680_gene_4973.txt data/models_hmm/7000000241@SRS015064_WUGC_scaffold_6680@SRS015064_WUGC_scaffold_6680_gene_4973.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:46 2021
+# [ok]

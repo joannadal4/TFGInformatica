@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UNZ2|YR739_MIMIV     9.4       0.2   1   1.1   0.0    Putative BTB/POZ domain and WD-repeat protein R739 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R739 PE=3 SV=1
+sp|Q5UR26|VF546_MIMIV     6.5       1.5   1   1.2   7.5    Uncharacterized protein R546 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R546 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UNZ2|YR739_MIMIV     8.8      0.28     1   0.0     16     67     34     55     27     48     Putative BTB/POZ domain and WD-repeat protein R739 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R739 PE=3 SV=1
+sp|Q5UR26|VF546_MIMIV     6.0         2     1   7.5     79    205     88    184    499    570     Uncharacterized protein R546 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R546 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008318685@NC_021858.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008318685@NC_021858.txt data/models_hmm/YP_008318685@NC_021858.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:38 2021
+# [ok]

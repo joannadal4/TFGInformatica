@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FF1|373L_IIV6    221.4   7.1e-66   2   1.5  11.0    Uncharacterized protein 373L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-373L PE=4 SV=1
+sp|Q196Z4|VF357_IIV3   176.9   3.4e-52   1   1.0   0.0    Transmembrane protein 066L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-066L PE=3 SV=1
+sp|Q91FG7|VF357_IIV6   152.0   1.5e-44   1   1.5  11.5    Uncharacterized protein 357R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-357R PE=3 SV=1
+sp|Q84296|VE5A_HPV6A     8.1       2.6   1   1.1  11.0    Probable protein E5A OS=Human papillomavirus type 6a OX=37122 GN=E5 PE=3 SV=1
+sp|P06460|VE5A_HPV6B     7.2       4.9   1   1.1  12.6    Probable protein E5A OS=Human papillomavirus type 6b OX=10600 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FF1|373L_IIV6    221.4   7.1e-66     1  11.0      1    156      1    156      1    171     Uncharacterized protein 373L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-373L PE=4 SV=1
+sp|Q196Z4|VF357_IIV3   176.7   3.8e-52     1   0.0     14    192     15    191      2    170     Transmembrane protein 066L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-066L PE=3 SV=1
+sp|Q91FG7|VF357_IIV6   150.8   3.5e-44     1  11.5      3    164      3    164      1    170     Uncharacterized protein 357R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-357R PE=3 SV=1
+sp|Q84296|VE5A_HPV6A     7.9       2.8     1  11.0     20     91     26     79      3     56     Probable protein E5A OS=Human papillomavirus type 6a OX=37122 GN=E5 PE=3 SV=1
+sp|P06460|VE5A_HPV6B     7.0       5.4     1  12.6     20     91     26     81      3     58     Probable protein E5A OS=Human papillomavirus type 6b OX=10600 PE=3 SV=1
+sp|Q91FF1|373L_IIV6     -2.8   5.6e+03     2   0.1    178    233    202    202     84     84     Uncharacterized protein 373L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-373L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_149820@NC_003038.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_149820@NC_003038.txt data/models_hmm/NP_149820@NC_003038.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:56 2021
+# [ok]

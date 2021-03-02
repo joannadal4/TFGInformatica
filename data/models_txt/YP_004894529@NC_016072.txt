@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPU2|YR252_MIMIV   286.3   2.4e-85   1   1.0  45.7    Uncharacterized protein R252 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R252 PE=4 SV=1
+sp|Q5UQ88|UBC3_MIMIV    104.1     1e-29   5   4.3  30.7    Probable ubiquitin-conjugating enzyme E2 R521 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R521 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPU2|YR252_MIMIV   286.1   2.8e-85     1  45.7     11    278     11    278      1    256     Uncharacterized protein R252 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R252 PE=4 SV=1
+sp|Q5UQ88|UBC3_MIMIV    104.1     1e-29     5  30.7    412    761    513    752     18    235     Probable ubiquitin-conjugating enzyme E2 R521 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R521 PE=3 SV=1
+sp|Q5UQ88|UBC3_MIMIV     -2.4   3.1e+03     1   1.7     13     96     19     86    177    246     Probable ubiquitin-conjugating enzyme E2 R521 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R521 PE=3 SV=1
+sp|Q5UQ88|UBC3_MIMIV     -3.2   5.7e+03     2   6.1    140    249    177    201    189    215     Probable ubiquitin-conjugating enzyme E2 R521 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R521 PE=3 SV=1
+sp|Q5UQ88|UBC3_MIMIV     -3.9   9.2e+03     4   1.6    321    382    338    374     16     48     Probable ubiquitin-conjugating enzyme E2 R521 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R521 PE=3 SV=1
+sp|Q5UQ88|UBC3_MIMIV     -4.3   1.2e+04     3   0.8    262    318    284    297     54     67     Probable ubiquitin-conjugating enzyme E2 R521 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R521 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004894529@NC_016072.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004894529@NC_016072.txt data/models_hmm/YP_004894529@NC_016072.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:40 2021
+# [ok]

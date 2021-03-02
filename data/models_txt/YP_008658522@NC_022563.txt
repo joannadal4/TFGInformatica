@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q85320|A9_VACCW     169.8   9.4e-51   1   1.3   0.5    Virion membrane protein A9 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR128 PE=2 SV=1
+sp|P20987|A9_VACCC     167.3   5.6e-50   1   1.1   0.2    Virion membrane protein A9 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A9L PE=2 SV=1
+sp|O57222|A9_VACCA     166.3   1.1e-49   1   1.0   0.4    Virion membrane protein A9 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA120L PE=2 SV=1
+sp|P33835|A9_VAR67     164.1   5.6e-49   1   1.0   0.4    Virion membrane protein A9 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A9L PE=2 SV=1
+sp|Q9J560|A9_FOWPN     113.4   3.8e-33   1   1.0   5.4    Protein A9 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV173 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q85320|A9_VACCW     169.1   1.5e-50     1   0.5      1     86      1     85      1     85     Virion membrane protein A9 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR128 PE=2 SV=1
+sp|P20987|A9_VACCC     167.0     7e-50     1   0.2      1     86      1     85      1     85     Virion membrane protein A9 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A9L PE=2 SV=1
+sp|O57222|A9_VACCA     166.1   1.3e-49     1   0.4      1     86      1     84      1     84     Virion membrane protein A9 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA120L PE=2 SV=1
+sp|P33835|A9_VAR67     163.9   6.7e-49     1   0.4      1     86      1     84      1     84     Virion membrane protein A9 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A9L PE=2 SV=1
+sp|Q9J560|A9_FOWPN     113.3   4.1e-33     1   5.4      1     76      1     75      1     75     Protein A9 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV173 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008658522@NC_022563.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008658522@NC_022563.txt data/models_hmm/YP_008658522@NC_022563.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:23 2021
+# [ok]

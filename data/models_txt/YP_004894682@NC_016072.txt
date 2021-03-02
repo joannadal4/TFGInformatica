@@ -1,0 +1,56 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPD4|YL060_MIMIV   530.0  6.4e-159   4   3.9  51.4    Putative F-box and FNIP repeat-containing protein L60 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L60 PE=4 SV=1
+sp|Q5UQL2|YL414_MIMIV   449.9  1.2e-134   2   2.0  77.2    Putative F-box and FNIP repeat-containing protein L414 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L414 PE=4 SV=1
+sp|Q5UP38|YL162_MIMIV   387.2  1.2e-115   2   2.0  51.9    Putative FNIP repeat-containing protein L162 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L162 PE=4 SV=1
+sp|Q5UR85|YR636_MIMIV   309.8   3.3e-92   1   2.1  31.9    Putative FNIP repeat-containing protein R636 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R636 PE=4 SV=1
+sp|Q5UPN0|YL170_MIMIV   295.3   8.2e-88   1   1.0  36.3    Putative FNIP repeat-containing protein L170 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L170 PE=4 SV=1
+sp|Q5UPW1|YR286_MIMIV   270.1   3.6e-80   1   1.3  39.8    Putative F-box and FNIP repeat-containing protein R286 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R286 PE=4 SV=1
+sp|Q5UQL6|YL415_MIMIV   240.9   2.6e-71   1   1.1  45.0    Putative FNIP repeat-containing protein L415 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L415 PE=4 SV=1
+sp|Q5UPW6|YL281_MIMIV   213.3     6e-63   2   2.0  32.2    Putative FNIP repeat-containing protein L281 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L281 PE=4 SV=1
+sp|Q5UPM7|YL166_MIMIV   117.5   6.5e-34   1   1.5  20.9    Putative F-box protein L166 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L166 PE=4 SV=1
+sp|Q5UP35|YL165_MIMIV   114.7   4.4e-33   1   2.0  37.9    Putative F-box protein L165 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L165 PE=4 SV=1
+sp|Q5UPN3|YL167_MIMIV    99.0   2.5e-28   1   2.2  41.3    Uncharacterized protein L167 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L167 PE=4 SV=1
+sp|Q5UPN2|YL168_MIMIV    91.8   3.8e-26   2   2.0  22.5    Putative F-box protein L168 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L168 PE=4 SV=1
+sp|Q5UR83|YR638_MIMIV    64.6   6.7e-18   1   1.2  15.3    Putative F-box protein R638 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R638 PE=4 SV=1
+sp|Q5UR84|YR637_MIMIV    49.9   1.9e-13   1   1.1  10.8    Putative F-box protein R637 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R637 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UP38|YL162_MIMIV   306.3   3.9e-91     2  26.9    155    521    166    521    113    479     Putative FNIP repeat-containing protein L162 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L162 PE=4 SV=1
+sp|Q5UR85|YR636_MIMIV   306.2   4.3e-91     1  31.9      1    390      4    388     21    361     Putative FNIP repeat-containing protein R636 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R636 PE=4 SV=1
+sp|Q5UPN0|YL170_MIMIV   295.1   9.5e-88     1  36.3      1    442      1    441     21    443     Putative FNIP repeat-containing protein L170 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L170 PE=4 SV=1
+sp|Q5UPW1|YR286_MIMIV   269.4     6e-80     1  39.8      1    298      1    294     21    290     Putative F-box and FNIP repeat-containing protein R286 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R286 PE=4 SV=1
+sp|Q5UQL2|YL414_MIMIV   254.6   1.8e-75     1  32.2      1    303      1    303     21    294     Putative F-box and FNIP repeat-containing protein L414 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L414 PE=4 SV=1
+sp|Q5UQL6|YL415_MIMIV   240.6   3.1e-71     1  45.0      1    415      1    415     21    411     Putative FNIP repeat-containing protein L415 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L415 PE=4 SV=1
+sp|Q5UQL2|YL414_MIMIV   209.4     9e-62     2  37.0    218    516    227    515    132    408     Putative F-box and FNIP repeat-containing protein L414 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L414 PE=4 SV=1
+sp|Q5UPD4|YL060_MIMIV   193.4   6.2e-57     1  17.5      1    192      5    190     24    208     Putative F-box and FNIP repeat-containing protein L60 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L60 PE=4 SV=1
+sp|Q5UPW6|YL281_MIMIV   168.5   2.3e-49     1  20.7      1    240      1    234     21    273     Putative FNIP repeat-containing protein L281 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L281 PE=4 SV=1
+sp|Q5UPD4|YL060_MIMIV   158.2   2.9e-46     3   6.0    324    503    329    502    133    299     Putative F-box and FNIP repeat-containing protein L60 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L60 PE=4 SV=1
+sp|Q5UPD4|YL060_MIMIV   152.7   1.4e-44     2   9.8    156    324    159    317    113    269     Putative F-box and FNIP repeat-containing protein L60 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L60 PE=4 SV=1
+sp|Q5UPM7|YL166_MIMIV   117.5   6.5e-34     1  20.4      1    239      1    120     21    139     Putative F-box protein L166 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L166 PE=4 SV=1
+sp|Q5UP35|YL165_MIMIV   113.7   8.7e-33     1  36.5      1    262      1    246     21    245     Putative F-box protein L165 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L165 PE=4 SV=1
+sp|Q5UPN3|YL167_MIMIV    95.4   3.2e-27     1  40.7      1    301      1    278     21    174     Uncharacterized protein L167 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L167 PE=4 SV=1
+sp|Q5UPN2|YL168_MIMIV    91.8   3.8e-26     1  22.5      1    160      3    122     24    146     Putative F-box protein L168 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L168 PE=4 SV=1
+sp|Q5UP38|YL162_MIMIV    85.7   2.7e-24     1  19.1      1    166      1    162     21    171     Putative FNIP repeat-containing protein L162 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L162 PE=4 SV=1
+sp|Q5UR83|YR638_MIMIV    64.4   7.6e-18     1  15.3      1    130      3     92     20    106     Putative F-box protein R638 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R638 PE=4 SV=1
+sp|Q5UPD4|YL060_MIMIV    62.9   2.2e-17     4   0.0    483    621    483    620    335    470     Putative F-box and FNIP repeat-containing protein L60 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L60 PE=4 SV=1
+sp|Q5UPW6|YL281_MIMIV    50.5   1.2e-13     2   4.0    235    292    240    291    335    387     Putative FNIP repeat-containing protein L281 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L281 PE=4 SV=1
+sp|Q5UR84|YR637_MIMIV    49.7   2.2e-13     1  10.8      1    149      4    139     22    159     Putative F-box protein R637 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R637 PE=4 SV=1
+sp|Q5UPN2|YL168_MIMIV    -2.6   1.5e+03     2  16.7    116    204    163    203    375    413     Putative F-box protein L168 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L168 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004894682@NC_016072.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004894682@NC_016072.txt data/models_hmm/YP_004894682@NC_016072.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:41 2021
+# [ok]

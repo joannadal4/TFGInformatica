@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|E1XTG1|CAPSD_BPSAV    37.3   1.3e-09   3   2.5   3.1    Major capsid protein OS=Salmonella phage ViI OX=1987993 GN=Vi01_152c PE=3 SV=1
+sp|P85989|CAPSD_BPSK9    32.2   4.8e-08   3   2.3   0.1    Major capsid protein OS=Serratia phage KSP90 OX=552528 PE=1 SV=2
+sp|Q6WHE1|CAPSH_BPKVM    23.1   2.7e-05   3   3.1   5.4    Major capsid protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=23 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|E1XTG1|CAPSD_BPSAV    35.4     5e-09     3   0.0    272    406    281    402    438    555     Major capsid protein OS=Salmonella phage ViI OX=1987993 GN=Vi01_152c PE=3 SV=1
+sp|P85989|CAPSD_BPSK9    32.2   4.8e-08     3   0.1    273    407    282    403    438    555     Major capsid protein OS=Serratia phage KSP90 OX=552528 PE=1 SV=2
+sp|Q6WHE1|CAPSH_BPKVM    11.1      0.11     2   0.3    196    319    243    304    294    354     Major capsid protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=23 PE=1 SV=1
+sp|Q6WHE1|CAPSH_BPKVM     9.3      0.41     3   0.1    344    477    356    450    439    528     Major capsid protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=23 PE=1 SV=1
+sp|Q6WHE1|CAPSH_BPKVM     4.0        16     1   0.0      3    149     86    136     96    146     Major capsid protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=23 PE=1 SV=1
+sp|E1XTG1|CAPSD_BPSAV     1.5        89     1   0.1      2     76      6     58     11     64     Major capsid protein OS=Salmonella phage ViI OX=1987993 GN=Vi01_152c PE=3 SV=1
+sp|P85989|CAPSD_BPSK9     0.4   1.9e+02     2   0.1    108    250    179    238    295    353     Major capsid protein OS=Serratia phage KSP90 OX=552528 PE=1 SV=2
+sp|E1XTG1|CAPSD_BPSAV    -1.9   9.6e+02     2   0.1    172    245    180    237    297    353     Major capsid protein OS=Salmonella phage ViI OX=1987993 GN=Vi01_152c PE=3 SV=1
+sp|P85989|CAPSD_BPSK9    -2.4   1.4e+03     1   0.1      4     74      7     53     12     56     Major capsid protein OS=Serratia phage KSP90 OX=552528 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001450@JGI24006J15134_10000062@JGI24006J15134_1000006244.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001450@JGI24006J15134_10000062@JGI24006J15134_1000006244.txt data/models_hmm/3300001450@JGI24006J15134_10000062@JGI24006J15134_1000006244.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:12 2021
+# [ok]

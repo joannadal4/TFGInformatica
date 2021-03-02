@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52351|SCAF_HHV7J    12.5      0.11   4   2.8   1.7    Capsid scaffolding protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U53 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52351|SCAF_HHV7J     9.0       1.3     4   0.0    448    510    451    489      5     43     Capsid scaffolding protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U53 PE=3 SV=1
+sp|P52351|SCAF_HHV7J     1.6   2.4e+02     2   0.0    158    245    179    207     41     69     Capsid scaffolding protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U53 PE=3 SV=1
+sp|P52351|SCAF_HHV7J    -4.0   1.3e+04     3   0.0    320    352    322    349     19     46     Capsid scaffolding protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U53 PE=3 SV=1
+sp|P52351|SCAF_HHV7J    -4.1   1.4e+04     1   0.0     89    108     91    104     15     28     Capsid scaffolding protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U53 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006907645@NC_018857.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006907645@NC_018857.txt data/models_hmm/YP_006907645@NC_018857.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:29 2021
+# [ok]

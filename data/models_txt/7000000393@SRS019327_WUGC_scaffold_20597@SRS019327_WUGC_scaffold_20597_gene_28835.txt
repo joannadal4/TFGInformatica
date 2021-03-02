@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P06456|VL1_FPVL      12.5     0.088   1   1.3   0.2    Major capsid protein L1 (Fragment) OS=Avian papillomavirus fpv-l OX=10577 GN=L1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P06456|VL1_FPVL      11.9      0.13     1   0.1     28    109     55    105    125    176     Major capsid protein L1 (Fragment) OS=Avian papillomavirus fpv-l OX=10577 GN=L1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000393@SRS019327_WUGC_scaffold_20597@SRS019327_WUGC_scaffold_20597_gene_28835.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000393@SRS019327_WUGC_scaffold_20597@SRS019327_WUGC_scaffold_20597_gene_28835.txt data/models_hmm/7000000393@SRS019327_WUGC_scaffold_20597@SRS019327_WUGC_scaffold_20597_gene_28835.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:50 2021
+# [ok]

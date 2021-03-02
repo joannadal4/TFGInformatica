@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P16009|BP5_BPT4       48.7   3.9e-13   2   2.2   3.3    Baseplate central spike complex protein gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2
+sp|Q6WHG9|NEEDL_BPKVM    24.9   6.2e-06   4   3.9  19.3    Protein Gp5 OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=5 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P16009|BP5_BPT4       25.4   4.5e-06     2   1.4    409    569    442    565    261    385     Baseplate central spike complex protein gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2
+sp|P16009|BP5_BPT4       22.9   2.5e-05     1   0.0      3     72     11     56     22     62     Baseplate central spike complex protein gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2
+sp|Q6WHG9|NEEDL_BPKVM    13.1     0.025     1   0.0      3     69     11     59     22     66     Protein Gp5 OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=5 PE=1 SV=1
+sp|Q6WHG9|NEEDL_BPKVM     8.5       0.6     3   8.1    266    341    267    326    255    314     Protein Gp5 OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=5 PE=1 SV=1
+sp|Q6WHG9|NEEDL_BPKVM     7.8      0.95     2   0.4    222    274    231    273    260    301     Protein Gp5 OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=5 PE=1 SV=1
+sp|Q6WHG9|NEEDL_BPKVM     2.2        48     4   3.3    323    400    342    382    258    298     Protein Gp5 OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=5 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001592@Draft_10000837@Draft_1000083731.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001592@Draft_10000837@Draft_1000083731.txt data/models_hmm/3300001592@Draft_10000837@Draft_1000083731.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:56 2021
+# [ok]

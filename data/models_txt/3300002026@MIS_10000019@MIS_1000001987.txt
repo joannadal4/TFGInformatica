@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04297|K1_VACCW      17.3     0.004   1   1.4   1.6    Interferon antagonist K1L OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR032 PE=4 SV=2
+sp|P20632|K1_VACCC      15.5     0.015   1   1.4   1.9    Interferon antagonist K1L OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=HR PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04297|K1_VACCW      16.5    0.0075     1   1.6    193    283    199    275     14     86     Interferon antagonist K1L OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR032 PE=4 SV=2
+sp|P20632|K1_VACCC      14.6     0.028     1   1.9    193    283    199    275     14     86     Interferon antagonist K1L OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=HR PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000019@MIS_1000001987.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000019@MIS_1000001987.txt data/models_hmm/3300002026@MIS_10000019@MIS_1000001987.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:35 2021
+# [ok]

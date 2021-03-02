@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36705|E310_ADE12    12.5     0.033   1   1.0   0.4    Early E3B 10.4 kDa protein OS=Human adenovirus A serotype 12 OX=28282 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36705|E310_ADE12    12.4     0.036     1   0.4      1     82      7     72    410    467     Early E3B 10.4 kDa protein OS=Human adenovirus A serotype 12 OX=28282 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001567@Draft_10000612@Draft_1000061214.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001567@Draft_10000612@Draft_1000061214.txt data/models_hmm/3300001567@Draft_10000612@Draft_1000061214.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:43 2021
+# [ok]

@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQP0|YL448_MIMIV    17.8    0.0021   1   1.8   0.6    Uncharacterized protein L448 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L448 PE=4 SV=1
+sp|P51519|ENV_BLV        12.1      0.13   1   1.5   0.1    Envelope glycoprotein OS=Bovine leukemia virus OX=11901 GN=env PE=1 SV=1
+sp|P25505|ENV_BLVAV      11.9      0.15   1   1.5   0.1    Envelope glycoprotein OS=Bovine leukemia virus (isolate American VDM) OX=11904 GN=env PE=3 SV=1
+sp|P25504|ENV_BLVAF      11.9      0.15   1   1.5   0.1    Envelope glycoprotein OS=Bovine leukemia virus (isolate American FLK) OX=11902 GN=env PE=3 SV=1
+sp|P03380|ENV_BLVJ       11.9      0.15   1   1.5   0.1    Envelope glycoprotein OS=Bovine leukemia virus (isolate Japanese BLV-1) OX=11907 GN=env PE=1 SV=1
+sp|P25057|ENV_BLVAU      11.9      0.15   1   1.5   0.1    Envelope glycoprotein OS=Bovine leukemia virus (isolate Australian) OX=11903 GN=env PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQP0|YL448_MIMIV    16.3    0.0066     1   0.6    147    201    150    197      4     51     Uncharacterized protein L448 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L448 PE=4 SV=1
+sp|P51519|ENV_BLV        11.0      0.29     1   0.1     31     67     39     63     21     45     Envelope glycoprotein OS=Bovine leukemia virus OX=11901 GN=env PE=1 SV=1
+sp|P03380|ENV_BLVJ       10.8      0.33     1   0.1     31     67     39     63     21     45     Envelope glycoprotein OS=Bovine leukemia virus (isolate Japanese BLV-1) OX=11907 GN=env PE=1 SV=1
+sp|P25057|ENV_BLVAU      10.8      0.33     1   0.1     31     67     39     63     21     45     Envelope glycoprotein OS=Bovine leukemia virus (isolate Australian) OX=11903 GN=env PE=3 SV=1
+sp|P25504|ENV_BLVAF      10.8      0.33     1   0.1     31     67     39     63     21     45     Envelope glycoprotein OS=Bovine leukemia virus (isolate American FLK) OX=11902 GN=env PE=3 SV=1
+sp|P25505|ENV_BLVAV      10.8      0.33     1   0.1     31     67     39     63     21     45     Envelope glycoprotein OS=Bovine leukemia virus (isolate American VDM) OX=11904 GN=env PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000195@SRS017209_Baylor_scaffold_10929@SRS017209_Baylor_scaffold_10929_gene_13934.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000195@SRS017209_Baylor_scaffold_10929@SRS017209_Baylor_scaffold_10929_gene_13934.txt data/models_hmm/7000000195@SRS017209_Baylor_scaffold_10929@SRS017209_Baylor_scaffold_10929_gene_13934.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:15 2021
+# [ok]

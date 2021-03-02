@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q914K2|Y028_SIFVH    20.9   0.00033   2   2.2   0.4    Uncharacterized protein 28 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0028 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q914K2|Y028_SIFVH    10.7       0.5     1   0.0      1     43      3     33     48     78     Uncharacterized protein 28 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0028 PE=4 SV=1
+sp|Q914K2|Y028_SIFVH     8.9       1.9     2   0.1     37     99     53     93     34     74     Uncharacterized protein 28 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0028 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000228@SRS022602_Baylor_scaffold_17795@SRS022602_Baylor_scaffold_17795_gene_19582.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000228@SRS022602_Baylor_scaffold_17795@SRS022602_Baylor_scaffold_17795_gene_19582.txt data/models_hmm/7000000228@SRS022602_Baylor_scaffold_17795@SRS022602_Baylor_scaffold_17795_gene_19582.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:30 2021
+# [ok]

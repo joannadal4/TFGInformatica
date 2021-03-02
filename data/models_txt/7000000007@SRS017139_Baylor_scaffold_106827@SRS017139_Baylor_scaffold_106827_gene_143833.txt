@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64210|CAPSD_BPMD2    12.4      0.11   2   2.6   1.0    Probable major capsid protein gp17 OS=Mycobacterium phage D29 OX=28369 GN=17 PE=3 SV=1
+sp|P0C6U9|R1A_CVM2        9.6      0.75   3   3.4   6.0    Replicase polyprotein 1a OS=Murine coronavirus (strain 2) OX=76344 GN=1a PE=3 SV=1
+sp|P0C6X8|R1AB_CVM2       8.8       1.4   2   3.2   5.3    Replicase polyprotein 1ab OS=Murine coronavirus (strain 2) OX=76344 GN=rep PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C6U9|R1A_CVM2        8.6       1.6     1   0.2    660    690    665    688     15     38     Replicase polyprotein 1a OS=Murine coronavirus (strain 2) OX=76344 GN=1a PE=3 SV=1
+sp|P0C6X8|R1AB_CVM2       7.9       2.6     1   0.2    660    690    665    688     15     38     Replicase polyprotein 1ab OS=Murine coronavirus (strain 2) OX=76344 GN=rep PE=3 SV=1
+sp|O64210|CAPSD_BPMD2     5.3        17     2   0.1    117    141    121    134     22     35     Probable major capsid protein gp17 OS=Mycobacterium phage D29 OX=28369 GN=17 PE=3 SV=1
+sp|O64210|CAPSD_BPMD2     5.0        21     1   0.1      2     23      5     22     24     41     Probable major capsid protein gp17 OS=Mycobacterium phage D29 OX=28369 GN=17 PE=3 SV=1
+sp|P0C6U9|R1A_CVM2        1.5   2.7e+02     2   0.9   2217   2252   2222   2243      9     30     Replicase polyprotein 1a OS=Murine coronavirus (strain 2) OX=76344 GN=1a PE=3 SV=1
+sp|P0C6X8|R1AB_CVM2       0.8   4.5e+02     2   0.9   2217   2252   2222   2243      9     30     Replicase polyprotein 1ab OS=Murine coronavirus (strain 2) OX=76344 GN=rep PE=3 SV=1
+sp|P0C6U9|R1A_CVM2       -3.7   1.1e+04     3   0.0   2645   2656   2646   2655      7     16     Replicase polyprotein 1a OS=Murine coronavirus (strain 2) OX=76344 GN=1a PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000007@SRS017139_Baylor_scaffold_106827@SRS017139_Baylor_scaffold_106827_gene_143833.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000007@SRS017139_Baylor_scaffold_106827@SRS017139_Baylor_scaffold_106827_gene_143833.txt data/models_hmm/7000000007@SRS017139_Baylor_scaffold_106827@SRS017139_Baylor_scaffold_106827_gene_143833.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:32 2021
+# [ok]

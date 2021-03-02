@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P19749|RP35_SHEVK    13.9     0.044   1   1.4   0.1    DNA-directed RNA polymerase 35 kDa subunit (Fragment) OS=Sheeppox virus (strain KS-1) OX=10269 GN=RPO35 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P19749|RP35_SHEVK    13.0     0.085     1   0.1     69    124     74    120     13     57     DNA-directed RNA polymerase 35 kDa subunit (Fragment) OS=Sheeppox virus (strain KS-1) OX=10269 GN=RPO35 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000405@LV_Brine_h2_0102DRAFT_1000028@LV_Brine_h2_0102DRAFT_100002822.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000405@LV_Brine_h2_0102DRAFT_1000028@LV_Brine_h2_0102DRAFT_100002822.txt data/models_hmm/3300000405@LV_Brine_h2_0102DRAFT_1000028@LV_Brine_h2_0102DRAFT_100002822.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:28 2021
+# [ok]

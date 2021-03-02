@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P17528|TGB3_PVMR     12.9     0.081   2   1.7   1.1    Movement protein TGBp3 OS=Potato virus M (strain Russian) OX=12168 GN=ORF4 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P17528|TGB3_PVMR     12.2      0.14     1   0.5      1     25      2     16      8     22     Movement protein TGBp3 OS=Potato virus M (strain Russian) OX=12168 GN=ORF4 PE=3 SV=1
+sp|P17528|TGB3_PVMR      0.4   6.6e+02     2   0.0     14     39     15     31      8     24     Movement protein TGBp3 OS=Potato virus M (strain Russian) OX=12168 GN=ORF4 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2029527005@ACOFG987_contig20465@ACOFGT_2453060.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2029527005@ACOFG987_contig20465@ACOFGT_2453060.txt data/models_hmm/2029527005@ACOFG987_contig20465@ACOFGT_2453060.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:15 2021
+# [ok]

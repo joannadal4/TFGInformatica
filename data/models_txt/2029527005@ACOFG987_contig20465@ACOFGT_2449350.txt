@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FA2|423L_IIV6     17.1     0.005   2   2.2   0.5    Uncharacterized protein 423L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-423L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FA2|423L_IIV6      9.4       1.3     2   0.0     64    123     75    115     32     72     Uncharacterized protein 423L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-423L PE=4 SV=1
+sp|Q91FA2|423L_IIV6      5.9        15     1   0.5      1     73      3     45     39     78     Uncharacterized protein 423L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-423L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2029527005@ACOFG987_contig20465@ACOFGT_2449350.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2029527005@ACOFG987_contig20465@ACOFGT_2449350.txt data/models_hmm/2029527005@ACOFG987_contig20465@ACOFGT_2449350.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:12 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ78|YR517_MIMIV    13.4     0.087   1   1.6   0.7    Putative serine/threonine-protein kinase R517/R518 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R517 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ78|YR517_MIMIV    12.0      0.22     1   0.7    278    355    279    347      3     71     Putative serine/threonine-protein kinase R517/R518 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R517 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001426817@NC_008724.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001426817@NC_008724.txt data/models_hmm/YP_001426817@NC_008724.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:16 2021
+# [ok]

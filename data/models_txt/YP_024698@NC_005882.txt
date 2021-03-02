@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q38580|SCAF_BPSPP    12.3     0.095   1   1.2   2.7    Capsid assembly scaffolding protein OS=Bacillus phage SPP1 OX=10724 GN=11 PE=1 SV=1
+sp|Q38442|GP7_BPSPP     10.8      0.28   2   2.2   3.7    Minor head protein GP7 OS=Bacillus phage SPP1 OX=10724 GN=7 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38580|SCAF_BPSPP    11.8      0.14     1   2.7     42    148     49    137     32    121     Capsid assembly scaffolding protein OS=Bacillus phage SPP1 OX=10724 GN=11 PE=1 SV=1
+sp|Q38442|GP7_BPSPP     10.6      0.32     1   0.2     14     86     17     79     28     90     Minor head protein GP7 OS=Bacillus phage SPP1 OX=10724 GN=7 PE=1 SV=2
+sp|Q38442|GP7_BPSPP      0.7   3.5e+02     2   0.5    142    222    146    211      6     69     Minor head protein GP7 OS=Bacillus phage SPP1 OX=10724 GN=7 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_024698@NC_005882.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_024698@NC_005882.txt data/models_hmm/YP_024698@NC_005882.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:50 2021
+# [ok]

@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9IDV3|VPU_HV1YB     13.1     0.073   1   1.1   0.1    Protein Vpu OS=Human immunodeficiency virus type 1 group N (isolate YBF106) OX=388819 GN=vpu PE=3 SV=1
+sp|P0C764|GN_VZVO       12.8     0.092   2   1.4   0.2    Envelope glycoprotein N OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gN PE=1 SV=1
+sp|Q65ZG0|GN_VZVD       12.8     0.092   2   1.4   0.2    Envelope glycoprotein N OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gN PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9IDV3|VPU_HV1YB     13.0     0.083     1   0.1      1     62      4     53      8     50     Protein Vpu OS=Human immunodeficiency virus type 1 group N (isolate YBF106) OX=388819 GN=vpu PE=3 SV=1
+sp|P0C764|GN_VZVO       12.8     0.092     2   0.2     45     85     49     79      7     37     Envelope glycoprotein N OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gN PE=1 SV=1
+sp|Q65ZG0|GN_VZVD       12.8     0.092     2   0.2     45     85     49     79      7     37     Envelope glycoprotein N OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gN PE=3 SV=1
+sp|P0C764|GN_VZVO       -3.3   9.7e+03     1   0.2      4     20      9     18     14     23     Envelope glycoprotein N OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gN PE=1 SV=1
+sp|Q65ZG0|GN_VZVD       -3.3   9.7e+03     1   0.2      4     20      9     18     14     23     Envelope glycoprotein N OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gN PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007_rumenHiSeq_NODE_1623240_len_72913_cov_2_122420_HiSeq_22124120_2064872418.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007_rumenHiSeq_NODE_1623240_len_72913_cov_2_122420_HiSeq_22124120_2064872418.txt data/models_hmm/2061766007_rumenHiSeq_NODE_1623240_len_72913_cov_2_122420_HiSeq_22124120_2064872418.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:57 2021
+# [ok]

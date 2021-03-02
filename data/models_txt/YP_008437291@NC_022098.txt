@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQY3|YL887_MIMIV    12.5     0.047   2   2.3   0.0    Putative JmjC domain-containing protein L887 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L887 PE=4 SV=1
+sp|P03481|NRAM_I78A0     10.8      0.16   1   1.1   0.0    Neuraminidase (Fragment) OS=Influenza A virus (strain A/Black duck/Australia/702/1978 H3N8) OX=385637 GN=NA PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03481|NRAM_I78A0     10.6      0.18     1   0.0      1     63      2     45     47     90     Neuraminidase (Fragment) OS=Influenza A virus (strain A/Black duck/Australia/702/1978 H3N8) OX=385637 GN=NA PE=3 SV=1
+sp|Q5UQY3|YL887_MIMIV     5.0       8.8     2   0.1    233    290    244    283    260    299     Putative JmjC domain-containing protein L887 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L887 PE=4 SV=1
+sp|Q5UQY3|YL887_MIMIV     5.0       9.3     1   0.0     35    111     65    106    334    375     Putative JmjC domain-containing protein L887 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L887 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008437291@NC_022098.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008437291@NC_022098.txt data/models_hmm/YP_008437291@NC_022098.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:12 2021
+# [ok]

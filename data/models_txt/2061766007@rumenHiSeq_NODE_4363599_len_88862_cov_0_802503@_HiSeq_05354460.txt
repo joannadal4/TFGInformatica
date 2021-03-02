@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P85503|STRU3_BPPAJ    13.5     0.065   2   2.0   0.3    Structural protein 3 OS=Pseudomonas phage PAJU2 OX=504346 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P85503|STRU3_BPPAJ    10.3       0.6     1   0.2      1     74      1     66      1     57     Structural protein 3 OS=Pseudomonas phage PAJU2 OX=504346 PE=1 SV=2
+sp|P85503|STRU3_BPPAJ     1.4   3.5e+02     2   0.0     79    163    108    160     61    113     Structural protein 3 OS=Pseudomonas phage PAJU2 OX=504346 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_4363599_len_88862_cov_0_802503@_HiSeq_05354460.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_4363599_len_88862_cov_0_802503@_HiSeq_05354460.txt data/models_hmm/2061766007@rumenHiSeq_NODE_4363599_len_88862_cov_0_802503@_HiSeq_05354460.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:48 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8SDA8|GP105_BPDPK    12.0     0.038   1   1.2   0.1    gp105 OS=Pseudomonas phage phiKZ OX=169683 PE=3 SV=1
+sp|F8SJT5|GP105_BPPA3    11.7     0.045   1   1.2   0.1    gp105 OS=Pseudomonas phage PhiPA3 OX=998086 GN=053 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8SDA8|GP105_BPDPK    11.6     0.048     1   0.1    358    614    519    597    544    622     gp105 OS=Pseudomonas phage phiKZ OX=169683 PE=3 SV=1
+sp|F8SJT5|GP105_BPPA3    11.2     0.066     1   0.1    392    596    424    580    479    629     gp105 OS=Pseudomonas phage PhiPA3 OX=998086 GN=053 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001592@Draft_10000995@Draft_1000099532.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001592@Draft_10000995@Draft_1000099532.txt data/models_hmm/3300001592@Draft_10000995@Draft_1000099532.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:57 2021
+# [ok]

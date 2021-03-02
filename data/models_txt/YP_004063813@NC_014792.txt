@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DJR4|PAX_I80AD     13.5     0.076   2   2.1   0.0    Protein PA-X OS=Influenza A virus (strain A/Gull/Minnesota/945/1980 H13N6) OX=385597 GN=PA PE=3 SV=1
+sp|Q8QL15|Y252_SIRV1    13.4     0.082   2   1.8   0.6    Uncharacterized protein 252 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=252 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8QL15|Y252_SIRV1    12.3      0.17     1   0.2    145    200    148    193      5     51     Uncharacterized protein 252 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=252 PE=4 SV=1
+sp|P0DJR4|PAX_I80AD     10.9      0.49     2   0.0    186    237    189    228     20     59     Protein PA-X OS=Influenza A virus (strain A/Gull/Minnesota/945/1980 H13N6) OX=385597 GN=PA PE=3 SV=1
+sp|P0DJR4|PAX_I80AD     -0.5   1.8e+03     1   0.0    135    177    138    166      7     35     Protein PA-X OS=Influenza A virus (strain A/Gull/Minnesota/945/1980 H13N6) OX=385597 GN=PA PE=3 SV=1
+sp|Q8QL15|Y252_SIRV1    -3.9   1.7e+04     2   0.0    217    232    218    226      6     14     Uncharacterized protein 252 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=252 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004063813@NC_014792.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004063813@NC_014792.txt data/models_hmm/YP_004063813@NC_014792.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:06 2021
+# [ok]

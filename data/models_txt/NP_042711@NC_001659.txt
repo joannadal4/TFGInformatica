@@ -1,0 +1,146 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P18560|1101L_ASFB7   467.6  1.5e-140   1   1.0  21.6    Protein MGF 110-1L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-008 PE=3 SV=1
+sp|P26710|V290_ASFL5    455.6  6.5e-137   2   2.0  44.4    Protein LIS 290 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS290 PE=3 SV=1
+sp|P0C9J1|1109L_ASFP4   449.7  4.3e-135   2   2.0  44.7    Protein MGF 110-9L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-021 PE=3 SV=1
+sp|P0C9G2|1101L_ASFK5   438.9  8.5e-132   1   1.0  24.1    Protein MGF 110-1L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-007 PE=3 SV=1
+sp|P0C9G3|1101L_ASFM2   434.3    2e-130   1   1.0  24.7    Protein MGF 110-1L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-005 PE=3 SV=1
+sp|P0C9I9|1109L_ASFWA   429.5  6.3e-129   2   2.0  37.4    Protein MGF 110-9L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-019 PE=3 SV=1
+sp|P0C9J0|1109L_ASFK5   417.4  2.9e-125   2   2.0  35.9    Protein MGF 110-9L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-019 PE=3 SV=1
+sp|P0C9G1|1101L_ASFWA   414.3  2.6e-124   1   1.0  21.9    Protein MGF 110-1L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-006 PE=3 SV=1
+sp|P0C9G4|1101L_ASFP4   414.2  2.9e-124   1   1.0  21.6    Protein MGF 110-1L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-008 PE=3 SV=1
+sp|P0C9J3|1101B_ASFWA   340.3  9.5e-102   2   2.0  20.9    Protein MGF 110-11L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-022 PE=3 SV=1
+sp|P0C9J4|11011_ASFK5   333.8  8.7e-100   2   2.0  23.3    Protein MGF 110-11L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-020 PE=3 SV=1
+sp|P0C9J6|11011_ASFP4   327.4   7.8e-98   2   2.0  18.8    Protein MGF 360-1L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-022 PE=3 SV=1
+sp|P0C9J5|11011_ASFM2   318.0   5.9e-95   2   2.0  22.9    Protein MGF 360-3L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-016 PE=3 SV=1
+sp|P0C9K0|11013_ASFWA   191.7   1.9e-56   2   2.0   9.2    Protein MGF 110-13L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-020 PE=3 SV=1
+sp|P26703|V119_ASFL5    191.0     3e-56   1   1.0   8.7    Protein LIS 119-1 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS119-1 PE=3 SV=1
+sp|P26702|V117_ASFL5    189.7   7.4e-56   1   1.0   6.9    Protein LIS 117 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS117 PE=3 SV=1
+sp|P0C9K1|11013_ASFM2   188.2   2.2e-55   2   1.3   7.3    Protein MGF 110-13L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-018 PE=3 SV=1
+sp|P18558|1104L_ASFB7   167.6   4.1e-49   1   1.0   1.5    Protein MGF 110-4L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-011 PE=3 SV=1
+sp|P0C9H3|1104L_ASFP4   165.9   1.4e-48   1   1.0   1.8    Protein MGF 110-4L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-011 PE=3 SV=1
+sp|P0C9K3|11014_ASFM2   164.6   3.4e-48   1   1.0   2.3    Protein MGF 110-14L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-019 PE=3 SV=1
+sp|P0C9H0|1104L_ASFWA   164.4   3.9e-48   1   1.0   2.1    Protein MGF 110-4L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-009 PE=3 SV=1
+sp|P26708|V125_ASFL5    164.3   4.1e-48   1   1.0   1.6    Protein LIS 124-2 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS124-2 PE=3 SV=1
+sp|P0C9H1|1104L_ASFK5   163.5   7.3e-48   1   1.0   2.9    Protein MGF 110-4L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-011 PE=3 SV=1
+sp|P26707|V124_ASFL5    163.1   9.7e-48   1   1.0   3.0    Protein LIS 124-1 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS124-1 PE=3 SV=1
+sp|P0C9H2|1104L_ASFM2   163.1     1e-47   1   1.0   3.4    Protein MGF 110-4L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-008 PE=3 SV=1
+sp|P0C9G9|1103L_ASFK5   162.8   1.2e-47   1   1.0   3.0    Protein MGF 110-3L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-010 PE=3 SV=1
+sp|P26706|V122_ASFL5    161.1   3.9e-47   1   1.0   0.7    Protein LIS 121-2 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS121-2 PE=3 SV=1
+sp|P0C9K2|11014_ASFK5   159.3   1.4e-46   1   1.0   1.1    Protein MGF 110-14L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-022 PE=3 SV=1
+sp|P68744|1106L_ASFB7   155.2   2.5e-45   1   1.0   5.9    Protein MGF 110-6L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-015 PE=1 SV=1
+sp|P68745|V118_ASFL5    155.2   2.5e-45   1   1.0   5.9    Protein V118 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=V118 PE=3 SV=1
+sp|P0C9H7|1106L_ASFWA   154.8   3.3e-45   1   1.0   6.3    Protein MGF 110-6L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-013 PE=3 SV=1
+sp|P0C9I0|1106L_ASFP4   154.8   3.3e-45   1   1.0   6.3    Protein MGF 110-6L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-015 PE=3 SV=1
+sp|P26704|V120_ASFL5    154.4   4.4e-45   1   1.0   4.4    Protein LIS 119-2 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS119-2 PE=3 SV=1
+sp|P0C9H8|1106L_ASFK5   150.2   8.5e-44   1   1.0   3.8    Protein MGF 110-6L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-013 PE=3 SV=1
+sp|P0C9H9|1106L_ASFM2   147.7   4.9e-43   1   1.0   3.7    Protein MGF 110-6L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-011 PE=3 SV=1
+sp|P0C9H5|1105L_ASFM2   141.9   2.9e-41   1   1.0   8.9    Protein MGF 110-5L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-010 PE=3 SV=1
+sp|P0C9H4|1105L_ASFWA   141.3   4.2e-41   1   1.0   9.6    Protein MGF 110-5L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-011 PE=3 SV=1
+sp|P0C9H6|1105L_ASFP4   141.3   4.2e-41   1   1.0   9.6    Protein MGF 110-5L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-013 PE=3 SV=1
+sp|P0C9I8|1108L_ASFP4   139.5   1.5e-40   1   1.0   6.0    Protein MGF 110-8L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-019 PE=3 SV=1
+sp|P26709|V137_ASFL5    139.2   1.9e-40   1   1.0   2.9    Protein LIS 137 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS137 PE=3 SV=1
+sp|P0C9I4|1107L_ASFP4   139.1   2.1e-40   1   1.0   3.5    Protein MGF 110-7L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-017 PE=3 SV=1
+sp|P0C9I1|1107L_ASFWA   139.0   2.1e-40   1   1.0   2.9    Protein MGF 110-7L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-015 PE=3 SV=1
+sp|P0C9I7|1108L_ASFM2   138.9   2.3e-40   1   1.0   6.1    Protein MGF 110-8L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-014 PE=3 SV=1
+sp|P0C9I2|1107L_ASFK5   138.0   4.4e-40   1   1.0   3.8    Protein MGF 110-7L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-016 PE=3 SV=1
+sp|P0C9I5|1108L_ASFWA   137.5   6.2e-40   1   1.0   8.5    Protein MGF 110-8L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-017 PE=3 SV=1
+sp|P0C9J9|11012_ASFM2   137.0   8.6e-40   1   1.0  11.8    Protein MGF 110-12L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-017 PE=3 SV=1
+sp|P26705|V121_ASFL5    136.1   1.7e-39   1   1.0   9.7    Protein LIS 121-1 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS121-1 PE=3 SV=1
+sp|P0C9I6|1108L_ASFK5   134.5     5e-39   1   1.0   5.6    Protein MGF 110-8L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-017 PE=3 SV=1
+sp|P0C9J8|11012_ASFK5   132.7   1.8e-38   1   1.2  14.9    Protein MGF 110-12L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-021 PE=3 SV=1
+sp|P0C9I3|1107L_ASFM2   127.7   6.1e-37   1   1.0   0.8    Protein MGF 110-7L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-013 PE=3 SV=1
+sp|P18559|1102L_ASFB7   116.3   1.8e-33   1   1.0   4.6    Protein MGF 110-2L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-009 PE=3 SV=1
+sp|P0C9G5|1102L_ASFWA   115.7   2.8e-33   1   1.0   5.4    Protein MGF 110-2L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-007 PE=3 SV=1
+sp|P18557|1105L_ASFB7   115.6   2.9e-33   1   1.0   5.3    Protein MGF 110-5L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-013 PE=3 SV=1
+sp|P0C9G7|1102L_ASFM2   110.3   1.2e-31   1   1.0   5.2    Protein MGF 110-2L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-006 PE=3 SV=1
+sp|P0C9G6|1102L_ASFK5   110.2   1.3e-31   1   1.0   6.1    Protein MGF 110-2L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-008 PE=3 SV=1
+sp|P0C9G8|1102L_ASFP4   102.4     3e-29   1   1.0   5.8    Protein MGF 110-2L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-009 PE=3 SV=1
+sp|P0C9J7|1101B_ASFP4    39.6   4.4e-10   1   1.7   4.3    Protein MGF 360-1L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-023 PE=3 SV=1
+sp|P0C9J2|11011_ASFWA    37.4     2e-09   1   1.2   3.2    Protein MGF 110-11L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-021 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P18560|1101L_ASFB7   467.4  1.7e-140     1  21.6      1    270      1    270      2    278     Protein MGF 110-1L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-008 PE=3 SV=1
+sp|P0C9G2|1101L_ASFK5   438.7  9.4e-132     1  24.1      1    270      1    270      2    278     Protein MGF 110-1L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-007 PE=3 SV=1
+sp|P0C9G3|1101L_ASFM2   434.2  2.2e-130     1  24.7      1    269      1    269      2    277     Protein MGF 110-1L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-005 PE=3 SV=1
+sp|P0C9G1|1101L_ASFWA   414.1  2.9e-124     1  21.9      1    269      1    269      2    278     Protein MGF 110-1L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-006 PE=3 SV=1
+sp|P0C9G4|1101L_ASFP4   414.0  3.2e-124     1  21.6      1    269      1    269      2    278     Protein MGF 110-1L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-008 PE=3 SV=1
+sp|P26710|V290_ASFL5    356.4  1.1e-106     1  19.9      1    224      1    224      1    214     Protein LIS 290 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS290 PE=3 SV=1
+sp|P0C9J1|1109L_ASFP4   350.5  7.3e-105     1  20.1      1    224      1    224      1    214     Protein MGF 110-9L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-021 PE=3 SV=1
+sp|P0C9I9|1109L_ASFWA   329.4     2e-98     1  13.2      1    213      1    213      1    203     Protein MGF 110-9L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-019 PE=3 SV=1
+sp|P0C9J0|1109L_ASFK5   307.6   8.6e-92     1  12.6      1    211      1    211      1    201     Protein MGF 110-9L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-019 PE=3 SV=1
+sp|P0C9K0|11013_ASFWA   191.7   1.9e-56     2   9.2     42    160     42    158      1    113     Protein MGF 110-13L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-020 PE=3 SV=1
+sp|P26703|V119_ASFL5    190.9   3.3e-56     1   8.7      1    119      1    117      1    113     Protein LIS 119-1 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS119-1 PE=3 SV=1
+sp|P26702|V117_ASFL5    189.6   8.1e-56     1   6.9      1    117      1    115      1    111     Protein LIS 117 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS117 PE=3 SV=1
+sp|P0C9K1|11013_ASFM2   188.2   2.2e-55     1   7.3     43    157     43    156      1    110     Protein MGF 110-13L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-018 PE=3 SV=1
+sp|P0C9J4|11011_ASFK5   186.5   7.3e-55     2   7.1    156    275    156    272      1    113     Protein MGF 110-11L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-020 PE=3 SV=1
+sp|P0C9J3|1101B_ASFWA   185.7   1.2e-54     2   7.5    158    272    158    271      1    110     Protein MGF 110-11L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-022 PE=3 SV=1
+sp|P0C9J6|11011_ASFP4   171.5   2.7e-50     2   6.8    187    302    187    301      1    110     Protein MGF 360-1L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-022 PE=3 SV=1
+sp|P0C9J5|11011_ASFM2   170.6   5.1e-50     2   9.1    157    286    157    279      1    119     Protein MGF 360-3L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-016 PE=3 SV=1
+sp|P18558|1104L_ASFB7   167.5   4.4e-49     1   1.5      1    124      1    123      2    124     Protein MGF 110-4L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-011 PE=3 SV=1
+sp|P0C9H3|1104L_ASFP4   165.8   1.5e-48     1   1.8      1    124      1    123      2    124     Protein MGF 110-4L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-011 PE=3 SV=1
+sp|P0C9K3|11014_ASFM2   164.5   3.7e-48     1   2.3      1    127      1    126      3    129     Protein MGF 110-14L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-019 PE=3 SV=1
+sp|P0C9H0|1104L_ASFWA   164.3   4.2e-48     1   2.1      1    125      1    124      1    124     Protein MGF 110-4L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-009 PE=3 SV=1
+sp|P26708|V125_ASFL5    164.2   4.5e-48     1   1.6      1    124      1    123      2    124     Protein LIS 124-2 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS124-2 PE=3 SV=1
+sp|P0C9H1|1104L_ASFK5   163.4   7.9e-48     1   2.9      1    124      1    123      2    124     Protein MGF 110-4L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-011 PE=3 SV=1
+sp|P26707|V124_ASFL5    163.0   1.1e-47     1   3.0      1    124      1    123      2    124     Protein LIS 124-1 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS124-1 PE=3 SV=1
+sp|P0C9H2|1104L_ASFM2   162.9   1.1e-47     1   3.4      1    124      1    123      2    124     Protein MGF 110-4L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-008 PE=3 SV=1
+sp|P0C9G9|1103L_ASFK5   162.7   1.3e-47     1   3.0      1    125      1    124      2    124     Protein MGF 110-3L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-010 PE=3 SV=1
+sp|P0C9J6|11011_ASFP4   162.0     2e-47     1   4.1     31    186     34    171      7    144     Protein MGF 360-1L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-022 PE=3 SV=1
+sp|P26706|V122_ASFL5    161.0   4.2e-47     1   0.7      1    121      1    119      3    122     Protein LIS 121-2 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS121-2 PE=3 SV=1
+sp|P0C9J3|1101B_ASFWA   160.8   4.9e-47     1   5.5      1    152      1    140      3    142     Protein MGF 110-11L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-022 PE=3 SV=1
+sp|P0C9K2|11014_ASFK5   159.2   1.5e-46     1   1.1      1    120      1    118      3    121     Protein MGF 110-14L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-022 PE=3 SV=1
+sp|P68744|1106L_ASFB7   155.1   2.7e-45     1   5.9      1    118      1    117      2    124     Protein MGF 110-6L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-015 PE=1 SV=1
+sp|P68745|V118_ASFL5    155.1   2.7e-45     1   5.9      1    118      1    117      2    124     Protein V118 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=V118 PE=3 SV=1
+sp|P0C9H7|1106L_ASFWA   154.7   3.6e-45     1   6.3      1    118      1    117      2    124     Protein MGF 110-6L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-013 PE=3 SV=1
+sp|P0C9I0|1106L_ASFP4   154.7   3.6e-45     1   6.3      1    118      1    117      2    124     Protein MGF 110-6L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-015 PE=3 SV=1
+sp|P26704|V120_ASFL5    154.3   4.7e-45     1   4.4      1    119      1    117      3    128     Protein LIS 119-2 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS119-2 PE=3 SV=1
+sp|P0C9J5|11011_ASFM2   153.7     7e-45     1   5.8      1    153      1    143      3    146     Protein MGF 360-3L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-016 PE=3 SV=1
+sp|P0C9J4|11011_ASFK5   153.7   7.3e-45     1   8.2      1    152      1    143      3    147     Protein MGF 110-11L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-020 PE=3 SV=1
+sp|P0C9H8|1106L_ASFK5   150.0   9.3e-44     1   3.8      1    122      1    121      2    124     Protein MGF 110-6L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-013 PE=3 SV=1
+sp|P0C9H9|1106L_ASFM2   147.6   5.3e-43     1   3.7      1    118      1    117      2    124     Protein MGF 110-6L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-011 PE=3 SV=1
+sp|P0C9H5|1105L_ASFM2   141.8   3.1e-41     1   8.9      1    120      1    116      2    123     Protein MGF 110-5L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-010 PE=3 SV=1
+sp|P0C9H4|1105L_ASFWA   141.2   4.5e-41     1   9.6      1    121      1    116      2    123     Protein MGF 110-5L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-011 PE=3 SV=1
+sp|P0C9H6|1105L_ASFP4   141.2   4.5e-41     1   9.6      1    121      1    116      2    123     Protein MGF 110-5L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-013 PE=3 SV=1
+sp|P0C9I8|1108L_ASFP4   139.4   1.6e-40     1   6.0      1    124      5    123      3    124     Protein MGF 110-8L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-019 PE=3 SV=1
+sp|P0C9I4|1107L_ASFP4   139.0   2.2e-40     1   3.5      1    137      1    129      2    127     Protein MGF 110-7L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-017 PE=3 SV=1
+sp|P26709|V137_ASFL5    139.0   2.2e-40     1   2.9      1    136      1    127      2    125     Protein LIS 137 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS137 PE=3 SV=1
+sp|P0C9I7|1108L_ASFM2   138.8   2.4e-40     1   6.1      1    124      4    123      8    124     Protein MGF 110-8L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-014 PE=3 SV=1
+sp|P0C9I1|1107L_ASFWA   138.8   2.5e-40     1   2.9      1    136      1    126      2    124     Protein MGF 110-7L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-015 PE=3 SV=1
+sp|P0C9I2|1107L_ASFK5   137.8   5.2e-40     1   3.8      1    136      1    127      2    125     Protein MGF 110-7L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-016 PE=3 SV=1
+sp|P0C9I5|1108L_ASFWA   137.4   6.7e-40     1   8.5      1    124      5    123      3    124     Protein MGF 110-8L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-017 PE=3 SV=1
+sp|P0C9J9|11012_ASFM2   136.9   9.7e-40     1  11.8      1    171      1    170      3    173     Protein MGF 110-12L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-017 PE=3 SV=1
+sp|P26705|V121_ASFL5    136.0   1.8e-39     1   9.7      1    121      1    116      2    123     Protein LIS 121-1 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS121-1 PE=3 SV=1
+sp|P0C9I6|1108L_ASFK5   134.5   5.3e-39     1   5.6      1    124      5    119      3    120     Protein MGF 110-8L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-017 PE=3 SV=1
+sp|P0C9J8|11012_ASFK5   132.2   2.6e-38     1  14.9      1    169      1    167      3    172     Protein MGF 110-12L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-021 PE=3 SV=1
+sp|P0C9I3|1107L_ASFM2   127.6   6.6e-37     1   0.8      1    125      1    123      2    121     Protein MGF 110-7L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-013 PE=3 SV=1
+sp|P0C9J0|1109L_ASFK5   123.1   1.5e-35     2  15.3    196    290    196    283     32    119     Protein MGF 110-9L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-019 PE=3 SV=1
+sp|P18559|1102L_ASFB7   116.3   1.8e-33     1   4.6      1    104     21    102     29    116     Protein MGF 110-2L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-009 PE=3 SV=1
+sp|P0C9G5|1102L_ASFWA   115.7   2.8e-33     1   5.4      1    104     21    101     29    115     Protein MGF 110-2L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-007 PE=3 SV=1
+sp|P18557|1105L_ASFB7   115.5   3.1e-33     1   5.3      1     82      1     81      2     86     Protein MGF 110-5L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-013 PE=3 SV=1
+sp|P0C9I9|1109L_ASFWA   113.4   1.4e-32     2  16.2    201    289    202    282     38    118     Protein MGF 110-9L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-019 PE=3 SV=1
+sp|P26710|V290_ASFL5    112.6   2.5e-32     2  16.5    202    290    202    283     38    119     Protein LIS 290 OS=African swine fever virus (isolate Portugal/Lis 57/1957) OX=10499 GN=LIS290 PE=3 SV=1
+sp|P0C9J1|1109L_ASFP4   112.5   2.6e-32     2  16.6    202    290    202    283     38    119     Protein MGF 110-9L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-021 PE=3 SV=1
+sp|P0C9G7|1102L_ASFM2   110.2   1.3e-31     1   5.2      1    115      2    108      2    109     Protein MGF 110-2L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-006 PE=3 SV=1
+sp|P0C9G6|1102L_ASFK5   110.2   1.3e-31     1   6.1      1    113      4    106      4    111     Protein MGF 110-2L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-008 PE=3 SV=1
+sp|P0C9G8|1102L_ASFP4   102.4   3.2e-29     1   5.8      1    103     21     96     29    109     Protein MGF 110-2L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-009 PE=3 SV=1
+sp|P0C9J7|1101B_ASFP4    38.0   1.4e-09     1   4.3     11    130     22    125     77    173     Protein MGF 360-1L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-023 PE=3 SV=1
+sp|P0C9J2|11011_ASFWA    37.2   2.3e-09     1   3.2      4    117     25    115     86    172     Protein MGF 110-11L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-021 PE=3 SV=1
+sp|P0C9K0|11013_ASFWA     2.6        85     1   0.3      8     38     11     29    129    147     Protein MGF 110-13L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-020 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_042711@NC_001659.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_042711@NC_001659.txt data/models_hmm/NP_042711@NC_001659.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:17 2021
+# [ok]

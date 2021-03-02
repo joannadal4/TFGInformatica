@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q80HV0|ATI2_VACCW   338.6  3.9e-102   1   1.0   5.6    17 kDa A-type inclusion protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR146 PE=4 SV=1
+sp|P16602|ATI_COWPX    277.0   3.5e-83   9   8.2   7.4    A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|P21114|A26_VACCC    272.0   1.3e-81   1   1.3   3.0    Putative A-type inclusion protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A26L PE=3 SV=1
+sp|Q05482|ATI_CAMPC      6.4       7.8   3   3.6  27.4    A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q80HV0|ATI2_VACCW   338.4  4.3e-102     1   5.6      1    154      1    154      1    154     17 kDa A-type inclusion protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR146 PE=4 SV=1
+sp|P16602|ATI_COWPX    277.0   3.5e-83     9   7.4   1052   1210   1052   1209      1    152     A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|P21114|A26_VACCC    271.2   2.1e-81     1   3.0    192    322    196    322     28    154     Putative A-type inclusion protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A26L PE=3 SV=1
+sp|P16602|ATI_COWPX     10.0       0.6     2   7.5    486    566    496    564     18     84     A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|Q05482|ATI_CAMPC      9.3      0.95     1  10.3    484    573    493    563     16     84     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|Q05482|ATI_CAMPC      4.1        38     2   5.4    558    652    581    630     34     68     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|P16602|ATI_COWPX      2.1   1.6e+02     3   3.9    564    653    593    631     33     68     A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|P16602|ATI_COWPX      0.0   6.9e+02     8   1.0    980   1050    986   1046      5     64     A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|Q05482|ATI_CAMPC     -0.4   9.6e+02     3   0.5    654    724    668    711     12     56     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|P16602|ATI_COWPX     -2.8     5e+03     7  12.4    882    982    906    978     23     84     A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|P16602|ATI_COWPX     -3.0   5.9e+03     6   6.2    823    919    836    912     12     81     A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|P16602|ATI_COWPX     -4.4   1.6e+04     1   0.8    416    465    423    456     48     83     A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|P16602|ATI_COWPX     -5.4   1.7e+04     4  12.0    665    776    701    741     31     68     A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|P16602|ATI_COWPX     -7.9   1.7e+04     5  13.8    754    887    761    852      8     84     A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_042173@NC_001611.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_042173@NC_001611.txt data/models_hmm/NP_042173@NC_001611.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:16 2021
+# [ok]

@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03588|1A_BMV        13.7     0.062   1   1.9   0.3    Replication protein 1a OS=Brome mosaic virus OX=12302 GN=ORF1a PE=1 SV=1
+sp|P28726|1A_PSVJ       13.5     0.072   1   1.6   0.1    Replication protein 1a OS=Peanut stunt virus (strain J) OX=12314 GN=ORF1a PE=3 SV=1
+sp|Q00020|1A_BBMV       12.8      0.11   1   1.7   0.2    Replication protein 1a OS=Broad bean mottle virus OX=12301 GN=ORF1a PE=3 SV=1
+sp|P27752|1A_CCMV       12.6      0.13   1   1.7   0.3    Replication protein 1a OS=Cowpea chlorotic mottle virus OX=12303 GN=ORF1a PE=2 SV=1
+sp|P11303|VE7_BPV2      12.0      0.21   1   1.2   0.5    Protein E7 OS=Bovine papillomavirus type 2 OX=2758382 GN=E7 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P28726|1A_PSVJ       12.2      0.17     1   0.1    159    206    176    203     52     79     Replication protein 1a OS=Peanut stunt virus (strain J) OX=12314 GN=ORF1a PE=3 SV=1
+sp|P03588|1A_BMV        12.0      0.21     1   0.3    161    199    171    196     53     78     Replication protein 1a OS=Brome mosaic virus OX=12302 GN=ORF1a PE=1 SV=1
+sp|P11303|VE7_BPV2      11.5       0.3     1   0.5     66     97     73     92     50     69     Protein E7 OS=Bovine papillomavirus type 2 OX=2758382 GN=E7 PE=3 SV=1
+sp|Q00020|1A_BBMV       11.4      0.32     1   0.2    161    198    171    194     53     76     Replication protein 1a OS=Broad bean mottle virus OX=12301 GN=ORF1a PE=3 SV=1
+sp|P27752|1A_CCMV       11.3      0.35     1   0.3    161    199    172    196     54     78     Replication protein 1a OS=Cowpea chlorotic mottle virus OX=12303 GN=ORF1a PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003358526@NC_013693.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003358526@NC_013693.txt data/models_hmm/YP_003358526@NC_013693.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:29 2021
+# [ok]

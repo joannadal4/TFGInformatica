@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03634|SCAFB_BPG4    213.9   6.1e-64   1   1.0   4.3    Internal scaffolding protein B OS=Escherichia phage G4 OX=10843 GN=B PE=3 SV=1
+sp|P03633|SCAFB_BPPHS   204.4   5.5e-61   1   1.0   3.8    Internal scaffolding protein B OS=Enterobacteria phage phiX174 (Isolate Sanger) OX=1217068 GN=B PE=1 SV=1
+sp|P07929|SCAFB_BPS13   202.7   1.9e-60   1   1.0   3.9    Internal scaffolding protein B OS=Enterobacteria phage S13 OX=10844 GN=B PE=3 SV=1
+sp|P31278|SCAFB_BPAL3   183.1   2.1e-54   1   1.0   3.6    Internal scaffolding protein B OS=Escherichia phage alpha3 OX=10849 GN=B PE=3 SV=1
+sp|Q38036|SCAFB_BPPHK   177.0   1.7e-52   1   1.0   1.7    Internal scaffolding protein B OS=Enterobacteria phage phiK OX=10848 GN=B PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03634|SCAFB_BPG4    213.8   6.7e-64     1   4.3      1    120      1    120      1    120     Internal scaffolding protein B OS=Escherichia phage G4 OX=10843 GN=B PE=3 SV=1
+sp|P03633|SCAFB_BPPHS   204.3   6.1e-61     1   3.8      1    120      1    120      1    120     Internal scaffolding protein B OS=Enterobacteria phage phiX174 (Isolate Sanger) OX=1217068 GN=B PE=1 SV=1
+sp|P07929|SCAFB_BPS13   202.5   2.1e-60     1   3.9      1    120      1    120      1    120     Internal scaffolding protein B OS=Enterobacteria phage S13 OX=10844 GN=B PE=3 SV=1
+sp|P31278|SCAFB_BPAL3   183.0   2.3e-54     1   3.6      1    117      3    117      6    120     Internal scaffolding protein B OS=Escherichia phage alpha3 OX=10849 GN=B PE=3 SV=1
+sp|Q38036|SCAFB_BPPHK   176.9   1.8e-52     1   1.7      1    117      3    117      6    120     Internal scaffolding protein B OS=Enterobacteria phage phiK OX=10848 GN=B PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_512790@NC_007856.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_512790@NC_007856.txt data/models_hmm/YP_512790@NC_007856.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:37 2021
+# [ok]

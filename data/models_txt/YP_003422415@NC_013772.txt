@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P24655|Y002_NPVAC    31.6     1e-07   2   2.1   2.8    Uncharacterized Bro-N domain-containing protein ORF2 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=2
+sp|Q9YML3|BROJ_NPVLD    24.6   1.3e-05   4   3.7  10.7    Uncharacterized Bro-N domain-containing protein J OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=1
+sp|O10355|Y002_NPVOP    16.8    0.0034   2   1.6   0.1    Uncharacterized 10.2 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF116 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P24655|Y002_NPVAC    31.6     1e-07     2   2.8    208    322    220    317    142    235     Uncharacterized Bro-N domain-containing protein ORF2 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=2
+sp|Q9YML3|BROJ_NPVLD    22.3   6.7e-05     4   0.0    296    399    306    395    163    257     Uncharacterized Bro-N domain-containing protein J OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=1
+sp|O10355|Y002_NPVOP    15.4    0.0087     2   0.0     20     86     31     78    166    214     Uncharacterized 10.2 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF116 PE=4 SV=1
+sp|Q9YML3|BROJ_NPVLD     2.4        82     3   2.2    230    302    254    293     40     78     Uncharacterized Bro-N domain-containing protein J OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=1
+sp|P24655|Y002_NPVAC     1.6   1.4e+02     1   1.2    136    240    176    217     34     75     Uncharacterized Bro-N domain-containing protein ORF2 OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=2
+sp|Q9YML3|BROJ_NPVLD     0.6   2.8e+02     1   0.6    136    217    143    180    176    214     Uncharacterized Bro-N domain-containing protein J OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=1
+sp|Q9YML3|BROJ_NPVLD     0.3   3.5e+02     2   5.1    183    276    216    263     35     81     Uncharacterized Bro-N domain-containing protein J OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=1
+sp|O10355|Y002_NPVOP    -0.8   7.4e+02     1   0.0      1     26      4     19     46     61     Uncharacterized 10.2 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF116 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003422415@NC_013772.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003422415@NC_013772.txt data/models_hmm/YP_003422415@NC_013772.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:36 2021
+# [ok]

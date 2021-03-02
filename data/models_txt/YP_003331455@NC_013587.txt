@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20203|B277_SSV1    527.2  6.7e-159   1   1.0   5.5    Uncharacterized protein B-277 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=b277 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20203|B277_SSV1    527.0  7.5e-159     1   5.5      1    275      1    275      1    278     Uncharacterized protein B-277 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=b277 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003331455@NC_013587.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003331455@NC_013587.txt data/models_hmm/YP_003331455@NC_013587.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:19 2021
+# [ok]

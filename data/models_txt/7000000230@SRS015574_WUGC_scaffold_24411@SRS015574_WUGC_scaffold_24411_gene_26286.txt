@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27317|NCAP_CCHFV    11.8     0.077   2   1.8   0.3    Nucleoprotein OS=Crimean-Congo hemorrhagic fever virus (isolate C68031) OX=11594 GN=N PE=3 SV=1
+sp|P89522|NCAP_CCHFI    11.6     0.087   2   1.7   0.4    Nucleoprotein OS=Crimean-Congo hemorrhagic fever virus (strain Nigeria/IbAr10200/1970) OX=652961 GN=N PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P89522|NCAP_CCHFI    10.4      0.19     1   0.0     98    180    116    176    212    272     Nucleoprotein OS=Crimean-Congo hemorrhagic fever virus (strain Nigeria/IbAr10200/1970) OX=652961 GN=N PE=1 SV=1
+sp|P27317|NCAP_CCHFV    10.2      0.23     1   0.0    100    180    125    176    222    272     Nucleoprotein OS=Crimean-Congo hemorrhagic fever virus (isolate C68031) OX=11594 GN=N PE=3 SV=1
+sp|P27317|NCAP_CCHFV    -1.5   8.1e+02     2   0.1    238    317    245    300    107    163     Nucleoprotein OS=Crimean-Congo hemorrhagic fever virus (isolate C68031) OX=11594 GN=N PE=3 SV=1
+sp|P89522|NCAP_CCHFI    -2.0   1.2e+03     2   0.1    242    317    247    292    109    155     Nucleoprotein OS=Crimean-Congo hemorrhagic fever virus (strain Nigeria/IbAr10200/1970) OX=652961 GN=N PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000230@SRS015574_WUGC_scaffold_24411@SRS015574_WUGC_scaffold_24411_gene_26286.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000230@SRS015574_WUGC_scaffold_24411@SRS015574_WUGC_scaffold_24411_gene_26286.txt data/models_hmm/7000000230@SRS015574_WUGC_scaffold_24411@SRS015574_WUGC_scaffold_24411_gene_26286.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:35 2021
+# [ok]

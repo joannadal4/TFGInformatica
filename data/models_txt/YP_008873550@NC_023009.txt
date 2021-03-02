@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CAM4|VFD29_ASFK5    13.2     0.069   1   1.7   2.2    Uncharacterized protein D129L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-115 PE=3 SV=1
+sp|P0CAM5|VFD29_ASFP4    12.3      0.13   2   1.8   1.4    Uncharacterized protein D129L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-115 PE=3 SV=1
+sp|P0CAM6|VFD29_ASFWA    12.3      0.13   2   1.8   1.4    Uncharacterized protein D129L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-113 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CAM4|VFD29_ASFK5    12.2      0.13     1   1.6     42    111     55    100     48     93     Uncharacterized protein D129L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-115 PE=3 SV=1
+sp|P0CAM5|VFD29_ASFP4    11.3      0.26     2   0.8     40    102     55     94     48     87     Uncharacterized protein D129L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-115 PE=3 SV=1
+sp|P0CAM6|VFD29_ASFWA    11.3      0.26     2   0.8     40    102     55     94     48     87     Uncharacterized protein D129L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-113 PE=3 SV=1
+sp|P0CAM5|VFD29_ASFP4    -1.5   2.5e+03     1   0.0      7     48     16     36     63     83     Uncharacterized protein D129L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-115 PE=3 SV=1
+sp|P0CAM6|VFD29_ASFWA    -1.5   2.5e+03     1   0.0      7     48     16     36     63     83     Uncharacterized protein D129L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-113 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008873550@NC_023009.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008873550@NC_023009.txt data/models_hmm/YP_008873550@NC_023009.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:45 2021
+# [ok]

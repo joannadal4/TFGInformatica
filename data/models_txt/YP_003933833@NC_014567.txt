@@ -1,0 +1,68 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6UDH1|CEP1_PSHV1   405.9  6.8e-122   1   1.0   0.1    Cytoplasmic envelopment protein 1 OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL7 PE=3 SV=1
+sp|P28945|CEP1_EHV1B   404.7  1.6e-121   1   1.0   0.1    Cytoplasmic envelopment protein 1 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=55 PE=3 SV=1
+sp|P84459|CEP1_EHV1V   404.7  1.6e-121   1   1.0   0.1    Cytoplasmic envelopment protein 1 OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=55 PE=3 SV=1
+sp|P09301|CEP1_VZVD    393.0  5.6e-118   1   1.0   0.0    Cytoplasmic envelopment protein 1 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF53 PE=1 SV=1
+sp|P89430|CEP1_HHV2H   376.1  8.1e-113   1   1.0   0.0    Cytoplasmic envelopment protein 1 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL7 PE=3 SV=1
+sp|Q9E6Q9|CEP1_GAHVM   375.1  1.6e-112   1   1.0   0.0    Cytoplasmic envelopment protein 1 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV019 PE=3 SV=1
+sp|P10191|CEP1_HHV11   362.5  1.1e-108   1   1.0   0.0    Cytoplasmic envelopment protein 1 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL7 PE=1 SV=1
+sp|O36391|CEP1_ALHV1    50.7   9.8e-14   1   1.2   0.2    Cytoplasmic envelopment protein 1 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=42 PE=3 SV=1
+sp|F5HA10|CEP1_HCMVM    50.3   1.3e-13   1   1.1   1.6    Cytoplasmic envelopment protein 1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL103 PE=3 SV=1
+sp|P16734|CEP1_HCMVA    50.3   1.3e-13   1   1.1   1.6    Cytoplasmic envelopment protein 1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL103 PE=3 SV=1
+sp|P52457|CEP1_HHV6Z    48.6   4.4e-13   1   1.1   0.6    Cytoplasmic envelopment protein 1 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U75 PE=3 SV=1
+sp|P0C6Z9|CEP1_EBVA8    47.5   9.2e-13   2   2.0   0.1    Cytoplasmic envelopment protein 1 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BBRF2 PE=3 SV=1
+sp|P29882|CEP1_EBVB9    47.5   9.2e-13   2   2.0   0.1    Cytoplasmic envelopment protein 1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BBRF2 PE=3 SV=1
+sp|Q3KSR8|CEP1_EBVG     47.4   9.7e-13   2   2.0   0.1    Cytoplasmic envelopment protein 1 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BBRF2 PE=3 SV=1
+sp|P52456|CEP1_HHV6U    44.6   6.8e-12   1   1.2   0.5    Cytoplasmic envelopment protein 1 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U75 PE=3 SV=1
+sp|Q66645|CEP1_EHV2     43.8   1.2e-11   1   1.3   1.8    Cytoplasmic envelopment protein 1 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=42 PE=3 SV=1
+sp|P52458|CEP1_HHV7J    41.3   7.2e-11   1   1.2   0.0    Cytoplasmic envelopment protein 1 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U75 PE=3 SV=1
+sp|F5HAI6|CEP1_HHV8P    39.4   2.6e-10   1   1.3   0.6    Cytoplasmic envelopment protein 1 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF42 PE=3 SV=1
+sp|Q01028|CEP1_SHV21    34.7   7.1e-09   1   1.4   0.5    Cytoplasmic envelopment protein 1 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=42 PE=3 SV=1
+sp|Q9WS38|C_TPMV        15.4    0.0056   1   1.4   0.6    Protein C OS=Tupaia paramyxovirus OX=92129 GN=P/V/C PE=4 SV=1
+sp|P38396|SIEB_BPP22    12.3     0.047   1   1.3   0.1    Superinfection exclusion protein B OS=Salmonella phage P22 OX=10754 GN=sieB PE=4 SV=1
+sp|P51716|YO14_BPHC1    12.1     0.055   1   1.1   0.0    Uncharacterized 14.9 kDa protein in rep-hol intergenic region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6UDH1|CEP1_PSHV1   405.7  7.8e-122     1   0.1     62    388     63    388      2    306     Cytoplasmic envelopment protein 1 OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL7 PE=3 SV=1
+sp|P28945|CEP1_EHV1B   404.6  1.7e-121     1   0.1      1    303      5    303      5    306     Cytoplasmic envelopment protein 1 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=55 PE=3 SV=1
+sp|P84459|CEP1_EHV1V   404.6  1.7e-121     1   0.1      1    303      5    303      5    306     Cytoplasmic envelopment protein 1 OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=55 PE=3 SV=1
+sp|P09301|CEP1_VZVD    392.8  6.7e-118     1   0.0     16    324     27    324     10    306     Cytoplasmic envelopment protein 1 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF53 PE=1 SV=1
+sp|P89430|CEP1_HHV2H   376.0  8.9e-113     1   0.0      1    296      5    295     14    305     Cytoplasmic envelopment protein 1 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL7 PE=3 SV=1
+sp|Q9E6Q9|CEP1_GAHVM   374.9  1.8e-112     1   0.0      1    304      2    304      2    306     Cytoplasmic envelopment protein 1 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV019 PE=3 SV=1
+sp|P10191|CEP1_HHV11   362.4  1.2e-108     1   0.0      1    296      4    295     13    305     Cytoplasmic envelopment protein 1 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL7 PE=1 SV=1
+sp|O36391|CEP1_ALHV1    50.3   1.3e-13     1   0.2     40    245     51    206     93    249     Cytoplasmic envelopment protein 1 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=42 PE=3 SV=1
+sp|F5HA10|CEP1_HCMVM    50.0   1.6e-13     1   1.6      3    178      6    150     54    201     Cytoplasmic envelopment protein 1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL103 PE=3 SV=1
+sp|P16734|CEP1_HCMVA    50.0   1.6e-13     1   1.6      3    178      6    150     54    201     Cytoplasmic envelopment protein 1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL103 PE=3 SV=1
+sp|P52457|CEP1_HHV6Z    48.3   5.4e-13     1   0.6      9    235     34    169     62    207     Cytoplasmic envelopment protein 1 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U75 PE=3 SV=1
+sp|P0C6Z9|CEP1_EBVA8    44.5   7.5e-12     2   0.0     52    262     65    226    100    260     Cytoplasmic envelopment protein 1 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BBRF2 PE=3 SV=1
+sp|P29882|CEP1_EBVB9    44.5   7.5e-12     2   0.0     52    262     65    226    100    260     Cytoplasmic envelopment protein 1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BBRF2 PE=3 SV=1
+sp|Q3KSR8|CEP1_EBVG     44.5   7.8e-12     2   0.0     50    262     64    226     99    260     Cytoplasmic envelopment protein 1 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BBRF2 PE=3 SV=1
+sp|P52456|CEP1_HHV6U    44.4   8.1e-12     1   0.5     19    242     43    169     71    207     Cytoplasmic envelopment protein 1 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U75 PE=3 SV=1
+sp|Q66645|CEP1_EHV2     43.4   1.6e-11     1   1.8     30    171     64    131     94    161     Cytoplasmic envelopment protein 1 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=42 PE=3 SV=1
+sp|P52458|CEP1_HHV7J    40.7   1.1e-10     1   0.0     17    175     22    163     55    201     Cytoplasmic envelopment protein 1 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U75 PE=3 SV=1
+sp|F5HAI6|CEP1_HHV8P    39.1   3.3e-10     1   0.6     34    236     72    157     96    183     Cytoplasmic envelopment protein 1 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF42 PE=3 SV=1
+sp|Q01028|CEP1_SHV21    34.2   1.1e-08     1   0.5     18    248     61    219     98    258     Cytoplasmic envelopment protein 1 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=42 PE=3 SV=1
+sp|Q9WS38|C_TPMV        14.6    0.0093     1   0.4     93    153    113    147    197    231     Protein C OS=Tupaia paramyxovirus OX=92129 GN=P/V/C PE=4 SV=1
+sp|P51716|YO14_BPHC1    11.9     0.063     1   0.0     14    115     17     80     56    116     Uncharacterized 14.9 kDa protein in rep-hol intergenic region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|P38396|SIEB_BPP22    11.8     0.067     1   0.1     18    108     46     95    213    261     Superinfection exclusion protein B OS=Salmonella phage P22 OX=10754 GN=sieB PE=4 SV=1
+sp|P0C6Z9|CEP1_EBVA8     0.9   1.4e+02     1   0.0      5     44     15     34     37     56     Cytoplasmic envelopment protein 1 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BBRF2 PE=3 SV=1
+sp|P29882|CEP1_EBVB9     0.9   1.4e+02     1   0.0      5     44     15     34     37     56     Cytoplasmic envelopment protein 1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BBRF2 PE=3 SV=1
+sp|Q3KSR8|CEP1_EBVG      0.9   1.4e+02     1   0.0      5     44     15     34     37     56     Cytoplasmic envelopment protein 1 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BBRF2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003933833@NC_014567.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003933833@NC_014567.txt data/models_hmm/YP_003933833@NC_014567.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:45 2021
+# [ok]

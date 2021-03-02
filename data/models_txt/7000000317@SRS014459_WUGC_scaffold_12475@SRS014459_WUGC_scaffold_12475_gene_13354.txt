@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|B2BNE7|VP6_AQRVG      8.6      0.16   1   1.0   0.3    Clamp protein VP6 OS=Aquareovirus G (isolate American grass carp/USA/PB01-155/-) OX=648234 GN=S8 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|B2BNE7|VP6_AQRVG      8.2      0.21     1   0.3     43    164     60    135   2026   2097     Clamp protein VP6 OS=Aquareovirus G (isolate American grass carp/USA/PB01-155/-) OX=648234 GN=S8 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000317@SRS014459_WUGC_scaffold_12475@SRS014459_WUGC_scaffold_12475_gene_13354.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000317@SRS014459_WUGC_scaffold_12475@SRS014459_WUGC_scaffold_12475_gene_13354.txt data/models_hmm/7000000317@SRS014459_WUGC_scaffold_12475@SRS014459_WUGC_scaffold_12475_gene_13354.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:16 2021
+# [ok]

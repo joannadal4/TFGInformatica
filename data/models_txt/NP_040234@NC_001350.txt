@@ -1,0 +1,51 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q01021|CVC1_SHV21   592.0  5.9e-178   1   1.0   0.2    Capsid vertex component 1 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=CVC1 PE=3 SV=1
+sp|O36381|CVC1_ALHV1   555.9  5.6e-167   1   1.0   0.0    Capsid vertex component 1 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=CVC1 PE=3 SV=1
+sp|F5HB39|CVC1_HHV8P   522.8  5.8e-157   1   1.0   0.0    Capsid vertex component 1 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=CVC1 PE=1 SV=1
+sp|Q66635|CVC1_EHV2    441.0  4.1e-132   1   1.0   0.0    Capsid vertex component 1 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=CVC1 PE=3 SV=2
+sp|P03222|CVC1_EBVB9   149.4   1.1e-43   1   2.1   0.0    Capsid vertex component 1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=CVC1 PE=1 SV=1
+sp|P52360|CVC1_HHV7J    47.0   1.4e-12   1   2.1   1.6    Capsid vertex component 1 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=CVC1 PE=3 SV=1
+sp|Q9QJ20|CVC1_HHV6Z    41.9   4.8e-11   1   2.1   1.4    Capsid vertex component 1 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=CVC1 PE=3 SV=1
+sp|P24441|CVC1_HHV6U    40.9   9.4e-11   2   2.3   1.7    Capsid vertex component 1 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=CVC1 PE=3 SV=1
+sp|P16799|CVC1_HCMVA    20.6   0.00014   2   1.8   0.0    Capsid vertex component 1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=CVC1 PE=3 SV=1
+sp|Q6SW50|CVC1_HCMVM    20.2   0.00018   2   1.7   0.0    Capsid vertex component 1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=CVC1 PE=3 SV=1
+sp|P09292|CVC1_VZVD     18.5    0.0006   2   2.6   0.1    Capsid vertex component 1 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=CVC1 PE=3 SV=1
+sp|P28950|CVC1_EHV1B    14.6    0.0092   3   3.1   0.0    Capsid vertex component 1 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=CVC1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q01021|CVC1_SHV21   591.9  6.6e-178     1   0.2      1    441      1    441      1    449     Capsid vertex component 1 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=CVC1 PE=3 SV=1
+sp|O36381|CVC1_ALHV1   555.7  6.3e-167     1   0.0      1    474      1    473      1    449     Capsid vertex component 1 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=CVC1 PE=3 SV=1
+sp|F5HB39|CVC1_HHV8P   522.7  6.5e-157     1   0.0      1    454      1    454      1    449     Capsid vertex component 1 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=CVC1 PE=1 SV=1
+sp|Q66635|CVC1_EHV2    440.8  4.6e-132     1   0.0      1    478      1    478      1    449     Capsid vertex component 1 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=CVC1 PE=3 SV=2
+sp|P03222|CVC1_EBVB9   144.3     4e-42     1   0.0      1    503      1    502      1    449     Capsid vertex component 1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=CVC1 PE=1 SV=1
+sp|P52360|CVC1_HHV7J    43.3   1.8e-11     1   1.5     45    438    165    437    180    449     Capsid vertex component 1 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=CVC1 PE=3 SV=1
+sp|Q9QJ20|CVC1_HHV6Z    38.7   4.3e-10     1   1.4    170    441    174    440    188    449     Capsid vertex component 1 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=CVC1 PE=3 SV=1
+sp|P24441|CVC1_HHV6U    25.1     6e-06     2   0.2    344    441    352    440    356    449     Capsid vertex component 1 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=CVC1 PE=3 SV=1
+sp|P16799|CVC1_HCMVA    18.7   0.00053     2   0.0    464    549    470    544    355    433     Capsid vertex component 1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=CVC1 PE=3 SV=1
+sp|Q6SW50|CVC1_HCMVM    18.4   0.00064     2   0.0    464    549    471    544    356    433     Capsid vertex component 1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=CVC1 PE=3 SV=1
+sp|P24441|CVC1_HHV6U    15.1    0.0062     1   0.1    102    305    174    298    188    310     Capsid vertex component 1 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=CVC1 PE=3 SV=1
+sp|P09292|CVC1_VZVD     11.0      0.11     1   0.0      1    159     56    148     44    120     Capsid vertex component 1 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=CVC1 PE=3 SV=1
+sp|P28950|CVC1_EHV1B     4.8       8.7     3   0.0    649    680    657    677    410    430     Capsid vertex component 1 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=CVC1 PE=3 SV=1
+sp|P09292|CVC1_VZVD      4.6       9.7     2   0.0    612    643    622    642    409    429     Capsid vertex component 1 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=CVC1 PE=3 SV=1
+sp|P28950|CVC1_EHV1B     3.5        20     2   0.0     93    212    109    157     75    122     Capsid vertex component 1 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=CVC1 PE=3 SV=1
+sp|P28950|CVC1_EHV1B     2.3        50     1   0.0      1     67      1     39      1     34     Capsid vertex component 1 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=CVC1 PE=3 SV=1
+sp|P16799|CVC1_HCMVA    -1.3   5.9e+02     1   0.0    209    317    250    283    171    205     Capsid vertex component 1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=CVC1 PE=3 SV=1
+sp|Q6SW50|CVC1_HCMVM    -1.4   6.5e+02     1   0.0    209    315    257    283    179    205     Capsid vertex component 1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=CVC1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_040234@NC_001350.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_040234@NC_001350.txt data/models_hmm/NP_040234@NC_001350.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:13 2021
+# [ok]

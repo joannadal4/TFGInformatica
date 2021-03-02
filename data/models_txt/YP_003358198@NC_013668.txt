@@ -1,0 +1,48 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9JFA5|D3_VACCT      14.0      0.02   2   1.8   0.3    Core protein D3 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TD3R PE=2 SV=1
+sp|P04302|D3_VACCW      13.3     0.032   2   1.8   0.2    Core protein D3 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR108 PE=2 SV=1
+sp|P21009|D3_VACCC      13.2     0.033   2   1.8   0.2    Core protein D3 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D3R PE=2 SV=1
+sp|Q775T6|D3_CAMPS      12.5     0.055   2   1.5   0.1    27 kDa core protein OS=Camelpox virus (strain CMS) OX=203172 GN=CMP105R PE=2 SV=1
+sp|Q8V2R6|D3_CAMPM      12.5     0.055   2   1.5   0.1    27 kDa core protein OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV105 PE=2 SV=1
+sp|O57210|D3_VACCA      12.3     0.061   2   1.5   0.2    Core protein D3 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA100R PE=2 SV=1
+sp|Q6RZJ4|D3_RABPU      12.3     0.064   2   1.5   0.2    27 kDa core protein OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV097 PE=2 SV=1
+sp|P0DSQ9|D3_VAR67      12.2     0.069   2   1.6   0.2    Core protein D3 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=D3R PE=2 SV=1
+sp|P0DSR0|D3_VARV       12.2     0.069   2   1.6   0.2    Core protein D3 OS=Variola virus OX=10255 GN=D3R PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9JFA5|D3_VACCT      12.0     0.075     2   0.1    137    208    149    198    172    217     Core protein D3 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TD3R PE=2 SV=1
+sp|Q775T6|D3_CAMPS      11.5      0.11     2   0.0    122    209    149    198    172    217     27 kDa core protein OS=Camelpox virus (strain CMS) OX=203172 GN=CMP105R PE=2 SV=1
+sp|Q8V2R6|D3_CAMPM      11.5      0.11     2   0.0    122    209    149    198    172    217     27 kDa core protein OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV105 PE=2 SV=1
+sp|P04302|D3_VACCW      11.3      0.13     2   0.0    137    208    149    198    172    217     Core protein D3 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR108 PE=2 SV=1
+sp|P21009|D3_VACCC      11.3      0.13     2   0.0    137    208    149    198    172    217     Core protein D3 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D3R PE=2 SV=1
+sp|O57210|D3_VACCA      11.3      0.13     2   0.0    135    204    146    194    173    217     Core protein D3 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA100R PE=2 SV=1
+sp|Q6RZJ4|D3_RABPU      11.3      0.13     2   0.0    138    208    150    198    173    217     27 kDa core protein OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV097 PE=2 SV=1
+sp|P0DSQ9|D3_VAR67      11.2      0.14     2   0.0    117    209    150    198    173    217     Core protein D3 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=D3R PE=2 SV=1
+sp|P0DSR0|D3_VARV       11.2      0.14     2   0.0    117    209    150    198    173    217     Core protein D3 OS=Variola virus OX=10255 GN=D3R PE=2 SV=1
+sp|P04302|D3_VACCW      -0.7   5.9e+02     1   0.0     26     55     31     48    147    164     Core protein D3 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR108 PE=2 SV=1
+sp|P21009|D3_VACCC      -0.7   5.9e+02     1   0.0     26     55     31     48    147    164     Core protein D3 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D3R PE=2 SV=1
+sp|Q9JFA5|D3_VACCT      -0.7   5.9e+02     1   0.0     26     55     31     48    147    164     Core protein D3 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TD3R PE=2 SV=1
+sp|P0DSQ9|D3_VAR67      -2.4   1.9e+03     1   0.0     27     54     31     48    147    164     Core protein D3 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=D3R PE=2 SV=1
+sp|P0DSR0|D3_VARV       -2.4   1.9e+03     1   0.0     27     54     31     48    147    164     Core protein D3 OS=Variola virus OX=10255 GN=D3R PE=2 SV=1
+sp|O57210|D3_VACCA      -2.6   2.2e+03     1   0.0     28     54     31     47    147    163     Core protein D3 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA100R PE=2 SV=1
+sp|Q775T6|D3_CAMPS      -2.6   2.2e+03     1   0.0     28     54     31     47    147    163     27 kDa core protein OS=Camelpox virus (strain CMS) OX=203172 GN=CMP105R PE=2 SV=1
+sp|Q8V2R6|D3_CAMPM      -2.6   2.2e+03     1   0.0     28     54     31     47    147    163     27 kDa core protein OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV105 PE=2 SV=1
+sp|Q6RZJ4|D3_RABPU      -2.8   2.5e+03     1   0.0     28     53     31     46    147    162     27 kDa core protein OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV097 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003358198@NC_013668.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003358198@NC_013668.txt data/models_hmm/YP_003358198@NC_013668.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:27 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03696|DNBI_BPT7     25.6   7.5e-06   1   1.2   0.7    Single-stranded DNA-binding protein gp2.5 OS=Escherichia phage T7 OX=10760 GN=2.5 PE=1 SV=1
+sp|P20313|VHED_BPT3     24.6   1.5e-05   1   1.3   0.4    Helix-destabilizing protein OS=Enterobacteria phage T3 OX=10759 GN=2.5 PE=4 SV=1
+sp|Q9T1P8|VP50_BPAPS    18.5    0.0011   1   1.2   0.0    Putative protein p50 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=50 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03696|DNBI_BPT7     25.3   9.4e-06     1   0.7     69    232    107    224     77    186     Single-stranded DNA-binding protein gp2.5 OS=Escherichia phage T7 OX=10760 GN=2.5 PE=1 SV=1
+sp|P20313|VHED_BPT3     24.3   1.9e-05     1   0.4     53    232    110    217     77    184     Helix-destabilizing protein OS=Enterobacteria phage T3 OX=10759 GN=2.5 PE=4 SV=1
+sp|Q9T1P8|VP50_BPAPS    18.3    0.0013     1   0.0     16    181     62    153     48    142     Putative protein p50 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=50 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGG91330@HQ317389.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGG91330@HQ317389.txt data/models_hmm/AGG91330@HQ317389.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:37 2021
+# [ok]

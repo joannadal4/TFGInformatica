@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P51719|SCAF_BPHC1   476.1  3.3e-143   1   1.0   7.5    Capsid assembly scaffolding protein OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=3 SV=1
+sp|P25478|SCAF_BPP2    153.2   7.6e-45   1   1.8   0.6    Capsid assembly scaffolding protein OS=Escherichia phage P2 OX=10679 GN=O PE=1 SV=1
+sp|P0DJZ6|POLSF_SFV     10.7      0.21   1   1.2   4.1    Frameshifted structural polyprotein OS=Semliki forest virus OX=11033 PE=1 SV=1
+sp|P03315|POLS_SFV      10.2      0.29   1   1.2   3.9    Structural polyprotein OS=Semliki forest virus OX=11033 PE=1 SV=1
+sp|P13890|POLS_RRVN      8.5      0.96   1   1.2   9.0    Structural polyprotein OS=Ross river virus (strain NB5092) OX=11031 PE=3 SV=1
+sp|Q5Y388|POLS_GETV      6.6       3.6   1   1.2   6.8    Structural polyprotein OS=Getah virus OX=59300 PE=3 SV=1
+sp|Q9JGK8|POLS_SAGV      6.5       3.9   1   1.2   7.1    Structural polyprotein OS=Sagiyama virus OX=59303 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P51719|SCAF_BPHC1   475.9  3.7e-143     1   7.5      1    294      1    294      1    292     Capsid assembly scaffolding protein OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=3 SV=1
+sp|P25478|SCAF_BPP2    151.0   3.6e-44     1   0.6      1    257      5    235      7    218     Capsid assembly scaffolding protein OS=Escherichia phage P2 OX=10679 GN=O PE=1 SV=1
+sp|P0DJZ6|POLSF_SFV     10.0      0.34     1   4.1     28    126     38     93    195    247     Frameshifted structural polyprotein OS=Semliki forest virus OX=11033 PE=1 SV=1
+sp|P03315|POLS_SFV       9.5      0.48     1   3.9     28    125     38     93    195    247     Structural polyprotein OS=Semliki forest virus OX=11033 PE=1 SV=1
+sp|P13890|POLS_RRVN      7.8       1.6     1   9.0     31    107     43     88    194    240     Structural polyprotein OS=Ross river virus (strain NB5092) OX=11031 PE=3 SV=1
+sp|Q5Y388|POLS_GETV      5.8       6.2     1   6.8     38     99     44     85    195    235     Structural polyprotein OS=Getah virus OX=59300 PE=3 SV=1
+sp|Q9JGK8|POLS_SAGV      5.8       6.6     1   7.1     38    103     44     87    195    236     Structural polyprotein OS=Sagiyama virus OX=59303 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_654731@NC_008193.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_654731@NC_008193.txt data/models_hmm/YP_654731@NC_008193.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:40 2021
+# [ok]

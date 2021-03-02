@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q18LD7|TRM3_ELHVK    11.7      0.23   3   3.0   0.3    Tripartite terminase subunit 3 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 GN=TRM3 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q18LD7|TRM3_ELHVK     6.6       9.4     2   0.0    257    301    279    297     21     39     Tripartite terminase subunit 3 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 GN=TRM3 PE=3 SV=1
+sp|Q18LD7|TRM3_ELHVK     1.1     5e+02     1   0.1    225    248    229    244      6     21     Tripartite terminase subunit 3 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 GN=TRM3 PE=3 SV=1
+sp|Q18LD7|TRM3_ELHVK    -1.5   3.1e+03     3   0.0    433    456    437    453     13     29     Tripartite terminase subunit 3 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 GN=TRM3 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008857478@NC_022968.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008857478@NC_022968.txt data/models_hmm/YP_008857478@NC_022968.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:39 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41422|Y012_NPVAC    46.8   2.5e-12   1   2.0   0.2    Uncharacterized 14.2 kDa protein in PK1-LEF1 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41422|Y012_NPVAC    43.7   2.2e-11     1   0.2     28    216     43    160     27    127     Uncharacterized 14.2 kDa protein in PK1-LEF1 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_047788@NC_001973.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_047788@NC_001973.txt data/models_hmm/NP_047788@NC_001973.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:27 2021
+# [ok]

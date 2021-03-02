@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q66790|POLG_EC16H    18.4    0.0012   1   1.6   0.1    Genome polyprotein (Fragment) OS=Echovirus 16 (strain Harrington) OX=103910 PE=3 SV=3
+sp|P29813|POLG_EC11G    13.0     0.055   1   1.4   0.0    Genome polyprotein OS=Echovirus 11 (strain Gregory) OX=31705 PE=1 SV=4
+sp|Q03053|POLG_CXB5P    11.8      0.13   1   1.4   0.1    Genome polyprotein OS=Coxsackievirus B5 (strain Peterborough / 1954/UK/85) OX=103907 PE=1 SV=3
+sp|P08292|POLG_CXB4J    11.8      0.13   1   1.4   0.1    Genome polyprotein OS=Coxsackievirus B4 (strain JVB / Benschoten / New York/51) OX=103906 PE=1 SV=4
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q66790|POLG_EC16H    17.1     0.003     1   0.1    617    710    646    700    119    173     Genome polyprotein (Fragment) OS=Echovirus 16 (strain Harrington) OX=103910 PE=3 SV=3
+sp|P29813|POLG_EC11G    12.0      0.11     1   0.0    557    709    657    699    132    174     Genome polyprotein OS=Echovirus 11 (strain Gregory) OX=31705 PE=1 SV=4
+sp|P08292|POLG_CXB4J    10.8      0.26     1   0.1    581    711    647    704    126    180     Genome polyprotein OS=Coxsackievirus B4 (strain JVB / Benschoten / New York/51) OX=103906 PE=1 SV=4
+sp|Q03053|POLG_CXB5P    10.8      0.27     1   0.1    639    710    662    703    139    180     Genome polyprotein OS=Coxsackievirus B5 (strain Peterborough / 1954/UK/85) OX=103907 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004327203@NC_015294.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004327203@NC_015294.txt data/models_hmm/YP_004327203@NC_015294.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:20 2021
+# [ok]

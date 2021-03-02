@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|B3SRX0|NSP2_ROTHT    13.8     0.053   1   1.6   0.2    Non-structural protein 2 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=3 SV=1
+sp|Q03245|NSP2_ROTHW    13.8     0.054   1   1.6   0.2    Non-structural protein 2 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=3 SV=1
+sp|Q9QNA8|NSP2_ROTHK    13.5     0.064   1   1.6   0.2    Non-structural protein 2 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|B3SRX0|NSP2_ROTHT    12.7      0.12     1   0.2    229    285    241    277     48     84     Non-structural protein 2 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=3 SV=1
+sp|Q03245|NSP2_ROTHW    12.6      0.13     1   0.2    229    284    241    277     48     84     Non-structural protein 2 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=3 SV=1
+sp|Q9QNA8|NSP2_ROTHK    12.2      0.16     1   0.2    229    283    241    276     48     83     Non-structural protein 2 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000736@SRS014235_WUGC_scaffold_38266@SRS014235_WUGC_scaffold_38266_gene_63078.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000736@SRS014235_WUGC_scaffold_38266@SRS014235_WUGC_scaffold_38266_gene_63078.txt data/models_hmm/7000000736@SRS014235_WUGC_scaffold_38266@SRS014235_WUGC_scaffold_38266_gene_63078.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:11 2021
+# [ok]

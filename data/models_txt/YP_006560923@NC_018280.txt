@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q197B1|049R_IIV3      14.9     0.023   6   5.1   8.8    Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|P04506|SIGM1_REOVL    13.2     0.075   3   2.9   0.4    Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|Q992I2|SIGC_ARVS1     12.8       0.1   4   3.1   1.7    Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q197B1|049R_IIV3       6.5       9.4     3   0.0    235    307    239    288     39     88     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|P04506|SIGM1_REOVL     6.4        11     1   0.1     51    121     81    113     30     62     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|Q197B1|049R_IIV3       6.2        11     6   0.0    420    478    426    468     33     75     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q992I2|SIGC_ARVS1      6.1        13     4   0.1    112    160    128    155     33     60     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|P04506|SIGM1_REOVL     5.7        17     2   0.0     75    139     82    114     31     63     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|P04506|SIGM1_REOVL     3.7        71     3   0.0    136    186    149    182     31     64     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|Q197B1|049R_IIV3       3.4        85     1   0.1     66    126     78    122     43     87     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q992I2|SIGC_ARVS1      2.9   1.2e+02     1   0.1      7     78     11     56     28     73     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q992I2|SIGC_ARVS1      1.5   3.3e+02     3   0.1     75    129     85    127     25     67     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q992I2|SIGC_ARVS1      0.6   6.6e+02     2   0.1     46    111     57     89     32     64     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q197B1|049R_IIV3      -2.2     5e+03     4   0.0    329    393    334    362     39     67     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q197B1|049R_IIV3      -2.4   5.6e+03     5   0.0    347    412    394    408     68     82     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+sp|Q197B1|049R_IIV3      -2.8   7.7e+03     2   0.0    151    194    162    178     46     62     Uncharacterized protein 049R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-049R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006560923@NC_018280.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006560923@NC_018280.txt data/models_hmm/YP_006560923@NC_018280.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:20 2021
+# [ok]

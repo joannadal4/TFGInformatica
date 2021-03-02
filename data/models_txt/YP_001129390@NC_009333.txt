@@ -1,0 +1,75 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04294|AN_HHV11      822.6  1.4e-247   1   1.0   0.0    Alkaline nuclease OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL12 PE=1 SV=1
+sp|P06489|AN_HHV2       807.2  6.3e-243   1   1.0   0.0    Alkaline nuclease OS=Human herpesvirus 2 OX=10310 GN=UL12 PE=3 SV=1
+sp|Q2HR95|AN_HHV8P      573.6    4e-172   1   1.7   0.0    Shutoff alkaline exonuclease OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF37 PE=1 SV=1
+sp|Q01013|AN_SHV21      549.5  7.6e-165   1   1.6   0.1    Shutoff alkaline exonuclease OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=37 PE=3 SV=1
+sp|Q9E6Q5|AN_GAHVM      537.1  4.4e-161   1   1.0   0.0    Alkaline nuclease OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV024 PE=3 SV=1
+sp|P28919|AN_EHV1B      474.2    5e-142   1   1.0   0.0    Alkaline nuclease OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=50 PE=3 SV=2
+sp|Q6S6S2|AN_EHV1V      470.6  6.3e-141   1   1.0   0.0    Alkaline nuclease OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=50 PE=3 SV=1
+sp|Q6UDH6|AN_PSHV1      402.7  2.3e-120   1   1.0   0.0    Alkaline nuclease OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL12 PE=3 SV=1
+sp|Q66641|AN_EHV2       400.6    1e-119   1   2.2   0.0    Shutoff alkaline exonuclease OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=37 PE=3 SV=1
+sp|Q4JQS7|AN_VZVO       377.1  1.3e-112   1   1.0   0.0    Alkaline nuclease OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF48 PE=3 SV=2
+sp|P09253|AN_VZVD       377.0  1.4e-112   1   1.0   0.0    Alkaline nuclease OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF48 PE=3 SV=1
+sp|O36386|AN_ALHV1      368.8  4.5e-110   1   2.0   0.2    Shutoff alkaline exonuclease OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=37 PE=3 SV=1
+sp|Q3KSR5|AN_EBVG       354.7    8e-106   1   2.0   0.0    Shutoff alkaline exonuclease OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BGLF5 PE=3 SV=1
+sp|Q1HVE7|AN_EBVA8      353.9  1.5e-105   1   2.0   0.0    Shutoff alkaline exonuclease OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BGLF5 PE=3 SV=1
+sp|P03217|AN_EBVB9      352.0  5.4e-105   1   2.0   0.0    Shutoff alkaline exonuclease OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BGLF5 PE=1 SV=1
+sp|P52448|AN_HHV6Z      188.0   2.5e-55   1   2.5   3.5    Alkaline nuclease OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U70 PE=3 SV=1
+sp|P24447|AN_HHV6U      182.9     9e-54   1   2.5   3.5    Alkaline nuclease OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U70 PE=3 SV=1
+sp|P52346|AN_HHV7J      162.0     2e-47   1   2.6   1.4    Alkaline nuclease OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U70 PE=3 SV=1
+sp|Q18LC9|AN_ELHVK      159.6     1e-46   1   2.1   0.0    Alkaline nuclease OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+sp|F5HF49|AN_HCMVM      142.1     2e-41   2   3.6   0.0    Alkaline nuclease OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL98 PE=3 SV=1
+sp|P16789|AN_HCMVA      141.8   2.6e-41   2   3.6   0.0    Alkaline nuclease OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL98 PE=3 SV=2
+sp|P30660|AN_SUHVN       66.9   1.3e-18   1   1.1   0.0    Alkaline nuclease (Fragment) OS=Suid herpesvirus 1 (strain NIA-3) OX=10349 GN=UL12 PE=3 SV=1
+sp|P03697|EXO_LAMBD      19.9   0.00022   1   1.1   0.0    Exonuclease OS=Escherichia phage lambda OX=10710 GN=exo PE=1 SV=1
+sp|P24731|AN_NPVAC       13.5      0.02   1   1.3   0.0    Alkaline nuclease OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AN PE=1 SV=1
+sp|P24081|AN_NPVOP       12.5      0.04   1   1.5   0.3    Alkaline nuclease OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ALK-EXO PE=3 SV=1
+sp|Q914N3|ORF24_TTVV4    12.3     0.044   1   1.1   0.1    Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/Germany/KAV/2001) OX=687345 GN=ORF2/4 PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04294|AN_HHV11      822.3  1.7e-247     1   0.0      8    619     42    619      3    544     Alkaline nuclease OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL12 PE=1 SV=1
+sp|P06489|AN_HHV2       807.0  7.7e-243     1   0.0     19    613     31    613      3    544     Alkaline nuclease OS=Human herpesvirus 2 OX=10310 GN=UL12 PE=3 SV=1
+sp|Q2HR95|AN_HHV8P      571.6  1.5e-171     1   0.0      1    486      3    486     33    544     Shutoff alkaline exonuclease OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF37 PE=1 SV=1
+sp|Q01013|AN_SHV21      548.0  2.2e-164     1   0.1      1    483      2    483     39    544     Shutoff alkaline exonuclease OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=37 PE=3 SV=1
+sp|Q9E6Q5|AN_GAHVM      536.8  5.6e-161     1   0.0      4    523     53    521     60    528     Alkaline nuclease OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV024 PE=3 SV=1
+sp|P28919|AN_EHV1B      473.9  6.4e-142     1   0.0     16    564     55    557     38    531     Alkaline nuclease OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=50 PE=3 SV=2
+sp|Q6S6S2|AN_EHV1V      470.3    8e-141     1   0.0     16    564     55    557     38    531     Alkaline nuclease OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=50 PE=3 SV=1
+sp|Q6UDH6|AN_PSHV1      402.3  3.1e-120     1   0.0      8    498     23    490     58    530     Alkaline nuclease OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL12 PE=3 SV=1
+sp|Q66641|AN_EHV2       395.0  5.1e-118     1   0.0      1    509      2    509     39    544     Shutoff alkaline exonuclease OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=37 PE=3 SV=1
+sp|Q4JQS7|AN_VZVO       376.9  1.6e-112     1   0.0     32    539    118    512    130    517     Alkaline nuclease OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF48 PE=3 SV=2
+sp|P09253|AN_VZVD       376.7  1.7e-112     1   0.0     32    539    118    511    130    516     Alkaline nuclease OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF48 PE=3 SV=1
+sp|O36386|AN_ALHV1      364.1  1.2e-108     1   0.2      1    485      6    485     43    544     Shutoff alkaline exonuclease OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=37 PE=3 SV=1
+sp|Q3KSR5|AN_EBVG       350.3  1.8e-104     1   0.0      1    470      7    469     55    543     Shutoff alkaline exonuclease OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BGLF5 PE=3 SV=1
+sp|Q1HVE7|AN_EBVA8      349.4  3.3e-104     1   0.0      1    470      7    469     55    543     Shutoff alkaline exonuclease OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BGLF5 PE=3 SV=1
+sp|P03217|AN_EBVB9      347.5  1.2e-103     1   0.0      1    470      7    469     55    543     Shutoff alkaline exonuclease OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BGLF5 PE=1 SV=1
+sp|P52448|AN_HHV6Z      181.8   1.9e-53     1   3.5     19    488    115    488    131    544     Alkaline nuclease OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U70 PE=3 SV=1
+sp|P24447|AN_HHV6U      175.9   1.2e-51     1   3.5    102    488    111    488    127    544     Alkaline nuclease OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U70 PE=3 SV=1
+sp|Q18LC9|AN_ELHVK      155.4   1.9e-45     1   0.0     21    469     42    461     76    529     Alkaline nuclease OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+sp|P52346|AN_HHV7J      154.6   3.3e-45     1   1.4     24    480     72    478     98    542     Alkaline nuclease OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U70 PE=3 SV=1
+sp|F5HF49|AN_HCMVM       84.3   6.9e-24     1   0.0     99    390    123    383    118    393     Alkaline nuclease OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL98 PE=3 SV=1
+sp|P16789|AN_HCMVA       83.9     9e-24     1   0.0     99    389    123    380    118    390     Alkaline nuclease OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL98 PE=3 SV=2
+sp|P30660|AN_SUHVN       66.6   1.6e-18     1   0.0      1    150      4    149     52    195     Alkaline nuclease (Fragment) OS=Suid herpesvirus 1 (strain NIA-3) OX=10349 GN=UL12 PE=3 SV=1
+sp|F5HF49|AN_HCMVM       50.4   1.3e-13     2   0.4    445    579    448    557    409    522     Alkaline nuclease OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL98 PE=3 SV=1
+sp|P16789|AN_HCMVA       50.4   1.3e-13     2   0.4    445    579    448    557    409    522     Alkaline nuclease OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL98 PE=3 SV=2
+sp|P03697|EXO_LAMBD      19.4   0.00032     1   0.0     16    104     22     92    149    205     Exonuclease OS=Escherichia phage lambda OX=10710 GN=exo PE=1 SV=1
+sp|P24731|AN_NPVAC       13.0     0.028     1   0.0      9    138     50     79    134    163     Alkaline nuclease OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AN PE=1 SV=1
+sp|Q914N3|ORF24_TTVV4    11.9      0.06     1   0.1    145    246    150    242    443    539     Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/Germany/KAV/2001) OX=687345 GN=ORF2/4 PE=4 SV=2
+sp|P24081|AN_NPVOP       11.4     0.084     1   0.2     23    103     53     79    137    163     Alkaline nuclease OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ALK-EXO PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001129390@NC_009333.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001129390@NC_009333.txt data/models_hmm/YP_001129390@NC_009333.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:04 2021
+# [ok]

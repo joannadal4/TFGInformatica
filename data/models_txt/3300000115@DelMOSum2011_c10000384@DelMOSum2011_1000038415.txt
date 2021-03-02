@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UNY5|YR727_MIMIV    34.8   1.4e-08   2   2.5  15.7    Uncharacterized protein R727 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R727 PE=1 SV=1
+sp|A1YTU9|NSP3_ROTHD     14.4     0.024   1   1.5   3.3    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/DS-1/1976/G2P1B[4]) OX=10950 PE=3 SV=1
+sp|A3DSK9|NSP3_ROTHL     14.4     0.024   1   1.5   3.3    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Philippines/L26/1987/G12P1B[4]) OX=10953 PE=3 SV=2
+sp|Q82052|NSP3_ROTHS     14.2      0.03   1   1.4   3.2    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/S2/1980/G2P1B[4]) OX=10959 PE=2 SV=1
+sp|P43139|DPOL_ASFL6     13.6     0.045   1   1.9   7.2    DNA polymerase beta OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 GN=DPOL PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UNY5|YR727_MIMIV    26.7   4.3e-06     1   0.6      7    103     19    101     73    154     Uncharacterized protein R727 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R727 PE=1 SV=1
+sp|Q5UNY5|YR727_MIMIV    17.5    0.0028     2   9.4     86    177     90    154     95    161     Uncharacterized protein R727 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R727 PE=1 SV=1
+sp|A1YTU9|NSP3_ROTHD     13.4     0.051     1   3.3    171    296    189    277     64    152     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/DS-1/1976/G2P1B[4]) OX=10950 PE=3 SV=1
+sp|A3DSK9|NSP3_ROTHL     13.4     0.051     1   3.3    171    296    189    277     64    152     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Philippines/L26/1987/G12P1B[4]) OX=10953 PE=3 SV=2
+sp|Q82052|NSP3_ROTHS     13.2      0.06     1   3.2    171    296    189    277     64    152     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/S2/1980/G2P1B[4]) OX=10959 PE=2 SV=1
+sp|P43139|DPOL_ASFL6     11.6      0.18     1   7.2    995   1134   1003   1119     50    164     DNA polymerase beta OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 GN=DPOL PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000115@DelMOSum2011_c10000384@DelMOSum2011_1000038415.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000115@DelMOSum2011_c10000384@DelMOSum2011_1000038415.txt data/models_hmm/3300000115@DelMOSum2011_c10000384@DelMOSum2011_1000038415.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:36 2021
+# [ok]

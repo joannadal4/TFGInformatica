@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03728|PORTL_BPT7    16.0     0.003   3   2.9   1.7    Portal protein OS=Escherichia phage T7 OX=10760 GN=8 PE=1 SV=1
+sp|P20323|PORTL_BPT3    16.0     0.003   2   2.2   0.1    Portal protein OS=Enterobacteria phage T3 OX=10759 GN=8 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20323|PORTL_BPT3    11.8     0.056     1   0.0     11    152     16    147     23    143     Portal protein OS=Enterobacteria phage T3 OX=10759 GN=8 PE=3 SV=1
+sp|P03728|PORTL_BPT7     6.8       1.8     1   0.0      3    151     16    145     24    142     Portal protein OS=Escherichia phage T7 OX=10760 GN=8 PE=1 SV=1
+sp|P03728|PORTL_BPT7     6.1       2.9     3   0.2    432    524    448    518    520    590     Portal protein OS=Escherichia phage T7 OX=10760 GN=8 PE=1 SV=1
+sp|P20323|PORTL_BPT3     1.5        74     2   0.1    323    415    331    396    379    446     Portal protein OS=Enterobacteria phage T3 OX=10759 GN=8 PE=3 SV=1
+sp|P03728|PORTL_BPT7     0.3   1.7e+02     2   0.1    310    415    334    400    382    450     Portal protein OS=Escherichia phage T7 OX=10760 GN=8 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_064741@NC_002519.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_064741@NC_002519.txt data/models_hmm/NP_064741@NC_002519.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:41 2021
+# [ok]

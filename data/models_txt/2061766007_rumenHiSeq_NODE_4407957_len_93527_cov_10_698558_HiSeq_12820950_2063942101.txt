@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27984|VPX_SIVVG     10.3      0.26   1   1.1   0.1    Protein Vpx OS=Simian immunodeficiency virus agm.vervet (isolate AGM3) OX=11730 GN=vpx PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27984|VPX_SIVVG     10.2      0.29     1   0.1     12     82     16     57     93    134     Protein Vpx OS=Simian immunodeficiency virus agm.vervet (isolate AGM3) OX=11730 GN=vpx PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007_rumenHiSeq_NODE_4407957_len_93527_cov_10_698558_HiSeq_12820950_2063942101.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007_rumenHiSeq_NODE_4407957_len_93527_cov_10_698558_HiSeq_12820950_2063942101.txt data/models_hmm/2061766007_rumenHiSeq_NODE_4407957_len_93527_cov_10_698558_HiSeq_12820950_2063942101.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:59 2021
+# [ok]

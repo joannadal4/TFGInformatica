@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q84176|CAPSP_ADEP3    12.1      0.12   1   1.6   0.0    Penton protein OS=Porcine adenovirus A serotype 3 OX=35265 GN=L2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q84176|CAPSP_ADEP3    10.9       0.3     1   0.0    193    221    197    216     15     34     Penton protein OS=Porcine adenovirus A serotype 3 OX=35265 GN=L2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000005@SRS022536_LANL_scaffold_27002@SRS022536_LANL_scaffold_27002_gene_64087.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000005@SRS022536_LANL_scaffold_27002@SRS022536_LANL_scaffold_27002_gene_64087.txt data/models_hmm/7000000005@SRS022536_LANL_scaffold_27002@SRS022536_LANL_scaffold_27002_gene_64087.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:29 2021
+# [ok]

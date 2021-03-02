@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UR31|YR557_MIMIV   280.2   6.9e-84   1   2.0   9.3    Uncharacterized protein R557 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R557 PE=1 SV=1
+sp|Q0PDK7|TMP_BPSPP      12.5       0.1   2   2.5   0.0    Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|O11982|NSP4_ROTME     10.4      0.45   2   1.9   4.2    Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Mouse/Brazil/EHP/1981/G16P[20]) OX=578840 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UR31|YR557_MIMIV   271.8   2.6e-81     1   9.3      1    159      1    159      1    181     Uncharacterized protein R557 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R557 PE=1 SV=1
+sp|O11982|NSP4_ROTME     11.3      0.24     2   1.0     98    174    124    169     56    100     Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Mouse/Brazil/EHP/1981/G16P[20]) OX=578840 PE=2 SV=1
+sp|Q0PDK7|TMP_BPSPP       5.4        15     1   0.0    684    758    694    749     42     97     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|Q0PDK7|TMP_BPSPP       4.2        36     2   0.0    805    893    821    868     59    106     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|O11982|NSP4_ROTME     -0.4     9e+02     1   0.1      2     81     32     76    126    170     Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Mouse/Brazil/EHP/1981/G16P[20]) OX=578840 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003987072@NC_014649.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003987072@NC_014649.txt data/models_hmm/YP_003987072@NC_014649.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:57 2021
+# [ok]

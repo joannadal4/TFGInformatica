@@ -1,0 +1,81 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|E7DNB6|TMP_BPDP1      58.8   1.8e-16   3   4.0  61.9    Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|O21882|TMP_BPLSK      44.4   3.9e-12   4   3.7  48.3    Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|D3WAD2|TMP_BPLP2      44.2   4.7e-12   4   3.6  52.7    Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|Q0PDK7|TMP_BPSPP      43.3   8.7e-12   3   3.2  37.0    Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|O64220|VG26_BPMD2     33.5     8e-09   3   3.6  21.6    Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|O64314|TMP_BPP2       32.1   2.1e-08   5   3.4  16.2    Probable tape measure protein OS=Escherichia phage P2 OX=10679 GN=T PE=3 SV=1
+sp|Q9ZXA5|TMP_BPPHC      25.5   2.1e-06   4   3.5   0.0    Probable tape measure protein OS=Streptomyces phage phiC31 OX=10719 GN=43 PE=3 SV=1
+sp|Q05233|VG26_BPML5     23.1   1.1e-05   5   5.1  22.7    Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q573D5|Y554_AFV2P     15.1    0.0027   1   1.1   1.9    Uncharacterized protein ORF554 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF554 PE=4 SV=1
+sp|Q914H6|Y056_SIFVH     11.8     0.028   2   1.5   5.9    Uncharacterized protein 56 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0056 PE=3 SV=1
+sp|P12516|VPU_HV1BN      11.5     0.033   1   1.0   0.4    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRVA) OX=11693 GN=vpu PE=3 SV=1
+sp|P12518|VPU_HV1RH      11.3     0.039   1   1.0   0.6    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate RF/HAT3) OX=11701 GN=vpu PE=3 SV=2
+sp|P15423|SPIKE_CVH22    10.7     0.058   1   1.3   1.0    Spike glycoprotein OS=Human coronavirus 229E OX=11137 GN=S PE=1 SV=1
+sp|Q5UQW6|YR387_MIMIV    10.5      0.07   2   2.0   5.8    Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|P07946|SPIKE_CVPPU    10.1      0.09   1   1.1   0.7    Spike glycoprotein OS=Porcine transmissible gastroenteritis coronavirus (strain Purdue) OX=11151 GN=S PE=1 SV=2
+sp|P19554|VPU_HV1S1       9.1      0.18   1   1.0   1.2    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate SF162) OX=11691 GN=vpu PE=1 SV=1
+sp|Q573E1|Y061_AFV2P      8.9      0.21   1   1.0   0.8    Uncharacterized protein ORF61 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF61 PE=4 SV=1
+sp|P0C745|HBZ_HTL1C       4.6       4.1   1   1.0  13.5    HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (isolate Caribbea HS-35 subtype A) OX=11927 GN=HBZ PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q0PDK7|TMP_BPSPP      43.3   8.7e-12     3  37.0    512   1003    519    967    995   1457     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|E7DNB6|TMP_BPDP1      38.0   3.5e-10     3  18.4    709   1063    720   1045   1149   1457     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|O64220|VG26_BPMD2     33.5     8e-09     3  21.6    198    647    230    630    955   1334     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|O64314|TMP_BPP2       32.1   2.1e-08     4  16.2    470    677    480    663   1001   1190     Probable tape measure protein OS=Escherichia phage P2 OX=10679 GN=T PE=3 SV=1
+sp|D3WAD2|TMP_BPLP2      31.5   3.1e-08     4   8.7    739    958    742    928   1186   1362     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|O21882|TMP_BPLSK      30.0   8.8e-08     4   7.8    738    961    742    928   1186   1362     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|O21882|TMP_BPLSK      29.5   1.3e-07     3  32.6    335    769    352    767    909   1343     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|D3WAD2|TMP_BPLP2      27.7   4.3e-07     3  36.0    330    788    352    786    909   1362     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|Q9ZXA5|TMP_BPPHC      25.5   2.1e-06     3   0.0    502    646    504    633   1281   1396     Probable tape measure protein OS=Streptomyces phage phiC31 OX=10719 GN=43 PE=3 SV=1
+sp|E7DNB6|TMP_BPDP1      23.9   6.2e-06     2  31.4    297    699    328    692   1028   1394     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|Q05233|VG26_BPML5     23.1   1.1e-05     4  22.7    278    670    306    633   1026   1343     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q914H6|Y056_SIFVH     15.0    0.0031     1   1.8      9    329     29    188   1178   1349     Uncharacterized protein 56 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0056 PE=3 SV=1
+sp|Q573D5|Y554_AFV2P     14.7    0.0036     1   1.9     22    272     42    240   1149   1345     Uncharacterized protein ORF554 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF554 PE=4 SV=1
+sp|Q05233|VG26_BPML5     13.9    0.0066     3   1.0    172    336    175    329   1166   1314     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|P12516|VPU_HV1BN      11.3      0.04     1   0.4      4     52      6     50   1117   1160     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRVA) OX=11693 GN=vpu PE=3 SV=1
+sp|P12518|VPU_HV1RH      11.0     0.049     1   0.6      4     52      6     50   1117   1160     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate RF/HAT3) OX=11701 GN=vpu PE=3 SV=2
+sp|P15423|SPIKE_CVH22     9.9       0.1     1   1.0    734    904    753    893   1221   1368     Spike glycoprotein OS=Human coronavirus 229E OX=11137 GN=S PE=1 SV=1
+sp|P07946|SPIKE_CVPPU     9.6      0.13     1   0.7   1035   1165   1063   1145    896    974     Spike glycoprotein OS=Porcine transmissible gastroenteritis coronavirus (strain Purdue) OX=11151 GN=S PE=1 SV=2
+sp|Q5UQW6|YR387_MIMIV     9.2      0.17     2   0.3    130    262    158    242   1286   1363     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q573E1|Y061_AFV2P      8.9      0.21     1   0.8      3     61     10     60   1193   1245     Uncharacterized protein ORF61 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF61 PE=4 SV=1
+sp|P19554|VPU_HV1S1       8.8      0.22     1   1.2      4     52      6     50   1117   1160     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate SF162) OX=11691 GN=vpu PE=1 SV=1
+sp|Q05233|VG26_BPML5      8.4       0.3     1   0.7      4     89      7     85      6     81     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|O64220|VG26_BPMD2      6.6      0.99     1   0.2      4     95      7     82      6     78     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|O64314|TMP_BPP2        6.3       1.2     5   0.0    611    736    618    722   1217   1317     Probable tape measure protein OS=Escherichia phage P2 OX=10679 GN=T PE=3 SV=1
+sp|P0C745|HBZ_HTL1C       4.6       4.2     1  13.5     34    205     89    196    234    341     HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (isolate Caribbea HS-35 subtype A) OX=11927 GN=HBZ PE=1 SV=1
+sp|Q5UQW6|YR387_MIMIV     3.6       8.4     1   1.7     22    142     35    132   1287   1375     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q0PDK7|TMP_BPSPP       3.0        13     1  12.2      8    424     44    397   1043   1360     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|O21882|TMP_BPLSK       2.4        19     1   0.5     16    160     33    149    253    366     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|O21882|TMP_BPLSK       0.8        59     2   7.0    146    463    159    438    862   1135     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|D3WAD2|TMP_BPLP2       0.5        71     2   8.2    147    471    160    464    863   1161     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|D3WAD2|TMP_BPLP2       0.5        73     1   0.2     29    160     34    150    254    367     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|E7DNB6|TMP_BPDP1       0.4        74     1   0.1     77    278     98    249    949   1072     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|O64314|TMP_BPP2       -0.0     1e+02     1  11.8      6    187     16    171    352    514     Probable tape measure protein OS=Escherichia phage P2 OX=10679 GN=T PE=3 SV=1
+sp|Q05233|VG26_BPML5     -0.3   1.2e+02     5   1.6    665    759    695    752    450    508     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q9ZXA5|TMP_BPPHC      -0.4   1.4e+02     2   0.4    238    396    269    372    876    967     Probable tape measure protein OS=Streptomyces phage phiC31 OX=10719 GN=43 PE=3 SV=1
+sp|Q9ZXA5|TMP_BPPHC      -0.7   1.6e+02     1   0.0      1     56      4     36     67     99     Probable tape measure protein OS=Streptomyces phage phiC31 OX=10719 GN=43 PE=3 SV=1
+sp|Q0PDK7|TMP_BPSPP      -1.1   2.1e+02     2   4.4    387    520    401    491   1027   1115     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|Q914H6|Y056_SIFVH     -3.3     1e+03     2   0.1    477    538    480    533   1189   1241     Uncharacterized protein 56 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0056 PE=3 SV=1
+sp|Q05233|VG26_BPML5     -3.5   1.1e+03     2   8.2    108    193    133    185   1068   1119     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|O64314|TMP_BPP2       -4.7   2.6e+03     2   1.6    213    330    215    276   1048   1113     Probable tape measure protein OS=Escherichia phage P2 OX=10679 GN=T PE=3 SV=1
+sp|O64314|TMP_BPP2       -4.8   2.8e+03     3   3.0    248    373    296    363    894    961     Probable tape measure protein OS=Escherichia phage P2 OX=10679 GN=T PE=3 SV=1
+sp|O64220|VG26_BPMD2     -5.7   5.1e+03     2   9.6    121    226    133    191   1076   1132     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000505@SRS016039_WUGC_scaffold_3469@SRS016039_WUGC_scaffold_3469_gene_3513.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000505@SRS016039_WUGC_scaffold_3469@SRS016039_WUGC_scaffold_3469_gene_3513.txt data/models_hmm/7000000505@SRS016039_WUGC_scaffold_3469@SRS016039_WUGC_scaffold_3469_gene_3513.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:51 2021
+# [ok]

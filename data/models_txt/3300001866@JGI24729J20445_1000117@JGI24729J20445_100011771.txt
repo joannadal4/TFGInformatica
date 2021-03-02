@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPS4|YL781_MIMIV    10.2      0.47   2   2.1   6.3    Uncharacterized protein L781 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L781 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPS4|YL781_MIMIV    11.7      0.16     1   2.0      1     52      3     47     20     65     Uncharacterized protein L781 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L781 PE=3 SV=1
+sp|Q5UPS4|YL781_MIMIV     0.3     6e+02     2   0.1     80    110     88    105     29     46     Uncharacterized protein L781 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L781 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001866@JGI24729J20445_1000117@JGI24729J20445_100011771.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001866@JGI24729J20445_1000117@JGI24729J20445_100011771.txt data/models_hmm/3300001866@JGI24729J20445_1000117@JGI24729J20445_100011771.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:29 2021
+# [ok]

@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21089|B14_VACCC     16.1    0.0044   2   2.0   0.1    Protein B14 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B15R PE=3 SV=1
+sp|P24772|B14_VACCW     15.8    0.0054   2   2.0   0.0    Protein B14 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR196 PE=1 SV=1
+sp|P0DSV9|B14_VAR67     13.6     0.026   2   2.0   0.0    Protein B14 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=B13R PE=3 SV=1
+sp|P0DSW0|B14_VARV      13.6     0.026   2   2.0   0.0    Protein B14 OS=Variola virus OX=10255 GN=B13R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DSV9|B14_VAR67      9.6      0.43     1   0.0      3     67      9     54    196    243     Protein B14 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=B13R PE=3 SV=1
+sp|P0DSW0|B14_VARV       9.6      0.43     1   0.0      3     67      9     54    196    243     Protein B14 OS=Variola virus OX=10255 GN=B13R PE=3 SV=1
+sp|P21089|B14_VACCC      9.6      0.43     1   0.0      3     61      9     53    196    242     Protein B14 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B15R PE=3 SV=1
+sp|P24772|B14_VACCW      9.2      0.54     1   0.0      3     61      9     53    196    242     Protein B14 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR196 PE=1 SV=1
+sp|P24772|B14_VACCW      4.8        12     2   0.1     55    115     62    104    174    216     Protein B14 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR196 PE=1 SV=1
+sp|P21089|B14_VACCC      4.8        12     2   0.1     55    115     62    104    174    216     Protein B14 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B15R PE=3 SV=1
+sp|P0DSV9|B14_VAR67      2.4        68     2   0.1     55    114     64    104    176    216     Protein B14 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=B13R PE=3 SV=1
+sp|P0DSW0|B14_VARV       2.4        68     2   0.1     55    114     64    104    176    216     Protein B14 OS=Variola virus OX=10255 GN=B13R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008242252@NC_021806.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008242252@NC_021806.txt data/models_hmm/YP_008242252@NC_021806.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:34 2021
+# [ok]

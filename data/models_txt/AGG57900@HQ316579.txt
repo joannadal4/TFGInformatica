@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P69178|STXB_BPH30    14.3     0.029   1   1.3   0.0    Shiga-like toxin 1 subunit B OS=Bacteriophage H30 OX=12371 GN=stxB PE=1 SV=1
+sp|P69179|STXB_BPH19    14.3     0.029   1   1.3   0.0    Shiga-like toxin 1 subunit B OS=Enterobacteria phage H19B OX=69932 GN=stxB PE=1 SV=1
+sp|Q779K3|STXB_BP788    14.3     0.029   1   1.3   0.0    Shiga toxin subunit B OS=Shigella phage 7888 OX=138946 GN=stxB PE=3 SV=1
+sp|Q00716|HEMA_RACVI    11.0      0.32   3   3.7   6.7    Protein A56 OS=Raccoon poxvirus OX=10256 GN=HA PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P69178|STXB_BPH30    13.8     0.041     1   0.0      1     51      4     39      7     42     Shiga-like toxin 1 subunit B OS=Bacteriophage H30 OX=12371 GN=stxB PE=1 SV=1
+sp|P69179|STXB_BPH19    13.8     0.041     1   0.0      1     51      4     39      7     42     Shiga-like toxin 1 subunit B OS=Enterobacteria phage H19B OX=69932 GN=stxB PE=1 SV=1
+sp|Q779K3|STXB_BP788    13.8     0.041     1   0.0      1     51      4     39      7     42     Shiga toxin subunit B OS=Shigella phage 7888 OX=138946 GN=stxB PE=3 SV=1
+sp|Q00716|HEMA_RACVI     8.1       2.6     3   1.1    173    248    179    241     13     74     Protein A56 OS=Raccoon poxvirus OX=10256 GN=HA PE=3 SV=1
+sp|Q00716|HEMA_RACVI     2.4   1.5e+02     2   0.1     85    141    104    126      9     31     Protein A56 OS=Raccoon poxvirus OX=10256 GN=HA PE=3 SV=1
+sp|Q00716|HEMA_RACVI     1.0   4.1e+02     1   0.0      1     31      1     18      1     19     Protein A56 OS=Raccoon poxvirus OX=10256 GN=HA PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGG57900@HQ316579.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGG57900@HQ316579.txt data/models_hmm/AGG57900@HQ316579.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:35 2021
+# [ok]

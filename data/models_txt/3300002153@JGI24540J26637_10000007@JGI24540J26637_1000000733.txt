@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UNT1|YL673_MIMIV    14.7     0.013   1   1.2   0.7    Putative serine/threonine-protein kinase L673 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L673 PE=3 SV=1
+sp|P08073|VMT9_MYXVL     10.0      0.34   1   1.3   2.6    Kelch repeat protein M-T9 OS=Myxoma virus (strain Lausanne) OX=31530 GN=m009L PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UNT1|YL673_MIMIV    14.3     0.017     1   0.7    257    505    278    391     90    194     Putative serine/threonine-protein kinase L673 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L673 PE=3 SV=1
+sp|P08073|VMT9_MYXVL      9.3      0.59     1   2.6    407    506    421    499     39    114     Kelch repeat protein M-T9 OS=Myxoma virus (strain Lausanne) OX=31530 GN=m009L PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002153@JGI24540J26637_10000007@JGI24540J26637_1000000733.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002153@JGI24540J26637_10000007@JGI24540J26637_1000000733.txt data/models_hmm/3300002153@JGI24540J26637_10000007@JGI24540J26637_1000000733.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:13 2021
+# [ok]

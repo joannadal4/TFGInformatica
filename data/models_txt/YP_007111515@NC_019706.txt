@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03735|GT_LAMBD     211.0   3.1e-63   3   2.6   3.7    Tail assembly protein GT OS=Escherichia phage lambda OX=10710 GN=T PE=1 SV=2
+sp|O64329|GT_BPN15     179.3   2.1e-53   1   1.4   0.0    Tail assembly protein GT OS=Escherichia phage N15 OX=40631 GN=gene 15 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03735|GT_LAMBD     195.0   2.9e-58     2   0.3    136    249    136    248      1    113     Tail assembly protein GT OS=Escherichia phage lambda OX=10710 GN=T PE=1 SV=2
+sp|O64329|GT_BPN15     178.6   3.7e-53     1   0.0    136    250    137    249      2    111     Tail assembly protein GT OS=Escherichia phage N15 OX=40631 GN=gene 15 PE=3 SV=2
+sp|P03735|GT_LAMBD      17.0    0.0051     3   0.1    248    279    255    279     85    107     Tail assembly protein GT OS=Escherichia phage lambda OX=10710 GN=T PE=1 SV=2
+sp|P03735|GT_LAMBD      -3.2   9.5e+03     1   0.0     10     56     26     45     73     92     Tail assembly protein GT OS=Escherichia phage lambda OX=10710 GN=T PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007111515@NC_019706.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007111515@NC_019706.txt data/models_hmm/YP_007111515@NC_019706.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:30 2021
+# [ok]

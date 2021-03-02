@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39259|Y05D_BPT4     13.4     0.041   1   1.1   2.0    Uncharacterized 20.7 kDa protein in nrdC-mobD intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y05D PE=4 SV=2
+sp|P03551|VAP_CAMVS     12.0      0.11   1   1.4   0.0    Virion-associated protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF III PE=1 SV=1
+sp|P03553|VAP_CAMVD     11.3      0.18   1   1.4   0.0    Virion-associated protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF III PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39259|Y05D_BPT4     13.1      0.05     1   2.0     40    174     65    171     92    195     Uncharacterized 20.7 kDa protein in nrdC-mobD intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y05D PE=4 SV=2
+sp|P03551|VAP_CAMVS     11.2      0.18     1   0.0     34    105     61     98    185    222     Virion-associated protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF III PE=1 SV=1
+sp|P03553|VAP_CAMVD     10.5      0.31     1   0.0     34    105     61     98    185    222     Virion-associated protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF III PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGG54198@HQ316583.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGG54198@HQ316583.txt data/models_hmm/AGG54198@HQ316583.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:32 2021
+# [ok]

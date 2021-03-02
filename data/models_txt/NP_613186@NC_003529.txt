@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q06694|AC81_NPVAC   336.8  4.9e-101   1   1.0  10.3    Protein AC81 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC81 PE=3 SV=1
+sp|O10334|Y081_NPVOP   320.1     6e-96   1   1.0   2.6    Uncharacterized 24.9 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF84 PE=4 SV=1
+sp|Q91DM1|E_EAVBU        6.4       3.5   1   1.0   4.5    Envelope small membrane protein OS=Equine arteritis virus (strain Bucyrus) OX=299386 GN=GP2a PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q06694|AC81_NPVAC   336.7  5.2e-101     1  10.3      1    233     17    232     35    246     Protein AC81 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC81 PE=3 SV=1
+sp|O10334|Y081_NPVOP   319.9     7e-96     1   2.6      3    218     11    217     40    245     Uncharacterized 24.9 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF84 PE=4 SV=1
+sp|Q91DM1|E_EAVBU        6.2       3.9     1   4.5      7     60     10     48    184    222     Envelope small membrane protein OS=Equine arteritis virus (strain Bucyrus) OX=299386 GN=GP2a PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_613186@NC_003529.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_613186@NC_003529.txt data/models_hmm/NP_613186@NC_003529.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:12 2021
+# [ok]

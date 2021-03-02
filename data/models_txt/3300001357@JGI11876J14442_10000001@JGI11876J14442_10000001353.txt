@@ -1,0 +1,38 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CA81|VF177_ASFM2    12.5      0.11   1   1.4   2.5    Membrane protein I177L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-152 PE=2 SV=1
+sp|P27942|VF177_ASFB7    11.8      0.18   2   2.0   5.0    Membrane protein I177L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-145 PE=2 SV=1
+sp|P0CA82|VF177_ASFP4    11.6      0.21   2   2.1   5.6    Membrane protein I177L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-157 PE=2 SV=1
+sp|P0CA83|VF177_ASFWA     9.3       1.1   2   2.1   5.3    Membrane protein I177L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-155 PE=2 SV=1
+sp|P29791|FUS_BRSVA       6.7       7.2   2   2.6   8.9    Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain A51908) OX=11247 GN=F PE=1 SV=1
+sp|P23728|FUS_BRSVR       6.3       9.2   2   2.3   9.1    Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain Rb94) OX=11249 GN=F PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CA82|VF177_ASFP4    12.8      0.09     1   1.7      1     65      4     37      9     40     Membrane protein I177L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-157 PE=2 SV=1
+sp|P27942|VF177_ASFB7    12.8     0.092     1   1.5      1     64      4     37      9     40     Membrane protein I177L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-145 PE=2 SV=1
+sp|P0CA81|VF177_ASFM2    11.8      0.18     1   2.5      1     65      4     37      9     40     Membrane protein I177L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-152 PE=2 SV=1
+sp|P0CA83|VF177_ASFWA     9.7      0.86     1   1.9      1     62      4     25      7     30     Membrane protein I177L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-155 PE=2 SV=1
+sp|P23728|FUS_BRSVR       7.2       5.1     2   5.5    525    558    527    552      3     28     Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain Rb94) OX=11249 GN=F PE=2 SV=1
+sp|P29791|FUS_BRSVA       4.0        50     2   6.2    523    557    525    550      3     28     Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain A51908) OX=11247 GN=F PE=1 SV=1
+sp|P29791|FUS_BRSVA       2.4   1.6e+02     1   0.0     51     81     57     77     64     84     Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain A51908) OX=11247 GN=F PE=1 SV=1
+sp|P0CA83|VF177_ASFWA     0.8   5.1e+02     2   0.1    147    177    152    177     15     40     Membrane protein I177L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-155 PE=2 SV=1
+sp|P0CA82|VF177_ASFP4     0.3   7.1e+02     2   0.1    147    177    154    177     17     40     Membrane protein I177L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-157 PE=2 SV=1
+sp|P27942|VF177_ASFB7     0.1   8.2e+02     2   0.1    147    177    155    177     18     40     Membrane protein I177L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-145 PE=2 SV=1
+sp|P23728|FUS_BRSVR      -0.8   1.5e+03     1   0.1     53     81     57     76     64     83     Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain Rb94) OX=11249 GN=F PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001357@JGI11876J14442_10000001@JGI11876J14442_10000001353.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001357@JGI11876J14442_10000001@JGI11876J14442_10000001353.txt data/models_hmm/3300001357@JGI11876J14442_10000001@JGI11876J14442_10000001353.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:07 2021
+# [ok]

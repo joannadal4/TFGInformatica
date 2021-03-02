@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UR53|YL583_MIMIV    14.2     0.036   1   1.2   1.6    Uncharacterized protein L583 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L583 PE=4 SV=1
+sp|Q00123|VG24_ICHVA     13.4     0.063   1   1.7   0.8    Uncharacterized protein ORF24 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF24 PE=4 SV=1
+sp|P23801|PE38_NPVAC      7.9       3.4   2   2.4   9.5    Major immediate early protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PE38 PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UR53|YL583_MIMIV    13.9     0.045     1   1.6     19     97     30     88     17     71     Uncharacterized protein L583 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L583 PE=4 SV=1
+sp|Q00123|VG24_ICHVA     12.1      0.16     1   0.8      7     93     15     78     10     69     Uncharacterized protein ORF24 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF24 PE=4 SV=1
+sp|P23801|PE38_NPVAC     12.0      0.18     2   0.8    203    261    210    246     11     47     Major immediate early protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PE38 PE=4 SV=2
+sp|P23801|PE38_NPVAC     -0.3   1.2e+03     1   2.2     19    100     37     76     24     66     Major immediate early protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PE38 PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_958552@NC_005354.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_958552@NC_005354.txt data/models_hmm/NP_958552@NC_005354.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:49 2021
+# [ok]

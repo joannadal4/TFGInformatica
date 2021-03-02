@@ -1,0 +1,43 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P12515|VPU_HV1Z2      11.1     0.035   1   1.0   0.2    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate Z2/CDC-Z34) OX=11683 GN=vpu PE=3 SV=1
+sp|P18806|VPU_HV1ND       9.9     0.083   1   1.0   0.5    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=vpu PE=3 SV=1
+sp|P05949|VPU_HV1A2       9.7     0.093   1   1.0   0.9    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate ARV2/SF2) OX=11685 GN=vpu PE=3 SV=2
+sp|P08805|VPU_HV1Z3       9.4      0.12   1   1.0   0.9    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype U (isolate Z3) OX=11680 GN=vpu PE=3 SV=2
+sp|P05925|VPU_HV1EL       9.1      0.14   1   1.0   0.1    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate ELI) OX=11689 GN=vpu PE=3 SV=1
+sp|P08803|VPU_HV1C4       8.7      0.19   1   1.0   0.5    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate CDC-451) OX=11687 GN=vpu PE=3 SV=2
+sp|Q70625|VPU_HV1LW       8.0      0.31   1   1.0   1.4    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate LW123) OX=82834 GN=vpu PE=1 SV=1
+sp|P69699|VPU_HV1B1       7.8      0.36   1   1.0   1.9    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=vpu PE=1 SV=1
+sp|P69700|VPU_HV1H3       7.8      0.36   1   1.0   1.9    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB3) OX=11707 GN=vpu PE=3 SV=1
+sp|P05919|VPU_HV1H2       7.4      0.47   1   1.0   2.0    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=vpu PE=1 SV=1
+sp|P05923|VPU_HV1BR       7.2      0.55   1   1.0   1.4    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRU/LAI) OX=11686 GN=vpu PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P12515|VPU_HV1Z2      11.1     0.036     1   0.2      1     69      4     53   1781   1830     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate Z2/CDC-Z34) OX=11683 GN=vpu PE=3 SV=1
+sp|P18806|VPU_HV1ND       9.8     0.088     1   0.5      2     69      6     54   1783   1831     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=vpu PE=3 SV=1
+sp|P05949|VPU_HV1A2       9.6     0.098     1   0.9      1     70      5     63   1782   1834     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate ARV2/SF2) OX=11685 GN=vpu PE=3 SV=2
+sp|P08805|VPU_HV1Z3       9.3      0.12     1   0.9      1     71      5     55   1782   1832     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype U (isolate Z3) OX=11680 GN=vpu PE=3 SV=2
+sp|P05925|VPU_HV1EL       9.0      0.15     1   0.1      2     69      6     53   1783   1830     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate ELI) OX=11689 GN=vpu PE=3 SV=1
+sp|P08803|VPU_HV1C4       8.7      0.19     1   0.5      1     70      5     56   1782   1833     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate CDC-451) OX=11687 GN=vpu PE=3 SV=2
+sp|Q70625|VPU_HV1LW       7.9      0.33     1   1.4      1     66      5     61   1783   1839     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate LW123) OX=82834 GN=vpu PE=1 SV=1
+sp|P69699|VPU_HV1B1       7.7      0.38     1   1.9      1     66      5     62   1783   1840     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=vpu PE=1 SV=1
+sp|P69700|VPU_HV1H3       7.7      0.38     1   1.9      1     66      5     62   1783   1840     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB3) OX=11707 GN=vpu PE=3 SV=1
+sp|P05919|VPU_HV1H2       7.1      0.55     1   2.0      3     66      6     62   1784   1840     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=vpu PE=1 SV=1
+sp|P05923|VPU_HV1BR       7.1      0.57     1   1.4      1     66      5     62   1783   1840     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRU/LAI) OX=11686 GN=vpu PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_005296351@NC_016924.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_005296351@NC_016924.txt data/models_hmm/YP_005296351@NC_016924.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:06 2021
+# [ok]

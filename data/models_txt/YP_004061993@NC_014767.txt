@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O55756|VF157_IIV6    24.4   1.9e-05   2   1.8  11.6    Putative RING finger protein 157L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-157L PE=3 SV=1
+sp|Q91FJ2|332L_IIV6     19.9   0.00048   1   1.3   8.2    Uncharacterized RING finger protein 332L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-332L PE=3 SV=1
+sp|O55735|121R_IIV6     16.9    0.0039   1   1.3   6.4    Putative RING finger protein 121R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-121R PE=4 SV=1
+sp|Q6R7I2|IAP1_OSHVF    15.7    0.0098   1   1.8   6.0    Putative apoptosis inhibitor ORF42 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF42 PE=4 SV=1
+sp|P41437|IAP3_NPVOP    15.2     0.014   1   1.5   4.2    E3 ubiquitin-protein ligase IAP-3 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=IAP3 PE=3 SV=1
+sp|Q9YWK4|CATV_NPVBS    12.0      0.14   3   2.8   2.2    Viral cathepsin OS=Buzura suppressaria nuclear polyhedrosis virus OX=74320 GN=VCATH PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O55756|VF157_IIV6    24.2   2.2e-05     2   9.9     96    152    106    146     56     95     Putative RING finger protein 157L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-157L PE=3 SV=1
+sp|Q91FJ2|332L_IIV6     19.0   0.00088     1   8.2    173    230    181    226     57    101     Uncharacterized RING finger protein 332L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-332L PE=3 SV=1
+sp|O55735|121R_IIV6     16.3    0.0062     1   6.4     33     85     35     78     51     95     Putative RING finger protein 121R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-121R PE=4 SV=1
+sp|Q6R7I2|IAP1_OSHVF    15.3     0.013     1   4.7    301    362    308    358     54    103     Putative apoptosis inhibitor ORF42 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF42 PE=4 SV=1
+sp|P41437|IAP3_NPVOP    14.0     0.032     1   4.2    210    265    215    256     55     95     E3 ubiquitin-protein ligase IAP-3 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=IAP3 PE=3 SV=1
+sp|Q9YWK4|CATV_NPVBS     6.5       6.9     3   0.0    243    315    264    295     21     51     Viral cathepsin OS=Buzura suppressaria nuclear polyhedrosis virus OX=74320 GN=VCATH PE=3 SV=1
+sp|Q9YWK4|CATV_NPVBS     4.2        36     1   0.1    102    149    122    141     46     65     Viral cathepsin OS=Buzura suppressaria nuclear polyhedrosis virus OX=74320 GN=VCATH PE=3 SV=1
+sp|O55756|VF157_IIV6    -0.7   1.2e+03     1   0.0     11     91     50     66     42     58     Putative RING finger protein 157L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-157L PE=3 SV=1
+sp|Q9YWK4|CATV_NPVBS    -2.1   3.2e+03     2   0.1    207    236    211    232     61     82     Viral cathepsin OS=Buzura suppressaria nuclear polyhedrosis virus OX=74320 GN=VCATH PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004061993@NC_014767.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004061993@NC_014767.txt data/models_hmm/YP_004061993@NC_014767.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:04 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P15138|E321_ADE07    12.9     0.082   2   2.3   3.6    Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 7 OX=10519 PE=3 SV=1
+sp|P11322|E321_ADE03    10.5      0.44   2   2.3   4.3    Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P11322|E321_ADE03     9.6      0.87     1   0.2      1     35      4     31     10     39     Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+sp|P15138|E321_ADE07     9.3       1.1     1   0.1      1     35      4     31     10     39     Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 7 OX=10519 PE=3 SV=1
+sp|P15138|E321_ADE07     4.0        48     2   0.7    148    173    153    167     17     31     Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 7 OX=10519 PE=3 SV=1
+sp|P11322|E321_ADE03     2.0     2e+02     2   0.7    148    173    153    167     17     31     Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006589966@NC_018452.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006589966@NC_018452.txt data/models_hmm/YP_006589966@NC_018452.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:21 2021
+# [ok]

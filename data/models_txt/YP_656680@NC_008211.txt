@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q00167|VG78_ICHVA   487.6  2.4e-146   1   1.1   6.3    Putative zinc-binding protein ORF78 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF78 PE=4 SV=1
+sp|Q6R7D3|Y096_OSHVF    15.5    0.0062   2   2.1   4.0    Putative RING finger protein ORF96 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF96 PE=4 SV=1
+sp|P41449|Y044_NPVAC    13.9     0.019   1   1.1   8.0    Uncharacterized 15.0 kDa protein in GTA-P79 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q00167|VG78_ICHVA   487.3  2.8e-146     1   6.3      1    400      1    391      1    375     Putative zinc-binding protein ORF78 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF78 PE=4 SV=1
+sp|Q6R7D3|Y096_OSHVF    15.5    0.0062     2   4.0    132    210    148    201    115    157     Putative RING finger protein ORF96 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF96 PE=4 SV=1
+sp|P41449|Y044_NPVAC    13.7     0.022     1   8.0     51    130     76    120    115    159     Uncharacterized 15.0 kDa protein in GTA-P79 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|Q6R7D3|Y096_OSHVF     5.5         7     1  10.6      2    127      8    109     76    169     Putative RING finger protein ORF96 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF96 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_656680@NC_008211.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_656680@NC_008211.txt data/models_hmm/YP_656680@NC_008211.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:45 2021
+# [ok]

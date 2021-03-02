@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P08383|BM2_INBSI     13.5     0.051   1   1.3   0.0    Matrix protein 2 OS=Influenza B virus (strain B/Singapore/222/1979) OX=107417 GN=M PE=3 SV=2
+sp|P13881|BM2_INBAC     13.5     0.051   1   1.3   0.0    Matrix protein 2 OS=Influenza B virus (strain B/Ann Arbor/1/1966 [cold-adapted]) OX=11522 GN=M PE=3 SV=2
+sp|P13882|BM2_INBAD     13.5     0.051   1   1.3   0.0    Matrix protein 2 OS=Influenza B virus (strain B/Ann Arbor/1/1966 [wild-type]) OX=11523 GN=M PE=3 SV=2
+sp|Q80DN6|BM2_INBMP     12.7     0.097   1   1.3   0.0    Matrix protein 2 OS=Influenza B virus (strain B/Memphis/12/1997) OX=98832 GN=M PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P08383|BM2_INBSI     13.0     0.074     1   0.0     39     96     53     93     19     57     Matrix protein 2 OS=Influenza B virus (strain B/Singapore/222/1979) OX=107417 GN=M PE=3 SV=2
+sp|P13881|BM2_INBAC     13.0     0.074     1   0.0     39     96     53     93     19     57     Matrix protein 2 OS=Influenza B virus (strain B/Ann Arbor/1/1966 [cold-adapted]) OX=11522 GN=M PE=3 SV=2
+sp|P13882|BM2_INBAD     13.0     0.074     1   0.0     39     96     53     93     19     57     Matrix protein 2 OS=Influenza B virus (strain B/Ann Arbor/1/1966 [wild-type]) OX=11523 GN=M PE=3 SV=2
+sp|Q80DN6|BM2_INBMP     12.1      0.15     1   0.0     44     96     53     93     19     57     Matrix protein 2 OS=Influenza B virus (strain B/Memphis/12/1997) OX=98832 GN=M PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006560736@NC_018277.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006560736@NC_018277.txt data/models_hmm/YP_006560736@NC_018277.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:19 2021
+# [ok]

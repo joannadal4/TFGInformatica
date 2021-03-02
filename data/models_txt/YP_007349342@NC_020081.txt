@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP22|YR261_MIMIV    17.5    0.0031   2   2.4   0.2    Uncharacterized protein R261 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R261 PE=4 SV=1
+sp|Q81966|VE1_HPV59      15.2     0.016   2   2.5   0.1    Replication protein E1 OS=Human papillomavirus type 59 OX=37115 GN=E1 PE=3 SV=1
+sp|P27220|VE1_HPV35      14.8     0.022   3   3.1   0.1    Replication protein E1 OS=Human papillomavirus type 35 OX=10587 GN=E1 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q81966|VE1_HPV59       9.7      0.86     2   0.0    172    239    177    236      8     73     Replication protein E1 OS=Human papillomavirus type 59 OX=37115 GN=E1 PE=3 SV=1
+sp|Q5UP22|YR261_MIMIV     9.3       1.1     2   0.0     78    130     87    124     37     79     Uncharacterized protein R261 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R261 PE=4 SV=1
+sp|P27220|VE1_HPV35       7.1       5.4     1   0.0     55    115     60    108     12     60     Replication protein E1 OS=Human papillomavirus type 35 OX=10587 GN=E1 PE=3 SV=2
+sp|Q5UP22|YR261_MIMIV     6.0        12     1   0.1     13     44     24     43     69     88     Uncharacterized protein R261 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R261 PE=4 SV=1
+sp|P27220|VE1_HPV35       3.1     1e+02     2   0.0    176    225    186    218     27     59     Replication protein E1 OS=Human papillomavirus type 35 OX=10587 GN=E1 PE=3 SV=2
+sp|Q81966|VE1_HPV59       2.7   1.3e+02     1   0.0     54    116     63     99     16     52     Replication protein E1 OS=Human papillomavirus type 59 OX=37115 GN=E1 PE=3 SV=1
+sp|P27220|VE1_HPV35      -0.1     1e+03     3   0.1    306    359    310    347     42     76     Replication protein E1 OS=Human papillomavirus type 35 OX=10587 GN=E1 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007349342@NC_020081.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007349342@NC_020081.txt data/models_hmm/YP_007349342@NC_020081.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:43 2021
+# [ok]

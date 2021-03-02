@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21294|POLG_PVYCH     14.1     0.029   1   1.4   0.0    Genome polyprotein (Fragment) OS=Potato virus Y (strain Chinese) OX=12218 PE=3 SV=1
+sp|P22170|TGB2_FXMV      12.4     0.096   1   1.3   0.0    Movement protein TGB2 OS=Foxtail mosaic virus OX=12179 GN=ORF3 PE=3 SV=2
+sp|Q86198|NSP1A_ROTGA    12.2      0.11   1   1.1   0.0    Non-structural protein 1, peptide 1 OS=Rotavirus B (isolate RVB/Human/China/ADRV/1982) OX=10942 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21294|POLG_PVYCH     13.3     0.053     1   0.0     38    130     43    108     49    108     Genome polyprotein (Fragment) OS=Potato virus Y (strain Chinese) OX=12218 PE=3 SV=1
+sp|Q86198|NSP1A_ROTGA    12.2      0.11     1   0.0      6    104     36     63    109    136     Non-structural protein 1, peptide 1 OS=Rotavirus B (isolate RVB/Human/China/ADRV/1982) OX=10942 PE=3 SV=1
+sp|P22170|TGB2_FXMV      11.8      0.15     1   0.0      3     62      9     45     94    130     Movement protein TGB2 OS=Foxtail mosaic virus OX=12179 GN=ORF3 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008319019@NC_021858.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008319019@NC_021858.txt data/models_hmm/YP_008319019@NC_021858.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:43 2021
+# [ok]

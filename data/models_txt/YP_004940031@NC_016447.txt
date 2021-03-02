@@ -1,0 +1,40 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HFG3|UL41A_HCMVM    15.6     0.011   1   1.1   0.0    Protein UL41A OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL41A PE=3 SV=1
+sp|O39920|UL41A_HCMVA    15.6     0.011   1   1.1   0.0    Protein UL41A OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL41A PE=3 SV=1
+sp|Q0Q463|VME1_BC512      9.3      0.95   2   1.7   7.2    Membrane protein OS=Bat coronavirus 512/2005 OX=693999 GN=M PE=3 SV=1
+sp|P15897|ORF6_SPV1R      8.2         2   1   1.1   6.4    Uncharacterized protein ORF6 OS=Spiroplasma virus SpV1-R8A2 B OX=10854 GN=ORF6 PE=4 SV=2
+sp|A3EXD6|VME1_BCHK5      7.4       3.5   2   2.2   5.7    Membrane protein OS=Bat coronavirus HKU5 OX=694008 GN=M PE=3 SV=1
+sp|P20843|L2_VACCC        6.2       8.4   1   1.3   7.4    Protein L2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=L2R PE=2 SV=1
+sp|Q76RD1|LR_VACCA        6.2       8.4   1   1.3   7.4    Protein L2 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA081R PE=2 SV=1
+sp|A3EXA0|VME1_BCHK4      6.2       8.5   2   2.2   9.5    Membrane protein OS=Bat coronavirus HKU4 OX=694007 GN=M PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HFG3|UL41A_HCMVM    15.5     0.011     1   0.0     11     73     16     48     75    107     Protein UL41A OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL41A PE=3 SV=1
+sp|O39920|UL41A_HCMVA    15.5     0.011     1   0.0     11     73     16     48     75    107     Protein UL41A OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL41A PE=3 SV=1
+sp|Q0Q463|VME1_BC512      8.6       1.5     2   6.4     28    124     49    102     51    104     Membrane protein OS=Bat coronavirus 512/2005 OX=693999 GN=M PE=3 SV=1
+sp|P15897|ORF6_SPV1R      8.0       2.3     1   6.4      6     90     31     76     60    105     Uncharacterized protein ORF6 OS=Spiroplasma virus SpV1-R8A2 B OX=10854 GN=ORF6 PE=4 SV=2
+sp|A3EXA0|VME1_BCHK4      7.4       3.5     1   0.1      1     45      6     41     73    107     Membrane protein OS=Bat coronavirus HKU4 OX=694007 GN=M PE=3 SV=1
+sp|A3EXD6|VME1_BCHK5      6.1       9.3     1   0.1      1     47      6     42     72    107     Membrane protein OS=Bat coronavirus HKU5 OX=694008 GN=M PE=3 SV=1
+sp|P20843|L2_VACCC        5.8        11     1   7.4      1     87     25     85     32     97     Protein L2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=L2R PE=2 SV=1
+sp|Q76RD1|LR_VACCA        5.8        11     1   7.4      1     87     25     85     32     97     Protein L2 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA081R PE=2 SV=1
+sp|A3EXD6|VME1_BCHK5      2.0   1.6e+02     2   3.1     44    120     50     99     51    102     Membrane protein OS=Bat coronavirus HKU5 OX=694008 GN=M PE=3 SV=1
+sp|A3EXA0|VME1_BCHK4      0.8     4e+02     2   5.5     42    119     49     98     51    102     Membrane protein OS=Bat coronavirus HKU4 OX=694007 GN=M PE=3 SV=1
+sp|Q0Q463|VME1_BC512     -1.4     2e+03     1   0.0      7     47     13     35     80    102     Membrane protein OS=Bat coronavirus 512/2005 OX=693999 GN=M PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004940031@NC_016447.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004940031@NC_016447.txt data/models_hmm/YP_004940031@NC_016447.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:52 2021
+# [ok]

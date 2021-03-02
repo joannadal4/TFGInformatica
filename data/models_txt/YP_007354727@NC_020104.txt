@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQQ4|YL859_MIMIV   558.2  2.8e-168   1   1.0   5.7    Uncharacterized protein L859 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L859 PE=4 SV=1
+sp|Q5UPB1|YL039_MIMIV    29.5   3.7e-07   1   1.2   0.1    Uncharacterized protein L39 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L39 PE=3 SV=1
+sp|Q5URB0|YR874_MIMIV    25.1   8.1e-06   1   1.2   0.3    Uncharacterized protein R874 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R874 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQQ4|YL859_MIMIV   558.0  3.4e-168     1   5.7     23    315     30    315      2    287     Uncharacterized protein L859 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L859 PE=4 SV=1
+sp|Q5UPB1|YL039_MIMIV    29.2   4.6e-07     1   0.1      7    174     43    172    170    285     Uncharacterized protein L39 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L39 PE=3 SV=1
+sp|Q5URB0|YR874_MIMIV    24.8     1e-05     1   0.3     41    178     73    178    182    285     Uncharacterized protein R874 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R874 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007354727@NC_020104.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007354727@NC_020104.txt data/models_hmm/YP_007354727@NC_020104.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:51 2021
+# [ok]

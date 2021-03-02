@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPE2|YL063_MIMIV    23.3   4.8e-05   5   5.6   2.4    Putative ankyrin repeat protein L63 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L63 PE=4 SV=1
+sp|P27426|VIE1_BHV4D     13.0     0.081   1   1.4   0.2    Probable E3 ubiquitin-protein ligase IE1 OS=Bovine herpesvirus 4 (strain DN-599) OX=10355 GN=IE1 PE=3 SV=1
+sp|O21886|RBP_BPLSK      12.7       0.1   1   1.9   0.0    Receptor binding protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27426|VIE1_BHV4D     12.0      0.16     1   0.2     36     81     45     78     12     45     Probable E3 ubiquitin-protein ligase IE1 OS=Bovine herpesvirus 4 (strain DN-599) OX=10355 GN=IE1 PE=3 SV=1
+sp|O21886|RBP_BPLSK      11.0      0.34     1   0.0    160    202    166    189      9     32     Receptor binding protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|Q5UPE2|YL063_MIMIV     6.5       8.7     4   0.0    390    439    397    418     11     32     Putative ankyrin repeat protein L63 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L63 PE=4 SV=1
+sp|Q5UPE2|YL063_MIMIV     6.3        10     2   0.0    158    210    168    188     11     31     Putative ankyrin repeat protein L63 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L63 PE=4 SV=1
+sp|Q5UPE2|YL063_MIMIV     2.5   1.5e+02     5   0.0    464    548    487    509     11     33     Putative ankyrin repeat protein L63 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L63 PE=4 SV=1
+sp|Q5UPE2|YL063_MIMIV     1.5   3.1e+02     3   0.0    328    367    330    357      4     31     Putative ankyrin repeat protein L63 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L63 PE=4 SV=1
+sp|Q5UPE2|YL063_MIMIV     0.3   7.5e+02     1   0.0    129    167    135    158      8     31     Putative ankyrin repeat protein L63 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L63 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000674@SRS054430_LANL_scaffold_7679@SRS054430_LANL_scaffold_7679_gene_6910.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000674@SRS054430_LANL_scaffold_7679@SRS054430_LANL_scaffold_7679_gene_6910.txt data/models_hmm/7000000674@SRS054430_LANL_scaffold_7679@SRS054430_LANL_scaffold_7679_gene_6910.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:54 2021
+# [ok]

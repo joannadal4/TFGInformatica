@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P89522|NCAP_CCHFI    13.6     0.052   1   1.6   0.1    Nucleoprotein OS=Crimean-Congo hemorrhagic fever virus (strain Nigeria/IbAr10200/1970) OX=652961 GN=N PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P89522|NCAP_CCHFI    12.4      0.12     1   0.1    246    306    251    292     11     52     Nucleoprotein OS=Crimean-Congo hemorrhagic fever virus (strain Nigeria/IbAr10200/1970) OX=652961 GN=N PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006907722@NC_018857.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006907722@NC_018857.txt data/models_hmm/YP_006907722@NC_018857.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:30 2021
+# [ok]

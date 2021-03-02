@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q85232|ICP27_SUHVK    10.1       0.8   1   1.6   9.8    mRNA export factor ICP27 homolog OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=UL54 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q85232|ICP27_SUHVK     9.0       1.9     1   9.8     37     92     47     82     20     55     mRNA export factor ICP27 homolog OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=UL54 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002875650@NC_012662.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002875650@NC_012662.txt data/models_hmm/YP_002875650@NC_012662.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:12 2021
+# [ok]

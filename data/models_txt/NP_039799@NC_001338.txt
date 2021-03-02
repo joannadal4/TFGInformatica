@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20205|B78_SSV1      123.2   8.6e-36   1   1.0  12.3    Uncharacterized protein B-78 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=b78 PE=4 SV=1
+sp|F5HHQ0|GN_HCMVM        9.0      0.33   1   1.1  24.8    Envelope glycoprotein N OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gN PE=3 SV=1
+sp|P69338|UL132_HCMVA     8.5      0.44   1   1.1   8.1    Envelope glycoprotein UL132 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL132 PE=3 SV=1
+sp|P69339|UL132_HCMVT     8.5      0.44   1   1.1   8.1    Envelope glycoprotein UL132 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL132 PE=3 SV=1
+sp|P16795|GN_HCMVA        5.6       3.5   1   1.1  29.8    Envelope glycoprotein N OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gN PE=1 SV=1
+sp|P32515|GP2_EHV1K       5.2       4.4   1   1.4  31.1    Glycoprotein gp2 OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=US4 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20205|B78_SSV1      123.1   9.2e-36     1  12.3      1     78      2     76    543    617     Uncharacterized protein B-78 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=b78 PE=4 SV=1
+sp|F5HHQ0|GN_HCMVM        8.6      0.41     1  24.8      2     76     16     71    490    543     Envelope glycoprotein N OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gN PE=3 SV=1
+sp|P69338|UL132_HCMVA     8.1      0.58     1   8.1     10    114     30     84    501    552     Envelope glycoprotein UL132 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL132 PE=3 SV=1
+sp|P69339|UL132_HCMVT     8.1      0.58     1   8.1     10    114     30     84    501    552     Envelope glycoprotein UL132 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL132 PE=3 SV=1
+sp|P16795|GN_HCMVA        5.3       4.3     1  29.8      4     81     21     75    492    544     Envelope glycoprotein N OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gN PE=1 SV=1
+sp|P32515|GP2_EHV1K       4.3       8.4     1  31.1      7     84     14     75    487    545     Glycoprotein gp2 OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=US4 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_039799@NC_001338.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_039799@NC_001338.txt data/models_hmm/NP_039799@NC_001338.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:13 2021
+# [ok]

@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q01044|VG71_SHV21   353.0  2.3e-106   1   1.0  13.1    Uncharacterized gene 71 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=71 PE=4 SV=1
+sp|Q98325|CFLA_MCV1     18.0    0.0021   2   1.6   0.6    Viral CASP8 and FADD-like apoptosis regulator OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=MC159L PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q01044|VG71_SHV21   352.8  2.5e-106     1  13.1      1    167      1    167      1    167     Uncharacterized gene 71 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=71 PE=4 SV=1
+sp|Q98325|CFLA_MCV1     16.9    0.0045     1   0.6     12    180     15    108      9    106     Viral CASP8 and FADD-like apoptosis regulator OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=MC159L PE=1 SV=1
+sp|Q98325|CFLA_MCV1     -1.3   1.8e+03     2   0.0    128    213    157    177     57     77     Viral CASP8 and FADD-like apoptosis regulator OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=MC159L PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_048043@NC_001987.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_048043@NC_001987.txt data/models_hmm/NP_048043@NC_001987.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:28 2021
+# [ok]

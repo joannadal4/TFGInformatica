@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9J517|V218_FOWPN    12.5       0.1   2   2.2   0.7    Putative ankyrin repeat protein FPV218 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV218 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9J517|V218_FOWPN    10.6      0.39     2   0.1    369    403    371    400     12     40     Putative ankyrin repeat protein FPV218 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV218 PE=4 SV=1
+sp|Q9J517|V218_FOWPN    -1.8     3e+03     1   0.0    290    307    292    305      9     22     Putative ankyrin repeat protein FPV218 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV218 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000401@BB_Man_B_Liq_inBBDRAFT_1000001@BB_Man_B_Liq_inBBDRAFT_100000136.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000401@BB_Man_B_Liq_inBBDRAFT_1000001@BB_Man_B_Liq_inBBDRAFT_100000136.txt data/models_hmm/3300000401@BB_Man_B_Liq_inBBDRAFT_1000001@BB_Man_B_Liq_inBBDRAFT_100000136.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:28 2021
+# [ok]

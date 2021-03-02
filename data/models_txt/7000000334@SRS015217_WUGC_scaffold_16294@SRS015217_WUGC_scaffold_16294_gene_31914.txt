@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPN4|YL173_MIMIV    13.7     0.049   1   1.5   0.1    Uncharacterized protein L173 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L173 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPN4|YL173_MIMIV    12.6      0.11     1   0.1     78    124     84    115     47     78     Uncharacterized protein L173 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L173 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000334@SRS015217_WUGC_scaffold_16294@SRS015217_WUGC_scaffold_16294_gene_31914.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000334@SRS015217_WUGC_scaffold_16294@SRS015217_WUGC_scaffold_16294_gene_31914.txt data/models_hmm/7000000334@SRS015217_WUGC_scaffold_16294@SRS015217_WUGC_scaffold_16294_gene_31914.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:27 2021
+# [ok]

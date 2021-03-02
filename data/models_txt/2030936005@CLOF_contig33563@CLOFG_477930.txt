@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03755|EA85_LAMBD    12.8     0.087   1   1.1   0.0    Protein ea8.5 OS=Escherichia phage lambda OX=10710 GN=ea8.5 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03755|EA85_LAMBD    12.8     0.088     1   0.0      2     91     28     77     44     92     Protein ea8.5 OS=Escherichia phage lambda OX=10710 GN=ea8.5 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2030936005@CLOF_contig33563@CLOFG_477930.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2030936005@CLOF_contig33563@CLOFG_477930.txt data/models_hmm/2030936005@CLOF_contig33563@CLOFG_477930.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:20 2021
+# [ok]

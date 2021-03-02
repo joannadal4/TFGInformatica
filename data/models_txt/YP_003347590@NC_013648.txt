@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P12419|MUNS_REOVD    12.1      0.14   2   2.6   0.1    Protein mu-NS OS=Reovirus type 3 (strain Dearing) OX=10886 GN=M3 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P12419|MUNS_REOVD     8.4       1.9     2   0.1    630    664    638    658     22     42     Protein mu-NS OS=Reovirus type 3 (strain Dearing) OX=10886 GN=M3 PE=3 SV=2
+sp|P12419|MUNS_REOVD    -0.3     1e+03     1   0.0    341    365    346    362     40     56     Protein mu-NS OS=Reovirus type 3 (strain Dearing) OX=10886 GN=M3 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003347590@NC_013648.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003347590@NC_013648.txt data/models_hmm/YP_003347590@NC_013648.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:25 2021
+# [ok]

@@ -1,0 +1,41 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41658|LEF5_NPVAC    353.3  7.5e-106   1   1.0  13.5    Late expression factor 5 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=LEF-5 PE=1 SV=1
+sp|O10344|LEF5_NPVOP    344.6  3.4e-103   1   1.0   3.8    Late expression factor 5 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=LEF-5 PE=3 SV=1
+sp|P41727|LEF5_GVCL     331.9   2.5e-99   1   1.0  11.3    Late expression factor 5 homolog OS=Cryptophlebia leucotreta granulosis virus OX=35254 PE=3 SV=1
+sp|Q07344|VF137_ASFB7    56.8   2.1e-15   1   1.1   0.3    Structural protein A137R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-042 PE=2 SV=1
+sp|P0CA46|VF137_ASFP4    47.7   1.3e-12   1   1.1   0.1    Structural protein A137R OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-054 PE=3 SV=1
+sp|P0CA47|VF137_ASFWA    46.6   2.7e-12   1   1.1   0.1    Structural protein A137R OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-052 PE=3 SV=1
+sp|P0CA45|VF137_ASFM2    43.8   1.9e-11   1   1.1   0.6    Structural protein A137R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-050 PE=3 SV=1
+sp|P0CA44|VF137_ASFK5    37.1   2.1e-09   1   1.1   0.2    Structural protein A137R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-054 PE=3 SV=1
+sp|Q91FH5|VF349_IIV6     14.4     0.018   1   1.4   2.7    Putative transcription elongation factor S-II-like protein 349L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-349L PE=3 SV=1
+sp|Q6GZP4|081R_FRG3G     10.7      0.24   1   1.1   0.2    Putative transcription elongation factor S-II-like protein 81R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-081R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41658|LEF5_NPVAC    353.1  8.3e-106     1  13.5      1    265      1    263      9    260     Late expression factor 5 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=LEF-5 PE=1 SV=1
+sp|O10344|LEF5_NPVOP    344.4  3.7e-103     1   3.8      1    263      1    262      9    260     Late expression factor 5 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=LEF-5 PE=3 SV=1
+sp|P41727|LEF5_GVCL     331.7   2.8e-99     1  11.3      1    240      1    239      9    259     Late expression factor 5 homolog OS=Cryptophlebia leucotreta granulosis virus OX=35254 PE=3 SV=1
+sp|Q07344|VF137_ASFB7    56.5   2.6e-15     1   0.3      1    136      1    133     76    207     Structural protein A137R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-042 PE=2 SV=1
+sp|P0CA46|VF137_ASFP4    47.5   1.5e-12     1   0.1      1    137      1    134     76    208     Structural protein A137R OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-054 PE=3 SV=1
+sp|P0CA47|VF137_ASFWA    46.3   3.3e-12     1   0.1      1    137      1    134     76    208     Structural protein A137R OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-052 PE=3 SV=1
+sp|P0CA45|VF137_ASFM2    43.6   2.3e-11     1   0.6      1    137      1    134     76    208     Structural protein A137R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-050 PE=3 SV=1
+sp|P0CA44|VF137_ASFK5    36.8   2.6e-09     1   0.2      1    137      1    134     76    208     Structural protein A137R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-054 PE=3 SV=1
+sp|Q91FH5|VF349_IIV6     14.1     0.023     1   2.7      5    139     95    136    219    259     Putative transcription elongation factor S-II-like protein 349L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-349L PE=3 SV=1
+sp|Q6GZP4|081R_FRG3G     10.6      0.27     1   0.2     48     92     65     88    236    259     Putative transcription elongation factor S-II-like protein 81R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-081R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_950806@NC_008725.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_950806@NC_008725.txt data/models_hmm/YP_950806@NC_008725.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:56 2021
+# [ok]

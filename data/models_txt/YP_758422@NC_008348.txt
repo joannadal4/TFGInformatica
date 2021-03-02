@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8QL21|Y209_SIRV1    13.1     0.064   1   1.4   0.7    Uncharacterized protein 209 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=209 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8QL21|Y209_SIRV1    12.4       0.1     1   0.7     10     90     19     56     31     69     Uncharacterized protein 209 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=209 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_758422@NC_008348.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_758422@NC_008348.txt data/models_hmm/YP_758422@NC_008348.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:48 2021
+# [ok]

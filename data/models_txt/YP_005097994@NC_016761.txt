@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q331T8|TUBY_CBCP      8.0      0.68   1   1.0  10.4    Regulator protein TubY OS=Clostridium botulinum C phage OX=12336 GN=tubY PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q331T8|TUBY_CBCP      7.8      0.78     1  10.4     32    232     77    223     20    174     Regulator protein TubY OS=Clostridium botulinum C phage OX=12336 GN=tubY PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_005097994@NC_016761.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_005097994@NC_016761.txt data/models_hmm/YP_005097994@NC_016761.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:03 2021
+# [ok]

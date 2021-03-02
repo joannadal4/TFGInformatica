@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q86516|NSP1A_ROTGI    13.7     0.019   1   1.1   0.0    Non-structural protein 1, peptide 1 OS=Rotavirus B (isolate RVB/Rat/United States/IDIR/1984/G1P[X]) OX=28877 PE=3 SV=1
+sp|P17590|E311_ADE05     10.0      0.27   1   1.0   0.8    Early E3A 10.5 kDa glycoprotein OS=Human adenovirus C serotype 5 OX=28285 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q86516|NSP1A_ROTGI    13.7     0.019     1   0.0      6    102     38     73    387    420     Non-structural protein 1, peptide 1 OS=Rotavirus B (isolate RVB/Rat/United States/IDIR/1984/G1P[X]) OX=28877 PE=3 SV=1
+sp|P17590|E311_ADE05      9.7      0.32     1   0.8      1     58      3     55    349    404     Early E3A 10.5 kDa glycoprotein OS=Human adenovirus C serotype 5 OX=28285 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007003802@NC_019491.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007003802@NC_019491.txt data/models_hmm/YP_007003802@NC_019491.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:05 2021
+# [ok]

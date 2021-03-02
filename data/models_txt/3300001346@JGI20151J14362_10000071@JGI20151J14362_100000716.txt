@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q3V4R5|Y161B_ATV     12.4      0.12   2   2.1   1.1    Uncharacterized protein ORF161b OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|P29192|A6_VACCW      11.1      0.31   3   2.8   1.5    Protein A6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR125 PE=1 SV=1
+sp|P20985|A6_VACCC      11.1      0.31   3   2.7   1.5    Protein A6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A6L PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q3V4R5|Y161B_ATV     10.4      0.51     1   0.1     72    103     75    100     33     58     Uncharacterized protein ORF161b OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|P29192|A6_VACCW       8.8       1.6     1   0.1     38     67     48     65     23     40     Protein A6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR125 PE=1 SV=1
+sp|P20985|A6_VACCC       8.8       1.6     1   0.1     38     67     48     65     23     40     Protein A6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A6L PE=1 SV=1
+sp|Q3V4R5|Y161B_ATV     -0.1     1e+03     2   0.1    109    132    110    128     33     51     Uncharacterized protein ORF161b OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|P29192|A6_VACCW      -0.7   1.5e+03     2   0.0    125    150    127    143     34     50     Protein A6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR125 PE=1 SV=1
+sp|P20985|A6_VACCC      -0.7   1.5e+03     2   0.0    126    151    128    144     34     50     Protein A6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A6L PE=1 SV=1
+sp|P29192|A6_VACCW      -4.0   1.6e+04     3   0.0    256    268    259    265     37     43     Protein A6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR125 PE=1 SV=1
+sp|P20985|A6_VACCC      -4.0   1.6e+04     3   0.0    257    269    260    266     37     43     Protein A6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A6L PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001346@JGI20151J14362_10000071@JGI20151J14362_100000716.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001346@JGI20151J14362_10000071@JGI20151J14362_100000716.txt data/models_hmm/3300001346@JGI20151J14362_10000071@JGI20151J14362_100000716.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:49 2021
+# [ok]

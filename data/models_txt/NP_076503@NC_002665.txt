@@ -1,0 +1,48 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27426|VIE1_BHV4D    640.8  1.8e-193   1   1.0   5.7    Probable E3 ubiquitin-protein ligase IE1 OS=Bovine herpesvirus 4 (strain DN-599) OX=10355 GN=IE1 PE=3 SV=1
+sp|P90489|MIR2_HHV8P     56.5   2.2e-15   1   1.1   1.6    E3 ubiquitin-protein ligase MIR2 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=K5 PE=1 SV=1
+sp|O41933|MIR1_MHV68     49.9   2.2e-13   1   1.1   2.1    E3 ubiquitin-protein ligase MIR1 OS=Murid herpesvirus 4 OX=33708 GN=K3 PE=1 SV=1
+sp|P32225|LAP_SWPVK      47.6   1.1e-12   1   1.1  14.7    E3 ubiquitin-protein ligase LAP OS=Swinepox virus (strain Kasza) OX=10277 GN=LAP PE=3 SV=1
+sp|Q997C2|LAP_MYXVL      45.5   4.8e-12   1   1.3  12.7    E3 ubiquitin-protein ligase LAP OS=Myxoma virus (strain Lausanne) OX=31530 GN=LAP PE=3 SV=1
+sp|Q9Q8T2|LAP_RFVKA      43.4   2.2e-11   1   1.3  15.2    E3 ubiquitin-protein ligase LAP OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=s153R PE=3 SV=1
+sp|P90495|MIR1_HHV8P     40.1   2.2e-10   1   1.4   4.7    E3 ubiquitin-protein ligase MIR1 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=K3 PE=1 SV=1
+sp|Q9DHV7|LAP_YLDV       38.9   5.2e-10   1   1.0  16.0    E3 ubiquitin-protein ligase LAP OS=Yaba-like disease virus OX=132475 GN=5L PE=3 SV=1
+sp|Q91T40|LAP_LSDV       37.7   1.2e-09   1   1.8  20.0    E3 ubiquitin-protein ligase LAP OS=Lumpy skin disease virus OX=59509 GN=LW010 PE=3 SV=1
+sp|Q6TV02|LAP_YMTV5      34.2   1.4e-08   1   1.0  14.8    E3 ubiquitin-protein ligase LAP OS=Yaba monkey tumor virus (strain VR587) OX=928314 GN=LAP PE=3 SV=1
+sp|Q573F2|Y067B_AFV2P    12.7     0.049   1   1.0   0.0    Uncharacterized protein ORF67b OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF67b PE=4 SV=1
+sp|P22261|GLYC_BRSVC     10.7       0.2   2   1.9   1.0    Major surface glycoprotein G OS=Bovine respiratory syncytial virus (strain Copenhagen) OX=11248 GN=G PE=1 SV=1
+sp|Q70LB2|Y108_AFV1Y      9.2      0.58   1   1.1   7.3    Putative transmembrane protein ORF108 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF108 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27426|VIE1_BHV4D    640.7    2e-193     1   5.7      1    285      1    285      1    285     Probable E3 ubiquitin-protein ligase IE1 OS=Bovine herpesvirus 4 (strain DN-599) OX=10355 GN=IE1 PE=3 SV=1
+sp|P90489|MIR2_HHV8P     56.2   2.7e-15     1   1.6      2    169     11    142    128    264     E3 ubiquitin-protein ligase MIR2 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=K5 PE=1 SV=1
+sp|O41933|MIR1_MHV68     49.6   2.7e-13     1   2.1      1    158      2    136    126    261     E3 ubiquitin-protein ligase MIR1 OS=Murid herpesvirus 4 OX=33708 GN=K3 PE=1 SV=1
+sp|P32225|LAP_SWPVK      47.3   1.4e-12     1  14.7      2    154      5    145    132    267     E3 ubiquitin-protein ligase LAP OS=Swinepox virus (strain Kasza) OX=10277 GN=LAP PE=3 SV=1
+sp|Q997C2|LAP_MYXVL      45.3   5.6e-12     1  12.5      2    162      8     92    117    200     E3 ubiquitin-protein ligase LAP OS=Myxoma virus (strain Lausanne) OX=31530 GN=LAP PE=3 SV=1
+sp|Q9Q8T2|LAP_RFVKA      43.2   2.4e-11     1  14.8      3    149     14     83    129    197     E3 ubiquitin-protein ligase LAP OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=s153R PE=3 SV=1
+sp|P90495|MIR1_HHV8P     39.4   3.6e-10     1   4.7      1    165      3    103    126    219     E3 ubiquitin-protein ligase MIR1 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=K3 PE=1 SV=1
+sp|Q9DHV7|LAP_YLDV       38.5   6.5e-10     1  16.0      2    154      5    137    132    262     E3 ubiquitin-protein ligase LAP OS=Yaba-like disease virus OX=132475 GN=5L PE=3 SV=1
+sp|Q91T40|LAP_LSDV       36.6   2.6e-09     1  20.0      2    161      5     66    126    188     E3 ubiquitin-protein ligase LAP OS=Lumpy skin disease virus OX=59509 GN=LW010 PE=3 SV=1
+sp|Q6TV02|LAP_YMTV5      33.8   1.8e-08     1  14.8      2    154      4    140    131    267     E3 ubiquitin-protein ligase LAP OS=Yaba monkey tumor virus (strain VR587) OX=928314 GN=LAP PE=3 SV=1
+sp|Q573F2|Y067B_AFV2P    12.4     0.059     1   0.0     11     66     20     65    211    256     Uncharacterized protein ORF67b OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF67b PE=4 SV=1
+sp|P22261|GLYC_BRSVC      9.3      0.53     1   0.0      4     81     10     67    211    267     Major surface glycoprotein G OS=Bovine respiratory syncytial virus (strain Copenhagen) OX=11248 GN=G PE=1 SV=1
+sp|Q70LB2|Y108_AFV1Y      8.8      0.73     1   7.3     27    104     33     91    209    262     Putative transmembrane protein ORF108 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF108 PE=4 SV=1
+sp|P22261|GLYC_BRSVC     -0.7   6.1e+02     2   0.2    179    234    197    221     84    107     Major surface glycoprotein G OS=Bovine respiratory syncytial virus (strain Copenhagen) OX=11248 GN=G PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_076503@NC_002665.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_076503@NC_002665.txt data/models_hmm/NP_076503@NC_002665.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:48 2021
+# [ok]

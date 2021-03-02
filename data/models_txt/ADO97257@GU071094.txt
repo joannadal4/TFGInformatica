@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HIM6|ORF23_HHV8P    12.5       0.1   2   1.9   0.0    Protein ORF23 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF23 PE=3 SV=1
+sp|P09277|ITP_VZVD       12.5      0.11   1   1.8   0.4    Inner tegument protein OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=21 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09277|ITP_VZVD       10.9      0.34     1   0.4    806    864    820    860     23     62     Inner tegument protein OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=21 PE=3 SV=1
+sp|F5HIM6|ORF23_HHV8P    10.7      0.39     1   0.0    111    139    115    132     27     44     Protein ORF23 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF23 PE=3 SV=1
+sp|F5HIM6|ORF23_HHV8P    -3.2   8.5e+03     2   0.0    232    246    234    243     48     57     Protein ORF23 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF23 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ADO97257@GU071094.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ADO97257@GU071094.txt data/models_hmm/ADO97257@GU071094.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:20 2021
+# [ok]

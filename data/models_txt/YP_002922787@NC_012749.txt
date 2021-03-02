@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O48470|HOL24_BPSPP    15.0     0.015   1   1.2   0.3    Holin-like protein 24.1 OS=Bacillus phage SPP1 OX=10724 GN=24.1 PE=3 SV=2
+sp|Q9J524|V211_FOWPN      8.3       1.7   2   1.9   5.5    Probable growth factor FPV211 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV211 PE=3 SV=1
+sp|P07072|TEV2_BPT4       7.7       2.7   2   2.4   7.4    Intron-associated endonuclease 2 OS=Enterobacteria phage T4 OX=10665 GN=ITEVIIR PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O48470|HOL24_BPSPP    14.7     0.019     1   0.3      1     72      3     62     27     82     Holin-like protein 24.1 OS=Bacillus phage SPP1 OX=10724 GN=24.1 PE=3 SV=2
+sp|Q9J524|V211_FOWPN      9.8      0.62     2   2.1     45    111     69    103     67    101     Probable growth factor FPV211 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV211 PE=3 SV=1
+sp|P07072|TEV2_BPT4       8.1         2     2   2.3     84    183    100    163     20     82     Intron-associated endonuclease 2 OS=Enterobacteria phage T4 OX=10665 GN=ITEVIIR PE=4 SV=2
+sp|P07072|TEV2_BPT4       2.1   1.5e+02     1   0.2     33     95     46     67     50     71     Intron-associated endonuclease 2 OS=Enterobacteria phage T4 OX=10665 GN=ITEVIIR PE=4 SV=2
+sp|Q9J524|V211_FOWPN     -0.4   8.7e+02     1   0.1     21     56     26     47      6     27     Probable growth factor FPV211 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV211 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002922787@NC_012749.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002922787@NC_012749.txt data/models_hmm/YP_002922787@NC_012749.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:15 2021
+# [ok]

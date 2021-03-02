@@ -1,0 +1,44 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P00641|ENDO_BPT7     174.7   8.7e-52   1   1.0   0.1    Endonuclease I OS=Escherichia phage T7 OX=10760 GN=3 PE=1 SV=1
+sp|P20314|ENRN_BPT3     167.5   1.4e-49   1   1.1   0.0    Endodeoxyribonuclease 1 OS=Enterobacteria phage T3 OX=10759 GN=3 PE=4 SV=1
+sp|Q91FQ0|273R_IIV6      27.6   1.8e-06   1   1.2   1.8    Uncharacterized protein 273R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-273R PE=4 SV=1
+sp|Q66811|VSGP_TAFVC     13.5      0.04   1   1.5   0.0    Pre-small/secreted glycoprotein OS=Tai Forest ebolavirus (strain Cote d'Ivoire-94) OX=128999 GN=GP PE=3 SV=1
+sp|P87670|VSGP_EBOEC     13.5     0.041   2   1.7   0.1    Pre-small/secreted glycoprotein OS=Zaire ebolavirus (strain Eckron-76) OX=129000 GN=GP PE=3 SV=1
+sp|P60170|VSGP_EBOZM     13.5     0.041   2   1.7   0.1    Pre-small/secreted glycoprotein OS=Zaire ebolavirus (strain Mayinga-76) OX=128952 GN=GP PE=1 SV=1
+sp|P60171|VSGP_EBOZ5     13.5     0.041   2   1.7   0.1    Pre-small/secreted glycoprotein OS=Zaire ebolavirus (strain Kikwit-95) OX=128951 GN=GP PE=3 SV=1
+sp|P0C773|VSSGP_EBOZ5    13.1     0.054   1   1.2   0.0    Super small secreted glycoprotein OS=Zaire ebolavirus (strain Kikwit-95) OX=128951 GN=GP PE=3 SV=1
+sp|Q9YMG2|VSSGP_EBOZM    13.1     0.054   1   1.2   0.0    Super small secreted glycoprotein OS=Zaire ebolavirus (strain Mayinga-76) OX=128952 GN=GP PE=3 SV=2
+sp|Q66810|VGP_TAFVC      11.8      0.14   1   1.3   0.0    Envelope glycoprotein OS=Tai Forest ebolavirus (strain Cote d'Ivoire-94) OX=128999 GN=GP PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P00641|ENDO_BPT7     174.4   1.1e-51     1   0.1      2    136      7    135     19    148     Endonuclease I OS=Escherichia phage T7 OX=10760 GN=3 PE=1 SV=1
+sp|P20314|ENRN_BPT3     167.2   1.8e-49     1   0.0      3    136      9    135     21    148     Endodeoxyribonuclease 1 OS=Enterobacteria phage T3 OX=10759 GN=3 PE=4 SV=1
+sp|Q91FQ0|273R_IIV6      27.0   2.7e-06     1   1.8     54    135     61    133     47    114     Uncharacterized protein 273R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-273R PE=4 SV=1
+sp|P0C773|VSSGP_EBOZ5    13.1     0.055     1   0.0     52    265    207    261     21     76     Super small secreted glycoprotein OS=Zaire ebolavirus (strain Kikwit-95) OX=128951 GN=GP PE=3 SV=1
+sp|Q9YMG2|VSSGP_EBOZM    13.1     0.055     1   0.0     52    265    207    261     21     76     Super small secreted glycoprotein OS=Zaire ebolavirus (strain Mayinga-76) OX=128952 GN=GP PE=3 SV=2
+sp|Q66811|VSGP_TAFVC     12.8     0.064     1   0.0     50    263    206    261     20     76     Pre-small/secreted glycoprotein OS=Tai Forest ebolavirus (strain Cote d'Ivoire-94) OX=128999 GN=GP PE=3 SV=1
+sp|P60170|VSGP_EBOZM     12.5     0.084     1   0.0     56    266    207    261     21     76     Pre-small/secreted glycoprotein OS=Zaire ebolavirus (strain Mayinga-76) OX=128952 GN=GP PE=1 SV=1
+sp|P60171|VSGP_EBOZ5     12.5     0.084     1   0.0     56    266    207    261     21     76     Pre-small/secreted glycoprotein OS=Zaire ebolavirus (strain Kikwit-95) OX=128951 GN=GP PE=3 SV=1
+sp|P87670|VSGP_EBOEC     12.5     0.084     1   0.0     56    266    207    261     21     76     Pre-small/secreted glycoprotein OS=Zaire ebolavirus (strain Eckron-76) OX=129000 GN=GP PE=3 SV=1
+sp|Q66810|VGP_TAFVC      11.2      0.21     1   0.0     97    263    206    261     20     76     Envelope glycoprotein OS=Tai Forest ebolavirus (strain Cote d'Ivoire-94) OX=128999 GN=GP PE=1 SV=1
+sp|P60170|VSGP_EBOZM     -1.9   2.2e+03     2   0.0    294    361    337    355    120    138     Pre-small/secreted glycoprotein OS=Zaire ebolavirus (strain Mayinga-76) OX=128952 GN=GP PE=1 SV=1
+sp|P60171|VSGP_EBOZ5     -1.9   2.2e+03     2   0.0    294    361    337    355    120    138     Pre-small/secreted glycoprotein OS=Zaire ebolavirus (strain Kikwit-95) OX=128951 GN=GP PE=3 SV=1
+sp|P87670|VSGP_EBOEC     -1.9   2.2e+03     2   0.0    294    361    337    355    120    138     Pre-small/secreted glycoprotein OS=Zaire ebolavirus (strain Eckron-76) OX=129000 GN=GP PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGG91277@HQ317388.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGG91277@HQ317388.txt data/models_hmm/AGG91277@HQ317388.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:37 2021
+# [ok]

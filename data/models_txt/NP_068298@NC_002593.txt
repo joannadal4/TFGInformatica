@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P17500|VP39_NPVOP   448.5  9.6e-135   1   1.0   1.0    Major capsid protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P39 PE=3 SV=1
+sp|P35840|VP39_NPVLD   433.8  2.8e-130   1   1.0   2.3    Major capsid protein OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 GN=P39 PE=3 SV=1
+sp|P17499|MCP_NPVAC    412.0  1.2e-123   1   1.0   1.2    Major capsid protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P39 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P17500|VP39_NPVOP   448.3  1.1e-134     1   1.0      1    309      1    308      1    301     Major capsid protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P39 PE=3 SV=1
+sp|P35840|VP39_NPVLD   433.6  3.2e-130     1   2.3      1    300      1    298      1    300     Major capsid protein OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 GN=P39 PE=3 SV=1
+sp|P17499|MCP_NPVAC    411.8  1.4e-123     1   1.2      1    310      1    309      1    301     Major capsid protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P39 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_068298@NC_002593.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_068298@NC_002593.txt data/models_hmm/NP_068298@NC_002593.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:45 2021
+# [ok]

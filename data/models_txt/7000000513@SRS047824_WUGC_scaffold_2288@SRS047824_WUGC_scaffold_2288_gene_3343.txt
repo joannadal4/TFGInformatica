@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HC79|TRM1_HCMVM     10.0       0.2   1   1.1   0.0    Tripartite terminase subunit 1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=TRM1 PE=3 SV=1
+sp|P16724|TRM1_HCMVA      9.9      0.21   1   1.1   0.0    Tripartite terminase subunit 1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=TRM1 PE=3 SV=1
+sp|P0DKA3|VE8E2_HPV29     5.4       4.9   1   1.1   7.3    Protein E8^E2C OS=Human papillomavirus type 29 OX=37112 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HC79|TRM1_HCMVM      9.3      0.31     1   0.0     19    108     29     98    211    281     Tripartite terminase subunit 1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=TRM1 PE=3 SV=1
+sp|P16724|TRM1_HCMVA      9.3      0.31     1   0.0     19    108     29     98    211    281     Tripartite terminase subunit 1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=TRM1 PE=3 SV=1
+sp|P0DKA3|VE8E2_HPV29     5.3       5.2     1   7.3     16    111     49     73    607    631     Protein E8^E2C OS=Human papillomavirus type 29 OX=37112 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000513@SRS047824_WUGC_scaffold_2288@SRS047824_WUGC_scaffold_2288_gene_3343.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000513@SRS047824_WUGC_scaffold_2288@SRS047824_WUGC_scaffold_2288_gene_3343.txt data/models_hmm/7000000513@SRS047824_WUGC_scaffold_2288@SRS047824_WUGC_scaffold_2288_gene_3343.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:57 2021
+# [ok]

@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P11321|E320_ADE03     12.1     0.092   1   1.2   0.1    Early E3 20.1 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+sp|Q5UQW6|YR387_MIMIV     8.0       1.6   3   2.2   6.3    Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q6J8G1|ORF3_HEVMG      7.7         2   1   1.3   4.2    Protein ORF3 OS=Hepatitis E virus genotype 3 (isolate Swine/United States/swUS1) OX=512345 GN=ORF3 PE=3 SV=2
+sp|P11329|VE2_PAPVE       7.3       2.6   1   1.2   5.2    Regulatory protein E2 OS=European elk papillomavirus OX=10565 GN=E2 PE=3 SV=1
+sp|Q9YLR0|ORF3_HEVUS      7.0       3.3   1   1.3   5.2    Protein ORF3 OS=Hepatitis E virus genotype 3 (isolate Human/United States/US2) OX=509615 GN=ORF3 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P11321|E320_ADE03     11.8      0.11     1   0.1     66    170    125    169    213    258     Early E3 20.1 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+sp|Q5UQW6|YR387_MIMIV    10.2      0.34     1   1.1      1     32      4     24    232    252     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q6J8G1|ORF3_HEVMG      7.2       2.7     1   4.2     15    107     50    102    138    193     Protein ORF3 OS=Hepatitis E virus genotype 3 (isolate Swine/United States/swUS1) OX=512345 GN=ORF3 PE=3 SV=2
+sp|P11329|VE2_PAPVE       6.7       3.9     1   5.2    218    324    233    313    145    222     Regulatory protein E2 OS=European elk papillomavirus OX=10565 GN=E2 PE=3 SV=1
+sp|Q9YLR0|ORF3_HEVUS      6.6       4.3     1   5.2     19    107     36    102    124    193     Protein ORF3 OS=Hepatitis E virus genotype 3 (isolate Human/United States/US2) OX=509615 GN=ORF3 PE=3 SV=2
+sp|Q5UQW6|YR387_MIMIV    -0.1   4.8e+02     2   0.4     46    165     91    151    136    195     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q5UQW6|YR387_MIMIV    -2.3   2.3e+03     3   0.0    143    188    152    179     76    102     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_024989@NC_005892.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_024989@NC_005892.txt data/models_hmm/YP_024989@NC_005892.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:51 2021
+# [ok]

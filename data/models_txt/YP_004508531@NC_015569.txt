@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8JMY3|X_HBVF2       13.4     0.062   1   1.1   0.0    Protein X OS=Hepatitis B virus genotype F1 subtype adw4 (isolate El Salvador/1116Sal/1997) OX=489499 GN=X PE=3 SV=1
+sp|Q69607|X_HBVF6       12.2      0.14   1   1.1   0.0    Protein X OS=Hepatitis B virus genotype F2 subtype adw4q (isolate Senegal/9203) OX=489503 GN=X PE=3 SV=1
+sp|Q99HR6|X_HBVF4       12.0      0.17   1   1.1   0.0    Protein X OS=Hepatitis B virus genotype F2 (isolate Argentina/sa16/2000) OX=489501 GN=X PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8JMY3|X_HBVF2       13.1     0.077     1   0.0     79    130     81    124      3     48     Protein X OS=Hepatitis B virus genotype F1 subtype adw4 (isolate El Salvador/1116Sal/1997) OX=489499 GN=X PE=3 SV=1
+sp|Q69607|X_HBVF6       12.0      0.17     1   0.0     79    130    103    124     27     48     Protein X OS=Hepatitis B virus genotype F2 subtype adw4q (isolate Senegal/9203) OX=489503 GN=X PE=3 SV=1
+sp|Q99HR6|X_HBVF4       11.7      0.22     1   0.0     80    130    103    124     27     48     Protein X OS=Hepatitis B virus genotype F2 (isolate Argentina/sa16/2000) OX=489501 GN=X PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004508531@NC_015569.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004508531@NC_015569.txt data/models_hmm/YP_004508531@NC_015569.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:28 2021
+# [ok]

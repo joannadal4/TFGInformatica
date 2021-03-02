@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20318|V45_BPT3     148.0   5.7e-44   1   1.0   0.9    Gene 4.5 protein OS=Enterobacteria phage T3 OX=10759 GN=4.5 PE=4 SV=1
+sp|P03785|ITAS_BPT7    145.9   2.5e-43   1   1.0   5.5    Inhibitor of toxin/antitoxin system OS=Escherichia phage T7 OX=10760 GN=4.5 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20318|V45_BPT3     147.9   6.1e-44     1   0.9      1     94      6     94      3     91     Gene 4.5 protein OS=Enterobacteria phage T3 OX=10759 GN=4.5 PE=4 SV=1
+sp|P03785|ITAS_BPT7    145.8   2.6e-43     1   5.5      1     89      1     82      1     82     Inhibitor of toxin/antitoxin system OS=Escherichia phage T7 OX=10760 GN=4.5 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007005445@NC_019510.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007005445@NC_019510.txt data/models_hmm/YP_007005445@NC_019510.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:12 2021
+# [ok]

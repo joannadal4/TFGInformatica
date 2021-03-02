@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q75007|VPU_HV1ET     14.0     0.053   1   1.2   0.1    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype C (isolate ETH2220) OX=388796 GN=vpu PE=3 SV=1
+sp|P12516|VPU_HV1BN     12.7      0.13   1   1.2   0.0    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRVA) OX=11693 GN=vpu PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q75007|VPU_HV1ET     13.6     0.069     1   0.1      8     67     15     47     53     87     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype C (isolate ETH2220) OX=388796 GN=vpu PE=3 SV=1
+sp|P12516|VPU_HV1BN     12.4      0.17     1   0.0      5     62      8     44     51     85     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRVA) OX=11693 GN=vpu PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000622@SRS077736_LANL_scaffold_25642@SRS077736_LANL_scaffold_25642_gene_34062.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000622@SRS077736_LANL_scaffold_25642@SRS077736_LANL_scaffold_25642_gene_34062.txt data/models_hmm/7000000622@SRS077736_LANL_scaffold_25642@SRS077736_LANL_scaffold_25642_gene_34062.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:36 2021
+# [ok]

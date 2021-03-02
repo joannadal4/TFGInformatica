@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UNU0|YL676_MIMIV   235.1   2.9e-70   2   1.6  12.5    Uncharacterized protein L676 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L676 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UNU0|YL676_MIMIV   235.1   2.9e-70     1  12.5      1    135      1    135      1    142     Uncharacterized protein L676 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L676 PE=4 SV=1
+sp|Q5UNU0|YL676_MIMIV    -2.6   6.5e+03     2   1.0    138    164    143    154     26     37     Uncharacterized protein L676 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L676 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004894262@NC_016072.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004894262@NC_016072.txt data/models_hmm/YP_004894262@NC_016072.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:38 2021
+# [ok]

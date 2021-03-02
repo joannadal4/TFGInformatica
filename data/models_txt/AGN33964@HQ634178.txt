@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P17765|POLG_BYMV     11.3      0.34   2   2.8   1.9    Genome polyprotein OS=Bean yellow mosaic virus OX=12197 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P17765|POLG_BYMV      5.1        29     1   0.0    661    698    670    694     41     65     Genome polyprotein OS=Bean yellow mosaic virus OX=12197 PE=3 SV=2
+sp|P17765|POLG_BYMV      4.0        63     2   0.6   2791   2828   2798   2825     66     93     Genome polyprotein OS=Bean yellow mosaic virus OX=12197 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGN33964@HQ634178.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGN33964@HQ634178.txt data/models_hmm/AGN33964@HQ634178.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:56 2021
+# [ok]

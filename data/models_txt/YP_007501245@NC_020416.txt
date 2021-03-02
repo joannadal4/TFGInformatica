@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P32287|Y13D_BPT4    166.6   1.7e-49   1   1.0   2.4    Uncharacterized 12.8 kDa protein in cd-pseT intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y13D PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P32287|Y13D_BPT4    166.5   1.9e-49     1   2.4      2    111      2    111      1    111     Uncharacterized 12.8 kDa protein in cd-pseT intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y13D PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007501245@NC_020416.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007501245@NC_020416.txt data/models_hmm/YP_007501245@NC_020416.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:59 2021
+# [ok]

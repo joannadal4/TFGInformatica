@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q06425|YO83_BPP2      79.8   1.5e-22   1   1.0   0.0    Uncharacterized 10.2 kDa protein in GpA 5'region OS=Escherichia phage P2 OX=10679 GN=ORF83 PE=4 SV=1
+sp|P41061|CP83_BP186     78.5   3.7e-22   1   1.0   0.5    Uncharacterized 10.4 kDa protein in GpA 5'region OS=Escherichia phage 186 OX=29252 GN=CP83 PE=4 SV=1
+sp|Q5UQR4|YR327_MIMIV     9.0       1.8   4   3.6   6.3    Uncharacterized protein R327 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R327 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q06425|YO83_BPP2      79.6   1.7e-22     1   0.0      1     90      2     86      2     86     Uncharacterized 10.2 kDa protein in GpA 5'region OS=Escherichia phage P2 OX=10679 GN=ORF83 PE=4 SV=1
+sp|P41061|CP83_BP186     78.5   3.9e-22     1   0.5      1     91      2     89      2     89     Uncharacterized 10.4 kDa protein in GpA 5'region OS=Escherichia phage 186 OX=29252 GN=CP83 PE=4 SV=1
+sp|Q5UQR4|YR327_MIMIV    10.5      0.63     4   0.1   1437   1507   1441   1504     37     90     Uncharacterized protein R327 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R327 PE=1 SV=1
+sp|Q5UQR4|YR327_MIMIV    -2.7   8.3e+03     2   0.1    462    493    465    486     52     73     Uncharacterized protein R327 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R327 PE=1 SV=1
+sp|Q5UQR4|YR327_MIMIV    -2.9   9.4e+03     3   0.0   1281   1334   1301   1333     32     64     Uncharacterized protein R327 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R327 PE=1 SV=1
+sp|Q5UQR4|YR327_MIMIV    -3.0     1e+04     1   0.1    338    384    347    365     54     72     Uncharacterized protein R327 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R327 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004327339@NC_015295.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004327339@NC_015295.txt data/models_hmm/YP_004327339@NC_015295.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:21 2021
+# [ok]

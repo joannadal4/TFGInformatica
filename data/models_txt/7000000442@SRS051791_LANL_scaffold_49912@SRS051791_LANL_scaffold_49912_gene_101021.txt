@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQB4|YL215_MIMIV    15.3     0.012   1   1.3   1.0    Putative ankyrin repeat protein L215 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L215 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQB4|YL215_MIMIV    14.7     0.018     1   0.9     49    114     66    106    103    143     Putative ankyrin repeat protein L215 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L215 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000442@SRS051791_LANL_scaffold_49912@SRS051791_LANL_scaffold_49912_gene_101021.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000442@SRS051791_LANL_scaffold_49912@SRS051791_LANL_scaffold_49912_gene_101021.txt data/models_hmm/7000000442@SRS051791_LANL_scaffold_49912@SRS051791_LANL_scaffold_49912_gene_101021.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:23 2021
+# [ok]

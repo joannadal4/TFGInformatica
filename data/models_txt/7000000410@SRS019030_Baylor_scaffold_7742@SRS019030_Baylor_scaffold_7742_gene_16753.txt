@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q25BI8|Y07_HIS1I     15.1     0.024   1   1.0   0.8    Uncharacterized protein ORF7 OS=His1 virus (isolate Australia/Victoria) OX=654912 GN=ORF7 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q25BI8|Y07_HIS1I     15.1     0.024     1   0.8      2     34      7     32     72     97     Uncharacterized protein ORF7 OS=His1 virus (isolate Australia/Victoria) OX=654912 GN=ORF7 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000410@SRS019030_Baylor_scaffold_7742@SRS019030_Baylor_scaffold_7742_gene_16753.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000410@SRS019030_Baylor_scaffold_7742@SRS019030_Baylor_scaffold_7742_gene_16753.txt data/models_hmm/7000000410@SRS019030_Baylor_scaffold_7742@SRS019030_Baylor_scaffold_7742_gene_16753.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:57 2021
+# [ok]

@@ -1,0 +1,41 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27269|AV2_TYLCI    210.3   6.5e-63   1   1.0   0.3    Protein V2 OS=Tomato yellow leaf curl virus (strain Israel) OX=66366 GN=V2 PE=1 SV=1
+sp|P14967|AV2_CLVN     198.5     3e-59   1   1.0   0.1    Uncharacterized 13.1 kDa protein OS=African cassava mosaic virus (isolate Nigerian) OX=222073 PE=3 SV=1
+sp|P61511|AV2_TYCSV    198.1     4e-59   1   1.0   0.1    Protein V2 OS=Tomato yellow leaf curl Sardinia virus OX=123735 GN=V2 PE=3 SV=1
+sp|P61512|AV2_TYCS1    198.1     4e-59   1   1.0   0.1    Protein V2 OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-1) OX=37139 GN=V2 PE=3 SV=1
+sp|Q9DXE9|AV2_TYLCC    197.6   5.7e-59   1   1.0   0.1    Protein V2 OS=Tomato yellow leaf curl China virus OX=185793 GN=V2 PE=3 SV=1
+sp|P14975|AV2_CLVK     196.0   1.8e-58   1   1.0   0.2    Protein AV2 OS=African cassava mosaic virus (isolate West Kenyan 844) OX=10818 PE=3 SV=1
+sp|Q67616|AV2_TYCS2    191.7   3.8e-57   1   1.0   0.2    Protein V2 OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-2) OX=221538 GN=V2 PE=3 SV=1
+sp|Q08593|AV2_ICMV     191.5   4.5e-57   1   1.0   0.1    Protein AV2 OS=Indian cassava mosaic virus OX=31600 GN=AV2 PE=3 SV=1
+sp|P36282|AV2_TLCVA    180.3   1.3e-53   1   1.0   0.4    Protein V2 OS=Tomato leaf curl virus (strain Australia) OX=223353 GN=V2 PE=3 SV=1
+sp|Q9YPS6|AV2_MYMVV    146.8   3.3e-43   1   1.0   0.1    Protein AV2 OS=Mungbean yellow mosaic virus (strain Vigna) OX=223295 GN=AV2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27269|AV2_TYLCI    210.2   7.2e-63     1   0.3      1    116      1    115      1    115     Protein V2 OS=Tomato yellow leaf curl virus (strain Israel) OX=66366 GN=V2 PE=1 SV=1
+sp|P14967|AV2_CLVN     198.4   3.3e-59     1   0.1      1    113      1    113      1    113     Uncharacterized 13.1 kDa protein OS=African cassava mosaic virus (isolate Nigerian) OX=222073 PE=3 SV=1
+sp|P61511|AV2_TYCSV    198.0   4.4e-59     1   0.1      1    115      1    115      1    116     Protein V2 OS=Tomato yellow leaf curl Sardinia virus OX=123735 GN=V2 PE=3 SV=1
+sp|P61512|AV2_TYCS1    198.0   4.4e-59     1   0.1      1    115      1    115      1    116     Protein V2 OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-1) OX=37139 GN=V2 PE=3 SV=1
+sp|Q9DXE9|AV2_TYLCC    197.5   6.3e-59     1   0.1      1    115      1    115      1    116     Protein V2 OS=Tomato yellow leaf curl China virus OX=185793 GN=V2 PE=3 SV=1
+sp|P14975|AV2_CLVK     195.8     2e-58     1   0.2      1    113      1    113      1    113     Protein AV2 OS=African cassava mosaic virus (isolate West Kenyan 844) OX=10818 PE=3 SV=1
+sp|Q67616|AV2_TYCS2    191.6   4.2e-57     1   0.2      1    115      1    115      1    116     Protein V2 OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-2) OX=221538 GN=V2 PE=3 SV=1
+sp|Q08593|AV2_ICMV     191.3     5e-57     1   0.1      1    112      1    112      1    113     Protein AV2 OS=Indian cassava mosaic virus OX=31600 GN=AV2 PE=3 SV=1
+sp|P36282|AV2_TLCVA    180.2   1.4e-53     1   0.4      1    115      1    115      1    116     Protein V2 OS=Tomato leaf curl virus (strain Australia) OX=223353 GN=V2 PE=3 SV=1
+sp|Q9YPS6|AV2_MYMVV    146.6   3.8e-43     1   0.1      1    115      1    111      1    111     Protein AV2 OS=Mungbean yellow mosaic virus (strain Vigna) OX=223295 GN=AV2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001661457@NC_010307.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001661457@NC_010307.txt data/models_hmm/YP_001661457@NC_010307.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:38 2021
+# [ok]

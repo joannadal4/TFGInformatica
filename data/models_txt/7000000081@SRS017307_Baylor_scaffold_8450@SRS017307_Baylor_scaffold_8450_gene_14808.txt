@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A1YTU9|NSP3_ROTHD    15.5     0.015   3   3.0   6.2    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/DS-1/1976/G2P1B[4]) OX=10950 PE=3 SV=1
+sp|A3DSK9|NSP3_ROTHL    14.9     0.023   3   3.1   6.8    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Philippines/L26/1987/G12P1B[4]) OX=10953 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A1YTU9|NSP3_ROTHD    10.8      0.43     2   1.2    174    243    183    230     13     56     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/DS-1/1976/G2P1B[4]) OX=10950 PE=3 SV=1
+sp|A3DSK9|NSP3_ROTHL    10.8      0.44     2   1.2    174    243    183    230     13     56     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Philippines/L26/1987/G12P1B[4]) OX=10953 PE=3 SV=2
+sp|A1YTU9|NSP3_ROTHD     6.0        14     3   0.1    249    295    252    289      4     39     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/DS-1/1976/G2P1B[4]) OX=10950 PE=3 SV=1
+sp|A3DSK9|NSP3_ROTHL     6.0        14     3   0.1    249    295    252    289      4     39     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Philippines/L26/1987/G12P1B[4]) OX=10953 PE=3 SV=2
+sp|A1YTU9|NSP3_ROTHD    -2.2   5.2e+03     1   0.0     65    109     70     80     14     24     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/United States/DS-1/1976/G2P1B[4]) OX=10950 PE=3 SV=1
+sp|A3DSK9|NSP3_ROTHL    -2.4     6e+03     1   0.0     66    109     70     80     14     24     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Philippines/L26/1987/G12P1B[4]) OX=10953 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000081@SRS017307_Baylor_scaffold_8450@SRS017307_Baylor_scaffold_8450_gene_14808.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000081@SRS017307_Baylor_scaffold_8450@SRS017307_Baylor_scaffold_8450_gene_14808.txt data/models_hmm/7000000081@SRS017307_Baylor_scaffold_8450@SRS017307_Baylor_scaffold_8450_gene_14808.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:21 2021
+# [ok]

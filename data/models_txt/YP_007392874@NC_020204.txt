@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q80HV8|A11_VACCW     12.0      0.16   3   3.4   2.2    Protein A11 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR130 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q80HV8|A11_VACCW      4.3        40     1   0.1    142    173    147    163      6     24     Protein A11 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR130 PE=1 SV=1
+sp|Q80HV8|A11_VACCW      2.9   1.1e+02     3   0.1    218    246    220    241     17     38     Protein A11 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR130 PE=1 SV=1
+sp|Q80HV8|A11_VACCW      2.4   1.6e+02     2   0.0    190    211    196    206     34     44     Protein A11 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR130 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007392874@NC_020204.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007392874@NC_020204.txt data/models_hmm/YP_007392874@NC_020204.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:56 2021
+# [ok]

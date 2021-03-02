@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P32098|D9_RFVKA      14.9     0.024   2   1.8   0.4    mRNA-decapping protein D9 OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=D9R PE=2 SV=2
+sp|Q91ID5|VP5_LDCPR     12.9       0.1   1   1.9   2.8    Putative structural protein VP5 OS=Lymantria dispar cypovirus 1 (isolate Rao) OX=648169 GN=S8 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P32098|D9_RFVKA      13.2     0.083     2   0.1    104    185    109    168     43    102     mRNA-decapping protein D9 OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=D9R PE=2 SV=2
+sp|Q91ID5|VP5_LDCPR     11.2      0.34     1   2.5    226    400    232    374     26    166     Putative structural protein VP5 OS=Lymantria dispar cypovirus 1 (isolate Rao) OX=648169 GN=S8 PE=4 SV=1
+sp|P32098|D9_RFVKA      -0.6   1.4e+03     1   0.0     37    100     64     80     72     94     mRNA-decapping protein D9 OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=D9R PE=2 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007501118@NC_020416.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007501118@NC_020416.txt data/models_hmm/YP_007501118@NC_020416.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:59 2021
+# [ok]

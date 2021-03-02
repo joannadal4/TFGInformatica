@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DSX9|RP18_VAR67   286.0   6.5e-86   1   1.0   2.0    DNA-directed RNA polymerase 18 kDa subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=RPO18 PE=2 SV=1
+sp|P0DSY0|RP18_VARV    286.0   6.5e-86   1   1.0   2.0    DNA-directed RNA polymerase 18 kDa subunit OS=Variola virus OX=10255 GN=RPO18 PE=2 SV=1
+sp|P04310|RP18_VACCW   283.7   3.3e-85   1   1.0   1.4    DNA-directed RNA polymerase 18 kDa subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=RPO18 PE=2 SV=1
+sp|Q76ZS0|RP18_VACCA   283.7   3.3e-85   1   1.0   1.4    DNA-directed RNA polymerase 18 kDa subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=RPO18 PE=1 SV=1
+sp|P21034|RP18_VACCC   282.4   8.1e-85   1   1.0   2.0    DNA-directed RNA polymerase 18 kDa subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=RPO18 PE=2 SV=1
+sp|P21967|RP18_FOWPN   269.1     1e-80   1   1.0   5.2    DNA-directed RNA polymerase 18 kDa subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO18 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DSX9|RP18_VAR67   285.8   7.2e-86     1   2.0      1    161      1    160      1    160     DNA-directed RNA polymerase 18 kDa subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=RPO18 PE=2 SV=1
+sp|P0DSY0|RP18_VARV    285.8   7.2e-86     1   2.0      1    161      1    160      1    160     DNA-directed RNA polymerase 18 kDa subunit OS=Variola virus OX=10255 GN=RPO18 PE=2 SV=1
+sp|P04310|RP18_VACCW   283.5   3.6e-85     1   1.4      1    161      1    160      1    160     DNA-directed RNA polymerase 18 kDa subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=RPO18 PE=2 SV=1
+sp|Q76ZS0|RP18_VACCA   283.5   3.6e-85     1   1.4      1    161      1    160      1    160     DNA-directed RNA polymerase 18 kDa subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=RPO18 PE=1 SV=1
+sp|P21034|RP18_VACCC   282.3     9e-85     1   2.0      1    161      1    160      1    160     DNA-directed RNA polymerase 18 kDa subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=RPO18 PE=2 SV=1
+sp|P21967|RP18_FOWPN   268.9   1.1e-80     1   5.2      1    161      1    160      1    160     DNA-directed RNA polymerase 18 kDa subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO18 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003457375@NC_013804.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003457375@NC_013804.txt data/models_hmm/YP_003457375@NC_013804.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:37 2021
+# [ok]

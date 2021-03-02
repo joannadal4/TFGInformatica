@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FV9|212L_IIV6     18.3    0.0019   2   2.2   2.3    Putative MSV199 domain-containing protein 212L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-212L PE=4 SV=1
+sp|P03274|CAP6_ADE02    13.5     0.058   1   1.2   0.1    Pre-protein VI OS=Human adenovirus C serotype 2 OX=10515 GN=L3 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FV9|212L_IIV6     15.5     0.014     2   1.5    170    245    181    242     19     80     Putative MSV199 domain-containing protein 212L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-212L PE=4 SV=1
+sp|P03274|CAP6_ADE02    12.8     0.089     1   0.1     38    107     40    104     16     78     Pre-protein VI OS=Human adenovirus C serotype 2 OX=10515 GN=L3 PE=1 SV=1
+sp|Q91FV9|212L_IIV6      0.8   4.5e+02     1   0.0    116    159    138    156     87    105     Putative MSV199 domain-containing protein 212L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-212L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000311@WSSedA1Ba3DRAFT_1000004@WSSedA1Ba3DRAFT_100000412.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000311@WSSedA1Ba3DRAFT_1000004@WSSedA1Ba3DRAFT_100000412.txt data/models_hmm/3300000311@WSSedA1Ba3DRAFT_1000004@WSSedA1Ba3DRAFT_100000412.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:23 2021
+# [ok]

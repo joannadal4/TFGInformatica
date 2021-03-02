@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q08538|CPM_BYVU      13.9     0.052   1   1.4   0.0    Minor capsid protein OS=Beet yellows virus (isolate Ukraine) OX=478555 GN=ORF5 PE=4 SV=1
+sp|Q914J5|Y035_SIFVH    12.4      0.15   3   2.7   0.4    Uncharacterized protein 35 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0035 PE=1 SV=1
+sp|P41730|YP73_GVCL     11.0      0.42   3   2.7   3.0    Uncharacterized protein in P7.3 3'region OS=Cryptophlebia leucotreta granulosis virus OX=35254 PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q08538|CPM_BYVU      13.0     0.094     1   0.0     76    139     84    121     11     52     Minor capsid protein OS=Beet yellows virus (isolate Ukraine) OX=478555 GN=ORF5 PE=4 SV=1
+sp|P41730|YP73_GVCL     10.1       0.8     3   0.5    279    345    295    334     33     72     Uncharacterized protein in P7.3 3'region OS=Cryptophlebia leucotreta granulosis virus OX=35254 PE=4 SV=2
+sp|Q914J5|Y035_SIFVH     6.8       8.3     1   0.1     46    100     52     76     12     36     Uncharacterized protein 35 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0035 PE=1 SV=1
+sp|Q914J5|Y035_SIFVH     2.6   1.7e+02     3   0.0    135    167    138    165     26     53     Uncharacterized protein 35 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0035 PE=1 SV=1
+sp|Q914J5|Y035_SIFVH    -0.9   2.1e+03     2   0.0     88    113     97    108     15     26     Uncharacterized protein 35 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0035 PE=1 SV=1
+sp|P41730|YP73_GVCL     -1.0   2.3e+03     2   0.0    196    246    209    240     14     45     Uncharacterized protein in P7.3 3'region OS=Cryptophlebia leucotreta granulosis virus OX=35254 PE=4 SV=2
+sp|P41730|YP73_GVCL     -1.9   4.2e+03     1   0.0    154    200    157    196     42     80     Uncharacterized protein in P7.3 3'region OS=Cryptophlebia leucotreta granulosis virus OX=35254 PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008241714@NC_021799.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008241714@NC_021799.txt data/models_hmm/YP_008241714@NC_021799.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:33 2021
+# [ok]

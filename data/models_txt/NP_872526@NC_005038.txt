@@ -1,0 +1,63 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZV6|019R_FRG3G     44.6   7.8e-12   3   3.1  31.6    Putative serine/threonine-protein kinase 019R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-019R PE=3 SV=1
+sp|Q5UPC0|YL041_MIMIV    17.8     0.001   1   1.2  21.1    Uncharacterized protein L41 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L41 PE=3 SV=1
+sp|Q5UP83|YL004_MIMIV    16.0    0.0035   1   1.2  28.3    Putative KilA-N domain-containing protein L4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L4 PE=4 SV=1
+sp|Q91FU0|VF232_IIV6     15.4    0.0052   4   4.1   4.1    Putative ubiquitin thioesterase 232R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-232R PE=3 SV=1
+sp|Q196W0|VF378_IIV3     15.3    0.0056   1   1.1  11.8    Uncharacterized protein 100L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-100L PE=3 SV=1
+sp|P41726|BVCP_GVCL      13.6     0.018   1   1.1  37.8    DNA-binding protein OS=Cryptophlebia leucotreta granulosis virus OX=35254 GN=P7.3 PE=4 SV=1
+sp|Q67815|CAPSD_HASV6     9.7      0.29   1   1.2  12.0    Capsid polyprotein VP90 OS=Human astrovirus-6 OX=37130 GN=ORF2 PE=3 SV=1
+sp|Q5UQ32|RPO6_MIMIV      9.6       0.3   1   1.1  29.4    DNA-directed RNA polymerase subunit 6 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R209 PE=3 SV=1
+sp|Q5UPA5|YL032_MIMIV     9.5      0.31   1   1.1  16.0    Putative KilA-N domain-containing protein L32 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L32 PE=4 SV=1
+sp|P50769|VE2_HPV23       9.3      0.36   1   1.1  34.4    Regulatory protein E2 OS=Human papillomavirus type 23 OX=37955 GN=E2 PE=3 SV=1
+sp|P24728|VPHE_NPVAC      9.2      0.39   1   1.2  31.8    Polyhedral envelope-associated phosphoprotein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=pp34 PE=1 SV=1
+sp|Q5UPJ3|YL116_MIMIV     8.9       0.5   2   2.0  70.1    Uncharacterized protein L116 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L116 PE=3 SV=1
+sp|Q6GZU4|032R_FRG3G      8.7      0.55   3   3.2  81.8    Uncharacterized protein 032R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-032R PE=4 SV=1
+sp|Q9IFX1|CAPSD_HASV8     7.1       1.7   1   1.2  12.3    Capsid polyprotein VP90 OS=Human astrovirus-8 OX=43358 GN=ORF2 PE=1 SV=2
+sp|Q3ZN05|CAPSD_HASV4     7.0       1.9   1   1.2  12.2    Capsid polyprotein VP90 OS=Human astrovirus-4 OX=35300 GN=ORF2 PE=3 SV=1
+sp|P50766|VE2_HPV20       5.8       4.1   1   1.1  73.7    Regulatory protein E2 OS=Human papillomavirus type 20 OX=31547 GN=E2 PE=3 SV=1
+sp|O12792|CAPSD_HASV1     5.1       7.1   1   1.2  17.8    Capsid polyprotein VP90 OS=Human astrovirus-1 OX=12456 GN=ORF2 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6GZV6|019R_FRG3G     31.0   9.7e-08     3  10.8    134    366    139    345     61    254     Putative serine/threonine-protein kinase 019R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-019R PE=3 SV=1
+sp|Q5UPC0|YL041_MIMIV    17.2    0.0015     1  21.1     42    224    122    205    314    390     Uncharacterized protein L41 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L41 PE=3 SV=1
+sp|Q91FU0|VF232_IIV6     15.4    0.0052     2   4.1     55    141     59    128     55    118     Putative ubiquitin thioesterase 232R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-232R PE=3 SV=1
+sp|Q5UP83|YL004_MIMIV    15.4    0.0054     1  28.3      2    112     18     94    328    404     Putative KilA-N domain-containing protein L4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L4 PE=4 SV=1
+sp|Q196W0|VF378_IIV3     14.9    0.0074     1  11.8      5    107     15     94     69    147     Uncharacterized protein 100L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-100L PE=3 SV=1
+sp|P41726|BVCP_GVCL      13.3     0.022     1  37.8      1     55      4     50    320    371     DNA-binding protein OS=Cryptophlebia leucotreta granulosis virus OX=35254 GN=P7.3 PE=4 SV=1
+sp|Q6GZU4|032R_FRG3G     12.9     0.031     1  33.5      4    156     12    129    293    405     Uncharacterized protein 032R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-032R PE=4 SV=1
+sp|Q6GZV6|019R_FRG3G     11.7     0.068     2   9.2     61    148     68    138     60    136     Putative serine/threonine-protein kinase 019R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-019R PE=3 SV=1
+sp|Q6GZV6|019R_FRG3G     10.6      0.15     1   1.5      1     78      5     68     60    123     Putative serine/threonine-protein kinase 019R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-019R PE=3 SV=1
+sp|Q67815|CAPSD_HASV6     9.2       0.4     1  12.0      1     91      7     75    321    393     Capsid polyprotein VP90 OS=Human astrovirus-6 OX=37130 GN=ORF2 PE=3 SV=1
+sp|Q5UPA5|YL032_MIMIV     9.2      0.41     1  16.0      3    101     14     67    320    375     Putative KilA-N domain-containing protein L32 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L32 PE=4 SV=1
+sp|Q5UQ32|RPO6_MIMIV      9.1      0.42     1  29.4    282    392    310    383    310    385     DNA-directed RNA polymerase subunit 6 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R209 PE=3 SV=1
+sp|P50769|VE2_HPV23       8.9      0.48     1  34.4    191    346    209    312    291    388     Regulatory protein E2 OS=Human papillomavirus type 23 OX=37955 GN=E2 PE=3 SV=1
+sp|P24728|VPHE_NPVAC      8.6       0.6     1  31.8     95    170     99    147    328    388     Polyhedral envelope-associated phosphoprotein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=pp34 PE=1 SV=1
+sp|Q6GZU4|032R_FRG3G      7.2       1.6     3  15.8    389    492    413    485     95    166     Uncharacterized protein 032R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-032R PE=4 SV=1
+sp|Q5UPJ3|YL116_MIMIV     6.8       2.2     2  40.3    174    300    181    269    319    421     Uncharacterized protein L116 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L116 PE=3 SV=1
+sp|Q91FU0|VF232_IIV6      6.7       2.3     3   3.3    160    230    173    197    115    143     Putative ubiquitin thioesterase 232R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-232R PE=3 SV=1
+sp|Q9IFX1|CAPSD_HASV8     6.4       2.8     1  12.3      2     85      8     72    322    390     Capsid polyprotein VP90 OS=Human astrovirus-8 OX=43358 GN=ORF2 PE=1 SV=2
+sp|Q3ZN05|CAPSD_HASV4     6.3       2.9     1  12.2      2     85      8     69    322    387     Capsid polyprotein VP90 OS=Human astrovirus-4 OX=35300 GN=ORF2 PE=3 SV=1
+sp|P50766|VE2_HPV20       5.3         6     1  73.7    199    407    210    393    289    469     Regulatory protein E2 OS=Human papillomavirus type 20 OX=31547 GN=E2 PE=3 SV=1
+sp|O12792|CAPSD_HASV1     4.5        10     1  17.8      1     91      5     75    319    393     Capsid polyprotein VP90 OS=Human astrovirus-1 OX=12456 GN=ORF2 PE=1 SV=1
+sp|Q5UPJ3|YL116_MIMIV     3.6        20     1  37.2     90    203    118    200    316    396     Uncharacterized protein L116 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L116 PE=3 SV=1
+sp|Q6GZU4|032R_FRG3G      0.7   1.5e+02     2  16.5    179    269    195    252    304    363     Uncharacterized protein 032R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-032R PE=4 SV=1
+sp|Q91FU0|VF232_IIV6     -2.5   1.4e+03     1   6.7     35     64     43     60    114    131     Putative ubiquitin thioesterase 232R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-232R PE=3 SV=1
+sp|Q91FU0|VF232_IIV6     -3.1   2.1e+03     4  43.0    240    358    257    324    322    391     Putative ubiquitin thioesterase 232R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-232R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_872526@NC_005038.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_872526@NC_005038.txt data/models_hmm/NP_872526@NC_005038.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:33 2021
+# [ok]

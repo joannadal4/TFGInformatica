@@ -1,0 +1,49 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P16666|IBMP_CAMVB    23.2   5.6e-05   2   1.8   0.1    Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain Bari 1) OX=10643 GN=ORF VI PE=1 SV=1
+sp|P03558|IBMP_CAMVC    22.9   7.1e-05   1   1.6   0.0    Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF VI PE=3 SV=1
+sp|Q7TBL3|IBMP_CYLCV    22.7     8e-05   1   1.8   0.0    Transactivator/viroplasmin protein OS=Cestrum yellow leaf curling virus OX=175814 GN=ORF VI PE=3 SV=1
+sp|Q00957|IBMP_CAMVN    22.1   0.00012   1   1.6   0.0    Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF VI PE=3 SV=2
+sp|Q05651|IBMP_CAMVW    22.0   0.00014   1   1.7   0.0    Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain W260) OX=31558 GN=ORF VI PE=3 SV=1
+sp|Q02954|IBMP_CAMVE    21.8   0.00016   1   1.6   0.0    Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF VI PE=3 SV=1
+sp|P03557|IBMP_CAMVD    21.7   0.00016   1   1.6   0.0    Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF VI PE=3 SV=2
+sp|P18617|IBMP_CAMVP    21.5   0.00019   1   1.6   0.0    Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF VI PE=3 SV=1
+sp|P13218|IBMP_CAMVJ    21.0   0.00026   1   1.6   0.0    Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain S-Japan) OX=10646 GN=ORF VI PE=3 SV=1
+sp|P03559|IBMP_CAMVS    20.6   0.00036   1   1.6   0.0    Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF VI PE=3 SV=1
+sp|P05401|IBMP_CERV     19.5   0.00075   1   1.5   0.1    Transactivator/viroplasmin protein OS=Carnation etched ring virus OX=10640 GN=ORF VI PE=3 SV=1
+sp|P22547|IBMP_CAMV4    18.6    0.0015   1   1.6   0.0    Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain D4) OX=10642 GN=ORF VI PE=3 SV=1
+sp|P15628|IBMP_SOCMV    18.3    0.0018   2   2.0   2.5    Transactivator/viroplasmin protein OS=Soybean chlorotic mottle virus OX=10651 GN=ORF VI PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03558|IBMP_CAMVC    21.6   0.00017     1   0.0    111    190    131    180     86    127     Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF VI PE=3 SV=1
+sp|P16666|IBMP_CAMVB    21.6   0.00017     1   0.0     89    192    137    181     86    127     Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain Bari 1) OX=10643 GN=ORF VI PE=1 SV=1
+sp|Q7TBL3|IBMP_CYLCV    21.2   0.00024     1   0.0    147    235    163    230     67    133     Transactivator/viroplasmin protein OS=Cestrum yellow leaf curling virus OX=175814 GN=ORF VI PE=3 SV=1
+sp|Q00957|IBMP_CAMVN    20.9   0.00029     1   0.0    111    191    131    180     86    127     Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF VI PE=3 SV=2
+sp|Q05651|IBMP_CAMVW    20.5   0.00037     1   0.0    112    190    134    180     86    127     Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain W260) OX=31558 GN=ORF VI PE=3 SV=1
+sp|P03557|IBMP_CAMVD    20.4    0.0004     1   0.0    111    186    134    180     86    127     Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF VI PE=3 SV=2
+sp|Q02954|IBMP_CAMVE    20.4   0.00041     1   0.0    112    190    137    180     84    127     Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF VI PE=3 SV=1
+sp|P18617|IBMP_CAMVP    20.3   0.00046     1   0.0    111    190    119    180     74    127     Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF VI PE=3 SV=1
+sp|P13218|IBMP_CAMVJ    19.8   0.00064     1   0.0     87    188    136    180     86    127     Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain S-Japan) OX=10646 GN=ORF VI PE=3 SV=1
+sp|P03559|IBMP_CAMVS    19.3   0.00093     1   0.0    118    190    138    180     85    127     Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF VI PE=3 SV=1
+sp|P05401|IBMP_CERV     18.5    0.0015     1   0.1     90    179    120    173     78    126     Transactivator/viroplasmin protein OS=Carnation etched ring virus OX=10640 GN=ORF VI PE=3 SV=1
+sp|P15628|IBMP_SOCMV    18.1     0.002     1   1.0     68    166     99    151     82    135     Transactivator/viroplasmin protein OS=Soybean chlorotic mottle virus OX=10651 GN=ORF VI PE=3 SV=2
+sp|P22547|IBMP_CAMV4    17.3    0.0037     1   0.0    109    190    137    180     84    127     Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain D4) OX=10642 GN=ORF VI PE=3 SV=1
+sp|P16666|IBMP_CAMVB    -3.1   7.2e+03     2   0.0    405    449    416    445     26     55     Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain Bari 1) OX=10643 GN=ORF VI PE=1 SV=1
+sp|P15628|IBMP_SOCMV    -3.4   9.1e+03     2   0.0    393    452    402    423     12     33     Transactivator/viroplasmin protein OS=Soybean chlorotic mottle virus OX=10651 GN=ORF VI PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000195@SRS017209_Baylor_scaffold_42805@SRS017209_Baylor_scaffold_42805_gene_57228.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000195@SRS017209_Baylor_scaffold_42805@SRS017209_Baylor_scaffold_42805_gene_57228.txt data/models_hmm/7000000195@SRS017209_Baylor_scaffold_42805@SRS017209_Baylor_scaffold_42805_gene_57228.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:17 2021
+# [ok]

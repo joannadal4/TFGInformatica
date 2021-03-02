@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P18771|FIBP_BPT4     20.3   0.00037   3   3.1   0.1    Long-tail fiber proximal subunit OS=Enterobacteria phage T4 OX=10665 GN=34 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P18771|FIBP_BPT4     15.4     0.013     1   0.0     82    170     90    150     13     70     Long-tail fiber proximal subunit OS=Enterobacteria phage T4 OX=10665 GN=34 PE=1 SV=2
+sp|P18771|FIBP_BPT4      0.7   5.1e+02     2   0.0    326    366    329    363      5     39     Long-tail fiber proximal subunit OS=Enterobacteria phage T4 OX=10665 GN=34 PE=1 SV=2
+sp|P18771|FIBP_BPT4     -2.5   5.1e+03     3   0.0   1164   1194   1171   1189     20     38     Long-tail fiber proximal subunit OS=Enterobacteria phage T4 OX=10665 GN=34 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000040@TBL_comb48_EPIDRAFT_100004032.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000040@TBL_comb48_EPIDRAFT_100004032.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000040@TBL_comb48_EPIDRAFT_100004032.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:38 2021
+# [ok]

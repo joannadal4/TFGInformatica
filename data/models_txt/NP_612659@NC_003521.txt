@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HAE6|UL15A_HCMVM   198.9   1.2e-59   1   1.0   3.4    Uncharacterized protein UL15A OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL15A PE=3 SV=1
+sp|P16844|UL15A_HCMVA   194.3   3.1e-58   1   1.0   3.0    Uncharacterized protein UL15A OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL15A PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HAE6|UL15A_HCMVM   198.7   1.3e-59     1   3.4      1    102      1    102      1    102     Uncharacterized protein UL15A OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL15A PE=3 SV=1
+sp|P16844|UL15A_HCMVA   194.2   3.4e-58     1   3.0      1    102      1    102      1    102     Uncharacterized protein UL15A OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL15A PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_612659@NC_003521.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_612659@NC_003521.txt data/models_hmm/NP_612659@NC_003521.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:10 2021
+# [ok]

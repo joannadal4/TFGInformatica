@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DOK9|A12_VAR67      6.9       1.6   1   1.1   7.2    25 kDa core protein A12L OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A12L PE=2 SV=1
+sp|P0DOL0|A12_VARV       6.9       1.6   1   1.1   7.2    25 kDa core protein A12L OS=Variola virus OX=10255 GN=A12L PE=2 SV=1
+sp|P23692|YL15_ADE41     5.3       4.8   1   1.0   8.2    Uncharacterized 12.4 kDa protein in 33 kDa protein region OS=Human adenovirus F serotype 41 OX=10524 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DOK9|A12_VAR67      6.5       2.1     1   7.2     26    126     54    121    422    489     25 kDa core protein A12L OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A12L PE=2 SV=1
+sp|P0DOL0|A12_VARV       6.5       2.1     1   7.2     26    126     54    121    422    489     25 kDa core protein A12L OS=Variola virus OX=10255 GN=A12L PE=2 SV=1
+sp|P23692|YL15_ADE41     5.1       5.5     1   8.2     28    111     38     92    412    465     Uncharacterized 12.4 kDa protein in 33 kDa protein region OS=Human adenovirus F serotype 41 OX=10524 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007003711@NC_019491.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007003711@NC_019491.txt data/models_hmm/YP_007003711@NC_019491.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:03 2021
+# [ok]

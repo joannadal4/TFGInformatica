@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P16011|BP53_BPT4     24.1   2.2e-05   3   1.9   0.4    Baseplate wedge protein gp53 OS=Enterobacteria phage T4 OX=10665 GN=53 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P16011|BP53_BPT4     24.1   2.2e-05     1   0.4     43    104     54     88    121    155     Baseplate wedge protein gp53 OS=Enterobacteria phage T4 OX=10665 GN=53 PE=1 SV=1
+sp|P16011|BP53_BPT4     -2.4     3e+03     2   0.0     89    134    107    127    110    129     Baseplate wedge protein gp53 OS=Enterobacteria phage T4 OX=10665 GN=53 PE=1 SV=1
+sp|P16011|BP53_BPT4     -2.6   3.4e+03     3   0.0    141    190    153    185     67     99     Baseplate wedge protein gp53 OS=Enterobacteria phage T4 OX=10665 GN=53 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000226@SI34jun09_135mDRAFT_1000033@SI34jun09_135mDRAFT_100003326.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000226@SI34jun09_135mDRAFT_1000033@SI34jun09_135mDRAFT_100003326.txt data/models_hmm/3300000226@SI34jun09_135mDRAFT_1000033@SI34jun09_135mDRAFT_100003326.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:00 2021
+# [ok]

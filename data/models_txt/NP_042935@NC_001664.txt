@@ -1,0 +1,44 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52355|ICP27_HHV7J   756.7  1.7e-227   1   1.0  15.8    mRNA export factor ICP27 homolog OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U42 PE=3 SV=1
+sp|P52354|ICP27_HHV6U   735.2  5.5e-221   1   1.0  15.3    mRNA export factor ICP27 homolog OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U42 PE=3 SV=1
+sp|P52539|ICP27_HHV6Z   720.5  1.6e-216   1   1.0  16.1    mRNA export factor ICP27 homolog OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=KA3L PE=3 SV=1
+sp|Q18LF8|ICP27_ELHVK   666.5  3.6e-200   1   1.3   5.3    mRNA export factor ICP27 homolog OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+sp|Q69154|ICP27_MUHVS   265.7   9.5e-79   2   2.7  11.5    mRNA export factor ICP27 homolog OS=Murid herpesvirus 1 (strain Smith) OX=10367 GN=UL69 PE=3 SV=1
+sp|Q6SW73|ICP27_HCMVM   237.5   3.3e-70   1   1.1   0.0    mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL69 PE=3 SV=1
+sp|P16749|ICP27_HCMVA   236.8   5.5e-70   1   1.1   0.0    mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL69 PE=1 SV=1
+sp|P28276|ICP27_HHV2H    12.0     0.071   1   1.2   0.0    mRNA export factor OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL54 PE=1 SV=1
+sp|P36295|ICP27_HHV1E    10.3      0.22   2   1.6   0.0    mRNA export factor OS=Human herpesvirus 1 (strain HFEM) OX=10303 GN=UL54 PE=1 SV=1
+sp|P10238|ICP27_HHV11    10.3      0.22   2   1.6   0.0    mRNA export factor OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL54 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52355|ICP27_HHV7J   756.4  2.1e-227     1  15.8      6    526     10    525     20    547     mRNA export factor ICP27 homolog OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U42 PE=3 SV=1
+sp|P52354|ICP27_HHV6U   735.0  6.2e-221     1  15.3      1    515      1    515     21    547     mRNA export factor ICP27 homolog OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U42 PE=3 SV=1
+sp|P52539|ICP27_HHV6Z   720.3  1.8e-216     1  16.1      1    516      1    516     21    547     mRNA export factor ICP27 homolog OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=KA3L PE=3 SV=1
+sp|Q18LF8|ICP27_ELHVK   665.8    6e-200     1   5.3      1    659      1    658    117    547     mRNA export factor ICP27 homolog OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+sp|Q69154|ICP27_MUHVS   257.0   4.3e-76     2  10.6    155    811    159    711    120    543     mRNA export factor ICP27 homolog OS=Murid herpesvirus 1 (strain Smith) OX=10367 GN=UL69 PE=3 SV=1
+sp|Q6SW73|ICP27_HCMVM   237.1   4.3e-70     1   0.0    132    650    209    639     75    480     mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL69 PE=3 SV=1
+sp|P16749|ICP27_HCMVA   236.4   7.4e-70     1   0.0    132    648    209    567     75    428     mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL69 PE=1 SV=1
+sp|P28276|ICP27_HHV2H    11.3      0.12     1   0.0    344    395    349    385    205    241     mRNA export factor OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL54 PE=1 SV=1
+sp|P36295|ICP27_HHV1E    10.3      0.22     2   0.0    346    394    351    384    208    241     mRNA export factor OS=Human herpesvirus 1 (strain HFEM) OX=10303 GN=UL54 PE=1 SV=1
+sp|P10238|ICP27_HHV11    10.3      0.22     2   0.0    347    395    352    385    208    241     mRNA export factor OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL54 PE=1 SV=1
+sp|Q69154|ICP27_MUHVS     6.5       3.3     1   0.0     10    137     47    113     40     99     mRNA export factor ICP27 homolog OS=Murid herpesvirus 1 (strain Smith) OX=10367 GN=UL69 PE=3 SV=1
+sp|P10238|ICP27_HHV11    -6.0   1.7e+04     1   2.0     16     41     17     40    524    547     mRNA export factor OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL54 PE=1 SV=1
+sp|P36295|ICP27_HHV1E    -6.0   1.7e+04     1   2.0     16     41     17     40    524    547     mRNA export factor OS=Human herpesvirus 1 (strain HFEM) OX=10303 GN=UL54 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_042935@NC_001664.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_042935@NC_001664.txt data/models_hmm/NP_042935@NC_001664.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:17 2021
+# [ok]

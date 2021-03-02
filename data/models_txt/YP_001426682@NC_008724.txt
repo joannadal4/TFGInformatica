@@ -1,0 +1,45 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q02966|VAT_CAMVE      14.1     0.034   1   1.7   3.0    Aphid transmission protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF II PE=3 SV=1
+sp|P89061|NSP4_ROTP5     13.6     0.047   1   1.3   3.1    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=1 SV=1
+sp|P03550|VAT_CAMVD      12.4      0.11   2   1.9   3.0    Aphid transmission protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF II PE=3 SV=1
+sp|P03548|VAT_CAMVS      12.3      0.12   1   1.6   3.2    Aphid transmission protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF II PE=3 SV=1
+sp|P03549|VAT_CAMVC      12.0      0.14   1   1.6   3.2    Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|P19818|VAT_CAMVP      11.8      0.17   1   1.7   2.4    Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+sp|Q00965|VAT_CAMVN      11.2      0.26   1   1.6   2.7    Aphid transmission protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF II PE=3 SV=1
+sp|P25884|SHDAG_HDVS2     6.9       5.3   2   1.7   5.4    Small delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese S-2) OX=10428 PE=3 SV=3
+sp|P69618|SHDAG_HDV83     6.7       6.1   2   1.7   5.8    Small delta antigen OS=Hepatitis delta virus genotype II (isolate 7/18/83) OX=10421 PE=3 SV=2
+sp|P69619|SHDAG_HDVS1     6.7       6.1   2   1.7   5.8    Small delta antigen OS=Hepatitis delta virus genotype II (isolate Japanese S-1) OX=10427 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q02966|VAT_CAMVE      13.3      0.06     1   3.0     21    157     85    136     36     80     Aphid transmission protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF II PE=3 SV=1
+sp|P89061|NSP4_ROTP5     13.0     0.072     1   3.1     48    134     59    122     28     88     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=1 SV=1
+sp|P03548|VAT_CAMVS      11.7      0.19     1   3.2     21    158     85    147     36     90     Aphid transmission protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF II PE=3 SV=1
+sp|P03549|VAT_CAMVC      11.4      0.23     1   3.2     21    158     84    147     35     90     Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|P19818|VAT_CAMVP      11.2      0.26     1   2.2     22    154     85    132     36     78     Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+sp|P03550|VAT_CAMVD      11.1      0.27     2   2.2     60    158     87    147     38     90     Aphid transmission protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF II PE=3 SV=1
+sp|Q00965|VAT_CAMVN      10.6      0.41     1   2.7     21    158     85    147     36     90     Aphid transmission protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF II PE=3 SV=1
+sp|P69618|SHDAG_HDV83    10.4      0.44     1   0.4      1     55     15     50     49     84     Small delta antigen OS=Hepatitis delta virus genotype II (isolate 7/18/83) OX=10421 PE=3 SV=2
+sp|P69619|SHDAG_HDVS1    10.4      0.44     1   0.4      1     55     15     50     49     84     Small delta antigen OS=Hepatitis delta virus genotype II (isolate Japanese S-1) OX=10427 PE=3 SV=2
+sp|P25884|SHDAG_HDVS2    10.3      0.49     1   0.3      1     54     15     50     49     84     Small delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese S-2) OX=10428 PE=3 SV=3
+sp|P03550|VAT_CAMVD       0.7   4.4e+02     1   0.0     19     89     27     76     39     92     Aphid transmission protein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF II PE=3 SV=1
+sp|P25884|SHDAG_HDVS2    -1.7   2.3e+03     2   0.7     91    144    107    121     68     82     Small delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese S-2) OX=10428 PE=3 SV=3
+sp|P69618|SHDAG_HDV83    -1.7   2.3e+03     2   0.7     91    144    107    121     68     82     Small delta antigen OS=Hepatitis delta virus genotype II (isolate 7/18/83) OX=10421 PE=3 SV=2
+sp|P69619|SHDAG_HDVS1    -1.7   2.3e+03     2   0.7     91    144    107    121     68     82     Small delta antigen OS=Hepatitis delta virus genotype II (isolate Japanese S-1) OX=10427 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001426682@NC_008724.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001426682@NC_008724.txt data/models_hmm/YP_001426682@NC_008724.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:15 2021
+# [ok]

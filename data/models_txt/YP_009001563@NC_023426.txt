@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CA70|VF169_ASFK5    12.3      0.12   1   1.2   3.3    Transmembrane protein B169L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-088 PE=3 SV=1
+sp|P0CA72|VF169_ASFWA    11.5      0.22   1   1.2   4.0    Transmembrane protein B169L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-086 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CA70|VF169_ASFK5    11.9      0.17     1   3.3      9     94     27     79     21     74     Transmembrane protein B169L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-088 PE=3 SV=1
+sp|P0CA72|VF169_ASFWA    11.1       0.3     1   4.0      9     95     27     79     21     74     Transmembrane protein B169L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-086 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_009001563@NC_023426.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_009001563@NC_023426.txt data/models_hmm/YP_009001563@NC_023426.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:48 2021
+# [ok]

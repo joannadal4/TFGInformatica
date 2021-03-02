@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P57020|REGQ_BPP22    12.8     0.086   2   2.2   2.1    Antitermination protein OS=Salmonella phage P22 OX=10754 GN=23 PE=3 SV=2
+sp|O80286|REGQ_BPPS3    10.0      0.62   2   2.0   3.9    Antitermination protein OS=Bacteriophage PS34 OX=83127 GN=23 PE=3 SV=1
+sp|Q02582|REGQ_BPHK0     9.9      0.67   2   2.0   4.4    Antitermination protein OS=Escherichia phage HK022 OX=10742 GN=Q PE=3 SV=1
+sp|P03047|REGQ_LAMBD     9.8       0.7   2   2.0   4.3    Antitermination protein Q OS=Escherichia phage lambda OX=10710 GN=Q PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P57020|REGQ_BPP22    11.5      0.21     1   0.1    114    135    117    131      6     20     Antitermination protein OS=Salmonella phage P22 OX=10754 GN=23 PE=3 SV=2
+sp|P03047|REGQ_LAMBD     8.2       2.3     1   3.8    115    147    117    131      6     20     Antitermination protein Q OS=Escherichia phage lambda OX=10710 GN=Q PE=1 SV=1
+sp|O80286|REGQ_BPPS3     7.8         3     1   3.9    115    149    117    131      6     20     Antitermination protein OS=Bacteriophage PS34 OX=83127 GN=23 PE=3 SV=1
+sp|Q02582|REGQ_BPHK0     7.7       3.2     1   4.4    115    149    117    131      6     20     Antitermination protein OS=Escherichia phage HK022 OX=10742 GN=Q PE=3 SV=1
+sp|P57020|REGQ_BPP22     0.2   7.4e+02     2   0.2    139    155    142    151      5     14     Antitermination protein OS=Salmonella phage P22 OX=10754 GN=23 PE=3 SV=2
+sp|O80286|REGQ_BPPS3    -1.0   1.7e+03     2   0.4    136    153    142    151      5     14     Antitermination protein OS=Bacteriophage PS34 OX=83127 GN=23 PE=3 SV=1
+sp|Q02582|REGQ_BPHK0    -1.1   1.8e+03     2   0.4    138    153    142    151      5     14     Antitermination protein OS=Escherichia phage HK022 OX=10742 GN=Q PE=3 SV=1
+sp|P03047|REGQ_LAMBD    -1.2   1.9e+03     2   0.5    139    154    142    151      5     14     Antitermination protein Q OS=Escherichia phage lambda OX=10710 GN=Q PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001683@GBIDBA_10000091@GBIDBA_1000009110.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001683@GBIDBA_10000091@GBIDBA_1000009110.txt data/models_hmm/3300001683@GBIDBA_10000091@GBIDBA_1000009110.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:05 2021
+# [ok]

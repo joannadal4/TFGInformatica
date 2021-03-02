@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q7TLR9|VP91_NPVCF    43.1   1.6e-11   2   1.9   5.8    Capsid-associated protein Vp91 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=ORF78 PE=3 SV=1
+sp|O10336|VP91_NPVOP    43.0   1.7e-11   2   2.0   3.4    Capsid-associated protein Vp91 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=p91 PE=3 SV=1
+sp|O92446|VP91_NPVBM    42.7   2.1e-11   1   1.5  19.6    Capsid-associated protein Vp91 OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=p95 PE=3 SV=1
+sp|Q06670|AC83_NPVAC    38.1   5.2e-10   1   1.5  18.6    Capsid-associated protein AC83 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=p95 PE=3 SV=1
+sp|Q91GH8|VP91_NPVEP    37.4   8.1e-10   1   2.6  28.6    Capsid-associated protein Vp91 OS=Epiphyas postvittana nucleopolyhedrovirus OX=70600 GN=ORF75 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O10336|VP91_NPVOP    43.0   1.7e-11     2   3.4    180    432    188    389    204    396     Capsid-associated protein Vp91 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=p91 PE=3 SV=1
+sp|Q7TLR9|VP91_NPVCF    42.6   2.1e-11     2   3.9    172    398    184    372    200    379     Capsid-associated protein Vp91 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=ORF78 PE=3 SV=1
+sp|O92446|VP91_NPVBM    41.7   4.1e-11     1  19.6      1    443      4    432     26    438     Capsid-associated protein Vp91 OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=p95 PE=3 SV=1
+sp|Q06670|AC83_NPVAC    37.0   1.1e-09     1  18.6      1    442     97    408    110    423     Capsid-associated protein AC83 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=p95 PE=3 SV=1
+sp|Q91GH8|VP91_NPVEP    34.3   7.1e-09     1  28.6      1    430    186    414    202    430     Capsid-associated protein Vp91 OS=Epiphyas postvittana nucleopolyhedrovirus OX=70600 GN=ORF75 PE=3 SV=1
+sp|Q7TLR9|VP91_NPVCF    -0.7   2.7e+02     1   0.0    101    166    113    156    203    245     Capsid-associated protein Vp91 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=ORF78 PE=3 SV=1
+sp|O10336|VP91_NPVOP    -1.9   6.3e+02     1   0.0    122    161    133    158    222    247     Capsid-associated protein Vp91 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=p91 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002321417@NC_011588.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002321417@NC_011588.txt data/models_hmm/YP_002321417@NC_011588.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:05 2021
+# [ok]

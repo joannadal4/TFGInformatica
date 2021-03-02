@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27962|VE6_HPVME     15.8     0.006   1   1.1   0.2    Protein E6 OS=Human papillomavirus type ME180 OX=10602 GN=E6 PE=3 SV=1
+sp|P54667|VE6_HPV68     14.2     0.018   1   1.1   0.3    Protein E6 OS=Human papillomavirus type 68 OX=45240 GN=E6 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27962|VE6_HPVME     15.5    0.0077     1   0.2     65    155     81    133    141    190     Protein E6 OS=Human papillomavirus type ME180 OX=10602 GN=E6 PE=3 SV=1
+sp|P54667|VE6_HPV68     14.0     0.022     1   0.3     65    158     81    153    141    211     Protein E6 OS=Human papillomavirus type 68 OX=45240 GN=E6 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000443@SRS058808_LANL_scaffold_17042@SRS058808_LANL_scaffold_17042_gene_18599.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000443@SRS058808_LANL_scaffold_17042@SRS058808_LANL_scaffold_17042_gene_18599.txt data/models_hmm/7000000443@SRS058808_LANL_scaffold_17042@SRS058808_LANL_scaffold_17042_gene_18599.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:26 2021
+# [ok]

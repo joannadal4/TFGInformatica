@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q7TLR9|VP91_NPVCF    13.8     0.053   1   2.0   0.0    Capsid-associated protein Vp91 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=ORF78 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q7TLR9|VP91_NPVCF    11.9       0.2     1   0.0     44    119     59    110     46     97     Capsid-associated protein Vp91 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=ORF78 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH26799@HQ634177.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH26799@HQ634177.txt data/models_hmm/AGH26799@HQ634177.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:40 2021
+# [ok]

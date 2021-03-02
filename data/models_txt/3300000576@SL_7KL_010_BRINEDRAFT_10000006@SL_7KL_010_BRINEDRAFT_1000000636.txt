@@ -1,0 +1,57 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91G57|041L_IIV6      11.7       0.2   2   2.4  12.7    Uncharacterized protein 041L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-041L PE=4 SV=1
+sp|Q5UPW8|YR292_MIMIV    11.3      0.27   1   2.4   7.6    Uncharacterized protein R292 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R292 PE=4 SV=1
+sp|P03548|VAT_CAMVS      10.9      0.36   1   2.0   3.0    Aphid transmission protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF II PE=3 SV=1
+sp|Q02966|VAT_CAMVE       9.1       1.3   1   2.1   3.7    Aphid transmission protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF II PE=3 SV=1
+sp|Q5UQN1|YR435_MIMIV     8.0       2.9   4   4.3  21.9    Uncharacterized protein R435 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R435 PE=4 SV=1
+sp|P03536|NSP3_ROTS1      7.8       3.3   3   3.6  10.5    Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=1 SV=1
+sp|Q00721|NSP3_ROTS4      6.7       7.2   2   3.6  12.0    Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-4F/G3P6[1]) OX=36436 PE=1 SV=1
+sp|Q8UZL8|NSP3_ROTRH      6.5       8.5   4   3.5  13.5    Non-structural protein 3 OS=Rotavirus A (strain RVA/Monkey/United States/RRV/1975/G3P5B[3]) OX=444185 PE=1 SV=1
+sp|A2T3N5|NSP3_ROTSH      6.4         9   3   3.6  12.5    Non-structural protein 3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=3 SV=1
+sp|Q91F87|438L_IIV6       6.4       9.2   1   2.2  11.7    Probable deoxyuridine 5'-triphosphate nucleotidohydrolase OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-438L PE=3 SV=1
+sp|A4ZCW4|NSP3_ROTH3      6.2        10   3   3.5  12.9    Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91G57|041L_IIV6      11.8      0.19     2   7.6     59    121     75    118     30     73     Uncharacterized protein 041L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-041L PE=4 SV=1
+sp|Q5UQN1|YR435_MIMIV    10.0      0.67     2   5.1     74    147     95    133     32     70     Uncharacterized protein R435 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R435 PE=4 SV=1
+sp|P03548|VAT_CAMVS       9.2       1.2     1   3.0     21    156     84    138     21     72     Aphid transmission protein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF II PE=3 SV=1
+sp|Q5UPW8|YR292_MIMIV     8.5         2     1   7.6     38    179    121    164     23     67     Uncharacterized protein R292 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R292 PE=4 SV=1
+sp|Q02966|VAT_CAMVE       7.3       4.5     1   3.7     20    156     84    139     21     69     Aphid transmission protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF II PE=3 SV=1
+sp|Q8UZL8|NSP3_ROTRH      7.1       5.6     3   2.1    193    252    200    237     30     67     Non-structural protein 3 OS=Rotavirus A (strain RVA/Monkey/United States/RRV/1975/G3P5B[3]) OX=444185 PE=1 SV=1
+sp|Q5UQN1|YR435_MIMIV     6.9       6.2     3   0.1    155    273    169    257     37     68     Uncharacterized protein R435 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R435 PE=4 SV=1
+sp|P03536|NSP3_ROTS1      6.8       6.6     3   1.3    191    252    195    237     26     67     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=1 SV=1
+sp|A4ZCW4|NSP3_ROTH3      6.7       6.9     3   1.9    194    255    200    237     30     67     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=3 SV=2
+sp|Q00721|NSP3_ROTS4      6.4         9     2   2.1    191    252    195    237     26     67     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-4F/G3P6[1]) OX=36436 PE=1 SV=1
+sp|A2T3N5|NSP3_ROTSH      6.3       9.3     3   2.2    191    252    195    237     26     67     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=3 SV=1
+sp|Q8UZL8|NSP3_ROTRH      4.6        33     2   0.8    142    197    151    191     35     73     Non-structural protein 3 OS=Rotavirus A (strain RVA/Monkey/United States/RRV/1975/G3P5B[3]) OX=444185 PE=1 SV=1
+sp|P03536|NSP3_ROTS1      4.5        35     2   0.5    123    197    151    192     35     74     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=1 SV=1
+sp|Q91F87|438L_IIV6       4.3        41     1  11.7      3    120     48     94     27     71     Probable deoxyuridine 5'-triphosphate nucleotidohydrolase OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-438L PE=3 SV=1
+sp|A2T3N5|NSP3_ROTSH      4.2        44     2   0.7    132    196    151    192     35     74     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=3 SV=1
+sp|A4ZCW4|NSP3_ROTH3      3.9        54     2   0.9    132    199    151    193     35     69     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=3 SV=2
+sp|Q00721|NSP3_ROTS4      3.4        78     1   2.1     39    197    151    192     35     74     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-4F/G3P6[1]) OX=36436 PE=1 SV=1
+sp|Q91G57|041L_IIV6       1.8   2.3e+02     1   1.6      8     75     37     59     42     64     Uncharacterized protein 041L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-041L PE=4 SV=1
+sp|A4ZCW4|NSP3_ROTH3      1.1     4e+02     1   0.0     82    129     94    114     50     70     Non-structural protein 3 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=3 SV=2
+sp|A2T3N5|NSP3_ROTSH      1.1   4.1e+02     1   0.0     61    126     95    113     51     69     Non-structural protein 3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=3 SV=1
+sp|Q8UZL8|NSP3_ROTRH      1.0   4.4e+02     1   0.0     67    142     94    113     50     69     Non-structural protein 3 OS=Rotavirus A (strain RVA/Monkey/United States/RRV/1975/G3P5B[3]) OX=444185 PE=1 SV=1
+sp|P03536|NSP3_ROTS1      0.8   4.9e+02     1   0.0     61    126     95    114     51     70     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=1 SV=1
+sp|Q5UQN1|YR435_MIMIV    -0.8   1.6e+03     1   0.1     50     95     54     80     28     54     Uncharacterized protein R435 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R435 PE=4 SV=1
+sp|Q5UQN1|YR435_MIMIV    -0.9   1.7e+03     4   2.7    272    341    290    318     38     66     Uncharacterized protein R435 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R435 PE=4 SV=1
+sp|Q8UZL8|NSP3_ROTRH     -2.0   3.8e+03     4   0.1    226    288    257    257     41     41     Non-structural protein 3 OS=Rotavirus A (strain RVA/Monkey/United States/RRV/1975/G3P5B[3]) OX=444185 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000576@SL_7KL_010_BRINEDRAFT_10000006@SL_7KL_010_BRINEDRAFT_1000000636.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000576@SL_7KL_010_BRINEDRAFT_10000006@SL_7KL_010_BRINEDRAFT_1000000636.txt data/models_hmm/3300000576@SL_7KL_010_BRINEDRAFT_10000006@SL_7KL_010_BRINEDRAFT_1000000636.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:11 2021
+# [ok]

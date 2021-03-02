@@ -1,0 +1,48 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P16139|CAP6_ADE41    352.1  2.8e-105   1   1.0   1.5    Pre-protein VI OS=Human adenovirus F serotype 41 OX=10524 GN=L3 PE=3 SV=2
+sp|P48309|CAP6_ADE40    349.9  1.4e-104   1   1.0   1.5    Pre-protein VI OS=Human adenovirus F serotype 40 OX=28284 GN=L3 PE=3 SV=1
+sp|P35988|CAP6_ADE12    341.5  4.9e-102   1   1.0   0.6    Pre-protein VI OS=Human adenovirus A serotype 12 OX=28282 GN=L3 PE=1 SV=1
+sp|P03274|CAP6_ADE02    306.4   2.6e-91   1   1.4   7.8    Pre-protein VI OS=Human adenovirus C serotype 2 OX=10515 GN=L3 PE=1 SV=1
+sp|P24937|CAP6_ADE05    306.1   3.3e-91   1   1.4   7.1    Pre-protein VI OS=Human adenovirus C serotype 5 OX=28285 GN=L3 PE=1 SV=1
+sp|Q96686|CAP6_ADECR    305.8     4e-91   1   1.0   1.0    Pre-protein VI OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=L3 PE=3 SV=1
+sp|Q65954|CAP6_ADECC    305.0   7.1e-91   1   1.0   0.6    Pre-protein VI OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=L3 PE=3 SV=1
+sp|P48310|CAP6_ADEM1    243.9   3.3e-72   1   1.0   0.3    Pre-protein VI OS=Murine adenovirus A serotype 1 OX=10530 GN=L3 PE=3 SV=1
+sp|Q64757|CAP6_ADEG1    218.4     2e-64   1   1.9  13.3    Pre-protein VI OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=L3 PE=3 SV=1
+sp|Q8JN68|CAP6_ADES1    174.7   4.2e-51   2   2.0   4.3    Pre-protein VI OS=Snake adenovirus serotype 1 OX=189830 GN=L3 PE=3 SV=1
+sp|Q96627|CAP6_ADEB2     77.4   2.3e-21   1   1.0   6.7    Pre-protein VI (Fragment) OS=Bovine adenovirus 2 OX=114429 GN=L3 PE=2 SV=1
+sp|P33868|F8_VAR67       13.0       0.1   1   1.0   1.3    Protein F8 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C12L PE=3 SV=1
+sp|P18570|VP7_ROTGA      12.8      0.12   1   1.1   0.1    Outer capsid glycoprotein VP7 OS=Rotavirus B (isolate RVB/Human/China/ADRV/1982) OX=10942 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P16139|CAP6_ADE41    351.9  3.2e-105     1   1.5      1    266      1    266      1    246     Pre-protein VI OS=Human adenovirus F serotype 41 OX=10524 GN=L3 PE=3 SV=2
+sp|P48309|CAP6_ADE40    349.7  1.6e-104     1   1.5      1    267      1    267      1    246     Pre-protein VI OS=Human adenovirus F serotype 40 OX=28284 GN=L3 PE=3 SV=1
+sp|P35988|CAP6_ADE12    341.4  5.6e-102     1   0.6      1    265      1    265      1    246     Pre-protein VI OS=Human adenovirus A serotype 12 OX=28282 GN=L3 PE=1 SV=1
+sp|P03274|CAP6_ADE02    305.6   4.5e-91     1   7.8      1    250      1    250      1    246     Pre-protein VI OS=Human adenovirus C serotype 2 OX=10515 GN=L3 PE=1 SV=1
+sp|Q96686|CAP6_ADECR    305.6   4.5e-91     1   1.0      1    238      1    238      1    246     Pre-protein VI OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=L3 PE=3 SV=1
+sp|P24937|CAP6_ADE05    305.3   5.8e-91     1   7.1      1    250      1    250      1    246     Pre-protein VI OS=Human adenovirus C serotype 5 OX=28285 GN=L3 PE=1 SV=1
+sp|Q65954|CAP6_ADECC    304.8   7.9e-91     1   0.6      1    238      1    238      1    246     Pre-protein VI OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=L3 PE=3 SV=1
+sp|P48310|CAP6_ADEM1    243.7   3.7e-72     1   0.3      1    237      1    237      1    246     Pre-protein VI OS=Murine adenovirus A serotype 1 OX=10530 GN=L3 PE=3 SV=1
+sp|Q64757|CAP6_ADEG1    214.2   3.6e-63     1  13.3      1    223      1    223      4    246     Pre-protein VI OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=L3 PE=3 SV=1
+sp|Q8JN68|CAP6_ADES1    132.9   2.5e-38     1   1.8      1    143      1    138      4    137     Pre-protein VI OS=Snake adenovirus serotype 1 OX=189830 GN=L3 PE=3 SV=1
+sp|Q96627|CAP6_ADEB2     77.3   2.4e-21     1   6.7      1     43      1     43      1     43     Pre-protein VI (Fragment) OS=Bovine adenovirus 2 OX=114429 GN=L3 PE=2 SV=1
+sp|Q8JN68|CAP6_ADES1     44.6   2.3e-11     2   0.1    130    223    138    223    170    246     Pre-protein VI OS=Snake adenovirus serotype 1 OX=189830 GN=L3 PE=3 SV=1
+sp|P33868|F8_VAR67       13.1     0.093     1   1.3      1     65      7     48    141    185     Protein F8 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C12L PE=3 SV=1
+sp|P18570|VP7_ROTGA      12.3      0.17     1   0.1    213    248    215    242     35     62     Outer capsid glycoprotein VP7 OS=Rotavirus B (isolate RVB/Human/China/ADRV/1982) OX=10942 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002822215@NC_012584.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002822215@NC_012584.txt data/models_hmm/YP_002822215@NC_012584.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:10 2021
+# [ok]

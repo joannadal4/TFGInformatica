@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q80LT4|LEF11_NPVAH    13.3     0.061   1   1.0   2.2    Late expression factor 11 OS=Adoxophyes honmai nucleopolyhedrovirus OX=224399 GN=LEF-11 PE=3 SV=1
+sp|Q6R7J7|Y026_OSHVF      7.3       4.7   3   2.9   5.7    Uncharacterized protein ORF26 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF26 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q80LT4|LEF11_NPVAH    13.1      0.07     1   2.2      1    106      1     99      1     98     Late expression factor 11 OS=Adoxophyes honmai nucleopolyhedrovirus OX=224399 GN=LEF-11 PE=3 SV=1
+sp|Q6R7J7|Y026_OSHVF      6.2       9.8     3   0.7    272    320    287    318     81    112     Uncharacterized protein ORF26 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF26 PE=4 SV=1
+sp|Q6R7J7|Y026_OSHVF      2.5   1.4e+02     1   0.0     98    136    113    134     40     61     Uncharacterized protein ORF26 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF26 PE=4 SV=1
+sp|Q6R7J7|Y026_OSHVF     -4.0   1.4e+04     2   0.1    239    257    242    256     95    109     Uncharacterized protein ORF26 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF26 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001866@JGI24729J20445_1000117@JGI24729J20445_1000117109.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001866@JGI24729J20445_1000117@JGI24729J20445_1000117109.txt data/models_hmm/3300001866@JGI24729J20445_1000117@JGI24729J20445_1000117109.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:29 2021
+# [ok]

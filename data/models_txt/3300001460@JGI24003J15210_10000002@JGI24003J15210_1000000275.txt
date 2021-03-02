@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91G56|042R_IIV6      9.2       1.4   2   2.1   9.7    Uncharacterized protein 042R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-042R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91G56|042R_IIV6     13.3     0.074     2   1.7     38     94     53     88     28     63     Uncharacterized protein 042R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-042R PE=4 SV=1
+sp|Q91G56|042R_IIV6      0.3   8.2e+02     1   2.2      2     51     10     25     49     64     Uncharacterized protein 042R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-042R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001460@JGI24003J15210_10000002@JGI24003J15210_1000000275.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001460@JGI24003J15210_10000002@JGI24003J15210_1000000275.txt data/models_hmm/3300001460@JGI24003J15210_10000002@JGI24003J15210_1000000275.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:32 2021
+# [ok]

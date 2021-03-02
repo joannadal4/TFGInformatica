@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8QL23|Y158B_SIRV1    15.1     0.021   3   2.6   0.8    Uncharacterized protein 158B OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=158b PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8QL23|Y158B_SIRV1    11.6      0.26     3   0.0    113    158    132    158     24     50     Uncharacterized protein 158B OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=158b PE=4 SV=1
+sp|Q8QL23|Y158B_SIRV1     0.8   5.7e+02     1   0.0     16     43     20     38     45     63     Uncharacterized protein 158B OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=158b PE=4 SV=1
+sp|Q8QL23|Y158B_SIRV1    -1.1   2.2e+03     2   0.0     58    118     90    103     69     82     Uncharacterized protein 158B OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=158b PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000060@MIS_10000060194.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000060@MIS_10000060194.txt data/models_hmm/3300002026@MIS_10000060@MIS_10000060194.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:42 2021
+# [ok]

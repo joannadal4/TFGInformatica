@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P69037|FP25_NPVAC    11.9      0.17   2   2.5   1.9    Protein FP25 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=FP PE=1 SV=1
+sp|P69038|FP_NPVGM      11.9      0.17   2   2.5   1.9    FP protein OS=Galleria mellonella nuclear polyhedrosis virus OX=307468 GN=FP PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P69037|FP25_NPVAC     8.2       2.5     1   0.1     38     67     41     60      9     28     Protein FP25 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=FP PE=1 SV=1
+sp|P69038|FP_NPVGM       8.2       2.5     1   0.1     38     67     41     60      9     28     FP protein OS=Galleria mellonella nuclear polyhedrosis virus OX=307468 GN=FP PE=4 SV=1
+sp|P69037|FP25_NPVAC     2.8   1.2e+02     2   0.2    184    214    189    212      8     31     Protein FP25 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=FP PE=1 SV=1
+sp|P69038|FP_NPVGM       2.8   1.2e+02     2   0.2    184    214    189    212      8     31     FP protein OS=Galleria mellonella nuclear polyhedrosis virus OX=307468 GN=FP PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_049960@NC_000871.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_049960@NC_000871.txt data/models_hmm/NP_049960@NC_000871.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:34 2021
+# [ok]

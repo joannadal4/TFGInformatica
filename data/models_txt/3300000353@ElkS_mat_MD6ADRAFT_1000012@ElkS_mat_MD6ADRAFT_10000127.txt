@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P12326|P9_WTV        11.6       0.2   2   2.6   0.4    Minor outer capsid protein P9 OS=Wound tumor virus OX=10987 GN=S11 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P12326|P9_WTV         6.0        11     2   0.1    141    182    153    174     22     43     Minor outer capsid protein P9 OS=Wound tumor virus OX=10987 GN=S11 PE=3 SV=1
+sp|P12326|P9_WTV         3.0        93     1   0.0     39     66     43     59     20     36     Minor outer capsid protein P9 OS=Wound tumor virus OX=10987 GN=S11 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000353@ElkS_mat_MD6ADRAFT_1000012@ElkS_mat_MD6ADRAFT_10000127.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000353@ElkS_mat_MD6ADRAFT_1000012@ElkS_mat_MD6ADRAFT_10000127.txt data/models_hmm/3300000353@ElkS_mat_MD6ADRAFT_1000012@ElkS_mat_MD6ADRAFT_10000127.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:24 2021
+# [ok]

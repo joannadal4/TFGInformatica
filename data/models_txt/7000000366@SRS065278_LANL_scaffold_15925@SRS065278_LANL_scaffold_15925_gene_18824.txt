@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q66626|VG23_EHV2      22.5   3.3e-05   1   1.1   4.0    Uncharacterized gene 23 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=23 PE=3 SV=1
+sp|Q5UR81|YL633_MIMIV     7.3       1.3   1   1.1   5.2    Putative lectin L633 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L633 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q66626|VG23_EHV2      22.1   4.3e-05     1   4.0    149    256    169    246     42    113     Uncharacterized gene 23 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=23 PE=3 SV=1
+sp|Q5UR81|YL633_MIMIV     7.1       1.5     1   5.2     25    115     35     89     34     87     Putative lectin L633 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L633 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000366@SRS065278_LANL_scaffold_15925@SRS065278_LANL_scaffold_15925_gene_18824.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000366@SRS065278_LANL_scaffold_15925@SRS065278_LANL_scaffold_15925_gene_18824.txt data/models_hmm/7000000366@SRS065278_LANL_scaffold_15925@SRS065278_LANL_scaffold_15925_gene_18824.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:37 2021
+# [ok]

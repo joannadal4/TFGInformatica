@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q79666|POL_HV1MV     12.3      0.11   1   1.7   0.0    Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group O (isolate MVP5180) OX=388816 GN=gag-pol PE=3 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q79666|POL_HV1MV     10.9      0.29     1   0.0   1259   1291   1269   1284     38     53     Gag-Pol polyprotein OS=Human immunodeficiency virus type 1 group O (isolate MVP5180) OX=388816 GN=gag-pol PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004030778@NC_006884.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004030778@NC_006884.txt data/models_hmm/YP_004030778@NC_006884.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:02 2021
+# [ok]

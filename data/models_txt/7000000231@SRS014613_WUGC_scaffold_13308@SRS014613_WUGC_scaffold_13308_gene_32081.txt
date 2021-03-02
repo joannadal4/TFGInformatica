@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O70790|PHOSP_RYSV    16.2    0.0067   1   1.7   0.2    Phosphoprotein OS=Rice yellow stunt virus OX=59380 GN=P PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O70790|PHOSP_RYSV    14.8     0.018     1   0.2    231    306    241    292     12     61     Phosphoprotein OS=Rice yellow stunt virus OX=59380 GN=P PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000231@SRS014613_WUGC_scaffold_13308@SRS014613_WUGC_scaffold_13308_gene_32081.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000231@SRS014613_WUGC_scaffold_13308@SRS014613_WUGC_scaffold_13308_gene_32081.txt data/models_hmm/7000000231@SRS014613_WUGC_scaffold_13308@SRS014613_WUGC_scaffold_13308_gene_32081.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:39 2021
+# [ok]

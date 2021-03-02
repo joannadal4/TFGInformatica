@@ -1,0 +1,41 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q00028|VP16_EHV4    613.4    2e-184   1   1.0   0.1    Tegument protein VP16 homolog OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=12 PE=3 SV=2
+sp|P28938|VP16_EHV1B   608.7  5.4e-183   1   1.0   0.0    Tegument protein VP16 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=12 PE=3 SV=1
+sp|Q77MR5|VP16_GAHVM   586.8  2.4e-176   1   1.0   2.3    Tegument protein VP16 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV061 PE=3 SV=1
+sp|Q4JQW5|VP16_VZVO    577.7  1.4e-173   1   1.0   0.1    Tegument protein VP16 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF10 PE=3 SV=1
+sp|P09265|VP16_VZVD    576.8  2.6e-173   1   1.0   0.1    Tegument protein VP16 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF10 PE=1 SV=1
+sp|P68335|VP16_HHV23   570.1  2.8e-171   1   1.0   0.0    Tegument protein VP16 OS=Human herpesvirus 2 (strain 333) OX=10313 GN=UL48 PE=3 SV=1
+sp|P68336|VP16_HHV2H   570.1  2.8e-171   1   1.0   0.0    Tegument protein VP16 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL48 PE=1 SV=1
+sp|P06492|VP16_HHV11   560.7  1.9e-168   1   1.0   0.0    Tegument protein VP16 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL48 PE=1 SV=1
+sp|P04486|VP16_HHV1F   559.6  4.3e-168   1   1.0   0.0    Tegument protein VP16 OS=Human herpesvirus 1 (strain F) OX=10304 GN=UL48 PE=1 SV=2
+sp|P30020|VP16_BHV1P   484.1  3.4e-145   1   1.1   0.0    Tegument protein VP16 homolog OS=Bovine herpesvirus 1.1 (strain P8-2) OX=10324 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q00028|VP16_EHV4    613.2  2.3e-184     1   0.1      7    454      8    453      2    440     Tegument protein VP16 homolog OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=12 PE=3 SV=2
+sp|P28938|VP16_EHV1B   608.5  6.2e-183     1   0.0     31    479     45    478     11    440     Tegument protein VP16 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=12 PE=3 SV=1
+sp|Q77MR5|VP16_GAHVM   586.7  2.6e-176     1   2.3     17    427     18    423      2    404     Tegument protein VP16 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV061 PE=3 SV=1
+sp|Q4JQW5|VP16_VZVO    577.4  1.7e-173     1   0.1      5    410     15    408     14    409     Tegument protein VP16 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF10 PE=3 SV=1
+sp|P09265|VP16_VZVD    576.6  3.1e-173     1   0.1      5    410     16    408     15    409     Tegument protein VP16 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF10 PE=1 SV=1
+sp|P68335|VP16_HHV23   569.8  3.3e-171     1   0.0      5    481     28    480     28    440     Tegument protein VP16 OS=Human herpesvirus 2 (strain 333) OX=10313 GN=UL48 PE=3 SV=1
+sp|P68336|VP16_HHV2H   569.8  3.3e-171     1   0.0      5    481     28    480     28    440     Tegument protein VP16 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL48 PE=1 SV=1
+sp|P06492|VP16_HHV11   560.4  2.4e-168     1   0.0      6    481     28    480     26    440     Tegument protein VP16 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL48 PE=1 SV=1
+sp|P04486|VP16_HHV1F   559.3  5.2e-168     1   0.0      5    481     28    480     26    440     Tegument protein VP16 OS=Human herpesvirus 1 (strain F) OX=10304 GN=UL48 PE=1 SV=2
+sp|P30020|VP16_BHV1P   483.6    5e-145     1   0.0      7    378     19    356     13    357     Tegument protein VP16 homolog OS=Bovine herpesvirus 1.1 (strain P8-2) OX=10324 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001033977@NC_002229.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001033977@NC_002229.txt data/models_hmm/YP_001033977@NC_002229.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:53 2021
+# [ok]

@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6WHE8|TSP_BPKVM     26.2   2.4e-06   4   3.4   1.8    Tail sheath protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=18 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6WHE8|TSP_BPKVM     11.3     0.079     4   0.0    442    661    459    659    432    635     Tail sheath protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=18 PE=3 SV=1
+sp|Q6WHE8|TSP_BPKVM      7.2       1.4     1   0.1     23    161     36     90     39     93     Tail sheath protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=18 PE=3 SV=1
+sp|Q6WHE8|TSP_BPKVM      4.9       6.8     2   0.0    285    381    299    344    230    280     Tail sheath protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=18 PE=3 SV=1
+sp|Q6WHE8|TSP_BPKVM     -2.8   1.4e+03     3   0.0    371    418    398    417    389    407     Tail sheath protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=18 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000513@SRS047824_WUGC_scaffold_2288@SRS047824_WUGC_scaffold_2288_gene_3262.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000513@SRS047824_WUGC_scaffold_2288@SRS047824_WUGC_scaffold_2288_gene_3262.txt data/models_hmm/7000000513@SRS047824_WUGC_scaffold_2288@SRS047824_WUGC_scaffold_2288_gene_3262.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:57 2021
+# [ok]

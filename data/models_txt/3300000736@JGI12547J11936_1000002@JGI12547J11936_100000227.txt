@@ -1,0 +1,100 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O21882|TMP_BPLSK      20.4   0.00016   4   4.8  27.1    Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|D3WAD2|TMP_BPLP2      18.7   0.00053   5   4.9  27.9    Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|E7DNB6|TMP_BPDP1      16.6    0.0023   4   5.6   4.2    Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|Q06690|AC76_NPVAC     13.8     0.016   1   1.1   0.3    Protein Ac76 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=Ac76 PE=1 SV=1
+sp|Q573D5|Y554_AFV2P     13.4      0.02   2   2.1   1.4    Uncharacterized protein ORF554 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF554 PE=4 SV=1
+sp|Q02385|SPIKE_CVMJC    12.4     0.041   1   1.4   0.2    Spike glycoprotein OS=Murine coronavirus (strain JHMV / variant CL-2) OX=33735 GN=S PE=1 SV=1
+sp|A1XIP9|POL1_TOTV      12.0     0.057   1   1.3   6.8    RNA1 polyprotein OS=Tomato torrado virus (isolate Solanum lycopersicum/Spain/PRIToTV0301/-) OX=686948 PE=3 SV=1
+sp|P11225|SPIKE_CVMJH    11.9      0.06   1   1.4   0.4    Spike glycoprotein OS=Murine coronavirus (strain JHM) OX=11144 GN=S PE=1 SV=1
+sp|P22432|SPIKE_CVM4     11.7     0.071   1   1.4   0.4    Spike glycoprotein OS=Murine coronavirus (strain 4) OX=12760 GN=S PE=3 SV=1
+sp|Q65730|POLG_BSTV1     10.6      0.15   2   1.5   2.2    Genome polyprotein OS=Brome streak virus (strain 11-Cal) OX=117138 PE=3 SV=1
+sp|Q6XQC4|TMP_BPT1        9.8      0.25   3   3.1   6.7    Tape measure protein OS=Escherichia phage T1 OX=1921008 GN=38 PE=3 SV=1
+sp|Q0ZME4|VME1_CVHN5      8.9      0.49   1   1.1  11.8    Membrane protein OS=Human coronavirus HKU1 (isolate N5) OX=443241 GN=M PE=3 SV=1
+sp|Q14EA7|VME1_CVHN2      8.2       0.8   1   1.1  12.2    Membrane protein OS=Human coronavirus HKU1 (isolate N2) OX=443240 GN=M PE=3 SV=1
+sp|O64220|VG26_BPMD2      7.7       1.1   4   3.5   9.1    Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|P69599|VME1_CVBLS      7.2       1.6   1   1.1  12.5    Membrane protein OS=Bovine coronavirus (strain LSU-94LSS-051) OX=233261 GN=M PE=3 SV=1
+sp|P69600|VME1_CVBOK      7.2       1.6   1   1.1  12.5    Membrane protein OS=Bovine coronavirus (strain OK-0514) OX=231432 GN=M PE=3 SV=1
+sp|Q8V433|VME1_CVBLU      7.2       1.6   1   1.1  12.5    Membrane protein OS=Bovine coronavirus (strain 98TXSF-110-LUN) OX=233264 GN=M PE=3 SV=1
+sp|P69703|VME1_CVBF       7.1       1.7   1   1.1  12.9    Membrane protein OS=Bovine coronavirus (strain F15) OX=11129 GN=M PE=3 SV=1
+sp|P69704|VME1_CVBM       7.1       1.7   1   1.1  12.9    Membrane protein OS=Bovine coronavirus (strain Mebus) OX=11132 GN=M PE=1 SV=1
+sp|P69705|VME1_CVBQ       7.1       1.7   1   1.1  12.9    Membrane protein OS=Bovine coronavirus (strain Quebec) OX=11133 GN=M PE=3 SV=1
+sp|Q9QAR9|VME1_CVBLY      7.1       1.7   1   1.1  12.9    Membrane protein OS=Bovine coronavirus (strain LY-138) OX=11131 GN=M PE=3 SV=1
+sp|Q8BB24|VME1_CVP67      7.0       1.8   1   1.1  13.1    Membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain 67N) OX=230237 GN=M PE=3 SV=1
+sp|P08549|VME1_CVMJH      6.8       2.1   1   1.1  13.9    Membrane protein OS=Murine coronavirus (strain JHM) OX=11144 GN=M PE=1 SV=1
+sp|Q91A23|VME1_CVBEN      6.6       2.3   1   1.1  12.2    Membrane protein OS=Bovine coronavirus (strain 98TXSF-110-ENT) OX=233262 GN=M PE=3 SV=1
+sp|Q05233|VG26_BPML5      6.5       2.5   4   3.6   9.8    Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q9WCD1|VME1_CVRNJ      6.5       2.6   1   1.1  12.8    Membrane protein (Fragment) OS=Rat coronavirus (strain NJ) OX=231433 GN=M PE=3 SV=1
+sp|Q9IKC7|VME1_CVRSD      5.9       3.8   1   1.1  13.2    Membrane protein OS=Rat coronavirus (strain 681) OX=33740 GN=M PE=3 SV=1
+sp|Q8JSP5|VME1_CVPIA      5.9       3.9   1   1.1  12.8    Membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain IAF-404) OX=230236 GN=M PE=3 SV=1
+sp|Q01455|VME1_CVHOC      5.4       5.5   1   1.1  14.7    Membrane protein OS=Human coronavirus OC43 OX=31631 GN=M PE=1 SV=1
+sp|P03415|VME1_CVMA5      5.3       5.9   1   1.1  13.5    Membrane protein OS=Murine coronavirus (strain A59) OX=11142 GN=M PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|E7DNB6|TMP_BPDP1      16.6    0.0023     1   4.2    301    557    312    451    115    241     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|D3WAD2|TMP_BPLP2      15.2    0.0058     5   0.0    829    947    838    937    100    198     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|O21882|TMP_BPLSK      15.2     0.006     4   0.0    830    947    838    937    100    198     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|Q06690|AC76_NPVAC     13.5      0.02     1   0.3      9     62     17     60     21     64     Protein Ac76 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=Ac76 PE=1 SV=1
+sp|Q65730|POLG_BSTV1     11.5     0.079     1   0.1    186    302    207    298    412    498     Genome polyprotein OS=Brome streak virus (strain 11-Cal) OX=117138 PE=3 SV=1
+sp|Q02385|SPIKE_CVMJC    11.4     0.084     1   0.2   1016   1098   1022   1088     95    161     Spike glycoprotein OS=Murine coronavirus (strain JHMV / variant CL-2) OX=33735 GN=S PE=1 SV=1
+sp|A1XIP9|POL1_TOTV      11.1       0.1     1   6.8      6    193     10    170     90    233     RNA1 polyprotein OS=Tomato torrado virus (isolate Solanum lycopersicum/Spain/PRIToTV0301/-) OX=686948 PE=3 SV=1
+sp|P11225|SPIKE_CVMJH    10.8      0.13     1   0.4    875    954    881    946     95    160     Spike glycoprotein OS=Murine coronavirus (strain JHM) OX=11144 GN=S PE=1 SV=1
+sp|P22432|SPIKE_CVM4     10.6      0.14     1   0.4   1016   1095   1022   1087     95    160     Spike glycoprotein OS=Murine coronavirus (strain 4) OX=12760 GN=S PE=3 SV=1
+sp|Q573D5|Y554_AFV2P     10.0      0.22     1   0.5     27    127     40    111    114    181     Uncharacterized protein ORF554 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF554 PE=4 SV=1
+sp|O21882|TMP_BPLSK       9.2      0.39     2   1.3    571    705    579    701    113    235     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|Q0ZME4|VME1_CVHN5      8.5      0.66     1  11.8     20    133     25    118    174    249     Membrane protein OS=Human coronavirus HKU1 (isolate N5) OX=443241 GN=M PE=3 SV=1
+sp|Q14EA7|VME1_CVHN2      7.8       1.1     1  12.2     20    133     25    118    174    249     Membrane protein OS=Human coronavirus HKU1 (isolate N2) OX=443240 GN=M PE=3 SV=1
+sp|D3WAD2|TMP_BPLP2       6.8       2.1     2   4.6    570    720    580    703    114    237     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|P69599|VME1_CVBLS      6.7       2.2     1  12.5     20    136     29    122    174    249     Membrane protein OS=Bovine coronavirus (strain LSU-94LSS-051) OX=233261 GN=M PE=3 SV=1
+sp|P69600|VME1_CVBOK      6.7       2.2     1  12.5     20    136     29    122    174    249     Membrane protein OS=Bovine coronavirus (strain OK-0514) OX=231432 GN=M PE=3 SV=1
+sp|Q8V433|VME1_CVBLU      6.7       2.2     1  12.5     20    136     29    122    174    249     Membrane protein OS=Bovine coronavirus (strain 98TXSF-110-LUN) OX=233264 GN=M PE=3 SV=1
+sp|P69703|VME1_CVBF       6.7       2.3     1  12.9     20    136     29    122    174    249     Membrane protein OS=Bovine coronavirus (strain F15) OX=11129 GN=M PE=3 SV=1
+sp|P69704|VME1_CVBM       6.7       2.3     1  12.9     20    136     29    122    174    249     Membrane protein OS=Bovine coronavirus (strain Mebus) OX=11132 GN=M PE=1 SV=1
+sp|P69705|VME1_CVBQ       6.7       2.3     1  12.9     20    136     29    122    174    249     Membrane protein OS=Bovine coronavirus (strain Quebec) OX=11133 GN=M PE=3 SV=1
+sp|Q9QAR9|VME1_CVBLY      6.7       2.3     1  12.9     20    136     29    122    174    249     Membrane protein OS=Bovine coronavirus (strain LY-138) OX=11131 GN=M PE=3 SV=1
+sp|Q8BB24|VME1_CVP67      6.7       2.3     1  13.1     19    138     29    122    174    249     Membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain 67N) OX=230237 GN=M PE=3 SV=1
+sp|Q6XQC4|TMP_BPT1        6.6       2.4     1   0.1    302    383    308    372     99    163     Tape measure protein OS=Escherichia phage T1 OX=1921008 GN=38 PE=3 SV=1
+sp|P08549|VME1_CVMJH      6.4       2.7     1  13.9     27    150     30    123    174    249     Membrane protein OS=Murine coronavirus (strain JHM) OX=11144 GN=M PE=1 SV=1
+sp|Q91A23|VME1_CVBEN      6.2       3.1     1  12.2     20    136     29    122    174    249     Membrane protein OS=Bovine coronavirus (strain 98TXSF-110-ENT) OX=233262 GN=M PE=3 SV=1
+sp|Q9WCD1|VME1_CVRNJ      6.1       3.3     1  12.8     20    138     23    117    173    249     Membrane protein (Fragment) OS=Rat coronavirus (strain NJ) OX=231433 GN=M PE=3 SV=1
+sp|D3WAD2|TMP_BPLP2       5.8       4.3     3   9.4    658    802    664    796    100    235     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|D3WAD2|TMP_BPLP2       5.6       4.9     4   0.1    769    870    781    869    108    195     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|Q8JSP5|VME1_CVPIA      5.6       4.9     1  12.8     19    138     29    122    174    249     Membrane protein OS=Porcine hemagglutinating encephalomyelitis virus (strain IAF-404) OX=230236 GN=M PE=3 SV=1
+sp|Q9IKC7|VME1_CVRSD      5.6         5     1  13.2     26    143     29    123    173    249     Membrane protein OS=Rat coronavirus (strain 681) OX=33740 GN=M PE=3 SV=1
+sp|O21882|TMP_BPLSK       5.4       5.7     3   9.2    659    836    664    795    100    234     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|Q01455|VME1_CVHOC      5.1       7.1     1  14.7     19    136     29    122    174    249     Membrane protein OS=Human coronavirus OC43 OX=31631 GN=M PE=1 SV=1
+sp|P03415|VME1_CVMA5      5.0       7.5     1  13.5     27    149     30    123    174    249     Membrane protein OS=Murine coronavirus (strain A59) OX=11142 GN=M PE=1 SV=1
+sp|O64220|VG26_BPMD2      4.9       7.7     3   2.4    414    566    458    541    119    202     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|Q6XQC4|TMP_BPT1        4.3        12     3   1.4    759    843    786    827    121    162     Tape measure protein OS=Escherichia phage T1 OX=1921008 GN=38 PE=3 SV=1
+sp|O64220|VG26_BPMD2      4.3        12     2   0.3    217    437    283    335    156    209     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|Q05233|VG26_BPML5      3.9        16     3   1.9    285    508    325    427    127    229     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q05233|VG26_BPML5      3.6        20     2   0.1    218    354    241    336    113    209     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|E7DNB6|TMP_BPDP1       3.3        24     2   4.3    886   1007    911    993    109    191     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|Q05233|VG26_BPML5      3.0        31     1   0.1    173    291    195    274    105    189     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q573D5|Y554_AFV2P      2.1        57     2   0.0    114    234    133    220    112    199     Uncharacterized protein ORF554 OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF554 PE=4 SV=1
+sp|Q05233|VG26_BPML5      2.1        57     4   0.1    501    615    539    590    131    182     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|O21882|TMP_BPLSK       1.9        62     1   5.7    409    569    420    557     98    230     Probable tape measure protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|D3WAD2|TMP_BPLP2      -0.1   2.6e+02     1   6.0    409    577    426    554    104    229     Probable tape measure protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|O64220|VG26_BPMD2     -0.5   3.4e+02     1   0.0    182    280    192    236    103    147     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|E7DNB6|TMP_BPDP1      -1.2   5.6e+02     3   0.0   1007   1061   1012   1060    127    173     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|Q6XQC4|TMP_BPT1       -1.5   6.9e+02     2   0.0    403    500    413    481    108    172     Tape measure protein OS=Escherichia phage T1 OX=1921008 GN=38 PE=3 SV=1
+sp|O64220|VG26_BPMD2     -2.3   1.2e+03     4   0.0    594    635    599    631    112    144     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|Q65730|POLG_BSTV1     -4.3     5e+03     2   0.4   1688   1778   1692   1752    403    463     Genome polyprotein OS=Brome streak virus (strain 11-Cal) OX=117138 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000736@JGI12547J11936_1000002@JGI12547J11936_100000227.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000736@JGI12547J11936_1000002@JGI12547J11936_100000227.txt data/models_hmm/3300000736@JGI12547J11936_1000002@JGI12547J11936_100000227.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:14 2021
+# [ok]

@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UNW1|YR707_MIMIV    16.7    0.0029   1   1.4   0.8    Uncharacterized protein R707 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R707 PE=4 SV=1
+sp|P12436|VP5_BTV1A      14.9      0.01   2   2.3   1.6    Outer capsid protein VP5 OS=Bluetongue virus 1 (isolate Australia) OX=10904 GN=Segment-6 PE=3 SV=1
+sp|P33475|VP5_BTV1S      12.8     0.046   2   2.4   1.2    Outer capsid protein VP5 OS=Bluetongue virus 1 (isolate South Africa) OX=10905 GN=Segment-6 PE=3 SV=1
+sp|P30209|VP5_BTV2A      12.3     0.062   2   2.3   1.1    Outer capsid protein VP5 OS=Bluetongue virus 2 (isolate USA) OX=10907 GN=Segment-6 PE=3 SV=1
+sp|Q01175|VP5_EHDV1      12.3     0.064   1   1.5   0.1    Outer capsid protein VP5 OS=Epizootic hemorrhagic disease virus 1 OX=33720 GN=Segment-6 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UNW1|YR707_MIMIV    15.8    0.0056     1   0.8    206    278    209    272    142    205     Uncharacterized protein R707 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R707 PE=4 SV=1
+sp|Q01175|VP5_EHDV1      11.3      0.13     1   0.1    317    411    362    397    166    201     Outer capsid protein VP5 OS=Epizootic hemorrhagic disease virus 1 OX=33720 GN=Segment-6 PE=3 SV=1
+sp|P12436|VP5_BTV1A       9.2      0.56     2   0.0    286    408    352    395    156    201     Outer capsid protein VP5 OS=Bluetongue virus 1 (isolate Australia) OX=10904 GN=Segment-6 PE=3 SV=1
+sp|P33475|VP5_BTV1S       9.2      0.57     2   0.0    342    428    356    420    160    226     Outer capsid protein VP5 OS=Bluetongue virus 1 (isolate South Africa) OX=10905 GN=Segment-6 PE=3 SV=1
+sp|P30209|VP5_BTV2A       7.5       1.9     2   0.1    284    404    353    394    157    200     Outer capsid protein VP5 OS=Bluetongue virus 2 (isolate USA) OX=10907 GN=Segment-6 PE=3 SV=1
+sp|P12436|VP5_BTV1A       4.6        14     1   0.3    104    194    121    185    181    244     Outer capsid protein VP5 OS=Bluetongue virus 1 (isolate Australia) OX=10904 GN=Segment-6 PE=3 SV=1
+sp|P30209|VP5_BTV2A       3.4        34     1   0.2    108    193    121    185    181    244     Outer capsid protein VP5 OS=Bluetongue virus 2 (isolate USA) OX=10907 GN=Segment-6 PE=3 SV=1
+sp|P33475|VP5_BTV1S       0.9   1.9e+02     1   0.1    110    191    131    185    190    244     Outer capsid protein VP5 OS=Bluetongue virus 1 (isolate South Africa) OX=10905 GN=Segment-6 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001715@JGI24517J20059_1000098@JGI24517J20059_100009830.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001715@JGI24517J20059_1000098@JGI24517J20059_100009830.txt data/models_hmm/3300001715@JGI24517J20059_1000098@JGI24517J20059_100009830.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:14 2021
+# [ok]

@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13333|TUBE_BPT4     52.3   5.9e-14   1   1.1   0.1    Tail tube protein gp19 OS=Enterobacteria phage T4 OX=10665 GN=19 PE=1 SV=1
+sp|Q38435|TUBE_BPT6     50.5     2e-13   1   1.1   0.1    Tail tube protein gp19 OS=Enterobacteria phage T6 OX=10666 GN=19 PE=3 SV=1
+sp|P85992|TUBE_BPSK9    44.4   1.5e-11   1   1.1   0.0    Tail tube protein OS=Serratia phage KSP90 OX=552528 PE=1 SV=2
+sp|P13341|BP54_BPT4     32.4   7.3e-08   1   1.9   0.8    Baseplate tail-tube junction protein gp54 OS=Enterobacteria phage T4 OX=10665 GN=54 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13333|TUBE_BPT4     52.1   6.7e-14     1   0.1      8    163     30    162     42    172     Tail tube protein gp19 OS=Enterobacteria phage T4 OX=10665 GN=19 PE=1 SV=1
+sp|Q38435|TUBE_BPT6     50.3   2.3e-13     1   0.1      8    163     30    162     42    172     Tail tube protein gp19 OS=Enterobacteria phage T6 OX=10666 GN=19 PE=3 SV=1
+sp|P85992|TUBE_BPSK9    44.2   1.8e-11     1   0.0      4    174     42    167     44    168     Tail tube protein OS=Serratia phage KSP90 OX=552528 PE=1 SV=2
+sp|P13341|BP54_BPT4     30.2   3.4e-07     1   0.8      6    290    119    273     42    189     Baseplate tail-tube junction protein gp54 OS=Enterobacteria phage T4 OX=10665 GN=54 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007517890@NC_020484.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007517890@NC_020484.txt data/models_hmm/YP_007517890@NC_020484.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:02 2021
+# [ok]

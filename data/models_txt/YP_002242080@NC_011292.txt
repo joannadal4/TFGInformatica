@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q84123|MVP_ORSVC     14.1     0.043   2   1.7   0.0    Movement protein OS=Odontoglossum ringspot virus (isolate Korean Cy) OX=138661 GN=MP PE=3 SV=1
+sp|P22590|MVP_ORSVJ     12.4      0.14   2   1.7   0.0    Movement protein OS=Odontoglossum ringspot virus (isolate Japan) OX=138307 GN=MP PE=3 SV=1
+sp|Q84135|MVP_ORSVS     12.3      0.16   2   1.7   0.0    Movement protein OS=Odontoglossum ringspot virus (isolate Singapore 1) OX=138662 GN=MP PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q84123|MVP_ORSVC     12.5      0.13     2   0.0    211    299    221    291     18     92     Movement protein OS=Odontoglossum ringspot virus (isolate Korean Cy) OX=138661 GN=MP PE=3 SV=1
+sp|P22590|MVP_ORSVJ     10.9      0.41     2   0.0    211    299    220    291     17     92     Movement protein OS=Odontoglossum ringspot virus (isolate Japan) OX=138307 GN=MP PE=3 SV=1
+sp|Q84135|MVP_ORSVS     10.8      0.45     2   0.0    211    299    220    291     17     92     Movement protein OS=Odontoglossum ringspot virus (isolate Singapore 1) OX=138662 GN=MP PE=3 SV=1
+sp|P22590|MVP_ORSVJ     -2.6     6e+03     1   0.0    112    159    122    147     33     58     Movement protein OS=Odontoglossum ringspot virus (isolate Japan) OX=138307 GN=MP PE=3 SV=1
+sp|Q84123|MVP_ORSVC     -2.6     6e+03     1   0.0    112    159    122    147     33     58     Movement protein OS=Odontoglossum ringspot virus (isolate Korean Cy) OX=138661 GN=MP PE=3 SV=1
+sp|Q84135|MVP_ORSVS     -2.6     6e+03     1   0.0    112    159    122    147     33     58     Movement protein OS=Odontoglossum ringspot virus (isolate Singapore 1) OX=138662 GN=MP PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002242080@NC_011292.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002242080@NC_011292.txt data/models_hmm/YP_002242080@NC_011292.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:59 2021
+# [ok]

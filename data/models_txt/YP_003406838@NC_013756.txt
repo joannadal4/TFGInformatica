@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6S6Q8|TEG5_EHV1V    12.3     0.079   2   2.2   0.0    Tegument protein UL47 homolog OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=13 PE=3 SV=1
+sp|P28929|TEG5_EHV1B    12.3      0.08   2   2.2   0.0    Tegument protein UL47 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=13 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P28929|TEG5_EHV1B     5.5       9.6     2   0.0    519    561    537    554     32     49     Tegument protein UL47 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=13 PE=3 SV=1
+sp|Q6S6Q8|TEG5_EHV1V     5.5       9.6     2   0.0    519    561    537    554     32     49     Tegument protein UL47 homolog OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=13 PE=3 SV=1
+sp|P28929|TEG5_EHV1B     4.3        22     1   0.0    182    268    194    264    171    240     Tegument protein UL47 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=13 PE=3 SV=1
+sp|Q6S6Q8|TEG5_EHV1V     4.3        22     1   0.0    182    268    194    264    171    240     Tegument protein UL47 homolog OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=13 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003406838@NC_013756.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003406838@NC_013756.txt data/models_hmm/YP_003406838@NC_013756.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:32 2021
+# [ok]

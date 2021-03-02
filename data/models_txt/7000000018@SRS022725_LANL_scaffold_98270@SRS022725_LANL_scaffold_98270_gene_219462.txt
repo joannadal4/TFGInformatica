@@ -1,0 +1,38 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPD5|YL059_MIMIV    19.0     0.001   5   4.5   0.8    Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|Q5UQZ5|YR903_MIMIV    14.0     0.038   5   5.2   6.2    Putative ankyrin repeat protein R903 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R903 PE=4 SV=1
+sp|Q5UPE3|YL062_MIMIV    12.2      0.14   4   3.4   0.6    Putative ankyrin repeat protein L62 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L62 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPE3|YL062_MIMIV     5.3        19     1   0.1      1     18      2     13     16     27     Putative ankyrin repeat protein L62 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L62 PE=4 SV=1
+sp|Q5UQZ5|YR903_MIMIV     5.1        22     1   0.1     81     97     84     95     15     26     Putative ankyrin repeat protein R903 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R903 PE=4 SV=1
+sp|Q5UPD5|YL059_MIMIV     4.7        30     5   0.0    260    282    264    276     15     27     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|Q5UPD5|YL059_MIMIV     4.7        30     3   0.0    201    220    204    215     15     26     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|Q5UPD5|YL059_MIMIV     3.3        84     2   0.0    139    162    144    160     15     31     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|Q5UPE3|YL062_MIMIV     3.0        98     3   0.0     54     77     60     72     14     26     Putative ankyrin repeat protein L62 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L62 PE=4 SV=1
+sp|Q5UQZ5|YR903_MIMIV     2.1     2e+02     3   0.0    222    247    229    241     14     26     Putative ankyrin repeat protein R903 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R903 PE=4 SV=1
+sp|Q5UQZ5|YR903_MIMIV     1.6   2.7e+02     2   0.0    111    131    114    129     15     30     Putative ankyrin repeat protein R903 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R903 PE=4 SV=1
+sp|Q5UQZ5|YR903_MIMIV     1.5     3e+02     4   0.2    254    272    260    268     15     23     Putative ankyrin repeat protein R903 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R903 PE=4 SV=1
+sp|Q5UQZ5|YR903_MIMIV     1.0   4.3e+02     5   0.0    282    299    287    294     15     22     Putative ankyrin repeat protein R903 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R903 PE=4 SV=1
+sp|Q5UPD5|YL059_MIMIV    -0.2     1e+03     4   0.0    230    251    234    245     15     26     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|Q5UPE3|YL062_MIMIV    -2.5   5.3e+03     4   0.0     88    106     91    103     15     27     Putative ankyrin repeat protein L62 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L62 PE=4 SV=1
+sp|Q5UPD5|YL059_MIMIV    -3.6   1.2e+04     1   0.0     83     95     86     92     17     23     Putative ankyrin repeat protein L59 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L59 PE=4 SV=1
+sp|Q5UPE3|YL062_MIMIV    -3.7   1.3e+04     2   0.0     30     44     31     42     15     26     Putative ankyrin repeat protein L62 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L62 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000018@SRS022725_LANL_scaffold_98270@SRS022725_LANL_scaffold_98270_gene_219462.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000018@SRS022725_LANL_scaffold_98270@SRS022725_LANL_scaffold_98270_gene_219462.txt data/models_hmm/7000000018@SRS022725_LANL_scaffold_98270@SRS022725_LANL_scaffold_98270_gene_219462.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:41 2021
+# [ok]

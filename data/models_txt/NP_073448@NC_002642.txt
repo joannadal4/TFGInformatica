@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20981|VP8_VACCC    404.9  1.1e-121   1   1.0   4.7    Core protein VP8 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=L4R PE=2 SV=1
+sp|P03295|VP8_VACCW    403.8  2.3e-121   1   1.0   4.5    Core protein VP8 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR091 PE=1 SV=1
+sp|P0DSW9|VP8_VAR67    402.9  4.5e-121   1   1.0   4.7    Core protein VP8 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=L4R PE=2 SV=1
+sp|P0DSX0|VP8_VARV     402.9  4.5e-121   1   1.0   4.7    Core protein VP8 OS=Variola virus OX=10255 GN=L4R PE=2 SV=1
+sp|P15913|VP8_FOWPN    342.0  1.7e-102   1   1.0   5.6    Core protein VP8 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV131 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20981|VP8_VACCC    404.7  1.2e-121     1   4.7      1    251      1    250      1    251     Core protein VP8 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=L4R PE=2 SV=1
+sp|P03295|VP8_VACCW    403.7  2.5e-121     1   4.5      1    251      1    250      1    251     Core protein VP8 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR091 PE=1 SV=1
+sp|P0DSW9|VP8_VAR67    402.7    5e-121     1   4.7      1    251      1    250      1    251     Core protein VP8 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=L4R PE=2 SV=1
+sp|P0DSX0|VP8_VARV     402.7    5e-121     1   4.7      1    251      1    250      1    251     Core protein VP8 OS=Variola virus OX=10255 GN=L4R PE=2 SV=1
+sp|P15913|VP8_FOWPN    341.8  1.9e-102     1   5.6      1    253      2    252      2    249     Core protein VP8 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV131 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_073448@NC_002642.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_073448@NC_002642.txt data/models_hmm/NP_073448@NC_002642.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:47 2021
+# [ok]

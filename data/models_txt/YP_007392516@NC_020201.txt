@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36717|CORE5_ADE12    12.0      0.11   2   2.0   1.2    Core-capsid bridging protein OS=Human adenovirus A serotype 12 OX=28282 GN=L2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36717|CORE5_ADE12     9.7      0.55     2   0.3    164    221    167    212     86    131     Core-capsid bridging protein OS=Human adenovirus A serotype 12 OX=28282 GN=L2 PE=3 SV=1
+sp|P36717|CORE5_ADE12     0.5   3.8e+02     1   0.0      7     70     26     51    126    151     Core-capsid bridging protein OS=Human adenovirus A serotype 12 OX=28282 GN=L2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007392516@NC_020201.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007392516@NC_020201.txt data/models_hmm/YP_007392516@NC_020201.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:54 2021
+# [ok]

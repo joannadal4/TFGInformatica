@@ -1,0 +1,44 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52465|NEC2_HHV6U   587.7  2.6e-177   1   1.0   4.2    Nuclear egress protein 2 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=NEC2 PE=3 SV=1
+sp|Q9QJ35|NEC2_HHV6Z   560.2  6.5e-169   1   1.0   3.3    Nuclear egress protein 2 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=NEC2 PE=3 SV=1
+sp|P52466|NEC2_HHV7J   514.2  6.8e-155   1   1.0   4.0    Nuclear egress protein 2 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=NEC2 PE=3 SV=1
+sp|P16791|NEC2_HCMVA   188.8   1.1e-55   1   1.1   0.5    Nuclear egress protein 2 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=NEC2 PE=1 SV=1
+sp|Q6SW81|NEC2_HCMVM   188.5   1.3e-55   1   1.1   0.7    Nuclear egress protein 2 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=NEC2 PE=1 SV=1
+sp|Q66669|NEC2_EHV2     21.1   0.00014   1   1.2   0.2    Nuclear egress protein 2 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=NEC2 PE=3 SV=1
+sp|O36417|NEC2_ALHV1    19.1    0.0006   1   1.2   0.1    Nuclear egress protein 2 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=NEC2 PE=3 SV=1
+sp|Q01045|NEC2_SHV21    18.7   0.00079   2   2.1   1.2    Nuclear egress protein 2 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=NEC2 PE=3 SV=1
+sp|P03185|NEC2_EBVB9    16.1    0.0048   1   1.2   0.0    Nuclear egress protein 2 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=NEC2 PE=1 SV=1
+sp|F5HA27|NEC2_HHV8P    16.0     0.005   1   1.1   0.2    Nuclear egress protein 2 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=NEC2 PE=1 SV=1
+sp|Q9E6N5|NEC2_GAHVM    14.9     0.011   1   1.2   0.0    Nuclear egress protein 2 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=NEC2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52465|NEC2_HHV6U   587.6  2.9e-177     1   4.2      1    276      1    276      1    276     Nuclear egress protein 2 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=NEC2 PE=3 SV=1
+sp|Q9QJ35|NEC2_HHV6Z   560.0  7.3e-169     1   3.3      1    276      1    276      1    276     Nuclear egress protein 2 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=NEC2 PE=3 SV=1
+sp|P52466|NEC2_HHV7J   514.0  7.6e-155     1   4.0      1    258      2    258      5    276     Nuclear egress protein 2 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=NEC2 PE=3 SV=1
+sp|P16791|NEC2_HCMVA   188.2   1.6e-55     1   0.5      2    191      7    173      9    173     Nuclear egress protein 2 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=NEC2 PE=1 SV=1
+sp|Q6SW81|NEC2_HCMVM   187.9     2e-55     1   0.7      2    189      7    173      9    173     Nuclear egress protein 2 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=NEC2 PE=1 SV=1
+sp|Q66669|NEC2_EHV2     20.7   0.00019     1   0.2     31    164     37    105     35     98     Nuclear egress protein 2 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=NEC2 PE=3 SV=1
+sp|O36417|NEC2_ALHV1    18.7   0.00075     1   0.1      5    149     36    117     34    110     Nuclear egress protein 2 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=NEC2 PE=3 SV=1
+sp|F5HA27|NEC2_HHV8P    15.7    0.0063     1   0.2      3    192     38    185     35    166     Nuclear egress protein 2 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=NEC2 PE=1 SV=1
+sp|P03185|NEC2_EBVB9    15.4    0.0077     1   0.0      3    106     30     99     29     93     Nuclear egress protein 2 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=NEC2 PE=1 SV=1
+sp|Q9E6N5|NEC2_GAHVM    14.5     0.014     1   0.0     56    206     59    137     53    127     Nuclear egress protein 2 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=NEC2 PE=3 SV=1
+sp|Q01045|NEC2_SHV21    14.3     0.017     1   0.2     27    144     36    138     35    131     Nuclear egress protein 2 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=NEC2 PE=3 SV=1
+sp|Q01045|NEC2_SHV21     3.3        37     2   0.1    149    233    171    230    200    259     Nuclear egress protein 2 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=NEC2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_073774@NC_001716.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_073774@NC_001716.txt data/models_hmm/YP_073774@NC_001716.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:02 2021
+# [ok]

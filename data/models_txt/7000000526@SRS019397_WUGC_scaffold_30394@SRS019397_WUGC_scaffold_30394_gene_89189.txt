@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91G76|VF019_IIV6    10.9      0.37   3   2.8   2.7    Uncharacterized protein 019R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-019R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91G76|VF019_IIV6     9.1       1.4     2   0.2    164    232    184    225     43     83     Uncharacterized protein 019R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-019R PE=3 SV=1
+sp|Q91G76|VF019_IIV6     2.9   1.2e+02     3   0.0    207    263    217    244     49     78     Uncharacterized protein 019R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-019R PE=3 SV=1
+sp|Q91G76|VF019_IIV6    -1.0   1.9e+03     1   0.1     86    143    101    124     51     75     Uncharacterized protein 019R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-019R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000526@SRS019397_WUGC_scaffold_30394@SRS019397_WUGC_scaffold_30394_gene_89189.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000526@SRS019397_WUGC_scaffold_30394@SRS019397_WUGC_scaffold_30394_gene_89189.txt data/models_hmm/7000000526@SRS019397_WUGC_scaffold_30394@SRS019397_WUGC_scaffold_30394_gene_89189.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:03 2021
+# [ok]

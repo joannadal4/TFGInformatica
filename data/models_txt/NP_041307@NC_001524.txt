@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P06925|VE4_PAPVD    154.8   8.8e-46   1   1.0   8.2    Probable protein E4 OS=Deer papillomavirus OX=10564 GN=E4 PE=4 SV=1
+sp|P11301|VE4_BPV2     129.2   7.6e-38   1   1.0   3.9    Probable protein E4 OS=Bovine papillomavirus type 2 OX=2758382 GN=E4 PE=3 SV=2
+sp|P06926|VE4_BPV1     120.8   3.1e-35   1   1.0   1.6    Protein E4 OS=Bovine papillomavirus type 1 OX=337052 GN=E4 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P06925|VE4_PAPVD    154.6     1e-45     1   8.2      5    122      5    122      1    111     Probable protein E4 OS=Deer papillomavirus OX=10564 GN=E4 PE=4 SV=1
+sp|P11301|VE4_BPV2     129.0     9e-38     1   3.9      2    105      5    103     13    113     Probable protein E4 OS=Bovine papillomavirus type 2 OX=2758382 GN=E4 PE=3 SV=2
+sp|P06926|VE4_BPV1     120.5   3.9e-35     1   1.6      2    110      5    109     13    114     Protein E4 OS=Bovine papillomavirus type 1 OX=337052 GN=E4 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_041307@NC_001524.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_041307@NC_001524.txt data/models_hmm/NP_041307@NC_001524.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:16 2021
+# [ok]

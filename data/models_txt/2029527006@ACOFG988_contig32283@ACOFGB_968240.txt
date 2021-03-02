@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P51735|FIB31_BPHC1   311.0   1.7e-92   1   1.9   4.0    Probable tail fiber protein OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|P03764|FIBER_LAMBD   200.3   5.9e-59   3   2.7  20.8    Tail fiber protein OS=Escherichia phage lambda OX=10710 GN=stf PE=3 SV=2
+sp|P03744|FIB37_BPT4    169.5   1.3e-49   1   1.4  18.7    Long-tail fiber protein gp37 OS=Enterobacteria phage T4 OX=10665 GN=37 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P51735|FIB31_BPHC1   309.7   4.2e-92     1   4.0      1    704      1    310      1    283     Probable tail fiber protein OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|P03764|FIBER_LAMBD   200.3   5.9e-59     3  20.8    411    774    484    774    297    557     Tail fiber protein OS=Escherichia phage lambda OX=10710 GN=stf PE=3 SV=2
+sp|P03744|FIB37_BPT4    168.5   2.5e-49     1  18.7    776   1026    813   1026    339    557     Long-tail fiber protein gp37 OS=Enterobacteria phage T4 OX=10665 GN=37 PE=1 SV=1
+sp|P03764|FIBER_LAMBD    -0.4   3.8e+02     2   0.7    318    405    325    390    405    469     Tail fiber protein OS=Escherichia phage lambda OX=10710 GN=stf PE=3 SV=2
+sp|P03764|FIBER_LAMBD   -28.8   1.7e+04     1  44.6    101    363    178    324    380    522     Tail fiber protein OS=Escherichia phage lambda OX=10710 GN=stf PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2029527006@ACOFG988_contig32283@ACOFGB_968240.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2029527006@ACOFG988_contig32283@ACOFGB_968240.txt data/models_hmm/2029527006@ACOFG988_contig32283@ACOFGB_968240.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:19 2021
+# [ok]

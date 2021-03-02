@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P08231|FIB37_BPM1     16.1    0.0011   1   1.0   0.0    Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage M1 OX=10676 GN=37 PE=3 SV=1
+sp|P08232|FIB37_BPOX2    15.8    0.0014   1   1.0   0.0    Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage Ox2 OX=10691 GN=37 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P08231|FIB37_BPM1     15.9    0.0013     1   0.0     79    236    129    226   2012   2101     Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage M1 OX=10676 GN=37 PE=3 SV=1
+sp|P08232|FIB37_BPOX2    15.6    0.0016     1   0.0     79    236    129    226   2012   2101     Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage Ox2 OX=10691 GN=37 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000093@TBL_comb48_EPIDRAFT_10000937.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000093@TBL_comb48_EPIDRAFT_10000937.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000093@TBL_comb48_EPIDRAFT_10000937.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:44 2021
+# [ok]

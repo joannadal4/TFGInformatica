@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q80HT6|VA202_VACCW    12.6     0.094   1   1.1   0.0    Uncharacterized protein VACWR202 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR202 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q80HT6|VA202_VACCW    12.4      0.11     1   0.0      3     51     10     46     15     49     Uncharacterized protein VACWR202 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR202 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH26766@HQ634177.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH26766@HQ634177.txt data/models_hmm/AGH26766@HQ634177.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:40 2021
+# [ok]

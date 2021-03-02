@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P33815|F13_VAR67     17.7    0.0021   2   1.5   1.5    Envelope protein F13 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C17L PE=3 SV=1
+sp|P29885|F13_VACCP     16.6    0.0045   2   1.5   1.4    Envelope phospholipase F13 OS=Vaccinia virus (strain L-IVP) OX=31531 GN=F5 PE=3 SV=1
+sp|P04021|F13_VACCW     16.6    0.0045   2   1.5   1.4    Envelope phospholipase F13 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR052 PE=1 SV=1
+sp|P26653|F13_VACCI     16.6    0.0045   2   1.5   1.4    Envelope phospholipase F13 OS=Vaccinia virus (strain IHD-J) OX=10251 GN=F13L PE=1 SV=1
+sp|O57179|F13_VACCA     16.6    0.0046   2   1.5   1.4    Envelope phospholipase F13 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA043L PE=3 SV=1
+sp|P20638|F13_VACCC     16.6    0.0047   2   1.5   1.3    Envelope phospholipase F13 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F13L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P33815|F13_VAR67     17.1    0.0033     2   1.1    213    355    225    306     59    140     Envelope protein F13 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C17L PE=3 SV=1
+sp|O57179|F13_VACCA     16.0     0.007     2   1.0    213    355    224    305     58    139     Envelope phospholipase F13 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA043L PE=3 SV=1
+sp|P04021|F13_VACCW     16.0     0.007     2   1.0    213    355    224    305     58    139     Envelope phospholipase F13 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR052 PE=1 SV=1
+sp|P26653|F13_VACCI     16.0     0.007     2   1.0    213    355    224    305     58    139     Envelope phospholipase F13 OS=Vaccinia virus (strain IHD-J) OX=10251 GN=F13L PE=1 SV=1
+sp|P29885|F13_VACCP     16.0     0.007     2   1.0    213    355    224    305     58    139     Envelope phospholipase F13 OS=Vaccinia virus (strain L-IVP) OX=31531 GN=F5 PE=3 SV=1
+sp|P20638|F13_VACCC     15.9    0.0073     2   0.9    213    355    225    305     59    139     Envelope phospholipase F13 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F13L PE=3 SV=1
+sp|O57179|F13_VACCA     -3.7   7.5e+03     1   0.0     19     60     27     47     19     39     Envelope phospholipase F13 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA043L PE=3 SV=1
+sp|P04021|F13_VACCW     -3.7   7.5e+03     1   0.0     19     60     27     47     19     39     Envelope phospholipase F13 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR052 PE=1 SV=1
+sp|P20638|F13_VACCC     -3.7   7.5e+03     1   0.0     19     60     27     47     19     39     Envelope phospholipase F13 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F13L PE=3 SV=1
+sp|P26653|F13_VACCI     -3.7   7.5e+03     1   0.0     19     60     27     47     19     39     Envelope phospholipase F13 OS=Vaccinia virus (strain IHD-J) OX=10251 GN=F13L PE=1 SV=1
+sp|P29885|F13_VACCP     -3.7   7.5e+03     1   0.0     19     60     27     47     19     39     Envelope phospholipase F13 OS=Vaccinia virus (strain L-IVP) OX=31531 GN=F5 PE=3 SV=1
+sp|P33815|F13_VAR67     -3.7   7.5e+03     1   0.0     19     60     27     47     19     39     Envelope protein F13 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C17L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000132@SRS012285_Baylor_scaffold_65162@SRS012285_Baylor_scaffold_65162_gene_90608.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000132@SRS012285_Baylor_scaffold_65162@SRS012285_Baylor_scaffold_65162_gene_90608.txt data/models_hmm/7000000132@SRS012285_Baylor_scaffold_65162@SRS012285_Baylor_scaffold_65162_gene_90608.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:45 2021
+# [ok]

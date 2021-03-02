@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9T1Q1|VP47_BPAPS    18.3    0.0017   2   2.9   2.2    Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+sp|P51714|YO12_BPHC1    15.0     0.018   2   2.0   0.5    Uncharacterized 18.2 kDa protein in rep-hol intergenic region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|P14817|VG40_BPPH8    13.4      0.06   1   1.5   0.1    Protein 40A OS=Enterobacteria phage phi80 OX=10713 GN=40 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9T1Q1|VP47_BPAPS    14.1     0.035     1   1.3     37    145     55    116     13     72     Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+sp|P51714|YO12_BPHC1    13.3     0.063     1   0.2      3     76     30     68     36     74     Uncharacterized 18.2 kDa protein in rep-hol intergenic region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|P14817|VG40_BPPH8    12.3      0.13     1   0.1    103    170    112    159     17     61     Protein 40A OS=Enterobacteria phage phi80 OX=10713 GN=40 PE=4 SV=1
+sp|Q9T1Q1|VP47_BPAPS     1.4   3.2e+02     2   0.1    114    166    122    153     28     62     Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+sp|P51714|YO12_BPHC1    -0.2     1e+03     2   0.1     62    100     75     89     25     39     Uncharacterized 18.2 kDa protein in rep-hol intergenic region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001604240@NC_010153.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001604240@NC_010153.txt data/models_hmm/YP_001604240@NC_010153.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:35 2021
+# [ok]

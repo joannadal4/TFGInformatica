@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UR41|YR561_MIMIV   101.1   6.7e-29   2   2.6  43.7    Uncharacterized protein R561 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R561 PE=4 SV=1
+sp|P16725|UL76_HCMVA     11.7      0.16   1   1.4   4.3    Protein UL76 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL76 PE=2 SV=1
+sp|Q6SW66|UL76_HCMVM     10.6      0.34   1   1.4   4.8    Protein UL76 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL76 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UR41|YR561_MIMIV    71.2   9.6e-20     2  12.2     95    248    126    228     82    188     Uncharacterized protein R561 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R561 PE=4 SV=1
+sp|Q5UR41|YR561_MIMIV    33.7   2.8e-08     1  25.3      1    103      3     95      3     86     Uncharacterized protein R561 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R561 PE=4 SV=1
+sp|P16725|UL76_HCMVA     10.9      0.27     1   4.3    174    291    179    259    103    182     Protein UL76 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL76 PE=2 SV=1
+sp|Q6SW66|UL76_HCMVM      9.9      0.55     1   4.8    174    292    179    259    103    182     Protein UL76 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL76 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007354562@NC_020104.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007354562@NC_020104.txt data/models_hmm/YP_007354562@NC_020104.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:49 2021
+# [ok]

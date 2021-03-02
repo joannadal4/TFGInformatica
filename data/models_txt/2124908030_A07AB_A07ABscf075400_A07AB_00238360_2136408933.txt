@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P89201|POLG_SPMMV     13.8     0.037   2   3.0   6.1    Genome polyprotein OS=Sweet potato mild mottle virus (isolate Salazar) OX=652105 PE=2 SV=1
+sp|Q04719|ME53_NPVAC     11.1      0.27   3   2.9   5.1    Early 53 kDa protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=ME53 PE=4 SV=2
+sp|Q5UP23|YR260_MIMIV     8.3       1.9   2   2.7   5.1    DnaJ-like protein R260 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R260 PE=3 SV=1
+sp|Q5UR69|YL615_MIMIV     8.2       2.1   2   3.0  10.5    Putative phosphatidylinositol kinase L615 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L615 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P89201|POLG_SPMMV     13.6     0.043     1   0.3     37    115     78    110     17     50     Genome polyprotein OS=Sweet potato mild mottle virus (isolate Salazar) OX=652105 PE=2 SV=1
+sp|Q5UR69|YL615_MIMIV     8.4       1.9     1   5.7     37     81     43     78      9     55     Putative phosphatidylinositol kinase L615 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L615 PE=3 SV=1
+sp|Q04719|ME53_NPVAC      7.8       2.8     1   0.1    123    187    158    185     15     42     Early 53 kDa protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=ME53 PE=4 SV=2
+sp|Q5UP23|YR260_MIMIV     5.5        15     1   0.1    102    158    114    150     14     46     DnaJ-like protein R260 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R260 PE=3 SV=1
+sp|Q04719|ME53_NPVAC      4.2        37     3   0.6    371    415    378    413     26     59     Early 53 kDa protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=ME53 PE=4 SV=2
+sp|Q5UP23|YR260_MIMIV     3.6        57     2   1.2    164    198    170    194     24     47     DnaJ-like protein R260 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R260 PE=3 SV=1
+sp|P89201|POLG_SPMMV      1.1   3.6e+02     2   1.1    498    534    503    528     25     51     Genome polyprotein OS=Sweet potato mild mottle virus (isolate Salazar) OX=652105 PE=2 SV=1
+sp|Q5UR69|YL615_MIMIV     0.1   7.2e+02     2   0.1     88    120     94    116     15     36     Putative phosphatidylinositol kinase L615 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L615 PE=3 SV=1
+sp|Q04719|ME53_NPVAC     -2.9   6.1e+03     2   0.0    241    267    258    266     20     28     Early 53 kDa protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=ME53 PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2124908030_A07AB_A07ABscf075400_A07AB_00238360_2136408933.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2124908030_A07AB_A07ABscf075400_A07AB_00238360_2136408933.txt data/models_hmm/2124908030_A07AB_A07ABscf075400_A07AB_00238360_2136408933.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:01 2021
+# [ok]

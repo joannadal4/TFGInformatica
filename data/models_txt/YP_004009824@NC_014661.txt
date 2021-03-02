@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P17309|LINR3_BPT4   144.7   8.9e-43   1   1.0   0.9    Lysis inhibition accessory protein OS=Enterobacteria phage T4 OX=10665 GN=rIII PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P17309|LINR3_BPT4   144.6   9.7e-43     1   0.9      1     82      1     82      1     82     Lysis inhibition accessory protein OS=Enterobacteria phage T4 OX=10665 GN=rIII PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004009824@NC_014661.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004009824@NC_014661.txt data/models_hmm/YP_004009824@NC_014661.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:00 2021
+# [ok]

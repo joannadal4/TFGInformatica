@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O21886|RBP_BPLSK    498.2    4e-150   1   1.0  10.4    Receptor binding protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|Q71AW2|RBP_BPLP2    497.8  5.6e-150   1   1.0   9.7    Receptor binding protein OS=Lactococcus phage p2 OX=254252 GN=rbp PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O21886|RBP_BPLSK    498.1  4.5e-150     1  10.4      1    264      1    264      1    263     Receptor binding protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|Q71AW2|RBP_BPLP2    497.6  6.2e-150     1   9.7      1    264      1    264      1    263     Receptor binding protein OS=Lactococcus phage p2 OX=254252 GN=rbp PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_764279@NC_008370.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_764279@NC_008370.txt data/models_hmm/YP_764279@NC_008370.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:50 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64301|DPA44_BPR69    15.4     0.014   1   1.7   0.1    DNA polymerase accessory protein 44 OS=Escherichia phage RB69 OX=12353 GN=44 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64301|DPA44_BPR69    14.3     0.031     1   0.1    169    236    169    221      1     49     DNA polymerase accessory protein 44 OS=Escherichia phage RB69 OX=12353 GN=44 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001683@GBIDBA_10001348@GBIDBA_1000134846.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001683@GBIDBA_10001348@GBIDBA_1000134846.txt data/models_hmm/3300001683@GBIDBA_10001348@GBIDBA_1000134846.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:09 2021
+# [ok]

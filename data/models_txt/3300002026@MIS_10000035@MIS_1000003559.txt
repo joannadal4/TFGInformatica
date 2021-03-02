@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DJU4|PAX_I01A0     13.2     0.072   2   1.8   0.0    Protein PA-X OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/SF189/2001 H5N1 genotype A) OX=196430 GN=PA PE=3 SV=1
+sp|P0CK72|PAX_I01A3     13.2     0.076   2   1.8   0.0    Protein PA-X OS=Influenza A virus (strain A/Chicken/Hong Kong/715.5/2001 H5N1 genotype E) OX=196434 GN=PA PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CK72|PAX_I01A3     11.6      0.23     2   0.0    126    184    150    181     45     76     Protein PA-X OS=Influenza A virus (strain A/Chicken/Hong Kong/715.5/2001 H5N1 genotype E) OX=196434 GN=PA PE=3 SV=1
+sp|P0DJU4|PAX_I01A0     11.6      0.23     2   0.0    126    184    150    181     45     76     Protein PA-X OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/SF189/2001 H5N1 genotype A) OX=196430 GN=PA PE=3 SV=1
+sp|P0CK72|PAX_I01A3     -3.2     1e+04     1   0.0     83    100     89     96     24     33     Protein PA-X OS=Influenza A virus (strain A/Chicken/Hong Kong/715.5/2001 H5N1 genotype E) OX=196434 GN=PA PE=3 SV=1
+sp|P0DJU4|PAX_I01A0     -3.2     1e+04     1   0.0     83    100     89     96     24     33     Protein PA-X OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/SF189/2001 H5N1 genotype A) OX=196430 GN=PA PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000035@MIS_1000003559.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000035@MIS_1000003559.txt data/models_hmm/3300002026@MIS_10000035@MIS_1000003559.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:36 2021
+# [ok]

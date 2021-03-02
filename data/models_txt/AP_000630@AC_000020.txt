@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P22229|E322_ADECG   148.8     2e-43   2   2.1  12.4    Early E3 22.2 kDa glycoprotein OS=Canine adenovirus serotype 1 (strain Glaxo) OX=10513 PE=4 SV=1
+sp|Q96688|E322_ADECR   147.5   4.9e-43   2   2.1  12.6    Early E3 22.1 kDa glycoprotein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 PE=4 SV=1
+sp|Q65959|E325_ADECC    99.1   2.5e-28   2   2.2   3.0    Early E3 25 kDa glycoprotein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P22229|E322_ADECG   138.2   3.3e-40     1   2.1      1    122      1    109      1    109     Early E3 22.2 kDa glycoprotein OS=Canine adenovirus serotype 1 (strain Glaxo) OX=10513 PE=4 SV=1
+sp|Q96688|E322_ADECR   137.0   7.8e-40     1   2.3      1    121      2    108      2    109     Early E3 22.1 kDa glycoprotein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 PE=4 SV=1
+sp|Q65959|E325_ADECC    81.2     7e-23     1   0.1     57    142     60    130     39    109     Early E3 25 kDa glycoprotein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 PE=4 SV=1
+sp|Q65959|E325_ADECC    18.3   0.00091     2   0.5    147    214    167    210    329    376     Early E3 25 kDa glycoprotein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 PE=4 SV=1
+sp|Q96688|E322_ADECR    16.3    0.0035     2   2.5    135    192    146    188    330    376     Early E3 22.1 kDa glycoprotein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 PE=4 SV=1
+sp|P22229|E322_ADECG    16.3    0.0035     2   2.5    136    193    147    189    330    376     Early E3 22.2 kDa glycoprotein OS=Canine adenovirus serotype 1 (strain Glaxo) OX=10513 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AP_000630@AC_000020.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AP_000630@AC_000020.txt data/models_hmm/AP_000630@AC_000020.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:59 2021
+# [ok]

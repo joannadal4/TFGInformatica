@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q08011|HEMA_I89A8    14.8     0.018   2   2.4   0.2    Hemagglutinin OS=Influenza A virus (strain A/Equine/Suffolk/1989 H3N8) OX=45413 GN=HA PE=1 SV=1
+sp|P16995|HEMA_I76A8    13.7     0.038   2   2.3   0.2    Hemagglutinin OS=Influenza A virus (strain A/Equine/Fontainebleau/1976 H3N8) OX=387217 GN=HA PE=3 SV=2
+sp|Q82559|HEMA_I81A2    13.6      0.04   2   2.2   0.2    Hemagglutinin OS=Influenza A virus (strain A/Equine/Kentucky/1/1981) OX=475467 GN=HA PE=2 SV=1
+sp|P16998|HEMA_I80AB    13.6      0.04   2   2.2   0.2    Hemagglutinin OS=Influenza A virus (strain A/Equine/Romania/1980 H3N8) OX=387229 GN=HA PE=3 SV=2
+sp|P19699|HEMA_I86A2    12.8     0.072   2   2.4   0.1    Hemagglutinin OS=Influenza A virus (strain A/Equine/Kentucky/2/1986 H3N8) OX=385605 GN=HA PE=3 SV=1
+sp|P17001|HEMA_I86A3    12.8     0.073   2   2.4   0.1    Hemagglutinin OS=Influenza A virus (strain A/Equine/Tennessee/5/1986 H3N8) OX=380339 GN=HA PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P16995|HEMA_I76A8    10.7      0.33     2   0.1    361    419    367    411    132    175     Hemagglutinin OS=Influenza A virus (strain A/Equine/Fontainebleau/1976 H3N8) OX=387217 GN=HA PE=3 SV=2
+sp|P16998|HEMA_I80AB    10.7      0.33     2   0.1    361    419    367    411    132    175     Hemagglutinin OS=Influenza A virus (strain A/Equine/Romania/1980 H3N8) OX=387229 GN=HA PE=3 SV=2
+sp|Q08011|HEMA_I89A8    10.7      0.33     2   0.1    361    419    367    411    132    175     Hemagglutinin OS=Influenza A virus (strain A/Equine/Suffolk/1989 H3N8) OX=45413 GN=HA PE=1 SV=1
+sp|Q82559|HEMA_I81A2    10.7      0.33     2   0.1    361    419    367    411    132    175     Hemagglutinin OS=Influenza A virus (strain A/Equine/Kentucky/1/1981) OX=475467 GN=HA PE=2 SV=1
+sp|P17001|HEMA_I86A3     8.6       1.4     2   0.0    361    419    367    411    132    175     Hemagglutinin OS=Influenza A virus (strain A/Equine/Tennessee/5/1986 H3N8) OX=380339 GN=HA PE=3 SV=2
+sp|P19699|HEMA_I86A2     8.6       1.4     2   0.0    361    419    367    411    132    175     Hemagglutinin OS=Influenza A virus (strain A/Equine/Kentucky/2/1986 H3N8) OX=385605 GN=HA PE=3 SV=1
+sp|P19699|HEMA_I86A2     1.3   2.4e+02     1   0.0     31    104     38     63     80    105     Hemagglutinin OS=Influenza A virus (strain A/Equine/Kentucky/2/1986 H3N8) OX=385605 GN=HA PE=3 SV=1
+sp|P17001|HEMA_I86A3     1.3   2.4e+02     1   0.0     31    103     38     63     80    105     Hemagglutinin OS=Influenza A virus (strain A/Equine/Tennessee/5/1986 H3N8) OX=380339 GN=HA PE=3 SV=2
+sp|Q08011|HEMA_I89A8     1.3   2.4e+02     1   0.0     31    103     38     63     80    105     Hemagglutinin OS=Influenza A virus (strain A/Equine/Suffolk/1989 H3N8) OX=45413 GN=HA PE=1 SV=1
+sp|P16995|HEMA_I76A8    -0.1   6.4e+02     1   0.0     32    100     38     59     80    101     Hemagglutinin OS=Influenza A virus (strain A/Equine/Fontainebleau/1976 H3N8) OX=387217 GN=HA PE=3 SV=2
+sp|P16998|HEMA_I80AB    -0.1   6.4e+02     1   0.0     32    100     38     59     80    101     Hemagglutinin OS=Influenza A virus (strain A/Equine/Romania/1980 H3N8) OX=387229 GN=HA PE=3 SV=2
+sp|Q82559|HEMA_I81A2    -0.1   6.4e+02     1   0.0     32    100     38     59     80    101     Hemagglutinin OS=Influenza A virus (strain A/Equine/Kentucky/1/1981) OX=475467 GN=HA PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2199352008_2200252297_2200634548_TRSJC2b_15312.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2199352008_2200252297_2200634548_TRSJC2b_15312.txt data/models_hmm/2199352008_2200252297_2200634548_TRSJC2b_15312.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:14 2021
+# [ok]

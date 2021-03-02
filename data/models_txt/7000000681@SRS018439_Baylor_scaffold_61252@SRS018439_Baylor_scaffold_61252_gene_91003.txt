@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q88423|ORF4_SPV1C    12.6     0.037   2   2.0   5.8    Uncharacterized protein ORF4 OS=Spiroplasma virus SpV1-C74 OX=185959 GN=ORF4 PE=3 SV=1
+sp|P18057|Y02D_BPT4     12.5     0.043   1   1.1   0.2    Uncharacterized 14.1 kDa protein in imm-Gp43 intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y02D PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P18057|Y02D_BPT4     12.2     0.051     1   0.2     41    108     47     81     49     83     Uncharacterized 14.1 kDa protein in imm-Gp43 intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y02D PE=4 SV=1
+sp|Q88423|ORF4_SPV1C     8.0      0.93     1   0.3      2    114      8     96    352    444     Uncharacterized protein ORF4 OS=Spiroplasma virus SpV1-C74 OX=185959 GN=ORF4 PE=3 SV=1
+sp|Q88423|ORF4_SPV1C     7.4       1.5     2   2.3     93    149    101    145    225    265     Uncharacterized protein ORF4 OS=Spiroplasma virus SpV1-C74 OX=185959 GN=ORF4 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000681@SRS018439_Baylor_scaffold_61252@SRS018439_Baylor_scaffold_61252_gene_91003.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000681@SRS018439_Baylor_scaffold_61252@SRS018439_Baylor_scaffold_61252_gene_91003.txt data/models_hmm/7000000681@SRS018439_Baylor_scaffold_61252@SRS018439_Baylor_scaffold_61252_gene_91003.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:56 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9G0B5|FIB37_BPAR1    12.9     0.089   1   2.0   0.0    Long tail fiber protein p37 OS=Escherichia phage AR1 OX=66711 GN=37 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9G0B5|FIB37_BPAR1    11.1      0.32     1   0.0    943   1015    954   1003     14     63     Long tail fiber protein p37 OS=Escherichia phage AR1 OX=66711 GN=37 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000498@SRS017521_Baylor_scaffold_56351@SRS017521_Baylor_scaffold_56351_gene_124601.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000498@SRS017521_Baylor_scaffold_56351@SRS017521_Baylor_scaffold_56351_gene_124601.txt data/models_hmm/7000000498@SRS017521_Baylor_scaffold_56351@SRS017521_Baylor_scaffold_56351_gene_124601.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:44 2021
+# [ok]

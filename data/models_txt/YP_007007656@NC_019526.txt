@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UNY9|YR735_MIMIV  1040.2         0   1   1.0  18.8    Uncharacterized protein R735 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R735 PE=4 SV=1
+sp|Q5UPU9|YL273_MIMIV    94.6   6.2e-27   1   2.0  19.6    Putative ankyrin repeat protein L273 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L273 PE=4 SV=1
+sp|Q5UNV9|YL696_MIMIV    31.5   8.5e-08   1   1.3   0.8    Uncharacterized protein L696 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L696 PE=4 SV=1
+sp|Q5UPA2|YL023_MIMIV    28.0   9.7e-07   3   2.1   1.3    Putative ankyrin repeat protein L23 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L23 PE=4 SV=1
+sp|Q5UQC4|YR229_MIMIV    17.0    0.0022   1   1.4   0.1    Putative ankyrin repeat protein R229 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R229 PE=4 SV=1
+sp|Q5UP99|YL026_MIMIV    13.9     0.018   1   1.0   0.0    Uncharacterized protein L26 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L26 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UNY9|YR735_MIMIV  1040.1         0     1  18.8      1    446      1    446      1    446     Uncharacterized protein R735 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R735 PE=4 SV=1
+sp|Q5UPU9|YL273_MIMIV    89.9   1.6e-25     1  19.6     23    433     50    427     42    438     Putative ankyrin repeat protein L273 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L273 PE=4 SV=1
+sp|Q5UNV9|YL696_MIMIV    30.7   1.5e-07     1   0.8     23    165     32    153     45    156     Uncharacterized protein L696 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L696 PE=4 SV=1
+sp|Q5UPA2|YL023_MIMIV    26.0     4e-06     1   0.1      3    177     39    156     42    154     Putative ankyrin repeat protein L23 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L23 PE=4 SV=1
+sp|Q5UQC4|YR229_MIMIV    16.0    0.0041     1   0.0     70    196     85    161     46    116     Putative ankyrin repeat protein R229 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R229 PE=4 SV=1
+sp|Q5UP99|YL026_MIMIV    13.9     0.019     1   0.0      1    104      6    101     16    103     Uncharacterized protein L26 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L26 PE=4 SV=1
+sp|Q5UPA2|YL023_MIMIV     0.3   2.4e+02     3   0.1    196    268    213    237    121    145     Putative ankyrin repeat protein L23 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L23 PE=4 SV=1
+sp|Q5UPA2|YL023_MIMIV     0.3   2.5e+02     2   0.1    169    249    212    237    120    145     Putative ankyrin repeat protein L23 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L23 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007007656@NC_019526.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007007656@NC_019526.txt data/models_hmm/YP_007007656@NC_019526.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:21 2021
+# [ok]

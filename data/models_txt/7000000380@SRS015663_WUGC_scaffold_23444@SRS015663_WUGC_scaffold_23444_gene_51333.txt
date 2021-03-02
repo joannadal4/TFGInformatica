@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04492|E1BS_ADE12    11.3      0.17   1   1.2   0.0    E1B protein, small T-antigen OS=Human adenovirus A serotype 12 OX=28282 PE=3 SV=1
+sp|P04594|GAG_HV1MA      7.3       2.9   2   2.1   9.4    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate MAL) OX=11697 GN=gag PE=3 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04492|E1BS_ADE12    10.8      0.24     1   0.0      7     57     13     54     47     88     E1B protein, small T-antigen OS=Human adenovirus A serotype 12 OX=28282 PE=3 SV=1
+sp|P04594|GAG_HV1MA      7.8         2     2   4.3    371    441    380    432    195    243     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate MAL) OX=11697 GN=gag PE=3 SV=3
+sp|P04594|GAG_HV1MA      2.0   1.2e+02     1   0.2     59    148     75    114     70    108     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate MAL) OX=11697 GN=gag PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000380@SRS015663_WUGC_scaffold_23444@SRS015663_WUGC_scaffold_23444_gene_51333.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000380@SRS015663_WUGC_scaffold_23444@SRS015663_WUGC_scaffold_23444_gene_51333.txt data/models_hmm/7000000380@SRS015663_WUGC_scaffold_23444@SRS015663_WUGC_scaffold_23444_gene_51333.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:42 2021
+# [ok]

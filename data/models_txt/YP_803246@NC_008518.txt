@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q0E590|Y011_SFAVA    24.7   7.2e-06   1   1.2   5.0    Uncharacterized protein ORF11 OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=ORF11 PE=3 SV=1
+sp|A4KX72|Y017_HVAVE    19.0   0.00038   2   2.0   4.2    Uncharacterized protein ORF17 OS=Heliothis virescens ascovirus 3e OX=260797 GN=ORF17 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q0E590|Y011_SFAVA    24.3   9.4e-06     1   5.0     22    166     36    123     18    104     Uncharacterized protein ORF11 OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=ORF11 PE=3 SV=1
+sp|A4KX72|Y017_HVAVE    19.0   0.00038     1   4.2     19    138     39    123     21    104     Uncharacterized protein ORF17 OS=Heliothis virescens ascovirus 3e OX=260797 GN=ORF17 PE=3 SV=1
+sp|A4KX72|Y017_HVAVE     1.8        65     2   2.1    137    199    145    163    162    180     Uncharacterized protein ORF17 OS=Heliothis virescens ascovirus 3e OX=260797 GN=ORF17 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_803246@NC_008518.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_803246@NC_008518.txt data/models_hmm/YP_803246@NC_008518.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:52 2021
+# [ok]

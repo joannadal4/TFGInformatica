@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C9C6|APE_ASFP4     12.6       0.1   2   2.3   0.0    Probable AP endonuclease OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-146 PE=1 SV=1
+sp|P0C9C7|APE_ASFWA     12.6       0.1   2   2.3   0.1    Probable AP endonuclease OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-144 PE=3 SV=1
+sp|Q65202|APE_ASFB7     12.6       0.1   2   2.3   0.1    Probable AP endonuclease OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-134 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C9C6|APE_ASFP4      6.3       8.9     2   0.0    253    296    257    293     95    132     Probable AP endonuclease OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-146 PE=1 SV=1
+sp|P0C9C7|APE_ASFWA      6.3       9.2     2   0.0    254    296    257    293     95    132     Probable AP endonuclease OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-144 PE=3 SV=1
+sp|Q65202|APE_ASFB7      6.3       9.2     2   0.0    254    296    257    293     95    132     Probable AP endonuclease OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-134 PE=1 SV=1
+sp|P0C9C6|APE_ASFP4      4.2        40     1   0.0     69    167     75    108      8     40     Probable AP endonuclease OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-146 PE=1 SV=1
+sp|P0C9C7|APE_ASFWA      4.2        40     1   0.0     69    167     75    108      8     40     Probable AP endonuclease OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-144 PE=3 SV=1
+sp|Q65202|APE_ASFB7      4.2        40     1   0.0     69    167     75    108      8     40     Probable AP endonuclease OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-134 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001426282@NC_008603.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001426282@NC_008603.txt data/models_hmm/YP_001426282@NC_008603.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:13 2021
+# [ok]

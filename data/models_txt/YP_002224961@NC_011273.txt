@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P24736|GAG_HV1U4      8.9       1.7   2   2.6   6.8    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate U455) OX=11703 GN=gag PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P24736|GAG_HV1U4      8.3       2.5     1   0.3    378    396    380    393      3     16     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate U455) OX=11703 GN=gag PE=1 SV=3
+sp|P24736|GAG_HV1U4      2.7   1.4e+02     2   1.4    399    424    401    415      3     17     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype A (isolate U455) OX=11703 GN=gag PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002224961@NC_011273.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002224961@NC_011273.txt data/models_hmm/YP_002224961@NC_011273.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:55 2021
+# [ok]

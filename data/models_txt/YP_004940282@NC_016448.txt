@@ -1,0 +1,49 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HGU6|UL132_HCMVM   334.6    2e-100   1   1.0   0.3    Envelope glycoprotein UL132 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL132 PE=3 SV=1
+sp|P69338|UL132_HCMVA   322.9   7.6e-97   1   1.0   0.8    Envelope glycoprotein UL132 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL132 PE=3 SV=1
+sp|P69339|UL132_HCMVT   322.9   7.6e-97   1   1.0   0.8    Envelope glycoprotein UL132 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL132 PE=3 SV=1
+sp|P24083|VB05_VACCL     17.5    0.0022   2   2.3   1.6    Plaque-size/host range protein OS=Vaccinia virus (strain Lister) OX=10252 GN=PS/HR PE=3 SV=1
+sp|P24084|B5_VACC0       17.4    0.0023   2   2.3   1.5    Protein B5 OS=Vaccinia virus (strain LC16m0) OX=10246 GN=PS/HR PE=3 SV=1
+sp|Q01227|B5_VACCW       16.8    0.0035   2   2.3   2.3    Protein B5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=PS/HR PE=1 SV=1
+sp|Q9JF44|B5_VACCT       16.3    0.0049   2   2.3   2.0    Protein B5 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=PS/HR PE=3 SV=1
+sp|P24284|VB05_VACC8     13.6     0.033   1   1.3   1.7    Truncated plaque-size/host range protein OS=Vaccinia virus (strain LC16m8) OX=10248 GN=PS/HR PE=3 SV=1
+sp|O57254|B5_VACCA       10.4       0.3   2   2.5   8.7    Protein B5 OS=Vaccinia virus (strain Ankara) OX=126794 GN=PS/HR PE=3 SV=1
+sp|P21115|B5_VACCC       10.1       0.4   2   2.5   9.1    Protein B5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PS/HR PE=3 SV=1
+sp|P19285|YORA_TTV1K      7.7       2.1   1   1.4   6.6    Uncharacterized 8.1 kDa protein OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HGU6|UL132_HCMVM   334.3  2.5e-100     1   0.3     22    270     29    270      2    215     Envelope glycoprotein UL132 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL132 PE=3 SV=1
+sp|P69338|UL132_HCMVA   322.6   9.4e-97     1   0.8     25    270     30    270      3    215     Envelope glycoprotein UL132 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL132 PE=3 SV=1
+sp|P69339|UL132_HCMVT   322.6   9.4e-97     1   0.8     25    270     30    270      3    215     Envelope glycoprotein UL132 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL132 PE=3 SV=1
+sp|P24284|VB05_VACC8     13.2     0.043     1   1.7      1     67      3     35     60     91     Truncated plaque-size/host range protein OS=Vaccinia virus (strain LC16m8) OX=10248 GN=PS/HR PE=3 SV=1
+sp|P24083|VB05_VACCL     11.7      0.13     1   0.1      1     68      3     32     60     88     Plaque-size/host range protein OS=Vaccinia virus (strain Lister) OX=10252 GN=PS/HR PE=3 SV=1
+sp|Q01227|B5_VACCW       11.7      0.13     1   0.1      1     68      3     32     60     88     Protein B5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=PS/HR PE=1 SV=1
+sp|Q9JF44|B5_VACCT       11.7      0.13     1   0.1      1     68      3     32     60     88     Protein B5 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=PS/HR PE=3 SV=1
+sp|P24084|B5_VACC0       11.5      0.14     1   0.1      1     66      3     32     60     88     Protein B5 OS=Vaccinia virus (strain LC16m0) OX=10246 GN=PS/HR PE=3 SV=1
+sp|P21115|B5_VACCC        8.4       1.3     1   2.9      1     55      3     32     60     88     Protein B5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PS/HR PE=3 SV=1
+sp|O57254|B5_VACCA        8.3       1.3     1   2.8      1     42      3     30     60     86     Protein B5 OS=Vaccinia virus (strain Ankara) OX=126794 GN=PS/HR PE=3 SV=1
+sp|P19285|YORA_TTV1K      7.2         3     1   6.6      1     66      4     37     45     79     Uncharacterized 8.1 kDa protein OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+sp|O57254|B5_VACCA        4.9        15     2   0.2    253    315    278    313     51     88     Protein B5 OS=Vaccinia virus (strain Ankara) OX=126794 GN=PS/HR PE=3 SV=1
+sp|P24083|VB05_VACCL      4.9        15     2   0.2    253    315    278    313     51     88     Plaque-size/host range protein OS=Vaccinia virus (strain Lister) OX=10252 GN=PS/HR PE=3 SV=1
+sp|P24084|B5_VACC0        4.9        15     2   0.2    253    315    278    313     51     88     Protein B5 OS=Vaccinia virus (strain LC16m0) OX=10246 GN=PS/HR PE=3 SV=1
+sp|P21115|B5_VACCC        4.7        17     2   0.4    255    315    278    313     51     88     Protein B5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PS/HR PE=3 SV=1
+sp|Q01227|B5_VACCW        4.7        17     2   0.4    255    315    278    313     51     88     Protein B5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=PS/HR PE=1 SV=1
+sp|Q9JF44|B5_VACCT        4.0        28     2   0.3    255    315    280    313     56     88     Protein B5 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=PS/HR PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004940282@NC_016448.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004940282@NC_016448.txt data/models_hmm/YP_004940282@NC_016448.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:55 2021
+# [ok]

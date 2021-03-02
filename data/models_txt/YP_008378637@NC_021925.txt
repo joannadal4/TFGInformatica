@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O10276|VE26_NPVOP   321.9   1.1e-96   1   1.0   6.3    Putative early 21.8 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=DA26 PE=3 SV=1
+sp|P12827|E26_NPVAC    293.8   4.7e-88   1   1.0   6.0    Protein E26 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=DA26 PE=1 SV=1
+sp|Q86609|C_VSNJO       15.3    0.0093   1   1.0   5.1    Protein C' OS=Vesicular stomatitis New Jersey virus (strain Ogden subtype Concan) OX=11283 GN=P PE=1 SV=1
+sp|P0C2X5|C_VSNJM       15.2    0.0095   1   1.0   5.9    Protein C' OS=Vesicular stomatitis New Jersey virus (strain Missouri subtype Hazelhurst) OX=11282 GN=P PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O10276|VE26_NPVOP   321.8   1.3e-96     1   6.3      1    197      1    196      1    203     Putative early 21.8 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=DA26 PE=3 SV=1
+sp|P12827|E26_NPVAC    293.6   5.3e-88     1   6.0      1    225      1    225      1    204     Protein E26 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=DA26 PE=1 SV=1
+sp|Q86609|C_VSNJO       15.1      0.01     1   5.1      8     65     14     64     54    102     Protein C' OS=Vesicular stomatitis New Jersey virus (strain Ogden subtype Concan) OX=11283 GN=P PE=1 SV=1
+sp|P0C2X5|C_VSNJM       15.1      0.01     1   5.9      7     65     13     61     53    100     Protein C' OS=Vesicular stomatitis New Jersey virus (strain Missouri subtype Hazelhurst) OX=11282 GN=P PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008378637@NC_021925.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008378637@NC_021925.txt data/models_hmm/YP_008378637@NC_021925.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:55 2021
+# [ok]

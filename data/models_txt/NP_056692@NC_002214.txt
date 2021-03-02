@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A8E283|VPN7_BPPHE   212.5     7e-63   6   5.7  32.7    Tail fiber protein OS=Enterococcus phage phiEF24C OX=442493 GN=EFP_031 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A8E283|VPN7_BPPHE   123.9     4e-36     6   2.4   1586   1825   1594   1824   1032   1258     Tail fiber protein OS=Enterococcus phage phiEF24C OX=442493 GN=EFP_031 PE=1 SV=1
+sp|A8E283|VPN7_BPPHE    96.2   8.8e-28     5   1.2   1298   1428   1302   1416    915   1029     Tail fiber protein OS=Enterococcus phage phiEF24C OX=442493 GN=EFP_031 PE=1 SV=1
+sp|A8E283|VPN7_BPPHE     6.8      0.85     4   0.1   1198   1296   1245   1289    390    434     Tail fiber protein OS=Enterococcus phage phiEF24C OX=442493 GN=EFP_031 PE=1 SV=1
+sp|A8E283|VPN7_BPPHE     4.3       4.9     3   0.6    900   1056    914    997    505    596     Tail fiber protein OS=Enterococcus phage phiEF24C OX=442493 GN=EFP_031 PE=1 SV=1
+sp|A8E283|VPN7_BPPHE    -0.4   1.3e+02     2   0.3    496    598    532    578    438    481     Tail fiber protein OS=Enterococcus phage phiEF24C OX=442493 GN=EFP_031 PE=1 SV=1
+sp|A8E283|VPN7_BPPHE    -0.6   1.5e+02     1   0.4    446    571    466    540    535    609     Tail fiber protein OS=Enterococcus phage phiEF24C OX=442493 GN=EFP_031 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_056692@NC_002214.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_056692@NC_002214.txt data/models_hmm/NP_056692@NC_002214.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:37 2021
+# [ok]

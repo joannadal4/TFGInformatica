@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O22001|VXIS_BPMD2    19.3     0.001   1   1.1   0.0    Excisionase OS=Mycobacterium phage D29 OX=28369 GN=XIS PE=3 SV=1
+sp|P03691|VR2B_BPT4     16.7    0.0066   1   1.6   0.0    Protein rIIB OS=Enterobacteria phage T4 OX=10665 GN=rIIB PE=4 SV=3
+sp|Q05246|VXIS_BPML5    15.5     0.015   1   1.1   0.0    Excisionase OS=Mycobacterium phage L5 OX=31757 GN=XIS PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O22001|VXIS_BPMD2    19.3    0.0011     1   0.0      3     50      8     41     12     42     Excisionase OS=Mycobacterium phage D29 OX=28369 GN=XIS PE=3 SV=1
+sp|Q05246|VXIS_BPML5    15.5     0.016     1   0.0      4     50      8     42     12     43     Excisionase OS=Mycobacterium phage L5 OX=31757 GN=XIS PE=3 SV=1
+sp|P03691|VR2B_BPT4     15.4     0.017     1   0.0     18     86     23     60      8     46     Protein rIIB OS=Enterobacteria phage T4 OX=10665 GN=rIIB PE=4 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006561114@NC_018283.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006561114@NC_018283.txt data/models_hmm/YP_006561114@NC_018283.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:21 2021
+# [ok]

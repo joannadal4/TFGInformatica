@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20214|VINT_SSV1     17.1    0.0044   2   2.6   0.1    Integrase OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=d335 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20214|VINT_SSV1      8.3       2.5     2   0.1    141    183    147    175     59     87     Integrase OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=d335 PE=1 SV=1
+sp|P20214|VINT_SSV1      6.1        12     1   0.0     93    143    104    135     55     85     Integrase OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=d335 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000025@SRS023617_Baylor_scaffold_64213@SRS023617_Baylor_scaffold_64213_gene_89463.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000025@SRS023617_Baylor_scaffold_64213@SRS023617_Baylor_scaffold_64213_gene_89463.txt data/models_hmm/7000000025@SRS023617_Baylor_scaffold_64213@SRS023617_Baylor_scaffold_64213_gene_89463.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:46 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P33816|A27_VAR67     18.1    0.0014   1   1.1   0.1    14 kDa fusion protein OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A27L PE=3 SV=1
+sp|Q80KJ8|NS1A_MASV1    11.5      0.15   1   1.5   0.1    Non-structural polyprotein 1A OS=Mink astrovirus 1 OX=1239574 GN=ORF1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P33816|A27_VAR67     17.7    0.0018     1   0.1     16     98     22     89     98    163     14 kDa fusion protein OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A27L PE=3 SV=1
+sp|Q80KJ8|NS1A_MASV1    10.3      0.33     1   0.1    771    847    803    835     81    114     Non-structural polyprotein 1A OS=Mink astrovirus 1 OX=1239574 GN=ORF1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_1520093_len_85276_cov_4_614769@_HiSeq_06130330.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_1520093_len_85276_cov_4_614769@_HiSeq_06130330.txt data/models_hmm/2061766007@rumenHiSeq_NODE_1520093_len_85276_cov_4_614769@_HiSeq_06130330.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:24 2021
+# [ok]

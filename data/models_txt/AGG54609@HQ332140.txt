@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZQ8|RIR2_FRG3G    16.4    0.0045   1   1.4   0.0    Putative ribonucleoside-diphosphate reductase small subunit 067L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-067L PE=3 SV=1
+sp|Q01038|RIR2_SHV21    13.0     0.047   2   1.8   0.1    Ribonucleoside-diphosphate reductase small subunit OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=RIR2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6GZQ8|RIR2_FRG3G    15.5    0.0081     1   0.0    103    294    109    263     23    160     Putative ribonucleoside-diphosphate reductase small subunit 067L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-067L PE=3 SV=1
+sp|Q01038|RIR2_SHV21    11.3      0.16     2   0.0    117    225    155    205    121    166     Ribonucleoside-diphosphate reductase small subunit OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=RIR2 PE=3 SV=1
+sp|Q01038|RIR2_SHV21    -1.8   1.5e+03     1   0.0     55    138     58    119    128    188     Ribonucleoside-diphosphate reductase small subunit OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=RIR2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGG54609@HQ332140.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGG54609@HQ332140.txt data/models_hmm/AGG54609@HQ332140.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:33 2021
+# [ok]

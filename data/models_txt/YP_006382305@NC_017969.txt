@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P23541|A2_BPT5      184.2   1.1e-54   1   1.0   4.7    Protein A2 OS=Escherichia phage T5 OX=10726 GN=A2 PE=1 SV=2
+sp|P19348|A2_BPBF2     177.8     1e-52   1   1.0   4.2    Protein A2-A3 OS=Escherichia phage Bf23 OX=10707 GN=A2-A3 PE=3 SV=2
+sp|Q6QGG9|D5_BPT5       13.1     0.086   4   3.1   8.5    Putative transcription factor D5 OS=Escherichia phage T5 OX=10726 GN=D5 PE=1 SV=1
+sp|P05078|2B_TRVTC      12.7      0.11   1   1.4   0.7    Protein 2b OS=Tobacco rattle virus (strain TCM) OX=12299 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P23541|A2_BPT5      184.1   1.1e-54     1   4.7      1    135      3    135      3    126     Protein A2 OS=Escherichia phage T5 OX=10726 GN=A2 PE=1 SV=2
+sp|P19348|A2_BPBF2     177.7   1.1e-52     1   4.2      1    138      9    138      3    126     Protein A2-A3 OS=Escherichia phage Bf23 OX=10707 GN=A2-A3 PE=3 SV=2
+sp|P05078|2B_TRVTC      11.8      0.21     1   0.7    106    160    110    151     64    106     Protein 2b OS=Tobacco rattle virus (strain TCM) OX=12299 PE=3 SV=1
+sp|Q6QGG9|D5_BPT5        9.2       1.4     1   2.2      1    103      5     72      4     68     Putative transcription factor D5 OS=Escherichia phage T5 OX=10726 GN=D5 PE=1 SV=1
+sp|Q6QGG9|D5_BPT5        6.3        11     4   0.1    187    251    207    236     31     61     Putative transcription factor D5 OS=Escherichia phage T5 OX=10726 GN=D5 PE=1 SV=1
+sp|Q6QGG9|D5_BPT5       -0.7   1.7e+03     2   0.1     70    163     96    102     35     41     Putative transcription factor D5 OS=Escherichia phage T5 OX=10726 GN=D5 PE=1 SV=1
+sp|Q6QGG9|D5_BPT5       -1.0   2.1e+03     3   0.0    121    176    130    172     10     52     Putative transcription factor D5 OS=Escherichia phage T5 OX=10726 GN=D5 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006382305@NC_017969.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006382305@NC_017969.txt data/models_hmm/YP_006382305@NC_017969.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:09 2021
+# [ok]

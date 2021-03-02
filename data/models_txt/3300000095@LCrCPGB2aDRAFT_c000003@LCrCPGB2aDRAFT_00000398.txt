@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CAG7|VF421_ASFM2    13.7     0.039   2   2.1   0.1    Uncharacterized protein K421R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-060 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CAG7|VF421_ASFM2    11.4       0.2     2   0.1    230    323    278    317     63    102     Uncharacterized protein K421R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-060 PE=3 SV=1
+sp|P0CAG7|VF421_ASFM2    -1.0   1.4e+03     1   0.0     84    145     94    142     24     70     Uncharacterized protein K421R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-060 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000095@LCrCPGB2aDRAFT_c000003@LCrCPGB2aDRAFT_00000398.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000095@LCrCPGB2aDRAFT_c000003@LCrCPGB2aDRAFT_00000398.txt data/models_hmm/3300000095@LCrCPGB2aDRAFT_c000003@LCrCPGB2aDRAFT_00000398.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:26 2021
+# [ok]

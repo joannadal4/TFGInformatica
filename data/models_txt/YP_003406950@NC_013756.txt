@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FG7|VF357_IIV6    24.6   1.6e-05   1   1.5   1.3    Uncharacterized protein 357R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-357R PE=3 SV=1
+sp|Q91FF1|373L_IIV6     19.7   0.00053   2   2.2   1.0    Uncharacterized protein 373L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-373L PE=4 SV=1
+sp|Q196Z4|VF357_IIV3    12.3     0.099   1   1.2   0.0    Transmembrane protein 066L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-066L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FG7|VF357_IIV6    24.4   1.9e-05     1   0.8     29    161     74    156     46    125     Uncharacterized protein 357R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-357R PE=3 SV=1
+sp|Q91FF1|373L_IIV6     19.7   0.00053     1   1.0     10    148     44    134     31    110     Uncharacterized protein 373L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-373L PE=4 SV=1
+sp|Q196Z4|VF357_IIV3    12.0      0.12     1   0.0     74    184    137    169     77    109     Transmembrane protein 066L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-066L PE=3 SV=1
+sp|Q91FF1|373L_IIV6     -1.6   2.1e+03     2   0.1    178    233    204    216     43     55     Uncharacterized protein 373L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-373L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003406950@NC_013756.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003406950@NC_013756.txt data/models_hmm/YP_003406950@NC_013756.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:33 2021
+# [ok]

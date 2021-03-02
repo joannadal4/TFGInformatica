@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQZ7|YR901_MIMIV    13.1      0.09   4   3.9   0.1    Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV    11.2      0.36   6   5.2   3.2    Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQZ7|YR901_MIMIV     5.1        29     1   0.0     85    136    103    129     49     75     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV     3.6        82     6   0.0    419    462    424    458     41     75     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV     2.1   2.4e+02     3   0.0    238    284    244    279     40     75     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV     0.6   6.9e+02     5   0.0    352    415    361    400     17     58     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV     0.3   8.9e+02     4   0.0    301    340    313    338     50     75     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV    -0.3   1.4e+03     2   0.0    102    137    114    130     60     76     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV    -0.7   1.8e+03     2   0.0    168    221    192    219     48     75     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV    -1.7   3.6e+03     3   0.0    183    225    204    219     60     75     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+sp|Q5UQZ7|YR901_MIMIV    -2.5   6.6e+03     4   0.0    280    314    289    309     55     75     Putative ankyrin repeat protein R901 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R901 PE=4 SV=1
+sp|Q5UP39|YR873_MIMIV    -3.4   1.2e+04     1   0.0     62    100     88     97     64     73     Putative ankyrin repeat protein R873 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R873 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_529705_len_70770_cov_2_750756@_HiSeq_10888070.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_529705_len_70770_cov_2_750756@_HiSeq_10888070.txt data/models_hmm/2061766007@rumenHiSeq_NODE_529705_len_70770_cov_2_750756@_HiSeq_10888070.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:50 2021
+# [ok]

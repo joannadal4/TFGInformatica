@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9QJ43|U23_HHV6Z     12.4       0.1   1   1.4   0.0    Protein U23 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U23 PE=3 SV=1
+sp|Q0Q465|NS3_BC512     10.9       0.3   1   1.3   4.2    Non-structural protein 3 OS=Bat coronavirus 512/2005 OX=693999 GN=3 PE=4 SV=1
+sp|Q9J529|V206_FOWPN     8.8       1.3   1   2.3   7.9    G-protein coupled receptor homolog FPV206 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV206 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9QJ43|U23_HHV6Z     11.5       0.2     1   0.0    227    284    244    281     41     79     Protein U23 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U23 PE=3 SV=1
+sp|Q0Q465|NS3_BC512     10.2      0.48     1   4.2     18    132     46    121     55    137     Non-structural protein 3 OS=Bat coronavirus 512/2005 OX=693999 GN=3 PE=4 SV=1
+sp|Q9J529|V206_FOWPN     9.8      0.63     1   4.6     22    146     57    115     44    101     G-protein coupled receptor homolog FPV206 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV206 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2088090015@GPICI_9250756@GPICI_00000820.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2088090015@GPICI_9250756@GPICI_00000820.txt data/models_hmm/2088090015@GPICI_9250756@GPICI_00000820.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:58 2021
+# [ok]

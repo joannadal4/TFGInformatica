@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9J5H9|V022_FOWPN    14.0     0.037   2   2.6   0.6    Putative ankyrin repeat protein FPV022 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV022 PE=4 SV=1
+sp|P04545|M21_HRSVA     13.5     0.053   2   2.2   0.2    Protein M2-1 OS=Human respiratory syncytial virus A (strain A2) OX=11259 GN=M2-1 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04545|M21_HRSVA     10.8      0.35     1   0.0     13     65     16     59      7     50     Protein M2-1 OS=Human respiratory syncytial virus A (strain A2) OX=11259 GN=M2-1 PE=1 SV=1
+sp|Q9J5H9|V022_FOWPN     6.7       6.7     2   0.1    422    485    437    479     60    102     Putative ankyrin repeat protein FPV022 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV022 PE=4 SV=1
+sp|Q9J5H9|V022_FOWPN     4.7        28     1   0.1    145    217    183    210     38     65     Putative ankyrin repeat protein FPV022 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV022 PE=4 SV=1
+sp|P04545|M21_HRSVA     -0.5   1.1e+03     2   0.1    121    188    145    169     23     49     Protein M2-1 OS=Human respiratory syncytial virus A (strain A2) OX=11259 GN=M2-1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000667@SRS022149_LANL_scaffold_20404@SRS022149_LANL_scaffold_20404_gene_21108.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000667@SRS022149_LANL_scaffold_20404@SRS022149_LANL_scaffold_20404_gene_21108.txt data/models_hmm/7000000667@SRS022149_LANL_scaffold_20404@SRS022149_LANL_scaffold_20404_gene_21108.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:53 2021
+# [ok]

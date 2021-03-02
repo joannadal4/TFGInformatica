@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6UY61|L_SABVB       15.2     0.017   3   2.9   0.2    RNA-directed RNA polymerase L OS=Sabia mammarenavirus (isolate Human/Brasil/SPH114202/1990) OX=2169992 GN=L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6UY61|L_SABVB       11.9      0.19     3   0.0   2095   2159   2099   2148      5     53     RNA-directed RNA polymerase L OS=Sabia mammarenavirus (isolate Human/Brasil/SPH114202/1990) OX=2169992 GN=L PE=3 SV=1
+sp|Q6UY61|L_SABVB       -2.2   4.7e+03     1   0.0    818    849    829    841     23     35     RNA-directed RNA polymerase L OS=Sabia mammarenavirus (isolate Human/Brasil/SPH114202/1990) OX=2169992 GN=L PE=3 SV=1
+sp|Q6UY61|L_SABVB       -2.6   6.2e+03     2   0.1   1896   1919   1901   1916     34     49     RNA-directed RNA polymerase L OS=Sabia mammarenavirus (isolate Human/Brasil/SPH114202/1990) OX=2169992 GN=L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000480@SRS015209_WUGC_scaffold_35530@SRS015209_WUGC_scaffold_35530_gene_69474.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000480@SRS015209_WUGC_scaffold_35530@SRS015209_WUGC_scaffold_35530_gene_69474.txt data/models_hmm/7000000480@SRS015209_WUGC_scaffold_35530@SRS015209_WUGC_scaffold_35530_gene_69474.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:36 2021
+# [ok]

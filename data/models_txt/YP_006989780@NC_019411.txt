@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q98185|MC014_MCV1    14.0     0.033   2   2.0   0.5    Protein MC014 OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=MC014 PE=4 SV=1
+sp|P11850|VP7_ROTHD     13.8     0.038   2   1.8   0.0    Outer capsid glycoprotein VP7 OS=Rotavirus A (strain RVA/Human/United States/DS-1/1976/G2P1B[4]) OX=10950 PE=3 SV=1
+sp|P04328|VP7_ROTHA     13.8     0.038   2   1.8   0.0    Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Human/Australia/Hu5/1977/G2P[X]) OX=10948 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04328|VP7_ROTHA     12.1      0.12     1   0.0     59    116     61    111      3     52     Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Human/Australia/Hu5/1977/G2P[X]) OX=10948 PE=2 SV=1
+sp|P11850|VP7_ROTHD     12.1      0.12     1   0.0     59    116     61    111      3     52     Outer capsid glycoprotein VP7 OS=Rotavirus A (strain RVA/Human/United States/DS-1/1976/G2P1B[4]) OX=10950 PE=3 SV=1
+sp|Q98185|MC014_MCV1    12.0      0.14     1   0.1      3     33      7     30     48     71     Protein MC014 OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=MC014 PE=4 SV=1
+sp|Q98185|MC014_MCV1    -0.6   1.2e+03     2   0.0     79    123    102    114     53     65     Protein MC014 OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=MC014 PE=4 SV=1
+sp|P04328|VP7_ROTHA     -2.3   3.8e+03     2   0.0    259    298    264    289     31     52     Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Human/Australia/Hu5/1977/G2P[X]) OX=10948 PE=2 SV=1
+sp|P11850|VP7_ROTHD     -2.3   3.8e+03     2   0.0    259    298    264    289     31     52     Outer capsid glycoprotein VP7 OS=Rotavirus A (strain RVA/Human/United States/DS-1/1976/G2P1B[4]) OX=10950 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006989780@NC_019411.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006989780@NC_019411.txt data/models_hmm/YP_006989780@NC_019411.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:52 2021
+# [ok]

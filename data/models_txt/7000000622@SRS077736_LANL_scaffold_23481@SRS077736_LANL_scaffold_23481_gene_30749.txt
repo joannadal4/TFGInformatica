@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P00542|FES_FSVGA     11.8      0.11   2   2.1   0.2    Tyrosine-protein kinase transforming protein Fes OS=Feline sarcoma virus (strain Gardner-Arnstein) OX=11774 GN=V-FES PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P00542|FES_FSVGA      8.3       1.3     2   0.0    387    485    395    460    135    201     Tyrosine-protein kinase transforming protein Fes OS=Feline sarcoma virus (strain Gardner-Arnstein) OX=11774 GN=V-FES PE=3 SV=1
+sp|P00542|FES_FSVGA      0.9   2.3e+02     1   0.2    105    151    110    142    112    144     Tyrosine-protein kinase transforming protein Fes OS=Feline sarcoma virus (strain Gardner-Arnstein) OX=11774 GN=V-FES PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000622@SRS077736_LANL_scaffold_23481@SRS077736_LANL_scaffold_23481_gene_30749.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000622@SRS077736_LANL_scaffold_23481@SRS077736_LANL_scaffold_23481_gene_30749.txt data/models_hmm/7000000622@SRS077736_LANL_scaffold_23481@SRS077736_LANL_scaffold_23481_gene_30749.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:36 2021
+# [ok]

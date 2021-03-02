@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8QL37|Y101_SIRV1   221.5   8.5e-67   1   1.0  13.7    Uncharacterized protein 101 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=101 PE=4 SV=1
+sp|P0C725|LF2_EBVB9     14.8     0.019   2   2.2   0.1    Protein LF2 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=LF2 PE=1 SV=1
+sp|P0C726|LF2_EBVA8     14.8     0.019   2   2.2   0.1    Protein LF2 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=LF2 PE=3 SV=1
+sp|P20639|K3_VACCC      14.1     0.031   1   1.1   1.1    Protein K3 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=K3L PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8QL37|Y101_SIRV1   221.4   9.4e-67     1  13.7      1    101      1    101      1    101     Uncharacterized protein 101 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=101 PE=4 SV=1
+sp|P20639|K3_VACCC      13.9     0.036     1   1.1     12     87     20     82     20     79     Protein K3 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=K3L PE=1 SV=1
+sp|P0C725|LF2_EBVB9     12.4      0.11     2   0.0    248    298    258    288     55     85     Protein LF2 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=LF2 PE=1 SV=1
+sp|P0C726|LF2_EBVA8     12.4      0.11     2   0.0    248    298    258    288     55     85     Protein LF2 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=LF2 PE=3 SV=1
+sp|P0C725|LF2_EBVB9     -1.4     2e+03     1   0.1     87    146     94    113     22     41     Protein LF2 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=LF2 PE=1 SV=1
+sp|P0C726|LF2_EBVA8     -1.4     2e+03     1   0.1     87    146     94    113     22     41     Protein LF2 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=LF2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_666606@NC_004087.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_666606@NC_004087.txt data/models_hmm/NP_666606@NC_004087.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:16 2021
+# [ok]

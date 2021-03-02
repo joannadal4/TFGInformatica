@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03620|CAPSD_BPIKE   144.9   6.4e-43   1   1.0   6.9    Capsid protein G8P OS=Enterobacteria phage IKe OX=10867 GN=VIII PE=1 SV=1
+sp|P15416|CAPSD_BPI22   143.7   1.5e-42   1   1.0   9.0    Capsid protein G8P OS=Enterobacteria phage I2-2 OX=10869 GN=VIII PE=3 SV=1
+sp|P03619|CAPSD_BPIF1   113.6   3.8e-33   1   1.0   9.3    Capsid protein G8P OS=Enterobacteria phage If1 OX=10868 GN=VIII PE=1 SV=2
+sp|P69539|CAPSD_BPFD    110.5   3.5e-32   1   1.0   5.8    Capsid protein G8P OS=Enterobacteria phage fd OX=10864 GN=VIII PE=1 SV=1
+sp|P69540|CAPSD_BPF1    110.5   3.5e-32   1   1.0   5.8    Capsid protein G8P OS=Enterobacteria phage f1 OX=10863 GN=VIII PE=1 SV=1
+sp|P69541|CAPSD_BPM13   110.5   3.5e-32   1   1.0   5.9    Capsid protein G8P OS=Enterobacteria phage M13 OX=1977402 GN=VIII PE=1 SV=1
+sp|P03618|CAPSD_BPZJ2    87.4   5.5e-25   1   1.0   0.8    Capsid protein G8P OS=Enterobacteria phage ZJ/2 OX=10866 GN=VIII PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03620|CAPSD_BPIKE   144.8     7e-43     1   6.9      1     82      1     82      1     83     Capsid protein G8P OS=Enterobacteria phage IKe OX=10867 GN=VIII PE=1 SV=1
+sp|P15416|CAPSD_BPI22   143.6   1.7e-42     1   9.0      1     84      1     84      1     83     Capsid protein G8P OS=Enterobacteria phage I2-2 OX=10869 GN=VIII PE=3 SV=1
+sp|P03619|CAPSD_BPIF1   113.5   4.1e-33     1   9.3      1     74      1     74      1     83     Capsid protein G8P OS=Enterobacteria phage If1 OX=10868 GN=VIII PE=1 SV=2
+sp|P69539|CAPSD_BPFD    110.4   3.8e-32     1   5.8      1     73      1     73      1     83     Capsid protein G8P OS=Enterobacteria phage fd OX=10864 GN=VIII PE=1 SV=1
+sp|P69540|CAPSD_BPF1    110.4   3.8e-32     1   5.8      1     73      1     73      1     83     Capsid protein G8P OS=Enterobacteria phage f1 OX=10863 GN=VIII PE=1 SV=1
+sp|P69541|CAPSD_BPM13   110.4   3.8e-32     1   5.9      1     73      1     73      1     83     Capsid protein G8P OS=Enterobacteria phage M13 OX=1977402 GN=VIII PE=1 SV=1
+sp|P03618|CAPSD_BPZJ2    87.4   5.8e-25     1   0.8      1     50      3     50     36     83     Capsid protein G8P OS=Enterobacteria phage ZJ/2 OX=10866 GN=VIII PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_047355@NC_001954.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_047355@NC_001954.txt data/models_hmm/NP_047355@NC_001954.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:27 2021
+# [ok]

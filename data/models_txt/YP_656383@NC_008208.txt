@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03720|VPIP_BPT4     99.4   9.9e-29   1   1.1  22.2    Prehead core component PIP OS=Enterobacteria phage T4 OX=10665 GN=67 PE=4 SV=1
+sp|P18131|DPOL_NPVAC    10.3      0.64   1   1.6   9.9    DNA polymerase OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=POL PE=3 SV=2
+sp|P41712|DPOL_NPVBM     9.7      0.92   1   1.6   7.0    DNA polymerase OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=POL PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03720|VPIP_BPT4     99.1   1.1e-28     1  22.2      1     80      1     80      1     75     Prehead core component PIP OS=Enterobacteria phage T4 OX=10665 GN=67 PE=4 SV=1
+sp|P18131|DPOL_NPVAC     9.2       1.4     1   9.9    892    969    906    966     15     73     DNA polymerase OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=POL PE=3 SV=2
+sp|P41712|DPOL_NPVBM     8.6       2.2     1   7.0    893    970    909    968     17     73     DNA polymerase OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=POL PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_656383@NC_008208.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_656383@NC_008208.txt data/models_hmm/YP_656383@NC_008208.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:43 2021
+# [ok]

@@ -1,0 +1,51 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03284|CAP9_ADE12   224.8   3.1e-67   1   1.0   6.4    Hexon-interlacing protein OS=Human adenovirus A serotype 12 OX=28282 GN=IX PE=3 SV=1
+sp|P48312|CAP9_ADE40   214.4   4.9e-64   1   1.0   5.9    Hexon-interlacing protein OS=Human adenovirus F serotype 40 OX=28284 GN=IX PE=3 SV=1
+sp|P32539|CAP9_ADE41   213.1   1.2e-63   1   1.0   7.0    Hexon-interlacing protein OS=Human adenovirus F serotype 41 OX=10524 GN=IX PE=3 SV=1
+sp|P68970|CAP9_ADE03   197.8   6.4e-59   1   1.0   5.7    Hexon-interlacing protein OS=Human adenovirus B serotype 3 OX=45659 GN=IX PE=3 SV=1
+sp|P68971|CAP9_ADE07   197.8   6.4e-59   1   1.0   5.7    Hexon-interlacing protein OS=Human adenovirus B serotype 7 OX=10519 GN=IX PE=3 SV=1
+sp|P03282|CAP9_ADE02   190.3   1.3e-56   1   1.0   7.9    Hexon-interlacing protein OS=Human adenovirus C serotype 2 OX=10515 GN=IX PE=1 SV=2
+sp|P03281|CAP9_ADE05   190.3   1.4e-56   1   1.0   7.6    Hexon-interlacing protein OS=Human adenovirus C serotype 5 OX=28285 GN=IX PE=1 SV=1
+sp|P04376|CAP9_ADET1    54.9   8.2e-15   1   2.1   3.0    Hexon-interlacing protein OS=Tree shrew adenovirus serotype 1 OX=47680 GN=IX PE=3 SV=1
+sp|P68968|CAP9_ADECC    44.2   1.6e-11   1   2.1   3.4    Hexon-interlacing protein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=IX PE=3 SV=1
+sp|P68969|CAP9_ADECR    44.2   1.6e-11   1   2.1   3.4    Hexon-interlacing protein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=IX PE=3 SV=1
+sp|P14268|CAP9_ADECT    42.8   4.3e-11   2   2.0   2.9    Hexon-interlacing protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=IX PE=3 SV=1
+sp|P0C9Z9|P54_ASFP4     14.2     0.029   1   1.3  12.4    Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+sp|P0CA00|P54_ASFWA     12.7     0.084   1   1.3  11.3    Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+sp|D5LX59|LTP_HCMVT      9.2       1.1   2   3.8   3.9    Large tegument protein deneddylase OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL48 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03284|CAP9_ADE12   224.6   3.5e-67     1   6.4      1    139      1    136      1    137     Hexon-interlacing protein OS=Human adenovirus A serotype 12 OX=28282 GN=IX PE=3 SV=1
+sp|P48312|CAP9_ADE40   214.3   5.4e-64     1   5.9      1    132      1    130      1    136     Hexon-interlacing protein OS=Human adenovirus F serotype 40 OX=28284 GN=IX PE=3 SV=1
+sp|P32539|CAP9_ADE41   213.0   1.3e-63     1   7.0      1    133      1    131      1    136     Hexon-interlacing protein OS=Human adenovirus F serotype 41 OX=10524 GN=IX PE=3 SV=1
+sp|P68970|CAP9_ADE03   197.6   7.3e-59     1   5.7      1    133      2    131      2    138     Hexon-interlacing protein OS=Human adenovirus B serotype 3 OX=45659 GN=IX PE=3 SV=1
+sp|P68971|CAP9_ADE07   197.6   7.3e-59     1   5.7      1    133      2    131      2    138     Hexon-interlacing protein OS=Human adenovirus B serotype 7 OX=10519 GN=IX PE=3 SV=1
+sp|P03282|CAP9_ADE02   190.2   1.5e-56     1   7.9      1    133      2    131      8    138     Hexon-interlacing protein OS=Human adenovirus C serotype 2 OX=10515 GN=IX PE=1 SV=2
+sp|P03281|CAP9_ADE05   190.1   1.5e-56     1   7.6      1    133      2    131      8    138     Hexon-interlacing protein OS=Human adenovirus C serotype 5 OX=28285 GN=IX PE=1 SV=1
+sp|P04376|CAP9_ADET1    49.6   3.5e-13     1   3.0      1    106      4     50     10     56     Hexon-interlacing protein OS=Tree shrew adenovirus serotype 1 OX=47680 GN=IX PE=3 SV=1
+sp|P14268|CAP9_ADECT    42.0     8e-11     1   0.1      3     43      6     38     13     45     Hexon-interlacing protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=IX PE=3 SV=1
+sp|P68968|CAP9_ADECC    40.6   2.1e-10     1   3.4      3    102      6     38     13     45     Hexon-interlacing protein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=IX PE=3 SV=1
+sp|P68969|CAP9_ADECR    40.6   2.1e-10     1   3.4      3    102      6     38     13     45     Hexon-interlacing protein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=IX PE=3 SV=1
+sp|P0C9Z9|P54_ASFP4     13.5     0.047     1  12.4     90    190     97    182     29    107     Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+sp|P0CA00|P54_ASFWA     12.1      0.13     1  11.3     90    186     97    178     29    107     Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+sp|D5LX59|LTP_HCMVT      6.6       6.5     1   0.5    287    357    289    331     32     75     Large tegument protein deneddylase OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL48 PE=1 SV=1
+sp|P14268|CAP9_ADECT     1.2     3e+02     2   0.5     48    102     71     90    113    132     Hexon-interlacing protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=IX PE=3 SV=1
+sp|D5LX59|LTP_HCMVT      0.4   5.5e+02     2   0.2    363    425    365    394     44     76     Large tegument protein deneddylase OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL48 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007518068@NC_020485.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007518068@NC_020485.txt data/models_hmm/YP_007518068@NC_020485.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:02 2021
+# [ok]

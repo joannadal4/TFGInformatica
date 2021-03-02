@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q0E587|MMP_SFAVA     16.1    0.0033   1   1.2   0.0    Putative matrix metalloproteinase OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=ORF14 PE=3 SV=1
+sp|P08326|NRAM_I81A2    11.1       0.1   1   1.1   1.2    Neuraminidase OS=Influenza A virus (strain A/Equine/Kentucky/1/1981) OX=475467 GN=NA PE=3 SV=1
+sp|Q07582|NRAM_I86A3    11.1      0.11   1   1.1   1.2    Neuraminidase OS=Influenza A virus (strain A/Equine/Tennessee/5/1986 H3N8) OX=380339 GN=NA PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q0E587|MMP_SFAVA     15.4    0.0053     1   0.0    168    253    179    244    204    270     Putative matrix metalloproteinase OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=ORF14 PE=3 SV=1
+sp|P08326|NRAM_I81A2    10.6      0.15     1   1.2      3    102     17     85     16     84     Neuraminidase OS=Influenza A virus (strain A/Equine/Kentucky/1/1981) OX=475467 GN=NA PE=3 SV=1
+sp|Q07582|NRAM_I86A3    10.6      0.15     1   1.2      3    102     17     85     16     84     Neuraminidase OS=Influenza A virus (strain A/Equine/Tennessee/5/1986 H3N8) OX=380339 GN=NA PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001351@JGI20153J14318_10000206@JGI20153J14318_1000020611.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001351@JGI20153J14318_10000206@JGI20153J14318_1000020611.txt data/models_hmm/3300001351@JGI20153J14318_10000206@JGI20153J14318_1000020611.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:00 2021
+# [ok]

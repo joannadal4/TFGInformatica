@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P30002|LTP_HHV6G     14.4     0.032   1   2.4   0.3    Large tegument protein deneddylase OS=Human herpesvirus 6A (strain GS) OX=10369 GN=U31 PE=3 SV=1
+sp|P52340|LTP_HHV6U     14.3     0.034   1   2.3   0.3    Large tegument protein deneddylase OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U31 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P30002|LTP_HHV6G     12.0      0.19     1   0.3    423    494    435    461     20     46     Large tegument protein deneddylase OS=Human herpesvirus 6A (strain GS) OX=10369 GN=U31 PE=3 SV=1
+sp|P52340|LTP_HHV6U     12.0      0.19     1   0.3    423    494    435    461     20     46     Large tegument protein deneddylase OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U31 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_4357579_len_93540_cov_1_181110@_HiSeq_22055150.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_4357579_len_93540_cov_1_181110@_HiSeq_22055150.txt data/models_hmm/2061766007@rumenHiSeq_NODE_4357579_len_93540_cov_1_181110@_HiSeq_22055150.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:48 2021
+# [ok]

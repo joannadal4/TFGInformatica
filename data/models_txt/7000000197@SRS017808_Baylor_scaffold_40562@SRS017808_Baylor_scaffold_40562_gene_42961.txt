@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5I148|IKBG2_MDBVW    13.2     0.085   1   1.5   0.1    I-Kappa-B like protein G2 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=G4 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5I148|IKBG2_MDBVW    12.0      0.19     1   0.1     27     96     55     92     55     92     I-Kappa-B like protein G2 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=G4 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000197@SRS017808_Baylor_scaffold_40562@SRS017808_Baylor_scaffold_40562_gene_42961.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000197@SRS017808_Baylor_scaffold_40562@SRS017808_Baylor_scaffold_40562_gene_42961.txt data/models_hmm/7000000197@SRS017808_Baylor_scaffold_40562@SRS017808_Baylor_scaffold_40562_gene_42961.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:19 2021
+# [ok]

@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P19653|KILA_BPP1      64.7   7.8e-18   1   1.3   0.0    Protein kilA OS=Escherichia phage P1 OX=10678 GN=kilA PE=4 SV=1
+sp|Q5UQZ4|YR904_MIMIV    36.8   2.6e-09   1   1.4   4.8    Putative KilA-N domain-containing protein R904 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R904 PE=4 SV=1
+sp|Q5UPA5|YL032_MIMIV    28.4   9.5e-07   1   1.4   0.6    Putative KilA-N domain-containing protein L32 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L32 PE=4 SV=1
+sp|Q5URA6|YR878_MIMIV    27.8   1.5e-06   1   1.8   2.0    Putative KilA-N domain-containing protein R878 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R878 PE=4 SV=1
+sp|Q5UP83|YL004_MIMIV    26.8     3e-06   1   1.4   1.8    Putative KilA-N domain-containing protein L4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L4 PE=4 SV=1
+sp|P14364|V248_FOWPN     17.2    0.0025   1   1.2   0.2    Uncharacterized protein FPV248 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV248 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P19653|KILA_BPP1      64.3     1e-17     1   0.0     20    181     32    121     17    112     Protein kilA OS=Escherichia phage P1 OX=10678 GN=kilA PE=4 SV=1
+sp|Q5UQZ4|YR904_MIMIV    35.9   4.9e-09     1   4.8     53    218     62    208     16    161     Putative KilA-N domain-containing protein R904 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R904 PE=4 SV=1
+sp|Q5UPA5|YL032_MIMIV    27.5   1.8e-06     1   0.6    152    292    163    251     17    108     Putative KilA-N domain-containing protein L32 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L32 PE=4 SV=1
+sp|Q5URA6|YR878_MIMIV    27.1   2.4e-06     1   0.7    130    259    141    232     16    105     Putative KilA-N domain-containing protein R878 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R878 PE=4 SV=1
+sp|Q5UP83|YL004_MIMIV    25.9   5.7e-06     1   1.8    175    364    183    310     16    144     Putative KilA-N domain-containing protein L4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L4 PE=4 SV=1
+sp|P14364|V248_FOWPN     16.8    0.0033     1   0.2      9    150     23    139     17    123     Uncharacterized protein FPV248 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV248 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2100351000@BMHBC_154924@BMHBC_03011650.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2100351000@BMHBC_154924@BMHBC_03011650.txt data/models_hmm/2100351000@BMHBC_154924@BMHBC_03011650.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:58 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P69174|NING_BP933    13.0     0.072   1   1.4   0.0    Protein ninG OS=Escherichia phage 933W OX=10730 GN=ninG PE=3 SV=1
+sp|P69175|NING_BPVT2    13.0     0.072   1   1.4   0.0    Protein ninG OS=Enterobacteria phage VT2-Sa OX=97081 GN=ninG PE=3 SV=1
+sp|O48427|NING_BPH19    12.8     0.086   1   1.5   0.0    Protein ninG OS=Enterobacteria phage H19B OX=69932 GN=ninG PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P69174|NING_BP933    12.2      0.13     1   0.0    125    197    141    172     68     99     Protein ninG OS=Escherichia phage 933W OX=10730 GN=ninG PE=3 SV=1
+sp|P69175|NING_BPVT2    12.2      0.13     1   0.0    125    197    141    172     68     99     Protein ninG OS=Enterobacteria phage VT2-Sa OX=97081 GN=ninG PE=3 SV=1
+sp|O48427|NING_BPH19    11.9      0.16     1   0.0    125    184    141    171     68     98     Protein ninG OS=Enterobacteria phage H19B OX=69932 GN=ninG PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000713@SRS024355_LANL_scaffold_119899@SRS024355_LANL_scaffold_119899_gene_162947.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000713@SRS024355_LANL_scaffold_119899@SRS024355_LANL_scaffold_119899_gene_162947.txt data/models_hmm/7000000713@SRS024355_LANL_scaffold_119899@SRS024355_LANL_scaffold_119899_gene_162947.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:06 2021
+# [ok]

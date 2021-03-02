@@ -1,0 +1,87 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P54092|VP2_CAV26      47.0   2.3e-12   2   2.3  14.0    Dual specificity protein phosphatase VP2 OS=Chicken anemia virus (isolate USA 26p4) OX=73477 GN=VP2 PE=2 SV=1
+sp|P54093|VP2_CAV82      44.9   1.1e-11   2   2.3   6.9    Dual specificity protein phosphatase VP2 OS=Chicken anemia virus (isolate Japan 82-2) OX=73476 GN=VP2 PE=2 SV=1
+sp|P69484|VP2_CAVC1      44.6   1.4e-11   2   2.3   7.1    Dual specificity protein phosphatase VP2 OS=Chicken anemia virus (isolate Germany Cuxhaven-1) OX=73475 GN=VP2 PE=2 SV=1
+sp|P69485|VP2_CAVCI      44.6   1.4e-11   2   2.3   7.1    Dual specificity protein phosphatase VP2 OS=Chicken anemia virus (isolate USA CIA-1) OX=73478 GN=VP2 PE=2 SV=1
+sp|Q9IZU7|VP2_CAVCA      41.0   1.6e-10   2   2.3   6.9    Dual specificity protein phosphatase VP2 OS=Chicken anemia virus (isolate Australia/CAU269-7/2000) OX=486492 GN=VP2 PE=1 SV=1
+sp|Q8QVM0|ORF2_TTVI1     17.1    0.0033   2   1.6   5.4    Uncharacterized ORF2 protein OS=Torque teno sus virus 1 (isolate Sd-TTV31) OX=766190 GN=ORF1 PE=4 SV=1
+sp|Q8QVL7|ORF2_TTVT1     16.1    0.0067   1   1.2   1.7    Uncharacterized ORF2 protein OS=Torque teno canis virus (isolate Cf-TTV10) OX=766189 GN=ORF1 PE=4 SV=1
+sp|F5HAM4|US31_HCMVM     15.5      0.01   3   2.4   3.2    Uncharacterized protein US31 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US31 PE=3 SV=1
+sp|P09707|US31_HCMVA     15.5      0.01   3   2.4   3.2    Uncharacterized protein HHRF6 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US31 PE=3 SV=3
+sp|Q8QVL4|ORF2_TTVF1     14.5     0.021   1   1.2   0.1    Uncharacterized ORF2 protein OS=Torque teno felis virus (isolate Fc-TTV4) OX=766188 GN=ORF1 PE=4 SV=1
+sp|Q8QVM1|ORF3_TTVI1     14.4     0.022   3   2.1   5.4    Uncharacterized ORF3 protein OS=Torque teno sus virus 1 (isolate Sd-TTV31) OX=766190 GN=ORF1 PE=4 SV=1
+sp|Q8QVL5|ORF3_TTVF1     13.6      0.04   2   1.8   0.3    Uncharacterized ORF3 protein OS=Torque teno felis virus (isolate Fc-TTV4) OX=766188 GN=ORF3 PE=4 SV=1
+sp|Q8V7G4|ORF23_TTVV7    12.8     0.069   2   2.4   4.1    Probable protein VP2 OS=Torque teno virus (isolate Human/China/CT39F/2001) OX=486279 GN=ORF2/3 PE=3 SV=1
+sp|P09714|US01_HCMVA     12.7     0.072   2   2.2  11.8    Uncharacterized protein HQLF3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US1 PE=3 SV=2
+sp|Q6SW03|US01_HCMVM     12.5     0.083   2   2.2  12.0    Protein US1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US1 PE=4 SV=1
+sp|Q9DUD0|ORF2_TTVV8     12.4     0.091   2   1.4   0.1    Uncharacterized ORF2 protein OS=Torque teno virus (isolate Chimpanzee/Japan/Pt-TTV6/2000) OX=687343 GN=ORF2 PE=4 SV=1
+sp|Q91PQ2|ORF2_TTVD1     12.0      0.12   1   1.6   7.2    Uncharacterized ORF2 protein OS=Torque teno tupaia virus (isolate Tbc-TTV14) OX=766185 GN=ORF2 PE=4 SV=1
+sp|P09708|US32_HCMVA     10.2      0.44   2   2.1  16.0    Uncharacterized protein HHRF7 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US32 PE=1 SV=1
+sp|Q914N2|ORF23_TTVV4    10.1      0.45   3   2.8   0.0    Probable protein VP2 OS=Torque teno virus (isolate Human/Germany/KAV/2001) OX=687345 GN=ORF2/3 PE=3 SV=2
+sp|Q914N3|ORF24_TTVV4    10.1      0.47   2   1.9   0.0    Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/Germany/KAV/2001) OX=687345 GN=ORF2/4 PE=4 SV=2
+sp|F5HD03|US32_HCMVM      9.6      0.67   2   2.1  16.7    Protein US32 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US32 PE=3 SV=1
+sp|Q91PQ3|ORF3_TTVD1      8.1       1.9   2   2.1   9.4    Uncharacterized ORF3 protein OS=Torque teno tupaia virus (isolate Tbc-TTV14) OX=766185 GN=ORF3 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P54093|VP2_CAV82      44.9   1.1e-11     1   6.9     51    121     69    106     21     58     Dual specificity protein phosphatase VP2 OS=Chicken anemia virus (isolate Japan 82-2) OX=73476 GN=VP2 PE=2 SV=1
+sp|P54092|VP2_CAV26      44.8   1.1e-11     1   7.1     51    123     69    106     21     58     Dual specificity protein phosphatase VP2 OS=Chicken anemia virus (isolate USA 26p4) OX=73477 GN=VP2 PE=2 SV=1
+sp|P69484|VP2_CAVC1      44.6   1.4e-11     1   7.1     52    119     69    106     21     58     Dual specificity protein phosphatase VP2 OS=Chicken anemia virus (isolate Germany Cuxhaven-1) OX=73475 GN=VP2 PE=2 SV=1
+sp|P69485|VP2_CAVCI      44.6   1.4e-11     1   7.1     52    119     69    106     21     58     Dual specificity protein phosphatase VP2 OS=Chicken anemia virus (isolate USA CIA-1) OX=73478 GN=VP2 PE=2 SV=1
+sp|Q9IZU7|VP2_CAVCA      41.0   1.6e-10     1   6.9     52    119     69    106     21     58     Dual specificity protein phosphatase VP2 OS=Chicken anemia virus (isolate Australia/CAU269-7/2000) OX=486492 GN=VP2 PE=1 SV=1
+sp|Q8QVM0|ORF2_TTVI1     17.1    0.0033     1   5.4      5     43     10     34     34     58     Uncharacterized ORF2 protein OS=Torque teno sus virus 1 (isolate Sd-TTV31) OX=766190 GN=ORF1 PE=4 SV=1
+sp|Q8QVL7|ORF2_TTVT1     16.0    0.0072     1   1.7     23     92     30     59     29     58     Uncharacterized ORF2 protein OS=Torque teno canis virus (isolate Cf-TTV10) OX=766189 GN=ORF1 PE=4 SV=1
+sp|F5HAM4|US31_HCMVM     15.5      0.01     2   3.2     44    105     54     79     33     58     Uncharacterized protein US31 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US31 PE=3 SV=1
+sp|P09707|US31_HCMVA     15.5      0.01     2   3.2     44    105     54     79     33     58     Uncharacterized protein HHRF6 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US31 PE=3 SV=3
+sp|Q8QVM1|ORF3_TTVI1     14.4     0.022     1   5.4      6     47     10     34     34     58     Uncharacterized ORF3 protein OS=Torque teno sus virus 1 (isolate Sd-TTV31) OX=766190 GN=ORF1 PE=4 SV=1
+sp|Q8QVL4|ORF2_TTVF1     14.1     0.028     1   0.1      8     62     18     47     27     56     Uncharacterized ORF2 protein OS=Torque teno felis virus (isolate Fc-TTV4) OX=766188 GN=ORF1 PE=4 SV=1
+sp|Q9DUD0|ORF2_TTVV8     12.4     0.091     1   0.1     43     80     49     76     35     62     Uncharacterized ORF2 protein OS=Torque teno virus (isolate Chimpanzee/Japan/Pt-TTV6/2000) OX=687343 GN=ORF2 PE=4 SV=1
+sp|Q8QVL5|ORF3_TTVF1     12.0      0.12     1   0.0      9     57     18     47     27     56     Uncharacterized ORF3 protein OS=Torque teno felis virus (isolate Fc-TTV4) OX=766188 GN=ORF3 PE=4 SV=1
+sp|P09714|US01_HCMVA     11.4      0.19     2   3.3     60    152     64    109     32     77     Uncharacterized protein HQLF3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US1 PE=3 SV=2
+sp|Q6SW03|US01_HCMVM     11.2      0.22     2   3.4     60    150     64    109     32     77     Protein US1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US1 PE=4 SV=1
+sp|Q91PQ2|ORF2_TTVD1     11.2      0.22     1   7.1      3     55      6     28     34     56     Uncharacterized ORF2 protein OS=Torque teno tupaia virus (isolate Tbc-TTV14) OX=766185 GN=ORF2 PE=4 SV=1
+sp|Q914N2|ORF23_TTVV4    10.1      0.45     1   0.0     12     48     16     44     34     62     Probable protein VP2 OS=Torque teno virus (isolate Human/Germany/KAV/2001) OX=687345 GN=ORF2/3 PE=3 SV=2
+sp|Q914N3|ORF24_TTVV4    10.1      0.47     1   0.0     12     48     16     44     34     62     Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/Germany/KAV/2001) OX=687345 GN=ORF2/4 PE=4 SV=2
+sp|P09708|US32_HCMVA      9.9      0.55     2   4.9     39    129     53    117     32     95     Uncharacterized protein HHRF7 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US32 PE=1 SV=1
+sp|Q91PQ3|ORF3_TTVD1      9.5      0.69     1   5.5      3     95      6     28     34     56     Uncharacterized ORF3 protein OS=Torque teno tupaia virus (isolate Tbc-TTV14) OX=766185 GN=ORF3 PE=4 SV=1
+sp|F5HD03|US32_HCMVM      8.0         2     2   7.2     35    154     52    117     31     95     Protein US32 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US32 PE=3 SV=1
+sp|P54092|VP2_CAV26       7.0       4.2     2   0.4    109    215    146    197    141    194     Dual specificity protein phosphatase VP2 OS=Chicken anemia virus (isolate USA 26p4) OX=73477 GN=VP2 PE=2 SV=1
+sp|P09714|US01_HCMVA      6.8       4.7     1   1.4     18     55     22     43     35     56     Uncharacterized protein HQLF3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US1 PE=3 SV=2
+sp|Q6SW03|US01_HCMVM      6.8       4.7     1   1.4     18     55     22     43     35     56     Protein US1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US1 PE=4 SV=1
+sp|Q8V7G4|ORF23_TTVV7     6.6       5.6     1   0.0      9     56     17     45     34     62     Probable protein VP2 OS=Torque teno virus (isolate Human/China/CT39F/2001) OX=486279 GN=ORF2/3 PE=3 SV=1
+sp|P09708|US32_HCMVA      6.0       8.2     1   3.2     10     41     12     34     35     57     Uncharacterized protein HHRF7 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US32 PE=1 SV=1
+sp|F5HD03|US32_HCMVM      5.7        10     1   3.8     10     51     12     34     35     57     Protein US32 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US32 PE=3 SV=1
+sp|F5HAM4|US31_HCMVM      5.3        13     1   1.8      8     46     10     38     35     63     Uncharacterized protein US31 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US31 PE=3 SV=1
+sp|P09707|US31_HCMVA      5.3        13     1   1.8      8     46     10     38     35     63     Uncharacterized protein HHRF6 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US31 PE=3 SV=3
+sp|Q8V7G4|ORF23_TTVV7     5.2        15     2   2.7    174    270    216    252     98    134     Probable protein VP2 OS=Torque teno virus (isolate Human/China/CT39F/2001) OX=486279 GN=ORF2/3 PE=3 SV=1
+sp|P69484|VP2_CAVC1       4.3        27     2   0.5    111    215    145    194    134    191     Dual specificity protein phosphatase VP2 OS=Chicken anemia virus (isolate Germany Cuxhaven-1) OX=73475 GN=VP2 PE=2 SV=1
+sp|P69485|VP2_CAVCI       4.3        27     2   0.5    111    215    145    194    134    191     Dual specificity protein phosphatase VP2 OS=Chicken anemia virus (isolate USA CIA-1) OX=73478 GN=VP2 PE=2 SV=1
+sp|Q9IZU7|VP2_CAVCA       4.3        27     2   0.5    111    215    145    194    134    191     Dual specificity protein phosphatase VP2 OS=Chicken anemia virus (isolate Australia/CAU269-7/2000) OX=486492 GN=VP2 PE=1 SV=1
+sp|P54093|VP2_CAV82       4.1        33     2   0.6    111    215    144    190    133    186     Dual specificity protein phosphatase VP2 OS=Chicken anemia virus (isolate Japan 82-2) OX=73476 GN=VP2 PE=2 SV=1
+sp|Q91PQ3|ORF3_TTVD1     -0.1   5.9e+02     2   0.1    127    207    173    189    120    136     Uncharacterized ORF3 protein OS=Torque teno tupaia virus (isolate Tbc-TTV14) OX=766185 GN=ORF3 PE=4 SV=1
+sp|Q8QVM0|ORF2_TTVI1     -0.6   8.5e+02     2   0.1     37     73     49     65    151    167     Uncharacterized ORF2 protein OS=Torque teno sus virus 1 (isolate Sd-TTV31) OX=766190 GN=ORF1 PE=4 SV=1
+sp|Q8QVM1|ORF3_TTVI1     -1.5   1.6e+03     3   0.2    134    203    148    156    120    128     Uncharacterized ORF3 protein OS=Torque teno sus virus 1 (isolate Sd-TTV31) OX=766190 GN=ORF1 PE=4 SV=1
+sp|Q8QVL5|ORF3_TTVF1     -1.6   1.7e+03     2   0.0    177    218    187    216    154    182     Uncharacterized ORF3 protein OS=Torque teno felis virus (isolate Fc-TTV4) OX=766188 GN=ORF3 PE=4 SV=1
+sp|F5HAM4|US31_HCMVM     -2.4     3e+03     3   0.1     98    149    124    124    139    139     Uncharacterized protein US31 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US31 PE=3 SV=1
+sp|P09707|US31_HCMVA     -2.4     3e+03     3   0.1     98    149    124    124    139    139     Uncharacterized protein HHRF6 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US31 PE=3 SV=3
+sp|Q914N2|ORF23_TTVV4    -2.4     3e+03     2   0.7     77    117     88    108    158    178     Probable protein VP2 OS=Torque teno virus (isolate Human/Germany/KAV/2001) OX=687345 GN=ORF2/3 PE=3 SV=2
+sp|Q914N3|ORF24_TTVV4    -2.4   3.2e+03     2   0.7     77    117     88    108    158    178     Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/Germany/KAV/2001) OX=687345 GN=ORF2/4 PE=4 SV=2
+sp|Q8QVM1|ORF3_TTVI1     -2.7   3.7e+03     2   0.0     39     77     49     65    151    167     Uncharacterized ORF3 protein OS=Torque teno sus virus 1 (isolate Sd-TTV31) OX=766190 GN=ORF1 PE=4 SV=1
+sp|Q914N2|ORF23_TTVV4    -3.1   5.1e+03     3   6.5    142    264    220    255    115    150     Probable protein VP2 OS=Torque teno virus (isolate Human/Germany/KAV/2001) OX=687345 GN=ORF2/3 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006576516@NC_018401.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006576516@NC_018401.txt data/models_hmm/YP_006576516@NC_018401.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:21 2021
+# [ok]

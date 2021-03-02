@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZT4|042L_FRG3G   164.0   3.5e-48   1   1.0   2.2    Uncharacterized protein 042L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-042L PE=4 SV=1
+sp|O11436|POLG_RGMVD     7.2       3.3   1   1.4   7.7    Genome polyprotein OS=Ryegrass mosaic virus (isolate Denmark/Danish) OX=652106 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6GZT4|042L_FRG3G   163.9   3.8e-48     1   2.2      1     85      2     85    130    215     Uncharacterized protein 042L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-042L PE=4 SV=1
+sp|O11436|POLG_RGMVD     6.3       6.3     1   7.7   2749   2866   2762   2839     97    176     Genome polyprotein OS=Ryegrass mosaic virus (isolate Denmark/Danish) OX=652106 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_031620@NC_005946.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_031620@NC_005946.txt data/models_hmm/YP_031620@NC_005946.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:53 2021
+# [ok]

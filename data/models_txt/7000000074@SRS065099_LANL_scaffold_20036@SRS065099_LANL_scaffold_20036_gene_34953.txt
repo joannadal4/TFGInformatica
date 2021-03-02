@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R7B4|Y003_OSHVF    20.4   0.00055   1   1.5   1.6    Uncharacterized protein ORF3 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF3 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R7B4|Y003_OSHVF    19.4    0.0011     1   1.6     13    114     26    107     24    107     Uncharacterized protein ORF3 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF3 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000074@SRS065099_LANL_scaffold_20036@SRS065099_LANL_scaffold_20036_gene_34953.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000074@SRS065099_LANL_scaffold_20036@SRS065099_LANL_scaffold_20036_gene_34953.txt data/models_hmm/7000000074@SRS065099_LANL_scaffold_20036@SRS065099_LANL_scaffold_20036_gene_34953.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:19 2021
+# [ok]

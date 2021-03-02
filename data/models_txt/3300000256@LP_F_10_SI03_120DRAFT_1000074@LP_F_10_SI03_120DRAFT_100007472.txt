@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A6QL29|AGNO1_BFPYV    10.6      0.18   1   1.0   0.1    Avian agnoprotein 1a OS=Budgerigar fledgling disease virus OX=1891747 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A6QL29|AGNO1_BFPYV    10.5       0.2     1   0.1     70    166     79    127    311    356     Avian agnoprotein 1a OS=Budgerigar fledgling disease virus OX=1891747 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000256@LP_F_10_SI03_120DRAFT_1000074@LP_F_10_SI03_120DRAFT_100007472.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000256@LP_F_10_SI03_120DRAFT_1000074@LP_F_10_SI03_120DRAFT_100007472.txt data/models_hmm/3300000256@LP_F_10_SI03_120DRAFT_1000074@LP_F_10_SI03_120DRAFT_100007472.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:20 2021
+# [ok]

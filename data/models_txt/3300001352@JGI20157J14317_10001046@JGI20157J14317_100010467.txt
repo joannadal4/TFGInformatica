@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ67|YR506_MIMIV    17.4    0.0015   1   1.4  20.4    Uncharacterized protein R506 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R506 PE=4 SV=1
+sp|Q5UPW9|YL291_MIMIV    13.4     0.024   2   2.5  57.6    Uncharacterized protein L291 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L291 PE=4 SV=1
+sp|P11210|VIE1_MUHVS     11.1      0.11   1   1.5   6.6    Immediate-early protein 1 OS=Murid herpesvirus 1 (strain Smith) OX=10367 GN=IE1 PE=4 SV=1
+sp|P0C746|HBZ_HTL1A       4.9       9.1   1   1.1  14.3    HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (strain Japan ATK-1 subtype A) OX=11926 GN=HBZ PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ67|YR506_MIMIV    16.3    0.0031     1  20.4     34    312     39    290     33    287     Uncharacterized protein R506 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R506 PE=4 SV=1
+sp|Q5UPW9|YL291_MIMIV    14.2     0.014     2  23.9    238    595    263    586    134    304     Uncharacterized protein L291 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L291 PE=4 SV=1
+sp|P11210|VIE1_MUHVS     10.2      0.22     1   6.6    295    536    299    504    182    307     Immediate-early protein 1 OS=Murid herpesvirus 1 (strain Smith) OX=10367 GN=IE1 PE=4 SV=1
+sp|P0C746|HBZ_HTL1A       4.7        10     1  14.3     30    197     81    179    211    310     HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (strain Japan ATK-1 subtype A) OX=11926 GN=HBZ PE=1 SV=1
+sp|Q5UPW9|YL291_MIMIV     4.4        13     1  25.7     24    172     47    169    195    327     Uncharacterized protein L291 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L291 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001352@JGI20157J14317_10001046@JGI20157J14317_100010467.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001352@JGI20157J14317_10001046@JGI20157J14317_100010467.txt data/models_hmm/3300001352@JGI20157J14317_10001046@JGI20157J14317_100010467.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:03 2021
+# [ok]

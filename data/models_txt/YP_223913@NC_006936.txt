@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q06VK9|CSPL_TNAVC    11.3      0.23   2   1.5   2.0    Caspase-like protein OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF72 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q06VK9|CSPL_TNAVC    11.8      0.16     1   0.5      6    111     20    100     65    137     Caspase-like protein OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF72 PE=3 SV=1
+sp|Q06VK9|CSPL_TNAVC    -3.2   6.5e+03     2   0.0    118    158    128    152     41     64     Caspase-like protein OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF72 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_223913@NC_006936.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_223913@NC_006936.txt data/models_hmm/YP_223913@NC_006936.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:17 2021
+# [ok]

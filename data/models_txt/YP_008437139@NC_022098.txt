@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQV6|YR368_MIMIV    15.1     0.011   2   1.6   0.3    Probable FAD-linked sulfhydryl oxidase R368 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R368 PE=3 SV=1
+sp|Q5UP54|YR596_MIMIV    14.8     0.013   2   2.1   0.4    Probable FAD-linked sulfhydryl oxidase R596 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R596 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQV6|YR368_MIMIV    13.6     0.031     1   0.1     23     75     37     71     48     82     Probable FAD-linked sulfhydryl oxidase R368 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R368 PE=3 SV=1
+sp|Q5UP54|YR596_MIMIV     9.3      0.66     1   0.1     56     99     69     92     46     69     Probable FAD-linked sulfhydryl oxidase R596 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R596 PE=1 SV=1
+sp|Q5UP54|YR596_MIMIV     3.7        34     2   0.0     95    139    103    128    121    146     Probable FAD-linked sulfhydryl oxidase R596 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R596 PE=1 SV=1
+sp|Q5UQV6|YR368_MIMIV     0.3   3.5e+02     2   0.0     65    124     71     95    125    150     Probable FAD-linked sulfhydryl oxidase R368 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R368 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008437139@NC_022098.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008437139@NC_022098.txt data/models_hmm/YP_008437139@NC_022098.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:11 2021
+# [ok]

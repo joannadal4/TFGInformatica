@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20322|GP73_BPT3     11.8     0.098   1   1.0   5.4    Protein 7.3 OS=Enterobacteria phage T3 OX=10759 GN=7.3 PE=3 SV=1
+sp|O36399|VGA6_ALHV1    10.5      0.24   1   1.0   0.8    Uncharacterized gene A6 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=A6 PE=4 SV=1
+sp|P03751|GP73_BPT7      7.6       1.8   1   1.0  11.4    Protein 7.3 OS=Escherichia phage T7 OX=10760 GN=7.3 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20322|GP73_BPT3     11.5      0.12     1   5.4      3    105      6    103    254    346     Protein 7.3 OS=Enterobacteria phage T3 OX=10759 GN=7.3 PE=3 SV=1
+sp|O36399|VGA6_ALHV1    10.2       0.3     1   0.8     93    195    109    193    305    378     Uncharacterized gene A6 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=A6 PE=4 SV=1
+sp|P03751|GP73_BPT7      7.3       2.2     1  11.4      2     98      4     96    254    346     Protein 7.3 OS=Escherichia phage T7 OX=10760 GN=7.3 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH56202@HQ634189.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH56202@HQ634189.txt data/models_hmm/AGH56202@HQ634189.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:47 2021
+# [ok]

@@ -1,0 +1,45 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9Q8K4|ETF2_MYXVL  1168.1         0   1   1.0  52.5    Early transcription factor 82 kDa subunit OS=Myxoma virus (strain Lausanne) OX=31530 GN=VETFL PE=3 SV=1
+sp|Q9Q8Y2|ETF2_RFVKA  1166.8         0   1   1.0  54.1    Early transcription factor 82 kDa subunit OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=VETFL PE=3 SV=1
+sp|P20636|ETF2_VACCW  1157.6         0   1   1.0  49.7    Early transcription factor 82 kDa subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VETFL PE=1 SV=3
+sp|Q9JF93|ETF2_VACCT  1156.2         0   1   1.0  50.1    Early transcription factor 82 kDa subunit OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=VETFL PE=3 SV=1
+sp|O57220|ETF2_VACCA  1156.1         0   1   1.0  48.8    Early transcription factor 82 kDa subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=VETFL PE=3 SV=1
+sp|P20635|ETF2_VACCC  1155.4         0   1   1.0  49.7    Early transcription factor 82 kDa subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=VETFL PE=3 SV=1
+sp|P0DOU7|ETF2_VAR67  1152.0         0   1   1.0  52.3    Early transcription factor 82 kDa subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=VETFL PE=3 SV=1
+sp|P0DOU8|ETF2_VARV   1152.0         0   1   1.0  52.3    Early transcription factor 82 kDa subunit OS=Variola virus OX=10255 GN=VETFL PE=3 SV=1
+sp|Q9QB84|ETF2_YMTV5  1143.4         0   1   1.0  63.1    Early transcription factor 82 kDa subunit OS=Yaba monkey tumor virus (strain VR587) OX=928314 GN=VETFL PE=3 SV=1
+sp|Q98277|ETF2_MCV1   1130.5         0   1   1.0  18.5    Early transcription factor 82 kDa subunit OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=VETFL PE=3 SV=1
+sp|Q9J562|ETF2_FOWPN  1105.7         0   1   1.0  71.9    Early transcription factor 82 kDa subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=VETFL PE=3 SV=1
+sp|Q9YW29|ETF2_MSEPV   837.7  6.7e-252   1   1.0  97.1    Early transcription factor 82 kDa subunit OS=Melanoplus sanguinipes entomopoxvirus OX=83191 GN=VETFL PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9Q8K4|ETF2_MYXVL  1167.9         0     1  52.5      1    711      1    710      1    706     Early transcription factor 82 kDa subunit OS=Myxoma virus (strain Lausanne) OX=31530 GN=VETFL PE=3 SV=1
+sp|Q9Q8Y2|ETF2_RFVKA  1166.6         0     1  54.1      1    711      1    710      1    706     Early transcription factor 82 kDa subunit OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=VETFL PE=3 SV=1
+sp|P20636|ETF2_VACCW  1157.4         0     1  49.7      1    710      1    708      1    707     Early transcription factor 82 kDa subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VETFL PE=1 SV=3
+sp|Q9JF93|ETF2_VACCT  1156.0         0     1  50.1      1    710      1    708      1    707     Early transcription factor 82 kDa subunit OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=VETFL PE=3 SV=1
+sp|O57220|ETF2_VACCA  1156.0         0     1  48.8      1    710      1    708      1    707     Early transcription factor 82 kDa subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=VETFL PE=3 SV=1
+sp|P20635|ETF2_VACCC  1155.2         0     1  49.7      1    710      1    708      1    707     Early transcription factor 82 kDa subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=VETFL PE=3 SV=1
+sp|P0DOU7|ETF2_VAR67  1151.8         0     1  52.3      1    710      1    706      1    705     Early transcription factor 82 kDa subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=VETFL PE=3 SV=1
+sp|P0DOU8|ETF2_VARV   1151.8         0     1  52.3      1    710      1    706      1    705     Early transcription factor 82 kDa subunit OS=Variola virus OX=10255 GN=VETFL PE=3 SV=1
+sp|Q9QB84|ETF2_YMTV5  1143.3         0     1  63.1      1    713      1    712      1    708     Early transcription factor 82 kDa subunit OS=Yaba monkey tumor virus (strain VR587) OX=928314 GN=VETFL PE=3 SV=1
+sp|Q98277|ETF2_MCV1   1130.4         0     1  18.5      1    707      1    705      2    701     Early transcription factor 82 kDa subunit OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=VETFL PE=3 SV=1
+sp|Q9J562|ETF2_FOWPN  1105.6         0     1  71.9      1    709      1    708      2    701     Early transcription factor 82 kDa subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=VETFL PE=3 SV=1
+sp|Q9YW29|ETF2_MSEPV   837.6  7.4e-252     1  97.1      1    760      1    753      1    705     Early transcription factor 82 kDa subunit OS=Melanoplus sanguinipes entomopoxvirus OX=83191 GN=VETFL PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003457389@NC_013804.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003457389@NC_013804.txt data/models_hmm/YP_003457389@NC_013804.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:38 2021
+# [ok]

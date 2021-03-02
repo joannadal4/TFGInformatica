@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P14110|RPC3_BPP22   108.5   9.9e-32   1   1.0   0.1    Regulatory protein C3 OS=Salmonella phage P22 OX=10754 GN=C3 PE=3 SV=1
+sp|P03044|RPC3_LAMBD   106.9   3.2e-31   1   1.0   0.1    Protease inhibitor III OS=Escherichia phage lambda OX=10710 GN=cIII PE=1 SV=1
+sp|P18681|RPC3_BPHK0    18.9   0.00094   1   1.0   0.0    Regulatory protein CIII OS=Escherichia phage HK022 OX=10742 GN=CIII PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P14110|RPC3_BPP22   108.4   1.1e-31     1   0.1      1     48      1     48      1     48     Regulatory protein C3 OS=Salmonella phage P22 OX=10754 GN=C3 PE=3 SV=1
+sp|P03044|RPC3_LAMBD   106.7   3.6e-31     1   0.1      1     46      1     46      1     48     Protease inhibitor III OS=Escherichia phage lambda OX=10710 GN=cIII PE=1 SV=1
+sp|P18681|RPC3_BPHK0    18.8    0.0011     1   0.0      2     44      2     44      1     43     Regulatory protein CIII OS=Escherichia phage HK022 OX=10742 GN=CIII PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004934142@NC_016160.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004934142@NC_016160.txt data/models_hmm/YP_004934142@NC_016160.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:46 2021
+# [ok]

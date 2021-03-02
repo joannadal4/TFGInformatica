@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HFB4|UL18_HCMVM    12.0      0.13   1   1.7   0.1    Membrane glycoprotein UL18 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL18 PE=3 SV=1
+sp|P08560|UL18_HCMVA    12.0      0.13   1   1.7   0.1    Glycoprotein UL18 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=H301 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HFB4|UL18_HCMVM    10.6      0.36     1   0.1    158    176    165    175     15     25     Membrane glycoprotein UL18 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL18 PE=3 SV=1
+sp|P08560|UL18_HCMVA    10.6      0.36     1   0.1    158    176    165    175     15     25     Glycoprotein UL18 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=H301 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008430841@NC_022087.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008430841@NC_022087.txt data/models_hmm/YP_008430841@NC_022087.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:03 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DOE2|AIMP_BPPHT     14.5     0.023   1   1.0   0.3    Protein AimP OS=Bacillus phage phi3T OX=10736 GN=aimP PE=1 SV=1
+sp|Q5UR97|YL575_MIMIV    11.6      0.18   1   1.3   0.0    Uncharacterized protein L575 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L575 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DOE2|AIMP_BPPHT     14.4     0.024     1   0.3      1     42      1     37      2     39     Protein AimP OS=Bacillus phage phi3T OX=10736 GN=aimP PE=1 SV=1
+sp|Q5UR97|YL575_MIMIV    10.8      0.32     1   0.0     36     94     40     85     23     67     Uncharacterized protein L575 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L575 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_775194@NC_004466.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_775194@NC_004466.txt data/models_hmm/NP_775194@NC_004466.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:21 2021
+# [ok]

@@ -1,0 +1,43 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q06691|TLP20_NPVAC    97.3   1.1e-27   2   2.0  12.5    Telokin-like protein 20 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=TLP20 PE=1 SV=2
+sp|O10335|TLP20_NPVOP    26.3   5.4e-06   2   2.0   0.1    Telokin-like protein 20 homolog OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF85 PE=4 SV=1
+sp|Q6SW99|PP150_HCMVM    10.9      0.27   2   2.2   8.2    Tegument protein pp150 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL32 PE=3 SV=1
+sp|P08318|PP150_HCMVA    10.2      0.44   2   2.2   8.1    Large structural phosphoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL32 PE=1 SV=1
+sp|P09699|US26_HCMVA      9.6      0.68   2   1.7   5.8    Uncharacterized protein HHLF5 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US26 PE=3 SV=1
+sp|F5H991|US26_HCMVM      9.6      0.68   2   1.7   5.8    Protein US26 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US26 PE=3 SV=1
+sp|P68337|ICP22_EHV1K     8.0       2.2   1   1.1   5.8    Transcriptional regulator ICP22 homolog OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=IR4 PE=1 SV=1
+sp|Q6S6W5|ICP22_EHV1B     8.0       2.2   1   1.1   5.8    Transcriptional regulator ICP22 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=IR4 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q06691|TLP20_NPVAC    90.0   1.8e-25     1   1.7      1    124      1    115     14    126     Telokin-like protein 20 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=TLP20 PE=1 SV=2
+sp|O10335|TLP20_NPVOP    20.9   0.00024     1   0.0      1    120      1    111     14    126     Telokin-like protein 20 homolog OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF85 PE=4 SV=1
+sp|Q06691|TLP20_NPVAC    13.4     0.048     2   4.5    108    180    120    179    169    228     Telokin-like protein 20 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=TLP20 PE=1 SV=2
+sp|F5H991|US26_HCMVM     11.0      0.26     2   2.7    425    570    484    567    156    226     Protein US26 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US26 PE=3 SV=1
+sp|P09699|US26_HCMVA     11.0      0.26     2   2.7    425    570    484    567    156    226     Uncharacterized protein HHLF5 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US26 PE=3 SV=1
+sp|Q6SW99|PP150_HCMVM    10.5      0.36     1   1.1    364    465    369    443    121    191     Tegument protein pp150 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL32 PE=3 SV=1
+sp|P08318|PP150_HCMVA     9.7      0.62     1   1.0    364    464    369    440    121    189     Large structural phosphoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL32 PE=1 SV=1
+sp|P68337|ICP22_EHV1K     7.6       2.8     1   5.8    165    285    200    278    143    222     Transcriptional regulator ICP22 homolog OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=IR4 PE=1 SV=1
+sp|Q6S6W5|ICP22_EHV1B     7.6       2.8     1   5.8    165    285    200    278    143    222     Transcriptional regulator ICP22 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=IR4 PE=3 SV=1
+sp|P08318|PP150_HCMVA     4.1        33     2   1.0    655    773    669    739    130    195     Large structural phosphoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL32 PE=1 SV=1
+sp|Q6SW99|PP150_HCMVM     4.1        33     2   1.0    656    774    670    740    130    195     Tegument protein pp150 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL32 PE=3 SV=1
+sp|O10335|TLP20_NPVOP     3.5        49     2   0.1    120    155    130    154    204    228     Telokin-like protein 20 homolog OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF85 PE=4 SV=1
+sp|F5H991|US26_HCMVM     -1.3   1.5e+03     1   0.1     94    130    111    121    174    184     Protein US26 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US26 PE=3 SV=1
+sp|P09699|US26_HCMVA     -1.3   1.5e+03     1   0.1     94    130    111    121    174    184     Uncharacterized protein HHLF5 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US26 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_529759@NC_007921.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_529759@NC_007921.txt data/models_hmm/YP_529759@NC_007921.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:38 2021
+# [ok]

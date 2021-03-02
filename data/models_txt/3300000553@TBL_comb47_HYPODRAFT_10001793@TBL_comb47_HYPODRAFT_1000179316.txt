@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPR5|YL775_MIMIV    28.7   4.4e-07   2   2.0  18.2    Putative PAN domain-containing protein L775 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L775 PE=3 SV=1
+sp|Q5UR81|YL633_MIMIV    13.3      0.02   3   2.5   3.8    Putative lectin L633 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L633 PE=3 SV=1
+sp|Q5UNW8|YL719_MIMIV     8.1      0.72   3   1.9  10.0    Uncharacterized protein L719 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L719 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPR5|YL775_MIMIV    26.3   2.3e-06     1   5.5     52    141     61    122    484    543     Putative PAN domain-containing protein L775 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L775 PE=3 SV=1
+sp|Q5UNW8|YL719_MIMIV    12.1     0.045     2   4.0     87    165    103    156    486    538     Uncharacterized protein L719 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L719 PE=4 SV=1
+sp|Q5UR81|YL633_MIMIV     9.3      0.31     1   0.2     83    138    103    131    335    366     Putative lectin L633 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L633 PE=3 SV=1
+sp|Q5UPR5|YL775_MIMIV     7.7      0.98     2   5.7    128    197    142    188    489    535     Putative PAN domain-containing protein L775 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L775 PE=3 SV=1
+sp|Q5UR81|YL633_MIMIV     6.3       2.5     2   0.2    128    186    130    167    328    369     Putative lectin L633 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L633 PE=3 SV=1
+sp|Q5UR81|YL633_MIMIV    -1.2   4.7e+02     3   0.0    166    195    171    193    337    363     Putative lectin L633 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L633 PE=3 SV=1
+sp|Q5UNW8|YL719_MIMIV    -1.8   7.3e+02     1   0.1      7     95     27     68     78    119     Uncharacterized protein L719 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L719 PE=4 SV=1
+sp|Q5UNW8|YL719_MIMIV    -3.1   1.8e+03     3   0.0    264    309    273    303    492    522     Uncharacterized protein L719 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L719 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10001793@TBL_comb47_HYPODRAFT_1000179316.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000553@TBL_comb47_HYPODRAFT_10001793@TBL_comb47_HYPODRAFT_1000179316.txt data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10001793@TBL_comb47_HYPODRAFT_1000179316.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:03 2021
+# [ok]

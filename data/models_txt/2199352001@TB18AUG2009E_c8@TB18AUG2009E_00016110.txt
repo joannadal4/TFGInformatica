@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q84132|M21_ORSVW     12.1      0.18   3   3.0   0.9    Protein M2-1 OS=Ovine respiratory syncytial virus (strain WSU 83-1578) OX=79699 GN=M2-1 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q84132|M21_ORSVW      5.3        23     3   0.1    155    186    159    183      6     30     Protein M2-1 OS=Ovine respiratory syncytial virus (strain WSU 83-1578) OX=79699 GN=M2-1 PE=2 SV=1
+sp|Q84132|M21_ORSVW      1.9   2.6e+02     1   0.0     33     56     36     55     68     87     Protein M2-1 OS=Ovine respiratory syncytial virus (strain WSU 83-1578) OX=79699 GN=M2-1 PE=2 SV=1
+sp|Q84132|M21_ORSVW      1.7   3.1e+02     2   0.0     61    112     67     91     32     56     Protein M2-1 OS=Ovine respiratory syncytial virus (strain WSU 83-1578) OX=79699 GN=M2-1 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2199352001@TB18AUG2009E_c8@TB18AUG2009E_00016110.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2199352001@TB18AUG2009E_c8@TB18AUG2009E_00016110.txt data/models_hmm/2199352001@TB18AUG2009E_c8@TB18AUG2009E_00016110.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:13 2021
+# [ok]

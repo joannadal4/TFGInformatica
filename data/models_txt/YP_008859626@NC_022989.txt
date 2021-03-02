@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8BDE4|NCAP_PIRVV    12.2      0.13   1   1.6   0.1    Nucleoprotein OS=Pirital mammarenavirus (isolate Rat/Venezuela/VAV-488/1995) OX=49891 GN=N PE=3 SV=1
+sp|P18131|DPOL_NPVAC    10.9      0.34   2   3.1   4.6    DNA polymerase OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=POL PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8BDE4|NCAP_PIRVV    11.0      0.33     1   0.1     53    117     70    109     20     59     Nucleoprotein OS=Pirital mammarenavirus (isolate Rat/Venezuela/VAV-488/1995) OX=49891 GN=N PE=3 SV=1
+sp|P18131|DPOL_NPVAC     7.7       3.4     2   0.7    678    739    696    734     28     66     DNA polymerase OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=POL PE=3 SV=2
+sp|P18131|DPOL_NPVAC     3.2        85     1   0.2     31    113     50     91     27     65     DNA polymerase OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=POL PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008859626@NC_022989.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008859626@NC_022989.txt data/models_hmm/YP_008859626@NC_022989.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:43 2021
+# [ok]

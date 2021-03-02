@@ -1,0 +1,40 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q2KS03|PKG2_ADE05    123.1   1.3e-35   1   1.2   0.2    Packaging protein 2 OS=Human adenovirus C serotype 5 OX=28285 GN=L4 PE=1 SV=2
+sp|P0DJX1|PKG2_ADE02    121.2   5.2e-35   1   1.2   0.1    Packaging protein 2 OS=Human adenovirus C serotype 2 OX=10515 GN=L4 PE=1 SV=1
+sp|P11805|SF33K_ADE40    13.3     0.063   1   1.4  10.6    Protein 33K OS=Human adenovirus F serotype 40 OX=28284 GN=L4 PE=2 SV=2
+sp|P24940|SF33K_ADE05    13.2     0.069   1   2.2  23.0    Protein 33K OS=Human adenovirus C serotype 5 OX=28285 GN=L4 PE=1 SV=1
+sp|P24939|SF33K_ADE02    13.1      0.07   1   2.2  20.5    Protein 33K OS=Human adenovirus C serotype 2 OX=10515 GN=L4 PE=1 SV=1
+sp|O55753|149L_IIV6       7.8         3   1   1.4   7.8    Uncharacterized protein 149L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-149L PE=4 SV=1
+sp|Q08399|RPO6_ASFM2      7.3       4.4   1   1.2   6.9    DNA-directed RNA polymerase subunit 6 homolog OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=PMWK-CL PE=3 SV=1
+sp|Q5UQW7|YL386_MIMIV     7.1       4.9   2   2.2  12.8    Putative endonuclease L386 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L386 PE=3 SV=1
+sp|P0C9D6|RPB6_ASFM2      7.0       5.4   1   1.2   7.0    DNA-directed RNA polymerase subunit 6 homolog OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-077 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q2KS03|PKG2_ADE05    122.5     2e-35     1   0.2      1    187      3    174     14    160     Packaging protein 2 OS=Human adenovirus C serotype 5 OX=28285 GN=L4 PE=1 SV=2
+sp|P0DJX1|PKG2_ADE02    120.7   7.3e-35     1   0.1      1    186      3    173     14    160     Packaging protein 2 OS=Human adenovirus C serotype 2 OX=10515 GN=L4 PE=1 SV=1
+sp|P11805|SF33K_ADE40    12.6       0.1     1  10.6      2    139     13    105     16     96     Protein 33K OS=Human adenovirus F serotype 40 OX=28284 GN=L4 PE=2 SV=2
+sp|P24939|SF33K_ADE02     7.9       2.9     1  20.5      1    144      3    109     14     77     Protein 33K OS=Human adenovirus C serotype 2 OX=10515 GN=L4 PE=1 SV=1
+sp|P24940|SF33K_ADE05     7.5       3.7     1  23.0      1    145      3    138     14    102     Protein 33K OS=Human adenovirus C serotype 5 OX=28285 GN=L4 PE=1 SV=1
+sp|Q08399|RPO6_ASFM2      6.9       5.8     1   6.9      2     71      7     47     28     71     DNA-directed RNA polymerase subunit 6 homolog OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=PMWK-CL PE=3 SV=1
+sp|Q5UQW7|YL386_MIMIV     6.9       5.8     1   5.3    248    357    275    332     20     76     Putative endonuclease L386 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L386 PE=3 SV=1
+sp|O55753|149L_IIV6       6.9       5.9     1   7.8    541    624    563    615     27     75     Uncharacterized protein 149L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-149L PE=4 SV=1
+sp|P0C9D6|RPB6_ASFM2      6.5       7.5     1   7.0      2     70      7     47     28     71     DNA-directed RNA polymerase subunit 6 homolog OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-077 PE=3 SV=1
+sp|Q5UQW7|YL386_MIMIV     4.7        28     2   0.8    400    470    402    457      4     52     Putative endonuclease L386 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L386 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AP_000627@AC_000020.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AP_000627@AC_000020.txt data/models_hmm/AP_000627@AC_000020.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:59 2021
+# [ok]

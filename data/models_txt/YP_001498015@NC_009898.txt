@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q83956|PHOSP_ORSVW     6.6       9.2   3   2.7  13.1    Phosphoprotein OS=Ovine respiratory syncytial virus (strain WSU 83-1578) OX=79699 GN=P PE=2 SV=1
+sp|P33454|PHOSP_BRSVA     6.6       9.2   3   2.6  11.8    Phosphoprotein OS=Bovine respiratory syncytial virus (strain A51908) OX=11247 GN=P PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P33454|PHOSP_BRSVA    12.5      0.14     2   0.6     84    180    105    162     31     89     Phosphoprotein OS=Bovine respiratory syncytial virus (strain A51908) OX=11247 GN=P PE=2 SV=1
+sp|Q83956|PHOSP_ORSVW    12.3      0.16     2   0.6     87    180    106    162     32     89     Phosphoprotein OS=Ovine respiratory syncytial virus (strain WSU 83-1578) OX=79699 GN=P PE=2 SV=1
+sp|P33454|PHOSP_BRSVA    -0.0     1e+03     3   2.5    174    241    184    235      8     56     Phosphoprotein OS=Bovine respiratory syncytial virus (strain A51908) OX=11247 GN=P PE=2 SV=1
+sp|Q83956|PHOSP_ORSVW    -0.1   1.1e+03     3   4.1    173    241    184    231      8     52     Phosphoprotein OS=Ovine respiratory syncytial virus (strain WSU 83-1578) OX=79699 GN=P PE=2 SV=1
+sp|P33454|PHOSP_BRSVA    -2.1   4.4e+03     1   0.1     14     78     39     43     31     35     Phosphoprotein OS=Bovine respiratory syncytial virus (strain A51908) OX=11247 GN=P PE=2 SV=1
+sp|Q83956|PHOSP_ORSVW    -2.1   4.7e+03     1   0.0     13     70     36     41     28     33     Phosphoprotein OS=Ovine respiratory syncytial virus (strain WSU 83-1578) OX=79699 GN=P PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001498015@NC_009898.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001498015@NC_009898.txt data/models_hmm/YP_001498015@NC_009898.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:28 2021
+# [ok]

@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q08534|R1AB_BYVU     15.0     0.017   2   2.7   0.2    Replicase polyprotein 1ab OS=Beet yellows virus (isolate Ukraine) OX=478555 GN=1a-1b PE=1 SV=2
+sp|P03219|TRM3_EBVB9    13.8     0.041   1   1.9   0.0    Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=TRM3 PE=1 SV=2
+sp|P0C744|TRM3_EBVA8    13.8     0.041   1   1.9   0.0    Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=TRM3 PE=3 SV=1
+sp|Q3KSR3|TRM3_EBVG     13.7     0.042   1   1.9   0.0    Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=TRM3 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03219|TRM3_EBVB9    11.9      0.15     1   0.0    237    345    252    338     29    110     Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=TRM3 PE=1 SV=2
+sp|P0C744|TRM3_EBVA8    11.9      0.15     1   0.0    237    345    252    338     29    110     Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=TRM3 PE=3 SV=1
+sp|Q3KSR3|TRM3_EBVG     11.9      0.15     1   0.0    237    345    252    338     29    110     Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=TRM3 PE=3 SV=1
+sp|Q08534|R1AB_BYVU      8.1       2.4     2   0.0   2271   2351   2289   2345     55    113     Replicase polyprotein 1ab OS=Beet yellows virus (isolate Ukraine) OX=478555 GN=1a-1b PE=1 SV=2
+sp|Q08534|R1AB_BYVU      3.8        50     1   0.0    698    804    709    794     20    110     Replicase polyprotein 1ab OS=Beet yellows virus (isolate Ukraine) OX=478555 GN=1a-1b PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003857225@NC_014461.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003857225@NC_014461.txt data/models_hmm/YP_003857225@NC_014461.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:43 2021
+# [ok]

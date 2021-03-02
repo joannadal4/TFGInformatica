@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q01007|UL87_SHV21    10.0      0.79   2   2.3   3.4    Gene 24 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=24 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q01007|UL87_SHV21    10.1      0.74     1   0.3    324    393    330    386     70    126     Gene 24 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=24 PE=3 SV=1
+sp|Q01007|UL87_SHV21    -0.7   1.6e+03     2   0.2    396    431    398    421      4     25     Gene 24 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=24 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000811@MIS_100008118.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000811@MIS_100008118.txt data/models_hmm/3300002026@MIS_10000811@MIS_100008118.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:00 2021
+# [ok]

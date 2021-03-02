@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P23208|TERS_BPT5    277.2   4.1e-83   1   1.0   3.1    Probable terminase, small subunit OS=Escherichia phage T5 OX=10726 GN=T5.156 PE=2 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P23208|TERS_BPT5    277.1   4.5e-83     1   3.1      1    160      1    160      1    160     Probable terminase, small subunit OS=Escherichia phage T5 OX=10726 GN=T5.156 PE=2 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001125@JGI11931J13222_1000001@JGI11931J13222_1000001183.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001125@JGI11931J13222_1000001@JGI11931J13222_1000001183.txt data/models_hmm/3300001125@JGI11931J13222_1000001@JGI11931J13222_1000001183.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:28 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9Z0C8|MVP_MDV1      12.7      0.07   1   1.1   0.3    Putative movement protein OS=Milk vetch dwarf virus (isolate N) OX=291605 GN=DNA-M PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9Z0C8|MVP_MDV1      12.4     0.085     1   0.3     14     72     17     50     77    110     Putative movement protein OS=Milk vetch dwarf virus (isolate N) OX=291605 GN=DNA-M PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000512@SRS018394_Baylor_scaffold_7857@SRS018394_Baylor_scaffold_7857_gene_8061.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000512@SRS018394_Baylor_scaffold_7857@SRS018394_Baylor_scaffold_7857_gene_8061.txt data/models_hmm/7000000512@SRS018394_Baylor_scaffold_7857@SRS018394_Baylor_scaffold_7857_gene_8061.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:56 2021
+# [ok]

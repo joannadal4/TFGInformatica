@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P32535|C_PI1HE       10.7       0.2   1   1.7   1.8    Protein C OS=Human parainfluenza 1 virus (strain CI-14/83) OX=31606 GN=P/V/C PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P32535|C_PI1HE        9.7      0.44     1   1.8     20    204    141    193    197    249     Protein C OS=Human parainfluenza 1 virus (strain CI-14/83) OX=31606 GN=P/V/C PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000115@SRS055378_LANL_scaffold_5805@SRS055378_LANL_scaffold_5805_gene_5309.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000115@SRS055378_LANL_scaffold_5805@SRS055378_LANL_scaffold_5805_gene_5309.txt data/models_hmm/7000000115@SRS055378_LANL_scaffold_5805@SRS055378_LANL_scaffold_5805_gene_5309.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:34 2021
+# [ok]

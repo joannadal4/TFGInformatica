@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HHS3|UL124_HCMVM   247.5   4.6e-74   1   1.0  12.0    Uncharacterized protein UL124 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL124 PE=3 SV=1
+sp|P16742|UL124_HCMVA   230.0   1.1e-68   1   1.0  11.6    Uncharacterized protein UL124 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL124 PE=3 SV=1
+sp|P07562|GG_SUHVR       14.2     0.032   2   1.8   0.6    Envelope glycoprotein G OS=Suid herpesvirus 1 (strain Rice) OX=10350 GN=gG PE=3 SV=1
+sp|P06473|GB_HCMVA        8.8       1.5   1   1.8   6.5    Envelope glycoprotein B OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gB PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HHS3|UL124_HCMVM   247.3     5e-74     1  12.0      1    150      1    147      1    152     Uncharacterized protein UL124 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL124 PE=3 SV=1
+sp|P16742|UL124_HCMVA   229.8   1.2e-68     1  11.6      1    152      1    149      1    152     Uncharacterized protein UL124 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL124 PE=3 SV=1
+sp|P07562|GG_SUHVR       14.2     0.032     2   0.6    397    489    406    481     32    105     Envelope glycoprotein G OS=Suid herpesvirus 1 (strain Rice) OX=10350 GN=gG PE=3 SV=1
+sp|P06473|GB_HCMVA        7.2       4.5     1   6.5      4     87      8     71      5     69     Envelope glycoprotein B OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gB PE=1 SV=1
+sp|P07562|GG_SUHVR       -2.6   4.8e+03     1   0.4    248    287    253    270    120    137     Envelope glycoprotein G OS=Suid herpesvirus 1 (strain Rice) OX=10350 GN=gG PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_081563@NC_006273.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_081563@NC_006273.txt data/models_hmm/YP_081563@NC_006273.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:04 2021
+# [ok]

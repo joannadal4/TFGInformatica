@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O57178|F12_VACCA     11.6      0.15   2   2.4   0.0    Protein F12 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA042L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O57178|F12_VACCA      5.4        12     2   0.0     94    157    100    143     70    112     Protein F12 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA042L PE=3 SV=1
+sp|O57178|F12_VACCA      3.4        49     1   0.0     28     66     39     62     30     53     Protein F12 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA042L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_440193_len_183344_cov_2_121439@_HiSeq_13440790.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_440193_len_183344_cov_2_121439@_HiSeq_13440790.txt data/models_hmm/2061766007@rumenHiSeq_NODE_440193_len_183344_cov_2_121439@_HiSeq_13440790.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:49 2021
+# [ok]

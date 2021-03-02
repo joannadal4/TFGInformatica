@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQH0|YR815_MIMIV    10.7      0.35   2   2.1   3.7    Putative sel1-like repeat-containing protein R815 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R815 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQH0|YR815_MIMIV    11.5      0.21     1   0.8      1     67      5     49      6     50     Putative sel1-like repeat-containing protein R815 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R815 PE=4 SV=1
+sp|Q5UQH0|YR815_MIMIV    -1.5   2.3e+03     2   0.1    105    149    109    133      6     30     Putative sel1-like repeat-containing protein R815 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R815 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ADO98810@GU071101.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ADO98810@GU071101.txt data/models_hmm/ADO98810@GU071101.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:25 2021
+# [ok]

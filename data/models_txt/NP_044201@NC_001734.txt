@@ -1,0 +1,47 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q64760|SHUT_ADEG1  1038.2         0   1   1.0   0.0    Shutoff protein OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=L4 PE=3 SV=1
+sp|P11823|SHUT_ADE40  1019.0         0   1   1.0   0.0    Shutoff protein OS=Human adenovirus F serotype 40 OX=28284 GN=L4 PE=3 SV=2
+sp|P11824|SHUT_ADE41  1008.8  1.3e-303   1   1.0   0.0    Shutoff protein OS=Human adenovirus F serotype 41 OX=10524 GN=L4 PE=3 SV=2
+sp|P36714|SHUT_ADE12  1005.9  9.8e-303   1   1.0   0.0    Shutoff protein OS=Human adenovirus A serotype 12 OX=28282 GN=L4 PE=3 SV=1
+sp|P24933|SHUT_ADE05  1005.1  1.8e-302   1   1.0   0.0    Shutoff protein OS=Human adenovirus C serotype 5 OX=28285 GN=L4 PE=1 SV=1
+sp|P24932|SHUT_ADE02  1002.1  1.4e-301   1   1.0   0.0    Shutoff protein OS=Human adenovirus C serotype 2 OX=10515 GN=L4 PE=1 SV=1
+sp|Q9YTR7|SHUT_ADEP3   957.6  4.1e-288   1   1.0   0.1    Shutoff protein OS=Porcine adenovirus A serotype 3 OX=35265 GN=L4 PE=3 SV=1
+sp|P68966|SHUT_ADECC   937.0  6.7e-282   1   1.0   0.0    Shutoff protein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=L4 PE=3 SV=1
+sp|P68967|SHUT_ADECR   937.0  6.7e-282   1   1.0   0.0    Shutoff protein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=L4 PE=3 SV=1
+sp|P36856|SHUT_ADEGX   907.0  8.1e-273   1   1.1   0.0    Shutoff protein OS=Fowl adenovirus C serotype 10 (strain SA2) OX=10547 GN=L4 PE=3 SV=1
+sp|A9CB91|SHUT_ADES1   771.7  6.6e-232   1   1.0   0.0    Shutoff protein OS=Snake adenovirus serotype 1 OX=189830 GN=L4 PE=3 SV=1
+sp|P25073|TEG5_EHV4      8.0      0.62   1   1.1   5.0    Tegument protein UL47 homolog OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=13 PE=3 SV=1
+sp|P0C746|HBZ_HTL1A      4.1       9.2   1   1.1  18.4    HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (strain Japan ATK-1 subtype A) OX=11926 GN=HBZ PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q64760|SHUT_ADEG1  1037.8         0     1   0.0    103    949    136    934     32    747     Shutoff protein OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=L4 PE=3 SV=1
+sp|P11823|SHUT_ADE40  1018.7         0     1   0.0      1    764     19    743     50    736     Shutoff protein OS=Human adenovirus F serotype 40 OX=28284 GN=L4 PE=3 SV=2
+sp|P11824|SHUT_ADE41  1008.4  1.8e-303     1   0.0      2    771     30    753     32    740     Shutoff protein OS=Human adenovirus F serotype 41 OX=10524 GN=L4 PE=3 SV=2
+sp|P36714|SHUT_ADE12  1005.6  1.2e-302     1   0.0      2    781     28    768     32    742     Shutoff protein OS=Human adenovirus A serotype 12 OX=28282 GN=L4 PE=3 SV=1
+sp|P24933|SHUT_ADE05  1004.8  2.1e-302     1   0.0      1    794      7    770     15    737     Shutoff protein OS=Human adenovirus C serotype 5 OX=28285 GN=L4 PE=1 SV=1
+sp|P24932|SHUT_ADE02  1001.8  1.7e-301     1   0.0      1    796     20    771     16    740     Shutoff protein OS=Human adenovirus C serotype 2 OX=10515 GN=L4 PE=1 SV=1
+sp|Q9YTR7|SHUT_ADEP3   957.2  5.5e-288     1   0.1     28    836     41    797     20    721     Shutoff protein OS=Porcine adenovirus A serotype 3 OX=35265 GN=L4 PE=3 SV=1
+sp|P68966|SHUT_ADECC   936.7  8.5e-282     1   0.0      5    687     36    663     71    685     Shutoff protein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=L4 PE=3 SV=1
+sp|P68967|SHUT_ADECR   936.7  8.5e-282     1   0.0      5    687     36    663     71    685     Shutoff protein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=L4 PE=3 SV=1
+sp|P36856|SHUT_ADEGX   906.5  1.1e-272     1   0.0     13    795     49    767     30    702     Shutoff protein OS=Fowl adenovirus C serotype 10 (strain SA2) OX=10547 GN=L4 PE=3 SV=1
+sp|A9CB91|SHUT_ADES1   771.4    8e-232     1   0.0      2    679      7    663     84    743     Shutoff protein OS=Snake adenovirus serotype 1 OX=189830 GN=L4 PE=3 SV=1
+sp|P25073|TEG5_EHV4      7.4       0.9     1   5.0     98    265    131    253     29    130     Tegument protein UL47 homolog OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=13 PE=3 SV=1
+sp|P0C746|HBZ_HTL1A      3.9        11     1  18.4     42    185     70    160    651    737     HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (strain Japan ATK-1 subtype A) OX=11926 GN=HBZ PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_044201@NC_001734.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_044201@NC_001734.txt data/models_hmm/NP_044201@NC_001734.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:20 2021
+# [ok]

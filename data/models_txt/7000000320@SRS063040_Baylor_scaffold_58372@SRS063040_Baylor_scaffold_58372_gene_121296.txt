@@ -1,0 +1,63 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P18305|443R_IIV6      33.1   2.8e-08  25  22.2 165.5    Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P07532|CAPSF_BPPZA    21.7   8.4e-05   1   1.3   0.5    Capsid fiber protein OS=Bacillus phage PZA OX=10757 GN=8.5 PE=3 SV=1
+sp|Q37889|CAPSF_BPB03    20.2   0.00024   1   1.4   0.3    Capsid fiber protein OS=Bacillus phage B103 OX=10778 GN=8.5 PE=3 SV=1
+sp|B3VMP4|CAPSF_BPPH2    19.2   0.00048   1   1.4   0.4    Capsid fiber protein OS=Bacillus phage phi29 OX=10756 GN=8.5 PE=1 SV=1
+sp|P11186|VG85_BPNF      17.9    0.0011   1   1.4   0.1    Head fiber protein OS=Bacillus phage Nf OX=10753 GN=8.5 PE=4 SV=2
+sp|Q197F2|008L_IIV3      15.9    0.0047   2   1.9   0.6    Uncharacterized protein 008L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-008L PE=4 SV=1
+sp|Q8QZQ7|VF396_IIV6     15.2    0.0079   4   3.2   3.2    Uncharacterized protein 396L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-396L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P07532|CAPSF_BPPZA    20.9   0.00014     1   0.5    218    274    229    261     57     91     Capsid fiber protein OS=Bacillus phage PZA OX=10757 GN=8.5 PE=3 SV=1
+sp|Q37889|CAPSF_BPB03    19.2   0.00046     1   0.3    219    282    232    260     57     85     Capsid fiber protein OS=Bacillus phage B103 OX=10778 GN=8.5 PE=3 SV=1
+sp|B3VMP4|CAPSF_BPPH2    18.4   0.00084     1   0.4    216    273    229    257     57     85     Capsid fiber protein OS=Bacillus phage phi29 OX=10756 GN=8.5 PE=1 SV=1
+sp|P11186|VG85_BPNF      17.1     0.002     1   0.1    193    252    206    229     57     80     Head fiber protein OS=Bacillus phage Nf OX=10753 GN=8.5 PE=4 SV=2
+sp|Q197F2|008L_IIV3      13.4     0.028     2   0.4     61    112     65     98     61     94     Uncharacterized protein 008L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-008L PE=4 SV=1
+sp|Q8QZQ7|VF396_IIV6     13.1     0.035     2   0.0    211    262    223    256     60     94     Uncharacterized protein 396L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-396L PE=3 SV=1
+sp|P18305|443R_IIV6      10.7      0.18    16   1.9   1429   1499   1436   1481     56     99     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6      10.6      0.19    12   2.0   1108   1181   1118   1163     56     99     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6      10.6      0.19    18   2.1   1582   1657   1591   1636     56     99     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6      10.6      0.19    19   2.1   1663   1738   1672   1717     56     99     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6      10.2      0.25    20   3.1   1744   1855   1752   1799     55    100     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6      10.0      0.29    24   1.6   2038   2108   2047   2082     56     91     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6       9.6      0.39    23   2.0   1958   2029   1966   2010     56     98     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6       9.3      0.49    25   5.3   2119   2254   2128   2233     56    160     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6       9.0      0.59    13   4.1   1190   1329   1199   1247     56    102     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6       7.6       1.6    17   1.9   1502   1576   1509   1555     55     99     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6       6.7       2.9     9   2.8    876   1013    884    984     56    151     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6       5.1       8.9     5   0.7    367    474    374    408     56     91     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6       4.7        12     7   0.8    492    558    509    537     62     90     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6       3.0        39    10   0.1   1002   1046   1010   1040     56     86     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6       2.5        55     2   0.2    167    214    178    202    108    131     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6       1.7        97     8   1.8    750    862    761    806     58    102     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6       1.0   1.6e+02     1   0.0    119    171    123    149    101    127     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6       0.8   1.8e+02    15   0.3   1348   1415   1361   1399     61     98     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|Q8QZQ7|VF396_IIV6      0.7   1.9e+02     4   0.1    622    766    659    686     62     90     Uncharacterized protein 396L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-396L PE=3 SV=1
+sp|P18305|443R_IIV6       0.1   3.1e+02    11   0.2   1030   1097   1043   1071     61     90     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6       0.1   3.1e+02    14   0.0   1331   1363   1334   1357     62     85     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|Q197F2|008L_IIV3      -0.0   3.2e+02     1   0.0     31     66     37     61    102    126     Uncharacterized protein 008L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-008L PE=4 SV=1
+sp|P18305|443R_IIV6      -0.1   3.5e+02    22   0.7   1872   1934   1889   1917     62     89     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6      -0.2   3.6e+02     3   0.0    197    240    200    224     62     86     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6      -0.4   4.3e+02     6   0.0    478    509    485    504    107    126     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|P18305|443R_IIV6      -0.7   5.2e+02     4   0.1    237    318    255    283     61     90     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|Q8QZQ7|VF396_IIV6     -2.3   1.6e+03     1   0.0     35     91     40     67     61     89     Uncharacterized protein 396L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-396L PE=3 SV=1
+sp|P18305|443R_IIV6      -2.7   2.2e+03    21   0.1   1805   1889   1862   1884    104    126     Uncharacterized protein 443R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-443R PE=3 SV=2
+sp|Q8QZQ7|VF396_IIV6     -3.6     4e+03     3   0.0    303    338    304    329     65     91     Uncharacterized protein 396L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-396L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000320@SRS063040_Baylor_scaffold_58372@SRS063040_Baylor_scaffold_58372_gene_121296.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000320@SRS063040_Baylor_scaffold_58372@SRS063040_Baylor_scaffold_58372_gene_121296.txt data/models_hmm/7000000320@SRS063040_Baylor_scaffold_58372@SRS063040_Baylor_scaffold_58372_gene_121296.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:18 2021
+# [ok]

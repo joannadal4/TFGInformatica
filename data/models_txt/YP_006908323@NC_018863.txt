@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R7L4|Y009_OSHVF    43.3     3e-11   2   2.3   0.0    Putative RING finger protein ORF9 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF9 PE=4 SV=1
+sp|Q912W1|REP_CACV      12.6     0.076   1   1.3   0.0    Replication-associated protein OS=Canary circovirus OX=142661 GN=Rep PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R7L4|Y009_OSHVF    26.6   3.8e-06     2   0.0    494    586    504    583    141    212     Putative RING finger protein ORF9 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF9 PE=4 SV=1
+sp|Q6R7L4|Y009_OSHVF    14.2     0.025     1   0.1    164    229    170    201     44     75     Putative RING finger protein ORF9 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF9 PE=4 SV=1
+sp|Q912W1|REP_CACV      11.9      0.12     1   0.0    131    209    158    189    141    172     Replication-associated protein OS=Canary circovirus OX=142661 GN=Rep PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006908323@NC_018863.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006908323@NC_018863.txt data/models_hmm/YP_006908323@NC_018863.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:33 2021
+# [ok]

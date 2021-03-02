@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03448|HEMA_I72A5    10.0      0.78   3   2.8   3.2    Hemagglutinin OS=Influenza A virus (strain A/Shearwater/Australia/1972 H6N5) OX=383604 GN=HA PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03448|HEMA_I72A5     7.9       3.4     2   0.2    369    430    381    419     62    101     Hemagglutinin OS=Influenza A virus (strain A/Shearwater/Australia/1972 H6N5) OX=383604 GN=HA PE=3 SV=2
+sp|P03448|HEMA_I72A5     1.0   4.5e+02     1   0.0     29     67     48     63     21     36     Hemagglutinin OS=Influenza A virus (strain A/Shearwater/Australia/1972 H6N5) OX=383604 GN=HA PE=3 SV=2
+sp|P03448|HEMA_I72A5    -1.4   2.6e+03     3   0.0    440    476    453    473     64     84     Hemagglutinin OS=Influenza A virus (strain A/Shearwater/Australia/1972 H6N5) OX=383604 GN=HA PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000116@DelMOSpr2010_c10000112@DelMOSpr2010_1000011247.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000116@DelMOSpr2010_c10000112@DelMOSpr2010_1000011247.txt data/models_hmm/3300000116@DelMOSpr2010_c10000112@DelMOSpr2010_1000011247.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:42 2021
+# [ok]

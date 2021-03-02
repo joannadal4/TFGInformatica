@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPS3|YL782_MIMIV    16.8     0.005   1   1.4   0.8    Uncharacterized protein L782 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L782 PE=3 SV=1
+sp|Q5UPG2|YL084_MIMIV    12.8     0.082   1   1.3   0.1    Uncharacterized WD repeat-containing protein L84 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L84 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPS3|YL782_MIMIV    16.1    0.0081     1   0.6     49     91     61     88     97    124     Uncharacterized protein L782 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L782 PE=3 SV=1
+sp|Q5UPG2|YL084_MIMIV    12.2      0.13     1   0.1     17    131     23    121      7    108     Uncharacterized WD repeat-containing protein L84 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L84 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000501@SRS047265_WUGC_scaffold_17982@SRS047265_WUGC_scaffold_17982_gene_20297.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000501@SRS047265_WUGC_scaffold_17982@SRS047265_WUGC_scaffold_17982_gene_20297.txt data/models_hmm/7000000501@SRS047265_WUGC_scaffold_17982@SRS047265_WUGC_scaffold_17982_gene_20297.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:44 2021
+# [ok]

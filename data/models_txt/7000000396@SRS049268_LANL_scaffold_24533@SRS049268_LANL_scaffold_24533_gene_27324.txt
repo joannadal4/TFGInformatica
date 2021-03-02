@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91BH1|CATV_NPVST    12.4      0.09   2   2.2   0.9    Viral cathepsin OS=Spodoptera litura multicapsid nucleopolyhedrovirus OX=46242 GN=VCATH PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91BH1|CATV_NPVST    10.2      0.42     1   0.5      5     76     10     65     39     99     Viral cathepsin OS=Spodoptera litura multicapsid nucleopolyhedrovirus OX=46242 GN=VCATH PE=3 SV=1
+sp|Q91BH1|CATV_NPVST    -1.6   1.8e+03     2   0.0    152    182    159    177     91    109     Viral cathepsin OS=Spodoptera litura multicapsid nucleopolyhedrovirus OX=46242 GN=VCATH PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000396@SRS049268_LANL_scaffold_24533@SRS049268_LANL_scaffold_24533_gene_27324.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000396@SRS049268_LANL_scaffold_24533@SRS049268_LANL_scaffold_24533_gene_27324.txt data/models_hmm/7000000396@SRS049268_LANL_scaffold_24533@SRS049268_LANL_scaffold_24533_gene_27324.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:56 2021
+# [ok]

@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05296|HOLIN_BPML5    16.8     0.005   1   1.2   0.0    Holin OS=Mycobacterium phage L5 OX=31757 GN=11 PE=3 SV=1
+sp|O64204|HOLIN_BPMD2    15.4     0.014   1   1.2   0.0    Holin OS=Mycobacterium phage D29 OX=28369 GN=11 PE=1 SV=1
+sp|P16492|GH_SHV21       13.4     0.061   1   1.7   0.0    Envelope glycoprotein H OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=gH PE=3 SV=1
+sp|Q24LI1|TMP_BPPCD      11.2      0.29   3   2.2   2.1    Probable tape measure protein OS=Clostridium phage phiCD119 (strain Clostridium difficile/United States/Govind/2006) OX=1283341 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05296|HOLIN_BPML5    16.6    0.0061     1   0.0     41    123     60    110     40     88     Holin OS=Mycobacterium phage L5 OX=31757 GN=11 PE=3 SV=1
+sp|O64204|HOLIN_BPMD2    15.0     0.019     1   0.0     53    122     71    107     49     85     Holin OS=Mycobacterium phage D29 OX=28369 GN=11 PE=1 SV=1
+sp|P16492|GH_SHV21       11.9      0.18     1   0.0    268    348    274    344     13     83     Envelope glycoprotein H OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=gH PE=3 SV=1
+sp|Q24LI1|TMP_BPPCD      10.9      0.35     1   0.1    143    205    153    194     45     86     Probable tape measure protein OS=Clostridium phage phiCD119 (strain Clostridium difficile/United States/Govind/2006) OX=1283341 PE=3 SV=1
+sp|Q24LI1|TMP_BPPCD      -3.4     1e+04     3   0.1    851    913    857    890     11     43     Probable tape measure protein OS=Clostridium phage phiCD119 (strain Clostridium difficile/United States/Govind/2006) OX=1283341 PE=3 SV=1
+sp|Q24LI1|TMP_BPPCD      -3.9   1.4e+04     2   0.0    335    380    343    370      4     31     Probable tape measure protein OS=Clostridium phage phiCD119 (strain Clostridium difficile/United States/Govind/2006) OX=1283341 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004009710@NC_014661.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004009710@NC_014661.txt data/models_hmm/YP_004009710@NC_014661.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:00 2021
+# [ok]

@@ -1,0 +1,40 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZV6|019R_FRG3G     62.4     2e-17   2   1.6   0.0    Putative serine/threonine-protein kinase 019R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-019R PE=3 SV=1
+sp|Q91FE4|VF380_IIV6     53.4   1.1e-14   1   2.0   9.8    Probable serine/threonine-protein kinase 380R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-380R PE=3 SV=1
+sp|Q197F0|VF380_IIV3     32.8   1.8e-08   1   1.9   1.5    Probable serine/threonine-protein kinase 010L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-010L PE=3 SV=1
+sp|Q197E9|011L_IIV3      31.1   5.9e-08   1   1.4   0.0    Uncharacterized protein 011L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-011L PE=4 SV=1
+sp|Q5UQ24|YL205_MIMIV    17.1   0.00098   2   1.6   0.2    Putative serine/threonine-protein kinase L205 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L205 PE=3 SV=1
+sp|P41719|PK1_NPVHZ      11.1     0.065   1   1.1   0.2    Serine/threonine-protein kinase 1 OS=Heliothis zea nuclear polyhedrosis virus OX=28290 GN=PK1 PE=3 SV=1
+sp|Q197C2|VF098_IIV3     10.5     0.096   2   1.9   0.2    Uncharacterized protein 038R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-038R PE=3 SV=1
+sp|O10269|PK1_NPVOP      10.0      0.14   1   1.1   0.0    Serine/threonine-protein kinase 1 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=PK1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6GZV6|019R_FRG3G     61.0   5.5e-17     1   0.0    482    777    496    735    544    779     Putative serine/threonine-protein kinase 019R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-019R PE=3 SV=1
+sp|Q91FE4|VF380_IIV6     50.0   1.1e-13     1   9.6    169    468    200    452    557    808     Probable serine/threonine-protein kinase 380R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-380R PE=3 SV=1
+sp|Q197F0|VF380_IIV3     30.6   8.4e-08     1   1.5    154    476    229    471    558    806     Probable serine/threonine-protein kinase 010L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-010L PE=3 SV=1
+sp|Q197E9|011L_IIV3      30.1   1.1e-07     1   0.0    404    616    424    600    557    717     Uncharacterized protein 011L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-011L PE=4 SV=1
+sp|Q5UQ24|YL205_MIMIV    17.1   0.00098     1   0.2    112    226    146    210    599    660     Putative serine/threonine-protein kinase L205 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L205 PE=3 SV=1
+sp|P41719|PK1_NPVHZ      10.7     0.088     1   0.2     96    158    109    148    625    664     Serine/threonine-protein kinase 1 OS=Heliothis zea nuclear polyhedrosis virus OX=28290 GN=PK1 PE=3 SV=1
+sp|O10269|PK1_NPVOP       9.6      0.19     1   0.0     87    181    112    160    629    677     Serine/threonine-protein kinase 1 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=PK1 PE=3 SV=1
+sp|Q197C2|VF098_IIV3      8.3      0.47     1   0.2     85    238    151    218    625    689     Uncharacterized protein 038R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-038R PE=3 SV=1
+sp|Q197C2|VF098_IIV3     -0.4     2e+02     2   0.0    258    300    265    292     95    122     Uncharacterized protein 038R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-038R PE=3 SV=1
+sp|Q6GZV6|019R_FRG3G     -1.8   5.2e+02     2   0.0    803    838    813    835    823    845     Putative serine/threonine-protein kinase 019R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-019R PE=3 SV=1
+sp|Q5UQ24|YL205_MIMIV    -2.9   1.1e+03     2   0.1    393    435    401    429    579    607     Putative serine/threonine-protein kinase L205 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L205 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000381@MIS_100003819.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000381@MIS_100003819.txt data/models_hmm/3300002026@MIS_10000381@MIS_100003819.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:53 2021
+# [ok]

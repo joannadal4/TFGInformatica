@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8QL36|CAPSD_SIRV1   271.0   1.5e-81   1   1.0   5.3    Putative capsid protein OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=134 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8QL36|CAPSD_SIRV1   270.8   1.6e-81     1   5.3      1    134      1    134      1    134     Putative capsid protein OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=134 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001542641@NC_009965.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001542641@NC_009965.txt data/models_hmm/YP_001542641@NC_009965.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:31 2021
+# [ok]

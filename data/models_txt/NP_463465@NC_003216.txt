@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q04765|VSP1_BPLLH   381.6  5.3e-114   1   1.0   2.4    Structural protein OS=Lactococcus phage LL-H OX=12348 PE=3 SV=2
+sp|Q04766|VSP1_BPMV4   139.1   1.9e-40   1   1.0   2.7    Structural protein (Fragment) OS=Lactococcus phage mv4 OX=12392 PE=3 SV=1
+sp|O10277|VE18_NPVOP    10.0      0.25   1   1.1   0.0    Putative early 22.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=DA18 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q04765|VSP1_BPLLH   381.4  5.9e-114     1   2.4      1    371      4    370     18    371     Structural protein OS=Lactococcus phage LL-H OX=12348 PE=3 SV=2
+sp|Q04766|VSP1_BPMV4   138.8   2.2e-40     1   2.7      2    123      5    121    252    369     Structural protein (Fragment) OS=Lactococcus phage mv4 OX=12392 PE=3 SV=1
+sp|O10277|VE18_NPVOP     9.7      0.32     1   0.0     40    116     64    113    220    269     Putative early 22.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=DA18 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_463465@NC_003216.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_463465@NC_003216.txt data/models_hmm/NP_463465@NC_003216.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:00 2021
+# [ok]

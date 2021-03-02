@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                      bits   E-value   n   exp  bias    description
+#     ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q65134|VF69R_ASFB7      150.1   1.4e-44   1   1.0  13.9    Uncharacterized membrane protein X69R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-018 PE=3 SV=1
+sp|P0CAJ4|VF69R_ASFWA      146.3   2.2e-43   1   1.0  13.0    Uncharacterized membrane protein X69R OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-024 PE=3 SV=1
+sp|P0CAJ2|VF69R_ASFM2      144.5   7.6e-43   1   1.0  13.3    Uncharacterized membrane protein X69R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-022 PE=3 SV=1
+sp|P0CAJ3|VF69R_ASFP4      140.3   1.6e-41   1   1.0  14.6    Uncharacterized membrane protein X69R OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-026 PE=3 SV=1
+sp|A0A097SRX8|J64R_ASFB7   134.5     1e-39   1   1.0   8.0    Uncharacterized protein J64R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=J64R PE=4 SV=1
+sp|P0CAJ1|VF69R_ASFK5      111.9   1.2e-32   1   1.0   9.3    Uncharacterized membrane protein X69R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-026 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                     bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#     ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q65134|VF69R_ASFB7      150.0   1.5e-44     1  13.9      1     69      1     69      1     69     Uncharacterized membrane protein X69R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-018 PE=3 SV=1
+sp|P0CAJ4|VF69R_ASFWA      146.2   2.4e-43     1  13.0      1     69      1     69      1     69     Uncharacterized membrane protein X69R OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-024 PE=3 SV=1
+sp|P0CAJ2|VF69R_ASFM2      144.4   8.3e-43     1  13.3      1     69      1     69      1     69     Uncharacterized membrane protein X69R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-022 PE=3 SV=1
+sp|P0CAJ3|VF69R_ASFP4      140.2   1.8e-41     1  14.6      1     69      1     69      1     69     Uncharacterized membrane protein X69R OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-026 PE=3 SV=1
+sp|A0A097SRX8|J64R_ASFB7   134.4   1.1e-39     1   8.0      1     64      1     64      1     67     Uncharacterized protein J64R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=J64R PE=4 SV=1
+sp|P0CAJ1|VF69R_ASFK5      111.8   1.3e-32     1   9.3      1     71      2     71      1     68     Uncharacterized membrane protein X69R OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-026 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/CBH29114@FN557520.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/CBH29114@FN557520.txt data/models_hmm/CBH29114@FN557520.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:02 2021
+# [ok]

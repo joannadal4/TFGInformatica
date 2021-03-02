@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q27YE5|L_MOBVC       13.2     0.068   2   2.6   0.1    RNA-directed RNA polymerase L OS=Mobala mammarenavirus (isolate Rat/Central African Republic/Acar 3080/1983) OX=55097 GN=L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q27YE5|L_MOBVC        9.7      0.81     1   0.1    665    733    681    711     70    103     RNA-directed RNA polymerase L OS=Mobala mammarenavirus (isolate Rat/Central African Republic/Acar 3080/1983) OX=55097 GN=L PE=3 SV=1
+sp|Q27YE5|L_MOBVC       -0.9   1.4e+03     2   0.0   1644   1706   1676   1700     76    102     RNA-directed RNA polymerase L OS=Mobala mammarenavirus (isolate Rat/Central African Republic/Acar 3080/1983) OX=55097 GN=L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_944223@NC_005260.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_944223@NC_005260.txt data/models_hmm/NP_944223@NC_005260.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:42 2021
+# [ok]

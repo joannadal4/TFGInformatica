@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q914I8|Y044_SIFVH   348.7  3.2e-105   1   1.0   8.7    Uncharacterized protein 44 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0044 PE=4 SV=1
+sp|Q91G57|041L_IIV6     10.8      0.32   2   1.5   3.4    Uncharacterized protein 041L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-041L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q914I8|Y044_SIFVH   348.6  3.6e-105     1   8.7      1    156      1    156      1    156     Uncharacterized protein 44 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0044 PE=4 SV=1
+sp|Q91G57|041L_IIV6     11.4      0.21     1   1.5      2     87      6     73     74    136     Uncharacterized protein 041L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-041L PE=4 SV=1
+sp|Q91G57|041L_IIV6     -1.2   1.6e+03     2   0.1     73    116     81    107     84    108     Uncharacterized protein 041L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-041L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_666563@NC_004086.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_666563@NC_004086.txt data/models_hmm/NP_666563@NC_004086.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:15 2021
+# [ok]

@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q3V4Q5|Y710_ATV    1080.9         0   1   1.0  95.7    Putative transmembrane protein ORF710 OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+sp|Q9Q8J2|A18_MYXVL     13.4     0.019   2   1.9   1.5    Transcript termination protein A18 OS=Myxoma virus (strain Lausanne) OX=31530 GN=m108R PE=3 SV=1
+sp|Q914L4|Y016_SIFVH    11.9     0.055   1   1.1   0.6    Uncharacterized protein 16 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0016 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q3V4Q5|Y710_ATV    1080.6         0     1  95.7      6    710      9    709      2    707     Putative transmembrane protein ORF710 OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+sp|Q914L4|Y016_SIFVH    11.3     0.079     1   0.6     92    192    101    186     45    127     Uncharacterized protein 16 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0016 PE=4 SV=1
+sp|Q9Q8J2|A18_MYXVL      9.7      0.24     1   1.0    118    293    152    243     71    164     Transcript termination protein A18 OS=Myxoma virus (strain Lausanne) OX=31530 GN=m108R PE=3 SV=1
+sp|Q9Q8J2|A18_MYXVL      2.1        50     2   0.0    331    416    366    409    272    315     Transcript termination protein A18 OS=Myxoma virus (strain Lausanne) OX=31530 GN=m108R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_319891@NC_007409.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_319891@NC_007409.txt data/models_hmm/YP_319891@NC_007409.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:27 2021
+# [ok]

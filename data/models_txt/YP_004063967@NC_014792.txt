@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39249|Y16N_BPT4     78.9   1.5e-22   1   1.0  14.4    Uncharacterized 5.0 kDa protein in ndd-denB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16N PE=4 SV=2
+sp|Q85646|ENV_MMTVC     10.6      0.32   1   1.6   2.4    Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain C3H) OX=11759 GN=env PE=1 SV=1
+sp|P03374|ENV_MMTVG     10.6      0.34   1   1.5   2.4    Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain GR) OX=11760 GN=env PE=1 SV=1
+sp|P10259|ENV_MMTVB     10.6      0.34   1   1.5   2.4    Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain BR6) OX=11758 GN=env PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39249|Y16N_BPT4     78.8   1.6e-22     1  14.4      6     42      6     42      1     37     Uncharacterized 5.0 kDa protein in ndd-denB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16N PE=4 SV=2
+sp|P03374|ENV_MMTVG      9.4      0.76     1   2.4    631    648    634    646     13     25     Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain GR) OX=11760 GN=env PE=1 SV=1
+sp|P10259|ENV_MMTVB      9.4      0.76     1   2.4    631    648    634    646     13     25     Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain BR6) OX=11758 GN=env PE=3 SV=1
+sp|Q85646|ENV_MMTVC      9.4      0.76     1   2.4    631    648    634    646     13     25     Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain C3H) OX=11759 GN=env PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004063967@NC_014792.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004063967@NC_014792.txt data/models_hmm/YP_004063967@NC_014792.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:06 2021
+# [ok]

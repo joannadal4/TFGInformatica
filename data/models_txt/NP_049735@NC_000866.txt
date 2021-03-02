@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13302|IPI3_BPT4    397.3  8.8e-120   1   1.0  10.7    Internal protein III OS=Enterobacteria phage T4 OX=10665 GN=ipi3 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13302|IPI3_BPT4    397.2  9.8e-120     1  10.7      1    193      1    193      1    194     Internal protein III OS=Enterobacteria phage T4 OX=10665 GN=ipi3 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_049735@NC_000866.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_049735@NC_000866.txt data/models_hmm/NP_049735@NC_000866.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:34 2021
+# [ok]

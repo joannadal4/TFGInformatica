@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C9C9|NIFSL_ASFP4    13.6     0.051   2   2.1   0.2    NifS-like protein OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-136 PE=3 SV=1
+sp|P0C9D0|NIFSL_ASFWA    13.1     0.071   2   2.1   0.1    NifS-like protein OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-134 PE=3 SV=1
+sp|Q65192|NIFSL_ASFB7    12.7     0.098   2   2.1   0.2    NifS-like protein OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-124 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C9C9|NIFSL_ASFP4    10.1       0.6     1   0.0     41    161     48    120     33    102     NifS-like protein OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-136 PE=3 SV=1
+sp|P0C9D0|NIFSL_ASFWA     9.6      0.84     1   0.0     41    161     48    120     33    102     NifS-like protein OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-134 PE=3 SV=1
+sp|Q65192|NIFSL_ASFB7     9.1       1.2     1   0.0     41    167     48    120     33    102     NifS-like protein OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-124 PE=3 SV=1
+sp|Q65192|NIFSL_ASFB7     1.1   3.4e+02     2   0.1    229    276    242    258     45     59     NifS-like protein OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-124 PE=3 SV=1
+sp|P0C9C9|NIFSL_ASFP4     1.1   3.6e+02     2   0.1    229    279    244    258     47     59     NifS-like protein OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-136 PE=3 SV=1
+sp|P0C9D0|NIFSL_ASFWA     1.0   3.6e+02     2   0.1    229    274    242    258     45     59     NifS-like protein OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-134 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001425642@NC_008603.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001425642@NC_008603.txt data/models_hmm/YP_001425642@NC_008603.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:11 2021
+# [ok]

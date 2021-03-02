@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q00721|NSP3_ROTS4      8.2       2.6   3   2.7   5.3    Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-4F/G3P6[1]) OX=36436 PE=1 SV=1
+sp|Q5UP83|YL004_MIMIV     7.2       5.3   2   1.9   8.6    Putative KilA-N domain-containing protein L4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L4 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UP83|YL004_MIMIV    10.9      0.38     1   3.1    275    325    279    316      7     44     Putative KilA-N domain-containing protein L4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L4 PE=4 SV=1
+sp|Q00721|NSP3_ROTS4      9.5         1     2   0.2    197    253    200    249      4     56     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-4F/G3P6[1]) OX=36436 PE=1 SV=1
+sp|Q00721|NSP3_ROTS4     -0.9   1.7e+03     1   0.3    139    196    144    185      7     49     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-4F/G3P6[1]) OX=36436 PE=1 SV=1
+sp|Q00721|NSP3_ROTS4     -2.2   4.4e+03     3   0.0    257    303    262    297     17     50     Non-structural protein 3 OS=Rotavirus A (strain RVA/SA11-4F/G3P6[1]) OX=36436 PE=1 SV=1
+sp|Q5UP83|YL004_MIMIV    -3.5   1.2e+04     2   0.3    408    443    412    426      9     23     Putative KilA-N domain-containing protein L4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L4 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006383523@NC_017978.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006383523@NC_017978.txt data/models_hmm/YP_006383523@NC_017978.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:14 2021
+# [ok]

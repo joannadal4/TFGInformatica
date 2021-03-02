@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q01219|A51_VACCW    395.1  1.8e-118   1   1.0  12.3    Protein A51 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR177 PE=3 SV=1
+sp|P21069|A51_VACCC    394.0  3.9e-118   1   1.0  12.2    Protein A51 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A51R PE=3 SV=1
+sp|P0DSU3|A51_VAR67    391.3  2.7e-117   1   1.0  14.8    Protein A51 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A51R PE=3 SV=1
+sp|P0DSU4|A51_VARV     391.3  2.7e-117   1   1.0  14.8    Protein A51 OS=Variola virus OX=10255 GN=A51R PE=3 SV=1
+sp|Q89181|A51_VACCA    338.6  2.9e-101   1   1.0  11.4    Protein A51 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA164R PE=3 SV=1
+sp|O10345|IAP4_NPVOP    10.7      0.16   1   1.1   4.7    Putative apoptosis inhibitor 4 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=IAP4 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q01219|A51_VACCW    394.9  2.1e-118     1  12.3      2    334      3    334      2    337     Protein A51 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR177 PE=3 SV=1
+sp|P21069|A51_VACCC    393.8  4.4e-118     1  12.2      2    334      3    334      2    337     Protein A51 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A51R PE=3 SV=1
+sp|P0DSU3|A51_VAR67    391.1    3e-117     1  14.8      2    334      3    334      2    337     Protein A51 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A51R PE=3 SV=1
+sp|P0DSU4|A51_VARV     391.1    3e-117     1  14.8      2    334      3    334      2    337     Protein A51 OS=Variola virus OX=10255 GN=A51R PE=3 SV=1
+sp|Q89181|A51_VACCA    338.3  3.4e-101     1  11.4      2    307      3    304      2    311     Protein A51 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA164R PE=3 SV=1
+sp|O10345|IAP4_NPVOP    10.5      0.17     1   4.7     50    116     59     94    223    258     Putative apoptosis inhibitor 4 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=IAP4 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_052024@NC_001266.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_052024@NC_001266.txt data/models_hmm/NP_052024@NC_001266.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:36 2021
+# [ok]

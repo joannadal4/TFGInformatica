@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQL9|YR423_MIMIV    12.3     0.062   3   2.9   7.9    Uncharacterized protein R423 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R423 PE=4 SV=1
+sp|P29149|POL1_GFLV      11.3      0.13   1   1.4   0.0    RNA1 polyprotein OS=Grapevine fanleaf virus OX=12274 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P29149|POL1_GFLV      10.3      0.25     1   0.0    265    376    279    358     92    171     RNA1 polyprotein OS=Grapevine fanleaf virus OX=12274 PE=1 SV=1
+sp|Q5UQL9|YR423_MIMIV     7.5       1.9     2   2.1    281    369    293    348    241    296     Uncharacterized protein R423 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R423 PE=4 SV=1
+sp|Q5UQL9|YR423_MIMIV     6.3       4.1     3   0.2    370    469    388    453    229    293     Uncharacterized protein R423 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R423 PE=4 SV=1
+sp|Q5UQL9|YR423_MIMIV     0.6   2.2e+02     1   0.0    244    293    252    287     26     61     Uncharacterized protein R423 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R423 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001497860@NC_009898.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001497860@NC_009898.txt data/models_hmm/YP_001497860@NC_009898.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:27 2021
+# [ok]

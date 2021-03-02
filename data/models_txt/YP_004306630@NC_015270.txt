@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P33495|VGLG_TRTV     11.1      0.33   4   3.5   0.1    Major surface glycoprotein G OS=Turkey rhinotracheitis virus OX=11264 GN=G PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P33495|VGLG_TRTV     11.1      0.33     1   0.1     70    103     73    101     35     63     Major surface glycoprotein G OS=Turkey rhinotracheitis virus OX=11264 GN=G PE=2 SV=1
+sp|P33495|VGLG_TRTV      2.6   1.5e+02     2   0.1    144    194    150    186     10     46     Major surface glycoprotein G OS=Turkey rhinotracheitis virus OX=11264 GN=G PE=2 SV=1
+sp|P33495|VGLG_TRTV     -1.3   2.3e+03     4   0.5    290    342    313    313     35     35     Major surface glycoprotein G OS=Turkey rhinotracheitis virus OX=11264 GN=G PE=2 SV=1
+sp|P33495|VGLG_TRTV     -5.3   1.7e+04     3   2.5    236    259    243    255     34     46     Major surface glycoprotein G OS=Turkey rhinotracheitis virus OX=11264 GN=G PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004306630@NC_015270.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004306630@NC_015270.txt data/models_hmm/YP_004306630@NC_015270.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:18 2021
+# [ok]

@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P22167|FUS_BRSVC     12.4      0.16   3   2.3   1.0    Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain Copenhagen) OX=11248 GN=F PE=1 SV=1
+sp|Q9IJX4|POLN_CRPVC     9.4       1.3   3   3.4   4.0    Replicase polyprotein OS=Cricket paralysis virus (isolate Teleogryllus commodus/Australia/CrPVVIC/1968) OX=928300 GN=ORF1 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P22167|FUS_BRSVC     10.8      0.51     1   0.0     28    112     38     96     23     83     Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain Copenhagen) OX=11248 GN=F PE=1 SV=1
+sp|Q9IJX4|POLN_CRPVC     4.9        33     2   0.0   1098   1141   1109   1129     68     88     Replicase polyprotein OS=Cricket paralysis virus (isolate Teleogryllus commodus/Australia/CrPVVIC/1968) OX=928300 GN=ORF1 PE=1 SV=1
+sp|Q9IJX4|POLN_CRPVC     1.3   4.6e+02     1   2.8    875    948    883    945     14     72     Replicase polyprotein OS=Cricket paralysis virus (isolate Teleogryllus commodus/Australia/CrPVVIC/1968) OX=928300 GN=ORF1 PE=1 SV=1
+sp|P22167|FUS_BRSVC     -2.7   7.5e+03     2   0.0    177    232    194    225     62     91     Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain Copenhagen) OX=11248 GN=F PE=1 SV=1
+sp|P22167|FUS_BRSVC     -2.8   8.3e+03     3   0.1    399    460    427    443     15     31     Fusion glycoprotein F0 OS=Bovine respiratory syncytial virus (strain Copenhagen) OX=11248 GN=F PE=1 SV=1
+sp|Q9IJX4|POLN_CRPVC    -2.8   8.6e+03     3   0.0   1319   1357   1327   1356     74    103     Replicase polyprotein OS=Cricket paralysis virus (isolate Teleogryllus commodus/Australia/CrPVVIC/1968) OX=928300 GN=ORF1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_2460581_len_243054_cov_1_720433@_HiSeq_26904250.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_2460581_len_243054_cov_1_720433@_HiSeq_26904250.txt data/models_hmm/2061766007@rumenHiSeq_NODE_2460581_len_243054_cov_1_720433@_HiSeq_26904250.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:30 2021
+# [ok]

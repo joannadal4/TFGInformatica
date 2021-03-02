@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6XV43|NRAM_I79A7    11.5      0.22   2   2.3   4.2    Neuraminidase OS=Influenza A virus (strain A/Grey teal/Australia/2/1979 H4N4) OX=402464 GN=NA PE=3 SV=1
+sp|P31510|NRAM_I85A8    11.4      0.23   2   2.3   1.7    Neuraminidase OS=Influenza A virus (strain A/Ruddy Turnstone/New Jersey/60/1985 H4N9) OX=31662 GN=NA PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6XV43|NRAM_I79A7    12.6     0.097     2   0.5    257    306    275    296     43     66     Neuraminidase OS=Influenza A virus (strain A/Grey teal/Australia/2/1979 H4N4) OX=402464 GN=NA PE=3 SV=1
+sp|P31510|NRAM_I85A8     9.6      0.82     2   0.8    272    307    279    299     45     67     Neuraminidase OS=Influenza A virus (strain A/Ruddy Turnstone/New Jersey/60/1985 H4N9) OX=31662 GN=NA PE=3 SV=1
+sp|P31510|NRAM_I85A8    -1.1   1.9e+03     1   0.0    217    241    221    239     28     46     Neuraminidase OS=Influenza A virus (strain A/Ruddy Turnstone/New Jersey/60/1985 H4N9) OX=31662 GN=NA PE=3 SV=1
+sp|Q6XV43|NRAM_I79A7    -1.5   2.5e+03     1   0.2    220    242    225    236     54     65     Neuraminidase OS=Influenza A virus (strain A/Grey teal/Australia/2/1979 H4N4) OX=402464 GN=NA PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004957089@NC_016563.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004957089@NC_016563.txt data/models_hmm/YP_004957089@NC_016563.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:57 2021
+# [ok]

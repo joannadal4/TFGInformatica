@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P69282|V_SENDZ       11.3       0.2   1   1.2   0.0    Protein V OS=Sendai virus (strain Z) OX=11198 GN=P/V/C PE=1 SV=1
+sp|P69280|V_SENDH       11.2      0.21   1   1.2   0.0    Protein V OS=Sendai virus (strain Harris) OX=11196 GN=P/V/C PE=1 SV=1
+sp|P69284|V_SENDF       11.0      0.25   1   1.2   0.0    Protein V OS=Sendai virus (strain Fushimi) OX=11195 GN=P/V/C PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P69282|V_SENDZ       10.7      0.31     1   0.0    310    373    321    370     74    122     Protein V OS=Sendai virus (strain Z) OX=11198 GN=P/V/C PE=1 SV=1
+sp|P69280|V_SENDH       10.6      0.32     1   0.0    311    373    321    370     74    122     Protein V OS=Sendai virus (strain Harris) OX=11196 GN=P/V/C PE=1 SV=1
+sp|P69284|V_SENDF       10.4      0.38     1   0.0    311    373    321    370     74    122     Protein V OS=Sendai virus (strain Fushimi) OX=11195 GN=P/V/C PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000393___SRS019327_WUGC_scaffold_71581_10_56.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000393___SRS019327_WUGC_scaffold_71581_10_56.txt data/models_hmm/7000000393___SRS019327_WUGC_scaffold_71581_10_56.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:54 2021
+# [ok]

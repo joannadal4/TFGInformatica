@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C733|BNL2B_EBVG    207.5   2.8e-62   1   1.0   1.1    Uncharacterized protein BNLF2b OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BNLF2b PE=3 SV=1
+sp|Q8AZJ3|BNL2B_EBVB9   207.5   2.8e-62   1   1.0   1.1    Uncharacterized protein BNLF2b OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BNLF2b PE=3 SV=2
+sp|Q1HVB5|BNL2B_EBVA8   203.8     4e-61   1   1.0   1.7    Uncharacterized protein BNLF2b OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BNLF2b PE=3 SV=1
+sp|Q85601|REX_HTLV2      13.9     0.057   1   1.7   0.8    Protein Rex OS=Human T-cell leukemia virus 2 OX=11909 PE=1 SV=1
+sp|P03291|Y215_ADE02      7.6       5.3   3   2.5  14.2    Uncharacterized protein F-215 OS=Human adenovirus C serotype 2 OX=10515 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C733|BNL2B_EBVG    207.4   3.1e-62     1   1.1      1     98      1     98      4    101     Uncharacterized protein BNLF2b OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BNLF2b PE=3 SV=1
+sp|Q8AZJ3|BNL2B_EBVB9   207.4   3.1e-62     1   1.1      1     98      1     98      4    101     Uncharacterized protein BNLF2b OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BNLF2b PE=3 SV=2
+sp|Q1HVB5|BNL2B_EBVA8   203.7   4.4e-61     1   1.7      1     98      1     98      4    101     Uncharacterized protein BNLF2b OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BNLF2b PE=3 SV=1
+sp|Q85601|REX_HTLV2      12.6      0.14     1   0.8      1     41      2     31     28     57     Protein Rex OS=Human T-cell leukemia virus 2 OX=11909 PE=1 SV=1
+sp|P03291|Y215_ADE02     11.5      0.32     2   5.8     85    183     89    163      5     79     Uncharacterized protein F-215 OS=Human adenovirus C serotype 2 OX=10515 PE=4 SV=1
+sp|P03291|Y215_ADE02      1.9   3.1e+02     1   0.4     34     92     44     86     19     61     Uncharacterized protein F-215 OS=Human adenovirus C serotype 2 OX=10515 PE=4 SV=1
+sp|P03291|Y215_ADE02     -2.1   5.6e+03     3   0.1    165    209    183    200     31     48     Uncharacterized protein F-215 OS=Human adenovirus C serotype 2 OX=10515 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_068015@NC_006146.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_068015@NC_006146.txt data/models_hmm/YP_068015@NC_006146.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:56 2021
+# [ok]

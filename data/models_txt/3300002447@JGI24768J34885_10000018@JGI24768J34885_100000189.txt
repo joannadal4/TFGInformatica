@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q76ZJ3|C22L_VACCW    17.1    0.0023   1   1.1   2.2    Truncated CrmB protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=C22L PE=4 SV=1
+sp|P21106|C22L_VACCC    16.7     0.003   1   1.1   2.5    Truncated CrmB protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B28R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q76ZJ3|C22L_VACCW    16.8    0.0029     1   2.2     11    101     14     83    100    177     Truncated CrmB protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=C22L PE=4 SV=1
+sp|P21106|C22L_VACCC    16.4    0.0038     1   2.5     11     99     14     83    100    177     Truncated CrmB protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B28R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002447@JGI24768J34885_10000018@JGI24768J34885_100000189.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002447@JGI24768J34885_10000018@JGI24768J34885_100000189.txt data/models_hmm/3300002447@JGI24768J34885_10000018@JGI24768J34885_100000189.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:15 2021
+# [ok]

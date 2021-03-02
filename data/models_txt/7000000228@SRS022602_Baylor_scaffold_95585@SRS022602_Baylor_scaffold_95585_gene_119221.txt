@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q2Y0E9|RDRP_APRVF    13.9     0.036   3   3.1   1.1    RNA-directed RNA polymerase VP2 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q2Y0E9|RDRP_APRVF    10.5       0.4     1   0.1    218    321    279    312     85    118     RNA-directed RNA polymerase VP2 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S2 PE=3 SV=1
+sp|Q2Y0E9|RDRP_APRVF    -1.1   1.5e+03     3   0.0   1022   1103   1028   1092     51    111     RNA-directed RNA polymerase VP2 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S2 PE=3 SV=1
+sp|Q2Y0E9|RDRP_APRVF    -1.3   1.8e+03     2   0.0    455    485    459    477     99    118     RNA-directed RNA polymerase VP2 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000228@SRS022602_Baylor_scaffold_95585@SRS022602_Baylor_scaffold_95585_gene_119221.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000228@SRS022602_Baylor_scaffold_95585@SRS022602_Baylor_scaffold_95585_gene_119221.txt data/models_hmm/7000000228@SRS022602_Baylor_scaffold_95585@SRS022602_Baylor_scaffold_95585_gene_119221.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:33 2021
+# [ok]

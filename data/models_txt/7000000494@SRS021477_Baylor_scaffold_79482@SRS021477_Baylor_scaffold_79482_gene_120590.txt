@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O48472|HOL26_BPSPP    13.5     0.045   2   2.0   0.0    Putative antiholin OS=Bacillus phage SPP1 OX=10724 GN=26 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O48472|HOL26_BPSPP     9.5      0.81     2   0.0     38     79     43     77     11     44     Putative antiholin OS=Bacillus phage SPP1 OX=10724 GN=26 PE=3 SV=1
+sp|O48472|HOL26_BPSPP     2.2   1.5e+02     1   0.0      1     31      3     24      6     27     Putative antiholin OS=Bacillus phage SPP1 OX=10724 GN=26 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000494@SRS021477_Baylor_scaffold_79482@SRS021477_Baylor_scaffold_79482_gene_120590.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000494@SRS021477_Baylor_scaffold_79482@SRS021477_Baylor_scaffold_79482_gene_120590.txt data/models_hmm/7000000494@SRS021477_Baylor_scaffold_79482@SRS021477_Baylor_scaffold_79482_gene_120590.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:41 2021
+# [ok]

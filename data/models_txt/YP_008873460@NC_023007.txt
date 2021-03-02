@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q04765|VSP1_BPLLH    15.4     0.013   3   2.5   0.1    Structural protein OS=Lactococcus phage LL-H OX=12348 PE=3 SV=2
+sp|P33084|Y12E_BPT4     13.0     0.074   1   1.4   0.1    Uncharacterized 10.8 kDa protein in Gp30-rIII intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y12E PE=4 SV=1
+sp|P34011|ATI_VAR67     11.7      0.19   5   5.2  12.2    A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|P24759|ATI_VACCW      8.9       1.4   5   6.1  18.9    A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P33084|Y12E_BPT4     12.2      0.13     1   0.1     51     89     58     88     22     52     Uncharacterized 10.8 kDa protein in Gp30-rIII intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y12E PE=4 SV=1
+sp|Q04765|VSP1_BPLLH    12.1      0.15     3   0.0    318    360    320    354      4     38     Structural protein OS=Lactococcus phage LL-H OX=12348 PE=3 SV=2
+sp|P24759|ATI_VACCW      8.7       1.6     1   0.1    402    456    409    453      8     51     A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+sp|P34011|ATI_VAR67      8.3       2.3     1   0.0    403    456    410    454      8     51     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|P34011|ATI_VAR67      5.0        24     2   0.2    448    484    449    481     32     64     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|P34011|ATI_VAR67      4.2        40     3   0.6    581    643    600    638     28     63     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|P24759|ATI_VACCW      3.9        51     2   0.1    453    483    456    480     40     64     A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+sp|P24759|ATI_VACCW      2.9   1.1e+02     3   1.6    579    641    599    637     28     63     A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+sp|P24759|ATI_VACCW      1.2   3.6e+02     4   0.1    634    662    637    656     36     55     A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+sp|P24759|ATI_VACCW     -0.1   9.3e+02     5   0.6    668    722    690    708     37     55     A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+sp|Q04765|VSP1_BPLLH    -0.5   1.2e+03     2   0.0    204    232    213    225     25     37     Structural protein OS=Lactococcus phage LL-H OX=12348 PE=3 SV=2
+sp|P34011|ATI_VAR67     -0.8   1.5e+03     5   0.1    665    698    668    695     38     66     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|P34011|ATI_VAR67     -2.0   3.6e+03     4   0.0    635    661    638    657     36     55     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|Q04765|VSP1_BPLLH    -2.8   6.5e+03     1   0.0    121    150    135    147     22     34     Structural protein OS=Lactococcus phage LL-H OX=12348 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008873460@NC_023007.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008873460@NC_023007.txt data/models_hmm/YP_008873460@NC_023007.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:44 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q69606|HBSAG_HBVF6    13.5     0.038   1   1.4   0.0    Large envelope protein OS=Hepatitis B virus genotype F2 subtype adw4q (isolate Senegal/9203) OX=489503 GN=S PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q69606|HBSAG_HBVF6    12.6     0.073     1   0.0    163    213    181    206     22     47     Large envelope protein OS=Hepatitis B virus genotype F2 subtype adw4q (isolate Senegal/9203) OX=489503 GN=S PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007761603@NC_020998.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007761603@NC_020998.txt data/models_hmm/YP_007761603@NC_020998.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:05 2021
+# [ok]

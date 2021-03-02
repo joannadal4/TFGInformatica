@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P08357|VP10_NPVOP    10.7      0.41   2   1.9   2.6    Protein p10 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P10 PE=3 SV=1
+sp|Q1I0V1|VP1_MPRVN      9.3       1.1   3   3.4   4.5    Uncharacterized protein VP1 OS=Micromonas pusilla reovirus (isolate Netherlands/2005) OX=649596 GN=S1 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P08357|VP10_NPVOP     7.5       3.7     2   0.2     29     64     30     57     54     81     Protein p10 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P10 PE=3 SV=1
+sp|Q1I0V1|VP1_MPRVN      7.0       5.7     1   0.1      9    106     26     99     62    138     Uncharacterized protein VP1 OS=Micromonas pusilla reovirus (isolate Netherlands/2005) OX=649596 GN=S1 PE=4 SV=1
+sp|P08357|VP10_NPVOP     5.4        17     1   0.5      3     36     13     32     61     80     Protein p10 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P10 PE=3 SV=1
+sp|Q1I0V1|VP1_MPRVN      0.6   5.1e+02     2   0.2    148    266    172    256     45    131     Uncharacterized protein VP1 OS=Micromonas pusilla reovirus (isolate Netherlands/2005) OX=649596 GN=S1 PE=4 SV=1
+sp|Q1I0V1|VP1_MPRVN      0.5   5.6e+02     3   0.0   1841   1896   1852   1894     33     75     Uncharacterized protein VP1 OS=Micromonas pusilla reovirus (isolate Netherlands/2005) OX=649596 GN=S1 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004009576@NC_014660.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004009576@NC_014660.txt data/models_hmm/YP_004009576@NC_014660.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:59 2021
+# [ok]

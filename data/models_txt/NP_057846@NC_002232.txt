@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03125|VE5_CRPVK    210.0   4.4e-63   1   1.0   0.5    Probable protein E5 OS=Cottontail rabbit papillomavirus (strain Kansas) OX=31553 GN=E5 PE=3 SV=1
+sp|P29069|VE5_CRPVW    187.3     5e-56   1   1.0   0.6    Probable protein E5 OS=Cottontail rabbit papillomavirus (strain Washington B) OX=31554 GN=E5 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03125|VE5_CRPVK    209.9   4.8e-63     1   0.5      1    101      1    101      1    101     Probable protein E5 OS=Cottontail rabbit papillomavirus (strain Kansas) OX=31553 GN=E5 PE=3 SV=1
+sp|P29069|VE5_CRPVW    187.2   5.6e-56     1   0.6      1    101      1    101      1    101     Probable protein E5 OS=Cottontail rabbit papillomavirus (strain Washington B) OX=31554 GN=E5 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_057846@NC_002232.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_057846@NC_002232.txt data/models_hmm/NP_057846@NC_002232.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:38 2021
+# [ok]

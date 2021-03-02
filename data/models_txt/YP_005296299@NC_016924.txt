@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20643|P4B_VACCC    1012.3         0   1   1.0  10.9    Major core protein 4b OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A3L PE=3 SV=1
+sp|P0DOM5|P4B_VAR67    1012.0         0   1   1.0  11.8    Major core protein 4b OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A3L PE=3 SV=1
+sp|P0DOM6|P4B_VARV     1012.0         0   1   1.0  11.8    Major core protein 4b OS=Variola virus OX=10255 GN=A3L PE=3 SV=1
+sp|P06440|P4B_VACCW     997.7  1.8e-300   1   1.0  11.7    Major core protein 4b OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR122 PE=1 SV=1
+sp|P17355|P4B_FOWPN     966.2  6.3e-291   1   1.0  21.8    Major core protein 4b OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV167 PE=3 SV=1
+sp|Q5UQL0|YL410_MIMIV    39.2   2.2e-10   4   2.1   2.8    Putative core protein L410 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L410 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20643|P4B_VACCC    1012.2         0     1  10.9      1    644      1    644      1    658     Major core protein 4b OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A3L PE=3 SV=1
+sp|P0DOM5|P4B_VAR67    1011.8         0     1  11.8      1    644      1    644      1    658     Major core protein 4b OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A3L PE=3 SV=1
+sp|P0DOM6|P4B_VARV     1011.8         0     1  11.8      1    644      1    644      1    658     Major core protein 4b OS=Variola virus OX=10255 GN=A3L PE=3 SV=1
+sp|P06440|P4B_VACCW     997.5  2.1e-300     1  11.7      1    643      1    643      1    658     Major core protein 4b OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR122 PE=1 SV=1
+sp|P17355|P4B_FOWPN     966.0    7e-291     1  21.8      1    657      7    657      6    659     Major core protein 4b OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV167 PE=3 SV=1
+sp|Q5UQL0|YL410_MIMIV    39.2   2.2e-10     3   2.8    165    532    187    479    195    483     Putative core protein L410 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L410 PE=1 SV=1
+sp|Q5UQL0|YL410_MIMIV    -2.4   8.8e+02     2   0.2     94    155    103    133    569    603     Putative core protein L410 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L410 PE=1 SV=1
+sp|Q5UQL0|YL410_MIMIV    -2.9   1.2e+03     1   2.0     25    138     72     97    100    125     Putative core protein L410 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L410 PE=1 SV=1
+sp|Q5UQL0|YL410_MIMIV    -3.7     2e+03     4   0.0    636    654    638    648    633    643     Putative core protein L410 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L410 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_005296299@NC_016924.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_005296299@NC_016924.txt data/models_hmm/YP_005296299@NC_016924.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:06 2021
+# [ok]

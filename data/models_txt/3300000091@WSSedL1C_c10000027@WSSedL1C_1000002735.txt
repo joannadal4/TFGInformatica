@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41458|AC54_NPVAC     14.3     0.029   5   4.5   1.3    Protein AC54 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC54 PE=1 SV=1
+sp|Q5UPB8|YL043_MIMIV    11.9      0.16   3   3.6   5.4    Uncharacterized protein L43 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L43 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPB8|YL043_MIMIV     7.6       3.6     1   0.4     61     94     67     91     40     64     Uncharacterized protein L43 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L43 PE=4 SV=1
+sp|P41458|AC54_NPVAC      4.2        41     3   0.0    173    208    176    201     11     35     Protein AC54 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC54 PE=1 SV=1
+sp|Q5UPB8|YL043_MIMIV     3.9        52     3   0.1    177    207    183    202     42     61     Uncharacterized protein L43 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L43 PE=4 SV=1
+sp|P41458|AC54_NPVAC      3.3        76     5   0.0    342    365    348    365      7     24     Protein AC54 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC54 PE=1 SV=1
+sp|P41458|AC54_NPVAC      0.4   6.2e+02     1   0.1     71     98     74     90     29     45     Protein AC54 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC54 PE=1 SV=1
+sp|Q5UPB8|YL043_MIMIV     0.1   7.9e+02     2   0.0    116    131    123    131     59     67     Uncharacterized protein L43 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L43 PE=4 SV=1
+sp|P41458|AC54_NPVAC      0.1     8e+02     4   0.1    211    230    217    228     29     40     Protein AC54 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC54 PE=1 SV=1
+sp|P41458|AC54_NPVAC     -2.4   4.8e+03     2   0.0     84    119     94    116     27     48     Protein AC54 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC54 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000091@WSSedL1C_c10000027@WSSedL1C_1000002735.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000091@WSSedL1C_c10000027@WSSedL1C_1000002735.txt data/models_hmm/3300000091@WSSedL1C_c10000027@WSSedL1C_1000002735.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:21 2021
+# [ok]

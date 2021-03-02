@@ -1,0 +1,47 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q197F1|RPB2_IIV3     16.9   0.00078   2   1.7   0.9    Probable DNA-directed RNA polymerase II subunit RPB2 homolog OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-009R PE=3 SV=1
+sp|P0C8K2|RPB2_ASFK5    16.1    0.0014   2   1.8   0.0    DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-065 PE=3 SV=1
+sp|P0C8K3|RPB2_ASFM2    16.1    0.0014   2   1.8   0.0    DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-061 PE=3 SV=1
+sp|P0C8K4|RPB2_ASFP4    16.1    0.0014   2   1.8   0.0    DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-065 PE=3 SV=1
+sp|P0C8K5|RPB2_ASFWA    16.1    0.0014   2   1.8   0.0    DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-063 PE=3 SV=1
+sp|P42487|RPB2_ASFB7    16.1    0.0014   2   1.8   0.0    DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-053 PE=3 SV=1
+sp|Q6GZR3|RPB2_FRG3G    11.5     0.033   1   1.1   0.0    Putative DNA-directed RNA polymerase II subunit RPB2 homolog OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-062L PE=3 SV=1
+sp|Q5UQ57|UBC2_MIMIV     8.4      0.28   1   1.1  38.1    Probable ubiquitin-conjugating enzyme E2 L709 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L709 PE=3 SV=1
+sp|Q00114|VG21_ICHVA     6.1       1.5   1   1.0   8.3    Uncharacterized protein ORF21 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF21 PE=4 SV=1
+sp|P0C745|HBZ_HTL1C      3.7       7.5   1   1.0   9.5    HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (isolate Caribbea HS-35 subtype A) OX=11927 GN=HBZ PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q197F1|RPB2_IIV3     16.9   0.00078     2   0.9    834    961    877    957   1275   1351     Probable DNA-directed RNA polymerase II subunit RPB2 homolog OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-009R PE=3 SV=1
+sp|P0C8K2|RPB2_ASFK5    16.1    0.0014     2   0.0    932   1054    981   1044   1281   1346     DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-065 PE=3 SV=1
+sp|P0C8K3|RPB2_ASFM2    16.1    0.0014     2   0.0    932   1054    981   1044   1281   1346     DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-061 PE=3 SV=1
+sp|P0C8K4|RPB2_ASFP4    16.1    0.0014     2   0.0    932   1054    981   1044   1281   1346     DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-065 PE=3 SV=1
+sp|P0C8K5|RPB2_ASFWA    16.1    0.0014     2   0.0    932   1054    981   1044   1281   1346     DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-063 PE=3 SV=1
+sp|P42487|RPB2_ASFB7    16.1    0.0014     2   0.0    932   1054    981   1044   1281   1346     DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-053 PE=3 SV=1
+sp|Q6GZR3|RPB2_FRG3G    11.1     0.045     1   0.0    932   1063    961   1045   1266   1352     Putative DNA-directed RNA polymerase II subunit RPB2 homolog OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-062L PE=3 SV=1
+sp|Q5UQ57|UBC2_MIMIV     8.1      0.34     1  38.1    119    387    179    371    253    431     Probable ubiquitin-conjugating enzyme E2 L709 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L709 PE=3 SV=1
+sp|Q00114|VG21_ICHVA     5.8       1.7     1   8.3    103    296    122    289    256    362     Uncharacterized protein ORF21 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF21 PE=4 SV=1
+sp|P0C745|HBZ_HTL1C      3.6       8.1     1   9.5     20    196     77    162    290    394     HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (isolate Caribbea HS-35 subtype A) OX=11927 GN=HBZ PE=1 SV=1
+sp|Q197F1|RPB2_IIV3     -2.8   6.7e+02     1   0.2    313    353    316    351    452    482     Probable DNA-directed RNA polymerase II subunit RPB2 homolog OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-009R PE=3 SV=1
+sp|P0C8K2|RPB2_ASFK5    -4.0   1.6e+03     1   2.5    462    580    483    577    863    959     DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-065 PE=3 SV=1
+sp|P0C8K4|RPB2_ASFP4    -4.2   1.8e+03     1   2.7    462    580    479    577    859    959     DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-065 PE=3 SV=1
+sp|P0C8K5|RPB2_ASFWA    -4.2   1.8e+03     1   2.7    462    580    479    577    859    959     DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-063 PE=3 SV=1
+sp|P42487|RPB2_ASFB7    -4.2   1.8e+03     1   2.7    462    580    479    577    859    959     DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-053 PE=3 SV=1
+sp|P0C8K3|RPB2_ASFM2    -4.4   2.1e+03     1   2.9    459    580    479    577    859    959     DNA-directed RNA polymerase subunit 2 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-061 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006383356@NC_017975.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006383356@NC_017975.txt data/models_hmm/YP_006383356@NC_017975.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:14 2021
+# [ok]

@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6SW82|UL49_HCMVM     14.2     0.038   1   1.9   0.5    Protein UL49 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL49 PE=3 SV=1
+sp|Q80920|VE6_HPV48      13.6      0.06   2   2.1   8.0    Protein E6 OS=Human papillomavirus type 48 OX=40538 GN=E6 PE=3 SV=1
+sp|B4YNF5|V15_SPTNK      13.3     0.071   1   1.1   1.9    Uncharacterized protein V15 OS=Sputnik virophage OX=543939 GN=ORF15 PE=4 SV=1
+sp|Q5UQ91|YL531_MIMIV    13.2     0.079   1   1.7   0.1    Uncharacterized protein L531 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L531 PE=4 SV=1
+sp|P16786|UL49_HCMVA     12.2      0.16   2   2.1   2.9    Uncharacterized protein UL49 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL49 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q80920|VE6_HPV48      13.5     0.065     2   1.8     66    140     76    136     17     74     Protein E6 OS=Human papillomavirus type 48 OX=40538 GN=E6 PE=3 SV=1
+sp|B4YNF5|V15_SPTNK      13.0     0.088     1   1.9     14     85     19     74      5     58     Uncharacterized protein V15 OS=Sputnik virophage OX=543939 GN=ORF15 PE=4 SV=1
+sp|P16786|UL49_HCMVA     12.5      0.13     1   0.5    364    446    383    439     34     89     Uncharacterized protein UL49 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL49 PE=3 SV=1
+sp|Q6SW82|UL49_HCMVM     12.5      0.13     1   0.5    364    446    383    439     34     89     Protein UL49 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL49 PE=3 SV=1
+sp|Q5UQ91|YL531_MIMIV    11.9       0.2     1   0.1    136    198    153    194     45     86     Uncharacterized protein L531 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L531 PE=4 SV=1
+sp|Q80920|VE6_HPV48       4.3        47     1   0.5     16     74     28     68     39     79     Protein E6 OS=Human papillomavirus type 48 OX=40538 GN=E6 PE=3 SV=1
+sp|P16786|UL49_HCMVA     -3.4   1.1e+04     2   0.1    475    513    481    499     73     91     Uncharacterized protein UL49 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL49 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007003481@NC_019487.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007003481@NC_019487.txt data/models_hmm/YP_007003481@NC_019487.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:01 2021
+# [ok]

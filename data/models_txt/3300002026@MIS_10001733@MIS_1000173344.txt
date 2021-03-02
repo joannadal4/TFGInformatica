@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05292|VG77_BPML5    17.5     0.002   2   2.1   0.1    Gene 77 protein OS=Mycobacterium phage L5 OX=31757 GN=77 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05292|VG77_BPML5     9.6      0.52     1   0.1      3    105      7     58      6     56     Gene 77 protein OS=Mycobacterium phage L5 OX=31757 GN=77 PE=4 SV=1
+sp|Q05292|VG77_BPML5     6.1       6.3     2   0.0    152    251    213    246    178    212     Gene 77 protein OS=Mycobacterium phage L5 OX=31757 GN=77 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10001733@MIS_1000173344.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10001733@MIS_1000173344.txt data/models_hmm/3300002026@MIS_10001733@MIS_1000173344.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:02 2021
+# [ok]

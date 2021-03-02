@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q38492|GP14_BPMU     15.1     0.014   2   1.5   0.7    Uncharacterized protein gp14 OS=Escherichia phage Mu OX=10677 GN=Mup14 PE=2 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38492|GP14_BPMU     14.9     0.017     1   0.2      1     68      5     46      4     41     Uncharacterized protein gp14 OS=Escherichia phage Mu OX=10677 GN=Mup14 PE=2 SV=2
+sp|Q38492|GP14_BPMU     -3.2   7.3e+03     2   0.0     77     96     85     90     36     44     Uncharacterized protein gp14 OS=Escherichia phage Mu OX=10677 GN=Mup14 PE=2 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/CCI88706@HE956709.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/CCI88706@HE956709.txt data/models_hmm/CCI88706@HE956709.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:06 2021
+# [ok]

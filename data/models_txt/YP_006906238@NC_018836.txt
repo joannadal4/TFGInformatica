@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P51704|RPC1_BPHC1    14.6     0.021   1   1.2   0.0    Repressor protein CI OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 GN=CI PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P51704|RPC1_BPHC1    14.1     0.031     1   0.0    105    186    111    176     41    101     Repressor protein CI OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 GN=CI PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006906238@NC_018836.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006906238@NC_018836.txt data/models_hmm/YP_006906238@NC_018836.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:24 2021
+# [ok]

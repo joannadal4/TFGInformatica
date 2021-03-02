@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39236|Y05M_BPT4     13.6     0.052   1   1.3   0.2    Uncharacterized 7.1 kDa protein in mobD-ri intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y05M PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39236|Y05M_BPT4     13.1     0.078     1   0.2      4     40     13     37     95    119     Uncharacterized 7.1 kDa protein in mobD-ri intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y05M PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000024@TBL_comb48_EPIDRAFT_100002446.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000024@TBL_comb48_EPIDRAFT_100002446.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000024@TBL_comb48_EPIDRAFT_100002446.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:35 2021
+# [ok]

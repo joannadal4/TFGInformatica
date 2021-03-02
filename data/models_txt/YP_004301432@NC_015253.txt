@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQW9|YL384_MIMIV    65.6   2.1e-18   3   2.6  10.2    Uncharacterized protein L384 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L384 PE=4 SV=1
+sp|P34011|ATI_VAR67       4.0       8.1   1   1.4  15.0    A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQW9|YL384_MIMIV    39.7   1.3e-10     3   3.5     61    131     66    128    590    648     Uncharacterized protein L384 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L384 PE=4 SV=1
+sp|Q5UQW9|YL384_MIMIV    29.1   2.1e-07     1   0.5      1     59      6     51     23     81     Uncharacterized protein L384 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L384 PE=4 SV=1
+sp|Q5UQW9|YL384_MIMIV     3.1        15     2   0.0     45     69     47     65    112    130     Uncharacterized protein L384 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L384 PE=4 SV=1
+sp|P34011|ATI_VAR67       3.0        16     1  15.0    450    701    464    652     45    215     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004301432@NC_015253.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004301432@NC_015253.txt data/models_hmm/YP_004301432@NC_015253.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:16 2021
+# [ok]

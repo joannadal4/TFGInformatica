@@ -1,0 +1,197 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04506|SIGM1_REOVL    18.6    0.0017   3   3.2   1.6    Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|O09686|NEP_I73A4      18.3    0.0021   1   1.6   1.0    Nuclear export protein (Fragment) OS=Influenza A virus (strain A/Equine/London/1416/1973 H7N7) OX=380340 GN=NS PE=3 SV=1
+sp|O09688|NEP_I86A3      18.1    0.0024   1   1.4   0.9    Nuclear export protein (Fragment) OS=Influenza A virus (strain A/Equine/Tennessee/5/1986 H3N8) OX=380339 GN=NS PE=3 SV=1
+sp|O89285|NEP_I77A9      18.0    0.0026   2   1.6   1.0    Nuclear export protein OS=Influenza A virus (strain A/Equine/New Market/1/1977 H7N7) OX=217831 GN=NS PE=3 SV=1
+sp|Q77ZM4|NEP_I91A0      17.9    0.0027   1   1.5   0.8    Nuclear export protein OS=Influenza A virus (strain A/Equine/Alaska/1/1991 H3N8) OX=387213 GN=NS PE=3 SV=1
+sp|P08269|NEP_I76AM      15.8     0.012   1   1.5   0.3    Nuclear export protein (Fragment) OS=Influenza A virus (strain A/Mynah/Haneda-Thai/1976 H3N1) OX=11444 GN=NS PE=3 SV=1
+sp|P30913|NEP_I76A0      15.7     0.013   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Anas acuta/Primorje/695/1976 H2N3) OX=383602 GN=NS PE=3 SV=1
+sp|O89747|NEP_I97A0      15.6     0.014   1   1.5   0.2    Nuclear export protein OS=Influenza A virus (strain A/Chicken/Hong Kong/220/1997 H5N1 genotype Gs/Gd) OX=100834 GN=NS PE=3 SV=1
+sp|Q6DP36|NEP_I02A7      15.5     0.015   1   1.4   0.2    Nuclear export protein (Fragment) OS=Influenza A virus (strain A/Teal/China/2978.1/2002 H5N1 genotype W) OX=284215 GN=NS PE=3 SV=1
+sp|O57266|NEP_I80AD      15.0     0.021   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Gull/Minnesota/945/1980 H13N6) OX=385597 GN=NS PE=3 SV=2
+sp|Q6XTD9|NEP_I67A0      15.0     0.021   1   1.5   0.2    Nuclear export protein OS=Influenza A virus (strain A/Tokyo/3/1967 H2N2) OX=380960 GN=NS PE=3 SV=1
+sp|O57273|NEP_I78AF      15.0     0.021   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Gull/Maryland/1824/1978 H13N6) OX=385602 GN=NS PE=3 SV=1
+sp|Q6XSV5|NEP_I70A0      15.0     0.022   1   1.5   0.2    Nuclear export protein OS=Influenza A virus (strain A/Qu/7/1970 H3N2) OX=221016 GN=NS PE=3 SV=1
+sp|Q910E4|NEP_I68A4      15.0     0.022   1   1.5   0.2    Nuclear export protein OS=Influenza A virus (strain A/Hong Kong/1/1968 H3N2) OX=506350 GN=NS PE=3 SV=1
+sp|Q3SBF1|NEP_I66A1      14.9     0.023   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Turkey/Wisconsin/1/1966 H9N2) OX=385620 GN=NS PE=3 SV=1
+sp|Q04266|NEP_I000W      14.9     0.024   1   1.4   0.1    Nuclear export protein OS=Influenza A virus (strain A/Wa-182) OX=38985 GN=NS PE=3 SV=1
+sp|Q20NC0|NEP_I56A1      14.9     0.024   1   1.5   0.6    Nuclear export protein OS=Influenza A virus (strain A/Duck/Czechoslovakia/1956 H4N6) OX=385590 GN=NS PE=3 SV=1
+sp|P04376|CAP9_ADET1     14.8     0.024   1   1.2   0.5    Hexon-interlacing protein OS=Tree shrew adenovirus serotype 1 OX=47680 GN=IX PE=3 SV=1
+sp|P03505|NEP_I50A0      14.8     0.025   1   1.4   0.2    Nuclear export protein OS=Influenza A virus (strain A/Fort Warren/1/1950 H1N1) OX=384525 GN=NS PE=3 SV=1
+sp|P0C5U1|NEP_I01A3      14.6     0.028   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Chicken/Hong Kong/715.5/2001 H5N1 genotype E) OX=196434 GN=NS PE=3 SV=1
+sp|P0C2M0|NEP_I82A3      14.5     0.031   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Seal/Massachusetts/133/1982 H4N5) OX=387250 GN=NS PE=3 SV=1
+sp|Q0HD55|NEP_I40A0      14.3     0.035   2   1.7   0.3    Nuclear export protein OS=Influenza A virus (strain A/Hickox/1940 H1N1) OX=383543 GN=NS PE=3 SV=1
+sp|Q0A463|NEP_I68A3      14.3     0.035   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Turkey/Ontario/6118/1968 H8N4) OX=311175 GN=NS PE=3 SV=1
+sp|Q67255|NEP_I72A5      14.3     0.035   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Shearwater/Australia/1972 H6N5) OX=383604 GN=NS PE=3 SV=1
+sp|Q77IX1|NEP_I18A0      14.3     0.035   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Brevig Mission/1/1918 H1N1) OX=88776 GN=NS PE=3 SV=1
+sp|O41648|NEP_I66A0      14.3     0.035   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Turkey/Ontario/7732/1966 H5N9) OX=380301 GN=NS PE=3 SV=1
+sp|Q0A2Q9|NEP_I85A3      14.3     0.037   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Chicken/Victoria/1/1985 H7N7) OX=402520 GN=NS PE=3 SV=1
+sp|P08273|NEP_I56A2      14.2     0.037   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Duck/England/1/1956 H11N6) OX=383550 GN=NS PE=3 SV=2
+sp|O57275|NEP_I88A4      14.2     0.038   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Herring gull/DE/677/1988 H2N8) OX=387243 GN=NS PE=3 SV=1
+sp|O09680|NEP_I85A7      14.2     0.038   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Ruddy Turnstone/New Jersey/47/1985 H4N6) OX=380343 GN=NS PE=3 SV=2
+sp|P03509|NEP_I34A0      14.2     0.038   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Fowl plague virus/Rostock/8/1934 H7N1) OX=392810 GN=NS PE=3 SV=2
+sp|P21527|NEP_I78A3      14.2     0.038   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Mallard/New York/6750/1978 H2N2) OX=384502 GN=NS PE=3 SV=1
+sp|Q0A2H1|NEP_I59A0      14.2     0.038   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Chicken/Scotland/1959 H5N1) OX=402527 GN=NS PE=3 SV=1
+sp|Q0A3Q4|NEP_I78AC      14.2     0.038   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Turkey/Minnesota/501/1978 H6N8) OX=387259 GN=NS PE=3 SV=1
+sp|Q20NN8|NEP_I80A8      14.2     0.038   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Turkey/Minnesota/833/1980 H4N2) OX=383603 GN=NS PE=3 SV=1
+sp|Q2VC88|NEP_I80A2      14.2     0.038   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Seal/Massachusetts/1/1980 H7N7) OX=384493 GN=NS PE=3 SV=1
+sp|Q76S20|NEP_I83A4      14.2     0.038   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Turkey/Ireland/1378/1983 H5N8) OX=380285 GN=NS PE=3 SV=1
+sp|Q20PL9|NEP_I79A7      14.2     0.039   1   1.4   0.3    Nuclear export protein OS=Influenza A virus (strain A/Grey teal/Australia/2/1979 H4N4) OX=402464 GN=NS PE=3 SV=1
+sp|O41650|NEP_I87A1      14.1      0.04   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Mallard/Ohio/556/1987 H5N9) OX=293055 GN=NS PE=3 SV=1
+sp|P13150|NEP_I78AA      14.1      0.04   1   1.5   0.2    Nuclear export protein OS=Influenza A virus (strain A/Pintail/Alberta/268/1978 H6N2) OX=11451 GN=NS PE=3 SV=1
+sp|O56263|NEP_I97A1      14.1     0.041   1   1.6   0.3    Nuclear export protein OS=Influenza A virus (strain A/Hong Kong/156/1997 H5N1 genotype Gs/Gd) OX=130763 GN=NS PE=3 SV=2
+sp|P0C5U4|NEP_I05A1      14.1     0.042   1   1.4   0.1    Nuclear export protein (Fragment) OS=Influenza A virus (strain A/Goose/Guangxi/345/2005 H5N1 genotype G) OX=365089 GN=NS PE=3 SV=1
+sp|Q20P38|NEP_I56A3      13.8     0.049   2   1.7   0.3    Nuclear export protein OS=Influenza A virus (strain A/Equine/Prague/1/1956 H7N7) OX=380337 GN=NS PE=3 SV=1
+sp|A4GCM4|NEP_I35A3      13.8     0.049   1   1.5   0.1    Nuclear export protein OS=Influenza A virus (strain A/USA:Phila/1935 H1N1) OX=425570 GN=NS PE=3 SV=1
+sp|A4GBY2|NEP_I77AA      13.8      0.05   1   1.5   0.2    Nuclear export protein OS=Influenza A virus (strain A/Brazil/11/1978 H1N1) OX=393560 GN=NS PE=3 SV=1
+sp|P03504|NEP_I77AB      13.8      0.05   1   1.5   0.2    Nuclear export protein OS=Influenza A virus (strain A/USSR/90/1977 H1N1) OX=381516 GN=NS PE=3 SV=1
+sp|A4GCL3|NEP_I43A0      13.8      0.05   1   1.5   0.2    Nuclear export protein OS=Influenza A virus (strain A/USA:Iowa/1943 H1N1) OX=425563 GN=NS PE=3 SV=1
+sp|A4U6V7|NEP_I45A0      13.8      0.05   1   1.5   0.2    Nuclear export protein OS=Influenza A virus (strain A/USA:Huston/AA/1945 H1N1) OX=425551 GN=NS PE=3 SV=1
+sp|Q6XTC3|NEP_I68A5      13.8     0.051   1   1.5   0.1    Nuclear export protein OS=Influenza A virus (strain A/Korea/426/1968 H2N2) OX=488241 GN=NS PE=3 SV=1
+sp|Q89733|NEP_I33A0      13.7     0.053   1   1.4   0.1    Nuclear export protein OS=Influenza A virus (strain A/Wilson-Smith/1933 H1N1) OX=381518 GN=NS PE=1 SV=1
+sp|P69257|NEP_I77A0      13.7     0.053   1   1.5   0.1    Nuclear export protein OS=Influenza A virus (strain A/Alaska/6/1977 H3N2) OX=385576 GN=NS PE=3 SV=1
+sp|P69258|NEP_I72A2      13.7     0.053   1   1.5   0.1    Nuclear export protein OS=Influenza A virus (strain A/Udorn/307/1972 H3N2) OX=381517 GN=NS PE=3 SV=1
+sp|Q1PUD4|NEP_I73A5      13.7     0.053   1   1.5   0.1    Nuclear export protein OS=Influenza A virus (strain A/Port Chalmers/1/1973 H3N2) OX=385624 GN=NS PE=3 SV=1
+sp|Q288Z1|NEP_I77A4      13.7     0.053   1   1.5   0.1    Nuclear export protein OS=Influenza A virus (strain A/Swine/Colorado/1/1977 H3N2) OX=385645 GN=NS PE=3 SV=1
+sp|Q2ICQ5|NEP_I72A4      13.7     0.053   1   1.5   0.1    Nuclear export protein OS=Influenza A virus (strain A/Memphis/101/1972 H3N2) OX=383583 GN=NS PE=3 SV=1
+sp|Q2RCH1|NEP_I80A4      13.7     0.053   1   1.5   0.1    Nuclear export protein OS=Influenza A virus (strain A/Memphis/4/1980 H3N2) OX=383578 GN=NS PE=3 SV=1
+sp|Q2RFA1|NEP_I76A6      13.7     0.053   1   1.5   0.1    Nuclear export protein OS=Influenza A virus (strain A/Memphis/110/1976 H3N2) OX=383581 GN=NS PE=3 SV=1
+sp|Q2VNC8|NEP_I78A8      13.7     0.053   1   1.5   0.1    Nuclear export protein OS=Influenza A virus (strain A/Memphis/18/1978 H3N2) OX=383579 GN=NS PE=3 SV=1
+sp|Q2VNE8|NEP_I78A7      13.7     0.053   1   1.5   0.1    Nuclear export protein OS=Influenza A virus (strain A/Memphis/2/1978 H3N2) OX=383580 GN=NS PE=3 SV=1
+sp|Q30NP6|NEP_I75A0      13.7     0.053   1   1.5   0.1    Nuclear export protein OS=Influenza A virus (strain A/Beijing/39/1975 H3N2) OX=383596 GN=NS PE=3 SV=1
+sp|Q38SQ3|NEP_I83A8      13.7     0.053   1   1.5   0.1    Nuclear export protein OS=Influenza A virus (strain A/Hong Kong/5/1983 H3N2) OX=387159 GN=NS PE=3 SV=1
+sp|Q463X0|NEP_I72A3      13.7     0.053   1   1.5   0.1    Nuclear export protein OS=Influenza A virus (strain A/Memphis/102/1972 H3N2) OX=385640 GN=NS PE=3 SV=1
+sp|Q6XSW5|NEP_I69A0      13.7     0.056   1   1.5   0.1    Nuclear export protein OS=Influenza A virus (strain A/England/878/1969 H3N2) OX=387147 GN=NS PE=3 SV=1
+sp|P0C2M1|NEP_I84A2      13.6     0.059   1   1.5   0.2    Nuclear export protein OS=Influenza A virus (strain A/Whale/Maine/328/1984 H13N2) OX=385593 GN=NS PE=3 SV=1
+sp|P03506|NEP_I47A0      13.6      0.06   1   1.4   0.1    Nuclear export protein OS=Influenza A virus (strain A/Fort Monmouth/1/1947 H1N1) OX=380282 GN=NS PE=3 SV=1
+sp|P13148|NEP_I79A1      13.5     0.062   1   1.5   0.3    Nuclear export protein OS=Influenza A virus (strain A/Pintail/Alberta/119/1979 H4N6) OX=384504 GN=NS PE=3 SV=2
+sp|B4URE1|NEP_I06A0      13.5     0.064   1   1.5   0.4    Nuclear export protein OS=Influenza A virus (strain A/Russia:St.Petersburg/8/2006 H1N1) OX=518998 GN=NS PE=3 SV=1
+sp|P03508|NEP_I34A1      13.5     0.064   1   1.5   0.4    Nuclear export protein OS=Influenza A virus (strain A/Puerto Rico/8/1934 H1N1) OX=211044 GN=NS PE=1 SV=1
+sp|P0C5U0|NEP_I01A2      13.5     0.064   1   1.5   0.2    Nuclear export protein OS=Influenza A virus (strain A/Chicken/Hong Kong/FY150/2001 H5N1 genotype D) OX=222142 GN=NS PE=3 SV=1
+sp|P17043|NEP_I54A0      13.5     0.065   2   1.7   0.8    Nuclear export protein OS=Influenza A virus (strain A/Leningrad/1/1954 H1N1) OX=393557 GN=NS PE=3 SV=1
+sp|Q76MT9|NEP_I000X      13.5     0.065   2   1.7   0.8    Nuclear export protein OS=Influenza A virus (strain A/X-31 H3N2) OX=132504 GN=NS PE=3 SV=1
+sp|P08271|NEP_I63A3      13.4     0.067   1   1.5   0.2    Nuclear export protein (Fragment) OS=Influenza A virus (strain A/Duck/Ukraine/1/1963 H3N8) OX=385580 GN=NS PE=3 SV=1
+sp|P36350|NEP_I02A0      13.4     0.067   1   1.5   0.2    Nuclear export protein OS=Influenza A virus (strain A/Chicken/Brescia/1902 H7N7) OX=36418 GN=NS PE=3 SV=2
+sp|P0C5T8|NEP_I01A0      13.4      0.07   1   1.4   0.2    Nuclear export protein OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/SF189/2001 H5N1 genotype A) OX=196430 GN=NS PE=3 SV=1
+sp|P0C5T9|NEP_I01A1      13.3     0.074   1   1.3   0.1    Nuclear export protein OS=Influenza A virus (strain A/Chicken/Hong Kong/YU562/2001 H5N1 genotype B) OX=196426 GN=NS PE=3 SV=1
+sp|P13147|NEP_I78A4      13.2     0.078   1   1.5   0.2    Nuclear export protein OS=Influenza A virus (strain A/Mallard/New York/6874/1978 H3N2) OX=384518 GN=NS PE=3 SV=2
+sp|Q6DP65|NEP_I02A4      13.2     0.078   1   1.5   0.2    Nuclear export protein OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/YU100/2002 H5N1 genotype X3) OX=284214 GN=NS PE=3 SV=1
+sp|Q6DP67|NEP_I02A3      13.2     0.078   1   1.5   0.2    Nuclear export protein OS=Influenza A virus (strain A/Chicken/Hong Kong/37.4/2002 H5N1 genotype X2) OX=284172 GN=NS PE=3 SV=1
+sp|Q6DP69|NEP_I02A2      13.2     0.078   1   1.5   0.2    Nuclear export protein OS=Influenza A virus (strain A/Chicken/Hong Kong/31.2/2002 H5N1 genotype X1) OX=284169 GN=NS PE=3 SV=1
+sp|Q6DP71|NEP_I02A1      13.2     0.078   1   1.5   0.2    Nuclear export protein OS=Influenza A virus (strain A/Guinea fowl/Hong Kong/38/2002 H5N1 genotype X0) OX=284208 GN=NS PE=3 SV=1
+sp|Q6R7B4|Y003_OSHVF     10.2      0.66   2   1.8   4.6    Uncharacterized protein ORF3 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF3 PE=4 SV=1
+sp|P03549|VAT_CAMVC       9.9      0.84   3   2.6   3.1    Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|Q5UQZ4|YR904_MIMIV     9.5       1.1   2   2.4   5.6    Putative KilA-N domain-containing protein R904 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R904 PE=4 SV=1
+sp|P19200|YOR1_COYMV      6.9       6.9   2   2.1   6.7    Uncharacterized 23 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O09686|NEP_I73A4      17.5    0.0037     1   0.6     33     98     47     92     15     60     Nuclear export protein (Fragment) OS=Influenza A virus (strain A/Equine/London/1416/1973 H7N7) OX=380340 GN=NS PE=3 SV=1
+sp|O09688|NEP_I86A3      17.4    0.0039     1   0.7     31     97     47     92     15     60     Nuclear export protein (Fragment) OS=Influenza A virus (strain A/Equine/Tennessee/5/1986 H3N8) OX=380339 GN=NS PE=3 SV=1
+sp|Q77ZM4|NEP_I91A0      17.2    0.0046     1   0.7     35    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Equine/Alaska/1/1991 H3N8) OX=387213 GN=NS PE=3 SV=1
+sp|O89285|NEP_I77A9      17.1     0.005     1   0.6     42    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Equine/New Market/1/1977 H7N7) OX=217831 GN=NS PE=3 SV=1
+sp|P08269|NEP_I76AM      15.0     0.022     1   0.2     31     97     47     92     15     60     Nuclear export protein (Fragment) OS=Influenza A virus (strain A/Mynah/Haneda-Thai/1976 H3N1) OX=11444 GN=NS PE=3 SV=1
+sp|P30913|NEP_I76A0      14.9     0.024     1   0.2     35    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Anas acuta/Primorje/695/1976 H2N3) OX=383602 GN=NS PE=3 SV=1
+sp|Q6DP36|NEP_I02A7      14.8     0.025     1   0.2     22     90     40     85     15     60     Nuclear export protein (Fragment) OS=Influenza A virus (strain A/Teal/China/2978.1/2002 H5N1 genotype W) OX=284215 GN=NS PE=3 SV=1
+sp|O89747|NEP_I97A0      14.7     0.026     1   0.2     34    101     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Chicken/Hong Kong/220/1997 H5N1 genotype Gs/Gd) OX=100834 GN=NS PE=3 SV=1
+sp|P04376|CAP9_ADET1     14.5     0.031     1   0.5     44    114     70    102     29     61     Hexon-interlacing protein OS=Tree shrew adenovirus serotype 1 OX=47680 GN=IX PE=3 SV=1
+sp|Q04266|NEP_I000W      14.2     0.039     1   0.1     31     99     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Wa-182) OX=38985 GN=NS PE=3 SV=1
+sp|O57266|NEP_I80AD      14.2     0.039     1   0.2     34    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Gull/Minnesota/945/1980 H13N6) OX=385597 GN=NS PE=3 SV=2
+sp|Q6XSV5|NEP_I70A0      14.2      0.04     1   0.1     34    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Qu/7/1970 H3N2) OX=221016 GN=NS PE=3 SV=1
+sp|Q910E4|NEP_I68A4      14.2      0.04     1   0.1     34    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Hong Kong/1/1968 H3N2) OX=506350 GN=NS PE=3 SV=1
+sp|Q6XTD9|NEP_I67A0      14.1      0.04     1   0.2     36    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Tokyo/3/1967 H2N2) OX=380960 GN=NS PE=3 SV=1
+sp|Q20NC0|NEP_I56A1      14.1      0.04     1   0.5     31    100     45     95     13     60     Nuclear export protein OS=Influenza A virus (strain A/Duck/Czechoslovakia/1956 H4N6) OX=385590 GN=NS PE=3 SV=1
+sp|P03505|NEP_I50A0      14.0     0.045     1   0.2     31     99     45     95     13     60     Nuclear export protein OS=Influenza A virus (strain A/Fort Warren/1/1950 H1N1) OX=384525 GN=NS PE=3 SV=1
+sp|O57273|NEP_I78AF      13.9     0.046     1   0.2     40     99     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Gull/Maryland/1824/1978 H13N6) OX=385602 GN=NS PE=3 SV=1
+sp|Q3SBF1|NEP_I66A1      13.9     0.049     1   0.2     42    101     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Turkey/Wisconsin/1/1966 H9N2) OX=385620 GN=NS PE=3 SV=1
+sp|P0C5U1|NEP_I01A3      13.8     0.052     1   0.2     35    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Chicken/Hong Kong/715.5/2001 H5N1 genotype E) OX=196434 GN=NS PE=3 SV=1
+sp|P0C2M0|NEP_I82A3      13.6     0.057     1   0.2     34    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Seal/Massachusetts/133/1982 H4N5) OX=387250 GN=NS PE=3 SV=1
+sp|Q20PL9|NEP_I79A7      13.5     0.062     1   0.2     33    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Grey teal/Australia/2/1979 H4N4) OX=402464 GN=NS PE=3 SV=1
+sp|Q0A463|NEP_I68A3      13.5     0.065     1   0.2     35    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Turkey/Ontario/6118/1968 H8N4) OX=311175 GN=NS PE=3 SV=1
+sp|Q67255|NEP_I72A5      13.5     0.065     1   0.2     35    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Shearwater/Australia/1972 H6N5) OX=383604 GN=NS PE=3 SV=1
+sp|Q77IX1|NEP_I18A0      13.5     0.065     1   0.2     35    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Brevig Mission/1/1918 H1N1) OX=88776 GN=NS PE=3 SV=1
+sp|P08273|NEP_I56A2      13.4     0.066     1   0.2     34    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Duck/England/1/1956 H11N6) OX=383550 GN=NS PE=3 SV=2
+sp|O41648|NEP_I66A0      13.4     0.067     1   0.2     36    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Turkey/Ontario/7732/1966 H5N9) OX=380301 GN=NS PE=3 SV=1
+sp|O41650|NEP_I87A1      13.3      0.07     1   0.2     35    101     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Mallard/Ohio/556/1987 H5N9) OX=293055 GN=NS PE=3 SV=1
+sp|P0C5U4|NEP_I05A1      13.3     0.071     1   0.1     31     97     47     91     16     60     Nuclear export protein (Fragment) OS=Influenza A virus (strain A/Goose/Guangxi/345/2005 H5N1 genotype G) OX=365089 GN=NS PE=3 SV=1
+sp|O57275|NEP_I88A4      13.3     0.071     1   0.2     35    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Herring gull/DE/677/1988 H2N8) OX=387243 GN=NS PE=3 SV=1
+sp|O09680|NEP_I85A7      13.3     0.071     1   0.2     35    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Ruddy Turnstone/New Jersey/47/1985 H4N6) OX=380343 GN=NS PE=3 SV=2
+sp|P03509|NEP_I34A0      13.3     0.071     1   0.2     35    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Fowl plague virus/Rostock/8/1934 H7N1) OX=392810 GN=NS PE=3 SV=2
+sp|P21527|NEP_I78A3      13.3     0.071     1   0.2     35    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Mallard/New York/6750/1978 H2N2) OX=384502 GN=NS PE=3 SV=1
+sp|Q0A2H1|NEP_I59A0      13.3     0.071     1   0.2     35    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Chicken/Scotland/1959 H5N1) OX=402527 GN=NS PE=3 SV=1
+sp|Q0A3Q4|NEP_I78AC      13.3     0.071     1   0.2     35    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Turkey/Minnesota/501/1978 H6N8) OX=387259 GN=NS PE=3 SV=1
+sp|Q20NN8|NEP_I80A8      13.3     0.071     1   0.2     35    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Turkey/Minnesota/833/1980 H4N2) OX=383603 GN=NS PE=3 SV=1
+sp|Q2VC88|NEP_I80A2      13.3     0.071     1   0.2     35    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Seal/Massachusetts/1/1980 H7N7) OX=384493 GN=NS PE=3 SV=1
+sp|Q76S20|NEP_I83A4      13.3     0.071     1   0.2     35    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Turkey/Ireland/1378/1983 H5N8) OX=380285 GN=NS PE=3 SV=1
+sp|Q0A2Q9|NEP_I85A3      13.3     0.071     1   0.2     41    101     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Chicken/Victoria/1/1985 H7N7) OX=402520 GN=NS PE=3 SV=1
+sp|P13150|NEP_I78AA      13.3     0.074     1   0.2     36    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Pintail/Alberta/268/1978 H6N2) OX=11451 GN=NS PE=3 SV=1
+sp|O56263|NEP_I97A1      13.1     0.085     1   0.2     36    101     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Hong Kong/156/1997 H5N1 genotype Gs/Gd) OX=130763 GN=NS PE=3 SV=2
+sp|A4GCM4|NEP_I35A3      13.1     0.087     1   0.1     33    101     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/USA:Phila/1935 H1N1) OX=425570 GN=NS PE=3 SV=1
+sp|Q0HD55|NEP_I40A0      13.0     0.089     2   0.1     34    101     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Hickox/1940 H1N1) OX=383543 GN=NS PE=3 SV=1
+sp|Q6XTC3|NEP_I68A5      13.0     0.092     1   0.1     34    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Korea/426/1968 H2N2) OX=488241 GN=NS PE=3 SV=1
+sp|Q89733|NEP_I33A0      13.0     0.092     1   0.1     34    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Wilson-Smith/1933 H1N1) OX=381518 GN=NS PE=1 SV=1
+sp|P69257|NEP_I77A0      12.9     0.096     1   0.1     34    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Alaska/6/1977 H3N2) OX=385576 GN=NS PE=3 SV=1
+sp|P69258|NEP_I72A2      12.9     0.096     1   0.1     34    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Udorn/307/1972 H3N2) OX=381517 GN=NS PE=3 SV=1
+sp|Q1PUD4|NEP_I73A5      12.9     0.096     1   0.1     34    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Port Chalmers/1/1973 H3N2) OX=385624 GN=NS PE=3 SV=1
+sp|Q288Z1|NEP_I77A4      12.9     0.096     1   0.1     34    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Swine/Colorado/1/1977 H3N2) OX=385645 GN=NS PE=3 SV=1
+sp|Q2ICQ5|NEP_I72A4      12.9     0.096     1   0.1     34    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Memphis/101/1972 H3N2) OX=383583 GN=NS PE=3 SV=1
+sp|Q2RCH1|NEP_I80A4      12.9     0.096     1   0.1     34    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Memphis/4/1980 H3N2) OX=383578 GN=NS PE=3 SV=1
+sp|Q2RFA1|NEP_I76A6      12.9     0.096     1   0.1     34    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Memphis/110/1976 H3N2) OX=383581 GN=NS PE=3 SV=1
+sp|Q2VNC8|NEP_I78A8      12.9     0.096     1   0.1     34    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Memphis/18/1978 H3N2) OX=383579 GN=NS PE=3 SV=1
+sp|Q2VNE8|NEP_I78A7      12.9     0.096     1   0.1     34    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Memphis/2/1978 H3N2) OX=383580 GN=NS PE=3 SV=1
+sp|Q30NP6|NEP_I75A0      12.9     0.096     1   0.1     34    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Beijing/39/1975 H3N2) OX=383596 GN=NS PE=3 SV=1
+sp|Q38SQ3|NEP_I83A8      12.9     0.096     1   0.1     34    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Hong Kong/5/1983 H3N2) OX=387159 GN=NS PE=3 SV=1
+sp|Q463X0|NEP_I72A3      12.9     0.096     1   0.1     34    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Memphis/102/1972 H3N2) OX=385640 GN=NS PE=3 SV=1
+sp|A4GBY2|NEP_I77AA      12.9     0.096     1   0.1     36    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Brazil/11/1978 H1N1) OX=393560 GN=NS PE=3 SV=1
+sp|A4GCL3|NEP_I43A0      12.9     0.096     1   0.1     36    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/USA:Iowa/1943 H1N1) OX=425563 GN=NS PE=3 SV=1
+sp|A4U6V7|NEP_I45A0      12.9     0.096     1   0.1     36    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/USA:Huston/AA/1945 H1N1) OX=425551 GN=NS PE=3 SV=1
+sp|P03504|NEP_I77AB      12.9     0.096     1   0.1     36    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/USSR/90/1977 H1N1) OX=381516 GN=NS PE=3 SV=1
+sp|Q6XSW5|NEP_I69A0      12.8       0.1     1   0.1     34    100     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/England/878/1969 H3N2) OX=387147 GN=NS PE=3 SV=1
+sp|P03506|NEP_I47A0      12.8       0.1     1   0.1     36    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Fort Monmouth/1/1947 H1N1) OX=380282 GN=NS PE=3 SV=1
+sp|P13148|NEP_I79A1      12.7      0.11     1   0.2     33    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Pintail/Alberta/119/1979 H4N6) OX=384504 GN=NS PE=3 SV=2
+sp|P0C5T9|NEP_I01A1      12.7      0.11     1   0.1     33    101     50     95     15     60     Nuclear export protein OS=Influenza A virus (strain A/Chicken/Hong Kong/YU562/2001 H5N1 genotype B) OX=196426 GN=NS PE=3 SV=1
+sp|P0C2M1|NEP_I84A2      12.6      0.12     1   0.1     36    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Whale/Maine/328/1984 H13N2) OX=385593 GN=NS PE=3 SV=1
+sp|Q20P38|NEP_I56A3      12.6      0.12     1   0.1     40    102     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Equine/Prague/1/1956 H7N7) OX=380337 GN=NS PE=3 SV=1
+sp|P08271|NEP_I63A3      12.6      0.12     1   0.1     31     98     47     92     15     60     Nuclear export protein (Fragment) OS=Influenza A virus (strain A/Duck/Ukraine/1/1963 H3N8) OX=385580 GN=NS PE=3 SV=1
+sp|P0C5U0|NEP_I01A2      12.6      0.12     1   0.1     35    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Chicken/Hong Kong/FY150/2001 H5N1 genotype D) OX=222142 GN=NS PE=3 SV=1
+sp|P36350|NEP_I02A0      12.6      0.12     1   0.2     33    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Chicken/Brescia/1902 H7N7) OX=36418 GN=NS PE=3 SV=2
+sp|P0C5T8|NEP_I01A0      12.6      0.12     1   0.1     36    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/SF189/2001 H5N1 genotype A) OX=196430 GN=NS PE=3 SV=1
+sp|P13147|NEP_I78A4      12.3      0.14     1   0.1     33    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Mallard/New York/6874/1978 H3N2) OX=384518 GN=NS PE=3 SV=2
+sp|Q6DP65|NEP_I02A4      12.3      0.14     1   0.1     33    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Silky Chicken/Hong Kong/YU100/2002 H5N1 genotype X3) OX=284214 GN=NS PE=3 SV=1
+sp|Q6DP67|NEP_I02A3      12.3      0.14     1   0.1     33    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Chicken/Hong Kong/37.4/2002 H5N1 genotype X2) OX=284172 GN=NS PE=3 SV=1
+sp|Q6DP69|NEP_I02A2      12.3      0.14     1   0.1     33    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Chicken/Hong Kong/31.2/2002 H5N1 genotype X1) OX=284169 GN=NS PE=3 SV=1
+sp|Q6DP71|NEP_I02A1      12.3      0.14     1   0.1     33    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Guinea fowl/Hong Kong/38/2002 H5N1 genotype X0) OX=284208 GN=NS PE=3 SV=1
+sp|P17043|NEP_I54A0      12.3      0.15     2   0.3     43    101     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Leningrad/1/1954 H1N1) OX=393557 GN=NS PE=3 SV=1
+sp|Q76MT9|NEP_I000X      12.3      0.15     2   0.3     43    101     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/X-31 H3N2) OX=132504 GN=NS PE=3 SV=1
+sp|B4URE1|NEP_I06A0      12.3      0.15     1   0.3     42    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Russia:St.Petersburg/8/2006 H1N1) OX=518998 GN=NS PE=3 SV=1
+sp|P03508|NEP_I34A1      12.3      0.15     1   0.3     42    100     51     95     16     60     Nuclear export protein OS=Influenza A virus (strain A/Puerto Rico/8/1934 H1N1) OX=211044 GN=NS PE=1 SV=1
+sp|Q6R7B4|Y003_OSHVF     11.9       0.2     1   1.5     31    103     44     91     12     61     Uncharacterized protein ORF3 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF3 PE=4 SV=1
+sp|P04506|SIGM1_REOVL    10.3      0.61     3   0.0    135    203    146    182     26     62     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|Q5UQZ4|YR904_MIMIV     8.7       1.9     1   3.5    171    252    184    249     10     74     Putative KilA-N domain-containing protein R904 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R904 PE=4 SV=1
+sp|P19200|YOR1_COYMV      8.3       2.6     1   2.8     81    147     95    139     17     61     Uncharacterized 23 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+sp|P03549|VAT_CAMVC       5.7        17     2   0.9    108    158    136    157     34     55     Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|P03549|VAT_CAMVC       5.2        24     1   0.3     78    137     97    131     33     67     Aphid transmission protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF II PE=3 SV=1
+sp|P04506|SIGM1_REOVL     4.9        29     2   0.2     60    133     70    114     10     54     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|P04506|SIGM1_REOVL     2.4   1.8e+02     1   0.1     20     86     52     77     34     59     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|Q5UQZ4|YR904_MIMIV     0.2   8.4e+02     2   0.1    246    279    248    271     26     48     Putative KilA-N domain-containing protein R904 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R904 PE=4 SV=1
+sp|P19200|YOR1_COYMV     -0.7   1.6e+03     2   0.1    150    198    154    178      5     30     Uncharacterized 23 kDa protein OS=Commelina yellow mottle virus OX=10653 PE=4 SV=1
+sp|Q0HD55|NEP_I40A0      -0.7   1.6e+03     1   0.0      8     50     17     39     30     53     Nuclear export protein OS=Influenza A virus (strain A/Hickox/1940 H1N1) OX=383543 GN=NS PE=3 SV=1
+sp|P17043|NEP_I54A0      -1.0     2e+03     1   0.0      9     49     17     39     30     53     Nuclear export protein OS=Influenza A virus (strain A/Leningrad/1/1954 H1N1) OX=393557 GN=NS PE=3 SV=1
+sp|Q76MT9|NEP_I000X      -1.0     2e+03     1   0.0      9     49     17     39     30     53     Nuclear export protein OS=Influenza A virus (strain A/X-31 H3N2) OX=132504 GN=NS PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006990608@NC_019423.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006990608@NC_019423.txt data/models_hmm/YP_006990608@NC_019423.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:54 2021
+# [ok]

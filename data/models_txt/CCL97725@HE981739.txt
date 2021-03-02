@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39224|Y06Q_BPT4    275.3   2.7e-82   1   1.0  18.3    Uncharacterized 22.0 kDa protein in e-segB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y06Q PE=4 SV=1
+sp|P15317|YHYA_BPH44    14.8     0.017   2   2.0   1.0    Uncharacterized 65 kDa protein in hyaluronidase region OS=Streptococcus pyogenes phage H4489A OX=12366 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39224|Y06Q_BPT4    275.1     3e-82     1  18.3      1    197      1    197      1    198     Uncharacterized 22.0 kDa protein in e-segB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y06Q PE=4 SV=1
+sp|P15317|YHYA_BPH44    13.4     0.045     2   0.4    198    324    219    314     28    124     Uncharacterized 65 kDa protein in hyaluronidase region OS=Streptococcus pyogenes phage H4489A OX=12366 PE=4 SV=1
+sp|P15317|YHYA_BPH44    -3.4   6.5e+03     1   0.0     63     92     72     91    116    135     Uncharacterized 65 kDa protein in hyaluronidase region OS=Streptococcus pyogenes phage H4489A OX=12366 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/CCL97725@HE981739.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/CCL97725@HE981739.txt data/models_hmm/CCL97725@HE981739.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:08 2021
+# [ok]

@@ -1,0 +1,65 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q0GNQ5|KBTB1_HSPV     30.5   6.6e-08   1   1.1   0.0    Kelch repeat and BTB domain-containing protein 1 OS=Horsepox virus OX=397342 GN=KBTB1 PE=3 SV=1
+sp|P32228|VC04_SWPVK     30.3   8.1e-08   1   1.2   0.0    Protein C4 OS=Swinepox virus (strain Kasza) OX=10277 GN=C4L PE=3 SV=1
+sp|P24768|KBTB1_VACCW    29.0     2e-07   1   1.1   0.0    Kelch repeat and BTB domain-containing protein A55 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=KBTB1 PE=1 SV=1
+sp|O72736|KBTB1_CWPXG    28.8   2.2e-07   1   1.1   0.0    Kelch repeat and BTB domain-containing protein 1 OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=KBTB1 PE=3 SV=1
+sp|P21073|KBTB1_VACCC    28.5   2.7e-07   1   1.1   0.0    Kelch repeat and BTB domain-containing protein 1 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=KBTB1 PE=3 SV=1
+sp|Q8QMQ2|KBTB1_CWPXB    25.9   1.6e-06   1   1.1   0.0    Kelch repeat and BTB domain-containing protein 1 OS=Cowpox virus (strain Brighton Red) OX=265872 GN=KBTB1 PE=3 SV=1
+sp|Q8QQ16|KBTB1_CAMPS    24.8   3.7e-06   1   1.2   0.0    Kelch repeat and BTB domain-containing protein 1 OS=Camelpox virus (strain CMS) OX=203172 GN=KBTB1 PE=3 SV=1
+sp|Q8JL69|KBTB1_ECTVM    23.4   9.4e-06   1   1.1   0.0    Kelch repeat and BTB domain-containing protein 1 OS=Ectromelia virus (strain Moscow) OX=265874 GN=KBTB1 PE=1 SV=1
+sp|P08073|VMT9_MYXVL     21.8   2.9e-05   1   1.2   0.1    Kelch repeat protein M-T9 OS=Myxoma virus (strain Lausanne) OX=31530 GN=m009L PE=3 SV=2
+sp|Q8JLI4|C2_ECTVM       21.1   4.7e-05   1   1.1   0.1    Kelch repeat protein C2 OS=Ectromelia virus (strain Moscow) OX=265874 GN=EVM018 PE=3 SV=1
+sp|P22611|VMT8_MYXVL     20.2   9.1e-05   1   1.6   0.1    Kelch repeat protein M-T8 OS=Myxoma virus (strain Lausanne) OX=31530 GN=m008L PE=3 SV=2
+sp|Q9JFG1|VC02_VACCT     20.1   9.3e-05   1   1.1   0.2    Kelch repeat protein C2 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TC2L PE=3 SV=1
+sp|P87617|C2_CWPXG       20.1   9.6e-05   1   1.1   0.1    Kelch repeat protein C2 OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=C18L PE=3 SV=1
+sp|Q6RZS3|C2_RABPU       20.1   9.8e-05   1   1.1   0.2    Kelch repeat protein C2 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV018 PE=3 SV=1
+sp|P17371|C2_VACCW       19.9   0.00011   1   1.1   0.1    Kelch repeat protein C2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR026 PE=3 SV=1
+sp|P21037|VC02_VACCC     19.9   0.00011   1   1.1   0.1    Kelch repeat protein C2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C2L PE=3 SV=1
+sp|O57174|F3_VACCA       19.8   0.00012   1   1.2   0.0    Kelch repeat protein F3 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA031L PE=3 SV=1
+sp|P24357|F3_VACCW       19.8   0.00012   1   1.2   0.0    Kelch repeat protein F3 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR042 PE=2 SV=1
+sp|Q776A6|C2_CAMPS       19.2   0.00017   1   1.1   0.1    Kelch repeat protein C2 OS=Camelpox virus (strain CMS) OX=203172 GN=CMP24L PE=3 SV=1
+sp|Q8V2Z3|C2_CAMPM       19.2   0.00017   1   1.1   0.1    Kelch repeat protein C2 OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV024 PE=3 SV=1
+sp|P32206|VC13_SWPVK     17.5   0.00058   1   1.1   0.0    Protein C13 OS=Swinepox virus (strain Kasza) OX=10277 GN=C13L PE=3 SV=1
+sp|P21013|F3_VACCC       17.5   0.00058   1   1.2   0.0    Kelch repeat protein F3 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F3L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q0GNQ5|KBTB1_HSPV     30.1   9.1e-08     1   0.0    250    524    266    518    420    665     Kelch repeat and BTB domain-containing protein 1 OS=Horsepox virus OX=397342 GN=KBTB1 PE=3 SV=1
+sp|P32228|VC04_SWPVK     29.6   1.3e-07     1   0.0    244    517    273    501    492    701     Protein C4 OS=Swinepox virus (strain Kasza) OX=10277 GN=C4L PE=3 SV=1
+sp|P24768|KBTB1_VACCW    28.5   2.8e-07     1   0.0    250    524    265    518    419    665     Kelch repeat and BTB domain-containing protein A55 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=KBTB1 PE=1 SV=1
+sp|O72736|KBTB1_CWPXG    28.4     3e-07     1   0.0    250    524    265    518    419    665     Kelch repeat and BTB domain-containing protein 1 OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=KBTB1 PE=3 SV=1
+sp|P21073|KBTB1_VACCC    28.1   3.7e-07     1   0.0    250    524    266    518    420    665     Kelch repeat and BTB domain-containing protein 1 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=KBTB1 PE=3 SV=1
+sp|Q8QMQ2|KBTB1_CWPXB    25.5   2.3e-06     1   0.0    250    523    265    516    419    664     Kelch repeat and BTB domain-containing protein 1 OS=Cowpox virus (strain Brighton Red) OX=265872 GN=KBTB1 PE=3 SV=1
+sp|Q8QQ16|KBTB1_CAMPS    24.1     6e-06     1   0.0    251    524    270    517    424    664     Kelch repeat and BTB domain-containing protein 1 OS=Camelpox virus (strain CMS) OX=203172 GN=KBTB1 PE=3 SV=1
+sp|Q8JL69|KBTB1_ECTVM    22.9   1.3e-05     1   0.0    250    523    268    516    422    664     Kelch repeat and BTB domain-containing protein 1 OS=Ectromelia virus (strain Moscow) OX=265874 GN=KBTB1 PE=1 SV=1
+sp|P08073|VMT9_MYXVL     21.2   4.4e-05     1   0.1    255    499    306    485    489    666     Kelch repeat protein M-T9 OS=Myxoma virus (strain Lausanne) OX=31530 GN=m009L PE=3 SV=2
+sp|Q8JLI4|C2_ECTVM       20.9   5.4e-05     1   0.1    190    474    258    384    501    621     Kelch repeat protein C2 OS=Ectromelia virus (strain Moscow) OX=265874 GN=EVM018 PE=3 SV=1
+sp|Q9JFG1|VC02_VACCT     19.8   0.00011     1   0.2    189    423    226    366    514    652     Kelch repeat protein C2 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TC2L PE=3 SV=1
+sp|P87617|C2_CWPXG       19.8   0.00012     1   0.1    189    422    226    366    514    652     Kelch repeat protein C2 OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=C18L PE=3 SV=1
+sp|Q6RZS3|C2_RABPU       19.8   0.00012     1   0.2    190    422    227    366    515    652     Kelch repeat protein C2 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV018 PE=3 SV=1
+sp|P17371|C2_VACCW       19.6   0.00013     1   0.1    189    422    226    366    514    652     Kelch repeat protein C2 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR026 PE=3 SV=1
+sp|P21037|VC02_VACCC     19.6   0.00013     1   0.1    189    422    226    366    514    652     Kelch repeat protein C2 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C2L PE=3 SV=1
+sp|O57174|F3_VACCA       19.1   0.00019     1   0.0    253    402    263    381    544    664     Kelch repeat protein F3 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA031L PE=3 SV=1
+sp|P24357|F3_VACCW       19.1    0.0002     1   0.0    257    406    267    385    544    664     Kelch repeat protein F3 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR042 PE=2 SV=1
+sp|Q776A6|C2_CAMPS       18.9   0.00022     1   0.1    181    419    226    366    514    652     Kelch repeat protein C2 OS=Camelpox virus (strain CMS) OX=203172 GN=CMP24L PE=3 SV=1
+sp|Q8V2Z3|C2_CAMPM       18.9   0.00022     1   0.1    181    419    226    366    514    652     Kelch repeat protein C2 OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV024 PE=3 SV=1
+sp|P22611|VMT8_MYXVL     18.8   0.00023     1   0.1    233    512    280    499    504    720     Kelch repeat protein M-T8 OS=Myxoma virus (strain Lausanne) OX=31530 GN=m008L PE=3 SV=2
+sp|P32206|VC13_SWPVK     17.1   0.00075     1   0.0    276    485    333    469    581    714     Protein C13 OS=Swinepox virus (strain Kasza) OX=10277 GN=C13L PE=3 SV=1
+sp|P21013|F3_VACCC       16.8   0.00093     1   0.0    257    406    267    385    544    664     Kelch repeat protein F3 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F3L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000116@DelMOSpr2010_c10000010@DelMOSpr2010_1000001026.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000116@DelMOSpr2010_c10000010@DelMOSpr2010_1000001026.txt data/models_hmm/3300000116@DelMOSpr2010_c10000010@DelMOSpr2010_1000001026.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:37 2021
+# [ok]

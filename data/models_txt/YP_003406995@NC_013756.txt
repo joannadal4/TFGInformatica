@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O55739|127L_IIV6    301.8   1.6e-90   1   1.0   5.4    Uncharacterized protein 127L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-127L PE=4 SV=1
+sp|Q9J5C0|RPO5_FOWPN    14.9     0.015   1   1.2   1.8    DNA-directed RNA polymerase 30 kDa polypeptide OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO30 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O55739|127L_IIV6    301.6   1.8e-90     1   5.4      1    227      7    227      3    190     Uncharacterized protein 127L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-127L PE=4 SV=1
+sp|Q9J5C0|RPO5_FOWPN    14.4     0.022     1   1.8      2    104     15     98     86    172     DNA-directed RNA polymerase 30 kDa polypeptide OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO30 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003406995@NC_013756.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003406995@NC_013756.txt data/models_hmm/YP_003406995@NC_013756.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:33 2021
+# [ok]

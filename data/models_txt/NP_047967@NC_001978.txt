@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O91464|POLG_AIVA8    12.6       0.1   2   2.1   1.1    Genome polyprotein OS=Aichi virus (strain Human/A846/88/1989) OX=650132 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O91464|POLG_AIVA8    11.2      0.27     2   0.2    967    994    969    992      3     26     Genome polyprotein OS=Aichi virus (strain Human/A846/88/1989) OX=650132 PE=1 SV=2
+sp|O91464|POLG_AIVA8    -2.2   3.7e+03     1   0.0    234    286    260    283     42     65     Genome polyprotein OS=Aichi virus (strain Human/A846/88/1989) OX=650132 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_047967@NC_001978.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_047967@NC_001978.txt data/models_hmm/NP_047967@NC_001978.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:27 2021
+# [ok]

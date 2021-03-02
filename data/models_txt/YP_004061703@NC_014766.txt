@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZV4|021L_FRG3G     88.0   5.4e-25   1   1.4   5.6    Uncharacterized protein 021L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-021L PE=4 SV=1
+sp|Q5UQN9|YR449_MIMIV    81.0   7.5e-23   3   2.5   0.2    Uncharacterized protein R449 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R449 PE=4 SV=1
+sp|O55708|VF067_IIV6     54.0   1.2e-14   2   1.9   3.1    Uncharacterized protein 067R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-067R PE=3 SV=1
+sp|Q197F6|VF067_IIV3     48.3   6.3e-13   2   1.5   0.1    Uncharacterized protein 004R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-004R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6GZV4|021L_FRG3G     87.2   9.8e-25     1   5.6      5    206     33    201     64    244     Uncharacterized protein 021L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-021L PE=4 SV=1
+sp|Q5UQN9|YR449_MIMIV    81.0   7.5e-23     2   0.2    193    375    224    358    133    268     Uncharacterized protein R449 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R449 PE=4 SV=1
+sp|O55708|VF067_IIV6     53.9   1.3e-14     2   0.9    155    433    220    385    101    265     Uncharacterized protein 067R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-067R PE=3 SV=1
+sp|Q197F6|VF067_IIV3     48.3   6.3e-13     2   0.1    194    405    241    382    111    253     Uncharacterized protein 004R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-004R PE=3 SV=1
+sp|O55708|VF067_IIV6     -0.3   3.9e+02     1   0.0     42     99     45     76    305    336     Uncharacterized protein 067R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-067R PE=3 SV=1
+sp|Q5UQN9|YR449_MIMIV    -0.9   5.6e+02     3   0.3    580    636    590    623    325    358     Uncharacterized protein R449 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R449 PE=4 SV=1
+sp|Q197F6|VF067_IIV3     -3.9   4.5e+03     1   0.5     45    108     49     82     24     59     Uncharacterized protein 004R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-004R PE=3 SV=1
+sp|Q5UQN9|YR449_MIMIV    -3.9   4.8e+03     1   0.3     53    131     87    116     55     84     Uncharacterized protein R449 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R449 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004061703@NC_014766.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004061703@NC_014766.txt data/models_hmm/YP_004061703@NC_014766.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:03 2021
+# [ok]

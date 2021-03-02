@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q775C3|PORTL_BPBPP    16.4    0.0078   2   2.1   0.0    Probable portal protein OS=Bordetella phage BPP-1 OX=194699 GN=bbp21 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q775C3|PORTL_BPBPP    13.8     0.049     2   0.0    172    214    178    207     21     50     Probable portal protein OS=Bordetella phage BPP-1 OX=194699 GN=bbp21 PE=3 SV=1
+sp|Q775C3|PORTL_BPBPP    -1.1   2.1e+03     1   0.0     98    132    103    129     16     44     Probable portal protein OS=Bordetella phage BPP-1 OX=194699 GN=bbp21 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/CCI88436@HE956708.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/CCI88436@HE956708.txt data/models_hmm/CCI88436@HE956708.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:04 2021
+# [ok]

@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P11225|SPIKE_CVMJH    21.3   0.00021   1   1.7   0.3    Spike glycoprotein OS=Murine coronavirus (strain JHM) OX=11144 GN=S PE=1 SV=1
+sp|Q02385|SPIKE_CVMJC    21.0   0.00025   1   1.6   0.3    Spike glycoprotein OS=Murine coronavirus (strain JHMV / variant CL-2) OX=33735 GN=S PE=1 SV=1
+sp|P22432|SPIKE_CVM4     21.0   0.00025   1   1.6   0.3    Spike glycoprotein OS=Murine coronavirus (strain 4) OX=12760 GN=S PE=3 SV=1
+sp|P11224|SPIKE_CVMA5    18.4    0.0016   1   1.7   0.1    Spike glycoprotein OS=Murine coronavirus (strain A59) OX=11142 GN=S PE=1 SV=2
+sp|Q9IKD1|SPIKE_CVRSD    17.4    0.0033   1   1.6   0.4    Spike glycoprotein OS=Rat coronavirus (strain 681) OX=33740 GN=S PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P11225|SPIKE_CVMJH    19.9   0.00057     1   0.3   1086   1190   1091   1174      6     92     Spike glycoprotein OS=Murine coronavirus (strain JHM) OX=11144 GN=S PE=1 SV=1
+sp|P22432|SPIKE_CVM4     19.7   0.00065     1   0.3   1227   1331   1232   1315      6     92     Spike glycoprotein OS=Murine coronavirus (strain 4) OX=12760 GN=S PE=3 SV=1
+sp|Q02385|SPIKE_CVMJC    19.7   0.00065     1   0.3   1227   1331   1232   1315      6     92     Spike glycoprotein OS=Murine coronavirus (strain JHMV / variant CL-2) OX=33735 GN=S PE=1 SV=1
+sp|P11224|SPIKE_CVMA5    17.0    0.0044     1   0.1   1176   1279   1180   1263      6     92     Spike glycoprotein OS=Murine coronavirus (strain A59) OX=11142 GN=S PE=1 SV=2
+sp|Q9IKD1|SPIKE_CVRSD    16.2    0.0078     1   0.4   1212   1315   1216   1299      6     92     Spike glycoprotein OS=Rat coronavirus (strain 681) OX=33740 GN=S PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000115@DelMOSum2011_c10000050@DelMOSum2011_1000005026.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000115@DelMOSum2011_c10000050@DelMOSum2011_1000005026.txt data/models_hmm/3300000115@DelMOSum2011_c10000050@DelMOSum2011_1000005026.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:34 2021
+# [ok]

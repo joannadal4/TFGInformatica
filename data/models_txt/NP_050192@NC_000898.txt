@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q00701|P100_HHV6U   1717.9         0   1   1.0  18.2    Large structural phosphoprotein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U11 PE=3 SV=1
+sp|Q69535|P100_HHV6Z   1697.1         0   1   1.0  17.6    Large structural phosphoprotein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U11 PE=1 SV=1
+sp|P52519|P100_HHV7J   1180.1         0   1   1.0  43.2    Large structural phosphoprotein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U11 PE=3 SV=1
+sp|P08318|PP150_HCMVA    77.5   5.9e-22   1   1.5   0.0    Large structural phosphoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL32 PE=1 SV=1
+sp|Q6SW99|PP150_HCMVM    76.6   1.1e-21   1   1.5   0.0    Tegument protein pp150 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL32 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q00701|P100_HHV6U   1717.8         0     1  18.2      1    870      1    870      1    866     Large structural phosphoprotein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U11 PE=3 SV=1
+sp|Q69535|P100_HHV6Z   1697.0         0     1  17.6      1    858      1    858      1    866     Large structural phosphoprotein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U11 PE=1 SV=1
+sp|P52519|P100_HHV7J   1179.9         0     1  43.2      1    755      1    753      3    840     Large structural phosphoprotein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U11 PE=3 SV=1
+sp|P08318|PP150_HCMVA    76.4   1.3e-21     1   0.0      1    295      3    283      8    275     Large structural phosphoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL32 PE=1 SV=1
+sp|Q6SW99|PP150_HCMVM    75.3   2.8e-21     1   0.0      1    294      3    283      8    275     Tegument protein pp150 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL32 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_050192@NC_000898.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_050192@NC_000898.txt data/models_hmm/NP_050192@NC_000898.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:35 2021
+# [ok]

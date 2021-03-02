@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q66284|IBMP_CSVMV   548.3  8.1e-165   1   1.0  37.6    Putative transactivator/viroplasmin protein OS=Cassava vein mosaic virus OX=38062 GN=ORF 4 PE=3 SV=1
+sp|P09524|IBMP_FMVD     41.0   9.1e-11   1   1.3   4.9    Transactivator/viroplasmin protein OS=Figwort mosaic virus (strain DxS) OX=10650 GN=ORF VI PE=3 SV=1
+sp|Q02954|IBMP_CAMVE    24.2   1.2e-05   1   1.3   1.0    Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF VI PE=3 SV=1
+sp|P18617|IBMP_CAMVP    23.2   2.4e-05   1   1.3   0.7    Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF VI PE=3 SV=1
+sp|Q00957|IBMP_CAMVN    22.9     3e-05   1   1.4   1.1    Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF VI PE=3 SV=2
+sp|P22547|IBMP_CAMV4    22.7   3.4e-05   2   1.9   0.5    Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain D4) OX=10642 GN=ORF VI PE=3 SV=1
+sp|P03558|IBMP_CAMVC    18.5   0.00063   1   1.6   6.2    Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF VI PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q66284|IBMP_CSVMV   548.0  9.8e-165     1  37.6      1    391      1    383     14    396     Putative transactivator/viroplasmin protein OS=Cassava vein mosaic virus OX=38062 GN=ORF 4 PE=3 SV=1
+sp|P09524|IBMP_FMVD     40.5   1.3e-10     1   4.9    161    508    276    479    157    364     Transactivator/viroplasmin protein OS=Figwort mosaic virus (strain DxS) OX=10650 GN=ORF VI PE=3 SV=1
+sp|Q02954|IBMP_CAMVE    23.5   1.9e-05     1   1.0    269    466    285    447    158    318     Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF VI PE=3 SV=1
+sp|P22547|IBMP_CAMV4    22.7   3.4e-05     2   0.5    269    496    285    447    158    318     Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain D4) OX=10642 GN=ORF VI PE=3 SV=1
+sp|P18617|IBMP_CAMVP    22.5   3.8e-05     1   0.7    269    492    285    447    158    318     Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF VI PE=3 SV=1
+sp|Q00957|IBMP_CAMVN    21.9   5.8e-05     1   1.1    268    455    285    447    158    318     Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF VI PE=3 SV=2
+sp|P03558|IBMP_CAMVC    17.3    0.0014     1   6.2    269    499    285    448    158    319     Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF VI PE=3 SV=1
+sp|P22547|IBMP_CAMV4    -1.2   6.1e+02     1   0.5      1    100      1     55      1     55     Transactivator/viroplasmin protein OS=Cauliflower mosaic virus (strain D4) OX=10642 GN=ORF VI PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004300276@NC_015228.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004300276@NC_015228.txt data/models_hmm/YP_004300276@NC_015228.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:10 2021
+# [ok]

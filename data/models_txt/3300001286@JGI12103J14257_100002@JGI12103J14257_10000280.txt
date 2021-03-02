@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q45UF0|NSP5_ROTJ1    14.4     0.017   1   1.2   0.3    Non-structural protein 5 OS=Rotavirus X (strain RVX/Human/China/NADRV-J19/1997/GXP[X]) OX=335103 PE=3 SV=1
+sp|A9Q1L2|NSP5_ROTB2    13.5     0.033   1   1.3   0.3    Non-structural protein 5 OS=Rotavirus X (isolate RVX/Human/Bangladesh/NADRV-B219/2002/GXP[X]) OX=348136 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q45UF0|NSP5_ROTJ1    13.8     0.026     1   0.3     84    175     92    164     47    112     Non-structural protein 5 OS=Rotavirus X (strain RVX/Human/China/NADRV-J19/1997/GXP[X]) OX=335103 PE=3 SV=1
+sp|A9Q1L2|NSP5_ROTB2    12.8     0.054     1   0.3     85    175     92    164     47    112     Non-structural protein 5 OS=Rotavirus X (isolate RVX/Human/Bangladesh/NADRV-B219/2002/GXP[X]) OX=348136 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001286@JGI12103J14257_100002@JGI12103J14257_10000280.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001286@JGI12103J14257_100002@JGI12103J14257_10000280.txt data/models_hmm/3300001286@JGI12103J14257_100002@JGI12103J14257_10000280.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:44 2021
+# [ok]

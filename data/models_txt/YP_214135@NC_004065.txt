@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CAB8|VF257_ASFM2    11.9      0.17   2   1.5   0.0    Transmembrane protein C257L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-074 PE=3 SV=1
+sp|Q65158|VF257_ASFB7    11.7       0.2   1   1.4   0.0    Transmembrane protein C257L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-066 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q65158|VF257_ASFB7    10.8      0.37     1   0.0    155    222    165    208     26     69     Transmembrane protein C257L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-066 PE=3 SV=1
+sp|P0CAB8|VF257_ASFM2    10.8      0.38     2   0.0    151    222    164    208     25     69     Transmembrane protein C257L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-074 PE=3 SV=1
+sp|P0CAB8|VF257_ASFM2    -3.4   9.2e+03     1   0.0     31     45     34     42     57     65     Transmembrane protein C257L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-074 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_214135@NC_004065.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_214135@NC_004065.txt data/models_hmm/YP_214135@NC_004065.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:15 2021
+# [ok]

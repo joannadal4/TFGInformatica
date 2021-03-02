@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q66676|VGE9_EHV2     15.2     0.019   2   4.0   0.8    Uncharacterized gene E9 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=E9 PE=3 SV=1
+sp|Q6Q1S0|VEMP_CVHNL    13.0     0.091   1   1.1   3.2    Envelope small membrane protein OS=Human coronavirus NL63 OX=277944 GN=E PE=3 SV=1
+sp|P35769|E321_ADE1A     9.1       1.6   1   1.8   5.2    Early E3 20.2 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain BC34) OX=343463 PE=3 SV=1
+sp|P35770|E321_ADE1P     6.7       8.9   2   1.9   8.3    Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain Slobiski) OX=343462 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q66676|VGE9_EHV2     15.2     0.019     2   0.8    111    167    114    160      3     51     Uncharacterized gene E9 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=E9 PE=3 SV=1
+sp|Q6Q1S0|VEMP_CVHNL    12.9       0.1     1   3.2      1     70      6     63     32     90     Envelope small membrane protein OS=Human coronavirus NL63 OX=277944 GN=E PE=3 SV=1
+sp|P35769|E321_ADE1A     9.8      0.92     1   2.9    118    172    122    162      5     43     Early E3 20.2 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain BC34) OX=343463 PE=3 SV=1
+sp|P35770|E321_ADE1P     9.2       1.4     2   3.6    126    176    134    166     11     43     Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain Slobiski) OX=343462 PE=3 SV=1
+sp|P35770|E321_ADE1P    -1.1   2.3e+03     1   0.3    100    137    102    124      3     24     Early E3 20.6 kDa glycoprotein OS=Human adenovirus B serotype 11 (strain Slobiski) OX=343462 PE=3 SV=1
+sp|Q66676|VGE9_EHV2    -30.3   1.7e+04     1  37.0     16    122     46     72      3     29     Uncharacterized gene E9 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=E9 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10001057@TBL_comb47_HYPODRAFT_100010577.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000553@TBL_comb47_HYPODRAFT_10001057@TBL_comb47_HYPODRAFT_100010577.txt data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10001057@TBL_comb47_HYPODRAFT_100010577.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:01 2021
+# [ok]

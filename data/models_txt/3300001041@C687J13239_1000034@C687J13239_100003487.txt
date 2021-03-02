@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P15850|GP17_BPPH5    14.1     0.027   2   2.0   1.0    DNA replication protein 17 OS=Bacillus phage phi15 OX=10755 GN=17 PE=3 SV=1
+sp|P08389|GP17_BPPZA    11.8      0.14   2   2.0   3.0    DNA replication protein 17 OS=Bacillus phage PZA OX=10757 GN=17 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P15850|GP17_BPPH5    12.0      0.13     1   0.4      2     64      4     50     49     95     DNA replication protein 17 OS=Bacillus phage phi15 OX=10755 GN=17 PE=3 SV=1
+sp|P08389|GP17_BPPZA    10.0      0.51     1   2.7      2    124      4     50     49     95     DNA replication protein 17 OS=Bacillus phage PZA OX=10757 GN=17 PE=3 SV=1
+sp|P08389|GP17_BPPZA     0.9   3.2e+02     2   0.1     53    149     98    112    135    150     DNA replication protein 17 OS=Bacillus phage PZA OX=10757 GN=17 PE=3 SV=1
+sp|P15850|GP17_BPPH5     0.3   4.9e+02     2   0.0     90    123     97    114    134    152     DNA replication protein 17 OS=Bacillus phage phi15 OX=10755 GN=17 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001041@C687J13239_1000034@C687J13239_100003487.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001041@C687J13239_1000034@C687J13239_100003487.txt data/models_hmm/3300001041@C687J13239_1000034@C687J13239_100003487.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:20 2021
+# [ok]

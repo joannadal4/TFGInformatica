@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q75007|VPU_HV1ET     13.1     0.074   1   1.5   2.2    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype C (isolate ETH2220) OX=388796 GN=vpu PE=3 SV=1
+sp|Q197E7|013L_IIV3     12.7       0.1   1   1.2   0.1    Uncharacterized protein IIV3-013L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-013L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q75007|VPU_HV1ET     12.4      0.12     1   2.2      1     43      3     24     13     34     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype C (isolate ETH2220) OX=388796 GN=vpu PE=3 SV=1
+sp|Q197E7|013L_IIV3     12.3      0.13     1   0.1     35     83     35     69      1     36     Uncharacterized protein IIV3-013L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-013L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000479@SRS015803_WUGC_scaffold_8490@SRS015803_WUGC_scaffold_8490_gene_10131.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000479@SRS015803_WUGC_scaffold_8490@SRS015803_WUGC_scaffold_8490_gene_10131.txt data/models_hmm/7000000479@SRS015803_WUGC_scaffold_8490@SRS015803_WUGC_scaffold_8490_gene_10131.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:35 2021
+# [ok]

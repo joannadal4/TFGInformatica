@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UR17|YR658_MIMIV   632.0  5.9e-190   1   1.0  28.0    Uncharacterized protein R658 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R658 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UR17|YR658_MIMIV   631.6  7.7e-190     1  28.0     40    540     47    537      8    493     Uncharacterized protein R658 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R658 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007354674@NC_020104.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007354674@NC_020104.txt data/models_hmm/YP_007354674@NC_020104.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:50 2021
+# [ok]

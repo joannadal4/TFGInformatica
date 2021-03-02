@@ -1,0 +1,99 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P17176|GH_HCMVT     894.0  6.4e-269   1   1.0  11.1    Envelope glycoprotein H OS=Human cytomegalovirus (strain Towne) OX=10363 GN=gH PE=3 SV=1
+sp|Q6SW67|GH_HCMVM     893.8  7.3e-269   1   1.0  11.0    Envelope glycoprotein H OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gH PE=1 SV=1
+sp|P12824|GH_HCMVA     884.5  4.9e-266   1   1.0  10.3    Envelope glycoprotein H OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gH PE=1 SV=1
+sp|P30673|GH_MUHVS     847.5  7.5e-255   1   1.0   6.0    Envelope glycoprotein H OS=Murid herpesvirus 1 (strain Smith) OX=10367 GN=gH PE=3 SV=2
+sp|P87730|GH_GPCMV     806.9  1.5e-242   1   1.0  13.1    Envelope glycoprotein H OS=Guinea pig cytomegalovirus (strain 22122) OX=103920 GN=gH PE=3 SV=2
+sp|P68323|GH_HHV6G     782.6  3.2e-235   1   1.0  18.8    Envelope glycoprotein H OS=Human herpesvirus 6A (strain GS) OX=10369 GN=gH PE=3 SV=1
+sp|P68324|GH_HHV6U     782.6  3.2e-235   1   1.0  18.8    Envelope glycoprotein H OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=gH PE=1 SV=1
+sp|P52353|GH_HHV7J     771.6  6.9e-232   1   1.0  36.0    Envelope glycoprotein H OS=Human herpesvirus 7 (strain JI) OX=57278 GN=gH PE=1 SV=1
+sp|P52543|GH_HHV6Z     771.4  8.2e-232   1   1.0  15.8    Envelope glycoprotein H OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=gH PE=3 SV=1
+sp|Q18LE9|GH_ELHVK     502.2  2.2e-150   1   1.0  19.0    Envelope glycoprotein H OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 GN=gH PE=3 SV=1
+sp|P16492|GH_SHV21     170.8   4.2e-50   2   2.0  16.9    Envelope glycoprotein H OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=gH PE=3 SV=1
+sp|Q66625|GH_EHV2      165.0   2.4e-48   1   1.1   8.5    Envelope glycoprotein H OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=gH PE=3 SV=1
+sp|Q1HVD2|GH_EBVA8     156.6   8.1e-46   1   1.1   0.1    Envelope glycoprotein H OS=Epstein-Barr virus (strain AG876) OX=82830 GN=gH PE=3 SV=1
+sp|Q3KSQ3|GH_EBVG      156.3     1e-45   1   1.1   0.2    Envelope glycoprotein H OS=Epstein-Barr virus (strain GD1) OX=10376 GN=gH PE=3 SV=1
+sp|F5HAK9|GH_HHV8P     155.9   1.3e-45   1   1.1   2.9    Envelope glycoprotein H OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=gH PE=1 SV=1
+sp|P03231|GH_EBVB9     155.4   1.8e-45   1   1.1   0.2    Envelope glycoprotein H OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=gH PE=1 SV=1
+sp|O36372|GH_ALHV1     154.0   5.1e-45   1   1.2  19.1    Envelope glycoprotein H OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=gH PE=3 SV=1
+sp|P68330|GH_EHV1       57.1   1.1e-15   2   2.2   3.4    Envelope glycoprotein H OS=Equine herpesvirus 1 (strain HVS25A) OX=10327 GN=gH PE=3 SV=1
+sp|Q6DLH1|GH_EHV1B      57.1   1.1e-15   2   2.2   3.4    Envelope glycoprotein H OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=gH PE=3 SV=1
+sp|P24430|GH_EHV4       56.0   2.2e-15   2   2.1   1.6    Envelope glycoprotein H OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=gH PE=3 SV=1
+sp|P13160|GH_FHV1       52.3   2.9e-14   1   1.1   3.8    Envelope glycoprotein H OS=Feline herpesvirus 1 OX=10334 GN=gH PE=3 SV=2
+sp|P36336|GH_GAHVR      49.0   2.9e-13   2   2.1  11.2    Envelope glycoprotein H OS=Gallid herpesvirus 2 (strain RB-1b) OX=33707 GN=gH PE=3 SV=1
+sp|P09260|GH_VZVD       48.4   4.4e-13   1   2.1   2.3    Envelope glycoprotein H OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gH PE=3 SV=1
+sp|Q775J3|GH_VZVO       48.3   4.7e-13   1   2.1   2.5    Envelope glycoprotein H OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gH PE=1 SV=1
+sp|Q9E6P6|GH_GAHVM      46.9   1.2e-12   2   2.3  13.6    Envelope glycoprotein H OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=gH PE=3 SV=1
+sp|P36337|GH_MEHV1      44.8   5.6e-12   1   2.1   9.4    Envelope glycoprotein H OS=Meleagrid herpesvirus 1 OX=37108 GN=gH PE=3 SV=1
+sp|P27416|GH_SUHVK      36.6   1.6e-09   1   1.2   0.0    Envelope glycoprotein H OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=gH PE=1 SV=1
+sp|P27593|GH_SUHVR      36.4   1.9e-09   1   1.2   0.0    Envelope glycoprotein H OS=Suid herpesvirus 1 (strain Rice) OX=10350 GN=gH PE=3 SV=1
+sp|P27599|GH_BHV1C      35.7   3.1e-09   2   2.0   0.0    Envelope glycoprotein H OS=Bovine herpesvirus 1.1 (strain Cooper) OX=10323 GN=gH PE=3 SV=1
+sp|Q00660|GH_SUHVN      35.3   4.2e-09   1   1.3   0.0    Envelope glycoprotein H OS=Suid herpesvirus 1 (strain NIA-3) OX=10349 GN=gH PE=3 SV=1
+sp|Q6UDL0|GH_PSHV1      29.0   3.3e-07   2   2.1   0.0    Envelope glycoprotein H OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=gH PE=3 SV=1
+sp|P89445|GH_HHV2H      23.8   1.2e-05   1   1.3   0.0    Envelope glycoprotein H OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=gH PE=1 SV=1
+sp|P06477|GH_HHV11      22.4   3.1e-05   1   1.4   0.0    Envelope glycoprotein H OS=Human herpesvirus 1 (strain 17) OX=10299 GN=gH PE=1 SV=1
+sp|P08356|GH_HHV1E      22.4   3.1e-05   1   1.4   0.0    Envelope glycoprotein H OS=Human herpesvirus 1 (strain HFEM) OX=10303 GN=gH PE=3 SV=1
+sp|Q9DHD5|GH_HHV1F      22.4   3.2e-05   1   1.4   0.0    Envelope glycoprotein H OS=Human herpesvirus 1 (strain F) OX=10304 GN=gH PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P17176|GH_HCMVT     893.9  7.2e-269     1  11.1      1    742      4    742      4    700     Envelope glycoprotein H OS=Human cytomegalovirus (strain Towne) OX=10363 GN=gH PE=3 SV=1
+sp|Q6SW67|GH_HCMVM     893.7  8.2e-269     1  11.0      1    742      4    742      4    700     Envelope glycoprotein H OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gH PE=1 SV=1
+sp|P12824|GH_HCMVA     884.4  5.4e-266     1  10.3      1    743      6    743      6    700     Envelope glycoprotein H OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gH PE=1 SV=1
+sp|P30673|GH_MUHVS     847.4  8.5e-255     1   6.0      1    724      3    723     11    699     Envelope glycoprotein H OS=Murid herpesvirus 1 (strain Smith) OX=10367 GN=gH PE=3 SV=2
+sp|P87730|GH_GPCMV     806.7  1.6e-242     1  13.1      2    723      4    722      3    699     Envelope glycoprotein H OS=Guinea pig cytomegalovirus (strain 22122) OX=103920 GN=gH PE=3 SV=2
+sp|P68323|GH_HHV6G     782.5  3.6e-235     1  18.8      1    694      2    694      8    700     Envelope glycoprotein H OS=Human herpesvirus 6A (strain GS) OX=10369 GN=gH PE=3 SV=1
+sp|P68324|GH_HHV6U     782.5  3.6e-235     1  18.8      1    694      2    694      8    700     Envelope glycoprotein H OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=gH PE=1 SV=1
+sp|P52353|GH_HHV7J     771.5  7.7e-232     1  36.0      1    690      2    690      8    700     Envelope glycoprotein H OS=Human herpesvirus 7 (strain JI) OX=57278 GN=gH PE=1 SV=1
+sp|P52543|GH_HHV6Z     771.2  9.2e-232     1  15.8      1    694      2    694      8    700     Envelope glycoprotein H OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=gH PE=3 SV=1
+sp|Q18LE9|GH_ELHVK     502.0  2.6e-150     1  19.0      2    726      9    726     12    700     Envelope glycoprotein H OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 GN=gH PE=3 SV=1
+sp|P16492|GH_SHV21     168.8   1.7e-49     2  13.9    275    716    294    713    291    697     Envelope glycoprotein H OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=gH PE=3 SV=1
+sp|Q66625|GH_EHV2      164.6     3e-48     1   8.5    210    762    267    760    222    698     Envelope glycoprotein H OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=gH PE=3 SV=1
+sp|Q1HVD2|GH_EBVA8     156.3     1e-45     1   0.1    141    705    150    702    168    697     Envelope glycoprotein H OS=Epstein-Barr virus (strain AG876) OX=82830 GN=gH PE=3 SV=1
+sp|Q3KSQ3|GH_EBVG      155.9   1.3e-45     1   0.2    141    705    150    702    168    697     Envelope glycoprotein H OS=Epstein-Barr virus (strain GD1) OX=10376 GN=gH PE=3 SV=1
+sp|F5HAK9|GH_HHV8P     155.6   1.7e-45     1   2.9    167    729    197    727    186    698     Envelope glycoprotein H OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=gH PE=1 SV=1
+sp|P03231|GH_EBVB9     155.1   2.3e-45     1   0.2    141    705    150    702    168    697     Envelope glycoprotein H OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=gH PE=1 SV=1
+sp|O36372|GH_ALHV1     153.7   6.3e-45     1  19.1     60    730    205    728    195    698     Envelope glycoprotein H OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=gH PE=3 SV=1
+sp|P13160|GH_FHV1       51.9   3.8e-14     1   3.8    354    810    436    806    366    696     Envelope glycoprotein H OS=Feline herpesvirus 1 OX=10334 GN=gH PE=3 SV=2
+sp|P09260|GH_VZVD       42.7   2.4e-11     1   2.3    440    792    476    758    395    639     Envelope glycoprotein H OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gH PE=3 SV=1
+sp|Q775J3|GH_VZVO       42.6   2.5e-11     1   2.5    440    792    476    758    395    639     Envelope glycoprotein H OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gH PE=1 SV=1
+sp|P68330|GH_EHV1       41.1   7.1e-11     2   2.5    638    832    661    831    533    699     Envelope glycoprotein H OS=Equine herpesvirus 1 (strain HVS25A) OX=10327 GN=gH PE=3 SV=1
+sp|Q6DLH1|GH_EHV1B      41.1   7.1e-11     2   2.5    638    832    661    831    533    699     Envelope glycoprotein H OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=gH PE=3 SV=1
+sp|P36337|GH_MEHV1      40.2   1.3e-10     1   9.4    293    785    331    748    303    664     Envelope glycoprotein H OS=Meleagrid herpesvirus 1 OX=37108 GN=gH PE=3 SV=1
+sp|P24430|GH_EHV4       38.1   5.7e-10     2   1.2    645    839    662    838    528    699     Envelope glycoprotein H OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=gH PE=3 SV=1
+sp|P27416|GH_SUHVK      36.0   2.5e-09     1   0.0    363    672    393    669    441    699     Envelope glycoprotein H OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=gH PE=1 SV=1
+sp|P27593|GH_SUHVR      35.8   2.9e-09     1   0.0    362    672    393    669    441    699     Envelope glycoprotein H OS=Suid herpesvirus 1 (strain Rice) OX=10350 GN=gH PE=3 SV=1
+sp|Q00660|GH_SUHVN      34.4   7.7e-09     1   0.0    368    672    393    669    441    699     Envelope glycoprotein H OS=Suid herpesvirus 1 (strain NIA-3) OX=10349 GN=gH PE=3 SV=1
+sp|P27599|GH_BHV1C      30.4   1.2e-07     2   0.0    653    825    658    790    536    665     Envelope glycoprotein H OS=Bovine herpesvirus 1.1 (strain Cooper) OX=10323 GN=gH PE=3 SV=1
+sp|P36336|GH_GAHVR      28.5   4.8e-07     2   1.3    581    773    607    717    520    631     Envelope glycoprotein H OS=Gallid herpesvirus 2 (strain RB-1b) OX=33707 GN=gH PE=3 SV=1
+sp|Q9E6P6|GH_GAHVM      26.8   1.5e-06     2   3.1    581    796    607    717    520    631     Envelope glycoprotein H OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=gH PE=3 SV=1
+sp|P36336|GH_GAHVR      25.5   3.7e-06     1   2.9    298    563    338    555    302    491     Envelope glycoprotein H OS=Gallid herpesvirus 2 (strain RB-1b) OX=33707 GN=gH PE=3 SV=1
+sp|Q9E6P6|GH_GAHVM      25.5   3.7e-06     1   2.9    298    563    338    555    302    491     Envelope glycoprotein H OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=gH PE=3 SV=1
+sp|P89445|GH_HHV2H      23.1   2.1e-05     1   0.0    474    788    537    720    435    595     Envelope glycoprotein H OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=gH PE=1 SV=1
+sp|Q9DHD5|GH_HHV1F      21.1   8.3e-05     1   0.0    531    796    543    749    441    627     Envelope glycoprotein H OS=Human herpesvirus 1 (strain F) OX=10304 GN=gH PE=3 SV=1
+sp|P06477|GH_HHV11      21.1   8.3e-05     1   0.0    531    796    543    749    441    627     Envelope glycoprotein H OS=Human herpesvirus 1 (strain 17) OX=10299 GN=gH PE=1 SV=1
+sp|P08356|GH_HHV1E      21.1   8.3e-05     1   0.0    531    796    543    749    441    627     Envelope glycoprotein H OS=Human herpesvirus 1 (strain HFEM) OX=10303 GN=gH PE=3 SV=1
+sp|P24430|GH_EHV4       16.1    0.0027     1   0.0    419    620    538    609    434    496     Envelope glycoprotein H OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=gH PE=3 SV=1
+sp|P68330|GH_EHV1       14.7    0.0072     1   0.0    527    613    536    602    439    496     Envelope glycoprotein H OS=Equine herpesvirus 1 (strain HVS25A) OX=10327 GN=gH PE=3 SV=1
+sp|Q6DLH1|GH_EHV1B      14.7    0.0072     1   0.0    527    613    536    602    439    496     Envelope glycoprotein H OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=gH PE=3 SV=1
+sp|Q6UDL0|GH_PSHV1      14.4    0.0084     2   0.0    603    754    620    721    538    639     Envelope glycoprotein H OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=gH PE=3 SV=1
+sp|Q6UDL0|GH_PSHV1      12.4     0.035     1   0.0    417    546    444    542    401    489     Envelope glycoprotein H OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=gH PE=3 SV=1
+sp|P27599|GH_BHV1C       3.1        22     1   0.0    526    604    566    587    469    490     Envelope glycoprotein H OS=Bovine herpesvirus 1.1 (strain Cooper) OX=10323 GN=gH PE=3 SV=1
+sp|P16492|GH_SHV21       2.9        25     1   0.0    165    215    170    211    170    211     Envelope glycoprotein H OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=gH PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004940238@NC_016448.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004940238@NC_016448.txt data/models_hmm/YP_004940238@NC_016448.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:54 2021
+# [ok]

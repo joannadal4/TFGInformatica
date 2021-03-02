@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41459|Y055_NPVAC    71.1   8.9e-20   1   1.0   2.5    Uncharacterized 8.2 kDa protein in LEF8-FP intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|O10313|Y055_NPVOP    53.2   2.8e-14   1   1.0   2.4    Uncharacterized 8.0 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF59 PE=4 SV=1
+sp|O10314|Y056_NPVOP    15.8    0.0093   1   1.1   0.0    Uncharacterized 9.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF60 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41459|Y055_NPVAC    70.9   9.6e-20     1   2.5      1     73      2     73     28     92     Uncharacterized 8.2 kDa protein in LEF8-FP intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|O10313|Y055_NPVOP    53.1     3e-14     1   2.4      1     68      2     68     28     92     Uncharacterized 8.0 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF59 PE=4 SV=1
+sp|O10314|Y056_NPVOP    15.5     0.011     1   0.0     11     57     20     50    111    141     Uncharacterized 9.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF60 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007250463@NC_019945.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007250463@NC_019945.txt data/models_hmm/YP_007250463@NC_019945.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:38 2021
+# [ok]

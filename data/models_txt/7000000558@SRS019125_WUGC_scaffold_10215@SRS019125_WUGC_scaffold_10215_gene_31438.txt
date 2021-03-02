@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52463|UL32_HHV6U    15.4     0.014   1   1.7   0.4    Packaging protein UL32 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U36 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52463|UL32_HHV6U    14.2     0.035     1   0.4    138    230    156    229     67    140     Packaging protein UL32 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U36 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000558@SRS019125_WUGC_scaffold_10215@SRS019125_WUGC_scaffold_10215_gene_31438.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000558@SRS019125_WUGC_scaffold_10215@SRS019125_WUGC_scaffold_10215_gene_31438.txt data/models_hmm/7000000558@SRS019125_WUGC_scaffold_10215@SRS019125_WUGC_scaffold_10215_gene_31438.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:13 2021
+# [ok]

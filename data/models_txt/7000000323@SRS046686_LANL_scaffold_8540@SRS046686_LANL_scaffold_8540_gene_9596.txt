@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|B1NKT9|VP3_ROTHT     14.1      0.04   1   1.8   0.1    Protein VP3 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=3 SV=1
+sp|A7J3A4|VP3_ROTYO     13.8      0.05   1   1.7   0.2    Protein VP3 OS=Rotavirus A (strain RVA/Human/Japan/YO/1977/G3P1A[8]) OX=578832 PE=3 SV=1
+sp|Q6WVH5|VP3_ROTHW     13.7     0.056   1   1.8   0.2    Protein VP3 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=3 SV=1
+sp|B1NKT1|VP3_ROTHP     13.7     0.056   1   1.8   0.1    Protein VP3 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=1
+sp|B1NKU3|VP3_ROTWI     13.6     0.059   1   1.8   0.2    Protein VP3 OS=Rotavirus A (isolate RVA/Human/United States/WI61/1983/G9P1A[8]) OX=578830 PE=3 SV=1
+sp|Q6WNV8|VP3_ROTP5     13.3      0.07   1   1.8   0.3    Protein VP3 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|B1NKT9|VP3_ROTHT     12.6      0.12     1   0.1    678    761    686    757     48    119     Protein VP3 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=3 SV=1
+sp|A7J3A4|VP3_ROTYO     12.3      0.14     1   0.2    675    761    686    758     48    120     Protein VP3 OS=Rotavirus A (strain RVA/Human/Japan/YO/1977/G3P1A[8]) OX=578832 PE=3 SV=1
+sp|B1NKU3|VP3_ROTWI     12.1      0.17     1   0.2    677    761    686    757     48    119     Protein VP3 OS=Rotavirus A (isolate RVA/Human/United States/WI61/1983/G9P1A[8]) OX=578830 PE=3 SV=1
+sp|Q6WVH5|VP3_ROTHW     12.1      0.17     1   0.2    675    761    686    758     48    120     Protein VP3 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=3 SV=1
+sp|B1NKT1|VP3_ROTHP     12.1      0.17     1   0.1    675    761    686    757     48    119     Protein VP3 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=1
+sp|Q6WNV8|VP3_ROTP5     11.7      0.23     1   0.3    678    761    686    758     48    120     Protein VP3 OS=Rotavirus A (strain RVA/Pig/United States/OSU/1977/G5P9[7]) OX=10915 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000323@SRS046686_LANL_scaffold_8540@SRS046686_LANL_scaffold_8540_gene_9596.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000323@SRS046686_LANL_scaffold_8540@SRS046686_LANL_scaffold_8540_gene_9596.txt data/models_hmm/7000000323@SRS046686_LANL_scaffold_8540@SRS046686_LANL_scaffold_8540_gene_9596.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:21 2021
+# [ok]

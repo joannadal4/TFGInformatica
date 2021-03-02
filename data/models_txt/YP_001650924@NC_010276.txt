@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O10368|ME53_NPVOP   416.5  7.9e-125   1   1.0   5.2    Early 53 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ME53 PE=4 SV=1
+sp|Q04719|ME53_NPVAC   390.9  4.8e-117   1   1.0  20.6    Early 53 kDa protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=ME53 PE=4 SV=2
+sp|Q9LBR5|HA70D_CBDP     5.8       5.4   3   2.8  11.0    Hemagglutinin component HA-70 type D OS=Clostridium botulinum D phage OX=29342 GN=ha-70 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O10368|ME53_NPVOP   416.2  9.2e-125     1   5.2     41    449     44    448      4    360     Early 53 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ME53 PE=4 SV=1
+sp|Q04719|ME53_NPVAC   390.6  5.6e-117     1  20.6     55    449     81    446     18    358     Early 53 kDa protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=ME53 PE=4 SV=2
+sp|Q9LBR5|HA70D_CBDP    10.8      0.16     2   0.3    224    325    237    313    194    270     Hemagglutinin component HA-70 type D OS=Clostridium botulinum D phage OX=29342 GN=ha-70 PE=1 SV=1
+sp|Q9LBR5|HA70D_CBDP     2.0        77     3   0.2    445    521    467    501    187    221     Hemagglutinin component HA-70 type D OS=Clostridium botulinum D phage OX=29342 GN=ha-70 PE=1 SV=1
+sp|Q9LBR5|HA70D_CBDP    -3.5   3.7e+03     1   1.2    158    207    160    204    165    210     Hemagglutinin component HA-70 type D OS=Clostridium botulinum D phage OX=29342 GN=ha-70 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001650924@NC_010276.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001650924@NC_010276.txt data/models_hmm/YP_001650924@NC_010276.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:37 2021
+# [ok]

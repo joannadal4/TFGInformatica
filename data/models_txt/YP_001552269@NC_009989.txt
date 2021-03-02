@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A9CBA2|105R_ADES1   174.2   4.1e-51   2   1.9   0.2    Protein 105R OS=Snake adenovirus serotype 1 OX=189830 PE=3 SV=1
+sp|P20748|YO11_ADEG1    17.5    0.0014   1   1.1   0.0    Uncharacterized protein ORF11 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=11 PE=4 SV=1
+sp|P20746|YO9_ADEG1     13.2     0.029   1   1.3   0.0    Uncharacterized protein ORF9 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=9 PE=4 SV=2
+sp|Q77MP7|GE_GAHVM      12.6     0.044   2   1.7   0.0    Envelope glycoprotein E OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV096 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A9CBA2|105R_ADES1   169.7   9.4e-50     1   0.0      1    159      1    151      1    167     Protein 105R OS=Snake adenovirus serotype 1 OX=189830 PE=3 SV=1
+sp|P20748|YO11_ADEG1    17.2    0.0017     1   0.0     57    122     80    118     91    129     Uncharacterized protein ORF11 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=11 PE=4 SV=1
+sp|P20746|YO9_ADEG1     12.3     0.051     1   0.0    176    239    181    233     77    129     Uncharacterized protein ORF9 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=9 PE=4 SV=2
+sp|Q77MP7|GE_GAHVM      11.0      0.13     2   0.0    246    349    308    345     95    132     Envelope glycoprotein E OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV096 PE=3 SV=1
+sp|A9CBA2|105R_ADES1     2.7        44     2   0.1    155    177    161    176    416    431     Protein 105R OS=Snake adenovirus serotype 1 OX=189830 PE=3 SV=1
+sp|Q77MP7|GE_GAHVM      -1.7   9.5e+02     1   0.0    121    187    127    163     94    130     Envelope glycoprotein E OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV096 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001552269@NC_009989.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001552269@NC_009989.txt data/models_hmm/YP_001552269@NC_009989.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:32 2021
+# [ok]

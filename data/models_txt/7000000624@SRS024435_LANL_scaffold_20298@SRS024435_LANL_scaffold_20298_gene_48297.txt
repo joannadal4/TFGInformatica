@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQR9|YL334_MIMIV    14.2     0.032   1   1.6   0.5    Uncharacterized protein L334 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L334 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQR9|YL334_MIMIV    12.9     0.077     1   0.5      4     68     18     59     14     57     Uncharacterized protein L334 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L334 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000624@SRS024435_LANL_scaffold_20298@SRS024435_LANL_scaffold_20298_gene_48297.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000624@SRS024435_LANL_scaffold_20298@SRS024435_LANL_scaffold_20298_gene_48297.txt data/models_hmm/7000000624@SRS024435_LANL_scaffold_20298@SRS024435_LANL_scaffold_20298_gene_48297.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:38 2021
+# [ok]

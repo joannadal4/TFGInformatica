@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q98745|RDRP_TMVRA    10.6      0.15   1   1.1   0.3    Replicase large subunit OS=Tobacco mosaic virus (strain Rakkyo) OX=138310 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q98745|RDRP_TMVRA    10.1      0.21     1   0.3    582    740    611    727    527    636     Replicase large subunit OS=Tobacco mosaic virus (strain Rakkyo) OX=138310 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000265@LP_A_09_P04_10DRAFT_1000002@LP_A_09_P04_10DRAFT_10000024.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000265@LP_A_09_P04_10DRAFT_1000002@LP_A_09_P04_10DRAFT_10000024.txt data/models_hmm/3300000265@LP_A_09_P04_10DRAFT_1000002@LP_A_09_P04_10DRAFT_10000024.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:21 2021
+# [ok]

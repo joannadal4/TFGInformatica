@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HGJ4|PP85_HCMVM    145.2   2.3e-42   1   1.2   0.9    Phosphoprotein 85 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL25 PE=3 SV=1
+sp|P16761|PP85_HCMVA    145.2   2.3e-42   1   1.2   0.9    Phosphoprotein 85 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL25 PE=3 SV=1
+sp|A8E1G1|M35_MUHVK      96.6   1.2e-27   1   1.1   0.4    Protein M35 OS=Murid herpesvirus 1 (strain K181) OX=69156 GN=M35 PE=4 SV=1
+sp|Q9QJ49|PP85_HHV6Z     59.6   1.8e-16   2   2.1   4.7    Phosphoprotein 85 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U14 PE=3 SV=1
+sp|Q69549|PP85_HHV6U     57.0   1.1e-15   2   2.1   2.6    Phosphoprotein 85 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U14 PE=3 SV=1
+sp|F5HE12|UL35_HCMVM     41.6   5.1e-11   2   1.8   5.8    Tegument protein UL35 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL35 PE=3 SV=1
+sp|P16766|UL35_HCMVA     41.5   5.6e-11   2   1.8   5.8    Protein UL35 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL35 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HGJ4|PP85_HCMVM    144.8   3.1e-42     1   0.9      3    581     10    510     69    578     Phosphoprotein 85 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL25 PE=3 SV=1
+sp|P16761|PP85_HCMVA    144.8   3.1e-42     1   0.9      3    581     10    510     69    578     Phosphoprotein 85 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL25 PE=3 SV=1
+sp|A8E1G1|M35_MUHVK      96.1   1.6e-27     1   0.4      6    355     22    341    261    580     Protein M35 OS=Murid herpesvirus 1 (strain K181) OX=69156 GN=M35 PE=4 SV=1
+sp|Q9QJ49|PP85_HHV6Z     59.6   1.8e-16     1   4.7     15    365     23    343    260    579     Phosphoprotein 85 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U14 PE=3 SV=1
+sp|Q69549|PP85_HHV6U     57.0   1.1e-15     1   2.6     14    377     23    342    260    578     Phosphoprotein 85 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U14 PE=3 SV=1
+sp|F5HE12|UL35_HCMVM     41.6   5.1e-11     1   5.8     18    356     26    351    264    588     Tegument protein UL35 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL35 PE=3 SV=1
+sp|P16766|UL35_HCMVA     41.5   5.6e-11     1   5.8     18    356     26    351    264    588     Protein UL35 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL35 PE=1 SV=1
+sp|F5HE12|UL35_HCMVM     -0.6   2.9e+02     2   1.0    339    416    347    406     21     81     Tegument protein UL35 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL35 PE=3 SV=1
+sp|P16766|UL35_HCMVA     -0.6     3e+02     2   1.0    339    416    347    406     21     81     Protein UL35 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL35 PE=1 SV=1
+sp|Q69549|PP85_HHV6U     -4.3   3.9e+03     2  14.2    457    605    469    600    125    245     Phosphoprotein 85 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U14 PE=3 SV=1
+sp|Q9QJ49|PP85_HHV6Z    -10.2   1.7e+04     2  15.9    345    608    386    600    104    245     Phosphoprotein 85 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U14 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007016428@NC_019559.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007016428@NC_019559.txt data/models_hmm/YP_007016428@NC_019559.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:29 2021
+# [ok]

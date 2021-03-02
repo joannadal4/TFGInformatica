@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P32651|GP41_NPVAC   495.3  4.8e-149   1   1.0   4.6    Structural glycoprotein gp41 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=GP41 PE=1 SV=2
+sp|P36345|VP40_NPVHZ   481.7  6.8e-145   1   1.0   4.9    Structural glycoprotein p40 OS=Heliothis zea nuclear polyhedrosis virus OX=28290 GN=P40 PE=2 SV=1
+sp|O10333|VP41_NPVOP   453.2  3.2e-136   1   1.0   1.7    Structural glycoprotein gp41 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=GP41 PE=2 SV=1
+sp|P33246|VP40_NPVBM   437.4  2.1e-131   1   1.1   0.8    Structural glycoprotein p40 OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=P40 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P32651|GP41_NPVAC   495.0  6.1e-149     1   4.6     75    391     79    389      5    306     Structural glycoprotein gp41 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=GP41 PE=1 SV=2
+sp|P36345|VP40_NPVHZ   481.4  8.1e-145     1   4.9     15    322     18    321      3    304     Structural glycoprotein p40 OS=Heliothis zea nuclear polyhedrosis virus OX=28290 GN=P40 PE=2 SV=1
+sp|O10333|VP41_NPVOP   452.8  4.3e-136     1   1.7     50    365     55    360      6    302     Structural glycoprotein gp41 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=GP41 PE=2 SV=1
+sp|P33246|VP40_NPVBM   436.9  2.9e-131     1   0.8     68    345     73    338      5    264     Structural glycoprotein p40 OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=P40 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002854681@NC_012639.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002854681@NC_012639.txt data/models_hmm/YP_002854681@NC_012639.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:12 2021
+# [ok]

@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q4ZJZ3|EG15A_MDBVW   778.4  6.8e-235   1   1.0  16.8    Protease inhibitor Egf1.5a OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O1 PE=1 SV=1
+sp|Q4ZJZ1|EG15B_MDBVW   759.1  5.1e-229   1   1.0  16.2    Protease inhibitor Egf1.5b OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O5 PE=3 SV=1
+sp|Q4ZJY8|EG10_MDBVW    491.6  1.1e-147   1   1.0   9.1    Protease inhibitor Egf1.0 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O12 PE=1 SV=1
+sp|Q4ZJZ2|EG04A_MDBVW   152.7   1.3e-44   1   1.0   5.3    Probable protease inhibitor Egf0.4a OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O4 PE=3 SV=1
+sp|Q4ZJY9|EG04B_MDBVW   152.1     2e-44   1   1.0   5.4    Probable protease inhibitor Egf0.4b OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O11 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q4ZJZ3|EG15A_MDBVW   778.3  7.6e-235     1  16.8      1    343      1    343      1    343     Protease inhibitor Egf1.5a OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O1 PE=1 SV=1
+sp|Q4ZJZ1|EG15B_MDBVW   758.9  5.7e-229     1  16.2      1    343      1    343      1    343     Protease inhibitor Egf1.5b OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O5 PE=3 SV=1
+sp|Q4ZJY8|EG10_MDBVW    491.5  1.2e-147     1   9.1      1    233      1    233      1    233     Protease inhibitor Egf1.0 OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O12 PE=1 SV=1
+sp|Q4ZJZ2|EG04A_MDBVW   152.6   1.5e-44     1   5.3      1    103      1    103      7    118     Probable protease inhibitor Egf0.4a OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O4 PE=3 SV=1
+sp|Q4ZJY9|EG04B_MDBVW   152.0   2.2e-44     1   5.4      1    103      1    103      7    118     Probable protease inhibitor Egf0.4b OS=Microplitis demolitor bracovirus (isolate Webb) OX=654919 GN=O11 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/CCV01713@HF920633.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/CCV01713@HF920633.txt data/models_hmm/CCV01713@HF920633.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:09 2021
+# [ok]

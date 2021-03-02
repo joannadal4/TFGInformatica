@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68618|A36_VACCC    419.6  1.9e-126   1   1.0  19.5    Protein A36 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A36R PE=3 SV=1
+sp|P68619|A36_VACCW    419.6  1.9e-126   1   1.0  19.5    Protein A36 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR159 PE=1 SV=1
+sp|P33852|A36_VAR67    405.3  4.6e-122   1   1.0  19.9    Protein A36 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A36R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68618|A36_VACCC    419.4  2.2e-126     1  19.5      1    204      1    204      1    204     Protein A36 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A36R PE=3 SV=1
+sp|P68619|A36_VACCW    419.4  2.2e-126     1  19.5      1    204      1    204      1    204     Protein A36 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR159 PE=1 SV=1
+sp|P33852|A36_VAR67    405.1  5.2e-122     1  19.9      1    203      1    203      1    204     Protein A36 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A36R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_536575@NC_003310.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_536575@NC_003310.txt data/models_hmm/NP_536575@NC_003310.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:04 2021
+# [ok]

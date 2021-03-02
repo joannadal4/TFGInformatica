@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9EMX1|PTPH_AMEPV    12.8     0.077   2   2.4   0.8    Putative tyrosine-protein phosphatase AMV078 OS=Amsacta moorei entomopoxvirus OX=28321 GN=AMV078 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9EMX1|PTPH_AMEPV     8.5       1.7     1   0.2     36     69     37     63      2     27     Putative tyrosine-protein phosphatase AMV078 OS=Amsacta moorei entomopoxvirus OX=28321 GN=AMV078 PE=3 SV=1
+sp|Q9EMX1|PTPH_AMEPV     2.3   1.5e+02     2   0.0    103    130    108    126     21     39     Putative tyrosine-protein phosphatase AMV078 OS=Amsacta moorei entomopoxvirus OX=28321 GN=AMV078 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000518@SRS024649_LANL_scaffold_15414@SRS024649_LANL_scaffold_15414_gene_14824.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000518@SRS024649_LANL_scaffold_15414@SRS024649_LANL_scaffold_15414_gene_14824.txt data/models_hmm/7000000518@SRS024649_LANL_scaffold_15414@SRS024649_LANL_scaffold_15414_gene_14824.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:01 2021
+# [ok]

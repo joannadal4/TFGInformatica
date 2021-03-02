@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZV2|023R_FRG3G   551.0  9.8e-166   1   1.0   0.0    Uncharacterized protein 023R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-023R PE=4 SV=1
+sp|Q6GZV1|024R_FRG3G   487.0  2.8e-146   1   1.0   0.1    Uncharacterized protein 024R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-024R PE=3 SV=1
+sp|Q2Y0E3|VP8_APRVF     13.5     0.019   1   1.4   0.0    Uncharacterized protein VP8 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S8 PE=4 SV=1
+sp|P68565|SPI2_MYXVL    11.1       0.1   1   1.4   0.3    Serine proteinase inhibitor 2 OS=Myxoma virus (strain Lausanne) OX=31530 GN=SERP2 PE=1 SV=1
+sp|P68566|SPI2_MYXVU    11.1       0.1   1   1.4   0.3    Serine proteinase inhibitor 2 OS=Myxoma virus (strain Uriarra) OX=265876 GN=SERP2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6GZV2|023R_FRG3G   550.8  1.1e-165     1   0.0      1    381      2    372     10    380     Uncharacterized protein 023R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-023R PE=4 SV=1
+sp|Q6GZV1|024R_FRG3G   486.8  3.1e-146     1   0.1      1    365      2    365      2    379     Uncharacterized protein 024R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-024R PE=3 SV=1
+sp|Q2Y0E3|VP8_APRVF     12.6     0.036     1   0.0      9    106     27     91     72    136     Uncharacterized protein VP8 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S8 PE=4 SV=1
+sp|P68565|SPI2_MYXVL    10.2      0.19     1   0.3     79    303    109    294     77    261     Serine proteinase inhibitor 2 OS=Myxoma virus (strain Lausanne) OX=31530 GN=SERP2 PE=1 SV=1
+sp|P68566|SPI2_MYXVU    10.2      0.19     1   0.3     79    303    109    294     77    261     Serine proteinase inhibitor 2 OS=Myxoma virus (strain Uriarra) OX=265876 GN=SERP2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006347651@NC_017940.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006347651@NC_017940.txt data/models_hmm/YP_006347651@NC_017940.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:09 2021
+# [ok]

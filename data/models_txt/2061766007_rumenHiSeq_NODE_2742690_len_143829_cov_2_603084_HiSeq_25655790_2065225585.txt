@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P17382|VE1_HPV31     13.7      0.06   1   1.5   0.0    Replication protein E1 OS=Human papillomavirus type 31 OX=10585 GN=E1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P17382|VE1_HPV31     12.7      0.12     1   0.0    162    325    206    322     26    141     Replication protein E1 OS=Human papillomavirus type 31 OX=10585 GN=E1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007_rumenHiSeq_NODE_2742690_len_143829_cov_2_603084_HiSeq_25655790_2065225585.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007_rumenHiSeq_NODE_2742690_len_143829_cov_2_603084_HiSeq_25655790_2065225585.txt data/models_hmm/2061766007_rumenHiSeq_NODE_2742690_len_143829_cov_2_603084_HiSeq_25655790_2065225585.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:58 2021
+# [ok]

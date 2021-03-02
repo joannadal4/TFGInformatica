@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FN7|287R_IIV6     13.7     0.059   1   2.0   0.5    Uncharacterized protein 287R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-287R PE=3 SV=1
+sp|P15628|IBMP_SOCMV    12.7      0.11   1   2.1   0.7    Transactivator/viroplasmin protein OS=Soybean chlorotic mottle virus OX=10651 GN=ORF VI PE=3 SV=2
+sp|Q91G57|041L_IIV6      8.0       3.5   2   2.3   7.9    Uncharacterized protein 041L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-041L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FN7|287R_IIV6     12.1      0.18     1   0.4    196    288    231    273     13     55     Uncharacterized protein 287R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-287R PE=3 SV=1
+sp|P15628|IBMP_SOCMV    10.8      0.48     1   0.7      4     39      9     36     23     50     Transactivator/viroplasmin protein OS=Soybean chlorotic mottle virus OX=10651 GN=ORF VI PE=3 SV=2
+sp|Q91G57|041L_IIV6      9.1       1.6     1   2.8     30     96     63     87     21     46     Uncharacterized protein 041L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-041L PE=4 SV=1
+sp|Q91G57|041L_IIV6      1.8   3.1e+02     2   0.4     88    120     96    117     27     48     Uncharacterized protein 041L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-041L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_224042@NC_006940.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_224042@NC_006940.txt data/models_hmm/YP_224042@NC_006940.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:18 2021
+# [ok]

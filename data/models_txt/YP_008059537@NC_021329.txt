@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P07580|P12_BPPH6      15.3     0.014   1   1.2   2.0    Morphogenetic protein OS=Pseudomonas phage phi6 OX=10879 GN=P12 PE=4 SV=1
+sp|P11805|SF33K_ADE40     7.3       4.6   1   1.9   9.3    Protein 33K OS=Human adenovirus F serotype 40 OX=28284 GN=L4 PE=2 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P07580|P12_BPPH6      14.7     0.022     1   2.0    142    192    148    189     37     78     Morphogenetic protein OS=Pseudomonas phage phi6 OX=10879 GN=P12 PE=4 SV=1
+sp|P11805|SF33K_ADE40     5.6        15     1   9.3     10     73     13     41      4     31     Protein 33K OS=Human adenovirus F serotype 40 OX=28284 GN=L4 PE=2 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008059537@NC_021329.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008059537@NC_021329.txt data/models_hmm/YP_008059537@NC_021329.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:15 2021
+# [ok]

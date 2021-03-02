@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q02406|Y12J_BPT4     97.8   1.9e-28   1   1.0   0.0    Uncharacterized 7.3 kDa protein in Gp30-rIII intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y12J PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q02406|Y12J_BPT4     97.7     2e-28     1   0.0      1     65      1     64      1     62     Uncharacterized 7.3 kDa protein in Gp30-rIII intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y12J PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001595330@NC_010105.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001595330@NC_010105.txt data/models_hmm/YP_001595330@NC_010105.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:33 2021
+# [ok]

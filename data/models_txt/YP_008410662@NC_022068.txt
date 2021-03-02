@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FM2|VF302_IIV6    14.3     0.025   1   1.7   0.0    Putative zinc finger protein 302L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-302L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FM2|VF302_IIV6    13.0     0.064     1   0.0    280    305    280    301      1     22     Putative zinc finger protein 302L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-302L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008410662@NC_022068.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008410662@NC_022068.txt data/models_hmm/YP_008410662@NC_022068.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:01 2021
+# [ok]

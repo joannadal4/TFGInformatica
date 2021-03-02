@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P22056|POLS_ONNVG    10.9      0.11   1   1.1   0.0    Structural polyprotein OS=O'nyong-nyong virus (strain Gulu) OX=11028 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P22056|POLS_ONNVG    10.3      0.17     1   0.0   1053   1179   1058   1149     66    152     Structural polyprotein OS=O'nyong-nyong virus (strain Gulu) OX=11028 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000716@SRS044662_LANL_scaffold_5346@SRS044662_LANL_scaffold_5346_gene_12145.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000716@SRS044662_LANL_scaffold_5346@SRS044662_LANL_scaffold_5346_gene_12145.txt data/models_hmm/7000000716@SRS044662_LANL_scaffold_5346@SRS044662_LANL_scaffold_5346_gene_12145.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:09 2021
+# [ok]

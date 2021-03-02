@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FQ0|273R_IIV6     19.5   0.00066   1   1.2   0.3    Uncharacterized protein 273R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-273R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FQ0|273R_IIV6     19.0   0.00092     1   0.3     60    135     74    130    161    215     Uncharacterized protein 273R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-273R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003407042@NC_013756.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003407042@NC_013756.txt data/models_hmm/YP_003407042@NC_013756.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:34 2021
+# [ok]

@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09389|MTBB_BPSPB    15.5     0.016   2   2.4   0.3    Modification methylase SPBetaI (Fragments) OS=Bacillus phage SPbeta OX=66797 PE=3 SV=1
+sp|P68586|MTBP_BPPHT    14.4     0.035   2   2.4   0.5    Modification methylase Phi3TI OS=Bacillus phage phi3T OX=10736 GN=mtbP PE=3 SV=1
+sp|P52544|TRM1_HHV6Z    13.5     0.069   1   1.7   0.1    Tripartite terminase subunit 1 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=TRM1 PE=3 SV=2
+sp|P52384|TRM1_HHV6U    13.4     0.073   1   1.7   0.1    Tripartite terminase subunit 1 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=TRM1 PE=3 SV=1
+sp|Q6GZQ0|075L_FRG3G    10.3      0.66   2   2.1   8.4    Uncharacterized protein 075L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-075L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52544|TRM1_HHV6Z    12.0      0.19     1   0.1    162    245    165    216      6     57     Tripartite terminase subunit 1 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=TRM1 PE=3 SV=2
+sp|P52384|TRM1_HHV6U    11.9       0.2     1   0.1    162    246    165    215      6     56     Tripartite terminase subunit 1 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=TRM1 PE=3 SV=1
+sp|P09389|MTBB_BPSPB    10.6      0.53     1   0.1     87    135     91    119      7     35     Modification methylase SPBetaI (Fragments) OS=Bacillus phage SPbeta OX=66797 PE=3 SV=1
+sp|P68586|MTBP_BPPHT     9.5       1.2     1   0.2     87    130     91    119      7     35     Modification methylase Phi3TI OS=Bacillus phage phi3T OX=10736 GN=mtbP PE=3 SV=1
+sp|Q6GZQ0|075L_FRG3G     8.1       3.3     2   4.7     43     83     47     80      6     39     Uncharacterized protein 075L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-075L PE=4 SV=1
+sp|Q6GZQ0|075L_FRG3G     4.2        53     1   0.1      7     45     14     31     23     40     Uncharacterized protein 075L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-075L PE=4 SV=1
+sp|P68586|MTBP_BPPHT     2.5   1.9e+02     2   0.0    360    410    365    402     48     82     Modification methylase Phi3TI OS=Bacillus phage phi3T OX=10736 GN=mtbP PE=3 SV=1
+sp|P09389|MTBB_BPSPB     2.4     2e+02     2   0.0    214    255    219    239     48     68     Modification methylase SPBetaI (Fragments) OS=Bacillus phage SPbeta OX=66797 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008798278@NC_022791.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008798278@NC_022791.txt data/models_hmm/YP_008798278@NC_022791.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:33 2021
+# [ok]

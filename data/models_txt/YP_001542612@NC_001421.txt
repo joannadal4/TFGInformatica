@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27390|VP34_BPPRD   144.7   5.3e-43   1   1.0   9.6    Protein P34 OS=Enterobacteria phage PRD1 OX=10658 GN=XXXIV PE=1 SV=1
+sp|Q3T4M7|VP32_BPPRD   106.5   4.4e-31   1   1.0   7.7    Protein P32 OS=Enterobacteria phage PRD1 OX=10658 GN=XXXII PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27390|VP34_BPPRD   144.5   5.8e-43     1   9.6      1     68      1     68      1     68     Protein P34 OS=Enterobacteria phage PRD1 OX=10658 GN=XXXIV PE=1 SV=1
+sp|Q3T4M7|VP32_BPPRD   106.4   4.7e-31     1   7.7      1     54      1     53      1     53     Protein P32 OS=Enterobacteria phage PRD1 OX=10658 GN=XXXII PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001542612@NC_001421.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001542612@NC_001421.txt data/models_hmm/YP_001542612@NC_001421.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:31 2021
+# [ok]

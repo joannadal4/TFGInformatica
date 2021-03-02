@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZX2|003R_FRG3G   896.8  1.6e-270   1   1.0   7.3    Uncharacterized protein 3R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-003R PE=3 SV=1
+sp|Q91FU3|VF229_IIV6    55.0   4.7e-15   1   1.2   0.2    Uncharacterized protein 229L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-229L PE=3 SV=1
+sp|Q197B4|VF229_IIV3    18.1   0.00071   1   1.2   0.0    Uncharacterized protein 229L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-046R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6GZX2|003R_FRG3G   896.6  1.8e-270     1   7.3      1    438      1    438      1    438     Uncharacterized protein 3R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-003R PE=3 SV=1
+sp|Q91FU3|VF229_IIV6    54.6   6.2e-15     1   0.2     34    440     86    393     75    370     Uncharacterized protein 229L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-229L PE=3 SV=1
+sp|Q197B4|VF229_IIV3    17.6     0.001     1   0.0    338    523    397    471    248    313     Uncharacterized protein 229L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-046R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_164111@NC_006549.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_164111@NC_006549.txt data/models_hmm/YP_164111@NC_006549.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:06 2021
+# [ok]

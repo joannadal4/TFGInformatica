@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q00156|VG64_ICHVA    13.0     0.071   1   1.6   0.0    Uncharacterized protein ORF64 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF64 PE=4 SV=1
+sp|P0DST5|A38_VAR67     11.9      0.15   2   2.2   0.4    Protein A38 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A38L PE=3 SV=1
+sp|P0DST6|A38_VARV      11.9      0.15   2   2.2   0.4    Protein A38 OS=Variola virus OX=10255 GN=A38L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q00156|VG64_ICHVA    11.7      0.18     1   0.0    428    506    439    501     34     95     Uncharacterized protein ORF64 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF64 PE=4 SV=1
+sp|P0DST5|A38_VAR67      5.9        11     2   0.1    164    219    170    211     36     78     Protein A38 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A38L PE=3 SV=1
+sp|P0DST6|A38_VARV       5.9        11     2   0.1    164    219    170    211     36     78     Protein A38 OS=Variola virus OX=10255 GN=A38L PE=3 SV=1
+sp|P0DST5|A38_VAR67      4.1        41     1   0.0     51    144     86    134     54    101     Protein A38 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A38L PE=3 SV=1
+sp|P0DST6|A38_VARV       4.1        41     1   0.0     51    144     86    134     54    101     Protein A38 OS=Variola virus OX=10255 GN=A38L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000186@SRS022524_Baylor_scaffold_76730@SRS022524_Baylor_scaffold_76730_gene_183707.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000186@SRS022524_Baylor_scaffold_76730@SRS022524_Baylor_scaffold_76730_gene_183707.txt data/models_hmm/7000000186@SRS022524_Baylor_scaffold_76730@SRS022524_Baylor_scaffold_76730_gene_183707.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:08 2021
+# [ok]

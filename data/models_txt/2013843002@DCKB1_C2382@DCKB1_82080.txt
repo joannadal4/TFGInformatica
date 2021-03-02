@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O90305|VME1_BRV1      8.3       2.3   2   2.2   5.6    Membrane protein OS=Breda virus 1 OX=360393 GN=M PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O90305|VME1_BRV1     10.8      0.39     2   1.0     83    129     98    125     23     50     Membrane protein OS=Breda virus 1 OX=360393 GN=M PE=3 SV=1
+sp|O90305|VME1_BRV1     -1.9   3.6e+03     1   0.3      4     47     34     44     25     35     Membrane protein OS=Breda virus 1 OX=360393 GN=M PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2013843002@DCKB1_C2382@DCKB1_82080.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2013843002@DCKB1_C2382@DCKB1_82080.txt data/models_hmm/2013843002@DCKB1_C2382@DCKB1_82080.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:10 2021
+# [ok]

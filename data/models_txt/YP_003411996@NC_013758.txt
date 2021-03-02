@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|C1JJY1|ORF2_HAPV1   243.1   4.5e-73   1   1.0   5.3    Uncharacterized protein 2 OS=Halorubrum pleomorphic virus 1 OX=634168 GN=ORF2 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|C1JJY1|ORF2_HAPV1   242.9     5e-73     1   5.3      1    126      1    126      1    126     Uncharacterized protein 2 OS=Halorubrum pleomorphic virus 1 OX=634168 GN=ORF2 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003411996@NC_013758.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003411996@NC_013758.txt data/models_hmm/YP_003411996@NC_013758.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:36 2021
+# [ok]

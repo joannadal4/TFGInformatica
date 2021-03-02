@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P35955|GAG_VILVK     13.4     0.051   1   1.7   0.4    Gag polyprotein OS=Maedi visna virus (strain KV1772) OX=36374 GN=gag PE=1 SV=1
+sp|P03352|GAG_VILV      13.0     0.066   1   1.7   0.4    Gag polyprotein OS=Maedi visna virus (strain 1514) OX=11742 GN=gag PE=3 SV=1
+sp|P23424|GAG_VILV1     13.0     0.066   1   1.7   0.4    Gag polyprotein OS=Maedi visna virus (strain 1514 / clone LV1-1KS1) OX=11743 GN=gag PE=3 SV=1
+sp|P23425|GAG_VILV2     13.0     0.067   1   1.7   0.4    Gag polyprotein OS=Maedi visna virus (strain 1514 / clone LV1-1KS2) OX=11744 GN=gag PE=3 SV=1
+sp|P33458|GAG_CAEVC     12.0      0.14   1   1.4   0.3    Gag polyprotein OS=Caprine arthritis encephalitis virus (strain Cork) OX=11661 GN=gag PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P35955|GAG_VILVK     12.0      0.14     1   0.4    365    419    374    416     65    107     Gag polyprotein OS=Maedi visna virus (strain KV1772) OX=36374 GN=gag PE=1 SV=1
+sp|P03352|GAG_VILV      11.6      0.18     1   0.4    365    419    374    416     65    107     Gag polyprotein OS=Maedi visna virus (strain 1514) OX=11742 GN=gag PE=3 SV=1
+sp|P23424|GAG_VILV1     11.6      0.18     1   0.4    365    419    374    416     65    107     Gag polyprotein OS=Maedi visna virus (strain 1514 / clone LV1-1KS1) OX=11743 GN=gag PE=3 SV=1
+sp|P23425|GAG_VILV2     11.6      0.18     1   0.4    365    419    374    416     65    107     Gag polyprotein OS=Maedi visna virus (strain 1514 / clone LV1-1KS2) OX=11744 GN=gag PE=3 SV=1
+sp|P33458|GAG_CAEVC     11.0      0.28     1   0.3    361    413    370    410     68    107     Gag polyprotein OS=Caprine arthritis encephalitis virus (strain Cork) OX=11661 GN=gag PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001242@C687J13896_1000076@C687J13896_100007658.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001242@C687J13896_1000076@C687J13896_100007658.txt data/models_hmm/3300001242@C687J13896_1000076@C687J13896_100007658.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:38 2021
+# [ok]

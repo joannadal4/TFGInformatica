@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O10270|VP61_NPVOP    288.3   1.1e-85   2   3.1  61.0    61 kDa protein homolog OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF2 PE=3 SV=2
+sp|Q03209|P78_NPVAC     177.1   4.8e-52   4   4.0  22.5    Protein P78/83 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P61 PE=1 SV=2
+sp|Q9QEE7|CAPSD_ICRSV     4.4       9.6   1   1.2  18.9    Capsid protein OS=Indian citrus ringspot virus (isolate Kinnow mandarin/India/K1/1996) OX=651357 GN=ORF5 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O10270|VP61_NPVOP    217.3   3.2e-64     1   9.4      2    213      2    211      1    214     61 kDa protein homolog OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF2 PE=3 SV=2
+sp|Q03209|P78_NPVAC     115.1   2.9e-33     1   9.1      2    176      3    166      2    171     Protein P78/83 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P61 PE=1 SV=2
+sp|Q03209|P78_NPVAC      76.2   1.7e-21     4   5.4    314    537    318    535    393    607     Protein P78/83 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P61 PE=1 SV=2
+sp|O10270|VP61_NPVOP     66.6   1.4e-18     2  46.8    198    455    204    407    249    422     61 kDa protein homolog OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF2 PE=3 SV=2
+sp|Q9QEE7|CAPSD_ICRSV     3.8        15     1  18.9     12    156     17    101    135    212     Capsid protein OS=Indian citrus ringspot virus (isolate Kinnow mandarin/India/K1/1996) OX=651357 GN=ORF5 PE=3 SV=1
+sp|Q03209|P78_NPVAC      -6.5   1.7e+04     2  32.1    157    244    165    238    288    365     Protein P78/83 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P61 PE=1 SV=2
+sp|Q03209|P78_NPVAC     -24.6   1.7e+04     3  43.3    235    325    250    313    157    214     Protein P78/83 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P61 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_610971@NC_008035.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_610971@NC_008035.txt data/models_hmm/YP_610971@NC_008035.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:39 2021
+# [ok]

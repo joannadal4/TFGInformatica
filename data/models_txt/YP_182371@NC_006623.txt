@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6UDI9|PAP_PSHV1   1034.0         0   1   1.0   1.4    DNA polymerase processivity factor OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL42 PE=3 SV=1
+sp|Q4JQV9|PAP_VZVO      13.4      0.02   1   1.1   0.0    DNA polymerase processivity factor OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF16 PE=3 SV=1
+sp|P09274|PAP_VZVD      13.4      0.02   1   1.1   0.0    DNA polymerase processivity factor OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF16 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6UDI9|PAP_PSHV1   1033.8         0     1   1.4      1    500      1    500      1    500     DNA polymerase processivity factor OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL42 PE=3 SV=1
+sp|P09274|PAP_VZVD      13.0     0.027     1   0.0      7    116     48     86     65    103     DNA polymerase processivity factor OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF16 PE=3 SV=1
+sp|Q4JQV9|PAP_VZVO      13.0     0.027     1   0.0      7    116     48     86     65    103     DNA polymerase processivity factor OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF16 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_182371@NC_006623.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_182371@NC_006623.txt data/models_hmm/YP_182371@NC_006623.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:10 2021
+# [ok]

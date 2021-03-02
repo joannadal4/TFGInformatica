@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05220|PORTL_BPML5   627.9  9.7e-189   1   1.0   2.7    Portal protein OS=Mycobacterium phage L5 OX=31757 GN=14 PE=3 SV=1
+sp|O64207|PORTL_BPMD2   622.2  5.2e-187   1   1.0   2.7    Portal protein OS=Mycobacterium phage D29 OX=28369 GN=14 PE=3 SV=1
+sp|P54309|PORTL_BPSPP    13.6     0.018   2   2.0   1.4    Portal protein OS=Bacillus phage SPP1 OX=10724 GN=6 PE=1 SV=1
+sp|P15155|VP4_ROTGI      12.1     0.052   1   1.2   0.0    Outer capsid protein VP4 OS=Rotavirus B (isolate RVB/Rat/United States/IDIR/1984/G1P[X]) OX=28877 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05220|PORTL_BPML5   627.7  1.1e-188     1   2.7      2    486      4    482      3    475     Portal protein OS=Mycobacterium phage L5 OX=31757 GN=14 PE=3 SV=1
+sp|O64207|PORTL_BPMD2   622.0  5.8e-187     1   2.7      2    485      4    478      3    471     Portal protein OS=Mycobacterium phage D29 OX=28369 GN=14 PE=3 SV=1
+sp|P54309|PORTL_BPSPP    12.3     0.046     1   0.1    150    256    161    251    140    216     Portal protein OS=Bacillus phage SPP1 OX=10724 GN=6 PE=1 SV=1
+sp|P15155|VP4_ROTGI      11.5     0.082     1   0.0    469    513    478    509    220    251     Outer capsid protein VP4 OS=Rotavirus B (isolate RVB/Rat/United States/IDIR/1984/G1P[X]) OX=28877 PE=3 SV=1
+sp|P54309|PORTL_BPSPP    -0.3   3.1e+02     2   0.2    396    502    407    494    381    469     Portal protein OS=Bacillus phage SPP1 OX=10724 GN=6 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008530477@NC_022324.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008530477@NC_022324.txt data/models_hmm/YP_008530477@NC_022324.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:20 2021
+# [ok]

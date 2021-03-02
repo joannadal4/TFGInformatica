@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPW9|YL291_MIMIV   853.8  3.8e-257   3   3.0 110.6    Uncharacterized protein L291 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L291 PE=4 SV=1
+sp|Q91FF8|366R_IIV6      12.8     0.037   1   1.1   1.8    Uncharacterized protein 366R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-366R PE=4 SV=1
+sp|Q9DH21|ORF23_TTVV1     8.2      0.89   1   1.3  14.6    Probable protein VP2 OS=Torque teno virus (strain VT416) OX=486280 GN=ORF2/3 PE=2 SV=1
+sp|P0C674|ORF23_TTVV2     7.8       1.2   1   1.3  12.4    Probable protein VP2 OS=Torque teno virus (isolate Human/Japan/TRM1/1999) OX=486275 GN=ORF2/3 PE=1 SV=1
+sp|Q5UPJ3|YL116_MIMIV     6.2       3.7   2   2.7  35.2    Uncharacterized protein L116 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L116 PE=3 SV=1
+sp|Q5UPY2|YR298_MIMIV     5.4       6.3   1   1.0  31.5    Uncharacterized protein R298 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R298 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPW9|YL291_MIMIV   760.5  7.1e-229     3  61.5    129    595    130    595     53    490     Uncharacterized protein L291 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L291 PE=4 SV=1
+sp|Q5UPW9|YL291_MIMIV    86.2     2e-24     1  14.5      1     92      1     79      1     77     Uncharacterized protein L291 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L291 PE=4 SV=1
+sp|Q5UPW9|YL291_MIMIV    16.3    0.0033     2  32.6     83    153     88    149    386    447     Uncharacterized protein L291 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L291 PE=4 SV=1
+sp|Q91FF8|366R_IIV6      12.7     0.039     1   1.8      2     84     11     48    397    434     Uncharacterized protein 366R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-366R PE=4 SV=1
+sp|Q9DH21|ORF23_TTVV1     7.6       1.4     1  14.6    124    281    192    275    382    463     Probable protein VP2 OS=Torque teno virus (strain VT416) OX=486280 GN=ORF2/3 PE=2 SV=1
+sp|P0C674|ORF23_TTVV2     7.3       1.8     1  12.4    130    281    197    272    388    459     Probable protein VP2 OS=Torque teno virus (isolate Human/Japan/TRM1/1999) OX=486275 GN=ORF2/3 PE=1 SV=1
+sp|Q5UPJ3|YL116_MIMIV     6.3       3.4     1  10.7     40    206    130    203    392    465     Uncharacterized protein L116 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L116 PE=3 SV=1
+sp|Q5UPJ3|YL116_MIMIV     5.9       4.7     2  20.4    187    305    192    283    394    483     Uncharacterized protein L116 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L116 PE=3 SV=1
+sp|Q5UPY2|YR298_MIMIV     5.2       7.2     1  31.5      1     98      5     83    392    472     Uncharacterized protein R298 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R298 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001546@JGI12659J15293_10000004@JGI12659J15293_1000000472.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001546@JGI12659J15293_10000004@JGI12659J15293_1000000472.txt data/models_hmm/3300001546@JGI12659J15293_10000004@JGI12659J15293_1000000472.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:40 2021
+# [ok]

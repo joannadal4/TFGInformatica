@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q98544|Y494R_PBCV1    13.9      0.04   2   2.5   1.2    Putative transcription factor A494R OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=A494R PE=3 SV=1
+sp|A7IXI8|Y663R_PBCVN    13.7     0.045   3   2.5   1.8    Putative transcription factor B663R OS=Paramecium bursaria Chlorella virus NY2A OX=46021 GN=B663R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A7IXI8|Y663R_PBCVN    12.2      0.14     3   0.2    132    200    144    185     22     59     Putative transcription factor B663R OS=Paramecium bursaria Chlorella virus NY2A OX=46021 GN=B663R PE=3 SV=1
+sp|Q98544|Y494R_PBCV1    10.9      0.36     2   0.3    136    199    144    185     22     59     Putative transcription factor A494R OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=A494R PE=3 SV=1
+sp|Q98544|Y494R_PBCV1     0.6   5.5e+02     1   0.0     31     54     37     52     66     81     Putative transcription factor A494R OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=A494R PE=3 SV=1
+sp|A7IXI8|Y663R_PBCVN    -1.1   1.9e+03     2   0.0     31     53     36     50     66     80     Putative transcription factor B663R OS=Paramecium bursaria Chlorella virus NY2A OX=46021 GN=B663R PE=3 SV=1
+sp|A7IXI8|Y663R_PBCVN    -2.1     4e+03     1   0.1     14     41     21     35     65     79     Putative transcription factor B663R OS=Paramecium bursaria Chlorella virus NY2A OX=46021 GN=B663R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000311@WSSedA1Ba3DRAFT_1000004@WSSedA1Ba3DRAFT_10000048.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000311@WSSedA1Ba3DRAFT_1000004@WSSedA1Ba3DRAFT_10000048.txt data/models_hmm/3300000311@WSSedA1Ba3DRAFT_1000004@WSSedA1Ba3DRAFT_10000048.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:23 2021
+# [ok]

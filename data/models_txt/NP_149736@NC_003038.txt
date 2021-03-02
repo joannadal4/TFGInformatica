@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FQ0|273R_IIV6    168.2   8.8e-50   1   1.0   4.1    Uncharacterized protein 273R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-273R PE=4 SV=1
+sp|A4ZU93|Y163_ABVP     18.4    0.0015   1   1.3   0.1    Uncharacterized protein ORF163 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF163 PE=4 SV=1
+sp|P15075|VG50_BPT4     16.7    0.0052   1   1.4   0.2    Head completion protein Gp50 OS=Enterobacteria phage T4 OX=10665 GN=50 PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FQ0|273R_IIV6    168.1   9.8e-50     1   4.1      1    136      1    136      1    133     Uncharacterized protein 273R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-273R PE=4 SV=1
+sp|A4ZU93|Y163_ABVP     17.9    0.0022     1   0.1     31    121     72     97     66     91     Uncharacterized protein ORF163 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF163 PE=4 SV=1
+sp|P15075|VG50_BPT4     16.1     0.008     1   0.2     22    140     37    104     46    107     Head completion protein Gp50 OS=Enterobacteria phage T4 OX=10665 GN=50 PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_149736@NC_003038.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_149736@NC_003038.txt data/models_hmm/NP_149736@NC_003038.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:56 2021
+# [ok]

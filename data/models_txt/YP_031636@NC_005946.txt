@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZR8|057R_FRG3G   957.2  1.6e-288   1   1.0   4.5    Putative phosphotransferase 057R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-057R PE=4 SV=1
+sp|Q196W2|VF439_IIV3    27.5   9.9e-07   1   1.2   0.0    Probable kinase 098L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-098L PE=3 SV=1
+sp|Q197F0|VF380_IIV3    22.1   4.6e-05   1   1.1   0.0    Probable serine/threonine-protein kinase 010L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-010L PE=3 SV=1
+sp|O55720|VF098_IIV6    19.0   0.00038   1   1.2   0.0    Uncharacterized protein 098R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-098R PE=3 SV=1
+sp|Q91F86|VF439_IIV6    15.9    0.0034   1   1.4   0.0    Probable kinase 439L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-439L PE=3 SV=1
+sp|P41676|PK2_NPVAC     14.1     0.012   2   1.5   0.0    Probable serine/threonine-protein kinase 2 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PK2 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6GZR8|057R_FRG3G   957.0  1.7e-288     1   4.5      3    498      3    496      1    503     Putative phosphotransferase 057R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-057R PE=4 SV=1
+sp|Q196W2|VF439_IIV3    27.0   1.4e-06     1   0.0     81    279     83    250      3    177     Probable kinase 098L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-098L PE=3 SV=1
+sp|Q197F0|VF380_IIV3    21.6   6.5e-05     1   0.0    254    388    260    372     57    172     Probable serine/threonine-protein kinase 010L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-010L PE=3 SV=1
+sp|O55720|VF098_IIV6    18.4   0.00061     1   0.0    146    291    200    274    101    171     Uncharacterized protein 098R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-098R PE=3 SV=1
+sp|Q91F86|VF439_IIV6    14.9    0.0067     1   0.0    191    301    218    289     99    172     Probable kinase 439L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-439L PE=3 SV=1
+sp|P41676|PK2_NPVAC     12.8     0.029     1   0.0      2    104     26     95     74    148     Probable serine/threonine-protein kinase 2 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PK2 PE=1 SV=1
+sp|P41676|PK2_NPVAC     -1.9   8.4e+02     2   0.0    146    204    154    199    232    283     Probable serine/threonine-protein kinase 2 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=PK2 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_031636@NC_005946.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_031636@NC_005946.txt data/models_hmm/YP_031636@NC_005946.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:53 2021
+# [ok]

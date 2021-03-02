@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P18478|POLG_WMV2U    12.7     0.028   1   1.2   0.2    Genome polyprotein (Fragment) OS=Watermelon mosaic virus II (isolate USA) OX=148360 PE=1 SV=3
+sp|P20235|POLG_WMV2A    12.0     0.048   1   1.3   0.2    Genome polyprotein (Fragment) OS=Watermelon mosaic virus II (isolate Australia) OX=148358 PE=3 SV=1
+sp|P23430|VIF_VILV1     11.1     0.089   2   1.5   0.1    Virion infectivity factor OS=Maedi visna virus (strain 1514 / clone LV1-1KS1) OX=11743 GN=vif PE=3 SV=1
+sp|P69715|VIF_VILV      11.1     0.091   2   1.5   0.1    Virion infectivity factor OS=Maedi visna virus (strain 1514) OX=11742 GN=vif PE=3 SV=1
+sp|P69716|VIF_VILV2     11.1     0.091   2   1.5   0.1    Virion infectivity factor OS=Maedi visna virus (strain 1514 / clone LV1-1KS2) OX=11744 GN=vif PE=3 SV=1
+sp|P69717|VIF_VILVK     11.1     0.091   2   1.5   0.1    Virion infectivity factor OS=Maedi visna virus (strain KV1772) OX=36374 GN=vif PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P18478|POLG_WMV2U    12.0     0.046     1   0.2    727    832    738    825    123    209     Genome polyprotein (Fragment) OS=Watermelon mosaic virus II (isolate USA) OX=148360 PE=1 SV=3
+sp|P20235|POLG_WMV2A    11.2     0.081     1   0.2     14    116     24    104    124    203     Genome polyprotein (Fragment) OS=Watermelon mosaic virus II (isolate Australia) OX=148358 PE=3 SV=1
+sp|P23430|VIF_VILV1     10.2      0.17     2   0.0     66    148     80    138    443    502     Virion infectivity factor OS=Maedi visna virus (strain 1514 / clone LV1-1KS1) OX=11743 GN=vif PE=3 SV=1
+sp|P69715|VIF_VILV      10.2      0.17     2   0.0     66    148     80    138    443    502     Virion infectivity factor OS=Maedi visna virus (strain 1514) OX=11742 GN=vif PE=3 SV=1
+sp|P69716|VIF_VILV2     10.2      0.17     2   0.0     66    148     80    138    443    502     Virion infectivity factor OS=Maedi visna virus (strain 1514 / clone LV1-1KS2) OX=11744 GN=vif PE=3 SV=1
+sp|P69717|VIF_VILVK     10.2      0.17     2   0.0     66    148     80    138    443    502     Virion infectivity factor OS=Maedi visna virus (strain KV1772) OX=36374 GN=vif PE=3 SV=1
+sp|P23430|VIF_VILV1     -3.0   1.6e+03     1   0.0     27     48     29     44    194    209     Virion infectivity factor OS=Maedi visna virus (strain 1514 / clone LV1-1KS1) OX=11743 GN=vif PE=3 SV=1
+sp|P69715|VIF_VILV      -3.0   1.6e+03     1   0.0     27     48     29     44    194    209     Virion infectivity factor OS=Maedi visna virus (strain 1514) OX=11742 GN=vif PE=3 SV=1
+sp|P69716|VIF_VILV2     -3.0   1.6e+03     1   0.0     27     48     29     44    194    209     Virion infectivity factor OS=Maedi visna virus (strain 1514 / clone LV1-1KS2) OX=11744 GN=vif PE=3 SV=1
+sp|P69717|VIF_VILVK     -3.0   1.6e+03     1   0.0     27     48     29     44    194    209     Virion infectivity factor OS=Maedi visna virus (strain KV1772) OX=36374 GN=vif PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2035265002@CwormDRAF_NODE_70366_len_90416_cov_29_371471@CwormDRAFT_232200.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2035265002@CwormDRAF_NODE_70366_len_90416_cov_29_371471@CwormDRAFT_232200.txt data/models_hmm/2035265002@CwormDRAF_NODE_70366_len_90416_cov_29_371471@CwormDRAFT_232200.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:22 2021
+# [ok]

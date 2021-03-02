@@ -1,0 +1,65 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q08589|TRAP_ICMV    226.5   9.3e-68   1   1.0   1.2    Transcriptional activator protein OS=Indian cassava mosaic virus OX=31600 GN=AC2 PE=3 SV=1
+sp|P03562|TRAP_TGMVY   220.5   6.8e-66   1   1.0   2.7    Transcriptional activator protein OS=Tomato golden mosaic virus (strain Yellow vein) OX=223341 GN=AC2 PE=1 SV=1
+sp|P27262|TRAP_TYLCI   219.7   1.2e-65   1   1.0   7.7    Transcriptional activator protein OS=Tomato yellow leaf curl virus (strain Israel) OX=66366 GN=C2 PE=1 SV=1
+sp|P27261|TRAP_PYMVV   219.3   1.6e-65   1   1.0   2.1    Transcriptional activator protein OS=Potato yellow mosaic virus (isolate Venezuela) OX=223310 GN=AC2 PE=3 SV=1
+sp|P21944|TRAP_ABMVW   218.5   2.8e-65   1   1.0   1.5    Transcriptional activator protein OS=Abutilon mosaic virus (isolate West India) OX=10816 GN=AC2 PE=3 SV=3
+sp|Q9DXE6|TRAP_TYLCC   218.1   3.8e-65   1   1.0   3.6    Transcriptional activator protein OS=Tomato yellow leaf curl China virus OX=185793 GN=C2 PE=1 SV=1
+sp|P36280|TRAP_TLCVA   216.5   1.2e-64   1   1.0   5.7    Transcriptional activator protein OS=Tomato leaf curl virus (strain Australia) OX=223353 GN=C2 PE=3 SV=1
+sp|P0CK37|TRAP_BGYMV   214.4   5.1e-64   2   1.5   3.2    Transcriptional activator protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico) OX=222448 GN=AC2 PE=3 SV=1
+sp|P14968|TRAP_CLVN    213.2   1.2e-63   1   1.0   5.4    Transcriptional activator protein OS=African cassava mosaic virus (isolate Nigerian) OX=222073 GN=AC2 PE=3 SV=1
+sp|P0CK38|TRAP_BGYMJ   212.6   1.8e-63   2   1.5   3.4    Transcriptional activator protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico-Japan) OX=222449 GN=AC2 PE=3 SV=1
+sp|P14976|TRAP_CLVK    212.2   2.5e-63   1   1.0   4.1    Transcriptional activator protein OS=African cassava mosaic virus (isolate West Kenyan 844) OX=10818 GN=AC2 PE=1 SV=1
+sp|Q96703|TRAP_CALCV   210.9   6.4e-63   1   1.0   0.5    Transcriptional activator protein OS=Cabbage leaf curl virus (isolate Jamaica) OX=345184 GN=AC2 PE=1 SV=1
+sp|Q06658|TRAP_TMOV    210.4   8.9e-63   1   1.0   0.3    Transcriptional activator protein OS=Tomato mottle virus (isolate Florida) OX=223359 GN=AC2 PE=1 SV=1
+sp|P27263|TRAP_TYCSV   208.4   3.6e-62   1   1.0   8.8    Transcriptional activator protein OS=Tomato yellow leaf curl Sardinia virus OX=123735 GN=C2 PE=3 SV=1
+sp|Q67619|TRAP_TYCS2   205.1   3.9e-61   1   1.0   8.1    Transcriptional activator protein OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-2) OX=221538 GN=C2 PE=3 SV=1
+sp|P38610|TRAP_TYCS1   204.2     7e-61   1   1.0   7.7    Transcriptional activator protein OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-1) OX=37139 GN=C2 PE=3 SV=1
+sp|P27445|TRAP_SLCV    200.1   1.3e-59   1   1.0   0.7    Transcriptional activator protein OS=Squash leaf curl virus OX=10829 GN=AC2 PE=3 SV=1
+sp|Q06924|TRAP_PHUV    187.4   1.1e-55   1   1.0   2.4    Transcriptional activator protein OS=Pepper huasteco yellow vein virus OX=223303 GN=AC2 PE=3 SV=1
+sp|Q9YPS3|TRAP_MYMVV   184.4   9.2e-55   1   1.0   0.3    Transcriptional activator protein OS=Mungbean yellow mosaic virus (strain Vigna) OX=223295 GN=AC2 PE=3 SV=1
+sp|Q88889|C2_TPCTV     147.3   2.6e-43   1   1.0   0.1    Protein C2 OS=Tomato pseudo-curly top virus OX=49267 GN=C2 PE=3 SV=1
+sp|Q91J26|C2_BCTVC     118.8   1.6e-34   1   1.1   0.6    Protein C2 OS=Beet curly top virus (strain California/Logan) OX=268960 GN=C2 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q08589|TRAP_ICMV    226.4     1e-67     1   1.2      1    135      1    134      1    134     Transcriptional activator protein OS=Indian cassava mosaic virus OX=31600 GN=AC2 PE=3 SV=1
+sp|P03562|TRAP_TGMVY   220.3   7.5e-66     1   2.7      1    129      1    129      1    134     Transcriptional activator protein OS=Tomato golden mosaic virus (strain Yellow vein) OX=223341 GN=AC2 PE=1 SV=1
+sp|P27262|TRAP_TYLCI   219.6   1.3e-65     1   7.7      1    135      1    134      1    134     Transcriptional activator protein OS=Tomato yellow leaf curl virus (strain Israel) OX=66366 GN=C2 PE=1 SV=1
+sp|P27261|TRAP_PYMVV   219.1   1.8e-65     1   2.1      1    129      1    129      1    134     Transcriptional activator protein OS=Potato yellow mosaic virus (isolate Venezuela) OX=223310 GN=AC2 PE=3 SV=1
+sp|P21944|TRAP_ABMVW   218.4   3.1e-65     1   1.5      1    129      1    129      1    134     Transcriptional activator protein OS=Abutilon mosaic virus (isolate West India) OX=10816 GN=AC2 PE=3 SV=3
+sp|Q9DXE6|TRAP_TYLCC   217.9   4.2e-65     1   3.6      1    134      1    133      1    134     Transcriptional activator protein OS=Tomato yellow leaf curl China virus OX=185793 GN=C2 PE=1 SV=1
+sp|P36280|TRAP_TLCVA   216.4   1.3e-64     1   5.7      1    135      1    134      1    134     Transcriptional activator protein OS=Tomato leaf curl virus (strain Australia) OX=223353 GN=C2 PE=3 SV=1
+sp|P0CK37|TRAP_BGYMV   214.4   5.1e-64     2   3.2     44    172     44    172      1    134     Transcriptional activator protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico) OX=222448 GN=AC2 PE=3 SV=1
+sp|P14968|TRAP_CLVN    213.1   1.3e-63     1   5.4      1    135      1    134      1    134     Transcriptional activator protein OS=African cassava mosaic virus (isolate Nigerian) OX=222073 GN=AC2 PE=3 SV=1
+sp|P0CK38|TRAP_BGYMJ   212.6   1.8e-63     2   3.4     44    172     44    172      1    134     Transcriptional activator protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico-Japan) OX=222449 GN=AC2 PE=3 SV=1
+sp|P14976|TRAP_CLVK    212.0   2.7e-63     1   4.1      1    135      1    134      1    134     Transcriptional activator protein OS=African cassava mosaic virus (isolate West Kenyan 844) OX=10818 GN=AC2 PE=1 SV=1
+sp|Q96703|TRAP_CALCV   210.7     7e-63     1   0.5      1    129      1    129      1    134     Transcriptional activator protein OS=Cabbage leaf curl virus (isolate Jamaica) OX=345184 GN=AC2 PE=1 SV=1
+sp|Q06658|TRAP_TMOV    210.3   9.8e-63     1   0.3      1    129      1    129      1    134     Transcriptional activator protein OS=Tomato mottle virus (isolate Florida) OX=223359 GN=AC2 PE=1 SV=1
+sp|P27263|TRAP_TYCSV   208.3     4e-62     1   8.8      1    135      1    134      1    134     Transcriptional activator protein OS=Tomato yellow leaf curl Sardinia virus OX=123735 GN=C2 PE=3 SV=1
+sp|Q67619|TRAP_TYCS2   204.9   4.3e-61     1   8.1      1    135      1    134      1    134     Transcriptional activator protein OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-2) OX=221538 GN=C2 PE=3 SV=1
+sp|P38610|TRAP_TYCS1   204.1   7.7e-61     1   7.7      1    135      1    134      1    134     Transcriptional activator protein OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-1) OX=37139 GN=C2 PE=3 SV=1
+sp|P27445|TRAP_SLCV    200.0   1.4e-59     1   0.7      1    131      1    131      1    134     Transcriptional activator protein OS=Squash leaf curl virus OX=10829 GN=AC2 PE=3 SV=1
+sp|Q06924|TRAP_PHUV    187.2   1.3e-55     1   2.4      7    138      9    138      3    134     Transcriptional activator protein OS=Pepper huasteco yellow vein virus OX=223303 GN=AC2 PE=3 SV=1
+sp|Q9YPS3|TRAP_MYMVV   184.3     1e-54     1   0.3      1    135      1    134      1    134     Transcriptional activator protein OS=Mungbean yellow mosaic virus (strain Vigna) OX=223295 GN=AC2 PE=3 SV=1
+sp|Q88889|C2_TPCTV     147.2   2.8e-43     1   0.1      4    159     34    158      8    133     Protein C2 OS=Tomato pseudo-curly top virus OX=49267 GN=C2 PE=3 SV=1
+sp|Q91J26|C2_BCTVC     118.6     2e-34     1   0.6     34    165     34    162      1    134     Protein C2 OS=Beet curly top virus (strain California/Logan) OX=268960 GN=C2 PE=1 SV=1
+sp|P0CK37|TRAP_BGYMV    -2.1   3.5e+03     1   0.1      5     36     10     33      8     31     Transcriptional activator protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico) OX=222448 GN=AC2 PE=3 SV=1
+sp|P0CK38|TRAP_BGYMJ    -2.3     4e+03     1   0.1      5     35     10     33      8     31     Transcriptional activator protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico-Japan) OX=222449 GN=AC2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004901695@NC_016082.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004901695@NC_016082.txt data/models_hmm/YP_004901695@NC_016082.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:44 2021
+# [ok]

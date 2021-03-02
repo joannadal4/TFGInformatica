@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q4VPH7|VP72_FDVS      8.9      0.97   2   2.1   4.2    Uncharacterized protein VP7-2 OS=Fiji disease virus (isolate Sugarcane) OX=648172 GN=S7 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q4VPH7|VP72_FDVS      9.4      0.68     2   0.5    195    271    214    263    117    170     Uncharacterized protein VP7-2 OS=Fiji disease virus (isolate Sugarcane) OX=648172 GN=S7 PE=4 SV=1
+sp|Q4VPH7|VP72_FDVS      0.3   4.2e+02     1   0.2      4     71     16     65    141    184     Uncharacterized protein VP7-2 OS=Fiji disease virus (isolate Sugarcane) OX=648172 GN=S7 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000584@SRS049318_LANL_scaffold_22411@SRS049318_LANL_scaffold_22411_gene_26722.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000584@SRS049318_LANL_scaffold_22411@SRS049318_LANL_scaffold_22411_gene_26722.txt data/models_hmm/7000000584@SRS049318_LANL_scaffold_22411@SRS049318_LANL_scaffold_22411_gene_26722.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:26 2021
+# [ok]

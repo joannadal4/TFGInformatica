@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P51739|YO35_BPHC1    933.4  2.8e-281   1   1.0   0.1    Uncharacterized 58.7 kDa protein in lys 3'region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|P16009|BP5_BPT4       14.2      0.01   1   1.3   0.2    Baseplate central spike complex protein gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2
+sp|Q6WHG9|NEEDL_BPKVM     7.7      0.95   2   2.1  13.9    Protein Gp5 OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=5 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P51739|YO35_BPHC1    933.3  3.2e-281     1   0.1      1    533      1    533      1    534     Uncharacterized 58.7 kDa protein in lys 3'region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|P16009|BP5_BPT4       13.5     0.016     1   0.2    386    568    428    563    359    476     Baseplate central spike complex protein gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2
+sp|Q6WHG9|NEEDL_BPKVM     5.7       3.8     1   3.1    214    330    243    322    414    492     Protein Gp5 OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=5 PE=1 SV=1
+sp|Q6WHG9|NEEDL_BPKVM     4.0        12     2   9.3    299    417    314    387    384    454     Protein Gp5 OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=5 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_654755@NC_008193.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_654755@NC_008193.txt data/models_hmm/YP_654755@NC_008193.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:41 2021
+# [ok]

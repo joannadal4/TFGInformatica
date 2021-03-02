@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DOL5|E10_VAR67     14.2     0.034   1   1.4   0.7    Probable FAD-linked sulfhydryl oxidase E10 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=E10R PE=2 SV=1
+sp|P0DOL6|E10_VARV      14.2     0.034   1   1.4   0.7    Probable FAD-linked sulfhydryl oxidase E10 OS=Variola virus OX=10255 GN=E10R PE=2 SV=1
+sp|Q9J5C7|V093_FOWPN    13.0     0.079   1   1.4   0.5    Probable FAD-linked sulfhydryl oxidase FPV093 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV093 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DOL5|E10_VAR67     13.5     0.054     1   0.7     54     82     61     74     12     25     Probable FAD-linked sulfhydryl oxidase E10 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=E10R PE=2 SV=1
+sp|P0DOL6|E10_VARV      13.5     0.054     1   0.7     54     82     61     74     12     25     Probable FAD-linked sulfhydryl oxidase E10 OS=Variola virus OX=10255 GN=E10R PE=2 SV=1
+sp|Q9J5C7|V093_FOWPN    12.2      0.14     1   0.5     48     77     59     71     12     24     Probable FAD-linked sulfhydryl oxidase FPV093 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV093 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000001@SRS022530_LANL_scaffold_32433@SRS022530_LANL_scaffold_32433_gene_88820.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000001@SRS022530_LANL_scaffold_32433@SRS022530_LANL_scaffold_32433_gene_88820.txt data/models_hmm/7000000001@SRS022530_LANL_scaffold_32433@SRS022530_LANL_scaffold_32433_gene_88820.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:19 2021
+# [ok]

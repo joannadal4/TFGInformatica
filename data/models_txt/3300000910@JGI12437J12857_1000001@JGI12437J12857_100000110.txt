@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52437|ITP_HHV6U     17.8   0.00062   2   2.1   0.5    Inner tegument protein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U30 PE=3 SV=1
+sp|Q9QJ38|ITP_HHV6Z     14.8    0.0052   2   2.1   0.4    Inner tegument protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U30 PE=3 SV=1
+sp|P30003|UL37_HHV6G    10.8     0.083   1   1.2   0.1    Capsid assembly protein UL37 homolog (Fragment) OS=Human herpesvirus 6A (strain GS) OX=10369 GN=U30 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P30003|UL37_HHV6G    10.2      0.13     1   0.1    316    384    330    369    289    325     Capsid assembly protein UL37 homolog (Fragment) OS=Human herpesvirus 6A (strain GS) OX=10369 GN=U30 PE=3 SV=2
+sp|P52437|ITP_HHV6U      9.8      0.17     2   0.2    600    668    613    653    288    325     Inner tegument protein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U30 PE=3 SV=1
+sp|Q9QJ38|ITP_HHV6Z      6.9       1.2     1   0.0    240    341    262    317    400    455     Inner tegument protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U30 PE=3 SV=1
+sp|P52437|ITP_HHV6U      6.2       2.1     1   0.0    218    340    261    315    399    453     Inner tegument protein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U30 PE=3 SV=1
+sp|Q9QJ38|ITP_HHV6Z      5.9       2.6     2   0.2    594    669    620    653    290    325     Inner tegument protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U30 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000910@JGI12437J12857_1000001@JGI12437J12857_100000110.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000910@JGI12437J12857_1000001@JGI12437J12857_100000110.txt data/models_hmm/3300000910@JGI12437J12857_1000001@JGI12437J12857_100000110.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:17 2021
+# [ok]

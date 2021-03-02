@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27359|ENLYS_BPP21    12.8     0.091   2   1.9   0.3    SAR-endolysin OS=Enterobacteria phage P21 OX=10711 GN=R PE=1 SV=1
+sp|P10439|ENLYS_BPPA2    12.8     0.093   2   1.9   0.3    SAR-endolysin OS=Enterobacteria phage PA-2 OX=10738 GN=15 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P10439|ENLYS_BPPA2    10.5      0.47     1   0.0     49     87     53     85     20     52     SAR-endolysin OS=Enterobacteria phage PA-2 OX=10738 GN=15 PE=3 SV=1
+sp|P27359|ENLYS_BPP21    10.5      0.47     1   0.0     49     87     53     85     20     52     SAR-endolysin OS=Enterobacteria phage P21 OX=10711 GN=R PE=1 SV=1
+sp|P10439|ENLYS_BPPA2    -0.4   1.2e+03     2   0.1    140    154    143    150     12     19     SAR-endolysin OS=Enterobacteria phage PA-2 OX=10738 GN=15 PE=3 SV=1
+sp|P27359|ENLYS_BPP21    -0.4   1.2e+03     2   0.1    140    154    143    150     12     19     SAR-endolysin OS=Enterobacteria phage P21 OX=10711 GN=R PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000116@DelMOSpr2010_c10000196@DelMOSpr2010_1000019652.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000116@DelMOSpr2010_c10000196@DelMOSpr2010_1000019652.txt data/models_hmm/3300000116@DelMOSpr2010_c10000196@DelMOSpr2010_1000019652.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:43 2021
+# [ok]

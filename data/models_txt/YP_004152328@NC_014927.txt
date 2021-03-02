@@ -1,0 +1,40 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|D4N3P3|CAPSD_HCYV5   204.5   1.6e-60   1   1.0   4.4    Capsid protein OS=Human associated cyclovirus 1 (isolate Homo sapiens/Pakistan/PK5510/2007) OX=742918 GN=Cap PE=3 SV=1
+sp|Q9YUC8|CAPSD_BFDV     30.9     2e-07   2   1.6  11.7    Capsid protein OS=Beak and feather disease virus OX=77856 GN=Cap PE=1 SV=1
+sp|Q8QME6|CAPSD_CACV     19.0   0.00089   2   1.9   7.2    Probable capsid protein OS=Canary circovirus OX=142661 GN=Cap PE=3 SV=1
+sp|O56129|CAPSD_PCV2     18.3    0.0015   2   1.7   4.8    Capsid protein OS=Porcine circovirus 2 OX=85708 GN=Cap PE=1 SV=1
+sp|Q9YPD4|CAPSD_MBVLF    16.2    0.0063   1   1.2   0.1    Capsid protein OS=Mushroom bacilliform virus (isolate Australia/AUS LF-1) OX=650482 GN=ORF4 PE=4 SV=1
+sp|Q91EK1|CAPSD_GOCV      7.6       2.7   2   2.1  12.0    Probable capsid protein OS=Goose circovirus OX=146032 GN=Cap PE=3 SV=1
+sp|Q9IG42|CAPSD_PICV      6.1         8   2   1.7  20.0    Probable capsid protein OS=Pigeon circovirus OX=126070 GN=Cap PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|D4N3P3|CAPSD_HCYV5   204.3   1.8e-60     1   4.4      1    219      4    218      3    217     Capsid protein OS=Human associated cyclovirus 1 (isolate Homo sapiens/Pakistan/PK5510/2007) OX=742918 GN=Cap PE=3 SV=1
+sp|Q9YUC8|CAPSD_BFDV     30.9     2e-07     1  11.7     12    114     15    110      4     90     Capsid protein OS=Beak and feather disease virus OX=77856 GN=Cap PE=1 SV=1
+sp|O56129|CAPSD_PCV2     18.3    0.0015     1   4.8      1    116      5    108      5     91     Capsid protein OS=Porcine circovirus 2 OX=85708 GN=Cap PE=1 SV=1
+sp|Q8QME6|CAPSD_CACV     18.0    0.0018     1   5.2      4    115      9    109      3     92     Probable capsid protein OS=Canary circovirus OX=142661 GN=Cap PE=3 SV=1
+sp|Q9YPD4|CAPSD_MBVLF    15.9    0.0076     1   0.1      1    142      4     96      6     91     Capsid protein OS=Mushroom bacilliform virus (isolate Australia/AUS LF-1) OX=650482 GN=ORF4 PE=4 SV=1
+sp|Q9IG42|CAPSD_PICV      7.4       3.1     1  17.5      1    118      7    101      3     91     Probable capsid protein OS=Pigeon circovirus OX=126070 GN=Cap PE=3 SV=1
+sp|Q91EK1|CAPSD_GOCV      6.5       5.8     1   9.8      1     69      6     51      3     46     Probable capsid protein OS=Goose circovirus OX=146032 GN=Cap PE=3 SV=1
+sp|Q91EK1|CAPSD_GOCV      0.8   3.3e+02     2   0.0     99    138    105    123     75     93     Probable capsid protein OS=Goose circovirus OX=146032 GN=Cap PE=3 SV=1
+sp|Q8QME6|CAPSD_CACV      0.6   3.8e+02     2   0.0    170    245    205    240    174    212     Probable capsid protein OS=Canary circovirus OX=142661 GN=Cap PE=3 SV=1
+sp|Q9YUC8|CAPSD_BFDV     -2.8   4.1e+03     2   0.0    173    238    197    214     90    202     Capsid protein OS=Beak and feather disease virus OX=77856 GN=Cap PE=1 SV=1
+sp|Q9IG42|CAPSD_PICV     -3.3     6e+03     2   0.0    167    229    197    228    177    211     Probable capsid protein OS=Pigeon circovirus OX=126070 GN=Cap PE=3 SV=1
+sp|O56129|CAPSD_PCV2     -3.6     7e+03     2   0.1    203    223    210    222    199    211     Capsid protein OS=Porcine circovirus 2 OX=85708 GN=Cap PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004152328@NC_014927.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004152328@NC_014927.txt data/models_hmm/YP_004152328@NC_014927.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:07 2021
+# [ok]

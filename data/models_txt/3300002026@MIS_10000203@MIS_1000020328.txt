@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P16948|KP6T_UMV6     11.9      0.14   2   1.4   0.2    KP6 killer toxin OS=Ustilago maydis P6 virus OX=11010 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P16948|KP6T_UMV6     11.0      0.24     2   0.0    130    207    137    194    133    188     KP6 killer toxin OS=Ustilago maydis P6 virus OX=11010 PE=1 SV=1
+sp|P16948|KP6T_UMV6     -3.4   6.2e+03     1   0.1     57    101     61     84    123    147     KP6 killer toxin OS=Ustilago maydis P6 virus OX=11010 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000203@MIS_1000020328.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000203@MIS_1000020328.txt data/models_hmm/3300002026@MIS_10000203@MIS_1000020328.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:50 2021
+# [ok]

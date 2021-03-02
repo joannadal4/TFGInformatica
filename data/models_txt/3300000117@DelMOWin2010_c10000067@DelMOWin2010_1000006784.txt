@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03740|TFA_LAMBD      14.7     0.019   1   1.8   0.1    Tail fiber assembly protein OS=Escherichia phage lambda OX=10710 GN=tfa PE=1 SV=1
+sp|Q5UQJ3|YL862_MIMIV    13.2     0.058   3   1.9   0.3    Uncharacterized protein L862 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L862 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03740|TFA_LAMBD      13.2     0.056     1   0.1     54    174    112    156     85    129     Tail fiber assembly protein OS=Escherichia phage lambda OX=10710 GN=tfa PE=1 SV=1
+sp|Q5UQJ3|YL862_MIMIV    13.2     0.058     1   0.3     18    150     57    147     62    155     Uncharacterized protein L862 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L862 PE=3 SV=1
+sp|Q5UQJ3|YL862_MIMIV    -2.5   3.7e+03     3   0.2    190    271    240    240    108    108     Uncharacterized protein L862 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L862 PE=3 SV=1
+sp|Q5UQJ3|YL862_MIMIV    -3.2   6.4e+03     2   0.1    171    234    200    208    122    130     Uncharacterized protein L862 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L862 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000117@DelMOWin2010_c10000067@DelMOWin2010_1000006784.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000117@DelMOWin2010_c10000067@DelMOWin2010_1000006784.txt data/models_hmm/3300000117@DelMOWin2010_c10000067@DelMOWin2010_1000006784.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:49 2021
+# [ok]

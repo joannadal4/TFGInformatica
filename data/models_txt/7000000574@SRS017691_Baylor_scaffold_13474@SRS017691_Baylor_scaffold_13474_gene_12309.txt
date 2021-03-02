@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P22917|Y16D_BPT4     12.4      0.12   2   2.1   0.2    Uncharacterized 17.8 kDa protein in arn-motA intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16D PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P22917|Y16D_BPT4      9.0       1.3     1   0.1     34     89     56     78     34     56     Uncharacterized 17.8 kDa protein in arn-motA intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16D PE=4 SV=2
+sp|P22917|Y16D_BPT4      1.4   3.1e+02     2   0.0     84    145     91    134     27     70     Uncharacterized 17.8 kDa protein in arn-motA intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16D PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000574@SRS017691_Baylor_scaffold_13474@SRS017691_Baylor_scaffold_13474_gene_12309.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000574@SRS017691_Baylor_scaffold_13474@SRS017691_Baylor_scaffold_13474_gene_12309.txt data/models_hmm/7000000574@SRS017691_Baylor_scaffold_13474@SRS017691_Baylor_scaffold_13474_gene_12309.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:19 2021
+# [ok]

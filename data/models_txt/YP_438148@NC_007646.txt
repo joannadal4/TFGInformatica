@@ -1,0 +1,44 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HFD2|ORF24_HHV8P  1093.8         0   1   1.0   0.1    Protein ORF24 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF24 PE=3 SV=1
+sp|Q01007|UL87_SHV21   1083.5         0   1   1.0  16.9    Gene 24 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=24 PE=3 SV=1
+sp|O36374|UL87_ALHV1   1043.2         0   1   1.0   8.6    Uncharacterized gene 24 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=24 PE=3 SV=1
+sp|Q66627|UL87_EHV2    1010.8         0   1   1.0   0.0    Gene 24 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=24 PE=3 SV=2
+sp|P25215|UL87_EBVB9    812.9  2.7e-244   1   1.0   0.0    TBP-like protein BcRF1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BcRF1 PE=3 SV=1
+sp|P16730|UL87_HCMVA    298.4   1.1e-88   1   1.1   0.3    Protein UL87 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL87 PE=3 SV=1
+sp|Q6SW55|UL87_HCMVM    298.3   1.2e-88   1   1.1   0.3    Uncharacterized protein UL87 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL87 PE=3 SV=1
+sp|Q18LD9|UL87_ELHVK    274.1   2.5e-81   1   1.9  23.9    Protein U58 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+sp|P24437|UL87_HHV6U    268.0   1.8e-79   1   1.5  13.2    Protein U58 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U58 PE=3 SV=1
+sp|Q9QJ25|UL87_HHV6Z    265.8   8.2e-79   1   1.6  13.6    Protein U58 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U58 PE=3 SV=1
+sp|P52363|UL87_HHV7J    262.0   1.1e-77   2   2.2  19.6    Protein U58 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U58 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HFD2|ORF24_HHV8P  1093.6         0     1   0.1      5    739      8    737      4    734     Protein ORF24 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF24 PE=3 SV=1
+sp|Q01007|UL87_SHV21   1083.3         0     1  16.9      1    731      2    729      2    734     Gene 24 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=24 PE=3 SV=1
+sp|O36374|UL87_ALHV1   1043.0         0     1   8.6      5    733      6    730      2    733     Uncharacterized gene 24 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=24 PE=3 SV=1
+sp|Q66627|UL87_EHV2    1010.6  4.3e-304     1   0.0     10    768     11    767      2    730     Gene 24 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=24 PE=3 SV=2
+sp|P25215|UL87_EBVB9    812.7  3.1e-244     1   0.0      1    559      1    555    192    732     TBP-like protein BcRF1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BcRF1 PE=3 SV=1
+sp|P16730|UL87_HCMVA    298.0   1.5e-88     1   0.3    432    886    539    868    399    717     Protein UL87 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL87 PE=3 SV=1
+sp|Q6SW55|UL87_HCMVM    297.8   1.7e-88     1   0.3    427    885    535    868    396    717     Uncharacterized protein UL87 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL87 PE=3 SV=1
+sp|Q18LD9|UL87_ELHVK    271.1     2e-80     1  23.9     66    756     82    729     64    702     Protein U58 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+sp|P24437|UL87_HHV6U    266.9   3.8e-79     1  13.2     78    762     81    739     63    713     Protein U58 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U58 PE=3 SV=1
+sp|Q9QJ25|UL87_HHV6Z    264.4   2.2e-78     1  13.6     78    761     81    739     63    713     Protein U58 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U58 PE=3 SV=1
+sp|P52363|UL87_HHV7J    258.3   1.5e-76     2  10.0    360    754    414    741    403    724     Protein U58 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U58 PE=3 SV=1
+sp|P52363|UL87_HHV7J      9.2      0.33     1   2.0     72    295     81    244     63    206     Protein U58 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U58 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_438148@NC_007646.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_438148@NC_007646.txt data/models_hmm/YP_438148@NC_007646.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:33 2021
+# [ok]

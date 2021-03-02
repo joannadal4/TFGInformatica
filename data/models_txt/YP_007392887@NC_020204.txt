@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q04830|FIBER_BPK1F   208.1   1.7e-61   1   1.3   0.2    Tail spike protein OS=Escherichia phage K1F OX=344021 PE=1 SV=4
+sp|Q9XJP3|FIBER_BPSFV    50.9     6e-14   1   1.5   0.3    Tail spike protein OS=Shigella phage Sf6 OX=10761 PE=1 SV=2
+sp|P10308|FIBER_BPT3     17.7   0.00066   2   2.1  12.2    Tail fiber protein OS=Enterobacteria phage T3 OX=10759 GN=17 PE=3 SV=1
+sp|P35988|CAP6_ADE12     10.2      0.12   1   1.1   0.3    Pre-protein VI OS=Human adenovirus A serotype 12 OX=28282 GN=L3 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q04830|FIBER_BPK1F   207.4   2.8e-61     1   0.2      1    234      1    226      1    147     Tail spike protein OS=Escherichia phage K1F OX=344021 PE=1 SV=4
+sp|Q9XJP3|FIBER_BPSFV    49.8   1.3e-13     1   0.3    121    265    131    231    140    242     Tail spike protein OS=Shigella phage Sf6 OX=10761 PE=1 SV=2
+sp|P10308|FIBER_BPT3     16.5    0.0015     1   0.2     70    174     80    160      9     90     Tail fiber protein OS=Enterobacteria phage T3 OX=10759 GN=17 PE=3 SV=1
+sp|P35988|CAP6_ADE12      9.8      0.17     1   0.3      7    107     20     79     85    140     Pre-protein VI OS=Human adenovirus A serotype 12 OX=28282 GN=L3 PE=1 SV=1
+sp|P10308|FIBER_BPT3      4.3       7.3     2   6.5    184    294    201    289     16    105     Tail fiber protein OS=Enterobacteria phage T3 OX=10759 GN=17 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007392887@NC_020204.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007392887@NC_020204.txt data/models_hmm/YP_007392887@NC_020204.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:56 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36803|VE6_HPV12     16.3    0.0074   1   1.2   0.1    Protein E6 OS=Human papillomavirus type 12 OX=10604 GN=E6 PE=3 SV=1
+sp|P06428|VE6_HPV08     13.5     0.057   1   1.2   0.1    Protein E6 OS=Human papillomavirus type 8 OX=10579 GN=E6 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36803|VE6_HPV12     15.8     0.011     1   0.1     54    126     62    121      9     69     Protein E6 OS=Human papillomavirus type 12 OX=10604 GN=E6 PE=3 SV=1
+sp|P06428|VE6_HPV08     12.9     0.086     1   0.1     54    124     62    120      9     68     Protein E6 OS=Human papillomavirus type 8 OX=10579 GN=E6 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001784@JGI20225J20221_1000468@JGI20225J20221_100046856.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001784@JGI20225J20221_1000468@JGI20225J20221_100046856.txt data/models_hmm/3300001784@JGI20225J20221_1000468@JGI20225J20221_100046856.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:22 2021
+# [ok]

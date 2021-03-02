@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q01017|GM_SHV21       8.1         3   4   3.3   6.4    Envelope glycoprotein M OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=gM PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q01017|GM_SHV21       7.7       3.9     1   0.0     61     84     66     82     17     33     Envelope glycoprotein M OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=gM PE=3 SV=1
+sp|Q01017|GM_SHV21       2.0   2.4e+02     2   0.2    136    162    139    157     26     44     Envelope glycoprotein M OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=gM PE=3 SV=1
+sp|Q01017|GM_SHV21      -2.3   5.4e+03     4   0.0    311    341    319    328      7     33     Envelope glycoprotein M OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=gM PE=3 SV=1
+sp|Q01017|GM_SHV21      -3.7   1.5e+04     3   0.3    209    226    216    225     26     35     Envelope glycoprotein M OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=gM PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_073725@NC_005902.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_073725@NC_005902.txt data/models_hmm/YP_073725@NC_005902.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:01 2021
+# [ok]

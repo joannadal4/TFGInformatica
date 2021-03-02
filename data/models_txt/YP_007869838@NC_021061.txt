@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05328|LYSB_BPML5    31.9   6.4e-08   1   1.1   0.0    Endolysin B OS=Mycobacterium phage L5 OX=31757 GN=12 PE=3 SV=1
+sp|O64205|LYSB_BPMD2    30.7   1.5e-07   1   1.1   0.0    Endolysin B OS=Mycobacterium phage D29 OX=28369 GN=12 PE=1 SV=1
+sp|A8D8S8|VP7_ROTBC     13.2      0.03   1   1.2   0.1    Outer capsid glycoprotein VP7 (Fragment) OS=Rotavirus A (strain RVA/Cow/Canada/C486/1977/G6P6[1]) OX=10931 PE=3 SV=1
+sp|Q6UDK4|GB_PSHV1      12.2     0.064   1   1.3   0.4    Envelope glycoprotein B OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=gB PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05328|LYSB_BPML5    31.6   8.1e-08     1   0.0     37    209     48    175    142    260     Endolysin B OS=Mycobacterium phage L5 OX=31757 GN=12 PE=3 SV=1
+sp|O64205|LYSB_BPMD2    30.4   1.8e-07     1   0.0     37    224     48    175    142    260     Endolysin B OS=Mycobacterium phage D29 OX=28369 GN=12 PE=1 SV=1
+sp|A8D8S8|VP7_ROTBC     12.6     0.047     1   0.1    197    302    226    294     53    120     Outer capsid glycoprotein VP7 (Fragment) OS=Rotavirus A (strain RVA/Cow/Canada/C486/1977/G6P6[1]) OX=10931 PE=3 SV=1
+sp|Q6UDK4|GB_PSHV1      11.4      0.11     1   0.4    712    813    721    798    270    333     Envelope glycoprotein B OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=gB PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007869838@NC_021061.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007869838@NC_021061.txt data/models_hmm/YP_007869838@NC_021061.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:06 2021
+# [ok]

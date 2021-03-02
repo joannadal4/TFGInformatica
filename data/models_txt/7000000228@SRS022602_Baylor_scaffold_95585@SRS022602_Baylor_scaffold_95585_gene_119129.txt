@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q0PDK7|TMP_BPSPP      6.5       2.9   3   3.5   8.4    Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q0PDK7|TMP_BPSPP      5.1       7.6     2   0.2    637    757    656    740    389    473     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|Q0PDK7|TMP_BPSPP      2.5        48     1   0.4    125    216    147    202    378    429     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|Q0PDK7|TMP_BPSPP      1.6        88     3   0.1    831    884    842    880    138    176     Tail tape measure protein gp18 OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000228@SRS022602_Baylor_scaffold_95585@SRS022602_Baylor_scaffold_95585_gene_119129.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000228@SRS022602_Baylor_scaffold_95585@SRS022602_Baylor_scaffold_95585_gene_119129.txt data/models_hmm/7000000228@SRS022602_Baylor_scaffold_95585@SRS022602_Baylor_scaffold_95585_gene_119129.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:32 2021
+# [ok]

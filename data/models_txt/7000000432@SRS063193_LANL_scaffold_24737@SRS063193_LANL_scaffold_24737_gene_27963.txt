@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P11041|PYHD_CPVBM    13.0     0.083   2   2.1   0.1    Polyhedrin OS=Bombyx mori cytoplasmic polyhedrosis virus OX=110829 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P11041|PYHD_CPVBM    10.8       0.4     2   0.0    117    176    121    153      6     38     Polyhedrin OS=Bombyx mori cytoplasmic polyhedrosis virus OX=110829 PE=1 SV=1
+sp|P11041|PYHD_CPVBM    -1.5   2.6e+03     1   0.1     15     37     17     31     56     70     Polyhedrin OS=Bombyx mori cytoplasmic polyhedrosis virus OX=110829 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000432@SRS063193_LANL_scaffold_24737@SRS063193_LANL_scaffold_24737_gene_27963.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000432@SRS063193_LANL_scaffold_24737@SRS063193_LANL_scaffold_24737_gene_27963.txt data/models_hmm/7000000432@SRS063193_LANL_scaffold_24737@SRS063193_LANL_scaffold_24737_gene_27963.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:07 2021
+# [ok]

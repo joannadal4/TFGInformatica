@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQI8|YR837_MIMIV     9.1         1   4   3.7  10.6    Putative ankyrin repeat protein R837 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R837 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQI8|YR837_MIMIV    10.6      0.36     1   0.2     24     94     38     81     24     67     Putative ankyrin repeat protein R837 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R837 PE=4 SV=1
+sp|Q5UQI8|YR837_MIMIV     2.0   1.5e+02     3   0.7    378    458    382    445      5     72     Putative ankyrin repeat protein R837 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R837 PE=4 SV=1
+sp|Q5UQI8|YR837_MIMIV     0.3   5.3e+02     4   0.0    582    625    589    622     17     50     Putative ankyrin repeat protein R837 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R837 PE=4 SV=1
+sp|Q5UQI8|YR837_MIMIV    -2.3   3.3e+03     2   0.0    176    212    185    210    133    158     Putative ankyrin repeat protein R837 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R837 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000564@SRS016225_WUGC_scaffold_7108@SRS016225_WUGC_scaffold_7108_gene_7431.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000564@SRS016225_WUGC_scaffold_7108@SRS016225_WUGC_scaffold_7108_gene_7431.txt data/models_hmm/7000000564@SRS016225_WUGC_scaffold_7108@SRS016225_WUGC_scaffold_7108_gene_7431.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:18 2021
+# [ok]

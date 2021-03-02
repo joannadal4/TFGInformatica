@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P12434|VP2_BTV1A     14.4     0.026   2   2.7   0.0    Outer capsid protein VP2 OS=Bluetongue virus 1 (isolate Australia) OX=10904 GN=Segment-2 PE=3 SV=2
+sp|Q66653|VG51_EHV2     13.4     0.054   2   2.1   0.1    Putative C-type lectin protein 51 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=51 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q66653|VG51_EHV2     11.3      0.24     1   0.1     54    124     63    120     12     70     Putative C-type lectin protein 51 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=51 PE=3 SV=2
+sp|P12434|VP2_BTV1A     10.7      0.36     2   0.0    735    811    776    809     44     77     Outer capsid protein VP2 OS=Bluetongue virus 1 (isolate Australia) OX=10904 GN=Segment-2 PE=3 SV=2
+sp|P12434|VP2_BTV1A     -0.3     1e+03     1   0.0    103    154    107    147     15     55     Outer capsid protein VP2 OS=Bluetongue virus 1 (isolate Australia) OX=10904 GN=Segment-2 PE=3 SV=2
+sp|Q66653|VG51_EHV2     -1.8   2.9e+03     2   0.0    141    174    151    170     55     73     Putative C-type lectin protein 51 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=51 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001242@C687J13896_1000008@C687J13896_100000841.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001242@C687J13896_1000008@C687J13896_100000841.txt data/models_hmm/3300001242@C687J13896_1000008@C687J13896_100000841.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:33 2021
+# [ok]

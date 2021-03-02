@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q914M5|Y005_SIFVH    166.6   1.1e-49   1   1.0  12.6    Uncharacterized protein 5 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0005 PE=4 SV=1
+sp|Q5UR53|YL583_MIMIV    12.4      0.14   2   2.1   4.9    Uncharacterized protein L583 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L583 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q914M5|Y005_SIFVH    166.5   1.2e-49     1  12.6      4     97      4     97      1     94     Uncharacterized protein 5 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0005 PE=4 SV=1
+sp|Q5UR53|YL583_MIMIV     9.2       1.4     1   0.7     17     55     24     44     55     75     Uncharacterized protein L583 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L583 PE=4 SV=1
+sp|Q5UR53|YL583_MIMIV     5.5        20     2   0.3     54    101     67     93     45     71     Uncharacterized protein L583 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L583 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001604165@NC_010152.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001604165@NC_010152.txt data/models_hmm/YP_001604165@NC_010152.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:34 2021
+# [ok]

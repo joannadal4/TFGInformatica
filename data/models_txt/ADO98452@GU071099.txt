@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39503|SPAN2_BPT4     13.1     0.051   2   2.2   0.1    Spanin, outer lipoprotein subunit OS=Enterobacteria phage T4 OX=10665 GN=y13J PE=3 SV=3
+sp|Q5UQ52|YR708_MIMIV    12.6     0.072   1   1.8   0.0    Uncharacterized phosphoglycerate mutase family protein R708 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R708 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ52|YR708_MIMIV    11.4      0.18     1   0.0    125    183    143    180     20     56     Uncharacterized phosphoglycerate mutase family protein R708 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R708 PE=3 SV=1
+sp|P39503|SPAN2_BPT4      7.7       2.4     2   0.1     57     82     65     77     28     40     Spanin, outer lipoprotein subunit OS=Enterobacteria phage T4 OX=10665 GN=y13J PE=3 SV=3
+sp|P39503|SPAN2_BPT4      3.3        58     1   0.0     22     46     24     42     38     54     Spanin, outer lipoprotein subunit OS=Enterobacteria phage T4 OX=10665 GN=y13J PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ADO98452@GU071099.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ADO98452@GU071099.txt data/models_hmm/ADO98452@GU071099.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:23 2021
+# [ok]

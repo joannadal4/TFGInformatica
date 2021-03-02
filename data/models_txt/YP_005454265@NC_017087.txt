@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|C1JJY7|VP8_HAPV1     451.4  2.5e-135   1   1.0   0.0    Virion protein 8 OS=Halorubrum pleomorphic virus 1 OX=634168 GN=ORF8 PE=4 SV=1
+sp|Q5UQ72|RFCS4_MIMIV    19.7   0.00038   1   1.2   0.0    Putative replication factor C small subunit L510 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R510 PE=3 SV=1
+sp|Q25BH9|Y016_HIS1I     19.0   0.00063   2   2.0   0.4    Uncharacterized protein ORF16 OS=His1 virus (isolate Australia/Victoria) OX=654912 GN=ORF16 PE=4 SV=1
+sp|P15893|ORF2_SPV1R     15.0      0.01   1   1.2   0.0    Uncharacterized protein ORF2 OS=Spiroplasma virus SpV1-R8A2 B OX=10854 GN=ORF2 PE=3 SV=2
+sp|Q88427|ORF2_SPV1C     14.1     0.019   1   1.2   0.0    Uncharacterized protein ORF2 OS=Spiroplasma virus SpV1-C74 OX=185959 GN=ORF2 PE=3 SV=1
+sp|Q9XJR9|P9_BPPM2       12.9     0.044   1   1.5   0.0    Protein P9 OS=Pseudoalteromonas phage PM2 OX=10661 GN=IX PE=1 SV=2
+sp|P0C8I6|KITH_ASFWA     10.9      0.18   1   1.1   0.0    Thymidine kinase OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-060 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|C1JJY7|VP8_HAPV1     451.3  2.7e-135     1   0.0      1    343     23    343      7    320     Virion protein 8 OS=Halorubrum pleomorphic virus 1 OX=634168 GN=ORF8 PE=4 SV=1
+sp|Q5UQ72|RFCS4_MIMIV    19.2   0.00054     1   0.0     15    194     19    142    106    217     Putative replication factor C small subunit L510 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R510 PE=3 SV=1
+sp|P15893|ORF2_SPV1R     14.4     0.015     1   0.0     69    213     76    156    126    206     Uncharacterized protein ORF2 OS=Spiroplasma virus SpV1-R8A2 B OX=10854 GN=ORF2 PE=3 SV=2
+sp|Q88427|ORF2_SPV1C     13.7     0.026     1   0.0     66    199     76    154    126    204     Uncharacterized protein ORF2 OS=Spiroplasma virus SpV1-C74 OX=185959 GN=ORF2 PE=3 SV=1
+sp|Q9XJR9|P9_BPPM2       11.8     0.094     1   0.0     15    210     22    205    129    291     Protein P9 OS=Pseudoalteromonas phage PM2 OX=10661 GN=IX PE=1 SV=2
+sp|Q25BH9|Y016_HIS1I     11.6      0.11     2   0.2    196    308    241    306    310    370     Uncharacterized protein ORF16 OS=His1 virus (isolate Australia/Victoria) OX=654912 GN=ORF16 PE=4 SV=1
+sp|P0C8I6|KITH_ASFWA     10.8       0.2     1   0.0      1     93      8     49    123    164     Thymidine kinase OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-060 PE=3 SV=1
+sp|Q25BH9|Y016_HIS1I      5.9         6     1   0.0     28    156     61    130    134    205     Uncharacterized protein ORF16 OS=His1 virus (isolate Australia/Victoria) OX=654912 GN=ORF16 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_005454265@NC_017087.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_005454265@NC_017087.txt data/models_hmm/YP_005454265@NC_017087.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:07 2021
+# [ok]

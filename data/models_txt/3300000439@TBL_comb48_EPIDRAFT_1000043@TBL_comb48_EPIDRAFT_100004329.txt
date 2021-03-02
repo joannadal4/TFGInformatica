@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q66671|UL32_EHV2      5.9         2   1   1.1   5.5    Packaging protein UL32 homolog OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=68 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q66671|UL32_EHV2      5.4       2.8     1   5.5    164    253    180    248    937   1003     Packaging protein UL32 homolog OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=68 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000043@TBL_comb48_EPIDRAFT_100004329.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000043@TBL_comb48_EPIDRAFT_100004329.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000043@TBL_comb48_EPIDRAFT_100004329.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:39 2021
+# [ok]

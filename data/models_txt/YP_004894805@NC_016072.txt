@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UR70|YR626_MIMIV   942.8  5.3e-284   1   1.0  52.3    Uncharacterized protein R626 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R626 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UR70|YR626_MIMIV   942.5  6.5e-284     1  52.3      1    593      1    590      1    559     Uncharacterized protein R626 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R626 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004894805@NC_016072.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004894805@NC_016072.txt data/models_hmm/YP_004894805@NC_016072.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:42 2021
+# [ok]

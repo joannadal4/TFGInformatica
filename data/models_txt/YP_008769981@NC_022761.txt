@@ -1,0 +1,57 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13390|FIBL1_BPT5     84.0   5.5e-24   1   1.8  65.8    L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+sp|B0FIH7|FIB11_BPE32    36.7   1.1e-09   1   1.1   2.9    Probable tail fiber protein OS=Escherichia phage Phieco32 OX=490103 GN=phi32_15 PE=4 SV=1
+sp|P10308|FIBER_BPT3     26.8   1.1e-06   1   1.2   6.2    Tail fiber protein OS=Enterobacteria phage T3 OX=10759 GN=17 PE=3 SV=1
+sp|P03748|FIBER_BPT7     23.9   7.9e-06   2   1.4  11.9    Tail fiber protein OS=Escherichia phage T7 OX=10760 GN=17 PE=1 SV=1
+sp|Q9JFD9|PAP1_VACCT     10.3      0.11   2   2.1   0.3    Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=PAPL PE=3 SV=1
+sp|O57184|PAP1_VACCA     10.3      0.11   2   2.1   0.3    Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=PAPL PE=3 SV=1
+sp|Q6RZP5|PAP1_RABPU     10.3      0.11   2   2.1   0.3    Poly(A) polymerase catalytic subunit OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=PAPL PE=3 SV=1
+sp|Q80E12|PAP1_CWPXG     10.3      0.11   2   2.1   0.3    Poly(A) polymerase catalytic subunit OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=PAPL PE=3 SV=1
+sp|P21079|PAP1_VACCC     10.2      0.11   2   2.1   0.3    Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PAPL PE=3 SV=1
+sp|Q8QMZ9|PAP1_CWPXB     10.2      0.11   2   2.1   0.4    Poly(A) polymerase catalytic subunit OS=Cowpox virus (strain Brighton Red) OX=265872 GN=PAPL PE=3 SV=1
+sp|Q8V2W4|PAP1_CAMPM     10.1      0.12   2   2.1   0.4    Poly(A) polymerase catalytic subunit OS=Camelpox virus (strain M-96) OX=203173 GN=PAPL PE=3 SV=1
+sp|Q8QQ67|PAP1_CAMPS     10.1      0.12   2   2.1   0.4    Poly(A) polymerase catalytic subunit OS=Camelpox virus (strain CMS) OX=203172 GN=PAPL PE=3 SV=1
+sp|Q8JLG4|PAP1_ECTVM     10.0      0.13   2   2.1   0.4    Poly(A) polymerase catalytic subunit OS=Ectromelia virus (strain Moscow) OX=265874 GN=PAPL PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13390|FIBL1_BPT5     82.2   1.9e-23     1  65.8      1    239      4    219      5    235     L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+sp|B0FIH7|FIB11_BPE32    36.1   1.7e-09     1   2.9    228    439    238    422    589    778     Probable tail fiber protein OS=Escherichia phage Phieco32 OX=490103 GN=phi32_15 PE=4 SV=1
+sp|P10308|FIBER_BPT3     26.2   1.7e-06     1   6.2    129    288    159    280    138    259     Tail fiber protein OS=Enterobacteria phage T3 OX=10759 GN=17 PE=3 SV=1
+sp|P03748|FIBER_BPT7     23.9   7.9e-06     2  11.9    130    293    159    280    138    259     Tail fiber protein OS=Escherichia phage T7 OX=10760 GN=17 PE=1 SV=1
+sp|O57184|PAP1_VACCA      4.0       8.6     1   0.5     34    133     45    122    253    330     Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=PAPL PE=3 SV=1
+sp|P21079|PAP1_VACCC      4.0       8.6     1   0.5     34    133     45    122    253    330     Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PAPL PE=3 SV=1
+sp|Q6RZP5|PAP1_RABPU      4.0       8.6     1   0.5     34    133     45    122    253    330     Poly(A) polymerase catalytic subunit OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=PAPL PE=3 SV=1
+sp|Q80E12|PAP1_CWPXG      4.0       8.6     1   0.5     34    133     45    122    253    330     Poly(A) polymerase catalytic subunit OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=PAPL PE=3 SV=1
+sp|Q9JFD9|PAP1_VACCT      4.0       8.6     1   0.5     34    133     45    122    253    330     Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=PAPL PE=3 SV=1
+sp|Q8JLG4|PAP1_ECTVM      3.9       8.7     2   0.0    408    474    437    471    556    590     Poly(A) polymerase catalytic subunit OS=Ectromelia virus (strain Moscow) OX=265874 GN=PAPL PE=3 SV=1
+sp|Q8QMZ9|PAP1_CWPXB      3.8       9.2     1   0.6     35    133     45    122    253    330     Poly(A) polymerase catalytic subunit OS=Cowpox virus (strain Brighton Red) OX=265872 GN=PAPL PE=3 SV=1
+sp|O57184|PAP1_VACCA      3.8       9.3     2   0.0    424    474    437    471    556    590     Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=PAPL PE=3 SV=1
+sp|P21079|PAP1_VACCC      3.8       9.3     2   0.0    424    474    437    471    556    590     Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PAPL PE=3 SV=1
+sp|Q6RZP5|PAP1_RABPU      3.8       9.3     2   0.0    424    474    437    471    556    590     Poly(A) polymerase catalytic subunit OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=PAPL PE=3 SV=1
+sp|Q80E12|PAP1_CWPXG      3.8       9.3     2   0.0    424    474    437    471    556    590     Poly(A) polymerase catalytic subunit OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=PAPL PE=3 SV=1
+sp|Q8QMZ9|PAP1_CWPXB      3.8       9.3     2   0.0    424    474    437    471    556    590     Poly(A) polymerase catalytic subunit OS=Cowpox virus (strain Brighton Red) OX=265872 GN=PAPL PE=3 SV=1
+sp|Q8QQ67|PAP1_CAMPS      3.8       9.3     2   0.0    424    474    437    471    556    590     Poly(A) polymerase catalytic subunit OS=Camelpox virus (strain CMS) OX=203172 GN=PAPL PE=3 SV=1
+sp|Q8V2W4|PAP1_CAMPM      3.8       9.3     2   0.0    424    474    437    471    556    590     Poly(A) polymerase catalytic subunit OS=Camelpox virus (strain M-96) OX=203173 GN=PAPL PE=3 SV=1
+sp|Q9JFD9|PAP1_VACCT      3.8       9.3     2   0.0    424    474    437    471    556    590     Poly(A) polymerase catalytic subunit OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=PAPL PE=3 SV=1
+sp|Q8JLG4|PAP1_ECTVM      3.7        10     1   0.6     37    133     45    122    253    330     Poly(A) polymerase catalytic subunit OS=Ectromelia virus (strain Moscow) OX=265874 GN=PAPL PE=3 SV=1
+sp|Q8QQ67|PAP1_CAMPS      3.7        10     1   0.6     37    133     45    122    253    330     Poly(A) polymerase catalytic subunit OS=Camelpox virus (strain CMS) OX=203172 GN=PAPL PE=3 SV=1
+sp|Q8V2W4|PAP1_CAMPM      3.7        10     1   0.6     37    133     45    122    253    330     Poly(A) polymerase catalytic subunit OS=Camelpox virus (strain M-96) OX=203173 GN=PAPL PE=3 SV=1
+sp|P03748|FIBER_BPT7     -3.3   1.3e+03     1   0.0     78    111     80    108    412    440     Tail fiber protein OS=Escherichia phage T7 OX=10760 GN=17 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008769981@NC_022761.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008769981@NC_022761.txt data/models_hmm/YP_008769981@NC_022761.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:26 2021
+# [ok]

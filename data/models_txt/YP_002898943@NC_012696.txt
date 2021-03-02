@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q3V4S9|Y409_ATV      12.2      0.15   1   1.7   0.0    Putative transposase ORF409 OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+sp|Q9T1T4|VP14_BPAPS    11.6      0.22   1   1.4   0.3    Putative protein p14 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=14 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q3V4S9|Y409_ATV      10.9      0.37     1   0.0     15     44     19     41      7     29     Putative transposase ORF409 OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+sp|Q9T1T4|VP14_BPAPS    10.8      0.38     1   0.3      1     26      3     22     24     43     Putative protein p14 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=14 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002898943@NC_012696.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002898943@NC_012696.txt data/models_hmm/YP_002898943@NC_012696.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:13 2021
+# [ok]

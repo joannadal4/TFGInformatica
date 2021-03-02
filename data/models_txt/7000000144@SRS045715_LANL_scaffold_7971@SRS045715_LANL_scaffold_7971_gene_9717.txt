@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|I7HHN4|PORTL_BPKHP    14.1     0.035   3   2.9   0.2    Portal protein OS=Helicobacter pylori bacteriophage KHP30 OX=1208236 GN=ORF17 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|I7HHN4|PORTL_BPKHP     8.9       1.3     2   0.0    234    300    247    276     33     61     Portal protein OS=Helicobacter pylori bacteriophage KHP30 OX=1208236 GN=ORF17 PE=1 SV=1
+sp|I7HHN4|PORTL_BPKHP     0.9   3.9e+02     1   0.0    102    175    110    154     15     58     Portal protein OS=Helicobacter pylori bacteriophage KHP30 OX=1208236 GN=ORF17 PE=1 SV=1
+sp|I7HHN4|PORTL_BPKHP    -1.1   1.7e+03     3   0.0    293    398    304    375     18     94     Portal protein OS=Helicobacter pylori bacteriophage KHP30 OX=1208236 GN=ORF17 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000144@SRS045715_LANL_scaffold_7971@SRS045715_LANL_scaffold_7971_gene_9717.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000144@SRS045715_LANL_scaffold_7971@SRS045715_LANL_scaffold_7971_gene_9717.txt data/models_hmm/7000000144@SRS045715_LANL_scaffold_7971@SRS045715_LANL_scaffold_7971_gene_9717.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:52 2021
+# [ok]

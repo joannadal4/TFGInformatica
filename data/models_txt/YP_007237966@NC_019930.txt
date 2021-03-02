@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQV1|YR354_MIMIV   136.1   1.3e-39   1   1.5   6.2    Uncharacterized protein R354 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R354 PE=1 SV=1
+sp|P03697|EXO_LAMBD      40.8   1.1e-10   1   1.1   0.0    Exonuclease OS=Escherichia phage lambda OX=10710 GN=exo PE=1 SV=1
+sp|P0CAF1|VF345_ASFP4    25.2   6.1e-06   1   2.1   0.0    Uncharacterized protein D345L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-121 PE=3 SV=1
+sp|Q65182|VF345_ASFB7    25.0   6.8e-06   1   2.0   0.0    Uncharacterized protein D345L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-109 PE=3 SV=1
+sp|P0CAF2|VF345_ASFWA    21.6   7.3e-05   1   2.1   0.0    Uncharacterized protein D345L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-119 PE=3 SV=1
+sp|Q65225|VF345_ASFM2    19.7   0.00027   1   2.1   0.0    Uncharacterized protein D345L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-117 PE=3 SV=2
+sp|P0CAF0|VF345_ASFK5    18.7   0.00057   1   2.1   0.0    Uncharacterized protein D345L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-121 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQV1|YR354_MIMIV   135.3   2.3e-39     1   6.2     72    500    153    473      6    277     Uncharacterized protein R354 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R354 PE=1 SV=1
+sp|P03697|EXO_LAMBD      40.6   1.3e-10     1   0.0      6    196     17    169     24    172     Exonuclease OS=Escherichia phage lambda OX=10710 GN=exo PE=1 SV=1
+sp|P0CAF1|VF345_ASFP4    21.0   0.00011     1   0.0      3    186      9    168     21    164     Uncharacterized protein D345L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-121 PE=3 SV=1
+sp|Q65182|VF345_ASFB7    20.9   0.00012     1   0.0      3    187      9    169     21    165     Uncharacterized protein D345L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-109 PE=3 SV=1
+sp|P0CAF2|VF345_ASFWA    17.5    0.0013     1   0.0      3    187      9    169     21    165     Uncharacterized protein D345L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-119 PE=3 SV=1
+sp|Q65225|VF345_ASFM2    15.4    0.0056     1   0.0      3    188      9    169     21    165     Uncharacterized protein D345L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-117 PE=3 SV=2
+sp|P0CAF0|VF345_ASFK5    14.6    0.0096     1   0.0      3    189      9    169     21    165     Uncharacterized protein D345L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-121 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007237966@NC_019930.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007237966@NC_019930.txt data/models_hmm/YP_007237966@NC_019930.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:37 2021
+# [ok]

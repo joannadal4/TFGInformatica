@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q196W9|VF396_IIV3     8.2         2   4   3.2   8.2    Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q196W9|VF396_IIV3     6.2       8.3     1   0.4    549    582    553    572     17     36     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|Q196W9|VF396_IIV3     5.7        12     4   0.1    843    881    845    865     17     37     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|Q196W9|VF396_IIV3    -3.4   8.6e+03     3   0.2    663    678    668    676     24     32     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+sp|Q196W9|VF396_IIV3    -3.7     1e+04     2   0.0    595    616    602    614     23     35     Uncharacterized protein 091L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-091L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000112@SRS011302_Baylor_scaffold_23449@SRS011302_Baylor_scaffold_23449_gene_52904.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000112@SRS011302_Baylor_scaffold_23449@SRS011302_Baylor_scaffold_23449_gene_52904.txt data/models_hmm/7000000112@SRS011302_Baylor_scaffold_23449@SRS011302_Baylor_scaffold_23449_gene_52904.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:30 2021
+# [ok]

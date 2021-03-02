@@ -1,0 +1,67 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HG51|PRIM_HCMVM  1227.6         0   1   1.0   0.0    DNA primase OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL70 PE=3 SV=1
+sp|B9VXM8|PRIM_HCMVT  1227.2         0   1   1.0   0.0    DNA primase OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL70 PE=1 SV=1
+sp|P17149|PRIM_HCMVA  1227.2         0   1   1.0   0.0    DNA primase OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL70 PE=1 SV=2
+sp|Q69153|PRIM_MUHVS  1152.3         0   1   1.0   0.0    DNA primase OS=Murid herpesvirus 1 (strain Smith) OX=10367 GN=UL70 PE=3 SV=1
+sp|Q18LF7|PRIM_ELHVK  1097.6         0   1   1.0  17.2    DNA primase OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+sp|P52467|PRIM_HHV6U  1083.9         0   1   1.0  27.7    DNA primase OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U43 PE=3 SV=1
+sp|P52540|PRIM_HHV6Z  1079.3         0   1   1.0  27.0    DNA primase OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U43 PE=3 SV=1
+sp|P52468|PRIM_HHV7J  1049.0         0   1   1.0  38.3    DNA primase OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U43 PE=3 SV=1
+sp|Q66658|PRIM_EHV2    956.8    1e-287   1   1.0   0.0    DNA primase OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=56 PE=3 SV=1
+sp|P14346|PRIM_SHV21   935.9  2.1e-281   1   1.0  22.9    DNA primase OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=56 PE=3 SV=2
+sp|P03193|PRIM_EBVB9   921.4  5.1e-277   1   1.0   0.0    DNA primase OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BSLF1 PE=3 SV=1
+sp|F5HIN0|PRIM_HHV8P   913.4  1.3e-274   1   1.0   0.0    DNA primase OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF56 PE=3 SV=1
+sp|O36406|PRIM_ALHV1   902.4  2.8e-271   1   1.0   1.4    DNA primase OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=56 PE=3 SV=1
+sp|Q4JQW9|PRIM_VZVO    364.8  9.1e-109   1   1.7   0.3    DNA primase OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF6 PE=3 SV=2
+sp|P09270|PRIM_VZVD    363.5  2.2e-108   1   1.9   1.4    DNA primase OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF6 PE=3 SV=1
+sp|P28962|PRIM_EHV1B   343.1  3.1e-102   1   1.6   0.0    DNA primase OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=7 PE=3 SV=1
+sp|P84401|PRIM_EHV1V   343.1  3.1e-102   1   1.6   0.0    DNA primase OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=7 PE=3 SV=1
+sp|P10236|PRIM_HHV11   341.3  1.1e-101   2   2.0   0.0    DNA primase OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL52 PE=1 SV=1
+sp|P89471|PRIM_HHV2H   337.0  2.2e-100   1   1.9   0.0    DNA primase OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL52 PE=3 SV=1
+sp|Q6UDM2|PRIM_PSHV1   328.9   6.1e-98   2   2.0   0.0    DNA primase OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL52 PE=3 SV=1
+sp|Q9E6M4|PRIM_GAHVM   319.6     4e-95   1   1.6   0.0    DNA primase OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV066 PE=3 SV=1
+sp|Q85228|PRIM_SUHVK   297.4   2.1e-88   1   2.3   0.0    DNA primase OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=UL52 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HG51|PRIM_HCMVM  1227.4         0     1   0.0      1    939      1    937      1    863     DNA primase OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL70 PE=3 SV=1
+sp|B9VXM8|PRIM_HCMVT  1227.0         0     1   0.0      1    939      1    937      1    863     DNA primase OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL70 PE=1 SV=1
+sp|P17149|PRIM_HCMVA  1227.0         0     1   0.0      1    939      1    937      1    863     DNA primase OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL70 PE=1 SV=2
+sp|Q69153|PRIM_MUHVS  1152.2         0     1   0.0      1    964      1    963      1    864     DNA primase OS=Murid herpesvirus 1 (strain Smith) OX=10367 GN=UL70 PE=3 SV=1
+sp|Q18LF7|PRIM_ELHVK  1097.4         0     1  17.2      1    975      1    974      1    862     DNA primase OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 PE=3 SV=1
+sp|P52467|PRIM_HHV6U  1083.7         0     1  27.7      1    860      1    857      1    861     DNA primase OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U43 PE=3 SV=1
+sp|P52540|PRIM_HHV6Z  1079.1         0     1  27.0      1    860      1    857      1    861     DNA primase OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U43 PE=3 SV=1
+sp|P52468|PRIM_HHV7J  1048.9         0     1  38.3      1    861      1    858      1    861     DNA primase OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U43 PE=3 SV=1
+sp|Q66658|PRIM_EHV2    956.6  1.2e-287     1   0.0     23    883     27    880      4    862     DNA primase OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=56 PE=3 SV=1
+sp|P14346|PRIM_SHV21   935.7  2.4e-281     1  22.9      9    835     13    833      4    862     DNA primase OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=56 PE=3 SV=2
+sp|P03193|PRIM_EBVB9   921.1  6.5e-277     1   0.0      5    842      7    840      3    862     DNA primase OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BSLF1 PE=3 SV=1
+sp|F5HIN0|PRIM_HHV8P   913.2  1.6e-274     1   0.0     10    842     11    839      2    861     DNA primase OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF56 PE=3 SV=1
+sp|O36406|PRIM_ALHV1   902.2  3.3e-271     1   1.4      3    837      7    836      4    861     DNA primase OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=56 PE=3 SV=1
+sp|Q4JQW9|PRIM_VZVO    363.1  2.9e-108     1   0.3     70   1079    105   1075     54    860     DNA primase OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF6 PE=3 SV=2
+sp|P09270|PRIM_VZVD    360.8  1.4e-107     1   1.4     71   1079    105   1075     54    860     DNA primase OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF6 PE=3 SV=1
+sp|P28962|PRIM_EHV1B   341.8  8.1e-102     1   0.0      8   1081      9   1079      2    861     DNA primase OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=7 PE=3 SV=1
+sp|P84401|PRIM_EHV1V   341.8  8.1e-102     1   0.0      8   1081      9   1079      2    861     DNA primase OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=7 PE=3 SV=1
+sp|P89471|PRIM_HHV2H   333.2   3.1e-99     1   0.0     78   1052     90   1046     39    857     DNA primase OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL52 PE=3 SV=1
+sp|Q9E6M4|PRIM_GAHVM   318.1   1.1e-94     1   0.0     19   1070     89   1067     41    861     DNA primase OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV066 PE=3 SV=1
+sp|Q85228|PRIM_SUHVK   289.6   4.6e-86     1   0.0      4    950      8    945      4    859     DNA primase OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=UL52 PE=3 SV=1
+sp|P10236|PRIM_HHV11   241.5   1.6e-71     2   0.0    491   1045    501   1039    376    857     DNA primase OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL52 PE=1 SV=1
+sp|Q6UDM2|PRIM_PSHV1   229.4   7.2e-68     2   0.0    706   1293    727   1291    403    863     DNA primase OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL52 PE=3 SV=1
+sp|P10236|PRIM_HHV11    97.7   4.7e-28     1   0.0     71    475     87    463     38    360     DNA primase OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL52 PE=1 SV=1
+sp|Q6UDM2|PRIM_PSHV1    97.6   5.2e-28     1   0.0    197    610    202    559      5    320     DNA primase OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL52 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_065555@NC_002531.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_065555@NC_002531.txt data/models_hmm/NP_065555@NC_002531.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:44 2021
+# [ok]

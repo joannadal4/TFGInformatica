@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A7XXC2|CAPSD_BP234    58.9   3.4e-16   1   1.3   0.0    Major capsid protein OS=Thermus virus P23-45 OX=466051 GN=P23p89 PE=1 SV=1
+sp|P03713|CAPSD_LAMBD    24.0   1.4e-05   1   1.1   0.1    Major capsid protein OS=Escherichia phage lambda OX=10710 GN=E PE=1 SV=1
+sp|P68650|CAPSD_BPP21    23.2   2.3e-05   1   1.1   0.0    Major capsid protein OS=Enterobacteria phage P21 OX=10711 GN=E PE=3 SV=1
+sp|Q6QIB5|CAPSD_BPBMU    21.6   7.5e-05   1   2.1   0.1    Major capsid protein OS=Burkholderia phage BcepMu (isolate -/United States/Summer/2002) OX=1283335 GN=BcepMu34 PE=3 SV=1
+sp|D6RRG1|CAPSD_BPKPP    14.7    0.0092   1   1.1   0.0    Major capsid protein OS=Pseudomonas phage KPP10 OX=582345 GN=ORF4 PE=1 SV=1
+sp|P14339|POLG_DEN23     12.6     0.039   1   1.2   0.0    Genome polyprotein (Fragment) OS=Dengue virus type 2 (isolate Malaysia M3) OX=11063 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A7XXC2|CAPSD_BP234    58.2   5.2e-16     1   0.0     27    379     41    372     22    337     Major capsid protein OS=Thermus virus P23-45 OX=466051 GN=P23p89 PE=1 SV=1
+sp|P03713|CAPSD_LAMBD    23.7   1.7e-05     1   0.1     63    310    114    287    122    292     Major capsid protein OS=Escherichia phage lambda OX=10710 GN=E PE=1 SV=1
+sp|P68650|CAPSD_BPP21    22.8   3.2e-05     1   0.0     91    304    111    293    117    297     Major capsid protein OS=Enterobacteria phage P21 OX=10711 GN=E PE=3 SV=1
+sp|Q6QIB5|CAPSD_BPBMU    17.5    0.0013     1   0.1     55    232    133    199    168    231     Major capsid protein OS=Burkholderia phage BcepMu (isolate -/United States/Summer/2002) OX=1283335 GN=BcepMu34 PE=3 SV=1
+sp|D6RRG1|CAPSD_BPKPP    14.2     0.013     1   0.0     83    302    115    286    118    281     Major capsid protein OS=Pseudomonas phage KPP10 OX=582345 GN=ORF4 PE=1 SV=1
+sp|P14339|POLG_DEN23     12.0     0.061     1   0.0     34     73     35     66     36     67     Genome polyprotein (Fragment) OS=Dengue virus type 2 (isolate Malaysia M3) OX=11063 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ACV83377@GQ452243.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ACV83377@GQ452243.txt data/models_hmm/ACV83377@GQ452243.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:19 2021
+# [ok]

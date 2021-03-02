@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q64745|YO14_ADEG1    39.8   2.7e-10   1   1.3   3.3    Uncharacterized protein ORF14 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=14 PE=4 SV=1
+sp|P87568|E434_ADECT    15.4     0.008   2   1.7   1.4    Early E4 30 kDa protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 PE=3 SV=1
+sp|P36710|E434_ADE12    14.8     0.012   2   1.7   1.2    Early E4 34 kDa protein OS=Human adenovirus A serotype 12 OX=28282 PE=3 SV=1
+sp|Q64865|E434_ADE40    13.0     0.043   1   1.3   2.7    Early E4 34 kDa protein OS=Human adenovirus F serotype 40 OX=28284 PE=3 SV=2
+sp|P03239|E434_ADE02     7.4       2.3   2   1.6   8.6    Early 4 ORF6 protein OS=Human adenovirus C serotype 2 OX=10515 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q64745|YO14_ADEG1    39.3   3.8e-10     1   3.3      1    121      1     86     38    129     Uncharacterized protein ORF14 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=14 PE=4 SV=1
+sp|P87568|E434_ADECT    15.4     0.008     1   1.4     52    111     68    100     75    109     Early E4 30 kDa protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 PE=3 SV=1
+sp|P36710|E434_ADE12    13.4     0.032     2   1.0     82    143    111    137     83    110     Early E4 34 kDa protein OS=Human adenovirus A serotype 12 OX=28282 PE=3 SV=1
+sp|P03239|E434_ADE02    12.6     0.056     1   2.0     73    157    104    148     63    111     Early 4 ORF6 protein OS=Human adenovirus C serotype 2 OX=10515 PE=1 SV=1
+sp|Q64865|E434_ADE40    12.3     0.069     1   2.7     76    143    106    139     77    111     Early E4 34 kDa protein OS=Human adenovirus F serotype 40 OX=28284 PE=3 SV=2
+sp|P36710|E434_ADE12    -2.1   1.8e+03     1   0.1     70    105     74     98    173    199     Early E4 34 kDa protein OS=Human adenovirus A serotype 12 OX=28282 PE=3 SV=1
+sp|P87568|E434_ADECT    -2.4   2.2e+03     2   0.4    135    212    160    192     55     87     Early E4 30 kDa protein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 PE=3 SV=1
+sp|P03239|E434_ADE02    -3.0   3.3e+03     2   0.6    197    272    228    261     77    111     Early 4 ORF6 protein OS=Human adenovirus C serotype 2 OX=10515 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008719815@NC_022612.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008719815@NC_022612.txt data/models_hmm/YP_008719815@NC_022612.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:23 2021
+# [ok]

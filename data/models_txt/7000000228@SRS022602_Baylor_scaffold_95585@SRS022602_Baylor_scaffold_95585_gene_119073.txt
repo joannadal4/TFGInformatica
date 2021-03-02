@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P00530|FPS_FUJSV     14.3     0.016   1   1.2   0.2    Tyrosine-protein kinase transforming protein Fps OS=Fujinami sarcoma virus OX=11885 GN=V-FPS PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P00530|FPS_FUJSV     13.7     0.026     1   0.2    167    294    183    261    184    259     Tyrosine-protein kinase transforming protein Fps OS=Fujinami sarcoma virus OX=11885 GN=V-FPS PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000228@SRS022602_Baylor_scaffold_95585@SRS022602_Baylor_scaffold_95585_gene_119073.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000228@SRS022602_Baylor_scaffold_95585@SRS022602_Baylor_scaffold_95585_gene_119073.txt data/models_hmm/7000000228@SRS022602_Baylor_scaffold_95585@SRS022602_Baylor_scaffold_95585_gene_119073.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:32 2021
+# [ok]

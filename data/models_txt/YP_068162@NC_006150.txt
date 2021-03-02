@@ -1,0 +1,91 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|D5LX53|UL42_HCMVT    180.4   1.1e-53   1   1.0   4.2    Protein UL42 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL42 PE=1 SV=1
+sp|F5HHZ3|UL42_HCMVM    180.2   1.3e-53   1   1.0   4.2    Protein UL42 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL42 PE=1 SV=1
+sp|P16815|UL42_HCMVA    180.2   1.3e-53   1   1.0   4.2    Protein UL42 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL42 PE=3 SV=2
+sp|P06473|GB_HCMVA       14.8     0.022   2   2.2   0.6    Envelope glycoprotein B OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gB PE=1 SV=1
+sp|P28282|UL56_HHV2H     14.5     0.028   2   2.6   0.6    Protein UL56 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL56 PE=1 SV=1
+sp|F5HB53|GB_HCMVM       14.4     0.031   1   1.8   0.3    Envelope glycoprotein B OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gB PE=3 SV=1
+sp|P33868|F8_VAR67       13.1     0.078   1   1.1   0.8    Protein F8 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C12L PE=3 SV=1
+sp|Q9QBZ8|ENV_HV197      12.3      0.13   2   2.0   0.9    Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype K (isolate 97ZR-EQTB11) OX=388907 GN=env PE=3 SV=2
+sp|O71191|MVP2_GLRV3     12.2      0.15   1   1.0   0.8    Movement protein p5 OS=Grapevine leafroll-associated virus 3 (isolate United States/NY1) OX=651354 GN=ORF3 PE=3 SV=1
+sp|P21017|F8_VACCC       11.9      0.18   1   1.1   1.3    Protein F8 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F8L PE=3 SV=1
+sp|Q96686|CAP6_ADECR     11.6      0.22   1   1.4   6.3    Pre-protein VI OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=L3 PE=3 SV=1
+sp|Q65954|CAP6_ADECC     11.6      0.22   1   1.4   6.3    Pre-protein VI OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=L3 PE=3 SV=1
+sp|P05881|ENV_HV1ZH      11.5      0.23   2   2.1   1.1    Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype A (isolate Z321) OX=11692 GN=env PE=3 SV=1
+sp|Q73372|ENV_HV1B9      11.3      0.28   3   2.4   1.8    Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (strain 89.6) OX=401671 GN=env PE=1 SV=2
+sp|Q9QSQ7|ENV_HV1VI      11.3      0.28   2   1.8   0.8    Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate VI850) OX=388813 GN=env PE=3 SV=1
+sp|P17281|ENV_SIVCZ      10.9      0.36   3   2.2   0.0    Envelope glycoprotein gp160 OS=Simian immunodeficiency virus (isolate CPZ GAB1) OX=402771 GN=env PE=3 SV=1
+sp|Q5UQR8|YL323_MIMIV    10.4      0.51   3   3.0   4.4    Uncharacterized protein L323 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L323 PE=3 SV=1
+sp|P18799|ENV_HV1ND      10.2       0.6   3   2.1   1.7    Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=env PE=1 SV=1
+sp|Q9Q714|ENV_HV1V9       9.0       1.4   3   3.0   6.3    Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype H (isolate VI991) OX=388888 GN=env PE=1 SV=1
+sp|P04624|ENV_HV1H3       8.6       1.9   3   2.4   3.7    Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB3) OX=11707 GN=env PE=1 SV=3
+sp|P03375|ENV_HV1B1       8.2       2.6   3   2.5   4.3    Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=env PE=1 SV=1
+sp|P04582|ENV_HV1B8       7.8       3.4   3   2.5   4.4    Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH8) OX=11684 GN=env PE=1 SV=1
+sp|P04578|ENV_HV1H2       7.7       3.5   3   2.5   4.3    Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=env PE=1 SV=2
+sp|P03274|CAP6_ADE02      7.6       3.9   2   1.9  10.0    Pre-protein VI OS=Human adenovirus C serotype 2 OX=10515 GN=L3 PE=1 SV=1
+sp|Q9QJ42|U24_HHV6Z       7.3       4.9   2   2.0  10.8    U24 protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U24 PE=1 SV=1
+sp|P13201|GB_HCMVT        7.3       4.9   2   2.2   8.3    Envelope glycoprotein B OS=Human cytomegalovirus (strain Towne) OX=10363 GN=gB PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|D5LX53|UL42_HCMVT    180.3   1.3e-53     1   4.2      1    119      1    119      1    122     Protein UL42 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL42 PE=1 SV=1
+sp|F5HHZ3|UL42_HCMVM    180.1   1.5e-53     1   4.2      1    120      1    120      1    122     Protein UL42 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL42 PE=1 SV=1
+sp|P16815|UL42_HCMVA    180.1   1.5e-53     1   4.2      1    120      1    120      1    122     Protein UL42 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL42 PE=3 SV=2
+sp|P28282|UL56_HHV2H     14.5     0.028     1   0.6      6     64     12     53     13     51     Protein UL56 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL56 PE=1 SV=1
+sp|P33868|F8_VAR67       12.9     0.086     1   0.8      2     65     12     64      8     49     Protein F8 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C12L PE=3 SV=1
+sp|P06473|GB_HCMVA       12.7     0.098     2   0.3    794    870    805    842     16     57     Envelope glycoprotein B OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gB PE=1 SV=1
+sp|F5HB53|GB_HCMVM       12.6      0.11     1   0.3    795    870    806    842     16     56     Envelope glycoprotein B OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gB PE=3 SV=1
+sp|P13201|GB_HCMVT       12.6      0.11     1   0.3    795    868    806    841     16     51     Envelope glycoprotein B OS=Human cytomegalovirus (strain Towne) OX=10363 GN=gB PE=1 SV=1
+sp|P03274|CAP6_ADE02     12.2      0.14     2   3.0    128    243    141    231     14     85     Pre-protein VI OS=Human adenovirus C serotype 2 OX=10515 GN=L3 PE=1 SV=1
+sp|O71191|MVP2_GLRV3     12.1      0.15     1   0.8      1     41      3     35     86    118     Movement protein p5 OS=Grapevine leafroll-associated virus 3 (isolate United States/NY1) OX=651354 GN=ORF3 PE=3 SV=1
+sp|P21017|F8_VACCC       11.9      0.19     1   1.3      1     65     14     64     10     49     Protein F8 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F8L PE=3 SV=1
+sp|Q9QBZ8|ENV_HV197      11.2       0.3     1   0.1    629    707    668    701     83    115     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype K (isolate 97ZR-EQTB11) OX=388907 GN=env PE=3 SV=2
+sp|P17281|ENV_SIVCZ      10.9      0.36     1   0.0    635    703    667    695     85    113     Envelope glycoprotein gp160 OS=Simian immunodeficiency virus (isolate CPZ GAB1) OX=402771 GN=env PE=3 SV=1
+sp|Q65954|CAP6_ADECC     10.7      0.41     1   6.3    135    218    148    200     16     51     Pre-protein VI OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=L3 PE=3 SV=1
+sp|Q96686|CAP6_ADECR     10.7      0.41     1   6.3    135    218    148    200     16     51     Pre-protein VI OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=L3 PE=3 SV=1
+sp|Q9QSQ7|ENV_HV1VI      10.3      0.58     1   0.1    615    688    649    679     83    112     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate VI850) OX=388813 GN=env PE=3 SV=1
+sp|P05881|ENV_HV1ZH      10.2      0.58     1   0.2    639    712    676    704     85    113     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype A (isolate Z321) OX=11692 GN=env PE=3 SV=1
+sp|Q73372|ENV_HV1B9      10.1      0.67     3   0.1    637    708    673    700     85    112     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (strain 89.6) OX=401671 GN=env PE=1 SV=2
+sp|Q9QJ42|U24_HHV6Z      10.0      0.69     1   2.1      1     46      6     42     19     50     U24 protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U24 PE=1 SV=1
+sp|P18799|ENV_HV1ND       9.7      0.88     1   0.2    636    702    667    696     86    115     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=env PE=1 SV=1
+sp|P03375|ENV_HV1B1       9.3       1.2     3   0.1    641    712    676    705     85    114     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=env PE=1 SV=1
+sp|P04624|ENV_HV1H3       9.3       1.2     3   0.1    641    712    676    705     85    114     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB3) OX=11707 GN=env PE=1 SV=3
+sp|P04582|ENV_HV1B8       8.8       1.6     3   0.1    636    706    671    698     85    112     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH8) OX=11684 GN=env PE=1 SV=1
+sp|Q9Q714|ENV_HV1V9       8.8       1.6     3   0.3    654    714    680    706     86    112     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype H (isolate VI991) OX=388888 GN=env PE=1 SV=1
+sp|P04578|ENV_HV1H2       8.8       1.7     3   0.1    641    711    676    703     85    112     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=env PE=1 SV=2
+sp|Q5UQR8|YL323_MIMIV     7.0       5.7     2   0.5    142    211    181    207     94    119     Uncharacterized protein L323 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L323 PE=3 SV=1
+sp|Q9QJ42|U24_HHV6Z       2.9   1.1e+02     2   1.6     42     88     52     81     85    111     U24 protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U24 PE=1 SV=1
+sp|Q9Q714|ENV_HV1V9       2.0     2e+02     1   0.1      1     47      4     39     80    111     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype H (isolate VI991) OX=388888 GN=env PE=1 SV=1
+sp|Q5UQR8|YL323_MIMIV     1.7   2.6e+02     3   0.2    215    270    237    263     82    107     Uncharacterized protein L323 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L323 PE=3 SV=1
+sp|Q5UQR8|YL323_MIMIV     1.5   2.9e+02     1   0.0     14     96     26     57     29     57     Uncharacterized protein L323 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L323 PE=3 SV=1
+sp|P28282|UL56_HHV2H      1.4   3.1e+02     2   6.5    132    234    141    232     17    106     Protein UL56 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL56 PE=1 SV=1
+sp|P03274|CAP6_ADE02     -1.0   1.7e+03     1   0.7     93    132    105    119     35     50     Pre-protein VI OS=Human adenovirus C serotype 2 OX=10515 GN=L3 PE=1 SV=1
+sp|Q9Q714|ENV_HV1V9      -1.3   2.2e+03     2   0.1     59    123     73    116     45     91     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype H (isolate VI991) OX=388888 GN=env PE=1 SV=1
+sp|Q73372|ENV_HV1B9      -1.5   2.5e+03     2   0.0    192    236    197    221     30     54     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (strain 89.6) OX=401671 GN=env PE=1 SV=2
+sp|P04582|ENV_HV1B8      -1.5   2.6e+03     1   0.1     60    127     74    119     42     90     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH8) OX=11684 GN=env PE=1 SV=1
+sp|P03375|ENV_HV1B1      -1.5   2.6e+03     1   0.1     60    127     74    119     42     90     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=env PE=1 SV=1
+sp|P04578|ENV_HV1H2      -1.5   2.6e+03     1   0.1     60    127     74    119     42     90     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=env PE=1 SV=2
+sp|P06473|GB_HCMVA       -1.6   2.7e+03     1   0.0     26    125     57     81     68     92     Envelope glycoprotein B OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gB PE=1 SV=1
+sp|P04624|ENV_HV1H3      -1.9   3.5e+03     1   0.0     63    127     77    119     45     90     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB3) OX=11707 GN=env PE=1 SV=3
+sp|P04582|ENV_HV1B8      -2.4   4.8e+03     2   0.1    187    225    193    219     28     54     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH8) OX=11684 GN=env PE=1 SV=1
+sp|P03375|ENV_HV1B1      -2.4   4.8e+03     2   0.1    187    225    193    219     28     54     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=env PE=1 SV=1
+sp|P04624|ENV_HV1H3      -2.4   4.8e+03     2   0.1    187    225    193    219     28     54     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB3) OX=11707 GN=env PE=1 SV=3
+sp|Q73372|ENV_HV1B9      -2.4   4.9e+03     1   0.0     62    125     76    118     45     90     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (strain 89.6) OX=401671 GN=env PE=1 SV=2
+sp|P04578|ENV_HV1H2      -2.5   5.2e+03     2   0.1    186    224    193    219     28     54     Envelope glycoprotein gp160 OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=env PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_068162@NC_006150.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_068162@NC_006150.txt data/models_hmm/YP_068162@NC_006150.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:57 2021
+# [ok]

@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q85230|GK_SUHVK      12.4      0.11   2   2.0   0.5    Envelope glycoprotein K OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=gK PE=3 SV=1
+sp|P0C6F3|R1A_BEV       10.4      0.47   1   1.9   2.9    Replicase polyprotein 1a OS=Berne virus OX=11156 GN=1a PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q85230|GK_SUHVK      10.7       0.4     2   0.2    240    310    258    295     26     65     Envelope glycoprotein K OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=gK PE=3 SV=1
+sp|P0C6F3|R1A_BEV        8.8       1.5     1   2.9   3607   3681   3612   3675     14     74     Replicase polyprotein 1a OS=Berne virus OX=11156 GN=1a PE=1 SV=1
+sp|Q85230|GK_SUHVK      -1.5   2.6e+03     1   0.0    135    168    141    163     38     61     Envelope glycoprotein K OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=gK PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001498084@NC_009899.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001498084@NC_009899.txt data/models_hmm/YP_001498084@NC_009899.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:28 2021
+# [ok]

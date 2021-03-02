@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O71155|CAPSD_DSDNV    14.2     0.029   1   1.5   0.0    Capsid protein VP1 OS=Diatraea saccharalis densovirus OX=72003 GN=VP PE=3 SV=1
+sp|Q90125|CAPSD_GMDNV    13.5     0.051   1   1.6   0.0    Capsid protein VP1 OS=Galleria mellonella densovirus OX=37138 GN=VP PE=1 SV=1
+sp|Q90053|CAPSD_JDNVP    13.0     0.069   1   1.6   0.0    Capsid protein VP1 OS=Junonia coenia densovirus (isolate pBRJ/1990) OX=648250 GN=VP PE=3 SV=1
+sp|P07297|CAPSD_PAVBP    12.7     0.084   1   1.6   0.0    Minor capsid protein VP1 OS=Bovine parvovirus (isolate pAT153/1986) OX=648243 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O71155|CAPSD_DSDNV    13.1     0.067     1   0.0    156    251    172    232     48    113     Capsid protein VP1 OS=Diatraea saccharalis densovirus OX=72003 GN=VP PE=3 SV=1
+sp|Q90125|CAPSD_GMDNV    12.2      0.13     1   0.0    154    241    171    230     48    112     Capsid protein VP1 OS=Galleria mellonella densovirus OX=37138 GN=VP PE=1 SV=1
+sp|Q90053|CAPSD_JDNVP    11.8      0.16     1   0.0    156    243    172    230     48    111     Capsid protein VP1 OS=Junonia coenia densovirus (isolate pBRJ/1990) OX=648250 GN=VP PE=3 SV=1
+sp|P07297|CAPSD_PAVBP    11.6      0.19     1   0.0      3     92      6     56     46    100     Minor capsid protein VP1 OS=Bovine parvovirus (isolate pAT153/1986) OX=648243 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_048150@NC_001993.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_048150@NC_001993.txt data/models_hmm/NP_048150@NC_001993.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:29 2021
+# [ok]

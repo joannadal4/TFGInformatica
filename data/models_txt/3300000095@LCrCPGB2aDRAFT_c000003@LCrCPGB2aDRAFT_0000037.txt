@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQS0|YL333_MIMIV    15.4     0.015   2   1.9   0.2    Uncharacterized protein L333 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L333 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQS0|YL333_MIMIV    13.6     0.053     1   0.0     46    104     49     92      5     47     Uncharacterized protein L333 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L333 PE=3 SV=1
+sp|Q5UQS0|YL333_MIMIV    -1.3   2.4e+03     2   0.0    110    177    146    146     26     26     Uncharacterized protein L333 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L333 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000095@LCrCPGB2aDRAFT_c000003@LCrCPGB2aDRAFT_0000037.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000095@LCrCPGB2aDRAFT_c000003@LCrCPGB2aDRAFT_0000037.txt data/models_hmm/3300000095@LCrCPGB2aDRAFT_c000003@LCrCPGB2aDRAFT_0000037.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:26 2021
+# [ok]

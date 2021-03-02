@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09297|CEP3_VZVD    105.7   1.4e-30   1   1.0   0.4    Cytoplasmic envelopment protein 3 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF49 PE=3 SV=3
+sp|Q77NP3|CEP3_VZVO    105.7   1.4e-30   1   1.0   0.4    Cytoplasmic envelopment protein 3 OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF49 PE=3 SV=1
+sp|P28982|CEP3_EHV1B    95.0   3.1e-27   1   1.0   0.0    Cytoplasmic envelopment protein 3 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=51 PE=3 SV=3
+sp|P84448|CEP3_EHV1V    95.0   3.1e-27   1   1.0   0.0    Cytoplasmic envelopment protein 3 OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=51 PE=3 SV=3
+sp|Q68980|CEP3_HHV1K    44.4   1.9e-11   1   1.1   0.0    Cytoplasmic envelopment protein 3 OS=Human herpesvirus 1 (strain KOS) OX=10306 GN=UL11 PE=1 SV=1
+sp|P04289|CEP3_HHV11    43.8     3e-11   1   1.1   0.0    Cytoplasmic envelopment protein 3 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL11 PE=1 SV=3
+sp|P13294|CEP3_HHV2H    43.2   4.4e-11   1   1.1   0.0    Cytoplasmic envelopment protein 3 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL11 PE=1 SV=3
+sp|Q77MS5|CEP3_GAHVM    39.9   4.7e-10   1   1.2   0.0    Cytoplasmic envelopment protein 3 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV023 PE=3 SV=1
+sp|Q01025|CEP3_SHV21    17.8    0.0038   1   1.1   0.3    Cytoplasmic envelopment protein 3 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=38 PE=3 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09297|CEP3_VZVD    105.6   1.6e-30     1   0.4      1     81      1     78      1     72     Cytoplasmic envelopment protein 3 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF49 PE=3 SV=3
+sp|Q77NP3|CEP3_VZVO    105.6   1.6e-30     1   0.4      1     81      1     78      1     72     Cytoplasmic envelopment protein 3 OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF49 PE=3 SV=1
+sp|P28982|CEP3_EHV1B    94.9   3.4e-27     1   0.0      1     74      1     64      1     61     Cytoplasmic envelopment protein 3 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=51 PE=3 SV=3
+sp|P84448|CEP3_EHV1V    94.9   3.4e-27     1   0.0      1     74      1     64      1     61     Cytoplasmic envelopment protein 3 OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=51 PE=3 SV=3
+sp|Q68980|CEP3_HHV1K    44.1   2.4e-11     1   0.0      1     84      1     78      1     70     Cytoplasmic envelopment protein 3 OS=Human herpesvirus 1 (strain KOS) OX=10306 GN=UL11 PE=1 SV=1
+sp|P04289|CEP3_HHV11    43.5   3.7e-11     1   0.0      1     84      1     78      1     70     Cytoplasmic envelopment protein 3 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL11 PE=1 SV=3
+sp|P13294|CEP3_HHV2H    42.9   5.4e-11     1   0.0      1     85      1     78      1     70     Cytoplasmic envelopment protein 3 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL11 PE=1 SV=3
+sp|Q77MS5|CEP3_GAHVM    39.7   5.7e-10     1   0.0      1     78      1     62      1     60     Cytoplasmic envelopment protein 3 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV023 PE=3 SV=1
+sp|Q01025|CEP3_SHV21    17.6    0.0043     1   0.3      1     65      4     61      4     62     Cytoplasmic envelopment protein 3 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=38 PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003331570@NC_013590.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003331570@NC_013590.txt data/models_hmm/YP_003331570@NC_013590.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:23 2021
+# [ok]

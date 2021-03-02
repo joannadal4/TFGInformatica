@@ -1,0 +1,57 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8QVL3|CAPSD_TTVF1   681.2  6.3e-205   1   1.0  29.1    Capsid protein OS=Torque teno felis virus (isolate Fc-TTV4) OX=766188 GN=ORF1 PE=3 SV=1
+sp|A7XCE4|CAPSD_TTVV3    55.6   3.6e-15   3   2.4  18.9    Capsid protein OS=Torque teno virus (isolate Human/Finland/Hel32/2002) OX=687342 GN=ORF1 PE=3 SV=1
+sp|Q9DHA8|CAPSD_TTVV1    42.2   4.4e-11   1   2.1  41.5    Probable capsid and replication-associated protein OS=Torque teno virus (strain VT416) OX=486280 GN=ORF1 PE=2 SV=1
+sp|Q9QUB8|CAPSD_TTVV2    41.9   5.4e-11   1   2.0  43.2    Capsid protein OS=Torque teno virus (isolate Human/Japan/TRM1/1999) OX=486275 GN=ORF1 PE=3 SV=1
+sp|Q8QVL9|CAPSD_TTVI1    39.3   3.2e-10   2   2.2  29.1    Capsid protein OS=Torque teno sus virus 1 (isolate Sd-TTV31) OX=766190 GN=ORF1 PE=3 SV=1
+sp|O70739|CAPSD_TTVA1    39.0     4e-10   1   2.1  44.3    Capsid protein OS=Torque teno virus 1 (isolate TA278) OX=766182 GN=ORF1 PE=3 SV=1
+sp|Q9DUC9|CAPSD_TTVV8    39.0   4.2e-10   3   2.5  24.9    Capsid protein OS=Torque teno virus (isolate Chimpanzee/Japan/Pt-TTV6/2000) OX=687343 GN=ORF1 PE=3 SV=1
+sp|Q9WGZ0|CAPSD_TTVVG    38.7   5.1e-10   1   2.0  43.2    Probable capsid and replication-associated protein OS=Torque teno virus (isolate Human/Ghana/GH1/1996) OX=487067 GN=ORF1 PE=3 SV=1
+sp|Q91PQ1|CAPSD_TTVD1    28.2   7.6e-07   2   3.1  27.5    Capsid protein OS=Torque teno tupaia virus (isolate Tbc-TTV14) OX=766185 GN=ORF1 PE=3 SV=1
+sp|Q8QVL6|CAPSD_TTVT1    21.5   8.2e-05   1   1.3  31.5    Capsid protein OS=Torque teno canis virus (isolate Cf-TTV10) OX=766189 GN=ORF1 PE=3 SV=1
+sp|A4GZ97|CAPSD_TTVG1    19.0   0.00048   2   2.0  22.9    Capsid protein OS=Torque teno midi virus 1 (isolate MD1-073) OX=766184 GN=ORF1 PE=3 SV=1
+sp|P22379|REV_SIVGB      11.8     0.073   1   1.0   0.6    Protein Rev OS=Simian immunodeficiency virus (isolate GB1) OX=11732 GN=rev PE=3 SV=2
+sp|P36339|REV_SIVAM      11.3       0.1   1   1.0   0.5    Protein Rev OS=Simian immunodeficiency virus (isolate African mandrill) OX=36378 GN=rev PE=3 SV=2
+sp|Q9WSV7|CAPSD_TTVV5     6.4       3.1   2   3.1  52.5    Capsid protein OS=Torque teno virus (isolate Human/Japan/SANBAN/1999) OX=486277 GN=ORF1 PE=3 SV=1
+sp|Q9DUC1|CAPSD_TTVE1     6.0       4.2   1   1.7  50.8    Capsid protein OS=Torque teno tamarin virus (isolate So-TTV2) OX=766186 GN=ORF1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8QVL3|CAPSD_TTVF1   681.0  7.1e-205     1  29.1      1    436      1    432      1    453     Capsid protein OS=Torque teno felis virus (isolate Fc-TTV4) OX=766188 GN=ORF1 PE=3 SV=1
+sp|A7XCE4|CAPSD_TTVV3    55.6   3.6e-15     1  18.9     16    308     18    264      3    252     Capsid protein OS=Torque teno virus (isolate Human/Finland/Hel32/2002) OX=687342 GN=ORF1 PE=3 SV=1
+sp|Q9DHA8|CAPSD_TTVV1    40.4   1.6e-10     1  41.0      3    276      7    257      3    244     Probable capsid and replication-associated protein OS=Torque teno virus (strain VT416) OX=486280 GN=ORF1 PE=2 SV=1
+sp|Q9QUB8|CAPSD_TTVV2    39.7   2.5e-10     1  43.2      5    276      7    257      3    244     Capsid protein OS=Torque teno virus (isolate Human/Japan/TRM1/1999) OX=486275 GN=ORF1 PE=3 SV=1
+sp|Q8QVL9|CAPSD_TTVI1    39.3   3.2e-10     1  29.1      1    268      4    262      4    244     Capsid protein OS=Torque teno sus virus 1 (isolate Sd-TTV31) OX=766190 GN=ORF1 PE=3 SV=1
+sp|Q9DUC9|CAPSD_TTVV8    39.0   4.2e-10     1  24.9     18    308     21    263      5    252     Capsid protein OS=Torque teno virus (isolate Chimpanzee/Japan/Pt-TTV6/2000) OX=687343 GN=ORF1 PE=3 SV=1
+sp|Q9WGZ0|CAPSD_TTVVG    37.1   1.6e-09     1  42.6      5    278      7    257      3    244     Probable capsid and replication-associated protein OS=Torque teno virus (isolate Human/Ghana/GH1/1996) OX=487067 GN=ORF1 PE=3 SV=1
+sp|O70739|CAPSD_TTVA1    36.8   1.9e-09     1  44.3      5    275      7    257      3    244     Capsid protein OS=Torque teno virus 1 (isolate TA278) OX=766182 GN=ORF1 PE=3 SV=1
+sp|Q91PQ1|CAPSD_TTVD1    28.2   7.6e-07     1  27.5      1    418      5    409      6    414     Capsid protein OS=Torque teno tupaia virus (isolate Tbc-TTV14) OX=766185 GN=ORF1 PE=3 SV=1
+sp|Q8QVL6|CAPSD_TTVT1    20.9   0.00013     1  31.5      1    340      2    328      6    337     Capsid protein OS=Torque teno canis virus (isolate Cf-TTV10) OX=766189 GN=ORF1 PE=3 SV=1
+sp|A4GZ97|CAPSD_TTVG1    19.0   0.00048     1  22.9      1    231      2    213      2    211     Capsid protein OS=Torque teno midi virus 1 (isolate MD1-073) OX=766184 GN=ORF1 PE=3 SV=1
+sp|P22379|REV_SIVGB      11.8     0.071     1   0.6      5     81     28     67     32     71     Protein Rev OS=Simian immunodeficiency virus (isolate GB1) OX=11732 GN=rev PE=3 SV=2
+sp|P36339|REV_SIVAM      11.4     0.099     1   0.5      8     81     28     67     32     71     Protein Rev OS=Simian immunodeficiency virus (isolate African mandrill) OX=36378 GN=rev PE=3 SV=2
+sp|Q9DUC1|CAPSD_TTVE1     5.0       8.6     1  50.2      1    254      5    230      4    217     Capsid protein OS=Torque teno tamarin virus (isolate So-TTV2) OX=766186 GN=ORF1 PE=3 SV=1
+sp|Q8QVL9|CAPSD_TTVI1     3.0        34     2   0.5    389    533    466    503    314    348     Capsid protein OS=Torque teno sus virus 1 (isolate Sd-TTV31) OX=766190 GN=ORF1 PE=3 SV=1
+sp|Q9WSV7|CAPSD_TTVV5     1.6        88     1  50.4      1    298     22    272      3    250     Capsid protein OS=Torque teno virus (isolate Human/Japan/SANBAN/1999) OX=486277 GN=ORF1 PE=3 SV=1
+sp|Q9WSV7|CAPSD_TTVV5     0.6   1.9e+02     2   0.0    554    615    571    596    331    356     Capsid protein OS=Torque teno virus (isolate Human/Japan/SANBAN/1999) OX=486277 GN=ORF1 PE=3 SV=1
+sp|A7XCE4|CAPSD_TTVV3    -2.2   1.3e+03     2   0.0    600    697    604    647    224    267     Capsid protein OS=Torque teno virus (isolate Human/Finland/Hel32/2002) OX=687342 GN=ORF1 PE=3 SV=1
+sp|A4GZ97|CAPSD_TTVG1    -3.0   2.2e+03     2   2.1    477    660    635    658    429    453     Capsid protein OS=Torque teno midi virus 1 (isolate MD1-073) OX=766184 GN=ORF1 PE=3 SV=1
+sp|Q9DUC9|CAPSD_TTVV8    -3.4     3e+03     2   0.1    548    650    556    587    333    364     Capsid protein OS=Torque teno virus (isolate Chimpanzee/Japan/Pt-TTV6/2000) OX=687343 GN=ORF1 PE=3 SV=1
+sp|Q91PQ1|CAPSD_TTVD1    -4.9   8.7e+03     2   3.7    429    459    432    455     17     40     Capsid protein OS=Torque teno tupaia virus (isolate Tbc-TTV14) OX=766185 GN=ORF1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002640216@NC_012126.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002640216@NC_012126.txt data/models_hmm/YP_002640216@NC_012126.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:09 2021
+# [ok]

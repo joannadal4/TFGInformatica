@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UNY1|YR731_MIMIV    13.9     0.041   1   1.8   0.3    Putative BTB/POZ domain and WD-repeat protein R731 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R731 PE=3 SV=1
+sp|P17176|GH_HCMVT       11.8      0.19   1   1.9   0.1    Envelope glycoprotein H OS=Human cytomegalovirus (strain Towne) OX=10363 GN=gH PE=3 SV=1
+sp|P12824|GH_HCMVA       11.8      0.19   1   1.9   0.1    Envelope glycoprotein H OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gH PE=1 SV=1
+sp|Q6SW67|GH_HCMVM       11.7      0.21   1   1.8   0.1    Envelope glycoprotein H OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gH PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UNY1|YR731_MIMIV    12.5      0.11     1   0.3    281    312    288    310     22     44     Putative BTB/POZ domain and WD-repeat protein R731 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R731 PE=3 SV=1
+sp|P17176|GH_HCMVT       10.0       0.7     1   0.1    696    727    697    725      4     32     Envelope glycoprotein H OS=Human cytomegalovirus (strain Towne) OX=10363 GN=gH PE=3 SV=1
+sp|Q6SW67|GH_HCMVM       10.0       0.7     1   0.1    696    727    697    725      4     32     Envelope glycoprotein H OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gH PE=1 SV=1
+sp|P12824|GH_HCMVA       10.0       0.7     1   0.1    697    728    698    726      4     32     Envelope glycoprotein H OS=Human cytomegalovirus (strain AD169) OX=10360 GN=gH PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007010379@NC_019538.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007010379@NC_019538.txt data/models_hmm/YP_007010379@NC_019538.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:25 2021
+# [ok]

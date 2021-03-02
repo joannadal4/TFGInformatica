@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36281|REN_TLCVA     14.8     0.022   1   1.6   0.2    Replication enhancer protein OS=Tomato leaf curl virus (strain Australia) OX=223353 GN=C3 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36281|REN_TLCVA     13.7     0.052     1   0.2      8     54     14     47     19     52     Replication enhancer protein OS=Tomato leaf curl virus (strain Australia) OX=223353 GN=C3 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_418118@NC_007623.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_418118@NC_007623.txt data/models_hmm/YP_418118@NC_007623.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:32 2021
+# [ok]

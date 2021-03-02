@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68586|MTBP_BPPHT    14.9     0.018   2   2.4   1.9    Modification methylase Phi3TI OS=Bacillus phage phi3T OX=10736 GN=mtbP PE=3 SV=1
+sp|P39259|Y05D_BPT4     11.0      0.29   2   2.2   9.4    Uncharacterized 20.7 kDa protein in nrdC-mobD intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y05D PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39259|Y05D_BPT4     10.7      0.35     2   5.1     81    173     97    168     72    143     Uncharacterized 20.7 kDa protein in nrdC-mobD intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y05D PE=4 SV=2
+sp|P68586|MTBP_BPPHT     7.4       3.6     2   0.2    223    268    231    266    122    156     Modification methylase Phi3TI OS=Bacillus phage phi3T OX=10736 GN=mtbP PE=3 SV=1
+sp|P68586|MTBP_BPPHT     6.7       6.1     1   0.1    145    226    161    221     20     76     Modification methylase Phi3TI OS=Bacillus phage phi3T OX=10736 GN=mtbP PE=3 SV=1
+sp|P39259|Y05D_BPT4      4.5        28     1   1.1      4    106     53    103     48     96     Uncharacterized 20.7 kDa protein in nrdC-mobD intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y05D PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000144@SRS045715_LANL_scaffold_18620@SRS045715_LANL_scaffold_18620_gene_24189.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000144@SRS045715_LANL_scaffold_18620@SRS045715_LANL_scaffold_18620_gene_24189.txt data/models_hmm/7000000144@SRS045715_LANL_scaffold_18620@SRS045715_LANL_scaffold_18620_gene_24189.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:48 2021
+# [ok]

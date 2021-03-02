@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q3V4Q0|Y326B_ATV     16.9     0.004   1   1.4   0.0    Uncharacterized protein ORF326b OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q3V4Q0|Y326B_ATV     16.0    0.0075     1   0.0     21     76     36     62     73     99     Uncharacterized protein ORF326b OS=Acidianus two-tailed virus OX=315953 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000632@SRS050299_LANL_scaffold_14550@SRS050299_LANL_scaffold_14550_gene_22472.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000632@SRS050299_LANL_scaffold_14550@SRS050299_LANL_scaffold_14550_gene_22472.txt data/models_hmm/7000000632@SRS050299_LANL_scaffold_14550@SRS050299_LANL_scaffold_14550_gene_22472.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:40 2021
+# [ok]

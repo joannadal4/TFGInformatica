@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FK9|315L_IIV6     36.9   2.2e-09   1   1.4   0.4    Putative KilA-N domain-containing protein 315L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-315L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FK9|315L_IIV6     36.2   3.8e-09     1   0.4     98    229    125    196     15     85     Putative KilA-N domain-containing protein 315L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-315L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000086@SRS049147_LANL_scaffold_40723@SRS049147_LANL_scaffold_40723_gene_42709.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000086@SRS049147_LANL_scaffold_40723@SRS049147_LANL_scaffold_40723_gene_42709.txt data/models_hmm/7000000086@SRS049147_LANL_scaffold_40723@SRS049147_LANL_scaffold_40723_gene_42709.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:23 2021
+# [ok]

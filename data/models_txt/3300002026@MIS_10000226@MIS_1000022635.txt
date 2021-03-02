@@ -1,0 +1,52 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQE8|RFCS2_MIMIV    14.6     0.023   2   2.2   0.0    Putative replication factor C small subunit L478 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L478 PE=3 SV=1
+sp|Q9WAK5|VP4_ROTYO      14.0     0.034   3   2.9   5.7    Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/YO/1977/G3P1A[8]) OX=578832 PE=3 SV=1
+sp|P11194|VP4_ROTHV      13.5      0.05   3   2.8   3.7    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/Italy/VA70/1975/G4P1A[8]) OX=10961 PE=3 SV=2
+sp|P13842|VP4_ROTHK      13.5     0.052   3   2.9   5.3    Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=3 SV=2
+sp|Q9WAK4|VP4_ROTHO      13.4     0.055   3   2.8   5.4    Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/MO/1982/G3P1A[8]) OX=10956 PE=3 SV=1
+sp|P11193|VP4_ROTHW      12.3      0.12   3   2.9   4.8    Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=1 SV=3
+sp|B3SRR9|VP4_ROTAD      12.3      0.12   3   2.9   4.8    Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|P11195|VP4_ROTHP      11.6      0.21   3   2.8   4.6    Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9WAK5|VP4_ROTYO      13.0     0.072     2   2.3    543    607    555    597     17     58     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/YO/1977/G3P1A[8]) OX=578832 PE=3 SV=1
+sp|P13842|VP4_ROTHK      12.4      0.11     2   2.0    543    608    555    597     17     58     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=3 SV=2
+sp|Q9WAK4|VP4_ROTHO      12.3      0.12     2   2.1    543    608    555    597     17     58     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/MO/1982/G3P1A[8]) OX=10956 PE=3 SV=1
+sp|Q5UQE8|RFCS2_MIMIV    12.2      0.13     1   0.0    142    215    161    213     19     69     Putative replication factor C small subunit L478 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L478 PE=3 SV=1
+sp|P11194|VP4_ROTHV      11.4      0.23     2   1.6    543    607    555    597     17     58     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/Italy/VA70/1975/G4P1A[8]) OX=10961 PE=3 SV=2
+sp|B3SRR9|VP4_ROTAD      10.8      0.35     2   2.0    543    607    555    597     17     58     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|P11193|VP4_ROTHW      10.8      0.35     2   2.0    543    607    555    597     17     58     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=1 SV=3
+sp|P11195|VP4_ROTHP      10.4      0.48     2   1.5    543    608    555    597     17     58     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=2
+sp|P11195|VP4_ROTHP       0.2   7.2e+02     1   0.0    488    517    495    513     22     40     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=2
+sp|P13842|VP4_ROTHK       0.2   7.2e+02     1   0.0    488    517    495    513     22     40     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=3 SV=2
+sp|Q9WAK4|VP4_ROTHO       0.2   7.2e+02     1   0.0    488    517    495    513     22     40     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/MO/1982/G3P1A[8]) OX=10956 PE=3 SV=1
+sp|Q9WAK5|VP4_ROTYO       0.2   7.2e+02     1   0.0    488    517    495    513     22     40     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/YO/1977/G3P1A[8]) OX=578832 PE=3 SV=1
+sp|B3SRR9|VP4_ROTAD       0.2   7.3e+02     1   0.0    489    517    495    513     22     40     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|P11194|VP4_ROTHV       0.2   7.3e+02     1   0.0    489    517    495    513     22     40     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/Italy/VA70/1975/G4P1A[8]) OX=10961 PE=3 SV=2
+sp|P11193|VP4_ROTHW       0.2   7.4e+02     1   0.0    490    517    495    513     22     40     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=1 SV=3
+sp|Q5UQE8|RFCS2_MIMIV    -1.7   2.8e+03     2   0.0    240    292    258    280     21     43     Putative replication factor C small subunit L478 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L478 PE=3 SV=1
+sp|P13842|VP4_ROTHK      -2.0   3.6e+03     3   0.0    674    733    713    725     41     53     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=3 SV=2
+sp|Q9WAK5|VP4_ROTYO      -2.0   3.6e+03     3   0.0    674    733    713    725     41     53     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/YO/1977/G3P1A[8]) OX=578832 PE=3 SV=1
+sp|Q9WAK4|VP4_ROTHO      -2.2   4.1e+03     3   0.0    674    733    714    724     42     52     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/MO/1982/G3P1A[8]) OX=10956 PE=3 SV=1
+sp|P11195|VP4_ROTHP      -3.0   7.3e+03     3   0.0    708    735    714    727     42     55     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=2
+sp|P11194|VP4_ROTHV      -3.3   8.9e+03     3   0.0    712    734    714    727     42     55     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Human/Italy/VA70/1975/G4P1A[8]) OX=10961 PE=3 SV=2
+sp|B3SRR9|VP4_ROTAD      -3.5     1e+04     3   0.0    713    733    715    727     43     55     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|P11193|VP4_ROTHW      -3.5     1e+04     3   0.0    713    733    715    727     43     55     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000226@MIS_1000022635.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000226@MIS_1000022635.txt data/models_hmm/3300002026@MIS_10000226@MIS_1000022635.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:50 2021
+# [ok]

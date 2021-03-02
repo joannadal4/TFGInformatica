@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q2Y0F0|VP1_APRVF      7.5       4.3   4   4.2   8.4    Putative structural protein VP1 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S1 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q2Y0F0|VP1_APRVF      4.8        29     1   0.1     49    118     51    102     13     64     Putative structural protein VP1 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S1 PE=4 SV=1
+sp|Q2Y0F0|VP1_APRVF      4.2        45     2   0.2    189    270    204    264     40    100     Putative structural protein VP1 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S1 PE=4 SV=1
+sp|Q2Y0F0|VP1_APRVF      0.0   8.6e+02     4   0.1    899    970    911    967     12     70     Putative structural protein VP1 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S1 PE=4 SV=1
+sp|Q2Y0F0|VP1_APRVF     -2.6   5.6e+03     3   0.0    396    441    412    436     63     88     Putative structural protein VP1 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S1 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004957219@NC_016563.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004957219@NC_016563.txt data/models_hmm/YP_004957219@NC_016563.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:58 2021
+# [ok]

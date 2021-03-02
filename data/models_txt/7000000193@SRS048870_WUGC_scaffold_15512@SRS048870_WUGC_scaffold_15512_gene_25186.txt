@@ -1,0 +1,45 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O55744|138R_IIV6      23.1   4.1e-05   1   1.0   0.2    Uncharacterized protein 138R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-138R PE=4 SV=1
+sp|P23052|SPIKE_BEV      15.3      0.01   1   1.5   4.2    Spike glycoprotein OS=Berne virus OX=11156 GN=S PE=2 SV=1
+sp|P03458|HEMA_I71A2     14.1     0.023   1   1.2   1.0    Hemagglutinin OS=Influenza A virus (strain A/Turkey/Oregon/1971 H7N3) OX=385636 GN=HA PE=3 SV=2
+sp|Q5UR53|YL583_MIMIV    13.9     0.026   1   1.0   5.0    Uncharacterized protein L583 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L583 PE=4 SV=1
+sp|P05078|2B_TRVTC       13.0     0.049   1   1.3   1.9    Protein 2b OS=Tobacco rattle virus (strain TCM) OX=12299 PE=3 SV=1
+sp|Q96686|CAP6_ADECR      9.4      0.61   1   1.1   2.2    Pre-protein VI OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=L3 PE=3 SV=1
+sp|Q992I2|SIGC_ARVS1      9.4      0.63   2   2.1   3.3    Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q65954|CAP6_ADECC      9.2      0.73   1   1.1   2.4    Pre-protein VI OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=L3 PE=3 SV=1
+sp|P15628|IBMP_SOCMV      7.6       2.2   2   2.2   5.4    Transactivator/viroplasmin protein OS=Soybean chlorotic mottle virus OX=10651 GN=ORF VI PE=3 SV=2
+sp|Q0Q466|SPIKE_BC512     7.3       2.7   3   3.3  19.6    Spike glycoprotein OS=Bat coronavirus 512/2005 OX=693999 GN=S PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O55744|138R_IIV6      23.0   4.6e-05     1   0.2      1    113      2    106     50    145     Uncharacterized protein 138R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-138R PE=4 SV=1
+sp|P23052|SPIKE_BEV      14.1     0.023     1   4.2   1124   1203   1134   1198    102    170     Spike glycoprotein OS=Berne virus OX=11156 GN=S PE=2 SV=1
+sp|Q5UR53|YL583_MIMIV    13.7     0.032     1   5.0     21    103     33    100    218    282     Uncharacterized protein L583 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L583 PE=4 SV=1
+sp|P03458|HEMA_I71A2     13.4     0.036     1   1.0    323    457    349    428     66    147     Hemagglutinin OS=Influenza A virus (strain A/Turkey/Oregon/1971 H7N3) OX=385636 GN=HA PE=3 SV=2
+sp|P05078|2B_TRVTC       12.3     0.083     1   1.9    109    167    123    162    215    254     Protein 2b OS=Tobacco rattle virus (strain TCM) OX=12299 PE=3 SV=1
+sp|Q96686|CAP6_ADECR      9.0      0.82     1   2.2      6    110     28     87     42    112     Pre-protein VI OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=L3 PE=3 SV=1
+sp|Q65954|CAP6_ADECC      8.7      0.98     1   2.4      6    107     28     87     42    112     Pre-protein VI OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=L3 PE=3 SV=1
+sp|Q992I2|SIGC_ARVS1      6.3       5.3     1   0.5     33    118     41     85     99    143     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q0Q466|SPIKE_BC512     5.8       7.8     2   5.4   1014   1102   1027   1074    103    150     Spike glycoprotein OS=Bat coronavirus 512/2005 OX=693999 GN=S PE=3 SV=1
+sp|P15628|IBMP_SOCMV      5.8         8     1   4.5      1     64      1     27    229    255     Transactivator/viroplasmin protein OS=Soybean chlorotic mottle virus OX=10651 GN=ORF VI PE=3 SV=2
+sp|Q0Q466|SPIKE_BC512     5.3        11     1   2.9    947   1028    981   1020    104    149     Spike glycoprotein OS=Bat coronavirus 512/2005 OX=693999 GN=S PE=3 SV=1
+sp|Q0Q466|SPIKE_BC512     3.5        39     3   0.3   1206   1349   1254   1346    218    293     Spike glycoprotein OS=Bat coronavirus 512/2005 OX=693999 GN=S PE=3 SV=1
+sp|Q992I2|SIGC_ARVS1      3.3        44     2   0.2    113    161    116    146    104    131     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|P15628|IBMP_SOCMV     -0.2   5.4e+02     2   0.0    314    403    324    372     96    140     Transactivator/viroplasmin protein OS=Soybean chlorotic mottle virus OX=10651 GN=ORF VI PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000193@SRS048870_WUGC_scaffold_15512@SRS048870_WUGC_scaffold_15512_gene_25186.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000193@SRS048870_WUGC_scaffold_15512@SRS048870_WUGC_scaffold_15512_gene_25186.txt data/models_hmm/7000000193@SRS048870_WUGC_scaffold_15512@SRS048870_WUGC_scaffold_15512_gene_25186.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:12 2021
+# [ok]

@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P26750|Y7K7_BPP22   167.9   3.5e-50   1   1.0   4.0    Uncharacterized 7.7 kDa protein in gp5-gp4 intergenic region OS=Salmonella phage P22 OX=10754 PE=4 SV=1
+sp|Q6R7A1|Y122_OSHVF     7.2         5   2   3.1   7.3    Uncharacterized protein ORF122 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF122 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P26750|Y7K7_BPP22   167.8   3.8e-50     1   4.0      1     69      1     69      1     69     Uncharacterized 7.7 kDa protein in gp5-gp4 intergenic region OS=Salmonella phage P22 OX=10754 PE=4 SV=1
+sp|Q6R7A1|Y122_OSHVF     8.2       2.6     1   0.1     95    135    111    132     44     66     Uncharacterized protein ORF122 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF122 PE=4 SV=1
+sp|Q6R7A1|Y122_OSHVF    -0.5   1.3e+03     2   2.9    278    348    283    297     12     26     Uncharacterized protein ORF122 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF122 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006383892@NC_017985.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006383892@NC_017985.txt data/models_hmm/YP_006383892@NC_017985.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:15 2021
+# [ok]

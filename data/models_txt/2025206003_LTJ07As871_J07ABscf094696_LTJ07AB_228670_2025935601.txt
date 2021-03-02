@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A0MZA0|GP8_BPN4      11.9      0.19   1   1.1   0.2    Gene product 8 OS=Enterobacteria phage N4 OX=10752 PE=4 SV=1
+sp|Q2Y0F0|VP1_APRVF     11.8       0.2   2   2.7   4.1    Putative structural protein VP1 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S1 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A0MZA0|GP8_BPN4      11.7      0.21     1   0.2      4     51      5     40      2     36     Gene product 8 OS=Enterobacteria phage N4 OX=10752 PE=4 SV=1
+sp|Q2Y0F0|VP1_APRVF      7.4       4.6     1   1.5      5    119     33    106     52    125     Putative structural protein VP1 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S1 PE=4 SV=1
+sp|Q2Y0F0|VP1_APRVF      3.8        62     2   0.0    301    393    350    383     89    122     Putative structural protein VP1 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S1 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2025206003_LTJ07As871_J07ABscf094696_LTJ07AB_228670_2025935601.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2025206003_LTJ07As871_J07ABscf094696_LTJ07AB_228670_2025935601.txt data/models_hmm/2025206003_LTJ07As871_J07ABscf094696_LTJ07AB_228670_2025935601.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:57 2021
+# [ok]

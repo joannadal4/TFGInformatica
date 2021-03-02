@@ -1,0 +1,44 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q86194|NSP1_ROTH3    14.8     0.033   2   2.8   3.7    Non-structural protein 1 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=2 SV=1
+sp|Q8JZ13|NSP1_ROTB4    12.7      0.15   3   3.2   6.9    Non-structural protein 1 OS=Rotavirus A (strain RVA/Cow/United States/B641/XXXX/G6P7[5]) OX=10928 PE=1 SV=1
+sp|B3SRR2|NSP1_ROTH7    12.3      0.21   3   3.3   6.3    Non-structural protein 1 OS=Rotavirus A (isolate RVA/Human/United Kingdom/A64/1987/G10P11[14]) OX=578827 PE=3 SV=1
+sp|P12475|NSP1_ROTRF    12.0      0.25   3   3.4   6.3    Non-structural protein 1 OS=Rotavirus A (strain RVA/Cow/France/RF/1975/G6P6[1]) OX=10933 PE=3 SV=1
+sp|B2BRG2|NSP1_ROTW3    11.9      0.28   3   3.3   6.3    Non-structural protein 1 OS=Rotavirus A (strain RVA/Cow/United States/WC3/1981/G6P7[5]) OX=578828 PE=3 SV=1
+sp|Q65709|NSP1_ROTBB    10.7      0.66   3   3.5   5.9    Non-structural protein 1 OS=Rotavirus A (isolate RVA/Cow/United States/B223/1983/G10P8[11]) OX=1835656 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8JZ13|NSP1_ROTB4    11.7      0.32     2   0.9    100    193    119    184     20     86     Non-structural protein 1 OS=Rotavirus A (strain RVA/Cow/United States/B641/XXXX/G6P7[5]) OX=10928 PE=1 SV=1
+sp|B3SRR2|NSP1_ROTH7    11.2      0.46     2   0.7     99    193    119    185     20     87     Non-structural protein 1 OS=Rotavirus A (isolate RVA/Human/United Kingdom/A64/1987/G10P11[14]) OX=578827 PE=3 SV=1
+sp|B2BRG2|NSP1_ROTW3    10.2      0.93     2   0.8     95    193    119    185     20     87     Non-structural protein 1 OS=Rotavirus A (strain RVA/Cow/United States/WC3/1981/G6P7[5]) OX=578828 PE=3 SV=1
+sp|P12475|NSP1_ROTRF    10.2      0.93     2   0.8     95    193    119    185     20     87     Non-structural protein 1 OS=Rotavirus A (strain RVA/Cow/France/RF/1975/G6P6[1]) OX=10933 PE=3 SV=1
+sp|Q86194|NSP1_ROTH3     9.9       1.2     2   0.8    100    194    120    185     21     87     Non-structural protein 1 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=2 SV=1
+sp|Q65709|NSP1_ROTBB     8.8       2.6     2   0.4    101    196    120    180     21     82     Non-structural protein 1 OS=Rotavirus A (isolate RVA/Cow/United States/B223/1983/G10P8[11]) OX=1835656 PE=3 SV=1
+sp|Q86194|NSP1_ROTH3     4.7        48     1   0.3     55    123     59     94      9     43     Non-structural protein 1 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=2 SV=1
+sp|Q8JZ13|NSP1_ROTB4     2.9   1.8e+02     1   0.3     56    120     59     77      9     25     Non-structural protein 1 OS=Rotavirus A (strain RVA/Cow/United States/B641/XXXX/G6P7[5]) OX=10928 PE=1 SV=1
+sp|B2BRG2|NSP1_ROTW3     2.8   1.9e+02     1   0.5     55    125     59     77      9     25     Non-structural protein 1 OS=Rotavirus A (strain RVA/Cow/United States/WC3/1981/G6P7[5]) OX=578828 PE=3 SV=1
+sp|P12475|NSP1_ROTRF     2.8   1.9e+02     1   0.5     55    125     59     77      9     25     Non-structural protein 1 OS=Rotavirus A (strain RVA/Cow/France/RF/1975/G6P6[1]) OX=10933 PE=3 SV=1
+sp|Q65709|NSP1_ROTBB     2.4   2.5e+02     1   0.9     55    125     59     77      9     25     Non-structural protein 1 OS=Rotavirus A (isolate RVA/Cow/United States/B223/1983/G10P8[11]) OX=1835656 PE=3 SV=1
+sp|B3SRR2|NSP1_ROTH7     2.3   2.7e+02     1   0.4     56    123     59     77      9     25     Non-structural protein 1 OS=Rotavirus A (isolate RVA/Human/United Kingdom/A64/1987/G10P11[14]) OX=578827 PE=3 SV=1
+sp|B2BRG2|NSP1_ROTW3    -1.7   4.8e+03     3   0.0    238    292    252    284     19     47     Non-structural protein 1 OS=Rotavirus A (strain RVA/Cow/United States/WC3/1981/G6P7[5]) OX=578828 PE=3 SV=1
+sp|P12475|NSP1_ROTRF    -1.7   4.8e+03     3   0.0    238    292    252    284     19     47     Non-structural protein 1 OS=Rotavirus A (strain RVA/Cow/France/RF/1975/G6P6[1]) OX=10933 PE=3 SV=1
+sp|Q8JZ13|NSP1_ROTB4    -2.3   7.5e+03     3   0.0    240    291    265    284     30     47     Non-structural protein 1 OS=Rotavirus A (strain RVA/Cow/United States/B641/XXXX/G6P7[5]) OX=10928 PE=1 SV=1
+sp|B3SRR2|NSP1_ROTH7    -2.5   8.6e+03     3   0.0    240    289    267    284     32     47     Non-structural protein 1 OS=Rotavirus A (isolate RVA/Human/United Kingdom/A64/1987/G10P11[14]) OX=578827 PE=3 SV=1
+sp|Q65709|NSP1_ROTBB    -3.5   1.7e+04     3   0.0    253    293    272    284     35     47     Non-structural protein 1 OS=Rotavirus A (isolate RVA/Cow/United States/B223/1983/G10P8[11]) OX=1835656 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000516@SRS019161_WUGC_scaffold_3814@SRS019161_WUGC_scaffold_3814_gene_5258.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000516@SRS019161_WUGC_scaffold_3814@SRS019161_WUGC_scaffold_3814_gene_5258.txt data/models_hmm/7000000516@SRS019161_WUGC_scaffold_3814@SRS019161_WUGC_scaffold_3814_gene_5258.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:00 2021
+# [ok]

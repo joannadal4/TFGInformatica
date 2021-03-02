@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DOO3|DNLI_VAR67     9.3      0.29   2   1.5   1.0    DNA ligase OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=LIG PE=3 SV=1
+sp|P0DOO4|DNLI_VARV      9.3      0.29   2   1.5   1.0    DNA ligase OS=Variola virus OX=10255 GN=LIG PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DOO3|DNLI_VAR67     8.1      0.65     2   0.8    178    260    188    253     21     85     DNA ligase OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=LIG PE=3 SV=1
+sp|P0DOO4|DNLI_VARV      8.1      0.65     2   0.8    178    260    188    253     21     85     DNA ligase OS=Variola virus OX=10255 GN=LIG PE=3 SV=1
+sp|P0DOO3|DNLI_VAR67    -2.4   9.7e+02     1   0.0     47    114     51     98    669    715     DNA ligase OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=LIG PE=3 SV=1
+sp|P0DOO4|DNLI_VARV     -2.4   9.7e+02     1   0.0     47    114     51     98    669    715     DNA ligase OS=Variola virus OX=10255 GN=LIG PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2084038018@TrFG_contig00004@TrFG_00900150.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2084038018@TrFG_contig00004@TrFG_00900150.txt data/models_hmm/2084038018@TrFG_contig00004@TrFG_00900150.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:57 2021
+# [ok]

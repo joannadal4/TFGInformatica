@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CAL8|VF93L_ASFP4    14.3     0.033   1   1.1   0.8    Uncharacterized membrane protein KP93L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-001 PE=3 SV=1
+sp|Q9T1Q1|VP47_BPAPS     11.0      0.36   3   3.7   5.8    Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+sp|Q914J7|Y033_SIFVH      8.2       2.5   3   2.5   9.9    Uncharacterized protein 33 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0033 PE=4 SV=1
+sp|Q5UQW6|YR387_MIMIV     6.6       8.2   4   4.2  11.6    Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CAL8|VF93L_ASFP4    14.0     0.039     1   0.8      4     55     15     50     14     50     Uncharacterized membrane protein KP93L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-001 PE=3 SV=1
+sp|Q914J7|Y033_SIFVH     10.0      0.68     1   2.3      2     49      6     43     43     80     Uncharacterized protein 33 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0033 PE=4 SV=1
+sp|Q5UQW6|YR387_MIMIV     7.4       4.5     1   2.0      2     83      6     76     20     79     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q9T1Q1|VP47_BPAPS      6.4       9.1     1   0.2     20     80     28     66     31     70     Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+sp|Q9T1Q1|VP47_BPAPS      3.6        70     3   0.3    107    168    114    135     45     66     Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+sp|Q914J7|Y033_SIFVH      2.7   1.3e+02     3   0.6     83    131     97    129     40     71     Uncharacterized protein 33 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0033 PE=4 SV=1
+sp|Q9T1Q1|VP47_BPAPS      2.1   2.1e+02     2   0.1     66    114     83     97     54     68     Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+sp|Q5UQW6|YR387_MIMIV     1.9   2.3e+02     2   0.0     68    118     73    105     37     69     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q5UQW6|YR387_MIMIV     0.7   5.8e+02     4   0.2    194    261    221    230     61     70     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q5UQW6|YR387_MIMIV     0.2   7.9e+02     3   0.0    153    190    158    186     38     66     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q914J7|Y033_SIFVH     -1.9   3.6e+03     2   0.0     44     72     51     68     43     60     Uncharacterized protein 33 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0033 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000211@SRS024017_Baylor_scaffold_10342@SRS024017_Baylor_scaffold_10342_gene_9275.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000211@SRS024017_Baylor_scaffold_10342@SRS024017_Baylor_scaffold_10342_gene_9275.txt data/models_hmm/7000000211@SRS024017_Baylor_scaffold_10342@SRS024017_Baylor_scaffold_10342_gene_9275.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:22 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q08538|CPM_BYVU      15.2    0.0086   1   1.3   0.1    Minor capsid protein OS=Beet yellows virus (isolate Ukraine) OX=478555 GN=ORF5 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q08538|CPM_BYVU      14.6     0.013     1   0.1     13     80     32     70     61     99     Minor capsid protein OS=Beet yellows virus (isolate Ukraine) OX=478555 GN=ORF5 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000186@SRS022524_Baylor_scaffold_74660@SRS022524_Baylor_scaffold_74660_gene_176691.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000186@SRS022524_Baylor_scaffold_74660@SRS022524_Baylor_scaffold_74660_gene_176691.txt data/models_hmm/7000000186@SRS022524_Baylor_scaffold_74660@SRS022524_Baylor_scaffold_74660_gene_176691.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:08 2021
+# [ok]

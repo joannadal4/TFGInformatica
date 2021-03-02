@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q80HV8|A11_VACCW     13.8     0.038   1   1.6   0.2    Protein A11 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR130 PE=1 SV=1
+sp|P20988|A11_VACCC     13.8     0.039   1   1.6   0.2    Protein A11 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A11R PE=2 SV=1
+sp|Q76RB8|A11_VACCA     13.8     0.039   1   1.6   0.2    Protein A11 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA122R PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q80HV8|A11_VACCW     12.7     0.082     1   0.2    188    277    197    266     14     81     Protein A11 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR130 PE=1 SV=1
+sp|P20988|A11_VACCC     12.6     0.086     1   0.2    189    277    197    266     14     81     Protein A11 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A11R PE=2 SV=1
+sp|Q76RB8|A11_VACCA     12.6     0.086     1   0.2    189    277    197    266     14     81     Protein A11 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA122R PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH26438@HQ634175.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH26438@HQ634175.txt data/models_hmm/AGH26438@HQ634175.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:39 2021
+# [ok]

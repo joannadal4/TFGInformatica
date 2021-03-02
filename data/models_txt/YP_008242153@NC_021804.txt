@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8B9B2|VIE2_NPVR1    15.8     0.015   2   2.3   0.2    E3 ubiquitin-protein ligase IE2 OS=Rachiplusia ou multiple nucleopolyhedrovirus (strain R1) OX=654904 GN=IE2 PE=3 SV=1
+sp|P20553|YVDI_VACCC    15.1     0.024   1   1.1   1.5    Uncharacterized 9.5 kDa protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D ORF I PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20553|YVDI_VACCC    14.8      0.03     1   1.5     18     73     21     69      8     54     Uncharacterized 9.5 kDa protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D ORF I PE=4 SV=1
+sp|Q8B9B2|VIE2_NPVR1     8.5       2.7     2   0.0    340    404    343    391      4     52     E3 ubiquitin-protein ligase IE2 OS=Rachiplusia ou multiple nucleopolyhedrovirus (strain R1) OX=654904 GN=IE2 PE=3 SV=1
+sp|Q8B9B2|VIE2_NPVR1     4.9        35     1   0.0    271    333    281    326     27     72     E3 ubiquitin-protein ligase IE2 OS=Rachiplusia ou multiple nucleopolyhedrovirus (strain R1) OX=654904 GN=IE2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008242153@NC_021804.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008242153@NC_021804.txt data/models_hmm/YP_008242153@NC_021804.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:34 2021
+# [ok]

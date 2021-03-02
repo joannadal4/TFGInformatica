@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52358|CEP3_HHV7J    14.9     0.016   1   1.1   0.0    Cytoplasmic envelopment protein 3 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U71 PE=3 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52358|CEP3_HHV7J    14.8     0.018     1   0.0      1     62      3     53      6     54     Cytoplasmic envelopment protein 3 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U71 PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH32000@HQ634156.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH32000@HQ634156.txt data/models_hmm/AGH32000@HQ634156.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:46 2021
+# [ok]

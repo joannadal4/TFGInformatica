@@ -1,0 +1,56 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q80HV2|VITF3_VACCW    34.4     1e-08   2   2.0  37.4    Intermediate transcription factor 3 large subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VITF3L PE=1 SV=1
+sp|P20998|VITF3_VACCC    34.0   1.5e-08   2   2.0  38.8    Intermediate transcription factor 3 large subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=VITF3L PE=2 SV=1
+sp|Q6RZF9|VTF3L_RABPU    34.0   1.5e-08   2   2.0  38.8    Intermediate transcription factor 3 large subunit OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=VITF3L PE=3 SV=1
+sp|Q76RB3|VTF3L_VACCA    34.0   1.5e-08   2   2.0  38.8    Intermediate transcription factor 3 large subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=VITF3L PE=3 SV=1
+sp|Q77TH8|VTF3L_VACCT    34.0   1.5e-08   2   2.0  38.8    Intermediate transcription factor 3 large subunit OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=VITF3L PE=3 SV=1
+sp|Q8V4V4|VTF3L_MONPZ    33.9   1.5e-08   2   2.0  37.9    Intermediate transcription factor 3 large subunit OS=Monkeypox virus (strain Zaire-96-I-16) OX=619591 GN=VITF3L PE=3 SV=1
+sp|Q8JL91|VTF3L_ECTVM    33.5     2e-08   2   2.1  38.9    Intermediate transcription factor 3 large subunit OS=Ectromelia virus (strain Moscow) OX=265874 GN=VITF3L PE=3 SV=1
+sp|P0DSR9|VITF3_VAR67    32.5   4.2e-08   2   2.1  39.5    Intermediate transcription factor 3 large subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=VITF3L PE=2 SV=1
+sp|P0DSS0|VITF3_VARV     32.5   4.2e-08   2   2.1  39.5    Intermediate transcription factor 3 large subunit OS=Variola virus OX=10255 GN=VITF3L PE=2 SV=1
+sp|Q775Q4|VTF3L_CAMPS    32.0   5.6e-08   2   2.0  37.3    Intermediate transcription factor 3 large subunit OS=Camelpox virus (strain CMS) OX=203172 GN=VITF3L PE=3 SV=1
+sp|Q8V2N2|VTF3L_CAMPM    32.0   5.6e-08   2   2.0  37.3    Intermediate transcription factor 3 large subunit OS=Camelpox virus (strain M-96) OX=203173 GN=VITF3L PE=3 SV=1
+sp|Q38442|GP7_BPSPP      14.4     0.013   1   1.2   5.1    Minor head protein GP7 OS=Bacillus phage SPP1 OX=10724 GN=7 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q80HV2|VITF3_VACCW    28.1   8.7e-07     1  26.4      1    263     12    254     13    246     Intermediate transcription factor 3 large subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VITF3L PE=1 SV=1
+sp|P20998|VITF3_VACCC    28.0   9.6e-07     1  27.2      1    262     12    254     13    246     Intermediate transcription factor 3 large subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=VITF3L PE=2 SV=1
+sp|Q6RZF9|VTF3L_RABPU    28.0   9.6e-07     1  27.2      1    262     12    254     13    246     Intermediate transcription factor 3 large subunit OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=VITF3L PE=3 SV=1
+sp|Q76RB3|VTF3L_VACCA    28.0   9.6e-07     1  27.2      1    262     12    254     13    246     Intermediate transcription factor 3 large subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=VITF3L PE=3 SV=1
+sp|Q77TH8|VTF3L_VACCT    28.0   9.6e-07     1  27.2      1    262     12    254     13    246     Intermediate transcription factor 3 large subunit OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=VITF3L PE=3 SV=1
+sp|Q8V4V4|VTF3L_MONPZ    27.5   1.3e-06     1  27.5      1    263     12    254     13    246     Intermediate transcription factor 3 large subunit OS=Monkeypox virus (strain Zaire-96-I-16) OX=619591 GN=VITF3L PE=3 SV=1
+sp|Q8JL91|VTF3L_ECTVM    27.2   1.7e-06     1  28.5      1    268     12    260     13    251     Intermediate transcription factor 3 large subunit OS=Ectromelia virus (strain Moscow) OX=265874 GN=VITF3L PE=3 SV=1
+sp|P0DSR9|VITF3_VAR67    26.2   3.3e-06     1  28.6      1    266     12    258     13    249     Intermediate transcription factor 3 large subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=VITF3L PE=2 SV=1
+sp|P0DSS0|VITF3_VARV     26.2   3.3e-06     1  28.6      1    266     12    258     13    249     Intermediate transcription factor 3 large subunit OS=Variola virus OX=10255 GN=VITF3L PE=2 SV=1
+sp|Q775Q4|VTF3L_CAMPS    25.5   5.4e-06     1  26.3      1    264     12    257     13    248     Intermediate transcription factor 3 large subunit OS=Camelpox virus (strain CMS) OX=203172 GN=VITF3L PE=3 SV=1
+sp|Q8V2N2|VTF3L_CAMPM    25.5   5.4e-06     1  26.3      1    264     12    257     13    248     Intermediate transcription factor 3 large subunit OS=Camelpox virus (strain M-96) OX=203173 GN=VITF3L PE=3 SV=1
+sp|Q38442|GP7_BPSPP      13.9     0.019     1   5.1      1     95      5     92    105    187     Minor head protein GP7 OS=Bacillus phage SPP1 OX=10724 GN=7 PE=1 SV=2
+sp|Q775Q4|VTF3L_CAMPS    11.2      0.12     2   6.7    238    382    254    379    223    341     Intermediate transcription factor 3 large subunit OS=Camelpox virus (strain CMS) OX=203172 GN=VITF3L PE=3 SV=1
+sp|Q8V2N2|VTF3L_CAMPM    11.2      0.12     2   6.7    238    382    254    379    223    341     Intermediate transcription factor 3 large subunit OS=Camelpox virus (strain M-96) OX=203173 GN=VITF3L PE=3 SV=1
+sp|Q80HV2|VITF3_VACCW    11.0      0.14     2   6.4    241    382    254    377    223    339     Intermediate transcription factor 3 large subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VITF3L PE=1 SV=1
+sp|P20998|VITF3_VACCC    10.9      0.15     2   6.6    241    382    254    377    223    339     Intermediate transcription factor 3 large subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=VITF3L PE=2 SV=1
+sp|Q6RZF9|VTF3L_RABPU    10.9      0.15     2   6.6    241    382    254    377    223    339     Intermediate transcription factor 3 large subunit OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=VITF3L PE=3 SV=1
+sp|Q76RB3|VTF3L_VACCA    10.9      0.15     2   6.6    241    382    254    377    223    339     Intermediate transcription factor 3 large subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=VITF3L PE=3 SV=1
+sp|Q77TH8|VTF3L_VACCT    10.9      0.15     2   6.6    241    382    254    377    223    339     Intermediate transcription factor 3 large subunit OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=VITF3L PE=3 SV=1
+sp|Q8JL91|VTF3L_ECTVM    10.7      0.17     2   6.0    254    382    256    377    225    339     Intermediate transcription factor 3 large subunit OS=Ectromelia virus (strain Moscow) OX=265874 GN=VITF3L PE=3 SV=1
+sp|Q8V4V4|VTF3L_MONPZ    10.7      0.17     2   6.3    238    382    254    377    223    339     Intermediate transcription factor 3 large subunit OS=Monkeypox virus (strain Zaire-96-I-16) OX=619591 GN=VITF3L PE=3 SV=1
+sp|P0DSR9|VITF3_VAR67    10.2      0.24     2   7.3    238    382    254    379    223    341     Intermediate transcription factor 3 large subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=VITF3L PE=2 SV=1
+sp|P0DSS0|VITF3_VARV     10.2      0.24     2   7.3    238    382    254    379    223    341     Intermediate transcription factor 3 large subunit OS=Variola virus OX=10255 GN=VITF3L PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_064873@NC_002520.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_064873@NC_002520.txt data/models_hmm/NP_064873@NC_002520.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:42 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39243|Y16K_BPT4     12.4     0.092   1   1.0   0.0    Uncharacterized 8.1 kDa protein in ndd-denB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16K PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39243|Y16K_BPT4     12.4     0.097     1   0.0      3     66     10     53     66    112     Uncharacterized 8.1 kDa protein in ndd-denB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16K PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008436555@NC_022098.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008436555@NC_022098.txt data/models_hmm/YP_008436555@NC_022098.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:07 2021
+# [ok]

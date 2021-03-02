@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03791|Y14_BPT7      13.5     0.049   1   1.0   0.1    Protein 1.4 OS=Escherichia phage T7 OX=10760 GN=1.4 PE=3 SV=1
+sp|P09256|GC_VZVD       13.3     0.058   2   1.6   0.1    Envelope glycoprotein C OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gC PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03791|Y14_BPT7      13.5     0.049     1   0.1      1     50      2     42     81    120     Protein 1.4 OS=Escherichia phage T7 OX=10760 GN=1.4 PE=3 SV=1
+sp|P09256|GC_VZVD       13.3     0.058     1   0.1    269    365    286    339     35     89     Envelope glycoprotein C OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gC PE=3 SV=2
+sp|P09256|GC_VZVD       -4.1   1.3e+04     2   0.4    548    576    554    569     69     84     Envelope glycoprotein C OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gC PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000057@SRS013818_Baylor_scaffold_58635@SRS013818_Baylor_scaffold_58635_gene_74991.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000057@SRS013818_Baylor_scaffold_58635@SRS013818_Baylor_scaffold_58635_gene_74991.txt data/models_hmm/7000000057@SRS013818_Baylor_scaffold_58635@SRS013818_Baylor_scaffold_58635_gene_74991.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:10 2021
+# [ok]

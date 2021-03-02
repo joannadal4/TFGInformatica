@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q08512|MCES_SWPVK   482.3  5.3e-145   1   1.0  14.6    mRNA-capping enzyme small subunit OS=Swinepox virus (strain Kasza) OX=10277 PE=4 SV=1
+sp|P20980|MCES_VACCC   473.9  1.8e-142   1   1.0   9.7    mRNA-capping enzyme regulatory subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D12L PE=3 SV=1
+sp|Q9QB92|MCES_YMTV5   473.8    2e-142   1   1.0  14.9    mRNA-capping enzyme small subunit OS=Yaba monkey tumor virus (strain VR587) OX=928314 GN=89L PE=4 SV=1
+sp|P0DSQ5|MCES_VAR67   473.5  2.4e-142   1   1.0  10.0    mRNA-capping enzyme regulatory subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=D12L PE=3 SV=1
+sp|P0DSQ6|MCES_VARV    473.5  2.4e-142   1   1.0  10.0    mRNA-capping enzyme regulatory subunit OS=Variola virus OX=10255 GN=D12L PE=3 SV=1
+sp|P04318|MCES_VACCW   473.5  2.5e-142   1   1.0  10.0    mRNA-capping enzyme regulatory subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR117 PE=1 SV=1
+sp|O57215|MCES_VACCA   472.5  5.1e-142   1   1.0  10.2    mRNA-capping enzyme regulatory subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA109L PE=3 SV=1
+sp|O72908|MCES_FOWPN   437.3  2.7e-131   1   1.0  15.0    mRNA-capping enzyme small subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV051 PE=4 SV=1
+sp|Q9E6P4|UL24_GAHVM    12.5     0.072   1   1.6   0.1    Protein UL24 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV035 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q08512|MCES_SWPVK   482.1  5.9e-145     1  14.6      1    287      1    286      3    288     mRNA-capping enzyme small subunit OS=Swinepox virus (strain Kasza) OX=10277 PE=4 SV=1
+sp|P20980|MCES_VACCC   473.8    2e-142     1   9.7      1    287      1    286      3    288     mRNA-capping enzyme regulatory subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D12L PE=3 SV=1
+sp|Q9QB92|MCES_YMTV5   473.7  2.2e-142     1  14.9      1    287      1    286      3    288     mRNA-capping enzyme small subunit OS=Yaba monkey tumor virus (strain VR587) OX=928314 GN=89L PE=4 SV=1
+sp|P0DSQ5|MCES_VAR67   473.4  2.7e-142     1  10.0      1    287      1    286      3    288     mRNA-capping enzyme regulatory subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=D12L PE=3 SV=1
+sp|P0DSQ6|MCES_VARV    473.4  2.7e-142     1  10.0      1    287      1    286      3    288     mRNA-capping enzyme regulatory subunit OS=Variola virus OX=10255 GN=D12L PE=3 SV=1
+sp|P04318|MCES_VACCW   473.3  2.8e-142     1  10.0      1    287      1    286      3    288     mRNA-capping enzyme regulatory subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR117 PE=1 SV=1
+sp|O57215|MCES_VACCA   472.3  5.7e-142     1  10.2      1    287      1    286      3    288     mRNA-capping enzyme regulatory subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA109L PE=3 SV=1
+sp|O72908|MCES_FOWPN   437.1    3e-131     1  15.0      1    288      2    287      2    288     mRNA-capping enzyme small subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV051 PE=4 SV=1
+sp|Q9E6P4|UL24_GAHVM    11.5      0.15     1   0.1    196    301    214    281     53    123     Protein UL24 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV035 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_051976@NC_001266.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_051976@NC_001266.txt data/models_hmm/NP_051976@NC_001266.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:36 2021
+# [ok]

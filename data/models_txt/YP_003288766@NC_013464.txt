@@ -1,0 +1,57 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O39519|MP_BEYDV      118.0   1.3e-34   1   1.0   0.0    Movement protein OS=Bean yellow dwarf virus OX=57119 GN=V2 PE=3 SV=1
+sp|Q00336|MP_PASVK      116.6   3.7e-34   1   1.0   0.0    Movement protein OS=Panicum streak virus (isolate Kenya) OX=268780 GN=V2 PE=3 SV=1
+sp|P31619|MP_TYDVA      114.0   2.4e-33   1   1.0   0.0    Movement protein OS=Tobacco yellow dwarf virus (strain Australia) OX=31599 GN=V2 PE=3 SV=1
+sp|Q89448|MP_SSVN       112.8   5.4e-33   1   1.0   0.0    Movement protein OS=Sugarcane streak virus (isolate South Africa) OX=268781 GN=V2 PE=3 SV=1
+sp|P14992|MP_MSVS       111.0     2e-32   1   1.0   0.0    Movement protein OS=Maize streak virus genotype A (isolate South Africa) OX=10824 GN=V2 PE=3 SV=1
+sp|P0C648|MP_MSVK       110.9   2.1e-32   1   1.0   0.0    Movement protein OS=Maize streak virus genotype A (isolate Kenya) OX=10822 GN=V2 PE=3 SV=1
+sp|P0C649|MP_MSVN       110.9   2.1e-32   1   1.0   0.0    Movement protein OS=Maize streak virus genotype A (isolate Nigeria) OX=10823 GN=V2 PE=1 SV=1
+sp|Q91MG4|MP_MSVPA      105.8   8.1e-31   1   1.0   0.0    Movement protein OS=Maize streak virus genotype E (isolate Pat) OX=268331 GN=V2 PE=3 SV=1
+sp|O40984|MP_MSVSE      105.7   8.6e-31   1   1.0   0.0    Movement protein OS=Maize streak virus genotype C (isolate Set) OX=268344 GN=V2 PE=3 SV=1
+sp|Q91MG0|MP_MSVRA      105.5   1.1e-30   1   1.0   0.0    Movement protein OS=Maize streak virus genotype D (isolate Raw) OX=268343 GN=V2 PE=3 SV=1
+sp|Q9IGY9|MP_MSVTA      101.1   2.4e-29   1   1.0   0.0    Movement protein OS=Maize streak virus genotype B (isolate Tas) OX=268409 GN=V2 PE=3 SV=1
+sp|P06849|MP_WDVS       100.6   3.3e-29   1   1.0   0.0    Movement protein OS=Wheat dwarf virus (isolate Sweden) OX=268789 GN=V2 PE=3 SV=1
+sp|Q67593|MP_MISV9       18.7     0.001   1   1.4   0.8    Putative movement protein OS=Miscanthus streak virus (isolate 91) OX=268776 GN=V2 PE=3 SV=1
+sp|Q9XJJ6|SPAN1_BP933    15.7    0.0087   1   1.2   0.1    Spanin, inner membrane subunit OS=Escherichia phage 933W OX=10730 GN=Rz PE=3 SV=1
+sp|P10438|SPAN1_BPPA2    12.5     0.087   1   1.1   0.0    Spanin, inner membrane subunit (Fragment) OS=Enterobacteria phage PA-2 OX=10738 GN=Rz PE=3 SV=1
+sp|O72899|I2_FOWPN       12.4     0.095   1   1.1   0.1    Protein I2 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV089 PE=2 SV=1
+sp|P00726|SPAN1_LAMBD    12.2      0.11   1   1.3   0.0    Spanin, inner membrane subunit OS=Escherichia phage lambda OX=10710 GN=Rz PE=1 SV=1
+sp|O10331|Y078_NPVOP     12.2      0.11   1   1.2   0.0    Uncharacterized 11.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF81 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O39519|MP_BEYDV      117.9   1.4e-34     1   0.0      1     92      1     89      1     89     Movement protein OS=Bean yellow dwarf virus OX=57119 GN=V2 PE=3 SV=1
+sp|Q00336|MP_PASVK      116.5     4e-34     1   0.0      1    101     13     99     17    103     Movement protein OS=Panicum streak virus (isolate Kenya) OX=268780 GN=V2 PE=3 SV=1
+sp|P31619|MP_TYDVA      113.9   2.5e-33     1   0.0      1    102      1     98      1     93     Movement protein OS=Tobacco yellow dwarf virus (strain Australia) OX=31599 GN=V2 PE=3 SV=1
+sp|Q89448|MP_SSVN       112.7   5.7e-33     1   0.0      1    109      1    107      1    103     Movement protein OS=Sugarcane streak virus (isolate South Africa) OX=268781 GN=V2 PE=3 SV=1
+sp|P14992|MP_MSVS       110.8   2.3e-32     1   0.0      1     99      3     87     12    101     Movement protein OS=Maize streak virus genotype A (isolate South Africa) OX=10824 GN=V2 PE=3 SV=1
+sp|P0C648|MP_MSVK       110.8   2.4e-32     1   0.0      1     99      3     83     12     93     Movement protein OS=Maize streak virus genotype A (isolate Kenya) OX=10822 GN=V2 PE=3 SV=1
+sp|P0C649|MP_MSVN       110.8   2.4e-32     1   0.0      1     99      3     83     12     93     Movement protein OS=Maize streak virus genotype A (isolate Nigeria) OX=10823 GN=V2 PE=1 SV=1
+sp|Q91MG4|MP_MSVPA      105.6   9.2e-31     1   0.0      1     98      3     92     12    101     Movement protein OS=Maize streak virus genotype E (isolate Pat) OX=268331 GN=V2 PE=3 SV=1
+sp|O40984|MP_MSVSE      105.6   9.6e-31     1   0.0      1     98      3     92     12    101     Movement protein OS=Maize streak virus genotype C (isolate Set) OX=268344 GN=V2 PE=3 SV=1
+sp|Q91MG0|MP_MSVRA      105.3   1.2e-30     1   0.0      1     98      3     92     12    101     Movement protein OS=Maize streak virus genotype D (isolate Raw) OX=268343 GN=V2 PE=3 SV=1
+sp|Q9IGY9|MP_MSVTA      101.0   2.6e-29     1   0.0      1    100      3     90     12     98     Movement protein OS=Maize streak virus genotype B (isolate Tas) OX=268409 GN=V2 PE=3 SV=1
+sp|P06849|MP_WDVS       100.6   3.4e-29     1   0.0      1     90     15     87     20     92     Movement protein OS=Wheat dwarf virus (isolate Sweden) OX=268789 GN=V2 PE=3 SV=1
+sp|Q67593|MP_MISV9       18.5    0.0012     1   0.8      3     78     19     45     37     63     Putative movement protein OS=Miscanthus streak virus (isolate 91) OX=268776 GN=V2 PE=3 SV=1
+sp|Q9XJJ6|SPAN1_BP933    15.1     0.013     1   0.1      2     68      5     54     37     87     Spanin, inner membrane subunit OS=Escherichia phage 933W OX=10730 GN=Rz PE=3 SV=1
+sp|P10438|SPAN1_BPPA2    12.5     0.091     1   0.0      1     63      4     55     37     88     Spanin, inner membrane subunit (Fragment) OS=Enterobacteria phage PA-2 OX=10738 GN=Rz PE=3 SV=1
+sp|O72899|I2_FOWPN       12.2      0.11     1   0.1     14     64     32     61     24     53     Protein I2 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV089 PE=2 SV=1
+sp|O10331|Y078_NPVOP     11.9      0.14     1   0.0     23     86     32     81     12     58     Uncharacterized 11.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF81 PE=4 SV=1
+sp|P00726|SPAN1_LAMBD    11.6      0.17     1   0.0      1     69      4     57     38     90     Spanin, inner membrane subunit OS=Escherichia phage lambda OX=10710 GN=Rz PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003288766@NC_013464.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003288766@NC_013464.txt data/models_hmm/YP_003288766@NC_013464.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:18 2021
+# [ok]

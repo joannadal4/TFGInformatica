@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68458|G3_VACCW      16.2    0.0085   1   1.1   3.2    Protein G3 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR079 PE=1 SV=1
+sp|P68459|G3_VACCC      16.2    0.0085   1   1.1   3.2    Protein G3 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G3L PE=3 SV=1
+sp|Q77TL4|G3_VACCT      16.2    0.0085   1   1.1   3.2    Protein G3 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TG3L PE=3 SV=1
+sp|P0DOM3|G3_VAR67      14.0      0.04   1   1.1   5.2    Protein G3 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G3L PE=3 SV=1
+sp|P0DOM4|G3_VARV       14.0      0.04   1   1.1   5.2    Protein G3 OS=Variola virus OX=10255 GN=G3L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68458|G3_VACCW      16.0    0.0095     1   3.2      1    111      7    110      8    108     Protein G3 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR079 PE=1 SV=1
+sp|P68459|G3_VACCC      16.0    0.0095     1   3.2      1    111      7    110      8    108     Protein G3 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G3L PE=3 SV=1
+sp|Q77TL4|G3_VACCT      16.0    0.0095     1   3.2      1    111      7    110      8    108     Protein G3 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TG3L PE=3 SV=1
+sp|P0DOM3|G3_VAR67      13.8     0.047     1   5.2      1    111      6    110      7    108     Protein G3 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=G3L PE=3 SV=1
+sp|P0DOM4|G3_VARV       13.8     0.047     1   5.2      1    111      6    110      7    108     Protein G3 OS=Variola virus OX=10255 GN=G3L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_064853@NC_002520.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_064853@NC_002520.txt data/models_hmm/NP_064853@NC_002520.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:42 2021
+# [ok]

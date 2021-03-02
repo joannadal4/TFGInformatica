@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DSY7|E8_VAR67      15.8     0.011   2   2.2   0.0    Protein E8 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=E8R PE=2 SV=1
+sp|P0DSY8|E8_VARV       15.8     0.011   2   2.2   0.0    Protein E8 OS=Variola virus OX=10255 GN=E8R PE=2 SV=1
+sp|P23372|E8_VACCW      15.5     0.013   2   2.1   0.0    Protein E8 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR064 PE=1 SV=1
+sp|P21049|E8_VACCC      14.6     0.025   2   2.1   0.0    Protein E8 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=E8R PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P23372|E8_VACCW      13.2     0.066     1   0.0    126    210    133    178     12     53     Protein E8 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR064 PE=1 SV=1
+sp|P0DSY7|E8_VAR67      13.1      0.07     1   0.0    126    209    133    178     12     53     Protein E8 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=E8R PE=2 SV=1
+sp|P0DSY8|E8_VARV       13.1      0.07     1   0.0    126    209    133    178     12     53     Protein E8 OS=Variola virus OX=10255 GN=E8R PE=2 SV=1
+sp|P21049|E8_VACCC      12.4      0.12     1   0.0    126    203    133    177     12     52     Protein E8 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=E8R PE=2 SV=1
+sp|P0DSY7|E8_VAR67      -0.7   1.5e+03     2   0.0    236    267    245    267     67     89     Protein E8 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=E8R PE=2 SV=1
+sp|P0DSY8|E8_VARV       -0.7   1.5e+03     2   0.0    236    267    245    267     67     89     Protein E8 OS=Variola virus OX=10255 GN=E8R PE=2 SV=1
+sp|P21049|E8_VACCC      -1.5   2.6e+03     2   0.0    239    267    245    266     67     88     Protein E8 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=E8R PE=2 SV=1
+sp|P23372|E8_VACCW      -1.5   2.6e+03     2   0.0    240    267    245    266     67     88     Protein E8 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR064 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007697670@NC_019419.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007697670@NC_019419.txt data/models_hmm/YP_007697670@NC_019419.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:05 2021
+# [ok]

@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P10259|ENV_MMTVB   1644.6         0   1   1.0   0.0    Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain BR6) OX=11758 GN=env PE=3 SV=1
+sp|P03374|ENV_MMTVG   1620.3         0   1   1.0   0.0    Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain GR) OX=11760 GN=env PE=1 SV=1
+sp|Q85646|ENV_MMTVC   1593.7         0   1   1.0   0.0    Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain C3H) OX=11759 GN=env PE=1 SV=1
+sp|P31621|ENV_JSRV     221.7   1.3e-65   2   2.0   4.9    Envelope glycoprotein OS=Sheep pulmonary adenomatosis virus OX=11746 GN=env PE=1 SV=1
+sp|P19557|ENV_BIV29     22.6   2.2e-05   1   1.2   0.2    Envelope glycoprotein OS=Bovine immunodeficiency virus (strain R29) OX=417296 GN=env PE=2 SV=1
+sp|Q82857|ENV_JEMBR     13.4     0.014   1   1.2   0.0    Envelope glycoprotein OS=Jembrana disease virus OX=36370 GN=env PE=3 SV=1
+sp|O55772|VF196_IIV6    10.0      0.14   1   1.1   0.0    Uncharacterized protein 196R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-196R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P10259|ENV_MMTVB   1644.5         0     1   0.0      1    688      1    688      1    688     Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain BR6) OX=11758 GN=env PE=3 SV=1
+sp|P03374|ENV_MMTVG   1620.1         0     1   0.0      1    688      1    688      1    688     Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain GR) OX=11760 GN=env PE=1 SV=1
+sp|Q85646|ENV_MMTVC   1593.6         0     1   0.0      1    688      1    688      1    688     Envelope glycoprotein gp70 OS=Mouse mammary tumor virus (strain C3H) OX=11759 GN=env PE=1 SV=1
+sp|P31621|ENV_JSRV     183.4   4.8e-54     2   2.5    249    594    293    578    368    653     Envelope glycoprotein OS=Sheep pulmonary adenomatosis virus OX=11746 GN=env PE=1 SV=1
+sp|P31621|ENV_JSRV      38.5   3.4e-10     1   0.0      5    177     19    157     38    178     Envelope glycoprotein OS=Sheep pulmonary adenomatosis virus OX=11746 GN=env PE=1 SV=1
+sp|P19557|ENV_BIV29     21.9   3.6e-05     1   0.2    530    768    551    741    452    642     Envelope glycoprotein OS=Bovine immunodeficiency virus (strain R29) OX=417296 GN=env PE=2 SV=1
+sp|Q82857|ENV_JEMBR     12.8     0.021     1   0.0    388    572    418    510    452    539     Envelope glycoprotein OS=Jembrana disease virus OX=36370 GN=env PE=3 SV=1
+sp|O55772|VF196_IIV6     9.8      0.17     1   0.0      2    115      6    108    173    265     Uncharacterized protein 196R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-196R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008241079@NC_021792.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008241079@NC_021792.txt data/models_hmm/YP_008241079@NC_021792.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:30 2021
+# [ok]

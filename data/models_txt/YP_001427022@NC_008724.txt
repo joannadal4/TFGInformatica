@@ -1,0 +1,49 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04507|SIGM1_REOVJ    23.0   6.6e-05   3   3.1   0.2    Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|P41714|VP10_NPVCF     15.3     0.018   1   1.2   0.0    Protein p10 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=P10 PE=3 SV=1
+sp|P21270|LY_BPSF6       14.4     0.032   3   2.6   0.1    Putative lysozyme OS=Bacillus phage SF6 OX=10773 PE=3 SV=1
+sp|Q992I2|SIGC_ARVS1     14.2     0.038   2   1.8   0.0    Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|B0FII2|FIB20_BPE32    13.7     0.054   2   2.0   0.1    Putative tail tip fiber protein OS=Escherichia phage Phieco32 OX=490103 GN=phi32_20 PE=4 SV=1
+sp|Q25BH7|Y018_HIS1I     13.3     0.072   2   1.7   0.2    Uncharacterized protein ORF18 OS=His1 virus (isolate Australia/Victoria) OX=654912 GN=ORF18 PE=4 SV=1
+sp|P16091|CG30_NPVAC     13.0     0.093   1   1.8   1.0    Zinc finger protein CG30 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=CG30 PE=3 SV=1
+sp|P04506|SIGM1_REOVL    12.6      0.12   2   2.3   0.2    Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|P04870|P10_NPVAC      12.3      0.15   1   1.2   0.0    Protein p10 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P10 PE=4 SV=2
+sp|P03448|HEMA_I72A5     12.3      0.15   1   1.7   0.1    Hemagglutinin OS=Influenza A virus (strain A/Shearwater/Australia/1972 H6N5) OX=383604 GN=HA PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41714|VP10_NPVCF     15.0     0.022     1   0.0      1     65      7     57     16     63     Protein p10 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=P10 PE=3 SV=1
+sp|P04507|SIGM1_REOVJ    14.7     0.027     1   0.1     23     87     28     81     23     76     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|Q992I2|SIGC_ARVS1     12.4      0.14     1   0.0     31    108     49     99     21     71     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|P04870|P10_NPVAC      12.0      0.19     1   0.0      2     76      8     56     17     62     Protein p10 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P10 PE=4 SV=2
+sp|Q25BH7|Y018_HIS1I     11.9       0.2     2   0.0     61    123     67    111      7     51     Uncharacterized protein ORF18 OS=His1 virus (isolate Australia/Victoria) OX=654912 GN=ORF18 PE=4 SV=1
+sp|B0FII2|FIB20_BPE32    11.8      0.22     1   0.1     35    106     49    101     24     75     Putative tail tip fiber protein OS=Escherichia phage Phieco32 OX=490103 GN=phi32_20 PE=4 SV=1
+sp|P16091|CG30_NPVAC     11.5      0.26     1   1.0    129    215    153    211     18     77     Zinc finger protein CG30 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=CG30 PE=3 SV=1
+sp|P21270|LY_BPSF6       11.3      0.31     2   0.0     58    132     72    126     21     75     Putative lysozyme OS=Bacillus phage SF6 OX=10773 PE=3 SV=1
+sp|P03448|HEMA_I72A5     10.8      0.43     1   0.1    382    442    386    429     17     59     Hemagglutinin OS=Influenza A virus (strain A/Shearwater/Australia/1972 H6N5) OX=383604 GN=HA PE=3 SV=2
+sp|P04506|SIGM1_REOVL     9.9      0.83     1   0.1     20    102     26     91      7     72     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|P04507|SIGM1_REOVJ     5.9        15     2   0.0     68    119     69    115     22     68     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|P04507|SIGM1_REOVJ     3.5        82     3   0.0    116    192    120    188      7     73     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|P21270|LY_BPSF6       -0.4   1.4e+03     1   0.0     35     74     51     66     49     64     Putative lysozyme OS=Bacillus phage SF6 OX=10773 PE=3 SV=1
+sp|P04506|SIGM1_REOVL    -1.0   2.1e+03     2   0.0    136    211    153    189     19     53     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|Q992I2|SIGC_ARVS1     -1.2   2.4e+03     2   0.0     99    156    114    153     37     76     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q25BH7|Y018_HIS1I     -1.7   3.4e+03     1   0.0      6     43     15     28     25     38     Uncharacterized protein ORF18 OS=His1 virus (isolate Australia/Victoria) OX=654912 GN=ORF18 PE=4 SV=1
+sp|P21270|LY_BPSF6       -1.7   3.5e+03     3   0.0    124    159    130    146     23     39     Putative lysozyme OS=Bacillus phage SF6 OX=10773 PE=3 SV=1
+sp|B0FII2|FIB20_BPE32    -1.8   3.7e+03     2   0.0    128    184    143    164     24     45     Putative tail tip fiber protein OS=Escherichia phage Phieco32 OX=490103 GN=phi32_20 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001427022@NC_008724.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001427022@NC_008724.txt data/models_hmm/YP_001427022@NC_008724.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:16 2021
+# [ok]

@@ -1,0 +1,40 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPA7|YL030_MIMIV   332.9    2e-100   1   1.0   7.6    Uncharacterized protein L30 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L30 PE=4 SV=1
+sp|Q7T6Y3|YR879_MIMIV   293.9   2.2e-88   2   2.4   8.3    Putative KilA-N domain-containing protein R879 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R879 PE=4 SV=2
+sp|Q5UPB3|YL037_MIMIV   286.1   5.5e-86   2   2.3   6.6    Putative KilA-N domain-containing protein L37 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L37 PE=4 SV=1
+sp|Q5UP83|YL004_MIMIV   206.1   2.3e-61   1   2.2  11.9    Putative KilA-N domain-containing protein L4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L4 PE=4 SV=1
+sp|Q5UQZ4|YR904_MIMIV    64.4     1e-17   3   3.2   7.2    Putative KilA-N domain-containing protein R904 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R904 PE=4 SV=1
+sp|Q91FV9|212L_IIV6      14.2      0.03   1   1.6   0.1    Putative MSV199 domain-containing protein 212L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-212L PE=4 SV=1
+sp|P10929|BP11_BPT4      12.2      0.13   2   2.1   0.0    Baseplate wedge protein gp11 OS=Enterobacteria phage T4 OX=10665 GN=11 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPA7|YL030_MIMIV   332.8  2.2e-100     1   7.6      1    152      1    152      1    152     Uncharacterized protein L30 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L30 PE=4 SV=1
+sp|Q7T6Y3|YR879_MIMIV   293.9   2.2e-88     2   8.3    148    299    148    299      1    152     Putative KilA-N domain-containing protein R879 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R879 PE=4 SV=2
+sp|Q5UPB3|YL037_MIMIV   286.1   5.5e-86     2   6.6    336    487    336    487      1    152     Putative KilA-N domain-containing protein L37 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L37 PE=4 SV=1
+sp|Q5UP83|YL004_MIMIV   203.9   1.1e-60     1  11.9    314    454    314    454      1    152     Putative KilA-N domain-containing protein L4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L4 PE=4 SV=1
+sp|Q5UQZ4|YR904_MIMIV    64.4     1e-17     3   7.2    209    343    219    341     11    148     Putative KilA-N domain-containing protein R904 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R904 PE=4 SV=1
+sp|Q91FV9|212L_IIV6      13.1     0.067     1   0.1    228    351    240    329     16    115     Putative MSV199 domain-containing protein 212L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-212L PE=4 SV=1
+sp|P10929|BP11_BPT4       8.4       1.8     2   0.0    120    195    139    169     73    103     Baseplate wedge protein gp11 OS=Enterobacteria phage T4 OX=10665 GN=11 PE=1 SV=1
+sp|P10929|BP11_BPT4       1.6   2.3e+02     1   0.0     24     68     31     65    115    149     Baseplate wedge protein gp11 OS=Enterobacteria phage T4 OX=10665 GN=11 PE=1 SV=1
+sp|Q5UQZ4|YR904_MIMIV    -1.2   1.6e+03     2   1.8    150    219    173    208    111    143     Putative KilA-N domain-containing protein R904 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R904 PE=4 SV=1
+sp|Q5UQZ4|YR904_MIMIV    -2.1   3.2e+03     1   1.5      2     66      4     36     14     44     Putative KilA-N domain-containing protein R904 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R904 PE=4 SV=1
+sp|Q5UPB3|YL037_MIMIV    -3.2   6.8e+03     1   0.3    112    154    120    147    116    143     Putative KilA-N domain-containing protein L37 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L37 PE=4 SV=1
+sp|Q7T6Y3|YR879_MIMIV    -3.6   9.2e+03     1   4.9     66    145    116    131     34     49     Putative KilA-N domain-containing protein R879 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R879 PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004895056@NC_016072.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004895056@NC_016072.txt data/models_hmm/YP_004895056@NC_016072.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:43 2021
+# [ok]

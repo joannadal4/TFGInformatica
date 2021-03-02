@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q2Y2M3|FUS_AMPV1     15.9    0.0052   2   1.7   0.4    Fusion glycoprotein F0 OS=Avian metapneumovirus (isolate Canada goose/Minnesota/15a/2001) OX=652954 GN=F PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q2Y2M3|FUS_AMPV1     14.7     0.012     2   0.1    466    526    476    519    276    317     Fusion glycoprotein F0 OS=Avian metapneumovirus (isolate Canada goose/Minnesota/15a/2001) OX=652954 GN=F PE=3 SV=1
+sp|Q2Y2M3|FUS_AMPV1     -2.5   2.1e+03     1   0.0     56    135     81    110    189    219     Fusion glycoprotein F0 OS=Avian metapneumovirus (isolate Canada goose/Minnesota/15a/2001) OX=652954 GN=F PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007003787@NC_019491.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007003787@NC_019491.txt data/models_hmm/YP_007003787@NC_019491.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:05 2021
+# [ok]

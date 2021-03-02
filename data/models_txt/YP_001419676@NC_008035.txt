@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41420|Y005_NPVAC   174.4   3.9e-52   1   1.0   0.2    Uncharacterized 12.4 kDa protein in CTL-LEF2 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|Q65371|Y005_NPVOP   127.2   1.9e-37   1   1.0   0.4    Uncharacterized 8.6 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF7 PE=4 SV=1
+sp|O55725|107L_IIV6     12.4       0.1   1   1.2   0.0    Uncharacterized protein 107L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-107L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41420|Y005_NPVAC   174.2   4.3e-52     1   0.2      1    109      1    109      1    103     Uncharacterized 12.4 kDa protein in CTL-LEF2 intergenic region OS=Autographa californica nuclear polyhedrosis virus OX=46015 PE=4 SV=1
+sp|Q65371|Y005_NPVOP   127.0   2.1e-37     1   0.4      1     77      1     77      1     79     Uncharacterized 8.6 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF7 PE=4 SV=1
+sp|O55725|107L_IIV6     12.2      0.12     1   0.0      4     67      6     39     46     79     Uncharacterized protein 107L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-107L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001419676@NC_008035.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001419676@NC_008035.txt data/models_hmm/YP_001419676@NC_008035.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:10 2021
+# [ok]

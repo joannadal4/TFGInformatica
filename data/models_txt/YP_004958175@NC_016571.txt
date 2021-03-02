@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZR3|RPB2_FRG3G     17.9    0.0017   1   1.2   0.0    Putative DNA-directed RNA polymerase II subunit RPB2 homolog OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-062L PE=3 SV=1
+sp|Q80DV1|RP132_CWPXG    14.1     0.023   3   3.0   0.2    DNA-directed RNA polymerase 132 kDa polypeptide OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=RPO132 PE=3 SV=1
+sp|P0DST4|RP132_VARV     13.5     0.037   3   2.9   0.2    DNA-directed RNA polymerase 133 kDa polypeptide OS=Variola virus OX=10255 GN=RPO132 PE=3 SV=1
+sp|P0DST3|RP132_VAR67    13.5     0.037   3   2.9   0.2    DNA-directed RNA polymerase 133 kDa polypeptide OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=RPO132 PE=3 SV=1
+sp|Q9JF79|RP132_VACCT    13.1     0.048   3   2.9   0.2    DNA-directed RNA polymerase 133 kDa polypeptide OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=RPO132 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6GZR3|RPB2_FRG3G     17.2    0.0028     1   0.0   1048   1167   1063   1161     68    167     Putative DNA-directed RNA polymerase II subunit RPB2 homolog OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-062L PE=3 SV=1
+sp|Q80DV1|RP132_CWPXG     8.7       1.1     3   0.0    954   1079    983   1075     77    169     DNA-directed RNA polymerase 132 kDa polypeptide OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=RPO132 PE=3 SV=1
+sp|P0DST3|RP132_VAR67     8.1       1.7     3   0.0    943   1079    983   1075     77    169     DNA-directed RNA polymerase 133 kDa polypeptide OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=RPO132 PE=3 SV=1
+sp|P0DST4|RP132_VARV      8.1       1.7     3   0.0    943   1079    983   1075     77    169     DNA-directed RNA polymerase 133 kDa polypeptide OS=Variola virus OX=10255 GN=RPO132 PE=3 SV=1
+sp|Q9JF79|RP132_VACCT     7.6       2.3     3   0.0    954   1079    983   1075     77    169     DNA-directed RNA polymerase 133 kDa polypeptide OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=RPO132 PE=3 SV=1
+sp|P0DST3|RP132_VAR67     1.5   1.8e+02     2   0.0    357    424    361    386     28     53     DNA-directed RNA polymerase 133 kDa polypeptide OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=RPO132 PE=3 SV=1
+sp|P0DST4|RP132_VARV      1.5   1.8e+02     2   0.0    357    424    361    386     28     53     DNA-directed RNA polymerase 133 kDa polypeptide OS=Variola virus OX=10255 GN=RPO132 PE=3 SV=1
+sp|Q80DV1|RP132_CWPXG     1.5   1.8e+02     2   0.0    357    424    361    386     28     53     DNA-directed RNA polymerase 132 kDa polypeptide OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=RPO132 PE=3 SV=1
+sp|Q9JF79|RP132_VACCT     1.5   1.8e+02     2   0.0    357    424    361    386     28     53     DNA-directed RNA polymerase 133 kDa polypeptide OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=RPO132 PE=3 SV=1
+sp|Q80DV1|RP132_CWPXG    -1.7   1.6e+03     1   0.3    265    321    271    310     29     68     DNA-directed RNA polymerase 132 kDa polypeptide OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=RPO132 PE=3 SV=1
+sp|Q9JF79|RP132_VACCT    -1.7   1.6e+03     1   0.3    265    321    271    310     29     68     DNA-directed RNA polymerase 133 kDa polypeptide OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=RPO132 PE=3 SV=1
+sp|P0DST3|RP132_VAR67    -1.8   1.8e+03     1   0.3    265    321    271    309     29     67     DNA-directed RNA polymerase 133 kDa polypeptide OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=RPO132 PE=3 SV=1
+sp|P0DST4|RP132_VARV     -1.8   1.8e+03     1   0.3    265    321    271    309     29     67     DNA-directed RNA polymerase 133 kDa polypeptide OS=Variola virus OX=10255 GN=RPO132 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004958175@NC_016571.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004958175@NC_016571.txt data/models_hmm/YP_004958175@NC_016571.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:02 2021
+# [ok]

@@ -1,0 +1,63 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68314|RP07_VACCA    134.9   8.4e-40   1   1.0   3.0    DNA-directed RNA polymerase 7 kDa subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=RPO7 PE=1 SV=1
+sp|P68315|RP07_VACCC    134.9   8.4e-40   1   1.0   3.0    DNA-directed RNA polymerase 7 kDa subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=RPO7 PE=2 SV=1
+sp|P68316|RP07_VACCT    134.9   8.4e-40   1   1.0   3.0    DNA-directed RNA polymerase 7 kDa subunit OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=RPO7 PE=2 SV=1
+sp|P68317|RP07_VACCW    134.9   8.4e-40   1   1.0   3.0    DNA-directed RNA polymerase 7 kDa subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=RPO7 PE=1 SV=1
+sp|Q9DHQ8|RP07_YLDV     134.5   1.1e-39   1   1.0   2.0    DNA-directed RNA polymerase 7 kDa subunit OS=Yaba-like disease virus OX=132475 GN=RPO7 PE=2 SV=1
+sp|Q9Q8P6|RP07_MYXVL    134.5   1.1e-39   1   1.0   2.2    DNA-directed RNA polymerase 7 kDa subunit OS=Myxoma virus (strain Lausanne) OX=31530 GN=RPO7 PE=2 SV=1
+sp|P0DSU7|RP07_VAR67    133.8   1.8e-39   1   1.0   3.4    DNA-directed RNA polymerase 7 kDa subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=RPO7 PE=2 SV=1
+sp|P0DSU8|RP07_VARV     133.8   1.8e-39   1   1.0   3.4    DNA-directed RNA polymerase 7 kDa subunit OS=Variola virus OX=10255 GN=RPO7 PE=2 SV=1
+sp|Q9Q921|RP07_RFVKA    133.5   2.3e-39   1   1.0   1.8    DNA-directed RNA polymerase 7 kDa subunit OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=RPO7 PE=2 SV=1
+sp|Q98229|RP07_MCV1     126.2   4.2e-37   1   1.0   2.0    DNA-directed RNA polymerase 7 kDa subunit OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=RPO7 PE=2 SV=1
+sp|Q9J5A4|RP07_FOWPN    123.2   3.7e-36   1   1.0   1.6    DNA-directed RNA polymerase 7 kDa subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO7 PE=2 SV=1
+sp|P42488|RPB10_ASFB7    14.2     0.041   2   2.2   0.3    Putative DNA-directed RNA polymerase subunit 10 homolog OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-95 PE=3 SV=1
+sp|P0C979|RPB10_ASFP4    14.0     0.044   2   2.2   0.3    Putative DNA-directed RNA polymerase subunit 10 homolog OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-107 PE=3 SV=1
+sp|P0C980|RPB10_ASFM2    14.0     0.044   2   2.2   0.3    Putative DNA-directed RNA polymerase subunit 10 homolog OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-103 PE=3 SV=1
+sp|P0C981|RPB10_ASFWA    14.0     0.044   2   2.2   0.3    Putative DNA-directed RNA polymerase subunit 10 homolog OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-105 PE=3 SV=1
+sp|P0C982|RPB10_ASFK5    14.0     0.044   2   2.2   0.3    Putative DNA-directed RNA polymerase subunit 10 homolog OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-107 PE=3 SV=1
+sp|Q5UPT1|TF2B_MIMIV     13.1     0.084   4   4.1   0.2    Putative transcription initiation factor IIB-like protein OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L250 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68314|RP07_VACCA    134.7   9.2e-40     1   3.0      1     63      1     63      1     63     DNA-directed RNA polymerase 7 kDa subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=RPO7 PE=1 SV=1
+sp|P68315|RP07_VACCC    134.7   9.2e-40     1   3.0      1     63      1     63      1     63     DNA-directed RNA polymerase 7 kDa subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=RPO7 PE=2 SV=1
+sp|P68316|RP07_VACCT    134.7   9.2e-40     1   3.0      1     63      1     63      1     63     DNA-directed RNA polymerase 7 kDa subunit OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=RPO7 PE=2 SV=1
+sp|P68317|RP07_VACCW    134.7   9.2e-40     1   3.0      1     63      1     63      1     63     DNA-directed RNA polymerase 7 kDa subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=RPO7 PE=1 SV=1
+sp|Q9DHQ8|RP07_YLDV     134.4   1.2e-39     1   2.0      1     63      1     63      1     63     DNA-directed RNA polymerase 7 kDa subunit OS=Yaba-like disease virus OX=132475 GN=RPO7 PE=2 SV=1
+sp|Q9Q8P6|RP07_MYXVL    134.4   1.2e-39     1   2.2      1     63      1     63      1     63     DNA-directed RNA polymerase 7 kDa subunit OS=Myxoma virus (strain Lausanne) OX=31530 GN=RPO7 PE=2 SV=1
+sp|P0DSU7|RP07_VAR67    133.7   1.9e-39     1   3.4      1     63      1     63      1     63     DNA-directed RNA polymerase 7 kDa subunit OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=RPO7 PE=2 SV=1
+sp|P0DSU8|RP07_VARV     133.7   1.9e-39     1   3.4      1     63      1     63      1     63     DNA-directed RNA polymerase 7 kDa subunit OS=Variola virus OX=10255 GN=RPO7 PE=2 SV=1
+sp|Q9Q921|RP07_RFVKA    133.4   2.5e-39     1   1.8      1     63      1     63      1     63     DNA-directed RNA polymerase 7 kDa subunit OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=RPO7 PE=2 SV=1
+sp|Q98229|RP07_MCV1     126.1   4.6e-37     1   2.0      1     63      1     63      1     63     DNA-directed RNA polymerase 7 kDa subunit OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=RPO7 PE=2 SV=1
+sp|Q9J5A4|RP07_FOWPN    123.1   4.1e-36     1   1.6      1     63      1     63      1     63     DNA-directed RNA polymerase 7 kDa subunit OS=Fowlpox virus (strain NVSL) OX=928301 GN=RPO7 PE=2 SV=1
+sp|Q5UPT1|TF2B_MIMIV     13.1     0.084     4   0.2    366    399    374    396     29     51     Putative transcription initiation factor IIB-like protein OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L250 PE=3 SV=1
+sp|P42488|RPB10_ASFB7     6.7       8.8     1   0.0      1     35      1     14      1     14     Putative DNA-directed RNA polymerase subunit 10 homolog OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-95 PE=3 SV=1
+sp|P0C979|RPB10_ASFP4     6.6       9.4     1   0.0      1     33      1     14      1     14     Putative DNA-directed RNA polymerase subunit 10 homolog OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-107 PE=3 SV=1
+sp|P0C980|RPB10_ASFM2     6.6       9.4     1   0.0      1     33      1     14      1     14     Putative DNA-directed RNA polymerase subunit 10 homolog OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-103 PE=3 SV=1
+sp|P0C981|RPB10_ASFWA     6.6       9.4     1   0.0      1     33      1     14      1     14     Putative DNA-directed RNA polymerase subunit 10 homolog OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-105 PE=3 SV=1
+sp|P0C982|RPB10_ASFK5     6.6       9.4     1   0.0      1     33      1     14      1     14     Putative DNA-directed RNA polymerase subunit 10 homolog OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-107 PE=3 SV=1
+sp|P42488|RPB10_ASFB7     6.2        13     2   0.1     43     79     50     75     24     49     Putative DNA-directed RNA polymerase subunit 10 homolog OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-95 PE=3 SV=1
+sp|P0C979|RPB10_ASFP4     6.2        13     2   0.1     44     79     50     75     24     49     Putative DNA-directed RNA polymerase subunit 10 homolog OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-107 PE=3 SV=1
+sp|P0C980|RPB10_ASFM2     6.2        13     2   0.1     44     79     50     75     24     49     Putative DNA-directed RNA polymerase subunit 10 homolog OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-103 PE=3 SV=1
+sp|P0C981|RPB10_ASFWA     6.2        13     2   0.1     44     79     50     75     24     49     Putative DNA-directed RNA polymerase subunit 10 homolog OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-105 PE=3 SV=1
+sp|P0C982|RPB10_ASFK5     6.2        13     2   0.1     44     79     50     75     24     49     Putative DNA-directed RNA polymerase subunit 10 homolog OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-107 PE=3 SV=1
+sp|Q5UPT1|TF2B_MIMIV      1.1   4.9e+02     3   0.0    221    261    233    252     22     41     Putative transcription initiation factor IIB-like protein OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L250 PE=3 SV=1
+sp|Q5UPT1|TF2B_MIMIV      1.1   4.9e+02     2   0.1    161    174    163    169      5     11     Putative transcription initiation factor IIB-like protein OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L250 PE=3 SV=1
+sp|Q5UPT1|TF2B_MIMIV     -2.2   5.2e+03     1   0.8    142    151    144    149      6     11     Putative transcription initiation factor IIB-like protein OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L250 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_955169@NC_005309.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_955169@NC_005309.txt data/models_hmm/NP_955169@NC_005309.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:45 2021
+# [ok]

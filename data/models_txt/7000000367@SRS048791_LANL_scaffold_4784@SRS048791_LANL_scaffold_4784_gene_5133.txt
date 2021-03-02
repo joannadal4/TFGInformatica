@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P29149|POL1_GFLV     13.3     0.056   1   1.8   0.0    RNA1 polyprotein OS=Grapevine fanleaf virus OX=12274 PE=1 SV=1
+sp|Q06VC5|MMP_TNAVC     13.1     0.065   1   1.4   0.0    Putative matrix metalloproteinase OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF158 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q06VC5|MMP_TNAVC     12.1      0.13     1   0.0    400    497    405    469     53    111     Putative matrix metalloproteinase OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF158 PE=3 SV=1
+sp|P29149|POL1_GFLV     11.7      0.17     1   0.0    479    568    490    559     60    130     RNA1 polyprotein OS=Grapevine fanleaf virus OX=12274 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000367@SRS048791_LANL_scaffold_4784@SRS048791_LANL_scaffold_4784_gene_5133.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000367@SRS048791_LANL_scaffold_4784@SRS048791_LANL_scaffold_4784_gene_5133.txt data/models_hmm/7000000367@SRS048791_LANL_scaffold_4784@SRS048791_LANL_scaffold_4784_gene_5133.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:37 2021
+# [ok]

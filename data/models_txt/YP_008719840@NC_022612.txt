@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q64770|GAM1_ADEG1   399.6  5.7e-120   1   1.0   0.0    Protein GAM-1 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=8 PE=1 SV=1
+sp|Q64765|YO20_ADEG1    29.6   3.7e-07   1   1.4   0.3    Uncharacterized protein ORF20 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=20 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q64770|GAM1_ADEG1   399.4  6.4e-120     1   0.0      1    281      1    281      1    277     Protein GAM-1 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=8 PE=1 SV=1
+sp|Q64765|YO20_ADEG1    29.2   4.6e-07     1   0.3      2    270     13    136     43    161     Uncharacterized protein ORF20 OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=20 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008719840@NC_022612.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008719840@NC_022612.txt data/models_hmm/YP_008719840@NC_022612.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:23 2021
+# [ok]

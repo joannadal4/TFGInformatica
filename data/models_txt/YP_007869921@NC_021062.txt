@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P10309|VDMA_BPT3    145.4   4.1e-43   1   1.0   1.1    DNA maturase A OS=Enterobacteria phage T3 OX=10759 GN=18 PE=4 SV=1
+sp|P03693|TERS_BPT7    144.3     9e-43   1   1.0   1.1    Terminase, small subunit gp18 OS=Escherichia phage T7 OX=10760 GN=18 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P10309|VDMA_BPT3    145.3   4.3e-43     1   1.1      1     89      2     87      2     87     DNA maturase A OS=Enterobacteria phage T3 OX=10759 GN=18 PE=4 SV=1
+sp|P03693|TERS_BPT7    144.2   9.7e-43     1   1.1      1     89      2     87      2     87     Terminase, small subunit gp18 OS=Escherichia phage T7 OX=10760 GN=18 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007869921@NC_021062.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007869921@NC_021062.txt data/models_hmm/YP_007869921@NC_021062.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:06 2021
+# [ok]

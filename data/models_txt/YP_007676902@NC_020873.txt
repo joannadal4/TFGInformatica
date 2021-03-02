@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P11040|ETS_NPVAC     15.1     0.013   1   1.2   0.2    Uncharacterized protein ETS OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=ETS PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P11040|ETS_NPVAC     14.8     0.016     1   0.2     21     80     30     73     66    109     Uncharacterized protein ETS OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=ETS PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007676902@NC_020873.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007676902@NC_020873.txt data/models_hmm/YP_007676902@NC_020873.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:03 2021
+# [ok]

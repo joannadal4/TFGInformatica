@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13390|FIBL1_BPT5    19.0   0.00028   2   3.1  80.9    L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13390|FIBL1_BPT5    17.4    0.0009     2  17.3    164    238    169    213    168    212     L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+sp|P13390|FIBL1_BPT5     2.3        33     1  59.4     40    169     48    163    166    279     L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000231@SRS014613_WUGC_scaffold_11565@SRS014613_WUGC_scaffold_11565_gene_27409.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000231@SRS014613_WUGC_scaffold_11565@SRS014613_WUGC_scaffold_11565_gene_27409.txt data/models_hmm/7000000231@SRS014613_WUGC_scaffold_11565@SRS014613_WUGC_scaffold_11565_gene_27409.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:39 2021
+# [ok]

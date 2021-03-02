@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DTD9|RLIG_BPRHR    12.5      0.13   2   2.3   0.0    RNA ligase OS=Rhodothermus phage RM378 OX=148943 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DTD9|RLIG_BPRHR     9.9      0.84     1   0.0     13     78     26     75     20     63     RNA ligase OS=Rhodothermus phage RM378 OX=148943 PE=1 SV=1
+sp|P0DTD9|RLIG_BPRHR    -1.7   3.4e+03     2   0.0    127    147    136    142     57     63     RNA ligase OS=Rhodothermus phage RM378 OX=148943 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008241984@NC_021802.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008241984@NC_021802.txt data/models_hmm/YP_008241984@NC_021802.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:33 2021
+# [ok]

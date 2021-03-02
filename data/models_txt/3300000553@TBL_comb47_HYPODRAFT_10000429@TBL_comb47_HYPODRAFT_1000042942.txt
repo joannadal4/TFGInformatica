@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q7SVK7|POL_MLVBM     11.6      0.07   1   1.1   0.1    Gag-pol polyprotein OS=Murine leukemia virus (strain BM5 eco) OX=31687 GN=gag-pol PE=3 SV=2
+sp|P31795|POL_MLVRK     11.3     0.085   1   1.2   0.1    Pol polyprotein (Fragment) OS=Radiation murine leukemia virus (strain Kaplan) OX=31689 GN=pol PE=3 SV=1
+sp|P03355|POL_MLVMS     11.1     0.093   1   1.1   0.1    Gag-Pol polyprotein OS=Moloney murine leukemia virus (isolate Shinnick) OX=928306 GN=gag-pol PE=1 SV=5
+sp|P26809|POL_MLVFF     10.4      0.16   1   1.1   0.1    Gag-Pol polyprotein OS=Friend murine leukemia virus (isolate FB29) OX=11797 GN=pol PE=3 SV=2
+sp|P26808|POL_MLVFP     10.1      0.19   1   1.1   0.1    Gag-Pol polyprotein OS=Friend murine leukemia virus (isolate PVC-211) OX=11798 GN=pol PE=3 SV=2
+sp|P11227|POL_MLVRD      9.5      0.29   1   1.1   0.1    Gag-Pol polyprotein OS=Radiation murine leukemia virus OX=11787 GN=pol PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q7SVK7|POL_MLVBM     10.9      0.11     1   0.1   1161   1253   1175   1236    415    474     Gag-pol polyprotein OS=Murine leukemia virus (strain BM5 eco) OX=31687 GN=gag-pol PE=3 SV=2
+sp|P31795|POL_MLVRK     10.6      0.14     1   0.1      8    102     22     83    415    474     Pol polyprotein (Fragment) OS=Radiation murine leukemia virus (strain Kaplan) OX=31689 GN=pol PE=3 SV=1
+sp|P03355|POL_MLVMS     10.5      0.14     1   0.1   1169   1255   1177   1238    416    475     Gag-Pol polyprotein OS=Moloney murine leukemia virus (isolate Shinnick) OX=928306 GN=gag-pol PE=1 SV=5
+sp|P26809|POL_MLVFF      9.8      0.24     1   0.1   1169   1255   1177   1238    416    475     Gag-Pol polyprotein OS=Friend murine leukemia virus (isolate FB29) OX=11797 GN=pol PE=3 SV=2
+sp|P26808|POL_MLVFP      9.6      0.28     1   0.1   1169   1255   1177   1238    416    475     Gag-Pol polyprotein OS=Friend murine leukemia virus (isolate PVC-211) OX=11798 GN=pol PE=3 SV=2
+sp|P11227|POL_MLVRD      8.9      0.44     1   0.1   1160   1254   1175   1236    415    474     Gag-Pol polyprotein OS=Radiation murine leukemia virus OX=11787 GN=pol PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10000429@TBL_comb47_HYPODRAFT_1000042942.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000553@TBL_comb47_HYPODRAFT_10000429@TBL_comb47_HYPODRAFT_1000042942.txt data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10000429@TBL_comb47_HYPODRAFT_1000042942.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:00 2021
+# [ok]

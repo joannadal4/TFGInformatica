@@ -1,0 +1,42 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09261|GK_VZVD        16.3    0.0058   2   2.6   1.1    Envelope glycoprotein K OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gK PE=3 SV=1
+sp|Q4JQX0|GK_VZVO        16.3    0.0058   2   2.6   1.1    Envelope glycoprotein K OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gK PE=3 SV=1
+sp|Q7M6G6|US34A_HCMVA    12.8      0.07   1   1.2   0.1    Uncharacterized protein US34A OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US34A PE=3 SV=1
+sp|Q6SVX3|US34A_HCMVM    12.7     0.073   1   1.2   0.1    Uncharacterized protein US34A OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US34A PE=3 SV=1
+sp|P28980|GN_EHV1B       11.9      0.13   2   1.6   0.1    Envelope glycoprotein N OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=gN PE=1 SV=1
+sp|P84449|GN_EHV1V       11.9      0.13   2   1.6   0.1    Envelope glycoprotein N OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=gN PE=3 SV=1
+sp|Q02267|VE5_HPV13       8.6       1.5   1   1.5  10.0    Probable protein E5 OS=Human papillomavirus type 13 OX=10573 GN=E5 PE=3 SV=1
+sp|Q03874|VP7_ROTE2       8.1       2.1   2   1.9   6.8    Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Equine/United States/FI-23/1981/G14P4[12]) OX=36443 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6SVX3|US34A_HCMVM    12.4     0.096     1   0.1     14     44     15     39     25     49     Uncharacterized protein US34A OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=US34A PE=3 SV=1
+sp|Q7M6G6|US34A_HCMVA    12.4     0.096     1   0.1     14     44     15     39     25     49     Uncharacterized protein US34A OS=Human cytomegalovirus (strain AD169) OX=10360 GN=US34A PE=3 SV=1
+sp|P28980|GN_EHV1B       11.9      0.13     2   0.1     57     86     59     82     26     49     Envelope glycoprotein N OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=gN PE=1 SV=1
+sp|P84449|GN_EHV1V       11.9      0.13     2   0.1     57     86     59     82     26     49     Envelope glycoprotein N OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=gN PE=3 SV=1
+sp|Q03874|VP7_ROTE2       9.6      0.71     1   3.4      5     52      8     44      9     45     Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Equine/United States/FI-23/1981/G14P4[12]) OX=36443 PE=2 SV=1
+sp|P09261|GK_VZVD         8.1       2.1     2   0.3    287    327    297    324     25     52     Envelope glycoprotein K OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gK PE=3 SV=1
+sp|Q4JQX0|GK_VZVO         8.1       2.1     2   0.3    287    327    297    324     25     52     Envelope glycoprotein K OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gK PE=3 SV=1
+sp|Q02267|VE5_HPV13       7.7       2.8     1  10.0     21     68     24     60      6     42     Probable protein E5 OS=Human papillomavirus type 13 OX=10573 GN=E5 PE=3 SV=1
+sp|P09261|GK_VZVD         6.2       7.9     1   0.0    234    280    243    276     25     58     Envelope glycoprotein K OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gK PE=3 SV=1
+sp|Q4JQX0|GK_VZVO         6.2       7.9     1   0.0    234    280    243    276     25     58     Envelope glycoprotein K OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gK PE=3 SV=1
+sp|Q03874|VP7_ROTE2      -2.9   5.4e+03     2   0.1    294    313    296    307     35     46     Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Equine/United States/FI-23/1981/G14P4[12]) OX=36443 PE=2 SV=1
+sp|P28980|GN_EHV1B       -3.5   8.4e+03     1   0.4      7     19      9     15     11     17     Envelope glycoprotein N OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=gN PE=1 SV=1
+sp|P84449|GN_EHV1V       -3.5   8.4e+03     1   0.4      7     19      9     15     11     17     Envelope glycoprotein N OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=gN PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006908371@NC_018863.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006908371@NC_018863.txt data/models_hmm/YP_006908371@NC_018863.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:34 2021
+# [ok]

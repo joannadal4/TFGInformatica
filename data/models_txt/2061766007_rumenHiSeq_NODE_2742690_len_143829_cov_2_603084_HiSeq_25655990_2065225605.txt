@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q65947|TERM_ADECC    13.3     0.052   2   1.6   0.2    Preterminal protein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=PTP PE=3 SV=1
+sp|Q96682|TERM_ADECR    13.1     0.061   1   1.6   0.0    Preterminal protein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=PTP PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q65947|TERM_ADECC    12.1      0.12     1   0.0     84    146     86    126     51     91     Preterminal protein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=PTP PE=3 SV=1
+sp|Q96682|TERM_ADECR    11.8      0.15     1   0.0    199    261    201    241     51     91     Preterminal protein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=PTP PE=3 SV=1
+sp|Q65947|TERM_ADECC    -3.7     1e+04     2   0.0    372    412    376    395     73     92     Preterminal protein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=PTP PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007_rumenHiSeq_NODE_2742690_len_143829_cov_2_603084_HiSeq_25655990_2065225605.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007_rumenHiSeq_NODE_2742690_len_143829_cov_2_603084_HiSeq_25655990_2065225605.txt data/models_hmm/2061766007_rumenHiSeq_NODE_2742690_len_143829_cov_2_603084_HiSeq_25655990_2065225605.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:58 2021
+# [ok]

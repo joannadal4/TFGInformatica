@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DOQ7|A11_VAR67    469.5    5e-141   1   1.0  16.3    Protein A11 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A11R PE=2 SV=1
+sp|P0DOQ8|A11_VARV     469.5    5e-141   1   1.0  16.3    Protein A11 OS=Variola virus OX=10255 GN=A11R PE=2 SV=1
+sp|Q80HV8|A11_VACCW    465.1  1.1e-139   1   1.0  16.3    Protein A11 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR130 PE=1 SV=1
+sp|P20988|A11_VACCC    464.7  1.4e-139   1   1.0  15.6    Protein A11 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A11R PE=2 SV=1
+sp|Q76RB8|A11_VACCA    464.7  1.4e-139   1   1.0  15.6    Protein A11 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA122R PE=2 SV=1
+sp|Q9J558|A11_FOWPN    362.8  1.5e-108   2   2.0  22.9    Protein A11 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV175 PE=2 SV=1
+sp|Q07499|NCAP_PEDV7    14.2      0.02   1   1.4   0.6    Nucleoprotein OS=Porcine epidemic diarrhea virus (strain CV777) OX=229032 GN=N PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DOQ7|A11_VAR67    469.4  5.6e-141     1  16.3      1    319      1    319      1    312     Protein A11 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A11R PE=2 SV=1
+sp|P0DOQ8|A11_VARV     469.4  5.6e-141     1  16.3      1    319      1    319      1    312     Protein A11 OS=Variola virus OX=10255 GN=A11R PE=2 SV=1
+sp|Q80HV8|A11_VACCW    464.9  1.3e-139     1  16.3      1    318      1    318      1    312     Protein A11 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR130 PE=1 SV=1
+sp|P20988|A11_VACCC    464.6  1.6e-139     1  15.6      1    318      1    318      1    312     Protein A11 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A11R PE=2 SV=1
+sp|Q76RB8|A11_VACCA    464.6  1.6e-139     1  15.6      1    318      1    318      1    312     Protein A11 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA122R PE=2 SV=1
+sp|Q9J558|A11_FOWPN    303.2   2.1e-90     2  13.6     68    274     72    274    111    312     Protein A11 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV175 PE=2 SV=1
+sp|Q9J558|A11_FOWPN     67.4   1.3e-18     1   1.8      1     81      1     76      1     81     Protein A11 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV175 PE=2 SV=1
+sp|Q07499|NCAP_PEDV7    13.3     0.038     1   0.6    336    436    337    415      3     81     Nucleoprotein OS=Porcine epidemic diarrhea virus (strain CV777) OX=229032 GN=N PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008658524@NC_022563.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008658524@NC_022563.txt data/models_hmm/YP_008658524@NC_022563.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:23 2021
+# [ok]

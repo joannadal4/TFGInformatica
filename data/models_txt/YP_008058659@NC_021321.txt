@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q03549|VEAG_BPP22    13.0     0.077   1   1.5   0.4    Eag protein OS=Salmonella phage P22 OX=10754 GN=eag PE=4 SV=1
+sp|Q00092|HELI_ICHVA    12.2      0.14   1   1.7   0.0    Probable ATP-dependent helicase 25 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=25 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q03549|VEAG_BPP22    12.6      0.11     1   0.4      1     54     23     46     29     52     Eag protein OS=Salmonella phage P22 OX=10754 GN=eag PE=4 SV=1
+sp|Q00092|HELI_ICHVA    10.8      0.39     1   0.0    189    225    192    220      9     32     Probable ATP-dependent helicase 25 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=25 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008058659@NC_021321.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008058659@NC_021321.txt data/models_hmm/YP_008058659@NC_021321.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:13 2021
+# [ok]

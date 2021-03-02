@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P10104|WAC_BPT4      15.8    0.0055   1   1.7   0.0    Fibritin OS=Enterobacteria phage T4 OX=10665 GN=wac PE=1 SV=5
+sp|Q06906|VP25_NPVOP    13.4      0.03   1   1.2   0.1    Occlusion-derived virus envelope protein E25 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P25 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P10104|WAC_BPT4      14.3     0.016     1   0.0    400    484    412    480     24     89     Fibritin OS=Enterobacteria phage T4 OX=10665 GN=wac PE=1 SV=5
+sp|Q06906|VP25_NPVOP    12.8     0.043     1   0.1     17    157     38    144     28    135     Occlusion-derived virus envelope protein E25 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P25 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008241038@NC_021791.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008241038@NC_021791.txt data/models_hmm/YP_008241038@NC_021791.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:29 2021
+# [ok]

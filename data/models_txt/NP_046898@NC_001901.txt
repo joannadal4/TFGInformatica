@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68660|HCP_LAMBD     94.3   3.2e-27   1   1.0   0.2    Head completion protein OS=Escherichia phage lambda OX=10710 GN=W PE=1 SV=1
+sp|P68656|W_BPP21       53.1   2.3e-14   1   1.0   0.1    Head completion protein gp3 OS=Enterobacteria phage P21 OX=10711 GN=3 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68660|HCP_LAMBD     94.2   3.5e-27     1   0.2      1     68      1     68      5     78     Head completion protein OS=Escherichia phage lambda OX=10710 GN=W PE=1 SV=1
+sp|P68656|W_BPP21       53.1   2.4e-14     1   0.1      1     68      4     66      8     76     Head completion protein gp3 OS=Enterobacteria phage P21 OX=10711 GN=3 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_046898@NC_001901.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_046898@NC_001901.txt data/models_hmm/NP_046898@NC_001901.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:26 2021
+# [ok]

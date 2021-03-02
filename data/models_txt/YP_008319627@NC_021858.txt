@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q197F9|VF395_IIV3    12.6     0.082   1   1.3   0.0    Uncharacterized protein 001R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-001R PE=3 SV=1
+sp|P14836|CAPSD_AMCV    11.2      0.23   1   1.2   0.0    Capsid protein OS=Artichoke mottled crinkle virus OX=12142 GN=ORF2 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q197F9|VF395_IIV3    12.6     0.083     1   0.0      2    141     41     79     59     95     Uncharacterized protein 001R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-001R PE=3 SV=1
+sp|P14836|CAPSD_AMCV    10.5      0.37     1   0.0    158    240    163    235     90    159     Capsid protein OS=Artichoke mottled crinkle virus OX=12142 GN=ORF2 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008319627@NC_021858.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008319627@NC_021858.txt data/models_hmm/YP_008319627@NC_021858.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:49 2021
+# [ok]

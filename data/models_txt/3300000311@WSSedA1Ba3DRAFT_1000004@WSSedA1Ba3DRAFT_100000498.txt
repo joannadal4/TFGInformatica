@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8QQ21|KTHY_CAMPS    11.5      0.18   2   1.9   1.8    Thymidylate kinase OS=Camelpox virus (strain CMS) OX=203172 GN=TMK PE=3 SV=1
+sp|Q8V2K9|KTHY_CAMPM    11.5      0.18   2   1.9   1.8    Thymidylate kinase OS=Camelpox virus (strain M-96) OX=203173 GN=TMK PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8QQ21|KTHY_CAMPS     9.6      0.69     2   1.1    121    197    139    189     29     82     Thymidylate kinase OS=Camelpox virus (strain CMS) OX=203172 GN=TMK PE=3 SV=1
+sp|Q8V2K9|KTHY_CAMPM     9.6      0.69     2   1.1    121    197    139    189     29     82     Thymidylate kinase OS=Camelpox virus (strain M-96) OX=203173 GN=TMK PE=3 SV=2
+sp|Q8QQ21|KTHY_CAMPS     0.7   3.6e+02     1   0.0     25    130     48     93     63    105     Thymidylate kinase OS=Camelpox virus (strain CMS) OX=203172 GN=TMK PE=3 SV=1
+sp|Q8V2K9|KTHY_CAMPM     0.7   3.6e+02     1   0.0     25    130     48     93     63    105     Thymidylate kinase OS=Camelpox virus (strain M-96) OX=203173 GN=TMK PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000311@WSSedA1Ba3DRAFT_1000004@WSSedA1Ba3DRAFT_100000498.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000311@WSSedA1Ba3DRAFT_1000004@WSSedA1Ba3DRAFT_100000498.txt data/models_hmm/3300000311@WSSedA1Ba3DRAFT_1000004@WSSedA1Ba3DRAFT_100000498.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:23 2021
+# [ok]

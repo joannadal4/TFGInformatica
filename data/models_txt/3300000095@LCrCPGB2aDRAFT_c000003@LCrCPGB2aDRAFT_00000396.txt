@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQU4|YR348_MIMIV    14.6     0.024   1   2.2   2.0    Uncharacterized protein R348 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R348 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQU4|YR348_MIMIV    12.4      0.12     1   2.0     27    103     35     97      6     70     Uncharacterized protein R348 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R348 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000095@LCrCPGB2aDRAFT_c000003@LCrCPGB2aDRAFT_00000396.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000095@LCrCPGB2aDRAFT_c000003@LCrCPGB2aDRAFT_00000396.txt data/models_hmm/3300000095@LCrCPGB2aDRAFT_c000003@LCrCPGB2aDRAFT_00000396.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:26 2021
+# [ok]

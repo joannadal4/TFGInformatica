@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6SWD1|RL11_HCMVM    11.3      0.14   1   1.1   0.1    Membrane glycoprotein RL11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL11 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6SWD1|RL11_HCMVM    10.9      0.19     1   0.1      7    129     11    103     64    157     Membrane glycoprotein RL11 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RL11 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000411@SRS042984_LANL_scaffold_86725@SRS042984_LANL_scaffold_86725_gene_122236.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000411@SRS042984_LANL_scaffold_86725@SRS042984_LANL_scaffold_86725_gene_122236.txt data/models_hmm/7000000411@SRS042984_LANL_scaffold_86725@SRS042984_LANL_scaffold_86725_gene_122236.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:02 2021
+# [ok]

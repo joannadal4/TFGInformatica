@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91FN5|289L_IIV6     12.9     0.091   2   2.4   0.2    Putative Bro-N domain-containing protein 289L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-289L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FN5|289L_IIV6      9.4       1.1     1   0.1    150    219    162    199     33     70     Putative Bro-N domain-containing protein 289L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-289L PE=3 SV=1
+sp|Q91FN5|289L_IIV6      0.3   7.4e+02     2   0.0    237    272    243    259     37     53     Putative Bro-N domain-containing protein 289L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-289L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000565@SRS052227_LANL_scaffold_27206@SRS052227_LANL_scaffold_27206_gene_29006.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000565@SRS052227_LANL_scaffold_27206@SRS052227_LANL_scaffold_27206_gene_29006.txt data/models_hmm/7000000565@SRS052227_LANL_scaffold_27206@SRS052227_LANL_scaffold_27206_gene_29006.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:18 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZN2|093L_FRG3G   133.2   2.5e-39   1   1.0   5.6    Uncharacterized protein 093L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-093L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6GZN2|093L_FRG3G   133.1   2.7e-39     1   5.6      1     55      1     55      1     55     Uncharacterized protein 093L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-093L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003783@NC_005832.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003783@NC_005832.txt data/models_hmm/YP_003783@NC_005832.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:41 2021
+# [ok]

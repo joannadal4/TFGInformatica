@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36824|VE7_HPV26     12.8     0.062   1   1.2   0.5    Protein E7 OS=Human papillomavirus type 26 OX=333762 GN=E7 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36824|VE7_HPV26     12.7     0.067     1   0.5      2     90      6     62    151    213     Protein E7 OS=Human papillomavirus type 26 OX=333762 GN=E7 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000195@SRS017209_Baylor_scaffold_42805@SRS017209_Baylor_scaffold_42805_gene_57194.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000195@SRS017209_Baylor_scaffold_42805@SRS017209_Baylor_scaffold_42805_gene_57194.txt data/models_hmm/7000000195@SRS017209_Baylor_scaffold_42805@SRS017209_Baylor_scaffold_42805_gene_57194.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:17 2021
+# [ok]

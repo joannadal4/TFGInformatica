@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P69624|YO09_BPHC1    11.9      0.14   1   1.1   0.0    Uncharacterized 9.7 kDa protein in cox-rep intergenic region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|P69625|YO09_BPS2     11.9      0.14   1   1.1   0.0    Uncharacterized 9.7 kDa protein in cox-rep intergenic region OS=Haemophilus phage S2 OX=53000 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P69624|YO09_BPHC1    11.7      0.16     1   0.0     18     66     30     55     38     63     Uncharacterized 9.7 kDa protein in cox-rep intergenic region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|P69625|YO09_BPS2     11.7      0.16     1   0.0     18     66     30     55     38     63     Uncharacterized 9.7 kDa protein in cox-rep intergenic region OS=Haemophilus phage S2 OX=53000 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_945305@NC_005294.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_945305@NC_005294.txt data/models_hmm/NP_945305@NC_005294.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:44 2021
+# [ok]

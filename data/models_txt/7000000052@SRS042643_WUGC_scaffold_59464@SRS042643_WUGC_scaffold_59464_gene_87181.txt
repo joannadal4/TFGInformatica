@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q38442|GP7_BPSPP      9.4      0.84   1   1.3   3.8    Minor head protein GP7 OS=Bacillus phage SPP1 OX=10724 GN=7 PE=1 SV=2
+sp|Q8QL42|Y207_SIRV1     9.0       1.2   1   1.6  10.0    Uncharacterized protein 207 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=207 PE=4 SV=1
+sp|P19818|VAT_CAMVP      7.9       2.5   1   1.6   6.2    Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38442|GP7_BPSPP      8.7       1.4     1   3.8      2     99      7     96     82    172     Minor head protein GP7 OS=Bacillus phage SPP1 OX=10724 GN=7 PE=1 SV=2
+sp|Q8QL42|Y207_SIRV1     7.9       2.5     1  10.1     56    203    124    196    108    181     Uncharacterized protein 207 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=207 PE=4 SV=1
+sp|P19818|VAT_CAMVP      6.7       5.9     1   6.2     24    159    102    157    118    166     Aphid transmission protein OS=Cauliflower mosaic virus (strain PV147) OX=10647 GN=ORF II PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000052@SRS042643_WUGC_scaffold_59464@SRS042643_WUGC_scaffold_59464_gene_87181.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000052@SRS042643_WUGC_scaffold_59464@SRS042643_WUGC_scaffold_59464_gene_87181.txt data/models_hmm/7000000052@SRS042643_WUGC_scaffold_59464@SRS042643_WUGC_scaffold_59464_gene_87181.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:06 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39251|Y16Q_BPT4     35.9   5.6e-09   1   1.0   0.8    Uncharacterized 7.5 kDa protein in denB-rIIB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16Q PE=4 SV=2
+sp|P68618|A36_VACCC     15.3     0.011   1   1.1   3.1    Protein A36 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A36R PE=3 SV=1
+sp|P68619|A36_VACCW     15.3     0.011   1   1.1   3.1    Protein A36 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR159 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39251|Y16Q_BPT4     35.9   5.9e-09     1   0.8      1     64      2     64    101    171     Uncharacterized 7.5 kDa protein in denB-rIIB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16Q PE=4 SV=2
+sp|P68618|A36_VACCC     14.9     0.015     1   3.1     10    205     16    170     91    215     Protein A36 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A36R PE=3 SV=1
+sp|P68619|A36_VACCW     14.9     0.015     1   3.1     10    205     16    170     91    215     Protein A36 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR159 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000433@SRS050752_LANL_scaffold_6928@SRS050752_LANL_scaffold_6928_gene_11593.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000433@SRS050752_LANL_scaffold_6928@SRS050752_LANL_scaffold_6928_gene_11593.txt data/models_hmm/7000000433@SRS050752_LANL_scaffold_6928@SRS050752_LANL_scaffold_6928_gene_11593.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:08 2021
+# [ok]

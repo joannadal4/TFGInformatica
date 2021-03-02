@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21068|A49_VACCC    273.6   4.8e-82   1   1.0  20.0    Protein A49 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A49R PE=3 SV=1
+sp|P31037|A49_VACCW    272.7   9.2e-82   1   1.0  19.8    Protein A49R OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR175 PE=1 SV=1
+sp|O57249|A49_VACCA    270.5   4.3e-81   1   1.0  20.3    Protein A49 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA162R PE=3 SV=1
+sp|P0DSQ7|A49_VAR67    266.1     1e-79   1   1.0  21.0    Protein A49 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A49R PE=3 SV=1
+sp|P0DSQ8|A49_VARV     266.1     1e-79   1   1.0  21.0    Protein A49 OS=Variola virus OX=10255 GN=A49R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21068|A49_VACCC    273.5   5.3e-82     1  20.0      1    162      1    162      1    159     Protein A49 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A49R PE=3 SV=1
+sp|P31037|A49_VACCW    272.6     1e-81     1  19.8      1    162      1    162      1    159     Protein A49R OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR175 PE=1 SV=1
+sp|O57249|A49_VACCA    270.4   4.7e-81     1  20.3      1    162      1    162      1    159     Protein A49 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA162R PE=3 SV=1
+sp|P0DSQ7|A49_VAR67    265.9   1.1e-79     1  21.0      1    162      1    162      1    159     Protein A49 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A49R PE=3 SV=1
+sp|P0DSQ8|A49_VARV     265.9   1.1e-79     1  21.0      1    162      1    162      1    159     Protein A49 OS=Variola virus OX=10255 GN=A49R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_570560@NC_003391.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_570560@NC_003391.txt data/models_hmm/NP_570560@NC_003391.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:06 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P32277|RLIG2_BPT4    34.5   1.3e-08   1   1.3   0.0    RNA ligase 2 OS=Enterobacteria phage T4 OX=10665 GN=Y10A PE=1 SV=1
+sp|Q08539|HE65_NPVAC    17.5    0.0021   1   1.6   0.1    Protein Early 65 kDa OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=HE65 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P32277|RLIG2_BPT4    33.8   2.1e-08     1   0.0     13    175     27    159     16    131     RNA ligase 2 OS=Enterobacteria phage T4 OX=10665 GN=Y10A PE=1 SV=1
+sp|Q08539|HE65_NPVAC    16.3    0.0048     1   0.1    273    372    290    337     11     60     Protein Early 65 kDa OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=HE65 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008856818@NC_022965.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008856818@NC_022965.txt data/models_hmm/YP_008856818@NC_022965.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:35 2021
+# [ok]

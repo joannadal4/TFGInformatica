@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZN0|095R_FRG3G    13.2     0.031   1   1.2   0.0    Putative RAD2-like endonuclease 095R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-095R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6GZN0|095R_FRG3G    12.7     0.042     1   0.0    218    320    224    262    217    255     Putative RAD2-like endonuclease 095R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-095R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001883404@NC_010671.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001883404@NC_010671.txt data/models_hmm/YP_001883404@NC_010671.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:41 2021
+# [ok]

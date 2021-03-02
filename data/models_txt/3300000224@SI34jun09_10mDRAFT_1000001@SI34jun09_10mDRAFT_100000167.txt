@@ -1,0 +1,48 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P18131|DPOL_NPVAC     15.3    0.0088   1   1.4   3.9    DNA polymerase OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=POL PE=3 SV=2
+sp|Q08097|US03_BHV1S     15.2    0.0099   1   1.1   0.1    Serine/threonine-protein kinase US3 homolog OS=Bovine herpesvirus 1.2 (strain ST) OX=45407 PE=3 SV=1
+sp|Q5UQW7|YL386_MIMIV    14.6     0.014   2   2.4  25.2    Putative endonuclease L386 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L386 PE=3 SV=1
+sp|P41712|DPOL_NPVBM     14.3     0.018   1   1.4   3.0    DNA polymerase OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=POL PE=3 SV=2
+sp|P03720|VPIP_BPT4      12.5     0.066   1   1.1  14.1    Prehead core component PIP OS=Enterobacteria phage T4 OX=10665 GN=67 PE=4 SV=1
+sp|Q3ZN05|CAPSD_HASV4    12.2     0.077   1   1.3   2.2    Capsid polyprotein VP90 OS=Human astrovirus-4 OX=35300 GN=ORF2 PE=3 SV=1
+sp|Q86198|NSP1A_ROTGA    11.8      0.11   1   1.3   1.1    Non-structural protein 1, peptide 1 OS=Rotavirus B (isolate RVB/Human/China/ADRV/1982) OX=10942 PE=3 SV=1
+sp|Q5UP82|YL005_MIMIV     8.8      0.87   2   2.6  23.1    Uncharacterized protein L5 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L5 PE=3 SV=1
+sp|Q5UP09|YR753_MIMIV     8.2       1.4   3   2.9  29.8    Putative F-box/LRR-repeat protein R753 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R753 PE=4 SV=1
+sp|Q5UP18|YR865_MIMIV     8.0       1.5   2   2.3  17.9    Uncharacterized protein R865 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R865 PE=3 SV=1
+sp|Q82446|CAPSD_HASV2     5.8       7.4   1   1.3  11.2    Capsid polyprotein VP90 OS=Human astrovirus-2 OX=12701 GN=ORF2 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q08097|US03_BHV1S     14.8     0.013     1   0.1     83    214     99    144     81    127     Serine/threonine-protein kinase US3 homolog OS=Bovine herpesvirus 1.2 (strain ST) OX=45407 PE=3 SV=1
+sp|P18131|DPOL_NPVAC     14.3     0.018     1   3.9    871    979    880    967     40    121     DNA polymerase OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=POL PE=3 SV=2
+sp|Q5UP09|YR753_MIMIV    13.5     0.033     2  19.2    190    364    197    358     50    198     Putative F-box/LRR-repeat protein R753 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R753 PE=4 SV=1
+sp|P41712|DPOL_NPVBM     13.3     0.037     1   3.0    871    982    881    970     40    122     DNA polymerase OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=POL PE=3 SV=2
+sp|Q5UQW7|YL386_MIMIV    13.1     0.042     1  14.2    254    365    270    335     55    122     Putative endonuclease L386 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L386 PE=3 SV=1
+sp|Q5UP82|YL005_MIMIV    12.7     0.057     1  12.7     74    188     92    145     97    145     Uncharacterized protein L5 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L5 PE=3 SV=1
+sp|P03720|VPIP_BPT4      12.4     0.069     1  14.1      5     80     11     79     57    126     Prehead core component PIP OS=Enterobacteria phage T4 OX=10665 GN=67 PE=4 SV=1
+sp|Q3ZN05|CAPSD_HASV4    11.5      0.13     1   2.2    616    743    665    716     97    145     Capsid polyprotein VP90 OS=Human astrovirus-4 OX=35300 GN=ORF2 PE=3 SV=1
+sp|Q86198|NSP1A_ROTGA    11.3      0.16     1   1.1     39     86     45     71     10     36     Non-structural protein 1, peptide 1 OS=Rotavirus B (isolate RVB/Human/China/ADRV/1982) OX=10942 PE=3 SV=1
+sp|Q5UP18|YR865_MIMIV     8.8      0.88     1  14.2    305    423    334    376     94    134     Uncharacterized protein R865 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R865 PE=3 SV=1
+sp|Q5UQW7|YL386_MIMIV     7.1       2.9     2   3.2    371    471    429    456     95    123     Putative endonuclease L386 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L386 PE=3 SV=1
+sp|Q82446|CAPSD_HASV2     5.0        13     1  11.2    654    750    667    706     96    132     Capsid polyprotein VP90 OS=Human astrovirus-2 OX=12701 GN=ORF2 PE=1 SV=1
+sp|Q5UP09|YR753_MIMIV     1.0   2.1e+02     3   0.5    516    592    523    566    107    149     Putative F-box/LRR-repeat protein R753 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R753 PE=4 SV=1
+sp|Q5UP82|YL005_MIMIV     1.0   2.2e+02     2   2.7    395    460    402    456     36     89     Uncharacterized protein L5 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L5 PE=3 SV=1
+sp|Q5UP18|YR865_MIMIV    -0.4   5.8e+02     2   0.1    442    498    456    493     47     85     Uncharacterized protein R865 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R865 PE=3 SV=1
+sp|Q5UP09|YR753_MIMIV    -2.4   2.3e+03     1   0.1      9     86     34     55     43     64     Putative F-box/LRR-repeat protein R753 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R753 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000224@SI34jun09_10mDRAFT_1000001@SI34jun09_10mDRAFT_100000167.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000224@SI34jun09_10mDRAFT_1000001@SI34jun09_10mDRAFT_100000167.txt data/models_hmm/3300000224@SI34jun09_10mDRAFT_1000001@SI34jun09_10mDRAFT_100000167.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:59 2021
+# [ok]

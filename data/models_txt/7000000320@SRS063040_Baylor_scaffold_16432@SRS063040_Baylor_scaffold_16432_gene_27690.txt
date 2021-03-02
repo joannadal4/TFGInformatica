@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52384|TRM1_HHV6U    19.0    0.0012   1   1.7   0.2    Tripartite terminase subunit 1 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=TRM1 PE=3 SV=1
+sp|P52544|TRM1_HHV6Z    18.8    0.0013   1   1.7   0.2    Tripartite terminase subunit 1 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=TRM1 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52384|TRM1_HHV6U    17.5    0.0032     1   0.2    209    294    220    284     75    139     Tripartite terminase subunit 1 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=TRM1 PE=3 SV=1
+sp|P52544|TRM1_HHV6Z    17.3    0.0036     1   0.2    207    294    220    284     75    139     Tripartite terminase subunit 1 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=TRM1 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000320@SRS063040_Baylor_scaffold_16432@SRS063040_Baylor_scaffold_16432_gene_27690.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000320@SRS063040_Baylor_scaffold_16432@SRS063040_Baylor_scaffold_16432_gene_27690.txt data/models_hmm/7000000320@SRS063040_Baylor_scaffold_16432@SRS063040_Baylor_scaffold_16432_gene_27690.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:18 2021
+# [ok]

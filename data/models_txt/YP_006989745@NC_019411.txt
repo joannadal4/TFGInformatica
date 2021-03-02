@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O42037|VGA2_ALHV1     11.7       0.2   1   1.4   1.6    Uncharacterized protein A2 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=A2 PE=4 SV=1
+sp|Q7Y2C9|EXLYS_BPKMV     9.4         1   3   3.2   8.0    Peptidoglycan hydrolase gp36 OS=Pseudomonas phage phiKMV OX=204270 GN=gp36 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O42037|VGA2_ALHV1     10.9      0.34     1   1.6     18     76     22     52      6     36     Uncharacterized protein A2 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=A2 PE=4 SV=1
+sp|Q7Y2C9|EXLYS_BPKMV    10.2      0.54     2   0.8    154    216    158    209      6     55     Peptidoglycan hydrolase gp36 OS=Pseudomonas phage phiKMV OX=204270 GN=gp36 PE=1 SV=1
+sp|Q7Y2C9|EXLYS_BPKMV     1.9   2.2e+02     1   0.1     56    114     70     97     43     70     Peptidoglycan hydrolase gp36 OS=Pseudomonas phage phiKMV OX=204270 GN=gp36 PE=1 SV=1
+sp|Q7Y2C9|EXLYS_BPKMV    -2.5   5.1e+03     3   0.1    326    388    331    365     26     61     Peptidoglycan hydrolase gp36 OS=Pseudomonas phage phiKMV OX=204270 GN=gp36 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006989745@NC_019411.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006989745@NC_019411.txt data/models_hmm/YP_006989745@NC_019411.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:52 2021
+# [ok]

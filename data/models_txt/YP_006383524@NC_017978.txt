@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P37317|VINT_BPSFV    14.1      0.03   2   2.0   0.1    Integrase OS=Shigella phage Sf6 OX=10761 GN=int PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P37317|VINT_BPSFV    12.3      0.11     2   0.0    127    261    151    257     47    150     Integrase OS=Shigella phage Sf6 OX=10761 GN=int PE=3 SV=1
+sp|P37317|VINT_BPSFV    -1.7   2.2e+03     1   0.1     44    111     97    109     46     58     Integrase OS=Shigella phage Sf6 OX=10761 GN=int PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006383524@NC_017978.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006383524@NC_017978.txt data/models_hmm/YP_006383524@NC_017978.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:14 2021
+# [ok]

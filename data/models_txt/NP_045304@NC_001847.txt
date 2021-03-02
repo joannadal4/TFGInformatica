@@ -1,0 +1,167 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P28276|ICP27_HHV2H   586.4  5.1e-176   1   1.0   0.0    mRNA export factor OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL54 PE=1 SV=1
+sp|P10238|ICP27_HHV11   571.9  1.3e-171   1   1.0   0.0    mRNA export factor OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL54 PE=1 SV=1
+sp|P36295|ICP27_HHV1E   568.4  1.5e-170   1   1.0   0.0    mRNA export factor OS=Human herpesvirus 1 (strain HFEM) OX=10303 GN=UL54 PE=1 SV=1
+sp|Q05906|ICP27_EHV1K   552.5    1e-165   1   1.0   0.0    mRNA export factor ICP27 homolog OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=UL3 PE=1 SV=1
+sp|P28939|ICP27_EHV1B   552.1  1.3e-165   1   1.0   0.0    mRNA export factor ICP27 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=5 PE=3 SV=1
+sp|Q77MR3|ICP27_GAHVM   482.9  1.2e-144   1   1.1   7.9    mRNA export factor ICP27 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV068 PE=3 SV=1
+sp|Q85232|ICP27_SUHVK   471.8  2.9e-141   1   1.0   0.1    mRNA export factor ICP27 homolog OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=UL54 PE=3 SV=1
+sp|P09269|ICP27_VZVD    464.9  3.7e-139   1   1.1   0.4    mRNA export factor ICP27 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF4 PE=1 SV=1
+sp|Q4JQX1|ICP27_VZVO    464.9  3.7e-139   1   1.1   0.4    mRNA export factor ICP27 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF4 PE=3 SV=1
+sp|Q6UDM4|ICP27_PSHV1    89.5   2.5e-25   2   2.7  18.4    mRNA export factor OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL54 PE=3 SV=1
+sp|O36407|IE63_ALHV1     24.7   1.1e-05   2   2.3   3.9    Immediate-early phosphoprotein 57 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=57 PE=3 SV=1
+sp|Q66659|IE63_EHV2      21.6   9.4e-05   3   3.1   0.4    Immediate-early phosphoprotein 57 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=57 PE=3 SV=2
+sp|Q5UP44|YL645_MIMIV    17.9    0.0013   2   1.5  20.0    Uncharacterized protein L645 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L645 PE=4 SV=1
+sp|Q3KSU1|ICP27_EBVG     17.8    0.0013   2   2.4  22.0    mRNA export factor ICP27 homolog OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BMLF1 PE=1 SV=2
+sp|Q1HVH2|ICP27_EBVA8    16.1    0.0044   2   2.4  22.7    mRNA export factor ICP27 homolog OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BMLF1 PE=3 SV=1
+sp|Q04360|ICP27_EBVB9    16.0    0.0048   2   2.4  22.0    mRNA export factor ICP27 homolog OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BMLF1 PE=1 SV=2
+sp|Q6SW73|ICP27_HCMVM    15.8    0.0056   5   4.7   0.0    mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL69 PE=3 SV=1
+sp|P16749|ICP27_HCMVA    15.8    0.0056   5   4.7   0.0    mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL69 PE=1 SV=1
+sp|P27552|VE2_HPV41      11.8     0.087   1   1.1   2.2    Regulatory protein E2 OS=Human papillomavirus type 41 OX=10589 GN=E2 PE=3 SV=1
+sp|P13199|ICP27_SHV21    11.7     0.094   2   2.9  18.6    mRNA export factor ICP27 homolog OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=EJRF1 PE=1 SV=2
+sp|P50769|VE2_HPV23      11.6     0.099   1   1.1   9.9    Regulatory protein E2 OS=Human papillomavirus type 23 OX=37955 GN=E2 PE=3 SV=1
+sp|P36795|VE2_HPV49      11.2      0.14   1   1.1  24.0    Regulatory protein E2 OS=Human papillomavirus type 49 OX=10616 GN=E2 PE=3 SV=1
+sp|Q80944|VE2_HPV60      10.8      0.17   1   1.2   4.2    Regulatory protein E2 OS=Human papillomavirus type 60 OX=40540 GN=E2 PE=3 SV=1
+sp|Q2HR75|ICP27_HHV8P    10.8      0.18   2   2.1   4.4    mRNA export factor ICP27 homolog OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF57 PE=1 SV=1
+sp|P08345|VE2_BPV4       10.8      0.18   1   1.1   4.2    Regulatory protein E2 OS=Bovine papillomavirus type 4 OX=10562 GN=E2 PE=3 SV=2
+sp|Q69154|ICP27_MUHVS    10.7      0.19   4   3.7   0.0    mRNA export factor ICP27 homolog OS=Murid herpesvirus 1 (strain Smith) OX=10367 GN=UL69 PE=3 SV=1
+sp|Q80903|VE2_HPV37      10.3      0.25   1   1.1  20.7    Regulatory protein E2 OS=Human papillomavirus type 37 OX=37958 GN=E2 PE=3 SV=1
+sp|P50768|VE2_HPV22       9.0      0.61   1   1.1  15.2    Regulatory protein E2 OS=Human papillomavirus type 22 OX=37954 GN=E2 PE=3 SV=1
+sp|P0C6L3|SHDAG_HDVD3     8.1       1.2   1   1.0   8.9    Small delta antigen OS=Hepatitis delta virus genotype I (isolate D380) OX=31762 PE=1 SV=1
+sp|Q8V7J2|ORF24_TTVV6     8.0       1.3   1   1.1   3.2    Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/China/CT23F/2001) OX=687366 GN=ORF2/4 PE=4 SV=1
+sp|P36785|VE2_HPV17       8.0       1.3   1   1.1  21.0    Regulatory protein E2 OS=Human papillomavirus type 17 OX=10607 GN=E2 PE=3 SV=1
+sp|Q5UP41|YR871_MIMIV     7.8       1.4   1   1.1  28.1    Uncharacterized protein R871 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R871 PE=3 SV=1
+sp|Q5UPA5|YL032_MIMIV     7.8       1.4   1   1.2  13.7    Putative KilA-N domain-containing protein L32 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L32 PE=4 SV=1
+sp|P29996|LHDAG_HDVD3     7.8       1.5   1   1.0   8.9    Large delta antigen OS=Hepatitis delta virus genotype I (isolate D380) OX=31762 PE=1 SV=2
+sp|P29997|SHDAG_HDVWO     7.6       1.6   1   1.0   8.4    Small delta antigen OS=Hepatitis delta virus genotype I (isolate Woodchuck) OX=31764 PE=3 SV=3
+sp|Q80910|VE2_HPV38       7.6       1.7   1   1.1  18.2    Regulatory protein E2 OS=Human papillomavirus type 38 OX=37959 GN=E2 PE=3 SV=1
+sp|P25880|SHDAG_HDVNA     7.5       1.8   1   1.0  10.2    Small delta antigen OS=Hepatitis delta virus genotype I (isolate Nauru) OX=10426 PE=3 SV=2
+sp|P25882|SHDAG_HDVM2     7.5       1.8   1   1.0   8.1    Small delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-2) OX=10425 PE=3 SV=3
+sp|P0C746|HBZ_HTL1A       7.5       1.9   1   1.0  25.1    HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (strain Japan ATK-1 subtype A) OX=11926 GN=HBZ PE=1 SV=1
+sp|P36784|VE2_HPV15       7.4       1.9   1   1.1  22.7    Regulatory protein E2 OS=Human papillomavirus type 15 OX=10606 GN=E2 PE=3 SV=1
+sp|P36780|VE2_HPV09       7.3         2   1   1.1  20.6    Regulatory protein E2 OS=Human papillomavirus type 9 OX=10621 GN=E2 PE=3 SV=1
+sp|P0C6M9|LHDAG_HDVWO     7.3       2.1   1   1.0   8.4    Large delta antigen OS=Hepatitis delta virus genotype I (isolate Woodchuck) OX=31764 PE=3 SV=1
+sp|P25881|SHDAG_HDVM1     7.3       2.1   1   1.0   8.2    Small delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-1) OX=10424 PE=3 SV=3
+sp|P0C6L8|LHDAG_HDVM2     7.1       2.4   1   1.0   8.1    Large delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-2) OX=10425 PE=3 SV=1
+sp|P36783|VE2_HPV14       7.1       2.4   1   1.4  34.7    Regulatory protein E2 OS=Human papillomavirus type 14 OX=10605 GN=E2 PE=3 SV=1
+sp|P0C6M2|LHDAG_HDVNA     7.1       2.4   1   1.0  10.2    Large delta antigen OS=Hepatitis delta virus genotype I (isolate Nauru) OX=10426 PE=3 SV=1
+sp|P0C745|HBZ_HTL1C       6.8         3   1   1.0  23.4    HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (isolate Caribbea HS-35 subtype A) OX=11927 GN=HBZ PE=1 SV=1
+sp|P0C6L7|LHDAG_HDVM1     6.6       3.3   1   1.0   8.5    Large delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-1) OX=10424 PE=3 SV=1
+sp|Q82446|CAPSD_HASV2     6.5       3.7   2   2.1  12.7    Capsid polyprotein VP90 OS=Human astrovirus-2 OX=12701 GN=ORF2 PE=1 SV=1
+sp|Q6UDG4|UL01_PSHV1      6.5       3.7   1   1.2  23.2    Uncharacterized protein UL-1 OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL-1 PE=4 SV=1
+sp|P0C747|HBZ_HTL1L       6.4       3.9   1   1.1  20.9    HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (isolate Melanesia mel5 subtype C) OX=402046 GN=HBZ PE=3 SV=1
+sp|P11623|RDRP_PLRVW      6.3       4.1   2   2.0  14.4    Protein P1-P2 OS=Potato leafroll virus (strain Potato/Netherlands/Wageningen/1989) OX=12048 GN=ORF1/ORF2 PE=3 SV=2
+sp|Q6WB94|VGLG_HMPVC      6.2       4.5   1   1.1  15.0    Major surface glycoprotein G OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=G PE=1 SV=1
+sp|Q5UR26|VF546_MIMIV     6.1       4.6   1   1.1  17.6    Uncharacterized protein R546 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R546 PE=3 SV=1
+sp|P0DTC0|SHDAG_HDV27     6.1       4.6   1   1.1  12.8    Small delta antigen OS=Hepatitis delta virus genotype I (isolate HDV/Human/Central African Republic/FH27/1985) OX=2691025 PE=3 SV=1
+sp|P06934|SHDAG_HDVIT     6.0         5   1   1.0   9.9    Small delta antigen OS=Hepatitis delta virus genotype I (isolate Italian) OX=10423 PE=1 SV=3
+sp|P29129|ICP0_SUHVF      6.0       5.1   1   1.2  13.1    E3 ubiquitin-protein ligase ICP0 OS=Suid herpesvirus 1 (strain Indiana-Funkhauser / Becker) OX=31523 GN=EP0 PE=2 SV=1
+sp|P0C6L6|LHDAG_HDVIT     5.7       6.5   1   1.0   9.9    Large delta antigen OS=Hepatitis delta virus genotype I (isolate Italian) OX=10423 PE=1 SV=1
+sp|P17520|RDRP_PLRV1      5.4       7.8   2   2.0  13.3    Protein P1-P2 OS=Potato leafroll virus (strain Potato/Scotland/strain 1/1984) OX=12046 GN=ORF1/ORF2 PE=3 SV=2
+sp|P29836|ICP0_BHV1K      5.4       7.8   2   1.9  15.9    E3 ubiquitin-protein ligase ICP0 OS=Bovine herpesvirus 1.2 (strain K22) OX=31519 GN=BICP0 PE=3 SV=1
+sp|Q91DH7|SHDAG_HDVV1     5.3       8.1   1   1.0  11.7    Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8624) OX=261993 PE=3 SV=3
+sp|P17519|P1_PLRV1        5.2       8.9   1   1.1  10.4    Protein P1 OS=Potato leafroll virus (strain Potato/Scotland/strain 1/1984) OX=12046 GN=ORF1 PE=1 SV=1
+sp|Q91DH9|SHDAG_HDVV3     5.2       8.9   1   1.0  12.4    Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8375) OX=261995 PE=3 SV=3
+sp|P50770|VE2_HPV24       5.1       9.7   1   1.1  26.5    Regulatory protein E2 OS=Human papillomavirus type 24 OX=37956 GN=E2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P28276|ICP27_HHV2H   586.2  5.8e-176     1   0.0      1    512      1    512      1    481     mRNA export factor OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL54 PE=1 SV=1
+sp|P10238|ICP27_HHV11   571.7  1.4e-171     1   0.0      1    512      1    512      1    481     mRNA export factor OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL54 PE=1 SV=1
+sp|P36295|ICP27_HHV1E   568.2  1.7e-170     1   0.0      1    511      1    511      1    481     mRNA export factor OS=Human herpesvirus 1 (strain HFEM) OX=10303 GN=UL54 PE=1 SV=1
+sp|Q05906|ICP27_EHV1K   552.3  1.1e-165     1   0.0      1    470      1    470     38    481     mRNA export factor ICP27 homolog OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=UL3 PE=1 SV=1
+sp|P28939|ICP27_EHV1B   552.0  1.4e-165     1   0.0      1    470      1    470     38    481     mRNA export factor ICP27 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=5 PE=3 SV=1
+sp|Q77MR3|ICP27_GAHVM   482.7  1.5e-144     1   7.9      1    471      1    471      1    481     mRNA export factor ICP27 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV068 PE=3 SV=1
+sp|Q85232|ICP27_SUHVK   471.5  3.5e-141     1   0.1      2    361     11    361    123    481     mRNA export factor ICP27 homolog OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=UL54 PE=3 SV=1
+sp|P09269|ICP27_VZVD    464.6  4.4e-139     1   0.4      1    451      1    451      1    481     mRNA export factor ICP27 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF4 PE=1 SV=1
+sp|Q4JQX1|ICP27_VZVO    464.6  4.4e-139     1   0.4      1    451      1    451      1    481     mRNA export factor ICP27 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF4 PE=3 SV=1
+sp|Q6UDM4|ICP27_PSHV1    89.5   2.5e-25     1  18.4    196    638    213    635     69    477     mRNA export factor OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL54 PE=3 SV=1
+sp|Q66659|IE63_EHV2      21.6   9.4e-05     3   0.4    475    537    478    526    327    375     Immediate-early phosphoprotein 57 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=57 PE=3 SV=2
+sp|Q5UP44|YL645_MIMIV    17.9    0.0013     1  20.0    121    381    124    348      5    181     Uncharacterized protein L645 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L645 PE=4 SV=1
+sp|Q6SW73|ICP27_HCMVM    15.8    0.0056     2   0.0    328    404    334    371    318    355     mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL69 PE=3 SV=1
+sp|P16749|ICP27_HCMVA    15.8    0.0056     2   0.0    328    404    334    371    318    355     mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL69 PE=1 SV=1
+sp|O36407|IE63_ALHV1     13.2     0.033     2   0.3    367    425    381    422    426    467     Immediate-early phosphoprotein 57 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=57 PE=3 SV=1
+sp|Q3KSU1|ICP27_EBVG     12.6     0.049     2   2.0    266    473    294    464    312    467     mRNA export factor ICP27 homolog OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BMLF1 PE=1 SV=2
+sp|O36407|IE63_ALHV1     12.6      0.05     1   0.3      4    343     64    277    140    337     Immediate-early phosphoprotein 57 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=57 PE=3 SV=1
+sp|Q04360|ICP27_EBVB9    11.7     0.092     2   2.3    266    472    294    462    312    465     mRNA export factor ICP27 homolog OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BMLF1 PE=1 SV=2
+sp|Q1HVH2|ICP27_EBVA8    11.7     0.092     2   2.3    266    472    294    462    312    465     mRNA export factor ICP27 homolog OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BMLF1 PE=3 SV=1
+sp|P27552|VE2_HPV41      11.4      0.12     1   2.2    160    312    202    294    105    192     Regulatory protein E2 OS=Human papillomavirus type 41 OX=10589 GN=E2 PE=3 SV=1
+sp|P50769|VE2_HPV23      11.3      0.13     1   9.9    154    343    208    308     86    179     Regulatory protein E2 OS=Human papillomavirus type 23 OX=37955 GN=E2 PE=3 SV=1
+sp|P13199|ICP27_SHV21    11.1      0.15     2   4.0    228    404    269    400    346    463     mRNA export factor ICP27 homolog OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=EJRF1 PE=1 SV=2
+sp|P29836|ICP0_BHV1K     10.8      0.17     1   7.4    280    499    283    470     12    202     E3 ubiquitin-protein ligase ICP0 OS=Bovine herpesvirus 1.2 (strain K22) OX=31519 GN=BICP0 PE=3 SV=1
+sp|P36795|VE2_HPV49      10.7      0.19     1  24.0    175    395    220    383     53    217     Regulatory protein E2 OS=Human papillomavirus type 49 OX=10616 GN=E2 PE=3 SV=1
+sp|Q69154|ICP27_MUHVS    10.7      0.19     1   0.0    246    281    252    274    325    347     mRNA export factor ICP27 homolog OS=Murid herpesvirus 1 (strain Smith) OX=10367 GN=UL69 PE=3 SV=1
+sp|P08345|VE2_BPV4       10.5      0.22     1   4.2     68    257    137    196    116    175     Regulatory protein E2 OS=Bovine papillomavirus type 4 OX=10562 GN=E2 PE=3 SV=2
+sp|Q80944|VE2_HPV60      10.5      0.23     1   4.2    162    351    210    322     85    195     Regulatory protein E2 OS=Human papillomavirus type 60 OX=40540 GN=E2 PE=3 SV=1
+sp|Q3KSU1|ICP27_EBVG     10.3      0.26     1  12.4      6    216     32    202     37    187     mRNA export factor ICP27 homolog OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BMLF1 PE=1 SV=2
+sp|Q80903|VE2_HPV37       9.9      0.34     1  20.7    186    368    232    356     88    224     Regulatory protein E2 OS=Human papillomavirus type 37 OX=37958 GN=E2 PE=3 SV=1
+sp|Q1HVH2|ICP27_EBVA8     9.5      0.46     1  12.7      6    215     32    202     37    187     mRNA export factor ICP27 homolog OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BMLF1 PE=3 SV=1
+sp|Q04360|ICP27_EBVB9     9.4      0.49     1  12.1      6    215     39    202     40    187     mRNA export factor ICP27 homolog OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BMLF1 PE=1 SV=2
+sp|P50768|VE2_HPV22       8.6      0.82     1  15.2    166    340    207    315     68    183     Regulatory protein E2 OS=Human papillomavirus type 22 OX=37954 GN=E2 PE=3 SV=1
+sp|Q82446|CAPSD_HASV2     7.9       1.3     1   2.4      2    124     16     97    148    230     Capsid polyprotein VP90 OS=Human astrovirus-2 OX=12701 GN=ORF2 PE=1 SV=1
+sp|P0C6L3|SHDAG_HDVD3     7.9       1.3     1   8.9      4    160     34    143     91    194     Small delta antigen OS=Hepatitis delta virus genotype I (isolate D380) OX=31762 PE=1 SV=1
+sp|Q8V7J2|ORF24_TTVV6     7.8       1.4     1   3.2    101    264    128    213    118    195     Uncharacterized ORF2/4 protein OS=Torque teno virus (isolate Human/China/CT23F/2001) OX=687366 GN=ORF2/4 PE=4 SV=1
+sp|P36785|VE2_HPV17       7.6       1.7     1  21.0    180    366    211    348     71    218     Regulatory protein E2 OS=Human papillomavirus type 17 OX=10607 GN=E2 PE=3 SV=1
+sp|P29996|LHDAG_HDVD3     7.6       1.7     1   8.9      4    160     35    143     92    194     Large delta antigen OS=Hepatitis delta virus genotype I (isolate D380) OX=31762 PE=1 SV=2
+sp|P29997|SHDAG_HDVWO     7.4       1.9     1   8.4      2    158     29    143     86    194     Small delta antigen OS=Hepatitis delta virus genotype I (isolate Woodchuck) OX=31764 PE=3 SV=3
+sp|Q5UP41|YR871_MIMIV     7.4       1.9     1  28.1     66    320    101    279     42    217     Uncharacterized protein R871 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R871 PE=3 SV=1
+sp|P25880|SHDAG_HDVNA     7.3         2     1  10.2      1    158     23    143     80    194     Small delta antigen OS=Hepatitis delta virus genotype I (isolate Nauru) OX=10426 PE=3 SV=2
+sp|Q5UPA5|YL032_MIMIV     7.3       2.1     1  13.7      2    178     17    135    100    220     Putative KilA-N domain-containing protein L32 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L32 PE=4 SV=1
+sp|P25882|SHDAG_HDVM2     7.3       2.1     1   8.1      2    157     36    144     93    195     Small delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-2) OX=10425 PE=3 SV=3
+sp|P0C746|HBZ_HTL1A       7.2       2.3     1  25.1     32    197     65    187    105    223     HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (strain Japan ATK-1 subtype A) OX=11926 GN=HBZ PE=1 SV=1
+sp|Q80910|VE2_HPV38       7.1       2.3     1  18.2    186    351    225    345    113    226     Regulatory protein E2 OS=Human papillomavirus type 38 OX=37959 GN=E2 PE=3 SV=1
+sp|P25881|SHDAG_HDVM1     7.1       2.4     1   8.2      2    157     36    143     93    194     Small delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-1) OX=10424 PE=3 SV=3
+sp|P0C6M9|LHDAG_HDVWO     7.0       2.5     1   8.4      2    158     29    143     86    194     Large delta antigen OS=Hepatitis delta virus genotype I (isolate Woodchuck) OX=31764 PE=3 SV=1
+sp|P36784|VE2_HPV15       7.0       2.5     1  22.7    111    302    139    268     74    208     Regulatory protein E2 OS=Human papillomavirus type 15 OX=10606 GN=E2 PE=3 SV=1
+sp|P0C6M2|LHDAG_HDVNA     6.9       2.7     1  10.2      1    158     23    143     80    194     Large delta antigen OS=Hepatitis delta virus genotype I (isolate Nauru) OX=10426 PE=3 SV=1
+sp|P0C6L8|LHDAG_HDVM2     6.9       2.7     1   8.1      2    157     36    144     93    195     Large delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-2) OX=10425 PE=3 SV=1
+sp|P36780|VE2_HPV09       6.8       2.9     1  20.6    192    371    234    355     85    216     Regulatory protein E2 OS=Human papillomavirus type 9 OX=10621 GN=E2 PE=3 SV=1
+sp|Q66659|IE63_EHV2       6.7         3     1  18.0      3    175      9    141      4    156     Immediate-early phosphoprotein 57 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=57 PE=3 SV=2
+sp|Q2HR75|ICP27_HHV8P     6.7       3.1     1   2.8      1    185      7    158      8    165     mRNA export factor ICP27 homolog OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF57 PE=1 SV=1
+sp|P0C745|HBZ_HTL1C       6.5       3.6     1  23.4     32    197     63    188    103    224     HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (isolate Caribbea HS-35 subtype A) OX=11927 GN=HBZ PE=1 SV=1
+sp|P0C6L7|LHDAG_HDVM1     6.4       3.9     1   8.5      2    156     36    143     93    194     Large delta antigen OS=Hepatitis delta virus genotype I (isolate Japanese M-1) OX=10424 PE=3 SV=1
+sp|P0C747|HBZ_HTL1L       6.2       4.5     1  20.9     32    203     73    180    108    217     HTLV-1 basic zipper factor OS=Human T-cell leukemia virus 1 (isolate Melanesia mel5 subtype C) OX=402046 GN=HBZ PE=3 SV=1
+sp|P36783|VE2_HPV14       6.1       4.6     1  34.7    161    394    213    372     56    216     Regulatory protein E2 OS=Human papillomavirus type 14 OX=10605 GN=E2 PE=3 SV=1
+sp|Q6UDG4|UL01_PSHV1      6.0       5.3     1  23.2    207    427    213    412     19    216     Uncharacterized protein UL-1 OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=UL-1 PE=4 SV=1
+sp|Q6WB94|VGLG_HMPVC      5.9       5.3     1  15.0     39    219     61    202     18    180     Major surface glycoprotein G OS=Human metapneumovirus (strain CAN97-83) OX=694067 GN=G PE=1 SV=1
+sp|P0DTC0|SHDAG_HDV27     5.9       5.4     1  12.8      1    160     21    143     75    194     Small delta antigen OS=Hepatitis delta virus genotype I (isolate HDV/Human/Central African Republic/FH27/1985) OX=2691025 PE=3 SV=1
+sp|Q5UR26|VF546_MIMIV     5.9       5.4     1  17.6     25    210     70    200     66    189     Uncharacterized protein R546 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R546 PE=3 SV=1
+sp|P06934|SHDAG_HDVIT     5.8       6.1     1   9.9      2    151     29    143     86    194     Small delta antigen OS=Hepatitis delta virus genotype I (isolate Italian) OX=10423 PE=1 SV=3
+sp|P29129|ICP0_SUHVF      5.5         7     1  13.1    204    401    239    381     31    173     E3 ubiquitin-protein ligase ICP0 OS=Suid herpesvirus 1 (strain Indiana-Funkhauser / Becker) OX=31523 GN=EP0 PE=2 SV=1
+sp|P0C6L6|LHDAG_HDVIT     5.4       7.9     1   9.9      2    151     29    143     86    194     Large delta antigen OS=Hepatitis delta virus genotype I (isolate Italian) OX=10423 PE=1 SV=1
+sp|Q91DH7|SHDAG_HDVV1     5.2       9.1     1  11.7      1    156     21    141     75    197     Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8624) OX=261993 PE=3 SV=3
+sp|Q91DH9|SHDAG_HDVV3     5.0        10     1  12.4      1    156     21    141     75    197     Small delta antigen OS=Hepatitis delta virus genotype III (isolate VnzD8375) OX=261995 PE=3 SV=3
+sp|P11623|RDRP_PLRVW      4.8        12     1  12.2    401    579    432    565     42    185     Protein P1-P2 OS=Potato leafroll virus (strain Potato/Netherlands/Wageningen/1989) OX=12048 GN=ORF1/ORF2 PE=3 SV=2
+sp|P17519|P1_PLRV1        4.7        13     1  10.4    425    637    441    624     22    194     Protein P1 OS=Potato leafroll virus (strain Potato/Scotland/strain 1/1984) OX=12046 GN=ORF1 PE=1 SV=1
+sp|P50770|VE2_HPV24       4.7        13     1  26.5    173    374    216    341     75    195     Regulatory protein E2 OS=Human papillomavirus type 24 OX=37956 GN=E2 PE=3 SV=1
+sp|Q6SW73|ICP27_HCMVM     4.1        20     3   0.1    446    519    472    513    426    469     mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL69 PE=3 SV=1
+sp|P16749|ICP27_HCMVA     4.1        20     3   0.1    446    519    472    513    426    469     mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL69 PE=1 SV=1
+sp|Q82446|CAPSD_HASV2     3.8        23     2   2.9    635    784    658    707     35     85     Capsid polyprotein VP90 OS=Human astrovirus-2 OX=12701 GN=ORF2 PE=1 SV=1
+sp|P13199|ICP27_SHV21     3.8        23     1   6.7      2    144     14    127     42    166     mRNA export factor ICP27 homolog OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=EJRF1 PE=1 SV=2
+sp|Q2HR75|ICP27_HHV8P     3.5        29     2   0.0    389    443    403    433    428    458     mRNA export factor ICP27 homolog OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF57 PE=1 SV=1
+sp|P17520|RDRP_PLRV1      3.4        31     1  11.6    401    579    431    564     41    184     Protein P1-P2 OS=Potato leafroll virus (strain Potato/Scotland/strain 1/1984) OX=12046 GN=ORF1/ORF2 PE=3 SV=2
+sp|P11623|RDRP_PLRVW      1.3   1.3e+02     2   0.0    831    862    835    857    365    387     Protein P1-P2 OS=Potato leafroll virus (strain Potato/Netherlands/Wageningen/1989) OX=12048 GN=ORF1/ORF2 PE=3 SV=2
+sp|P17520|RDRP_PLRV1      1.2   1.5e+02     2   0.0    831    860    835    857    365    387     Protein P1-P2 OS=Potato leafroll virus (strain Potato/Scotland/strain 1/1984) OX=12046 GN=ORF1/ORF2 PE=3 SV=2
+sp|P16749|ICP27_HCMVA    -0.1   3.6e+02     4   0.7    531    658    548    619    109    180     mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL69 PE=1 SV=1
+sp|P16749|ICP27_HCMVA    -0.2   3.9e+02     1   1.3    123    269    153    228    108    180     mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL69 PE=1 SV=1
+sp|Q6SW73|ICP27_HCMVM    -0.2   3.9e+02     1   1.4    122    269    151    228    107    180     mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL69 PE=3 SV=1
+sp|Q6SW73|ICP27_HCMVM    -0.3   4.1e+02     4   1.5    530    664    549    620     96    166     mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL69 PE=3 SV=1
+sp|P29836|ICP0_BHV1K     -0.5   4.7e+02     2   1.3    513    658    583    627    111    152     E3 ubiquitin-protein ligase ICP0 OS=Bovine herpesvirus 1.2 (strain K22) OX=31519 GN=BICP0 PE=3 SV=1
+sp|Q66659|IE63_EHV2      -1.1   7.2e+02     2  10.8    188    325    217    308    113    200     Immediate-early phosphoprotein 57 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=57 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_045304@NC_001847.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_045304@NC_001847.txt data/models_hmm/NP_045304@NC_001847.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:24 2021
+# [ok]

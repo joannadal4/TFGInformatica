@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03127|VE6_CRPVK     12.5     0.087   3   3.4   0.1    Protein E6 OS=Cottontail rabbit papillomavirus (strain Kansas) OX=31553 GN=E6 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03127|VE6_CRPVK     12.5     0.087     1   0.1      7     50     20     43     91    114     Protein E6 OS=Cottontail rabbit papillomavirus (strain Kansas) OX=31553 GN=E6 PE=3 SV=1
+sp|P03127|VE6_CRPVK      0.2   5.4e+02     2   8.8     83    173     92    141     54    102     Protein E6 OS=Cottontail rabbit papillomavirus (strain Kansas) OX=31553 GN=E6 PE=3 SV=1
+sp|P03127|VE6_CRPVK      0.1   6.1e+02     3   0.1    251    271    259    268     77     86     Protein E6 OS=Cottontail rabbit papillomavirus (strain Kansas) OX=31553 GN=E6 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000558@SRS019125_WUGC_scaffold_10215@SRS019125_WUGC_scaffold_10215_gene_31298.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000558@SRS019125_WUGC_scaffold_10215@SRS019125_WUGC_scaffold_10215_gene_31298.txt data/models_hmm/7000000558@SRS019125_WUGC_scaffold_10215@SRS019125_WUGC_scaffold_10215_gene_31298.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:13 2021
+# [ok]

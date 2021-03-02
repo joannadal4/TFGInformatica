@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q196Y8|072L_IIV3     12.7     0.054   1   1.1   0.1    Uncharacterized protein 072L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-072L PE=4 SV=1
+sp|Q9WJB2|RPOA_PRRSR    11.9     0.095   2   2.2   0.0    Replicase polyprotein 1ab OS=Porcine reproductive and respiratory syndrome virus (strain VR-2332) OX=300559 GN=rep PE=1 SV=2
+sp|Q6SW87|RIR1_HCMVM    11.7      0.11   1   1.2   0.1    Ribonucleoside-diphosphate reductase large subunit-like protein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RIR1 PE=3 SV=1
+sp|P16782|RIR1_HCMVA    11.7      0.12   1   1.2   0.1    Ribonucleoside-diphosphate reductase large subunit-like protein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=RIR1 PE=3 SV=1
+sp|Q9YN02|RPOA_PRRS1    11.4      0.14   2   2.0   0.0    Replicase polyprotein 1ab OS=Porcine reproductive and respiratory syndrome virus (strain 16244B) OX=300561 GN=rep PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q196Y8|072L_IIV3     12.5     0.065     1   0.1     53    147     77    134    106    163     Uncharacterized protein 072L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-072L PE=4 SV=1
+sp|P16782|RIR1_HCMVA    11.0      0.19     1   0.1    408    473    420    463    173    217     Ribonucleoside-diphosphate reductase large subunit-like protein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=RIR1 PE=3 SV=1
+sp|Q6SW87|RIR1_HCMVM    11.0      0.19     1   0.1    408    473    420    463    173    217     Ribonucleoside-diphosphate reductase large subunit-like protein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=RIR1 PE=3 SV=1
+sp|Q9WJB2|RPOA_PRRSR     9.1      0.67     2   0.0   3362   3482   3380   3473     44    133     Replicase polyprotein 1ab OS=Porcine reproductive and respiratory syndrome virus (strain VR-2332) OX=300559 GN=rep PE=1 SV=2
+sp|Q9YN02|RPOA_PRRS1     9.1      0.68     2   0.0   3363   3483   3381   3474     44    133     Replicase polyprotein 1ab OS=Porcine reproductive and respiratory syndrome virus (strain 16244B) OX=300561 GN=rep PE=1 SV=3
+sp|Q9WJB2|RPOA_PRRSR    -0.8   7.3e+02     1   0.0   2442   2494   2445   2486     91    132     Replicase polyprotein 1ab OS=Porcine reproductive and respiratory syndrome virus (strain VR-2332) OX=300559 GN=rep PE=1 SV=2
+sp|Q9YN02|RPOA_PRRS1    -1.6   1.3e+03     1   0.0   2442   2493   2445   2486     91    132     Replicase polyprotein 1ab OS=Porcine reproductive and respiratory syndrome virus (strain 16244B) OX=300561 GN=rep PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2077657010@GSLSAS_contig00001@GSLSAS_00000560.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2077657010@GSLSAS_contig00001@GSLSAS_00000560.txt data/models_hmm/2077657010@GSLSAS_contig00001@GSLSAS_00000560.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:56 2021
+# [ok]

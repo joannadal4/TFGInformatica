@@ -1,0 +1,71 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P24758|A26_VACCW    183.1   7.4e-54   1   1.1   2.4    Protein A26 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR149 PE=1 SV=2
+sp|Q89489|A26_VAR67    177.9     3e-52   1   1.1   5.6    Protein A26 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A29L PE=3 SV=1
+sp|P11258|A27_VACCW    135.7   1.9e-39   1   1.0   0.8    Protein A27 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR150 PE=1 SV=3
+sp|P20535|A27_VACCC    135.7   1.9e-39   1   1.0   1.1    14 kDa fusion protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A27L PE=3 SV=1
+sp|P33816|A27_VAR67    135.3   2.5e-39   1   1.0   0.5    14 kDa fusion protein OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A27L PE=3 SV=1
+sp|P26312|VFUS_VACC6   103.8   8.7e-30   1   1.0   0.1    14 kDa fusion protein OS=Vaccinia virus (strain WR 65-16) OX=10247 GN=A27L PE=3 SV=1
+sp|P21114|A26_VACCC     96.6   1.3e-27   2   1.4   1.8    Putative A-type inclusion protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A26L PE=3 SV=1
+sp|P34011|ATI_VAR67     68.8   3.5e-19   4   3.2   5.7    A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|Q05482|ATI_CAMPC     68.6     4e-19   4   3.5   1.4    A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|Q775Q2|ATI_CAMPS     67.4   9.7e-19   4   3.5   1.3    A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM     67.4   9.7e-19   4   3.5   1.3    A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+sp|P16602|ATI_COWPX     67.1   1.2e-18   6   5.0   2.0    A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|P24759|ATI_VACCW     65.4   3.8e-18   3   3.2   6.7    A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+sp|P16717|VFUS_SHEVK    52.5   3.1e-14   1   1.2   3.2    Putative fusion protein OS=Sheeppox virus (strain KS-1) OX=10269 GN=HM2 PE=3 SV=1
+sp|P26654|VFUS_ORFN2    45.5   4.2e-12   1   1.0   0.0    10 kDa fusion protein OS=Orf virus (strain NZ2) OX=10259 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P24758|A26_VACCW    182.5   1.1e-53     1   2.4      8    481     17    472     14    449     Protein A26 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR149 PE=1 SV=2
+sp|Q89489|A26_VAR67    177.2   4.6e-52     1   5.6      8    477     17    470     14    449     Protein A26 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A29L PE=3 SV=1
+sp|P11258|A27_VACCW    135.4   2.2e-39     1   0.8      2    110      5    110    357    455     Protein A27 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR150 PE=1 SV=3
+sp|P20535|A27_VACCC    135.4   2.2e-39     1   1.1      2    110      5    110    357    455     14 kDa fusion protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A27L PE=3 SV=1
+sp|P33816|A27_VAR67    135.0   2.9e-39     1   0.5      2    110      5    110    357    455     14 kDa fusion protein OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A27L PE=3 SV=1
+sp|P26312|VFUS_VACC6   103.6     1e-29     1   0.1     55    136     70    136    389    455     14 kDa fusion protein OS=Vaccinia virus (strain WR 65-16) OX=10247 GN=A27L PE=3 SV=1
+sp|P21114|A26_VACCC     96.6   1.3e-27     1   1.8      8    204     17    192     14    177     Putative A-type inclusion protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A26L PE=3 SV=1
+sp|P34011|ATI_VAR67     68.8   3.5e-19     1   5.7      2    300     15    237     21    257     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|Q05482|ATI_CAMPC     68.6     4e-19     1   1.4      6    388     16    262     22    275     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|Q775Q2|ATI_CAMPS     67.4   9.7e-19     1   1.3      4    381     15    238     21    259     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM     67.4   9.7e-19     1   1.3      4    381     15    238     21    259     A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+sp|P16602|ATI_COWPX     67.1   1.2e-18     1   2.0      2    362     15    262     21    274     A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|P24759|ATI_VACCW     65.4   3.8e-18     1   6.7      2    455     15    271     21    284     A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+sp|P16717|VFUS_SHEVK    52.0   4.3e-14     1   3.2      4    147     19    144    330    451     Putative fusion protein OS=Sheeppox virus (strain KS-1) OX=10269 GN=HM2 PE=3 SV=1
+sp|P26654|VFUS_ORFN2    45.5   4.2e-12     1   0.0     13     89     33     85    398    450     10 kDa fusion protein OS=Orf virus (strain NZ2) OX=10259 PE=3 SV=1
+sp|Q775Q2|ATI_CAMPS     -0.4   3.6e+02     4   1.1    628    719    667    687    394    414     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM     -0.4   3.6e+02     4   1.1    628    719    667    687    394    414     A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+sp|P34011|ATI_VAR67     -0.6     4e+02     4   1.7    591    684    619    673    374    428     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|Q05482|ATI_CAMPC     -0.8   4.6e+02     3   3.2    592    684    605    676    362    431     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|Q05482|ATI_CAMPC     -0.8   4.6e+02     4   1.7    625    719    667    685    394    412     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|Q775Q2|ATI_CAMPS     -1.2   6.1e+02     3   3.7    592    687    605    676    362    431     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM     -1.2   6.1e+02     3   3.7    592    687    605    676    362    431     A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+sp|P16602|ATI_COWPX     -1.2   6.3e+02     4   3.0    593    687    606    678    362    432     A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|P34011|ATI_VAR67     -1.6   8.1e+02     2   0.7    423    529    491    516    368    432     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|P24759|ATI_VACCW     -2.0     1e+03     3   5.0    590    712    627    676    383    432     A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+sp|P16602|ATI_COWPX     -2.2   1.2e+03     2   0.2    440    532    477    517    406    446     A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|P24759|ATI_VACCW     -2.7   1.7e+03     2   1.9    467    598    505    521    422    438     A-type inclusion protein A25 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR148 PE=1 SV=2
+sp|P16602|ATI_COWPX     -2.9     2e+03     3   1.7    472    601    540    590    378    426     A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|P21114|A26_VACCC     -3.0   2.2e+03     2   0.1    232    269    237    254    255    273     Putative A-type inclusion protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A26L PE=3 SV=1
+sp|P34011|ATI_VAR67     -4.6   6.4e+03     3   4.4    475    599    540    589    379    426     A-type inclusion protein A25 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A28L PE=3 SV=1
+sp|P16602|ATI_COWPX     -4.7   6.9e+03     5   6.9    690    775    717    768    388    443     A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|Q05482|ATI_CAMPC     -4.7   7.3e+03     2   5.0    454    596    506    520    422    436     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CP-1) OX=203174 PE=3 SV=1
+sp|P16602|ATI_COWPX     -4.8   7.5e+03     6   3.4    902   1013    936    975    389    428     A-type inclusion protein A25 homolog OS=Cowpox virus OX=10243 GN=ATI PE=3 SV=1
+sp|Q775Q2|ATI_CAMPS     -5.1   9.6e+03     2   5.5    451    595    512    519    428    435     A-type inclusion protein A25 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP142L PE=3 SV=1
+sp|Q8V2M9|ATI_CAMPM     -5.1   9.6e+03     2   5.5    451    595    512    519    428    435     A-type inclusion protein A25 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV144 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_671648@NC_004105.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_671648@NC_004105.txt data/models_hmm/NP_671648@NC_004105.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:16 2021
+# [ok]

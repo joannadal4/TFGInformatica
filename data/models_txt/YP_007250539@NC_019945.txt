@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P08160|P35_NPVAC    368.6  3.6e-110   2   2.0  20.2    Early 35 kDa protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P35 PE=1 SV=1
+sp|P31354|VP35_NPVBM   351.8  4.5e-105   2   2.0  22.1    Early 35 kDa protein OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=P35 PE=3 SV=1
+sp|Q80HU9|ATI4_VACCW     8.5         1   2   2.1  16.2    27 kDa A-type inclusion protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR147 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P08160|P35_NPVAC    312.0   5.8e-93     1   8.8      1    230      1    218      1    225     Early 35 kDa protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P35 PE=1 SV=1
+sp|P31354|VP35_NPVBM   300.5   1.8e-89     1   9.5      1    229      1    218      1    225     Early 35 kDa protein OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=P35 PE=3 SV=1
+sp|P08160|P35_NPVAC     63.1   2.7e-17     2   3.8    218    298    229    297    285    363     Early 35 kDa protein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P35 PE=1 SV=1
+sp|P31354|VP35_NPVBM    57.6   1.2e-15     2   4.9    218    298    228    297    274    363     Early 35 kDa protein OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=P35 PE=3 SV=1
+sp|Q80HU9|ATI4_VACCW    10.4      0.26     2   3.6     92    198    104    179    236    311     27 kDa A-type inclusion protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR147 PE=4 SV=1
+sp|Q80HU9|ATI4_VACCW     4.4        18     1   5.0      4    105     19     99    236    321     27 kDa A-type inclusion protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR147 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007250539@NC_019945.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007250539@NC_019945.txt data/models_hmm/YP_007250539@NC_019945.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:38 2021
+# [ok]

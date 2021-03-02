@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C798|PHOSP_BDV1     11.1      0.12   1   1.0   0.1    Phosphoprotein OS=Borna disease virus 1 OX=1714621 GN=P/X PE=1 SV=1
+sp|P0C799|PHOSP_BDVV     11.1      0.12   1   1.0   0.1    Phosphoprotein OS=Borna disease virus (strain V) OX=928296 GN=P/X PE=1 SV=1
+sp|P0DOT5|VLTF3_VAR67    10.6      0.16   1   1.2   0.2    Viral late gene transcription factor 3 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=VLTF3 PE=2 SV=1
+sp|P0DOT6|VLTF3_VARV     10.6      0.16   1   1.2   0.2    Viral late gene transcription factor 3 OS=Variola virus OX=10255 GN=VLTF3 PE=2 SV=1
+sp|P68318|VLTF3_VACCC    10.6      0.16   1   1.2   0.2    Viral late gene transcription factor 3 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=VLTF3 PE=1 SV=1
+sp|P68319|VLTF3_VACCW    10.6      0.16   1   1.2   0.2    Viral late gene transcription factor 3 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VLTF3 PE=1 SV=1
+sp|Q76ZR2|VLTF3_VACCA    10.6      0.16   1   1.2   0.2    Viral late gene transcription factor 3 OS=Vaccinia virus (strain Ankara) OX=126794 GN=VLTF3 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C798|PHOSP_BDV1     10.8      0.14     1   0.1     82    174     83    159      2     75     Phosphoprotein OS=Borna disease virus 1 OX=1714621 GN=P/X PE=1 SV=1
+sp|P0C799|PHOSP_BDVV     10.8      0.14     1   0.1     82    174     83    159      2     75     Phosphoprotein OS=Borna disease virus (strain V) OX=928296 GN=P/X PE=1 SV=1
+sp|P0DOT5|VLTF3_VAR67    10.1      0.24     1   0.2     64    144     68    134    228    295     Viral late gene transcription factor 3 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=VLTF3 PE=2 SV=1
+sp|P0DOT6|VLTF3_VARV     10.1      0.24     1   0.2     64    144     68    134    228    295     Viral late gene transcription factor 3 OS=Variola virus OX=10255 GN=VLTF3 PE=2 SV=1
+sp|P68318|VLTF3_VACCC    10.1      0.24     1   0.2     64    144     68    134    228    295     Viral late gene transcription factor 3 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=VLTF3 PE=1 SV=1
+sp|P68319|VLTF3_VACCW    10.1      0.24     1   0.2     64    144     68    134    228    295     Viral late gene transcription factor 3 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VLTF3 PE=1 SV=1
+sp|Q76ZR2|VLTF3_VACCA    10.1      0.24     1   0.2     64    144     68    134    228    295     Viral late gene transcription factor 3 OS=Vaccinia virus (strain Ankara) OX=126794 GN=VLTF3 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000092@WSSedL2T_c000003@WSSedL2T_00000378.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000092@WSSedL2T_c000003@WSSedL2T_00000378.txt data/models_hmm/3300000092@WSSedL2T_c000003@WSSedL2T_00000378.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:22 2021
+# [ok]

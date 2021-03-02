@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39424|Y01E_BPT4     97.9   3.3e-28   1   1.0   0.6    Uncharacterized 7.0 kDa protein in modB-mrh intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y01E PE=4 SV=1
+sp|Q9Q8L9|ETF1_MYXVL    12.0       0.2   3   2.8   0.8    Early transcription factor 70 kDa subunit OS=Myxoma virus (strain Lausanne) OX=31530 GN=VETFS PE=3 SV=1
+sp|P32096|ETF1_RFVKA    11.8      0.24   3   2.7   0.9    Early transcription factor 70 kDa subunit OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=VETFS PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39424|Y01E_BPT4     97.7   3.6e-28     1   0.6      1     60      1     60      1     62     Uncharacterized 7.0 kDa protein in modB-mrh intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y01E PE=4 SV=1
+sp|P32096|ETF1_RFVKA     7.8       4.1     1   0.0    184    231    199    226     27     54     Early transcription factor 70 kDa subunit OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=VETFS PE=3 SV=2
+sp|Q9Q8L9|ETF1_MYXVL     7.7       4.5     1   0.0    189    231    200    226     28     54     Early transcription factor 70 kDa subunit OS=Myxoma virus (strain Lausanne) OX=31530 GN=VETFS PE=3 SV=1
+sp|P32096|ETF1_RFVKA     1.2   4.9e+02     2   0.1    266    304    268    297      5     34     Early transcription factor 70 kDa subunit OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=VETFS PE=3 SV=2
+sp|Q9Q8L9|ETF1_MYXVL     1.2   4.9e+02     2   0.1    266    304    268    297      5     34     Early transcription factor 70 kDa subunit OS=Myxoma virus (strain Lausanne) OX=31530 GN=VETFS PE=3 SV=1
+sp|Q9Q8L9|ETF1_MYXVL    -2.6   7.6e+03     3   0.0    486    533    513    532     36     55     Early transcription factor 70 kDa subunit OS=Myxoma virus (strain Lausanne) OX=31530 GN=VETFS PE=3 SV=1
+sp|P32096|ETF1_RFVKA    -3.3   1.2e+04     3   0.0    487    533    516    532     39     55     Early transcription factor 70 kDa subunit OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=VETFS PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004063705@NC_014792.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004063705@NC_014792.txt data/models_hmm/YP_004063705@NC_014792.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:06 2021
+# [ok]

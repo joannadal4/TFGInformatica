@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C9W1|ENV22_ASFM2    18.2    0.0016   1   1.3   0.8    Envelope protein p22 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-002 PE=2 SV=1
+sp|P23169|ENV22_ASFB7    16.3    0.0065   1   1.3   2.6    Envelope protein p22 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-005 PE=2 SV=1
+sp|P0C9W3|ENV22_ASFWA    15.8     0.009   1   1.4   2.7    Envelope protein p22 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-003 PE=2 SV=1
+sp|P0C9W2|ENV22_ASFP4    15.5     0.011   1   1.3   2.4    Envelope protein p22 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-004 PE=2 SV=1
+sp|P0C9W0|ENV22_ASFK5    13.8     0.038   1   1.2   0.5    Envelope protein p22 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-004 PE=2 SV=1
+sp|Q89829|VF93L_ASFB7    12.7      0.08   1   1.1   0.9    Uncharacterized membrane protein KP93L/DP93R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-002 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C9W1|ENV22_ASFM2    17.7    0.0023     1   0.8      1    104      1     76      1     73     Envelope protein p22 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-002 PE=2 SV=1
+sp|P23169|ENV22_ASFB7    15.8    0.0089     1   2.2      6     99      6     80      1     73     Envelope protein p22 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-005 PE=2 SV=1
+sp|P0C9W3|ENV22_ASFWA    15.5     0.011     1   2.7      6    171      6     82      1     79     Envelope protein p22 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-003 PE=2 SV=1
+sp|P0C9W2|ENV22_ASFP4    15.1     0.015     1   2.2      6    105      6     80      1     73     Envelope protein p22 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-004 PE=2 SV=1
+sp|P0C9W0|ENV22_ASFK5    13.3     0.052     1   0.5      6    107      6     80      1     73     Envelope protein p22 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-004 PE=2 SV=1
+sp|Q89829|VF93L_ASFB7    12.4       0.1     1   0.9     16     62     19     50      4     35     Uncharacterized membrane protein KP93L/DP93R OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-002 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_051839@NC_001132.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_051839@NC_001132.txt data/models_hmm/NP_051839@NC_001132.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:35 2021
+# [ok]

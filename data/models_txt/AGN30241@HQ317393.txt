@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q89843|VPU_HV1B9     14.8      0.02   1   1.1   2.3    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (strain 89.6) OX=401671 GN=vpu PE=3 SV=1
+sp|P18806|VPU_HV1ND     13.5      0.05   1   1.1   4.5    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=vpu PE=3 SV=1
+sp|P12515|VPU_HV1Z2     13.5     0.051   1   1.1   2.8    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate Z2/CDC-Z34) OX=11683 GN=vpu PE=3 SV=1
+sp|P35936|FUS_NDVD      11.1      0.27   2   2.4   3.3    Fusion glycoprotein F0 OS=Newcastle disease virus (strain D26/76) OX=11180 GN=F PE=1 SV=1
+sp|P20205|B78_SSV1       8.8       1.5   2   2.1  12.0    Uncharacterized protein B-78 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=b78 PE=4 SV=1
+sp|P33613|FUS_NDVH4      8.2       2.2   2   2.6   5.3    Fusion glycoprotein F0 OS=Newcastle disease virus (strain B1-Hitchner/47) OX=11181 GN=F PE=3 SV=1
+sp|Q9DLD4|FUS_NDVB1      8.2       2.2   2   2.6   5.3    Fusion glycoprotein F0 OS=Newcastle disease virus (strain Chicken/United States/B1/48) OX=652953 GN=F PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q89843|VPU_HV1B9     14.5     0.024     1   2.3      1     41      5     36     46     75     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype B (strain 89.6) OX=401671 GN=vpu PE=3 SV=1
+sp|P18806|VPU_HV1ND     13.1     0.064     1   4.5      2     41      5     38     46     79     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate NDK) OX=11695 GN=vpu PE=3 SV=1
+sp|P12515|VPU_HV1Z2     13.1     0.067     1   2.8      3     41      6     37     47     77     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype D (isolate Z2/CDC-Z34) OX=11683 GN=vpu PE=3 SV=1
+sp|P20205|B78_SSV1      12.6     0.097     2   4.1     31     75     36     66      7     38     Uncharacterized protein B-78 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=b78 PE=4 SV=1
+sp|P35936|FUS_NDVD       9.2       1.1     2   0.2    485    529    487    525      3     41     Fusion glycoprotein F0 OS=Newcastle disease virus (strain D26/76) OX=11180 GN=F PE=1 SV=1
+sp|P33613|FUS_NDVH4      7.0       5.3     2   0.4    486    529    488    525      4     41     Fusion glycoprotein F0 OS=Newcastle disease virus (strain B1-Hitchner/47) OX=11181 GN=F PE=3 SV=1
+sp|Q9DLD4|FUS_NDVB1      7.0       5.3     2   0.4    486    529    488    525      4     41     Fusion glycoprotein F0 OS=Newcastle disease virus (strain Chicken/United States/B1/48) OX=652953 GN=F PE=3 SV=1
+sp|P33613|FUS_NDVH4      2.7   1.1e+02     1   0.5    115    157    117    153     42     78     Fusion glycoprotein F0 OS=Newcastle disease virus (strain B1-Hitchner/47) OX=11181 GN=F PE=3 SV=1
+sp|Q9DLD4|FUS_NDVB1      2.7   1.1e+02     1   0.5    115    157    117    153     42     78     Fusion glycoprotein F0 OS=Newcastle disease virus (strain Chicken/United States/B1/48) OX=652953 GN=F PE=3 SV=1
+sp|P35936|FUS_NDVD       2.2   1.7e+02     1   0.3    115    157    117    151     42     76     Fusion glycoprotein F0 OS=Newcastle disease virus (strain D26/76) OX=11180 GN=F PE=1 SV=1
+sp|P20205|B78_SSV1       1.6   2.5e+02     1   0.9      5     38     16     27     14     27     Uncharacterized protein B-78 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=b78 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGN30241@HQ317393.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGN30241@HQ317393.txt data/models_hmm/AGN30241@HQ317393.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:54 2021
+# [ok]

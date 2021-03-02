@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A9CB83|LH1_ADES1      17.3    0.0037   1   1.1   0.0    Protein LH1 OS=Snake adenovirus serotype 1 OX=189830 PE=4 SV=1
+sp|Q5UR60|YR802_MIMIV    12.8     0.089   1   1.5   0.2    Uncharacterized protein R802 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R802 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A9CB83|LH1_ADES1      17.1    0.0042     1   0.0     14    118     19    106     26    112     Protein LH1 OS=Snake adenovirus serotype 1 OX=189830 PE=4 SV=1
+sp|Q5UR60|YR802_MIMIV    11.9      0.17     1   0.2    152    217    173    202     78    107     Uncharacterized protein R802 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R802 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_659511@NC_004037.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_659511@NC_004037.txt data/models_hmm/NP_659511@NC_004037.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:13 2021
+# [ok]

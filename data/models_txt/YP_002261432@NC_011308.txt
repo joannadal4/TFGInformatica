@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q08513|NTP1_SWPVK    12.0     0.059   1   1.2   0.3    Nucleoside triphosphatase I (Fragment) OS=Swinepox virus (strain Kasza) OX=10277 GN=NPH1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q08513|NTP1_SWPVK    11.7     0.071     1   0.3     14     84     43     81    322    360     Nucleoside triphosphatase I (Fragment) OS=Swinepox virus (strain Kasza) OX=10277 GN=NPH1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002261432@NC_011308.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002261432@NC_011308.txt data/models_hmm/YP_002261432@NC_011308.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:00 2021
+# [ok]

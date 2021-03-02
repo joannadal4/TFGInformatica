@@ -1,0 +1,85 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQN7|CAPS3_MIMIV  3504.6         0   1   1.0 289.8    Probable capsid protein 3 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R440 PE=3 SV=1
+sp|Q7T6X4|CAPS2_MIMIV   185.5   7.6e-55   3   3.3  53.5    Probable capsid protein 2 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R439 PE=3 SV=2
+sp|Q5UQL7|CAPS1_MIMIV   176.6   3.8e-52   3   3.0   1.6    Capsid protein 1 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L425 PE=1 SV=2
+sp|A7U6F0|MCP_PPV01     165.5   8.2e-49   3   3.8   0.0    Major capsid protein OS=Phaeocystis pouchetii virus OX=455365 GN=MCP PE=3 SV=1
+sp|Q7T6Y5|CAPS4_MIMIV   155.7   7.4e-46   4   4.0  14.1    Probable capsid protein 4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R441 PE=3 SV=2
+sp|A7U6E7|MCP_CEV01     152.9   5.4e-45   3   3.8   0.0    Major capsid protein OS=Chrysochromulina ericina virus OX=455364 GN=MCP PE=3 SV=1
+sp|A7U6E9|MCP_POV01     139.1   7.5e-41   3   3.6   0.3    Major capsid protein OS=Pyramimonas orientalis virus OX=455367 GN=MCP PE=3 SV=1
+sp|P30328|MCP_PBCV1     113.3   4.6e-33   3   3.1   0.1    Major capsid protein OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=A430L PE=1 SV=3
+sp|Q4U3U9|CAPSD_TNAVC    70.1     5e-20   2   2.0   0.3    Major capsid protein OS=Trichoplusia ni ascovirus 2c OX=328615 GN=MCP-1 PE=1 SV=2
+sp|Q197E6|MCP_IIV3       44.4   2.7e-12   2   2.1   0.0    Major capsid protein OS=Invertebrate iridescent virus 3 OX=345201 GN=MCP PE=3 SV=1
+sp|P22176|MCP_LCDV1      44.1   3.4e-12   1   1.3   0.0    Major capsid protein OS=Lymphocystis disease virus 1 (isolate Darai) OX=654922 GN=MCP PE=3 SV=2
+sp|Q91QZ8|MCP_RTRV       37.5   3.3e-10   2   2.0   0.0    Major capsid protein OS=Rana tigrina ranavirus OX=160691 GN=MCP PE=3 SV=1
+sp|Q67473|MCP_FRG3G      37.3   3.8e-10   2   1.9   0.0    Major capsid protein OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-090R PE=3 SV=1
+sp|O39163|MCP_IRV9       37.2     4e-10   2   2.1   0.0    Major capsid protein OS=Wiseana iridescent virus OX=68347 GN=MCP PE=3 SV=1
+sp|P22166|MCP_IRV22      33.8   4.4e-09   2   2.1   0.0    Major capsid protein OS=Simulium iridescent virus OX=10489 GN=MCP PE=1 SV=1
+sp|Q8JJY5|CAPSD_SFAVA    33.3   6.1e-09   1   1.1   0.0    Major capsid protein OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=MCP PE=3 SV=1
+sp|P18162|MCP_IRV1       33.0   7.3e-09   2   2.1   0.0    Major capsid protein OS=Tipula iridescent virus OX=10490 GN=MCP PE=1 SV=1
+sp|A4KXB1|CAPSD_HVAVE    31.4   2.3e-08   1   1.1   0.0    Major capsid protein OS=Heliothis virescens ascovirus 3e OX=260797 GN=MCP PE=3 SV=1
+sp|O39164|MCP_IRV16      30.1   5.5e-08   2   2.2   0.0    Major capsid protein OS=Costelytra zealandica iridescent virus OX=68348 GN=MCP PE=3 SV=1
+sp|Q05815|MCP_IIV6       19.8     7e-05   2   1.4   0.0    Major capsid protein OS=Invertebrate iridescent virus 6 OX=176652 GN=MCP PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQN7|CAPS3_MIMIV  3504.4         0     1 289.8      1   2153      1   2153      1   2171     Probable capsid protein 3 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R440 PE=3 SV=1
+sp|Q7T6X4|CAPS2_MIMIV    94.1   2.8e-27     2  40.0     87    449     96    428   1274   1606     Probable capsid protein 2 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R439 PE=3 SV=2
+sp|Q5UQL7|CAPS1_MIMIV    77.6   2.7e-22     2   0.0     89    301     93    280   1431   1618     Capsid protein 1 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L425 PE=1 SV=2
+sp|Q5UQL7|CAPS1_MIMIV    77.0   4.2e-22     1   0.0      1     92      1     87      1     87     Capsid protein 1 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L425 PE=1 SV=2
+sp|A7U6F0|MCP_PPV01      65.8   9.7e-19     1   0.0      1     88      1     80      1     82     Major capsid protein OS=Phaeocystis pouchetii virus OX=455365 GN=MCP PE=3 SV=1
+sp|A7U6E9|MCP_POV01      64.9   1.7e-18     1   0.0      1     85      1     77      1     79     Major capsid protein OS=Pyramimonas orientalis virus OX=455367 GN=MCP PE=3 SV=1
+sp|Q7T6Y5|CAPS4_MIMIV    64.3   2.8e-18     1   0.1      1     95      1     90      1     92     Probable capsid protein 4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R441 PE=3 SV=2
+sp|A7U6E7|MCP_CEV01      62.1   1.3e-17     1   0.0      1     88      1     84      1     86     Major capsid protein OS=Chrysochromulina ericina virus OX=455364 GN=MCP PE=3 SV=1
+sp|Q4U3U9|CAPSD_TNAVC    56.9   4.6e-16     2   0.1    120    286    124    272   1431   1578     Major capsid protein OS=Trichoplusia ni ascovirus 2c OX=328615 GN=MCP-1 PE=1 SV=2
+sp|P30328|MCP_PBCV1      53.2   6.2e-15     1   0.0      1     79      1     74      1     76     Major capsid protein OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=A430L PE=1 SV=3
+sp|Q7T6X4|CAPS2_MIMIV    52.3   1.1e-14     1  14.2      1    193      1    183      1    172     Probable capsid protein 2 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R439 PE=3 SV=2
+sp|A7U6F0|MCP_PPV01      50.3   4.5e-14     2   0.0     85    292     98    280   1439   1602     Major capsid protein OS=Phaeocystis pouchetii virus OX=455365 GN=MCP PE=3 SV=1
+sp|A7U6E9|MCP_POV01      48.8   1.3e-13     2   0.0     79    254     90    242   1438   1606     Major capsid protein OS=Pyramimonas orientalis virus OX=455367 GN=MCP PE=3 SV=1
+sp|Q7T6Y5|CAPS4_MIMIV    48.3   1.8e-13     2   0.0     89    213     93    198   1429   1537     Probable capsid protein 4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R441 PE=3 SV=2
+sp|A7U6E7|MCP_CEV01      46.0   9.2e-13     3   0.0    472    582    476    581   2065   2170     Major capsid protein OS=Chrysochromulina ericina virus OX=455364 GN=MCP PE=3 SV=1
+sp|A7U6F0|MCP_PPV01      44.0   3.7e-12     3   0.0    408    518    412    517   2065   2170     Major capsid protein OS=Phaeocystis pouchetii virus OX=455365 GN=MCP PE=3 SV=1
+sp|P22176|MCP_LCDV1      43.3   5.7e-12     1   0.0     78    286     97    272   1425   1597     Major capsid protein OS=Lymphocystis disease virus 1 (isolate Darai) OX=654922 GN=MCP PE=3 SV=2
+sp|A7U6E7|MCP_CEV01      38.8   1.4e-10     2   0.0    115    323    125    311   1441   1602     Major capsid protein OS=Chrysochromulina ericina virus OX=455364 GN=MCP PE=3 SV=1
+sp|Q7T6X4|CAPS2_MIMIV    37.4   3.5e-10     3   1.5    464    588    477    585   2065   2168     Probable capsid protein 2 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R439 PE=3 SV=2
+sp|Q67473|MCP_FRG3G      34.7   2.2e-09     1   0.0     56    298    101    282   1429   1602     Major capsid protein OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-090R PE=3 SV=1
+sp|Q91QZ8|MCP_RTRV       34.6   2.5e-09     1   0.0     56    300    101    284   1429   1604     Major capsid protein OS=Rana tigrina ranavirus OX=160691 GN=MCP PE=3 SV=1
+sp|Q197E6|MCP_IIV3       34.1   3.4e-09     2   0.0    100    301    105    268   1431   1584     Major capsid protein OS=Invertebrate iridescent virus 3 OX=345201 GN=MCP PE=3 SV=1
+sp|Q8JJY5|CAPSD_SFAVA    32.8   8.7e-09     1   0.0    101    221    108    216   1430   1541     Major capsid protein OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=MCP PE=3 SV=1
+sp|Q7T6Y5|CAPS4_MIMIV    32.6     1e-08     4   1.2    392    508    404    498   2065   2161     Probable capsid protein 4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R441 PE=3 SV=2
+sp|P30328|MCP_PBCV1      31.5     2e-08     2   0.0     87    247     91    239   1440   1604     Major capsid protein OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=A430L PE=1 SV=3
+sp|A4KXB1|CAPSD_HVAVE    30.9   3.2e-08     1   0.0     97    258    108    221   1432   1547     Major capsid protein OS=Heliothis virescens ascovirus 3e OX=260797 GN=MCP PE=3 SV=1
+sp|O39163|MCP_IRV9       27.3   3.9e-07     2   0.0     95    282    100    263   1431   1584     Major capsid protein OS=Wiseana iridescent virus OX=68347 GN=MCP PE=3 SV=1
+sp|P22166|MCP_IRV22      25.6   1.3e-06     2   0.0     90    278    100    263   1431   1584     Major capsid protein OS=Simulium iridescent virus OX=10489 GN=MCP PE=1 SV=1
+sp|P30328|MCP_PBCV1      24.9   2.1e-06     3   0.0    292    415    299    400   2053   2154     Major capsid protein OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=A430L PE=1 SV=3
+sp|P18162|MCP_IRV1       24.9   2.1e-06     2   0.0     93    282    100    263   1431   1584     Major capsid protein OS=Tipula iridescent virus OX=10490 GN=MCP PE=1 SV=1
+sp|A7U6E9|MCP_POV01      21.0   3.1e-05     3   0.0    319    394    330    393   2102   2170     Major capsid protein OS=Pyramimonas orientalis virus OX=455367 GN=MCP PE=3 SV=1
+sp|O39164|MCP_IRV16      20.3     5e-05     2   0.0     97    314    101    266   1432   1587     Major capsid protein OS=Costelytra zealandica iridescent virus OX=68348 GN=MCP PE=3 SV=1
+sp|Q5UQL7|CAPS1_MIMIV    20.1     6e-05     3   0.1    443    591    458    590   2045   2170     Capsid protein 1 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L425 PE=1 SV=2
+sp|Q05815|MCP_IIV6       18.7   0.00015     2   0.0     89    300    100    280   1429   1597     Major capsid protein OS=Invertebrate iridescent virus 6 OX=176652 GN=MCP PE=1 SV=2
+sp|Q7T6Y5|CAPS4_MIMIV    18.3    0.0002     3   0.7    286    373    306    353   1561   1607     Probable capsid protein 4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R441 PE=3 SV=2
+sp|Q4U3U9|CAPSD_TNAVC    11.3     0.026     1   0.0     27    111     38    104     16     82     Major capsid protein OS=Trichoplusia ni ascovirus 2c OX=328615 GN=MCP-1 PE=1 SV=2
+sp|Q197E6|MCP_IIV3        8.3      0.21     1   0.0     29     99     35     93     25     82     Major capsid protein OS=Invertebrate iridescent virus 3 OX=345201 GN=MCP PE=3 SV=1
+sp|O39163|MCP_IRV9        7.7      0.31     1   0.0     16     98     31     89     25     82     Major capsid protein OS=Wiseana iridescent virus OX=68347 GN=MCP PE=3 SV=1
+sp|O39164|MCP_IRV16       7.6      0.33     1   0.0     12     93     31     89     25     82     Major capsid protein OS=Costelytra zealandica iridescent virus OX=68348 GN=MCP PE=3 SV=1
+sp|P18162|MCP_IRV1        6.3      0.86     1   0.0     12    100     31     89     25     82     Major capsid protein OS=Tipula iridescent virus OX=10490 GN=MCP PE=1 SV=1
+sp|P22166|MCP_IRV22       5.9       1.1     1   0.0     22     98     32     89     26     82     Major capsid protein OS=Simulium iridescent virus OX=10489 GN=MCP PE=1 SV=1
+sp|Q91QZ8|MCP_RTRV        0.6        45     2   0.0    327    422    337    408   2060   2131     Major capsid protein OS=Rana tigrina ranavirus OX=160691 GN=MCP PE=3 SV=1
+sp|Q67473|MCP_FRG3G       0.1        62     2   0.0    327    422    337    408   2060   2131     Major capsid protein OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-090R PE=3 SV=1
+sp|Q05815|MCP_IIV6       -2.7   4.4e+02     1   0.0     15     96     31     89     25     82     Major capsid protein OS=Invertebrate iridescent virus 6 OX=176652 GN=MCP PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003986947@NC_014649.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003986947@NC_014649.txt data/models_hmm/YP_003986947@NC_014649.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:56 2021
+# [ok]

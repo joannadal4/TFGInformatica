@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P36307|VP4_ROTBA     11.7      0.26   2   2.6   4.0    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cow/Thailand/A44/1988/G10P8[11]) OX=1835658 PE=3 SV=1
+sp|P35746|VP4_ROTBB     11.2      0.37   2   2.7   3.3    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cow/United States/B223/1983/G10P8[11]) OX=1835656 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P36307|VP4_ROTBA      9.8         1     2   0.5    654    742    661    721      8     68     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cow/Thailand/A44/1988/G10P8[11]) OX=1835658 PE=3 SV=1
+sp|P35746|VP4_ROTBB      8.7       2.3     2   0.3    654    742    661    721      8     68     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cow/United States/B223/1983/G10P8[11]) OX=1835656 PE=1 SV=2
+sp|P36307|VP4_ROTBA      2.1   2.5e+02     1   0.2    336    376    342    365     32     55     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cow/Thailand/A44/1988/G10P8[11]) OX=1835658 PE=3 SV=1
+sp|P35746|VP4_ROTBB      2.0   2.6e+02     1   0.2    336    375    342    365     32     55     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cow/United States/B223/1983/G10P8[11]) OX=1835656 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000144@SRS045715_LANL_scaffold_5573@SRS045715_LANL_scaffold_5573_gene_6547.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000144@SRS045715_LANL_scaffold_5573@SRS045715_LANL_scaffold_5573_gene_6547.txt data/models_hmm/7000000144@SRS045715_LANL_scaffold_5573@SRS045715_LANL_scaffold_5573_gene_6547.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:51 2021
+# [ok]

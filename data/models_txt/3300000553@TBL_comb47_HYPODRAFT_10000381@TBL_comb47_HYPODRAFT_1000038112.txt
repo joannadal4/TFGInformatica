@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ02|YR793_MIMIV    13.7      0.06   2   2.0   0.6    Uncharacterized protein R793 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R793 PE=4 SV=1
+sp|Q914M6|Y004_SIFVH     12.1      0.19   1   1.1   3.2    Uncharacterized protein 4 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0004 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ02|YR793_MIMIV    13.7      0.06     1   0.6     12     77     28     63     27     63     Uncharacterized protein R793 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R793 PE=4 SV=1
+sp|Q914M6|Y004_SIFVH     12.0      0.21     1   3.2      1     70     10     60      9     59     Uncharacterized protein 4 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0004 PE=4 SV=1
+sp|Q5UQ02|YR793_MIMIV    -1.3   2.9e+03     2   0.1    106    189    146    146     71     71     Uncharacterized protein R793 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R793 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10000381@TBL_comb47_HYPODRAFT_1000038112.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000553@TBL_comb47_HYPODRAFT_10000381@TBL_comb47_HYPODRAFT_1000038112.txt data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10000381@TBL_comb47_HYPODRAFT_1000038112.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:58 2021
+# [ok]

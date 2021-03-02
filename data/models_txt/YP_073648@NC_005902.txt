@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6GZQ2|073L_FRG3G   531.6  6.2e-160   1   1.0  20.0    Uncharacterized protein 073L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-073L PE=4 SV=1
+sp|P08393|ICP0_HHV11    10.7       0.2   1   1.1   4.1    E3 ubiquitin-protein ligase ICP0 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=ICP0 PE=1 SV=1
+sp|P28284|ICP0_HHV2H     7.9       1.4   1   1.1   2.3    E3 ubiquitin-protein ligase ICP0 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=RL2 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6GZQ2|073L_FRG3G   531.5  6.9e-160     1  20.0      1    324      1    324      1    325     Uncharacterized protein 073L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-073L PE=4 SV=1
+sp|P08393|ICP0_HHV11    10.2      0.29     1   4.1    115    180    116    163      3     49     E3 ubiquitin-protein ligase ICP0 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=ICP0 PE=1 SV=1
+sp|P28284|ICP0_HHV2H     7.5       1.9     1   2.3    125    196    126    173      3     49     E3 ubiquitin-protein ligase ICP0 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=RL2 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_073648@NC_005902.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_073648@NC_005902.txt data/models_hmm/YP_073648@NC_005902.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:00 2021
+# [ok]

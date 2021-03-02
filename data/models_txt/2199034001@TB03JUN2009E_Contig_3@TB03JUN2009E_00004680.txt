@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P07532|CAPSF_BPPZA    21.6   0.00016   2   2.6   4.5    Capsid fiber protein OS=Bacillus phage PZA OX=10757 GN=8.5 PE=3 SV=1
+sp|B3VMP4|CAPSF_BPPH2    18.9    0.0011   2   2.8   4.7    Capsid fiber protein OS=Bacillus phage phi29 OX=10756 GN=8.5 PE=1 SV=1
+sp|P11186|VG85_BPNF      11.0      0.28   2   1.7   3.6    Head fiber protein OS=Bacillus phage Nf OX=10753 GN=8.5 PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P07532|CAPSF_BPPZA    18.6    0.0013     1   0.2     42    119     64    114     87    144     Capsid fiber protein OS=Bacillus phage PZA OX=10757 GN=8.5 PE=3 SV=1
+sp|B3VMP4|CAPSF_BPPH2    17.6    0.0028     1   0.2     39    119     64    114     87    144     Capsid fiber protein OS=Bacillus phage phi29 OX=10756 GN=8.5 PE=1 SV=1
+sp|P11186|VG85_BPNF      12.6     0.098     1   0.6     46    117     62    113     86    144     Head fiber protein OS=Bacillus phage Nf OX=10753 GN=8.5 PE=4 SV=2
+sp|P07532|CAPSF_BPPZA     3.9        44     2   0.7    185    268    227    261    106    139     Capsid fiber protein OS=Bacillus phage PZA OX=10757 GN=8.5 PE=3 SV=1
+sp|B3VMP4|CAPSF_BPPH2     2.3   1.4e+02     2   0.4    176    278    230    261    109    139     Capsid fiber protein OS=Bacillus phage phi29 OX=10756 GN=8.5 PE=1 SV=1
+sp|P11186|VG85_BPNF      -2.5   4.3e+03     2   0.1    194    241    215    231     78     94     Head fiber protein OS=Bacillus phage Nf OX=10753 GN=8.5 PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2199034001@TB03JUN2009E_Contig_3@TB03JUN2009E_00004680.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2199034001@TB03JUN2009E_Contig_3@TB03JUN2009E_00004680.txt data/models_hmm/2199034001@TB03JUN2009E_Contig_3@TB03JUN2009E_00004680.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:09 2021
+# [ok]

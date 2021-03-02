@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|E7DNB6|TMP_BPDP1    133.8   5.4e-39   2   2.1  27.8    Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|O64314|TMP_BPP2      84.0   6.3e-24   2   2.6  36.8    Probable tape measure protein OS=Escherichia phage P2 OX=10679 GN=T PE=3 SV=1
+sp|Q24LI1|TMP_BPPCD     35.2   3.4e-09   2   1.6  12.4    Probable tape measure protein OS=Clostridium phage phiCD119 (strain Clostridium difficile/United States/Govind/2006) OX=1283341 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|E7DNB6|TMP_BPDP1    133.8   5.4e-39     1  27.8     14    469     40    422     28    402     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|O64314|TMP_BPP2      84.0   6.3e-24     2  36.8    187    637    208    601     56    441     Probable tape measure protein OS=Escherichia phage P2 OX=10679 GN=T PE=3 SV=1
+sp|Q24LI1|TMP_BPPCD     35.2   3.4e-09     1  12.4     16    269     56    253     32    230     Probable tape measure protein OS=Clostridium phage phiCD119 (strain Clostridium difficile/United States/Govind/2006) OX=1283341 PE=3 SV=1
+sp|E7DNB6|TMP_BPDP1     -1.6   4.5e+02     2   0.7    863    963    876    927    878    928     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|O64314|TMP_BPP2      -2.2   6.7e+02     1   3.1     88    201     99    180     14     94     Probable tape measure protein OS=Escherichia phage P2 OX=10679 GN=T PE=3 SV=1
+sp|Q24LI1|TMP_BPPCD     -3.4   1.5e+03     2   0.1    374    500    408    454    531    576     Probable tape measure protein OS=Clostridium phage phiCD119 (strain Clostridium difficile/United States/Govind/2006) OX=1283341 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004421848@NC_015466.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004421848@NC_015466.txt data/models_hmm/YP_004421848@NC_015466.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:27 2021
+# [ok]

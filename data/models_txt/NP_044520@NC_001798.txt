@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O09800|GN_HHV11     185.4   1.5e-55   1   1.0   6.7    Envelope glycoprotein N OS=Human herpesvirus 1 (strain 17) OX=10299 GN=gN PE=1 SV=1
+sp|Q86539|GN_HHV2H     159.3   2.1e-47   1   1.0   5.5    Envelope glycoprotein N OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=gN PE=3 SV=1
+sp|Q77CE4|GN_BHV1C      21.7   0.00017   1   1.1   0.5    Envelope glycoprotein N OS=Bovine herpesvirus 1.1 (strain Cooper) OX=10323 GN=gN PE=1 SV=1
+sp|P06854|TYSY_SHV21    11.8      0.21   1   1.5   0.2    Thymidylate synthase OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=70 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O09800|GN_HHV11     185.3   1.6e-55     1   6.7      1     91      1     91      1     91     Envelope glycoprotein N OS=Human herpesvirus 1 (strain 17) OX=10299 GN=gN PE=1 SV=1
+sp|Q86539|GN_HHV2H     159.1   2.3e-47     1   5.5      1     87      1     87      1     91     Envelope glycoprotein N OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=gN PE=3 SV=1
+sp|Q77CE4|GN_BHV1C      21.3   0.00023     1   0.5      3     87      6     84     13     88     Envelope glycoprotein N OS=Bovine herpesvirus 1.1 (strain Cooper) OX=10323 GN=gN PE=1 SV=1
+sp|P06854|TYSY_SHV21    10.9       0.4     1   0.2    159    229    199    224     56     81     Thymidylate synthase OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=70 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_044520@NC_001798.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_044520@NC_001798.txt data/models_hmm/NP_044520@NC_001798.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:21 2021
+# [ok]

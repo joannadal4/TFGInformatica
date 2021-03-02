@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P25222|VP5_IBDVP     12.9     0.078   1   1.4   0.0    Protein VP5 (Fragment) OS=Avian infectious bursal disease virus (strain PBG-98) OX=11000 GN=VP5 PE=3 SV=1
+sp|P25221|VP5_IBDV5     12.4      0.11   1   1.4   0.0    Protein VP5 OS=Avian infectious bursal disease virus (strain 52/70) OX=10996 GN=VP5 PE=3 SV=1
+sp|P15481|VP5_IBDVC     12.4      0.11   1   1.4   0.0    Protein VP5 OS=Avian infectious bursal disease virus (strain Cu-1) OX=10998 GN=VP5 PE=3 SV=1
+sp|P22440|VP5_IBDVS     12.4      0.11   1   1.4   0.0    Protein VP5 OS=Avian infectious bursal disease virus (strain STC) OX=11001 GN=VP5 PE=3 SV=1
+sp|P0C751|VP5_IBDVB     12.3      0.12   1   1.4   0.0    Protein VP5 OS=Avian infectious bursal disease virus (strain Chicken/Cuba/Soroa/1998) OX=645118 GN=VP5 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P25222|VP5_IBDVP     12.2      0.12     1   0.0     10     49     20     41     10     29     Protein VP5 (Fragment) OS=Avian infectious bursal disease virus (strain PBG-98) OX=11000 GN=VP5 PE=3 SV=1
+sp|P15481|VP5_IBDVC     11.7      0.18     1   0.0     35     78     50     71     10     29     Protein VP5 OS=Avian infectious bursal disease virus (strain Cu-1) OX=10998 GN=VP5 PE=3 SV=1
+sp|P22440|VP5_IBDVS     11.7      0.18     1   0.0     35     78     50     71     10     29     Protein VP5 OS=Avian infectious bursal disease virus (strain STC) OX=11001 GN=VP5 PE=3 SV=1
+sp|P25221|VP5_IBDV5     11.7      0.18     1   0.0     35     78     50     71     10     29     Protein VP5 OS=Avian infectious bursal disease virus (strain 52/70) OX=10996 GN=VP5 PE=3 SV=1
+sp|P0C751|VP5_IBDVB     11.7      0.19     1   0.0     35     77     50     71     10     29     Protein VP5 OS=Avian infectious bursal disease virus (strain Chicken/Cuba/Soroa/1998) OX=645118 GN=VP5 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006383255@NC_017974.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006383255@NC_017974.txt data/models_hmm/YP_006383255@NC_017974.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:13 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P16764|UL29_HCMVA     13.2      0.08   1   1.6   3.0    Uncharacterized protein UL29 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL29 PE=3 SV=1
+sp|C0H677|UL298_HCMVA    12.0      0.19   1   1.6   3.0    Protein UL29/UL28 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL29 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P16764|UL29_HCMVA     11.8      0.22     1   3.0      7     57     10     40     22     52     Uncharacterized protein UL29 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL29 PE=3 SV=1
+sp|C0H677|UL298_HCMVA    10.7       0.5     1   3.0      7     57     10     40     22     52     Protein UL29/UL28 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL29 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003090201@NC_013055.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003090201@NC_013055.txt data/models_hmm/YP_003090201@NC_013055.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:18 2021
+# [ok]

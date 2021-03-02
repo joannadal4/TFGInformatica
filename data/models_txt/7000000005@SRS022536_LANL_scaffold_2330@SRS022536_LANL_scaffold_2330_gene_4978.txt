@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O55519|P2_RDVO       16.1     0.008   1   2.1   0.1    Minor outer capsid protein P2 OS=Rice dwarf virus (isolate O) OX=142805 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O55519|P2_RDVO       14.0     0.035     1   0.1   1087   1140   1093   1127     66    100     Minor outer capsid protein P2 OS=Rice dwarf virus (isolate O) OX=142805 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000005@SRS022536_LANL_scaffold_2330@SRS022536_LANL_scaffold_2330_gene_4978.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000005@SRS022536_LANL_scaffold_2330@SRS022536_LANL_scaffold_2330_gene_4978.txt data/models_hmm/7000000005@SRS022536_LANL_scaffold_2330@SRS022536_LANL_scaffold_2330_gene_4978.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:26 2021
+# [ok]

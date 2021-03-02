@@ -1,0 +1,42 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q38394|FIB37_BPK3     66.4   1.2e-18   4   3.4   7.3    Long tail fiber protein p37 OS=Enterobacteria phage K3 OX=10674 GN=37 PE=3 SV=1
+sp|P07067|FIB37_BPT2     66.1   1.3e-18   2   2.2   0.1    Long tail fiber protein p37 OS=Enterobacteria phage T2 OX=10664 GN=37 PE=3 SV=1
+sp|P08232|FIB37_BPOX2    48.8   2.3e-13   1   1.0   0.2    Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage Ox2 OX=10691 GN=37 PE=3 SV=1
+sp|P08231|FIB37_BPM1     48.2   3.6e-13   1   1.0   0.1    Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage M1 OX=10676 GN=37 PE=3 SV=1
+sp|P13390|FIBL1_BPT5     42.5   1.9e-11   4   3.9  63.9    L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+sp|P03764|FIBER_LAMBD    18.2    0.0004   3   3.3  97.2    Tail fiber protein OS=Escherichia phage lambda OX=10710 GN=stf PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38394|FIB37_BPK3     66.4   1.2e-18     4   7.3    989   1243   1033   1242   1149   1359     Long tail fiber protein p37 OS=Enterobacteria phage K3 OX=10674 GN=37 PE=3 SV=1
+sp|P07067|FIB37_BPT2     66.1   1.3e-18     2   0.1   1057   1341   1219   1340   1234   1359     Long tail fiber protein p37 OS=Enterobacteria phage T2 OX=10664 GN=37 PE=3 SV=1
+sp|P08232|FIB37_BPOX2    48.6   2.7e-13     1   0.2     71    241     91    234   1214   1356     Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage Ox2 OX=10691 GN=37 PE=3 SV=1
+sp|P08231|FIB37_BPM1     48.0     4e-13     1   0.1     75    242    136    235   1254   1357     Long tail fiber protein p37 (Fragment) OS=Enterobacteria phage M1 OX=10676 GN=37 PE=3 SV=1
+sp|P13390|FIBL1_BPT5     42.5   1.9e-11     1  63.9     21    214     37    202    363    546     L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+sp|P03764|FIBER_LAMBD    18.2    0.0004     1  97.2    105    314    116    311    369    571     Tail fiber protein OS=Escherichia phage lambda OX=10710 GN=stf PE=3 SV=2
+sp|P13390|FIBL1_BPT5      0.5        87     2   1.1    433    510    461    501    476    517     L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+sp|P13390|FIBL1_BPT5     -1.1   2.7e+02     4   0.0   1228   1284   1247   1275   1240   1268     L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+sp|P03764|FIBER_LAMBD    -1.2   2.8e+02     2  34.6    297    529    301    429    344    479     Tail fiber protein OS=Escherichia phage lambda OX=10710 GN=stf PE=3 SV=2
+sp|P13390|FIBL1_BPT5     -1.9   4.7e+02     3   3.3    812   1052    823    914   1015   1098     L-shaped tail fiber protein pb1 OS=Escherichia phage T5 OX=10726 GN=ltf PE=1 SV=3
+sp|Q38394|FIB37_BPK3     -2.6   7.6e+02     1   4.2     28    316     51    157    983   1084     Long tail fiber protein p37 OS=Enterobacteria phage K3 OX=10674 GN=37 PE=3 SV=1
+sp|Q38394|FIB37_BPK3     -4.3   2.5e+03     2   1.8    320    496    367    407    855    899     Long tail fiber protein p37 OS=Enterobacteria phage K3 OX=10674 GN=37 PE=3 SV=1
+sp|Q38394|FIB37_BPK3     -6.4   1.1e+04     3   9.6    572    978    691    897    398    571     Long tail fiber protein p37 OS=Enterobacteria phage K3 OX=10674 GN=37 PE=3 SV=1
+sp|P03764|FIBER_LAMBD   -10.0   1.7e+04     3  14.9    579    765    601    675    338    416     Tail fiber protein OS=Escherichia phage lambda OX=10710 GN=stf PE=3 SV=2
+sp|P07067|FIB37_BPT2     -8.2   1.7e+04     1   7.6    564   1019    730    812   1032   1114     Long tail fiber protein p37 OS=Enterobacteria phage T2 OX=10664 GN=37 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001580@Draft_10000162@Draft_100001621.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001580@Draft_10000162@Draft_100001621.txt data/models_hmm/3300001580@Draft_10000162@Draft_100001621.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:45 2021
+# [ok]

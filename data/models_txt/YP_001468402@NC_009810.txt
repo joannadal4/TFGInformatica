@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64220|VG26_BPMD2    42.3   1.5e-11   3   3.4   0.5    Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|Q05233|VG26_BPML5    32.3   1.6e-08   3   3.3   0.8    Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|E7DNB6|TMP_BPDP1     31.5   2.8e-08   4   4.2   8.1    Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|Q914H6|Y056_SIFVH     9.4      0.12   2   1.8   4.1    Uncharacterized protein 56 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0056 PE=3 SV=1
+sp|P19475|NCAP_PUUMG     7.1      0.61   1   1.1   1.9    Nucleoprotein OS=Puumala virus (strain Bank vole/Russia/CG1820/1984) OX=1337063 GN=N PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64220|VG26_BPMD2    42.3   1.5e-11     3   0.5    561    761    578    692   1604   1718     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|Q05233|VG26_BPML5    32.3   1.6e-08     3   0.8    559    695    593    677   1618   1702     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|E7DNB6|TMP_BPDP1     31.5   2.8e-08     4   8.1    889   1062    928   1041   1598   1708     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|Q914H6|Y056_SIFVH    10.8     0.048     1   0.9      7    173     38    160     89    199     Uncharacterized protein 56 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0056 PE=3 SV=1
+sp|E7DNB6|TMP_BPDP1      8.7      0.21     2   3.9    308    511    350    477    611    739     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|P19475|NCAP_PUUMG     6.6      0.86     1   1.9      2     79      5     70   1015   1084     Nucleoprotein OS=Puumala virus (strain Bank vole/Russia/CG1820/1984) OX=1337063 GN=N PE=3 SV=1
+sp|O64220|VG26_BPMD2     5.8       1.5     2   4.6    411    560    437    555    561    678     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|Q05233|VG26_BPML5     2.1        19     1   0.0    173    303    180    283    619    724     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|Q05233|VG26_BPML5     1.5        30     2   7.4    373    574    421    556    577    731     Minor tail protein Gp26 OS=Mycobacterium phage L5 OX=31757 GN=26 PE=1 SV=2
+sp|O64220|VG26_BPMD2     1.0        42     1   0.1    340    479    359    472    635    745     Minor tail protein Gp26 OS=Mycobacterium phage D29 OX=28369 GN=26 PE=3 SV=3
+sp|Q914H6|Y056_SIFVH    -1.2     2e+02     2   0.1    169    290    224    285    132    192     Uncharacterized protein 56 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0056 PE=3 SV=1
+sp|E7DNB6|TMP_BPDP1    -14.0   1.7e+04     1  14.9      7    273     44    221    198    366     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+sp|E7DNB6|TMP_BPDP1     -8.0   1.7e+04     3  16.3    581    855    618    831    596    797     Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001468402@NC_009810.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001468402@NC_009810.txt data/models_hmm/YP_001468402@NC_009810.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:20 2021
+# [ok]

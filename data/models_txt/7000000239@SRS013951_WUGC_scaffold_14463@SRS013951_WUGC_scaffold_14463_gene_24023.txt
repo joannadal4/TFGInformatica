@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R7J1|Y033_OSHVF    13.0     0.075   2   2.2   0.9    Uncharacterized protein ORF33 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF33 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R7J1|Y033_OSHVF    11.4      0.23     1   0.0     34    110     42    104     12     71     Uncharacterized protein ORF33 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF33 PE=4 SV=1
+sp|Q6R7J1|Y033_OSHVF    -1.6   2.6e+03     2   0.2    124    169    140    156     67     83     Uncharacterized protein ORF33 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF33 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000239@SRS013951_WUGC_scaffold_14463@SRS013951_WUGC_scaffold_14463_gene_24023.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000239@SRS013951_WUGC_scaffold_14463@SRS013951_WUGC_scaffold_14463_gene_24023.txt data/models_hmm/7000000239@SRS013951_WUGC_scaffold_14463@SRS013951_WUGC_scaffold_14463_gene_24023.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:42 2021
+# [ok]

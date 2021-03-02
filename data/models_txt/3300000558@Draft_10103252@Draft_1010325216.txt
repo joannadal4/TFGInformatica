@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O55747|141R_IIV6     11.9      0.12   1   1.1   0.2    Uncharacterized protein 141R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-141R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O55747|141R_IIV6     11.7      0.14     1   0.2     36     77     43     68      8     34     Uncharacterized protein 141R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-141R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000558@Draft_10103252@Draft_1010325216.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000558@Draft_10103252@Draft_1010325216.txt data/models_hmm/3300000558@Draft_10103252@Draft_1010325216.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:07 2021
+# [ok]

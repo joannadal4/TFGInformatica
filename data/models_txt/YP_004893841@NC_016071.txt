@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P06947|VG1A_BPPZA     12.4       0.1   1   1.0   0.0    Early protein GP1A OS=Bacillus phage PZA OX=10757 GN=1A PE=4 SV=1
+sp|P03373|GAG_AVIER      11.8      0.15   1   1.4   0.2    Gag polyprotein (Fragment) OS=Avian erythroblastosis virus (strain ES4) OX=79685 GN=gag PE=3 SV=2
+sp|Q65158|VF257_ASFB7    11.7      0.16   1   1.2   0.0    Transmembrane protein C257L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-066 PE=3 SV=1
+sp|P0CAC0|VF257_ASFWA    11.2      0.24   1   1.2   0.0    Transmembrane protein C257L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-076 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P06947|VG1A_BPPZA     12.4       0.1     1   0.0      1     58      3     50      7     54     Early protein GP1A OS=Bacillus phage PZA OX=10757 GN=1A PE=4 SV=1
+sp|Q65158|VF257_ASFB7    11.2      0.23     1   0.0     25    121     32     83     25     76     Transmembrane protein C257L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-066 PE=3 SV=1
+sp|P03373|GAG_AVIER      10.9      0.28     1   0.2    274    349    284    327     67    117     Gag polyprotein (Fragment) OS=Avian erythroblastosis virus (strain ES4) OX=79685 GN=gag PE=3 SV=2
+sp|P0CAC0|VF257_ASFWA    10.7      0.34     1   0.0     26    121     35     82     28     75     Transmembrane protein C257L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-076 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004893841@NC_016071.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004893841@NC_016071.txt data/models_hmm/YP_004893841@NC_016071.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:36 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q00155|VG34_ICHVA     9.4      0.77   2   2.2   2.3    Uncharacterized protein ORF34 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF34 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q00155|VG34_ICHVA     9.3      0.87     1   0.1     17     44     20     39     17     36     Uncharacterized protein ORF34 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF34 PE=4 SV=1
+sp|Q00155|VG34_ICHVA    -2.3   3.5e+03     2   0.2    280    310    296    308     20     32     Uncharacterized protein ORF34 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF34 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000503@SRS053603_LANL_scaffold_85453@SRS053603_LANL_scaffold_85453_gene_141558.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000503@SRS053603_LANL_scaffold_85453@SRS053603_LANL_scaffold_85453_gene_141558.txt data/models_hmm/7000000503@SRS053603_LANL_scaffold_85453@SRS053603_LANL_scaffold_85453_gene_141558.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:48 2021
+# [ok]

@@ -1,0 +1,46 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q01030|VG45_SHV21    439.0  4.8e-132   1   1.0  23.0    Uncharacterized gene 45 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=45 PE=3 SV=1
+sp|Q66648|VG45_EHV2      48.4   8.5e-13   2   2.8  30.2    Uncharacterized gene 45 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=45 PE=4 SV=1
+sp|F5HDE4|ORF45_HHV8P    28.3   1.1e-06   2   4.1  31.8    Protein ORF45 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF45 PE=1 SV=1
+sp|O36394|VG45_ALHV1     24.1   2.2e-05   4   3.4   0.8    Uncharacterized gene 45 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=45 PE=3 SV=1
+sp|P0C724|BKRF4_EBVA8    23.6   2.9e-05   3   2.5   1.6    Tegument protein BKRF4 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BKRF4 PE=3 SV=1
+sp|P30117|BKRF4_EBVB9    23.6   2.9e-05   3   2.5   1.6    Tegument protein BKRF4 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BKRF4 PE=3 SV=1
+sp|Q3KSS1|BKRF4_EBVG     22.3   7.3e-05   3   2.6   1.7    Tegument protein BKRF4 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BKRF4 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q01030|VG45_SHV21    438.9  5.4e-132     1  23.0      1    257      1    257      1    253     Uncharacterized gene 45 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=45 PE=3 SV=1
+sp|Q66648|VG45_EHV2      35.0   9.8e-09     2   9.5    139    321    155    321     93    252     Uncharacterized gene 45 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=45 PE=4 SV=1
+sp|O36394|VG45_ALHV1     24.1   2.2e-05     1   0.8      1     93      4     44     13     54     Uncharacterized gene 45 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=45 PE=3 SV=1
+sp|P0C724|BKRF4_EBVA8    23.6   2.9e-05     3   1.6    161    217    165    217    203    252     Tegument protein BKRF4 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BKRF4 PE=3 SV=1
+sp|P30117|BKRF4_EBVB9    23.6   2.9e-05     3   1.6    161    217    165    217    203    252     Tegument protein BKRF4 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BKRF4 PE=3 SV=1
+sp|Q3KSS1|BKRF4_EBVG     22.3   7.3e-05     3   1.7    163    217    190    217    225    252     Tegument protein BKRF4 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BKRF4 PE=3 SV=1
+sp|Q66648|VG45_EHV2      18.2    0.0014     1  12.7      1    142      1    135      1    130     Uncharacterized gene 45 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=45 PE=4 SV=1
+sp|F5HDE4|ORF45_HHV8P    15.2     0.011     1   8.8      1    122      1    111      1    116     Protein ORF45 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF45 PE=1 SV=1
+sp|F5HDE4|ORF45_HHV8P    12.8     0.059     2  15.0    214    407    252    407    151    253     Protein ORF45 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF45 PE=1 SV=1
+sp|O36394|VG45_ALHV1      7.8         2     4   1.6    193    235    215    234    232    251     Uncharacterized gene 45 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=45 PE=3 SV=1
+sp|O36394|VG45_ALHV1     -1.5   1.4e+03     3   4.8    151    206    160    190     90    120     Uncharacterized gene 45 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=45 PE=3 SV=1
+sp|P0C724|BKRF4_EBVA8    -2.6     3e+03     1   0.0      1     21      1     17      1     19     Tegument protein BKRF4 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BKRF4 PE=3 SV=1
+sp|P30117|BKRF4_EBVB9    -2.6     3e+03     1   0.0      1     21      1     17      1     19     Tegument protein BKRF4 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BKRF4 PE=3 SV=1
+sp|Q3KSS1|BKRF4_EBVG     -2.6     3e+03     1   0.0      1     21      1     17      1     19     Tegument protein BKRF4 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BKRF4 PE=3 SV=1
+sp|O36394|VG45_ALHV1     -3.7   6.8e+03     2   0.2    110    135    119    125     64     70     Uncharacterized gene 45 protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=45 PE=3 SV=1
+sp|P0C724|BKRF4_EBVA8   -10.6   1.7e+04     2  25.0     13    123     28    112     74    150     Tegument protein BKRF4 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BKRF4 PE=3 SV=1
+sp|P30117|BKRF4_EBVB9   -10.6   1.7e+04     2  25.0     13    123     28    112     74    150     Tegument protein BKRF4 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BKRF4 PE=3 SV=1
+sp|Q3KSS1|BKRF4_EBVG    -10.6   1.7e+04     2  25.0     13    123     28    112     74    150     Tegument protein BKRF4 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BKRF4 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_076537@NC_002665.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_076537@NC_002665.txt data/models_hmm/NP_076537@NC_002665.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:48 2021
+# [ok]

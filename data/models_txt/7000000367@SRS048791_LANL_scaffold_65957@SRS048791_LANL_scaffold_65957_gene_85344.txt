@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R7E5|Y084_OSHVF    17.8    0.0024   1   1.1   0.7    Uncharacterized protein ORF84 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF84 PE=4 SV=1
+sp|Q1A262|VPU_SIVMB     15.1     0.016   1   1.1   0.1    Protein Vpu OS=Simian immunodeficiency virus (isolate MB66) OX=388911 GN=vpu PE=3 SV=1
+sp|Q3V4W4|Y080_ATV       7.4       4.3   2   1.9   9.1    Putative transmembrane protein ORF80 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R7E5|Y084_OSHVF    17.5    0.0029     1   0.7     14    112     29     98     24     88     Uncharacterized protein ORF84 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF84 PE=4 SV=1
+sp|Q1A262|VPU_SIVMB     15.0     0.019     1   0.1      2     75     10     57     42     89     Protein Vpu OS=Simian immunodeficiency virus (isolate MB66) OX=388911 GN=vpu PE=3 SV=1
+sp|Q3V4W4|Y080_ATV      10.7      0.41     1   2.8      1     57      2     44     40     82     Putative transmembrane protein ORF80 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|Q3V4W4|Y080_ATV       1.6   2.6e+02     2   0.7     45     77     51     75     27     50     Putative transmembrane protein ORF80 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000367@SRS048791_LANL_scaffold_65957@SRS048791_LANL_scaffold_65957_gene_85344.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000367@SRS048791_LANL_scaffold_65957@SRS048791_LANL_scaffold_65957_gene_85344.txt data/models_hmm/7000000367@SRS048791_LANL_scaffold_65957@SRS048791_LANL_scaffold_65957_gene_85344.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:39 2021
+# [ok]

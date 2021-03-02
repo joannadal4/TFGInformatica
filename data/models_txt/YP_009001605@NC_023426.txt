@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P37990|TGB3_CVB      10.9      0.16   1   1.0   0.7    Movement protein TGBp3 OS=Chrysanthemum virus B OX=12165 GN=ORF4 PE=3 SV=1
+sp|P20213|D244_SSV1     10.3      0.25   2   2.1   2.8    Uncharacterized protein D-244 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=d244 PE=4 SV=1
+sp|Q1A246|TAT_SIVEK      5.8         6   1   1.1   6.6    Protein Tat OS=Simian immunodeficiency virus (isolate EK505) OX=388912 GN=tat PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P37990|TGB3_CVB      10.8      0.17     1   0.7     11     59     19     52     61     94     Movement protein TGBp3 OS=Chrysanthemum virus B OX=12165 GN=ORF4 PE=3 SV=1
+sp|P20213|D244_SSV1      9.9      0.32     1   0.4      1     67      3     23     58     78     Uncharacterized protein D-244 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=d244 PE=4 SV=1
+sp|Q1A246|TAT_SIVEK      5.5       7.2     1   6.6     15     53     19     41     52     73     Protein Tat OS=Simian immunodeficiency virus (isolate EK505) OX=388912 GN=tat PE=3 SV=1
+sp|P20213|D244_SSV1      0.5   2.3e+02     2   0.1    103    229    115    155     98    138     Uncharacterized protein D-244 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=d244 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_009001605@NC_023426.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_009001605@NC_023426.txt data/models_hmm/YP_009001605@NC_023426.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:48 2021
+# [ok]

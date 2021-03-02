@@ -1,0 +1,108 @@
+# Sequence scores
+# ---------------
+#
+# name                      bits   E-value   n   exp  bias    description
+#     ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27753|TERL_BPP1        433.7  6.4e-130   1   1.0   0.1    Probable terminase, large subunit OS=Escherichia phage P1 OX=10678 GN=pacB PE=3 SV=1
+sp|Q5XLR0|TERL_BPP7        433.7  6.4e-130   1   1.0   0.1    Probable terminase, large subunit OS=Enterobacteria phage P7 OX=10682 GN=pacB PE=3 SV=1
+sp|A7XXB7|TERL_BP234        71.2   5.3e-20   1   1.4   0.0    Terminase, large subunit OS=Thermus virus P23-45 OX=466051 GN=P23p85 PE=3 SV=1
+sp|A0A1L4BKS3|TERL_BPG20    71.0   6.1e-20   1   1.4   0.0    Terminase, large subunit OS=Thermus phage G20c OX=1406341 GN=G20c_80 PE=1 SV=1
+sp|P25479|VPP_BPP2          35.2   4.4e-09   1   1.2   0.0    Terminase, ATPase subunit OS=Escherichia phage P2 OX=10679 GN=P PE=4 SV=1
+sp|P17312|TERL_BPT4         33.4   1.6e-08   1   1.5   0.0    Terminase, large subunit OS=Enterobacteria phage T4 OX=10665 GN=17 PE=1 SV=1
+sp|P03219|TRM3_EBVB9        29.6   2.3e-07   1   1.1   0.2    Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=TRM3 PE=1 SV=2
+sp|P0C744|TRM3_EBVA8        29.6   2.3e-07   1   1.1   0.2    Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=TRM3 PE=3 SV=1
+sp|Q3KSR3|TRM3_EBVG         29.6   2.3e-07   1   1.1   0.2    Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=TRM3 PE=3 SV=1
+sp|Q66632|TRM3_EHV2         27.8   7.8e-07   1   1.2   0.1    Tripartite terminase subunit 3 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=TRM3 PE=3 SV=2
+sp|P51718|VPP_BPHC1         26.4   2.2e-06   1   1.3   0.0    Probable terminase, ATPase subunit OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|P28969|TRM3_EHV1B        25.9   3.1e-06   1   1.2   0.0    Tripartite terminase subunit 3 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=TRM3 PE=3 SV=1
+sp|P84396|TRM3_EHV1V        25.9   3.1e-06   1   1.2   0.0    Tripartite terminase subunit 3 OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=TRM3 PE=3 SV=1
+sp|P09294|TRM3_VZVD         23.8   1.3e-05   1   1.1   0.0    Tripartite terminase subunit 3 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=TRM3 PE=3 SV=1
+sp|O36378|TRM3_ALHV1        23.6   1.5e-05   1   1.4   0.0    Tripartite terminase subunit 3 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=TRM3 PE=3 SV=1
+sp|P89438|TRM3_HHV2H        22.6   3.1e-05   2   1.7   0.0    Tripartite terminase subunit 3 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=TRM3 PE=3 SV=1
+sp|P52462|TRM3_HHV7J        22.5   3.2e-05   1   1.1   0.0    Tripartite terminase subunit 3 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=TRM3 PE=3 SV=1
+sp|Q9QJ23|TRM3_HHV6Z        22.5   3.3e-05   1   1.2   0.0    Tripartite terminase subunit 3 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=TRM3 PE=3 SV=1
+sp|P04295|TRM3_HHV11        22.2     4e-05   2   1.5   0.0    Tripartite terminase subunit 3 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=TRM3 PE=1 SV=2
+sp|Q01020|TRM3_SHV21        22.0   4.7e-05   1   1.2   0.1    Tripartite terminase subunit 3 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=TRM3 PE=3 SV=1
+sp|P16732|TRM3_HCMVA        21.8   5.4e-05   1   1.2   0.0    Tripartite terminase subunit 3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=TRM3 PE=1 SV=1
+sp|F5HGB6|TRM3_HHV8P        21.5   6.4e-05   1   1.2   0.0    Tripartite terminase subunit 3 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=TRM3 PE=3 SV=1
+sp|F5HCU8|TRM3_HCMVM        21.0   9.2e-05   1   1.2   0.0    Tripartite terminase subunit 3 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=TRM3 PE=3 SV=1
+sp|Q9E6Q2|TRM3_GAHVM        19.8   0.00021   1   1.2   0.0    Tripartite terminase subunit 3 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=TRM3 PE=3 SV=1
+sp|Q9YW06|NPH2_MSEPV        19.6   0.00024   1   1.2   0.0    RNA helicase NPH-II OS=Melanoplus sanguinipes entomopoxvirus OX=83191 GN=NPH2 PE=3 SV=1
+sp|P24443|TRM3_HHV6U        19.5   0.00027   1   1.2   0.0    Tripartite terminase subunit 3 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=TRM3 PE=3 SV=2
+sp|Q18LD7|TRM3_ELHVK        16.6    0.0019   1   1.1   0.3    Tripartite terminase subunit 3 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 GN=TRM3 PE=3 SV=1
+sp|P54308|TERL_BPSPP        16.2    0.0026   1   1.3   0.1    Terminase, large subunit OS=Bacillus phage SPP1 OX=10724 GN=2 PE=1 SV=1
+sp|P26745|TERL_BPP22        15.2    0.0054   2   1.5   0.0    Terminase, large subunit OS=Salmonella phage P22 OX=10754 GN=2 PE=1 SV=1
+sp|P10310|TERL_BPT3         15.1    0.0055   2   1.7   0.0    Terminase, large subunit OS=Enterobacteria phage T3 OX=10759 GN=19 PE=1 SV=1
+sp|P03694|TERL_BPT7         14.1     0.011   2   1.8   0.0    Terminase, large subunit OS=Escherichia phage T7 OX=10760 GN=19 PE=1 SV=1
+sp|Q5UQ96|YL540_MIMIV       13.1     0.023   1   1.3   0.0    Putative ATP-dependent RNA helicase L540 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L540 PE=1 SV=1
+sp|O72904|NPH2_FOWPN        12.9     0.027   1   1.2   0.0    RNA helicase NPH-II OS=Fowlpox virus (strain NVSL) OX=928301 GN=NPH2 PE=3 SV=1
+sp|Q98218|NPH2_MCV1         12.5     0.036   1   1.1   0.0    RNA helicase NPH-II OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=NPH2 PE=3 SV=1
+sp|P12927|NPH2_VACCW        11.5     0.072   1   1.2   0.0    RNA helicase NPH-II OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=NPH2 PE=1 SV=2
+sp|O57193|NPH2_VACCA        11.4     0.073   1   1.2   0.0    RNA helicase NPH-II OS=Vaccinia virus (strain Ankara) OX=126794 GN=NPH2 PE=2 SV=1
+sp|P0DSU5|NPH2_VAR67        11.4     0.073   1   1.2   0.0    RNA helicase NPH-II OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=NPH2 PE=2 SV=1
+sp|P0DSU6|NPH2_VARV         11.4     0.073   1   1.2   0.0    RNA helicase NPH-II OS=Variola virus OX=10255 GN=NPH2 PE=2 SV=1
+sp|Q9JFC3|NPH2_VACCT        11.4     0.073   1   1.2   0.0    RNA helicase NPH-II OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=NPH2 PE=2 SV=1
+sp|P20502|NPH2_VACCC        11.4     0.074   1   1.2   0.0    RNA helicase NPH-II OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=NPH2 PE=2 SV=1
+sp|P32270|DDA_BPT4          11.0     0.098   1   1.2   0.1    ATP-dependent DNA helicase dda OS=Enterobacteria phage T4 OX=10665 GN=dda PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                     bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#     ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27753|TERL_BPP1        433.5  7.1e-130     1   0.1      1    494      1    491      2    467     Probable terminase, large subunit OS=Escherichia phage P1 OX=10678 GN=pacB PE=3 SV=1
+sp|Q5XLR0|TERL_BPP7        433.5  7.1e-130     1   0.1      1    494      1    491      2    467     Probable terminase, large subunit OS=Enterobacteria phage P7 OX=10682 GN=pacB PE=3 SV=1
+sp|A7XXB7|TERL_BP234        70.2   1.1e-19     1   0.0      3    422     12    416     29    415     Terminase, large subunit OS=Thermus virus P23-45 OX=466051 GN=P23p85 PE=3 SV=1
+sp|A0A1L4BKS3|TERL_BPG20    70.0   1.3e-19     1   0.0      3    422     12    416     29    415     Terminase, large subunit OS=Thermus phage G20c OX=1406341 GN=G20c_80 PE=1 SV=1
+sp|P25479|VPP_BPP2          34.8     6e-09     1   0.0    262    512    359    488    236    351     Terminase, ATPase subunit OS=Escherichia phage P2 OX=10679 GN=P PE=4 SV=1
+sp|P17312|TERL_BPT4         32.6   2.8e-08     1   0.0     94    482    105    314     11    209     Terminase, large subunit OS=Enterobacteria phage T4 OX=10665 GN=17 PE=1 SV=1
+sp|P03219|TRM3_EBVB9        29.0   3.4e-07     1   0.2    210    382    227    366     57    197     Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=TRM3 PE=1 SV=2
+sp|P0C744|TRM3_EBVA8        29.0   3.4e-07     1   0.2    210    382    227    366     57    197     Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain AG876) OX=82830 GN=TRM3 PE=3 SV=1
+sp|Q3KSR3|TRM3_EBVG         29.0   3.4e-07     1   0.2    210    382    227    366     57    197     Tripartite terminase subunit 3 OS=Epstein-Barr virus (strain GD1) OX=10376 GN=TRM3 PE=3 SV=1
+sp|Q66632|TRM3_EHV2         27.1   1.3e-06     1   0.1    204    379    216    361     53    199     Tripartite terminase subunit 3 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=TRM3 PE=3 SV=2
+sp|P51718|VPP_BPHC1         25.5     4e-06     1   0.0    414    529    425    508    277    353     Probable terminase, ATPase subunit OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|P28969|TRM3_EHV1B        25.2     5e-06     1   0.0    239    409    255    388     52    187     Tripartite terminase subunit 3 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=TRM3 PE=3 SV=1
+sp|P84396|TRM3_EHV1V        25.2     5e-06     1   0.0    239    409    255    388     52    187     Tripartite terminase subunit 3 OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=TRM3 PE=3 SV=1
+sp|P09294|TRM3_VZVD         23.2   1.9e-05     1   0.0    242    420    262    397     51    188     Tripartite terminase subunit 3 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=TRM3 PE=3 SV=1
+sp|O36378|TRM3_ALHV1        22.6     3e-05     1   0.0    188    375    203    358     39    195     Tripartite terminase subunit 3 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=TRM3 PE=3 SV=1
+sp|P52462|TRM3_HHV7J        21.9   4.8e-05     1   0.0    189    363    206    346     57    201     Tripartite terminase subunit 3 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=TRM3 PE=3 SV=1
+sp|Q9QJ23|TRM3_HHV6Z        21.9     5e-05     1   0.0    193    366    209    345     57    197     Tripartite terminase subunit 3 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=TRM3 PE=3 SV=1
+sp|Q01020|TRM3_SHV21        21.3   7.7e-05     1   0.1    204    371    218    355     57    195     Tripartite terminase subunit 3 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=TRM3 PE=3 SV=1
+sp|P16732|TRM3_HCMVA        21.2     8e-05     1   0.0    179    392    202    359     46    208     Tripartite terminase subunit 3 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=TRM3 PE=1 SV=1
+sp|P04295|TRM3_HHV11        21.0   9.1e-05     1   0.0    243    406    253    387     51    187     Tripartite terminase subunit 3 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=TRM3 PE=1 SV=2
+sp|P89438|TRM3_HHV2H        20.9   9.6e-05     1   0.0    243    406    253    387     51    187     Tripartite terminase subunit 3 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=TRM3 PE=3 SV=1
+sp|F5HGB6|TRM3_HHV8P        20.9   9.8e-05     1   0.0    203    376    222    359     57    195     Tripartite terminase subunit 3 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=TRM3 PE=3 SV=1
+sp|F5HCU8|TRM3_HCMVM        20.4   0.00013     1   0.0    179    387    202    348     46    195     Tripartite terminase subunit 3 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=TRM3 PE=3 SV=1
+sp|Q9E6Q2|TRM3_GAHVM        19.1   0.00035     1   0.0    233    411    252    395     45    190     Tripartite terminase subunit 3 OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=TRM3 PE=3 SV=1
+sp|Q9YW06|NPH2_MSEPV        19.0   0.00037     1   0.0    161    262    171    248     21     98     RNA helicase NPH-II OS=Melanoplus sanguinipes entomopoxvirus OX=83191 GN=NPH2 PE=3 SV=1
+sp|P24443|TRM3_HHV6U        18.9    0.0004     1   0.0    193    367    209    346     57    197     Tripartite terminase subunit 3 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=TRM3 PE=3 SV=2
+sp|Q18LD7|TRM3_ELHVK        16.0     0.003     1   0.3    185    354    194    336     47    194     Tripartite terminase subunit 3 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 GN=TRM3 PE=3 SV=1
+sp|P54308|TERL_BPSPP        15.4    0.0045     1   0.1      3     98      6     82     31    106     Terminase, large subunit OS=Bacillus phage SPP1 OX=10724 GN=2 PE=1 SV=1
+sp|P26745|TERL_BPP22        14.0     0.012     1   0.0      8     88     34     79     30     75     Terminase, large subunit OS=Salmonella phage P22 OX=10754 GN=2 PE=1 SV=1
+sp|P10310|TERL_BPT3         13.5     0.017     1   0.0      5    117     38    106     38    102     Terminase, large subunit OS=Enterobacteria phage T3 OX=10759 GN=19 PE=1 SV=1
+sp|Q5UQ96|YL540_MIMIV       12.3      0.04     1   0.0     22    105     28     95     18     87     Putative ATP-dependent RNA helicase L540 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L540 PE=1 SV=1
+sp|O72904|NPH2_FOWPN        12.2     0.043     1   0.0    156    221    169    215     31     77     RNA helicase NPH-II OS=Fowlpox virus (strain NVSL) OX=928301 GN=NPH2 PE=3 SV=1
+sp|P03694|TERL_BPT7         12.2     0.043     1   0.0      5    118     38    104     38    100     Terminase, large subunit OS=Escherichia phage T7 OX=10760 GN=19 PE=1 SV=1
+sp|Q98218|NPH2_MCV1         11.9     0.054     1   0.0    167    235    178    222     37     78     RNA helicase NPH-II OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=NPH2 PE=3 SV=1
+sp|P12927|NPH2_VACCW        10.8      0.12     1   0.0    155    216    166    206     37     77     RNA helicase NPH-II OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=NPH2 PE=1 SV=2
+sp|O57193|NPH2_VACCA        10.7      0.12     1   0.0    155    215    166    206     37     77     RNA helicase NPH-II OS=Vaccinia virus (strain Ankara) OX=126794 GN=NPH2 PE=2 SV=1
+sp|P0DSU5|NPH2_VAR67        10.7      0.12     1   0.0    155    215    166    206     37     77     RNA helicase NPH-II OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=NPH2 PE=2 SV=1
+sp|P0DSU6|NPH2_VARV         10.7      0.12     1   0.0    155    215    166    206     37     77     RNA helicase NPH-II OS=Variola virus OX=10255 GN=NPH2 PE=2 SV=1
+sp|P20502|NPH2_VACCC        10.7      0.12     1   0.0    155    215    166    206     37     77     RNA helicase NPH-II OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=NPH2 PE=2 SV=1
+sp|Q9JFC3|NPH2_VACCT        10.7      0.12     1   0.0    155    215    166    206     37     77     RNA helicase NPH-II OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=NPH2 PE=2 SV=1
+sp|P32270|DDA_BPT4          10.5      0.14     1   0.1      3     99     16     70     41     96     ATP-dependent DNA helicase dda OS=Enterobacteria phage T4 OX=10665 GN=dda PE=1 SV=2
+sp|P03694|TERL_BPT7         -1.6   6.7e+02     2   0.0    347    390    356    379    276    299     Terminase, large subunit OS=Escherichia phage T7 OX=10760 GN=19 PE=1 SV=1
+sp|P89438|TRM3_HHV2H        -1.9   8.3e+02     2   0.0    514    568    524    548     14     32     Tripartite terminase subunit 3 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=TRM3 PE=3 SV=1
+sp|P10310|TERL_BPT3         -2.0   8.8e+02     2   0.0    345    385    355    377    275    297     Terminase, large subunit OS=Enterobacteria phage T3 OX=10759 GN=19 PE=1 SV=1
+sp|P04295|TRM3_HHV11        -3.4   2.3e+03     2   0.0    518    563    525    544     15     34     Tripartite terminase subunit 3 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=TRM3 PE=1 SV=2
+sp|P26745|TERL_BPP22        -3.5   2.6e+03     2   0.0    225    296    241    279    197    237     Terminase, large subunit OS=Salmonella phage P22 OX=10754 GN=2 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_848210@NC_004775.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_848210@NC_004775.txt data/models_hmm/NP_848210@NC_004775.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:29 2021
+# [ok]

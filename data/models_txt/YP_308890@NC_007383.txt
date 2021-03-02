@@ -1,0 +1,52 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O10270|VP61_NPVOP     25.2   6.5e-06   2   2.8  67.6    61 kDa protein homolog OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF2 PE=3 SV=2
+sp|Q03209|P78_NPVAC      17.3    0.0017   3   4.9  12.5    Protein P78/83 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P61 PE=1 SV=2
+sp|Q6SW81|NEC2_HCMVM     14.9    0.0085   1   1.3   2.5    Nuclear egress protein 2 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=NEC2 PE=1 SV=1
+sp|P16791|NEC2_HCMVA     13.9     0.017   1   1.3   1.0    Nuclear egress protein 2 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=NEC2 PE=1 SV=1
+sp|P32538|CAPSP_ADEGX     9.4       0.4   1   1.2   4.1    Penton protein OS=Fowl adenovirus C serotype 10 (strain SA2) OX=10547 GN=L2 PE=3 SV=1
+sp|P06024|GC_SUHVF        9.3      0.43   1   1.1   7.6    Envelope glycoprotein C homolog OS=Suid herpesvirus 1 (strain Indiana-Funkhauser / Becker) OX=31523 GN=gC PE=1 SV=1
+sp|Q5UNW8|YL719_MIMIV     8.4      0.81   1   1.2  28.0    Uncharacterized protein L719 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L719 PE=4 SV=1
+sp|Q06670|AC83_NPVAC      7.3       1.8   1   1.4   9.1    Capsid-associated protein AC83 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=p95 PE=3 SV=1
+sp|P0DOK0|POLSF_SINDV     7.1         2   1   1.2  13.7    Frameshifted structural polyprotein OS=Sindbis virus OX=11034 PE=1 SV=1
+sp|O12000|UL33_RCMVM      6.9       2.3   1   1.1   8.1    G-protein coupled receptor homolog R33 OS=Rat cytomegalovirus (strain Maastricht) OX=79700 PE=3 SV=1
+sp|Q66626|VG23_EHV2       6.7       2.7   1   1.1   9.6    Uncharacterized gene 23 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=23 PE=3 SV=1
+sp|P03316|POLS_SINDV      6.6       2.9   1   1.2  13.6    Structural polyprotein OS=Sindbis virus OX=11034 PE=1 SV=1
+sp|Q91HK4|POL2_ARMVN      6.4       3.4   2   2.2   9.9    RNA2 polyprotein OS=Arabis mosaic virus (isolate NW) OX=282063 PE=3 SV=1
+sp|Q07048|RDRP_SCV23      5.9       4.8   1   1.1  11.6    RNA-directed RNA polymerase OS=Saccharomyces 23S RNA narnavirus OX=198599 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q03209|P78_NPVAC      17.3    0.0017     1  12.5      4    148      7    142      4    149     Protein P78/83 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P61 PE=1 SV=2
+sp|O10270|VP61_NPVOP     15.7    0.0052     2  21.6    289    473    294    460    252    382     61 kDa protein homolog OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF2 PE=3 SV=2
+sp|Q6SW81|NEC2_HCMVM     14.4     0.013     1   2.5    111    264    215    249    267    293     Nuclear egress protein 2 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=NEC2 PE=1 SV=1
+sp|O10270|VP61_NPVOP     13.8     0.019     1  47.1      4    306      7    303      4    292     61 kDa protein homolog OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF2 PE=3 SV=2
+sp|P16791|NEC2_HCMVA     13.4     0.025     1   1.0    113    262    212    248    263    293     Nuclear egress protein 2 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=NEC2 PE=1 SV=1
+sp|Q91HK4|POL2_ARMVN      9.7      0.33     2   0.9    193    336    202    215    267    287     RNA2 polyprotein OS=Arabis mosaic virus (isolate NW) OX=282063 PE=3 SV=1
+sp|P32538|CAPSP_ADEGX     8.9       0.6     1   4.1      4    114      8     39    265    294     Penton protein OS=Fowl adenovirus C serotype 10 (strain SA2) OX=10547 GN=L2 PE=3 SV=1
+sp|P06024|GC_SUHVF        8.8      0.61     1   7.6      6    106     22     74    243    293     Envelope glycoprotein C homolog OS=Suid herpesvirus 1 (strain Indiana-Funkhauser / Becker) OX=31523 GN=gC PE=1 SV=1
+sp|Q5UNW8|YL719_MIMIV     7.8       1.2     1  28.0    126    284    180    259    220    293     Uncharacterized protein L719 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L719 PE=4 SV=1
+sp|O12000|UL33_RCMVM      6.5       3.1     1   8.1    353    387    374    385    267    278     G-protein coupled receptor homolog R33 OS=Rat cytomegalovirus (strain Maastricht) OX=79700 PE=3 SV=1
+sp|Q06670|AC83_NPVAC      6.5       3.1     1   9.1    574    746    670    718    267    299     Capsid-associated protein AC83 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=p95 PE=3 SV=1
+sp|P0DOK0|POLSF_SINDV     6.4       3.2     1  13.7     20    112     57    101    263    307     Frameshifted structural polyprotein OS=Sindbis virus OX=11034 PE=1 SV=1
+sp|Q66626|VG23_EHV2       6.2       3.9     1   9.6    145    214    174    198    269    293     Uncharacterized gene 23 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=23 PE=3 SV=1
+sp|P03316|POLS_SINDV      5.8         5     1  13.6     21    112     57    101    263    307     Structural polyprotein OS=Sindbis virus OX=11034 PE=1 SV=1
+sp|Q07048|RDRP_SCV23      5.3       7.1     1  11.6    867    934    884    907    271    294     RNA-directed RNA polymerase OS=Saccharomyces 23S RNA narnavirus OX=198599 PE=1 SV=2
+sp|Q91HK4|POL2_ARMVN      1.0   1.5e+02     1   2.4     36    149     85    115    253    279     RNA2 polyprotein OS=Arabis mosaic virus (isolate NW) OX=282063 PE=3 SV=1
+sp|Q03209|P78_NPVAC      -1.4   7.5e+02     2  56.6    141    271    145    251    241    334     Protein P78/83 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P61 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_308890@NC_007383.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_308890@NC_007383.txt data/models_hmm/YP_308890@NC_007383.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:27 2021
+# [ok]

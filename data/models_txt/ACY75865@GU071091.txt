@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P19727|CAPSB_BPT7   107.7   2.3e-31   1   1.8  17.5    Minor capsid protein OS=Escherichia phage T7 OX=10760 GN=10 PE=1 SV=1
+sp|Q01050|VG52_SHV21    12.2      0.16   1   1.5   0.2    Uncharacterized gene 52 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=52 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P19727|CAPSB_BPT7   106.4   5.8e-31     1  17.5    347    398    347    398      1     54     Minor capsid protein OS=Escherichia phage T7 OX=10760 GN=10 PE=1 SV=1
+sp|Q01050|VG52_SHV21    11.4      0.28     1   0.2     24     65     35     63     18     44     Uncharacterized gene 52 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=52 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ACY75865@GU071091.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ACY75865@GU071091.txt data/models_hmm/ACY75865@GU071091.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:20 2021
+# [ok]

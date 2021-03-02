@@ -1,0 +1,42 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39261|Y05F_BPT4    404.2  4.2e-121   1   1.0   2.5    Uncharacterized 36.7 kDa protein in nrdC-mobD intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y05F PE=4 SV=2
+sp|P17779|RDRP_PVXX3    13.6      0.02   1   1.6   0.2    RNA replication protein OS=Potato virus X (strain X3) OX=12185 PE=3 SV=1
+sp|P22591|RDRP_PVXCP    12.9     0.031   1   1.4   0.1    RNA replication protein OS=Potato virus X (strain CP) OX=12184 PE=3 SV=1
+sp|Q07630|RDRP_PVXHB    12.9     0.032   1   1.4   0.1    RNA replication protein OS=Potato virus X (strain HB) OX=73488 PE=3 SV=1
+sp|P09395|RDRP_PVX      12.8     0.035   2   1.8   0.2    RNA replication protein OS=Potato virus X OX=12183 PE=3 SV=1
+sp|Q6YNQ7|RDRP_BOTVX    11.9     0.065   1   1.2   0.0    RNA replication protein OS=Botrytis virus X (isolate Botrytis cinerea/New Zealand/Howitt/2006) OX=686947 PE=3 SV=1
+sp|Q91TW9|POLG_MRFVC    11.4     0.094   1   1.1   0.0    Genome polyprotein OS=Maize rayado fino virus (isolate Costa Rica/Guapiles) OX=652669 GN=ORF1 PE=4 SV=1
+sp|P0CK24|A565_VACCW    10.7      0.15   1   1.0   0.0    Uncharacterized protein A56.5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=HA PE=3 SV=1
+sp|P19811|RPOA_EAVBU    10.6      0.16   1   1.1   0.0    Replicase polyprotein 1ab OS=Equine arteritis virus (strain Bucyrus) OX=299386 GN=rep PE=1 SV=3
+sp|P20126|POLR_EPMV     10.0      0.25   1   1.1   0.0    RNA replicase polyprotein OS=Eggplant mosaic virus OX=12151 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39261|Y05F_BPT4    404.0  4.6e-121     1   2.5      1    325      1    320     43    370     Uncharacterized 36.7 kDa protein in nrdC-mobD intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y05F PE=4 SV=2
+sp|P09395|RDRP_PVX      12.8     0.035     2   0.2    713    762    721    756    142    177     RNA replication protein OS=Potato virus X OX=12183 PE=3 SV=1
+sp|P17779|RDRP_PVXX3    12.3     0.049     1   0.2    714    762    721    756    142    177     RNA replication protein OS=Potato virus X (strain X3) OX=12185 PE=3 SV=1
+sp|P22591|RDRP_PVXCP    11.9     0.063     1   0.1    714    762    725    756    146    177     RNA replication protein OS=Potato virus X (strain CP) OX=12184 PE=3 SV=1
+sp|Q07630|RDRP_PVXHB    11.9     0.063     1   0.1    714    762    725    756    146    177     RNA replication protein OS=Potato virus X (strain HB) OX=73488 PE=3 SV=1
+sp|Q6YNQ7|RDRP_BOTVX    11.2      0.11     1   0.0    629    673    637    663    150    176     RNA replication protein OS=Botrytis virus X (isolate Botrytis cinerea/New Zealand/Howitt/2006) OX=686947 PE=3 SV=1
+sp|Q91TW9|POLG_MRFVC    10.7      0.15     1   0.0    831    929    871    925    124    170     Genome polyprotein OS=Maize rayado fino virus (isolate Costa Rica/Guapiles) OX=652669 GN=ORF1 PE=4 SV=1
+sp|P0CK24|A565_VACCW    10.7      0.15     1   0.0      1     37      2     19    146    163     Uncharacterized protein A56.5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=HA PE=3 SV=1
+sp|P19811|RPOA_EAVBU    10.0      0.24     1   0.0   2503   2553   2512   2544    140    172     Replicase polyprotein 1ab OS=Equine arteritis virus (strain Bucyrus) OX=299386 GN=rep PE=1 SV=3
+sp|P20126|POLR_EPMV      9.4      0.38     1   0.0    887    988    939    981    130    172     RNA replicase polyprotein OS=Eggplant mosaic virus OX=12151 PE=3 SV=2
+sp|P09395|RDRP_PVX      -3.2   2.4e+03     1   0.5    464    551    498    548     87    137     RNA replication protein OS=Potato virus X OX=12183 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2199034001@TB03JUN2009E_Contig_13@TB03JUN2009E_00013340.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2199034001@TB03JUN2009E_Contig_13@TB03JUN2009E_00013340.txt data/models_hmm/2199034001@TB03JUN2009E_Contig_13@TB03JUN2009E_00013340.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:07 2021
+# [ok]

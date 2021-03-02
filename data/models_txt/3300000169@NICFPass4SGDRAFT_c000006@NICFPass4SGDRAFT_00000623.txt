@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A4ZUD2|Y470_ABVP     13.9     0.025   1   1.4   0.8    Uncharacterized protein ORF470 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF470 PE=4 SV=1
+sp|P15736|VP3_ROTS1     13.3     0.036   1   1.7   0.0    Protein VP3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=3 SV=2
+sp|A2T3S5|VP3_ROTSH     13.3     0.036   1   1.7   0.0    Protein VP3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A4ZUD2|Y470_ABVP     13.2     0.039     1   0.8    261    454    334    443     94    199     Uncharacterized protein ORF470 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF470 PE=4 SV=1
+sp|A2T3S5|VP3_ROTSH     11.8       0.1     1   0.0    126    253    146    238     70    164     Protein VP3 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=1 SV=1
+sp|P15736|VP3_ROTS1     11.8       0.1     1   0.0    126    253    146    238     70    164     Protein VP3 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000169@NICFPass4SGDRAFT_c000006@NICFPass4SGDRAFT_00000623.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000169@NICFPass4SGDRAFT_c000006@NICFPass4SGDRAFT_00000623.txt data/models_hmm/3300000169@NICFPass4SGDRAFT_c000006@NICFPass4SGDRAFT_00000623.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:55 2021
+# [ok]

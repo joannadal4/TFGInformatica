@@ -1,0 +1,94 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O39522|REP_BEYDV     66.0     3e-18   1   1.6   0.7    Replication-associated protein OS=Bean yellow dwarf virus OX=57119 GN=C1/C2 PE=3 SV=2
+sp|P31618|REP_TYDVA     62.6   3.5e-17   2   1.6   1.3    Replication-associated protein OS=Tobacco yellow dwarf virus (strain Australia) OX=31599 GN=C1/C2 PE=3 SV=2
+sp|Q80GM6|REP_SSVN      54.9   8.8e-15   1   1.4   0.9    Replication-associated protein OS=Sugarcane streak virus (isolate South Africa) OX=268781 GN=C1/C2 PE=3 SV=2
+sp|Q67622|REP_WDVS      52.4   5.3e-14   1   1.7   0.8    Replication-associated protein OS=Wheat dwarf virus (isolate Sweden) OX=268789 GN=C1/C2 PE=1 SV=2
+sp|O40986|REP_MSVSE     48.6   8.2e-13   2   2.1   2.7    Replication-associated protein OS=Maize streak virus genotype C (isolate Set) OX=268344 GN=C1/C2 PE=3 SV=2
+sp|Q67590|REP_MISV9     48.6   8.4e-13   1   1.4   0.7    Replication-associated protein OS=Miscanthus streak virus (isolate 91) OX=268776 GN=C1/C2 PE=3 SV=2
+sp|P14989|REP_MSVS      48.2   1.1e-12   2   1.8   3.1    Replication-associated protein OS=Maize streak virus genotype A (isolate South Africa) OX=10824 GN=C1/C2 PE=3 SV=2
+sp|P14978|REP_MSVN      48.1   1.2e-12   2   1.8   3.1    Replication-associated protein OS=Maize streak virus genotype A (isolate Nigeria) OX=10823 GN=C1/C2 PE=3 SV=2
+sp|Q91MG2|REP_MSVPA     48.1   1.2e-12   2   2.0   2.8    Replication-associated protein OS=Maize streak virus genotype E (isolate Pat) OX=268331 GN=C1/C2 PE=3 SV=1
+sp|Q91MF8|REP_MSVRA     48.1   1.2e-12   2   1.9   2.8    Replication-associated protein OS=Maize streak virus genotype D (isolate Raw) OX=268343 GN=C1/C2 PE=3 SV=1
+sp|P14988|REP_MSVK      48.1   1.2e-12   2   1.8   3.1    Replication-associated protein OS=Maize streak virus genotype A (isolate Kenya) OX=10822 GN=C1/C2 PE=3 SV=2
+sp|P0C647|REP_PASVK     46.2   4.7e-12   2   1.7   1.5    Replication-associated protein OS=Panicum streak virus (isolate Kenya) OX=268780 GN=C1/C2 PE=3 SV=1
+sp|Q9IGY7|REP_MSVTA     45.9   5.6e-12   2   1.9   3.2    Replication-associated protein OS=Maize streak virus genotype B (isolate Tas) OX=268409 GN=C1/C2 PE=3 SV=1
+sp|P18919|REP_CSMV      43.2     4e-11   1   1.4   0.1    Replication-associated protein OS=Chloris striate mosaic virus OX=10820 GN=C1/C2 PE=3 SV=2
+sp|P14991|REP_BCTVC     28.3   1.7e-06   1   1.6   0.0    Replication-associated protein OS=Beet curly top virus (strain California/Logan) OX=268960 GN=C1 PE=3 SV=2
+sp|Q88888|REP_TPCTV     24.5   2.7e-05   1   1.5   0.0    Replication-associated protein OS=Tomato pseudo-curly top virus OX=49267 GN=C1 PE=3 SV=1
+sp|P03567|REP_TGMVY     24.4   2.9e-05   1   1.5   0.0    Replication-associated protein OS=Tomato golden mosaic virus (strain Yellow vein) OX=223341 GN=AC1 PE=1 SV=1
+sp|Q96704|REP_CALCV     22.5   0.00011   1   1.5   0.0    Replication-associated protein OS=Cabbage leaf curl virus (isolate Jamaica) OX=345184 GN=AC1 PE=3 SV=2
+sp|P29048|REP_SLCV      22.0   0.00016   1   1.5   0.0    Replication-associated protein OS=Squash leaf curl virus OX=10829 GN=AC1 PE=3 SV=1
+sp|P0CK40|REP_BGYMJ     21.9   0.00017   1   1.5   0.0    Replication-associated protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico-Japan) OX=222449 GN=AC1 PE=1 SV=1
+sp|Q06657|REP_TMOV      19.9   0.00069   1   1.4   0.0    Replication-associated protein OS=Tomato mottle virus (isolate Florida) OX=223359 GN=AC1 PE=3 SV=1
+sp|P0CK39|REP_BGYMV     19.9   0.00072   1   1.5   0.0    Replication-associated protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico) OX=222448 GN=AC1 PE=3 SV=1
+sp|P27258|REP_PYMVV     19.7   0.00086   1   1.5   0.0    Replication-associated protein OS=Potato yellow mosaic virus (isolate Venezuela) OX=223310 GN=AC1 PE=3 SV=1
+sp|P21947|REP_ABMVW     18.7    0.0018   1   1.4   0.0    Replication-associated protein OS=Abutilon mosaic virus (isolate West India) OX=10816 GN=AC1 PE=3 SV=2
+sp|Q06923|REP_PHUV      17.3    0.0045   1   1.5   0.2    Replication-associated protein OS=Pepper huasteco yellow vein virus OX=223303 GN=AC1 PE=3 SV=1
+sp|Q9YPS2|REP_MYMVV     16.0     0.012   1   1.5   0.0    Replication-associated protein OS=Mungbean yellow mosaic virus (strain Vigna) OX=223295 GN=AC1 PE=1 SV=1
+sp|Q82676|REP_ICMV      15.2     0.021   1   1.6   0.0    Replication-associated protein OS=Indian cassava mosaic virus OX=31600 GN=AC1 PE=1 SV=1
+sp|P27260|REP_TYCSV     14.9     0.026   2   1.7   0.1    Replication-associated protein OS=Tomato yellow leaf curl Sardinia virus OX=123735 GN=C1 PE=1 SV=1
+sp|P36279|REP_TLCVA     14.6     0.033   1   1.4   0.0    Replication-associated protein OS=Tomato leaf curl virus (strain Australia) OX=223353 GN=C1 PE=1 SV=1
+sp|P38609|REP_TYCS1     14.5     0.035   2   1.7   0.1    Replication-associated protein OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-1) OX=37139 GN=C1 PE=3 SV=1
+sp|Q67620|REP_TYCS2     14.5     0.035   2   1.7   0.1    Replication-associated protein OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-2) OX=221538 GN=C1 PE=1 SV=1
+sp|P14982|REP_CLVK      14.1     0.046   2   1.7   0.0    Replication-associated protein OS=African cassava mosaic virus (isolate West Kenyan 844) OX=10818 GN=AC1 PE=3 SV=1
+sp|P14972|REP_CLVN      14.0     0.051   2   1.7   0.0    Replication-associated protein OS=African cassava mosaic virus (isolate Nigerian) OX=222073 GN=AC1 PE=3 SV=1
+sp|P27259|REP_TYLCI     13.8     0.056   1   1.5   0.0    Replication-associated protein OS=Tomato yellow leaf curl virus (strain Israel) OX=66366 GN=C1 PE=1 SV=1
+sp|P21100|VC16_VACCC    13.8     0.057   1   1.8   0.1    Protein C16/B22 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B22R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O39522|REP_BEYDV     64.9   6.9e-18     1   0.7    233    328    236    327      6    100     Replication-associated protein OS=Bean yellow dwarf virus OX=57119 GN=C1/C2 PE=3 SV=2
+sp|P31618|REP_TYDVA     62.0   5.4e-17     1   0.6    236    331    239    330      6    100     Replication-associated protein OS=Tobacco yellow dwarf virus (strain Australia) OX=31599 GN=C1/C2 PE=3 SV=2
+sp|Q80GM6|REP_SSVN      54.1   1.6e-14     1   0.9    254    350    257    350      6    101     Replication-associated protein OS=Sugarcane streak virus (isolate South Africa) OX=268781 GN=C1/C2 PE=3 SV=2
+sp|Q67622|REP_WDVS      51.1   1.3e-13     1   0.8    242    340    245    335      5     98     Replication-associated protein OS=Wheat dwarf virus (isolate Sweden) OX=268789 GN=C1/C2 PE=1 SV=2
+sp|P14989|REP_MSVS      47.8   1.5e-12     1   1.8    249    345    252    345      6    101     Replication-associated protein OS=Maize streak virus genotype A (isolate South Africa) OX=10824 GN=C1/C2 PE=3 SV=2
+sp|Q67590|REP_MISV9     47.8   1.5e-12     1   0.7    247    343    251    342      6    100     Replication-associated protein OS=Miscanthus streak virus (isolate 91) OX=268776 GN=C1/C2 PE=3 SV=2
+sp|P14978|REP_MSVN      47.7   1.5e-12     1   1.8    249    345    252    345      6    101     Replication-associated protein OS=Maize streak virus genotype A (isolate Nigeria) OX=10823 GN=C1/C2 PE=3 SV=2
+sp|P14988|REP_MSVK      47.7   1.5e-12     1   1.8    249    345    252    345      6    101     Replication-associated protein OS=Maize streak virus genotype A (isolate Kenya) OX=10822 GN=C1/C2 PE=3 SV=2
+sp|O40986|REP_MSVSE     47.0   2.7e-12     2   2.0    248    344    251    344      6    101     Replication-associated protein OS=Maize streak virus genotype C (isolate Set) OX=268344 GN=C1/C2 PE=3 SV=2
+sp|Q91MG2|REP_MSVPA     46.8   3.1e-12     2   2.0    248    344    251    344      6    101     Replication-associated protein OS=Maize streak virus genotype E (isolate Pat) OX=268331 GN=C1/C2 PE=3 SV=1
+sp|Q91MF8|REP_MSVRA     46.6   3.4e-12     2   2.2    249    345    252    345      6    101     Replication-associated protein OS=Maize streak virus genotype D (isolate Raw) OX=268343 GN=C1/C2 PE=3 SV=1
+sp|P0C647|REP_PASVK     45.7   6.7e-12     1   0.4    255    351    258    350      6    100     Replication-associated protein OS=Panicum streak virus (isolate Kenya) OX=268780 GN=C1/C2 PE=3 SV=1
+sp|Q9IGY7|REP_MSVTA     45.0   1.1e-11     1   2.3    249    345    252    345      6    101     Replication-associated protein OS=Maize streak virus genotype B (isolate Tas) OX=268409 GN=C1/C2 PE=3 SV=1
+sp|P18919|REP_CSMV      42.3   7.6e-11     1   0.1    268    358    276    355     16     97     Replication-associated protein OS=Chloris striate mosaic virus OX=10820 GN=C1/C2 PE=3 SV=2
+sp|P14991|REP_BCTVC     27.2     4e-06     1   0.0    242    340    245    309      6     69     Replication-associated protein OS=Beet curly top virus (strain California/Logan) OX=268960 GN=C1 PE=3 SV=2
+sp|Q88888|REP_TPCTV     23.4   5.9e-05     1   0.0    243    343    255    334     14     87     Replication-associated protein OS=Tomato pseudo-curly top virus OX=49267 GN=C1 PE=3 SV=1
+sp|P03567|REP_TGMVY     23.3   6.1e-05     1   0.0    243    346    255    342     14     95     Replication-associated protein OS=Tomato golden mosaic virus (strain Yellow vein) OX=223341 GN=AC1 PE=1 SV=1
+sp|Q96704|REP_CALCV     21.5   0.00022     1   0.0    240    339    252    307     14     69     Replication-associated protein OS=Cabbage leaf curl virus (isolate Jamaica) OX=345184 GN=AC1 PE=3 SV=2
+sp|P29048|REP_SLCV      21.0   0.00033     1   0.0    238    338    250    332     14     90     Replication-associated protein OS=Squash leaf curl virus OX=10829 GN=AC1 PE=3 SV=1
+sp|P0CK40|REP_BGYMJ     20.9   0.00036     1   0.0    242    334    254    309     14     69     Replication-associated protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico-Japan) OX=222449 GN=AC1 PE=1 SV=1
+sp|Q06657|REP_TMOV      19.1    0.0013     1   0.0    244    337    255    309     15     69     Replication-associated protein OS=Tomato mottle virus (isolate Florida) OX=223359 GN=AC1 PE=3 SV=1
+sp|P0CK39|REP_BGYMV     18.8    0.0015     1   0.0    242    332    253    309     13     69     Replication-associated protein OS=Bean golden yellow mosaic virus (isolate Puerto Rico) OX=222448 GN=AC1 PE=3 SV=1
+sp|P27258|REP_PYMVV     18.7    0.0017     1   0.0    244    338    255    309     15     69     Replication-associated protein OS=Potato yellow mosaic virus (isolate Venezuela) OX=223310 GN=AC1 PE=3 SV=1
+sp|P21947|REP_ABMVW     17.7    0.0035     1   0.0    244    316    254    309     14     69     Replication-associated protein OS=Abutilon mosaic virus (isolate West India) OX=10816 GN=AC1 PE=3 SV=2
+sp|Q06923|REP_PHUV      16.3    0.0092     1   0.2    243    342    253    331     14     88     Replication-associated protein OS=Pepper huasteco yellow vein virus OX=223303 GN=AC1 PE=3 SV=1
+sp|Q9YPS2|REP_MYMVV     15.0     0.024     1   0.0    241    340    252    335     14     93     Replication-associated protein OS=Mungbean yellow mosaic virus (strain Vigna) OX=223295 GN=AC1 PE=1 SV=1
+sp|Q82676|REP_ICMV      13.9     0.052     1   0.0    242    335    253    305     15     69     Replication-associated protein OS=Indian cassava mosaic virus OX=31600 GN=AC1 PE=1 SV=1
+sp|P36279|REP_TLCVA     13.6     0.065     1   0.0    243    341    254    306     15     69     Replication-associated protein OS=Tomato leaf curl virus (strain Australia) OX=223353 GN=C1 PE=1 SV=1
+sp|P27260|REP_TYCSV     13.6     0.066     1   0.0    242    335    253    306     14     69     Replication-associated protein OS=Tomato yellow leaf curl Sardinia virus OX=123735 GN=C1 PE=1 SV=1
+sp|P38609|REP_TYCS1     13.2      0.09     1   0.0    242    334    253    306     14     69     Replication-associated protein OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-1) OX=37139 GN=C1 PE=3 SV=1
+sp|Q67620|REP_TYCS2     13.2      0.09     1   0.0    242    334    253    306     14     69     Replication-associated protein OS=Tomato yellow leaf curl Sardinia virus (isolate Spain-2) OX=221538 GN=C1 PE=1 SV=1
+sp|P27259|REP_TYLCI     12.9      0.11     1   0.0    241    334    252    304     15     69     Replication-associated protein OS=Tomato yellow leaf curl virus (strain Israel) OX=66366 GN=C1 PE=1 SV=1
+sp|P14982|REP_CLVK      12.7      0.13     1   0.0    242    337    254    305     16     69     Replication-associated protein OS=African cassava mosaic virus (isolate West Kenyan 844) OX=10818 GN=AC1 PE=3 SV=1
+sp|P14972|REP_CLVN      12.6      0.14     1   0.0    242    337    253    305     15     69     Replication-associated protein OS=African cassava mosaic virus (isolate Nigerian) OX=222073 GN=AC1 PE=3 SV=1
+sp|P21100|VC16_VACCC    12.4      0.16     1   0.1      9     73     16     60     49     93     Protein C16/B22 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B22R PE=4 SV=1
+sp|O40986|REP_MSVSE     -1.2   2.7e+03     1   0.0    187    219    201    212     77     88     Replication-associated protein OS=Maize streak virus genotype C (isolate Set) OX=268344 GN=C1/C2 PE=3 SV=2
+sp|Q91MF8|REP_MSVRA     -1.3   2.9e+03     1   0.0    190    218    201    211     77     87     Replication-associated protein OS=Maize streak virus genotype D (isolate Raw) OX=268343 GN=C1/C2 PE=3 SV=1
+sp|Q91MG2|REP_MSVPA     -1.7   3.9e+03     1   0.0    194    216    200    210     77     87     Replication-associated protein OS=Maize streak virus genotype E (isolate Pat) OX=268331 GN=C1/C2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004207924@NC_015051.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004207924@NC_015051.txt data/models_hmm/YP_004207924@NC_015051.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:08 2021
+# [ok]

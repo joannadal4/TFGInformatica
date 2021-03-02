@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P10928|BP10_BPT4     54.8   1.1e-14   2   2.5   9.9    Baseplate wedge protein gp10 OS=Enterobacteria phage T4 OX=10665 GN=10 PE=1 SV=1
+sp|Q71AW2|RBP_BPLP2     22.8   5.7e-05   1   1.4   1.4    Receptor binding protein OS=Lactococcus phage p2 OX=254252 GN=rbp PE=1 SV=1
+sp|O21886|RBP_BPLSK     21.6   0.00013   1   1.4   1.2    Receptor binding protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P10928|BP10_BPT4     52.5   5.4e-14     2   7.6    414    602    445    602    216    376     Baseplate wedge protein gp10 OS=Enterobacteria phage T4 OX=10665 GN=10 PE=1 SV=1
+sp|Q71AW2|RBP_BPLP2     22.3     8e-05     1   1.4      6    208     14    131     97    203     Receptor binding protein OS=Lactococcus phage p2 OX=254252 GN=rbp PE=1 SV=1
+sp|O21886|RBP_BPLSK     21.6   0.00013     1   1.2      5    160     14    131     97    203     Receptor binding protein OS=Lactococcus phage SK1 OX=31532 PE=3 SV=1
+sp|P10928|BP10_BPT4     -2.9   3.8e+03     1   0.0    339    352    343    351    241    249     Baseplate wedge protein gp10 OS=Enterobacteria phage T4 OX=10665 GN=10 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001671763@NC_010324.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001671763@NC_010324.txt data/models_hmm/YP_001671763@NC_010324.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:38 2021
+# [ok]

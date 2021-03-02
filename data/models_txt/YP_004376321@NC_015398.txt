@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O10307|ETM_NPVOP     20.4   0.00038   1   1.1   0.0    ECORI-T site protein ETM homolog OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ETM PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O10307|ETM_NPVOP     20.4   0.00039     1   0.0      1    101      3     65      9     72     ECORI-T site protein ETM homolog OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ETM PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004376321@NC_015398.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004376321@NC_015398.txt data/models_hmm/YP_004376321@NC_015398.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:24 2021
+# [ok]

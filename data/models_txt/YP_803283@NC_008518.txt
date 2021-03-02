@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q196Y9|VF259_IIV3     18.7    0.0008   1   1.1   0.0    Uncharacterized protein 071L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-071L PE=3 SV=1
+sp|Q91FR3|VF259_IIV6     15.3    0.0091   1   1.3   0.1    Uncharacterized protein 259R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-259R PE=3 SV=1
+sp|P20535|A27_VACCC      12.1     0.083   1   1.1   0.1    14 kDa fusion protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A27L PE=3 SV=1
+sp|C1JCT1|POL_SINV3      10.8      0.22   1   1.6   2.1    Polyprotein OS=Solenopsis invicta virus 3 OX=631345 PE=1 SV=1
+sp|C1JCT2|POLFS_SINV3    10.3      0.29   1   1.6   2.1    Polyprotein-FSD OS=Solenopsis invicta virus 3 OX=631345 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q196Y9|VF259_IIV3     18.2    0.0011     1   0.0     29    183     37    172     58    190     Uncharacterized protein 071L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-071L PE=3 SV=1
+sp|Q91FR3|VF259_IIV6     14.7     0.014     1   0.1     92    273    125    263     71    205     Uncharacterized protein 259R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-259R PE=3 SV=1
+sp|P20535|A27_VACCC      12.0      0.09     1   0.1      2     99     11     81     29     99     14 kDa fusion protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A27L PE=3 SV=1
+sp|C1JCT1|POL_SINV3       9.5      0.52     1   2.1      6    177     49    149     81    182     Polyprotein OS=Solenopsis invicta virus 3 OX=631345 PE=1 SV=1
+sp|C1JCT2|POLFS_SINV3     9.1      0.72     1   2.1      6    177     49    149     81    182     Polyprotein-FSD OS=Solenopsis invicta virus 3 OX=631345 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_803283@NC_008518.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_803283@NC_008518.txt data/models_hmm/YP_803283@NC_008518.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:52 2021
+# [ok]

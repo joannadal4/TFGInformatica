@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q69560|SCP_HHV6U    114.0   2.2e-33   1   1.0   0.1    Small capsomere-interacting protein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=SCP PE=3 SV=1
+sp|Q9WT32|SCP_HHV6Z    111.3   1.5e-32   1   1.0   0.1    Small capsomere-interacting protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=SCP PE=1 SV=1
+sp|F5HEN7|SCP_HCMVM    102.6   7.8e-30   1   1.0   0.1    Small capsomere-interacting protein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=SCP PE=3 SV=1
+sp|Q7M6N6|SCP_HCMVA    101.8   1.4e-29   1   1.0   0.1    Small capsomere-interacting protein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=SCP PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q69560|SCP_HHV6U    113.9   2.4e-33     1   0.1      1     86      2     85      2     80     Small capsomere-interacting protein OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=SCP PE=3 SV=1
+sp|Q9WT32|SCP_HHV6Z    111.2   1.7e-32     1   0.1      1     87      1     86      1     80     Small capsomere-interacting protein OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=SCP PE=1 SV=1
+sp|F5HEN7|SCP_HCMVM    102.5   8.3e-30     1   0.1      1     75      5     75     10     78     Small capsomere-interacting protein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=SCP PE=3 SV=1
+sp|Q7M6N6|SCP_HCMVA    101.7   1.5e-29     1   0.1      1     75      5     75     10     78     Small capsomere-interacting protein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=SCP PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004936024@NC_012783.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004936024@NC_012783.txt data/models_hmm/YP_004936024@NC_012783.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:50 2021
+# [ok]

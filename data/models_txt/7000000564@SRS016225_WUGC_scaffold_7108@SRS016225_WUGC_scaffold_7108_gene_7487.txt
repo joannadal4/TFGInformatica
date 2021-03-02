@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q70LB5|Y224_AFV1Y     9.5      0.29   1   1.1   0.6    Uncharacterized protein ORF224 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF224 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q70LB5|Y224_AFV1Y     9.1      0.37     1   0.6    123    193    128    162    126    160     Uncharacterized protein ORF224 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF224 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000564@SRS016225_WUGC_scaffold_7108@SRS016225_WUGC_scaffold_7108_gene_7487.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000564@SRS016225_WUGC_scaffold_7108@SRS016225_WUGC_scaffold_7108_gene_7487.txt data/models_hmm/7000000564@SRS016225_WUGC_scaffold_7108@SRS016225_WUGC_scaffold_7108_gene_7487.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:18 2021
+# [ok]

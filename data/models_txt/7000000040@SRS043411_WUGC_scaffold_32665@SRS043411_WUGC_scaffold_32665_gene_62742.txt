@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03298|ICP18_FRG3G    16.3    0.0069   1   1.2   0.0    Immediate-early protein ICP-18 OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-082R PE=4 SV=1
+sp|Q9YPS8|NSP_MYMVV      12.0      0.14   1   1.4   0.0    Nuclear shuttle protein OS=Mungbean yellow mosaic virus (strain Vigna) OX=223295 GN=BR1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03298|ICP18_FRG3G    15.8    0.0099     1   0.0     37    103     56     99    110    152     Immediate-early protein ICP-18 OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-082R PE=4 SV=1
+sp|Q9YPS8|NSP_MYMVV      11.2      0.26     1   0.0    203    252    210    241     15     46     Nuclear shuttle protein OS=Mungbean yellow mosaic virus (strain Vigna) OX=223295 GN=BR1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000040@SRS043411_WUGC_scaffold_32665@SRS043411_WUGC_scaffold_32665_gene_62742.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000040@SRS043411_WUGC_scaffold_32665@SRS043411_WUGC_scaffold_32665_gene_62742.txt data/models_hmm/7000000040@SRS043411_WUGC_scaffold_32665@SRS043411_WUGC_scaffold_32665_gene_62742.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:00 2021
+# [ok]

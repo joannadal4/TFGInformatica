@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6Q1S0|VEMP_CVHNL    15.1      0.02   1   1.1   1.8    Envelope small membrane protein OS=Human coronavirus NL63 OX=277944 GN=E PE=3 SV=1
+sp|P03678|G9P_BPIKE     12.0      0.19   1   1.0   2.6    Tail virion protein G9P OS=Enterobacteria phage IKe OX=10867 GN=IX PE=3 SV=1
+sp|P19191|ORF6_BPCHP     7.2       5.5   1   1.3  11.3    Uncharacterized protein ORF6 OS=Chlamydia phage 1 OX=2003327 GN=ORF6 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6Q1S0|VEMP_CVHNL    14.9     0.023     1   1.8      2     74      7     69     44    107     Envelope small membrane protein OS=Human coronavirus NL63 OX=277944 GN=E PE=3 SV=1
+sp|P03678|G9P_BPIKE     11.9      0.19     1   2.6      3     33      5     32      3     30     Tail virion protein G9P OS=Enterobacteria phage IKe OX=10867 GN=IX PE=3 SV=1
+sp|P19191|ORF6_BPCHP     7.2       5.7     1  10.7     23     78     34     72     52     90     Uncharacterized protein ORF6 OS=Chlamydia phage 1 OX=2003327 GN=ORF6 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000484@SRS016018_WUGC_scaffold_19022@SRS016018_WUGC_scaffold_19022_gene_51716.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000484@SRS016018_WUGC_scaffold_19022@SRS016018_WUGC_scaffold_19022_gene_51716.txt data/models_hmm/7000000484@SRS016018_WUGC_scaffold_19022@SRS016018_WUGC_scaffold_19022_gene_51716.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:39 2021
+# [ok]

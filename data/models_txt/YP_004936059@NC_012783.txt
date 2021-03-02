@@ -1,0 +1,51 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6SW50|CVC1_HCMVM   663.8  1.1e-199   1   1.0   1.1    Capsid vertex component 1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=CVC1 PE=3 SV=1
+sp|P16799|CVC1_HCMVA   658.6  4.3e-198   1   1.0   1.2    Capsid vertex component 1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=CVC1 PE=3 SV=1
+sp|P52360|CVC1_HHV7J   420.0  9.8e-126   1   1.0   0.3    Capsid vertex component 1 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=CVC1 PE=3 SV=1
+sp|P24441|CVC1_HHV6U   414.0  6.5e-124   1   1.0   0.0    Capsid vertex component 1 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=CVC1 PE=3 SV=1
+sp|Q9QJ20|CVC1_HHV6Z   401.4  4.1e-120   1   1.1   0.1    Capsid vertex component 1 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=CVC1 PE=3 SV=1
+sp|Q18LD4|CVC1_ELHVK   374.0  8.6e-112   1   1.0   0.0    Capsid vertex component 1 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 GN=CVC1 PE=3 SV=1
+sp|Q01021|CVC1_SHV21    28.0   6.9e-07   2   2.9   0.1    Capsid vertex component 1 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=CVC1 PE=3 SV=1
+sp|F5HB39|CVC1_HHV8P    25.4   4.1e-06   3   2.3   1.2    Capsid vertex component 1 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=CVC1 PE=1 SV=1
+sp|P09292|CVC1_VZVD     19.3    0.0003   2   2.3   0.0    Capsid vertex component 1 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=CVC1 PE=3 SV=1
+sp|P03222|CVC1_EBVB9    17.0    0.0015   2   2.4   0.0    Capsid vertex component 1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=CVC1 PE=1 SV=1
+sp|Q66635|CVC1_EHV2     16.2    0.0026   2   2.1   0.2    Capsid vertex component 1 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=CVC1 PE=3 SV=2
+sp|O36381|CVC1_ALHV1    11.6     0.067   1   1.5   0.0    Capsid vertex component 1 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=CVC1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6SW50|CVC1_HCMVM   663.6  1.3e-199     1   1.1      1    570      1    570      1    487     Capsid vertex component 1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=CVC1 PE=3 SV=1
+sp|P16799|CVC1_HCMVA   658.4  4.8e-198     1   1.2      1    570      1    570      1    487     Capsid vertex component 1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=CVC1 PE=3 SV=1
+sp|P52360|CVC1_HHV7J   419.8  1.1e-125     1   0.3      1    439      1    439      1    479     Capsid vertex component 1 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=CVC1 PE=3 SV=1
+sp|P24441|CVC1_HHV6U   413.7  7.5e-124     1   0.0      1    442      1    441      1    478     Capsid vertex component 1 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=CVC1 PE=3 SV=1
+sp|Q9QJ20|CVC1_HHV6Z   401.2  4.9e-120     1   0.1      1    442      1    441      1    478     Capsid vertex component 1 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=CVC1 PE=3 SV=1
+sp|Q18LD4|CVC1_ELHVK   373.8  9.9e-112     1   0.0      1    460      1    459      1    483     Capsid vertex component 1 OS=Elephantid herpesvirus 1 (isolate Asian elephant/Berlin/Kiba/1998) OX=654902 GN=CVC1 PE=3 SV=1
+sp|F5HB39|CVC1_HHV8P    21.8   5.3e-05     3   0.0    336    454    359    453    384    476     Capsid vertex component 1 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=CVC1 PE=1 SV=1
+sp|Q01021|CVC1_SHV21    18.9    0.0004     2   0.2    162    441    177    440    201    476     Capsid vertex component 1 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=CVC1 PE=3 SV=1
+sp|P09292|CVC1_VZVD     12.5     0.035     1   0.0      1    163      1    156      1    143     Capsid vertex component 1 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=CVC1 PE=3 SV=1
+sp|Q66635|CVC1_EHV2     12.5     0.036     2   0.1    361    478    414    472    413    471     Capsid vertex component 1 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=CVC1 PE=3 SV=2
+sp|O36381|CVC1_ALHV1    10.6      0.13     1   0.0    351    474    435    473    438    477     Capsid vertex component 1 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=CVC1 PE=3 SV=1
+sp|P03222|CVC1_EBVB9     9.4      0.31     2   0.0    452    505    465    499    440    474     Capsid vertex component 1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=CVC1 PE=1 SV=1
+sp|P03222|CVC1_EBVB9     5.5       4.6     1   0.0     71    442    221    411    195    371     Capsid vertex component 1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=CVC1 PE=1 SV=1
+sp|P09292|CVC1_VZVD      4.4       9.9     2   0.1    616    655    627    647    442    462     Capsid vertex component 1 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=CVC1 PE=3 SV=1
+sp|Q66635|CVC1_EHV2      2.1        50     1   0.0     45    239    196    225    194    223     Capsid vertex component 1 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=CVC1 PE=3 SV=2
+sp|Q01021|CVC1_SHV21     2.0        55     1   0.0     18    145     42    107     55    122     Capsid vertex component 1 OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=CVC1 PE=3 SV=1
+sp|F5HB39|CVC1_HHV8P     1.9        56     1   0.2    174    225    183    206    197    220     Capsid vertex component 1 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=CVC1 PE=1 SV=1
+sp|F5HB39|CVC1_HHV8P    -3.7   2.9e+03     2   0.0    296    331    298    326    312    339     Capsid vertex component 1 OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=CVC1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004936059@NC_012783.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004936059@NC_012783.txt data/models_hmm/YP_004936059@NC_012783.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:51 2021
+# [ok]

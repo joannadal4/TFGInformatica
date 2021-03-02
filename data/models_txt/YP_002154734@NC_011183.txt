@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q1I0U1|VP11_MPRVN    17.6     0.002   1   1.1   0.0    Uncharacterized protein VP11 OS=Micromonas pusilla reovirus (isolate Netherlands/2005) OX=649596 GN=S11 PE=4 SV=1
+sp|P24761|A34_VACCW     12.2     0.089   1   1.3   0.0    Protein A34 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR157 PE=1 SV=1
+sp|P33851|A34_VAR67     12.2      0.09   1   1.3   0.0    Protein A34 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A34R PE=3 SV=1
+sp|P03730|TIPI_LAMBD    10.9      0.22   1   1.2   0.4    Tail tip assembly protein I OS=Escherichia phage lambda OX=10710 GN=I PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q1I0U1|VP11_MPRVN    17.4    0.0022     1   0.0      7    151     19    110     42    143     Uncharacterized protein VP11 OS=Micromonas pusilla reovirus (isolate Netherlands/2005) OX=649596 GN=S11 PE=4 SV=1
+sp|P24761|A34_VACCW     11.6      0.14     1   0.0      4     72     14     51    100    137     Protein A34 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR157 PE=1 SV=1
+sp|P33851|A34_VAR67     11.5      0.14     1   0.0      4     72     14     51    100    137     Protein A34 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A34R PE=3 SV=1
+sp|P03730|TIPI_LAMBD    10.4      0.32     1   0.4     93    179    103    162     70    129     Tail tip assembly protein I OS=Escherichia phage lambda OX=10710 GN=I PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002154734@NC_011183.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002154734@NC_011183.txt data/models_hmm/YP_002154734@NC_011183.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:52 2021
+# [ok]

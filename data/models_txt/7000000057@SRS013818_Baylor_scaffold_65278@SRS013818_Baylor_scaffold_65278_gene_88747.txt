@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21016|F7_VACCC      10.9      0.18   1   1.1   2.6    Protein F7 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F7L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21016|F7_VACCC      10.9      0.18     1   2.6      2     88      4     47    112    154     Protein F7 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F7L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000057@SRS013818_Baylor_scaffold_65278@SRS013818_Baylor_scaffold_65278_gene_88747.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000057@SRS013818_Baylor_scaffold_65278@SRS013818_Baylor_scaffold_65278_gene_88747.txt data/models_hmm/7000000057@SRS013818_Baylor_scaffold_65278@SRS013818_Baylor_scaffold_65278_gene_88747.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:12 2021
+# [ok]

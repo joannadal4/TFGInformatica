@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q80HX7|F11_VACCW    103.0   1.3e-29   1   1.2   0.0    Protein F11 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR050 PE=3 SV=1
+sp|P21052|F11_VACCC    101.9   2.9e-29   1   1.3   0.1    Protein F11 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F11L PE=3 SV=1
+sp|P0DOP5|F11_VAR67     96.9   9.4e-28   1   1.2   0.1    Protein F11 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C15L PE=3 SV=1
+sp|P0DOP6|F11_VARV      96.9   9.4e-28   1   1.2   0.1    Protein F11 OS=Variola virus OX=10255 GN=C15L PE=3 SV=1
+sp|P29888|F11_VACCP     90.4   8.8e-26   1   1.2   0.0    Protein F11 OS=Vaccinia virus (strain L-IVP) OX=31531 GN=F7 PE=3 SV=1
+sp|P36700|F11_FOWPN     30.8   1.1e-07   2   1.8   0.1    Protein F11 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV110 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q80HX7|F11_VACCW    102.6   1.8e-29     1   0.0     47    308     55    265     82    292     Protein F11 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR050 PE=3 SV=1
+sp|P21052|F11_VACCC    101.5   3.9e-29     1   0.1     46    345     55    277     82    305     Protein F11 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F11L PE=3 SV=1
+sp|P0DOP5|F11_VAR67     96.6   1.2e-27     1   0.1     47    328     55    278     82    306     Protein F11 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C15L PE=3 SV=1
+sp|P0DOP6|F11_VARV      96.6   1.2e-27     1   0.1     47    328     55    278     82    306     Protein F11 OS=Variola virus OX=10255 GN=C15L PE=3 SV=1
+sp|P29888|F11_VACCP     90.0   1.2e-25     1   0.0     47    303     55    261     82    292     Protein F11 OS=Vaccinia virus (strain L-IVP) OX=31531 GN=F7 PE=3 SV=1
+sp|P36700|F11_FOWPN     28.7   4.7e-07     1   0.0     90    212    102    199    131    228     Protein F11 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV110 PE=3 SV=2
+sp|P36700|F11_FOWPN     -1.0   4.7e+02     2   0.0    365    432    387    418    206    237     Protein F11 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV110 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_957786@NC_005336.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_957786@NC_005336.txt data/models_hmm/NP_957786@NC_005336.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:46 2021
+# [ok]

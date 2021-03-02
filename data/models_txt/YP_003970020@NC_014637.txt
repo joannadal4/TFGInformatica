@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q66136|RDRP_CMVB     11.4     0.084   1   1.2   0.1    RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain B) OX=117119 GN=ORF2a PE=2 SV=1
+sp|Q83265|RDRP_CMVY     11.4     0.085   1   1.1   0.1    RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain Y) OX=12312 GN=ORF2a PE=3 SV=1
+sp|P16490|RDRP_CMVFN    11.4     0.085   1   1.1   0.1    RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain FNY) OX=12307 GN=ORF2a PE=3 SV=1
+sp|Q66145|RDRP_CMVMB    11.4     0.085   1   1.1   0.1    RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain MB-8) OX=117122 GN=ORF2a PE=3 SV=1
+sp|O40977|RDRP_CMVNT    11.4     0.085   1   1.2   0.1    RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain NT9) OX=117124 GN=ORF2a PE=3 SV=1
+sp|Q96711|RDRP_CMVKO    11.4     0.085   1   1.1   0.1    RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain Kor) OX=117116 GN=ORF2a PE=3 SV=1
+sp|Q83262|RDRP_CMVII    11.4     0.085   1   1.1   0.1    RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain Iizuka) OX=117113 GN=ORF2a PE=3 SV=1
+sp|Q86783|RDRP_CMVK     11.4     0.086   1   1.1   0.1    RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain K) OX=117115 GN=ORF2a PE=3 SV=1
+sp|O39436|RDRP_CMVAS    11.3     0.087   1   1.1   0.1    RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain As) OX=117118 GN=ORF2a PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O40977|RDRP_CMVNT    10.8      0.12     1   0.1    376    453    392    438    362    409     RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain NT9) OX=117124 GN=ORF2a PE=3 SV=1
+sp|P16490|RDRP_CMVFN    10.8      0.12     1   0.1    376    453    392    438    362    409     RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain FNY) OX=12307 GN=ORF2a PE=3 SV=1
+sp|Q66136|RDRP_CMVB     10.8      0.12     1   0.1    376    453    392    438    362    409     RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain B) OX=117119 GN=ORF2a PE=2 SV=1
+sp|Q66145|RDRP_CMVMB    10.8      0.12     1   0.1    376    453    392    438    362    409     RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain MB-8) OX=117122 GN=ORF2a PE=3 SV=1
+sp|Q83262|RDRP_CMVII    10.8      0.12     1   0.1    376    453    392    438    362    409     RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain Iizuka) OX=117113 GN=ORF2a PE=3 SV=1
+sp|Q83265|RDRP_CMVY     10.8      0.12     1   0.1    376    453    392    438    362    409     RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain Y) OX=12312 GN=ORF2a PE=3 SV=1
+sp|Q96711|RDRP_CMVKO    10.8      0.12     1   0.1    376    453    392    438    362    409     RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain Kor) OX=117116 GN=ORF2a PE=3 SV=1
+sp|O39436|RDRP_CMVAS    10.8      0.13     1   0.1    376    453    392    438    362    409     RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain As) OX=117118 GN=ORF2a PE=3 SV=1
+sp|Q86783|RDRP_CMVK     10.8      0.13     1   0.1    376    453    392    438    362    409     RNA-directed RNA polymerase 2a OS=Cucumber mosaic virus (strain K) OX=117115 GN=ORF2a PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003970020@NC_014637.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003970020@NC_014637.txt data/models_hmm/YP_003970020@NC_014637.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:53 2021
+# [ok]

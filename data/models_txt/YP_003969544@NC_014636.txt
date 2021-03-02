@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQL7|CAPS1_MIMIV    16.7    0.0055   2   2.3   0.1    Capsid protein 1 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L425 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQL7|CAPS1_MIMIV    13.3     0.066     2   0.1    402    466    416    451     23     58     Capsid protein 1 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L425 PE=1 SV=2
+sp|Q5UQL7|CAPS1_MIMIV     0.4   7.1e+02     1   0.0    205    255    217    234     36     53     Capsid protein 1 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L425 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003969544@NC_014636.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003969544@NC_014636.txt data/models_hmm/YP_003969544@NC_014636.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:48 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64325|COMPL_BPN15   294.4   4.1e-88   1   1.0   8.4    Tail completion protein OS=Escherichia phage N15 OX=40631 GN=gene 11 PE=3 SV=1
+sp|P03731|COMPL_LAMBD   282.3   2.1e-84   1   1.0  14.1    Tail completion protein Z OS=Escherichia phage lambda OX=10710 GN=Z PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64325|COMPL_BPN15   294.2   4.6e-88     1   8.4      1    184      1    184      1    193     Tail completion protein OS=Escherichia phage N15 OX=40631 GN=gene 11 PE=3 SV=1
+sp|P03731|COMPL_LAMBD   282.0   2.5e-84     1  14.1      1    192      1    192      1    193     Tail completion protein Z OS=Escherichia phage lambda OX=10710 GN=Z PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_046906@NC_001901.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_046906@NC_001901.txt data/models_hmm/NP_046906@NC_001901.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:26 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O55765|175R_IIV6     11.9     0.066   1   1.1   0.3    Putative RING finger protein 175R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-175R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O55765|175R_IIV6     11.8     0.072     1   0.3      3    111     49     92    362    404     Putative RING finger protein 175R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-175R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000115@SRS055378_LANL_scaffold_5805@SRS055378_LANL_scaffold_5805_gene_5241.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000115@SRS055378_LANL_scaffold_5805@SRS055378_LANL_scaffold_5805_gene_5241.txt data/models_hmm/7000000115@SRS055378_LANL_scaffold_5805@SRS055378_LANL_scaffold_5805_gene_5241.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:33 2021
+# [ok]

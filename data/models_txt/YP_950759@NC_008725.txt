@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P34051|VP47_NPVAC   570.9  1.3e-171   1   1.0  13.5    DNA-directed RNA polymerase subunit p47 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P47 PE=1 SV=1
+sp|O10300|VP47_NPVOP   558.5  7.4e-168   1   1.0   3.5    Viral transcription regulator p47 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P47 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P34051|VP47_NPVAC   570.7  1.5e-171     1  13.5      1    396      1    395      5    395     DNA-directed RNA polymerase subunit p47 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P47 PE=1 SV=1
+sp|O10300|VP47_NPVOP   558.4  8.4e-168     1   3.5      2    399      5    398      4    394     Viral transcription regulator p47 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P47 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_950759@NC_008725.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_950759@NC_008725.txt data/models_hmm/YP_950759@NC_008725.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:56 2021
+# [ok]

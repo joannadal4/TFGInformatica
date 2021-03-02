@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q38169|Y14D_BPT6     13.6     0.046   1   1.4   0.2    Uncharacterized 14.8 kDa protein in frd-Gp32 intergenic region OS=Enterobacteria phage T6 OX=10666 GN=frd.2 PE=4 SV=1
+sp|P19304|YORT_TTV1K    12.3      0.11   3   2.2   0.2    Uncharacterized 38.7 kDa protein OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38169|Y14D_BPT6     12.9     0.077     1   0.2     20     86     26     64      8     44     Uncharacterized 14.8 kDa protein in frd-Gp32 intergenic region OS=Enterobacteria phage T6 OX=10666 GN=frd.2 PE=4 SV=1
+sp|P19304|YORT_TTV1K    12.3      0.11     2   0.2     18     65     20     60     31     69     Uncharacterized 38.7 kDa protein OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+sp|P19304|YORT_TTV1K    -2.3   4.1e+03     3   0.1     85    123     89    118     29     57     Uncharacterized 38.7 kDa protein OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+sp|P19304|YORT_TTV1K    -3.5   9.7e+03     1   0.0      2     16      3     15     59     71     Uncharacterized 38.7 kDa protein OS=Thermoproteus tenax virus 1 (strain KRA1) OX=10480 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000584@SRS049318_LANL_scaffold_65252@SRS049318_LANL_scaffold_65252_gene_82890.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000584@SRS049318_LANL_scaffold_65252@SRS049318_LANL_scaffold_65252_gene_82890.txt data/models_hmm/7000000584@SRS049318_LANL_scaffold_65252@SRS049318_LANL_scaffold_65252_gene_82890.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:27 2021
+# [ok]

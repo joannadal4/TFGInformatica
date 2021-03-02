@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8QNT0|DPOL_ADES1    11.7      0.15   4   3.1   0.1    DNA polymerase OS=Snake adenovirus serotype 1 OX=189830 GN=POL PE=3 SV=2
+sp|Q65946|DPOL_ADECC    10.3      0.42   2   2.5   2.1    DNA polymerase OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=POL PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8QNT0|DPOL_ADES1     6.5       6.4     1   0.1    102    146    108    138     23     53     DNA polymerase OS=Snake adenovirus serotype 1 OX=189830 GN=POL PE=3 SV=2
+sp|Q65946|DPOL_ADECC     4.8        21     1   0.4    165    200    175    194     34     53     DNA polymerase OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=POL PE=3 SV=1
+sp|Q65946|DPOL_ADECC     4.2        33     2   0.1    988   1016    999   1013     25     39     DNA polymerase OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=POL PE=3 SV=1
+sp|Q8QNT0|DPOL_ADES1     0.9   3.5e+02     3   0.0    898    942    903    937      9     38     DNA polymerase OS=Snake adenovirus serotype 1 OX=189830 GN=POL PE=3 SV=2
+sp|Q8QNT0|DPOL_ADES1    -2.2   3.2e+03     4   0.0    951    975    958    970     32     44     DNA polymerase OS=Snake adenovirus serotype 1 OX=189830 GN=POL PE=3 SV=2
+sp|Q8QNT0|DPOL_ADES1    -4.1   1.3e+04     2   0.0    861    882    865    879     39     53     DNA polymerase OS=Snake adenovirus serotype 1 OX=189830 GN=POL PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002014690@NC_011057.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002014690@NC_011057.txt data/models_hmm/YP_002014690@NC_011057.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:50 2021
+# [ok]

@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9QJ14|U91_HHV6Z      13.0     0.052   2   2.0   3.9    Protein U91 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U91 PE=4 SV=1
+sp|P27380|EXLYS_BPPRD    13.0     0.053   1   1.2   0.0    Transglycosylase OS=Enterobacteria phage PRD1 OX=10658 GN=VII PE=1 SV=3
+sp|Q65223|P17_ASFM2      11.9      0.11   1   1.3   0.1    Major structural protein p17 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-115 PE=3 SV=1
+sp|F5HHQ0|GN_HCMVM       10.9      0.22   1   1.2   5.5    Envelope glycoprotein N OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gN PE=3 SV=1
+sp|Q5UQF7|YR489_MIMIV     7.7       2.1   2   1.9   6.9    Uncharacterized protein R489 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R489 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27380|EXLYS_BPPRD    12.4     0.082     1   0.0    166    263    180    260     74    152     Transglycosylase OS=Enterobacteria phage PRD1 OX=10658 GN=VII PE=1 SV=3
+sp|Q65223|P17_ASFM2      11.8      0.12     1   0.1     11    114     37     81    110    154     Major structural protein p17 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-115 PE=3 SV=1
+sp|Q5UQF7|YR489_MIMIV    11.5      0.15     1   0.7      2    102      8     87    113    191     Uncharacterized protein R489 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R489 PE=1 SV=1
+sp|F5HHQ0|GN_HCMVM       10.5       0.3     1   5.5      3     89      9     66    123    179     Envelope glycoprotein N OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=gN PE=3 SV=1
+sp|Q9QJ14|U91_HHV6Z       8.7       1.1     1   1.7      4     97     14     82    105    174     Protein U91 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U91 PE=4 SV=1
+sp|Q9QJ14|U91_HHV6Z       4.7        18     2   0.0     93    148    102    139    114    151     Protein U91 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U91 PE=4 SV=1
+sp|Q5UQF7|YR489_MIMIV    -0.5   6.8e+02     2   1.0     83    142    102    135     56     88     Uncharacterized protein R489 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R489 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000110@SRS011098_Baylor_scaffold_3534@SRS011098_Baylor_scaffold_3534_gene_3925.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000110@SRS011098_Baylor_scaffold_3534@SRS011098_Baylor_scaffold_3534_gene_3925.txt data/models_hmm/7000000110@SRS011098_Baylor_scaffold_3534@SRS011098_Baylor_scaffold_3534_gene_3925.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:29 2021
+# [ok]

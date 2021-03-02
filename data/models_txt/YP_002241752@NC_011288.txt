@@ -1,0 +1,36 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P12494|GAG_HV1J3     13.0     0.042   2   2.2   0.4    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate JH32) OX=11694 GN=gag PE=3 SV=3
+sp|P12498|POL_HV1J3     12.7     0.052   2   2.2   0.7    Gag-Pol polyprotein (Fragment) OS=Human immunodeficiency virus type 1 group M subtype B (isolate JH32) OX=11694 GN=gag-pol PE=3 SV=4
+sp|P04591|GAG_HV1H2     11.9     0.089   2   2.2   1.2    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=gag PE=1 SV=3
+sp|P03347|GAG_HV1B1     11.8     0.094   2   2.3   0.8    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=gag PE=1 SV=3
+sp|P03348|GAG_HV1BR     11.7       0.1   2   2.3   0.5    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRU/LAI) OX=11686 GN=gag PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P12494|GAG_HV1J3      6.7       3.5     1   0.0     65    134     80    123    211    254     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate JH32) OX=11694 GN=gag PE=3 SV=3
+sp|P12498|POL_HV1J3      6.6       3.8     1   0.0     65    134     80    123    211    254     Gag-Pol polyprotein (Fragment) OS=Human immunodeficiency virus type 1 group M subtype B (isolate JH32) OX=11694 GN=gag-pol PE=3 SV=4
+sp|P03347|GAG_HV1B1      6.0       5.7     1   0.0     66    134     80    122    211    253     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=gag PE=1 SV=3
+sp|P03348|GAG_HV1BR      6.0       5.7     1   0.0     66    134     80    122    211    253     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRU/LAI) OX=11686 GN=gag PE=1 SV=3
+sp|P04591|GAG_HV1H2      5.8       6.3     1   0.1     66    131     80    122    211    253     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=gag PE=1 SV=3
+sp|P04591|GAG_HV1H2      4.6        15     2   0.1    347    433    374    423     86    139     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate HXB2) OX=11706 GN=gag PE=1 SV=3
+sp|P12498|POL_HV1J3      4.3        18     2   0.1    347    460    369    423     81    139     Gag-Pol polyprotein (Fragment) OS=Human immunodeficiency virus type 1 group M subtype B (isolate JH32) OX=11694 GN=gag-pol PE=3 SV=4
+sp|P12494|GAG_HV1J3      4.2        20     2   0.1    347    434    369    423     81    139     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate JH32) OX=11694 GN=gag PE=3 SV=3
+sp|P03347|GAG_HV1B1      4.0        23     2   0.1    348    434    395    423    111    139     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BH10) OX=11678 GN=gag PE=1 SV=3
+sp|P03348|GAG_HV1BR      3.6        30     2   0.1    348    435    379    423     91    139     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRU/LAI) OX=11686 GN=gag PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002241752@NC_011288.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002241752@NC_011288.txt data/models_hmm/YP_002241752@NC_011288.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:57 2021
+# [ok]

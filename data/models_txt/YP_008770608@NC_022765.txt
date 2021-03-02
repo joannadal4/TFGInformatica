@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O55736|122R_IIV6      15.3     0.017   2   2.3   1.7    Uncharacterized protein 122R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-122R PE=4 SV=1
+sp|Q5UQF6|YL490_MIMIV    10.3      0.61   6   4.6   0.0    Uncharacterized protein L490 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L490 PE=4 SV=1
+sp|Q5UQ42|YR392_MIMIV     8.1       2.8   3   3.7  10.3    Uncharacterized protein R392 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R392 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O55736|122R_IIV6      11.4      0.28     1   0.1      1     75      1     50      1     52     Uncharacterized protein 122R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-122R PE=4 SV=1
+sp|Q5UQF6|YL490_MIMIV    10.3      0.61     4   0.0    231    291    242    280     12     50     Uncharacterized protein L490 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L490 PE=4 SV=1
+sp|Q5UQ42|YR392_MIMIV     9.0       1.5     2   3.0    154    243    157    241     11     85     Uncharacterized protein R392 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R392 PE=4 SV=1
+sp|Q5UQF6|YL490_MIMIV     3.5        80     1   1.7      4     91      9     42     11     44     Uncharacterized protein L490 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L490 PE=4 SV=1
+sp|O55736|122R_IIV6       3.4        83     2   0.1     92    137    102    126     35     59     Uncharacterized protein 122R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-122R PE=4 SV=1
+sp|Q5UQ42|YR392_MIMIV     0.7   6.1e+02     3   0.1    330    399    333    370      5     41     Uncharacterized protein R392 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R392 PE=4 SV=1
+sp|Q5UQF6|YL490_MIMIV    -0.8   1.8e+03     3   0.1    184    241    193    230     19     54     Uncharacterized protein L490 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L490 PE=4 SV=1
+sp|Q5UQF6|YL490_MIMIV    -0.9   1.9e+03     2   0.1    160    205    164    179     12     27     Uncharacterized protein L490 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L490 PE=4 SV=1
+sp|Q5UQ42|YR392_MIMIV    -2.0   4.2e+03     1   0.0     71    140    103    108     33     38     Uncharacterized protein R392 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R392 PE=4 SV=1
+sp|Q5UQF6|YL490_MIMIV    -2.1   4.3e+03     5   0.2    328    362    341    358     27     44     Uncharacterized protein L490 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L490 PE=4 SV=1
+sp|Q5UQF6|YL490_MIMIV    -2.6   6.3e+03     6   0.0    437    484    459    476     51     68     Uncharacterized protein L490 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L490 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008770608@NC_022765.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008770608@NC_022765.txt data/models_hmm/YP_008770608@NC_022765.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:28 2021
+# [ok]

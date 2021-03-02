@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP76|YL611_MIMIV    11.7      0.11   1   1.2   0.1    Uncharacterized protein L611 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L611 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UP76|YL611_MIMIV    10.9      0.19     1   0.1    706    813    712    805     29    121     Uncharacterized protein L611 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L611 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002154632@NC_011183.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002154632@NC_011183.txt data/models_hmm/YP_002154632@NC_011183.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:51 2021
+# [ok]

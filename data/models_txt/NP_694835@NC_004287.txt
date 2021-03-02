@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P05840|VNS1_BMDNV   382.0  3.6e-114   1   1.5  18.8    Putative non-structural protein OS=Bombyx mori densovirus OX=10809 PE=4 SV=2
+sp|P19194|B_BPCHP       13.5     0.022   1   1.1   0.0    Internal scaffolding protein VP3 OS=Chlamydia phage 1 OX=2003327 GN=ORF3 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P05840|VNS1_BMDNV   380.8  8.4e-114     1  18.8     84    451     88    447     42    407     Putative non-structural protein OS=Bombyx mori densovirus OX=10809 PE=4 SV=2
+sp|P19194|B_BPCHP       13.5     0.023     1   0.0     13    143     66    139    160    229     Internal scaffolding protein VP3 OS=Chlamydia phage 1 OX=2003327 GN=ORF3 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_694835@NC_004287.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_694835@NC_004287.txt data/models_hmm/NP_694835@NC_004287.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:18 2021
+# [ok]

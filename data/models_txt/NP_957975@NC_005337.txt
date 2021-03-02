@@ -1,0 +1,53 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q775T6|D3_CAMPS      27.1   2.8e-06   2   2.1   0.0    27 kDa core protein OS=Camelpox virus (strain CMS) OX=203172 GN=CMP105R PE=2 SV=1
+sp|Q8V2R6|D3_CAMPM      27.1   2.8e-06   2   2.1   0.0    27 kDa core protein OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV105 PE=2 SV=1
+sp|P04302|D3_VACCW      26.1   5.5e-06   2   2.1   0.0    Core protein D3 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR108 PE=2 SV=1
+sp|Q9JFA5|D3_VACCT      26.1   5.5e-06   2   2.1   0.0    Core protein D3 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TD3R PE=2 SV=1
+sp|P21009|D3_VACCC      25.5   8.1e-06   2   2.1   0.0    Core protein D3 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D3R PE=2 SV=1
+sp|Q6RZJ4|D3_RABPU      25.1   1.1e-05   2   2.1   0.0    27 kDa core protein OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV097 PE=2 SV=1
+sp|O57210|D3_VACCA      24.8   1.4e-05   2   2.1   0.0    Core protein D3 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA100R PE=2 SV=1
+sp|P0DSQ9|D3_VAR67      23.2   4.1e-05   2   2.1   0.0    Core protein D3 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=D3R PE=2 SV=1
+sp|P0DSR0|D3_VARV       23.2   4.1e-05   2   2.1   0.0    Core protein D3 OS=Variola virus OX=10255 GN=D3R PE=2 SV=1
+sp|P25952|D3_RFVKA      18.0    0.0017   2   2.1   0.0    Core protein D3 homolog OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=D5R PE=2 SV=1
+sp|Q8V3L7|D3_SWPV1      14.5      0.02   1   1.1   0.0    27 kDa core protein OS=Swinepox virus (strain Swine/Nebraska/17077-99/1999) OX=300880 GN=SPV078 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DSQ9|D3_VAR67      16.4    0.0051     2   0.0    194    236    200    232    178    215     Core protein D3 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=D3R PE=2 SV=1
+sp|P0DSR0|D3_VARV       16.4    0.0051     2   0.0    194    236    200    232    178    215     Core protein D3 OS=Variola virus OX=10255 GN=D3R PE=2 SV=1
+sp|Q775T6|D3_CAMPS      16.4    0.0051     2   0.0    194    236    200    232    178    215     27 kDa core protein OS=Camelpox virus (strain CMS) OX=203172 GN=CMP105R PE=2 SV=1
+sp|Q8V2R6|D3_CAMPM      16.4    0.0051     2   0.0    194    236    200    232    178    215     27 kDa core protein OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV105 PE=2 SV=1
+sp|O57210|D3_VACCA      14.9     0.014     2   0.0    190    233    196    229    178    216     Core protein D3 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA100R PE=2 SV=1
+sp|P04302|D3_VACCW      14.9     0.015     2   0.0    194    237    200    233    178    216     Core protein D3 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR108 PE=2 SV=1
+sp|P21009|D3_VACCC      14.9     0.015     2   0.0    194    237    200    233    178    216     Core protein D3 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D3R PE=2 SV=1
+sp|Q6RZJ4|D3_RABPU      14.9     0.015     2   0.0    194    237    200    233    178    216     27 kDa core protein OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV097 PE=2 SV=1
+sp|Q9JFA5|D3_VACCT      14.9     0.015     2   0.0    194    237    200    233    178    216     Core protein D3 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TD3R PE=2 SV=1
+sp|Q8V3L7|D3_SWPV1      14.0     0.027     1   0.0    197    243    203    238    180    214     27 kDa core protein OS=Swinepox virus (strain Swine/Nebraska/17077-99/1999) OX=300880 GN=SPV078 PE=2 SV=1
+sp|P25952|D3_RFVKA      12.9     0.059     2   0.0    171    241    201    235    180    214     Core protein D3 homolog OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=D5R PE=2 SV=1
+sp|P04302|D3_VACCW       9.2      0.81     1   0.0     36    110     41    100     41    102     Core protein D3 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR108 PE=2 SV=1
+sp|Q9JFA5|D3_VACCT       9.2      0.81     1   0.0     36    110     41    100     41    102     Core protein D3 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TD3R PE=2 SV=1
+sp|P21009|D3_VACCC       8.6       1.2     1   0.0     36    110     41     95     41     96     Core protein D3 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=D3R PE=2 SV=1
+sp|Q775T6|D3_CAMPS       8.6       1.2     1   0.0     33    110     41     95     41     96     27 kDa core protein OS=Camelpox virus (strain CMS) OX=203172 GN=CMP105R PE=2 SV=1
+sp|Q8V2R6|D3_CAMPM       8.6       1.2     1   0.0     33    110     41     95     41     96     27 kDa core protein OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV105 PE=2 SV=1
+sp|Q6RZJ4|D3_RABPU       8.3       1.5     1   0.0     33    110     41     95     41     96     27 kDa core protein OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV097 PE=2 SV=1
+sp|O57210|D3_VACCA       7.8       2.1     1   0.0     33    105     41     93     41     94     Core protein D3 OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA100R PE=2 SV=1
+sp|P0DSQ9|D3_VAR67       4.7        19     1   0.0     33    107     41     95     41     96     Core protein D3 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=D3R PE=2 SV=1
+sp|P0DSR0|D3_VARV        4.7        19     1   0.0     33    107     41     95     41     96     Core protein D3 OS=Variola virus OX=10255 GN=D3R PE=2 SV=1
+sp|P25952|D3_RFVKA       3.2        56     1   0.0     40    108     45     96     43     95     Core protein D3 homolog OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=D5R PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_957975@NC_005337.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_957975@NC_005337.txt data/models_hmm/NP_957975@NC_005337.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:47 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQ35|YR811_MIMIV    39.1     4e-10   1   1.4   0.2    Putative ariadne-like RING finger protein R811 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R811 PE=4 SV=1
+sp|Q65246|APE_ASFM2      11.6      0.09   1   1.7   0.1    Probable AP endonuclease OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-142 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQ35|YR811_MIMIV    38.2   7.5e-10     1   0.2      1    233      3    190     50    231     Putative ariadne-like RING finger protein R811 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R811 PE=4 SV=1
+sp|Q65246|APE_ASFM2      10.0      0.28     1   0.1     43    181     48     87     64    107     Probable AP endonuclease OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-142 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000646@SRS015960_WUGC_scaffold_12805@SRS015960_WUGC_scaffold_12805_gene_29249.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000646@SRS015960_WUGC_scaffold_12805@SRS015960_WUGC_scaffold_12805_gene_29249.txt data/models_hmm/7000000646@SRS015960_WUGC_scaffold_12805@SRS015960_WUGC_scaffold_12805_gene_29249.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:43 2021
+# [ok]

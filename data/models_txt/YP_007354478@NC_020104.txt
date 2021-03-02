@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQR1|YR321_MIMIV   125.1   3.7e-36   1   1.6  29.1    Uncharacterized protein R321 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R321 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQR1|YR321_MIMIV   123.9   8.5e-36     1  29.1      6    203     27    203     14    204     Uncharacterized protein R321 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R321 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007354478@NC_020104.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007354478@NC_020104.txt data/models_hmm/YP_007354478@NC_020104.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:48 2021
+# [ok]

@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39249|Y16N_BPT4     17.5    0.0024   1   1.4   0.7    Uncharacterized 5.0 kDa protein in ndd-denB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16N PE=4 SV=2
+sp|Q83441|VP7_ROTMB     10.3      0.43   2   2.5   5.1    Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Mouse/United States/Eb/1982/G16P10[16]) OX=578842 PE=3 SV=1
+sp|Q83446|VP7_ROTME      9.4      0.81   2   2.4   5.1    Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Mouse/Brazil/EHP/1981/G16P[20]) OX=578840 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39249|Y16N_BPT4     16.9    0.0038     1   0.7      2     26      7     26     19     38     Uncharacterized 5.0 kDa protein in ndd-denB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16N PE=4 SV=2
+sp|Q83441|VP7_ROTMB     10.8       0.3     2   0.8     27     46     28     45     19     36     Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Mouse/United States/Eb/1982/G16P10[16]) OX=578842 PE=3 SV=1
+sp|Q83446|VP7_ROTME     10.2      0.48     2   0.8     25     47     28     45     19     36     Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Mouse/Brazil/EHP/1981/G16P[20]) OX=578840 PE=3 SV=1
+sp|Q83441|VP7_ROTMB      0.2   6.3e+02     1   0.2      1      9      2      8      4     10     Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Mouse/United States/Eb/1982/G16P10[16]) OX=578842 PE=3 SV=1
+sp|Q83446|VP7_ROTME      0.2   6.3e+02     1   0.2      1      9      2      8      4     10     Outer capsid glycoprotein VP7 OS=Rotavirus A (isolate RVA/Mouse/Brazil/EHP/1981/G16P[20]) OX=578840 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008857429@NC_022968.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008857429@NC_022968.txt data/models_hmm/YP_008857429@NC_022968.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:38 2021
+# [ok]

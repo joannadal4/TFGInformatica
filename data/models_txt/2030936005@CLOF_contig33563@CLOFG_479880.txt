@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQG2|YL498_MIMIV    13.1     0.096   1   1.5   0.2    Probable zinc-type alcohol dehydrogenase-like protein L498 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L498 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQG2|YL498_MIMIV    12.0      0.21     1   0.2    262    319    265    309     15     58     Probable zinc-type alcohol dehydrogenase-like protein L498 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L498 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2030936005@CLOF_contig33563@CLOFG_479880.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2030936005@CLOF_contig33563@CLOFG_479880.txt data/models_hmm/2030936005@CLOF_contig33563@CLOFG_479880.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:21 2021
+# [ok]

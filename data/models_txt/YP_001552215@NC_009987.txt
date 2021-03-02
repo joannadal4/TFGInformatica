@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q88422|ORF7_SPV1C   185.9     1e-55   1   1.0  10.4    Uncharacterized protein ORF7 OS=Spiroplasma virus SpV1-C74 OX=185959 GN=ORF7 PE=3 SV=1
+sp|P15898|ORF7_SPV1R   181.4   2.5e-54   1   1.0   8.9    Uncharacterized protein ORF7 OS=Spiroplasma virus SpV1-R8A2 B OX=10854 GN=ORF7 PE=3 SV=2
+sp|O56860|GAG_FFV       11.8      0.23   2   1.7   0.1    Gag polyprotein OS=Feline foamy virus OX=53182 GN=gag PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q88422|ORF7_SPV1C   185.7   1.1e-55     1  10.4      1     83      1     83      1     83     Uncharacterized protein ORF7 OS=Spiroplasma virus SpV1-C74 OX=185959 GN=ORF7 PE=3 SV=1
+sp|P15898|ORF7_SPV1R   181.3   2.8e-54     1   8.9      1     83      1     83      1     83     Uncharacterized protein ORF7 OS=Spiroplasma virus SpV1-R8A2 B OX=10854 GN=ORF7 PE=3 SV=2
+sp|O56860|GAG_FFV       10.4      0.59     1   0.0    216    270    221    256      9     43     Gag polyprotein OS=Feline foamy virus OX=53182 GN=gag PE=1 SV=1
+sp|O56860|GAG_FFV       -2.3   5.5e+03     2   0.0    260    297    271    292     39     60     Gag polyprotein OS=Feline foamy virus OX=53182 GN=gag PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001552215@NC_009987.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001552215@NC_009987.txt data/models_hmm/YP_001552215@NC_009987.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:32 2021
+# [ok]

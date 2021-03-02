@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q2HR63|SCP_HHV8P     218.9   3.8e-65   1   1.0   1.0    Small capsomere-interacting protein OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=SCP PE=1 SV=1
+sp|Q66667|SCP_EHV2      189.2   5.4e-56   1   1.3   0.5    Small capsomere-interacting protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=SCP PE=3 SV=1
+sp|Q01047|SCP_SHV21     163.2   5.5e-48   1   1.8   3.3    Small capsomere-interacting protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=SCP PE=3 SV=1
+sp|P14348|SCP_EBVB9      86.9   1.6e-24   1   1.7  15.8    Small capsomere-interacting protein OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=SCP PE=1 SV=1
+sp|O36415|SCP_ALHV1      26.7   5.2e-06   2   2.8  26.8    Small capsomere-interacting protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=SCP PE=3 SV=1
+sp|Q5UQ05|YR790_MIMIV    19.0    0.0013   1   1.2   0.2    Uncharacterized protein R790 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R790 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q2HR63|SCP_HHV8P     218.8   4.3e-65     1   1.0      1    170      1    170      1    158     Small capsomere-interacting protein OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=SCP PE=1 SV=1
+sp|Q66667|SCP_EHV2      188.6   8.3e-56     1   0.5      1    177     20    177      6    160     Small capsomere-interacting protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=SCP PE=3 SV=1
+sp|Q01047|SCP_SHV21     161.0   2.6e-47     1   3.3      1    139      1    139      1    160     Small capsomere-interacting protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=SCP PE=3 SV=1
+sp|P14348|SCP_EBVB9      85.0   6.3e-24     1  15.8      1    176      3    154      4    148     Small capsomere-interacting protein OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=SCP PE=1 SV=1
+sp|O36415|SCP_ALHV1      25.8     1e-05     1  22.8      1    185      1    158      1    150     Small capsomere-interacting protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=SCP PE=3 SV=1
+sp|Q5UQ05|YR790_MIMIV    18.4    0.0018     1   0.2     58    114     70    110     21     61     Uncharacterized protein R790 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R790 PE=4 SV=1
+sp|O36415|SCP_ALHV1      -1.8   3.1e+03     2   3.4    160    245    169    236     85    154     Small capsomere-interacting protein OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=SCP PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001129422@NC_009333.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001129422@NC_009333.txt data/models_hmm/YP_001129422@NC_009333.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:04 2021
+# [ok]

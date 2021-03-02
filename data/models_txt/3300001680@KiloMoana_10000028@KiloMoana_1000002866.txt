@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQQ5|YR858_MIMIV    10.9      0.22   2   2.2   1.1    Putative ankyrin repeat protein R858 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R858 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQQ5|YR858_MIMIV     5.2        12     2   0.1    302    375    305    358     65    112     Putative ankyrin repeat protein R858 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R858 PE=4 SV=1
+sp|Q5UQQ5|YR858_MIMIV     4.2        24     1   0.1     51    113     56    104    107    155     Putative ankyrin repeat protein R858 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R858 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001680@KiloMoana_10000028@KiloMoana_1000002866.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001680@KiloMoana_10000028@KiloMoana_1000002866.txt data/models_hmm/3300001680@KiloMoana_10000028@KiloMoana_1000002866.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:03 2021
+# [ok]

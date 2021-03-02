@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9XJR4|GPJ_BPPM2     12.3      0.12   1   1.5   0.0    Uncharacterized protein Gp-j OS=Pseudoalteromonas phage PM2 OX=10661 GN=j PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9XJR4|GPJ_BPPM2     11.1      0.27     1   0.0     82    143     97    132     38     73     Uncharacterized protein Gp-j OS=Pseudoalteromonas phage PM2 OX=10661 GN=j PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000740@SRS064276_LANL_scaffold_59091@SRS064276_LANL_scaffold_59091_gene_125988.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000740@SRS064276_LANL_scaffold_59091@SRS064276_LANL_scaffold_59091_gene_125988.txt data/models_hmm/7000000740@SRS064276_LANL_scaffold_59091@SRS064276_LANL_scaffold_59091_gene_125988.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:16 2021
+# [ok]

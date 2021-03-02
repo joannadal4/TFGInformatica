@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27500|P1_RTBVP       7.4       1.4   2   1.9   5.6    Protein P1 OS=Rice tungro bacilliform virus (isolate Philippines) OX=10655 PE=4 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27500|P1_RTBVP       8.2      0.78     1   0.4      7    116     19     94    103    178     Protein P1 OS=Rice tungro bacilliform virus (isolate Philippines) OX=10655 PE=4 SV=3
+sp|P27500|P1_RTBVP       1.5        88     2   1.4     97    192    105    180    141    216     Protein P1 OS=Rice tungro bacilliform virus (isolate Philippines) OX=10655 PE=4 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_680519@NC_004112.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_680519@NC_004112.txt data/models_hmm/NP_680519@NC_004112.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:17 2021
+# [ok]

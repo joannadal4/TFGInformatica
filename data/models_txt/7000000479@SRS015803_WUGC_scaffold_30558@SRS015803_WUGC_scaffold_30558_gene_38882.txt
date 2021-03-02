@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P14107|Y8K6_BPP22     13.1      0.07   1   1.5   0.1    Uncharacterized 8.6 kDa protein in ral-gp17 intergenic region OS=Salmonella phage P22 OX=10754 PE=4 SV=1
+sp|Q5UPD6|YR058_MIMIV    12.7     0.088   1   1.3   2.2    Uncharacterized protein R58 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R58 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPD6|YR058_MIMIV    12.3      0.12     1   2.0     32    127     56    119     26     88     Uncharacterized protein R58 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R58 PE=4 SV=1
+sp|P14107|Y8K6_BPP22     12.0      0.15     1   0.1      2     75     10     66     16     82     Uncharacterized 8.6 kDa protein in ral-gp17 intergenic region OS=Salmonella phage P22 OX=10754 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000479@SRS015803_WUGC_scaffold_30558@SRS015803_WUGC_scaffold_30558_gene_38882.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000479@SRS015803_WUGC_scaffold_30558@SRS015803_WUGC_scaffold_30558_gene_38882.txt data/models_hmm/7000000479@SRS015803_WUGC_scaffold_30558@SRS015803_WUGC_scaffold_30558_gene_38882.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:34 2021
+# [ok]

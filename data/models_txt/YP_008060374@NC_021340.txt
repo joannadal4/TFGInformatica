@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A6QL29|AGNO1_BFPYV    12.1      0.11   2   1.7   0.3    Avian agnoprotein 1a OS=Budgerigar fledgling disease virus OX=1891747 PE=1 SV=1
+sp|Q008X4|SPIKE_WBV24    10.5      0.34   2   2.4   2.5    Spike glycoprotein OS=White bream virus (isolate Blicca bjoerkna L./Germany/DF24/00) OX=766180 GN=S PE=3 SV=1
+sp|Q91F87|438L_IIV6       8.2       1.8   2   1.8   4.6    Probable deoxyuridine 5'-triphosphate nucleotidohydrolase OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-438L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A6QL29|AGNO1_BFPYV    10.6      0.32     2   0.1     68    163     83    161     83    160     Avian agnoprotein 1a OS=Budgerigar fledgling disease virus OX=1891747 PE=1 SV=1
+sp|Q91F87|438L_IIV6       8.9         1     2   1.8     61    133     65    120     63    118     Probable deoxyuridine 5'-triphosphate nucleotidohydrolase OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-438L PE=3 SV=1
+sp|Q008X4|SPIKE_WBV24     8.1       1.8     1   0.1    859    938    866    913     70    117     Spike glycoprotein OS=White bream virus (isolate Blicca bjoerkna L./Germany/DF24/00) OX=766180 GN=S PE=3 SV=1
+sp|Q008X4|SPIKE_WBV24     1.5     2e+02     2   0.3   1163   1216   1174   1206     16     48     Spike glycoprotein OS=White bream virus (isolate Blicca bjoerkna L./Germany/DF24/00) OX=766180 GN=S PE=3 SV=1
+sp|A6QL29|AGNO1_BFPYV    -0.9   1.1e+03     1   0.0     46     79     51     70    121    140     Avian agnoprotein 1a OS=Budgerigar fledgling disease virus OX=1891747 PE=1 SV=1
+sp|Q91F87|438L_IIV6      -1.0   1.2e+03     1   0.1      6     63     12     41     82    111     Probable deoxyuridine 5'-triphosphate nucleotidohydrolase OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-438L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008060374@NC_021340.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008060374@NC_021340.txt data/models_hmm/YP_008060374@NC_021340.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:18 2021
+# [ok]

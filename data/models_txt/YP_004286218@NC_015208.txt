@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03723|GP13_BPT7     60.8   1.2e-16   1   1.1   0.0    Probable scaffold protein gp13 OS=Escherichia phage T7 OX=10760 GN=13 PE=4 SV=1
+sp|P19230|Y12K_BNYVG    13.1      0.06   1   1.1   0.1    RNA-3 uncharacterized 11.6 kDa protein OS=Beet necrotic yellow vein mosaic virus (isolate Yugoslavia/G1) OX=12257 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03723|GP13_BPT7     60.4   1.5e-16     1   0.0     30    132     46    122     53    130     Probable scaffold protein gp13 OS=Escherichia phage T7 OX=10760 GN=13 PE=4 SV=1
+sp|P19230|Y12K_BNYVG    12.8     0.072     1   0.1     18     80     32     70     90    128     RNA-3 uncharacterized 11.6 kDa protein OS=Beet necrotic yellow vein mosaic virus (isolate Yugoslavia/G1) OX=12257 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004286218@NC_015208.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004286218@NC_015208.txt data/models_hmm/YP_004286218@NC_015208.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:09 2021
+# [ok]

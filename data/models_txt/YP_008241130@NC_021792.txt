@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64174|BNRDF_BPSPB    14.7     0.024   1   1.3   0.4    Ribonucleoside-diphosphate reductase subunit beta OS=Bacillus phage SPbeta OX=66797 GN=bnrdF PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64174|BNRDF_BPSPB    14.0     0.038     1   0.4     73    205     85    187     63    162     Ribonucleoside-diphosphate reductase subunit beta OS=Bacillus phage SPbeta OX=66797 GN=bnrdF PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008241130@NC_021792.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008241130@NC_021792.txt data/models_hmm/YP_008241130@NC_021792.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:30 2021
+# [ok]

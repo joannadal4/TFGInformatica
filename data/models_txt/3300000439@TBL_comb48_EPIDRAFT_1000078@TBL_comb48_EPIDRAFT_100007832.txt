@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P06807|PCPP_BPT4     187.5   3.6e-55   1   1.0   0.0    Prohead core protein protease OS=Enterobacteria phage T4 OX=10665 GN=21 PE=1 SV=2
+sp|Q5UQD8|YR463_MIMIV     6.3       2.2   1   1.2  15.2    Uncharacterized protein R463 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R463 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P06807|PCPP_BPT4     187.4   3.9e-55     1   0.0      1    211      3    196     19    198     Prohead core protein protease OS=Enterobacteria phage T4 OX=10665 GN=21 PE=1 SV=2
+sp|Q5UQD8|YR463_MIMIV     5.6       3.7     1  15.2      2    141     10    128    205    327     Uncharacterized protein R463 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R463 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000078@TBL_comb48_EPIDRAFT_100007832.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000078@TBL_comb48_EPIDRAFT_100007832.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000078@TBL_comb48_EPIDRAFT_100007832.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:42 2021
+# [ok]

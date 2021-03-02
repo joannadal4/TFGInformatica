@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9T1Q1|VP47_BPAPS     21.6   0.00016   6   6.1  18.0    Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+sp|A6QL29|AGNO1_BFPYV    14.7     0.023   1   1.1   0.0    Avian agnoprotein 1a OS=Budgerigar fledgling disease virus OX=1891747 PE=1 SV=1
+sp|Q992I9|B2_BOOLV       11.7      0.19   1   1.4   0.0    Protein B2 OS=Boolarra virus OX=12286 GN=B2 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A6QL29|AGNO1_BFPYV    14.2     0.031     1   0.0     77    128     79    121      7     49     Avian agnoprotein 1a OS=Budgerigar fledgling disease virus OX=1891747 PE=1 SV=1
+sp|Q992I9|B2_BOOLV       11.1       0.3     1   0.0     14     60     28     52     20     44     Protein B2 OS=Boolarra virus OX=12286 GN=B2 PE=2 SV=1
+sp|Q9T1Q1|VP47_BPAPS      7.7       3.4     5   0.2    116    139    119    137     15     33     Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+sp|Q9T1Q1|VP47_BPAPS      7.4         4     1   0.4     38     70     44     66     13     35     Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+sp|Q9T1Q1|VP47_BPAPS      6.0        11     2   0.2     65     92     70     88     17     35     Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+sp|Q9T1Q1|VP47_BPAPS      5.9        12     4   0.9     88    119     94    110     19     35     Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+sp|Q9T1Q1|VP47_BPAPS      5.7        14     3   0.3     77    103     81     99     17     35     Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+sp|Q9T1Q1|VP47_BPAPS      2.6   1.3e+02     6   0.2    136    187    139    153     17     31     Putative protein p47 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=47 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000558@Draft_10204156@Draft_10204156129.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000558@Draft_10204156@Draft_10204156129.txt data/models_hmm/3300000558@Draft_10204156@Draft_10204156129.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:08 2021
+# [ok]

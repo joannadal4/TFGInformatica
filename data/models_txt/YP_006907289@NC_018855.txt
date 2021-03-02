@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P32281|Y11B_BPT4    166.3   1.2e-49   1   1.0   4.3    Uncharacterized 9.0 kDa protein in uvsW-uvsY intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y11B PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P32281|Y11B_BPT4    166.2   1.3e-49     1   4.3      1     74      1     74      1     74     Uncharacterized 9.0 kDa protein in uvsW-uvsY intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y11B PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006907289@NC_018855.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006907289@NC_018855.txt data/models_hmm/YP_006907289@NC_018855.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:27 2021
+# [ok]

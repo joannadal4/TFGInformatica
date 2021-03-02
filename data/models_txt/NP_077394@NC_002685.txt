@@ -1,0 +1,46 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8JN70|NP_ADES1      87.4   1.1e-24   1   1.1  11.1    Pre-histone-like nucleoprotein OS=Snake adenovirus serotype 1 OX=189830 GN=L2 PE=3 SV=1
+sp|O10440|NP_ADEM1      49.1   8.9e-13   1   3.1  26.0    Pre-histone-like nucleoprotein OS=Murine adenovirus A serotype 1 OX=10530 GN=L2 PE=3 SV=1
+sp|Q96624|NP_ADEB2      47.1   3.7e-12   2   2.4  16.6    Pre-histone-like nucleoprotein OS=Bovine adenovirus 2 OX=114429 GN=L2 PE=3 SV=1
+sp|P68950|NP_ADE02      46.1   7.2e-12   2   2.6   0.1    Pre-histone-like nucleoprotein OS=Human adenovirus C serotype 2 OX=10515 GN=L2 PE=1 SV=1
+sp|P68951|NP_ADE05      46.1   7.2e-12   2   2.6   0.1    Pre-histone-like nucleoprotein OS=Human adenovirus C serotype 5 OX=28285 GN=L2 PE=1 SV=1
+sp|Q89532|NP_ADE40      45.5   1.1e-11   2   2.4   0.6    Pre-histone-like nucleoprotein OS=Human adenovirus F serotype 40 OX=28284 GN=L2 PE=3 SV=1
+sp|P68964|NP_ADECR      43.8   3.7e-11   1   2.1  10.5    Pre-histone-like nucleoprotein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=L2 PE=3 SV=1
+sp|P68965|NP_ADECU      43.8   3.7e-11   1   2.1  10.5    Pre-histone-like nucleoprotein OS=Canine adenovirus serotype 1 (strain Utrecht) OX=36364 GN=L2 PE=1 SV=1
+sp|Q65951|NP_ADECC      43.0   6.8e-11   1   2.1  10.4    Pre-histone-like nucleoprotein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=L2 PE=3 SV=1
+sp|P87558|NP_ADECT      39.9   6.1e-10   1   2.2  12.3    Pre-histone-like nucleoprotein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=L2 PE=3 SV=2
+sp|Q96831|NP_ADE04      39.0   1.2e-09   2   2.7  12.1    Pre-histone-like nucleoprotein OS=Human adenovirus E serotype 4 OX=28280 GN=L2 PE=3 SV=1
+sp|Q89707|NP_ADEG1      23.5   7.8e-05   1   2.0  15.4    Pre-histone-like nucleoprotein OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8JN70|NP_ADES1      87.2   1.3e-24     1  11.1      1    115      1     96      1     95     Pre-histone-like nucleoprotein OS=Snake adenovirus serotype 1 OX=189830 GN=L2 PE=3 SV=1
+sp|Q96624|NP_ADEB2      47.1   3.7e-12     1  16.6      1    108      1    105      1    113     Pre-histone-like nucleoprotein OS=Bovine adenovirus 2 OX=114429 GN=L2 PE=3 SV=1
+sp|P68950|NP_ADE02      46.1   7.2e-12     1   0.1      1     74      1     57      1     55     Pre-histone-like nucleoprotein OS=Human adenovirus C serotype 2 OX=10515 GN=L2 PE=1 SV=1
+sp|P68951|NP_ADE05      46.1   7.2e-12     1   0.1      1     74      1     57      1     55     Pre-histone-like nucleoprotein OS=Human adenovirus C serotype 5 OX=28285 GN=L2 PE=1 SV=1
+sp|Q89532|NP_ADE40      45.5   1.1e-11     1   0.6      1     73      1     46      1     46     Pre-histone-like nucleoprotein OS=Human adenovirus F serotype 40 OX=28284 GN=L2 PE=3 SV=1
+sp|O10440|NP_ADEM1      42.2   1.2e-10     1  26.0      1    199      1    107      1    108     Pre-histone-like nucleoprotein OS=Murine adenovirus A serotype 1 OX=10530 GN=L2 PE=3 SV=1
+sp|P68964|NP_ADECR      39.1   1.1e-09     1  10.5      1    132      1    116      1    111     Pre-histone-like nucleoprotein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=L2 PE=3 SV=1
+sp|P68965|NP_ADECU      39.1   1.1e-09     1  10.5      1    132      1    116      1    111     Pre-histone-like nucleoprotein OS=Canine adenovirus serotype 1 (strain Utrecht) OX=36364 GN=L2 PE=1 SV=1
+sp|Q96831|NP_ADE04      39.0   1.2e-09     1  12.1      1    121      1    119      1    112     Pre-histone-like nucleoprotein OS=Human adenovirus E serotype 4 OX=28280 GN=L2 PE=3 SV=1
+sp|Q65951|NP_ADECC      38.3   1.9e-09     1  10.4      1    132      1    116      1    111     Pre-histone-like nucleoprotein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=L2 PE=3 SV=1
+sp|P87558|NP_ADECT      35.4   1.5e-08     1  12.3      1    133      1     56      1     56     Pre-histone-like nucleoprotein OS=Canine adenovirus serotype 2 (strain Toronto A 26-61) OX=69152 GN=L2 PE=3 SV=2
+sp|Q89707|NP_ADEG1      19.8     0.001     1  15.4      1     72      1     53      1     54     Pre-histone-like nucleoprotein OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 PE=2 SV=1
+sp|Q96624|NP_ADEB2      -3.1   1.3e+04     2  21.6     64    154     72    142     24     94     Pre-histone-like nucleoprotein OS=Bovine adenovirus 2 OX=114429 GN=L2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_077394@NC_002685.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_077394@NC_002685.txt data/models_hmm/NP_077394@NC_002685.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:49 2021
+# [ok]

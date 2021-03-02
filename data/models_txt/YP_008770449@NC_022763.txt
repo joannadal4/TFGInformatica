@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O15926|CAPSD_CPVKS    12.2      0.13   1   1.8   0.0    Capsid protein OS=Cryptosporidium parvum virus 1 (strain KSU-1) OX=766191 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O15926|CAPSD_CPVKS    10.6      0.41     1   0.0    153    198    159    192     19     54     Capsid protein OS=Cryptosporidium parvum virus 1 (strain KSU-1) OX=766191 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008770449@NC_022763.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008770449@NC_022763.txt data/models_hmm/YP_008770449@NC_022763.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:28 2021
+# [ok]

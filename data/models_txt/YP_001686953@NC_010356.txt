@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q00704|OE66_NPVAC    87.0   9.9e-25   2   1.5   8.0    Non-sulfated chondroitin lyase E66 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P79 PE=1 SV=2
+sp|O10305|OE66_NPVOP    78.5   3.8e-22   1   1.2   0.9    Occlusion-derived virus envelope protein E66 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF50 PE=3 SV=1
+sp|Q90115|OE66_NPVLD    61.4   5.7e-17   1   1.2   1.2    Occlusion-derived virus envelope protein E66 (Fragment) OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=3 SV=1
+sp|P89518|OE66_NPVLS    50.6     1e-13   1   1.1   5.4    Occlusion-derived virus envelope protein E66 OS=Leucania separata nucleopolyhedrovirus OX=1307956 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q00704|OE66_NPVAC    87.0   9.9e-25     2   8.0    105    523    120    468    107    454     Non-sulfated chondroitin lyase E66 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P79 PE=1 SV=2
+sp|O10305|OE66_NPVOP    78.0   5.3e-22     1   0.9     62    531     89    448     99    459     Occlusion-derived virus envelope protein E66 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF50 PE=3 SV=1
+sp|Q90115|OE66_NPVLD    60.8   8.2e-17     1   1.2     50    472     77    421    111    456     Occlusion-derived virus envelope protein E66 (Fragment) OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=3 SV=1
+sp|P89518|OE66_NPVLS    50.2   1.4e-13     1   5.4     13    434     56    397    109    452     Occlusion-derived virus envelope protein E66 OS=Leucania separata nucleopolyhedrovirus OX=1307956 PE=3 SV=1
+sp|Q00704|OE66_NPVAC    -1.9   7.8e+02     1   0.1      1     99      3     31     24     52     Non-sulfated chondroitin lyase E66 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P79 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001686953@NC_010356.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001686953@NC_010356.txt data/models_hmm/YP_001686953@NC_010356.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:39 2021
+# [ok]

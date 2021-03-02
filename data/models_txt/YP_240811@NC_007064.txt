@@ -1,0 +1,43 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13884|NCAP_INBAC    12.5      0.12   2   2.9   2.8    Nucleoprotein OS=Influenza B virus (strain B/Ann Arbor/1/1966 [cold-adapted]) OX=11522 GN=NP PE=3 SV=1
+sp|P13885|NCAP_INBAD    10.2      0.63   2   2.9   4.7    Nucleoprotein OS=Influenza B virus (strain B/Ann Arbor/1/1966 [wild-type]) OX=11523 GN=NP PE=3 SV=1
+sp|O36433|NCAP_INBP9     9.0       1.5   3   3.0   6.6    Nucleoprotein OS=Influenza B virus (strain B/Panama/45/1990) OX=408929 GN=NP PE=2 SV=1
+sp|P04665|NCAP_INBLE     8.2       2.7   3   3.0   7.5    Nucleoprotein OS=Influenza B virus (strain B/Lee/1940) OX=518987 GN=NP PE=1 SV=1
+sp|P04666|NCAP_INBSI     8.0         3   3   3.0   8.3    Nucleoprotein OS=Influenza B virus (strain B/Singapore/222/1979) OX=107417 GN=NP PE=3 SV=1
+sp|P11102|NCAP_INBAA     8.0       3.1   3   3.0   7.7    Nucleoprotein OS=Influenza B virus (strain B/Ann Arbor/1/1986) OX=11521 GN=NP PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13884|NCAP_INBAC    10.4      0.58     2   0.7    119    188    125    184     12     65     Nucleoprotein OS=Influenza B virus (strain B/Ann Arbor/1/1966 [cold-adapted]) OX=11522 GN=NP PE=3 SV=1
+sp|P04666|NCAP_INBSI     9.9      0.82     2   1.2    117    188    125    184     12     65     Nucleoprotein OS=Influenza B virus (strain B/Singapore/222/1979) OX=107417 GN=NP PE=3 SV=1
+sp|P11102|NCAP_INBAA     9.8      0.85     2   1.2    119    188    125    184     12     65     Nucleoprotein OS=Influenza B virus (strain B/Ann Arbor/1/1986) OX=11521 GN=NP PE=3 SV=1
+sp|O36433|NCAP_INBP9     9.7      0.89     2   0.5    121    188    146    184     27     65     Nucleoprotein OS=Influenza B virus (strain B/Panama/45/1990) OX=408929 GN=NP PE=2 SV=1
+sp|P13885|NCAP_INBAD     9.5         1     2   1.0    119    188    138    184     24     65     Nucleoprotein OS=Influenza B virus (strain B/Ann Arbor/1/1966 [wild-type]) OX=11523 GN=NP PE=3 SV=1
+sp|P04665|NCAP_INBLE     9.5       1.1     2   0.8    119    188    146    184     27     65     Nucleoprotein OS=Influenza B virus (strain B/Lee/1940) OX=518987 GN=NP PE=1 SV=1
+sp|O36433|NCAP_INBP9     1.3     4e+02     1   0.4     61    126     65    108     18     63     Nucleoprotein OS=Influenza B virus (strain B/Panama/45/1990) OX=408929 GN=NP PE=2 SV=1
+sp|P04665|NCAP_INBLE     1.2   4.1e+02     1   0.3     58    125     68    108     21     63     Nucleoprotein OS=Influenza B virus (strain B/Lee/1940) OX=518987 GN=NP PE=1 SV=1
+sp|P04666|NCAP_INBSI     1.2   4.2e+02     1   0.3     63    125     65    107     18     62     Nucleoprotein OS=Influenza B virus (strain B/Singapore/222/1979) OX=107417 GN=NP PE=3 SV=1
+sp|P13885|NCAP_INBAD     0.5   6.7e+02     1   0.1     62    124     85    107     42     62     Nucleoprotein OS=Influenza B virus (strain B/Ann Arbor/1/1966 [wild-type]) OX=11523 GN=NP PE=3 SV=1
+sp|P11102|NCAP_INBAA     0.5     7e+02     1   0.2     64    124     85    107     42     62     Nucleoprotein OS=Influenza B virus (strain B/Ann Arbor/1/1986) OX=11521 GN=NP PE=3 SV=1
+sp|P13884|NCAP_INBAC     0.3   8.2e+02     1   0.1     64    113     85    105     42     60     Nucleoprotein OS=Influenza B virus (strain B/Ann Arbor/1/1966 [cold-adapted]) OX=11522 GN=NP PE=3 SV=1
+sp|O36433|NCAP_INBP9    -2.8   7.4e+03     3   0.0    270    301    276    298     12     32     Nucleoprotein OS=Influenza B virus (strain B/Panama/45/1990) OX=408929 GN=NP PE=2 SV=1
+sp|P04665|NCAP_INBLE    -2.8   7.4e+03     3   0.0    270    301    276    298     12     32     Nucleoprotein OS=Influenza B virus (strain B/Lee/1940) OX=518987 GN=NP PE=1 SV=1
+sp|P04666|NCAP_INBSI    -2.8   7.4e+03     3   0.0    270    301    276    298     12     32     Nucleoprotein OS=Influenza B virus (strain B/Singapore/222/1979) OX=107417 GN=NP PE=3 SV=1
+sp|P11102|NCAP_INBAA    -2.8   7.4e+03     3   0.0    270    301    276    298     12     32     Nucleoprotein OS=Influenza B virus (strain B/Ann Arbor/1/1986) OX=11521 GN=NP PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_240811@NC_007064.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_240811@NC_007064.txt data/models_hmm/YP_240811@NC_007064.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:23 2021
+# [ok]

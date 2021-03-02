@@ -1,0 +1,61 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O39830|MVP_FBNY2     209.9   5.3e-63   1   1.0   0.0    Putative movement protein OS=Faba bean necrotic yellows virus (isolate SV292-88) OX=291604 GN=DNA-M PE=3 SV=1
+sp|Q9Z0C8|MVP_MDV1      209.3   7.8e-63   1   1.0   0.1    Putative movement protein OS=Milk vetch dwarf virus (isolate N) OX=291605 GN=DNA-M PE=3 SV=1
+sp|Q9WIJ7|MVP_FBNY1     209.0   9.6e-63   1   1.0   0.0    Putative movement protein OS=Faba bean necrotic yellows virus (isolate Egyptian EV1-93) OX=291603 GN=DNA-M PE=3 SV=1
+sp|Q87008|MVP_SCSVF     176.3   1.4e-52   1   1.0   0.1    Putative movement protein OS=Subterranean clover stunt virus (strain F) OX=291607 GN=DNA-M PE=3 SV=1
+sp|P15138|E321_ADE07     16.2    0.0067   1   1.4   0.2    Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 7 OX=10519 PE=3 SV=1
+sp|P11322|E321_ADE03     14.8     0.018   1   1.4   0.3    Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+sp|Q86198|NSP1A_ROTGA    12.8     0.071   1   1.2   0.1    Non-structural protein 1, peptide 1 OS=Rotavirus B (isolate RVB/Human/China/ADRV/1982) OX=10942 PE=3 SV=1
+sp|P24084|B5_VACC0       11.7      0.16   2   2.0   1.5    Protein B5 OS=Vaccinia virus (strain LC16m0) OX=10246 GN=PS/HR PE=3 SV=1
+sp|P24083|VB05_VACCL     11.5      0.19   2   2.0   1.8    Plaque-size/host range protein OS=Vaccinia virus (strain Lister) OX=10252 GN=PS/HR PE=3 SV=1
+sp|Q01227|B5_VACCW       11.4       0.2   2   2.0   1.8    Protein B5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=PS/HR PE=1 SV=1
+sp|Q65387|MVP_BBTVA      11.3      0.21   1   1.3   1.8    Movement and RNA silencing protein OS=Banana bunchy top virus (isolate Autralia) OX=645099 GN=DNA-M PE=4 SV=1
+sp|O57254|B5_VACCA       11.0      0.27   2   2.0   2.1    Protein B5 OS=Vaccinia virus (strain Ankara) OX=126794 GN=PS/HR PE=3 SV=1
+sp|P21115|B5_VACCC       11.0      0.27   2   1.9   2.1    Protein B5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PS/HR PE=3 SV=1
+sp|Q01009|VG28_SHV21      8.8       1.2   1   1.2   4.2    Uncharacterized gene 28 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=28 PE=4 SV=1
+sp|Q69569|U91_HHV6U       8.7       1.3   2   1.8   4.5    Uncharacterized protein U91 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U91 PE=3 SV=2
+sp|P03208|BILF1_EBVB9     6.4       7.2   3   3.3  13.7    G-protein coupled receptor BILF1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BILF1 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O39830|MVP_FBNY2     209.7   5.8e-63     1   0.0      1    114      1    114      1    114     Putative movement protein OS=Faba bean necrotic yellows virus (isolate SV292-88) OX=291604 GN=DNA-M PE=3 SV=1
+sp|Q9Z0C8|MVP_MDV1      209.2   8.6e-63     1   0.1      1    112      1    112      1    114     Putative movement protein OS=Milk vetch dwarf virus (isolate N) OX=291605 GN=DNA-M PE=3 SV=1
+sp|Q9WIJ7|MVP_FBNY1     208.9   1.1e-62     1   0.0      1    114      1    114      1    114     Putative movement protein OS=Faba bean necrotic yellows virus (isolate Egyptian EV1-93) OX=291603 GN=DNA-M PE=3 SV=1
+sp|Q87008|MVP_SCSVF     176.2   1.5e-52     1   0.1      1    112      1    111      1    114     Putative movement protein OS=Subterranean clover stunt virus (strain F) OX=291607 GN=DNA-M PE=3 SV=1
+sp|P15138|E321_ADE07     15.4     0.011     1   0.2    136    186    149    173     27     50     Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 7 OX=10519 PE=3 SV=1
+sp|P11322|E321_ADE03     14.0      0.03     1   0.3    139    186    149    173     27     50     Early E3 20.5 kDa glycoprotein OS=Human adenovirus B serotype 3 OX=45659 PE=3 SV=1
+sp|Q86198|NSP1A_ROTGA    12.6     0.087     1   0.1     14     92     34     83     25     73     Non-structural protein 1, peptide 1 OS=Rotavirus B (isolate RVB/Human/China/ADRV/1982) OX=10942 PE=3 SV=1
+sp|Q65387|MVP_BBTVA      10.6      0.36     1   1.8     15     91     21     59     34     74     Movement and RNA silencing protein OS=Banana bunchy top virus (isolate Autralia) OX=645099 GN=DNA-M PE=4 SV=1
+sp|O57254|B5_VACCA       10.5      0.39     2   0.3    252    307    271    302     19     50     Protein B5 OS=Vaccinia virus (strain Ankara) OX=126794 GN=PS/HR PE=3 SV=1
+sp|P21115|B5_VACCC       10.5      0.39     2   0.3    252    307    271    302     19     50     Protein B5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PS/HR PE=3 SV=1
+sp|P24083|VB05_VACCL     10.5      0.39     2   0.3    252    307    271    302     19     50     Plaque-size/host range protein OS=Vaccinia virus (strain Lister) OX=10252 GN=PS/HR PE=3 SV=1
+sp|P24084|B5_VACC0       10.5      0.39     2   0.3    252    307    271    302     19     50     Protein B5 OS=Vaccinia virus (strain LC16m0) OX=10246 GN=PS/HR PE=3 SV=1
+sp|Q01227|B5_VACCW       10.5      0.39     2   0.3    252    307    271    302     19     50     Protein B5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=PS/HR PE=1 SV=1
+sp|Q69569|U91_HHV6U      10.3      0.44     2   1.5     25    100     42     80     16     54     Uncharacterized protein U91 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U91 PE=3 SV=2
+sp|Q01009|VG28_SHV21      8.3       1.8     1   4.2     16     57     21     50     28     56     Uncharacterized gene 28 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=28 PE=4 SV=1
+sp|P03208|BILF1_EBVB9     7.9       2.4     2   0.4    124    162    135    159     19     43     G-protein coupled receptor BILF1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BILF1 PE=1 SV=1
+sp|P03208|BILF1_EBVB9     3.2        69     3   0.7    180    216    193    212     25     44     G-protein coupled receptor BILF1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BILF1 PE=1 SV=1
+sp|P03208|BILF1_EBVB9     2.7     1e+02     1   1.0     15     78     29     72     20     63     G-protein coupled receptor BILF1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BILF1 PE=1 SV=1
+sp|P24083|VB05_VACCL     -0.5   9.9e+02     1   0.1      2     49      7     26     35     54     Plaque-size/host range protein OS=Vaccinia virus (strain Lister) OX=10252 GN=PS/HR PE=3 SV=1
+sp|Q01227|B5_VACCW       -0.5   9.9e+02     1   0.1      2     49      7     26     35     54     Protein B5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=PS/HR PE=1 SV=1
+sp|P24084|B5_VACC0       -0.6     1e+03     1   0.0      2     47      7     26     35     54     Protein B5 OS=Vaccinia virus (strain LC16m0) OX=10246 GN=PS/HR PE=3 SV=1
+sp|Q69569|U91_HHV6U      -0.7   1.1e+03     1   0.1      1     39      2     20     36     57     Uncharacterized protein U91 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U91 PE=3 SV=2
+sp|O57254|B5_VACCA       -0.8   1.2e+03     1   0.1      2     39      7     26     35     54     Protein B5 OS=Vaccinia virus (strain Ankara) OX=126794 GN=PS/HR PE=3 SV=1
+sp|P21115|B5_VACCC       -0.8   1.2e+03     1   0.1      2     39      7     26     35     54     Protein B5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PS/HR PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_620695@NC_003813.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_620695@NC_003813.txt data/models_hmm/NP_620695@NC_003813.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:13 2021
+# [ok]

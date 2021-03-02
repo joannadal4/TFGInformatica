@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q0ZME5|VEMP_CVHN5    12.2     0.042   1   1.0   0.3    Envelope small membrane protein OS=Human coronavirus HKU1 (isolate N5) OX=443241 GN=E PE=3 SV=1
+sp|Q14EA8|VEMP_CVHN2    12.2     0.042   1   1.0   0.3    Envelope small membrane protein OS=Human coronavirus HKU1 (isolate N2) OX=443240 GN=E PE=3 SV=1
+sp|Q914F8|Y074_SIFVH     8.5      0.54   1   1.0   1.9    Putative transmembrane protein 74 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0074 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q0ZME5|VEMP_CVHN5    12.0     0.046     1   0.3      3     76     13     72    289    349     Envelope small membrane protein OS=Human coronavirus HKU1 (isolate N5) OX=443241 GN=E PE=3 SV=1
+sp|Q14EA8|VEMP_CVHN2    12.0     0.046     1   0.3      3     76     13     72    289    349     Envelope small membrane protein OS=Human coronavirus HKU1 (isolate N2) OX=443240 GN=E PE=3 SV=1
+sp|Q914F8|Y074_SIFVH     8.5      0.56     1   1.9      1     59      2     53    287    330     Putative transmembrane protein 74 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0074 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2030936005@CLOF_contig33563@CLOFG_479300.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2030936005@CLOF_contig33563@CLOFG_479300.txt data/models_hmm/2030936005@CLOF_contig33563@CLOFG_479300.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:21 2021
+# [ok]

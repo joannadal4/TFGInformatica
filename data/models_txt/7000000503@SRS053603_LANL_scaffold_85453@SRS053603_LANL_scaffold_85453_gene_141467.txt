@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPA0|YL025_MIMIV    14.1     0.039   5   4.7   4.0    Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPA0|YL025_MIMIV     5.9        14     5   0.1    280    324    290    311     13     34     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV     2.4   1.6e+02     3   0.0    129    209    135    178      8     48     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV     2.1   1.9e+02     2   0.0    103    185    134    161      7     58     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV     1.4   3.1e+02     4   0.0    249    286    260    277     13     30     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+sp|Q5UPA0|YL025_MIMIV     0.2   7.2e+02     1   0.0     43     76     51     67     13     29     Putative ankyrin repeat protein L25 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L25 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000503@SRS053603_LANL_scaffold_85453@SRS053603_LANL_scaffold_85453_gene_141467.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000503@SRS053603_LANL_scaffold_85453@SRS053603_LANL_scaffold_85453_gene_141467.txt data/models_hmm/7000000503@SRS053603_LANL_scaffold_85453@SRS053603_LANL_scaffold_85453_gene_141467.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:47 2021
+# [ok]

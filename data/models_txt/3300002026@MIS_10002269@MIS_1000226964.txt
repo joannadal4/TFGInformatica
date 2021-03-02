@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39224|Y06Q_BPT4     12.4      0.11   2   2.1   3.9    Uncharacterized 22.0 kDa protein in e-segB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y06Q PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39224|Y06Q_BPT4     12.8     0.079     1   1.7     18    112     32     86     17     71     Uncharacterized 22.0 kDa protein in e-segB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y06Q PE=4 SV=1
+sp|P39224|Y06Q_BPT4     -0.8   1.4e+03     2   0.0    111    196    158    158     50     50     Uncharacterized 22.0 kDa protein in e-segB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y06Q PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10002269@MIS_1000226964.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10002269@MIS_1000226964.txt data/models_hmm/3300002026@MIS_10002269@MIS_1000226964.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:03 2021
+# [ok]

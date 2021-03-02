@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P15911|L2_FOWPN     158.9     3e-47   1   1.0  15.9    Protein FPV129 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV129 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P15911|L2_FOWPN     158.7   3.3e-47     1  15.9      1     96      1     96      2     97     Protein FPV129 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV129 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_955197@NC_005309.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_955197@NC_005309.txt data/models_hmm/NP_955197@NC_005309.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:45 2021
+# [ok]

@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPZ1|YR302_MIMIV   175.6   3.5e-52   1   1.0  17.8    Uncharacterized protein R302 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R302 PE=4 SV=1
+sp|Q5UPZ4|YL310_MIMIV    15.4     0.014   1   1.2   1.5    Uncharacterized protein L310 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L310 PE=4 SV=1
+sp|P0CA72|VF169_ASFWA    14.3     0.029   1   1.2   2.5    Transmembrane protein B169L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-086 PE=3 SV=1
+sp|P0CA70|VF169_ASFK5    12.3      0.13   1   1.2   4.8    Transmembrane protein B169L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-088 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPZ1|YR302_MIMIV   175.4     4e-52     1  17.8      1    142      1    140      1    123     Uncharacterized protein R302 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R302 PE=4 SV=1
+sp|Q5UPZ4|YL310_MIMIV    14.9     0.019     1   1.5     39    126     49    121     46    120     Uncharacterized protein L310 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L310 PE=4 SV=1
+sp|P0CA72|VF169_ASFWA    14.0     0.037     1   2.5     16    121     30    103     17     89     Transmembrane protein B169L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-086 PE=3 SV=1
+sp|P0CA70|VF169_ASFK5    11.8      0.17     1   4.8     15    111     30    103     17     89     Transmembrane protein B169L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-088 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007354499@NC_020104.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007354499@NC_020104.txt data/models_hmm/YP_007354499@NC_020104.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:48 2021
+# [ok]

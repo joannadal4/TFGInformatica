@@ -1,0 +1,42 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20983|A4_VACCC       55.1   1.1e-14   2   2.5   3.9    39kDa core protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A4L PE=2 SV=1
+sp|P29191|A4_VACCW       51.7   1.2e-13   2   2.5   2.9    39kDa core protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR123 PE=1 SV=1
+sp|P0DOP1|A4_VAR67       51.2   1.8e-13   2   2.6   6.3    39kDa core protein OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A4L PE=2 SV=1
+sp|P0DOP2|A4_VARV        51.2   1.8e-13   2   2.6   6.3    39kDa core protein OS=Variola virus OX=10255 GN=A4L PE=2 SV=1
+sp|Q5UR08|YL649_MIMIV    20.0    0.0007   1   1.4   0.4    Uncharacterized protein L649 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L649 PE=4 SV=1
+sp|Q5UR53|YL583_MIMIV    19.3    0.0011   1   1.1   2.2    Uncharacterized protein L583 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L583 PE=4 SV=1
+sp|Q573E3|Y100A_AFV2P    12.1      0.19   2   2.1   6.6    Uncharacterized protein ORF100a OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF100a PE=4 SV=1
+sp|P0CA12|PRIM_ASFM2     11.4      0.31   1   1.9   7.0    Putative helicase/primase complex protein OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-055 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20983|A4_VACCC       35.0   1.7e-08     1   0.2      1    116      1     81      1     85     39kDa core protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A4L PE=2 SV=1
+sp|P0DOP1|A4_VAR67       33.3   5.7e-08     1   0.4      1    109      1     94      1     97     39kDa core protein OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A4L PE=2 SV=1
+sp|P0DOP2|A4_VARV        33.3   5.7e-08     1   0.4      1    109      1     94      1     97     39kDa core protein OS=Variola virus OX=10255 GN=A4L PE=2 SV=1
+sp|P29191|A4_VACCW       32.1   1.3e-07     1   0.1      1    116      1     77      1     81     39kDa core protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR123 PE=1 SV=1
+sp|P20983|A4_VACCC       21.3   0.00027     2   0.2    180    281    210    273     91    154     39kDa core protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A4L PE=2 SV=1
+sp|P0DOP1|A4_VAR67       21.0   0.00035     2   0.2    172    271    200    263     91    154     39kDa core protein OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A4L PE=2 SV=1
+sp|P0DOP2|A4_VARV        21.0   0.00035     2   0.2    172    271    200    263     91    154     39kDa core protein OS=Variola virus OX=10255 GN=A4L PE=2 SV=1
+sp|P29191|A4_VACCW       20.0   0.00071     2   0.1    180    281    210    273     91    154     39kDa core protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR123 PE=1 SV=1
+sp|Q5UR08|YL649_MIMIV    19.3    0.0011     1   0.4    165    278    235    275     92    135     Uncharacterized protein L649 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L649 PE=4 SV=1
+sp|Q5UR53|YL583_MIMIV    18.9    0.0015     1   2.2     23     88     33     82    109    155     Uncharacterized protein L583 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L583 PE=4 SV=1
+sp|P0CA12|PRIM_ASFM2      9.8      0.93     1   7.0   1024   1100   1039   1097     69    128     Putative helicase/primase complex protein OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-055 PE=3 SV=1
+sp|Q573E3|Y100A_AFV2P     9.2       1.5     1   0.4      9     61     28     53    110    135     Uncharacterized protein ORF100a OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF100a PE=4 SV=1
+sp|Q573E3|Y100A_AFV2P     6.4        10     2   1.4     54     95     63     91    107    135     Uncharacterized protein ORF100a OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF100a PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_227479@NC_006966.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_227479@NC_006966.txt data/models_hmm/YP_227479@NC_006966.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:19 2021
+# [ok]

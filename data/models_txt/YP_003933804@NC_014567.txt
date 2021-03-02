@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09279|SCP_VZVD     374.0  2.8e-112   1   1.0  25.6    Small capsomere-interacting protein OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=SCP PE=3 SV=1
+sp|Q9E6N4|SCP_GAHVM    149.4   1.2e-43   1   1.0   0.2    Small capsomere-interacting protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=SCP PE=3 SV=1
+sp|P28974|SCP_EHV1B    139.5   1.4e-40   1   1.0   0.4    Small capsomere-interacting protein OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=SCP PE=3 SV=1
+sp|P84395|SCP_EHV1V    139.5   1.4e-40   1   1.0   0.4    Small capsomere-interacting protein OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=SCP PE=3 SV=1
+sp|P89458|SCP_HHV2H    130.3   8.6e-38   1   1.0   0.7    Small capsomere-interacting protein OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=SCP PE=1 SV=1
+sp|P10219|SCP_HHV11    126.3   1.4e-36   1   1.0   0.8    Small capsomere-interacting protein OS=Human herpesvirus 1 (strain 17) OX=10299 GN=SCP PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09279|SCP_VZVD     373.9  3.1e-112     1  25.6      1    235      1    235      1    229     Small capsomere-interacting protein OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=SCP PE=3 SV=1
+sp|Q9E6N4|SCP_GAHVM    149.3   1.3e-43     1   0.2      1    131      7    130      2    123     Small capsomere-interacting protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=SCP PE=3 SV=1
+sp|P28974|SCP_EHV1B    139.4   1.5e-40     1   0.4      1    119      5    118      2    113     Small capsomere-interacting protein OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=SCP PE=3 SV=1
+sp|P84395|SCP_EHV1V    139.4   1.5e-40     1   0.4      1    119      5    118      2    113     Small capsomere-interacting protein OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=SCP PE=3 SV=1
+sp|P89458|SCP_HHV2H    130.2   9.3e-38     1   0.7      1    112      2    110      9    115     Small capsomere-interacting protein OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=SCP PE=1 SV=1
+sp|P10219|SCP_HHV11    126.2   1.5e-36     1   0.8      1    112      2    109      9    114     Small capsomere-interacting protein OS=Human herpesvirus 1 (strain 17) OX=10299 GN=SCP PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003933804@NC_014567.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003933804@NC_014567.txt data/models_hmm/YP_003933804@NC_014567.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:45 2021
+# [ok]

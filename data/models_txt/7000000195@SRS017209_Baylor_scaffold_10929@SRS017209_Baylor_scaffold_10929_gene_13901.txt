@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q65667|RDRP_BNYVS    11.7      0.15   1   1.6   0.0    Replicase OS=Beet necrotic yellow vein virus (isolate Japan/S) OX=652670 GN=ORF1 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q65667|RDRP_BNYVS    10.3       0.4     1   0.0   1163   1237   1172   1230     66    124     Replicase OS=Beet necrotic yellow vein virus (isolate Japan/S) OX=652670 GN=ORF1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000195@SRS017209_Baylor_scaffold_10929@SRS017209_Baylor_scaffold_10929_gene_13901.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000195@SRS017209_Baylor_scaffold_10929@SRS017209_Baylor_scaffold_10929_gene_13901.txt data/models_hmm/7000000195@SRS017209_Baylor_scaffold_10929@SRS017209_Baylor_scaffold_10929_gene_13901.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:14 2021
+# [ok]

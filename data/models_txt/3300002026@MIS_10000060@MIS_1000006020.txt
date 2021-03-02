@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q27YE4|GLYC_IPPYV    11.9      0.18   1   1.8   0.8    Pre-glycoprotein polyprotein GP complex OS=Ippy mammarenavirus (isolate Rat/Central African Republic/Dak An B 188 d/1970) OX=55096 GN=GPC PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q27YE4|GLYC_IPPYV    10.3      0.56     1   0.8    433    464    436    459      7     30     Pre-glycoprotein polyprotein GP complex OS=Ippy mammarenavirus (isolate Rat/Central African Republic/Dak An B 188 d/1970) OX=55096 GN=GPC PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000060@MIS_1000006020.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000060@MIS_1000006020.txt data/models_hmm/3300002026@MIS_10000060@MIS_1000006020.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:43 2021
+# [ok]

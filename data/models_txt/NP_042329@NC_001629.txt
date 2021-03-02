@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P18272|NCAP_EBOZM    12.0      0.18   2   2.2   0.8    Nucleoprotein OS=Zaire ebolavirus (strain Mayinga-76) OX=128952 GN=NP PE=1 SV=2
+sp|O72142|NCAP_EBOZ5     8.2       2.7   3   2.3   4.9    Nucleoprotein OS=Zaire ebolavirus (strain Kikwit-95) OX=128951 GN=NP PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O72142|NCAP_EBOZ5    10.3       0.6     3   0.1    681    737    686    735      8     56     Nucleoprotein OS=Zaire ebolavirus (strain Kikwit-95) OX=128951 GN=NP PE=1 SV=1
+sp|P18272|NCAP_EBOZM    10.3       0.6     2   0.1    681    737    686    735      8     56     Nucleoprotein OS=Zaire ebolavirus (strain Mayinga-76) OX=128952 GN=NP PE=1 SV=2
+sp|O72142|NCAP_EBOZ5    -2.1   4.1e+03     1   0.1    332    393    336    380     38     81     Nucleoprotein OS=Zaire ebolavirus (strain Kikwit-95) OX=128951 GN=NP PE=1 SV=1
+sp|P18272|NCAP_EBOZM    -2.1   4.1e+03     1   0.1    332    393    336    380     38     81     Nucleoprotein OS=Zaire ebolavirus (strain Mayinga-76) OX=128952 GN=NP PE=1 SV=2
+sp|O72142|NCAP_EBOZ5    -2.7   6.1e+03     2   0.2    610    671    611    643      9     40     Nucleoprotein OS=Zaire ebolavirus (strain Kikwit-95) OX=128951 GN=NP PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_042329@NC_001629.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_042329@NC_001629.txt data/models_hmm/NP_042329@NC_001629.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:16 2021
+# [ok]

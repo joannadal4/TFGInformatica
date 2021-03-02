@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HC97|VPAP_HCMVM   670.2  7.9e-202   1   1.0   0.0    DNA polymerase processivity factor OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL44 PE=3 SV=1
+sp|P16790|VPAP_HCMVA   670.1  8.1e-202   1   1.0   0.0    DNA polymerase processivity factor OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL44 PE=1 SV=1
+sp|P52439|VPAP_HHV6U   499.8  4.5e-150   1   1.8  17.4    DNA polymerase processivity factor OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U27 PE=3 SV=1
+sp|P52440|VPAP_HHV7J   499.6  5.3e-150   1   1.9  17.6    DNA polymerase processivity factor OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U27 PE=3 SV=1
+sp|Q9QJ40|VPAP_HHV6Z   497.0  3.2e-149   1   1.8  18.6    DNA polymerase processivity factor OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U27 PE=3 SV=1
+sp|P27417|VPAP_HHV6G   494.9  1.4e-148   1   1.8  17.2    DNA polymerase processivity factor (Fragment) OS=Human herpesvirus 6A (strain GS) OX=10369 GN=U27 PE=2 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HC97|VPAP_HCMVM   670.0  8.9e-202     1   0.0      1    433      1    433      1    383     DNA polymerase processivity factor OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL44 PE=3 SV=1
+sp|P16790|VPAP_HCMVA   670.0  9.1e-202     1   0.0      1    433      1    433      1    383     DNA polymerase processivity factor OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL44 PE=1 SV=1
+sp|P52439|VPAP_HHV6U   497.4  2.3e-149     1  17.4     26    392     41    391      3    382     DNA polymerase processivity factor OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U27 PE=3 SV=1
+sp|P52440|VPAP_HHV7J   495.7  7.9e-149     1  17.6      1    363     15    363      3    383     DNA polymerase processivity factor OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U27 PE=3 SV=1
+sp|Q9QJ40|VPAP_HHV6Z   494.7  1.5e-148     1  18.6      1    365     16    364      3    382     DNA polymerase processivity factor OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U27 PE=3 SV=1
+sp|P27417|VPAP_HHV6G   492.6  6.9e-148     1  17.2     21    387     36    386      3    382     DNA polymerase processivity factor (Fragment) OS=Human herpesvirus 6A (strain GS) OX=10369 GN=U27 PE=2 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_073767@NC_001716.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_073767@NC_001716.txt data/models_hmm/YP_073767@NC_001716.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:02 2021
+# [ok]

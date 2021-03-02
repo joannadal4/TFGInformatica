@@ -1,0 +1,38 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q196X1|089L_IIV3    131.9   8.7e-39   1   1.0   5.3    Uncharacterized protein 089L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-089L PE=4 SV=1
+sp|P16778|VGLI_HCMVA    17.0    0.0063   2   2.3   6.5    UL37 immediate early glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL37 PE=1 SV=2
+sp|Q6SW94|VGLI_HCMVM    13.5     0.079   2   1.8   5.6    UL37 immediate early glycoprotein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL37 PE=3 SV=1
+sp|P68610|RP19_VACCC    11.7      0.29   1   1.6   2.2    DNA-directed RNA polymerase 19 kDa subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=RPO19 PE=2 SV=1
+sp|P68611|RP19_VACCW    11.7      0.29   1   1.6   2.2    DNA-directed RNA polymerase 19 kDa subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=RPO19 PE=1 SV=1
+sp|Q76ZQ8|RP19_VACCA    11.7      0.29   1   1.6   2.2    DNA-directed RNA polymerase 19 kDa subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=RPO19 PE=1 SV=1
+sp|Q91FN9|285L_IIV6     10.0      0.98   2   2.2  13.8    Uncharacterized protein 285L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-285L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q196X1|089L_IIV3    131.8   9.6e-39     1   5.3      1     98      1     97      1     82     Uncharacterized protein 089L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-089L PE=4 SV=1
+sp|P16778|VGLI_HCMVA    15.0     0.027     1   5.1     85    161     88    157     12     79     UL37 immediate early glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL37 PE=1 SV=2
+sp|Q6SW94|VGLI_HCMVM    12.6      0.14     1   4.9     85    161     88    155     12     77     UL37 immediate early glycoprotein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL37 PE=3 SV=1
+sp|P68610|RP19_VACCC    10.6      0.64     1   2.2      4     74     18     55     20     57     DNA-directed RNA polymerase 19 kDa subunit OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=RPO19 PE=2 SV=1
+sp|P68611|RP19_VACCW    10.6      0.64     1   2.2      4     74     18     55     20     57     DNA-directed RNA polymerase 19 kDa subunit OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=RPO19 PE=1 SV=1
+sp|Q76ZQ8|RP19_VACCA    10.6      0.64     1   2.2      4     74     18     55     20     57     DNA-directed RNA polymerase 19 kDa subunit OS=Vaccinia virus (strain Ankara) OX=126794 GN=RPO19 PE=1 SV=1
+sp|Q91FN9|285L_IIV6      9.6       1.2     1   7.1      4     76     11     71     16     74     Uncharacterized protein 285L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-285L PE=4 SV=1
+sp|Q91FN9|285L_IIV6      6.5        11     2   1.9     67    120     69    108      5     46     Uncharacterized protein 285L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-285L PE=4 SV=1
+sp|P16778|VGLI_HCMVA     0.6   8.2e+02     2   0.0    320    392    359    384     51     73     UL37 immediate early glycoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL37 PE=1 SV=2
+sp|Q6SW94|VGLI_HCMVM    -2.6   7.9e+03     2   0.0    320    391    370    381     58     69     UL37 immediate early glycoprotein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL37 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/CCV01720@HF920633.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/CCV01720@HF920633.txt data/models_hmm/CCV01720@HF920633.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:09 2021
+# [ok]

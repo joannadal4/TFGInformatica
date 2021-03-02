@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64333|TIPK_BPN15   302.5   1.6e-90   1   1.0   0.1    Tail tip assembly protein K OS=Escherichia phage N15 OX=40631 GN=gene 19 PE=3 SV=1
+sp|P03729|TIPK_LAMBD   274.1   7.7e-82   1   1.0   0.2    Tail tip assembly protein K OS=Escherichia phage lambda OX=10710 GN=K PE=3 SV=1
+sp|Q80HW9|G6_VACCW      11.8     0.098   1   1.3   0.0    Uncharacterized protein G6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR084 PE=3 SV=1
+sp|P21027|G6_VACCC      11.7      0.11   1   1.3   0.0    Uncharacterized protein G6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G6R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64333|TIPK_BPN15   302.3   1.9e-90     1   0.1      1    242      1    238      2    236     Tail tip assembly protein K OS=Escherichia phage N15 OX=40631 GN=gene 19 PE=3 SV=1
+sp|P03729|TIPK_LAMBD   273.9   8.6e-82     1   0.2      1    189      1    188     51    241     Tail tip assembly protein K OS=Escherichia phage lambda OX=10710 GN=K PE=3 SV=1
+sp|Q80HW9|G6_VACCW      11.1      0.16     1   0.0     71    129     77    123     97    140     Uncharacterized protein G6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR084 PE=3 SV=1
+sp|P21027|G6_VACCC      11.0      0.18     1   0.0     71    129     77    123     97    140     Uncharacterized protein G6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=G6R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_355399@NC_007497.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_355399@NC_007497.txt data/models_hmm/YP_355399@NC_007497.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:28 2021
+# [ok]

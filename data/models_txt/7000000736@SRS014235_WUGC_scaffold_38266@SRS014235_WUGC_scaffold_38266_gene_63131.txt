@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DON5|F17_VAR67     16.1    0.0052   1   1.0   0.0    Phosphoprotein F17 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C21R PE=3 SV=1
+sp|P0DON6|F17_VARV      16.1    0.0052   1   1.0   0.0    Phosphoprotein F17 OS=Variola virus OX=10255 GN=C21R PE=3 SV=1
+sp|P07396|F17_VACCW     15.7    0.0066   1   1.0   0.0    Phosphoprotein F17 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR056 PE=1 SV=1
+sp|P68454|F17_VACCC     14.6     0.015   1   1.0   0.0    Phosphoprotein F17 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F17R PE=3 SV=1
+sp|P68455|F17_VACCT     14.6     0.015   1   1.0   0.0    Phosphoprotein F17 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TF17R PE=3 SV=1
+sp|Q8QME4|VIE2_NPVCF    10.5      0.27   1   1.4   1.4    E3 ubiquitin-protein ligase IE2 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=IE2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DON5|F17_VAR67     15.9    0.0059     1   0.0      1     98      3     93    123    204     Phosphoprotein F17 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=C21R PE=3 SV=1
+sp|P0DON6|F17_VARV      15.9    0.0059     1   0.0      1     98      3     93    123    204     Phosphoprotein F17 OS=Variola virus OX=10255 GN=C21R PE=3 SV=1
+sp|P07396|F17_VACCW     15.6    0.0076     1   0.0      1     98      3     93    123    204     Phosphoprotein F17 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR056 PE=1 SV=1
+sp|P68454|F17_VACCC     14.4     0.017     1   0.0      1     98      3     93    123    204     Phosphoprotein F17 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=F17R PE=3 SV=1
+sp|P68455|F17_VACCT     14.4     0.017     1   0.0      1     98      3     93    123    204     Phosphoprotein F17 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TF17R PE=3 SV=1
+sp|Q8QME4|VIE2_NPVCF     9.6      0.49     1   1.4    248    330    267    305    169    207     E3 ubiquitin-protein ligase IE2 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=IE2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000736@SRS014235_WUGC_scaffold_38266@SRS014235_WUGC_scaffold_38266_gene_63131.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000736@SRS014235_WUGC_scaffold_38266@SRS014235_WUGC_scaffold_38266_gene_63131.txt data/models_hmm/7000000736@SRS014235_WUGC_scaffold_38266@SRS014235_WUGC_scaffold_38266_gene_63131.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:11 2021
+# [ok]

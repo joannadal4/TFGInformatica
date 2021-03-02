@@ -1,0 +1,43 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P18092|NEF_HV2BE     18.2    0.0016   1   1.4   0.7    Protein Nef OS=Human immunodeficiency virus type 2 subtype A (isolate BEN) OX=11714 GN=nef PE=3 SV=3
+sp|P05860|NEF_HV2NZ     17.3     0.003   1   1.4   0.1    Protein Nef OS=Human immunodeficiency virus type 2 subtype A (isolate NIH-Z) OX=11719 GN=nef PE=3 SV=3
+sp|P18038|NEF_HV2G1     15.3     0.013   1   1.3   0.1    Protein Nef OS=Human immunodeficiency virus type 2 subtype A (isolate Ghana-1) OX=11717 GN=nef PE=3 SV=3
+sp|P05861|NEF_SIVMK     14.1     0.031   2   1.8   1.6    Protein Nef OS=Simian immunodeficiency virus (isolate K6W) OX=11735 GN=nef PE=3 SV=3
+sp|P12447|NEF_HV2SB     13.7     0.039   1   1.3   0.2    Protein Nef OS=Human immunodeficiency virus type 2 subtype A (isolate SBLISY) OX=11718 GN=nef PE=3 SV=3
+sp|P04600|NEF_HV2RO     13.6     0.041   2   1.7   0.4    Protein Nef OS=Human immunodeficiency virus type 2 subtype A (isolate ROD) OX=11720 GN=nef PE=3 SV=3
+sp|P31818|NEF_SIVMA     13.5     0.046   2   1.7   0.1    Protein Nef OS=Simian immunodeficiency virus (isolate 1A11) OX=31682 GN=nef PE=1 SV=3
+sp|Q74127|NEF_HV2KR     13.4     0.048   1   1.3   0.0    Protein Nef OS=Human immunodeficiency virus type 2 subtype A (isolate KR) OX=73484 GN=nef PE=3 SV=3
+sp|P11262|NEF_SIVML     12.7     0.079   2   1.5   0.9    Protein Nef OS=Simian immunodeficiency virus (isolate K78) OX=11736 GN=nef PE=3 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P18092|NEF_HV2BE     17.3     0.003     1   0.7     38     88     49     84    104    136     Protein Nef OS=Human immunodeficiency virus type 2 subtype A (isolate BEN) OX=11714 GN=nef PE=3 SV=3
+sp|P05860|NEF_HV2NZ     16.5    0.0056     1   0.1     39     89     54     84    105    136     Protein Nef OS=Human immunodeficiency virus type 2 subtype A (isolate NIH-Z) OX=11719 GN=nef PE=3 SV=3
+sp|P18038|NEF_HV2G1     14.6     0.022     1   0.1     39     88     44     84     94    136     Protein Nef OS=Human immunodeficiency virus type 2 subtype A (isolate Ghana-1) OX=11717 GN=nef PE=3 SV=3
+sp|P05861|NEF_SIVMK     13.8     0.038     1   0.1     40     88     52     84    102    136     Protein Nef OS=Simian immunodeficiency virus (isolate K6W) OX=11735 GN=nef PE=3 SV=3
+sp|P31818|NEF_SIVMA     13.5     0.046     1   0.1     40     88     55     84    107    136     Protein Nef OS=Simian immunodeficiency virus (isolate 1A11) OX=31682 GN=nef PE=1 SV=3
+sp|P12447|NEF_HV2SB     13.0     0.066     1   0.2     39     88     54     84    105    136     Protein Nef OS=Human immunodeficiency virus type 2 subtype A (isolate SBLISY) OX=11718 GN=nef PE=3 SV=3
+sp|Q74127|NEF_HV2KR     12.7     0.083     1   0.0     40     88     56     84    108    136     Protein Nef OS=Human immunodeficiency virus type 2 subtype A (isolate KR) OX=73484 GN=nef PE=3 SV=3
+sp|P04600|NEF_HV2RO     12.5     0.092     1   0.1     40     88     53     84    105    136     Protein Nef OS=Human immunodeficiency virus type 2 subtype A (isolate ROD) OX=11720 GN=nef PE=3 SV=3
+sp|P11262|NEF_SIVML     12.5     0.095     1   0.0     40     88     54     84    106    136     Protein Nef OS=Simian immunodeficiency virus (isolate K78) OX=11736 GN=nef PE=3 SV=3
+sp|P05861|NEF_SIVMK     -1.3   1.7e+03     2   0.3    172    206    190    205    108    123     Protein Nef OS=Simian immunodeficiency virus (isolate K6W) OX=11735 GN=nef PE=3 SV=3
+sp|P31818|NEF_SIVMA     -2.3   3.4e+03     2   0.2    180    226    198    210    113    124     Protein Nef OS=Simian immunodeficiency virus (isolate 1A11) OX=31682 GN=nef PE=1 SV=3
+sp|P04600|NEF_HV2RO     -3.0   5.7e+03     2   0.0    188    223    190    202     82     94     Protein Nef OS=Human immunodeficiency virus type 2 subtype A (isolate ROD) OX=11720 GN=nef PE=3 SV=3
+sp|P11262|NEF_SIVML     -4.0   1.1e+04     2   0.2    183    213    197    207    112    122     Protein Nef OS=Simian immunodeficiency virus (isolate K78) OX=11736 GN=nef PE=3 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH31713@HQ633071.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH31713@HQ633071.txt data/models_hmm/AGH31713@HQ633071.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:44 2021
+# [ok]

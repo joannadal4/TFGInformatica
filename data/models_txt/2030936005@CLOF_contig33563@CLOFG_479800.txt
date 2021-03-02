@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P31332|L_SYNV        11.4      0.17   3   2.9   2.0    RNA-directed RNA polymerase L OS=Sonchus yellow net virus OX=11307 GN=L PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P31332|L_SYNV         9.1      0.94     3   0.0   1758   1828   1764   1825     65    124     RNA-directed RNA polymerase L OS=Sonchus yellow net virus OX=11307 GN=L PE=2 SV=1
+sp|P31332|L_SYNV        -0.5   8.4e+02     1   0.2    442    511    448    503     66    119     RNA-directed RNA polymerase L OS=Sonchus yellow net virus OX=11307 GN=L PE=2 SV=1
+sp|P31332|L_SYNV        -1.5   1.7e+03     2   0.0   1384   1433   1399   1430     93    124     RNA-directed RNA polymerase L OS=Sonchus yellow net virus OX=11307 GN=L PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2030936005@CLOF_contig33563@CLOFG_479800.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2030936005@CLOF_contig33563@CLOFG_479800.txt data/models_hmm/2030936005@CLOF_contig33563@CLOFG_479800.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:21 2021
+# [ok]

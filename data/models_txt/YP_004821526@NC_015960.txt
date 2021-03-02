@@ -1,0 +1,50 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HFB4|UL18_HCMVM    300.5   1.4e-89   1   1.0   2.0    Membrane glycoprotein UL18 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL18 PE=3 SV=1
+sp|P08560|UL18_HCMVA    297.9   8.3e-89   1   1.0   1.2    Glycoprotein UL18 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=H301 PE=1 SV=1
+sp|F5HHH2|UL142_HCMVM   125.1   3.1e-36   1   2.1  23.9    Membrane glycoprotein UL142 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL142 PE=1 SV=1
+sp|P32231|VC01_SWPVK     50.2   1.8e-13   1   1.1   1.8    Putative Ig-like domain-containing protein C1 OS=Swinepox virus (strain Kasza) OX=10277 GN=C1L PE=4 SV=1
+sp|Q9QJ46|U20_HHV6Z      31.2   1.1e-07   1   1.2   0.0    Glycoprotein U20 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U20 PE=3 SV=1
+sp|P11364|TCB_FLV        25.5     6e-06   1   1.4   0.1    Viral T-cell receptor beta chain-like T17T-22 OS=Feline leukemia virus OX=11768 GN=V-TCR PE=4 SV=1
+sp|Q69555|U20_HHV6U      24.4   1.3e-05   1   1.4   0.0    Glycoprotein U20 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U20 PE=3 SV=1
+sp|P06475|GC_HHV23       19.1    0.0005   2   1.8   0.7    Envelope glycoprotein C OS=Human herpesvirus 2 (strain 333) OX=10313 GN=gC PE=3 SV=1
+sp|P03173|GC_HHV2G       19.1    0.0005   2   1.8   0.7    Envelope glycoprotein C OS=Human herpesvirus 2 (strain G) OX=10314 GN=gC PE=3 SV=1
+sp|Q89730|GC_HHV2H       19.1    0.0005   2   1.8   0.7    Envelope glycoprotein C OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=gC PE=1 SV=1
+sp|P10228|GC_HHV11       18.7   0.00066   2   1.7   0.4    Envelope glycoprotein C OS=Human herpesvirus 1 (strain 17) OX=10299 GN=gC PE=1 SV=1
+sp|P28986|GC_HHV1K       16.7    0.0028   2   1.7   0.5    Envelope glycoprotein C OS=Human herpesvirus 1 (strain KOS) OX=10306 GN=gC PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HFB4|UL18_HCMVM    300.3   1.6e-89     1   2.0      1    368      1    367      1    336     Membrane glycoprotein UL18 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL18 PE=3 SV=1
+sp|P08560|UL18_HCMVA    297.8   9.3e-89     1   1.2      1    368      1    367      1    336     Glycoprotein UL18 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=H301 PE=1 SV=1
+sp|F5HHH2|UL142_HCMVM   122.5   1.9e-35     1  23.9      1    305      1    282      1    312     Membrane glycoprotein UL142 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL142 PE=1 SV=1
+sp|P32231|VC01_SWPVK     49.8   2.4e-13     1   1.8      1    274     12    263     14    250     Putative Ig-like domain-containing protein C1 OS=Swinepox virus (strain Kasza) OX=10277 GN=C1L PE=4 SV=1
+sp|Q9QJ46|U20_HHV6Z      30.6   1.7e-07     1   0.0     93    350    114    344    121    321     Glycoprotein U20 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U20 PE=3 SV=1
+sp|P11364|TCB_FLV        24.7     1e-05     1   0.1    139    243    148    206    193    246     Viral T-cell receptor beta chain-like T17T-22 OS=Feline leukemia virus OX=11768 GN=V-TCR PE=4 SV=1
+sp|Q69555|U20_HHV6U      23.7   2.1e-05     1   0.0     94    348    115    287    122    288     Glycoprotein U20 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U20 PE=3 SV=1
+sp|P03173|GC_HHV2G       17.8    0.0013     1   0.2    219    372    229    348    192    293     Envelope glycoprotein C OS=Human herpesvirus 2 (strain G) OX=10314 GN=gC PE=3 SV=1
+sp|P06475|GC_HHV23       17.8    0.0013     1   0.2    220    373    230    349    192    293     Envelope glycoprotein C OS=Human herpesvirus 2 (strain 333) OX=10313 GN=gC PE=3 SV=1
+sp|Q89730|GC_HHV2H       17.8    0.0013     1   0.2    220    373    230    349    192    293     Envelope glycoprotein C OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=gC PE=1 SV=1
+sp|P10228|GC_HHV11       17.4    0.0017     1   0.2    253    409    261    391    192    308     Envelope glycoprotein C OS=Human herpesvirus 1 (strain 17) OX=10299 GN=gC PE=1 SV=1
+sp|P28986|GC_HHV1K       15.4    0.0069     1   0.2    253    402    261    350    192    273     Envelope glycoprotein C OS=Human herpesvirus 1 (strain KOS) OX=10306 GN=gC PE=1 SV=1
+sp|P03173|GC_HHV2G        0.2   2.9e+02     2   0.0    329    479    354    466    215    321     Envelope glycoprotein C OS=Human herpesvirus 2 (strain G) OX=10314 GN=gC PE=3 SV=1
+sp|P06475|GC_HHV23        0.2   2.9e+02     2   0.0    330    480    355    467    215    321     Envelope glycoprotein C OS=Human herpesvirus 2 (strain 333) OX=10313 GN=gC PE=3 SV=1
+sp|Q89730|GC_HHV2H        0.2   2.9e+02     2   0.0    330    480    355    467    215    321     Envelope glycoprotein C OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=gC PE=1 SV=1
+sp|P10228|GC_HHV11       -1.5   9.4e+02     2   0.0    456    511    485    509    303    327     Envelope glycoprotein C OS=Human herpesvirus 1 (strain 17) OX=10299 GN=gC PE=1 SV=1
+sp|P28986|GC_HHV1K       -1.5   9.4e+02     2   0.0    456    511    485    509    303    327     Envelope glycoprotein C OS=Human herpesvirus 1 (strain KOS) OX=10306 GN=gC PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004821526@NC_015960.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004821526@NC_015960.txt data/models_hmm/YP_004821526@NC_015960.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:35 2021
+# [ok]

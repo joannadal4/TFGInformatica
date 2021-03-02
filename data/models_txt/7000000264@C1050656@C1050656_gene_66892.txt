@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O55772|VF196_IIV6    12.9      0.09   2   2.2   0.1    Uncharacterized protein 196R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-196R PE=3 SV=1
+sp|Q6W8W5|POL1_ARMVN    12.2      0.15   1   2.1   0.5    RNA1 polyprotein OS=Arabis mosaic virus (isolate NW) OX=282063 PE=3 SV=1
+sp|P29149|POL1_GFLV     12.2      0.16   2   2.0   3.2    RNA1 polyprotein OS=Grapevine fanleaf virus OX=12274 PE=1 SV=1
+sp|Q91QS9|VME1_IBVBU    10.4      0.56   2   2.0   5.7    Membrane protein OS=Avian infectious bronchitis virus (strain Beaudette US) OX=160750 GN=M PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P29149|POL1_GFLV     12.7      0.11     2   0.7   1155   1213   1160   1205      9     52     RNA1 polyprotein OS=Grapevine fanleaf virus OX=12274 PE=1 SV=1
+sp|Q91QS9|VME1_IBVBU    10.9      0.38     1   3.4     24    108     33     93     12     65     Membrane protein OS=Avian infectious bronchitis virus (strain Beaudette US) OX=160750 GN=M PE=3 SV=1
+sp|Q6W8W5|POL1_ARMVN    10.2      0.67     1   0.5   1154   1211   1158   1204      8     52     RNA1 polyprotein OS=Arabis mosaic virus (isolate NW) OX=282063 PE=3 SV=1
+sp|O55772|VF196_IIV6     9.7      0.94     1   0.1     27     74     31     52     28     49     Uncharacterized protein 196R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-196R PE=3 SV=1
+sp|O55772|VF196_IIV6     0.8   5.5e+02     2   0.0     99    140    110    137     49     76     Uncharacterized protein 196R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-196R PE=3 SV=1
+sp|P29149|POL1_GFLV     -3.4   1.1e+04     1   0.1    545    568    546    562     48     63     RNA1 polyprotein OS=Grapevine fanleaf virus OX=12274 PE=1 SV=1
+sp|Q91QS9|VME1_IBVBU    -3.5   1.2e+04     2   0.0    193    208    195    204      7     16     Membrane protein OS=Avian infectious bronchitis virus (strain Beaudette US) OX=160750 GN=M PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000264@C1050656@C1050656_gene_66892.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000264@C1050656@C1050656_gene_66892.txt data/models_hmm/7000000264@C1050656@C1050656_gene_66892.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:49 2021
+# [ok]

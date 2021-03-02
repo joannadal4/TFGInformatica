@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UNZ6|YL742_MIMIV    16.2    0.0071   3   3.1   1.8    Putative BTB/POZ domain-containing protein L742 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L742 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UNZ6|YL742_MIMIV    11.4      0.23     1   0.0     72    135     76    132     24     80     Putative BTB/POZ domain-containing protein L742 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L742 PE=3 SV=1
+sp|Q5UNZ6|YL742_MIMIV     2.7   1.1e+02     3   0.1    294    364    307    330     33     56     Putative BTB/POZ domain-containing protein L742 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L742 PE=3 SV=1
+sp|Q5UNZ6|YL742_MIMIV    -2.2   3.9e+03     2   0.1    153    222    165    203     19     57     Putative BTB/POZ domain-containing protein L742 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L742 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006987517@NC_019401.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006987517@NC_019401.txt data/models_hmm/YP_006987517@NC_019401.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:41 2021
+# [ok]

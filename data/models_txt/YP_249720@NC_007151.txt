@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20547|YVBG_VACCC    16.5    0.0044   1   1.1   2.5    Uncharacterized 11.2 kDa protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B ORF G PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20547|YVBG_VACCC    16.5    0.0046     1   2.5      2     85      9     57    117    164     Uncharacterized 11.2 kDa protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B ORF G PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_249720@NC_007151.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_249720@NC_007151.txt data/models_hmm/YP_249720@NC_007151.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:24 2021
+# [ok]

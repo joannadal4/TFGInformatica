@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9QJT4|L_SHRV        10.4      0.39   2   2.8   2.2    RNA-directed RNA polymerase L OS=Snakehead rhabdovirus OX=103603 GN=L PE=3 SV=1
+sp|P09261|GK_VZVD        6.5       6.4   3   3.7   9.2    Envelope glycoprotein K OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gK PE=3 SV=1
+sp|Q4JQX0|GK_VZVO        6.5       6.4   3   3.7   9.2    Envelope glycoprotein K OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gK PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09261|GK_VZVD        8.4       1.7     1   0.2      6     56     12     34      7     29     Envelope glycoprotein K OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gK PE=3 SV=1
+sp|Q4JQX0|GK_VZVO        8.4       1.7     1   0.2      6     56     12     34      7     29     Envelope glycoprotein K OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gK PE=3 SV=1
+sp|Q9QJT4|L_SHRV         5.0        18     1   0.1    175    217    181    208     12     38     RNA-directed RNA polymerase L OS=Snakehead rhabdovirus OX=103603 GN=L PE=3 SV=1
+sp|Q9QJT4|L_SHRV         3.9        40     2   0.4    642    663    648    660     39     51     RNA-directed RNA polymerase L OS=Snakehead rhabdovirus OX=103603 GN=L PE=3 SV=1
+sp|P09261|GK_VZVD        1.5   2.3e+02     3   0.5    292    334    307    332     17     41     Envelope glycoprotein K OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gK PE=3 SV=1
+sp|Q4JQX0|GK_VZVO        1.5   2.3e+02     3   0.5    292    334    307    332     17     41     Envelope glycoprotein K OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gK PE=3 SV=1
+sp|P09261|GK_VZVD       -0.3   8.7e+02     2   0.1    251    296    282    291     38     47     Envelope glycoprotein K OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gK PE=3 SV=1
+sp|Q4JQX0|GK_VZVO       -0.3   8.7e+02     2   0.1    251    296    282    291     38     47     Envelope glycoprotein K OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gK PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000001@SRS022530_LANL_scaffold_62914@SRS022530_LANL_scaffold_62914_gene_165314.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000001@SRS022530_LANL_scaffold_62914@SRS022530_LANL_scaffold_62914_gene_165314.txt data/models_hmm/7000000001@SRS022530_LANL_scaffold_62914@SRS022530_LANL_scaffold_62914_gene_165314.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:25 2021
+# [ok]

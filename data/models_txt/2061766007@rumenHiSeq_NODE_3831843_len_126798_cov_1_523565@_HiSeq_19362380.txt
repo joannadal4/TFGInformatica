@@ -1,0 +1,50 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P23998|SANS_VACCD    19.4    0.0007   2   2.8   0.1    Surface antigen S OS=Vaccinia virus (strain Dairen I) OX=10250 GN=B19R PE=3 SV=1
+sp|P21077|SANS_VACCC    19.2   0.00082   2   2.7   0.1    Surface antigen S OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B19R PE=3 SV=1
+sp|P25213|B18_VACCW     18.7    0.0011   2   2.7   0.1    Soluble interferon alpha/beta receptor B18 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR200 PE=1 SV=1
+sp|Q38477|GP6_BPMU      14.2      0.03   1   1.2   3.6    Uncharacterized protein gp6 OS=Escherichia phage Mu OX=10677 GN=Mup06 PE=2 SV=1
+sp|P0DST1|SANS_VAR67    13.3     0.058   3   2.5   0.2    Surface antigen S OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=B19R PE=3 SV=1
+sp|P0DST2|SANS_VARV     13.3     0.058   3   2.5   0.2    Surface antigen S OS=Variola virus OX=10255 GN=B19R PE=3 SV=1
+sp|Q6GZV6|019R_FRG3G    12.1      0.14   3   3.3   0.0    Putative serine/threonine-protein kinase 019R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-019R PE=3 SV=1
+sp|Q70LD8|Y115_AFV1Y    10.1      0.57   2   1.9   3.8    Uncharacterized protein ORF115 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF115 PE=4 SV=1
+sp|Q6R7E2|IAP2_OSHVF     9.0       1.3   2   2.5   4.4    Putative apoptosis inhibitor ORF87 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF87 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38477|GP6_BPMU      14.0     0.035     1   3.6      1     69      3     55     36     81     Uncharacterized protein gp6 OS=Escherichia phage Mu OX=10677 GN=Mup06 PE=2 SV=1
+sp|P23998|SANS_VACCD    12.9     0.074     1   0.0      6     94     14     58      9     54     Surface antigen S OS=Vaccinia virus (strain Dairen I) OX=10250 GN=B19R PE=3 SV=1
+sp|P25213|B18_VACCW     12.9     0.076     1   0.0      6     93     14     58      9     54     Soluble interferon alpha/beta receptor B18 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR200 PE=1 SV=1
+sp|P21077|SANS_VACCC    12.8      0.08     1   0.0     10     95     17     60     10     54     Surface antigen S OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B19R PE=3 SV=1
+sp|Q70LD8|Y115_AFV1Y    11.4      0.22     2   0.4     66    113     75    110      5     40     Uncharacterized protein ORF115 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF115 PE=4 SV=1
+sp|P0DST1|SANS_VAR67    10.1      0.55     1   0.0      9     90     17     61      9     54     Surface antigen S OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=B19R PE=3 SV=1
+sp|P0DST2|SANS_VARV     10.1      0.55     1   0.0      9     90     17     61      9     54     Surface antigen S OS=Variola virus OX=10255 GN=B19R PE=3 SV=1
+sp|Q6R7E2|IAP2_OSHVF     7.3       4.3     1   0.2     20     93     52     81     52     81     Putative apoptosis inhibitor ORF87 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF87 PE=4 SV=1
+sp|Q6GZV6|019R_FRG3G     4.1        43     3   0.0    131    185    143    175     32     64     Putative serine/threonine-protein kinase 019R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-019R PE=3 SV=1
+sp|P21077|SANS_VACCC     3.5        65     2   0.2     78    159     94    136     23     64     Surface antigen S OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B19R PE=3 SV=1
+sp|P23998|SANS_VACCD     3.5        66     2   0.2     78    157     92    134     23     64     Surface antigen S OS=Vaccinia virus (strain Dairen I) OX=10250 GN=B19R PE=3 SV=1
+sp|Q6R7E2|IAP2_OSHVF     3.1        85     2   0.6     97    167    131    147     52     68     Putative apoptosis inhibitor ORF87 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF87 PE=4 SV=1
+sp|P25213|B18_VACCW      3.0        95     2   0.1     78    155     92    133     23     63     Soluble interferon alpha/beta receptor B18 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR200 PE=1 SV=1
+sp|Q6GZV6|019R_FRG3G     1.7   2.4e+02     1   0.0      8     48     14     39     36     61     Putative serine/threonine-protein kinase 019R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-019R PE=3 SV=1
+sp|Q6GZV6|019R_FRG3G     1.3   3.1e+02     2   0.0     70    107     73    103     32     62     Putative serine/threonine-protein kinase 019R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-019R PE=3 SV=1
+sp|P0DST1|SANS_VAR67    -0.5   1.2e+03     2   0.0     81    143     98    135     27     62     Surface antigen S OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=B19R PE=3 SV=1
+sp|P0DST2|SANS_VARV     -0.5   1.2e+03     2   0.0     81    143     98    135     27     62     Surface antigen S OS=Variola virus OX=10255 GN=B19R PE=3 SV=1
+sp|Q70LD8|Y115_AFV1Y    -0.7   1.3e+03     1   0.2      2     46     15     35     36     56     Uncharacterized protein ORF115 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF115 PE=4 SV=1
+sp|P0DST1|SANS_VAR67    -3.6   1.1e+04     3   0.1    322    345    331    342     54     65     Surface antigen S OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=B19R PE=3 SV=1
+sp|P0DST2|SANS_VARV     -3.6   1.1e+04     3   0.1    322    345    331    342     54     65     Surface antigen S OS=Variola virus OX=10255 GN=B19R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_3831843_len_126798_cov_1_523565@_HiSeq_19362380.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_3831843_len_126798_cov_1_523565@_HiSeq_19362380.txt data/models_hmm/2061766007@rumenHiSeq_NODE_3831843_len_126798_cov_1_523565@_HiSeq_19362380.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:39 2021
+# [ok]

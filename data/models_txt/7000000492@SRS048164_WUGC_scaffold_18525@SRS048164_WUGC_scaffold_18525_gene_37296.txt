@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C9N9|3608L_ASFM2    14.7     0.023   2   2.2   0.1    Protein MGF 360-8L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-027 PE=3 SV=1
+sp|P0C9N6|3608L_ASFWA    14.3      0.03   2   2.0   0.1    Protein MGF 360-8L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-028 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C9N9|3608L_ASFM2    12.4      0.11     2   0.0    244    289    251    287     21     57     Protein MGF 360-8L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-027 PE=3 SV=1
+sp|P0C9N6|3608L_ASFWA    12.3      0.12     2   0.1    248    289    253    287     23     57     Protein MGF 360-8L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-028 PE=3 SV=1
+sp|P0C9N9|3608L_ASFM2    -2.2   4.1e+03     1   0.0    182    225    185    201     22     38     Protein MGF 360-8L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-027 PE=3 SV=1
+sp|P0C9N6|3608L_ASFWA    -3.0   7.3e+03     1   0.0    183    218    186    201     23     38     Protein MGF 360-8L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-028 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000492@SRS048164_WUGC_scaffold_18525@SRS048164_WUGC_scaffold_18525_gene_37296.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000492@SRS048164_WUGC_scaffold_18525@SRS048164_WUGC_scaffold_18525_gene_37296.txt data/models_hmm/7000000492@SRS048164_WUGC_scaffold_18525@SRS048164_WUGC_scaffold_18525_gene_37296.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:40 2021
+# [ok]

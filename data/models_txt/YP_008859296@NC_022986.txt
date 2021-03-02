@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P26557|VE7_HPV58     12.8     0.072   2   2.3   2.7    Protein E7 OS=Human papillomavirus type 58 OX=10598 GN=E7 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P26557|VE7_HPV58      9.7      0.67     2   0.1     79     98     85     96     24     35     Protein E7 OS=Human papillomavirus type 58 OX=10598 GN=E7 PE=1 SV=1
+sp|P26557|VE7_HPV58      3.3        67     1   0.3     47     76     56     65     11     20     Protein E7 OS=Human papillomavirus type 58 OX=10598 GN=E7 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008859296@NC_022986.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008859296@NC_022986.txt data/models_hmm/YP_008859296@NC_022986.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:42 2021
+# [ok]

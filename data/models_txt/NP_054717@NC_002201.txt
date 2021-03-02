@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q87041|ENV_SFVCP   1751.1         0   1   1.0  19.7    Envelope glycoprotein gp130 OS=Simian foamy virus (isolate chimpanzee) OX=298339 GN=env PE=1 SV=1
+sp|P27399|ENV_SFV3L   1722.4         0   1   1.0  25.7    Envelope glycoprotein gp130 OS=Simian foamy virus type 3 (strain LK3) OX=11644 GN=env PE=3 SV=1
+sp|P14351|ENV_FOAMV   1707.2         0   1   1.0  20.9    Envelope glycoprotein gp130 OS=Human spumaretrovirus OX=11963 GN=env PE=1 SV=2
+sp|O56861|ENV_FFV     1682.9         0   1   1.0  13.8    Envelope glycoprotein gp130 OS=Feline foamy virus OX=53182 GN=env PE=1 SV=1
+sp|P23073|ENV_SFV1    1604.6         0   1   1.0  21.5    Envelope glycoprotein gp130 OS=Simian foamy virus type 1 OX=338478 GN=env PE=3 SV=3
+sp|P14339|POLG_DEN23     9.2      0.23   1   1.1   0.8    Genome polyprotein (Fragment) OS=Dengue virus type 2 (isolate Malaysia M3) OX=11063 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q87041|ENV_SFVCP   1751.0         0     1  19.7      1    988      1    988      1    983     Envelope glycoprotein gp130 OS=Simian foamy virus (isolate chimpanzee) OX=298339 GN=env PE=1 SV=1
+sp|P27399|ENV_SFV3L   1722.2         0     1  25.7      1    982      1    981      1    982     Envelope glycoprotein gp130 OS=Simian foamy virus type 3 (strain LK3) OX=11644 GN=env PE=3 SV=1
+sp|P14351|ENV_FOAMV   1707.0         0     1  20.9      1    989      1    989      1    983     Envelope glycoprotein gp130 OS=Human spumaretrovirus OX=11963 GN=env PE=1 SV=2
+sp|O56861|ENV_FFV     1682.7         0     1  13.8      1    982      3    982      3    983     Envelope glycoprotein gp130 OS=Feline foamy virus OX=53182 GN=env PE=1 SV=1
+sp|P23073|ENV_SFV1    1604.5         0     1  21.5      1    989      1    988      1    982     Envelope glycoprotein gp130 OS=Simian foamy virus type 1 OX=338478 GN=env PE=3 SV=3
+sp|P14339|POLG_DEN23     8.7      0.32     1   0.8    412    469    428    464    926    962     Genome polyprotein (Fragment) OS=Dengue virus type 2 (isolate Malaysia M3) OX=11063 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_054717@NC_002201.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_054717@NC_002201.txt data/models_hmm/NP_054717@NC_002201.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:37 2021
+# [ok]

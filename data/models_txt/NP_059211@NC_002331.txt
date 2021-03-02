@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DOI8|ST_POVKI       9.0       1.3   1   1.9   5.5    Small t antigen OS=KI polyomavirus (isolate Stockholm 350) OX=423447 PE=3 SV=1
+sp|P0DOI9|ST_POVK6       8.9       1.5   1   1.9   5.4    Small t antigen OS=KI polyomavirus (isolate Stockholm 60) OX=423446 PE=3 SV=1
+sp|P0DOJ0|ST_POVK3       8.9       1.5   1   1.9   5.4    Small t antigen OS=KI polyomavirus (isolate Stockholm 380) OX=423448 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DOI8|ST_POVKI       7.4       4.2     1   5.5     63    141     77    134     16     65     Small t antigen OS=KI polyomavirus (isolate Stockholm 350) OX=423447 PE=3 SV=1
+sp|P0DOI9|ST_POVK6       7.3       4.8     1   5.4     63    141     77    134     16     65     Small t antigen OS=KI polyomavirus (isolate Stockholm 60) OX=423446 PE=3 SV=1
+sp|P0DOJ0|ST_POVK3       7.3       4.8     1   5.4     63    141     77    134     16     65     Small t antigen OS=KI polyomavirus (isolate Stockholm 380) OX=423448 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_059211@NC_002331.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_059211@NC_002331.txt data/models_hmm/NP_059211@NC_002331.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:39 2021
+# [ok]

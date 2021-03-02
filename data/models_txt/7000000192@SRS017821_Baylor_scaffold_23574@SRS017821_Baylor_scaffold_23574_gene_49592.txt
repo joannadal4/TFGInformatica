@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9T1V6|TMP_BPMU      15.5    0.0032   2   2.3   1.3    Probable tape measure protein OS=Escherichia phage Mu OX=10677 GN=Mup42 PE=2 SV=1
+sp|P03730|TIPI_LAMBD     9.0      0.31   1   1.1   4.8    Tail tip assembly protein I OS=Escherichia phage lambda OX=10710 GN=I PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9T1V6|TMP_BPMU      15.5    0.0032     2   1.3    582    690    589    689    367    458     Probable tape measure protein OS=Escherichia phage Mu OX=10677 GN=Mup42 PE=2 SV=1
+sp|P03730|TIPI_LAMBD     8.7      0.37     1   4.8     92    213     96    144    353    403     Tail tip assembly protein I OS=Escherichia phage lambda OX=10710 GN=I PE=3 SV=1
+sp|Q9T1V6|TMP_BPMU      -7.0   1.7e+04     1  10.8    491    551    501    543    358    399     Probable tape measure protein OS=Escherichia phage Mu OX=10677 GN=Mup42 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000192@SRS017821_Baylor_scaffold_23574@SRS017821_Baylor_scaffold_23574_gene_49592.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000192@SRS017821_Baylor_scaffold_23574@SRS017821_Baylor_scaffold_23574_gene_49592.txt data/models_hmm/7000000192@SRS017821_Baylor_scaffold_23574@SRS017821_Baylor_scaffold_23574_gene_49592.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:11 2021
+# [ok]

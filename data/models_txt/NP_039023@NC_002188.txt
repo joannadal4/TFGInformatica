@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P21973|V060_FOWPN    267.0   7.1e-80   1   1.0  23.7    Putative CC-type chemokine FPV060 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV060 PE=3 SV=2
+sp|P21972|V061_FOWPN     21.9   7.7e-05   2   2.1   0.1    Putative CC-type chemokine FPV061 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV061 PE=3 SV=1
+sp|Q69572|GQ1_HHV6U      14.7     0.012   1   1.4   0.1    Glycoprotein Q1 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U100 PE=1 SV=3
+sp|Q69489|GP105_HHV6G    14.3     0.016   1   1.4   0.2    Glycoprotein 105 OS=Human herpesvirus 6A (strain GS) OX=10369 GN=U96/U97/U98/U99/U100 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P21973|V060_FOWPN    266.8   7.8e-80     1  23.7      1    188      1    187      1    194     Putative CC-type chemokine FPV060 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV060 PE=3 SV=2
+sp|P21972|V061_FOWPN     21.9   7.7e-05     2   0.1     41     98     44     78    141    175     Putative CC-type chemokine FPV061 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV061 PE=3 SV=1
+sp|Q69572|GQ1_HHV6U      13.8     0.023     1   0.1    202    327    226    306     45    120     Glycoprotein Q1 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U100 PE=1 SV=3
+sp|Q69489|GP105_HHV6G    13.4      0.03     1   0.2    204    325    226    306     45    120     Glycoprotein 105 OS=Human herpesvirus 6A (strain GS) OX=10369 GN=U96/U97/U98/U99/U100 PE=1 SV=1
+sp|P21972|V061_FOWPN      2.2        80     1   1.6      2     41     20     35     96    111     Putative CC-type chemokine FPV061 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV061 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_039023@NC_002188.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_039023@NC_002188.txt data/models_hmm/NP_039023@NC_002188.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:11 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q197E1|VF201_IIV3     33.7   3.2e-08   2   2.1   1.0    Putative Bro-N domain-containing protein 019R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-019R PE=3 SV=1
+sp|P0CA98|VF205_ASFM2    13.4     0.065   2   2.4   0.8    Uncharacterized protein K205R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-056 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q197E1|VF201_IIV3     33.7   3.2e-08     2   1.0    344    406    358    404     19     65     Putative Bro-N domain-containing protein 019R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-019R PE=3 SV=1
+sp|P0CA98|VF205_ASFM2     8.2       2.6     1   0.1      1     83     10     49     22     60     Uncharacterized protein K205R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-056 PE=3 SV=1
+sp|P0CA98|VF205_ASFM2     3.9        59     2   0.1    104    182    116    161     20     59     Uncharacterized protein K205R OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-056 PE=3 SV=1
+sp|Q197E1|VF201_IIV3     -1.8   3.4e+03     1   0.1    213    289    242    262     70     91     Putative Bro-N domain-containing protein 019R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-019R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004732801@NC_015780.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004732801@NC_015780.txt data/models_hmm/YP_004732801@NC_015780.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:32 2021
+# [ok]

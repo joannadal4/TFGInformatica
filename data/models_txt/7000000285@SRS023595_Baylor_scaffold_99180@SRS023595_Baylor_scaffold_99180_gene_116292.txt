@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQW6|YR387_MIMIV    17.4    0.0026   2   2.5   4.1    Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|P03282|CAP9_ADE02     13.5     0.041   1   1.1   0.1    Hexon-interlacing protein OS=Human adenovirus C serotype 2 OX=10515 GN=IX PE=1 SV=2
+sp|P03281|CAP9_ADE05     13.5     0.041   1   1.1   0.1    Hexon-interlacing protein OS=Human adenovirus C serotype 5 OX=28285 GN=IX PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03281|CAP9_ADE05     13.1     0.053     1   0.1     90    138     95    130      8     43     Hexon-interlacing protein OS=Human adenovirus C serotype 5 OX=28285 GN=IX PE=1 SV=1
+sp|P03282|CAP9_ADE02     13.1     0.053     1   0.1     90    138     95    130      8     43     Hexon-interlacing protein OS=Human adenovirus C serotype 2 OX=10515 GN=IX PE=1 SV=2
+sp|Q5UQW6|YR387_MIMIV    11.7      0.14     1   0.8     30    105     37     88     10     61     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q5UQW6|YR387_MIMIV     6.1       7.2     2   0.1    153    226    160    194      9     43     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000285@SRS023595_Baylor_scaffold_99180@SRS023595_Baylor_scaffold_99180_gene_116292.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000285@SRS023595_Baylor_scaffold_99180@SRS023595_Baylor_scaffold_99180_gene_116292.txt data/models_hmm/7000000285@SRS023595_Baylor_scaffold_99180@SRS023595_Baylor_scaffold_99180_gene_116292.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:53 2021
+# [ok]

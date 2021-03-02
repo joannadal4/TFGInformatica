@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q00160|VG37_ICHVA   815.8  2.3e-245   1   1.0   0.0    Uncharacterized protein ORF37 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF37 PE=4 SV=1
+sp|Q05272|VG59_BPML5     9.6      0.18   1   1.0   0.0    Gene 59 protein OS=Mycobacterium phage L5 OX=31757 GN=59 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q00160|VG37_ICHVA   815.6  2.6e-245     1   0.0      1    670      1    670      1    693     Uncharacterized protein ORF37 OS=Ictalurid herpesvirus 1 (strain Auburn) OX=766178 GN=ORF37 PE=4 SV=1
+sp|Q05272|VG59_BPML5     9.3      0.22     1   0.0     94    149    101    139    142    180     Gene 59 protein OS=Mycobacterium phage L5 OX=31757 GN=59 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003358239@NC_013668.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003358239@NC_013668.txt data/models_hmm/YP_003358239@NC_013668.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:27 2021
+# [ok]

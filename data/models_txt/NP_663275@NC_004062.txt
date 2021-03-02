@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P69037|FP25_NPVAC   284.4   4.1e-85   1   1.0  17.6    Protein FP25 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=FP PE=1 SV=1
+sp|P69038|FP_NPVGM     284.4   4.1e-85   1   1.0  17.6    FP protein OS=Galleria mellonella nuclear polyhedrosis virus OX=307468 GN=FP PE=4 SV=1
+sp|O10318|FP_NPVOP     279.1   1.7e-83   1   1.0   5.8    FP protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=FP PE=4 SV=1
+sp|Q90179|FP_NPVLD     266.7     1e-79   1   1.0   3.1    FP protein OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 GN=FP PE=4 SV=1
+sp|Q9J531|V204_FOWPN    14.6     0.015   1   1.2   0.9    Uncharacterized serpin-like protein FPV204 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV204 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P69037|FP25_NPVAC   284.1     5e-85     1  17.6      1    212      2    207      2    207     Protein FP25 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=FP PE=1 SV=1
+sp|P69038|FP_NPVGM     284.1     5e-85     1  17.6      1    212      2    207      2    207     FP protein OS=Galleria mellonella nuclear polyhedrosis virus OX=307468 GN=FP PE=4 SV=1
+sp|O10318|FP_NPVOP     279.1   1.8e-83     1   5.8      1    208      2    195      2    197     FP protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=FP PE=4 SV=1
+sp|Q90179|FP_NPVLD     266.5   1.2e-79     1   3.1      1    213      2    199      2    198     FP protein OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 GN=FP PE=4 SV=1
+sp|Q9J531|V204_FOWPN    13.9     0.025     1   0.9     31    163     42    161     43    154     Uncharacterized serpin-like protein FPV204 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV204 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_663275@NC_004062.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_663275@NC_004062.txt data/models_hmm/NP_663275@NC_004062.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:14 2021
+# [ok]

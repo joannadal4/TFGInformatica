@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPT5|YL246_MIMIV   290.2   1.6e-86   1   1.0  33.2    Uncharacterized protein L246 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L246 PE=3 SV=1
+sp|Q5UQM9|YL426_MIMIV   142.3   1.9e-41   1   1.0  27.9    Uncharacterized protein L426 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L426 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPT5|YL246_MIMIV   290.1   1.8e-86     1  33.2      1    226      1    223     49    274     Uncharacterized protein L246 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L246 PE=3 SV=1
+sp|Q5UQM9|YL426_MIMIV   142.0   2.4e-41     1  27.9      3    226     18    223     51    261     Uncharacterized protein L426 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L426 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001347@JGI20156J14371_10000822@JGI20156J14371_1000082217.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001347@JGI20156J14371_10000822@JGI20156J14371_1000082217.txt data/models_hmm/3300001347@JGI20156J14371_10000822@JGI20156J14371_1000082217.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:52 2021
+# [ok]

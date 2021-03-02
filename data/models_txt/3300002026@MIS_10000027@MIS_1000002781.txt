@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q38490|GP13_BPMU     13.2     0.026   1   1.1   0.4    Uncharacterized protein gp13 OS=Escherichia phage Mu OX=10677 GN=Mup13 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38490|GP13_BPMU     13.1     0.027     1   0.4      3     42     20     40    417    437     Uncharacterized protein gp13 OS=Escherichia phage Mu OX=10677 GN=Mup13 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000027@MIS_1000002781.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000027@MIS_1000002781.txt data/models_hmm/3300002026@MIS_10000027@MIS_1000002781.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:36 2021
+# [ok]

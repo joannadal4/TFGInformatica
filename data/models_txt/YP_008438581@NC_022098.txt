@@ -1,0 +1,51 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPR5|YL775_MIMIV    18.6    0.0011   2   2.5   0.6    Putative PAN domain-containing protein L775 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L775 PE=3 SV=1
+sp|P87691|HEMA_INCYB     13.9      0.03   2   1.8   0.1    Hemagglutinin-esterase-fusion glycoprotein OS=Influenza C virus (strain C/Yamagata/4/1988) OX=127958 GN=HE PE=3 SV=1
+sp|P07967|HEMA_INCP2     13.6     0.037   1   1.6   0.0    Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Pig/Beijing/115/1981) OX=203231 GN=HE PE=3 SV=1
+sp|P17004|HEMA_INCKY     13.6     0.038   1   1.6   0.0    Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Kyoto/41/1982) OX=203233 GN=HE PE=3 SV=1
+sp|P07973|HEMA_INCEN     13.6     0.038   1   1.6   0.0    Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/England/892/1983) OX=11556 GN=HE PE=3 SV=1
+sp|P17005|HEMA_INCNA     13.6     0.038   1   1.6   0.0    Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Nara/1982) OX=203232 GN=HE PE=3 SV=1
+sp|P07970|HEMA_INCMI     13.6     0.038   1   1.6   0.0    Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Mississippi/1980) OX=203229 GN=HE PE=3 SV=1
+sp|Q67387|HEMA_INCNB     13.5     0.038   1   1.6   0.0    Hemagglutinin-esterase-fusion glycoprotein OS=Influenza C virus (strain C/Nara/2/1985) OX=127957 GN=HE PE=3 SV=1
+sp|P03465|HEMA_INCCA     13.5     0.038   1   1.6   0.0    Hemagglutinin-esterase-fusion glycoprotein OS=Influenza C virus (strain C/California/1978) OX=203224 GN=HE PE=3 SV=1
+sp|P07974|HEMA_INCTA     13.4     0.044   1   1.5   0.0    Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Taylor/1233/1947) OX=11567 GN=HE PE=3 SV=1
+sp|P07966|HEMA_INCP3     11.8      0.13   1   1.6   0.0    Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Pig/Beijing/439/1982) OX=11566 GN=HE PE=3 SV=1
+sp|P07968|HEMA_INCP1     11.8      0.14   1   1.6   0.0    Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Pig/Beijing/10/1981) OX=11564 GN=HE PE=3 SV=1
+sp|P17003|HEMA_INCHY     11.7      0.14   1   1.6   0.0    Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Hyogo/1/1983) OX=203225 GN=HE PE=3 SV=1
+sp|P68761|HEMA_INCYA     11.7      0.15   1   1.5   0.0    Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Yamagata/10/1981) OX=11568 GN=HE PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPR5|YL775_MIMIV    18.6    0.0011     1   0.6      2    111      8    106     27    128     Putative PAN domain-containing protein L775 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L775 PE=3 SV=1
+sp|P17004|HEMA_INCKY     12.3      0.09     1   0.0    419    510    427    504     15     92     Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Kyoto/41/1982) OX=203233 GN=HE PE=3 SV=1
+sp|P17005|HEMA_INCNA     12.3      0.09     1   0.0    419    510    427    504     15     92     Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Nara/1982) OX=203232 GN=HE PE=3 SV=1
+sp|P07967|HEMA_INCP2     12.3     0.091     1   0.0    420    511    428    505     15     92     Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Pig/Beijing/115/1981) OX=203231 GN=HE PE=3 SV=1
+sp|P87691|HEMA_INCYB     12.3     0.092     2   0.0    426    517    434    511     15     92     Hemagglutinin-esterase-fusion glycoprotein OS=Influenza C virus (strain C/Yamagata/4/1988) OX=127958 GN=HE PE=3 SV=1
+sp|Q67387|HEMA_INCNB     12.3     0.092     1   0.0    426    517    434    511     15     92     Hemagglutinin-esterase-fusion glycoprotein OS=Influenza C virus (strain C/Nara/2/1985) OX=127957 GN=HE PE=3 SV=1
+sp|P07970|HEMA_INCMI     12.3     0.093     1   0.0    419    510    427    504     15     92     Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Mississippi/1980) OX=203229 GN=HE PE=3 SV=1
+sp|P03465|HEMA_INCCA     12.3     0.093     1   0.0    432    523    440    517     15     92     Hemagglutinin-esterase-fusion glycoprotein OS=Influenza C virus (strain C/California/1978) OX=203224 GN=HE PE=3 SV=1
+sp|P07973|HEMA_INCEN     12.3     0.093     1   0.0    420    511    428    505     15     92     Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/England/892/1983) OX=11556 GN=HE PE=3 SV=1
+sp|P07974|HEMA_INCTA     12.2     0.099     1   0.0    420    511    429    505     16     92     Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Taylor/1233/1947) OX=11567 GN=HE PE=3 SV=1
+sp|P17003|HEMA_INCHY     10.5      0.33     1   0.0    419    510    427    504     15     92     Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Hyogo/1/1983) OX=203225 GN=HE PE=3 SV=1
+sp|P07966|HEMA_INCP3     10.5      0.33     1   0.0    420    511    428    505     15     92     Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Pig/Beijing/439/1982) OX=11566 GN=HE PE=3 SV=1
+sp|P07968|HEMA_INCP1     10.5      0.33     1   0.0    420    511    428    505     15     92     Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Pig/Beijing/10/1981) OX=11564 GN=HE PE=3 SV=1
+sp|P68761|HEMA_INCYA     10.5      0.33     1   0.0    420    511    428    505     15     92     Hemagglutinin-esterase-fusion glycoprotein (Fragment) OS=Influenza C virus (strain C/Yamagata/10/1981) OX=11568 GN=HE PE=3 SV=1
+sp|Q5UPR5|YL775_MIMIV    -0.6   8.5e+02     2   0.3    111    200    156    167    103    114     Putative PAN domain-containing protein L775 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L775 PE=3 SV=1
+sp|P87691|HEMA_INCYB     -3.4   6.1e+03     1   0.1    320    349    331    346    104    119     Hemagglutinin-esterase-fusion glycoprotein OS=Influenza C virus (strain C/Yamagata/4/1988) OX=127958 GN=HE PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008438581@NC_022098.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008438581@NC_022098.txt data/models_hmm/YP_008438581@NC_022098.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:16 2021
+# [ok]

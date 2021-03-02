@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UR74|PTPH_MIMIV    13.3     0.077   2   2.4   1.4    Putative tyrosine-protein phosphatase R622 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R622 PE=3 SV=1
+sp|P0C9V9|CD2H_ASFM2    12.1      0.18   1   1.5   1.5    CD2 homolog OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-066 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C9V9|CD2H_ASFM2    10.9      0.43     1   1.5    140    207    144    194      8     53     CD2 homolog OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-066 PE=1 SV=1
+sp|Q5UR74|PTPH_MIMIV     8.3       2.8     2   0.2    145    203    149    190      6     44     Putative tyrosine-protein phosphatase R622 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R622 PE=3 SV=1
+sp|Q5UR74|PTPH_MIMIV     4.1        60     1   0.1     25    118     27     57      3     32     Putative tyrosine-protein phosphatase R622 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R622 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000029@SRS042131_WUGC_scaffold_27665@SRS042131_WUGC_scaffold_27665_gene_45559.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000029@SRS042131_WUGC_scaffold_27665@SRS042131_WUGC_scaffold_27665_gene_45559.txt data/models_hmm/7000000029@SRS042131_WUGC_scaffold_27665@SRS042131_WUGC_scaffold_27665_gene_45559.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:52 2021
+# [ok]

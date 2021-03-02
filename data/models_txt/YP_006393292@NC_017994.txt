@@ -1,0 +1,63 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q07852|VE4_HPV04     100.5     1e-28   1   1.0  16.9    Protein E4 OS=Human papillomavirus type 4 OX=10617 GN=E4 PE=3 SV=2
+sp|Q07873|VE4_HPV65      84.7   6.6e-24   1   1.0  14.6    Protein E4 OS=Human papillomavirus type 65 OX=28312 GN=E4 PE=3 SV=2
+sp|P03124|VE4_CRPVK      49.1   5.5e-13   1   1.2   0.3    Probable protein E4 OS=Cottontail rabbit papillomavirus (strain Kansas) OX=31553 GN=E4 PE=4 SV=1
+sp|Q07853|VE4_HPV63      38.2   1.2e-09   1   1.0  10.0    Protein E4 OS=Human papillomavirus type 63 OX=28311 GN=E4 PE=3 SV=2
+sp|P08349|VE5B_BPV4      29.7     5e-07   1   1.0   7.5    Probable protein E5B OS=Bovine papillomavirus type 4 OX=10562 PE=4 SV=1
+sp|Q84240|VE4_COPV6      28.3   1.3e-06   1   1.1   9.8    Probable protein E4 OS=Canine oral papillomavirus (strain Y62) OX=766192 GN=E4 PE=3 SV=2
+sp|P06425|VE4_HPV08      22.1    0.0001   2   2.3   6.2    Protein E4 OS=Human papillomavirus type 8 OX=10579 GN=E4 PE=3 SV=2
+sp|P08348|VE5A_BPV4      21.0   0.00022   1   1.0   0.0    Probable protein E5A OS=Bovine papillomavirus type 4 OX=10562 PE=4 SV=1
+sp|P22421|VE4_HPV47      20.7   0.00027   2   2.9  18.2    Protein E4 OS=Human papillomavirus type 47 OX=10594 GN=E4 PE=3 SV=2
+sp|P27553|VE4_HPV41      19.6   0.00061   1   1.0   8.3    Protein E4 OS=Human papillomavirus type 41 OX=10589 GN=E4 PE=3 SV=3
+sp|P0CA29|VF123_ASFWA    14.3     0.026   1   1.2   0.2    Uncharacterized protein CP123L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-101 PE=3 SV=1
+sp|P0CA26|VF123_ASFK5    13.8     0.037   1   1.2   0.2    Uncharacterized protein CP123L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-103 PE=3 SV=1
+sp|Q65178|VF123_ASFB7    13.5     0.045   1   1.2   0.1    Uncharacterized protein CP123L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-91 PE=3 SV=1
+sp|P06923|VE4_HPV1       13.5     0.046   1   1.1   9.9    Protein E4 OS=Human papillomavirus type 1 OX=10583 GN=E4 PE=3 SV=3
+sp|P0CA27|VF123_ASFM2    13.2     0.054   1   1.2   0.1    Uncharacterized protein CP123L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-099 PE=3 SV=1
+sp|P0CA28|VF123_ASFP4    12.6     0.084   1   1.2   0.1    Uncharacterized protein CP123L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-103 PE=3 SV=1
+sp|P25215|UL87_EBVB9     11.3      0.21   1   1.5   2.9    TBP-like protein BcRF1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BcRF1 PE=3 SV=1
+sp|P03256|E1A_ADE07      10.6      0.34   1   1.5   3.3    Early E1A protein OS=Human adenovirus B serotype 7 OX=10519 PE=3 SV=1
+sp|Q66652|BRLF1_EHV2      9.4       0.8   2   2.4  12.2    Putative transcription activator BRLF1 homolog OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=50 PE=3 SV=2
+sp|Q6SW94|VGLI_HCMVM      6.9       4.6   1   1.3   5.2    UL37 immediate early glycoprotein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL37 PE=3 SV=1
+sp|P26550|VE4_HPV5B       6.4       6.9   1   3.0  44.6    Protein E4 OS=Human papillomavirus type 5b OX=10599 GN=E4 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q07852|VE4_HPV04     100.2   1.2e-28     1  16.9      3    127      8    126     90    194     Protein E4 OS=Human papillomavirus type 4 OX=10617 GN=E4 PE=3 SV=2
+sp|Q07873|VE4_HPV65      84.6   7.4e-24     1  14.6      1    127      6    127     88    195     Protein E4 OS=Human papillomavirus type 65 OX=28312 GN=E4 PE=3 SV=2
+sp|P03124|VE4_CRPVK      48.6   7.8e-13     1   0.3     29    211     38    209      9    187     Probable protein E4 OS=Cottontail rabbit papillomavirus (strain Kansas) OX=31553 GN=E4 PE=4 SV=1
+sp|Q07853|VE4_HPV63      38.0   1.4e-09     1  10.0      6    117     17    117     93    195     Protein E4 OS=Human papillomavirus type 63 OX=28311 GN=E4 PE=3 SV=2
+sp|P08349|VE5B_BPV4      29.6   5.3e-07     1   7.5      1     95      9     94    101    186     Probable protein E5B OS=Bovine papillomavirus type 4 OX=10562 PE=4 SV=1
+sp|Q84240|VE4_COPV6      28.0   1.6e-06     1   9.8      1    117      6    116     79    196     Probable protein E4 OS=Canine oral papillomavirus (strain Y62) OX=766192 GN=E4 PE=3 SV=2
+sp|P06425|VE4_HPV08      22.1    0.0001     1   6.2     75    222     89    222     93    195     Protein E4 OS=Human papillomavirus type 8 OX=10579 GN=E4 PE=3 SV=2
+sp|P08348|VE5A_BPV4      21.0   0.00022     1   0.0      1     48      1     37     59     92     Probable protein E5A OS=Bovine papillomavirus type 4 OX=10562 PE=4 SV=1
+sp|P22421|VE4_HPV47      20.7   0.00027     1  18.2     76    230     85    230     92    195     Protein E4 OS=Human papillomavirus type 47 OX=10594 GN=E4 PE=3 SV=2
+sp|P27553|VE4_HPV41      19.2   0.00078     1   8.3      2    100      5     94     99    181     Protein E4 OS=Human papillomavirus type 41 OX=10589 GN=E4 PE=3 SV=3
+sp|P0CA29|VF123_ASFWA    14.1     0.029     1   0.2      1     95      7     65     71    127     Uncharacterized protein CP123L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-101 PE=3 SV=1
+sp|P0CA26|VF123_ASFK5    13.4     0.047     1   0.2      2     95     10     65     74    127     Uncharacterized protein CP123L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-103 PE=3 SV=1
+sp|P06923|VE4_HPV1       13.3      0.05     1   9.9      5     83     24     83     88    148     Protein E4 OS=Human papillomavirus type 1 OX=10583 GN=E4 PE=3 SV=3
+sp|Q65178|VF123_ASFB7    13.3     0.051     1   0.1      1     95      7     65     71    127     Uncharacterized protein CP123L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-91 PE=3 SV=1
+sp|P0CA27|VF123_ASFM2    13.1     0.061     1   0.1      1     94      7     65     71    127     Uncharacterized protein CP123L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-099 PE=3 SV=1
+sp|P0CA28|VF123_ASFP4    12.4     0.096     1   0.1      1     95      5     65     69    127     Uncharacterized protein CP123L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-103 PE=3 SV=1
+sp|P03256|E1A_ADE07      11.1      0.24     1   2.1    134    261    165    236     53    112     Early E1A protein OS=Human adenovirus B serotype 7 OX=10519 PE=3 SV=1
+sp|P25215|UL87_EBVB9     10.1      0.48     1   2.9    130    232    143    220     80    148     TBP-like protein BcRF1 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BcRF1 PE=3 SV=1
+sp|Q66652|BRLF1_EHV2      7.6         3     2   6.3    480    667    569    650     86    132     Putative transcription activator BRLF1 homolog OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=50 PE=3 SV=2
+sp|Q6SW94|VGLI_HCMVM      6.2       7.6     1   5.2     25    146     35    119    102    155     UL37 immediate early glycoprotein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL37 PE=3 SV=1
+sp|Q66652|BRLF1_EHV2      5.1        17     1   0.3    296    474    398    451    107    150     Putative transcription activator BRLF1 homolog OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=50 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006393292@NC_017994.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006393292@NC_017994.txt data/models_hmm/YP_006393292@NC_017994.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:16 2021
+# [ok]

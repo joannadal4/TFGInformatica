@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9DUN3|POLG_VESVA    13.8     0.028   2   1.8   0.0    Genome polyprotein OS=Vesicular exanthema of swine virus serotype A48 (isolate Swine/United States/A48/1948) OX=85617 GN=ORF1 PE=3 SV=1
+sp|P36286|POLG_SMSV1    13.1     0.048   1   1.4   0.0    Genome polyprotein OS=San Miguel sea lion virus serotype 1 OX=36406 GN=ORF1 PE=3 SV=3
+sp|Q3V4R0|Y286_ATV      11.4      0.15   3   1.9   0.4    Uncharacterized protein ORF286 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9DUN3|POLG_VESVA    12.2      0.09     1   0.0    571    659    577    621      8     52     Genome polyprotein OS=Vesicular exanthema of swine virus serotype A48 (isolate Swine/United States/A48/1948) OX=85617 GN=ORF1 PE=3 SV=1
+sp|P36286|POLG_SMSV1    12.1     0.093     1   0.0    571    656    577    621      8     52     Genome polyprotein OS=San Miguel sea lion virus serotype 1 OX=36406 GN=ORF1 PE=3 SV=3
+sp|Q3V4R0|Y286_ATV       9.9      0.45     2   0.0     69    118     75    108     10     43     Uncharacterized protein ORF286 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|Q3V4R0|Y286_ATV      -2.1     2e+03     3   0.0    188    273    198    246    247    297     Uncharacterized protein ORF286 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|Q9DUN3|POLG_VESVA    -2.5   2.6e+03     2   0.0    663    750    667    747     25     78     Genome polyprotein OS=Vesicular exanthema of swine virus serotype A48 (isolate Swine/United States/A48/1948) OX=85617 GN=ORF1 PE=3 SV=1
+sp|Q3V4R0|Y286_ATV      -2.8   3.1e+03     1   0.1     33     60     34     58     56     81     Uncharacterized protein ORF286 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001605@Draft_10000288@Draft_1000028835.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001605@Draft_10000288@Draft_1000028835.txt data/models_hmm/3300001605@Draft_10000288@Draft_1000028835.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:58 2021
+# [ok]

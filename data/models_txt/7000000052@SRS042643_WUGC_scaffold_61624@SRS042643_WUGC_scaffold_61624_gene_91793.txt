@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P24939|SF33K_ADE02     6.3       2.1   1   1.0   3.9    Protein 33K OS=Human adenovirus C serotype 2 OX=10515 GN=L4 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P24939|SF33K_ADE02     5.9       2.6     1   3.9     13    141     15    125    503    616     Protein 33K OS=Human adenovirus C serotype 2 OX=10515 GN=L4 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000052@SRS042643_WUGC_scaffold_61624@SRS042643_WUGC_scaffold_61624_gene_91793.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000052@SRS042643_WUGC_scaffold_61624@SRS042643_WUGC_scaffold_61624_gene_91793.txt data/models_hmm/7000000052@SRS042643_WUGC_scaffold_61624@SRS042643_WUGC_scaffold_61624_gene_91793.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:07 2021
+# [ok]

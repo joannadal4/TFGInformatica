@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UNW6|YL702_MIMIV    13.9     0.035   2   2.1   2.2    Uncharacterized protein L702 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L702 PE=4 SV=1
+sp|Q5UQN0|YL437_MIMIV    13.6     0.044   1   1.5   0.1    Uncharacterized protein L437 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L437 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UNW6|YL702_MIMIV    13.4     0.051     2   0.8    685    761    709    755     53     99     Uncharacterized protein L702 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L702 PE=4 SV=1
+sp|Q5UQN0|YL437_MIMIV    12.7     0.088     1   0.1     10     93     18     60     58     99     Uncharacterized protein L437 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L437 PE=4 SV=1
+sp|Q5UNW6|YL702_MIMIV    -3.7   9.9e+03     1   0.0     26     47     32     45     98    111     Uncharacterized protein L702 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L702 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001242@C687J13896_1000019@C687J13896_100001958.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001242@C687J13896_1000019@C687J13896_100001958.txt data/models_hmm/3300001242@C687J13896_1000019@C687J13896_100001958.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:34 2021
+# [ok]

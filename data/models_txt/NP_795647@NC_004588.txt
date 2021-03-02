@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O48459|DIT_BPSPP     25.9   3.9e-06   2   2.4   0.0    Distal tail protein OS=Bacillus phage SPP1 OX=10724 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O48459|DIT_BPSPP     19.3    0.0004     1   0.0      3    168     11    136      3    129     Distal tail protein OS=Bacillus phage SPP1 OX=10724 PE=1 SV=1
+sp|O48459|DIT_BPSPP      3.7        21     2   0.0    180    244    187    232    447    492     Distal tail protein OS=Bacillus phage SPP1 OX=10724 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_795647@NC_004588.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_795647@NC_004588.txt data/models_hmm/NP_795647@NC_004588.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:23 2021
+# [ok]

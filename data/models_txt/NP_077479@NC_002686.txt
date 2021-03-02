@@ -1,0 +1,48 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09312|US9_VZVD     161.3   5.2e-48   1   1.0   0.0    Envelope protein US9 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF65 PE=1 SV=1
+sp|Q77NN6|US9_VZVO     161.3   5.2e-48   1   1.0   0.0    Envelope protein US9 OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF65 PE=3 SV=1
+sp|Q04546|US9_CHV9D    118.2   1.5e-34   1   1.0   0.2    Envelope protein US9 homolog OS=Cercopithecine herpesvirus 9 (strain DHV) OX=36348 GN=ORF65 PE=3 SV=1
+sp|P28930|US9_EHV1B     71.6   4.8e-20   1   1.6   0.0    Envelope protein US9 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=76 PE=3 SV=1
+sp|P32513|US9_EHV1K     71.4   5.5e-20   1   1.6   0.0    Envelope protein US9 homolog OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=76 PE=1 SV=1
+sp|Q6S6V5|US9_EHV1V     71.4   5.5e-20   1   1.6   0.0    Envelope protein US9 homolog OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=76 PE=3 SV=1
+sp|P18348|US9_EHV4      68.5   4.5e-19   2   1.8   0.9    Envelope protein US9 homolog OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=76 PE=3 SV=1
+sp|P11313|US9_SUHVR     65.7   3.3e-18   1   1.1   0.0    Envelope protein US9 homolog OS=Suid herpesvirus 1 (strain Rice) OX=10350 PE=1 SV=1
+sp|Q08098|US9_BHV1S     53.4   2.2e-14   1   1.3   0.0    Envelope protein US9 OS=Bovine herpesvirus 1.2 (strain ST) OX=45407 GN=US9 PE=1 SV=1
+sp|P30025|US9_CHV1      46.6   2.9e-12   1   1.1   0.0    Envelope protein US9 homolog OS=Cercopithecine herpesvirus 1 OX=10325 PE=3 SV=1
+sp|P06481|US9_HHV11     44.6   1.2e-11   1   1.1   0.0    Envelope protein US9 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=US9 PE=1 SV=1
+sp|P89477|US9_HHV2H     43.2   3.2e-11   1   1.1   0.0    Envelope protein US9 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=US9 PE=3 SV=1
+sp|O72899|I2_FOWPN      15.9      0.01   1   1.0   0.0    Protein I2 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV089 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09312|US9_VZVD     161.2   5.7e-48     1   0.0      1    102      2    102      2    101     Envelope protein US9 OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF65 PE=1 SV=1
+sp|Q77NN6|US9_VZVO     161.2   5.7e-48     1   0.0      1    102      2    102      2    101     Envelope protein US9 OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF65 PE=3 SV=1
+sp|Q04546|US9_CHV9D    118.0   1.6e-34     1   0.2      1     77      1     77      1     81     Envelope protein US9 homolog OS=Cercopithecine herpesvirus 9 (strain DHV) OX=36348 GN=ORF65 PE=3 SV=1
+sp|P28930|US9_EHV1B     70.6   9.5e-20     1   0.0    115    219    151    217     33     99     Envelope protein US9 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=76 PE=3 SV=1
+sp|P32513|US9_EHV1K     70.4   1.1e-19     1   0.0    116    219    151    217     33     99     Envelope protein US9 homolog OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=76 PE=1 SV=1
+sp|Q6S6V5|US9_EHV1V     70.4   1.1e-19     1   0.0    116    219    151    217     33     99     Envelope protein US9 homolog OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=76 PE=3 SV=1
+sp|P18348|US9_EHV4      67.6   8.4e-19     2   0.1    147    220    153    218     34     99     Envelope protein US9 homolog OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=76 PE=3 SV=1
+sp|P11313|US9_SUHVR     65.5   3.6e-18     1   0.0     20    106     41    105     33     99     Envelope protein US9 homolog OS=Suid herpesvirus 1 (strain Rice) OX=10350 PE=1 SV=1
+sp|Q08098|US9_BHV1S     52.9   3.2e-14     1   0.0     38    154     75    150     21     96     Envelope protein US9 OS=Bovine herpesvirus 1.2 (strain ST) OX=45407 GN=US9 PE=1 SV=1
+sp|P30025|US9_CHV1      46.4   3.3e-12     1   0.0     12     88     27     85     39     97     Envelope protein US9 homolog OS=Cercopithecine herpesvirus 1 OX=10325 PE=3 SV=1
+sp|P06481|US9_HHV11     44.6   1.2e-11     1   0.0      6     90     28     88     39     99     Envelope protein US9 OS=Human herpesvirus 1 (strain 17) OX=10299 GN=US9 PE=1 SV=1
+sp|P89477|US9_HHV2H     43.2   3.2e-11     1   0.0      5     89     28     87     40     99     Envelope protein US9 OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=US9 PE=3 SV=1
+sp|O72899|I2_FOWPN      15.9     0.011     1   0.0      5     65     13     60     45     92     Protein I2 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV089 PE=2 SV=1
+sp|P18348|US9_EHV4      -1.9   3.6e+03     1   0.1     97    143    107    142     13     42     Envelope protein US9 homolog OS=Equine herpesvirus 4 (strain 1942) OX=10333 GN=76 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_077479@NC_002686.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_077479@NC_002686.txt data/models_hmm/NP_077479@NC_002686.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:51 2021
+# [ok]

@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9YW20|NMT_MSEPV     18.1    0.0017   2   3.1   0.5    Putative glycylpeptide N-tetradecanoyltransferase OS=Melanoplus sanguinipes entomopoxvirus OX=83191 GN=MSV072 PE=3 SV=1
+sp|Q08538|CPM_BYVU      13.8     0.037   3   2.2   0.0    Minor capsid protein OS=Beet yellows virus (isolate Ukraine) OX=478555 GN=ORF5 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q08538|CPM_BYVU      11.5       0.2     2   0.0     42     88     45     78     13     46     Minor capsid protein OS=Beet yellows virus (isolate Ukraine) OX=478555 GN=ORF5 PE=4 SV=1
+sp|Q9YW20|NMT_MSEPV      7.6       3.2     1   0.0    133    179    144    161     13     30     Putative glycylpeptide N-tetradecanoyltransferase OS=Melanoplus sanguinipes entomopoxvirus OX=83191 GN=MSV072 PE=3 SV=1
+sp|Q9YW20|NMT_MSEPV      7.2       4.2     2   0.3    203    231    206    222     33     49     Putative glycylpeptide N-tetradecanoyltransferase OS=Melanoplus sanguinipes entomopoxvirus OX=83191 GN=MSV072 PE=3 SV=1
+sp|Q08538|CPM_BYVU      -1.2   1.7e+03     1   0.0     16     46     22     42     28     51     Minor capsid protein OS=Beet yellows virus (isolate Ukraine) OX=478555 GN=ORF5 PE=4 SV=1
+sp|Q08538|CPM_BYVU      -2.7   5.2e+03     3   0.0    110    133    116    131     26     43     Minor capsid protein OS=Beet yellows virus (isolate Ukraine) OX=478555 GN=ORF5 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008430979@NC_022088.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008430979@NC_022088.txt data/models_hmm/YP_008430979@NC_022088.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:03 2021
+# [ok]

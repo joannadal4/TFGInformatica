@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9J511|V224_FOWPN    17.6    0.0028   2   2.2   1.3    Putative ankyrin repeat protein FPV224 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV224 PE=4 SV=1
+sp|Q89635|YP09_CSVMV    14.5     0.026   1   1.5   0.6    Uncharacterized 9 kDa protein OS=Cassava vein mosaic virus OX=38062 GN=ORF 2 PE=4 SV=1
+sp|P51702|YO03_BPHC1    12.9     0.083   1   1.3   0.0    Uncharacterized 8.9 kDa protein in int-C1 intergenic region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9J511|V224_FOWPN    14.7     0.023     1   0.0     13     75     24     66     26     66     Putative ankyrin repeat protein FPV224 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV224 PE=4 SV=1
+sp|Q89635|YP09_CSVMV    13.8     0.044     1   0.6      9     61     22     50     41     69     Uncharacterized 9 kDa protein OS=Cassava vein mosaic virus OX=38062 GN=ORF 2 PE=4 SV=1
+sp|P51702|YO03_BPHC1    12.5      0.11     1   0.0      1     44      3     29     16     43     Uncharacterized 8.9 kDa protein in int-C1 intergenic region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|Q9J511|V224_FOWPN     1.7   2.5e+02     2   0.3    107    145    120    144     42     66     Putative ankyrin repeat protein FPV224 OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV224 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH31734@HQ633071.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH31734@HQ633071.txt data/models_hmm/AGH31734@HQ633071.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:45 2021
+# [ok]

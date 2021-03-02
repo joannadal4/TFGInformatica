@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9PZT0|CAPSD_PAVHV    14.0     0.019   1   1.2   0.0    Minor capsid protein VP1 OS=Human parvovirus B19 (strain HV) OX=648237 GN=vp PE=1 SV=1
+sp|P07299|CAPSD_PAVHU    13.8     0.023   1   1.2   0.0    Minor capsid protein VP1 OS=Human parvovirus B19 (isolate AU) OX=648238 PE=1 SV=1
+sp|P20324|SCAF_BPT3      12.3     0.065   2   2.1   1.5    Capsid assembly scaffolding protein OS=Enterobacteria phage T3 OX=10759 GN=9 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9PZT0|CAPSD_PAVHV    13.5     0.029     1   0.0    218    390    291    381    130    224     Minor capsid protein VP1 OS=Human parvovirus B19 (strain HV) OX=648237 GN=vp PE=1 SV=1
+sp|P07299|CAPSD_PAVHU    13.2     0.034     1   0.0    202    389    281    380    132    223     Minor capsid protein VP1 OS=Human parvovirus B19 (isolate AU) OX=648238 PE=1 SV=1
+sp|P20324|SCAF_BPT3      11.2      0.14     1   0.1      1     65      4     56    148    200     Capsid assembly scaffolding protein OS=Enterobacteria phage T3 OX=10759 GN=9 PE=3 SV=1
+sp|P20324|SCAF_BPT3      -0.9   6.6e+02     2   0.1    255    306    275    299     48     72     Capsid assembly scaffolding protein OS=Enterobacteria phage T3 OX=10759 GN=9 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008437300@NC_022098.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008437300@NC_022098.txt data/models_hmm/YP_008437300@NC_022098.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:12 2021
+# [ok]

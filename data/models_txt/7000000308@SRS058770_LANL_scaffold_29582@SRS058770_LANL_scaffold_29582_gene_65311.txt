@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P09386|STXB_BP933    18.6    0.0018   1   1.3   0.0    Shiga-like toxin 2 subunit B OS=Escherichia phage 933W OX=10730 GN=stxB2 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P09386|STXB_BP933    18.0    0.0027     1   0.0      2     58     10     53     35     79     Shiga-like toxin 2 subunit B OS=Escherichia phage 933W OX=10730 GN=stxB2 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000308@SRS058770_LANL_scaffold_29582@SRS058770_LANL_scaffold_29582_gene_65311.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000308@SRS058770_LANL_scaffold_29582@SRS058770_LANL_scaffold_29582_gene_65311.txt data/models_hmm/7000000308@SRS058770_LANL_scaffold_29582@SRS058770_LANL_scaffold_29582_gene_65311.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:09 2021
+# [ok]

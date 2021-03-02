@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6R7E0|Y089_OSHVF    13.6      0.04   2   2.1   0.0    Uncharacterized protein ORF89 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF89 PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R7E0|Y089_OSHVF    11.7      0.16     1   0.0    120    167    138    165     42     69     Uncharacterized protein ORF89 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF89 PE=4 SV=2
+sp|Q6R7E0|Y089_OSHVF    -3.7     1e+04     2   0.0    208    224    210    223     12     25     Uncharacterized protein ORF89 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF89 PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000513@SRS047824_WUGC_scaffold_2288@SRS047824_WUGC_scaffold_2288_gene_3281.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000513@SRS047824_WUGC_scaffold_2288@SRS047824_WUGC_scaffold_2288_gene_3281.txt data/models_hmm/7000000513@SRS047824_WUGC_scaffold_2288@SRS047824_WUGC_scaffold_2288_gene_3281.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:57 2021
+# [ok]

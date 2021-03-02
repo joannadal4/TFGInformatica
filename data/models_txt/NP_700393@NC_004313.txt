@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9T1V3|BP46_BPMU    178.8   5.1e-53   1   1.0   0.6    Baseplate protein gp46 OS=Escherichia phage Mu OX=10677 GN=Mup46 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9T1V3|BP46_BPMU    178.6   5.7e-53     1   0.6      1    145      1    144      1    154     Baseplate protein gp46 OS=Escherichia phage Mu OX=10677 GN=Mup46 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_700393@NC_004313.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_700393@NC_004313.txt data/models_hmm/NP_700393@NC_004313.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:19 2021
+# [ok]

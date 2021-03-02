@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q197D8|022L_IIV3     14.2     0.031   3   3.4   4.1    Transmembrane protein 022L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-022L PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q197D8|022L_IIV3      6.6       7.4     2   0.5    113    153    133    152     32     51     Transmembrane protein 022L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-022L PE=4 SV=1
+sp|Q197D8|022L_IIV3      2.9     1e+02     1   0.0     17     66     37     65     23     51     Transmembrane protein 022L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-022L PE=4 SV=1
+sp|Q197D8|022L_IIV3      2.8   1.2e+02     3   1.5    160    178    165    176     40     51     Transmembrane protein 022L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-022L PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_241007@NC_007066.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_241007@NC_007066.txt data/models_hmm/YP_241007@NC_007066.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:23 2021
+# [ok]

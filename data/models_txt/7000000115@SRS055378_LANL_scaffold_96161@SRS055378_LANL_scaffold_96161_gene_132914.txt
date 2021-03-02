@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41718|OE56_NPVCF    12.7      0.14   2   2.4   1.4    Occlusion-derived virus envelope protein E56 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=ODVP6E PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41718|OE56_NPVCF     8.2       3.4     2   0.2    305    347    313    343     30     54     Occlusion-derived virus envelope protein E56 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=ODVP6E PE=3 SV=1
+sp|P41718|OE56_NPVCF     2.9   1.5e+02     1   0.0    154    178    159    173     41     55     Occlusion-derived virus envelope protein E56 OS=Choristoneura fumiferana nuclear polyhedrosis virus OX=208973 GN=ODVP6E PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000115@SRS055378_LANL_scaffold_96161@SRS055378_LANL_scaffold_96161_gene_132914.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000115@SRS055378_LANL_scaffold_96161@SRS055378_LANL_scaffold_96161_gene_132914.txt data/models_hmm/7000000115@SRS055378_LANL_scaffold_96161@SRS055378_LANL_scaffold_96161_gene_132914.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:35 2021
+# [ok]

@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q914J4|Y036_SIFVH   419.8  1.5e-126   1   1.0   2.4    Uncharacterized protein 36 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0036 PE=1 SV=1
+sp|Q9E6Q6|GM_GAHVM      18.2    0.0015   1   1.4   0.2    Envelope glycoprotein M OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=gM PE=3 SV=1
+sp|Q70LC6|Y140_AFV1Y    14.2     0.024   2   1.8   0.2    Uncharacterized protein ORF140 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF140 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q914J4|Y036_SIFVH   419.6  1.7e-126     1   2.4      1    204      1    204      1    204     Uncharacterized protein 36 OS=Sulfolobus islandicus filamentous virus (isolate Iceland/Hveragerdi) OX=654908 GN=SIFV0036 PE=1 SV=1
+sp|Q9E6Q6|GM_GAHVM      17.2    0.0029     1   0.2    158    261    172    241     88    161     Envelope glycoprotein M OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=gM PE=3 SV=1
+sp|Q70LC6|Y140_AFV1Y    12.1       0.1     1   0.0      2     81      7     69     11     68     Uncharacterized protein ORF140 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF140 PE=1 SV=1
+sp|Q70LC6|Y140_AFV1Y     0.9     3e+02     2   0.0     61    123     78    116    159    197     Uncharacterized protein ORF140 OS=Acidianus filamentous virus 1 (isolate United States/Yellowstone) OX=654909 GN=ORF140 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001798551@NC_010537.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001798551@NC_010537.txt data/models_hmm/YP_001798551@NC_010537.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:41 2021
+# [ok]

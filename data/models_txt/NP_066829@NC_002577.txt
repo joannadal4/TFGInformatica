@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9E6R3|VG12_GAHVM    662.2  4.9e-199   1   1.0  19.8    Uncharacterized gene 12 protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV012 PE=4 SV=1
+sp|Q9E6R4|VG11_GAHVM     58.7   4.7e-16   2   1.9   0.3    Uncharacterized gene 11 protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV011 PE=4 SV=1
+sp|Q9Q3G5|CAPSD_TASV2    10.9      0.15   1   1.2   5.7    Capsid polyprotein VP90 OS=Turkey astrovirus 2 OX=246343 GN=ORF2 PE=1 SV=1
+sp|P0DOD7|VE8E2_BPV3      6.2       3.9   1   1.2  14.6    Protein E8^E2C OS=Bovine papillomavirus type 3 OX=10561 PE=3 SV=1
+sp|Q705F3|VE2_BPV6        5.3       7.4   2   2.0  16.2    Regulatory protein E2 OS=Bovine papillomavirus type 6 OX=10563 GN=E2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9E6R3|VG12_GAHVM    662.1  5.4e-199     1  19.8      1    384      1    384    106    487     Uncharacterized gene 12 protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV012 PE=4 SV=1
+sp|Q9E6R4|VG11_GAHVM     55.9   3.4e-15     1   0.1      1     46      1     39      1     39     Uncharacterized gene 11 protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV011 PE=4 SV=1
+sp|Q9Q3G5|CAPSD_TASV2    10.2      0.25     1   5.7      3     57     11     38    427    458     Capsid polyprotein VP90 OS=Turkey astrovirus 2 OX=246343 GN=ORF2 PE=1 SV=1
+sp|P0DOD7|VE8E2_BPV3      5.6       5.9     1  14.6     18     86     32     74    422    462     Protein E8^E2C OS=Bovine papillomavirus type 3 OX=10561 PE=3 SV=1
+sp|Q705F3|VE2_BPV6        2.3        62     1  16.3    220    292    235    279    424    465     Regulatory protein E2 OS=Bovine papillomavirus type 6 OX=10563 GN=E2 PE=3 SV=1
+sp|Q9E6R4|VG11_GAHVM      1.3   1.2e+02     2   0.0     50     84     60     80     33     53     Uncharacterized gene 11 protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV011 PE=4 SV=1
+sp|Q705F3|VE2_BPV6        0.5   2.1e+02     2   0.0    377    434    399    430     62     93     Regulatory protein E2 OS=Bovine papillomavirus type 6 OX=10563 GN=E2 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_066829@NC_002577.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_066829@NC_002577.txt data/models_hmm/NP_066829@NC_002577.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:44 2021
+# [ok]

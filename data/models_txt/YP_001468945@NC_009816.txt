@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64219|TAP25_BPMD2    14.1     0.018   1   1.8   1.2    Tail assembly protein Gp25 OS=Mycobacterium phage D29 OX=28369 GN=25 PE=3 SV=2
+sp|Q05232|TAP25_BPML5    11.9     0.088   2   2.1   2.1    Tail assembly protein Gp25 OS=Mycobacterium phage L5 OX=31757 GN=25 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64219|TAP25_BPMD2    12.6     0.053     1   1.2     38    172     91    160     63    134     Tail assembly protein Gp25 OS=Mycobacterium phage D29 OX=28369 GN=25 PE=3 SV=2
+sp|Q05232|TAP25_BPML5    10.7       0.2     2   0.0     79    163    106    157     79    133     Tail assembly protein Gp25 OS=Mycobacterium phage L5 OX=31757 GN=25 PE=3 SV=2
+sp|Q05232|TAP25_BPML5     0.4   2.8e+02     1   0.6     18    106     45     70    166    191     Tail assembly protein Gp25 OS=Mycobacterium phage L5 OX=31757 GN=25 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001468945@NC_009816.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001468945@NC_009816.txt data/models_hmm/YP_001468945@NC_009816.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:22 2021
+# [ok]

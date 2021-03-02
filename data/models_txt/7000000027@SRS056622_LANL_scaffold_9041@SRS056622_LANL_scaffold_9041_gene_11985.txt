@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8QL38|Y179_SIRV1    13.1     0.067   2   2.3   0.1    Uncharacterized protein 179 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=179 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8QL38|Y179_SIRV1     8.4         2     2   0.0    122    170    146    164     23     41     Uncharacterized protein 179 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=179 PE=4 SV=1
+sp|Q8QL38|Y179_SIRV1     2.4   1.4e+02     1   0.0      7     28     12     24     56     68     Uncharacterized protein 179 OS=Sulfolobus islandicus rod-shaped virus 1 OX=157898 GN=179 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000027@SRS056622_LANL_scaffold_9041@SRS056622_LANL_scaffold_9041_gene_11985.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000027@SRS056622_LANL_scaffold_9041@SRS056622_LANL_scaffold_9041_gene_11985.txt data/models_hmm/7000000027@SRS056622_LANL_scaffold_9041@SRS056622_LANL_scaffold_9041_gene_11985.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:50 2021
+# [ok]

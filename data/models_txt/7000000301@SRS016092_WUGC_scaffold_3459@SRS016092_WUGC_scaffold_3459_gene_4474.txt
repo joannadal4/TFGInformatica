@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13314|Y06G_BPT4     21.5   0.00016   1   1.5   0.2    Uncharacterized 10.2 kDa protein in regB-denV intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y06G PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13314|Y06G_BPT4     20.9   0.00026     1   0.2      6     83     50     81     52     76     Uncharacterized 10.2 kDa protein in regB-denV intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y06G PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000301@SRS016092_WUGC_scaffold_3459@SRS016092_WUGC_scaffold_3459_gene_4474.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000301@SRS016092_WUGC_scaffold_3459@SRS016092_WUGC_scaffold_3459_gene_4474.txt data/models_hmm/7000000301@SRS016092_WUGC_scaffold_3459@SRS016092_WUGC_scaffold_3459_gene_4474.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:06 2021
+# [ok]

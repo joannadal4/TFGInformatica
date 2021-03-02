@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41429|PIKP1_NPVAC    16.6    0.0076   1   1.5   0.7    Protein kinase-interacting protein PIKP1 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC24 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41429|PIKP1_NPVAC    15.6     0.016     1   0.7      5    102     14     93     21    101     Protein kinase-interacting protein PIKP1 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC24 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000317@SRS014459_WUGC_scaffold_12475@SRS014459_WUGC_scaffold_12475_gene_13357.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000317@SRS014459_WUGC_scaffold_12475@SRS014459_WUGC_scaffold_12475_gene_13357.txt data/models_hmm/7000000317@SRS014459_WUGC_scaffold_12475@SRS014459_WUGC_scaffold_12475_gene_13357.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:16 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9DXE6|TRAP_TYLCC    13.8     0.052   1   1.2   0.0    Transcriptional activator protein OS=Tomato yellow leaf curl China virus OX=185793 GN=C2 PE=1 SV=1
+sp|P14976|TRAP_CLVK     13.6     0.062   1   1.2   0.3    Transcriptional activator protein OS=African cassava mosaic virus (isolate West Kenyan 844) OX=10818 GN=AC2 PE=1 SV=1
+sp|Q06658|TRAP_TMOV     13.5     0.064   1   1.2   0.1    Transcriptional activator protein OS=Tomato mottle virus (isolate Florida) OX=223359 GN=AC2 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9DXE6|TRAP_TYLCC    13.4     0.068     1   0.0     13     87     32     65     21     53     Transcriptional activator protein OS=Tomato yellow leaf curl China virus OX=185793 GN=C2 PE=1 SV=1
+sp|Q06658|TRAP_TMOV     13.2      0.08     1   0.1     12     82     30     66     22     57     Transcriptional activator protein OS=Tomato mottle virus (isolate Florida) OX=223359 GN=AC2 PE=1 SV=1
+sp|P14976|TRAP_CLVK     13.1     0.085     1   0.3     12     75     15     68      4     55     Transcriptional activator protein OS=African cassava mosaic virus (isolate West Kenyan 844) OX=10818 GN=AC2 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004414727@NC_015453.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004414727@NC_015453.txt data/models_hmm/YP_004414727@NC_015453.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:24 2021
+# [ok]

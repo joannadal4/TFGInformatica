@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q8HAE6|DECO_BPST6    31.6     5e-08   1   1.2   1.6    Decoration protein OS=Salmonella phage ST64T OX=173443 GN=dec PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q8HAE6|DECO_BPST6    31.2   6.6e-08     1   1.6     68    134     91    131     30     70     Decoration protein OS=Salmonella phage ST64T OX=173443 GN=dec PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000040@SRS043411_WUGC_scaffold_15144@SRS043411_WUGC_scaffold_15144_gene_27224.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000040@SRS043411_WUGC_scaffold_15144@SRS043411_WUGC_scaffold_15144_gene_27224.txt data/models_hmm/7000000040@SRS043411_WUGC_scaffold_15144@SRS043411_WUGC_scaffold_15144_gene_27224.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:59 2021
+# [ok]

@@ -1,0 +1,42 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O57254|B5_VACCA      11.5      0.16   2   2.5   3.5    Protein B5 OS=Vaccinia virus (strain Ankara) OX=126794 GN=PS/HR PE=3 SV=1
+sp|Q9JF44|B5_VACCT      11.3      0.19   2   2.5   3.0    Protein B5 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=PS/HR PE=3 SV=1
+sp|P21115|B5_VACCC      11.0      0.24   2   2.4   3.2    Protein B5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PS/HR PE=3 SV=1
+sp|Q01227|B5_VACCW      10.9      0.25   2   2.4   3.2    Protein B5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=PS/HR PE=1 SV=1
+sp|P24083|VB05_VACCL    10.8      0.28   2   2.5   3.7    Plaque-size/host range protein OS=Vaccinia virus (strain Lister) OX=10252 GN=PS/HR PE=3 SV=1
+sp|P12419|MUNS_REOVD    10.1      0.44   2   1.7   4.5    Protein mu-NS OS=Reovirus type 3 (strain Dearing) OX=10886 GN=M3 PE=3 SV=2
+sp|P24084|B5_VACC0       8.7       1.2   2   2.4   3.3    Protein B5 OS=Vaccinia virus (strain LC16m0) OX=10246 GN=PS/HR PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P12419|MUNS_REOVD    12.0      0.12     2   1.3    590    698    604    689     29    115     Protein mu-NS OS=Reovirus type 3 (strain Dearing) OX=10886 GN=M3 PE=3 SV=2
+sp|Q9JF44|B5_VACCT       6.7       5.1     2   0.2    239    287    254    277     78    101     Protein B5 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=PS/HR PE=3 SV=1
+sp|P21115|B5_VACCC       6.4       6.3     2   0.2    248    287    255    276     79    100     Protein B5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PS/HR PE=3 SV=1
+sp|Q01227|B5_VACCW       6.4       6.3     2   0.2    248    287    255    276     79    100     Protein B5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=PS/HR PE=1 SV=1
+sp|O57254|B5_VACCA       6.3       6.7     2   1.6    231    302    254    277     78    101     Protein B5 OS=Vaccinia virus (strain Ankara) OX=126794 GN=PS/HR PE=3 SV=1
+sp|P24083|VB05_VACCL     6.3       6.7     2   1.6    231    302    254    277     78    101     Plaque-size/host range protein OS=Vaccinia virus (strain Lister) OX=10252 GN=PS/HR PE=3 SV=1
+sp|P24084|B5_VACC0       6.3       6.7     2   1.6    231    302    254    277     78    101     Protein B5 OS=Vaccinia virus (strain LC16m0) OX=10246 GN=PS/HR PE=3 SV=1
+sp|O57254|B5_VACCA       4.5        23     1   0.0     27     97     43     84     19     60     Protein B5 OS=Vaccinia virus (strain Ankara) OX=126794 GN=PS/HR PE=3 SV=1
+sp|P21115|B5_VACCC       4.5        23     1   0.0     27     97     43     84     19     60     Protein B5 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=PS/HR PE=3 SV=1
+sp|Q01227|B5_VACCW       4.4        24     1   0.0     26     97     49     84     25     60     Protein B5 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=PS/HR PE=1 SV=1
+sp|Q9JF44|B5_VACCT       4.4        24     1   0.0     26     97     49     84     25     60     Protein B5 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=PS/HR PE=3 SV=1
+sp|P24083|VB05_VACCL     4.0        33     1   0.0     26     96     49     83     25     59     Plaque-size/host range protein OS=Vaccinia virus (strain Lister) OX=10252 GN=PS/HR PE=3 SV=1
+sp|P24084|B5_VACC0       1.4   2.1e+02     1   0.0     26     96     50     83     26     59     Protein B5 OS=Vaccinia virus (strain LC16m0) OX=10246 GN=PS/HR PE=3 SV=1
+sp|P12419|MUNS_REOVD    -3.8   8.1e+03     1   0.1    529    560    535    556     42     63     Protein mu-NS OS=Reovirus type 3 (strain Dearing) OX=10886 GN=M3 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10002054@TBL_comb47_HYPODRAFT_100020546.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000553@TBL_comb47_HYPODRAFT_10002054@TBL_comb47_HYPODRAFT_100020546.txt data/models_hmm/3300000553@TBL_comb47_HYPODRAFT_10002054@TBL_comb47_HYPODRAFT_100020546.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:03 2021
+# [ok]

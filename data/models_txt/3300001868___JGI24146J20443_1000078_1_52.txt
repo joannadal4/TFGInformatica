@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P12603|NEP_INCJJ     13.4     0.055   2   2.0   0.2    Nuclear export protein (Fragment) OS=Influenza C virus (strain C/JJ/1950) OX=11560 GN=NS PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P12603|NEP_INCJJ     10.1      0.59     1   0.2      1     89     11     62     13     65     Nuclear export protein (Fragment) OS=Influenza C virus (strain C/JJ/1950) OX=11560 GN=NS PE=3 SV=2
+sp|P12603|NEP_INCJJ      1.8   2.1e+02     2   0.0     70    117     87    113     53     79     Nuclear export protein (Fragment) OS=Influenza C virus (strain C/JJ/1950) OX=11560 GN=NS PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001868___JGI24146J20443_1000078_1_52.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001868___JGI24146J20443_1000078_1_52.txt data/models_hmm/3300001868___JGI24146J20443_1000078_1_52.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:33 2021
+# [ok]

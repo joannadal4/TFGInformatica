@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6QGD8|CAPSD_BPT5     21.1   0.00013   2   2.1   0.2    Major capsid protein OS=Escherichia phage T5 OX=10726 GN=D20 PE=1 SV=1
+sp|B0ZSF3|CAPSD_BPHA1    20.4    0.0002   2   1.5   0.0    Major capsid protein OS=Halomonas phage phiHAP-1 (isolate -/Gulf of Mexico/-/2001) OX=1283337 GN=HAPgp05 PE=3 SV=1
+sp|P49861|CAPSD_BPHK7    19.5   0.00039   1   1.4   0.2    Major capsid protein OS=Enterobacteria phage HK97 OX=37554 GN=5 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6QGD8|CAPSD_BPT5     21.1   0.00013     2   0.2    205    441    227    437    184    388     Major capsid protein OS=Escherichia phage T5 OX=10726 GN=D20 PE=1 SV=1
+sp|B0ZSF3|CAPSD_BPHA1    19.4   0.00041     2   0.0    327    482    369    453    162    249     Major capsid protein OS=Halomonas phage phiHAP-1 (isolate -/Gulf of Mexico/-/2001) OX=1283337 GN=HAPgp05 PE=3 SV=1
+sp|P49861|CAPSD_BPHK7    18.7   0.00068     1   0.2    146    359    159    329    179    359     Major capsid protein OS=Enterobacteria phage HK97 OX=37554 GN=5 PE=1 SV=1
+sp|Q6QGD8|CAPSD_BPT5     -1.6   9.7e+02     1   3.7     16    120     36     94     24     84     Major capsid protein OS=Escherichia phage T5 OX=10726 GN=D20 PE=1 SV=1
+sp|B0ZSF3|CAPSD_BPHA1    -3.6     4e+03     1   0.0     26     74     27     55    144    172     Major capsid protein OS=Halomonas phage phiHAP-1 (isolate -/Gulf of Mexico/-/2001) OX=1283337 GN=HAPgp05 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007002345@NC_019449.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007002345@NC_019449.txt data/models_hmm/YP_007002345@NC_019449.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:57 2021
+# [ok]

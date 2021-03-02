@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P19416|SF33K_ADE41    10.2      0.58   1   1.4   6.2    Protein 33K OS=Human adenovirus F serotype 41 OX=10524 GN=L4 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P19416|SF33K_ADE41     9.4         1     1   6.2      7     84     15     75     83    147     Protein 33K OS=Human adenovirus F serotype 41 OX=10524 GN=L4 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001592@Draft_10000837@Draft_1000083751.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001592@Draft_10000837@Draft_1000083751.txt data/models_hmm/3300001592@Draft_10000837@Draft_1000083751.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:57 2021
+# [ok]

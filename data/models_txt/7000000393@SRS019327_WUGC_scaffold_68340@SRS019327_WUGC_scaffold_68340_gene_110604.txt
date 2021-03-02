@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P51700|YO01_BPHC1     6.5       8.4   3   3.0   8.6    Uncharacterized 23.2 kDa protein in int-C1 intergenic region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P51700|YO01_BPHC1     5.6        17     3   0.5    130    199    158    187     68     97     Uncharacterized 23.2 kDa protein in int-C1 intergenic region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|P51700|YO01_BPHC1     4.2        45     1   0.4     10     51     14     36      5     27     Uncharacterized 23.2 kDa protein in int-C1 intergenic region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+sp|P51700|YO01_BPHC1     1.0   4.4e+02     2   0.1     42    140     74    113     39     76     Uncharacterized 23.2 kDa protein in int-C1 intergenic region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000393@SRS019327_WUGC_scaffold_68340@SRS019327_WUGC_scaffold_68340_gene_110604.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000393@SRS019327_WUGC_scaffold_68340@SRS019327_WUGC_scaffold_68340_gene_110604.txt data/models_hmm/7000000393@SRS019327_WUGC_scaffold_68340@SRS019327_WUGC_scaffold_68340_gene_110604.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:52 2021
+# [ok]

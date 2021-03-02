@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9MCC1|TUBE_BPLP2    15.3    0.0076   2   1.7   1.5    Tail tube protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|P26596|TUBE_BPF41    15.0    0.0099   2   1.6   1.9    Tail tube protein OS=Lactococcus phage F4-1 OX=12387 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9MCC1|TUBE_BPLP2    15.3    0.0076     2   1.5    211    300    229    282     35     87     Tail tube protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|P26596|TUBE_BPF41    15.0    0.0099     2   1.9    212    300    229    282     35     87     Tail tube protein OS=Lactococcus phage F4-1 OX=12387 PE=1 SV=1
+sp|Q9MCC1|TUBE_BPLP2    -1.0   7.5e+02     1   0.1     14    172     49    100     37     91     Tail tube protein OS=Lactococcus phage p2 OX=254252 PE=1 SV=1
+sp|P26596|TUBE_BPF41    -1.9   1.4e+03     1   0.1     29    166     49    100     37     91     Tail tube protein OS=Lactococcus phage F4-1 OX=12387 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007@rumenHiSeq_NODE_346091_len_53216_cov_0_884696@_HiSeq_05358920.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007@rumenHiSeq_NODE_346091_len_53216_cov_0_884696@_HiSeq_05358920.txt data/models_hmm/2061766007@rumenHiSeq_NODE_346091_len_53216_cov_0_884696@_HiSeq_05358920.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:34 2021
+# [ok]

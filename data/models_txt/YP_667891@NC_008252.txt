@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q06669|AC75_NPVAC    19.5   0.00079   1   1.0   3.2    Protein Ac75 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=Ac75 PE=1 SV=1
+sp|P30326|YPO4_NPVLD    13.8     0.046   1   1.0   0.6    Uncharacterized 8.5 kDa protein in POL 3'region OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q06669|AC75_NPVAC    19.2   0.00098     1   3.2      2    130      3    125      2    119     Protein Ac75 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=Ac75 PE=1 SV=1
+sp|P30326|YPO4_NPVLD    13.7      0.05     1   0.6      1     69      1     58      1     58     Uncharacterized 8.5 kDa protein in POL 3'region OS=Lymantria dispar multicapsid nuclear polyhedrosis virus OX=10449 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_667891@NC_008252.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_667891@NC_008252.txt data/models_hmm/YP_667891@NC_008252.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:47 2021
+# [ok]

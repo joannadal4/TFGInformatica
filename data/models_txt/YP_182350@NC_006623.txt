@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6UDL1|ORFE_PSHV1   927.4  1.1e-279   1   1.0   7.6    Uncharacterized protein ORFE OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=ORFE PE=4 SV=1
+sp|Q9E6M1|VG72_GAHVM    11.9     0.055   1   1.2   0.3    Uncharacterized gene 72 protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV072 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6UDL1|ORFE_PSHV1   927.2  1.2e-279     1   7.6      1    456      1    456      1    456     Uncharacterized protein ORFE OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=ORFE PE=4 SV=1
+sp|Q9E6M1|VG72_GAHVM    11.2     0.092     1   0.3    781    892    789    882    349    443     Uncharacterized gene 72 protein OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV072 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_182350@NC_006623.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_182350@NC_006623.txt data/models_hmm/YP_182350@NC_006623.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:09 2021
+# [ok]

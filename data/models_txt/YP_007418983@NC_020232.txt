@@ -1,0 +1,40 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP82|YL005_MIMIV   631.9  4.8e-190   1   1.0  38.4    Uncharacterized protein L5 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L5 PE=3 SV=1
+sp|Q5UQH6|YR821_MIMIV   599.0  4.6e-180   1   1.0  32.9    Uncharacterized protein R821 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R821 PE=3 SV=1
+sp|Q5UP86|YL012_MIMIV   590.7  1.5e-177   1   1.5  55.8    Uncharacterized protein L12 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L12 PE=3 SV=1
+sp|Q5UP18|YR865_MIMIV   557.5  1.7e-167   3   3.4  31.3    Uncharacterized protein R865 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R865 PE=3 SV=1
+sp|Q5UP08|YL754_MIMIV   144.4   3.6e-42   2   3.5  48.2    Uncharacterized protein L754 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L754 PE=3 SV=1
+sp|Q5UP07|YL755_MIMIV   110.1   8.9e-32   1   1.0  13.7    Uncharacterized protein L755 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L755 PE=3 SV=1
+sp|Q5UQN3|YR433_MIMIV    54.3   7.6e-15   1   1.6   6.3    Uncharacterized protein R433 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R433 PE=4 SV=1
+sp|Q9Q8T2|LAP_RFVKA      12.9     0.029   1   1.2   0.0    E3 ubiquitin-protein ligase LAP OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=s153R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UP82|YL005_MIMIV   631.7  5.4e-190     1  38.4      1    461      1    461      1    457     Uncharacterized protein L5 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L5 PE=3 SV=1
+sp|Q5UQH6|YR821_MIMIV   598.7  5.7e-180     1  32.9      1    498      1    497      1    458     Uncharacterized protein R821 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R821 PE=3 SV=1
+sp|Q5UP86|YL012_MIMIV   589.6  3.2e-177     1  55.8      1    487      1    486      1    458     Uncharacterized protein L12 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L12 PE=3 SV=1
+sp|Q5UP18|YR865_MIMIV   295.6   4.9e-88     3   5.7    398    590    413    587    192    365     Uncharacterized protein R865 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R865 PE=3 SV=1
+sp|Q5UP18|YR865_MIMIV   276.2   3.7e-82     1  17.6      1    230      1    212      1    241     Uncharacterized protein R865 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R865 PE=3 SV=1
+sp|Q5UP08|YL754_MIMIV   124.1     5e-36     1  21.7     25    315     33    311    106    269     Uncharacterized protein L754 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L754 PE=3 SV=1
+sp|Q5UP07|YL755_MIMIV   109.9     1e-31     1  13.7      1    125      1    113      1    109     Uncharacterized protein L755 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L755 PE=3 SV=1
+sp|Q5UQN3|YR433_MIMIV    52.8   2.2e-14     1   6.3      1    124      1    123      1    140     Uncharacterized protein R433 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R433 PE=4 SV=1
+sp|Q5UP08|YL754_MIMIV    19.6   0.00026     2  19.2    312    377    315    376    402    456     Uncharacterized protein L754 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L754 PE=3 SV=1
+sp|Q9Q8T2|LAP_RFVKA      12.2     0.047     1   0.0    101    200    105    199     48    116     E3 ubiquitin-protein ligase LAP OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=s153R PE=3 SV=1
+sp|Q5UP18|YR865_MIMIV   -11.0   1.7e+04     2  17.1    274    417    302    387     71    134     Uncharacterized protein R865 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R865 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007418983@NC_020232.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007418983@NC_020232.txt data/models_hmm/YP_007418983@NC_020232.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:58 2021
+# [ok]

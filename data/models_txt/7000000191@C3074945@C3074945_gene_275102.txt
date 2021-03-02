@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O57191|DPOL_VACCA    16.2    0.0049   1   1.4   1.5    DNA polymerase OS=Vaccinia virus (strain Ankara) OX=126794 GN=POL PE=3 SV=1
+sp|P20509|DPOL_VACCC    16.2    0.0049   1   1.4   1.5    DNA polymerase OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=POL PE=1 SV=1
+sp|P06856|DPOL_VACCW    16.2    0.0049   1   1.4   1.5    DNA polymerase OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=POL PE=1 SV=5
+sp|P0DOO6|DPOL_VARV     12.5     0.067   1   1.5   1.7    DNA polymerase OS=Variola virus OX=10255 GN=POL PE=3 SV=1
+sp|P0DOO5|DPOL_VAR67    12.5     0.067   1   1.5   1.7    DNA polymerase OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=POL PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O57191|DPOL_VACCA    15.2    0.0097     1   1.5    771    881    787    878    104    188     DNA polymerase OS=Vaccinia virus (strain Ankara) OX=126794 GN=POL PE=3 SV=1
+sp|P06856|DPOL_VACCW    15.2    0.0097     1   1.5    771    881    787    878    104    188     DNA polymerase OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=POL PE=1 SV=5
+sp|P20509|DPOL_VACCC    15.2    0.0097     1   1.5    771    881    787    878    104    188     DNA polymerase OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=POL PE=1 SV=1
+sp|P0DOO5|DPOL_VAR67    11.4      0.14     1   1.7    769    880    785    877    103    188     DNA polymerase OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=POL PE=3 SV=1
+sp|P0DOO6|DPOL_VARV     11.4      0.14     1   1.7    769    880    785    877    103    188     DNA polymerase OS=Variola virus OX=10255 GN=POL PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000191@C3074945@C3074945_gene_275102.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000191@C3074945@C3074945_gene_275102.txt data/models_hmm/7000000191@C3074945@C3074945_gene_275102.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:10 2021
+# [ok]

@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P33246|VP40_NPVBM    12.6      0.11   3   2.6   0.4    Structural glycoprotein p40 OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=P40 PE=2 SV=1
+sp|P32651|GP41_NPVAC     9.6      0.96   4   2.7   3.2    Structural glycoprotein gp41 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=GP41 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P33246|VP40_NPVBM     9.4       1.1     3   0.0    239    291    246    276     19     49     Structural glycoprotein p40 OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=P40 PE=2 SV=1
+sp|P32651|GP41_NPVAC     9.3       1.2     3   0.0    246    297    252    285     19     52     Structural glycoprotein gp41 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=GP41 PE=1 SV=2
+sp|P33246|VP40_NPVBM    -0.7   1.6e+03     2   0.0    111    168    116    144      6     35     Structural glycoprotein p40 OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=P40 PE=2 SV=1
+sp|P33246|VP40_NPVBM    -1.4   2.6e+03     1   0.0     66    113     71    100     20     49     Structural glycoprotein p40 OS=Bombyx mori nuclear polyhedrosis virus OX=271108 GN=P40 PE=2 SV=1
+sp|P32651|GP41_NPVAC    -2.0     4e+03     2   0.1    117    173    124    146      8     30     Structural glycoprotein gp41 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=GP41 PE=1 SV=2
+sp|P32651|GP41_NPVAC    -2.0     4e+03     1   0.0     72    112     77    103     20     46     Structural glycoprotein gp41 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=GP41 PE=1 SV=2
+sp|P32651|GP41_NPVAC    -2.9   7.4e+03     4   0.1    369    392    373    390     62     79     Structural glycoprotein gp41 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=GP41 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003987001@NC_014649.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003987001@NC_014649.txt data/models_hmm/YP_003987001@NC_014649.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:57 2021
+# [ok]

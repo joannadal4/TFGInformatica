@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64250|VG59_BPMD2    12.9       0.1   1   1.7   0.5    Gene 59 protein OS=Mycobacterium phage D29 OX=28369 GN=59 PE=4 SV=1
+sp|Q05272|VG59_BPML5    11.9      0.21   2   1.9   1.1    Gene 59 protein OS=Mycobacterium phage L5 OX=31757 GN=59 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64250|VG59_BPMD2    12.0      0.18     1   0.1     80    116     87    110     77    100     Gene 59 protein OS=Mycobacterium phage D29 OX=28369 GN=59 PE=4 SV=1
+sp|Q05272|VG59_BPML5    11.0      0.39     2   0.1     92    127     99    122     77    100     Gene 59 protein OS=Mycobacterium phage L5 OX=31757 GN=59 PE=4 SV=1
+sp|Q05272|VG59_BPML5    -1.9   3.8e+03     1   0.1     76     99     78     91     35     48     Gene 59 protein OS=Mycobacterium phage L5 OX=31757 GN=59 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000353@ElkS_mat_MD6ADRAFT_1000012@ElkS_mat_MD6ADRAFT_1000012117.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000353@ElkS_mat_MD6ADRAFT_1000012@ElkS_mat_MD6ADRAFT_1000012117.txt data/models_hmm/3300000353@ElkS_mat_MD6ADRAFT_1000012@ElkS_mat_MD6ADRAFT_1000012117.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:24 2021
+# [ok]

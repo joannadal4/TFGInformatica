@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q04523|IL1BP_CWPXB   158.0     4e-47   1   1.7   0.3    Interleukin-1-binding protein OS=Cowpox virus (strain Brighton Red) OX=265872 GN=CPXV209 PE=3 SV=1
+sp|O57261|IL1BP_VACCA   153.4     1e-45   1   1.7   0.2    Interleukin-1-binding protein OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA184R PE=3 SV=1
+sp|P25212|IL1BP_VACCW   150.7   7.6e-45   1   1.7   0.3    Interleukin-1-binding protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR197 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q04523|IL1BP_CWPXB   156.7   9.8e-47     1   0.3    224    293    224    291      1     68     Interleukin-1-binding protein OS=Cowpox virus (strain Brighton Red) OX=265872 GN=CPXV209 PE=3 SV=1
+sp|O57261|IL1BP_VACCA   152.2   2.5e-45     1   0.2    224    293    224    291      1     68     Interleukin-1-binding protein OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA184R PE=3 SV=1
+sp|P25212|IL1BP_VACCW   149.4   1.9e-44     1   0.3    224    293    224    291      1     68     Interleukin-1-binding protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR197 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_042229@NC_001611.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_042229@NC_001611.txt data/models_hmm/NP_042229@NC_001611.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:16 2021
+# [ok]

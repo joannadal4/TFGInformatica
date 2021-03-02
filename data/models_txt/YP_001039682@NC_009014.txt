@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9T1T2|VP16_BPAPS    165.1   3.9e-49   1   1.0   0.8    Putative protein p16 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=16 PE=4 SV=1
+sp|Q8LTD0|SPAN2_BPP2     15.8    0.0091   1   1.1   0.5    Probable spanin, outer lipoprotein subunit OS=Escherichia phage P2 OX=10679 GN=lysC PE=3 SV=1
+sp|P0DJZ3|SPAN2_BPKMV    12.4       0.1   1   1.6   2.1    Probable spanin, outer lipoprotein subunit OS=Pseudomonas phage phiKMV OX=204270 GN=46.1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9T1T2|VP16_BPAPS    165.0   4.3e-49     1   0.8      1    109      1    109      1    109     Putative protein p16 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=67571 GN=16 PE=4 SV=1
+sp|Q8LTD0|SPAN2_BPP2     15.5     0.011     1   0.5      1     91      5     87     23    107     Probable spanin, outer lipoprotein subunit OS=Escherichia phage P2 OX=10679 GN=lysC PE=3 SV=1
+sp|P0DJZ3|SPAN2_BPKMV    11.3      0.23     1   2.1      9     88     28     81     22     79     Probable spanin, outer lipoprotein subunit OS=Pseudomonas phage phiKMV OX=204270 GN=46.1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001039682@NC_009014.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001039682@NC_009014.txt data/models_hmm/YP_001039682@NC_009014.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:54 2021
+# [ok]

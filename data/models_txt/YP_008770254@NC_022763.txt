@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q65729|POLG_BSTVG    13.3     0.073   2   1.8   0.1    Genome polyprotein (Fragment) OS=Brome streak virus (strain German) OX=117139 PE=2 SV=1
+sp|Q65730|POLG_BSTV1    12.8      0.11   2   2.5   0.0    Genome polyprotein OS=Brome streak virus (strain 11-Cal) OX=117138 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q65729|POLG_BSTVG    11.7      0.23     2   0.0    486    542    502    540     28     66     Genome polyprotein (Fragment) OS=Brome streak virus (strain German) OX=117139 PE=2 SV=1
+sp|Q65730|POLG_BSTV1     9.8       0.9     2   0.0   2656   2709   2669   2707     28     66     Genome polyprotein OS=Brome streak virus (strain 11-Cal) OX=117138 PE=3 SV=1
+sp|Q65730|POLG_BSTV1    -1.6   3.3e+03     1   0.1    117    146    128    140     34     45     Genome polyprotein OS=Brome streak virus (strain 11-Cal) OX=117138 PE=3 SV=1
+sp|Q65729|POLG_BSTVG    -3.6   1.3e+04     1   0.1    452    482    465    478     20     34     Genome polyprotein (Fragment) OS=Brome streak virus (strain German) OX=117139 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008770254@NC_022763.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008770254@NC_022763.txt data/models_hmm/YP_008770254@NC_022763.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:27 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P08669|GLYC_LASSJ    12.9      0.12   2   2.0   0.2    Pre-glycoprotein polyprotein GP complex OS=Lassa virus (strain Mouse/Sierra Leone/Josiah/1976) OX=11622 GN=GPC PE=1 SV=1
+sp|P17332|GLYC_LASSG    10.8      0.54   2   2.2   2.6    Pre-glycoprotein polyprotein GP complex OS=Lassa virus (strain GA391) OX=11621 GN=GPC PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P17332|GLYC_LASSG    11.1      0.44     2   0.2    407    476    429    456     13     40     Pre-glycoprotein polyprotein GP complex OS=Lassa virus (strain GA391) OX=11621 GN=GPC PE=3 SV=1
+sp|P08669|GLYC_LASSJ    11.1      0.46     2   0.0    427    478    430    459     13     42     Pre-glycoprotein polyprotein GP complex OS=Lassa virus (strain Mouse/Sierra Leone/Josiah/1976) OX=11622 GN=GPC PE=1 SV=1
+sp|P17332|GLYC_LASSG    -2.3   6.9e+03     1   0.2      5     33     13     27      3     17     Pre-glycoprotein polyprotein GP complex OS=Lassa virus (strain GA391) OX=11621 GN=GPC PE=3 SV=1
+sp|P08669|GLYC_LASSJ    -2.9     1e+04     1   0.1      6     32     13     26      3     16     Pre-glycoprotein polyprotein GP complex OS=Lassa virus (strain Mouse/Sierra Leone/Josiah/1976) OX=11622 GN=GPC PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004958137@NC_016571.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004958137@NC_016571.txt data/models_hmm/YP_004958137@NC_016571.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:01 2021
+# [ok]

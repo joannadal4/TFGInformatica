@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O41107|A625_PBCV1    10.6      0.14   1   1.4   0.0    Putative transposase A625R OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=A625R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O41107|A625_PBCV1     9.7      0.26     1   0.0    267    351    281    340    153    211     Putative transposase A625R OS=Paramecium bursaria Chlorella virus 1 OX=10506 GN=A625R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008058473@NC_021320.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008058473@NC_021320.txt data/models_hmm/YP_008058473@NC_021320.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:12 2021
+# [ok]

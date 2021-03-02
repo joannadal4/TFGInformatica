@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q01007|UL87_SHV21    12.8     0.047   2   2.4   0.9    Gene 24 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=24 PE=3 SV=1
+sp|Q9T1V2|BP47_BPMU     12.6     0.057   1   1.3   0.0    Baseplate protein gp47 OS=Escherichia phage Mu OX=10677 GN=Mup47 PE=1 SV=1
+sp|O48405|GP51_BPSP1    12.0     0.087   1   1.2   0.0    Putative gene 51 protein OS=Bacillus phage SP01 OX=10685 GN=51 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9T1V2|BP47_BPMU     11.8     0.097     1   0.0    264    350    269    337    161    231     Baseplate protein gp47 OS=Escherichia phage Mu OX=10677 GN=Mup47 PE=1 SV=1
+sp|O48405|GP51_BPSP1    11.7       0.1     1   0.0     20    101     27     72     50     95     Putative gene 51 protein OS=Bacillus phage SP01 OX=10685 GN=51 PE=4 SV=1
+sp|Q01007|UL87_SHV21     9.3      0.57     2   0.4    366    437    379    434    210    262     Gene 24 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=24 PE=3 SV=1
+sp|Q01007|UL87_SHV21     0.9   2.1e+02     1   0.0    157    210    167    200     38     71     Gene 24 protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=24 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000195@SRS017209_Baylor_scaffold_42805@SRS017209_Baylor_scaffold_42805_gene_57175.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000195@SRS017209_Baylor_scaffold_42805@SRS017209_Baylor_scaffold_42805_gene_57175.txt data/models_hmm/7000000195@SRS017209_Baylor_scaffold_42805@SRS017209_Baylor_scaffold_42805_gene_57175.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:17 2021
+# [ok]

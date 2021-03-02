@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q65137|3609L_ASFB7    14.1     0.013   1   1.1   0.0    Protein MGF 360-9L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-024 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q65137|3609L_ASFB7    13.7     0.017     1   0.0     79    124     94    122    145    173     Protein MGF 360-9L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-024 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGF91585@HQ634152.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGF91585@HQ634152.txt data/models_hmm/AGF91585@HQ634152.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:31 2021
+# [ok]

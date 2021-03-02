@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q992I2|SIGC_ARVS1     13.1      0.09   3   2.6   0.4    Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q5UQJ3|YL862_MIMIV    10.9      0.43   2   2.2   3.4    Uncharacterized protein L862 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L862 PE=3 SV=1
+sp|Q5UQW6|YR387_MIMIV     8.5       2.4   3   3.1  11.0    Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q992I2|SIGC_ARVS1     13.1      0.09     1   0.4     10     93     12     86     29     97     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q5UQJ3|YL862_MIMIV    11.3      0.33     2   0.4    152    256    197    253     49    105     Uncharacterized protein L862 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L862 PE=3 SV=1
+sp|Q5UQW6|YR387_MIMIV    10.6      0.52     1   2.7      1     99      2     95     18     98     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q5UQW6|YR387_MIMIV     1.9   2.6e+02     3   0.3    197    263    220    258     63     96     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+sp|Q992I2|SIGC_ARVS1      1.7     3e+02     2   0.2     82    159     86    150     30     94     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q5UQJ3|YL862_MIMIV    -0.5   1.5e+03     1   0.2      9     65     26     40     66     80     Uncharacterized protein L862 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L862 PE=3 SV=1
+sp|Q992I2|SIGC_ARVS1     -1.3   2.6e+03     3   0.1    211    257    222    245     12     35     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q5UQW6|YR387_MIMIV    -2.2   5.1e+03     2   0.0    149    184    163    176     82     95     Uncharacterized protein R387 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R387 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006561128@NC_018283.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006561128@NC_018283.txt data/models_hmm/YP_006561128@NC_018283.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:21 2021
+# [ok]

@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q90121|KP4T_UMV4     15.9    0.0085   2   2.5   1.2    KP4 killer toxin OS=Ustilago maydis P4 virus OX=11009 GN=M2A PE=1 SV=1
+sp|P50808|VE1_HPV36     12.8     0.079   1   1.6   0.1    Replication protein E1 OS=Human papillomavirus type 36 OX=37957 GN=E1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P50808|VE1_HPV36     11.7      0.18     1   0.1    259    288    274    287     23     37     Replication protein E1 OS=Human papillomavirus type 36 OX=37957 GN=E1 PE=3 SV=1
+sp|Q90121|KP4T_UMV4      8.7       1.5     2   0.2     82    110     89    109     17     37     KP4 killer toxin OS=Ustilago maydis P4 virus OX=11009 GN=M2A PE=1 SV=1
+sp|Q90121|KP4T_UMV4      5.6        14     1   0.1     14     38     21     34     19     32     KP4 killer toxin OS=Ustilago maydis P4 virus OX=11009 GN=M2A PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008869166@NC_015294.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008869166@NC_015294.txt data/models_hmm/YP_008869166@NC_015294.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:43 2021
+# [ok]

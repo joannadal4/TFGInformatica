@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q37889|CAPSF_BPB03    57.8   1.1e-15   2   2.1   1.0    Capsid fiber protein OS=Bacillus phage B103 OX=10778 GN=8.5 PE=3 SV=1
+sp|P11186|VG85_BPNF      53.0   3.5e-14   2   2.3   0.5    Head fiber protein OS=Bacillus phage Nf OX=10753 GN=8.5 PE=4 SV=2
+sp|B3VMP4|CAPSF_BPPH2    51.8   8.2e-14   2   2.3   4.7    Capsid fiber protein OS=Bacillus phage phi29 OX=10756 GN=8.5 PE=1 SV=1
+sp|P07532|CAPSF_BPPZA    50.2   2.6e-13   2   2.2   3.7    Capsid fiber protein OS=Bacillus phage PZA OX=10757 GN=8.5 PE=3 SV=1
+sp|P17464|VP4_ROTSS       9.9       0.9   1   2.0   4.5    Outer capsid protein VP4 OS=Rotavirus A (strain RVA/SA11-SEM/G3P5B[2]) OX=10926 PE=3 SV=1
+sp|A2T3T2|VP4_ROTSH       9.9      0.93   1   1.9   4.5    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=1 SV=1
+sp|P12976|VP4_ROTS1       9.9      0.93   1   1.9   4.5    Outer capsid protein VP4 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q37889|CAPSF_BPB03    57.8   1.1e-15     2   1.0    211    282    230    280     47     97     Capsid fiber protein OS=Bacillus phage B103 OX=10778 GN=8.5 PE=3 SV=1
+sp|P11186|VG85_BPNF      53.0   3.5e-14     2   0.5    185    257    204    255     47     98     Head fiber protein OS=Bacillus phage Nf OX=10753 GN=8.5 PE=4 SV=2
+sp|B3VMP4|CAPSF_BPPH2    51.8   8.2e-14     2   4.7    185    280    219    279     39     99     Capsid fiber protein OS=Bacillus phage phi29 OX=10756 GN=8.5 PE=1 SV=1
+sp|P07532|CAPSF_BPPZA    50.2   2.6e-13     2   3.7    185    280    221    279     41     99     Capsid fiber protein OS=Bacillus phage PZA OX=10757 GN=8.5 PE=3 SV=1
+sp|A2T3T2|VP4_ROTSH       8.3       2.8     1   4.5    531    615    554    606     35     91     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2]) OX=450149 PE=1 SV=1
+sp|P12976|VP4_ROTS1       8.3       2.8     1   4.5    531    615    554    606     35     91     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/SA11-Both/G3P5B[2]) OX=37137 PE=1 SV=1
+sp|P17464|VP4_ROTSS       8.3       2.8     1   4.5    531    615    554    606     35     91     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/SA11-SEM/G3P5B[2]) OX=10926 PE=3 SV=1
+sp|P11186|VG85_BPNF       0.1     1e+03     1   0.9     67    155    109    142     48     79     Head fiber protein OS=Bacillus phage Nf OX=10753 GN=8.5 PE=4 SV=2
+sp|B3VMP4|CAPSF_BPPH2    -1.0   2.3e+03     1   0.1     85    142    105    128     25     48     Capsid fiber protein OS=Bacillus phage phi29 OX=10756 GN=8.5 PE=1 SV=1
+sp|Q37889|CAPSF_BPB03    -1.6   3.4e+03     1   0.3     95    163    118    128     56     66     Capsid fiber protein OS=Bacillus phage B103 OX=10778 GN=8.5 PE=3 SV=1
+sp|P07532|CAPSF_BPPZA    -1.7   3.9e+03     1   0.0     92    142    106    128     26     48     Capsid fiber protein OS=Bacillus phage PZA OX=10757 GN=8.5 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004893873@NC_016071.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004893873@NC_016071.txt data/models_hmm/YP_004893873@NC_016071.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:36 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UR41|YR561_MIMIV     5.5       4.1   2   2.0  10.8    Uncharacterized protein R561 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R561 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UR41|YR561_MIMIV     4.4       8.7     2   0.2     86    181    109    159    309    360     Uncharacterized protein R561 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R561 PE=4 SV=1
+sp|Q5UR41|YR561_MIMIV     3.1        22     1   6.9     22    100     37     81    284    328     Uncharacterized protein R561 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R561 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008241694@NC_021799.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008241694@NC_021799.txt data/models_hmm/YP_008241694@NC_021799.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:33 2021
+# [ok]

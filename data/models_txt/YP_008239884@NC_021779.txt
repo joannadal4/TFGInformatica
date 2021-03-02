@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|D4N3P2|REP_HCYV5     12.4     0.094   1   1.3   0.0    Replication-associated protein OS=Human associated cyclovirus 1 (isolate Homo sapiens/Pakistan/PK5510/2007) OX=742918 GN=Rep PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|D4N3P2|REP_HCYV5     11.8      0.15     1   0.0     68    176     73    137      6     72     Replication-associated protein OS=Human associated cyclovirus 1 (isolate Homo sapiens/Pakistan/PK5510/2007) OX=742918 GN=Rep PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008239884@NC_021779.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008239884@NC_021779.txt data/models_hmm/YP_008239884@NC_021779.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:26 2021
+# [ok]

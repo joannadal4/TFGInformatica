@@ -1,0 +1,88 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q66659|IE63_EHV2     636.1  3.1e-191   2   2.2   0.6    Immediate-early phosphoprotein 57 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=57 PE=3 SV=2
+sp|Q2HR75|ICP27_HHV8P   505.8  1.1e-151   1   1.0   0.0    mRNA export factor ICP27 homolog OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF57 PE=1 SV=1
+sp|O36407|IE63_ALHV1    477.5    4e-143   1   1.0   0.7    Immediate-early phosphoprotein 57 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=57 PE=3 SV=1
+sp|P13199|ICP27_SHV21   416.8    1e-124   1   1.6  22.0    mRNA export factor ICP27 homolog OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=EJRF1 PE=1 SV=2
+sp|Q3KSU1|ICP27_EBVG    288.6   8.6e-86   1   1.1   0.2    mRNA export factor ICP27 homolog OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BMLF1 PE=1 SV=2
+sp|Q1HVH2|ICP27_EBVA8   287.5   1.8e-85   1   1.1   0.1    mRNA export factor ICP27 homolog OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BMLF1 PE=3 SV=1
+sp|Q04360|ICP27_EBVB9   286.2   4.4e-85   1   1.1   0.1    mRNA export factor ICP27 homolog OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BMLF1 PE=1 SV=2
+sp|Q85232|ICP27_SUHVK    46.2   2.9e-12   3   3.0  23.2    mRNA export factor ICP27 homolog OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=UL54 PE=3 SV=1
+sp|P28276|ICP27_HHV2H    40.8   1.3e-10   3   3.1  16.3    mRNA export factor OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL54 PE=1 SV=1
+sp|P36295|ICP27_HHV1E    36.8   2.1e-09   3   3.1  18.2    mRNA export factor OS=Human herpesvirus 1 (strain HFEM) OX=10303 GN=UL54 PE=1 SV=1
+sp|P10238|ICP27_HHV11    36.2   3.3e-09   3   3.1  18.7    mRNA export factor OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL54 PE=1 SV=1
+sp|P09269|ICP27_VZVD     25.7   5.1e-06   2   3.1  15.2    mRNA export factor ICP27 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF4 PE=1 SV=1
+sp|Q4JQX1|ICP27_VZVO     25.7   5.1e-06   2   3.1  15.2    mRNA export factor ICP27 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF4 PE=3 SV=1
+sp|Q05906|ICP27_EHV1K    25.1   7.7e-06   4   3.9   0.2    mRNA export factor ICP27 homolog OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=UL3 PE=1 SV=1
+sp|P28939|ICP27_EHV1B    25.1   7.7e-06   4   3.9   0.2    mRNA export factor ICP27 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=5 PE=3 SV=1
+sp|P24728|VPHE_NPVAC     12.4     0.053   1   1.2   6.2    Polyhedral envelope-associated phosphoprotein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=pp34 PE=1 SV=1
+sp|Q77MR3|ICP27_GAHVM    11.3      0.12   3   3.6   0.0    mRNA export factor ICP27 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV068 PE=3 SV=1
+sp|O90306|NCAP_BRV1      10.1      0.27   1   1.1   7.9    Nucleoprotein OS=Breda virus 1 OX=360393 GN=N PE=3 SV=1
+sp|P16749|ICP27_HCMVA     9.3      0.48   5   3.8   0.0    mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL69 PE=1 SV=1
+sp|Q9DUB7|CAPSD_TTVZ1     7.1       2.2   1   1.3  13.7    Capsid protein OS=Torque teno douroucouli virus (isolate At-TTV3) OX=766187 GN=ORF1 PE=3 SV=1
+sp|P50769|VE2_HPV23       6.7       2.9   1   1.1  11.5    Regulatory protein E2 OS=Human papillomavirus type 23 OX=37955 GN=E2 PE=3 SV=1
+sp|P36795|VE2_HPV49       6.1       4.4   1   1.4  14.2    Regulatory protein E2 OS=Human papillomavirus type 49 OX=10616 GN=E2 PE=3 SV=1
+sp|Q9DUB6|ORF3_TTVZ1      5.5       6.9   1   1.2  10.5    Uncharacterized ORF3 protein OS=Torque teno douroucouli virus (isolate At-TTV3) OX=766187 GN=ORF3 PE=4 SV=1
+sp|Q80910|VE2_HPV38       5.2       8.3   1   1.1  18.6    Regulatory protein E2 OS=Human papillomavirus type 38 OX=37959 GN=E2 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q66659|IE63_EHV2     636.1  3.1e-191     2   0.6    104    643    125    642     38    440     Immediate-early phosphoprotein 57 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=57 PE=3 SV=2
+sp|Q2HR75|ICP27_HHV8P   505.6  1.2e-151     1   0.0      1    455      1    454      1    440     mRNA export factor ICP27 homolog OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=ORF57 PE=1 SV=1
+sp|O36407|IE63_ALHV1    477.3  4.6e-143     1   0.7      2    435      3    434      2    440     Immediate-early phosphoprotein 57 OS=Alcelaphine herpesvirus 1 (strain C500) OX=654901 GN=57 PE=3 SV=1
+sp|P13199|ICP27_SHV21   415.3    3e-124     1  22.0      1    417      1    416     11    440     mRNA export factor ICP27 homolog OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=EJRF1 PE=1 SV=2
+sp|Q3KSU1|ICP27_EBVG    288.2   1.1e-85     1   0.2     20    477     22    476      3    440     mRNA export factor ICP27 homolog OS=Epstein-Barr virus (strain GD1) OX=10376 GN=BMLF1 PE=1 SV=2
+sp|Q1HVH2|ICP27_EBVA8   287.1   2.4e-85     1   0.1     20    477     22    476      3    440     mRNA export factor ICP27 homolog OS=Epstein-Barr virus (strain AG876) OX=82830 GN=BMLF1 PE=3 SV=1
+sp|Q04360|ICP27_EBVB9   285.8     6e-85     1   0.1     20    477     22    476      3    440     mRNA export factor ICP27 homolog OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BMLF1 PE=1 SV=2
+sp|Q85232|ICP27_SUHVK    33.9   1.6e-08     2   0.0    189    291    193    265    257    331     mRNA export factor ICP27 homolog OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=UL54 PE=3 SV=1
+sp|P28276|ICP27_HHV2H    31.5   8.5e-08     2   0.0    302    408    325    404    242    323     mRNA export factor OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL54 PE=1 SV=1
+sp|P36295|ICP27_HHV1E    26.9   2.1e-06     2   0.0    299    407    344    403    262    323     mRNA export factor OS=Human herpesvirus 1 (strain HFEM) OX=10303 GN=UL54 PE=1 SV=1
+sp|P10238|ICP27_HHV11    26.9   2.1e-06     2   0.0    300    408    345    404    262    323     mRNA export factor OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL54 PE=1 SV=1
+sp|P09269|ICP27_VZVD     23.2   2.8e-05     2   0.7    255    449    275    445    257    437     mRNA export factor ICP27 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF4 PE=1 SV=1
+sp|Q4JQX1|ICP27_VZVO     23.2   2.8e-05     2   0.7    255    449    275    445    257    437     mRNA export factor ICP27 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF4 PE=3 SV=1
+sp|Q05906|ICP27_EHV1K    20.9   0.00014     3   0.0    273    375    300    364    258    324     mRNA export factor ICP27 homolog OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=UL3 PE=1 SV=1
+sp|P28939|ICP27_EHV1B    20.9   0.00014     2   0.0    274    375    300    364    258    324     mRNA export factor ICP27 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=5 PE=3 SV=1
+sp|P36295|ICP27_HHV1E    13.2      0.03     3   0.1    450    509    459    497    390    428     mRNA export factor OS=Human herpesvirus 1 (strain HFEM) OX=10303 GN=UL54 PE=1 SV=1
+sp|P10238|ICP27_HHV11    13.2      0.03     3   0.1    451    510    460    498    390    428     mRNA export factor OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL54 PE=1 SV=1
+sp|P28276|ICP27_HHV2H    12.5      0.05     3   0.1    425    509    458    494    388    424     mRNA export factor OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL54 PE=1 SV=1
+sp|P24728|VPHE_NPVAC     12.0     0.071     1   6.2     89    242     99    161     93    150     Polyhedral envelope-associated phosphoprotein OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=pp34 PE=1 SV=1
+sp|Q77MR3|ICP27_GAHVM    11.3      0.12     1   0.0    300    375    316    365    271    322     mRNA export factor ICP27 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV068 PE=3 SV=1
+sp|P28939|ICP27_EHV1B    10.4      0.23     3   0.0    403    467    416    448    388    420     mRNA export factor ICP27 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=5 PE=3 SV=1
+sp|Q05906|ICP27_EHV1K    10.4      0.23     4   0.0    403    467    416    448    388    420     mRNA export factor ICP27 homolog OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=UL3 PE=1 SV=1
+sp|O90306|NCAP_BRV1      10.0      0.29     1   7.9      1    147      7     90     47    140     Nucleoprotein OS=Breda virus 1 OX=360393 GN=N PE=3 SV=1
+sp|Q85232|ICP27_SUHVK     9.3      0.46     3   0.2    274    358    309    342    390    423     mRNA export factor ICP27 homolog OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=UL54 PE=3 SV=1
+sp|P16749|ICP27_HCMVA     9.3      0.48     1   0.0    325    406    329    392    261    324     mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL69 PE=1 SV=1
+sp|Q77MR3|ICP27_GAHVM     8.8      0.65     2   0.7    387    467    405    453    379    424     mRNA export factor ICP27 homolog OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV068 PE=3 SV=1
+sp|Q9DUB7|CAPSD_TTVZ1     6.4       3.5     1  13.7      3    194      9     60    104    155     Capsid protein OS=Torque teno douroucouli virus (isolate At-TTV3) OX=766187 GN=ORF1 PE=3 SV=1
+sp|P50769|VE2_HPV23       6.4       3.7     1  11.5    190    379    220    290     78    145     Regulatory protein E2 OS=Human papillomavirus type 23 OX=37955 GN=E2 PE=3 SV=1
+sp|P36795|VE2_HPV49       5.5       6.7     1  14.2    187    475    266    361     80    163     Regulatory protein E2 OS=Human papillomavirus type 49 OX=10616 GN=E2 PE=3 SV=1
+sp|Q9DUB6|ORF3_TTVZ1      5.0       9.6     1  10.5     32    149     44    113     88    152     Uncharacterized ORF3 protein OS=Torque teno douroucouli virus (isolate At-TTV3) OX=766187 GN=ORF3 PE=4 SV=1
+sp|Q85232|ICP27_SUHVK     4.9        10     1  17.8      7    134     14     87     87    154     mRNA export factor ICP27 homolog OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=UL54 PE=3 SV=1
+sp|Q80910|VE2_HPV38       4.7        12     1  18.6    187    358    201    316     37    148     Regulatory protein E2 OS=Human papillomavirus type 38 OX=37959 GN=E2 PE=3 SV=1
+sp|P09269|ICP27_VZVD      1.4   1.2e+02     1   7.9     21    222     67    158     63    147     mRNA export factor ICP27 homolog OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=ORF4 PE=1 SV=1
+sp|Q4JQX1|ICP27_VZVO      1.4   1.2e+02     1   7.9     21    222     67    158     63    147     mRNA export factor ICP27 homolog OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=ORF4 PE=3 SV=1
+sp|Q66659|IE63_EHV2       0.6   2.1e+02     1  27.3      1    123      2    102      2    101     Immediate-early phosphoprotein 57 OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=57 PE=3 SV=2
+sp|P16749|ICP27_HCMVA     0.0   3.1e+02     2   0.0    454    513    472    508    387    425     mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL69 PE=1 SV=1
+sp|Q05906|ICP27_EHV1K    -0.9   5.9e+02     2   3.1    140    235    164    221    112    165     mRNA export factor ICP27 homolog OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=UL3 PE=1 SV=1
+sp|P28939|ICP27_EHV1B    -0.9     6e+02     1   2.4    142    233    164    220    112    164     mRNA export factor ICP27 homolog OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=5 PE=3 SV=1
+sp|P28276|ICP27_HHV2H    -2.5   1.8e+03     1  11.9     16    266     22    236      8    194     mRNA export factor OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=UL54 PE=1 SV=1
+sp|P36295|ICP27_HHV1E    -2.5   1.8e+03     1  13.8     20    262     41    159     20    147     mRNA export factor OS=Human herpesvirus 1 (strain HFEM) OX=10303 GN=UL54 PE=1 SV=1
+sp|P16749|ICP27_HCMVA    -2.6   1.9e+03     3   0.3    563    624    580    611     28     59     mRNA export factor ICP27 homolog OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL69 PE=1 SV=1
+sp|P10238|ICP27_HHV11    -3.1   2.8e+03     1  14.3     18    264     41    159     20    147     mRNA export factor OS=Human herpesvirus 1 (strain 17) OX=10299 GN=UL54 PE=1 SV=1
+sp|Q05906|ICP27_EHV1K    -4.4   6.7e+03     1   8.3     67    146     85    128     88    132     mRNA export factor ICP27 homolog OS=Equine herpesvirus 1 (strain Kentucky A) OX=10329 GN=UL3 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004207893@NC_015049.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004207893@NC_015049.txt data/models_hmm/YP_004207893@NC_015049.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:08 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q38442|GP7_BPSPP     14.7     0.018   1   1.6   2.9    Minor head protein GP7 OS=Bacillus phage SPP1 OX=10724 GN=7 PE=1 SV=2
+sp|P0CK01|MVP_PEMVC     13.2      0.05   1   1.4   0.0    P3N-PIPO polyprotein OS=Pepper mottle virus (isolate California) OX=31737 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38442|GP7_BPSPP     13.4     0.044     1   2.9      4    108     15     97     99    172     Minor head protein GP7 OS=Bacillus phage SPP1 OX=10724 GN=7 PE=1 SV=2
+sp|P0CK01|MVP_PEMVC     12.3       0.1     1   0.0    301    432    312    413     91    190     P3N-PIPO polyprotein OS=Pepper mottle virus (isolate California) OX=31737 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000512@SRS018394_Baylor_scaffold_7857@SRS018394_Baylor_scaffold_7857_gene_8099.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000512@SRS018394_Baylor_scaffold_7857@SRS018394_Baylor_scaffold_7857_gene_8099.txt data/models_hmm/7000000512@SRS018394_Baylor_scaffold_7857@SRS018394_Baylor_scaffold_7857_gene_8099.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:56 2021
+# [ok]

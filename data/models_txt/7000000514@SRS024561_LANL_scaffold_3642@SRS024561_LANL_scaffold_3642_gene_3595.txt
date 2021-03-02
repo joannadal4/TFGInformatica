@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64300|VG452_BPR69    14.7    0.0084   1   1.0   0.0    Protein Gp45.2 OS=Escherichia phage RB69 OX=12353 GN=45.2 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64300|VG452_BPR69    14.7    0.0084     1   0.0      1     55      3     42     29     68     Protein Gp45.2 OS=Escherichia phage RB69 OX=12353 GN=45.2 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000514@SRS024561_LANL_scaffold_3642@SRS024561_LANL_scaffold_3642_gene_3595.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000514@SRS024561_LANL_scaffold_3642@SRS024561_LANL_scaffold_3642_gene_3595.txt data/models_hmm/7000000514@SRS024561_LANL_scaffold_3642@SRS024561_LANL_scaffold_3642_gene_3595.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:58 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQE7|YL479_MIMIV    22.5   7.2e-05   1   3.0   4.1    Uncharacterized protein L479 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L479 PE=4 SV=1
+sp|P39034|VP4_ROTF1      13.0     0.061   1   1.3   0.1    Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cat/Japan/FRV-1/1986/G3P3[9]) OX=39009 PE=2 SV=1
+sp|P39033|VP4_ROTH3      12.8     0.068   1   1.3   0.1    Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQE7|YL479_MIMIV    15.5      0.01     1   4.1      2    250     43    246     42    230     Uncharacterized protein L479 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L479 PE=4 SV=1
+sp|P39034|VP4_ROTF1      12.1      0.11     1   0.1    482    626    493    593     41    142     Outer capsid protein VP4 OS=Rotavirus A (isolate RVA/Cat/Japan/FRV-1/1986/G3P3[9]) OX=39009 PE=2 SV=1
+sp|P39033|VP4_ROTH3      12.0      0.12     1   0.1    481    626    493    592     41    141     Outer capsid protein VP4 OS=Rotavirus A (strain RVA/Human/Japan/AU-1/1982/G3P3[9]) OX=39013 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006987000@NC_019400.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006987000@NC_019400.txt data/models_hmm/YP_006987000@NC_019400.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:39 2021
+# [ok]

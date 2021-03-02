@@ -1,0 +1,41 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9QJ14|U91_HHV6Z     171.6   8.2e-51   1   1.0  10.9    Protein U91 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U91 PE=4 SV=1
+sp|Q69569|U91_HHV6U     148.5     1e-43   1   1.1   2.3    Uncharacterized protein U91 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U91 PE=3 SV=2
+sp|Q6SW14|UL139_HCMVM    19.1   0.00064   1   1.1   4.2    Membrane glycoprotein UL139 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL139 PE=3 SV=1
+sp|Q6XV43|NRAM_I79A7     13.1     0.047   1   1.3   0.6    Neuraminidase OS=Influenza A virus (strain A/Grey teal/Australia/2/1979 H4N4) OX=402464 GN=NA PE=3 SV=1
+sp|Q5UR81|YL633_MIMIV    12.7     0.062   1   1.2   2.5    Putative lectin L633 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L633 PE=3 SV=1
+sp|Q5UR80|CYB5L_MIMIV    12.6     0.067   1   1.2   0.7    Cytochrome b5-like protein OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L628 PE=3 SV=1
+sp|Q65223|P17_ASFM2      11.8      0.11   1   1.3   0.0    Major structural protein p17 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-115 PE=3 SV=1
+sp|P20993|A16_VACCC      11.5      0.15   1   1.3   0.2    Virion membrane protein A16 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A16L PE=1 SV=3
+sp|Q6RZG6|A16_RABPU      11.5      0.15   1   1.3   0.2    Virion membrane protein A16 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV125 PE=2 SV=3
+sp|Q77TI4|A16_VACCT      11.5      0.15   1   1.3   0.2    Virion membrane protein A16 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TA17L PE=2 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9QJ14|U91_HHV6Z     171.4   9.1e-51     1  10.9      1    156      2    156      4    161     Protein U91 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U91 PE=4 SV=1
+sp|Q69569|U91_HHV6U     148.3   1.2e-43     1   2.3     13    114     22    114     65    161     Uncharacterized protein U91 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U91 PE=3 SV=2
+sp|Q6SW14|UL139_HCMVM    18.8    0.0008     1   4.2      1    117     11    114     47    155     Membrane glycoprotein UL139 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL139 PE=3 SV=1
+sp|Q6XV43|NRAM_I79A7     12.4     0.077     1   0.6      4     70     17     64    109    155     Neuraminidase OS=Influenza A virus (strain A/Grey teal/Australia/2/1979 H4N4) OX=402464 GN=NA PE=3 SV=1
+sp|Q5UR80|CYB5L_MIMIV    12.2     0.084     1   0.7      1     63      6     48    108    150     Cytochrome b5-like protein OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L628 PE=3 SV=1
+sp|Q5UR81|YL633_MIMIV    12.1     0.091     1   2.5      1     74      2     56     22     78     Putative lectin L633 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L633 PE=3 SV=1
+sp|Q65223|P17_ASFM2      11.5      0.14     1   0.0      3     88     41     76    105    140     Major structural protein p17 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-115 PE=3 SV=1
+sp|P20993|A16_VACCC      10.7      0.25     1   0.2    296    371    309    360     61    115     Virion membrane protein A16 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A16L PE=1 SV=3
+sp|Q6RZG6|A16_RABPU      10.7      0.25     1   0.2    296    371    309    360     61    115     Virion membrane protein A16 OS=Rabbitpox virus (strain Utrecht) OX=45417 GN=RPXV125 PE=2 SV=3
+sp|Q77TI4|A16_VACCT      10.7      0.25     1   0.2    296    371    309    360     61    115     Virion membrane protein A16 OS=Vaccinia virus (strain Tian Tan) OX=10253 GN=TA17L PE=2 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_042984@NC_001664.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_042984@NC_001664.txt data/models_hmm/NP_042984@NC_001664.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:18 2021
+# [ok]

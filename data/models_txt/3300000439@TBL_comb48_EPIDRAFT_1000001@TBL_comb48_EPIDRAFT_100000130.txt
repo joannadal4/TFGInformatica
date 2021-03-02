@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DSS9|VB04_VAR67    14.2     0.053   2   2.6   0.2    Ankyrin repeat protein B4 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=B4R PE=4 SV=1
+sp|P0DST0|VB04_VARV     14.2     0.053   2   2.6   0.2    Ankyrin repeat protein B4 OS=Variola virus OX=10255 GN=B4R PE=4 SV=1
+sp|P21001|B4_VACCC      14.0     0.059   2   2.8   0.1    Ankyrin repeat protein B4 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B4R PE=3 SV=1
+sp|P24769|B4_VACCW      13.9     0.065   2   2.8   0.1    Ankyrin repeat protein B4 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR186 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DSS9|VB04_VAR67    11.3      0.42     1   0.0    398    452    417    451     35     70     Ankyrin repeat protein B4 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=B4R PE=4 SV=1
+sp|P0DST0|VB04_VARV     11.3      0.42     1   0.0    398    452    417    451     35     70     Ankyrin repeat protein B4 OS=Variola virus OX=10255 GN=B4R PE=4 SV=1
+sp|P21001|B4_VACCC      10.7      0.65     1   0.0    398    452    418    451     36     70     Ankyrin repeat protein B4 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B4R PE=3 SV=1
+sp|P24769|B4_VACCW      10.6       0.7     1   0.0    398    452    419    451     37     70     Ankyrin repeat protein B4 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR186 PE=3 SV=1
+sp|P21001|B4_VACCC      -1.3   3.7e+03     2   0.0    523    555    530    547      6     25     Ankyrin repeat protein B4 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B4R PE=3 SV=1
+sp|P24769|B4_VACCW      -1.4   3.7e+03     2   0.0    522    555    530    547      6     25     Ankyrin repeat protein B4 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR186 PE=3 SV=1
+sp|P0DSS9|VB04_VAR67    -2.4   7.9e+03     2   0.0    525    554    530    547      6     25     Ankyrin repeat protein B4 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=B4R PE=4 SV=1
+sp|P0DST0|VB04_VARV     -2.4   7.9e+03     2   0.0    525    554    530    547      6     25     Ankyrin repeat protein B4 OS=Variola virus OX=10255 GN=B4R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000001@TBL_comb48_EPIDRAFT_100000130.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000001@TBL_comb48_EPIDRAFT_100000130.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000001@TBL_comb48_EPIDRAFT_100000130.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:31 2021
+# [ok]

@@ -1,0 +1,66 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9DHJ5|A28_YLDV     219.3   1.7e-65   1   1.0  11.0    Envelope protein A28 homolog OS=Yaba-like disease virus OX=132475 GN=118L PE=3 SV=1
+sp|P16718|A28_SHEVK    214.6   4.8e-64   1   1.0   7.3    Envelope protein A28 homolog OS=Sheeppox virus (strain KS-1) OX=10269 GN=HM3 PE=3 SV=1
+sp|Q8JTR0|A28_LSDVN    214.6   4.8e-64   1   1.0   7.3    Envelope protein A28 homolog OS=Lumpy skin disease virus (isolate Bovine/Kenya/Neethling 2490/1958) OX=376849 GN=LSDV118 PE=3 SV=2
+sp|P68548|A28_MYXVL    213.6     1e-63   1   1.0   2.2    Envelope protein A28 homolog OS=Myxoma virus (strain Lausanne) OX=31530 GN=m116L PE=3 SV=1
+sp|P68549|A28_MYXVU    213.6     1e-63   1   1.0   2.2    Envelope protein A28 homolog OS=Myxoma virus (strain Uriarra) OX=265876 GN=MA28L PE=3 SV=1
+sp|Q9Q8W2|A28_RFVKA    212.5   2.2e-63   1   1.0   3.3    Envelope protein A28 homolog OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=s116L PE=3 SV=1
+sp|P60672|A28_YMTV5    209.9   1.4e-62   1   1.0  12.9    Envelope protein A28 homolog OS=Yaba monkey tumor virus (strain VR587) OX=928314 GN=118L PE=3 SV=1
+sp|Q8QMS5|A28_CWPXB    204.4   6.9e-61   1   1.0   2.5    Envelope protein A28 homolog OS=Cowpox virus (strain Brighton Red) OX=265872 GN=CPXV163 PE=3 SV=1
+sp|Q80DU8|A28_CWPXG    204.3   7.1e-61   1   1.0   2.6    Envelope protein A28 homolog OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=A29L PE=3 SV=1
+sp|P60671|A28_VACCA    203.7   1.1e-60   1   1.0   3.1    Envelope protein A28 homolog OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA139L PE=3 SV=1
+sp|P68632|A28_VACCC    203.7   1.1e-60   1   1.0   3.1    Envelope protein A28 homolog OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A28L PE=3 SV=1
+sp|P68633|A28_VACCW    203.7   1.1e-60   1   1.0   3.1    Envelope protein A28 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR151 PE=1 SV=1
+sp|P68557|A28_CAMPM    203.4   1.3e-60   1   1.0   2.0    Envelope protein A28 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV147 PE=3 SV=1
+sp|P68558|A28_CAMPS    203.4   1.3e-60   1   1.0   2.0    Envelope protein A28 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP145L PE=3 SV=1
+sp|Q8V4U9|A28_MONPZ    203.4   1.4e-60   1   1.0   3.1    Envelope protein A28 homolog OS=Monkeypox virus (strain Zaire-96-I-16) OX=619591 GN=A30L PE=3 SV=1
+sp|Q8JL88|A28_ECTVM    203.2   1.5e-60   1   1.0   3.3    Envelope protein A28 homolog OS=Ectromelia virus (strain Moscow) OX=265874 GN=EVM130 PE=3 SV=1
+sp|P0DSX7|A28_VAR67    202.1   3.4e-60   1   1.0   2.5    Envelope protein A28 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A31.5L PE=3 SV=1
+sp|P0DSX8|A28_VARV     202.1   3.4e-60   1   1.0   2.5    Envelope protein A28 homolog OS=Variola virus OX=10255 GN=A31.5L PE=3 SV=1
+sp|Q98300|A28_MCV1     201.5   5.2e-60   1   1.0   0.0    Envelope protein A28 homolog OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=MC134L PE=3 SV=1
+sp|Q9J541|A28_FOWPN    198.9   3.4e-59   1   1.0   0.3    Envelope protein A28 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV192 PE=3 SV=1
+sp|P29816|A28_AMEPV    172.5   4.6e-51   1   1.0   6.9    Envelope protein A28 homolog OS=Amsacta moorei entomopoxvirus OX=28321 GN=AMV186 PE=3 SV=1
+sp|Q3V4W4|Y080_ATV       7.6       3.5   2   1.6   9.2    Putative transmembrane protein ORF80 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9DHJ5|A28_YLDV     219.1   1.9e-65     1  11.0      1    139      1    139      1    140     Envelope protein A28 homolog OS=Yaba-like disease virus OX=132475 GN=118L PE=3 SV=1
+sp|P16718|A28_SHEVK    214.5   5.3e-64     1   7.3      1    140      1    139      1    139     Envelope protein A28 homolog OS=Sheeppox virus (strain KS-1) OX=10269 GN=HM3 PE=3 SV=1
+sp|Q8JTR0|A28_LSDVN    214.5   5.3e-64     1   7.3      1    140      1    139      1    139     Envelope protein A28 homolog OS=Lumpy skin disease virus (isolate Bovine/Kenya/Neethling 2490/1958) OX=376849 GN=LSDV118 PE=3 SV=2
+sp|P68548|A28_MYXVL    213.4   1.1e-63     1   2.2      1    140      1    140      1    140     Envelope protein A28 homolog OS=Myxoma virus (strain Lausanne) OX=31530 GN=m116L PE=3 SV=1
+sp|P68549|A28_MYXVU    213.4   1.1e-63     1   2.2      1    140      1    140      1    140     Envelope protein A28 homolog OS=Myxoma virus (strain Uriarra) OX=265876 GN=MA28L PE=3 SV=1
+sp|Q9Q8W2|A28_RFVKA    212.3   2.4e-63     1   3.3      1    140      1    140      1    140     Envelope protein A28 homolog OS=Rabbit fibroma virus (strain Kasza) OX=10272 GN=s116L PE=3 SV=1
+sp|P60672|A28_YMTV5    209.7   1.5e-62     1  12.9      1    141      1    141      1    140     Envelope protein A28 homolog OS=Yaba monkey tumor virus (strain VR587) OX=928314 GN=118L PE=3 SV=1
+sp|Q8QMS5|A28_CWPXB    204.2   7.7e-61     1   2.5      1    146      1    146      1    140     Envelope protein A28 homolog OS=Cowpox virus (strain Brighton Red) OX=265872 GN=CPXV163 PE=3 SV=1
+sp|Q80DU8|A28_CWPXG    204.2   7.9e-61     1   2.6      1    146      1    146      1    140     Envelope protein A28 homolog OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=A29L PE=3 SV=1
+sp|P60671|A28_VACCA    203.6   1.2e-60     1   3.1      1    146      1    146      1    140     Envelope protein A28 homolog OS=Vaccinia virus (strain Ankara) OX=126794 GN=MVA139L PE=3 SV=1
+sp|P68632|A28_VACCC    203.6   1.2e-60     1   3.1      1    146      1    146      1    140     Envelope protein A28 homolog OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=A28L PE=3 SV=1
+sp|P68633|A28_VACCW    203.6   1.2e-60     1   3.1      1    146      1    146      1    140     Envelope protein A28 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR151 PE=1 SV=1
+sp|P68557|A28_CAMPM    203.3   1.5e-60     1   2.0      1    146      1    146      1    140     Envelope protein A28 homolog OS=Camelpox virus (strain M-96) OX=203173 GN=CMLV147 PE=3 SV=1
+sp|P68558|A28_CAMPS    203.3   1.5e-60     1   2.0      1    146      1    146      1    140     Envelope protein A28 homolog OS=Camelpox virus (strain CMS) OX=203172 GN=CMP145L PE=3 SV=1
+sp|Q8V4U9|A28_MONPZ    203.2   1.5e-60     1   3.1      1    146      1    146      1    140     Envelope protein A28 homolog OS=Monkeypox virus (strain Zaire-96-I-16) OX=619591 GN=A30L PE=3 SV=1
+sp|Q8JL88|A28_ECTVM    203.1   1.7e-60     1   3.3      1    146      1    146      1    140     Envelope protein A28 homolog OS=Ectromelia virus (strain Moscow) OX=265874 GN=EVM130 PE=3 SV=1
+sp|P0DSX7|A28_VAR67    202.0   3.8e-60     1   2.5      1    146      1    146      1    140     Envelope protein A28 homolog OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A31.5L PE=3 SV=1
+sp|P0DSX8|A28_VARV     202.0   3.8e-60     1   2.5      1    146      1    146      1    140     Envelope protein A28 homolog OS=Variola virus OX=10255 GN=A31.5L PE=3 SV=1
+sp|Q98300|A28_MCV1     201.4   5.8e-60     1   0.0      1    141      1    141      1    140     Envelope protein A28 homolog OS=Molluscum contagiosum virus subtype 1 OX=10280 GN=MC134L PE=3 SV=1
+sp|Q9J541|A28_FOWPN    198.8   3.7e-59     1   0.3      1    141      1    141      1    140     Envelope protein A28 homolog OS=Fowlpox virus (strain NVSL) OX=928301 GN=FPV192 PE=3 SV=1
+sp|P29816|A28_AMEPV    172.4   5.1e-51     1   6.9      1    139      1    138      1    139     Envelope protein A28 homolog OS=Amsacta moorei entomopoxvirus OX=28321 GN=AMV186 PE=3 SV=1
+sp|Q3V4W4|Y080_ATV      10.4       0.5     1   5.0      1     59      1     51      1     53     Putative transmembrane protein ORF80 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|Q3V4W4|Y080_ATV      -1.0   1.6e+03     2   0.1     55     79     61     77      6     22     Putative transmembrane protein ORF80 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_044085@NC_001731.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_044085@NC_001731.txt data/models_hmm/NP_044085@NC_001731.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:20 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P15633|Y3_SOCMV      11.3      0.25   2   2.4   1.7    Uncharacterized protein 3 OS=Soybean chlorotic mottle virus OX=10651 GN=ORF III PE=4 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P15633|Y3_SOCMV       8.1       2.5     1   0.1      1     28      2     25     51     74     Uncharacterized protein 3 OS=Soybean chlorotic mottle virus OX=10651 GN=ORF III PE=4 SV=2
+sp|P15633|Y3_SOCMV       2.2   1.7e+02     2   0.2    101    158    115    153     30     72     Uncharacterized protein 3 OS=Soybean chlorotic mottle virus OX=10651 GN=ORF III PE=4 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000162@TBL_comb48_EPIDRAFT_100016235.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000439@TBL_comb48_EPIDRAFT_1000162@TBL_comb48_EPIDRAFT_100016235.txt data/models_hmm/3300000439@TBL_comb48_EPIDRAFT_1000162@TBL_comb48_EPIDRAFT_100016235.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:31:47 2021
+# [ok]

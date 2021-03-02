@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q05121|VE39_NPVOP   329.2   1.8e-98   1   1.0   8.5    Early 39 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF24 PE=4 SV=1
+sp|P11042|PP31_NPVAC   325.4   2.8e-97   1   1.0  12.9    Protein pp31 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=39KD PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q05121|VE39_NPVOP   329.0   2.1e-98     1   8.5      9    261     10    261      2    275     Early 39 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF24 PE=4 SV=1
+sp|P11042|PP31_NPVAC   325.2   3.1e-97     1  12.9     10    275     12    275      3    275     Protein pp31 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=39KD PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_874217@NC_008586.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_874217@NC_008586.txt data/models_hmm/YP_874217@NC_008586.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:53 2021
+# [ok]

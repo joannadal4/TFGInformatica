@@ -1,0 +1,32 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UR04|YR911_MIMIV    20.9   0.00028  10   7.3   0.0    Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UR04|YR911_MIMIV     2.8   1.2e+02     3   0.0    141    170    148    169     42     63     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV     1.7   2.8e+02     8   0.0    325    350    330    349     44     63     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV     1.5   3.1e+02     6   0.0    231    260    240    259     44     63     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV     1.3   3.8e+02    10   0.0    377    410    391    409     43     63     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV     0.2   8.3e+02     4   0.0    177    200    183    199     47     63     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV    -0.4   1.3e+03     9   0.0    354    381    359    373     43     57     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV    -1.7   3.2e+03     1   0.0     72    110     89    104     43     58     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV    -1.9   3.7e+03     7   0.0    299    320    301    316     45     60     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV    -2.7   6.4e+03     5   0.0    209    230    213    229     47     63     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+sp|Q5UR04|YR911_MIMIV    -3.9   1.5e+04     2   0.0    118    135    122    133     46     57     Putative ankyrin repeat protein R911 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R911 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006906826@NC_018846.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006906826@NC_018846.txt data/models_hmm/YP_006906826@NC_018846.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:26 2021
+# [ok]

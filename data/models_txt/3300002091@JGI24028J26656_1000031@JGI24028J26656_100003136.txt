@@ -1,0 +1,30 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68570|BDBA_BPSPB     15.1     0.024   2   2.2   0.3    Disulfide bond formation protein A OS=Bacillus phage SPbeta OX=66797 GN=bdbA PE=3 SV=1
+sp|Q91FT8|234R_IIV6      13.4     0.081   2   1.8   0.1    Uncharacterized protein 234R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-234R PE=4 SV=1
+sp|Q5UQL4|YL417_MIMIV    11.2      0.41   2   3.0   5.5    Uncharacterized protein L417 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L417 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91FT8|234R_IIV6      11.7      0.28     2   0.3    150    187    151    177      2     26     Uncharacterized protein 234R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-234R PE=4 SV=1
+sp|P68570|BDBA_BPSPB     10.1      0.89     2   0.0     76    113     84    104     20     40     Disulfide bond formation protein A OS=Bacillus phage SPbeta OX=66797 GN=bdbA PE=3 SV=1
+sp|Q5UQL4|YL417_MIMIV     6.5        12     1   0.0     44    100     59     89     36     66     Uncharacterized protein L417 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L417 PE=1 SV=1
+sp|Q5UQL4|YL417_MIMIV     3.3   1.1e+02     2   3.5    367    414    382    403     34     55     Uncharacterized protein L417 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L417 PE=1 SV=1
+sp|P68570|BDBA_BPSPB      3.3   1.2e+02     1   0.1      1     58      1     28      1     28     Disulfide bond formation protein A OS=Bacillus phage SPbeta OX=66797 GN=bdbA PE=3 SV=1
+sp|Q91FT8|234R_IIV6      -2.5   7.4e+03     1   0.0     76    123     78    108     18     48     Uncharacterized protein 234R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-234R PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002091@JGI24028J26656_1000031@JGI24028J26656_100003136.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002091@JGI24028J26656_1000031@JGI24028J26656_100003136.txt data/models_hmm/3300002091@JGI24028J26656_1000031@JGI24028J26656_100003136.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:12 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q91G56|042R_IIV6     13.4     0.043   1   1.1   1.1    Uncharacterized protein 042R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-042R PE=4 SV=1
+sp|Q9Q718|VPR_HV1V9     11.3      0.18   1   1.1   0.0    Protein Vpr OS=Human immunodeficiency virus type 1 group M subtype H (isolate VI991) OX=388888 GN=vpr PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q91G56|042R_IIV6     13.3     0.045     1   1.1      1     88      3     72     24     93     Uncharacterized protein 042R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-042R PE=4 SV=1
+sp|Q9Q718|VPR_HV1V9     11.3      0.18     1   0.0     13     82     35     67    144    176     Protein Vpr OS=Human immunodeficiency virus type 1 group M subtype H (isolate VI991) OX=388888 GN=vpr PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006488731@NC_018086.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006488731@NC_018086.txt data/models_hmm/YP_006488731@NC_018086.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:17 2021
+# [ok]

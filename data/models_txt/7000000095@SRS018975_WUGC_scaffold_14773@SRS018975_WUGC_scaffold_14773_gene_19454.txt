@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P14553|POLG_HAVS2    13.0     0.095   2   2.1   0.0    Genome polyprotein OS=Simian hepatitis A virus genotype V (isolate AGM-27) OX=12102 PE=3 SV=2
+sp|A3FMB2|POLG_HAVH2    12.6      0.12   2   2.2   0.0    Genome polyprotein OS=Human hepatitis A virus genotype IA (isolate H2) OX=470423 PE=3 SV=1
+sp|Q6WQ42|POLG_AEVL2    12.5      0.14   1   1.7   0.1    Genome polyprotein OS=Avian encephalomyelitis virus (strain L2Z) OX=475780 PE=3 SV=1
+sp|Q9DSN9|POLN_ABPVR     8.2       2.9   3   3.3   6.4    Replicase polyprotein OS=Acute bee paralysis virus (strain Rothamsted) OX=1217067 GN=ORF1 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6WQ42|POLG_AEVL2    11.1      0.36     1   0.1   1330   1403   1358   1398     47     86     Genome polyprotein OS=Avian encephalomyelitis virus (strain L2Z) OX=475780 PE=3 SV=1
+sp|P14553|POLG_HAVS2    10.7      0.48     2   0.0   1408   1500   1428   1486     29     86     Genome polyprotein OS=Simian hepatitis A virus genotype V (isolate AGM-27) OX=12102 PE=3 SV=2
+sp|A3FMB2|POLG_HAVH2    10.0      0.79     2   0.0   1403   1496   1424   1482     29     86     Genome polyprotein OS=Human hepatitis A virus genotype IA (isolate H2) OX=470423 PE=3 SV=1
+sp|Q9DSN9|POLN_ABPVR     8.7         2     3   0.0    870    919    885    914     49     80     Replicase polyprotein OS=Acute bee paralysis virus (strain Rothamsted) OX=1217067 GN=ORF1 PE=4 SV=1
+sp|Q9DSN9|POLN_ABPVR     0.6   6.4e+02     2   0.6    783    826    790    813     94    117     Replicase polyprotein OS=Acute bee paralysis virus (strain Rothamsted) OX=1217067 GN=ORF1 PE=4 SV=1
+sp|Q9DSN9|POLN_ABPVR    -1.5   2.8e+03     1   0.1    455    498    462    495     93    126     Replicase polyprotein OS=Acute bee paralysis virus (strain Rothamsted) OX=1217067 GN=ORF1 PE=4 SV=1
+sp|A3FMB2|POLG_HAVH2    -1.7   3.2e+03     1   0.0   1118   1159   1122   1151     48     77     Genome polyprotein OS=Human hepatitis A virus genotype IA (isolate H2) OX=470423 PE=3 SV=1
+sp|P14553|POLG_HAVS2    -2.7   6.8e+03     1   0.0   1125   1160   1129   1151     51     73     Genome polyprotein OS=Simian hepatitis A virus genotype V (isolate AGM-27) OX=12102 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000095@SRS018975_WUGC_scaffold_14773@SRS018975_WUGC_scaffold_14773_gene_19454.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000095@SRS018975_WUGC_scaffold_14773@SRS018975_WUGC_scaffold_14773_gene_19454.txt data/models_hmm/7000000095@SRS018975_WUGC_scaffold_14773@SRS018975_WUGC_scaffold_14773_gene_19454.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:24 2021
+# [ok]

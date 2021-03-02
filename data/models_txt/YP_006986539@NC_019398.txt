@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9G0B4|VG38_BPAR1    73.0   2.8e-20   2   1.7   1.7    Receptor-recognizing protein OS=Escherichia phage AR1 OX=66711 GN=38 PE=4 SV=1
+sp|P08233|VG38_BPOX2    65.0   8.1e-18   1   1.5   0.5    Receptor-recognizing protein OS=Enterobacteria phage Ox2 OX=10691 GN=38 PE=4 SV=1
+sp|P08234|VG38_BPM1     64.7     1e-17   2   2.1   0.5    Receptor-recognizing protein OS=Enterobacteria phage M1 OX=10676 GN=38 PE=4 SV=1
+sp|P07876|VG38_BPK3     61.1   1.3e-16   3   2.1   2.6    Receptor-recognizing protein OS=Enterobacteria phage K3 OX=10674 GN=38 PE=4 SV=1
+sp|P07875|VG38_BPT2     59.2   4.8e-16   3   2.6   2.6    Receptor-recognizing protein OS=Enterobacteria phage T2 OX=10664 GN=38 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9G0B4|VG38_BPAR1    73.0   2.8e-20     1   1.7      1     75      1     55      1     55     Receptor-recognizing protein OS=Escherichia phage AR1 OX=66711 GN=38 PE=4 SV=1
+sp|P08234|VG38_BPM1     64.7     1e-17     1   0.5      1     78      1     51      1     50     Receptor-recognizing protein OS=Enterobacteria phage M1 OX=10676 GN=38 PE=4 SV=1
+sp|P08233|VG38_BPOX2    64.0   1.7e-17     1   0.5      1     79      1     51      1     50     Receptor-recognizing protein OS=Enterobacteria phage Ox2 OX=10691 GN=38 PE=4 SV=1
+sp|P07876|VG38_BPK3     61.1   1.3e-16     1   2.6      1    114      1     66      1     64     Receptor-recognizing protein OS=Enterobacteria phage K3 OX=10674 GN=38 PE=4 SV=1
+sp|P07875|VG38_BPT2     59.2   4.8e-16     1   2.6      1     93      1     66      1     64     Receptor-recognizing protein OS=Enterobacteria phage T2 OX=10664 GN=38 PE=4 SV=1
+sp|P07875|VG38_BPT2      4.4        34     2   0.5    116    148    124    146      9     31     Receptor-recognizing protein OS=Enterobacteria phage T2 OX=10664 GN=38 PE=4 SV=1
+sp|P08234|VG38_BPM1     -1.7   2.6e+03     2   0.7    159    213    166    204     60     99     Receptor-recognizing protein OS=Enterobacteria phage M1 OX=10676 GN=38 PE=4 SV=1
+sp|Q9G0B4|VG38_BPAR1    -2.5   4.5e+03     2   0.1    201    243    211    231     71     91     Receptor-recognizing protein OS=Escherichia phage AR1 OX=66711 GN=38 PE=4 SV=1
+sp|P07876|VG38_BPK3     -2.7   5.1e+03     3   0.8    198    252    225    243     82    100     Receptor-recognizing protein OS=Enterobacteria phage K3 OX=10674 GN=38 PE=4 SV=1
+sp|P07875|VG38_BPT2     -3.5   9.5e+03     3   0.0    230    253    238    251     22     35     Receptor-recognizing protein OS=Enterobacteria phage T2 OX=10664 GN=38 PE=4 SV=1
+sp|P07876|VG38_BPK3     -3.7     1e+04     2   0.6    118    149    133    144     19     30     Receptor-recognizing protein OS=Enterobacteria phage K3 OX=10674 GN=38 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006986539@NC_019398.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006986539@NC_019398.txt data/models_hmm/YP_006986539@NC_019398.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:38 2021
+# [ok]

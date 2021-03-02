@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03738|TIPL_LAMBD    13.3     0.037   2   2.3   1.4    Tail tip protein L OS=Escherichia phage lambda OX=10710 GN=L PE=1 SV=1
+sp|Q6R7D6|Y093_OSHVF    12.3     0.072   2   1.5   0.1    Uncharacterized protein ORF93 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF93 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6R7D6|Y093_OSHVF    11.3      0.15     1   0.0      3     64      8     38    125    155     Uncharacterized protein ORF93 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF93 PE=4 SV=1
+sp|P03738|TIPL_LAMBD     8.5       1.1     1   0.0     10    110     18     83     13     71     Tail tip protein L OS=Escherichia phage lambda OX=10710 GN=L PE=1 SV=1
+sp|P03738|TIPL_LAMBD     2.8        56     2   1.0    200    231    205    228    235    259     Tail tip protein L OS=Escherichia phage lambda OX=10710 GN=L PE=1 SV=1
+sp|Q6R7D6|Y093_OSHVF    -4.0   6.7e+03     2   0.0    241    261    242    257     24     39     Uncharacterized protein ORF93 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF93 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006561080@NC_018282.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006561080@NC_018282.txt data/models_hmm/YP_006561080@NC_018282.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:20 2021
+# [ok]

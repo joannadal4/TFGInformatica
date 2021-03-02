@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPJ9|YL122_MIMIV    15.2     0.022   3   4.1   2.5    Putative ankyrin repeat protein L122 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L122 PE=4 SV=1
+sp|Q25BJ1|Y04_HIS1I      14.3     0.041   1   1.6   1.4    Uncharacterized protein ORF4 OS=His1 virus (isolate Australia/Victoria) OX=654912 GN=ORF4 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q25BJ1|Y04_HIS1I      13.4     0.077     1   1.4      1     46     16     44     29     57     Uncharacterized protein ORF4 OS=His1 virus (isolate Australia/Victoria) OX=654912 GN=ORF4 PE=4 SV=1
+sp|Q5UPJ9|YL122_MIMIV     7.8       4.5     1   0.1      4     39      9     37     38     64     Putative ankyrin repeat protein L122 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L122 PE=4 SV=1
+sp|Q5UPJ9|YL122_MIMIV     3.3   1.1e+02     3   0.1    213    260    224    251     33     59     Putative ankyrin repeat protein L122 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L122 PE=4 SV=1
+sp|Q5UPJ9|YL122_MIMIV     0.2     1e+03     2   0.0     54     90     67     81     42     56     Putative ankyrin repeat protein L122 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L122 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001242@C687J13896_1000008@C687J13896_1000008199.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001242@C687J13896_1000008@C687J13896_1000008199.txt data/models_hmm/3300001242@C687J13896_1000008@C687J13896_1000008199.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:32 2021
+# [ok]

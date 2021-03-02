@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CA12|PRIM_ASFM2    15.6      0.01   3   3.2   0.2    Putative helicase/primase complex protein OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-055 PE=3 SV=1
+sp|P0DSR7|A21_VAR67     13.9     0.034   1   1.2   0.1    Virion membrane protein A21 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A21L PE=3 SV=1
+sp|P0DSR8|A21_VARV      13.9     0.034   1   1.2   0.1    Virion membrane protein A21 OS=Variola virus OX=10255 GN=A21L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DSR7|A21_VAR67     13.9     0.035     1   0.1      9    108     44     83     57    100     Virion membrane protein A21 OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A21L PE=3 SV=1
+sp|P0DSR8|A21_VARV      13.9     0.035     1   0.1      9    108     44     83     57    100     Virion membrane protein A21 OS=Variola virus OX=10255 GN=A21L PE=3 SV=1
+sp|P0CA12|PRIM_ASFM2    11.5      0.19     1   0.0    168    241    170    198      4     31     Putative helicase/primase complex protein OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-055 PE=3 SV=1
+sp|P0CA12|PRIM_ASFM2    -1.2   1.5e+03     2   0.0    673    730    681    725     79    127     Putative helicase/primase complex protein OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-055 PE=3 SV=1
+sp|P0CA12|PRIM_ASFM2    -3.3   6.7e+03     3   0.0    754    798    762    791     80    108     Putative helicase/primase complex protein OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-055 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_862856@NC_004996.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_862856@NC_004996.txt data/models_hmm/NP_862856@NC_004996.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:33 2021
+# [ok]

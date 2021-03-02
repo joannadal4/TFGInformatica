@@ -1,0 +1,38 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P28980|GN_EHV1B     218.9     6e-66   1   1.0   1.6    Envelope glycoprotein N OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=gN PE=1 SV=1
+sp|P84449|GN_EHV1V     218.9     6e-66   1   1.0   1.6    Envelope glycoprotein N OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=gN PE=3 SV=1
+sp|Q87088|GN_SUHVK      46.2   4.1e-12   1   1.2   0.9    Envelope glycoprotein N OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=gN PE=1 SV=1
+sp|Q77CE4|GN_BHV1C      44.7   1.2e-11   1   1.3   0.4    Envelope glycoprotein N OS=Bovine herpesvirus 1.1 (strain Cooper) OX=10323 GN=gN PE=1 SV=1
+sp|P0C764|GN_VZVO       43.1   3.8e-11   1   1.2   0.2    Envelope glycoprotein N OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gN PE=1 SV=1
+sp|Q65ZG0|GN_VZVD       43.1   3.8e-11   1   1.2   0.2    Envelope glycoprotein N OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gN PE=3 SV=1
+sp|Q77MR4|GN_GAHVM      34.1   2.4e-08   2   1.6   0.6    Envelope glycoprotein N OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=gN PE=3 SV=1
+sp|Q6UDL9|GN_PSHV1      26.2     7e-06   1   1.5   0.3    Envelope glycoprotein N OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=gN PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P28980|GN_EHV1B     218.8   6.7e-66     1   1.6      1    100      1    100      1    100     Envelope glycoprotein N OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=gN PE=1 SV=1
+sp|P84449|GN_EHV1V     218.8   6.7e-66     1   1.6      1    100      1    100      1    100     Envelope glycoprotein N OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=gN PE=3 SV=1
+sp|Q87088|GN_SUHVK      45.9   4.8e-12     1   0.9      1     92     27     88     29     90     Envelope glycoprotein N OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=gN PE=1 SV=1
+sp|Q77CE4|GN_BHV1C      44.3   1.6e-11     1   0.4      5     85     25     82     34     91     Envelope glycoprotein N OS=Bovine herpesvirus 1.1 (strain Cooper) OX=10323 GN=gN PE=1 SV=1
+sp|P0C764|GN_VZVO       42.7   5.1e-11     1   0.2     21     87     30     84     43     97     Envelope glycoprotein N OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gN PE=1 SV=1
+sp|Q65ZG0|GN_VZVD       42.7   5.1e-11     1   0.2     21     87     30     84     43     97     Envelope glycoprotein N OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gN PE=3 SV=1
+sp|Q77MR4|GN_GAHVM      34.1   2.4e-08     2   0.6     33     94     39     92     44     97     Envelope glycoprotein N OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=gN PE=3 SV=1
+sp|Q6UDL9|GN_PSHV1      25.3   1.3e-05     1   0.3      8    106     40    100     25     85     Envelope glycoprotein N OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=gN PE=3 SV=1
+sp|Q77MR4|GN_GAHVM      -1.1   2.2e+03     1   0.1      4     30     10     22     70     82     Envelope glycoprotein N OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=gN PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_053055@NC_001491.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_053055@NC_001491.txt data/models_hmm/YP_053055@NC_001491.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:54 2021
+# [ok]

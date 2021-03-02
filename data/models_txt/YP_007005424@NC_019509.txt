@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03730|TIPI_LAMBD   167.9   3.1e-49   1   1.0   0.0    Tail tip assembly protein I OS=Escherichia phage lambda OX=10710 GN=I PE=3 SV=1
+sp|O64334|TIPI_BPN15   146.5   9.2e-43   1   1.1   0.0    Tail tip assembly protein I OS=Escherichia phage N15 OX=40631 GN=gene 20 PE=3 SV=1
+sp|O64333|TIPK_BPN15    19.8   0.00022   1   1.0   0.0    Tail tip assembly protein K OS=Escherichia phage N15 OX=40631 GN=gene 19 PE=3 SV=1
+sp|O55722|101L_IIV6     12.3      0.04   1   1.3   1.2    Uncharacterized protein 101L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-101L PE=4 SV=1
+sp|Q2Y2M3|FUS_AMPV1     11.5      0.07   1   1.1   0.0    Fusion glycoprotein F0 OS=Avian metapneumovirus (isolate Canada goose/Minnesota/15a/2001) OX=652954 GN=F PE=3 SV=1
+sp|P24614|FUS_TRTV      11.0       0.1   1   1.1   0.0    Fusion glycoprotein F0 OS=Turkey rhinotracheitis virus OX=11264 GN=F PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03730|TIPI_LAMBD   167.8   3.4e-49     1   0.0      1    223      2    220    328    559     Tail tip assembly protein I OS=Escherichia phage lambda OX=10710 GN=I PE=3 SV=1
+sp|O64334|TIPI_BPN15   146.2   1.1e-42     1   0.0      1    192      1    192    340    552     Tail tip assembly protein I OS=Escherichia phage N15 OX=40631 GN=gene 20 PE=3 SV=1
+sp|O64333|TIPK_BPN15    19.5   0.00026     1   0.0      1     97     10     81    218    289     Tail tip assembly protein K OS=Escherichia phage N15 OX=40631 GN=gene 19 PE=3 SV=1
+sp|O55722|101L_IIV6     11.9     0.054     1   1.2     10    137     22     93    521    591     Uncharacterized protein 101L OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-101L PE=4 SV=1
+sp|Q2Y2M3|FUS_AMPV1     11.5      0.07     1   0.0     57    520     79    191    294    408     Fusion glycoprotein F0 OS=Avian metapneumovirus (isolate Canada goose/Minnesota/15a/2001) OX=652954 GN=F PE=3 SV=1
+sp|P24614|FUS_TRTV      10.9      0.11     1   0.0     66    523     79    189    294    406     Fusion glycoprotein F0 OS=Turkey rhinotracheitis virus OX=11264 GN=F PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007005424@NC_019509.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007005424@NC_019509.txt data/models_hmm/YP_007005424@NC_019509.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:12 2021
+# [ok]

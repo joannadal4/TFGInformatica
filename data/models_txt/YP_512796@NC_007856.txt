@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03642|CAPSD_BPG4    913.3  1.9e-275   1   1.0   0.9    Capsid protein F OS=Escherichia phage G4 OX=10843 GN=F PE=1 SV=3
+sp|P03641|CAPSD_BPPHS   883.1  2.6e-266   1   1.0   0.5    Capsid protein F OS=Enterobacteria phage phiX174 (Isolate Sanger) OX=1217068 GN=F PE=1 SV=2
+sp|P07931|CAPSD_BPS13   881.5  8.2e-266   1   1.0   0.4    Capsid protein F OS=Enterobacteria phage S13 OX=10844 GN=F PE=3 SV=1
+sp|Q38041|CAPSD_BPPHK   879.2  4.1e-265   1   1.0   0.3    Capsid protein F OS=Enterobacteria phage phiK OX=10848 GN=F PE=3 SV=1
+sp|P08767|CAPSD_BPAL3   861.9  7.1e-260   1   1.0   0.2    Capsid protein F OS=Escherichia phage alpha3 OX=10849 GN=F PE=1 SV=2
+sp|P11333|CAPSD_SPV4     25.3   6.4e-06   2   2.1   0.3    Capsid protein VP1 OS=Spiroplasma virus 4 OX=10855 GN=ORF1 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03642|CAPSD_BPG4    913.1  2.1e-275     1   0.9      1    427      1    427      1    427     Capsid protein F OS=Escherichia phage G4 OX=10843 GN=F PE=1 SV=3
+sp|P03641|CAPSD_BPPHS   883.0    3e-266     1   0.5      1    427      1    427      1    427     Capsid protein F OS=Enterobacteria phage phiX174 (Isolate Sanger) OX=1217068 GN=F PE=1 SV=2
+sp|P07931|CAPSD_BPS13   881.3  9.2e-266     1   0.4      1    427      1    427      1    427     Capsid protein F OS=Enterobacteria phage S13 OX=10844 GN=F PE=3 SV=1
+sp|Q38041|CAPSD_BPPHK   879.1  4.6e-265     1   0.3      1    431      1    431      1    427     Capsid protein F OS=Enterobacteria phage phiK OX=10848 GN=F PE=3 SV=1
+sp|P08767|CAPSD_BPAL3   861.8    8e-260     1   0.2      1    431      1    431      1    427     Capsid protein F OS=Escherichia phage alpha3 OX=10849 GN=F PE=1 SV=2
+sp|P11333|CAPSD_SPV4     16.0    0.0041     1   0.0     21    183     28    163     13    138     Capsid protein VP1 OS=Spiroplasma virus 4 OX=10855 GN=ORF1 PE=1 SV=1
+sp|P11333|CAPSD_SPV4      7.3       1.9     2   0.1    289    500    354    453    237    341     Capsid protein VP1 OS=Spiroplasma virus 4 OX=10855 GN=ORF1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_512796@NC_007856.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_512796@NC_007856.txt data/models_hmm/YP_512796@NC_007856.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:37 2021
+# [ok]

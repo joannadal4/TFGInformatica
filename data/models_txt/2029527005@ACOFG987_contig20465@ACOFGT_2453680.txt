@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P87604|VHR2_CWPXG    10.6      0.55   3   2.2   3.2    Probable host range protein 2 OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=C4L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P87604|VHR2_CWPXG    10.7      0.49     3   0.8     91    168    107    150     17     60     Probable host range protein 2 OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=C4L PE=3 SV=1
+sp|P87604|VHR2_CWPXG    -1.2   2.6e+03     1   0.0     10     69     24     31     42     49     Probable host range protein 2 OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=C4L PE=3 SV=1
+sp|P87604|VHR2_CWPXG    -2.0   4.8e+03     2   0.0     73    101     82     93     55     66     Probable host range protein 2 OS=Cowpox virus (strain GRI-90 / Grishak) OX=265871 GN=C4L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2029527005@ACOFG987_contig20465@ACOFGT_2453680.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2029527005@ACOFG987_contig20465@ACOFGT_2453680.txt data/models_hmm/2029527005@ACOFG987_contig20465@ACOFGT_2453680.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:29:15 2021
+# [ok]

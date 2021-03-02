@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O55749|VF143_IIV6    17.2     0.003   1   1.5   0.1    Putative kinase protein 143R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-143R PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O55749|VF143_IIV6    16.1    0.0067     1   0.1    119    159    121    150      5     33     Putative kinase protein 143R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-143R PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001468449@NC_009810.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001468449@NC_009810.txt data/models_hmm/YP_001468449@NC_009810.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:20 2021
+# [ok]

@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q82484|VLF1_NPVHZ   363.4  1.2e-108   1   1.0  16.5    Very late expression factor 1 OS=Heliothis zea nuclear polyhedrosis virus OX=28290 GN=VLF-1 PE=3 SV=1
+sp|Q06687|VLF1_NPVAC   351.9  3.8e-105   1   1.0  13.3    Very late expression factor 1 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=VLF-1 PE=1 SV=1
+sp|O10330|VLF1_NPVOP   339.3  2.6e-101   1   1.0   2.8    Very late expression factor 1 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=VLF-1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q82484|VLF1_NPVHZ   363.3  1.3e-108     1  16.5      1    370      7    362      9    368     Very late expression factor 1 OS=Heliothis zea nuclear polyhedrosis virus OX=28290 GN=VLF-1 PE=3 SV=1
+sp|Q06687|VLF1_NPVAC   351.6  4.5e-105     1  13.3      1    363      5    357      9    367     Very late expression factor 1 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=VLF-1 PE=1 SV=1
+sp|O10330|VLF1_NPVOP   338.9  3.4e-101     1   2.8      3    359      7    350     11    360     Very late expression factor 1 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=VLF-1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_006607818@NC_018504.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_006607818@NC_018504.txt data/models_hmm/YP_006607818@NC_018504.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:47:22 2021
+# [ok]

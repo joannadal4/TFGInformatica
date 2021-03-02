@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UP17|YR866_MIMIV   947.2  1.1e-285   1   1.0  48.6    Uncharacterized protein R866 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R866 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UP17|YR866_MIMIV   947.0  1.2e-285     1  48.6      1    431      1    431      1    431     Uncharacterized protein R866 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R866 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_003987398@NC_014649.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_003987398@NC_014649.txt data/models_hmm/YP_003987398@NC_014649.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:58 2021
+# [ok]

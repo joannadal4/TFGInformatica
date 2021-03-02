@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P05396|MVP_CERV      10.8      0.34   2   2.1   0.1    Movement protein OS=Carnation etched ring virus OX=10640 GN=ORF I PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P05396|MVP_CERV      10.8      0.34     2   0.1    280    319    291    318     17     43     Movement protein OS=Carnation etched ring virus OX=10640 GN=ORF I PE=3 SV=1
+sp|P05396|MVP_CERV      -2.2     4e+03     1   0.3     95    118     97    113      3     19     Movement protein OS=Carnation etched ring virus OX=10640 GN=ORF I PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001348@JGI20154J14316_10000119@JGI20154J14316_1000011964.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001348@JGI20154J14316_10000119@JGI20154J14316_1000011964.txt data/models_hmm/3300001348@JGI20154J14316_10000119@JGI20154J14316_1000011964.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:55 2021
+# [ok]

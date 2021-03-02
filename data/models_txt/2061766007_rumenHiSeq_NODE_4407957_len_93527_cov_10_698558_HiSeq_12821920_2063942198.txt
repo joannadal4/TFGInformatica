@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20213|D244_SSV1     11.2      0.27   3   2.6   3.1    Uncharacterized protein D-244 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=d244 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20213|D244_SSV1      8.4         2     2   0.1    136    187    145    172     12     39     Uncharacterized protein D-244 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=d244 PE=4 SV=1
+sp|P20213|D244_SSV1      2.6   1.3e+02     1   0.3     97    138    114    132     23     40     Uncharacterized protein D-244 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=d244 PE=4 SV=1
+sp|P20213|D244_SSV1     -2.2   4.4e+03     3   0.0    179    213    192    204     13     25     Uncharacterized protein D-244 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=d244 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2061766007_rumenHiSeq_NODE_4407957_len_93527_cov_10_698558_HiSeq_12821920_2063942198.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2061766007_rumenHiSeq_NODE_4407957_len_93527_cov_10_698558_HiSeq_12821920_2063942198.txt data/models_hmm/2061766007_rumenHiSeq_NODE_4407957_len_93527_cov_10_698558_HiSeq_12821920_2063942198.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:52:00 2021
+# [ok]

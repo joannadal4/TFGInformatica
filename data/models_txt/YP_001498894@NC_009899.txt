@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQI0|YR830_MIMIV    15.0     0.022   2   2.6   0.1    Putative BTB/POZ domain-containing protein R830 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R830 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQI0|YR830_MIMIV    11.2      0.32     2   0.0    392    453    401    449     22     71     Putative BTB/POZ domain-containing protein R830 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R830 PE=3 SV=1
+sp|Q5UQI0|YR830_MIMIV     0.2   8.8e+02     1   0.0     43     82     53     77     13     36     Putative BTB/POZ domain-containing protein R830 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R830 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001498894@NC_009899.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001498894@NC_009899.txt data/models_hmm/YP_001498894@NC_009899.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:30 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q914N0|CAPSD_TTVV4    10.3      0.42   2   2.2   3.4    Capsid protein OS=Torque teno virus (isolate Human/Germany/KAV/2001) OX=687345 GN=ORF1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q914N0|CAPSD_TTVV4    10.5      0.34     1   0.1     75    113     78     97      9     28     Capsid protein OS=Torque teno virus (isolate Human/Germany/KAV/2001) OX=687345 GN=ORF1 PE=3 SV=1
+sp|Q914N0|CAPSD_TTVV4    -0.9   1.3e+03     2   0.6    261    287    266    283     26     43     Capsid protein OS=Torque teno virus (isolate Human/Germany/KAV/2001) OX=687345 GN=ORF1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001348@JGI20154J14316_10000390@JGI20154J14316_1000039015.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001348@JGI20154J14316_10000390@JGI20154J14316_1000039015.txt data/models_hmm/3300001348@JGI20154J14316_10000390@JGI20154J14316_1000039015.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:56 2021
+# [ok]

@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P37800|L_TOSV        13.2     0.063   2   2.5   0.1    RNA-directed RNA polymerase L OS=Toscana virus OX=11590 GN=L PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P37800|L_TOSV         9.8      0.73     1   0.0     19     62     27     55     31     57     RNA-directed RNA polymerase L OS=Toscana virus OX=11590 GN=L PE=1 SV=1
+sp|P37800|L_TOSV        -0.4   1.1e+03     2   0.0    142    196    161    187     35     62     RNA-directed RNA polymerase L OS=Toscana virus OX=11590 GN=L PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/AGH57652@HQ634187.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/AGH57652@HQ634187.txt data/models_hmm/AGH57652@HQ634187.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:51 2021
+# [ok]

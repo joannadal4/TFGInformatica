@@ -1,0 +1,31 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P52532|VU84_HHV6U    566.0  1.8e-170   1   1.0  15.4    Protein U84 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U84 PE=3 SV=1
+sp|P52534|VU84_HHV7J    550.1  1.3e-165   1   1.0  14.0    Protein U84 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U84 PE=3 SV=1
+sp|P52533|VU84_HHV6Z    530.2  1.4e-159   1   1.0  14.8    Protein U84 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U84 PE=3 SV=2
+sp|P16770|UL117_HCMVA    76.4     2e-21   1   1.1   0.0    Protein UL117 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL117 PE=3 SV=1
+sp|F5HFA5|UL117_HCMVM    76.4     2e-21   1   1.1   0.0    Protein UL117 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL117 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P52532|VU84_HHV6U    565.9  1.9e-170     1  15.4      1    342     10    342      3    311     Protein U84 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U84 PE=3 SV=1
+sp|P52534|VU84_HHV7J    549.9  1.4e-165     1  14.0      1    310      1    309      1    311     Protein U84 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U84 PE=3 SV=1
+sp|P52533|VU84_HHV6Z    530.1  1.6e-159     1  14.8      1    342     10    342      3    311     Protein U84 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U84 PE=3 SV=2
+sp|P16770|UL117_HCMVA    75.9   2.9e-21     1   0.0    244    421    264    418    140    299     Protein UL117 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL117 PE=3 SV=1
+sp|F5HFA5|UL117_HCMVM    75.9   2.9e-21     1   0.0    245    422    265    419    140    299     Protein UL117 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL117 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008493019@NC_022233.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008493019@NC_022233.txt data/models_hmm/YP_008493019@NC_022233.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:19 2021
+# [ok]

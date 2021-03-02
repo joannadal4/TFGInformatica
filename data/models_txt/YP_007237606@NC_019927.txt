@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q38442|GP7_BPSPP      41.1   1.1e-10   2   2.8   8.8    Minor head protein GP7 OS=Bacillus phage SPP1 OX=10724 GN=7 PE=1 SV=2
+sp|Q5UPU0|HSP7L_MIMIV    15.0    0.0099   3   2.8   3.7    Heat shock protein 70 homolog OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L254 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38442|GP7_BPSPP      40.4   1.8e-10     2   0.5    145    279    150    246    162    259     Minor head protein GP7 OS=Bacillus phage SPP1 OX=10724 GN=7 PE=1 SV=2
+sp|Q5UPU0|HSP7L_MIMIV    11.6      0.11     1   0.1     84    221    113    213     42    140     Heat shock protein 70 homolog OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L254 PE=3 SV=1
+sp|Q5UPU0|HSP7L_MIMIV     3.4        34     3   0.1    849    926    866    910     15     58     Heat shock protein 70 homolog OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L254 PE=3 SV=1
+sp|Q38442|GP7_BPSPP       3.2        40     1   2.5      5    128     67    107     25     64     Minor head protein GP7 OS=Bacillus phage SPP1 OX=10724 GN=7 PE=1 SV=2
+sp|Q5UPU0|HSP7L_MIMIV    -2.8   2.6e+03     2   0.0    553    606    555    592    252    287     Heat shock protein 70 homolog OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L254 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007237606@NC_019927.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007237606@NC_019927.txt data/models_hmm/YP_007237606@NC_019927.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:36 2021
+# [ok]

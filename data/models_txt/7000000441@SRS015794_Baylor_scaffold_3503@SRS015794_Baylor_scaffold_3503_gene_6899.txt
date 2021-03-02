@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O64173|NRDEB_BPSPB    13.8     0.043   4   3.5   0.9    Ribonucleoside-diphosphate reductase nrdEB subunit alpha OS=Bacillus phage SPbeta OX=66797 GN=bnrdE PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O64173|NRDEB_BPSPB     9.0       1.3     1   0.0    111    178    118    158      8     48     Ribonucleoside-diphosphate reductase nrdEB subunit alpha OS=Bacillus phage SPbeta OX=66797 GN=bnrdE PE=3 SV=1
+sp|O64173|NRDEB_BPSPB     0.1   8.1e+02     3   0.0    514    566    520    554     10     43     Ribonucleoside-diphosphate reductase nrdEB subunit alpha OS=Bacillus phage SPbeta OX=66797 GN=bnrdE PE=3 SV=1
+sp|O64173|NRDEB_BPSPB    -1.5   2.5e+03     2   0.0    499    529    502    521     53     72     Ribonucleoside-diphosphate reductase nrdEB subunit alpha OS=Bacillus phage SPbeta OX=66797 GN=bnrdE PE=3 SV=1
+sp|O64173|NRDEB_BPSPB    -2.3   4.6e+03     4   0.1    867    918    876    912     11     45     Ribonucleoside-diphosphate reductase nrdEB subunit alpha OS=Bacillus phage SPbeta OX=66797 GN=bnrdE PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000441@SRS015794_Baylor_scaffold_3503@SRS015794_Baylor_scaffold_3503_gene_6899.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000441@SRS015794_Baylor_scaffold_3503@SRS015794_Baylor_scaffold_3503_gene_6899.txt data/models_hmm/7000000441@SRS015794_Baylor_scaffold_3503@SRS015794_Baylor_scaffold_3503_gene_6899.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:15 2021
+# [ok]

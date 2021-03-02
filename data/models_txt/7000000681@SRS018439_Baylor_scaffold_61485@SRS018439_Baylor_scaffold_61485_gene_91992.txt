@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q573G5|Y100B_AFV2P    12.1      0.18   1   1.3   3.8    Uncharacterized protein ORF100b OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF100b PE=4 SV=1
+sp|Q5UQI1|YL829_MIMIV    10.2      0.72   1   1.5   3.3    Uncharacterized protein L829 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L829 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q573G5|Y100B_AFV2P    11.7      0.24     1   3.8      2     95      8     82     17     85     Uncharacterized protein ORF100b OS=Acidianus filamentous virus 2 (isolate Italy/Pozzuoli) OX=654910 GN=ORF100b PE=4 SV=1
+sp|Q5UQI1|YL829_MIMIV     9.1       1.6     1   3.3      4     63     12     58     49     89     Uncharacterized protein L829 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L829 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000681@SRS018439_Baylor_scaffold_61485@SRS018439_Baylor_scaffold_61485_gene_91992.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000681@SRS018439_Baylor_scaffold_61485@SRS018439_Baylor_scaffold_61485_gene_91992.txt data/models_hmm/7000000681@SRS018439_Baylor_scaffold_61485@SRS018439_Baylor_scaffold_61485_gene_91992.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:40:56 2021
+# [ok]

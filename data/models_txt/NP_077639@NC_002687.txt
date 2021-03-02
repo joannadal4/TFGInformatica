@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q38440|YOR4_BPSPP     11.8     0.072   1   1.0   0.0    Uncharacterized 10.2 kDa protein in GP2-GP6 intergenic region OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|Q5UQF5|YL491_MIMIV     7.2       1.8   1   1.4  25.8    Uncharacterized protein L491 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L491 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38440|YOR4_BPSPP     11.8     0.072     1   0.0      7     73     22     51    231    262     Uncharacterized 10.2 kDa protein in GP2-GP6 intergenic region OS=Bacillus phage SPP1 OX=10724 PE=4 SV=1
+sp|Q5UQF5|YL491_MIMIV     6.3       3.5     1  25.8      4    204      7    196    293    469     Uncharacterized protein L491 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L491 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_077639@NC_002687.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_077639@NC_002687.txt data/models_hmm/NP_077639@NC_002687.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:52 2021
+# [ok]

@@ -1,0 +1,35 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UPZ4|YL310_MIMIV    18.6    0.0014   1   2.2  10.4    Uncharacterized protein L310 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L310 PE=4 SV=1
+sp|P12566|HN_PI3HX       13.1     0.071   1   1.4   1.6    Hemagglutinin-neuraminidase OS=Human parainfluenza 3 virus (strain Wash/1511/73) OX=11223 GN=HN PE=3 SV=1
+sp|P12565|HN_PI3HW       12.8     0.083   1   1.4   1.8    Hemagglutinin-neuraminidase OS=Human parainfluenza 3 virus (strain Wash/641/79) OX=11222 GN=HN PE=3 SV=1
+sp|O56677|GLYCO_COCAV    12.0      0.15   2   1.9   3.7    Glycoprotein OS=Cocal virus OX=50713 GN=G PE=3 SV=1
+sp|P08492|HN_PI3H4       11.7      0.19   1   1.4   1.5    Hemagglutinin-neuraminidase OS=Human parainfluenza 3 virus (strain Wash/47885/57) OX=11217 GN=HN PE=1 SV=1
+sp|Q5UQF7|YR489_MIMIV     8.0       2.6   2   2.1   6.1    Uncharacterized protein R489 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R489 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UPZ4|YL310_MIMIV    16.2    0.0075     1  10.4      6    137      9    108      4     94     Uncharacterized protein L310 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L310 PE=4 SV=1
+sp|O56677|GLYCO_COCAV    13.2     0.065     2   0.8    460    509    463    501     26     64     Glycoprotein OS=Cocal virus OX=50713 GN=G PE=3 SV=1
+sp|P12566|HN_PI3HX       12.1      0.14     1   1.6     21    112     38    104     37    105     Hemagglutinin-neuraminidase OS=Human parainfluenza 3 virus (strain Wash/1511/73) OX=11223 GN=HN PE=3 SV=1
+sp|P12565|HN_PI3HW       11.9      0.17     1   1.8     21    112     38    104     37    105     Hemagglutinin-neuraminidase OS=Human parainfluenza 3 virus (strain Wash/641/79) OX=11222 GN=HN PE=3 SV=1
+sp|P08492|HN_PI3H4       10.7      0.37     1   1.5     21    112     38    104     37    105     Hemagglutinin-neuraminidase OS=Human parainfluenza 3 virus (strain Wash/47885/57) OX=11217 GN=HN PE=1 SV=1
+sp|Q5UQF7|YR489_MIMIV    10.2      0.54     1   1.8      3     48      7     35     35     63     Uncharacterized protein R489 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R489 PE=1 SV=1
+sp|Q5UQF7|YR489_MIMIV    -1.8   2.9e+03     2   0.2    118    185    158    158     63     63     Uncharacterized protein R489 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R489 PE=1 SV=1
+sp|O56677|GLYCO_COCAV    -3.1   7.3e+03     1   0.1     92    120     93    114     72     93     Glycoprotein OS=Cocal virus OX=50713 GN=G PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001349@JGI20160J14292_10000042@JGI20160J14292_10000042108.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001349@JGI20160J14292_10000042@JGI20160J14292_10000042108.txt data/models_hmm/3300001349@JGI20160J14292_10000042@JGI20160J14292_10000042108.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:32:57 2021
+# [ok]

@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P27336|VSR_LSV       13.3     0.054   1   1.1   0.0    RNA silencing suppressor OS=Lily symptomless virus OX=12173 PE=3 SV=1
+sp|P52357|HELI_HHV7J    11.4      0.22   2   2.1   1.1    DNA replication helicase OS=Human herpesvirus 7 (strain JI) OX=57278 GN=HELI PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P27336|VSR_LSV       12.9     0.071     1   0.0     48    135     69    131     44    105     RNA silencing suppressor OS=Lily symptomless virus OX=12173 PE=3 SV=1
+sp|P52357|HELI_HHV7J     9.9      0.63     2   0.2    346    442    358    429     55    123     DNA replication helicase OS=Human herpesvirus 7 (strain JI) OX=57278 GN=HELI PE=3 SV=1
+sp|P52357|HELI_HHV7J    -1.6   2.2e+03     1   0.0    108    184    117    180     20     84     DNA replication helicase OS=Human herpesvirus 7 (strain JI) OX=57278 GN=HELI PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_008240946@NC_021790.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_008240946@NC_021790.txt data/models_hmm/YP_008240946@NC_021790.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:29 2021
+# [ok]

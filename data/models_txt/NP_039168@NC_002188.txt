@@ -1,0 +1,52 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0CA00|P54_ASFWA      16.9     0.003   1   1.1   0.4    Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+sp|P0C9Z9|P54_ASFP4      16.8    0.0032   1   1.1   0.4    Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+sp|Q65272|P54_ASFL6      16.3    0.0046   1   1.1   0.2    Envelope protein p54 OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 PE=3 SV=1
+sp|P69359|SH_HRSV1       15.7    0.0072   1   1.1   1.3    Small hydrophobic protein OS=Human respiratory syncytial virus B (strain 18537) OX=11251 GN=SH PE=3 SV=1
+sp|P69360|SH_HRSV8       15.7    0.0072   1   1.1   1.3    Small hydrophobic protein OS=Human respiratory syncytial virus B (strain 8/60) OX=11258 GN=SH PE=3 SV=1
+sp|Q65194|P54_ASFB7      15.4    0.0089   1   1.1   0.2    Envelope protein p54 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-126 PE=1 SV=1
+sp|Q89784|P54_ASFM2      15.0     0.012   1   1.1   0.3    Envelope protein p54 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-134 PE=3 SV=1
+sp|P0C9W3|ENV22_ASFWA    13.9     0.026   1   1.4   1.6    Envelope protein p22 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-003 PE=2 SV=1
+sp|P0C9W2|ENV22_ASFP4    13.7     0.029   1   1.3   1.6    Envelope protein p22 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-004 PE=2 SV=1
+sp|P0C9Z8|P54_ASFK5      13.6      0.03   1   1.1   0.1    Envelope protein p54 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-138 PE=3 SV=1
+sp|Q65107|VPA1_ARV       13.3     0.037   1   1.1   4.1    Protein alpha-1 OS=Adelaide River virus OX=31612 PE=4 SV=1
+sp|P0C9W1|ENV22_ASFM2    10.4      0.29   2   1.6   4.1    Envelope protein p22 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-002 PE=2 SV=1
+sp|P12647|GLYCO_SIGMA    10.0      0.38   2   2.1   2.3    Spike glycoprotein OS=Sigma virus OX=11301 GN=G PE=3 SV=1
+sp|P23169|ENV22_ASFB7     9.8      0.43   2   1.7   5.7    Envelope protein p22 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-005 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0CA00|P54_ASFWA      16.4    0.0042     1   0.4      7     83     19     76    140    202     Envelope protein p54 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-136 PE=3 SV=1
+sp|P0C9Z9|P54_ASFP4      16.4    0.0043     1   0.4      7     83     19     76    140    202     Envelope protein p54 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-138 PE=3 SV=1
+sp|Q65272|P54_ASFL6      15.9    0.0063     1   0.2     10     81     22     76    144    202     Envelope protein p54 OS=African swine fever virus (isolate Pig/Portugal/Lis 60/1960) OX=82815 PE=3 SV=1
+sp|P69359|SH_HRSV1       15.6    0.0073     1   1.3      1     63      3     54    137    184     Small hydrophobic protein OS=Human respiratory syncytial virus B (strain 18537) OX=11251 GN=SH PE=3 SV=1
+sp|P69360|SH_HRSV8       15.6    0.0073     1   1.3      1     63      3     54    137    184     Small hydrophobic protein OS=Human respiratory syncytial virus B (strain 8/60) OX=11258 GN=SH PE=3 SV=1
+sp|Q65194|P54_ASFB7      14.9     0.012     1   0.2     10     81     25     76    147    202     Envelope protein p54 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-126 PE=1 SV=1
+sp|Q89784|P54_ASFM2      14.6     0.016     1   0.3     13     80     25     76    147    202     Envelope protein p54 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-134 PE=3 SV=1
+sp|P0C9Z8|P54_ASFK5      13.2     0.041     1   0.1     11     80     22     70    144    195     Envelope protein p54 OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-138 PE=3 SV=1
+sp|Q65107|VPA1_ARV       13.1     0.043     1   4.1      8     94     16     78    133    190     Protein alpha-1 OS=Adelaide River virus OX=31612 PE=4 SV=1
+sp|P0C9W2|ENV22_ASFP4    13.0     0.047     1   1.6      1     50      9     43    156    190     Envelope protein p22 OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-004 PE=2 SV=1
+sp|P0C9W3|ENV22_ASFWA    13.0     0.047     1   1.6      1     50      9     43    156    190     Envelope protein p22 OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-003 PE=2 SV=1
+sp|P23169|ENV22_ASFB7    12.3     0.078     1   1.9      1     53      9     43    156    190     Envelope protein p22 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-005 PE=2 SV=1
+sp|P0C9W1|ENV22_ASFM2    10.1      0.36     1   3.4      2     70      7     39    158    190     Envelope protein p22 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-002 PE=2 SV=1
+sp|P12647|GLYCO_SIGMA     7.9       1.7     2   1.2    436    508    445    501    116    172     Spike glycoprotein OS=Sigma virus OX=11301 GN=G PE=3 SV=1
+sp|P12647|GLYCO_SIGMA     0.3   3.6e+02     1   0.0    330    392    346    389     53     94     Spike glycoprotein OS=Sigma virus OX=11301 GN=G PE=3 SV=1
+sp|P23169|ENV22_ASFB7    -2.3   2.2e+03     2   0.1    114    151    123    142     31     50     Envelope protein p22 OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=BA71V-005 PE=2 SV=1
+sp|P0C9W1|ENV22_ASFM2    -2.6   2.7e+03     2   0.0     50     96     54     87     40     74     Envelope protein p22 OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-002 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_039168@NC_002188.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_039168@NC_002188.txt data/models_hmm/NP_039168@NC_002188.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:12 2021
+# [ok]

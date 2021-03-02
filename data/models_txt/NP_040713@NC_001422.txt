@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P03646|H_BPPHS      609.9  1.1e-183   1   1.0  24.9    Minor spike protein H OS=Enterobacteria phage phiX174 (Isolate Sanger) OX=1217068 GN=H PE=1 SV=1
+sp|P07933|VGH_BPS13    601.8  3.2e-181   1   1.0  25.3    Minor spike protein OS=Enterobacteria phage S13 OX=10844 GN=H PE=3 SV=1
+sp|P03647|VGH_BPG4     591.9  3.2e-178   1   1.0  24.8    Minor spike protein OS=Escherichia phage G4 OX=10843 GN=H PE=3 SV=1
+sp|P03650|VGH_BPAL3    581.6  4.4e-175   1   1.0  27.2    Minor spike protein OS=Escherichia phage alpha3 OX=10849 GN=H PE=3 SV=2
+sp|P03649|VGH_BPPHK    569.2  2.5e-171   1   1.0  21.4    Minor spike protein OS=Enterobacteria phage phiK OX=10848 GN=H PE=4 SV=2
+sp|P03648|VGH_BPST1     93.5   1.5e-26   1   1.0   8.3    Minor spike protein (Fragment) OS=Escherichia phage St-1 OX=10845 GN=H PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P03646|H_BPPHS      609.7  1.2e-183     1  24.9      1    328      1    328      1    328     Minor spike protein H OS=Enterobacteria phage phiX174 (Isolate Sanger) OX=1217068 GN=H PE=1 SV=1
+sp|P07933|VGH_BPS13    601.6  3.5e-181     1  25.3      1    328      1    328      1    328     Minor spike protein OS=Enterobacteria phage S13 OX=10844 GN=H PE=3 SV=1
+sp|P03647|VGH_BPG4     591.8  3.6e-178     1  24.8      1    337      1    337      1    328     Minor spike protein OS=Escherichia phage G4 OX=10843 GN=H PE=3 SV=1
+sp|P03650|VGH_BPAL3    581.4  4.9e-175     1  27.2      1    330      1    330      1    327     Minor spike protein OS=Escherichia phage alpha3 OX=10849 GN=H PE=3 SV=2
+sp|P03649|VGH_BPPHK    569.1  2.9e-171     1  21.4      1    332      1    332      1    327     Minor spike protein OS=Enterobacteria phage phiK OX=10848 GN=H PE=4 SV=2
+sp|P03648|VGH_BPST1     93.3   1.6e-26     1   8.3      1    103      1    103      1     90     Minor spike protein (Fragment) OS=Escherichia phage St-1 OX=10845 GN=H PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_040713@NC_001422.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_040713@NC_001422.txt data/models_hmm/NP_040713@NC_001422.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:14 2021
+# [ok]

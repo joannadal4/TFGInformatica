@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HIC6|VIRF3_HHV8P     9.7      0.17   1   1.1   9.1    Viral IRF3-like protein OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=vIRF-3 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HIC6|VIRF3_HHV8P     9.2      0.24     1   9.1    139    246    154    241    417    496     Viral IRF3-like protein OS=Human herpesvirus 8 type P (isolate GK18) OX=868565 GN=vIRF-3 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000228@SRS022602_Baylor_scaffold_34804@SRS022602_Baylor_scaffold_34804_gene_38818.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000228@SRS022602_Baylor_scaffold_34804@SRS022602_Baylor_scaffold_34804_gene_38818.txt data/models_hmm/7000000228@SRS022602_Baylor_scaffold_34804@SRS022602_Baylor_scaffold_34804_gene_38818.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:31 2021
+# [ok]

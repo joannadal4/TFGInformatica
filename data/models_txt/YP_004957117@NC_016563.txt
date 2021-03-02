@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0DOK0|POLSF_SINDV     7.0       2.7   1   1.1  11.8    Frameshifted structural polyprotein OS=Sindbis virus OX=11034 PE=1 SV=1
+sp|Q01002|SCAF_SHV21      6.6       3.5   1   1.3  10.2    Capsid scaffolding protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=17 PE=3 SV=1
+sp|P27285|POLS_SINDO      6.3       4.2   1   1.2  11.1    Structural polyprotein OS=Sindbis virus subtype Ockelbo (strain Edsbyn 82-5) OX=31699 PE=1 SV=1
+sp|P03316|POLS_SINDV      5.5       7.4   1   1.2  12.5    Structural polyprotein OS=Sindbis virus OX=11034 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0DOK0|POLSF_SINDV     6.4       3.9     1  11.8      9    147     16    101    269    361     Frameshifted structural polyprotein OS=Sindbis virus OX=11034 PE=1 SV=1
+sp|Q01002|SCAF_SHV21      5.9       5.7     1  10.2    350    469    372    457    277    371     Capsid scaffolding protein OS=Saimiriine herpesvirus 2 (strain 11) OX=10383 GN=17 PE=3 SV=1
+sp|P27285|POLS_SINDO      5.6       6.9     1  11.1      9    147     16    101    269    359     Structural polyprotein OS=Sindbis virus subtype Ockelbo (strain Edsbyn 82-5) OX=31699 PE=1 SV=1
+sp|P03316|POLS_SINDV      4.8        12     1  12.5      9    145     16    101    269    361     Structural polyprotein OS=Sindbis virus OX=11034 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004957117@NC_016563.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004957117@NC_016563.txt data/models_hmm/YP_004957117@NC_016563.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:57 2021
+# [ok]

@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q37897|PKG16_BPB03    15.1     0.015   1   1.4   0.5    DNA packaging protein OS=Bacillus phage B103 OX=10778 GN=16 PE=3 SV=1
+sp|P21036|C1_VACCC       14.1     0.032   2   1.9   1.1    Protein C1 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C1L PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q37897|PKG16_BPB03    14.3     0.027     1   0.5    185    318    203    306     71    166     DNA packaging protein OS=Bacillus phage B103 OX=10778 GN=16 PE=3 SV=1
+sp|P21036|C1_VACCC       12.7     0.084     1   0.4     31    109     50     94    123    170     Protein C1 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C1L PE=3 SV=1
+sp|P21036|C1_VACCC       -0.8   1.1e+03     2   0.0    103    164    110    150     14     44     Protein C1 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=C1L PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000057@SRS013818_Baylor_scaffold_65278@SRS013818_Baylor_scaffold_65278_gene_88812.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000057@SRS013818_Baylor_scaffold_65278@SRS013818_Baylor_scaffold_65278_gene_88812.txt data/models_hmm/7000000057@SRS013818_Baylor_scaffold_65278@SRS013818_Baylor_scaffold_65278_gene_88812.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:13 2021
+# [ok]

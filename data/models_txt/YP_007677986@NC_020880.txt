@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P68934|GP168_BPPH5    14.1     0.042   1   1.1   0.0    Gene product 16.8 OS=Bacillus phage phi15 OX=10755 GN=16.8 PE=3 SV=1
+sp|P68935|GP168_BPPZA    14.1     0.042   1   1.1   0.0    Gene product 16.8 OS=Bacillus phage PZA OX=10757 GN=16.8 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P68934|GP168_BPPH5    13.7     0.057     1   0.0      9     56     13     46     40     71     Gene product 16.8 OS=Bacillus phage phi15 OX=10755 GN=16.8 PE=3 SV=1
+sp|P68935|GP168_BPPZA    13.7     0.057     1   0.0      9     56     13     46     40     71     Gene product 16.8 OS=Bacillus phage PZA OX=10757 GN=16.8 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007677986@NC_020880.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007677986@NC_020880.txt data/models_hmm/YP_007677986@NC_020880.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:05 2021
+# [ok]

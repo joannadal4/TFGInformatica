@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q08591|YAL4_ICMV    311.0     4e-93   1   1.0   0.1    Putative uncharacterized protein AC5 OS=Indian cassava mosaic virus OX=31600 GN=AC5 PE=5 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q08591|YAL4_ICMV    310.8   4.4e-93     1   0.1      1    187      1    185     40    224     Putative uncharacterized protein AC5 OS=Indian cassava mosaic virus OX=31600 GN=AC5 PE=5 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_852651@NC_004824.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_852651@NC_004824.txt data/models_hmm/NP_852651@NC_004824.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:30 2021
+# [ok]

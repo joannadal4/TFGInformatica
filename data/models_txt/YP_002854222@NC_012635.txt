@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P39245|Y16M_BPT4     60.9   8.1e-17   1   1.0   3.5    Uncharacterized 4.3 kDa protein in ndd-denB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16M PE=4 SV=2
+sp|A4ZUC7|Y037_ABVP     13.4     0.054   1   1.1   2.9    Uncharacterized protein ORF37 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF37 PE=4 SV=1
+sp|Q9E6L6|GD_GAHVM      10.9      0.33   2   2.4   2.5    Envelope glycoprotein D OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV094 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P39245|Y16M_BPT4     60.8   8.6e-17     1   3.5      1     40      1     40     25     64     Uncharacterized 4.3 kDa protein in ndd-denB intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y16M PE=4 SV=2
+sp|A4ZUC7|Y037_ABVP     13.4     0.052     1   2.9      7     37     13     33     23     43     Uncharacterized protein ORF37 OS=Acidianus bottle-shaped virus (isolate Italy/Pozzuoli) OX=654911 GN=ORF37 PE=4 SV=1
+sp|Q9E6L6|GD_GAHVM       6.7       6.7     2   0.2    345    388    357    381     16     40     Envelope glycoprotein D OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV094 PE=3 SV=1
+sp|Q9E6L6|GD_GAHVM       3.8        51     1   0.1      1     36      7     30     11     34     Envelope glycoprotein D OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=MDV094 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_002854222@NC_012635.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_002854222@NC_012635.txt data/models_hmm/YP_002854222@NC_012635.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:45:12 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P12485|REV_HV1BN     11.8      0.11   1   1.1   0.1    Protein Rev (Fragment) OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRVA) OX=11693 GN=rev PE=3 SV=1
+sp|P12484|REV_HV1J3     11.4      0.15   1   1.1   0.3    Protein Rev (Fragment) OS=Human immunodeficiency virus type 1 group M subtype B (isolate JH32) OX=11694 GN=rev PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P12485|REV_HV1BN     11.5      0.14     1   0.1      4     62      9     47     20     57     Protein Rev (Fragment) OS=Human immunodeficiency virus type 1 group M subtype B (isolate BRVA) OX=11693 GN=rev PE=3 SV=1
+sp|P12484|REV_HV1J3     11.1      0.18     1   0.3      7     74     16     54     20     57     Protein Rev (Fragment) OS=Human immunodeficiency virus type 1 group M subtype B (isolate JH32) OX=11694 GN=rev PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/2162886007@SwRhRL2b_contig_2694491@SwRhRL2b_0665_00007710.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/2162886007@SwRhRL2b_contig_2694491@SwRhRL2b_0665_00007710.txt data/models_hmm/2162886007@SwRhRL2b_contig_2694491@SwRhRL2b_0665_00007710.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:04 2021
+# [ok]

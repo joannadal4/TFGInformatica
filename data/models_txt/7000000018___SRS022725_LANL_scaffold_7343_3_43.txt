@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P16517|GP167_BPPH2    14.3    0.0076   1   1.1   0.1    DNA replication protein 16.7 OS=Bacillus phage phi29 OX=10756 GN=16.7 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P16517|GP167_BPPH2    14.3    0.0078     1   0.1     20    116     39     90    458    507     DNA replication protein 16.7 OS=Bacillus phage phi29 OX=10756 GN=16.7 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000018___SRS022725_LANL_scaffold_7343_3_43.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000018___SRS022725_LANL_scaffold_7343_3_43.txt data/models_hmm/7000000018___SRS022725_LANL_scaffold_7343_3_43.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:42 2021
+# [ok]

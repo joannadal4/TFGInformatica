@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C1P2|VPR_HV196     13.6     0.072   1   1.1   0.1    Protein Vpr OS=Human immunodeficiency virus type 1 group M subtype K (isolate 96CM-MP535) OX=388906 GN=vpr PE=3 SV=1
+sp|O70888|VPR_HV193     13.0      0.11   1   1.2   0.1    Protein Vpr OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate 93BR020) OX=388814 GN=vpr PE=3 SV=1
+sp|Q9Q718|VPR_HV1V9     12.7      0.14   1   1.2   0.0    Protein Vpr OS=Human immunodeficiency virus type 1 group M subtype H (isolate VI991) OX=388888 GN=vpr PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C1P2|VPR_HV196     13.4     0.082     1   0.1     18     80     31     61     19     48     Protein Vpr OS=Human immunodeficiency virus type 1 group M subtype K (isolate 96CM-MP535) OX=388906 GN=vpr PE=3 SV=1
+sp|O70888|VPR_HV193     12.9      0.12     1   0.1     17     83     31     61     19     48     Protein Vpr OS=Human immunodeficiency virus type 1 group M subtype F1 (isolate 93BR020) OX=388814 GN=vpr PE=3 SV=1
+sp|Q9Q718|VPR_HV1V9     12.6      0.15     1   0.0     17     79     31     61     19     48     Protein Vpr OS=Human immunodeficiency virus type 1 group M subtype H (isolate VI991) OX=388888 GN=vpr PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ADO98067@GU071098.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ADO98067@GU071098.txt data/models_hmm/ADO98067@GU071098.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:21 2021
+# [ok]

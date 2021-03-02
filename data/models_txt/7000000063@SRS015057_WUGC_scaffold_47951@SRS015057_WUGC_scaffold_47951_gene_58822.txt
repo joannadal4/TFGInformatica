@@ -1,0 +1,29 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P41483|E25_NPVAC     17.2    0.0023   1   1.3   0.0    Virus envelope protein E25 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P25 PE=2 SV=1
+sp|Q1A244|VPU_SIVEK     13.9     0.024   1   1.0   0.0    Protein Vpu OS=Simian immunodeficiency virus (isolate EK505) OX=388912 GN=vpu PE=3 SV=1
+sp|Q75007|VPU_HV1ET     12.7     0.054   1   1.0   0.1    Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype C (isolate ETH2220) OX=388796 GN=vpu PE=3 SV=1
+sp|P51729|YO25_BPHC1    12.5     0.061   1   1.1   0.5    Uncharacterized 13.1 kDa protein in lys 3'region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P41483|E25_NPVAC     16.5    0.0039     1   0.0      2    116      3    100     17    112     Virus envelope protein E25 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=P25 PE=2 SV=1
+sp|Q1A244|VPU_SIVEK     13.8     0.026     1   0.0      7     77     14     68     16     70     Protein Vpu OS=Simian immunodeficiency virus (isolate EK505) OX=388912 GN=vpu PE=3 SV=1
+sp|Q75007|VPU_HV1ET     12.7     0.057     1   0.1      8     86     18     79     15     76     Protein Vpu OS=Human immunodeficiency virus type 1 group M subtype C (isolate ETH2220) OX=388796 GN=vpu PE=3 SV=1
+sp|P51729|YO25_BPHC1    12.2     0.076     1   0.5      4     96     13     86     16     86     Uncharacterized 13.1 kDa protein in lys 3'region OS=Haemophilus phage HP1 (strain HP1c1) OX=1289570 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000063@SRS015057_WUGC_scaffold_47951@SRS015057_WUGC_scaffold_47951_gene_58822.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000063@SRS015057_WUGC_scaffold_47951@SRS015057_WUGC_scaffold_47951_gene_58822.txt data/models_hmm/7000000063@SRS015057_WUGC_scaffold_47951@SRS015057_WUGC_scaffold_47951_gene_58822.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:16 2021
+# [ok]

@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P10429|YIM5_BPPH1    13.9     0.035   1   1.2   0.7    Uncharacterized immunity region protein 5 OS=Bacillus phage phi105 OX=10717 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P10429|YIM5_BPPH1    13.3     0.052     1   0.7     59    132     67    123     88    139     Uncharacterized immunity region protein 5 OS=Bacillus phage phi105 OX=10717 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000001@SRS022530_LANL_scaffold_5934@SRS022530_LANL_scaffold_5934_gene_17184.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000001@SRS022530_LANL_scaffold_5934@SRS022530_LANL_scaffold_5934_gene_17184.txt data/models_hmm/7000000001@SRS022530_LANL_scaffold_5934@SRS022530_LANL_scaffold_5934_gene_17184.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:24 2021
+# [ok]

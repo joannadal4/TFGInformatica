@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9WC53|GAG_HV1S2     12.0      0.17   2   2.3   0.1    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9280) OX=388905 GN=gag PE=3 SV=3
+sp|Q9WC62|GAG_HV1S9     12.0      0.18   2   2.3   0.1    Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9173) OX=388904 GN=gag PE=1 SV=3
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9WC53|GAG_HV1S2      7.1       5.8     2   0.0    326    406    353    391     49     87     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9280) OX=388905 GN=gag PE=3 SV=3
+sp|Q9WC62|GAG_HV1S9      7.1       5.8     2   0.0    326    406    353    391     49     87     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9173) OX=388904 GN=gag PE=1 SV=3
+sp|Q9WC53|GAG_HV1S2      2.4   1.7e+02     1   0.0    136    195    150    168     24     42     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9280) OX=388905 GN=gag PE=3 SV=3
+sp|Q9WC62|GAG_HV1S9      2.4   1.7e+02     1   0.0    136    195    150    168     24     42     Gag polyprotein OS=Human immunodeficiency virus type 1 group M subtype J (isolate SE9173) OX=388904 GN=gag PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001427017@NC_008724.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001427017@NC_008724.txt data/models_hmm/YP_001427017@NC_008724.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:16 2021
+# [ok]

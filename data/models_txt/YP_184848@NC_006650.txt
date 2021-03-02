@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q06693|AC78_NPVAC    13.0     0.033   1   1.1   0.0    Protein AC78 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC78 PE=3 SV=1
+sp|Q66631|VG28_EHV2     11.8     0.075   1   1.2   0.0    Uncharacterized gene 28 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=28 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q06693|AC78_NPVAC    12.9     0.035     1   0.0     22    109     36    104    291    359     Protein AC78 OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=AC78 PE=3 SV=1
+sp|Q66631|VG28_EHV2     11.6     0.086     1   0.0      5     89     29     82    156    208     Uncharacterized gene 28 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=28 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_184848@NC_006650.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_184848@NC_006650.txt data/models_hmm/YP_184848@NC_006650.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:10 2021
+# [ok]

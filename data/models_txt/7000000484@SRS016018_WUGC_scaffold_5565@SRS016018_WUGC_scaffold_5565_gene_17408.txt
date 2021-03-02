@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20220|F112_SSV1     12.9      0.09   1   1.3   0.0    Protein F-112 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=f112 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20220|F112_SSV1     12.3      0.14     1   0.0     10     55     10     48      1     38     Protein F-112 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=f112 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000484@SRS016018_WUGC_scaffold_5565@SRS016018_WUGC_scaffold_5565_gene_17408.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000484@SRS016018_WUGC_scaffold_5565@SRS016018_WUGC_scaffold_5565_gene_17408.txt data/models_hmm/7000000484@SRS016018_WUGC_scaffold_5565@SRS016018_WUGC_scaffold_5565_gene_17408.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:39 2021
+# [ok]

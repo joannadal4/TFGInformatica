@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P12325|P7_WTV        18.0    0.0027   1   1.9   1.7    Protein P7 OS=Wound tumor virus OX=10987 PE=3 SV=1
+sp|P31610|P7_WTVNJ      15.2      0.02   1   1.8   1.0    Protein P7 OS=Wound tumor virus (strain NJ) OX=31595 PE=2 SV=1
+sp|P00476|MTBS_BPSPR    12.1      0.19   2   2.2   2.0    Modification methylase SPRI OS=Bacillus phage SPR OX=10725 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P12325|P7_WTV        16.3    0.0093     1   1.7    310    338    312    334      4     27     Protein P7 OS=Wound tumor virus OX=10987 PE=3 SV=1
+sp|P31610|P7_WTVNJ      13.5     0.068     1   1.0    310    337    312    333      4     26     Protein P7 OS=Wound tumor virus (strain NJ) OX=31595 PE=2 SV=1
+sp|P00476|MTBS_BPSPR    10.8      0.48     1   0.3    208    249    216    238     13     35     Modification methylase SPRI OS=Bacillus phage SPR OX=10725 PE=3 SV=1
+sp|P00476|MTBS_BPSPR    -0.3   1.4e+03     2   0.1    422    437    424    435     12     23     Modification methylase SPRI OS=Bacillus phage SPR OX=10725 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300000116@DelMOSpr2010_c10000111@DelMOSpr2010_1000011160.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300000116@DelMOSpr2010_c10000111@DelMOSpr2010_1000011160.txt data/models_hmm/3300000116@DelMOSpr2010_c10000111@DelMOSpr2010_1000011160.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:30:42 2021
+# [ok]

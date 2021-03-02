@@ -1,0 +1,41 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|F5HCM1|VIE1_HCMVM   683.7  1.2e-205   1   1.0  15.9    55 kDa immediate-early protein 1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL123 PE=3 SV=1
+sp|P13202|VIE1_HCMVA   677.1  1.2e-203   1   1.0  15.4    55 kDa immediate-early protein 1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL123 PE=1 SV=1
+sp|P03169|VIE1_HCMVT   673.2  1.8e-202   1   1.0  15.0    55 kDa immediate-early protein 1 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL123 PE=1 SV=1
+sp|Q6SW29|VIE2_HCMVM   105.3   2.9e-30   3   2.6   1.4    Viral transcription factor IE2 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL122 PE=3 SV=1
+sp|P19893|VIE2_HCMVA   105.0   3.6e-30   3   2.5   1.4    Viral transcription factor IE2 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL122 PE=1 SV=2
+sp|Q6SWP7|VIE2_HCMVT   103.2   1.2e-29   3   2.5   1.2    Viral transcription factor IE2 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL122 PE=1 SV=1
+sp|Q02270|VE6_PCPV1     11.3      0.09   1   1.0   0.4    Protein E6 OS=Pygmy chimpanzee papillomavirus type 1 OX=10576 GN=E6 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|F5HCM1|VIE1_HCMVM   683.6  1.3e-205     1  15.9      1    491      1    491      1    484     55 kDa immediate-early protein 1 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL123 PE=3 SV=1
+sp|P13202|VIE1_HCMVA   677.0  1.3e-203     1  15.4      1    491      1    491      1    484     55 kDa immediate-early protein 1 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL123 PE=1 SV=1
+sp|P03169|VIE1_HCMVT   673.0  2.1e-202     1  15.0      1    491      1    491      1    484     55 kDa immediate-early protein 1 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL123 PE=1 SV=1
+sp|Q6SW29|VIE2_HCMVM   105.3   2.9e-30     1   1.4      1     96      1     79      1     83     Viral transcription factor IE2 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL122 PE=3 SV=1
+sp|P19893|VIE2_HCMVA   105.0   3.6e-30     1   1.4      1     95      1     73      1     82     Viral transcription factor IE2 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL122 PE=1 SV=2
+sp|Q6SWP7|VIE2_HCMVT   103.2   1.2e-29     1   1.2      1     95      1     73      1     82     Viral transcription factor IE2 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL122 PE=1 SV=1
+sp|Q02270|VE6_PCPV1     11.2       0.1     1   0.4      3    148      9    117     71    180     Protein E6 OS=Pygmy chimpanzee papillomavirus type 1 OX=10576 GN=E6 PE=3 SV=1
+sp|Q6SWP7|VIE2_HCMVT     1.1   1.2e+02     2   0.5    193    297    200    281    405    453     Viral transcription factor IE2 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL122 PE=1 SV=1
+sp|P19893|VIE2_HCMVA     0.8   1.4e+02     2   0.6    193    298    200    281    405    452     Viral transcription factor IE2 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL122 PE=1 SV=2
+sp|Q6SW29|VIE2_HCMVM     0.8   1.4e+02     2   0.6    193    298    200    281    405    452     Viral transcription factor IE2 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL122 PE=3 SV=1
+sp|Q6SW29|VIE2_HCMVM    -2.5   1.4e+03     3   0.0    383    475    401    436    120    155     Viral transcription factor IE2 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL122 PE=3 SV=1
+sp|Q6SWP7|VIE2_HCMVT    -3.3   2.6e+03     3   0.0    385    470    405    434    126    154     Viral transcription factor IE2 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL122 PE=1 SV=1
+sp|P19893|VIE2_HCMVA    -3.4   2.6e+03     3   0.0    386    471    406    435    126    154     Viral transcription factor IE2 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL122 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004940131@NC_016447.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004940131@NC_016447.txt data/models_hmm/YP_004940131@NC_016447.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:52 2021
+# [ok]

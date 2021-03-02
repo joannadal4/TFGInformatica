@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P13332|TSP_BPT4      549.3  1.4e-164   1   1.0  20.7    Tail sheath protein OS=Enterobacteria phage T4 OX=10665 GN=18 PE=1 SV=5
+sp|Q6WHE8|TSP_BPKVM     543.9  5.7e-163   1   1.0  21.2    Tail sheath protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=18 PE=3 SV=1
+sp|E1XTG9|TSP_BPSAV     448.5  4.2e-134   1   1.0  19.9    Tail sheath protein OS=Salmonella phage ViI OX=1987993 GN=tail sheath PE=3 SV=1
+sp|Q6QIB0|TSP_BPBMU      56.8   1.3e-15   2   2.0   4.2    Tail sheath protein OS=Burkholderia phage BcepMu (isolate -/United States/Summer/2002) OX=1283335 GN=BcepMu39 PE=3 SV=1
+sp|P22501|TSP_BPP2       37.7   8.3e-10   2   2.1   6.3    Tail sheath protein OS=Escherichia phage P2 OX=10679 GN=FI PE=1 SV=2
+sp|Q66676|VGE9_EHV2      16.3    0.0025   1   1.0  14.2    Uncharacterized gene E9 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=E9 PE=3 SV=1
+sp|P03224|BDLF3_EBVB9     9.9      0.21   1   1.0  18.8    Glycoprotein BDLF3 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BDLF3 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P13332|TSP_BPT4      549.0  1.7e-164     1  20.7      1    658      1    656     38    683     Tail sheath protein OS=Enterobacteria phage T4 OX=10665 GN=18 PE=1 SV=5
+sp|Q6WHE8|TSP_BPKVM     543.7  6.5e-163     1  21.2      1    671      1    671     38    683     Tail sheath protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=18 PE=3 SV=1
+sp|E1XTG9|TSP_BPSAV     448.3  4.8e-134     1  19.9      1    631      3    625     36    685     Tail sheath protein OS=Salmonella phage ViI OX=1987993 GN=tail sheath PE=3 SV=1
+sp|Q6QIB0|TSP_BPBMU      46.1   2.4e-12     2   0.0    203    469    251    466    466    672     Tail sheath protein OS=Burkholderia phage BcepMu (isolate -/United States/Summer/2002) OX=1283335 GN=BcepMu39 PE=3 SV=1
+sp|P22501|TSP_BPP2       21.1   8.9e-05     2   0.1    130    395    137    383    420    673     Tail sheath protein OS=Escherichia phage P2 OX=10679 GN=FI PE=1 SV=2
+sp|P22501|TSP_BPP2       18.7   0.00046     1   1.9      6    135      7    119     44    159     Tail sheath protein OS=Escherichia phage P2 OX=10679 GN=FI PE=1 SV=2
+sp|Q66676|VGE9_EHV2      16.2    0.0025     1  14.2      8    203     25    132    138    248     Uncharacterized gene E9 protein OS=Equine herpesvirus 2 (strain 86/87) OX=82831 GN=E9 PE=3 SV=1
+sp|P03224|BDLF3_EBVB9     9.8      0.22     1  18.8     11    221     35    159    137    267     Glycoprotein BDLF3 OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=BDLF3 PE=1 SV=1
+sp|Q6QIB0|TSP_BPBMU       8.4      0.59     1   4.2      4    210      8    183     44    204     Tail sheath protein OS=Burkholderia phage BcepMu (isolate -/United States/Summer/2002) OX=1283335 GN=BcepMu39 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/ADO99219@GU071105.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/ADO99219@GU071105.txt data/models_hmm/ADO99219@GU071105.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:41:27 2021
+# [ok]

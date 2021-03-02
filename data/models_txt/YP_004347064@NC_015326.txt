@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P15633|Y3_SOCMV      19.2   0.00062   1   1.5   0.9    Uncharacterized protein 3 OS=Soybean chlorotic mottle virus OX=10651 GN=ORF III PE=4 SV=2
+sp|P13895|ST_BFPYV      12.3     0.081   1   1.5   0.2    Small t antigen OS=Budgerigar fledgling disease virus OX=1891747 PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P15633|Y3_SOCMV      18.4    0.0011     1   0.8      3    159      8    106     44    137     Uncharacterized protein 3 OS=Soybean chlorotic mottle virus OX=10651 GN=ORF III PE=4 SV=2
+sp|P13895|ST_BFPYV      11.5      0.15     1   0.1     74    143     92    138     52     98     Small t antigen OS=Budgerigar fledgling disease virus OX=1891747 PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004347064@NC_015326.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004347064@NC_015326.txt data/models_hmm/YP_004347064@NC_015326.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:22 2021
+# [ok]

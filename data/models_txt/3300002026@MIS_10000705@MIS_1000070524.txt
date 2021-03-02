@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q80961|VL1_HPV66     13.8     0.027   2   1.7   0.2    Major capsid protein L1 OS=Human papillomavirus type 66 OX=37119 GN=L1 PE=3 SV=1
+sp|Q02515|VL1_HPV30     11.6      0.12   1   1.2   0.1    Major capsid protein L1 OS=Human papillomavirus type 30 OX=10611 GN=L1 PE=3 SV=2
+sp|P22162|VL1_HPV57     11.4      0.14   1   1.3   0.1    Major capsid protein L1 OS=Human papillomavirus type 57 OX=333753 GN=L1 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q80961|VL1_HPV66     11.9       0.1     1   0.2    324    395    330    380    108    158     Major capsid protein L1 OS=Human papillomavirus type 66 OX=37119 GN=L1 PE=3 SV=1
+sp|Q02515|VL1_HPV30     11.0      0.19     1   0.1    332    404    338    394    108    164     Major capsid protein L1 OS=Human papillomavirus type 30 OX=10611 GN=L1 PE=3 SV=2
+sp|P22162|VL1_HPV57     10.7      0.24     1   0.1    337    411    343    393    108    158     Major capsid protein L1 OS=Human papillomavirus type 57 OX=333753 GN=L1 PE=3 SV=1
+sp|Q80961|VL1_HPV66      0.2   3.7e+02     2   0.0    373    420    382    405    133    158     Major capsid protein L1 OS=Human papillomavirus type 66 OX=37119 GN=L1 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300002026@MIS_10000705@MIS_1000070524.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300002026@MIS_10000705@MIS_1000070524.txt data/models_hmm/3300002026@MIS_10000705@MIS_1000070524.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:57 2021
+# [ok]

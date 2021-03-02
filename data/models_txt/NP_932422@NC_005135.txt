@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P32270|DDA_BPT4      15.0     0.025   1   1.6   0.1    ATP-dependent DNA helicase dda OS=Enterobacteria phage T4 OX=10665 GN=dda PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P32270|DDA_BPT4      13.8      0.06     1   0.1    320    399    326    380     20     75     ATP-dependent DNA helicase dda OS=Enterobacteria phage T4 OX=10665 GN=dda PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_932422@NC_005135.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_932422@NC_005135.txt data/models_hmm/NP_932422@NC_005135.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:39 2021
+# [ok]

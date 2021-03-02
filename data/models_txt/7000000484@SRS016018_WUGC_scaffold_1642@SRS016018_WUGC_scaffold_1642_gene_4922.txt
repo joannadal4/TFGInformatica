@@ -1,0 +1,50 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04506|SIGM1_REOVL    21.1   0.00026   3   3.8   2.4    Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|P04507|SIGM1_REOVJ    15.5     0.015   3   3.2   4.0    Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|O64314|TMP_BPP2       13.5     0.064   2   2.7   1.4    Probable tape measure protein OS=Escherichia phage P2 OX=10679 GN=T PE=3 SV=1
+sp|Q27YG9|POLR_NORAV     13.1     0.083   2   3.3   0.2    Replication polyprotein OS=Nora virus OX=363716 GN=ORF2 PE=4 SV=2
+sp|Q992I2|SIGC_ARVS1     13.1     0.085   3   2.9   2.5    Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|P13103|HEMA_I77AF     13.0     0.091   1   1.8   0.3    Hemagglutinin OS=Influenza A virus (strain A/Gull/Maryland/704/1977 H13N6) OX=384499 GN=HA PE=1 SV=3
+sp|O64209|SCAF_BPMD2     12.6      0.12   1   1.3   0.3    Probable capsid assembly scaffolding protein OS=Mycobacterium phage D29 OX=28369 GN=16 PE=3 SV=1
+sp|P33816|A27_VAR67      12.6      0.12   1   1.3   1.5    14 kDa fusion protein OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A27L PE=3 SV=1
+sp|Q3V4Q8|Y653_ATV       12.4      0.14   1   1.9   1.4    Structural protein ORF653 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|Q5UPU7|YL264_MIMIV    11.9       0.2   2   2.3   4.6    Uncharacterized WD repeat-containing protein L264 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L264 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04506|SIGM1_REOVL    13.4      0.07     1   0.7      3     88     38     87     29     78     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|P33816|A27_VAR67      12.3      0.15     1   1.5     17    101     37     90     27     79     14 kDa fusion protein OS=Variola virus (isolate Human/India/Ind3/1967) OX=587200 GN=A27L PE=3 SV=1
+sp|O64209|SCAF_BPMD2     12.0      0.18     1   0.3     48    110     69    109     49     89     Probable capsid assembly scaffolding protein OS=Mycobacterium phage D29 OX=28369 GN=16 PE=3 SV=1
+sp|P04507|SIGM1_REOVJ    11.6      0.25     1   0.8     12     85     26     83     31     88     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|Q5UPU7|YL264_MIMIV    11.5      0.26     1   2.6     16     90     36     86     27     77     Uncharacterized WD repeat-containing protein L264 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L264 PE=1 SV=1
+sp|P13103|HEMA_I77AF     11.4      0.28     1   0.3    362    434    371    428     30     83     Hemagglutinin OS=Influenza A virus (strain A/Gull/Maryland/704/1977 H13N6) OX=384499 GN=HA PE=1 SV=3
+sp|Q3V4Q8|Y653_ATV       10.6       0.5     1   1.4    539    595    547    585     42     80     Structural protein ORF653 OS=Acidianus two-tailed virus OX=315953 PE=4 SV=1
+sp|O64314|TMP_BPP2        9.3       1.3     2   0.2    104    176    111    167     19     77     Probable tape measure protein OS=Escherichia phage P2 OX=10679 GN=T PE=3 SV=1
+sp|P04506|SIGM1_REOVL     7.6       4.3     2   0.0     70    123     77    113     40     76     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|Q992I2|SIGC_ARVS1      6.9       7.2     3   0.5     84    160     94    156     13     75     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q27YG9|POLR_NORAV      5.9        14     2   0.0    985   1046   1002   1034     39     70     Replication polyprotein OS=Nora virus OX=363716 GN=ORF2 PE=4 SV=2
+sp|Q992I2|SIGC_ARVS1      4.5        42     2   0.2     43    106     47     98     23     73     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q992I2|SIGC_ARVS1      3.8        68     1   0.0     16     59     29     57     60     88     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|Q27YG9|POLR_NORAV      3.1   1.1e+02     1   0.1    250    332    287    315     36     71     Replication polyprotein OS=Nora virus OX=363716 GN=ORF2 PE=4 SV=2
+sp|O64314|TMP_BPP2        2.3     2e+02     1   0.1     41    111     57    105     35     80     Probable tape measure protein OS=Escherichia phage P2 OX=10679 GN=T PE=3 SV=1
+sp|P04507|SIGM1_REOVJ     2.1   2.2e+02     2   0.0     83    134     87    132     43     88     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|P04506|SIGM1_REOVL     1.1   4.9e+02     3   0.0    117    185    132    176     46     86     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|P04507|SIGM1_REOVJ     0.7   6.1e+02     3   0.1    128    180    145    170     48     73     Outer capsid protein sigma-1 OS=Reovirus type 2 (strain D5/Jones) OX=10885 GN=S1 PE=3 SV=3
+sp|Q5UPU7|YL264_MIMIV    -4.0   1.7e+04     2   0.0   1334   1354   1337   1352     33     48     Uncharacterized WD repeat-containing protein L264 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L264 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000484@SRS016018_WUGC_scaffold_1642@SRS016018_WUGC_scaffold_1642_gene_4922.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000484@SRS016018_WUGC_scaffold_1642@SRS016018_WUGC_scaffold_1642_gene_4922.txt data/models_hmm/7000000484@SRS016018_WUGC_scaffold_1642@SRS016018_WUGC_scaffold_1642_gene_4922.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:38 2021
+# [ok]

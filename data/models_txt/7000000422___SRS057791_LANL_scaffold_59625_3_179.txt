@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|B9VXQ2|UL95_HCMVT     9.9      0.34   1   1.2   2.1    Protein UL95 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL95 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|B9VXQ2|UL95_HCMVT     9.2      0.55     1   2.1      8     94     20     70    114    163     Protein UL95 OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL95 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000422___SRS057791_LANL_scaffold_59625_3_179.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000422___SRS057791_LANL_scaffold_59625_3_179.txt data/models_hmm/7000000422___SRS057791_LANL_scaffold_59625_3_179.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:39:07 2021
+# [ok]

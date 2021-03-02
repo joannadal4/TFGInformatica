@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q992I2|SIGC_ARVS1     13.2     0.033   1   1.4   0.1    Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|P04506|SIGM1_REOVL     8.1       1.2   2   2.2   4.1    Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q992I2|SIGC_ARVS1     12.3     0.063     1   0.1      6    114     10     95    158    240     Sigma-C capsid protein OS=Avian reovirus (strain S1133) OX=38171 GN=ORF3 PE=1 SV=1
+sp|P04506|SIGM1_REOVL     4.6        14     1   2.1      2    104     26     93    173    240     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+sp|P04506|SIGM1_REOVL     3.3        34     2   0.0     94    152    108    144    199    235     Outer capsid protein sigma-1 OS=Reovirus type 1 (strain Lang) OX=10884 GN=S1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000230@SRS015574_WUGC_scaffold_24411@SRS015574_WUGC_scaffold_24411_gene_26059.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000230@SRS015574_WUGC_scaffold_24411@SRS015574_WUGC_scaffold_24411_gene_26059.txt data/models_hmm/7000000230@SRS015574_WUGC_scaffold_24411@SRS015574_WUGC_scaffold_24411_gene_26059.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:33 2021
+# [ok]

@@ -1,0 +1,34 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q6WHE6|PORTL_BPKVM   138.2   3.3e-40   2   1.5   3.3    Portal protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=20 PE=3 SV=1
+sp|P13334|PORTL_BPT4    116.4   1.3e-33   2   1.9   2.2    Portal protein OS=Enterobacteria phage T4 OX=10665 GN=20 PE=1 SV=2
+sp|E1XTG6|PORTL_BPSAV   102.9   1.7e-29   1   1.4   4.6    Portal protein OS=Salmonella phage ViI OX=1987993 GN=Vi01_157c PE=3 SV=1
+sp|P15415|G3P_BPI22       5.6       4.5   1   1.2   8.8    Attachment protein G3P OS=Enterobacteria phage I2-2 OX=10869 GN=III PE=3 SV=1
+sp|P23091|MAF_AVIS4       4.7       8.8   2   1.9   8.0    Transforming protein Maf OS=Avian musculoaponeurotic fibrosarcoma virus AS42 OX=11873 GN=V-MAF PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q6WHE6|PORTL_BPKVM   138.2   3.3e-40     2   3.3    167    501    188    491    197    488     Portal protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=20 PE=3 SV=1
+sp|P13334|PORTL_BPT4    116.4   1.3e-33     2   2.2    243    518    254    508    248    495     Portal protein OS=Enterobacteria phage T4 OX=10665 GN=20 PE=1 SV=2
+sp|E1XTG6|PORTL_BPSAV   101.9   3.2e-29     1   4.6     42    539     68    514     83    493     Portal protein OS=Salmonella phage ViI OX=1987993 GN=Vi01_157c PE=3 SV=1
+sp|P23091|MAF_AVIS4       9.7      0.26     2   0.2    199    334    208    329    531    641     Transforming protein Maf OS=Avian musculoaponeurotic fibrosarcoma virus AS42 OX=11873 GN=V-MAF PE=3 SV=1
+sp|P15415|G3P_BPI22       5.1       6.6     1   8.8    186    332    193    306    513    618     Attachment protein G3P OS=Enterobacteria phage I2-2 OX=10869 GN=III PE=3 SV=1
+sp|P13334|PORTL_BPT4      0.6   1.5e+02     1   0.2     32    142     68    135     81    147     Portal protein OS=Enterobacteria phage T4 OX=10665 GN=20 PE=1 SV=2
+sp|Q6WHE6|PORTL_BPKVM    -1.8   7.8e+02     1   0.1     28    132     58    126    586    636     Portal protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 GN=20 PE=3 SV=1
+sp|P23091|MAF_AVIS4      -4.0   3.8e+03     1   5.9    136    212    180    206    554    576     Transforming protein Maf OS=Avian musculoaponeurotic fibrosarcoma virus AS42 OX=11873 GN=V-MAF PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000125@SRS015941_WUGC_scaffold_76501@SRS015941_WUGC_scaffold_76501_gene_102868.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000125@SRS015941_WUGC_scaffold_76501@SRS015941_WUGC_scaffold_76501_gene_102868.txt data/models_hmm/7000000125@SRS015941_WUGC_scaffold_76501@SRS015941_WUGC_scaffold_76501_gene_102868.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:36:39 2021
+# [ok]

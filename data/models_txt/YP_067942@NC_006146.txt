@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P0C732|EBNA5_EBVG    966.8  1.9e-291   1   1.1 152.2    Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA-LP PE=3 SV=1
+sp|Q8AZK7|EBNA5_EBVB9   966.8  1.9e-291   1   1.1 152.2    Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA-LP PE=1 SV=1
+sp|Q1HVI8|EBNA5_EBVA8   926.5  3.2e-279   1   1.5 151.8    Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P0C732|EBNA5_EBVG    966.5  2.4e-291     1 152.2      1    506      1    506      1    506     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain GD1) OX=10376 GN=EBNA-LP PE=3 SV=1
+sp|Q8AZK7|EBNA5_EBVB9   966.5  2.4e-291     1 152.2      1    506      1    506      1    506     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=EBNA-LP PE=1 SV=1
+sp|Q1HVI8|EBNA5_EBVA8   925.5  6.7e-279     1 151.8      1    506      1    506      1    506     Epstein-Barr nuclear antigen leader protein OS=Epstein-Barr virus (strain AG876) OX=82830 GN=EBNA-LP PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_067942@NC_006146.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_067942@NC_006146.txt data/models_hmm/YP_067942@NC_006146.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:50:55 2021
+# [ok]

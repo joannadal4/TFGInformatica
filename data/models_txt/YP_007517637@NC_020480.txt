@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P22381|GAG_SIVGB     15.3     0.018   1   2.0   0.4    Gag polyprotein OS=Simian immunodeficiency virus (isolate GB1) OX=11732 GN=gag PE=3 SV=1
+sp|P22382|POL_SIVGB     13.1     0.089   2   2.5   1.8    Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate GB1) OX=11732 GN=gag-pol PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P22381|GAG_SIVGB     13.4     0.071     1   0.4     72    128     75    119      6     51     Gag polyprotein OS=Simian immunodeficiency virus (isolate GB1) OX=11732 GN=gag PE=3 SV=1
+sp|P22382|POL_SIVGB     11.6      0.26     1   0.4     72    128     75    119      6     51     Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate GB1) OX=11732 GN=gag-pol PE=3 SV=2
+sp|P22382|POL_SIVGB     -2.0   4.8e+03     2   0.0   1142   1183   1154   1172     31     49     Gag-Pol polyprotein OS=Simian immunodeficiency virus (isolate GB1) OX=11732 GN=gag-pol PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007517637@NC_020480.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007517637@NC_020480.txt data/models_hmm/YP_007517637@NC_020480.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:49:00 2021
+# [ok]

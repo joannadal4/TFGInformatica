@@ -1,0 +1,37 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P20196|A154_SSV1     17.4    0.0032   1   1.4   1.6    Uncharacterized protein A-154 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=a154 PE=4 SV=1
+sp|Q2Y0F0|VP1_APRVF     14.9      0.02   3   3.8   1.2    Putative structural protein VP1 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S1 PE=4 SV=1
+sp|Q04764|SCAF_BPMV4    11.8      0.18   2   1.8   3.7    Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+sp|Q04763|SCAF_BPLLH    11.2      0.27   2   1.8   3.9    Capsid assembly scaffolding protein OS=Lactococcus phage LL-H OX=12348 GN=g20 PE=3 SV=1
+sp|B4YNF1|V11_SPTNK      8.2       2.3   3   3.0  13.4    Uncharacterized protein V11 OS=Sputnik virophage OX=543939 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P20196|A154_SSV1     16.5    0.0061     1   1.6      3     66      7     61     20     70     Uncharacterized protein A-154 OS=Sulfolobus spindle-shape virus 1 OX=244589 GN=a154 PE=4 SV=1
+sp|Q04764|SCAF_BPMV4    11.4      0.24     1   2.8      9    111     22     71     14     64     Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+sp|Q04763|SCAF_BPLLH    10.0      0.64     1   3.1     12     87     27     72     20     65     Capsid assembly scaffolding protein OS=Lactococcus phage LL-H OX=12348 GN=g20 PE=3 SV=1
+sp|B4YNF1|V11_SPTNK      7.8         3     1   3.7     16     83     21     76      8     55     Uncharacterized protein V11 OS=Sputnik virophage OX=543939 PE=4 SV=1
+sp|Q2Y0F0|VP1_APRVF      6.3       8.8     1   0.0     84    179     89    137     18     63     Putative structural protein VP1 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S1 PE=4 SV=1
+sp|B4YNF1|V11_SPTNK      4.9        24     2   1.3     54    103     64     91     29     56     Uncharacterized protein V11 OS=Sputnik virophage OX=543939 PE=4 SV=1
+sp|Q04764|SCAF_BPMV4     4.5        32     2   0.4     59    135     60     96     22     58     Capsid assembly scaffolding protein OS=Lactococcus phage mv4 OX=12392 GN=g20 PE=3 SV=1
+sp|Q2Y0F0|VP1_APRVF      4.1        43     3   0.1    756    808    771    799     31     62     Putative structural protein VP1 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S1 PE=4 SV=1
+sp|Q04763|SCAF_BPLLH     4.1        45     2   0.5     58    136     61     88     23     50     Capsid assembly scaffolding protein OS=Lactococcus phage LL-H OX=12348 GN=g20 PE=3 SV=1
+sp|B4YNF1|V11_SPTNK      3.1        90     3   0.8     95    143    110    132     30     52     Uncharacterized protein V11 OS=Sputnik virophage OX=543939 PE=4 SV=1
+sp|Q2Y0F0|VP1_APRVF     -0.6   1.3e+03     2   0.0    239    290    257    275     57     75     Putative structural protein VP1 OS=Aedes pseudoscutellaris reovirus (isolate France) OX=648170 GN=S1 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001450@JGI24006J15134_10000143@JGI24006J15134_10000143109.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001450@JGI24006J15134_10000143@JGI24006J15134_10000143109.txt data/models_hmm/3300001450@JGI24006J15134_10000143@JGI24006J15134_10000143109.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:33:21 2021
+# [ok]

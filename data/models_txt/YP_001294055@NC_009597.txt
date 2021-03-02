@@ -1,0 +1,53 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|O12674|NSP4_ROTHV    16.2    0.0027   1   1.2   0.7    Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Human/Italy/VA70/1975/G4P1A[8]) OX=10961 PE=3 SV=1
+sp|Q9QNA6|NSP4_ROTHK    15.2    0.0053   1   1.2   0.7    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+sp|B3SRV6|NSP4_ROTHP    14.4    0.0092   1   1.2   1.0    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=1
+sp|Q9WAI8|NSP4_ROTYO    14.0     0.012   1   1.2   0.4    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Japan/YO/1977/G3P1A[8]) OX=578832 PE=3 SV=1
+sp|Q82033|NSP4_ROTH4    13.6     0.017   1   1.2   0.4    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Australia/RV-4/1977/G1P1A[8]) OX=31570 PE=2 SV=1
+sp|P03535|NSP4_ROTHW    13.5     0.018   1   1.3   0.6    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=2 SV=1
+sp|Q9YJN7|NSP4_ROTAD    13.4     0.019   1   1.2   0.6    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|B3SRY0|NSP4_ROTWI    12.9     0.026   1   1.2   0.6    Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Human/United States/WI61/1983/G9P1A[8]) OX=578830 PE=3 SV=1
+sp|Q82028|NSP4_ROTH5    12.9     0.027   1   1.1   1.1    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Australia/RV-5/1981/G2P1B[4]) OX=31569 PE=2 SV=1
+sp|Q82034|NSP4_ROTHM    12.8     0.029   1   1.2   0.9    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Venezuela/M37/1982/G1P2A[6]) OX=10954 PE=2 SV=1
+sp|Q9PYD2|NSP4_ROTEH    12.7      0.03   1   1.1   1.4    Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Equine/United Kingdom/H2/1976/G3P4[12]) OX=10939 PE=3 SV=1
+sp|Q8JNB2|NSP4_ROTW3    12.5     0.036   1   1.1   1.4    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Cow/United States/WC3/1981/G6P7[5]) OX=578828 PE=2 SV=1
+sp|B3SRT2|NSP4_ROTHD    12.4     0.037   1   1.1   1.7    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United States/DS-1/1976/G2P1B[4]) OX=10950 PE=3 SV=1
+sp|P30031|NSP4_ROTH7    12.1     0.047   1   1.1   1.4    Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Human/United Kingdom/A64/1987/G10P11[14]) OX=578827 PE=3 SV=1
+sp|Q82035|NSP4_ROTHT    12.0      0.05   1   1.2   0.5    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=1 SV=1
+sp|O92374|NSP4_ROTAM    11.8     0.056   1   1.2   0.6    Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United States/M/1976/G3P[X]) OX=578834 PE=2 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O12674|NSP4_ROTHV    15.7    0.0039     1   0.7     65    159     77    141    382    445     Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Human/Italy/VA70/1975/G4P1A[8]) OX=10961 PE=3 SV=1
+sp|Q9QNA6|NSP4_ROTHK    14.6    0.0081     1   0.7     69    159     79    144    384    448     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Japan/KU/1995/G1P1A[8]) OX=10952 PE=2 SV=1
+sp|B3SRV6|NSP4_ROTHP    13.8     0.014     1   1.0     67    159     78    144    383    448     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United States/P/1974/G3P1A[8]) OX=10957 PE=3 SV=1
+sp|Q9WAI8|NSP4_ROTYO    13.5     0.017     1   0.4     59    161     78    141    383    445     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Japan/YO/1977/G3P1A[8]) OX=578832 PE=3 SV=1
+sp|Q82033|NSP4_ROTH4    13.2     0.022     1   0.4     60    159     78    141    383    445     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Australia/RV-4/1977/G1P1A[8]) OX=31570 PE=2 SV=1
+sp|P03535|NSP4_ROTHW    12.9     0.027     1   0.6     67    159     78    141    383    445     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United States/Wa/1974/G1P1A[8]) OX=10962 PE=2 SV=1
+sp|Q9YJN7|NSP4_ROTAD    12.9     0.027     1   0.6     67    159     78    141    383    445     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United States/D/1974/G1P1A[8]) OX=578831 PE=3 SV=1
+sp|Q82028|NSP4_ROTH5    12.5     0.035     1   1.1     68    160     78    142    386    445     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Australia/RV-5/1981/G2P1B[4]) OX=31569 PE=2 SV=1
+sp|B3SRY0|NSP4_ROTWI    12.3      0.04     1   0.6     71    158     78    140    383    444     Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Human/United States/WI61/1983/G9P1A[8]) OX=578830 PE=3 SV=1
+sp|Q9PYD2|NSP4_ROTEH    12.3     0.041     1   1.4     67    161     78    156    383    457     Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Equine/United Kingdom/H2/1976/G3P4[12]) OX=10939 PE=3 SV=1
+sp|Q82034|NSP4_ROTHM    12.2     0.045     1   0.9     73    159     81    143    386    447     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/Venezuela/M37/1982/G1P2A[6]) OX=10954 PE=2 SV=1
+sp|Q8JNB2|NSP4_ROTW3    12.1     0.047     1   1.4     63    161     76    155    381    456     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Cow/United States/WC3/1981/G6P7[5]) OX=578828 PE=2 SV=1
+sp|B3SRT2|NSP4_ROTHD    12.1     0.048     1   1.7     66    160     78    155    383    456     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United States/DS-1/1976/G2P1B[4]) OX=10950 PE=3 SV=1
+sp|P30031|NSP4_ROTH7    11.7     0.062     1   1.4     67    160     78    156    383    457     Non-structural glycoprotein 4 OS=Rotavirus A (isolate RVA/Human/United Kingdom/A64/1987/G10P11[14]) OX=578827 PE=3 SV=1
+sp|Q82035|NSP4_ROTHT    11.5     0.072     1   0.5     67    161     78    146    383    450     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United Kingdom/ST3/1975/G4P2A[6]) OX=10960 PE=1 SV=1
+sp|O92374|NSP4_ROTAM    11.2     0.087     1   0.6     71    158     78    140    383    444     Non-structural glycoprotein 4 OS=Rotavirus A (strain RVA/Human/United States/M/1976/G3P[X]) OX=578834 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001294055@NC_009597.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001294055@NC_009597.txt data/models_hmm/YP_001294055@NC_009597.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:09 2021
+# [ok]

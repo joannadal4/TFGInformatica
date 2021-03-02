@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|D4N3P3|CAPSD_HCYV5    13.1     0.088   2   2.3   0.0    Capsid protein OS=Human associated cyclovirus 1 (isolate Homo sapiens/Pakistan/PK5510/2007) OX=742918 GN=Cap PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|D4N3P3|CAPSD_HCYV5     9.7         1     2   0.0    181    217    185    211     15     41     Capsid protein OS=Human associated cyclovirus 1 (isolate Homo sapiens/Pakistan/PK5510/2007) OX=742918 GN=Cap PE=3 SV=1
+sp|D4N3P3|CAPSD_HCYV5     0.2   9.4e+02     1   0.0    149    168    152    163     11     22     Capsid protein OS=Human associated cyclovirus 1 (isolate Homo sapiens/Pakistan/PK5510/2007) OX=742918 GN=Cap PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007236229@NC_019910.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007236229@NC_019910.txt data/models_hmm/YP_007236229@NC_019910.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:33 2021
+# [ok]

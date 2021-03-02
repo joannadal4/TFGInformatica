@@ -1,0 +1,24 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P26700|FIBH_BPP2     14.5     0.013   2   1.6   0.2    Probable tail fiber protein OS=Escherichia phage P2 OX=10679 GN=H PE=3 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P26700|FIBH_BPP2     13.1     0.034     2   0.1    239    303    250    286    130    166     Probable tail fiber protein OS=Escherichia phage P2 OX=10679 GN=H PE=3 SV=2
+sp|P26700|FIBH_BPP2     -3.0   2.8e+03     1   0.0    168    228    173    214    128    168     Probable tail fiber protein OS=Escherichia phage P2 OX=10679 GN=H PE=3 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000304@SRS013533_LANL_scaffold_28060@SRS013533_LANL_scaffold_28060_gene_21085.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000304@SRS013533_LANL_scaffold_28060@SRS013533_LANL_scaffold_28060_gene_21085.txt data/models_hmm/7000000304@SRS013533_LANL_scaffold_28060@SRS013533_LANL_scaffold_28060_gene_21085.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:38:07 2021
+# [ok]

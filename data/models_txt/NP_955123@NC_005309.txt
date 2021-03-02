@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P28990|ICP0_EHV1B     7.2       3.6   2   2.4   6.0    E3 ubiquitin-protein ligase ICP0 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=63 PE=1 SV=1
+sp|P84445|ICP0_EHV1V     7.2       3.6   2   2.4   6.0    E3 ubiquitin-protein ligase ICP0 OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=ICP0 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P28990|ICP0_EHV1B     6.1       8.1     1   0.4     56    105     69     91     25     47     E3 ubiquitin-protein ligase ICP0 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=63 PE=1 SV=1
+sp|P84445|ICP0_EHV1V     6.1       8.1     1   0.4     56    105     69     91     25     47     E3 ubiquitin-protein ligase ICP0 OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=ICP0 PE=3 SV=1
+sp|P28990|ICP0_EHV1B     3.3        57     2   0.8    196    251    204    226     19     41     E3 ubiquitin-protein ligase ICP0 OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=63 PE=1 SV=1
+sp|P84445|ICP0_EHV1V     3.3        57     2   0.8    196    251    204    226     19     41     E3 ubiquitin-protein ligase ICP0 OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=ICP0 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_955123@NC_005309.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_955123@NC_005309.txt data/models_hmm/NP_955123@NC_005309.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:43:45 2021
+# [ok]

@@ -1,0 +1,25 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q38653|ENLYS_BPA51    28.7   4.4e-07   1   1.1   0.2    Endolysin OS=Listeria phage A511 OX=40523 GN=PLY511 PE=2 SV=1
+sp|Q37976|AEPE_BPA18     21.9   5.2e-05   1   1.1   0.3    L-alanyl-D-glutamate peptidase OS=Listeria phage A118 OX=40521 GN=ply PE=2 SV=2
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q38653|ENLYS_BPA51    28.2   6.2e-07     1   0.2    171    265    185    251    184    250     Endolysin OS=Listeria phage A511 OX=40523 GN=PLY511 PE=2 SV=1
+sp|Q37976|AEPE_BPA18     21.4   7.2e-05     1   0.3    127    212    136    200    188    250     L-alanyl-D-glutamate peptidase OS=Listeria phage A118 OX=40521 GN=ply PE=2 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_004063684@NC_014792.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_004063684@NC_014792.txt data/models_hmm/YP_004063684@NC_014792.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:46:05 2021
+# [ok]

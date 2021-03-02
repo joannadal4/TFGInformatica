@@ -1,0 +1,23 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P04531|DNMK_BPT4     13.2     0.078   1   1.3   0.2    Deoxynucleotide monophosphate kinase OS=Enterobacteria phage T4 OX=10665 GN=1 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P04531|DNMK_BPT4     12.4      0.14     1   0.2    101    206    105    189     31    114     Deoxynucleotide monophosphate kinase OS=Enterobacteria phage T4 OX=10665 GN=1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/3300001750@JGI24023J19991_10000111@JGI24023J19991_1000011119.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/3300001750@JGI24023J19991_10000111@JGI24023J19991_1000011119.txt data/models_hmm/3300001750@JGI24023J19991_10000111@JGI24023J19991_1000011119.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:34:19 2021
+# [ok]

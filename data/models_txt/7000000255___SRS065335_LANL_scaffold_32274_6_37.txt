@@ -1,0 +1,26 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q5UQX6|YR882_MIMIV     8.6       2.8   4   3.5   7.7    Uncharacterized protein R882 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R882 PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q5UQX6|YR882_MIMIV     8.1         4     3   0.2    212    272    217    264     21     68     Uncharacterized protein R882 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R882 PE=4 SV=1
+sp|Q5UQX6|YR882_MIMIV     2.7     2e+02     1   0.1     95    153    102    131     40     69     Uncharacterized protein R882 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R882 PE=4 SV=1
+sp|Q5UQX6|YR882_MIMIV    -0.1   1.5e+03     2   0.1    168    213    179    203     32     56     Uncharacterized protein R882 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R882 PE=4 SV=1
+sp|Q5UQX6|YR882_MIMIV    -2.3   6.9e+03     4   0.0    269    307    280    305     42     66     Uncharacterized protein R882 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R882 PE=4 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000255___SRS065335_LANL_scaffold_32274_6_37.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000255___SRS065335_LANL_scaffold_32274_6_37.txt data/models_hmm/7000000255___SRS065335_LANL_scaffold_32274_6_37.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:37:48 2021
+# [ok]

@@ -1,0 +1,45 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q65947|TERM_ADECC  1018.4         0   1   1.0   3.2    Preterminal protein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=PTP PE=3 SV=1
+sp|Q96682|TERM_ADECR  1015.6         0   1   1.0   3.6    Preterminal protein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=PTP PE=3 SV=1
+sp|P03269|TERM_ADE02   988.2  1.3e-297   1   1.0   0.2    Preterminal protein OS=Human adenovirus C serotype 2 OX=10515 GN=PTP PE=1 SV=3
+sp|P04499|TERM_ADE05   985.7  7.1e-297   1   1.0   0.2    Preterminal protein OS=Human adenovirus C serotype 5 OX=28285 GN=PTP PE=1 SV=2
+sp|P48313|TERM_ADE40   981.5  1.4e-295   1   1.0   4.7    Preterminal protein OS=Human adenovirus F serotype 40 OX=28284 GN=PTP PE=3 SV=1
+sp|P03270|TERM_ADE07   935.9  8.9e-282   1   1.0   2.2    Preterminal protein OS=Human adenovirus B serotype 7 OX=10519 GN=PTP PE=3 SV=1
+sp|O55439|TERM_ADEB3   934.2  2.9e-281   1   1.0   4.7    Preterminal protein OS=Bovine adenovirus B serotype 3 OX=10510 GN=PTP PE=3 SV=1
+sp|P12541|TERM_ADE12   921.4  2.2e-277   1   1.0   3.2    Preterminal protein OS=Human adenovirus A serotype 12 OX=28282 GN=PTP PE=3 SV=2
+sp|O55438|TERM_ADEB2   876.2  1.1e-263   1   1.0   5.4    Preterminal protein OS=Bovine adenovirus 2 OX=114429 GN=PTP PE=3 SV=1
+sp|Q64752|TERM_ADEG1   681.1  1.2e-204   1   1.0   0.1    Preterminal protein OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=PTP PE=3 SV=1
+sp|A9CB87|TERM_ADES1   606.2  5.8e-182   1   1.4   5.9    Preterminal protein OS=Snake adenovirus serotype 1 OX=189830 GN=PTP PE=3 SV=1
+sp|Q83485|MVP_TMOB      11.7     0.055   1   1.1   0.0    Movement protein OS=Tobamovirus Ob OX=31749 GN=MP PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q65947|TERM_ADECC  1018.2         0     1   3.2      1    608      1    608      1    614     Preterminal protein OS=Canine adenovirus serotype 1 (strain CLL) OX=69150 GN=PTP PE=3 SV=1
+sp|Q96682|TERM_ADECR  1015.3         0     1   3.6    106    723    119    723      4    614     Preterminal protein OS=Canine adenovirus serotype 1 (strain RI261) OX=69151 GN=PTP PE=3 SV=1
+sp|P03269|TERM_ADE02   988.0  1.5e-297     1   0.2      1    652      1    652      1    614     Preterminal protein OS=Human adenovirus C serotype 2 OX=10515 GN=PTP PE=1 SV=3
+sp|P04499|TERM_ADE05   985.5  8.1e-297     1   0.2      1    652      1    652      1    614     Preterminal protein OS=Human adenovirus C serotype 5 OX=28285 GN=PTP PE=1 SV=2
+sp|P48313|TERM_ADE40   981.3  1.5e-295     1   4.7      1    627      1    627      1    614     Preterminal protein OS=Human adenovirus F serotype 40 OX=28284 GN=PTP PE=3 SV=1
+sp|P03270|TERM_ADE07   935.7    1e-281     1   2.2      1    621      1    620     19    613     Preterminal protein OS=Human adenovirus B serotype 7 OX=10519 GN=PTP PE=3 SV=1
+sp|O55439|TERM_ADEB3   933.9  3.6e-281     1   4.7     15    647     18    647      4    614     Preterminal protein OS=Bovine adenovirus B serotype 3 OX=10510 GN=PTP PE=3 SV=1
+sp|P12541|TERM_ADE12   921.2  2.5e-277     1   3.2      1    587      2    587     37    614     Preterminal protein OS=Human adenovirus A serotype 12 OX=28282 GN=PTP PE=3 SV=2
+sp|O55438|TERM_ADEB2   875.8  1.3e-263     1   5.4     13    617     16    617      4    614     Preterminal protein OS=Bovine adenovirus 2 OX=114429 GN=PTP PE=3 SV=1
+sp|Q64752|TERM_ADEG1   680.8  1.4e-204     1   0.1      1    574      1    567     58    599     Preterminal protein OS=Fowl adenovirus A serotype 1 (strain CELO / Phelps) OX=10553 GN=PTP PE=3 SV=1
+sp|A9CB87|TERM_ADES1   605.3  1.1e-181     1   5.9      1    610      5    609      4    602     Preterminal protein OS=Snake adenovirus serotype 1 OX=189830 GN=PTP PE=3 SV=1
+sp|Q83485|MVP_TMOB      11.7     0.055     1   0.0     38    254    172    241    319    383     Movement protein OS=Tobamovirus Ob OX=31749 GN=MP PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_043879@NC_001720.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_043879@NC_001720.txt data/models_hmm/NP_043879@NC_001720.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:19 2021
+# [ok]

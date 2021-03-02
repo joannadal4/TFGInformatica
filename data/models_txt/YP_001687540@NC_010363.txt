@@ -1,0 +1,27 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9MCD0|SSB_BPGA1    322.1   6.4e-97   1   1.0   5.3    Single-stranded DNA-binding protein OS=Bacillus phage GA-1 OX=12345 GN=gene 5 PE=1 SV=1
+sp|P06953|SSB_BPPZA     17.1    0.0033   1   1.2   0.3    Single-stranded DNA-binding protein OS=Bacillus phage PZA OX=10757 GN=5 PE=3 SV=1
+sp|Q38504|SSB_BPPH2     16.8    0.0039   1   1.2   0.2    Single-stranded DNA-binding protein OS=Bacillus phage phi29 OX=10756 GN=5 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q9MCD0|SSB_BPGA1    321.9   7.2e-97     1   5.3      1    170      1    170      1    170     Single-stranded DNA-binding protein OS=Bacillus phage GA-1 OX=12345 GN=gene 5 PE=1 SV=1
+sp|P06953|SSB_BPPZA     16.9    0.0036     1   0.3      6    124     47    114     86    153     Single-stranded DNA-binding protein OS=Bacillus phage PZA OX=10757 GN=5 PE=3 SV=1
+sp|Q38504|SSB_BPPH2     16.7    0.0043     1   0.2      7    124     48    114     87    153     Single-stranded DNA-binding protein OS=Bacillus phage phi29 OX=10756 GN=5 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_001687540@NC_010363.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_001687540@NC_010363.txt data/models_hmm/YP_001687540@NC_010363.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:44:40 2021
+# [ok]

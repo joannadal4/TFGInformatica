@@ -1,0 +1,63 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|P06725|PP65_HCMVA    92.3   2.3e-26   2   1.6   0.1    65 kDa phosphoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL83 PE=1 SV=2
+sp|P18139|PP65_HCMVT    91.9   3.2e-26   2   1.6   0.3    65 kDa phosphoprotein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL83 PE=1 SV=2
+sp|Q6SW59|PP65_HCMVM    91.8   3.3e-26   2   1.5   0.3    65 kDa phosphoprotein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL83 PE=1 SV=1
+sp|P24434|VU54_HHV6U    73.1   1.6e-20   1   1.2   0.3    Protein U54 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U54 PE=3 SV=1
+sp|P52516|VU54_HHV7J    52.9     2e-14   1   1.7   0.6    Protein U54 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U54 PE=3 SV=1
+sp|Q9QJ29|VU54_HHV6Z    47.5   8.6e-13   1   1.8   0.1    Protein U54 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U54 PE=3 SV=1
+sp|F5HBC6|PP71_HCMVM    37.5   9.4e-10   1   1.1   0.0    Protein pp71 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL82 PE=3 SV=1
+sp|P06726|PP71_HCMVA    37.5   9.4e-10   1   1.1   0.0    Protein pp71 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL82 PE=1 SV=2
+sp|P52517|V55A_HHV7J    30.5   1.3e-07   2   1.7   0.1    Uncharacterized protein U55A OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U55A PE=4 SV=1
+sp|P24435|VU55_HHV6U    28.2   6.2e-07   1   1.3   0.0    Uncharacterized protein U55 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U55 PE=4 SV=1
+sp|Q9QJ28|VU55_HHV6Z    25.8   3.4e-06   1   1.4   0.0    Uncharacterized protein U55 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U55 PE=4 SV=1
+sp|F5HB40|UL84_HCMVM    25.2   5.1e-06   3   1.9   0.1    Protein UL84 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL84 PE=3 SV=1
+sp|P16727|UL84_HCMVA    24.8   6.8e-06   3   1.8   0.1    Protein UL84 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL84 PE=1 SV=1
+sp|P29839|UL84_HCMVT    24.5   8.3e-06   3   1.7   0.4    UL84 protein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL84 PE=2 SV=1
+sp|P52518|V55B_HHV7J    23.6   1.6e-05   1   1.2   0.3    Uncharacterized protein U55B OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U55B PE=4 SV=1
+sp|P52524|VU10_HHV7J    13.0     0.024   1   1.1   0.0    U10 protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U10 PE=3 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|P06725|PP65_HCMVA    92.3   2.3e-26     1   0.1     23    397     34    359     33    353     65 kDa phosphoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL83 PE=1 SV=2
+sp|P18139|PP65_HCMVT    91.9   3.2e-26     1   0.3     16    370     24    349     33    353     65 kDa phosphoprotein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL83 PE=1 SV=2
+sp|Q6SW59|PP65_HCMVM    91.8   3.3e-26     1   0.3     23    377     34    359     33    353     65 kDa phosphoprotein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL83 PE=1 SV=1
+sp|P24434|VU54_HHV6U    72.6   2.2e-20     1   0.3      2    373      9    337     19    350     Protein U54 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U54 PE=3 SV=1
+sp|P52516|VU54_HHV7J    50.9   8.2e-14     1   0.6      4    369     10    343     20    356     Protein U54 OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U54 PE=3 SV=1
+sp|Q9QJ29|VU54_HHV6Z    45.4   3.8e-12     1   0.1      2    342     10    337     20    350     Protein U54 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U54 PE=3 SV=1
+sp|F5HBC6|PP71_HCMVM    37.0   1.3e-09     1   0.0     16    381     53    369     38    349     Protein pp71 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL82 PE=3 SV=1
+sp|P06726|PP71_HCMVA    37.0   1.3e-09     1   0.0     16    381     53    369     38    349     Protein pp71 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL82 PE=1 SV=2
+sp|P52517|V55A_HHV7J    28.8     4e-07     2   0.0    234    367    269    351    265    349     Uncharacterized protein U55A OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U55A PE=4 SV=1
+sp|P24435|VU55_HHV6U    27.5     1e-06     1   0.0    211    386    252    360    244    353     Uncharacterized protein U55 OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=U55 PE=4 SV=1
+sp|Q9QJ28|VU55_HHV6Z    25.0     6e-06     1   0.0    273    446    314    420    246    353     Uncharacterized protein U55 OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=U55 PE=4 SV=1
+sp|P29839|UL84_HCMVT    23.3   1.9e-05     3   0.0    358    540    377    512    217    354     UL84 protein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL84 PE=2 SV=1
+sp|P52518|V55B_HHV7J    23.2   2.1e-05     1   0.3    122    388    226    360    215    354     Uncharacterized protein U55B OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U55B PE=4 SV=1
+sp|P16727|UL84_HCMVA    23.1   2.1e-05     3   0.0    359    539    377    511    218    354     Protein UL84 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL84 PE=1 SV=1
+sp|F5HB40|UL84_HCMVM    23.1   2.2e-05     3   0.0    360    540    378    512    218    354     Protein UL84 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL84 PE=3 SV=1
+sp|P52524|VU10_HHV7J    12.6     0.034     1   0.0    318    431    325    415    260    348     U10 protein OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U10 PE=3 SV=1
+sp|P18139|PP65_HCMVT    -1.5   6.5e+02     2   0.1    391    479    404    460    362    417     65 kDa phosphoprotein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL83 PE=1 SV=2
+sp|P52517|V55A_HHV7J    -1.6   6.6e+02     1   0.0     79    112     85    102    105    122     Uncharacterized protein U55A OS=Human herpesvirus 7 (strain JI) OX=57278 GN=U55A PE=4 SV=1
+sp|F5HB40|UL84_HCMVM    -1.7   7.2e+02     1   0.1    102    174    120    165    479    521     Protein UL84 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL84 PE=3 SV=1
+sp|P06725|PP65_HCMVA    -1.9   8.4e+02     2   0.6    401    489    414    470    362    417     65 kDa phosphoprotein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL83 PE=1 SV=2
+sp|Q6SW59|PP65_HCMVM    -2.1   9.2e+02     2   0.1    403    488    414    468    362    415     65 kDa phosphoprotein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL83 PE=1 SV=1
+sp|P16727|UL84_HCMVA    -2.8   1.6e+03     1   0.0    105    173    120    166    480    522     Protein UL84 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL84 PE=1 SV=1
+sp|P29839|UL84_HCMVT    -3.0   1.8e+03     2   0.0    301    351    306    344     61     98     UL84 protein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL84 PE=2 SV=1
+sp|P16727|UL84_HCMVA    -3.9   3.2e+03     2   0.0    301    349    306    342     62     98     Protein UL84 OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL84 PE=1 SV=1
+sp|F5HB40|UL84_HCMVM    -3.9   3.2e+03     2   0.0    302    350    307    343     62     98     Protein UL84 OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL84 PE=3 SV=1
+sp|P29839|UL84_HCMVT    -4.3   4.3e+03     1   0.2    127    170    139    168    426    455     UL84 protein OS=Human cytomegalovirus (strain Towne) OX=10363 GN=UL84 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_007016481@NC_019559.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_007016481@NC_019559.txt data/models_hmm/YP_007016481@NC_019559.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:48:29 2021
+# [ok]

@@ -1,0 +1,33 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q9DUD9|FUS_SENDA     12.6     0.099   2   1.9   0.0    Fusion glycoprotein F0 OS=Sendai virus (strain Hamamatsu) OX=302271 GN=F PE=3 SV=1
+sp|O57295|FUS_SENDO     12.6       0.1   2   1.9   0.0    Fusion glycoprotein F0 OS=Sendai virus (strain Ohita) OX=302272 GN=F PE=3 SV=1
+sp|P04855|FUS_SENDZ     12.2      0.13   2   1.8   0.1    Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|P12575|FUS_SENDF     12.1      0.14   2   1.8   0.1    Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|O57295|FUS_SENDO     10.7       0.4     1   0.0    123    207    136    201     57    123     Fusion glycoprotein F0 OS=Sendai virus (strain Ohita) OX=302272 GN=F PE=3 SV=1
+sp|P04855|FUS_SENDZ     10.7       0.4     1   0.0    123    207    136    201     57    123     Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|Q9DUD9|FUS_SENDA     10.7       0.4     1   0.0    123    207    136    201     57    123     Fusion glycoprotein F0 OS=Sendai virus (strain Hamamatsu) OX=302271 GN=F PE=3 SV=1
+sp|P12575|FUS_SENDF     10.6      0.43     1   0.1    124    206    137    201     58    123     Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+sp|O57295|FUS_SENDO     -1.7   2.7e+03     2   0.0    456    500    462    490     43     71     Fusion glycoprotein F0 OS=Sendai virus (strain Ohita) OX=302272 GN=F PE=3 SV=1
+sp|Q9DUD9|FUS_SENDA     -1.7   2.7e+03     2   0.0    456    500    462    490     43     71     Fusion glycoprotein F0 OS=Sendai virus (strain Hamamatsu) OX=302271 GN=F PE=3 SV=1
+sp|P04855|FUS_SENDZ     -2.7   5.4e+03     2   0.0    460    498    464    489     45     70     Fusion glycoprotein F0 OS=Sendai virus (strain Z) OX=11198 GN=F PE=1 SV=3
+sp|P12575|FUS_SENDF     -2.7   5.4e+03     2   0.0    460    498    464    489     45     70     Fusion glycoprotein F0 OS=Sendai virus (strain Fushimi) OX=11195 GN=F PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/7000000005@SRS022536_LANL_scaffold_58447@SRS022536_LANL_scaffold_58447_gene_133999.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/7000000005@SRS022536_LANL_scaffold_58447@SRS022536_LANL_scaffold_58447_gene_133999.txt data/models_hmm/7000000005@SRS022536_LANL_scaffold_58447@SRS022536_LANL_scaffold_58447_gene_133999.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:35:30 2021
+# [ok]

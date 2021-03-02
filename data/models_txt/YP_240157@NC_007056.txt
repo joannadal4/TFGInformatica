@@ -1,0 +1,28 @@
+# Sequence scores
+# ---------------
+#
+# name                   bits   E-value   n   exp  bias    description
+#  ------------------- ------ --------- --- ----- -----    ---------------------
+sp|A9CRA7|CAPSD_BPMR1   394.9  1.7e-118   1   1.0   1.8    Major capsid protein OS=Staphylococcus phage phiMR11 OX=379501 GN=orf44 PE=1 SV=1
+sp|Q6QGD8|CAPSD_BPT5     23.5   2.9e-05   2   1.6   0.6    Major capsid protein OS=Escherichia phage T5 OX=10726 GN=D20 PE=1 SV=1
+sp|Q38582|CAPSD_BPSPP    14.8     0.014   1   1.5   0.3    Major capsid protein OS=Bacillus phage SPP1 OX=10724 GN=13 PE=1 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                  bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#  ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|A9CRA7|CAPSD_BPMR1   394.7  1.9e-118     1   1.8      1    273      1    271      1    270     Major capsid protein OS=Staphylococcus phage phiMR11 OX=379501 GN=orf44 PE=1 SV=1
+sp|Q6QGD8|CAPSD_BPT5     22.5   5.7e-05     2   0.1    301    450    306    434    123    245     Major capsid protein OS=Escherichia phage T5 OX=10726 GN=D20 PE=1 SV=1
+sp|Q38582|CAPSD_BPSPP    13.9     0.025     1   0.3      1    208      1    166      1    155     Major capsid protein OS=Bacillus phage SPP1 OX=10724 GN=13 PE=1 SV=1
+sp|Q6QGD8|CAPSD_BPT5     -2.7   2.8e+03     1   0.0    100    187    121    170    143    192     Major capsid protein OS=Escherichia phage T5 OX=10726 GN=D20 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/YP_240157@NC_007056.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/YP_240157@NC_007056.txt data/models_hmm/YP_240157@NC_007056.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:51:22 2021
+# [ok]

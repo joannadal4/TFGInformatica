@@ -1,0 +1,49 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+sp|Q96912|GL_HHV1K     348.0    2e-104   1   1.0   0.0    Envelope glycoprotein L OS=Human herpesvirus 1 (strain KOS) OX=10306 GN=gL PE=1 SV=1
+sp|P10185|GL_HHV11     347.9  2.2e-104   1   1.0   0.0    Envelope glycoprotein L OS=Human herpesvirus 1 (strain 17) OX=10299 GN=gL PE=1 SV=1
+sp|P28278|GL_HHV2H     347.6  2.7e-104   1   1.0   0.1    Envelope glycoprotein L OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=gL PE=1 SV=1
+sp|Q9J3N1|GL_VZVO       96.5   1.5e-27   1   1.0   0.1    Envelope glycoprotein L OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gL PE=1 SV=1
+sp|P09308|GL_VZVD       94.5   6.1e-27   1   1.0   0.1    Envelope glycoprotein L OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gL PE=3 SV=1
+sp|P28941|GL_EHV1B      42.7   4.1e-11   1   1.2   0.0    Envelope glycoprotein L OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=gL PE=3 SV=1
+sp|P84455|GL_EHV1V      42.7   4.1e-11   1   1.2   0.0    Envelope glycoprotein L OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=gL PE=3 SV=1
+sp|P52510|GL_GAHVG      28.4     1e-06   1   1.3   0.0    Envelope glycoprotein L OS=Gallid herpesvirus 2 (strain GA) OX=10388 GN=gL PE=3 SV=1
+sp|Q77MS8|GL_GAHVM      28.4     1e-06   1   1.3   0.0    Envelope glycoprotein L OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=gL PE=3 SV=1
+sp|P52511|GL_SUHVF      16.2    0.0053   2   1.4   0.8    Envelope glycoprotein L OS=Suid herpesvirus 1 (strain Indiana-Funkhauser / Becker) OX=31523 GN=gL PE=1 SV=1
+sp|P52512|GL_SUHVK      16.2    0.0054   2   1.4   0.6    Envelope glycoprotein L OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=gL PE=1 SV=1
+sp|Q76ZJ3|C22L_VACCW    12.6     0.068   1   1.2   0.2    Truncated CrmB protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=C22L PE=4 SV=1
+sp|P21106|C22L_VACCC    12.4     0.079   1   1.2   0.2    Truncated CrmB protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B28R PE=4 SV=1
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+sp|Q96912|GL_HHV1K     347.8  2.3e-104     1   0.0      1    223      1    219      1    226     Envelope glycoprotein L OS=Human herpesvirus 1 (strain KOS) OX=10306 GN=gL PE=1 SV=1
+sp|P10185|GL_HHV11     347.7  2.5e-104     1   0.0      1    223      1    219      1    226     Envelope glycoprotein L OS=Human herpesvirus 1 (strain 17) OX=10299 GN=gL PE=1 SV=1
+sp|P28278|GL_HHV2H     347.4  3.1e-104     1   0.1      1    223      3    220      9    227     Envelope glycoprotein L OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=gL PE=1 SV=1
+sp|Q9J3N1|GL_VZVO       96.4   1.7e-27     1   0.1      1    160      1    159      1    167     Envelope glycoprotein L OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=gL PE=1 SV=1
+sp|P09308|GL_VZVD       94.4   6.7e-27     1   0.1      1    159      1    158      1    167     Envelope glycoprotein L OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=gL PE=3 SV=1
+sp|P28941|GL_EHV1B      42.1   6.4e-11     1   0.0     72    188     92    183     63    156     Envelope glycoprotein L OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=gL PE=3 SV=1
+sp|P84455|GL_EHV1V      42.1   6.4e-11     1   0.0     72    188     92    183     63    156     Envelope glycoprotein L OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=gL PE=3 SV=1
+sp|P52510|GL_GAHVG      28.3   1.1e-06     1   0.0      1    185     30    110     32    115     Envelope glycoprotein L OS=Gallid herpesvirus 2 (strain GA) OX=10388 GN=gL PE=3 SV=1
+sp|Q77MS8|GL_GAHVM      28.3   1.1e-06     1   0.0      1    185     30    110     32    115     Envelope glycoprotein L OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=gL PE=3 SV=1
+sp|P52511|GL_SUHVF      16.1    0.0058     2   0.1     74    127     81    120     69    110     Envelope glycoprotein L OS=Suid herpesvirus 1 (strain Indiana-Funkhauser / Becker) OX=31523 GN=gL PE=1 SV=1
+sp|P52512|GL_SUHVK      15.8    0.0072     2   0.0     74    128     81    120     69    110     Envelope glycoprotein L OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=gL PE=1 SV=1
+sp|Q76ZJ3|C22L_VACCW    12.4     0.077     1   0.2      1     93     15     72    139    195     Truncated CrmB protein OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=C22L PE=4 SV=1
+sp|P21106|C22L_VACCC    12.2     0.091     1   0.2      1     88     15     70    139    193     Truncated CrmB protein OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=B28R PE=4 SV=1
+sp|P52512|GL_SUHVK      -3.3     5e+03     1   0.1     18     52     36     49    203    215     Envelope glycoprotein L OS=Suid herpesvirus 1 (strain Kaplan) OX=33703 GN=gL PE=1 SV=1
+sp|P52511|GL_SUHVF      -3.9   7.6e+03     1   0.1     25     51     36     49    203    215     Envelope glycoprotein L OS=Suid herpesvirus 1 (strain Indiana-Funkhauser / Becker) OX=31523 GN=gL PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/models_hmm/NP_044602@NC_001806.hmm
+# Target file:     uniprot-reviewed yes+taxonomy 10239.fasta
+# Option settings: hmmsearch --pfamtblout data/models_txt/NP_044602@NC_001806.txt data/models_hmm/NP_044602@NC_001806.hmm uniprot-reviewed yes+taxonomy 10239.fasta 
+# Current dir:     /home/joannadal/TFG/TFGInformatica
+# Date:            Mon Mar  1 13:42:22 2021
+# [ok]
