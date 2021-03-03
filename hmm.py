@@ -41,9 +41,9 @@ def get_proteins(model: str) -> List[str]:
         mkdir(folder_data_txt_path)
 
     output_file= f"data/models_txt/{model}.txt"
-    """command_line = 'hmmsearch --pfamtblout ' + output_file + f' data/models_hmm/{model}.hmm ' +  UNIPROT_DATABASE
+    command_line = 'hmmsearch --pfamtblout ' + output_file + f' data/models_hmm/{model}.hmm ' +  UNIPROT_DATABASE
     args = shlex.split(command_line)
-    subprocess.call(args)"""
+    subprocess.call(args)
     #subprocess.call(["hmmsearch", "--tblout", output_file, f"data/models_hmm/{model}.hmm", UNIPROT_DATABASE])'
     proteins = get_proteins_from_hmmsearch_file(output_file)
     return proteins
