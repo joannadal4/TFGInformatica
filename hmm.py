@@ -12,10 +12,11 @@ from constant import REGEX_NAME, REGEX_PROTEIN
 def split_models(models_file: str) -> List[str]:
     """Get one model files, split in one file per model and returns the model names."""
     models = []
-    folder_data_models_path = "data/models_hmm"
-    if not os.path.exists(folder_data_models_path):
+    folder_models_path = "data/models_hmm"
+    if not os.path.exists("data"):
         mkdir("data")
-        mkdir(folder_data_models_path)
+    if not os.path.exists(folder_models_path):
+        mkdir(folder_models_path)
 
     with open(models_file) as f:
         model_name = None
@@ -36,16 +37,12 @@ def split_models(models_file: str) -> List[str]:
 
 def get_proteins(model: str) -> List[str]:
     """Compute hmmsearch and returns the list of matching proteins."""
-    folder_data_txt_path = "data/models_txt"
-    if not os.path.exists(folder_data_txt_path):
-        mkdir(folder_data_txt_path)
-
     output_file= f"data/models_txt/{model}.txt"
     command_line = 'hmmsearch --pfamtblout ' + output_file + f' data/models_hmm/{model}.hmm ' +  UNIPROT_DATABASE
     args = shlex.split(command_line)
     subprocess.call(args)
-    #subprocess.call(["hmmsearch", "--tblout", output_file, f"data/models_hmm/{model}.hmm", UNIPROT_DATABASE])'
     proteins = get_proteins_from_hmmsearch_file(output_file)
+    os.remove(output_file)
     return proteins
 
 
