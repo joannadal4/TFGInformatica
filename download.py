@@ -11,7 +11,3 @@ def downloadModels():
     with open("final_list.hmms", "wb") as file:
         file.write(response.content)
     file.close()
-
-if __name__ == "__main__":
-    #downloadUniprot()
-    downloadModels()
