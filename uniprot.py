@@ -17,11 +17,11 @@ def get_go_functions(protein: str) -> List[str]:
     return go_functions
 
 def get_name_specie(protein: str) -> str:
-    """Given a protein get it GO functions from Uniprot."""
+    """Given a protein get it GO functions from Uniprot.    (Important separar get_name i get_code ) """
     codes = ""
 """
 1. parse xml to search specie name from xml, if there is parentheses, ignore it
-2- Search on http://viruses.string-db.org/download/species.v10.5.txt if specie exists
+2- Search on http://viruses.string-db.org/download/species.v10.5.txt if specie exists (descarregar)
 3- If not exists, then code = null
 4- Obtain code of this specie. Regular expression to take the code
 """
