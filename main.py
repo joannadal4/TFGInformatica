@@ -47,3 +47,18 @@ if __name__ == "__main__":
     parser.add_argument("output_file", type=str, help="Out file json format")
     args = parser.parse_args()
     main(args.models_file, args.output_file)
+
+
+"""
+- arc parse -d download.py
+- Corregir rmdir
+- Agaf codi de proteina i cerc l’espècie
+
+- http://viruses.string-db.org/download/species.v10.5.txt i cerc codi
+
+
+- Descarreg relacions a través de l’enllaç ….http://viruses.string-db.org/download/protein.links.v10.5/38525.protein.links.v10.5.txt.gz
+
+- Detect la meva proteína i els seus enllaços
+https://string-db.org/api/json/get_string_ids?identifiers=9606.ENSP00000289153
+"""
