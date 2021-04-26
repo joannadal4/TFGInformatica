@@ -1,5 +1,5 @@
 import db
-from tables import ModelVPF, Specie, Protein, Function, R_Protein_Function, R_Protein_Protein, R_Protein_ModelVPF
+from models import ModelVPF, Species, Protein, Function, R_Protein_Function, Interaction, R_Protein_ModelVPF
 
 
 if __name__ == '__main__':

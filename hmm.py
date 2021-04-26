@@ -7,6 +7,17 @@ from typing import List
 
 from config import UNIPROT_DATABASE
 from constant import REGEX_NAME, REGEX_PROTEIN
+import psycopg2
+from psycopg2 import Error
+from psycopg2 import sql
+
+
+
+user = "postgres"
+password = "postgres"
+db_name = "modelvpf"
+db_port = "1234"
+db_host = "127.0.0.1"
 
 
 def split_models(models_file: str) -> List[str]:
@@ -31,6 +42,12 @@ def split_models(models_file: str) -> List[str]:
                 f_model.close()
             if line.startswith("NAME"):
                 model_name = re.findall(REGEX_NAME, line)[0]
+                conn = psycopg2.connect("dbname=%s user=%s  port=%s host=%s password=%s" % (db_name,user, db_port,db_host,password))
+                cur = conn.cursor()
+                cur.execute("INSERT INTO MODEL (code, path) VALUES (%s,%s)", (model_name,f"data/models_hmm/{model_name}.hmm"))
+                conn.commit()
+                cur.close()
+                conn.close()
     f.close()
     return models
 
