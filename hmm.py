@@ -6,18 +6,18 @@ from os import mkdir
 from typing import List
 
 from config import UNIPROT_DATABASE
-from constant import REGEX_NAME, REGEX_PROTEIN
-import psycopg2
-from psycopg2 import Error
-from psycopg2 import sql
+from constant import REGEX_NAME, REGEX_PROTEIN, REGEX_SCORE, REGEX_SPECIE
 
+from models import ModelVPF, Protein, Species, R_Protein_ModelVPF
+from db import Session
 
+import requests
+from typing import List
+import xml.dom.minidom
+from xml.etree import ElementTree
 
-user = "postgres"
-password = "postgres"
-db_name = "modelvpf"
-db_port = "1234"
-db_host = "127.0.0.1"
+from sqlalchemy.sql import exists
+
 
 
 def split_models(models_file: str) -> List[str]:
@@ -32,6 +32,7 @@ def split_models(models_file: str) -> List[str]:
     with open(models_file) as f:
         model_name = None
         model_lines = []
+        session= Session()
         for line in f:
             model_lines.append(line)
             if line == "//\n":
@@ -42,12 +43,10 @@ def split_models(models_file: str) -> List[str]:
                 f_model.close()
             if line.startswith("NAME"):
                 model_name = re.findall(REGEX_NAME, line)[0]
-                conn = psycopg2.connect("dbname=%s user=%s  port=%s host=%s password=%s" % (db_name,user, db_port,db_host,password))
-                cur = conn.cursor()
-                cur.execute("INSERT INTO MODEL (code, path) VALUES (%s,%s)", (model_name,f"data/models_hmm/{model_name}.hmm"))
-                conn.commit()
-                cur.close()
-                conn.close()
+                if session.query(exists().where(ModelVPF.code == model_name)).scalar() == False:
+                    modelvpf = ModelVPF(code=model_name, path=f"data/models_hmm/{model_name}.hmm")
+                    session.add(modelvpf)
+        session.commit()
     f.close()
     return models
 
@@ -59,8 +58,64 @@ def get_proteins(model: str) -> List[str]:
     args = shlex.split(command_line)
     subprocess.call(args)
     proteins = get_proteins_from_hmmsearch_file(output_file)
+
+    session= Session()
+
+    for protein in proteins:
+        score = get_score_protein_model(output_file, protein)
+        score = 104.6
+
+        response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
+        # parse xml and return protein information
+        root = ElementTree.fromstring(response.content)
+        taxonomy = root.findall('.//{http://uniprot.org/uniprot}lineage')[0][-1].text
+        gene = root.findall('.//{http://uniprot.org/uniprot}gene')[0][0].text
+        name_species = root.findall('.//{http://uniprot.org/uniprot}organism')[0][0].text
+        if (name_species.find('(') > -1):
+            name_species = re.findall(REGEX_SPECIE, name_species)[0]
+
+        name_protein = root.findall('.//{http://uniprot.org/uniprot}recommendedName')[0][0].text
+        subcellularLocation = []
+        location = root.findall('.//{http://uniprot.org/uniprot}subcellularLocation')
+        for child in location:
+            if child[0].text not in subcellularLocation:
+                subcellularLocation.append(child[0].text)
+
+        location = ""
+        for child in subcellularLocation:
+            location = child + ', ' + location
+
+        if session.query(exists().where(Species.name == name_species)).scalar() == False:
+            species = Species(name=name_species, taxonomy=taxonomy, isVirus = True)
+            session.add(species)
+
+        if session.query(exists().where(Protein.code == protein)).scalar() == False:
+            idSpecies = session.query(Species.idSpecies).filter(Species.name == name_species)
+            prot = Protein(code = protein, name = name_protein, gene = gene, location = location, idSpecies = idSpecies)
+            session.add(prot)
+
+
+        idProtein = session.query(Protein.idProtein).filter(Protein.code == protein)
+        idModel = session.query(ModelVPF.idModel).filter(ModelVPF.code == model)
+        if session.query(exists().where(R_Protein_ModelVPF.idProtein == idProtein and R_Protein_ModelVPF.idModel == idModel)).scalar() == False:
+            model_protein = R_Protein_ModelVPF(idProtein = idProtein, idModel = idModel, score = score)
+            session.add(model_protein)
+
+    session.commit()
+
     os.remove(output_file)
     return proteins
+
+def get_score_protein_model(output_file: str, protein: str) -> str:
+    with open(output_file) as file:
+        score = ""
+        for line in file:
+            if line.startswith(f"sp|{protein}"):
+                score = re.findall(REGEX_SCORE, line)[6]
+                if score != "":
+                    break
+    file.close()
+    return score
 
 
 def get_proteins_from_hmmsearch_file(output_file: str) -> List[str]:

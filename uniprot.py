@@ -3,27 +3,32 @@ from typing import List
 import xml.dom.minidom
 from xml.etree import ElementTree
 
-import psycopg2
-from psycopg2 import Error
-from psycopg2 import sql
-
-from constant import REGEX_SPECIE
+import json
 
 
-def get_go_functions(protein: str, model: str) -> List[str]:
+def get_go_functions(protein: str) -> List[str]:
     """Given a protein get it GO functions from Uniprot."""
     go_functions = []
     response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
     # parse xml and return GO
     root = ElementTree.fromstring(response.content)
-    for child in root.iter('*'):
-        if 'organism' in child.tag:
-            if 'scientific' in child.attrib['type']:
-                print(child.attrib['type'])
-        if 'dbReference' in child.tag:
-            if 'GO' in child.attrib['type']:
-                go_functions.append(child.attrib['id'])
+
+    goFunction = root.findall('.//{http://uniprot.org/uniprot}dbReference[@type="GO"]')
+    for child in goFunction:
+        go_functions.append(child.attrib['id'])
+        resp = requests.get(f"https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/{child.attrib['id']}/complete")
+        jsonGO = resp.json()
+        data_string = json.dumps(jsonGO)
+        description= str(json.loads(data_string)["results"][0]["definition"]["text"])
+        aspect= str(json.loads(data_string)["results"][0]["annotationGuidelines"]["aspect"])
+
+        print(aspect)
+
     return go_functions
+
+
+
+
 
 def get_name_specie(protein: str) -> str:
     """Given a protein get it GO functions from Uniprot.    (Important separar get_name i get_code )
@@ -35,12 +40,3 @@ def get_name_specie(protein: str) -> str:
 4- Obtain code of this specie. Regular expression to take the code
 
     return code"""
-
-
-
-"""conn = psycopg2.connect("dbname=%s user=%s  port=%s host=%s password=%s" % (db_name,user, db_port,db_host,password))
-cur = conn.cursor()
-cur.execute("INSERT INTO MODEL (code, path) VALUES (%s,%s)", (model_name,f"data/models_hmm/{model_name}.hmm"))
-conn.commit()
-cur.close()
-conn.close()"""
