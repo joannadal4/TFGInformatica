@@ -11,24 +11,21 @@ from uniprot import get_go_functions
 
 def main(models_file: str) -> None: #, output_file: str) -> None:
     """Split hmm models and get it's proteins and go functions."""
-    #models = split_models(models_file)
+    models = split_models(models_file)
 
-    proteins = get_proteins("YP_077252@NC_006268")
-    data = {}
-    #for model in models:
-
-    #proteins = get_proteins(model)
-    if proteins:
-        go_functions = []
-        for protein in proteins:
-            go_functions.append(get_go_functions(protein))
+    for model in models:
+        proteins = get_proteins(model)
+        if proteins:
+            go_functions = []
+            for protein in proteins:
+                go_functions.append(get_go_functions(protein))
 
         """1- code = get_name_specie(protein)
             2- codes.append(code)
             3- data[model] = {'proteins': proteins, 'go_functions': go_functions, 'codes': codes}"""
 
 
-        #    data[model] = {'proteins': proteins, 'go_functions': go_functions}
+    #data[model] = {'proteins': proteins, 'go_functions': go_functions}
 """
     1- for model in data[model]
     2- for protein in model

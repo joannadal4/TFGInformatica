@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, ForeignKey, Column, Integer, String, Boolean, Float, Index
+from sqlalchemy import create_engine, ForeignKey, Column, Integer, String, Boolean, Float, Index, Text
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.declarative import declarative_base
 
@@ -20,8 +20,8 @@ class ModelVPF(Base):
 class Species(Base):
    __tablename__ = 'species'
    idSpecies = Column(Integer, primary_key = True)
-   name = Column(String(50), nullable = False, unique = True)
-   taxonomy = Column(String(20), nullable = False)
+   name = Column(String(100), nullable = False, unique = True)
+   taxonomy = Column(String(100), nullable = False)
    isVirus = Column(Boolean, nullable = False)
 
    proteins = relationship('Protein')
@@ -33,9 +33,9 @@ class Protein(Base):
    __tablename__ = 'protein'
    idProtein = Column(Integer, primary_key = True)
    code = Column(String(15), nullable = False, unique = True)
-   name = Column(String(50), nullable = False)
-   gene = Column(String(15), nullable = False)
-   location = Column(String(100), nullable = True)
+   name = Column(String(100), nullable = False)
+   gene = Column(String(50), nullable = True)
+   location = Column(Text, nullable = True)
    idSpecies = Column(Integer, ForeignKey('species.idSpecies'))
 
    functions = relationship('R_Protein_Function', back_populates='protein')
@@ -52,8 +52,8 @@ class Function(Base):
    __tablename__ = 'function'
    idFunction = Column(Integer, primary_key = True)
    codeGO = Column(String(15), nullable = False, unique = True)
-   description = Column(String(200), nullable = False)
-   aspect = Column(String(30), nullable = False)
+   description = Column(Text, nullable = False)
+   aspect = Column(String(100), nullable = True)
 
    proteins = relationship('R_Protein_Function', back_populates= 'function')
 
@@ -77,6 +77,7 @@ class R_Protein_ModelVPF(Base):
    idProtein = Column(Integer, ForeignKey('protein.idProtein'), primary_key = True)
    idModel = Column(Integer, ForeignKey('model.idModel'),primary_key = True)
    score = Column (Float, nullable = True)
+   e_value = Column (Float, nullable = True)
 
    model = relationship('ModelVPF', back_populates= 'proteins')
    protein = relationship('Protein', back_populates= 'models')

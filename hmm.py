@@ -4,6 +4,7 @@ import tempfile
 import os
 from os import mkdir
 from typing import List
+from time import sleep
 
 from config import UNIPROT_DATABASE
 from constant import REGEX_NAME, REGEX_PROTEIN, REGEX_SCORE, REGEX_SPECIE
@@ -54,7 +55,7 @@ def split_models(models_file: str) -> List[str]:
 def get_proteins(model: str) -> List[str]:
     """Compute hmmsearch and returns the list of matching proteins."""
     output_file= f"data/models_txt/{model}.txt"
-    command_line = 'hmmsearch --pfamtblout ' + output_file + f' data/models_hmm/{model}.hmm ' +  UNIPROT_DATABASE
+    command_line = 'hmmsearch --pfamtblout ' + output_file + f' data/models_hmm/{model}.hmm ' +  UNIPROT_DATABASE   #--incE {threshold} (e.value > 0.001)
     args = shlex.split(command_line)
     subprocess.call(args)
     proteins = get_proteins_from_hmmsearch_file(output_file)
@@ -62,19 +63,31 @@ def get_proteins(model: str) -> List[str]:
     session= Session()
 
     for protein in proteins:
-        score = get_score_protein_model(output_file, protein)
-        score = 104.6
+        score_evalue = get_score_evalue_protein_model(output_file, protein)
 
-        response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
+        try:
+            response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
+        except:
+            print("Let me sleep for 5 seconds")
+            sleep(5)
+            print("Was a nice sleep, now let me continue...")
+            response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
         # parse xml and return protein information
         root = ElementTree.fromstring(response.content)
+
+
         taxonomy = root.findall('.//{http://uniprot.org/uniprot}lineage')[0][-1].text
-        gene = root.findall('.//{http://uniprot.org/uniprot}gene')[0][0].text
+
+        gene = root.findall('.//{http://uniprot.org/uniprot}gene')
+        if len(gene)>0:
+            gene = root.findall('.//{http://uniprot.org/uniprot}gene')[0][0].text
+
         name_species = root.findall('.//{http://uniprot.org/uniprot}organism')[0][0].text
         if (name_species.find('(') > -1):
             name_species = re.findall(REGEX_SPECIE, name_species)[0]
 
         name_protein = root.findall('.//{http://uniprot.org/uniprot}recommendedName')[0][0].text
+
         subcellularLocation = []
         location = root.findall('.//{http://uniprot.org/uniprot}subcellularLocation')
         for child in location:
@@ -98,7 +111,7 @@ def get_proteins(model: str) -> List[str]:
         idProtein = session.query(Protein.idProtein).filter(Protein.code == protein)
         idModel = session.query(ModelVPF.idModel).filter(ModelVPF.code == model)
         if session.query(exists().where(R_Protein_ModelVPF.idProtein == idProtein and R_Protein_ModelVPF.idModel == idModel)).scalar() == False:
-            model_protein = R_Protein_ModelVPF(idProtein = idProtein, idModel = idModel, score = score)
+            model_protein = R_Protein_ModelVPF(idProtein = idProtein, idModel = idModel, score = score_evalue[0], e_value = score_evalue[1])
             session.add(model_protein)
 
     session.commit()
@@ -106,16 +119,18 @@ def get_proteins(model: str) -> List[str]:
     os.remove(output_file)
     return proteins
 
-def get_score_protein_model(output_file: str, protein: str) -> str:
+def get_score_evalue_protein_model(output_file: str, protein: str) -> str:
     with open(output_file) as file:
-        score = ""
+        score_evalue = []
         for line in file:
             if line.startswith(f"sp|{protein}"):
-                score = re.findall(REGEX_SCORE, line)[6]
-                if score != "":
+                score_evalue.append(line.split()[1])
+                score_evalue.append(line.split()[2])
+                if score_evalue[0] != "":
                     break
+
     file.close()
-    return score
+    return score_evalue
 
 
 def get_proteins_from_hmmsearch_file(output_file: str) -> List[str]:
