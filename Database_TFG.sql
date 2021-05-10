@@ -1,26 +1,37 @@
 -- Created by Vertabelo (http://vertabelo.com)
--- Last modification date: 2021-04-14 21:23:55.597
+-- Last modification date: 2021-05-09 10:24:44.305
 
 -- tables
 -- Table: FUNCTION
 CREATE TABLE FUNCTION (
     idFunction serial  NOT NULL,
-    codeGO varchar(15)  NOT NULL,
-    description varchar(200)  NOT NULL,
-    aspect varchar(30)  NOT NULL,
+    code varchar(15)  NOT NULL,
+    description text  NOT NULL,
+    aspect varchar(100)  NULL,
+    CONSTRAINT FUNCTION_codeGO_uk UNIQUE (code) NOT DEFERRABLE  INITIALLY IMMEDIATE,
     CONSTRAINT FUNCTION_pk PRIMARY KEY (idFunction)
+);
+
+-- Table: INTERACTION
+CREATE TABLE INTERACTION (
+    idProteinV serial  NOT NULL,
+    idProteinH serial  NOT NULL,
+    CONSTRAINT INTERACTION_pk PRIMARY KEY (idProteinH,idProteinV)
 );
 
 -- Table: PROTEIN
 CREATE TABLE PROTEIN (
     idProtein serial  NOT NULL,
     code varchar(15)  NOT NULL,
-    name varchar(50)  NOT NULL,
-    gene varchar(15)  NOT NULL,
-    location varchar(100)  NOT NULL,
+    name varchar(100)  NOT NULL,
+    gene varchar(50)  NULL,
+    location text  NULL,
     idSpecies serial  NOT NULL,
+    CONSTRAINT PROTEIN_code_uk UNIQUE (code) NOT DEFERRABLE  INITIALLY IMMEDIATE,
     CONSTRAINT PROTEIN_pk PRIMARY KEY (idProtein)
 );
+
+CREATE INDEX protein_idSpecies_index on PROTEIN (idSpecies ASC);
 
 -- Table: R_PROTEIN_FUNCTION
 CREATE TABLE R_PROTEIN_FUNCTION (
@@ -33,35 +44,47 @@ CREATE TABLE R_PROTEIN_FUNCTION (
 CREATE TABLE R_PROTEIN_MODELVPF (
     idProtein serial  NOT NULL,
     idModel serial  NOT NULL,
-    score integer  NOT NULL,
+    score float  NULL,
+    e_value float  NULL,
     CONSTRAINT R_PROTEIN_MODELVPF_pk PRIMARY KEY (idProtein,idModel)
-);
-
--- Table: INTERACTION
-CREATE TABLE INTERACTION (
-    idProteinV serial  NOT NULL,
-    idProteinH serial  NOT NULL,
-    CONSTRAINT INTERACTION_pk PRIMARY KEY (idProteinH,idProteinV)
 );
 
 -- Table: SPECIES
 CREATE TABLE SPECIES (
     idSpecies serial  NOT NULL,
-    name varchar(50)  NOT NULL,
-    taxonomy varchar(20)  NOT NULL,
+    name varchar(100)  NOT NULL,
+    taxonomy varchar(100)  NOT NULL,
     isVirus boolean  NOT NULL,
+    CONSTRAINT SPECIES_name_uk UNIQUE (name) NOT DEFERRABLE  INITIALLY IMMEDIATE,
     CONSTRAINT SPECIE_pk PRIMARY KEY (idSpecies)
 );
 
 -- Table: VPFMODEL
 CREATE TABLE VPFMODEL (
     idModel serial  NOT NULL,
-    codeModel varchar(100)  NOT NULL,
-    path varchar(100)  NOT NULL,
+    code varchar(100)  NOT NULL,
+    path varchar(500)  NOT NULL,
+    CONSTRAINT VPFMODEL_code_uk UNIQUE (code) NOT DEFERRABLE  INITIALLY IMMEDIATE,
     CONSTRAINT VPFMODEL_pk PRIMARY KEY (idModel)
 );
 
 -- foreign keys
+-- Reference: FK_INTERACTION_PROTEINH (table: INTERACTION)
+ALTER TABLE INTERACTION ADD CONSTRAINT FK_INTERACTION_PROTEINH
+    FOREIGN KEY (idProteinH)
+    REFERENCES PROTEIN (idProtein)  
+    NOT DEFERRABLE 
+    INITIALLY IMMEDIATE
+;
+
+-- Reference: FK_INTERACTION_PROTEINV (table: INTERACTION)
+ALTER TABLE INTERACTION ADD CONSTRAINT FK_INTERACTION_PROTEINV
+    FOREIGN KEY (idProteinV)
+    REFERENCES PROTEIN (idProtein)  
+    NOT DEFERRABLE 
+    INITIALLY IMMEDIATE
+;
+
 -- Reference: FK_PROTEIN_SPECIES (table: PROTEIN)
 ALTER TABLE PROTEIN ADD CONSTRAINT FK_PROTEIN_SPECIES
     FOREIGN KEY (idSpecies)
@@ -89,22 +112,6 @@ ALTER TABLE R_PROTEIN_FUNCTION ADD CONSTRAINT FK_R_PROTEIN_FUNCTION_PROTEIN
 -- Reference: FK_R_PROTEIN_MODELVPF_PROTEIN (table: R_PROTEIN_MODELVPF)
 ALTER TABLE R_PROTEIN_MODELVPF ADD CONSTRAINT FK_R_PROTEIN_MODELVPF_PROTEIN
     FOREIGN KEY (idProtein)
-    REFERENCES PROTEIN (idProtein)  
-    NOT DEFERRABLE 
-    INITIALLY IMMEDIATE
-;
-
--- Reference: FK_INTERACTION_PROTEINH (table: INTERACTION)
-ALTER TABLE INTERACTION ADD CONSTRAINT FK_INTERACTION_PROTEINH
-    FOREIGN KEY (idProteinH)
-    REFERENCES PROTEIN (idProtein)  
-    NOT DEFERRABLE 
-    INITIALLY IMMEDIATE
-;
-
--- Reference: FK_INTERACTION_PROTEINV (table: INTERACTION)
-ALTER TABLE INTERACTION ADD CONSTRAINT FK_INTERACTION_PROTEINV
-    FOREIGN KEY (idProteinV)
     REFERENCES PROTEIN (idProtein)  
     NOT DEFERRABLE 
     INITIALLY IMMEDIATE
