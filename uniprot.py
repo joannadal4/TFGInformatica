@@ -17,9 +17,7 @@ def get_go_functions(protein: str) -> List[str]:
     try:
         response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
     except:
-        print("Let me sleep for 5 seconds")
         sleep(5)
-        print("Was a nice sleep, now let me continue...")
         response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
     # parse xml and return GO
     root = ElementTree.fromstring(response.content)
@@ -31,9 +29,7 @@ def get_go_functions(protein: str) -> List[str]:
         try:
             resp = requests.get(f"https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/{child.attrib['id']}/complete")
         except:
-            print("Let me sleep for 5 seconds")
             sleep(5)
-            print("Was a nice sleep, now let me continue...")
             resp = requests.get(f"https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/{child.attrib['id']}/complete")
             continue
         jsonGO = resp.json()

@@ -7,7 +7,7 @@ from typing import List
 from time import sleep
 
 from config import UNIPROT_DATABASE
-from constant import REGEX_NAME, REGEX_PROTEIN, REGEX_SCORE, REGEX_SPECIE
+from constant import REGEX_NAME, REGEX_PROTEIN, REGEX_SPECIE
 
 from models import ModelVPF, Protein, Species, R_Protein_ModelVPF
 from db import Session
@@ -54,23 +54,28 @@ def split_models(models_file: str) -> List[str]:
 
 def get_proteins(model: str) -> List[str]:
     """Compute hmmsearch and returns the list of matching proteins."""
+    folder_models_txt = "data/models_txt"
+    if not os.path.exists(folder_models_txt):
+        mkdir(folder_models_txt)
     output_file= f"data/models_txt/{model}.txt"
-    command_line = 'hmmsearch --pfamtblout ' + output_file + f' data/models_hmm/{model}.hmm ' +  UNIPROT_DATABASE   #--incE {threshold} (e.value > 0.001)
+    command_line = 'hmmpress ' + f'data/models_hmm/{model}.hmm'
     args = shlex.split(command_line)
     subprocess.call(args)
-    proteins = get_proteins_from_hmmsearch_file(output_file)
+    command_line = 'hmmscan --tblout ' + output_file + f' data/models_hmm/{model}.hmm ' +  UNIPROT_DATABASE   #--incE {threshold} (e.value > 0.001)
+    args = shlex.split(command_line)
+    subprocess.call(args)
+
+    proteins = get_proteins_from_hmmscan_file(output_file, model)
 
     session= Session()
 
     for protein in proteins:
-        score_evalue = get_score_evalue_protein_model(output_file, protein)
+        score_evalue = get_score_evalue_protein_model(output_file, protein, model)
 
         try:
             response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
         except:
-            print("Let me sleep for 5 seconds")
             sleep(5)
-            print("Was a nice sleep, now let me continue...")
             response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
         # parse xml and return protein information
         root = ElementTree.fromstring(response.content)
@@ -116,28 +121,24 @@ def get_proteins(model: str) -> List[str]:
 
     session.commit()
 
-    os.remove(output_file)
     return proteins
 
-def get_score_evalue_protein_model(output_file: str, protein: str) -> str:
+def get_score_evalue_protein_model(output_file: str, protein: str, model: str) -> str:
     with open(output_file) as file:
         score_evalue = []
         for line in file:
-            if line.startswith(f"sp|{protein}"):
-                score_evalue.append(line.split()[1])
-                score_evalue.append(line.split()[2])
-                if score_evalue[0] != "":
-                    break
-
+            if line.startswith(f"{model} -          sp|{protein}"):
+                score_evalue.append(line.split()[5])
+                score_evalue.append(line.split()[4])
     file.close()
     return score_evalue
 
 
-def get_proteins_from_hmmsearch_file(output_file: str) -> List[str]:
+def get_proteins_from_hmmscan_file(output_file: str, model: str) -> List[str]:
     with open(output_file) as file:
         proteins = []
         for line in file:
-            if line.startswith("sp|"):
+            if line.startswith(model):
                 protein = re.findall(REGEX_PROTEIN, line)[0]
                 if protein not in proteins:
                     proteins.append(protein)
