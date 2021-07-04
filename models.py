@@ -1,10 +1,20 @@
-from sqlalchemy import create_engine, ForeignKey, Column, Integer, String, Boolean, Float, Index, Text
+from sqlalchemy import create_engine, ForeignKey, Column, Integer, String, Boolean, Float, Index, Text, Table
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
 
 
+class R_Protein_ModelVPF(Base):
+   __tablename__ = 'r_protein_modelvpf'
+
+   idProtein = Column(Integer, ForeignKey('protein.idProtein'), primary_key = True)
+   idModel = Column(Integer, ForeignKey('model.idModel'),primary_key = True)
+   score = Column (Float, nullable = True)
+   e_value = Column (Float, nullable = True)
+
+   model = relationship('ModelVPF', back_populates= 'proteins')
+   protein = relationship('Protein', back_populates= 'models')
 
 class ModelVPF(Base):
    __tablename__ = 'model'
@@ -29,6 +39,17 @@ class Species(Base):
    def __repr__(self):
         return "<Species(name='%s', taxonomy = '%s', isVirus = '%s')>" % (self.name, self.taxonomy, self.isVirus)
 
+
+R_Protein_Function = Table('r_protein_function', Base.metadata,
+    Column('idProtein', Integer, ForeignKey('protein.idProtein')),
+    Column('idFunction', Integer, ForeignKey('function.idFunction'))
+)
+
+Interaction = Table('interaction', Base.metadata,
+    Column('idProteinV', Integer, ForeignKey('protein.idProtein')),
+    Column('idProteinH', Integer, ForeignKey('function.idFunction'))
+)
+
 class Protein(Base):
    __tablename__ = 'protein'
    idProtein = Column(Integer, primary_key = True)
@@ -38,9 +59,12 @@ class Protein(Base):
    location = Column(Text, nullable = True)
    idSpecies = Column(Integer, ForeignKey('species.idSpecies'))
 
-   functions = relationship('R_Protein_Function', back_populates='protein')
+   functions = relationship("Function",secondary=R_Protein_Function, back_populates='proteins')
 
    models = relationship('R_Protein_ModelVPF', back_populates='protein')
+
+   proteinsV = relationship("Protein",secondary=Interaction, back_populates='proteinsH')
+   proteinsH = relationship("Protein",secondary=Interaction, back_populates='proteinsV')
 
    def __repr__(self):
         return "<Protein(code='%s', name = '%s', gene = '%s', location = '%s', idSpecies = '%s')>" % (self.code, self.name, self.gene, self.location, self.idSpecies)
@@ -55,12 +79,15 @@ class Function(Base):
    description = Column(Text, nullable = False)
    aspect = Column(String(100), nullable = True)
 
-   proteins = relationship('R_Protein_Function', back_populates= 'function')
+   proteins = relationship("Protein",secondary=R_Protein_Function, back_populates= 'functions')
 
    def __repr__(self):
         return "<Specie(codeGO='%s', description = '%s', aspect = '%s')>" % (self.codeGO, self.description, self.aspect)
 
 
+
+
+"""
 class R_Protein_Function(Base):
    __tablename__ = 'r_protein_function'
 
@@ -69,19 +96,6 @@ class R_Protein_Function(Base):
 
    function = relationship('Function', back_populates= 'proteins')
    protein = relationship('Protein', back_populates= 'functions')
-
-
-class R_Protein_ModelVPF(Base):
-   __tablename__ = 'r_protein_modelvpf'
-
-   idProtein = Column(Integer, ForeignKey('protein.idProtein'), primary_key = True)
-   idModel = Column(Integer, ForeignKey('model.idModel'),primary_key = True)
-   score = Column (Float, nullable = True)
-   e_value = Column (Float, nullable = True)
-
-   model = relationship('ModelVPF', back_populates= 'proteins')
-   protein = relationship('Protein', back_populates= 'models')
-
 
 class Interaction(Base):
    __tablename__ = 'interaction'
@@ -95,3 +109,5 @@ class Interaction(Base):
       Integer,
       ForeignKey('protein.idProtein'),
       primary_key = True)
+
+"""

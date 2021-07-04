@@ -20,12 +20,7 @@ def main(models_file: str) -> None: #, output_file: str) -> None:
             for protein in proteins:
                 go_functions.append(get_go_functions(protein))
 
-        """1- code = get_name_specie(protein)
-            2- codes.append(code)
-            3- data[model] = {'proteins': proteins, 'go_functions': go_functions, 'codes': codes}"""
-
-
-    #data[model] = {'proteins': proteins, 'go_functions': go_functions}
+        
 """
     1- for model in data[model]
     2- for protein in model
