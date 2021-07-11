@@ -82,32 +82,4 @@ class Function(Base):
    proteins = relationship("Protein",secondary=R_Protein_Function, back_populates= 'functions')
 
    def __repr__(self):
-        return "<Specie(codeGO='%s', description = '%s', aspect = '%s')>" % (self.codeGO, self.description, self.aspect)
-
-
-
-
-"""
-class R_Protein_Function(Base):
-   __tablename__ = 'r_protein_function'
-
-   idProtein = Column(Integer, ForeignKey('protein.idProtein'), primary_key = True)
-   idFunction = Column(Integer, ForeignKey('function.idFunction'),primary_key = True)
-
-   function = relationship('Function', back_populates= 'proteins')
-   protein = relationship('Protein', back_populates= 'functions')
-
-class Interaction(Base):
-   __tablename__ = 'interaction'
-
-   idProteinV = Column(
-      Integer,
-      ForeignKey('protein.idProtein'),
-      primary_key = True)
-
-   idProteinH = Column(
-      Integer,
-      ForeignKey('protein.idProtein'),
-      primary_key = True)
-
-"""
+        return "<Specie(codeGO='%s', description = '%s', aspect = '%s', proteins = '%s')>" % (self.codeGO, self.description, self.aspect, self.proteins)

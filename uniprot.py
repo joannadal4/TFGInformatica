@@ -6,7 +6,7 @@ from xml.etree import ElementTree
 from time import sleep
 from db import Session
 from models import Function, Protein, R_Protein_Function
-from sqlalchemy.sql import exists
+from sqlalchemy.sql import exists, and_
 
 import json
 
@@ -43,9 +43,10 @@ def get_go_functions(protein: str) -> List[str]:
 
         idProtein = session.query(Protein.idProtein).filter(Protein.code == protein)
         idFunction = session.query(Function.idFunction).filter(Function.codeGO == child.attrib['id'])
-        if session.query(exists().where(R_Protein_Function.idProtein == idProtein and R_Protein_Function.idFunction == idFunction)).scalar() == False:
-            function_protein = R_Protein_Function(idProtein = idProtein, idFunction = idFunction)
-            session.add(function_protein)
+
+        if session.query(session.query(R_Protein_Function).filter((R_Protein_Function.c.idProtein == idProtein) & (R_Protein_Function.c.idFunction == idFunction)).exists()).scalar() is None:
+            function_protein = R_Protein_Function.insert().values(idProtein = idProtein, idFunction = idFunction)
+            session.execute(function_protein)
 
     session.commit()
     return go_functions

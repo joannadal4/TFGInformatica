@@ -1,0 +1,24 @@
+version: '3'
+services:
+  postgres:
+    image: "postgres:13.3" # use latest official postgres version
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=modelvpf
+    ports:
+      - '1234:5432'
+      
+    volumes:  # could contain the initial database structure and data
+      - postgres-data:/var/lib/postgresql/data/ # persist data even if container shuts downvolumes
+      
+  modelvpf:
+    build: .
+    entrypoint: "python main.py final_list.hmms"    
+    depends_on:
+      - postgres
+       
+volumes:
+  postgres-data: # named volumes can be managed easier using docker-compose
+  
+  
