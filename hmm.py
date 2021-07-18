@@ -72,47 +72,8 @@ def get_proteins(model: str) -> List[str]:
     for protein in proteins:
         score_evalue = get_score_evalue_protein_model(output_file, protein, model)
 
-        try:
-            response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
-        except:
-            sleep(5)
-            response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
-        # parse xml and return protein information
-        root = ElementTree.fromstring(response.content)
-
-
-        taxonomy = root.findall('.//{http://uniprot.org/uniprot}lineage')[0][-1].text
-
-        gene = root.findall('.//{http://uniprot.org/uniprot}gene')
-        if len(gene)>0:
-            gene = root.findall('.//{http://uniprot.org/uniprot}gene')[0][0].text
-
-        name_species = root.findall('.//{http://uniprot.org/uniprot}organism')[0][0].text
-        if (name_species.find('(') > -1):
-            name_species = re.findall(REGEX_SPECIE, name_species)[0]
-
-        name_protein = root.findall('.//{http://uniprot.org/uniprot}recommendedName')[0][0].text
-
-        subcellularLocation = []
-        location = root.findall('.//{http://uniprot.org/uniprot}subcellularLocation')
-        for child in location:
-            if child[0].text not in subcellularLocation:
-                subcellularLocation.append(child[0].text)
-
-        location = ""
-        for child in subcellularLocation:
-            location = child + ', ' + location
-
-        if session.query(exists().where(Species.name == name_species)).scalar() == False:
-            species = Species(name=name_species, taxonomy=taxonomy, isVirus = True)
-            session.add(species)
-
-        if session.query(exists().where(Protein.code == protein)).scalar() == False:
-            idSpecies = session.query(Species.idSpecies).filter(Species.name == name_species)
-            prot = Protein(code = protein, name = name_protein, gene = gene, location = location, idSpecies = idSpecies)
-            session.add(prot)
-
-
+        save_protein(protein)
+        
         idProtein = session.query(Protein.idProtein).filter(Protein.code == protein)
         idModel = session.query(ModelVPF.idModel).filter(ModelVPF.code == model)
         if session.query(exists().where(R_Protein_ModelVPF.idProtein == idProtein and R_Protein_ModelVPF.idModel == idModel)).scalar() == False:
@@ -122,6 +83,48 @@ def get_proteins(model: str) -> List[str]:
     session.commit()
 
     return proteins
+
+def save_protein(protein: str):
+    try:
+        response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
+    except:
+        sleep(5)
+        response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
+    # parse xml and return protein information
+    root = ElementTree.fromstring(response.content)
+
+
+    taxonomy = root.findall('.//{http://uniprot.org/uniprot}lineage')[0][-1].text
+
+    gene = root.findall('.//{http://uniprot.org/uniprot}gene')
+    if len(gene)>0:
+        gene = root.findall('.//{http://uniprot.org/uniprot}gene')[0][0].text
+
+    name_species = root.findall('.//{http://uniprot.org/uniprot}organism')[0][0].text
+    if (name_species.find('(') > -1):
+        name_species = re.findall(REGEX_SPECIE, name_species)[0]
+
+    name_protein = root.findall('.//{http://uniprot.org/uniprot}recommendedName')[0][0].text
+
+    subcellularLocation = []
+    location = root.findall('.//{http://uniprot.org/uniprot}subcellularLocation')
+    for child in location:
+        if child[0].text not in subcellularLocation:
+            subcellularLocation.append(child[0].text)
+
+    location = ""
+    for child in subcellularLocation:
+        location = child + ', ' + location
+
+    if session.query(exists().where(Species.name == name_species)).scalar() == False:
+        species = Species(name=name_species, taxonomy=taxonomy, isVirus = True)
+        session.add(species)
+
+    if session.query(exists().where(Protein.code == protein)).scalar() == False:
+        idSpecies = session.query(Species.idSpecies).filter(Species.name == name_species)
+        prot = Protein(code = protein, name = name_protein, gene = gene, location = location, idSpecies = idSpecies)
+        session.add(prot)
+
 
 def get_score_evalue_protein_model(output_file: str, protein: str, model: str) -> str:
     with open(output_file) as file:

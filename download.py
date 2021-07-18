@@ -11,3 +11,22 @@ def downloadModels():
     with open("final_list.hmms", "wb") as file:
         file.write(response.content)
     file.close()
+
+
+def downloadInteractions():
+    response = requests.get("")
+    with open("interactions.txt", "wb") as file:
+        file.write(response.content)
+    file.close()
+
+def downloadStringProteinVirus():
+    response = requests.get("")
+    with open("protein_aliases_virus.txt", "wb") as file:
+        file.write(response.content)
+    file.close()
+
+def downloadStringProteinHost():
+    response = requests.get("")
+    with open("protein_aliases_host.tsv", "wb") as file:
+        file.write(response.content)
+    file.close()

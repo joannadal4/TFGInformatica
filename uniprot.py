@@ -44,24 +44,9 @@ def get_go_functions(protein: str) -> List[str]:
         idProtein = session.query(Protein.idProtein).filter(Protein.code == protein)
         idFunction = session.query(Function.idFunction).filter(Function.codeGO == child.attrib['id'])
 
-        if session.query(session.query(R_Protein_Function).filter((R_Protein_Function.c.idProtein == idProtein) & (R_Protein_Function.c.idFunction == idFunction)).exists()).scalar() is None:
+        if session.query(session.query(R_Protein_Function).filter(and_(R_Protein_Function.c.idProtein == idProtein, R_Protein_Function.c.idFunction == idFunction)).exists()).scalar() is None:
             function_protein = R_Protein_Function.insert().values(idProtein = idProtein, idFunction = idFunction)
             session.execute(function_protein)
 
     session.commit()
     return go_functions
-
-
-
-
-
-def get_name_specie(protein: str) -> str:
-    """Given a protein get it GO functions from Uniprot.    (Important separar get_name i get_code )
-    code = ""
-
-1. parse xml to search specie name from xml, if there is parentheses, ignore it
-2- Search on http://viruses.string-db.org/download/species.v10.5.txt if specie exists (descarregar)
-3- If not exists, then code = null
-4- Obtain code of this specie. Regular expression to take the code
-
-    return code"""

@@ -13,31 +13,42 @@ def main(models_file: str) -> None: #, output_file: str) -> None:
     """Split hmm models and get it's proteins and go functions."""
     models = split_models(models_file)
 
+    """
+        from interaction import copy_mapping_virus_from_csv_to_dictionary
+        mapping_virus_file = "protein_aliases_virus.txt"
+        mapping_virus_dictionary = copy_mapping_virus_from_csv_to_dictionary(mapping_virus_file: str)
+
+        from interaction import copy_mapping_host_from_tsv_to_dictionary
+        mapping_host_file = "protein_aliases_host.tsv"
+        mapping_host_dictionary = copy_mapping_host_from_tsv_to_dictionary(mapping_host_file: str)
+
+        from interaction import copy_interactions_from_csv_to_dictionary
+        interactions_file = "interactions.txt"
+        interactions_dictionary = copy_interactions_from_csv_to_dictionary(interactions_file: str)
+
+    """
+
     for model in models:
         proteins = get_proteins(model)
         if proteins:
             go_functions = []
+            #host_proteins= []
             for protein in proteins:
-                go_functions.append(get_go_functions(protein))
-
-        
+                go_functions.append(get_go_functions(protein))  #Podem eliminar go_functions?
+                #get_go_functions(protein)
 """
-    1- for model in data[model]
-    2- for protein in model
-    3- if code != null
-    4- Take the protein and her code and call get_proteins_host(protein: str, code: str) -> List[str] in stringViruses.py
-    5- The List return contains the proteins from hosts which interact with the protein from virus.
-    6- for protein_host in list
-    7- go_functions_host.append(get_go_functions(protein))
-    8- data[protein_host] = {'go_functions_host': go_functions_host}
-    9- data[protein] = {'proteins_host': data[protein_host]}
-    10- data[model] = {'proteins': data[protein], 'go_functions': go_functions}
+                from interaction import get_host_proteins
+                from interaction import save_interactions
+                from hmm import save_protein
 
+                host_proteins = get_host_proteins(protein, interactionsDictionary)
 
+                for host_protein in host_proteins:
+                    save_protein(host_protein)
+                    get_go_functions(host_protein)
 
-    with open(output_file, 'w') as f:
-        json.dump(data, f)
-    f.close()"""
+                save_interactions(protein, host_proteins)
+"""
 
 if __name__ == "__main__":
     parser = ArgumentParser()
@@ -46,18 +57,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     main(args.models_file) #, args.output_file)
-
-
-"""
-- arc parse -d download.py
-- Corregir rmdir
-- Agaf codi de proteina i cerc l’espècie
-
-- http://viruses.string-db.org/download/species.v10.5.txt i cerc codi
-
-
-- Descarreg relacions a través de l’enllaç ….http://viruses.string-db.org/download/protein.links.v10.5/38525.protein.links.v10.5.txt.gz
-
-- Detect la meva proteína i els seus enllaços
-https://string-db.org/api/json/get_string_ids?identifiers=9606.ENSP00000289153
-"""
