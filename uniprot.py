@@ -11,7 +11,7 @@ from sqlalchemy.sql import exists, and_
 import json
 
 
-def get_go_functions(protein: str) -> List[str]:
+def get_go_functions(protein: str):
     """Given a protein get it GO functions from Uniprot."""
     go_functions = []
     try:
@@ -41,12 +41,12 @@ def get_go_functions(protein: str) -> List[str]:
             function = Function(codeGO = child.attrib['id'], description = description, aspect = aspect)
             session.add(function)
 
-        idProtein = session.query(Protein.idProtein).filter(Protein.code == protein)
+        idProtein = session.query(Protein.idProtein).filter(Protein.codeUniprot == protein)
         idFunction = session.query(Function.idFunction).filter(Function.codeGO == child.attrib['id'])
 
-        if session.query(session.query(R_Protein_Function).filter(and_(R_Protein_Function.c.idProtein == idProtein, R_Protein_Function.c.idFunction == idFunction)).exists()).scalar() is None:
+        if session.query(exists().where(and_(R_Protein_Function.c.idProtein == idProtein, R_Protein_Function.c.idFunction == idFunction))).scalar() == False:
             function_protein = R_Protein_Function.insert().values(idProtein = idProtein, idFunction = idFunction)
             session.execute(function_protein)
 
+
     session.commit()
-    return go_functions

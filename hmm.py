@@ -19,7 +19,7 @@ from xml.etree import ElementTree
 
 from sqlalchemy.sql import exists
 
-
+from mapping import PROTEIN_MAPPING_STRING
 
 def split_models(models_file: str) -> List[str]:
     """Get one model files, split in one file per model and returns the model names."""
@@ -58,23 +58,25 @@ def get_proteins(model: str) -> List[str]:
     if not os.path.exists(folder_models_txt):
         mkdir(folder_models_txt)
     output_file= f"data/models_txt/{model}.txt"
-    command_line = 'hmmpress ' + f'data/models_hmm/{model}.hmm'
-    args = shlex.split(command_line)
-    subprocess.call(args)
-    command_line = 'hmmscan --tblout ' + output_file + f' data/models_hmm/{model}.hmm ' +  UNIPROT_DATABASE   #--incE {threshold} (e.value > 0.001)
-    args = shlex.split(command_line)
-    subprocess.call(args)
+
+    cl_hmmpress = f"hmmpress data/models_hmm/{model}.hmm"
+    args_hmmpress = shlex.split(cl_hmmpress)
+    subprocess.call(args_hmmpress)
+    cl_hmmscan = f"hmmscan --tblout {output_file} data/models_hmm/{model}.hmm {UNIPROT_DATABASE}"   #--incE {threshold} (e.value > 0.001)
+    args_hmmscan = shlex.split(cl_hmmscan)
+    subprocess.call(args_hmmscan)
 
     proteins = get_proteins_from_hmmscan_file(output_file, model)
 
     session= Session()
 
     for protein in proteins:
+
         score_evalue = get_score_evalue_protein_model(output_file, protein, model)
 
-        save_protein(protein)
-        
-        idProtein = session.query(Protein.idProtein).filter(Protein.code == protein)
+        save_protein(protein, True, session=session)
+
+        idProtein = session.query(Protein.idProtein).filter(Protein.codeUniprot == protein)
         idModel = session.query(ModelVPF.idModel).filter(ModelVPF.code == model)
         if session.query(exists().where(R_Protein_ModelVPF.idProtein == idProtein and R_Protein_ModelVPF.idModel == idModel)).scalar() == False:
             model_protein = R_Protein_ModelVPF(idProtein = idProtein, idModel = idModel, score = score_evalue[0], e_value = score_evalue[1])
@@ -84,12 +86,20 @@ def get_proteins(model: str) -> List[str]:
 
     return proteins
 
-def save_protein(protein: str):
+def save_protein(protein: str, attrib_species=None, session=None):
+
+    new_session = session is None
+
+    session = session or Session()
+    code_string_protein = PROTEIN_MAPPING_STRING.get(protein)
+
     try:
         response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
     except:
         sleep(5)
         response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
+
+    print(protein)
     # parse xml and return protein information
     root = ElementTree.fromstring(response.content)
 
@@ -104,7 +114,7 @@ def save_protein(protein: str):
     if (name_species.find('(') > -1):
         name_species = re.findall(REGEX_SPECIE, name_species)[0]
 
-    name_protein = root.findall('.//{http://uniprot.org/uniprot}recommendedName')[0][0].text
+    name_protein = root.findall('.//{http://uniprot.org/uniprot}fullName')[0].text
 
     subcellularLocation = []
     location = root.findall('.//{http://uniprot.org/uniprot}subcellularLocation')
@@ -117,14 +127,16 @@ def save_protein(protein: str):
         location = child + ', ' + location
 
     if session.query(exists().where(Species.name == name_species)).scalar() == False:
-        species = Species(name=name_species, taxonomy=taxonomy, isVirus = True)
+        species = Species(name=name_species, taxonomy=taxonomy, isVirus = attrib_species)
         session.add(species)
 
-    if session.query(exists().where(Protein.code == protein)).scalar() == False:
+    if session.query(exists().where(Protein.codeUniprot == protein)).scalar() == False:
         idSpecies = session.query(Species.idSpecies).filter(Species.name == name_species)
-        prot = Protein(code = protein, name = name_protein, gene = gene, location = location, idSpecies = idSpecies)
+        prot = Protein(codeUniprot = protein, codeString = code_string_protein, name = name_protein, gene = gene, location = location, idSpecies = idSpecies)
         session.add(prot)
 
+    if new_session:
+        session.commit()
 
 def get_score_evalue_protein_model(output_file: str, protein: str, model: str) -> str:
     with open(output_file) as file:

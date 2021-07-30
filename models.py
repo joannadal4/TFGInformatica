@@ -41,19 +41,20 @@ class Species(Base):
 
 
 R_Protein_Function = Table('r_protein_function', Base.metadata,
-    Column('idProtein', Integer, ForeignKey('protein.idProtein')),
-    Column('idFunction', Integer, ForeignKey('function.idFunction'))
+    Column('idProtein', Integer, ForeignKey('protein.idProtein'), nullable = False),
+    Column('idFunction', Integer, ForeignKey('function.idFunction'), nullable = False)
 )
 
 Interaction = Table('interaction', Base.metadata,
-    Column('idProteinV', Integer, ForeignKey('protein.idProtein')),
-    Column('idProteinH', Integer, ForeignKey('function.idFunction'))
+    Column('idProteinV', Integer, ForeignKey('protein.idProtein'), nullable = False),
+    Column('idProteinH', Integer, ForeignKey('function.idFunction'), nullable = False)
 )
 
 class Protein(Base):
    __tablename__ = 'protein'
    idProtein = Column(Integer, primary_key = True)
-   code = Column(String(15), nullable = False, unique = True)
+   codeUniprot = Column(String(15), nullable = False, unique = True)
+   codeString = Column(String(30), nullable = True, unique = True)
    name = Column(String(100), nullable = False)
    gene = Column(String(50), nullable = True)
    location = Column(Text, nullable = True)
@@ -67,7 +68,7 @@ class Protein(Base):
    proteinsH = relationship("Protein",secondary=Interaction, back_populates='proteinsV')
 
    def __repr__(self):
-        return "<Protein(code='%s', name = '%s', gene = '%s', location = '%s', idSpecies = '%s')>" % (self.code, self.name, self.gene, self.location, self.idSpecies)
+        return "<Protein(codeUniprot='%s', codeString='%s', name = '%s', gene = '%s', location = '%s', idSpecies = '%s')>" % (self.codeUniprot, self.codeString, self.name, self.gene, self.location, self.idSpecies)
 
 protein_idSpecies_index = Index('protein_idSpecies_index', Protein.idSpecies)
 
@@ -82,4 +83,4 @@ class Function(Base):
    proteins = relationship("Protein",secondary=R_Protein_Function, back_populates= 'functions')
 
    def __repr__(self):
-        return "<Specie(codeGO='%s', description = '%s', aspect = '%s', proteins = '%s')>" % (self.codeGO, self.description, self.aspect, self.proteins)
+        return "<Specie(codeGO='%s', description = '%s', aspect = '%s')>" % (self.codeGO, self.description, self.aspect)

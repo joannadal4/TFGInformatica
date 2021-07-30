@@ -1,5 +1,5 @@
 -- Created by Vertabelo (http://vertabelo.com)
--- Last modification date: 2021-05-09 10:24:44.305
+-- Last modification date: 2021-07-25 20:34:55.998
 
 -- tables
 -- Table: FUNCTION
@@ -22,12 +22,13 @@ CREATE TABLE INTERACTION (
 -- Table: PROTEIN
 CREATE TABLE PROTEIN (
     idProtein serial  NOT NULL,
-    code varchar(15)  NOT NULL,
+    codeUniprot varchar(15)  NOT NULL,
     name varchar(100)  NOT NULL,
     gene varchar(50)  NULL,
     location text  NULL,
     idSpecies serial  NOT NULL,
-    CONSTRAINT PROTEIN_code_uk UNIQUE (code) NOT DEFERRABLE  INITIALLY IMMEDIATE,
+    codeString varchar(30)  NOT NULL,
+    CONSTRAINT PROTEIN_code_uk UNIQUE (codeUniprot) NOT DEFERRABLE  INITIALLY IMMEDIATE,
     CONSTRAINT PROTEIN_pk PRIMARY KEY (idProtein)
 );
 

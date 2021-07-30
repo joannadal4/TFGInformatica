@@ -6,20 +6,20 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=modelvpf
-    
+
     ports:
       - '1234:5432'
-      
+
     volumes:  # could contain the initial database structure and data
       - postgres-data:/var/lib/postgresql/data/ # persist data even if container shuts downvolumes
-      
-      
+
+
   modelvpf:
-    restart: always
     build: .
     depends_on:
-      - postgres  
-       
+      - postgres
+      
+
+
 volumes:
   postgres-data: # named volumes can be managed easier using docker-compose
-

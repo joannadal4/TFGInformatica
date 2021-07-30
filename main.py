@@ -1,54 +1,36 @@
 """Main module."""
 import json
 from argparse import ArgumentParser
-from hmm import get_proteins, split_models
+from hmm import get_proteins, split_models, save_protein
 from uniprot import get_go_functions
+from interaction import get_interactions, save_interactions
+from mapping import prepare_mapping_to_string, prepare_mapping_to_uniprot, PROTEIN_MAPPING_STRING, PROTEIN_MAPPING_UNIPROT
 
 
-#from stringViruses import get_proteins_hosts
-
-
-
-def main(models_file: str) -> None: #, output_file: str) -> None:
+def main(models_file: str) -> None:
     """Split hmm models and get it's proteins and go functions."""
+
     models = split_models(models_file)
-
-    """
-        from interaction import copy_mapping_virus_from_csv_to_dictionary
-        mapping_virus_file = "protein_aliases_virus.txt"
-        mapping_virus_dictionary = copy_mapping_virus_from_csv_to_dictionary(mapping_virus_file: str)
-
-        from interaction import copy_mapping_host_from_tsv_to_dictionary
-        mapping_host_file = "protein_aliases_host.tsv"
-        mapping_host_dictionary = copy_mapping_host_from_tsv_to_dictionary(mapping_host_file: str)
-
-        from interaction import copy_interactions_from_csv_to_dictionary
-        interactions_file = "interactions.txt"
-        interactions_dictionary = copy_interactions_from_csv_to_dictionary(interactions_file: str)
-
-    """
+    prepare_mapping_to_string("protein_virus_mapping", "protein_host_mapping")
+    prepare_mapping_to_uniprot("protein_virus_mapping", "protein_host_mapping")
+    interactions = get_interactions("protein-interaction-virus-host.txt")
 
     for model in models:
         proteins = get_proteins(model)
         if proteins:
-            go_functions = []
-            #host_proteins= []
+            host_proteins= []
             for protein in proteins:
-                go_functions.append(get_go_functions(protein))  #Podem eliminar go_functions?
-                #get_go_functions(protein)
-"""
-                from interaction import get_host_proteins
-                from interaction import save_interactions
-                from hmm import save_protein
-
-                host_proteins = get_host_proteins(protein, interactionsDictionary)
-
-                for host_protein in host_proteins:
-                    save_protein(host_protein)
-                    get_go_functions(host_protein)
-
-                save_interactions(protein, host_proteins)
-"""
+                get_go_functions(protein)
+                virus_string_code = PROTEIN_MAPPING_STRING.get(protein)
+                if virus_string_code is not None:
+                    host_proteins = interactions.get(virus_string_code)
+                    if host_proteins:
+                        for host_protein in host_proteins:
+                            host_uniprot_code = PROTEIN_MAPPING_UNIPROT.get(host_protein)
+                            if host_uniprot_code is not None:
+                                save_protein(host_uniprot_code, False)
+                                get_go_functions(host_uniprot_code)
+                                save_interactions(protein, host_uniprot_code)
 
 if __name__ == "__main__":
     parser = ArgumentParser()
