@@ -28,7 +28,7 @@ def main(models_file: str) -> None:
                         for host_protein in host_proteins:
                             host_uniprot_code = PROTEIN_MAPPING_UNIPROT.get(host_protein)
                             if host_uniprot_code is not None:
-                                save_protein(host_uniprot_code, False)
+                                save_protein(host_uniprot_code)
                                 get_go_functions(host_uniprot_code)
                                 save_interactions(protein, host_uniprot_code)
 

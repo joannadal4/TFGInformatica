@@ -87,7 +87,7 @@ def get_proteins(model: str) -> List[str]:
 
     return proteins
 
-def save_protein(protein: str, attrib_species=None, session=None):
+def save_protein(protein: str, attrib_species=False, session=None):
     """Save a protein to the database"""
 
     new_session = session is None
