@@ -9,7 +9,7 @@ from config import VIRUS_MAPPING_FILE, HOST_MAPPING_FILE, INTERACTIONS_FILE
 
 
 def main(models_file: str) -> None:
-    """Split hmm models and get it's proteins and go functions."""
+    """Split hmm models and get it's proteins and go functions as well as their interactions with host proteins."""
 
     models = split_models(models_file)
     prepare_mapping(VIRUS_MAPPING_FILE, HOST_MAPPING_FILE)
