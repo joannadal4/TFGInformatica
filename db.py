@@ -1,8 +1,8 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from config import DB_ROUTE
 
 
-db_route = "postgresql://postgres:postgres@postgres:5432/modelvpf"
-engine = create_engine(db_route, echo = True)
+engine = create_engine(DB_ROUTE, echo = True)
 
 Session = sessionmaker(bind=engine)

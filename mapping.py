@@ -6,6 +6,7 @@ PROTEIN_MAPPING_UNIPROT = dict()
 
 
 def prepare_mapping(*args):
+"""Prepare a dictionary in order to given a UniProt code protein get a String code protein"""
     def _download_and_append(aux_file):
         with open(aux_file) as f:
                 rows = csv.reader(f, delimiter="\t")

@@ -88,6 +88,7 @@ def get_proteins(model: str) -> List[str]:
     return proteins
 
 def save_protein(protein: str, attrib_species=None, session=None):
+    """Save a protein to the database"""
 
     new_session = session is None
 
@@ -145,6 +146,7 @@ def save_protein(protein: str, attrib_species=None, session=None):
         print(f"The protein {protein} doesn't exists")
 
 def get_score_evalue_protein_model(output_file: str, protein: str, model: str) -> str:
+    """Get the parameters score and e-value from the resulting file after hmmscan"""
     with open(output_file) as file:
         score_evalue = []
         for line in file:
@@ -156,6 +158,7 @@ def get_score_evalue_protein_model(output_file: str, protein: str, model: str) -
 
 
 def get_proteins_from_hmmscan_file(output_file: str, model: str) -> List[str]:
+    """Get the proteins which belong a model"""
     with open(output_file) as file:
         proteins = []
         for line in file:

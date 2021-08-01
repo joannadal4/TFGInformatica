@@ -7,6 +7,7 @@ from sqlalchemy.sql import exists, and_
 
 
 def get_interactions(interactions_file: str) -> List[str]:
+    """Create a list of interactions from a file text"""
     interactions = defaultdict(list)
     with open(interactions_file) as f:
         rows = csv.reader(f, delimiter=" ")
@@ -19,6 +20,7 @@ def get_interactions(interactions_file: str) -> List[str]:
 
 
 def save_interactions(protein: str, host_protein: str):
+    """Save the interaction to the database"""
 
     session= Session()
 
