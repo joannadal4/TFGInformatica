@@ -4,15 +4,14 @@ from argparse import ArgumentParser
 from hmm import get_proteins, split_models, save_protein
 from uniprot import get_go_functions
 from interaction import get_interactions, save_interactions
-from mapping import prepare_mapping_to_string, prepare_mapping_to_uniprot, PROTEIN_MAPPING_STRING, PROTEIN_MAPPING_UNIPROT
+from mapping import prepare_mapping, PROTEIN_MAPPING_STRING, PROTEIN_MAPPING_UNIPROT
 
 
 def main(models_file: str) -> None:
     """Split hmm models and get it's proteins and go functions."""
 
     models = split_models(models_file)
-    prepare_mapping_to_string("protein_virus_mapping", "protein_host_mapping")
-    prepare_mapping_to_uniprot("protein_virus_mapping", "protein_host_mapping")
+    prepare_mapping("protein_virus_mapping.txt", "protein_host_mapping.txt")
     interactions = get_interactions("protein-interaction-virus-host.txt")
 
     for model in models:

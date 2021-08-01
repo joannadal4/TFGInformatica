@@ -22,12 +22,20 @@ def save_interactions(protein: str, host_protein: str):
 
     session= Session()
 
-    idProteinV = session.query(Protein.idProtein).filter(Protein.codeUniprot == protein)
-    idProteinH = session.query(Protein.idProtein).filter(Protein.codeUniprot == host_protein)
+    try:
 
-    if session.query(exists().where(and_(Interaction.c.idProteinV == idProteinV, Interaction.c.idProteinH == idProteinH))).scalar() == False:
+        idProteinV = session.query(Protein.idProtein).filter(Protein.codeUniprot == protein)
+        idProteinH = session.query(Protein.idProtein).filter(Protein.codeUniprot == host_protein)
 
-        interaction = Interaction.insert().values(idProteinV = idProteinV, idProteinH = idProteinH)
-        session.execute(interaction)
+        if session.query(exists().where(Protein.codeUniprot == host_protein)).scalar() is not False:
+            if session.query(exists().where(and_(Interaction.c.idProteinV == idProteinV, Interaction.c.idProteinH == idProteinH))).scalar() == False:
+                interaction = Interaction.insert().values(idProteinV = idProteinV, idProteinH = idProteinH)
+                session.execute(interaction)
+                session.commit()
 
-    session.commit()
+
+    except:
+        session.rollback()
+
+    finally:
+        session.close()
