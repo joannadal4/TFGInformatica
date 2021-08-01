@@ -49,6 +49,8 @@ def split_models(models_file: str) -> List[str]:
                     session.add(modelvpf)
                     session.commit()
     f.close()
+    session.close()
+    
     return models
 
 
