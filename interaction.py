@@ -19,7 +19,7 @@ def get_interactions(interactions_file: str) -> List[str]:
 
 
 
-def save_interactions(protein: str, host_protein: str):
+def save_interaction(protein: str, host_protein: str):
     """Save the interaction to the database"""
 
     session= Session()
