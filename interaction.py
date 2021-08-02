@@ -23,18 +23,14 @@ def save_interaction(protein: str, host_protein: str):
     """Save the interaction to the database"""
 
     session= Session()
-
     try:
-
         idProteinV = session.query(Protein.idProtein).filter(Protein.codeUniprot == protein)
         idProteinH = session.query(Protein.idProtein).filter(Protein.codeUniprot == host_protein)
 
-        if session.query(exists().where(Protein.codeUniprot == host_protein)).scalar() is not False:
-            if session.query(exists().where(and_(Interaction.c.idProteinV == idProteinV, Interaction.c.idProteinH == idProteinH))).scalar() == False:
-                interaction = Interaction.insert().values(idProteinV = idProteinV, idProteinH = idProteinH)
-                session.execute(interaction)
-                session.commit()
-
+        if session.query(exists().where(and_(Interaction.c.idProteinV == idProteinV, Interaction.c.idProteinH == idProteinH))).scalar() == False:
+           interaction = Interaction.insert().values(idProteinV = idProteinV, idProteinH = idProteinH)
+           session.execute(interaction)
+           session.commit()
 
     except:
         session.rollback()

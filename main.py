@@ -2,10 +2,10 @@
 import json
 from argparse import ArgumentParser
 from hmm import get_proteins, split_models, save_protein
-from uniprot import get_go_functions
-from interaction import get_interactions, save_interactions
+from function import get_go_functions
+from interaction import get_interactions, save_interaction
 from mapping import prepare_mapping, PROTEIN_MAPPING_STRING, PROTEIN_MAPPING_UNIPROT
-from config import VIRUS_MAPPING_FILE, HOST_MAPPING_FILE, INTERACTIONS_FILE
+from config import VIRUS_MAPPING_FILE, MODELS_FILE, HOST_MAPPING_FILE, INTERACTIONS_FILE
 
 
 def main(models_file: str) -> None:
@@ -30,11 +30,7 @@ def main(models_file: str) -> None:
                             if host_uniprot_code is not None:
                                 save_protein(host_uniprot_code)
                                 get_go_functions(host_uniprot_code)
-                                save_interactions(protein, host_uniprot_code)
+                                save_interaction(protein, host_uniprot_code)
 
 if __name__ == "__main__":
-    parser = ArgumentParser()
-    parser.add_argument("models_file", type=str, help="Models file to read")
-    args = parser.parse_args()
-
-    main(args.models_file)
+    main(MODELS_FILE)
