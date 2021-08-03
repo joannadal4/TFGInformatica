@@ -16,7 +16,8 @@ def get_go_functions(protein: str):
     go_functions = []
     session= Session()
 
-    if session.query(exists().where(Protein.codeUniprot == protein)).scalar() == False:
+    idProtein = session.query(Protein.idProtein).filter(Protein.codeUniprot == protein)
+    if session.query(exists().where(R_Protein_Function.c.idProtein == idProtein)).scalar() == False:
         try:
             response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
         except:
@@ -46,9 +47,7 @@ def get_go_functions(protein: str):
                     session.add(function)
                     session.commit()
 
-                idProtein = session.query(Protein.idProtein).filter(Protein.codeUniprot == protein)
                 idFunction = session.query(Function.idFunction).filter(Function.codeGO == child.attrib['id'])
-
                 if session.query(exists().where(and_(R_Protein_Function.c.idProtein == idProtein, R_Protein_Function.c.idFunction == idFunction))).scalar() == False:
                     function_protein = R_Protein_Function.insert().values(idProtein = idProtein, idFunction = idFunction)
                     session.execute(function_protein)
