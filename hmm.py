@@ -7,7 +7,7 @@ from typing import List
 from time import sleep
 
 from config import UNIPROT_DATABASE
-from constant import REGEX_NAME, REGEX_PROTEIN, REGEX_SPECIE
+from constant import REGEX_NAME, REGEX_PROTEIN, REGEX_SPECIE, E_VALUE_COLUMN, SCORE_COLUMN
 
 from models import ModelVPF, Protein, Species, R_Protein_ModelVPF
 from db import Session
@@ -30,10 +30,11 @@ def split_models(models_file: str) -> List[str]:
     if not os.path.exists(folder_models_path):
         mkdir(folder_models_path)
 
+    session= Session()
+
     with open(models_file) as f:
         model_name = None
         model_lines = []
-        session= Session()
         for line in f:
             model_lines.append(line)
             if line == "//\n":
@@ -41,14 +42,12 @@ def split_models(models_file: str) -> List[str]:
                     f_model.writelines(model_lines)
                     model_lines = []
                     models.append(model_name)
-                f_model.close()
             if line.startswith("NAME"):
                 model_name = re.findall(REGEX_NAME, line)[0]
                 if session.query(exists().where(ModelVPF.code == model_name)).scalar() == False:
                     modelvpf = ModelVPF(code=model_name, path=f"data/models_hmm/{model_name}.hmm")
                     session.add(modelvpf)
                     session.commit()
-    f.close()
     session.close()
 
     return models
@@ -63,7 +62,7 @@ def get_proteins(model: str) -> List[str]:
         mkdir(folder_models_txt)
     output_file= f"data/models_txt/{model}.txt"
 
-
+    proteins = []
     idModel = session.query(ModelVPF.idModel).filter(ModelVPF.code == model)
     if session.query(exists().where(R_Protein_ModelVPF.idModel == idModel)).scalar() == False:
 
@@ -92,7 +91,7 @@ def get_proteins(model: str) -> List[str]:
     session.close()
     return proteins
 
-def save_protein(protein: str, attrib_species=False, session=None):
+def save_protein(protein: str, isVirus=False, session=None):
     """Save a protein to the database"""
 
     new_session = session is None
@@ -134,7 +133,7 @@ def save_protein(protein: str, attrib_species=False, session=None):
                 location = child + ', ' + location
 
             if session.query(exists().where(Species.name == name_species)).scalar() == False:
-                species = Species(name=name_species, taxonomy=taxonomy, isVirus = attrib_species)
+                species = Species(name=name_species, taxonomy=taxonomy, isVirus = isVirus)
                 session.add(species)
                 session.commit()
 
@@ -143,12 +142,12 @@ def save_protein(protein: str, attrib_species=False, session=None):
             session.add(object_protein)
             session.commit()
 
-            if new_session:
-                session.commit()
-                session.close()
-
         except:
             print(f"The protein {protein} doesn't exists")
+
+
+    if new_session:
+        session.close()
 
 def get_score_evalue_protein_model(output_file: str, protein: str, model: str) -> str:
     """Get the parameters score and e-value from the resulting file after hmmscan"""
@@ -156,10 +155,8 @@ def get_score_evalue_protein_model(output_file: str, protein: str, model: str) -
         score_evalue = []
         for line in file:
             if line.startswith(f"{model} -          sp|{protein}"):
-                score_evalue.append(line.split()[5])
-                score_evalue.append(line.split()[4])
-    file.close()
-    return score_evalue
+                line_list = line.split()
+                return line_list[E_VALUE_COLUMN], line_list[SCORE_COLUMN]
 
 
 def get_proteins_from_hmmscan_file(output_file: str, model: str) -> List[str]:
@@ -171,5 +168,4 @@ def get_proteins_from_hmmscan_file(output_file: str, model: str) -> List[str]:
                 protein = re.findall(REGEX_PROTEIN, line)[0]
                 if protein not in proteins:
                     proteins.append(protein)
-    file.close()
     return proteins

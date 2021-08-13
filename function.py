@@ -27,8 +27,8 @@ def get_go_functions(protein: str):
         try:
             root = ElementTree.fromstring(response.content)
 
-            goFunction = root.findall('.//{http://uniprot.org/uniprot}dbReference[@type="GO"]')
-            for child in goFunction:
+            go_function = root.findall('.//{http://uniprot.org/uniprot}dbReference[@type="GO"]')
+            for child in go_function:
                 go_functions.append(child.attrib['id'])
                 try:
                     resp = requests.get(f"https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/{child.attrib['id']}/complete")
@@ -37,10 +37,11 @@ def get_go_functions(protein: str):
                     resp = requests.get(f"https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/{child.attrib['id']}/complete")
                     continue
 
-                jsonGO = resp.json()
-                data_string = json.dumps(jsonGO)
-                description= str(json.loads(data_string)["results"][0]["definition"]["text"])
-                aspect= str(json.loads(data_string)["results"][0]["aspect"])
+                json_GO = resp.json()
+                json_GO_format = json.loads(json.dumps(json_GO))
+
+                description= str(json_GO_format["results"][0]["definition"]["text"])
+                aspect= str(json_GO_format["results"][0]["aspect"])
 
                 if session.query(exists().where(Function.codeGO == child.attrib['id'])).scalar() == False:
                     function = Function(codeGO = child.attrib['id'], description = description, aspect = aspect)
@@ -56,5 +57,4 @@ def get_go_functions(protein: str):
         except:
             print(f"The protein {protein} doesn't exists")
 
-        finally:
-            session.close()
+    session.close()
