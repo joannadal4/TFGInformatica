@@ -107,7 +107,7 @@ def save_protein(protein: str, isVirus=False, session=None):
     session = session or Session()
     code_string_protein = PROTEIN_MAPPING_STRING.get(protein)
 
-    if session.query(exists().where(Protein.codeUniprot == protein)).scalar() == False and session.query(exists().where(Protein.codeString == code_string_protein)).scalar() == False:
+    if session.query(exists().where(Protein.codeUniprot == protein)).scalar() == False:
         try:
             response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
         except:

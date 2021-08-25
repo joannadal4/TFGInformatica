@@ -16,6 +16,9 @@ def get_interactions(interactions_file: str) -> List[str]:
 
     return interactions
 
+
+
+
 def save_interaction(protein: str, host_protein: str):
     """Save the interaction to the database"""
 

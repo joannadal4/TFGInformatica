@@ -72,6 +72,14 @@ class Protein(Base):
 
 protein_idSpecies_index = Index('protein_idSpecies_index', Protein.idSpecies)
 
+class Inaccessible_Protein(Base):
+    __tablename__ = 'inaccessible_protein'
+    idProtein = Column(Integer, primary_key = True)
+    codeUniprot = Column(String(15), nullable = False, unique = True)
+    codeString = Column(String(30), nullable = True, unique = True)
+
+    def __repr__(self):
+        return "<Protein(codeUniprot='%s', codeString='%s')>" % (self.codeUniprot, self.codeString)
 
 class Function(Base):
    __tablename__ = 'function'

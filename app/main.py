@@ -1,6 +1,4 @@
 """Main module."""
-import json
-from argparse import ArgumentParser
 from hmm import get_proteins, split_models, save_protein
 from function import get_go_functions
 from interaction import get_interactions, save_interaction
@@ -14,7 +12,6 @@ def main(models_file: str) -> None:
     models = split_models(models_file)
     prepare_mapping(VIRUS_MAPPING_FILE, HOST_MAPPING_FILE)
     interactions = get_interactions(INTERACTIONS_FILE)
-
     for model in models:
         proteins = get_proteins(model)
         if not proteins:

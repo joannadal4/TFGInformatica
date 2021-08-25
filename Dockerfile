@@ -4,8 +4,9 @@ COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt  
 RUN apt-get update -y
 RUN apt-get install -y hmmer
+WORKDIR app
 
-CMD ["python", "main.py"]
+CMD ["python", "app/main.py"]
 
 COPY . /    
 
