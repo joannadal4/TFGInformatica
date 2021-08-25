@@ -84,12 +84,19 @@ def get_proteins(model: str) -> List[str]:
 
             idProtein = session.query(Protein.idProtein).filter(Protein.codeUniprot == protein)
             if session.query(exists().where(R_Protein_ModelVPF.idProtein == idProtein and R_Protein_ModelVPF.idModel == idModel)).scalar() == False:
-                model_protein = R_Protein_ModelVPF(idProtein = idProtein, idModel = idModel, score = score_evalue[0], e_value = score_evalue[1])
-                session.add(model_protein)
-                session.commit()
+                if score_evalue is not None:
+                    model_protein = R_Protein_ModelVPF(idProtein = idProtein, idModel = idModel, score = score_evalue[0], e_value = score_evalue[1])
+                    session.add(model_protein)
+                    session.commit()
+
+                else:
+                    model_protein = R_Protein_ModelVPF(idProtein = idProtein, idModel = idModel)
+                    session.add(model_protein)
+                    session.commit()
 
     session.close()
     return proteins
+
 
 def save_protein(protein: str, isVirus=False, session=None):
     """Save a protein to the database"""
