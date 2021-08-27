@@ -63,9 +63,8 @@ def get_proteins(model: str) -> List[str]:
     output_file= f"data/models_txt/{model}.txt"
 
     proteins = []
-    idModel = session.query(ModelVPF.idModel).filter(ModelVPF.code == model).scalar()
-    if session.query(exists().where(R_Protein_ModelVPF.idModel == idModel)).scalar() == False:
 
+    if not os.path.exists(f"data/models_hmm/{model}.hmm.h3i"):
         cl_hmmpress = f"hmmpress data/models_hmm/{model}.hmm"
         args_hmmpress = shlex.split(cl_hmmpress)
         subprocess.call(args_hmmpress)
@@ -74,33 +73,32 @@ def get_proteins(model: str) -> List[str]:
         args_hmmscan = shlex.split(cl_hmmscan)
         subprocess.call(args_hmmscan)
 
-        proteins = get_proteins_from_hmmscan_file(output_file, model)
+    proteins = get_proteins_from_hmmscan_file(output_file, model)
+    for protein in proteins:
 
+        score_evalue = get_score_evalue_protein_model(output_file, protein, model)
+        save_protein(protein, True, session=session)
 
-        for protein in proteins:
+        idModel = session.query(ModelVPF.idModel).filter(ModelVPF.code == model).scalar()
+        idProtein = session.query(Protein.idProtein).filter(Protein.codeUniprot == protein).scalar()
+        if idProtein is not None:
+            if session.query(exists().where(and_(R_Protein_ModelVPF.idProtein == idProtein, R_Protein_ModelVPF.idModel == idModel))).scalar() == False:
+                if score_evalue is not None:
+                    model_protein = R_Protein_ModelVPF(idProtein = idProtein, idModel = idModel, score = score_evalue[0], e_value = score_evalue[1])
+                    session.add(model_protein)
+                    session.commit()
 
-            score_evalue = get_score_evalue_protein_model(output_file, protein, model)
-            save_protein(protein, True, session=session)
-
-            idProtein = session.query(Protein.idProtein).filter(Protein.codeUniprot == protein).scalar()
-            if idProtein is not None:
-                if session.query(exists().where(and_(R_Protein_ModelVPF.idProtein == idProtein, R_Protein_ModelVPF.idModel == idModel))).scalar() == False:
-                    if score_evalue is not None:
-                        model_protein = R_Protein_ModelVPF(idProtein = idProtein, idModel = idModel, score = score_evalue[0], e_value = score_evalue[1])
-                        session.add(model_protein)
-                        session.commit()
-
-                    else:
-                        model_protein = R_Protein_ModelVPF(idProtein = idProtein, idModel = idModel)
-                        session.add(model_protein)
-                        session.commit()
+                else:
+                    model_protein = R_Protein_ModelVPF(idProtein = idProtein, idModel = idModel)
+                    session.add(model_protein)
+                    session.commit()
 
     session.close()
     return proteins
 
 
 def save_protein(protein: str, isVirus=False, session=None):
-    """Save a protein to the database"""
+    """Save a protein to the database."""
 
     new_session = session is None
 
