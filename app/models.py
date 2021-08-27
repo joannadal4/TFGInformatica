@@ -1,5 +1,5 @@
 from sqlalchemy import create_engine, ForeignKey, Column, Integer, String, Boolean, Float, Index, Text, Table
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import relationship, relation
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
@@ -41,13 +41,13 @@ class Species(Base):
 
 
 R_Protein_Function = Table('r_protein_function', Base.metadata,
-    Column('idProtein', Integer, ForeignKey('protein.idProtein'), nullable = False),
-    Column('idFunction', Integer, ForeignKey('function.idFunction'), nullable = False)
+    Column('idProtein', Integer, ForeignKey('protein.idProtein'), primary_key=True, nullable = False),
+    Column('idFunction', Integer, ForeignKey('function.idFunction'), primary_key=True, nullable = False)
 )
 
 Interaction = Table('interaction', Base.metadata,
-    Column('idProteinV', Integer, ForeignKey('protein.idProtein'), nullable = False),
-    Column('idProteinH', Integer, ForeignKey('protein.idProtein'), nullable = False)
+    Column('idProteinV', Integer, ForeignKey('protein.idProtein'), primary_key=True, nullable = False),
+    Column('idProteinH', Integer, ForeignKey('protein.idProtein'), primary_key=True, nullable = False)
 )
 
 class Protein(Base):
@@ -64,8 +64,11 @@ class Protein(Base):
 
    models = relationship('R_Protein_ModelVPF', back_populates='protein')
 
-   proteinsV = relationship("Protein",secondary=Interaction, back_populates='proteinsH')
-   proteinsH = relationship("Protein",secondary=Interaction, back_populates='proteinsV')
+   proteinsV = relation(
+                    "Protein",secondary=Interaction,
+                    primaryjoin=Interaction.c.idProteinH==idProtein,
+                    secondaryjoin=Interaction.c.idProteinV==idProtein,
+                    backref="proteinsH")
 
    def __repr__(self):
         return "<Protein(codeUniprot='%s', codeString='%s', name = '%s', gene = '%s', location = '%s', idSpecies = '%s')>" % (self.codeUniprot, self.codeString, self.name, self.gene, self.location, self.idSpecies)
