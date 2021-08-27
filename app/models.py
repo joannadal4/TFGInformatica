@@ -72,7 +72,7 @@ class Protein(Base):
 
 protein_idSpecies_index = Index('protein_idSpecies_index', Protein.idSpecies)
 
-class Inaccessible_Protein(Base):
+class Inaccessible_Protein(Base): #no accessible proteins in UniProt
     __tablename__ = 'inaccessible_protein'
     idProtein = Column(Integer, primary_key = True)
     codeUniprot = Column(String(15), nullable = False, unique = True)
