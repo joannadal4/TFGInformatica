@@ -55,7 +55,7 @@ class Protein(Base):
    idProtein = Column(Integer, primary_key = True)
    codeUniprot = Column(String(15), nullable = False, unique = True)
    codeString = Column(String(30), nullable = True, unique = True)
-   name = Column(String(100), nullable = False)
+   name = Column(String(500), nullable = False)
    gene = Column(String(50), nullable = True)
    location = Column(Text, nullable = True)
    idSpecies = Column(Integer, ForeignKey('species.idSpecies'))
