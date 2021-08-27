@@ -47,7 +47,7 @@ R_Protein_Function = Table('r_protein_function', Base.metadata,
 
 Interaction = Table('interaction', Base.metadata,
     Column('idProteinV', Integer, ForeignKey('protein.idProtein'), nullable = False),
-    Column('idProteinH', Integer, ForeignKey('function.idFunction'), nullable = False)
+    Column('idProteinH', Integer, ForeignKey('protein.idProtein'), nullable = False)
 )
 
 class Protein(Base):
@@ -72,7 +72,7 @@ class Protein(Base):
 
 protein_idSpecies_index = Index('protein_idSpecies_index', Protein.idSpecies)
 
-class Inaccessible_Protein(Base): 
+class Inaccessible_Protein(Base):
     __tablename__ = 'inaccessible_protein'
     idProtein = Column(Integer, primary_key = True)
     codeUniprot = Column(String(15), nullable = False, unique = True)
