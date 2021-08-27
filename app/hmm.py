@@ -17,7 +17,7 @@ from typing import List
 import xml.dom.minidom
 from xml.etree import ElementTree
 
-from sqlalchemy.sql import exists
+from sqlalchemy.sql import exists, and_
 
 from mapping import PROTEIN_MAPPING_STRING
 
@@ -84,7 +84,7 @@ def get_proteins(model: str) -> List[str]:
 
             idProtein = session.query(Protein.idProtein).filter(Protein.codeUniprot == protein).scalar()
             if idProtein is not None:
-                if session.query(exists().where(R_Protein_ModelVPF.idProtein == idProtein and R_Protein_ModelVPF.idModel == idModel)).scalar() == False:
+                if session.query(exists().where(and_(R_Protein_ModelVPF.idProtein == idProtein, R_Protein_ModelVPF.idModel == idModel))).scalar() == False:
                     if score_evalue is not None:
                         model_protein = R_Protein_ModelVPF(idProtein = idProtein, idModel = idModel, score = score_evalue[0], e_value = score_evalue[1])
                         session.add(model_protein)
@@ -107,7 +107,7 @@ def save_protein(protein: str, isVirus=False, session=None):
     session = session or Session()
     code_string_protein = PROTEIN_MAPPING_STRING.get(protein)
 
-    if session.query(exists().where(Protein.codeUniprot == protein)).scalar() == False:
+    if session.query(exists().where(Protein.codeUniprot == protein)).scalar() == False or session.query(exists().where(Protein.codeString == code_string_protein)).scalar() == False:
         try:
             response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
         except:
@@ -151,9 +151,10 @@ def save_protein(protein: str, isVirus=False, session=None):
             session.commit()
 
         except:
-            protein_inaccessible = Inaccessible_Protein(codeUniprot = protein, codeString = code_string_protein)
-            session.add(protein_inaccessible)
-            session.commit()
+            if session.query(exists().where(Inaccessible_Protein.codeUniprot == protein)).scalar() == False or session.query(exists().where(Inaccessible_Protein.codeString == code_string_protein)).scalar() == False:
+                protein_inaccessible = Inaccessible_Protein(codeUniprot = protein, codeString = code_string_protein)
+                session.add(protein_inaccessible)
+                session.commit()
 
 
     if new_session:
