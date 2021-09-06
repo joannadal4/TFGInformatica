@@ -1,14 +1,14 @@
+import json
 import requests
+from time import sleep
 from typing import List
 import xml.dom.minidom
 from xml.etree import ElementTree
 
-from time import sleep
-from db import Session
-from models import Function, Protein, R_Protein_Function
 from sqlalchemy.sql import exists, and_
 
-import json
+from app.db import Session
+from app.models import Function, Protein, R_Protein_Function
 
 
 def get_go_functions(protein: str):

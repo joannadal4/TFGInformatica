@@ -1,8 +1,8 @@
 UNIPROT_DATABASE = "uniprot.fasta"
 
-#DB_ROUTE = "postgresql://postgres:postgres@postgres:5432/modelvpf"
+DB_ROUTE = "postgresql://postgres:postgres@postgres:5432/modelvpf"
 
-DB_ROUTE = "postgresql://postgres:postgres@localhost:1234/modelvpf"
+# DB_ROUTE = "postgresql://postgres:postgres@localhost:1234/modelvpf"
 
 MODELS_FILE = "final_list.hmms"
 

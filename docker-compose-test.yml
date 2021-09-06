@@ -5,7 +5,7 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB_TEST=modelvpf
+      - POSTGRES_DB=modelvpf
 
     ports:
       - '1234:5432'
@@ -16,7 +16,7 @@ services:
 
   modelvpf:
     build: .
-    command: python test/test.py
+    command: python -m test.test
     depends_on:
       - postgres
 

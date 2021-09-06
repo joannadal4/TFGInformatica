@@ -6,11 +6,11 @@ from os import mkdir
 from typing import List
 from time import sleep
 
-from config import UNIPROT_DATABASE
-from constant import REGEX_NAME, REGEX_PROTEIN, REGEX_SPECIE, E_VALUE_COLUMN, SCORE_COLUMN
+from app.config import UNIPROT_DATABASE
+from app.constant import REGEX_NAME, REGEX_PROTEIN, REGEX_SPECIE, E_VALUE_COLUMN, SCORE_COLUMN
 
-from models import ModelVPF, Protein, Species, R_Protein_ModelVPF, Inaccessible_Protein
-from db import Session
+from app.models import ModelVPF, Protein, Species, R_Protein_ModelVPF, Inaccessible_Protein
+from app.db import Session
 
 import requests
 from typing import List
@@ -19,7 +19,7 @@ from xml.etree import ElementTree
 
 from sqlalchemy.sql import exists, and_
 
-from mapping import PROTEIN_MAPPING_STRING
+from app.mapping import PROTEIN_MAPPING_STRING
 
 def split_models(models_file: str) -> List[str]:
     """Get one model files, split in one file per model and returns the model names."""

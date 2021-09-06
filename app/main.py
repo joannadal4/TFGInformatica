@@ -1,9 +1,9 @@
 """Main module."""
-from hmm import get_proteins, split_models, save_protein
-from function import get_go_functions
-from interaction import get_interactions, save_interaction
-from mapping import prepare_mapping, PROTEIN_MAPPING_STRING, PROTEIN_MAPPING_UNIPROT
-from config import VIRUS_MAPPING_FILE, MODELS_FILE, HOST_MAPPING_FILE, INTERACTIONS_FILE
+from app.hmm import get_proteins, split_models, save_protein
+from app.function import get_go_functions
+from app.interaction import get_interactions, save_interaction
+from app.mapping import prepare_mapping, PROTEIN_MAPPING_STRING, PROTEIN_MAPPING_UNIPROT
+from app.config import VIRUS_MAPPING_FILE, MODELS_FILE, HOST_MAPPING_FILE, INTERACTIONS_FILE
 
 
 def main(models_file: str) -> None:
