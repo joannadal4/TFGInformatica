@@ -1,0 +1,22 @@
+MAKEFILE
+
+cd TFGinformatica
+python3 download.py
+
+cd path test
+
+docker-compose build
+docker-compose run modelvpf alembic upgrade head 
+docker-compose up
+
+#Teoricament s'haura executat el test
+
+Cnt + C
+
+cd path TFGInformatica
+docker-compose build
+docker-compose run modelvpf alembic upgrade head 
+docker-compose up
+
+#Teoricament s'haura executat el el codi principal
+

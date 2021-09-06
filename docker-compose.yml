@@ -11,7 +11,7 @@ services:
       - '1234:5432'
 
     volumes:  # could contain the initial database structure and data
-      - postgres-data:/var/lib/postgresql/data/ # persist data even if container shuts downvolumes
+      - tfginformatica_postgres-data:/var/lib/postgresql/data/ # persist data even if container shuts downvolumes
 
 
   modelvpf:
@@ -24,4 +24,4 @@ services:
 
 
 volumes:
-  postgres-data: # named volumes can be managed easier using docker-compose
+  tfginformatica_postgres-data: # named volumes can be managed easier using docker-compose

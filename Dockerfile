@@ -6,7 +6,7 @@ RUN apt-get update -y
 RUN apt-get install -y hmmer
 WORKDIR app
 
-CMD ["python", "app/main.py"]
+CMD ["python", "main.py"]
 
 COPY . /    
 
