@@ -1,9 +1,11 @@
 import csv
 from collections import defaultdict
 from typing import List
-from db import Session
-from models import Protein, Interaction
+
 from sqlalchemy.sql import exists, and_
+
+from app.db import Session
+from app.models import Protein, Interaction
 
 
 def get_interactions(interactions_file: str) -> List[str]:

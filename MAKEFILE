@@ -1,22 +1,36 @@
-MAKEFILE
+# MAKEFILE
 
-cd TFGinformatica
-python3 download.py
+# cd TFGinformatica
+# python3 download.py
 
-cd path test
+# cd path test
 
-docker-compose build
-docker-compose run modelvpf alembic upgrade head 
-docker-compose up
+# docker-compose build
+# docker-compose run modelvpf alembic upgrade head 
+# docker-compose up
 
-#Teoricament s'haura executat el test
+# #Teoricament s'haura executat el test
 
-Cnt + C
+# Cnt + C
 
-cd path TFGInformatica
-docker-compose build
-docker-compose run modelvpf alembic upgrade head 
-docker-compose up
+# cd path TFGInformatica
+# docker-compose build
+# docker-compose run modelvpf alembic upgrade head 
+# docker-compose up
 
-#Teoricament s'haura executat el el codi principal
+# #Teoricament s'haura executat el el codi principal
 
+build-test:
+	docker-compose -f docker-compose-test.yml up -d postgres 
+	docker-compose -f docker-compose-test.yml exec postgres psql -U postgres -c 'CREATE DATABASE modelvpf;'
+	docker-compose -f docker-compose-test.yml run modelvpf alembic upgrade head
+	docker-compose -f docker-compose-test.yml down
+
+upgrade-test-db:
+	docker-compose -f docker-compose-test.yml run modelvpf alembic upgrade head
+
+run-test:
+	docker-compose -f docker-compose-test.yml run modelvpf
+
+clean-test:
+	...
