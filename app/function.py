@@ -22,7 +22,7 @@ def get_go_functions(protein: str):
             try:
                 response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
             except:
-                sleep(5)
+                sleep(10)
                 response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
 
             try:
@@ -34,7 +34,7 @@ def get_go_functions(protein: str):
                     try:
                         resp = requests.get(f"https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/{child.attrib['id']}/complete")
                     except:
-                        sleep(5)
+                        sleep(10)
                         resp = requests.get(f"https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/{child.attrib['id']}/complete")
                         continue
 

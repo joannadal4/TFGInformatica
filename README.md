@@ -12,6 +12,7 @@ Per la gestió de dades, s’ha creat una base de dades PostgreSQL i s’ha fet 
 
 
 A continuació, s'explica com executar el programa des d'una màquina pròpia seguint els següents punts:
+
 	1- Instal·lar totes les dependències de Python i Docker necessàries per a la correcte execució.
 	
 	2- Descarregar el codi font de GitHub: "https://github.com/joannadal4/TFGInformatica".

@@ -84,7 +84,7 @@ def get_proteins(model: str) -> List[str]:
         if idProtein is not None:
             if session.query(exists().where(and_(R_Protein_ModelVPF.idProtein == idProtein, R_Protein_ModelVPF.idModel == idModel))).scalar() == False:
                 if score_evalue is not None:
-                    model_protein = R_Protein_ModelVPF(idProtein = idProtein, idModel = idModel, score = score_evalue[0], e_value = score_evalue[1])
+                    model_protein = R_Protein_ModelVPF(idProtein = idProtein, idModel = idModel, score = score_evalue[1], e_value = score_evalue[0])
                     session.add(model_protein)
                     session.commit()
 
@@ -105,11 +105,11 @@ def save_protein(protein: str, isVirus=False, session=None):
     session = session or Session()
     code_string_protein = PROTEIN_MAPPING_STRING.get(protein)
 
-    if session.query(exists().where(Protein.codeUniprot == protein)).scalar() == False or session.query(exists().where(Protein.codeString == code_string_protein)).scalar() == False:
+    if session.query(exists().where(Protein.codeUniprot == protein)).scalar() == False and session.query(exists().where(Protein.codeString == code_string_protein)).scalar() == False:
         try:
             response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
         except:
-            sleep(5)
+            sleep(10)
             response = requests.get(f"https://www.uniprot.org/uniprot/?query=accession:{protein}&format=xml")
 
             # parse xml and return protein information
@@ -149,7 +149,7 @@ def save_protein(protein: str, isVirus=False, session=None):
             session.commit()
 
         except:
-            if session.query(exists().where(Inaccessible_Protein.codeUniprot == protein)).scalar() == False or session.query(exists().where(Inaccessible_Protein.codeString == code_string_protein)).scalar() == False:
+            if session.query(exists().where(Inaccessible_Protein.codeUniprot == protein)).scalar() == False and session.query(exists().where(Inaccessible_Protein.codeString == code_string_protein)).scalar() == False:
                 protein_inaccessible = Inaccessible_Protein(codeUniprot = protein, codeString = code_string_protein)
                 session.add(protein_inaccessible)
                 session.commit()
