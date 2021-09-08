@@ -16,6 +16,7 @@ services:
 
   modelvpf:
     build: .
+    command: python main.py
     depends_on:
       - postgres
 

@@ -1,23 +1,23 @@
-import re
-import subprocess, shlex
-import tempfile
 import os
 from os import mkdir
-from typing import List
-from time import sleep
-
-from app.config import UNIPROT_DATABASE
-from app.constant import REGEX_NAME, REGEX_PROTEIN, REGEX_SPECIE, E_VALUE_COLUMN, SCORE_COLUMN
-
-from app.models import ModelVPF, Protein, Species, R_Protein_ModelVPF, Inaccessible_Protein
-from app.db import Session
-
+import re
 import requests
+import subprocess, shlex
+from time import sleep
 from typing import List
 import xml.dom.minidom
 from xml.etree import ElementTree
 
 from sqlalchemy.sql import exists, and_
+
+from app.config import UNIPROT_DATABASE
+from app.constant import REGEX_NAME, REGEX_PROTEIN, REGEX_SPECIE, E_VALUE_COLUMN, SCORE_COLUMN
+
+from app.db import Session
+from app.models import ModelVPF, Protein, Species, R_Protein_ModelVPF, Inaccessible_Protein
+
+
+
 
 from app.mapping import PROTEIN_MAPPING_STRING
 

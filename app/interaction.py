@@ -1,5 +1,5 @@
-import csv
 from collections import defaultdict
+import csv
 from typing import List
 
 from sqlalchemy.sql import exists, and_
