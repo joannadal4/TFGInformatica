@@ -16,7 +16,7 @@ services:
 
   modelvpf:
     build: .
-    command: python -m pytest -rP
+    command: python -m pytest
     depends_on:
       - postgres
 

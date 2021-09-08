@@ -7,4 +7,6 @@ RUN apt-get install -y hmmer2
 
 WORKDIR app
 
+CMD ["python", "main.py"]
+
 COPY . / 
