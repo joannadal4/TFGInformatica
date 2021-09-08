@@ -23,16 +23,18 @@ protein_model_expected = {"2029527005@ACOFG987_contig00088@ACOFGT_654600": ["P25
 
 protein_function = {"Q9QR71": ["GO:0042025", "GO:0003677", "GO:0039644"]}
 
+
+protein_interaction_expected = {"Q77MS1": ["P18652", "P42683", "P09540", "E1C2C8", "A0A1D5NZV7", "Q7ZT63"]}
+
 session = Session()
 
-"""
+
 def test_main():
     #Code doesn't have errors
     TEST_MODEL_FILE = 'final_list_test.hmms'
     main(TEST_MODEL_FILE)
 
-    assert 1==1
-"""
+
 def test_model():
     #test models expected
     for model in model_expected:
@@ -41,22 +43,30 @@ def test_model():
 def test_protein_model():
     #test proteins expected
     for protein in protein_virus_expected:
-        assert protein == session.query(Protein.codeUniprot).join(Species).filter(Protein.codeUniprot==protein).scalar()
+        assert protein == session.query(Protein.codeUniprot).join(Species).filter(Protein.codeUniprot==protein).first()
 
 
     for model in protein_model_expected:
         set_protein = protein_model_expected[model]
         for p in set_protein:
-            assert p == session.query(Protein.codeUniprot).join(R_Protein_ModelVPF, R_Protein_ModelVPF.idProtein == Protein.idProtein).join(ModelVPF, ModelVPF.idModel == R_Protein_ModelVPF.idModel).filter(ModelVPF.code == model).scalar()
+            assert p == session.query(Protein.codeUniprot).join(R_Protein_ModelVPF.idProtein, R_Protein_ModelVPF.idProtein == Protein.idProtein).join(ModelVPF.idModel, ModelVPF.idModel == R_Protein_ModelVPF.idModel).filter(ModelVPF.code == model).scalar()
 
 def inaccessible_protein():
-    #test inaccessible_protein
+    #test inaccessible protein expected
     for protein_inaccessible in inaccessible_protein_expected:
         assert protein_inaccessible == session.query(Protein.codeUniprot).filter(Protein.codeUniprot==protein_inaccessible).scalar()
 
 def function():
-    #test function
+    #test functions expected
     for protein in protein_function:
         set_function = protein_function[protein]
         for f in set_function:
-            assert f == session.query(Function.codeGO).join(R_Protein_Function, R_Protein_Function.idFunction == Function.idFunction).join(Function, Protein.idProtein == R_Protein_Function.idProtein).filter(Protein.codeUniProt == protein).scalar()
+            assert f == session.query(Function.codeGO).join(R_Protein_Function.c.idFunction, R_Protein_Function.c.idFunction == Function.idFunction).join(Protein.idProtein, Protein.idProtein == R_Protein_Function.c.idProtein).filter(Protein.codeUniProt == protein).scalar()
+
+
+def interaction():
+    #test interactions expected
+    for proteinV in protein_interaction_expected:
+        proteinsH = protein_interaction_expected[proteinV]
+        for ph in proteinsH:
+            assert ph == session.query(Interaction.c.idProteinH).join(Interaction.c.idProteinH, Interaction.c.idProteinH == Interaction.c.idProteinV).join(Protein.idProtein, Protein.idProtein == Interaction.c.idProteinV).filter(Protein.codeUniProt == proteinV).scalar()
